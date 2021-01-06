@@ -1,0 +1,49 @@
+name: Datamine DAL_TEST
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: dal_test
+
+jobs:
+  dal_test:
+    name: DAL_TEST
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+    - name: Check for updates in DAL_TEST
+      run: |
+        python check.py dal_test
+    - name: New update! Get dependencies
+      uses: actions/cache@v2
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Download files and decrypt in DAL_TEST
+      run: |
+        python main.py dal_test
+    - name: Push updates
+      run: |
+        git stash
+        git pull
+        git stash apply
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add dal_test
+        git commit -m "Automated Datamining"
+        git push origin master
+    - name: Send Discord Webhook
+      env: 
+        BOT_URL: ${{ secrets.DAL_TEST }}
+      run: |
+        python discord.py dal_test "$BOT_URL"
