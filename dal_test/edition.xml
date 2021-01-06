@@ -1,7 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.3.83" lastVersion="3.3.82">
-  <f p=".nomedia/nomedia.txt" m="abd969a243d4fd0944f0c17cf950be2b" c="0" />
-  <f p="res/basic/effect/dating/ui_dating_scene/dating_effect_1.atlas" m="2c5c88521fd931fb7e9baabd402dc479" />
-  <f p="res/basic/effect/dating/ui_dating_scene/dating_effect_1.json" m="8da10f34eb93f5adbeea162d4748d6c9" />
-  <f p="res/basic/effect/dating/ui_dating_scene/dating_effect_1.png" m="6097771378b3342d4c85579f751f9a06" />
+<files version="3.3.85" lastVersion="3.3.83">
+  <f p=".nomedia/nomedia.txt" m="78bee46e17acb19f602cba6283484670" c="0" />
+  <f p="src/lua/dataMgr/FubenDataMgr.lua" m="3affd7aa722378c01e2b7a837b3a1c63" c="0" />
+  <f p="src/lua/logic/battle/BattleView.lua" m="dafbbb7ada883f3496420d244cb74e21" c="0" />
+  <f p="src/lua/logic/battle/SkillEffect.lua" m="4d97b689404308f9d5be4193177d3fe5" c="0" />
+  <f p="src/lua/logic/common/VideoView.lua" m="22947d8feca2d9e5ef1342765ba59df7" c="0" />
+  <f p="src/lua/logic/dating/DatingScriptView.lua" m="1a3353a69fd32a4d0c2ab5b5d0888283" c="0" />
+  <f p="src/lua/logic/login/LoginLayer.lua" m="34f6a78c7f998402d455ae65ce287c61" c="0" />
+  <f p="src/lua/logic/newCity/MakeFoodView.lua" m="381d5e41b76fee24b383d9d626520add" c="0" />
+  <f p="src/lua/logic/test/GMView.lua" m="41dd9702ddc885fc7087a080758a0634" c="0" />
+  <f p="src/lua/table/AngelSkillTree.lua" m="03203e64a12266a397e74e871501ec5c" c="0" />
+  <f p="src/lua/table/RoleDescribe.lua" m="5abc3115c0670c6d040b21a6203e564f" c="0" />
+  <f p="src/lua/table/Task.lua" m="871f83af0ed4397f597a20fc83994d57" c="0" />
+  <f p="src/lua/uiconfig/battle/battleView.lua" m="2f305424937455ca560b9716371f51b3" c="0" />
+  <f p="src/lua/uiconfig/loginScene/loginLayerNew1.lua" m="93340723fd3cfffde6f8d50af029e654" c="0" />
+  <f p="src/lua/uiconfig/loginScene/oneYearloginLayer.lua" m="cfdd466d5fc66496acb00ff8ef7e2c2c" c="0" />
 </files>
