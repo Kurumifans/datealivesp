@@ -49,7 +49,7 @@ def check_updates(server):
 		file_name = file.attributes['p'].value
 		print("Processing " + file_name)
 		with safe_open_w(server + "/" +file_name, "wb") as f:
-			f.write(requests.get(servers[server] + "source/" + file_name).content)
+			f.write(requests.get(servers[server] + "source/" + file_name + "?" + str(time.time())).content)
 	return True
 
 # check_updates("DAL_EXPERIENCE")
