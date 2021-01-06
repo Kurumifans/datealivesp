@@ -22,13 +22,15 @@ jobs:
     - name: Check for updates in DAL_TEST
       run: |
         python check.py dal_test
-    - name: New update! Get dependencies
-      uses: actions/cache@v2
+    - uses: actions/cache@v2
       with:
         path: ~/.cache/pip
         key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-pip-
+    - name: Get dependencies
+      run: |
+        pip install -r requirements.txt      
     - name: Download files and decrypt in DAL_TEST
       run: |
         python main.py dal_test

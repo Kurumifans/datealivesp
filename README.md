@@ -1,10 +1,8 @@
-# datealivesp
+# Date A Live Spirit Pledge Dataminer
 Dataminer for Date A Live Spirit Pledge
 
 # How it works
-Every 10 minutes a GitHub Action is triggered, the file `main.py` is then executed and do its tasks. When finished it will generate a `.json` file needed for the File Browser.
+Every x minutes a cron job is triggered from an external server. Said cron job will trigger an `repository_dispatch` event which will trigger the workflow to run
 
-# Things I used
+# Special Thanks
 [Date A Live: Spirit Pledge Assets Decryption tool](https://github.com/n0k0m3/DALSP-Assets-Decryption-tool) - by n0k0m3
-
-[Cute File Browser](https://tutorialzine.com/2014/09/cute-file-browser-jquery-ajax-php) - by Nick Anastasov
