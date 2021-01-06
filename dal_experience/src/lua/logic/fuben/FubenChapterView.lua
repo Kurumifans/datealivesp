@@ -1140,7 +1140,6 @@ function FubenChapterView:updateActivityTiming(index, chapterCid)
     elseif chapterCid == EC_ActivityFubenType.ENDLESS_PLUSS then
         local funcIsOpen = FunctionDataMgr:checkFuncOpen(157)
         local instage = FubenEndlessPlusDataMgr:inStageTime()
-        print(funcIsOpen,instage)
         if funcIsOpen and instage then
             local index = FubenEndlessPlusDataMgr:getStage()
             local kvpCfg = FubenEndlessPlusDataMgr:getKvpCfg(index)

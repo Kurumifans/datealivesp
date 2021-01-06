@@ -37,11 +37,19 @@ function FubenEndlessPlusBossView:initUILogic()
 
     self.UIListView_boss:removeAllItems()
     for k,v in ipairs(levelCfg.icon) do
+        local level = levelCfg.monsterLevel[k]
         local bossItem = self.Panel_bossItem:clone()
         self.UIListView_boss:pushBackCustomItem(bossItem)
 
         local image = TFDirector:getChildByPath(bossItem, "Image_boss")
         image:setTexture(v)
+        local Label_level = TFDirector:getChildByPath(bossItem, "Label_level")
+        if level then
+            Label_level:setText("Lv."..level)
+        else
+            Label_level:setText("")
+        end
+
     end
     Utils:setAliginCenterByListView(self.UIListView_boss,true)
 end

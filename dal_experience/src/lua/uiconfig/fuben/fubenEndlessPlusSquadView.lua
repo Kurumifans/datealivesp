@@ -70,8 +70,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 480,
-						PositionY = 320,
+						PositionX = 457,
+						PositionY = 359,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -248,9 +248,9 @@ local t =
 									colorType = "0;SingleColor:#FFFF0000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 									direction = "1",
 									dstBlendFunc = "771",
-									height = "290",
+									height = "225",
 									ignoreSize = "False",
-									innerHeight = "290",
+									innerHeight = "225",
 									innerWidth = "480",
 									name = "ScrollView_level",
 									showScrollbar = "False",
@@ -262,7 +262,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 69,
-										PositionY = -229,
+										PositionY = -238,
 									},
 									uipanelviewmodel = 
 									{
@@ -284,12 +284,12 @@ local t =
 									bounceEnable = "False",
 									classname = "MEScrollView",
 									colorType = "0;SingleColor:#FFFF0000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
-									direction = "2",
+									direction = "1",
 									dstBlendFunc = "771",
-									height = "80",
+									height = "160",
 									ignoreSize = "False",
-									innerHeight = "80",
-									innerWidth = "374",
+									innerHeight = "160",
+									innerWidth = "479",
 									name = "ScrollView_buff",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -299,15 +299,15 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 86,
-										PositionY = 111,
+										PositionX = 73,
+										PositionY = 31,
 									},
 									uipanelviewmodel = 
 									{
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "374",
+									width = "479",
 									ZOrder = "1",
 								},
 								{
@@ -334,7 +334,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 483,
-										PositionY = -272,
+										PositionY = -278,
 									},
 									UItype = "Button",
 									width = "134",
@@ -752,7 +752,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 170,
-										PositionY = 87,
+										PositionY = 8,
 									},
 									width = "210",
 									ZOrder = "1",
@@ -870,7 +870,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "BUFF",
+											text = "选择BUFF",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -878,7 +878,7 @@ local t =
 												PositionX = -95,
 												PositionY = -1,
 											},
-											width = "86",
+											width = "135",
 											ZOrder = "1",
 										},
 									},
@@ -1016,8 +1016,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 567,
-						PositionY = -441,
+						PositionX = 568,
+						PositionY = -362,
 						TopPosition = 761,
 						relativeToName = "Panel",
 						nType = 3,
@@ -1184,7 +1184,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 41,
-										PositionY = 38,
+										PositionY = 39,
 										IsPercent = true,
 										PercentX = 35.92,
 										PercentY = 32.22,
@@ -2028,7 +2028,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "80",
+							height = "64",
 							ignoreSize = "False",
 							name = "Panel_buff",
 							sizepercentx = "0",
@@ -2045,7 +2045,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "100",
+							width = "479",
 							ZOrder = "1",
 							components = 
 							{
@@ -2059,22 +2059,90 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "100",
+									height = "62",
 									ignoreSize = "True",
 									name = "Image_buff",
-									scaleX = "0.8",
-									scaleY = "0.8",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "icon/affix/affix_1_jiansu.png",
+									texturePath = "ui/fuben/endless_plus/yy.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "110",
+									width = "479",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Image_select_Panel_buff_Panel_prefab_Panel-fubenEndlessPlusSquadView_Layer1_fuben_Game",
+									UUID = "0c212f3d_9d0e_4429_9033_ee669ed233d4",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									backGroundScale9Enable = "False",
+									classname = "MEImage",
+									dstBlendFunc = "771",
+									height = "62",
+									ignoreSize = "True",
+									name = "Image_select",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									texturePath = "ui/fuben/endless_plus/xx.png",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									width = "479",
+									ZOrder = "1",
+								},
+								{
+									controlID = "Label_desc_Panel_buff_Panel_prefab_Panel-fubenEndlessPlusSquadView_Layer1_fuben_Game",
+									UUID = "bcb31c4b_7c1d_4215_88c0_6af144c0c893",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FFFFFFFF",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "22",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "48",
+									ignoreSize = "False",
+									name = "Label_desc",
+									nTextAlign = "1",
+									nTextHAlign = "0",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "TextLable",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionX = -219,
+									},
+									width = "440",
 									ZOrder = "1",
 								},
 							},
@@ -2112,7 +2180,8 @@ local t =
 			"icon/hero/smallface/10101.png",
 			"ui/common/button_big_blue_n.png",
 			"ui/onlineteam/preteam/7.png",
-			"icon/affix/affix_1_jiansu.png",
+			"ui/fuben/endless_plus/yy.png",
+			"ui/fuben/endless_plus/xx.png",
 		},
 		armatures = 
 		{

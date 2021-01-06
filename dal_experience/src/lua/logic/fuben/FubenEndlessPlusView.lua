@@ -39,7 +39,7 @@ function FubenEndlessPlusView:initUI(ui)
     self.Panel_bossItem = TFDirector:getChildByPath(ui, "Panel_bossItem")
     self.Panel_rewardItem = TFDirector:getChildByPath(ui, "Panel_rewardItem")
 
-    self.Button_store = TFDirector:getChildByPath(ui, "Button_store"):hide()
+    self.Button_store = TFDirector:getChildByPath(ui, "Button_store")
     self.Button_fight = TFDirector:getChildByPath(ui, "Button_fight")
     self.Button_task = TFDirector:getChildByPath(ui, "Button_task")
 
@@ -290,7 +290,7 @@ function FubenEndlessPlusView:registerEvents()
     EventMgr:addEventListener(self, EV_RECV_PLAYERINFO, handler(self.onQueryInfoEvent, self))
 
     self.Button_store:onClick(function()
-        --FunctionDataMgr:jStore(100000)
+        FunctionDataMgr:jStore(403000)
         --Utils:openView("battle.EndlessPlusLevelResultView", 2310015)
 
         --local view = requireNew("lua.logic.battle.EndlessPlusCountdownView"):new(completeCallback)
@@ -304,7 +304,8 @@ function FubenEndlessPlusView:registerEvents()
 
     self.Button_task:onClick(function()
         Utils:openView("fuben.FubenEndlessPlussTask")
-    end)
+    end) 
+    
 end
 
 return FubenEndlessPlusView

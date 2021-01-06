@@ -105,6 +105,7 @@ function FubenEndlessPlusSquadView:initUILogic()
 end
 
 function FubenEndlessPlusSquadView:updateBuffList()
+
     self.UIListView_buff:removeAllItems()
     for k,v in ipairs(self.buffIds) do
 
@@ -112,20 +113,33 @@ function FubenEndlessPlusSquadView:updateBuffList()
         if buffCfg then
             local item = self.Panel_buff:clone()
             self.UIListView_buff:pushBackCustomItem(item)
-            local Image_buff = TFDirector:getChildByPath(item, "Image_buff")
-            Image_buff:setTexture(buffCfg.buffIcon)
+            local Label_desc = TFDirector:getChildByPath(item, "Label_desc")
+            Label_desc:setTextById(buffCfg.buffDescribe)
+
             item:onClick(function()
 
-                local config = {}
-                config.icon = buffCfg.buffIcon
-                Utils:openView("fuben.FubenMonsterTrialBuffDetail", config,buffCfg.buffDescribe,1)
+                self:selectBuff(k)
             end)
         end
     end
+    self:selectBuff(1)
 end
 
-function FubenEndlessPlusSquadView:checkBuffInfo()
+function FubenEndlessPlusSquadView:selectBuff(index)
 
+    local items = self.UIListView_buff:getItems()
+    for k,v in ipairs(items) do
+        local Image_buff = TFDirector:getChildByPath(v, "Image_buff")
+        local Image_select = TFDirector:getChildByPath(v, "Image_select")
+        Image_select:setVisible(k == index)
+        Image_buff:setVisible(k ~= index)
+    end
+ 
+    FubenEndlessPlusDataMgr:getSelectBuffCid(self.buffIds[index])
+
+    --local config = {}
+    --config.icon = buffCfg.buffIcon
+    --Utils:openView("fuben.FubenMonsterTrialBuffDetail", config,buffCfg.buffDescribe,1)
 end
 
 function FubenEndlessPlusSquadView:updateRuleList()

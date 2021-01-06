@@ -70,8 +70,7 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = -90,
-						PositionY = 39,
+						PositionX = -88,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -313,7 +312,7 @@ local t =
 							bgColorOpacity = "50",
 							bIsOpenClipping = "False",
 							classname = "MEPanel",
-							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							colorType = "0;SingleColor:#FFFF0000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 							DesignHeight = "640",
 							DesignType = "0",
 							DesignWidth = "960",
@@ -366,8 +365,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -43,
-										PositionY = -43,
+										PositionX = -41,
+										PositionY = -34,
 										relativeToName = "Panel",
 									},
 									uipanelviewmodel = 
@@ -428,9 +427,55 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionX = 1,
+										PositionY = 8,
 									},
 									width = "92",
+									ZOrder = "1",
+								},
+								{
+									controlID = "bedaed5f-44a9-4c2c-8a3b-d0f3f72a95aa",
+									UUID = "f957370c_89b6_44d7_afdd_53b153c9ca83",
+									anchorPoint = "False",
+									anchorPointX = "0.5",
+									anchorPointY = "0.5",
+									classname = "MELabel",
+									compPath = "luacomponents.common.MEIconLabel",
+									dstBlendFunc = "771",
+									FontColor = "#FFFFFFFF",
+									fontName = "font/fangzheng_zhunyuan.ttf",
+									fontShadow = 
+									{
+										IsShadow = false,
+										ShadowColor = "#FFFFFFFF",
+										ShadowAlpha = 255,
+										OffsetX = 0,
+										OffsetY = 0,
+									},
+									fontSize = "20",
+									fontStroke = 
+									{
+										IsStroke = false,
+										StrokeColor = "#FFE6E6E6",
+										StrokeSize = 1,
+									},
+									height = "23",
+									ignoreSize = "True",
+									name = "Label_level",
+									nTextAlign = "1",
+									nTextHAlign = "1",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "770",
+									text = "Lv20",
+									touchAble = "False",
+									touchScaleEnable = "False",
+									UILayoutViewModel = 
+									{
+										PositionY = -49,
+									},
+									width = "42",
 									ZOrder = "1",
 								},
 							},

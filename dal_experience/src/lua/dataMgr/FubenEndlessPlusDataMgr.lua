@@ -308,6 +308,14 @@ function FubenEndlessPlusDataMgr:getBuff(levelCid)
     return floorCfg.buffId or {}
 end
 
+function FubenEndlessPlusDataMgr:getSelectBuffCid()
+    return self.selectBuffCid
+end
+
+function FubenEndlessPlusDataMgr:setSelectBuffCid(selectBuffCid)
+    self.selectBuffCid = selectBuffCid
+end
+
 function FubenEndlessPlusDataMgr:getStage()
     local stage = 1
     local serverTime = ServerDataMgr:getServerTime()
