@@ -57,7 +57,7 @@ jobs:
     - name: Push dal_video to to gh-pages branch
       run: |-
         git add dal_video
-        git commit -f dal_experience/version.txt
+        git commit -F dal_experience/version.txt
         git subtree split --prefix dal_video -b gh-pages
         git push -f origin gh-pages:gh-pages
         git branch -D gh-pages
