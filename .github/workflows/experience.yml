@@ -54,10 +54,11 @@ jobs:
     - name: Convert Video
       run: |
         python video.py dal_experience
-    - name: Push dal_video to to gh-pages branch
+    - name: Push dal_video to master
       run: |-
+        git stash
+        git pull
+        git stash apply
         git add dal_video
         git commit -F dal_experience/version.txt
-        git subtree split --prefix dal_video -b gh-pages
-        git push -f origin gh-pages:gh-pages
-        git branch -D gh-pages
+        git push origin master
