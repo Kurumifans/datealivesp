@@ -51,6 +51,7 @@ jobs:
         python discord.py dal_experience "$BOT_URL"
     - name: Set up FFMPEG
       uses: FedericoCarboni/setup-ffmpeg@v1-beta
+    - name: Convert Video
       run: |
         python video.py dal_experience
     - name: Push dal_video to to gh-pages branch
