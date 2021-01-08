@@ -16,6 +16,9 @@ def decrypt_from_xml(server):
 	files = xml.getElementsByTagName('f')
 	for file in files:
 		file_name = server + "/" + file.attributes['p'].value
+		if file_name.endswith(".mp4"):
+			with open(server + "/" + "video.txt", "a") as f:
+				f.write(file.attributes['p'].value + "\n") 
 		print("Decrypting " + file_name)
 		options = Options(file_name)
 		decrypt = dalsp_decrypt.DateALive_decryption(options)

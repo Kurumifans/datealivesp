@@ -30,7 +30,7 @@ jobs:
           ${{ runner.os }}-pip-
     - name: Get dependencies
       run: |
-        pip install -r requirements.txt  
+        pip install -r requirements.txt      
     - name: Download files and decrypt in DAL_EXPERIENCE
       run: |
         python main.py dal_experience
@@ -42,10 +42,21 @@ jobs:
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
         git add dal_experience
-        git commit -m "Automated Datamining"
+        git commit -f dal_experience/version.txt
         git push origin master
     - name: Send Discord Webhook
       env: 
         BOT_URL: ${{ secrets.DAL_EXPERIENCE }}
       run: |
         python discord.py dal_experience "$BOT_URL"
+    - name: Set up FFMPEG
+      uses: FedericoCarboni/setup-ffmpeg@v1-beta
+      run: |
+        python video.py dal_experience
+    - name: Push dal_video to to gh-pages branch
+      run: |-
+        git add dal_video
+        git commit -f dal_experience/version.txt
+        git subtree split --prefix dal_video -b gh-pages
+        git push -f origin gh-pages:gh-pages
+        git branch -D gh-pages
