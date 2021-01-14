@@ -765,7 +765,7 @@ return {
         audioRange = 0,
         id = 2014,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -812,7 +812,7 @@ return {
         audioRange = 0,
         id = 2013,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -1171,7 +1171,7 @@ return {
         audioRange = 0,
         id = 2009,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -1218,7 +1218,7 @@ return {
         audioRange = 0,
         id = 2008,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -1265,7 +1265,7 @@ return {
         audioRange = 0,
         id = 2007,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -1868,7 +1868,7 @@ return {
         audioRange = 0,
         id = 2006,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -1915,7 +1915,7 @@ return {
         audioRange = 0,
         id = 2005,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -1962,7 +1962,7 @@ return {
         audioRange = 0,
         id = 2004,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -2009,7 +2009,7 @@ return {
         audioRange = 0,
         id = 2003,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -2056,7 +2056,7 @@ return {
         audioRange = 0,
         id = 2002,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -2147,7 +2147,7 @@ return {
         audioRange = 0,
         id = 2001,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -3652,7 +3652,7 @@ return {
         audioRange = 0,
         id = 2011,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -4090,7 +4090,7 @@ return {
         audioRange = 0,
         id = 2012,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },
@@ -5100,7 +5100,7 @@ return {
         cameraScope = 0,
         ableFunctionOnBuild = {
         },
-        bgm = "",
+        bgm = "sound/bgm/date_017.mp3",
         moveSpeedMultiplier = 0,
         modelScale = 1,
         shadowApr = "",
@@ -5250,7 +5250,7 @@ return {
         audioRange = 0,
         id = 2015,
         audioId = 0,
-        objectAni_idle = 10000,
+        objectAni_idle = 31007,
         deleteAi = {
             [1] = 82,
         },

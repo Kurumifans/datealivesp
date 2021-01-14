@@ -400,11 +400,11 @@ return {
         modelDir = 4,
         aiDelayTime = 10000,
         motionAction_1 = "",
-        audioId = 0,
+        audioId = 9002,
         objectAction = "tiaoyue",
         dirFollowObj = false,
         id = 31006,
-        audioRate = 0,
+        audioRate = 1,
         hideShadow = true,
         offSet = {
         },
@@ -412,7 +412,7 @@ return {
         motionActIsLoop = false,
         objectActIsLoop = false,
         motionRecourse_1 = "",
-        audioRange = 0,
+        audioRange = 10000,
     },
     [10101] = {
         playCond = {
@@ -442,11 +442,11 @@ return {
         modelDir = 0,
         aiDelayTime = 5000,
         motionAction_1 = "",
-        audioId = 0,
+        audioId = 9001,
         objectAction = "doumaobang2",
         dirFollowObj = false,
         id = 31005,
-        audioRate = 0,
+        audioRate = 1,
         hideShadow = false,
         offSet = {
         },
@@ -454,7 +454,7 @@ return {
         motionActIsLoop = false,
         objectActIsLoop = false,
         motionRecourse_1 = "",
-        audioRange = 0,
+        audioRange = 10000,
     },
     [10102] = {
         playCond = {
@@ -549,11 +549,11 @@ return {
         modelDir = 0,
         aiDelayTime = 8000,
         motionAction_1 = "",
-        audioId = 0,
+        audioId = 9002,
         objectAction = "siyaohaozi",
         dirFollowObj = false,
         id = 31004,
-        audioRate = 0,
+        audioRate = 1,
         hideShadow = true,
         offSet = {
         },
@@ -561,7 +561,7 @@ return {
         motionActIsLoop = false,
         objectActIsLoop = false,
         motionRecourse_1 = "",
-        audioRange = 0,
+        audioRange = 10000,
     },
     [202] = {
         playCond = {
@@ -591,11 +591,11 @@ return {
         modelDir = 0,
         aiDelayTime = 3000,
         motionAction_1 = "",
-        audioId = 0,
+        audioId = 9002,
         objectAction = "zhamao",
         dirFollowObj = false,
         id = 31002,
-        audioRate = 0,
+        audioRate = 1,
         hideShadow = false,
         offSet = {
         },
@@ -603,7 +603,7 @@ return {
         motionActIsLoop = false,
         objectActIsLoop = false,
         motionRecourse_1 = "",
-        audioRange = 0,
+        audioRange = 10000,
     },
     [105] = {
         playCond = {
@@ -1066,11 +1066,11 @@ return {
         modelDir = 0,
         aiDelayTime = 7000,
         motionAction_1 = "",
-        audioId = 0,
+        audioId = 9003,
         objectAction = "special1_1",
         dirFollowObj = false,
         id = 31001,
-        audioRate = 0,
+        audioRate = 1,
         hideShadow = true,
         offSet = {
         },
@@ -1078,7 +1078,7 @@ return {
         motionActIsLoop = false,
         objectActIsLoop = false,
         motionRecourse_1 = "",
-        audioRange = 0,
+        audioRange = 10000,
     },
     [206] = {
         playCond = {
@@ -1108,11 +1108,11 @@ return {
         modelDir = 0,
         aiDelayTime = 7000,
         motionAction_1 = "",
-        audioId = 0,
+        audioId = 9001,
         objectAction = "gunqiu",
         dirFollowObj = false,
         id = 31003,
-        audioRate = 0,
+        audioRate = 1,
         hideShadow = false,
         offSet = {
         },
@@ -1120,7 +1120,7 @@ return {
         motionActIsLoop = false,
         objectActIsLoop = false,
         motionRecourse_1 = "",
-        audioRange = 0,
+        audioRange = 10000,
     },
     [207] = {
         playCond = {
@@ -1190,7 +1190,7 @@ return {
         },
         audioLoop = false,
         modelDir = 0,
-        aiDelayTime = 6000,
+        aiDelayTime = 0,
         motionAction_1 = "",
         audioId = 0,
         objectAction = "idle",
@@ -1202,7 +1202,7 @@ return {
         },
         beStand = false,
         motionActIsLoop = false,
-        objectActIsLoop = false,
+        objectActIsLoop = true,
         motionRecourse_1 = "",
         audioRange = 0,
     },

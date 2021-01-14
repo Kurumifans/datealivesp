@@ -41,6 +41,10 @@ function MaokaNewsTip:initUI( ui )
     local params = {
 		_type = EC_InputLayerType.OK
     }
+    self.Label_link:setVisible(Utils:isOfficialChannel())
+    if RELEASE_TEST then
+        self.Label_link:show()
+    end
     self.inputLayer = require("lua.logic.common.InputLayer"):new(params);
     self:addLayer(self.inputLayer,1000);
 end
@@ -67,7 +71,7 @@ function MaokaNewsTip:registerEvents( ... )
     self.Label_link:onClick(function()
         local liveWeb = MaokaActivityMgr:getCatRoomUrlList()
         if liveWeb then
-            Utils:showWebView(liveWeb)
+            TFDeviceInfo:openUrl(liveWeb)
         end
     end)
 

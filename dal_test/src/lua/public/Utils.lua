@@ -1365,12 +1365,15 @@ function Utils:randomAD(showType)
     return "ui/update/s1.png" , {}
 end
 
-function Utils:showWebView(url,size,noAppend,attach)
+function Utils:showWebView(url,size,noAppend,attach,isInternetExplore)
     if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
         dump({url,size,noAppend,attach})
         return;
     end
-
+    if isInternetExplore then
+        TFDeviceInfo:openUrl(url)
+        return
+    end
     local fullModuleName = string.format("lua.logic.%s", "login.NoticeBoard")
     local view = requireNew(fullModuleName):new()
     AlertManager:addLayer(view,AlertManager.BLOCK)
