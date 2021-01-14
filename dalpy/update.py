@@ -3,6 +3,7 @@ import time
 from xml.dom.minidom import parseString
 import os, os.path
 import errno
+import re
 
 # Taken from https://stackoverflow.com/a/23794010/8326486
 # Taken from https://stackoverflow.com/a/600612/119527
@@ -29,10 +30,21 @@ def check_updates(server):
 		"dal_test": "http://cdn.datealive.com/dal/DAL_TEST/MainSorceCode/",
 		"dal_experience": "http://cdn.datealive.com/dal/DAL_EXPERIENCE/MainSorceCode/"
 	}
+	zipsource = {
+		"dal_test": "http://cdn.datealive.com/dal/test/zipsource/",
+		"dal_experience": "http://cdn.datealive.com/dal/release_experience/zipsource/"
+	}
+	# Using check.xml
+	# r = requests.get(checks[server] + "?" + str(time.time())) # Prevent caching
+	# xml = parseString(r.text)
+	# new_ver = xml.getElementsByTagName('version')[0].attributes['current'].value # Newest version
 
-	r = requests.get(checks[server] + "?" + str(time.time())) # Prevent caching
-	xml = parseString(r.text)
-	new_ver = xml.getElementsByTagName('version')[0].attributes['current'].value # Newest version
+	# Using zipsource folder
+	r = requests.get(zipsource[server] + "?" + str(time.time())) # Prevent caching
+	regex = re.findall(r"<a\shref=\"([\w\W]*?)\"[\w\W]*?<\/a>\s*([\w\d\-]*)\s([\d:]*)", r.text)
+	new_ver = regex[2][0].replace("/", "") # Newest version
+	#return new_ver
+
 	with open(server + "/.nomedia/nomedia.txt","r") as file:
 		old_ver = file.read().split('\n')[0] # Last version, remove new line character
 	if old_ver == new_ver:
@@ -51,5 +63,4 @@ def check_updates(server):
 		with safe_open_w(server + "/" +file_name, "wb") as f:
 			f.write(requests.get(servers[server] + "source/" + file_name + "?" + str(time.time())).content)
 	return True
-
-# check_updates("DAL_EXPERIENCE")
+#print(check_updates("dal_test"))
