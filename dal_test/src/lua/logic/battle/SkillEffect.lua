@@ -851,6 +851,8 @@ function Effect:addToParent(target)
             self.srcHero:addEffectToList(self)
         end
     elseif parent == eParent.UI then  --UI层的
+        
+        _print("55555555555555555555555",self.effectData.id)
         EventMgr:dispatchEvent(eEvent.EVENT_ADDTO_UI_EFFECT,self)
         if showParent == 1 then
             self.srcHero:addEffectToList(self)
@@ -923,6 +925,26 @@ function Effect:active(srcHero,hostType,effect,mainTarget)
     --触发魔女时间
     self:triggerWitchTime()
     self:showBubble()
+    self:triggerNewEffect()
+end
+
+function Effect:triggerNewEffect()
+    if self.effectData.triggernewEffects > 0 then
+        local effects = effectMgr:getObjects()
+        for i,effect in ipairs(effects) do
+            if effect.effectData and effect.effectData.id == self.effectData.triggernewEffects then
+                effect:createTriggerEffect()
+            end
+        end
+    end
+end
+
+function Effect:createTriggerEffect()
+    if #self.effectData.Generateeffect > 0 then
+        for i,effectId in ipairs(self.effectData.Generateeffect) do
+            self:createNewEffect(effectId)
+        end
+    end
 end
 
 function Effect:checkRemove()

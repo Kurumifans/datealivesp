@@ -1,0 +1,98 @@
+return {
+    [604] = {
+        ExpEfficiency = {
+            [1] = 300,
+            [2] = 100,
+        },
+        desTextId = 1001,
+        time = 3000,
+        ExpUp = 0,
+        id = 604,
+        nameTextId = 1001,
+        icon = "icon/role/mood/101/3.png",
+        type = 2,
+    },
+    [501] = {
+        ExpEfficiency = {
+        },
+        desTextId = 1001,
+        time = 0,
+        ExpUp = 300,
+        id = 501,
+        nameTextId = 1001,
+        icon = "icon/role/mood/101/3.png",
+        type = 1,
+    },
+    [502] = {
+        ExpEfficiency = {
+        },
+        desTextId = 1001,
+        time = 0,
+        ExpUp = 300,
+        id = 502,
+        nameTextId = 1001,
+        icon = "icon/role/mood/101/3.png",
+        type = 1,
+    },
+    [503] = {
+        ExpEfficiency = {
+        },
+        desTextId = 1001,
+        time = 0,
+        ExpUp = 300,
+        id = 503,
+        nameTextId = 1001,
+        icon = "icon/role/mood/101/3.png",
+        type = 1,
+    },
+    [504] = {
+        ExpEfficiency = {
+        },
+        desTextId = 1001,
+        time = 0,
+        ExpUp = 300,
+        id = 504,
+        nameTextId = 1001,
+        icon = "icon/role/mood/101/3.png",
+        type = 1,
+    },
+    [603] = {
+        ExpEfficiency = {
+            [1] = 300,
+            [2] = 100,
+        },
+        desTextId = 1001,
+        time = 3000,
+        ExpUp = 0,
+        id = 603,
+        nameTextId = 1001,
+        icon = "icon/role/mood/101/3.png",
+        type = 2,
+    },
+    [602] = {
+        ExpEfficiency = {
+            [1] = 300,
+            [2] = 100,
+        },
+        desTextId = 1001,
+        time = 3000,
+        ExpUp = 0,
+        id = 602,
+        nameTextId = 1001,
+        icon = "icon/role/mood/101/3.png",
+        type = 2,
+    },
+    [601] = {
+        ExpEfficiency = {
+            [1] = 300,
+            [2] = 100,
+        },
+        desTextId = 1001,
+        time = 3000,
+        ExpUp = 0,
+        id = 601,
+        nameTextId = 1001,
+        icon = "icon/role/mood/101/3.png",
+        type = 2,
+    },
+}
