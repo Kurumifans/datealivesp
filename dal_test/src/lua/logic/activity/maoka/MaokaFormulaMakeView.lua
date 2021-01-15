@@ -48,6 +48,7 @@ function MaokaFormulaMakeView:initUI( ui )
 	self.Button_close = TFDirector:getChildByPath(ui,"Button_close")
 	self.Panel_item = TFDirector:getChildByPath(ui,"Panel_item")
 	self.Panel_tab = TFDirector:getChildByPath(ui,"Panel_tab")
+    self.Button_help = TFDirector:getChildByPath(ui, "Button_help")
 
 	self:updateMakePanel()
 	self:updateRightPanel()
@@ -68,6 +69,11 @@ function MaokaFormulaMakeView:registerEvents( ... )
 		AlertManager:closeLayer(self)
 	end)
 
+    self.Button_help:onClick(function ( ... )
+        -- body
+        MaokaActivityMgr:showFormulaHelpView( )
+    end)
+    
 	EventMgr:addEventListener(self, EV_MAOKA_MAKE_RSP,function(resultData)
 	    	-- body
 	    if resultData.rewards then

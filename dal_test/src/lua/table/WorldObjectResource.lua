@@ -9,7 +9,7 @@ return {
         id = 1111,
         resourceType = 2,
         isSpecialModel = true,
-        path = "modle/citymodle/city_10212/city_410212",
+        path = "modle/citymodle/city_10211/city_10211",
     },
     [401] = {
         id = 401,

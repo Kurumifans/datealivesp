@@ -115,7 +115,6 @@ function PrefabDataMgr:set_Panel_goodsItem(item, idOrCid, count, level, isNotAcc
         Image_icon:setTexture(skinData.nameIcon)
         Image_frame:setTexture(EC_ItemIcon[itemCfg.rarity])
         Image_heroQuality:setTexture(HeroDataMgr:getQualityPic(cid, itemCfg.rarity))
-        item:setTouchEnabled(false)
     else
         local starNum = itemCfg.star or 0
         if itemCfg.superType == EC_ResourceType.FETTERS then
@@ -212,7 +211,6 @@ function PrefabDataMgr:set_Panel_goodsItem(item, idOrCid, count, level, isNotAcc
             Label_level:setTextById(itemCfg.durationTime)
         end
 
-        item:setTouchEnabled(true)
         item:onClick(function()
                 Utils:showInfo(cid, id, not isNotAccess)
         end)

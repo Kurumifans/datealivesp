@@ -1,13 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.3.90" lastVersion="3.3.88">
-  <f p=".nomedia/nomedia.txt" m="35c4fb7789bd3ddb4cc554d8023be76a" c="0" />
-  <f p="res/basic/levels/active_maoka.json" m="dce7a3d7ce34a48440dbeee057955822" c="0" />
-  <f p="src/lua/logic/activity/maoka/MaokaNewsTip.lua" m="e9453041f459299f4b32911b371f577a" c="0" />
-  <f p="src/lua/public/Utils.lua" m="3bf1554047545ed9d1acb87d8a1cd6dc" c="0" />
-  <f p="src/lua/table/SystemMusic.lua" m="9e37c055f0db46fb64ecca4677fb9f4b" c="0" />
-  <f p="src/lua/table/WorldObjectAction.lua" m="5cd40becd49ed50655abf8ae29e38ae8" c="0" />
-  <f p="src/lua/table/WorldObjectMgr.lua" m="b395fa07d5f48347f269f342f273eab7" c="0" />
-  <f p="res/basic/sound/ui/cat_kaixin.mp3" m="b6706ae580ef2fbcafa0e150927b27f2" />
-  <f p="res/basic/sound/ui/cat_shengqi.mp3" m="5a0b0b1c7c9bad180f3e812f72f5a263" />
-  <f p="res/basic/sound/ui/cat_shuijiao.mp3" m="1c4e6548f27a0bc85b3f30a8fa79c206" />
+<files version="3.3.91" lastVersion="3.3.90">
+  <f p=".nomedia/nomedia.txt" m="55e8dc346a04455228d139ba85220312" c="0" />
+  <f p="res/basic/icon/role/activity/catrole_xixian.png" m="7ab0b1c245f0aa2f435784ac40561338" c="0" />
+  <f p="res/basic/icon/role/activity/catrole_yejushi.png" m="21dd4e1b9c677bfad4ac7f295abaf035" c="0" />
+  <f p="res/basic/ui/activity/maoka/task/task_xx.png" m="2fec39eb4aa7008bf1d42dd22f0278b1" c="0" />
+  <f p="res/basic/ui/activity/maoka/task/task_xx1.png" m="8c218b82b125cdc45aa3fb07a581834e" c="0" />
+  <f p="res/basic/ui/activity/maoka/task/task_yjs.png" m="2a503aa2f99fcce50bc0860f1273840e" c="0" />
+  <f p="res/basic/ui/activity/maoka/task/task_yjs1.png" m="ee7dc354d91aacb6641de6b4b1ba714d" c="0" />
+  <f p="src/lua/dataMgr/PrefabDataMgr.lua" m="c5f407368378dd31b5128e022e364d0e" c="0" />
+  <f p="src/lua/dataMgr/ServerDataMgr.lua" m="f3d8b4b56417c17a8263015013e94d14" c="0" />
+  <f p="src/lua/logic/activity/maoka/MaokaFormulaMakeView.lua" m="d5d5dcd9518e90902d3634e7e7888304" c="0" />
+  <f p="src/lua/logic/activity/maoka/MaokaNewsTip.lua" m="b0771243aa0171bb56e2a04e5350549d" c="0" />
+  <f p="src/lua/logic/bag/BagView.lua" m="79645da3a1dec30b992c996acb605389" c="0" />
+  <f p="src/lua/logic/bag/ItemInfoView.lua" m="58f7b68811b3437021e2ea88a7cefa77" c="0" />
+  <f p="src/lua/manager/LogonHelper.lua" m="ea9b32775e248e8836acbb3393e3a5bb" c="0" />
+  <f p="src/lua/table/CatMaid.lua" m="04aa8cfb6ed6f269902f1446e628657c" c="0" />
+  <f p="src/lua/table/Dating2.lua" m="a3784206cebbef00b311467b8f5b33e1" c="0" />
+  <f p="src/lua/table/NewPokedex.lua" m="c1be3f77fed954b88ca112d48b9de4b0" c="0" />
+  <f p="src/lua/table/ReturnNewble.lua" m="e567f9e123c5a1484696086e60ef6ab3" c="0" />
+  <f p="src/lua/table/ReturnNewbleItem.lua" m="34d37c14e2834ded0350126857986cd1" c="0" />
+  <f p="src/lua/table/String.lua" m="8d3c3e8016d267a2285da2cf17adc806" c="0" />
+  <f p="src/lua/table/WorldObjectResource.lua" m="2c87e01a3bcc43ecb1bb87fc70f69322" c="0" />
+  <f p="src/lua/uiconfig/activity/catRecruit.lua" m="0bdc9b0577023ae80f6720843de0082a" c="0" />
+  <f p="src/lua/uiconfig/activity/formulaMake.lua" m="44c892b7c95dc7eaa55278a156d04c40" c="0" />
+  <f p="src/TFFramework/net/TFClientUpdate.lua" m="fa3c42d29d1f1107e6075cb4d3fd4fbe" c="0" />
+  <f p="res/basic/modle/cg/cg_maoka1.png" m="05b50fbd17a72e6dddda049585e1027d" />
+  <f p="res/basic/modle/cg/cg_maoka2.png" m="46e38a7a83d7eb910b2c85e56317883d" />
+  <f p="res/basic/modle/cg/cg_maoka3.png" m="74477143ca65baaa0b21ebb7b2ded41e" />
+  <f p="res/basic/ui/activity/picture/icon234.png" m="d98aadf03dda63067503f1638929092a" />
 </files>

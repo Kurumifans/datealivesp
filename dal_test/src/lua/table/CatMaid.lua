@@ -42,7 +42,7 @@ return {
         desTextId = 13400191,
         picture = "icon/role/SD_modelIcon/410211.png",
         id = 1603201,
-        rolePath = "modle/citymodle/city_10211/city_410211",
+        rolePath = "modle/citymodle/city_10211/city_10211",
         formulaAdd = {
             [1603303] = 3000,
         },
