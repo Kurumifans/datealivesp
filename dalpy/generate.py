@@ -2,14 +2,14 @@ from xml.dom.minidom import parse
 import json
 import requests 
 
-def discord(boturl, server, url):
+def discord(boturl, server, url, version):
 	data = {}
 	data["embeds"] = []
 
 	embed = {}
 	embed["title"] = "Browse Files"
-	embed["description"] = "View updated contents in " + server.upper()
-	embed["url"] = url
+	embed["description"] = version + " in " + server.upper()
+	embed["url"] = url + "?server=" + server + "&version=" + version
 	embed["color"] = 0x2F3136
 
 	data["embeds"].append(embed)
