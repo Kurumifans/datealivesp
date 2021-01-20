@@ -105,14 +105,16 @@ function TaskActivityView:updateActivity()
             if taskPreInfo and taskPreInfo.status ~= EC_TaskStatus.ING or taskPreInfo==nil then
                 local order0 = 0     
                 local taskInfo = TaskDataMgr:getTaskInfo(item.id)
-                if taskInfo.status == EC_TaskStatus.ING then
-                    order0 = 1
-                elseif taskInfo.status == EC_TaskStatus.GET then
-                    order0 = 0
-                elseif taskInfo.status == EC_TaskStatus.GETED then
-                    order0 = 2
+                if taskInfo then
+                    if taskInfo.status == EC_TaskStatus.ING then
+                        order0 = 1
+                    elseif taskInfo.status == EC_TaskStatus.GET then
+                        order0 = 0
+                    elseif taskInfo.status == EC_TaskStatus.GETED then
+                        order0 = 2
+                    end
+                    table.insert(taskData, {id=item.id, order0=order0, order=item.order, status=taskInfo.status})
                 end
-                table.insert(taskData, {id=item.id, order0=order0, order=item.order, status=taskInfo.status})
             end
         end 
     end
@@ -380,6 +382,11 @@ function TaskActivityView:registerEvents()
 
         end)
     end
+end
+
+function TaskActivityView:onShow()
+    self.super.onShow(self)
+    self:updateActivity()
 end
 
 function TaskActivityView:onCrossSupportInfoRsp( data )

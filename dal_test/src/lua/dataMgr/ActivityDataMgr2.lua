@@ -720,7 +720,7 @@ function ActivityDataMgr:isShowRedPoint(activityId)
             for k, item in pairs(TabDataMgr:getData("Task") or {}) do
                 if item.type == taskType then                    
                     local taskInfo = TaskDataMgr:getTaskInfo(item.id)
-                    if taskInfo.status == EC_TaskStatus.GET then
+                    if taskInfo and taskInfo.status == EC_TaskStatus.GET then
                         isShow = true
                         break;
                     end

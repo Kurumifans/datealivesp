@@ -252,6 +252,12 @@ function ActivityMainView:addModelItem(activitId, type_)
         modelClassMap = self.createModelClass_[DEFAULT_SHOW_TYPE] 
     end
     local modelClass = modelClassMap[type_] or self.createModelClass_[DEFAULT_SHOW_TYPE][type_]
+
+    local activityInfo = ActivityDataMgr2:getActivityInfo(activitId)
+    if EC_ActivityType2.TASK == activityInfo.activityType and  activityInfo.extendData.uiClass and  activityInfo.extendData.uiClass ~= "" then
+        modelClass = requireNew(activityInfo.extendData.uiClass)
+    end
+
     if modelClass then
         local model = modelClass:new(activitId, self)
         self:addLayerToNode(model, self.Panel_activity)

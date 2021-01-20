@@ -263,14 +263,14 @@ function ActivityNewPlayerPopView:updateTask(changeNum)
     local _txt = TextDataMgr:getText(taskCfg.des)..TextDataMgr:getText(800005, stausInfo.progress, taskCfg.progress)
     self._ui.lab_specialDesc:setText(_txt)
 
-    local goods = self._ui.panel_specialAward.goods
-    if not goods then
-        goods = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-        goods:setScale(0.55)
-        goods:Pos(0, 0):AddTo(self._ui.panel_specialAward)
-        self._ui.panel_specialAward.goods = goods
+    if self.specialAwardgoods then
+        self.specialAwardgoods:removeFromParent()
+        self.specialAwardgoods = nil
     end
-    PrefabDataMgr:setInfo(goods, rewards[1], rewards[2])
+    self.specialAwardgoods = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+    self.specialAwardgoods:setScale(0.55)
+    self.specialAwardgoods:Pos(0, 0):AddTo(self._ui.panel_specialAward)
+    PrefabDataMgr:setInfo(self.specialAwardgoods, rewards[1], rewards[2])
 
     self:updateListTask()
     self:updateTaskTopRed()

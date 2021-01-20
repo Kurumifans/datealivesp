@@ -1394,6 +1394,7 @@ function MainLayer:registerEvents()
 	EventMgr:addEventListener(self,EV_UPDATE_SWITCH_LIST,handler(self.onChangeSwitchList, self))
 	EventMgr:addEventListener(self, EV_DATING_EVENT.changeDress, handler(self.onRecvUpdateLive2D, self))
 	EventMgr:addEventListener(self, EV_BAG_DRESS_UPDATE, handler(self.onDressDelete, self))
+    EventMgr:addEventListener(self, EV_WEBVIEW_URL_BACK, handler(self.onWebViewUrlBack, self))
     
 	if not self:isOneCelebrationMainLayer() then
 		--self.Panel_btListEx = TFDirector:getChildByPath(self.Panel_left, "Panel_btListEx")
@@ -3996,6 +3997,24 @@ function MainLayer:removeAiAdviceTimer()
     if self.aiAdviceTimer then
         TFDirector:removeTimer(self.aiAdviceTimer)
         self.aiAdviceTimer = nil
+    end
+end
+
+function MainLayer:onWebViewUrlBack(msg)
+    local url = msg or ""
+    print("onWebViewUrlBack========================= "..url)
+    local funcID
+    local pStart,pEnd = string.find(url,"gofun/")
+    local pramStart,pramEnd = string.find(url,"?")
+    if pStart and pramStart then
+        funcID = string.sub(url,pEnd + 1,pramStart - 1)
+    elseif pStart and not pramStart then
+        funcID = string.sub(url,pEnd + 1)
+    end
+    
+    --跳转
+    if funcID then
+        FunctionDataMgr:enterByFuncId(tonumber(funcID))
     end
 end
 
