@@ -88,6 +88,8 @@ local eTailType =
     BEZIER_POS     = 10 , --贝塞尔(根据速度和时间计算目标位置)
     BEZIER_RANDOM_POS  = 11 , --贝塞尔曲线随机位置
     TARGET_SHADOW_POS  = 12 , --目标影子位置
+    BEZIER_POS_HIT     = 13 , --贝塞尔曲线检测碰撞
+    TIMMER_FIND_POS     = 14 , --定时弹射指定位置
 
 }
 
@@ -551,6 +553,15 @@ end
 
 --找到所有目标
 function Effect:getAllTarget()
+    if self.effectData.target == 1 then
+        return self.srcHero:getAreaFrineds(-1)
+    elseif self.effectData.target == 2 then
+        return battleController.getTeam():getHerosEx()
+    elseif self.effectData.target == 3 then
+        return {self.srcHero}
+    elseif self.effectData.target == 4 then
+        return self.srcHero:getAreaFrineds(-1,nil,true)
+    end
     return self.srcHero:findTargets()
 end
 
@@ -1765,7 +1776,8 @@ function Effect:isTimeOut()
         local tailType = self.effectData.tailType
         if tailType == eTailType.BEZIER or
            tailType == eTailType.BEZIER_POS or 
-           tailType == eTailType.BEZIER_RANDOM_POS then
+           tailType == eTailType.BEZIER_RANDOM_POS or 
+           tailType == eTailType.BEZIER_POS_HIT then
             if self._elapsedTime >= self._durationTime then
                 return true
             end
@@ -1844,6 +1856,9 @@ function Effect:setAlreadyShowHitLine(bShow)
     self.bAlreadyShowHitLine = bShow
 end
 function Effect:showHitLine(pos,hurtData)
+    if hurtData.isShieldingSkillHurt == 2 then
+        return
+    end
     if self:isShowHitLine() then
         if not self.bAlreadyShowHitLine then
             EventMgr:dispatchEvent(eEvent.EVENT_SHOW_HITLINE,pos)
@@ -2862,7 +2877,7 @@ elseif tailType == eTailType.ROUND or tailType == eTailType.S_CURVE then --直�
         self._elapsedTime  = 0
         self._durationTime = distance/emitSpeed --算出持续时间
         self._startPos     = me.p(0,0)
-    elseif  tailType == eTailType.BEZIER_POS then --贝塞尔曲线根据速度时间和朝向计算位置        
+    elseif  tailType == eTailType.BEZIER_POS or tailType == eTailType.BEZIER_POS_HIT then --贝塞尔曲线根据速度时间和朝向计算位置        
         -- _print(self._durationTime) --算出持续时间
         -- dump(self._config)
         local startPos = self:getWorldPosition()
@@ -2917,7 +2932,8 @@ function EmitEffect:logic(time)
         self:refraction(time)
     elseif tailType == eTailType.BEZIER 
         or tailType == eTailType.BEZIER_POS 
-        or tailType == eTailType.BEZIER_RANDOM_POS then --贝塞尔曲线
+        or tailType == eTailType.BEZIER_RANDOM_POS
+        or tailType == eTailType.BEZIER_POS_HIT then --贝塞尔曲线
         self:bezier(time)
     end
     self:move()
@@ -2935,7 +2951,8 @@ function EmitEffect:move()
     if tailType == eTailType.BEZIER
         or tailType == eTailType.ANGLE_STEEP  
         or tailType == eTailType.BEZIER_POS 
-        or tailType == eTailType.BEZIER_RANDOM_POS then --贝塞尔曲线
+        or tailType == eTailType.BEZIER_RANDOM_POS
+        or tailType == eTailType.BEZIER_POS_HIT then --贝塞尔曲线
         self.position3D.y = self.position3D.z
     elseif tailType == eTailType.ANGLE 
         or tailType == eTailType.TARGET_SHADOW_POS
@@ -3081,6 +3098,32 @@ function EmitEffect:handlHurt(order)
         -- end
         -- 不檢查傷害
         -- 到達目的地自動回收
+        if self._elapsedTime >= self._durationTime then
+            if self._startPos.y <= self._config.endPosition.y then
+                self:playEndEffect()
+                self:preRemove(true)
+                return
+            end
+        end
+    elseif tailType == eTailType.BEZIER_POS_HIT then
+        for index = #self.tarList , 1 ,-1 do
+            local target = self.tarList[index]
+            if not target:isRealDead() then
+                if self:hitTest(target,false) then
+                    self:recoveryAnger1(hurtData)
+                    self:triggerBuffer(hurtData,target)
+                    self:triggerHurt(target,hurtData)
+                    self:showHitLine(target:getPosition(),hurtData)
+                    print("hitTest TARGET_POS----",true)
+                    --点对点的命中目标总是要回收的
+                    self:preRemove(true)
+                    return
+                end
+            else
+        -- 死亡的排除掉
+                table.remove(self.tarList,index)
+            end
+        end
         if self._elapsedTime >= self._durationTime then
             if self._startPos.y <= self._config.endPosition.y then
                 self:playEndEffect()

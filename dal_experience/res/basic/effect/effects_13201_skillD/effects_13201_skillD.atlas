@@ -1009,35 +1009,35 @@ images/effects/skillD/lizi/lizi_045
   orig: 168, 168
   offset: 26, 29
   index: -1
-images/effects/skillD/qiu/qiu_000
+images/effects/skillD/qiu/qiu1_000
   rotate: false
   xy: 151, 871
   size: 150, 150
   orig: 180, 180
   offset: 15, 15
   index: -1
-images/effects/skillD/qiu/qiu_004
+images/effects/skillD/qiu/qiu1_001
   rotate: false
   xy: 303, 871
   size: 150, 150
   orig: 180, 180
   offset: 15, 15
   index: -1
-images/effects/skillD/qiu/qiu_008
+images/effects/skillD/qiu/qiu1_002
   rotate: false
   xy: 455, 871
   size: 150, 150
   orig: 180, 180
   offset: 15, 15
   index: -1
-images/effects/skillD/qiu/qiu_012
+images/effects/skillD/qiu/qiu1_003
   rotate: false
   xy: 607, 871
   size: 150, 150
   orig: 180, 180
   offset: 15, 15
   index: -1
-images/effects/skillD/qiu/qiu_016
+images/effects/skillD/qiu/qiu1_004
   rotate: false
   xy: 759, 871
   size: 150, 150

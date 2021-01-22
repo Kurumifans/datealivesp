@@ -382,7 +382,7 @@ filter: Linear,Linear
 repeat: none
 images/effects/skillA/glow_002
   rotate: false
-  xy: 404, 12
+  xy: 487, 12
   size: 194, 194
   orig: 237, 229
   offset: 22, 19
@@ -394,44 +394,30 @@ images/effects/skillA/guangxian_002
   orig: 287, 167
   offset: 19, 31
   index: -1
-images/effects/skillB/qiu/qiu_000
-  rotate: true
-  xy: 700, 502
-  size: 131, 129
-  orig: 135, 135
-  offset: 2, 3
-  index: -1
 images/effects/skillG/buff/buff_021
   rotate: true
-  xy: 562, 394
+  xy: 803, 394
   size: 108, 75
   orig: 169, 124
   offset: 38, 17
   index: -1
-images/effects/skillG/buff/buff_023
+images/effects/skillG/buff/buff_030
+  rotate: false
+  xy: 689, 394
+  size: 112, 93
+  orig: 169, 124
+  offset: 35, 14
+  index: -1
+images/effects/skillG/buff/buff_033
   rotate: true
-  xy: 745, 238
-  size: 102, 75
+  xy: 880, 396
+  size: 106, 89
   orig: 169, 124
-  offset: 42, 17
-  index: -1
-images/effects/skillG/buff/buff_025
-  rotate: false
-  xy: 927, 91
-  size: 95, 84
-  orig: 169, 124
-  offset: 43, 19
-  index: -1
-images/effects/skillG/buff/buff_027
-  rotate: false
-  xy: 822, 238
-  size: 103, 87
-  orig: 169, 124
-  offset: 40, 18
+  offset: 40, 13
   index: -1
 images/effects/skillG/lizi/lizi_004
   rotate: true
-  xy: 600, 4
+  xy: 828, 2
   size: 206, 148
   orig: 360, 270
   offset: 59, 28
@@ -478,12 +464,19 @@ images/effects/skillG/lizi/lizi_028
   orig: 360, 270
   offset: 55, 35
   index: -1
-images/effects/skillG/shangsheng/shangsheng_031
-  rotate: true
-  xy: 562, 504
-  size: 129, 136
+images/effects/skillG/shangsheng/shangsheng_025
+  rotate: false
+  xy: 683, 13
+  size: 143, 194
   orig: 180, 270
-  offset: 22, 96
+  offset: 21, 47
+  index: -1
+images/effects/skillG/shangsheng/shangsheng_027
+  rotate: true
+  xy: 563, 489
+  size: 144, 194
+  orig: 180, 270
+  offset: 22, 47
   index: -1
 images/effects/skillG/shifa/shifa_shang_022
   rotate: true
@@ -500,8 +493,8 @@ images/effects/skillG/shifa/shifa_shang_024
   offset: 16, 26
   index: -1
 images/effects/skillG/shifa/shifa_xia_019
-  rotate: false
-  xy: 824, 327
+  rotate: true
+  xy: 404, 11
   size: 195, 81
   orig: 257, 149
   offset: 32, 6
@@ -527,6 +520,13 @@ images/effects/skillG/shifa/shifa_xia_027
   orig: 257, 149
   offset: 34, 4
   index: -1
+images/effects/skillG/xialuo/xialuo_111
+  rotate: false
+  xy: 725, 210
+  size: 148, 182
+  orig: 180, 315
+  offset: 17, 98
+  index: -1
 images/effects/skillG/xialuo/xialuo_114
   rotate: true
   xy: 2, 576
@@ -548,13 +548,6 @@ images/effects/skillG/xialuo/xialuo_116
   orig: 180, 315
   offset: 10, 7
   index: -1
-images/effects/skillG/xialuo/xialuo_117
-  rotate: false
-  xy: 750, 8
-  size: 175, 228
-  orig: 180, 315
-  offset: 5, 15
-  index: -1
 images/effects/skillG/xiaobao/xiaobao_050
   rotate: false
   xy: 379, 208
@@ -564,38 +557,38 @@ images/effects/skillG/xiaobao/xiaobao_050
   index: -1
 images/effects/skillG/xishou/xishou_022
   rotate: true
-  xy: 512, 463
+  xy: 973, 323
   size: 179, 48
   orig: 203, 135
   offset: 10, 13
   index: -1
 images/effects/skillG/xishou/xishou_026
-  rotate: false
-  xy: 639, 342
+  rotate: true
+  xy: 647, 209
   size: 183, 76
   orig: 203, 135
   offset: 9, 14
   index: -1
 images/effects/skillG/xishou/xishou_028
-  rotate: false
-  xy: 639, 420
+  rotate: true
+  xy: 565, 209
   size: 183, 80
   orig: 203, 135
   offset: 9, 14
   index: -1
 images/effects/skillG/xishou/xishou_030
   rotate: false
-  xy: 831, 410
+  xy: 504, 394
   size: 183, 92
   orig: 203, 135
   offset: 9, 14
   index: -1
-images/effects/skillG/xishou/xishou_040
-  rotate: false
-  xy: 565, 212
-  size: 178, 113
+images/effects/skillG/xishou/xishou_032
+  rotate: true
+  xy: 875, 210
+  size: 182, 96
   orig: 203, 135
-  offset: 13, 17
+  offset: 10, 14
   index: -1
 images/effects/skillG/xishou/xishou_046
   rotate: false
@@ -611,19 +604,19 @@ images/effects/skillG/xishou/xishou_048
   orig: 203, 135
   offset: 21, 20
   index: -1
-images/effects/skillG/xishou/xishou_050
-  rotate: true
-  xy: 927, 177
-  size: 148, 95
-  orig: 203, 135
-  offset: 36, 26
-  index: -1
 images/effects/skillG/xuanzhuan/xuanzhuan_038
   rotate: false
   xy: 287, 942
   size: 283, 80
   orig: 425, 148
   offset: 73, 30
+  index: -1
+images/effects/skillG/xuanzhuan/xuanzhuan_042
+  rotate: true
+  xy: 512, 488
+  size: 154, 49
+  orig: 425, 148
+  offset: 132, 49
   index: -1
 images/effects/skillG/zhuanqi/zhuanqi_000
   rotate: true
@@ -652,199 +645,220 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+images/effects/skillB/qiu/qiu_000
+  rotate: false
+  xy: 690, 673
+  size: 131, 129
+  orig: 135, 135
+  offset: 2, 3
+  index: -1
 images/effects/skillG/buff/buff_019
   rotate: false
-  xy: 514, 495
+  xy: 398, 497
   size: 110, 85
   orig: 169, 124
   offset: 38, 14
   index: -1
 images/effects/skillG/buff/buff_020
   rotate: false
-  xy: 2, 4
+  xy: 660, 591
   size: 110, 80
   orig: 169, 124
   offset: 37, 15
   index: -1
+images/effects/skillG/buff/buff_023
+  rotate: false
+  xy: 398, 420
+  size: 102, 75
+  orig: 169, 124
+  offset: 42, 17
+  index: -1
 images/effects/skillG/buff/buff_024
   rotate: false
-  xy: 923, 854
+  xy: 385, 250
   size: 97, 80
   orig: 169, 124
   offset: 43, 18
   index: -1
+images/effects/skillG/buff/buff_025
+  rotate: true
+  xy: 297, 369
+  size: 95, 84
+  orig: 169, 124
+  offset: 43, 19
+  index: -1
 images/effects/skillG/buff/buff_026
   rotate: false
-  xy: 923, 936
+  xy: 385, 332
   size: 99, 86
   orig: 169, 124
   offset: 43, 18
   index: -1
+images/effects/skillG/buff/buff_027
+  rotate: true
+  xy: 309, 470
+  size: 103, 87
+  orig: 169, 124
+  offset: 40, 18
+  index: -1
 images/effects/skillG/buff/buff_028
-  rotate: false
-  xy: 568, 582
+  rotate: true
+  xy: 310, 575
   size: 113, 86
   orig: 169, 124
   offset: 36, 20
   index: -1
-images/effects/skillG/buff/buff_030
-  rotate: true
-  xy: 502, 760
-  size: 112, 93
-  orig: 169, 124
-  offset: 35, 14
-  index: -1
-images/effects/skillG/buff/buff_033
-  rotate: true
-  xy: 519, 387
-  size: 106, 89
-  orig: 169, 124
-  offset: 40, 13
-  index: -1
 images/effects/skillG/guajian/guajian_000
-  rotate: false
-  xy: 360, 492
+  rotate: true
+  xy: 272, 215
   size: 152, 111
   orig: 158, 113
   offset: 3, 0
   index: -1
 images/effects/skillG/guajian/guajian_008
   rotate: false
-  xy: 360, 383
+  xy: 150, 466
   size: 157, 107
   orig: 158, 113
   offset: 1, 0
   index: -1
 images/effects/skillG/guajian/guajian_020
   rotate: false
-  xy: 597, 755
+  xy: 530, 690
   size: 158, 112
   orig: 158, 113
   offset: 0, 0
   index: -1
 images/effects/skillG/guajian/guajian_024
   rotate: false
-  xy: 342, 759
+  xy: 150, 575
   size: 158, 113
   orig: 158, 113
   offset: 0, 0
   index: -1
 images/effects/skillG/guajian/guajian_028
   rotate: true
-  xy: 360, 605
+  xy: 157, 215
   size: 152, 113
   orig: 158, 113
   offset: 2, 0
   index: -1
 images/effects/skillG/lizi/lizi_006
-  rotate: false
-  xy: 197, 876
+  rotate: true
+  xy: 2, 540
   size: 226, 146
   orig: 360, 270
   offset: 76, 35
   index: -1
-images/effects/skillG/shangsheng/shangsheng_025
-  rotate: false
-  xy: 197, 680
-  size: 143, 194
-  orig: 180, 270
-  offset: 21, 47
-  index: -1
-images/effects/skillG/shangsheng/shangsheng_027
-  rotate: false
-  xy: 2, 440
-  size: 144, 194
-  orig: 180, 270
-  offset: 22, 47
-  index: -1
 images/effects/skillG/shangsheng/shangsheng_029
   rotate: false
-  xy: 2, 266
+  xy: 2, 366
   size: 143, 172
   orig: 180, 270
   offset: 20, 64
   index: -1
+images/effects/skillG/shangsheng/shangsheng_031
+  rotate: false
+  xy: 823, 745
+  size: 129, 136
+  orig: 180, 270
+  offset: 22, 96
+  index: -1
 images/effects/skillG/shifa/shifa_shang_017
   rotate: false
-  xy: 568, 670
+  xy: 823, 660
   size: 133, 83
   orig: 257, 149
   offset: 58, 19
   index: -1
 images/effects/skillG/shifa/shifa_shang_020
-  rotate: true
-  xy: 2, 86
+  rotate: false
+  xy: 569, 804
   size: 178, 118
   orig: 257, 149
   offset: 37, 17
   index: -1
-images/effects/skillG/xialuo/xialuo_111
-  rotate: true
-  xy: 425, 874
-  size: 148, 182
+images/effects/skillG/xialuo/xialuo_117
+  rotate: false
+  xy: 2, 768
+  size: 175, 228
   orig: 180, 315
-  offset: 17, 98
+  offset: 5, 15
   index: -1
 images/effects/skillG/xiaobao/xiaobao_046
   rotate: false
-  xy: 2, 830
+  xy: 179, 804
   size: 193, 192
   orig: 200, 208
   offset: 2, 2
   index: -1
 images/effects/skillG/xiaobao/xiaobao_048
   rotate: false
-  xy: 2, 636
+  xy: 374, 804
   size: 193, 192
   orig: 200, 208
   offset: 2, 2
   index: -1
 images/effects/skillG/xiaobao/xiaobao_052
-  rotate: true
-  xy: 609, 869
+  rotate: false
+  xy: 2, 209
   size: 153, 155
   orig: 200, 208
   offset: 22, 28
   index: -1
 images/effects/skillG/xiaobao/xiaobao_054
-  rotate: true
-  xy: 766, 876
+  rotate: false
+  xy: 2, 52
   size: 146, 155
   orig: 200, 208
   offset: 22, 28
   index: -1
 images/effects/skillG/xiaobao/xiaobao_058
   rotate: false
-  xy: 246, 390
+  xy: 398, 584
   size: 112, 111
   orig: 200, 208
   offset: 41, 50
   index: -1
-images/effects/skillG/xishou/xishou_032
-  rotate: true
-  xy: 148, 452
-  size: 182, 96
+images/effects/skillG/xishou/xishou_040
+  rotate: false
+  xy: 818, 883
+  size: 178, 113
   orig: 203, 135
-  offset: 10, 14
+  offset: 13, 17
   index: -1
 images/effects/skillG/xishou/xishou_042
-  rotate: true
-  xy: 246, 503
+  rotate: false
+  xy: 179, 690
   size: 175, 112
   orig: 203, 135
   offset: 14, 18
   index: -1
 images/effects/skillG/xishou/xishou_044
-  rotate: true
-  xy: 122, 92
+  rotate: false
+  xy: 356, 697
   size: 172, 105
   orig: 203, 135
   offset: 17, 19
   index: -1
+images/effects/skillG/xishou/xishou_050
+  rotate: false
+  xy: 147, 369
+  size: 148, 95
+  orig: 203, 135
+  offset: 36, 26
+  index: -1
 images/effects/skillG/xishou/xishou_052
-  rotate: true
-  xy: 475, 611
+  rotate: false
+  xy: 512, 597
   size: 146, 91
   orig: 203, 135
   offset: 38, 29
+  index: -1
+images/effects/skillG/xuanzhuan/xuanzhuan_040
+  rotate: false
+  xy: 569, 924
+  size: 247, 72
+  orig: 425, 148
+  offset: 96, 34
   index: -1

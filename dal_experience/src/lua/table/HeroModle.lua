@@ -682,10 +682,10 @@ return {
         },
     },
     [1132011] = {
-        images = "icon/role/roleSkin/13301.png",
+        images = "icon/role/roleSkin/13201.png",
         teamModelPos = {
-            y = -330,
-            x = -20,
+            y = -250,
+            x = -15,
         },
         teamModelScale = 0.5,
         TeampaintPosition = {
@@ -696,7 +696,7 @@ return {
             y = -325,
             x = 0,
         },
-        paint = "modle/hero/paintshow_12501/paintshow_12501",
+        paint = "modle/hero/paintshow_13201/paintshow_13201",
         battleEndYingziPos = {
             y = 30,
             x = 40,
@@ -706,17 +706,17 @@ return {
         },
         TeampaintSize = 0.3,
         paintPosition = {
-            y = -680,
+            y = -550,
             x = 120,
         },
         paintSize = 0.9,
         paintDetailPosition = {
-            y = -10,
+            y = -100,
             x = -50,
         },
         battleEndPosition = {
-            y = -60,
-            x = 55,
+            y = -20,
+            x = 45,
         },
         battleEndSize = 1.1,
         paintDetailSize = 0.51,
@@ -1158,7 +1158,7 @@ return {
             y = -325,
             x = 0,
         },
-        paint = "modle/hero/paintshow_12501/paintshow_12501",
+        paint = "modle/hero/paintshow_13301/paintshow_13301",
         battleEndYingziPos = {
             y = 30,
             x = 40,
@@ -1168,10 +1168,10 @@ return {
         },
         TeampaintSize = 0.3,
         paintPosition = {
-            y = -680,
+            y = -640,
             x = 120,
         },
-        paintSize = 0.9,
+        paintSize = 0.85,
         paintDetailPosition = {
             y = -10,
             x = -50,
