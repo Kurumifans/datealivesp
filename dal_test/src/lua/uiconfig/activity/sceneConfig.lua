@@ -1700,6 +1700,16 @@ local t = {
 			logic="",
 		},
 		{
+			name="welfareSignViewStyle2",
+			ui ="welfareSignViewStyle2.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="activity",
+			canLoad=true,
+			logic="",
+		},
+		{
 			name="tanghuluMakeView",
 			ui ="tanghuluMakeView.lua",
 			x=0,

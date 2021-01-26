@@ -30,7 +30,7 @@ function WelfareSignView:ctor( data )
 	self.countPage_ = 7
 	self.activityId = data
 	self.activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
-	dump(self.activityInfo.extendData)
+	dump(self.activityInfo)
 	self.isScrollType = self.activityInfo.extendData.isScrollType		---1:用滑动表现形式 其他用翻页表现形式
 	self.SevenItemType = self.activityInfo.extendData.SevenItemType or 1		---1：横放的 2:斜着的
     self.itemBg = self.activityInfo.extendData.itemBg
@@ -167,10 +167,13 @@ function WelfareSignView:initPageTypeData()
 		self.signItems_[i] = foo
 	end
 
-	--设置背景图
-	if self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == 6 then
-	else
-		self.Image_bg:setTexture("ui/activity/activityStyle/wefareSignActivity/"..self.curResFileName.."/bg"..self.selectPage_.. ".png")
+
+	if self.activityInfo.activityType ~=  EC_ActivityType2.TASK then
+		--设置背景图
+		if self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == 6 then
+		else
+			self.Image_bg:setTexture("ui/activity/activityStyle/wefareSignActivity/"..self.curResFileName.."/bg"..self.selectPage_.. ".png")
+		end
 	end
 end
 

@@ -45,9 +45,14 @@ function SzdyEntryView:initUI(ui)
 	self.Panel_Item.Reward2.touch:setTouchEnabled(true)
 	self.Panel_Item.Reward2.touch:setSwallowTouch(true)
 	self.Panel_Item.Reward2.touch:addMEListener(TFWIDGET_CLICK, function()
-		local function __callBack()		
-			ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId, self.taskInfo.id, 1)
-			ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId, self.taskInfo.id, 1)
+		local function __callBack()	
+			print("当前任务状态", self.taskProgress)
+			if self.taskProgress.status == EC_TaskStatus.GET then
+				ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId, self.taskInfo.id, 1)
+			elseif self.taskProgress.status == EC_TaskStatus.ING then
+				ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId, self.taskInfo.id, 1)
+				ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.activityId, self.taskInfo.id, 1)
+			end
 		end
 		if GoodsDataMgr:getItemCount(tonumber(self.exchangeItemId)) > 0 then
 			local view = Utils:openView("common.ConfirmBoxView")
@@ -148,6 +153,7 @@ function SzdyEntryView:updateData()
 end
 
 function SzdyEntryView:updateRewardStatus()
+	print("当前任务状态", self.taskProgress)
 	self.Panel_Item.Reward2.finish:setVisible(false)
 	self.Panel_Item.Reward2.got:setVisible(false)
 	self.Panel_Item.Reward2.touch:setVisible(false)
@@ -156,6 +162,9 @@ function SzdyEntryView:updateRewardStatus()
 	end
 	if self.taskProgress.status == EC_TaskStatus.GETED then
 		self.Panel_Item.Reward2.got:setVisible(true)
+	elseif self.taskProgress.status == EC_TaskStatus.GET then
+		self.Panel_Item.Reward2.touch:setVisible(true)
+		self.Panel_Item.Reward2.finish:setVisible(true)
 	else
 		if self.costNum <= GoodsDataMgr:getItemCount(tonumber(self.costId)) then
 			self.Panel_Item.Reward2.touch:setVisible(true)

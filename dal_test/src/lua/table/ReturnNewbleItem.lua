@@ -9872,7 +9872,7 @@ return {
     [107050] = {
         ext = "",
         finishCondId = 17042,
-        progress = 20000000,
+        progress = 15000000,
         des2 = "猫咪咖啡-营业额任务10",
         resetType = 1,
         jumpInterface = 0,
@@ -9893,7 +9893,7 @@ return {
     [107049] = {
         ext = "",
         finishCondId = 17042,
-        progress = 18000000,
+        progress = 13500000,
         des2 = "猫咪咖啡-营业额任务9",
         resetType = 1,
         jumpInterface = 0,
@@ -9935,7 +9935,7 @@ return {
     [107048] = {
         ext = "",
         finishCondId = 17042,
-        progress = 15000000,
+        progress = 12000000,
         des2 = "猫咪咖啡-营业额任务8",
         resetType = 1,
         jumpInterface = 0,
@@ -9977,7 +9977,7 @@ return {
     [107047] = {
         ext = "",
         finishCondId = 17042,
-        progress = 12000000,
+        progress = 11000000,
         des2 = "猫咪咖啡-营业额任务7",
         resetType = 1,
         jumpInterface = 0,

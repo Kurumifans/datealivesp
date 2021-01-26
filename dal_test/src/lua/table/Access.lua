@@ -2325,4 +2325,37 @@ return {
         },
         accessType = 52,
     },
+    [215] = {
+        accessparam = "",
+        name = "1400010",
+        name2 = "1430068",
+        id = 215,
+        jumpInterface = 23,
+        parameter = {
+            [1] = 1,
+        },
+        accessType = 11,
+    },
+    [216] = {
+        accessparam = "",
+        name = "1400010",
+        name2 = "1430069",
+        id = 216,
+        jumpInterface = 23,
+        parameter = {
+            [1] = 1,
+        },
+        accessType = 11,
+    },
+    [217] = {
+        accessparam = "",
+        name = "1400010",
+        name2 = "1430070",
+        id = 217,
+        jumpInterface = 23,
+        parameter = {
+            [1] = 1,
+        },
+        accessType = 11,
+    },
 }
