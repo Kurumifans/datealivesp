@@ -1,0 +1,445 @@
+
+main_effect_13102.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/BG_000
+  rotate: false
+  xy: 2, 1246
+  size: 1488, 800
+  orig: 1488, 800
+  offset: 0, 0
+  index: -1
+images/glow_000
+  rotate: false
+  xy: 882, 367
+  size: 653, 342
+  orig: 746, 390
+  offset: 37, 30
+  index: -1
+images/lang1_000
+  rotate: false
+  xy: 1262, 17
+  size: 460, 121
+  orig: 474, 140
+  offset: 4, 10
+  index: -1
+images/lang3_000
+  rotate: true
+  xy: 1537, 461
+  size: 482, 68
+  orig: 581, 88
+  offset: 40, 7
+  index: -1
+images/lang4_000
+  rotate: true
+  xy: 1628, 400
+  size: 543, 185
+  orig: 564, 202
+  offset: 18, 7
+  index: -1
+images/lang_000
+  rotate: false
+  xy: 1815, 463
+  size: 223, 91
+  orig: 261, 132
+  offset: 22, 20
+  index: -1
+images/lol_140
+  rotate: false
+  xy: 748, 18
+  size: 512, 120
+  orig: 512, 128
+  offset: 0, 0
+  index: -1
+images/mohu_000
+  rotate: false
+  xy: 2, 15
+  size: 598, 50
+  orig: 609, 95
+  offset: 7, 22
+  index: -1
+images/shui_39
+  rotate: false
+  xy: 1724, 2
+  size: 238, 158
+  orig: 256, 256
+  offset: 15, 95
+  index: -1
+images/shuibo/shuibo_000
+  rotate: true
+  xy: 1815, 1302
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_001
+  rotate: false
+  xy: 2, 67
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_002
+  rotate: false
+  xy: 882, 140
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_003
+  rotate: true
+  xy: 1815, 556
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuijing_000
+  rotate: false
+  xy: 2, 711
+  size: 1488, 533
+  orig: 1488, 568
+  offset: 0, 0
+  index: -1
+images/yun2_000
+  rotate: false
+  xy: 1628, 162
+  size: 392, 236
+  orig: 430, 294
+  offset: 23, 34
+  index: -1
+images/yun5_000
+  rotate: false
+  xy: 2, 294
+  size: 878, 415
+  orig: 912, 464
+  offset: 14, 21
+  index: -1
+images/yun_000
+  rotate: true
+  xy: 1492, 945
+  size: 1101, 321
+  orig: 1120, 344
+  offset: 7, 10
+  index: -1
+
+main_effect_131022.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lang2_000
+  rotate: true
+  xy: 1948, 1576
+  size: 466, 46
+  orig: 522, 71
+  offset: 32, 11
+  index: -1
+images/shuibo/shuibo_004
+  rotate: false
+  xy: 2, 1817
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_005
+  rotate: false
+  xy: 2, 1590
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_006
+  rotate: false
+  xy: 748, 1817
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_007
+  rotate: true
+  xy: 1494, 552
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_008
+  rotate: false
+  xy: 2, 2
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_009
+  rotate: false
+  xy: 748, 229
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_010
+  rotate: true
+  xy: 1720, 552
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_011
+  rotate: false
+  xy: 748, 3
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_028
+  rotate: false
+  xy: 2, 1363
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_029
+  rotate: false
+  xy: 748, 1590
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_030
+  rotate: false
+  xy: 2, 1136
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_031
+  rotate: false
+  xy: 748, 1363
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_032
+  rotate: false
+  xy: 2, 909
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_033
+  rotate: false
+  xy: 748, 1136
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_034
+  rotate: true
+  xy: 1494, 1298
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_035
+  rotate: false
+  xy: 2, 682
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_036
+  rotate: false
+  xy: 748, 909
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_037
+  rotate: true
+  xy: 1721, 1298
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_038
+  rotate: false
+  xy: 2, 455
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_039
+  rotate: false
+  xy: 748, 682
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_040
+  rotate: false
+  xy: 2, 228
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_041
+  rotate: false
+  xy: 748, 455
+  size: 744, 225
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/yuanjing1_000_000
+  rotate: true
+  xy: 1699, 111
+  size: 439, 175
+  orig: 448, 240
+  offset: 9, 32
+  index: -1
+images/yuanjing_000
+  rotate: true
+  xy: 1876, 276
+  size: 274, 106
+  orig: 304, 258
+  offset: 0, 39
+  index: -1
+images/yun3_000
+  rotate: true
+  xy: 1494, 37
+  size: 513, 203
+  orig: 550, 294
+  offset: 12, 39
+  index: -1
+
+main_effect_131023.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shuibo/shuibo_012
+  rotate: false
+  xy: 2, 1720
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_013
+  rotate: false
+  xy: 2, 1494
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_014
+  rotate: false
+  xy: 748, 1720
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_015
+  rotate: false
+  xy: 2, 1268
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_016
+  rotate: false
+  xy: 748, 1494
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_017
+  rotate: false
+  xy: 2, 1042
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_018
+  rotate: false
+  xy: 748, 1268
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_019
+  rotate: false
+  xy: 2, 816
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_020
+  rotate: false
+  xy: 748, 1042
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_021
+  rotate: true
+  xy: 1494, 1200
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_022
+  rotate: false
+  xy: 2, 590
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_023
+  rotate: false
+  xy: 748, 816
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_024
+  rotate: true
+  xy: 1720, 1200
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_025
+  rotate: false
+  xy: 2, 364
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_026
+  rotate: false
+  xy: 748, 590
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/shuibo/shuibo_027
+  rotate: false
+  xy: 2, 138
+  size: 744, 224
+  orig: 778, 238
+  offset: 16, 0
+  index: -1
+images/yun1_000
+  rotate: false
+  xy: 748, 322
+  size: 664, 266
+  orig: 698, 294
+  offset: 14, 13
+  index: -1
+images/yun4_000
+  rotate: true
+  xy: 1494, 604
+  size: 594, 265
+  orig: 696, 318
+  offset: 56, 33
+  index: -1

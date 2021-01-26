@@ -1,0 +1,172 @@
+
+shuangrenkanban.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s_000
+  rotate: false
+  xy: 2, 694
+  size: 693, 320
+  orig: 693, 320
+  offset: 0, 0
+  index: -1
+yanhua/baiyanhua_00004
+  rotate: true
+  xy: 697, 672
+  size: 342, 317
+  orig: 342, 317
+  offset: 0, 0
+  index: -1
+yanhua/baiyanhua_00006
+  rotate: false
+  xy: 2, 375
+  size: 342, 317
+  orig: 342, 317
+  offset: 0, 0
+  index: -1
+yanhua/baiyanhua_00008
+  rotate: false
+  xy: 663, 10
+  size: 339, 317
+  orig: 342, 317
+  offset: 3, 0
+  index: -1
+yanhua/baiyanhua_00028
+  rotate: true
+  xy: 2, 33
+  size: 340, 317
+  orig: 342, 317
+  offset: 0, 0
+  index: -1
+yanhua/baiyanhua_00030
+  rotate: true
+  xy: 690, 329
+  size: 341, 317
+  orig: 342, 317
+  offset: 0, 0
+  index: -1
+yanhua/baiyanhua_00032
+  rotate: false
+  xy: 346, 375
+  size: 342, 317
+  orig: 342, 317
+  offset: 0, 0
+  index: -1
+yanhua/baiyanhua_00034
+  rotate: false
+  xy: 321, 56
+  size: 340, 317
+  orig: 342, 317
+  offset: 0, 0
+  index: -1
+
+shuangrenkanban2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+D
+  rotate: true
+  xy: 331, 2
+  size: 67, 98
+  orig: 140, 140
+  offset: 38, 19
+  index: -1
+yanhua/baiyanhua_00002
+  rotate: true
+  xy: 331, 71
+  size: 307, 303
+  orig: 342, 317
+  offset: 27, 14
+  index: -1
+yanhua/baiyanhua_00016
+  rotate: false
+  xy: 670, 93
+  size: 310, 303
+  orig: 342, 317
+  offset: 13, 13
+  index: -1
+yanhua/baiyanhua_00018
+  rotate: false
+  xy: 673, 398
+  size: 319, 306
+  orig: 342, 317
+  offset: 8, 11
+  index: -1
+yanhua/baiyanhua_00020
+  rotate: false
+  xy: 673, 706
+  size: 324, 310
+  orig: 342, 317
+  offset: 6, 7
+  index: -1
+yanhua/baiyanhua_00022
+  rotate: false
+  xy: 338, 384
+  size: 330, 313
+  orig: 342, 317
+  offset: 3, 4
+  index: -1
+yanhua/baiyanhua_00024
+  rotate: false
+  xy: 2, 380
+  size: 334, 317
+  orig: 342, 317
+  offset: 1, 0
+  index: -1
+yanhua/baiyanhua_00026
+  rotate: false
+  xy: 2, 699
+  size: 338, 317
+  orig: 342, 317
+  offset: 0, 0
+  index: -1
+yanhua/baiyanhua_00036
+  rotate: false
+  xy: 342, 699
+  size: 329, 317
+  orig: 342, 317
+  offset: 0, 0
+  index: -1
+yanhua/baiyanhua_00038
+  rotate: false
+  xy: 2, 61
+  size: 327, 317
+  orig: 342, 317
+  offset: 2, 0
+  index: -1
+
+shuangrenkanban3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_000
+  rotate: false
+  xy: 2, 2
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+yanhua/baiyanhua_00010
+  rotate: false
+  xy: 306, 407
+  size: 283, 272
+  orig: 342, 317
+  offset: 26, 29
+  index: -1
+yanhua/baiyanhua_00012
+  rotate: false
+  xy: 2, 100
+  size: 292, 284
+  orig: 342, 317
+  offset: 22, 23
+  index: -1
+yanhua/baiyanhua_00014
+  rotate: false
+  xy: 2, 386
+  size: 302, 293
+  orig: 342, 317
+  offset: 17, 19
+  index: -1

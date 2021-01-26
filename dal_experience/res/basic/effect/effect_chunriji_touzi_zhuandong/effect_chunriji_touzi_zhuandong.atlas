@@ -1,0 +1,1191 @@
+
+effect_chunriji_touzi_zhuandong.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dingdian/1h_00000
+  rotate: false
+  xy: 912, 706
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/2h
+  rotate: false
+  xy: 912, 596
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/3h
+  rotate: false
+  xy: 912, 486
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/4h
+  rotate: false
+  xy: 912, 376
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/5h
+  rotate: false
+  xy: 912, 266
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/glow_00002
+  rotate: false
+  xy: 2, 784
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00005
+  rotate: false
+  xy: 2, 584
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00006
+  rotate: false
+  xy: 234, 816
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00007
+  rotate: false
+  xy: 2, 384
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00008
+  rotate: false
+  xy: 416, 816
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00009
+  rotate: false
+  xy: 2, 184
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00010
+  rotate: false
+  xy: 598, 816
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00011
+  rotate: false
+  xy: 780, 816
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00012
+  rotate: true
+  xy: 2, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00013
+  rotate: false
+  xy: 184, 584
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00014
+  rotate: false
+  xy: 184, 384
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00015
+  rotate: false
+  xy: 184, 184
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00016
+  rotate: false
+  xy: 366, 616
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00017
+  rotate: false
+  xy: 366, 416
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00018
+  rotate: false
+  xy: 548, 616
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00019
+  rotate: false
+  xy: 366, 216
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00020
+  rotate: false
+  xy: 548, 416
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00021
+  rotate: false
+  xy: 730, 616
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00022
+  rotate: false
+  xy: 548, 216
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00023
+  rotate: false
+  xy: 730, 416
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00024
+  rotate: false
+  xy: 730, 216
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00025
+  rotate: true
+  xy: 202, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00026
+  rotate: false
+  xy: 402, 16
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00027
+  rotate: false
+  xy: 584, 16
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00028
+  rotate: false
+  xy: 766, 16
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+
+effect_chunriji_touzi_zhuandong2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dingdian/10h
+  rotate: false
+  xy: 912, 452
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/11h
+  rotate: false
+  xy: 912, 342
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/12h
+  rotate: false
+  xy: 912, 232
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/6h
+  rotate: false
+  xy: 912, 892
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/7h
+  rotate: false
+  xy: 912, 782
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/8h
+  rotate: false
+  xy: 912, 672
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/9h
+  rotate: false
+  xy: 912, 562
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/h1_00000
+  rotate: false
+  xy: 912, 122
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/h2_00000
+  rotate: false
+  xy: 912, 12
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00029
+  rotate: false
+  xy: 2, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00030
+  rotate: false
+  xy: 2, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00031
+  rotate: false
+  xy: 184, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00032
+  rotate: false
+  xy: 2, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00033
+  rotate: false
+  xy: 184, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00034
+  rotate: false
+  xy: 366, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00035
+  rotate: false
+  xy: 2, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/hongtouzi/hongtouzi_00036
+  rotate: false
+  xy: 184, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00005
+  rotate: false
+  xy: 366, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00006
+  rotate: false
+  xy: 548, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00007
+  rotate: false
+  xy: 2, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00008
+  rotate: false
+  xy: 184, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00009
+  rotate: false
+  xy: 366, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00010
+  rotate: false
+  xy: 548, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00011
+  rotate: false
+  xy: 730, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00012
+  rotate: false
+  xy: 184, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00013
+  rotate: false
+  xy: 366, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00014
+  rotate: false
+  xy: 548, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00015
+  rotate: false
+  xy: 730, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00016
+  rotate: false
+  xy: 366, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00017
+  rotate: false
+  xy: 548, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00018
+  rotate: false
+  xy: 730, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00019
+  rotate: false
+  xy: 548, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00020
+  rotate: false
+  xy: 730, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00021
+  rotate: false
+  xy: 730, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+
+effect_chunriji_touzi_zhuandong3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dingdian/3l
+  rotate: false
+  xy: 912, 232
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/4l
+  rotate: false
+  xy: 912, 122
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/5l
+  rotate: false
+  xy: 912, 12
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/h3_00000
+  rotate: false
+  xy: 912, 892
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/h4_00000
+  rotate: false
+  xy: 912, 782
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/h5_00000
+  rotate: false
+  xy: 912, 672
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/h6_00000
+  rotate: false
+  xy: 912, 562
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/l1_00000
+  rotate: false
+  xy: 912, 452
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/l2_00000
+  rotate: false
+  xy: 912, 342
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00022
+  rotate: false
+  xy: 2, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00023
+  rotate: false
+  xy: 2, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00024
+  rotate: false
+  xy: 184, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00025
+  rotate: false
+  xy: 2, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00026
+  rotate: false
+  xy: 184, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00027
+  rotate: false
+  xy: 366, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00028
+  rotate: false
+  xy: 2, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00029
+  rotate: false
+  xy: 184, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00030
+  rotate: false
+  xy: 366, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00031
+  rotate: false
+  xy: 548, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00032
+  rotate: false
+  xy: 2, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00033
+  rotate: false
+  xy: 184, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00034
+  rotate: false
+  xy: 366, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00035
+  rotate: false
+  xy: 548, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/huangtouzi/huangtouzi_00036
+  rotate: false
+  xy: 730, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00005
+  rotate: false
+  xy: 184, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00006
+  rotate: false
+  xy: 366, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00007
+  rotate: false
+  xy: 548, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00008
+  rotate: false
+  xy: 730, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00009
+  rotate: false
+  xy: 366, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00010
+  rotate: false
+  xy: 548, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00011
+  rotate: false
+  xy: 730, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00012
+  rotate: false
+  xy: 548, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00013
+  rotate: false
+  xy: 730, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00014
+  rotate: false
+  xy: 730, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+
+effect_chunriji_touzi_zhuandong4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dingdian/10l
+  rotate: false
+  xy: 912, 452
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/11l
+  rotate: false
+  xy: 912, 342
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/12l
+  rotate: false
+  xy: 912, 232
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/13l
+  rotate: false
+  xy: 912, 122
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/14l
+  rotate: false
+  xy: 912, 12
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/6l
+  rotate: false
+  xy: 912, 892
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/7l
+  rotate: false
+  xy: 912, 782
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/8l
+  rotate: false
+  xy: 912, 672
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/9l
+  rotate: false
+  xy: 912, 562
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00015
+  rotate: false
+  xy: 2, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00016
+  rotate: false
+  xy: 2, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00017
+  rotate: false
+  xy: 184, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00018
+  rotate: false
+  xy: 2, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00019
+  rotate: false
+  xy: 184, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00020
+  rotate: false
+  xy: 366, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00021
+  rotate: false
+  xy: 2, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00022
+  rotate: false
+  xy: 184, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00023
+  rotate: false
+  xy: 366, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00024
+  rotate: false
+  xy: 548, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00025
+  rotate: false
+  xy: 2, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00026
+  rotate: false
+  xy: 184, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00027
+  rotate: false
+  xy: 366, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00028
+  rotate: false
+  xy: 548, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00029
+  rotate: false
+  xy: 730, 802
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00030
+  rotate: false
+  xy: 184, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00031
+  rotate: false
+  xy: 366, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00032
+  rotate: false
+  xy: 548, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00033
+  rotate: false
+  xy: 730, 602
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00034
+  rotate: false
+  xy: 366, 2
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00035
+  rotate: false
+  xy: 548, 202
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/lantouzi/lantouzi_00036
+  rotate: false
+  xy: 730, 402
+  size: 180, 198
+  orig: 180, 198
+  offset: 0, 0
+  index: -1
+images/touzi/hong1_00036
+  rotate: false
+  xy: 548, 20
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/touzi/hong2_00036
+  rotate: false
+  xy: 730, 220
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/touzi/hong3_00036
+  rotate: false
+  xy: 730, 38
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+
+effect_chunriji_touzi_zhuandong5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dingdian/15l
+  rotate: false
+  xy: 2, 2
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/16l
+  rotate: false
+  xy: 912, 912
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/17l
+  rotate: false
+  xy: 112, 2
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/dingdian/18l
+  rotate: false
+  xy: 912, 802
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+images/glow_000
+  rotate: false
+  xy: 222, 20
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+images/touzi/hong4_00036
+  rotate: false
+  xy: 2, 840
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/touzi/hong5_00036
+  rotate: false
+  xy: 2, 658
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/touzi/hong6_00036
+  rotate: false
+  xy: 184, 840
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/touzi/huang1_00000
+  rotate: false
+  xy: 2, 476
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/touzi/huangguang
+  rotate: false
+  xy: 184, 658
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/touzi/lan1_00036
+  rotate: false
+  xy: 366, 840
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/touzi/languang
+  rotate: false
+  xy: 2, 294
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00001
+  rotate: false
+  xy: 184, 476
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00002
+  rotate: false
+  xy: 366, 658
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00003
+  rotate: false
+  xy: 548, 840
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00004
+  rotate: false
+  xy: 2, 112
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00005
+  rotate: false
+  xy: 184, 294
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00006
+  rotate: false
+  xy: 366, 476
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00007
+  rotate: false
+  xy: 548, 658
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00008
+  rotate: false
+  xy: 730, 840
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00009
+  rotate: false
+  xy: 184, 112
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00010
+  rotate: false
+  xy: 366, 294
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00011
+  rotate: false
+  xy: 548, 476
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00012
+  rotate: false
+  xy: 730, 658
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00013
+  rotate: false
+  xy: 366, 112
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00014
+  rotate: false
+  xy: 548, 294
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00015
+  rotate: false
+  xy: 730, 476
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00016
+  rotate: false
+  xy: 548, 112
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00017
+  rotate: false
+  xy: 730, 294
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+images/xingxing/xingxing_00018
+  rotate: false
+  xy: 730, 112
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+
+effect_chunriji_touzi_zhuandong6.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/touzi_00000
+  rotate: false
+  xy: 2, 2
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+images/touzibai/touzibai_00035
+  rotate: false
+  xy: 139, 2
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+images/touzibai/touzibai_00036
+  rotate: false
+  xy: 276, 2
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1

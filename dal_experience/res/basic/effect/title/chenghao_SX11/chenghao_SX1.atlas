@@ -1,0 +1,41 @@
+
+chenghao_SX1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chibang
+  rotate: true
+  xy: 2, 2
+  size: 136, 19
+  orig: 136, 19
+  offset: 0, 0
+  index: -1
+chibang1_00000
+  rotate: false
+  xy: 2, 207
+  size: 151, 36
+  orig: 151, 36
+  offset: 0, 0
+  index: -1
+di8
+  rotate: false
+  xy: 2, 176
+  size: 143, 29
+  orig: 143, 29
+  offset: 0, 0
+  index: -1
+zi1
+  rotate: true
+  xy: 23, 30
+  size: 108, 28
+  orig: 108, 28
+  offset: 0, 0
+  index: -1
+zi1_00000
+  rotate: false
+  xy: 2, 140
+  size: 126, 34
+  orig: 128, 34
+  offset: 1, 0
+  index: -1

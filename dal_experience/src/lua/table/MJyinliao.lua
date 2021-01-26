@@ -1,0 +1,42 @@
+return {
+    [1] = {
+        failreward = 10,
+        name = "柠檬卡布奇诺",
+        picture = "ui/newyear/fishGame/fish2.png",
+        id = 1,
+        gametype = "[3002,3001,3004,3005]",
+        successreward = 100,
+    },
+    [2] = {
+        failreward = 10,
+        name = "草莓奶盖茶",
+        picture = "ui/newyear/fishGame/fish2.png",
+        id = 2,
+        gametype = "[3007,3001,3004,3006]",
+        successreward = 100,
+    },
+    [3] = {
+        failreward = 10,
+        name = "草莓咖啡奶昔",
+        picture = "ui/newyear/fishGame/fish2.png",
+        id = 3,
+        gametype = "[3007,3003,3004,3005]",
+        successreward = 100,
+    },
+    [4] = {
+        failreward = 10,
+        name = "柠色青空冰饮",
+        picture = "ui/newyear/fishGame/fish2.png",
+        id = 4,
+        gametype = "[3002,3003,3008,3006]",
+        successreward = 100,
+    },
+    [5] = {
+        failreward = 10,
+        name = "绯色雪原冰饮",
+        picture = "ui/newyear/fishGame/fish2.png",
+        id = 5,
+        gametype = "[3007,3003,3004,3006]",
+        successreward = 100,
+    },
+}

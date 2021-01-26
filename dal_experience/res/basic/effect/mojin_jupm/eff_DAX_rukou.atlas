@@ -1,0 +1,27 @@
+
+eff_DAX_rukou.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+waifazhen
+  rotate: false
+  xy: 2, 164
+  size: 232, 231
+  orig: 232, 231
+  offset: 0, 0
+  index: -1
+zhongjinfazhen
+  rotate: false
+  xy: 2, 2
+  size: 159, 160
+  orig: 159, 160
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 236, 342
+  size: 116, 53
+  orig: 116, 53
+  offset: 0, 0
+  index: -1

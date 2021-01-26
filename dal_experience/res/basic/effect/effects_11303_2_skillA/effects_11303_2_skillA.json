@@ -1,0 +1,637 @@
+{
+"skeleton": { "hash": "rJohHl7pDtjbVcn/ZNUyRjj/WgM", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/effects_L/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "X1", "parent": "bone" },
+	{ "name": "X2", "parent": "bone" },
+	{ "name": "X3", "parent": "bone" },
+	{ "name": "bao", "parent": "bone" },
+	{ "name": "bdbox_eff", "parent": "bone" },
+	{ "name": "glow", "parent": "bone" },
+	{ "name": "shifa", "parent": "bone" },
+	{ "name": "xinzeng", "parent": "bone" },
+	{ "name": "xuli", "parent": "bone" },
+	{ "name": "zidan", "parent": "bone" }
+],
+"slots": [
+	{ "name": "bdbox_eff", "bone": "bdbox_eff", "attachment": "bdbox_eff", "blend": "additive" },
+	{ "name": "skillB/xunhuan2/xunhuan2_000", "bone": "xinzeng" },
+	{ "name": "skillA/zidan/zidan_009", "bone": "zidan" },
+	{ "name": "skillA/hit/hit_022", "bone": "bao" },
+	{ "name": "skillA/shifa/shifa_023", "bone": "shifa", "blend": "additive" },
+	{ "name": "skillA/glow_001", "bone": "glow", "blend": "additive" },
+	{ "name": "skillA/xiantiao1/1/x1_006", "bone": "X1", "blend": "additive" },
+	{ "name": "skillA/xiantiao1/2/x2_021", "bone": "X2", "blend": "additive" },
+	{ "name": "skillA/xiantiao1/2/x2_21", "bone": "X3", "blend": "additive" },
+	{ "name": "skillA/xiantiao1/3/x3_046", "bone": "xuli" }
+],
+"skins": {
+	"default": {
+		"bdbox_eff": {
+			"bdbox_eff": {
+				"type": "boundingbox",
+				"vertices": [ -64.91702, -62.6958, 64.66282, -62.6958, 64.66282, 62.11004, -64.91702, 62.11004 ]
+			}
+		},
+		"skillA/glow_001": {
+			"skillA/glow_001": { "width": 225, "height": 221 }
+		},
+		"skillA/hit/hit_022": {
+			"skillA/hit/hit_022": { "width": 267, "height": 243 },
+			"skillA/hit/hit_024": { "width": 267, "height": 243 },
+			"skillA/hit/hit_026": { "width": 267, "height": 243 },
+			"skillA/hit/hit_028": { "width": 267, "height": 243 },
+			"skillA/hit/hit_030": { "width": 267, "height": 243 },
+			"skillA/hit/hit_032": { "width": 267, "height": 243 },
+			"skillA/hit/hit_034": { "width": 267, "height": 243 },
+			"skillA/hit/hit_036": { "width": 267, "height": 243 },
+			"skillA/hit/hit_038": { "width": 267, "height": 243 }
+		},
+		"skillA/shifa/shifa_023": {
+			"skillA/shifa/shifa_023": { "width": 305, "height": 305 },
+			"skillA/shifa/shifa_025": { "width": 305, "height": 305 },
+			"skillA/shifa/shifa_027": { "width": 305, "height": 305 },
+			"skillA/shifa/shifa_029": { "width": 305, "height": 305 },
+			"skillA/shifa/shifa_031": { "width": 305, "height": 305 },
+			"skillA/shifa/shifa_033": { "width": 305, "height": 305 },
+			"skillA/shifa/shifa_035": { "width": 305, "height": 305 }
+		},
+		"skillA/xiantiao1/1/x1_006": {
+			"skillA/xiantiao1/1/x1_006": { "width": 229, "height": 152 },
+			"skillA/xiantiao1/1/x1_008": { "width": 229, "height": 152 },
+			"skillA/xiantiao1/1/x1_010": { "width": 229, "height": 152 },
+			"skillA/xiantiao1/1/x1_012": { "width": 229, "height": 152 },
+			"skillA/xiantiao1/1/x1_014": { "width": 229, "height": 152 },
+			"skillA/xiantiao1/1/x1_016": { "width": 229, "height": 152 },
+			"skillA/xiantiao1/1/x1_018": { "width": 229, "height": 152 }
+		},
+		"skillA/xiantiao1/2/x2_021": {
+			"skillA/xiantiao1/2/x2_021": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_023": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_025": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_027": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_029": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_031": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_033": { "width": 227, "height": 181 }
+		},
+		"skillA/xiantiao1/2/x2_21": {
+			"skillA/xiantiao1/2/x2_021": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_023": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_025": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_027": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_029": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_031": { "width": 227, "height": 181 },
+			"skillA/xiantiao1/2/x2_033": { "width": 227, "height": 181 }
+		},
+		"skillA/xiantiao1/3/x3_046": {
+			"skillA/xiantiao1/3/x3_046": { "width": 263, "height": 226 },
+			"skillA/xiantiao1/3/x3_048": { "width": 263, "height": 226 },
+			"skillA/xiantiao1/3/x3_050": { "width": 263, "height": 226 },
+			"skillA/xiantiao1/3/x3_052": { "width": 263, "height": 226 },
+			"skillA/xiantiao1/3/x3_054": { "width": 263, "height": 226 },
+			"skillA/xiantiao1/3/x3_056": { "width": 263, "height": 226 },
+			"skillA/xiantiao1/3/x3_058": { "width": 263, "height": 226 },
+			"skillA/xiantiao1/3/x3_060": { "width": 263, "height": 226 },
+			"skillA/xiantiao1/3/x3_062": { "width": 263, "height": 226 }
+		},
+		"skillA/zidan/zidan_009": {
+			"skillA/zidan/zidan_009": { "width": 317, "height": 148 },
+			"skillA/zidan/zidan_011": { "width": 317, "height": 148 },
+			"skillA/zidan/zidan_013": { "width": 317, "height": 148 },
+			"skillA/zidan/zidan_015": { "width": 317, "height": 148 },
+			"skillA/zidan/zidan_017": { "width": 317, "height": 148 },
+			"skillA/zidan/zidan_019": { "width": 317, "height": 148 }
+		},
+		"skillB/xunhuan2/xunhuan2_000": {
+			"skillB/xunhuan2/xunhuan2_000": { "width": 365, "height": 272 },
+			"skillB/xunhuan2/xunhuan2_001": { "width": 365, "height": 272 },
+			"skillB/xunhuan2/xunhuan2_002": { "width": 365, "height": 272 },
+			"skillB/xunhuan2/xunhuan2_003": { "width": 365, "height": 272 },
+			"skillB/xunhuan2/xunhuan2_004": { "width": 365, "height": 272 },
+			"skillB/xunhuan2/xunhuan2_005": { "width": 365, "height": 272 },
+			"skillB/xunhuan2/xunhuan2_006": { "width": 365, "height": 272 },
+			"skillB/xunhuan2/xunhuan2_007": { "width": 365, "height": 272 }
+		}
+	}
+},
+"events": {
+	"effect": {},
+	"hurt": {}
+},
+"animations": {
+	"2": {
+		"slots": {
+			"skillA/zidan/zidan_009": {
+				"attachment": [
+					{ "time": 0, "name": "skillA/zidan/zidan_009" },
+					{ "time": 0.0666, "name": "skillA/zidan/zidan_011" },
+					{ "time": 0.1333, "name": "skillA/zidan/zidan_013" },
+					{ "time": 0.2, "name": "skillA/zidan/zidan_015" },
+					{ "time": 0.2666, "name": "skillA/zidan/zidan_017" },
+					{ "time": 0.3333, "name": "skillA/zidan/zidan_019" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox_eff": {
+				"translate": [
+					{ "time": 0, "x": 15.18, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.221, "y": 0.906 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": -128.48, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.3, "y": 1.3 }
+				]
+			},
+			"zidan": {
+				"translate": [
+					{ "time": 0, "x": -35.59, "y": 3.81 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1333, "name": "hurt" }
+		]
+	},
+	"3": {
+		"slots": {
+			"skillA/hit/hit_022": {
+				"attachment": [
+					{ "time": 0, "name": "skillA/hit/hit_022" },
+					{ "time": 0.0333, "name": "skillA/hit/hit_024" },
+					{ "time": 0.0666, "name": "skillA/hit/hit_026" },
+					{ "time": 0.1, "name": "skillA/hit/hit_028" },
+					{ "time": 0.1333, "name": "skillA/hit/hit_030" },
+					{ "time": 0.2, "name": "skillA/hit/hit_032" },
+					{ "time": 0.2666, "name": "skillA/hit/hit_034" },
+					{ "time": 0.3333, "name": "skillA/hit/hit_036" },
+					{ "time": 0.4, "name": "skillA/hit/hit_038" },
+					{ "time": 0.5333, "name": null }
+				],
+				"color": [
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox_eff": {
+				"translate": [
+					{ "time": 0, "x": -9.3, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3.059, "y": 3.047 }
+				]
+			},
+			"bao": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 18.03 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.2, "y": 2.2 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 19.68 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1666, "name": "effect" },
+			{ "time": 0.1666, "name": "hurt" }
+		]
+	},
+	"4": {
+		"slots": {
+			"skillA/zidan/zidan_009": {
+				"attachment": [
+					{ "time": 0, "name": "skillA/zidan/zidan_009" },
+					{ "time": 0.1, "name": "skillA/zidan/zidan_011" },
+					{ "time": 0.2, "name": "skillA/zidan/zidan_013" },
+					{ "time": 0.3, "name": "skillA/zidan/zidan_015" },
+					{ "time": 0.4, "name": "skillA/zidan/zidan_017" },
+					{ "time": 0.4666, "name": "skillA/zidan/zidan_019" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox_eff": {
+				"translate": [
+					{ "time": 0, "x": 15.18, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.221, "y": 0.906 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": -128.48, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.3, "y": 1.3 }
+				]
+			},
+			"zidan": {
+				"translate": [
+					{ "time": 0, "x": -35.59, "y": 3.81 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2333, "name": "hurt" },
+			{ "time": 0.4666, "name": "hurt" }
+		]
+	},
+	"5": {
+		"slots": {
+			"skillA/zidan/zidan_009": {
+				"attachment": [
+					{ "time": 0, "name": "skillA/zidan/zidan_009" },
+					{ "time": 0.1, "name": "skillA/zidan/zidan_011" },
+					{ "time": 0.2, "name": "skillA/zidan/zidan_013" },
+					{ "time": 0.3, "name": "skillA/zidan/zidan_015" },
+					{ "time": 0.4, "name": "skillA/zidan/zidan_017" },
+					{ "time": 0.5, "name": "skillA/zidan/zidan_019" }
+				]
+			},
+			"skillB/xunhuan2/xunhuan2_000": {
+				"attachment": [
+					{ "time": 0, "name": "skillB/xunhuan2/xunhuan2_000" },
+					{ "time": 0.0666, "name": "skillB/xunhuan2/xunhuan2_001" },
+					{ "time": 0.1333, "name": "skillB/xunhuan2/xunhuan2_002" },
+					{ "time": 0.2, "name": "skillB/xunhuan2/xunhuan2_003" },
+					{ "time": 0.2666, "name": "skillB/xunhuan2/xunhuan2_004" },
+					{ "time": 0.3333, "name": "skillB/xunhuan2/xunhuan2_005" },
+					{ "time": 0.4, "name": "skillB/xunhuan2/xunhuan2_006" },
+					{ "time": 0.5, "name": "skillB/xunhuan2/xunhuan2_007" }
+				]
+			}
+		},
+		"bones": {
+			"bdbox_eff": {
+				"translate": [
+					{ "time": 0, "x": 99.57, "y": 3.4 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.931, "y": 0.976 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": -128.48, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.3, "y": 1.3 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": -18.45, "y": -2.05, "curve": "stepped" },
+					{ "time": 0.5, "x": -18.45, "y": -2.05 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.164, "y": 1.164, "curve": "stepped" },
+					{ "time": 0.5, "x": 1.164, "y": 1.164 }
+				]
+			},
+			"zidan": {
+				"translate": [
+					{ "time": 0, "x": -35.59, "y": 3.81 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"xinzeng": {
+				"translate": [
+					{ "time": 0, "x": 19.77, "y": 2.6 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.754 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2333, "name": "hurt" }
+		]
+	},
+	"1ALL": {},
+	"A1": {
+		"slots": {
+			"skillA/glow_001": {
+				"attachment": [
+					{ "time": 0.2333, "name": "skillA/glow_001" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "45d2ffff" },
+					{ "time": 0.4333, "color": "000000ff" }
+				]
+			},
+			"skillA/shifa/shifa_023": {
+				"attachment": [
+					{ "time": 0.2333, "name": "skillA/shifa/shifa_023" },
+					{ "time": 0.2666, "name": "skillA/shifa/shifa_025" },
+					{ "time": 0.3, "name": "skillA/shifa/shifa_027" },
+					{ "time": 0.3333, "name": "skillA/shifa/shifa_029" },
+					{ "time": 0.4, "name": "skillA/shifa/shifa_031" },
+					{ "time": 0.4666, "name": "skillA/shifa/shifa_033" },
+					{ "time": 0.5666, "name": "skillA/shifa/shifa_035" },
+					{ "time": 0.7, "name": null }
+				],
+				"color": [
+					{ "time": 0.5666, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				]
+			},
+			"skillA/xiantiao1/1/x1_006": {
+				"attachment": [
+					{ "time": 0.2, "name": "skillA/xiantiao1/1/x1_006" },
+					{ "time": 0.2333, "name": "skillA/xiantiao1/1/x1_008" },
+					{ "time": 0.2666, "name": "skillA/xiantiao1/1/x1_010" },
+					{ "time": 0.3333, "name": "skillA/xiantiao1/1/x1_012" },
+					{ "time": 0.4, "name": "skillA/xiantiao1/1/x1_014" },
+					{ "time": 0.4333, "name": "skillA/xiantiao1/1/x1_016" },
+					{ "time": 0.4666, "name": "skillA/xiantiao1/1/x1_018" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shifa": {
+				"translate": [
+					{ "time": 0.2333, "x": 189.37, "y": 206.95 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 1.6, "y": 1.6 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0.2333, "x": 103.82, "y": 191.16 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 3.12, "y": 3.12 }
+				]
+			},
+			"X1": {
+				"translate": [
+					{ "time": 0.2, "x": 17.26, "y": 160.68 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 1.845, "y": 1.845 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "effect" }
+		]
+	},
+	"A2": {
+		"slots": {
+			"skillA/glow_001": {
+				"attachment": [
+					{ "time": 0.3, "name": "skillA/glow_001" },
+					{ "time": 0.5333, "name": null }
+				],
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.4, "color": "45d2ffff" },
+					{ "time": 0.5, "color": "000000ff" }
+				]
+			},
+			"skillA/shifa/shifa_023": {
+				"attachment": [
+					{ "time": 0.3, "name": "skillA/shifa/shifa_023" },
+					{ "time": 0.3666, "name": "skillA/shifa/shifa_025" },
+					{ "time": 0.4333, "name": "skillA/shifa/shifa_027" },
+					{ "time": 0.5, "name": "skillA/shifa/shifa_029" },
+					{ "time": 0.6, "name": "skillA/shifa/shifa_031" },
+					{ "time": 0.7, "name": "skillA/shifa/shifa_033" },
+					{ "time": 0.8, "name": "skillA/shifa/shifa_035" },
+					{ "time": 0.9333, "name": null }
+				],
+				"color": [
+					{ "time": 0.7666, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00" }
+				]
+			},
+			"skillA/xiantiao1/2/x2_021": {
+				"attachment": [
+					{ "time": 0.1666, "name": "skillA/xiantiao1/2/x2_021" },
+					{ "time": 0.2, "name": "skillA/xiantiao1/2/x2_023" },
+					{ "time": 0.2333, "name": "skillA/xiantiao1/2/x2_025" },
+					{ "time": 0.3, "name": "skillA/xiantiao1/2/x2_027" },
+					{ "time": 0.3666, "name": "skillA/xiantiao1/2/x2_029" },
+					{ "time": 0.4333, "name": "skillA/xiantiao1/2/x2_031" },
+					{ "time": 0.4666, "name": "skillA/xiantiao1/2/x2_033" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shifa": {
+				"translate": [
+					{ "time": 0.3, "x": 164.03, "y": 235.7 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1.65, "y": 1.65 }
+				]
+			},
+			"X2": {
+				"rotate": [
+					{ "time": 0.1666, "angle": -8.44 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": -80.15, "y": 245.87 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0.3, "x": 103.82, "y": 191.16 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 3.12, "y": 3.12 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3, "name": "effect" }
+		]
+	},
+	"A3": {
+		"slots": {
+			"skillA/glow_001": {
+				"attachment": [
+					{ "time": 0.2666, "name": "skillA/glow_001" },
+					{ "time": 0.4333, "name": null }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "45d2ffff" },
+					{ "time": 0.4, "color": "000000ff" }
+				]
+			},
+			"skillA/shifa/shifa_023": {
+				"attachment": [
+					{ "time": 0.2666, "name": "skillA/shifa/shifa_023" },
+					{ "time": 0.3, "name": "skillA/shifa/shifa_025" },
+					{ "time": 0.3333, "name": "skillA/shifa/shifa_027" },
+					{ "time": 0.3666, "name": "skillA/shifa/shifa_029" },
+					{ "time": 0.4, "name": "skillA/shifa/shifa_031" },
+					{ "time": 0.4333, "name": "skillA/shifa/shifa_033" },
+					{ "time": 0.5333, "name": "skillA/shifa/shifa_035" },
+					{ "time": 0.6666, "name": null }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6666, "color": "ffffff00" }
+				]
+			},
+			"skillA/xiantiao1/2/x2_21": {
+				"attachment": [
+					{ "time": 0.1666, "name": "skillA/xiantiao1/2/x2_021" },
+					{ "time": 0.2333, "name": "skillA/xiantiao1/2/x2_023" },
+					{ "time": 0.3, "name": "skillA/xiantiao1/2/x2_025" },
+					{ "time": 0.3666, "name": "skillA/xiantiao1/2/x2_027" },
+					{ "time": 0.4333, "name": "skillA/xiantiao1/2/x2_029" },
+					{ "time": 0.5, "name": "skillA/xiantiao1/2/x2_031" },
+					{ "time": 0.5666, "name": "skillA/xiantiao1/2/x2_033" },
+					{ "time": 0.6333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"X3": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 22.95 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": 23.26, "y": 199.43 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 2, "y": -1.955 }
+				]
+			},
+			"shifa": {
+				"translate": [
+					{ "time": 0.2666, "x": 220.35, "y": 235.7 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 1.75, "y": 1.75 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0.2666, "x": 148.72, "y": 230.45 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 3.12, "y": 3.12 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "effect" }
+		]
+	},
+	"A4": {
+		"slots": {
+			"skillA/glow_001": {
+				"attachment": [
+					{ "time": 0.5, "name": "skillA/glow_001" },
+					{ "time": 0.6666, "name": null }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5666, "color": "45d2ffff" },
+					{ "time": 0.6333, "color": "000000ff" }
+				]
+			},
+			"skillA/shifa/shifa_023": {
+				"attachment": [
+					{ "time": 0.5, "name": "skillA/shifa/shifa_023" },
+					{ "time": 0.5666, "name": "skillA/shifa/shifa_025" },
+					{ "time": 0.6333, "name": "skillA/shifa/shifa_027" },
+					{ "time": 0.7, "name": "skillA/shifa/shifa_029" },
+					{ "time": 0.8, "name": "skillA/shifa/shifa_031" },
+					{ "time": 0.9, "name": "skillA/shifa/shifa_033" },
+					{ "time": 0.9666, "name": "skillA/shifa/shifa_035" },
+					{ "time": 1.0666, "name": null }
+				],
+				"color": [
+					{ "time": 0.9666, "color": "ffffffff" },
+					{ "time": 1.0666, "color": "ffffff00" }
+				]
+			},
+			"skillA/xiantiao1/3/x3_046": {
+				"attachment": [
+					{ "time": 0, "name": "skillA/xiantiao1/3/x3_046" },
+					{ "time": 0.0666, "name": "skillA/xiantiao1/3/x3_048" },
+					{ "time": 0.1333, "name": "skillA/xiantiao1/3/x3_050" },
+					{ "time": 0.2, "name": "skillA/xiantiao1/3/x3_052" },
+					{ "time": 0.2666, "name": "skillA/xiantiao1/3/x3_054" },
+					{ "time": 0.3333, "name": "skillA/xiantiao1/3/x3_056" },
+					{ "time": 0.4, "name": "skillA/xiantiao1/3/x3_058" },
+					{ "time": 0.4666, "name": "skillA/xiantiao1/3/x3_060" },
+					{ "time": 0.5333, "name": "skillA/xiantiao1/3/x3_062" },
+					{ "time": 0.6333, "name": null }
+				],
+				"color": [
+					{ "time": 0.4666, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"xuli": {
+				"translate": [
+					{ "time": 0, "x": 58.79, "y": 235.69 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"shifa": {
+				"translate": [
+					{ "time": 0.5, "x": 199.62, "y": 208.91 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 1.75, "y": 1.75 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0.5, "x": 148.72, "y": 230.45 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 3.12, "y": 3.12 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5333, "name": "effect" }
+		]
+	}
+}
+}

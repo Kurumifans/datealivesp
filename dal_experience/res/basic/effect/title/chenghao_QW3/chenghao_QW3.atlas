@@ -1,0 +1,76 @@
+
+chenghao_QW3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hongguang
+  rotate: false
+  xy: 2, 205
+  size: 168, 47
+  orig: 168, 47
+  offset: 0, 0
+  index: -1
+honghuaban
+  rotate: false
+  xy: 2, 109
+  size: 138, 45
+  orig: 138, 45
+  offset: 0, 0
+  index: -1
+hongzi
+  rotate: true
+  xy: 205, 139
+  size: 113, 26
+  orig: 113, 26
+  offset: 0, 0
+  index: -1
+huangguang
+  rotate: false
+  xy: 2, 156
+  size: 168, 47
+  orig: 168, 47
+  offset: 0, 0
+  index: -1
+huanghuaban
+  rotate: false
+  xy: 2, 62
+  size: 138, 45
+  orig: 138, 45
+  offset: 0, 0
+  index: -1
+huangzi
+  rotate: true
+  xy: 172, 132
+  size: 120, 31
+  orig: 120, 31
+  offset: 0, 0
+  index: -1
+lizi3
+  rotate: false
+  xy: 2, 5
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+xingxing1
+  rotate: false
+  xy: 142, 127
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+xingxing2
+  rotate: false
+  xy: 233, 229
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+ziguang
+  rotate: false
+  xy: 2, 19
+  size: 131, 41
+  orig: 131, 41
+  offset: 0, 0
+  index: -1
