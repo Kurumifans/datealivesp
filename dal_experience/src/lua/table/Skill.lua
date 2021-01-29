@@ -9,7 +9,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28274,
         subclassesPicture = {
         },
@@ -19,6 +19,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -63,7 +64,7 @@ return {
         icon = "icon/skill/10101_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 1170,
         subclassesPicture = {
         },
@@ -73,6 +74,7 @@ return {
         des = "2200180",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -119,7 +121,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28275,
         subclassesPicture = {
         },
@@ -129,6 +131,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -173,7 +176,7 @@ return {
         icon = "icon/skill/10801_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 437030,
         subclassesPicture = {
         },
@@ -183,6 +186,7 @@ return {
         des = "2200830",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 3,
         },
@@ -227,7 +231,7 @@ return {
         icon = "icon/skill/10502_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 5480,
         subclassesPicture = {
         },
@@ -237,6 +241,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -281,7 +286,7 @@ return {
         icon = "icon/skill/11501_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 13101,
         subclassesPicture = {
         },
@@ -291,6 +296,7 @@ return {
         des = "2202110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -335,7 +341,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41510,
         subclassesPicture = {
         },
@@ -345,6 +351,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -389,7 +396,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28277,
         subclassesPicture = {
         },
@@ -399,6 +406,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -443,7 +451,7 @@ return {
         icon = "icon/skill/11301_icon10.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 13441,
         subclassesPicture = {
         },
@@ -453,6 +461,7 @@ return {
         des = "2201532",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 1,
         },
@@ -497,7 +506,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28278,
         subclassesPicture = {
         },
@@ -507,6 +516,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -551,7 +561,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41530,
         subclassesPicture = {
         },
@@ -561,6 +571,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -605,7 +616,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 14041,
         subclassesPicture = {
         },
@@ -615,6 +626,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -659,7 +671,7 @@ return {
         icon = "icon/skill/11501_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 516161,
         subclassesPicture = {
         },
@@ -669,6 +681,7 @@ return {
         des = "2202180",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -713,7 +726,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20604,
         subclassesPicture = {
         },
@@ -723,6 +736,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -768,7 +782,7 @@ return {
         icon = "icon/skill/10401_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 4080,
         subclassesPicture = {
         },
@@ -778,6 +792,7 @@ return {
         des = "2200480",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -822,7 +837,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28280,
         subclassesPicture = {
         },
@@ -832,6 +847,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -876,7 +892,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41550,
         subclassesPicture = {
         },
@@ -886,6 +902,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -930,7 +947,7 @@ return {
         icon = "icon/skill/10111_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 10120,
         subclassesPicture = {
         },
@@ -940,6 +957,7 @@ return {
         des = "2201120",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -984,7 +1002,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41560,
         subclassesPicture = {
         },
@@ -994,6 +1012,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -1038,7 +1057,7 @@ return {
         icon = "icon/skill/11201_icon6.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 12261,
         subclassesPicture = {
         },
@@ -1048,6 +1067,7 @@ return {
         des = "2201450",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -1092,7 +1112,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30940,
         subclassesPicture = {
         },
@@ -1102,6 +1122,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -1146,6 +1167,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 41570,
         subclassesPicture = {
         },
@@ -1199,7 +1221,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 14091,
         subclassesPicture = {
         },
@@ -1209,6 +1231,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -1253,7 +1276,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30941,
         subclassesPicture = {
         },
@@ -1263,6 +1286,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -1307,7 +1331,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41580,
         subclassesPicture = {
         },
@@ -1317,6 +1341,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -1361,6 +1386,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 511211,
         subclassesPicture = {
         },
@@ -1414,7 +1440,7 @@ return {
         icon = "icon/skill/10301_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 3240,
         subclassesPicture = {
         },
@@ -1424,6 +1450,7 @@ return {
         des = "2200340",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -1468,7 +1495,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 437040,
         subclassesPicture = {
         },
@@ -1478,6 +1505,7 @@ return {
         des = "2200840",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -1522,7 +1550,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 14092,
         subclassesPicture = {
         },
@@ -1532,6 +1560,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -1576,7 +1605,7 @@ return {
         icon = "icon/skill/10413_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 14221,
         subclassesPicture = {
         },
@@ -1586,6 +1615,7 @@ return {
         des = "2202220",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -1630,7 +1660,7 @@ return {
         icon = "icon/skill/10301_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 432030,
         subclassesPicture = {
         },
@@ -1640,6 +1670,7 @@ return {
         des = "2200330",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 3,
         },
@@ -1684,7 +1715,7 @@ return {
         icon = "icon/skill/10601_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 6001,
         subclassesPicture = {
         },
@@ -1694,6 +1725,7 @@ return {
         des = "2200610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -1738,7 +1770,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23070,
         subclassesPicture = {
         },
@@ -1748,6 +1780,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -1792,7 +1825,7 @@ return {
         icon = "icon/skill/10111_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 10291,
         subclassesPicture = {
         },
@@ -1802,6 +1835,7 @@ return {
         des = "2200140",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -1846,7 +1880,7 @@ return {
         icon = "icon/skill/10401_skillJ.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 4222,
         subclassesPicture = {
         },
@@ -1856,6 +1890,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -1900,7 +1935,7 @@ return {
         icon = "icon/skill/10209_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 12821,
         subclassesPicture = {
         },
@@ -1910,6 +1945,7 @@ return {
         des = "2201830",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -1954,7 +1990,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30950,
         subclassesPicture = {
         },
@@ -1964,6 +2000,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -2008,6 +2045,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512371,
         subclassesPicture = {
         },
@@ -2061,6 +2099,7 @@ return {
         icon = "icon/skill/10111_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 10510,
         subclassesPicture = {
         },
@@ -2114,7 +2153,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 26010,
         subclassesPicture = {
         },
@@ -2124,6 +2163,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -2168,7 +2208,7 @@ return {
         icon = "icon/skill/11701_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 13701,
         subclassesPicture = {
         },
@@ -2178,6 +2218,7 @@ return {
         des = "2202410",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -2222,7 +2263,7 @@ return {
         icon = "icon/skill/10602_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 511080,
         subclassesPicture = {
         },
@@ -2232,6 +2273,7 @@ return {
         des = "2201230",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -2276,7 +2318,7 @@ return {
         icon = "icon/skill/10210_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 14341,
         subclassesPicture = {
         },
@@ -2286,6 +2328,7 @@ return {
         des = "2201950",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -2330,7 +2373,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 437060,
         subclassesPicture = {
         },
@@ -2340,6 +2383,7 @@ return {
         des = "",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -2384,7 +2428,7 @@ return {
         icon = "icon/skill/10701_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 7040,
         subclassesPicture = {
         },
@@ -2394,6 +2438,7 @@ return {
         des = "2200740",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -2438,6 +2483,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 15191,
         subclassesPicture = {
         },
@@ -2491,7 +2537,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29120,
         subclassesPicture = {
         },
@@ -2501,6 +2547,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -2545,7 +2592,7 @@ return {
         icon = "icon/skill/10301_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 3180,
         subclassesPicture = {
         },
@@ -2555,6 +2602,7 @@ return {
         des = "2200380",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -2599,7 +2647,7 @@ return {
         icon = "icon/skill/10301_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 432040,
         subclassesPicture = {
         },
@@ -2609,6 +2657,7 @@ return {
         des = "2200340",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -2653,7 +2702,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46311,
         subclassesPicture = {
         },
@@ -2663,6 +2712,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -2707,7 +2757,7 @@ return {
         icon = "icon/skill/11301_icon11.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 12411,
         subclassesPicture = {
         },
@@ -2717,6 +2767,7 @@ return {
         des = "2201528",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -2761,7 +2812,7 @@ return {
         icon = "icon/skill/10301_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 516201,
         subclassesPicture = {
         },
@@ -2771,6 +2822,7 @@ return {
         des = "2200310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -2815,7 +2867,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46312,
         subclassesPicture = {
         },
@@ -2825,6 +2877,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -2869,6 +2922,7 @@ return {
         icon = "icon/skill/10210_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12951,
         subclassesPicture = {
         },
@@ -2922,7 +2976,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46313,
         subclassesPicture = {
         },
@@ -2932,6 +2986,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -2976,7 +3031,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46314,
         subclassesPicture = {
         },
@@ -2986,6 +3041,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -3030,7 +3086,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30960,
         subclassesPicture = {
         },
@@ -3040,6 +3096,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -3084,7 +3141,7 @@ return {
         icon = "icon/skill/10201_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 2030,
         subclassesPicture = {
         },
@@ -3094,6 +3151,7 @@ return {
         des = "2200230",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -3138,7 +3196,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46316,
         subclassesPicture = {
         },
@@ -3148,6 +3206,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -3192,6 +3251,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14461,
         subclassesPicture = {
         },
@@ -3245,7 +3305,7 @@ return {
         icon = "icon/skill/10801_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 8070,
         subclassesPicture = {
         },
@@ -3255,6 +3315,7 @@ return {
         des = "2200870",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -3294,12 +3355,12 @@ return {
         costAnger = 0,
         witchTimeType = 0,
         appearAction = "",
-        costEnergyShow = -1,
+        costEnergyShow = -20,
         level = 2,
         icon = "icon/skill/13301_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 15411,
         subclassesPicture = {
         },
@@ -3309,12 +3370,13 @@ return {
         des = "2203220",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
         gainEnergy = 0,
         useWarn = "",
-        cd = 5000,
+        cd = 7000,
         skillSubclasses = {
         },
         continuousAction = "",
@@ -3330,12 +3392,12 @@ return {
         },
         symbol = "",
         id = 105220,
-        costEnergy = 15,
+        costEnergy = 0,
         extraEnergy = 0,
         video = "",
         keyEvent = "down",
         witchTimeId = 0,
-        belongHero = "圆神凛祢",
+        belongHero = "园神凛祢",
         coverBuff = {
         },
         skillType = 2,
@@ -3353,7 +3415,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47110,
         subclassesPicture = {
         },
@@ -3363,6 +3425,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -3407,7 +3470,7 @@ return {
         icon = "icon/skill/10102_icon1.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 12001,
         subclassesPicture = {
         },
@@ -3417,6 +3480,7 @@ return {
         des = "2201310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
         },
         gainEnergy = 0,
@@ -3460,7 +3524,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 437073,
         subclassesPicture = {
         },
@@ -3470,6 +3534,7 @@ return {
         des = "2200810",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -3514,7 +3579,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47111,
         subclassesPicture = {
         },
@@ -3524,6 +3589,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -3568,7 +3634,7 @@ return {
         icon = "icon/skill/10302_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 12580,
         subclassesPicture = {
         },
@@ -3578,6 +3644,7 @@ return {
         des = "2201650",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -3622,7 +3689,7 @@ return {
         icon = "icon/skill/10201_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 2029,
         subclassesPicture = {
         },
@@ -3632,6 +3699,7 @@ return {
         des = "2200230",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -3676,7 +3744,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47112,
         subclassesPicture = {
         },
@@ -3686,6 +3754,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -3730,7 +3799,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 14462,
         subclassesPicture = {
         },
@@ -3740,6 +3809,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -3784,7 +3854,7 @@ return {
         icon = "icon/skill/10502_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 4096,
+        costLow = 0,
         first = 5520,
         subclassesPicture = {
         },
@@ -3794,6 +3864,7 @@ return {
         des = "",
         keyName = "H",
         extraFirst = 0,
+        keyCode = 4096,
         skillShow = {
             [1] = 0,
         },
@@ -3838,7 +3909,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47113,
         subclassesPicture = {
         },
@@ -3848,6 +3919,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -3892,7 +3964,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45110,
         subclassesPicture = {
         },
@@ -3902,6 +3974,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -3946,7 +4019,7 @@ return {
         icon = "icon/skill/11301_icon2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 13321,
         subclassesPicture = {
         },
@@ -3956,6 +4029,7 @@ return {
         des = "2201522",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -4000,7 +4074,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47115,
         subclassesPicture = {
         },
@@ -4010,6 +4084,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -4054,7 +4129,7 @@ return {
         icon = "icon/skill/10209_icon1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 512801,
         subclassesPicture = {
         },
@@ -4064,6 +4139,7 @@ return {
         des = "2201810",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -4108,6 +4184,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 3060,
         subclassesPicture = {
         },
@@ -4161,7 +4238,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 14463,
         subclassesPicture = {
         },
@@ -4171,6 +4248,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -4215,7 +4293,7 @@ return {
         icon = "icon/skill/12801_skillA.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 14601,
         subclassesPicture = {
         },
@@ -4225,6 +4303,7 @@ return {
         des = "2202810",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -4269,7 +4348,7 @@ return {
         icon = "icon/skill/10502_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 5500,
         subclassesPicture = {
         },
@@ -4279,6 +4358,7 @@ return {
         des = "",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -4323,7 +4403,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47117,
         subclassesPicture = {
         },
@@ -4333,6 +4413,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -4377,7 +4458,7 @@ return {
         icon = "icon/skill/13201_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 15341,
         subclassesPicture = {
         },
@@ -4387,6 +4468,7 @@ return {
         des = "2203350",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -4431,7 +4513,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 26020,
         subclassesPicture = {
         },
@@ -4441,6 +4523,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -4485,7 +4568,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47119,
         subclassesPicture = {
         },
@@ -4495,6 +4578,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -4539,7 +4623,7 @@ return {
         icon = "icon/skill/10101_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 1190,
         subclassesPicture = {
         },
@@ -4549,6 +4633,7 @@ return {
         des = "2200190",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -4593,7 +4678,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47120,
         subclassesPicture = {
         },
@@ -4603,6 +4688,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -4647,7 +4733,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 14464,
         subclassesPicture = {
         },
@@ -4657,6 +4743,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -4701,7 +4788,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 437083,
         subclassesPicture = {
         },
@@ -4711,6 +4798,7 @@ return {
         des = "2200810",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -4755,6 +4843,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 5510,
         subclassesPicture = {
         },
@@ -4808,7 +4897,7 @@ return {
         icon = "icon/skill/11501_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 13114,
         subclassesPicture = {
         },
@@ -4818,6 +4907,7 @@ return {
         des = "2202120",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -4862,7 +4952,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 29140,
         subclassesPicture = {
         },
@@ -4872,6 +4962,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -4916,7 +5007,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47122,
         subclassesPicture = {
         },
@@ -4926,6 +5017,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -4970,7 +5062,7 @@ return {
         icon = "icon/skill/11301_icon12.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 13451,
         subclassesPicture = {
         },
@@ -4980,6 +5072,7 @@ return {
         des = "2201531",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -5024,7 +5117,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47123,
         subclassesPicture = {
         },
@@ -5034,6 +5127,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -5078,7 +5172,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45120,
         subclassesPicture = {
         },
@@ -5088,6 +5182,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -5132,7 +5227,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47124,
         subclassesPicture = {
         },
@@ -5142,6 +5237,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -5186,7 +5282,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 14465,
         subclassesPicture = {
         },
@@ -5196,6 +5292,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -5240,6 +5337,7 @@ return {
         icon = "icon/skill/12701_icon6.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 15008,
         subclassesPicture = {
         },
@@ -5292,7 +5390,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47125,
         subclassesPicture = {
         },
@@ -5302,6 +5400,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -5346,7 +5445,7 @@ return {
         icon = "icon/skill/10111_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 10150,
         subclassesPicture = {
         },
@@ -5356,6 +5455,7 @@ return {
         des = "2201130",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -5400,7 +5500,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47126,
         subclassesPicture = {
         },
@@ -5410,6 +5510,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -5454,6 +5555,7 @@ return {
         icon = "icon/skill/11201_icon7.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12281,
         subclassesPicture = {
         },
@@ -5507,7 +5609,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47127,
         subclassesPicture = {
         },
@@ -5517,6 +5619,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -5561,7 +5664,7 @@ return {
         icon = "icon/skill/11301_icon7.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 512401,
         subclassesPicture = {
         },
@@ -5571,6 +5674,7 @@ return {
         des = "2201527",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -5615,7 +5719,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30981,
         subclassesPicture = {
         },
@@ -5625,6 +5729,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -5669,7 +5774,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 14466,
         subclassesPicture = {
         },
@@ -5679,6 +5784,7 @@ return {
         des = "",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -5723,7 +5829,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47129,
         subclassesPicture = {
         },
@@ -5733,6 +5839,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -5777,6 +5884,7 @@ return {
         icon = "icon/skill/10301_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 3250,
         subclassesPicture = {
         },
@@ -5830,7 +5938,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47130,
         subclassesPicture = {
         },
@@ -5840,6 +5948,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -5884,7 +5993,7 @@ return {
         icon = "icon/skill/10210_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 13571,
         subclassesPicture = {
         },
@@ -5894,6 +6003,7 @@ return {
         des = "2201980",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -5938,7 +6048,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47131,
         subclassesPicture = {
         },
@@ -5948,6 +6058,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -5992,7 +6103,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 42010,
         subclassesPicture = {
         },
@@ -6002,6 +6113,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -6046,7 +6158,7 @@ return {
         icon = "icon/skill/10413_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 14231,
         subclassesPicture = {
         },
@@ -6056,6 +6168,7 @@ return {
         des = "2202230",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -6100,7 +6213,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 14468,
         subclassesPicture = {
         },
@@ -6110,6 +6223,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -6154,7 +6268,7 @@ return {
         icon = "icon/skill/10601_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 6020,
         subclassesPicture = {
         },
@@ -6164,6 +6278,7 @@ return {
         des = "2200620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -6208,7 +6323,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23101,
         subclassesPicture = {
         },
@@ -6218,6 +6333,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -6262,7 +6378,7 @@ return {
         icon = "icon/skill/12701_icon4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 15071,
         subclassesPicture = {
         },
@@ -6272,6 +6388,7 @@ return {
         des = "2203050",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
         },
         gainEnergy = 0,
@@ -6315,7 +6432,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 42030,
         subclassesPicture = {
         },
@@ -6325,6 +6442,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -6369,7 +6487,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31540,
         subclassesPicture = {
         },
@@ -6379,6 +6497,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -6423,7 +6542,7 @@ return {
         icon = "icon/skill/10111_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 10300,
         subclassesPicture = {
         },
@@ -6433,6 +6552,7 @@ return {
         des = "",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -6477,7 +6597,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 42040,
         subclassesPicture = {
         },
@@ -6487,6 +6607,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -6531,7 +6652,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 42050,
         subclassesPicture = {
         },
@@ -6541,6 +6662,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -6585,7 +6707,7 @@ return {
         icon = "icon/skill/10209_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 512821,
         subclassesPicture = {
         },
@@ -6595,6 +6717,7 @@ return {
         des = "2201830",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -6639,7 +6762,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20401,
         subclassesPicture = {
         },
@@ -6649,6 +6772,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -6693,7 +6817,7 @@ return {
         icon = "icon/skill/10209_icon4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 12831,
         subclassesPicture = {
         },
@@ -6703,6 +6827,7 @@ return {
         des = "2201840",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -6747,7 +6872,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30990,
         subclassesPicture = {
         },
@@ -6757,6 +6882,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -6802,7 +6928,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 42070,
         subclassesPicture = {
         },
@@ -6812,6 +6938,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -6856,6 +6983,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 10520,
         subclassesPicture = {
         },
@@ -6909,7 +7037,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26030,
         subclassesPicture = {
         },
@@ -6919,6 +7047,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -6963,7 +7092,7 @@ return {
         icon = "icon/skill/10302_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 601030,
         subclassesPicture = {
         },
@@ -6973,6 +7102,7 @@ return {
         des = "2201660",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -7017,7 +7147,7 @@ return {
         icon = "icon/skill/11701_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 13711,
         subclassesPicture = {
         },
@@ -7027,6 +7157,7 @@ return {
         des = "2202420",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -7071,7 +7202,7 @@ return {
         icon = "icon/skill/10110_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 470043,
         subclassesPicture = {
         },
@@ -7081,6 +7212,7 @@ return {
         des = "2201040",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -7125,7 +7257,7 @@ return {
         icon = "icon/skill/10101_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 101,
         subclassesPicture = {
         },
@@ -7135,6 +7267,7 @@ return {
         des = "2200110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -7179,7 +7312,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26031,
         subclassesPicture = {
         },
@@ -7189,6 +7322,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -7233,6 +7367,7 @@ return {
         icon = "icon/skill/10701_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 7050,
         subclassesPicture = {
         },
@@ -7286,6 +7421,7 @@ return {
         icon = "icon/skill/13101_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 15200,
         subclassesPicture = {
         },
@@ -7339,7 +7475,7 @@ return {
         icon = "icon/skill/11301_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 12421,
         subclassesPicture = {
         },
@@ -7349,6 +7485,7 @@ return {
         des = "2201529",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -7393,7 +7530,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31550,
         subclassesPicture = {
         },
@@ -7403,6 +7540,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -7447,7 +7585,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45140,
         subclassesPicture = {
         },
@@ -7457,6 +7595,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -7502,7 +7641,7 @@ return {
         icon = "icon/skill/10210_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 12961,
         subclassesPicture = {
         },
@@ -7512,6 +7651,7 @@ return {
         des = "2201970",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -7556,7 +7696,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45141,
         subclassesPicture = {
         },
@@ -7566,6 +7706,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -7611,7 +7752,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31440,
         subclassesPicture = {
         },
@@ -7621,6 +7762,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -7665,7 +7807,7 @@ return {
         icon = "icon/skill/10209_icon4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 512831,
         subclassesPicture = {
         },
@@ -7675,6 +7817,7 @@ return {
         des = "2201840",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -7719,7 +7862,7 @@ return {
         icon = "icon/skill/10413_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 13211,
         subclassesPicture = {
         },
@@ -7729,6 +7872,7 @@ return {
         des = "2202210",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -7773,7 +7917,7 @@ return {
         icon = "icon/skill/12301_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 13840,
         subclassesPicture = {
         },
@@ -7783,6 +7927,7 @@ return {
         des = "2202650",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -7827,7 +7972,7 @@ return {
         icon = "icon/skill/11301_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 512421,
         subclassesPicture = {
         },
@@ -7837,6 +7982,7 @@ return {
         des = "2201529",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -7881,7 +8027,7 @@ return {
         icon = "icon/skill/10201_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 2032,
         subclassesPicture = {
         },
@@ -7891,6 +8037,7 @@ return {
         des = "2200240",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -7935,7 +8082,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31001,
         subclassesPicture = {
         },
@@ -7945,6 +8092,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -7989,7 +8137,7 @@ return {
         icon = "icon/skill/12501_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 14467,
         subclassesPicture = {
         },
@@ -7999,6 +8147,7 @@ return {
         des = "2202780",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -8043,7 +8192,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601052,
         subclassesPicture = {
         },
@@ -8053,6 +8202,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -8097,7 +8247,7 @@ return {
         icon = "icon/skill/10801_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 8080,
         subclassesPicture = {
         },
@@ -8107,6 +8257,7 @@ return {
         des = "2200880",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -8151,7 +8302,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601053,
         subclassesPicture = {
         },
@@ -8161,6 +8312,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -8200,12 +8352,12 @@ return {
         costAnger = 0,
         witchTimeType = 0,
         appearAction = "",
-        costEnergyShow = -1,
+        costEnergyShow = 20,
         level = 2,
         icon = "icon/skill/13301_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 1,
         first = 15421,
         subclassesPicture = {
         },
@@ -8215,6 +8367,7 @@ return {
         des = "2203230",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -8236,12 +8389,12 @@ return {
         },
         symbol = "",
         id = 105230,
-        costEnergy = 20,
+        costEnergy = 0,
         extraEnergy = 0,
         video = "",
         keyEvent = "down",
         witchTimeId = 0,
-        belongHero = "圆神凛祢",
+        belongHero = "园神凛祢",
         coverBuff = {
         },
         skillType = 3,
@@ -8259,7 +8412,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601054,
         subclassesPicture = {
         },
@@ -8269,6 +8422,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -8313,7 +8467,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27210,
         subclassesPicture = {
         },
@@ -8323,6 +8477,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -8367,7 +8522,7 @@ return {
         icon = "icon/skill/10102_icon2.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 12011,
         subclassesPicture = {
         },
@@ -8377,6 +8532,7 @@ return {
         des = "2201330",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
         },
         gainEnergy = 0,
@@ -8420,7 +8576,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30510,
         subclassesPicture = {
         },
@@ -8430,6 +8586,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -8474,7 +8631,7 @@ return {
         icon = "icon/skill/10302_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 12590,
         subclassesPicture = {
         },
@@ -8484,6 +8641,7 @@ return {
         des = "2201660",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -8528,7 +8686,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601051,
         subclassesPicture = {
         },
@@ -8538,6 +8696,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -8582,7 +8741,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31560,
         subclassesPicture = {
         },
@@ -8592,6 +8751,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -8636,7 +8796,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45150,
         subclassesPicture = {
         },
@@ -8646,6 +8806,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -8690,7 +8851,7 @@ return {
         icon = "icon/skill/11301_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 13331,
         subclassesPicture = {
         },
@@ -8700,6 +8861,7 @@ return {
         des = "2201523",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -8745,7 +8907,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31450,
         subclassesPicture = {
         },
@@ -8755,6 +8917,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -8799,7 +8962,7 @@ return {
         icon = "icon/skill/10209_icon5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 512841,
         subclassesPicture = {
         },
@@ -8809,6 +8972,7 @@ return {
         des = "2201850",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -8853,7 +9017,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20402,
         subclassesPicture = {
         },
@@ -8863,6 +9027,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -8907,7 +9072,7 @@ return {
         icon = "icon/skill/10301_skillE.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 3070,
         subclassesPicture = {
         },
@@ -8917,6 +9082,7 @@ return {
         des = "2200370",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -8963,7 +9129,7 @@ return {
         icon = "icon/skill/12801_skillB.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 14631,
         subclassesPicture = {
         },
@@ -8973,6 +9139,7 @@ return {
         des = "2202820",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
             [1] = 0,
         },
@@ -9017,7 +9184,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31010,
         subclassesPicture = {
         },
@@ -9027,6 +9194,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -9071,7 +9239,7 @@ return {
         icon = "icon/skill/10110_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 10011,
         subclassesPicture = {
         },
@@ -9081,6 +9249,7 @@ return {
         des = "2201010",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -9125,6 +9294,7 @@ return {
         icon = "icon/skill/13201_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 15351,
         subclassesPicture = {
         },
@@ -9178,7 +9348,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 26040,
         subclassesPicture = {
         },
@@ -9188,6 +9358,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -9232,6 +9403,7 @@ return {
         icon = "icon/skill/10302_skillD.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 601060,
         subclassesPicture = {
         },
@@ -9285,7 +9457,7 @@ return {
         icon = "icon/skill/10110_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 470060,
         subclassesPicture = {
         },
@@ -9295,6 +9467,7 @@ return {
         des = "2201060",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -9339,7 +9512,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27220,
         subclassesPicture = {
         },
@@ -9349,6 +9522,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -9393,7 +9567,7 @@ return {
         icon = "icon/skill/11501_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 13121,
         subclassesPicture = {
         },
@@ -9403,6 +9577,7 @@ return {
         des = "2202130",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -9447,6 +9622,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13461,
         subclassesPicture = {
         },
@@ -9500,6 +9676,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 601070,
         subclassesPicture = {
         },
@@ -9553,7 +9730,7 @@ return {
         icon = "icon/skill/12201_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 14101,
         subclassesPicture = {
         },
@@ -9563,6 +9740,7 @@ return {
         des = "2202510",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -9607,7 +9785,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45160,
         subclassesPicture = {
         },
@@ -9617,6 +9795,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -9661,7 +9840,7 @@ return {
         icon = "icon/skill/10111_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 10190,
         subclassesPicture = {
         },
@@ -9671,6 +9850,7 @@ return {
         des = "2201140",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -9715,6 +9895,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12271,
         subclassesPicture = {
         },
@@ -9768,7 +9949,7 @@ return {
         icon = "icon/skill/11301_icon10.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 512441,
         subclassesPicture = {
         },
@@ -9778,6 +9959,7 @@ return {
         des = "2201532",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 1,
         },
@@ -9822,7 +10004,7 @@ return {
         icon = "icon/skill/11201_icon2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 12711,
         subclassesPicture = {
         },
@@ -9832,6 +10014,7 @@ return {
         des = "2201420",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -9876,6 +10059,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 470070,
         subclassesPicture = {
         },
@@ -9928,6 +10112,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 3260,
         subclassesPicture = {
         },
@@ -9981,7 +10166,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 26046,
         subclassesPicture = {
         },
@@ -9991,6 +10176,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -10035,7 +10221,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30530,
         subclassesPicture = {
         },
@@ -10045,6 +10231,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -10089,7 +10276,7 @@ return {
         icon = "icon/skill/10413_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 14241,
         subclassesPicture = {
         },
@@ -10099,6 +10286,7 @@ return {
         des = "2202240",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -10143,7 +10331,7 @@ return {
         icon = "icon/skill/10401_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 433010,
         subclassesPicture = {
         },
@@ -10153,6 +10341,7 @@ return {
         des = "2200410",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -10197,7 +10386,7 @@ return {
         icon = "icon/skill/10601_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 6030,
         subclassesPicture = {
         },
@@ -10207,6 +10396,7 @@ return {
         des = "2200630",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -10251,7 +10441,7 @@ return {
         icon = "icon/skill/12701_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 15081,
         subclassesPicture = {
         },
@@ -10261,6 +10451,7 @@ return {
         des = "2203070",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
         },
         gainEnergy = 0,
@@ -10304,6 +10495,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 10292,
         subclassesPicture = {
         },
@@ -10357,7 +10549,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30410,
         subclassesPicture = {
         },
@@ -10367,6 +10559,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -10411,7 +10604,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45220,
         subclassesPicture = {
         },
@@ -10421,6 +10614,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -10466,7 +10660,7 @@ return {
         icon = "icon/skill/11301_icon1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 12301,
         subclassesPicture = {
         },
@@ -10476,6 +10670,7 @@ return {
         des = "2201520",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -10520,7 +10715,7 @@ return {
         icon = "icon/skill/10209_icon7.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 512863,
         subclassesPicture = {
         },
@@ -10530,6 +10725,7 @@ return {
         des = "2201870",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -10574,7 +10770,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20403,
         subclassesPicture = {
         },
@@ -10584,6 +10780,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -10628,7 +10825,7 @@ return {
         icon = "icon/skill/10209_icon5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 12841,
         subclassesPicture = {
         },
@@ -10638,6 +10835,7 @@ return {
         des = "2201850",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -10682,7 +10880,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45240,
         subclassesPicture = {
         },
@@ -10692,6 +10890,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -10736,7 +10935,7 @@ return {
         icon = "icon/skill/11301_icon12.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 512451,
         subclassesPicture = {
         },
@@ -10746,6 +10945,7 @@ return {
         des = "2201531",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -10790,7 +10990,7 @@ return {
         icon = "icon/skill/10111_skillAB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 10525,
         subclassesPicture = {
         },
@@ -10800,6 +11000,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -10844,7 +11045,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45250,
         subclassesPicture = {
         },
@@ -10854,6 +11055,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -10898,7 +11100,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 26050,
         subclassesPicture = {
         },
@@ -10908,6 +11110,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -10952,7 +11155,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601110,
         subclassesPicture = {
         },
@@ -10962,6 +11165,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -11006,7 +11210,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46610,
         subclassesPicture = {
         },
@@ -11016,6 +11220,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -11060,7 +11265,7 @@ return {
         icon = "icon/skill/11701_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 13720,
         subclassesPicture = {
         },
@@ -11070,6 +11275,7 @@ return {
         des = "2202430",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -11114,6 +11320,7 @@ return {
         icon = "icon/angleskill/110010_angleskillA.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 470080,
         subclassesPicture = {
         },
@@ -11166,7 +11373,7 @@ return {
         icon = "icon/skill/10101_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 202,
         subclassesPicture = {
         },
@@ -11176,6 +11383,7 @@ return {
         des = "2200120",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -11220,7 +11428,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45270,
         subclassesPicture = {
         },
@@ -11230,6 +11438,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -11274,7 +11483,7 @@ return {
         icon = "icon/skill/10210_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 14361,
         subclassesPicture = {
         },
@@ -11284,6 +11493,7 @@ return {
         des = "2201970",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -11328,7 +11538,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46612,
         subclassesPicture = {
         },
@@ -11338,6 +11548,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -11382,6 +11593,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 7060,
         subclassesPicture = {
         },
@@ -11435,7 +11647,7 @@ return {
         icon = "icon/skill/13101_skillC1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 15210,
         subclassesPicture = {
         },
@@ -11445,6 +11657,7 @@ return {
         des = "2203190",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -11489,7 +11702,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46613,
         subclassesPicture = {
         },
@@ -11499,6 +11712,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -11543,7 +11757,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45290,
         subclassesPicture = {
         },
@@ -11553,6 +11767,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -11597,7 +11812,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 42520,
         subclassesPicture = {
         },
@@ -11607,6 +11822,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -11651,7 +11867,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46614,
         subclassesPicture = {
         },
@@ -11661,6 +11877,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -11705,7 +11922,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45300,
         subclassesPicture = {
         },
@@ -11715,6 +11932,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -11759,7 +11977,7 @@ return {
         icon = "icon/skill/11301_icon9.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 12431,
         subclassesPicture = {
         },
@@ -11769,6 +11987,7 @@ return {
         des = "2201530",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -11813,7 +12032,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46615,
         subclassesPicture = {
         },
@@ -11823,6 +12042,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -11867,7 +12087,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45310,
         subclassesPicture = {
         },
@@ -11877,6 +12097,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -11922,7 +12143,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 42540,
         subclassesPicture = {
         },
@@ -11932,6 +12153,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -11976,6 +12198,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12962,
         subclassesPicture = {
         },
@@ -12029,7 +12252,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45320,
         subclassesPicture = {
         },
@@ -12039,6 +12262,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -12084,7 +12308,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46617,
         subclassesPicture = {
         },
@@ -12094,6 +12318,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -12138,7 +12363,7 @@ return {
         icon = "icon/skill/10413_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 13221,
         subclassesPicture = {
         },
@@ -12148,6 +12373,7 @@ return {
         des = "2202220",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -12192,7 +12418,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46618,
         subclassesPicture = {
         },
@@ -12202,6 +12428,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -12246,6 +12473,7 @@ return {
         icon = "icon/skill/12301_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13850,
         subclassesPicture = {
         },
@@ -12299,6 +12527,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512461,
         subclassesPicture = {
         },
@@ -12352,7 +12581,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46619,
         subclassesPicture = {
         },
@@ -12362,6 +12591,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -12406,6 +12636,7 @@ return {
         icon = "icon/skill/10201_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 2031,
         subclassesPicture = {
         },
@@ -12459,7 +12690,7 @@ return {
         icon = "icon/skill/10302_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 601140,
         subclassesPicture = {
         },
@@ -12469,6 +12700,7 @@ return {
         des = "2201660",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -12513,7 +12745,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46620,
         subclassesPicture = {
         },
@@ -12523,6 +12755,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -12567,6 +12800,7 @@ return {
         icon = "icon/skill/10102_icon2.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 512051,
         subclassesPicture = {
         },
@@ -12619,7 +12853,7 @@ return {
         icon = "icon/skill/13301_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 15431,
         subclassesPicture = {
         },
@@ -12629,12 +12863,13 @@ return {
         des = "2203240",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
         gainEnergy = 0,
         useWarn = "",
-        cd = 10000,
+        cd = 11000,
         skillSubclasses = {
         },
         continuousAction = "",
@@ -12656,7 +12891,7 @@ return {
         video = "",
         keyEvent = "down",
         witchTimeId = 0,
-        belongHero = "圆神凛祢",
+        belongHero = "园神凛祢",
         coverBuff = {
         },
         skillType = 4,
@@ -12674,6 +12909,7 @@ return {
         icon = "icon/skill/10102_icon1.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 12021,
         subclassesPicture = {
         },
@@ -12726,7 +12962,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46622,
         subclassesPicture = {
         },
@@ -12736,6 +12972,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -12780,7 +13017,7 @@ return {
         icon = "icon/skill/10801_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 461110,
         subclassesPicture = {
         },
@@ -12790,6 +13027,7 @@ return {
         des = "2200810",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -12834,6 +13072,7 @@ return {
         icon = "icon/skill/10302_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12591,
         subclassesPicture = {
         },
@@ -12887,7 +13126,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29210,
         subclassesPicture = {
         },
@@ -12897,6 +13136,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -12941,7 +13181,7 @@ return {
         icon = "icon/skill/10401_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 433070,
         subclassesPicture = {
         },
@@ -12951,6 +13191,7 @@ return {
         des = "2200420",
         keyName = "C",
         extraFirst = 4020,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -12995,7 +13236,7 @@ return {
         icon = "icon/skill/10601_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 6035,
         subclassesPicture = {
         },
@@ -13005,6 +13246,7 @@ return {
         des = "2200630",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -13049,7 +13291,7 @@ return {
         icon = "icon/skill/11401_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 13001,
         subclassesPicture = {
         },
@@ -13059,6 +13301,7 @@ return {
         des = "2202010",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -13103,6 +13346,7 @@ return {
         icon = "icon/skill/10302_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 601130,
         subclassesPicture = {
         },
@@ -13156,7 +13400,7 @@ return {
         icon = "icon/skill/11301_icon4.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 13341,
         subclassesPicture = {
         },
@@ -13166,6 +13410,7 @@ return {
         des = "2201525",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 1,
         },
@@ -13210,7 +13455,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30430,
         subclassesPicture = {
         },
@@ -13220,6 +13465,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -13264,7 +13510,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30433,
         subclassesPicture = {
         },
@@ -13274,6 +13520,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -13318,7 +13565,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20404,
         subclassesPicture = {
         },
@@ -13328,6 +13575,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -13372,7 +13620,7 @@ return {
         icon = "icon/skill/10301_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 3080,
         subclassesPicture = {
         },
@@ -13382,6 +13630,7 @@ return {
         des = "2200380",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -13426,6 +13675,7 @@ return {
         icon = "0",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 14611,
         subclassesPicture = {
         },
@@ -13479,7 +13729,7 @@ return {
         icon = "icon/skill/10110_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 10020,
         subclassesPicture = {
         },
@@ -13489,6 +13739,7 @@ return {
         des = "2201020",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -13533,7 +13784,7 @@ return {
         icon = "icon/skill/10209_icon9.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 0,
         subclassesPicture = {
         },
@@ -13543,6 +13794,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -13587,7 +13839,7 @@ return {
         icon = "icon/skill/13201_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 15361,
         subclassesPicture = {
         },
@@ -13597,6 +13849,7 @@ return {
         des = "2203370",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -13641,7 +13894,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 26060,
         subclassesPicture = {
         },
@@ -13651,6 +13904,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -13696,7 +13950,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601150,
         subclassesPicture = {
         },
@@ -13706,6 +13960,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -13750,7 +14005,7 @@ return {
         icon = "icon/skill/10209_icon1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 512871,
         subclassesPicture = {
         },
@@ -13760,6 +14015,7 @@ return {
         des = "2201810",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -13804,6 +14060,7 @@ return {
         icon = "icon/skill/10102_icon7.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 512061,
         subclassesPicture = {
         },
@@ -13856,7 +14113,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 26061,
         subclassesPicture = {
         },
@@ -13866,6 +14123,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -13911,7 +14169,7 @@ return {
         icon = "icon/skill/10801_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 461160,
         subclassesPicture = {
         },
@@ -13921,6 +14179,7 @@ return {
         des = "2200820",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -13965,7 +14224,7 @@ return {
         icon = "icon/skill/11501_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 13131,
         subclassesPicture = {
         },
@@ -13975,6 +14234,7 @@ return {
         des = "2202140",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -14019,7 +14279,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29220,
         subclassesPicture = {
         },
@@ -14029,6 +14289,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -14073,7 +14334,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46410,
         subclassesPicture = {
         },
@@ -14083,6 +14344,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -14127,7 +14389,7 @@ return {
         icon = "icon/skill/10401_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 433080,
         subclassesPicture = {
         },
@@ -14137,6 +14399,7 @@ return {
         des = "2200430",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 1,
         },
@@ -14181,7 +14444,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29221,
         subclassesPicture = {
         },
@@ -14191,6 +14454,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -14235,7 +14499,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46411,
         subclassesPicture = {
         },
@@ -14245,6 +14509,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -14289,7 +14554,7 @@ return {
         icon = "icon/skill/12201_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 14111,
         subclassesPicture = {
         },
@@ -14299,6 +14564,7 @@ return {
         des = "2202520",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -14343,7 +14609,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29222,
         subclassesPicture = {
         },
@@ -14353,6 +14619,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -14397,7 +14664,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46413,
         subclassesPicture = {
         },
@@ -14407,6 +14674,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -14451,7 +14719,7 @@ return {
         icon = "icon/skill/10501_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 5001,
         subclassesPicture = {
         },
@@ -14461,6 +14729,7 @@ return {
         des = "2200510",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -14505,7 +14774,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46414,
         subclassesPicture = {
         },
@@ -14515,6 +14784,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -14559,7 +14829,7 @@ return {
         icon = "icon/skill/10111_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 10200,
         subclassesPicture = {
         },
@@ -14569,6 +14839,7 @@ return {
         des = "2201150",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -14613,7 +14884,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 12241,
         subclassesPicture = {
         },
@@ -14623,6 +14894,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -14667,7 +14939,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30320,
         subclassesPicture = {
         },
@@ -14677,6 +14949,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -14721,6 +14994,7 @@ return {
         icon = "icon/skill/10102_icon7.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 512071,
         subclassesPicture = {
         },
@@ -14773,7 +15047,7 @@ return {
         icon = "icon/skill/10301_skillE.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 3270,
         subclassesPicture = {
         },
@@ -14783,6 +15057,7 @@ return {
         des = "2200370",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -14829,7 +15104,7 @@ return {
         icon = "icon/skill/11601_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 13601,
         subclassesPicture = {
         },
@@ -14839,6 +15114,7 @@ return {
         des = "2202310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -14883,7 +15159,7 @@ return {
         icon = "icon/skill/10801_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 461190,
         subclassesPicture = {
         },
@@ -14893,6 +15169,7 @@ return {
         des = "2200830",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -14937,7 +15214,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29230,
         subclassesPicture = {
         },
@@ -14947,6 +15224,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -14992,7 +15270,7 @@ return {
         icon = "icon/skill/10401_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 433090,
         subclassesPicture = {
         },
@@ -15002,6 +15280,7 @@ return {
         des = "2200440",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -15046,7 +15325,7 @@ return {
         icon = "icon/skill/10601_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 6040,
         subclassesPicture = {
         },
@@ -15056,6 +15335,7 @@ return {
         des = "2200640",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -15100,7 +15380,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29231,
         subclassesPicture = {
         },
@@ -15110,6 +15390,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -15155,6 +15436,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 15091,
         subclassesPicture = {
         },
@@ -15207,7 +15489,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29232,
         subclassesPicture = {
         },
@@ -15217,6 +15499,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -15262,7 +15545,7 @@ return {
         icon = "icon/skill/11301_icon5.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 12311,
         subclassesPicture = {
         },
@@ -15272,6 +15555,7 @@ return {
         des = "2201521",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -15316,7 +15600,7 @@ return {
         icon = "icon/skill/10210_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 512901,
         subclassesPicture = {
         },
@@ -15326,6 +15610,7 @@ return {
         des = "2201910",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -15370,6 +15655,7 @@ return {
         icon = "icon/skill/10209_icon6.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12862,
         subclassesPicture = {
         },
@@ -15423,7 +15709,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30330,
         subclassesPicture = {
         },
@@ -15433,6 +15719,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -15477,7 +15764,7 @@ return {
         icon = "icon/skill/11701_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 13730,
         subclassesPicture = {
         },
@@ -15487,6 +15774,7 @@ return {
         des = "2202440",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -15531,7 +15819,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30331,
         subclassesPicture = {
         },
@@ -15541,6 +15829,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -15585,7 +15874,7 @@ return {
         icon = "icon/skill/10101_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 300,
         subclassesPicture = {
         },
@@ -15595,6 +15884,7 @@ return {
         des = "2200130",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -15639,7 +15929,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30332,
         subclassesPicture = {
         },
@@ -15649,6 +15939,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -15693,7 +15984,7 @@ return {
         icon = "icon/skill/10701_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 7010,
         subclassesPicture = {
         },
@@ -15703,6 +15994,7 @@ return {
         des = "2200770",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -15747,7 +16039,7 @@ return {
         icon = "icon/skill/13101_skillC2.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 15220,
         subclassesPicture = {
         },
@@ -15757,6 +16049,7 @@ return {
         des = "2203191",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -15801,7 +16094,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30210,
         subclassesPicture = {
         },
@@ -15811,6 +16104,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -15855,7 +16149,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29240,
         subclassesPicture = {
         },
@@ -15865,6 +16159,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -15909,7 +16204,7 @@ return {
         icon = "icon/skill/10602_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 11001,
         subclassesPicture = {
         },
@@ -15919,6 +16214,7 @@ return {
         des = "2201210",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -15963,7 +16259,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 433100,
         subclassesPicture = {
         },
@@ -15973,6 +16269,7 @@ return {
         des = "",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -16017,7 +16314,7 @@ return {
         icon = "icon/skill/11301_icon10.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 12441,
         subclassesPicture = {
         },
@@ -16027,6 +16324,7 @@ return {
         des = "2201532",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 1,
         },
@@ -16071,7 +16369,7 @@ return {
         icon = "icon/skill/10101_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 311,
         subclassesPicture = {
         },
@@ -16081,6 +16379,7 @@ return {
         des = "2200130",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 8,
         },
@@ -16125,7 +16424,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46020,
         subclassesPicture = {
         },
@@ -16135,6 +16434,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -16179,7 +16479,7 @@ return {
         icon = "icon/skill/10210_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 12971,
         subclassesPicture = {
         },
@@ -16189,6 +16489,7 @@ return {
         des = "2201980",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -16233,7 +16534,7 @@ return {
         icon = "icon/skill/10210_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 512911,
         subclassesPicture = {
         },
@@ -16243,6 +16544,7 @@ return {
         des = "2201920",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -16287,7 +16589,7 @@ return {
         icon = "icon/skill/10413_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 13231,
         subclassesPicture = {
         },
@@ -16297,6 +16599,7 @@ return {
         des = "2202230",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -16341,7 +16644,7 @@ return {
         icon = "icon/skill/12301_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 13860,
         subclassesPicture = {
         },
@@ -16351,6 +16654,7 @@ return {
         des = "2202670",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -16395,7 +16699,7 @@ return {
         icon = "icon/skill/10101_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 316,
         subclassesPicture = {
         },
@@ -16405,6 +16709,7 @@ return {
         des = "2200130",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 8,
         },
@@ -16449,6 +16754,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 2033,
         subclassesPicture = {
         },
@@ -16502,7 +16808,7 @@ return {
         icon = "icon/skill/12401_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 14501,
         subclassesPicture = {
         },
@@ -16512,6 +16818,7 @@ return {
         des = "2202910",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -16556,7 +16863,7 @@ return {
         icon = "icon/skill/10102_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 512091,
         subclassesPicture = {
         },
@@ -16566,6 +16873,7 @@ return {
         des = "2201350",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
         },
         gainEnergy = 0,
@@ -16609,7 +16917,7 @@ return {
         icon = "icon/skill/13301_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 15441,
         subclassesPicture = {
         },
@@ -16619,6 +16927,7 @@ return {
         des = "2203250",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -16645,7 +16954,7 @@ return {
         video = "",
         keyEvent = "down",
         witchTimeId = 25,
-        belongHero = "圆神凛祢",
+        belongHero = "园神凛祢",
         coverBuff = {
         },
         skillType = 6,
@@ -16663,6 +16972,7 @@ return {
         icon = "icon/skill/10102_icon6.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 12031,
         subclassesPicture = {
         },
@@ -16715,6 +17025,7 @@ return {
         icon = "icon/skill/10301_skillC.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 461210,
         subclassesPicture = {
         },
@@ -16768,7 +17079,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30220,
         subclassesPicture = {
         },
@@ -16778,6 +17089,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -16822,7 +17134,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 433110,
         subclassesPicture = {
         },
@@ -16832,6 +17144,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -16876,7 +17189,7 @@ return {
         icon = "icon/skill/11401_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 13011,
         subclassesPicture = {
         },
@@ -16886,6 +17199,7 @@ return {
         des = "2202020",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -16930,7 +17244,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601220,
         subclassesPicture = {
         },
@@ -16940,6 +17254,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -16984,7 +17299,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31610,
         subclassesPicture = {
         },
@@ -16994,6 +17309,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -17038,7 +17354,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46030,
         subclassesPicture = {
         },
@@ -17048,6 +17364,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -17092,7 +17409,7 @@ return {
         icon = "icon/skill/11301_icon6.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 13351,
         subclassesPicture = {
         },
@@ -17102,6 +17419,7 @@ return {
         des = "2201524",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -17146,7 +17464,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601222,
         subclassesPicture = {
         },
@@ -17156,6 +17474,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -17200,7 +17519,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601223,
         subclassesPicture = {
         },
@@ -17210,6 +17529,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -17254,7 +17574,7 @@ return {
         icon = "icon/skill/10210_extraskillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 512921,
         subclassesPicture = {
         },
@@ -17264,6 +17584,7 @@ return {
         des = "2201930",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -17308,6 +17629,7 @@ return {
         icon = "icon/skill/12801_icon1.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 14621,
         subclassesPicture = {
         },
@@ -17361,7 +17683,7 @@ return {
         icon = "icon/skill/10110_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 10030,
         subclassesPicture = {
         },
@@ -17371,6 +17693,7 @@ return {
         des = "2201030",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -17415,6 +17738,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 15362,
         subclassesPicture = {
         },
@@ -17468,7 +17792,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26080,
         subclassesPicture = {
         },
@@ -17478,6 +17802,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -17522,7 +17847,7 @@ return {
         icon = "icon/skill/10302_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 601240,
         subclassesPicture = {
         },
@@ -17532,6 +17857,7 @@ return {
         des = "2201660",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -17576,6 +17902,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512092,
         subclassesPicture = {
         },
@@ -17628,7 +17955,7 @@ return {
         icon = "icon/skill/10208_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 12601,
         subclassesPicture = {
         },
@@ -17638,6 +17965,7 @@ return {
         des = "2201710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -17682,7 +18010,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26081,
         subclassesPicture = {
         },
@@ -17692,6 +18020,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -17736,6 +18065,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 461220,
         subclassesPicture = {
         },
@@ -17789,7 +18119,7 @@ return {
         icon = "icon/skill/11501_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 13141,
         subclassesPicture = {
         },
@@ -17799,6 +18129,7 @@ return {
         des = "2202150",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -17843,7 +18174,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26082,
         subclassesPicture = {
         },
@@ -17853,6 +18184,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -17897,7 +18229,7 @@ return {
         icon = "icon/skill/10401_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 433120,
         subclassesPicture = {
         },
@@ -17907,6 +18239,7 @@ return {
         des = "2200410",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -17951,6 +18284,7 @@ return {
         icon = "icon/skill/10302_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 601230,
         subclassesPicture = {
         },
@@ -18004,7 +18338,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31620,
         subclassesPicture = {
         },
@@ -18014,6 +18348,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -18058,7 +18393,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46040,
         subclassesPicture = {
         },
@@ -18068,6 +18403,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -18112,7 +18448,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26083,
         subclassesPicture = {
         },
@@ -18122,6 +18458,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -18166,7 +18503,7 @@ return {
         icon = "icon/skill/10501_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 5080,
         subclassesPicture = {
         },
@@ -18176,6 +18513,7 @@ return {
         des = "2200520",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -18220,7 +18558,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30110,
         subclassesPicture = {
         },
@@ -18230,6 +18568,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -18274,7 +18613,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31460,
         subclassesPicture = {
         },
@@ -18284,6 +18623,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -18328,7 +18668,7 @@ return {
         icon = "icon/skill/10111_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 10230,
         subclassesPicture = {
         },
@@ -18338,6 +18678,7 @@ return {
         des = "2201160",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -18382,7 +18723,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 12291,
         subclassesPicture = {
         },
@@ -18392,6 +18733,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -18436,7 +18778,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 446070,
         subclassesPicture = {
         },
@@ -18446,6 +18788,7 @@ return {
         des = "2200720",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -18490,7 +18833,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20201,
         subclassesPicture = {
         },
@@ -18500,6 +18843,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -18544,7 +18888,7 @@ return {
         icon = "icon/skill/11201_icon4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 12731,
         subclassesPicture = {
         },
@@ -18554,6 +18898,7 @@ return {
         des = "2201440",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -18598,7 +18943,7 @@ return {
         icon = "icon/skill/10501_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 5060,
         subclassesPicture = {
         },
@@ -18608,6 +18953,7 @@ return {
         des = "2200521",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -18652,6 +18998,7 @@ return {
         icon = "icon/skill/10102_icon8.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512100,
         subclassesPicture = {
         },
@@ -18704,7 +19051,7 @@ return {
         icon = "icon/skill/10301_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 3280,
         subclassesPicture = {
         },
@@ -18714,6 +19061,7 @@ return {
         des = "2200380",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -18758,7 +19106,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20204,
         subclassesPicture = {
         },
@@ -18768,6 +19116,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -18812,7 +19161,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 27310,
         subclassesPicture = {
         },
@@ -18822,6 +19171,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -18866,7 +19216,7 @@ return {
         icon = "icon/skill/11601_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 13611,
         subclassesPicture = {
         },
@@ -18876,6 +19226,7 @@ return {
         des = "2202320",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -18920,7 +19271,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 12292,
         subclassesPicture = {
         },
@@ -18930,6 +19281,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -18974,6 +19326,7 @@ return {
         icon = "icon/skill/10413_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14261,
         subclassesPicture = {
         },
@@ -19027,7 +19380,7 @@ return {
         icon = "icon/skill/10501_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 5070,
         subclassesPicture = {
         },
@@ -19037,6 +19390,7 @@ return {
         des = "2200522",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -19081,6 +19435,7 @@ return {
         icon = "icon/skill/10601_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 6050,
         subclassesPicture = {
         },
@@ -19134,6 +19489,7 @@ return {
         icon = "icon/skill/12701_icon8.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 15100,
         subclassesPicture = {
         },
@@ -19186,7 +19542,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31631,
         subclassesPicture = {
         },
@@ -19196,6 +19552,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -19240,7 +19597,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46050,
         subclassesPicture = {
         },
@@ -19250,6 +19607,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -19294,7 +19652,7 @@ return {
         icon = "icon/skill/10901_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 469028,
         subclassesPicture = {
         },
@@ -19304,6 +19662,7 @@ return {
         des = "2200920",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -19348,7 +19707,7 @@ return {
         icon = "icon/skill/11301_icon2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 12321,
         subclassesPicture = {
         },
@@ -19358,6 +19717,7 @@ return {
         des = "2201522",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -19402,7 +19762,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31470,
         subclassesPicture = {
         },
@@ -19412,6 +19772,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -19459,7 +19820,7 @@ return {
         icon = "icon/skill/10210_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 512941,
         subclassesPicture = {
         },
@@ -19469,6 +19830,7 @@ return {
         des = "2201950",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -19513,7 +19875,7 @@ return {
         icon = "icon/skill/10209_icon7.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 12863,
         subclassesPicture = {
         },
@@ -19523,6 +19885,7 @@ return {
         des = "2201870",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -19567,7 +19930,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31110,
         subclassesPicture = {
         },
@@ -19577,6 +19940,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -19621,7 +19985,7 @@ return {
         icon = "icon/skill/10701_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 446090,
         subclassesPicture = {
         },
@@ -19631,6 +19995,7 @@ return {
         des = "2200730",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 3,
         },
@@ -19675,7 +20040,7 @@ return {
         icon = "icon/skill/10111_skillAB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 10540,
         subclassesPicture = {
         },
@@ -19685,6 +20050,7 @@ return {
         des = "2200110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -19729,7 +20095,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26090,
         subclassesPicture = {
         },
@@ -19739,6 +20105,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -19783,7 +20150,7 @@ return {
         icon = "icon/skill/11701_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 13740,
         subclassesPicture = {
         },
@@ -19793,6 +20160,7 @@ return {
         des = "2202450",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 1,
         },
@@ -19837,7 +20205,7 @@ return {
         icon = "icon/skill/10102_icon5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 512110,
         subclassesPicture = {
         },
@@ -19847,6 +20215,7 @@ return {
         des = "2201380",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
         },
         gainEnergy = 0,
@@ -19890,7 +20259,7 @@ return {
         icon = "icon/skill/10101_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 401,
         subclassesPicture = {
         },
@@ -19900,6 +20269,7 @@ return {
         des = "2200140",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -19944,7 +20314,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27320,
         subclassesPicture = {
         },
@@ -19954,6 +20324,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -19998,7 +20369,7 @@ return {
         icon = "icon/skill/10701_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 7070,
         subclassesPicture = {
         },
@@ -20008,6 +20379,7 @@ return {
         des = "2200780",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -20052,6 +20424,7 @@ return {
         icon = "0",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 15230,
         subclassesPicture = {
         },
@@ -20105,7 +20478,7 @@ return {
         icon = "icon/skill/10602_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 11015,
         subclassesPicture = {
         },
@@ -20115,6 +20488,7 @@ return {
         des = "2201220",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -20159,7 +20533,7 @@ return {
         icon = "icon/skill/10501_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 433150,
         subclassesPicture = {
         },
@@ -20169,6 +20543,7 @@ return {
         des = "2200470",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -20213,7 +20588,7 @@ return {
         icon = "icon/skill/11301_icon12.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 12451,
         subclassesPicture = {
         },
@@ -20223,6 +20598,7 @@ return {
         des = "2201531",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -20267,7 +20643,7 @@ return {
         icon = "icon/skill/10301_skillE.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 516373,
         subclassesPicture = {
         },
@@ -20277,6 +20653,7 @@ return {
         des = "2200370",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -20323,7 +20700,7 @@ return {
         icon = "icon/skill/10901_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 469031,
         subclassesPicture = {
         },
@@ -20333,6 +20710,7 @@ return {
         des = "2200930",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -20377,7 +20755,7 @@ return {
         icon = "icon/skill/10501_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 433210,
         subclassesPicture = {
         },
@@ -20387,6 +20765,7 @@ return {
         des = "2200420",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -20431,6 +20810,7 @@ return {
         icon = "icon/skill/10701_skillB.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 469035,
         subclassesPicture = {
         },
@@ -20484,6 +20864,7 @@ return {
         icon = "icon/skill/10210_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512951,
         subclassesPicture = {
         },
@@ -20537,7 +20918,7 @@ return {
         icon = "icon/skill/10413_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 13241,
         subclassesPicture = {
         },
@@ -20547,6 +20928,7 @@ return {
         des = "2202240",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -20591,6 +20973,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13861,
         subclassesPicture = {
         },
@@ -20644,7 +21027,7 @@ return {
         icon = "icon/skill/10701_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 446110,
         subclassesPicture = {
         },
@@ -20654,6 +21037,7 @@ return {
         des = "2200740",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -20698,7 +21082,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20202,
         subclassesPicture = {
         },
@@ -20708,6 +21092,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -20752,7 +21137,7 @@ return {
         icon = "icon/skill/10201_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 2040,
         subclassesPicture = {
         },
@@ -20762,6 +21147,7 @@ return {
         des = "2200270",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -20806,7 +21192,7 @@ return {
         icon = "icon/skill/12401_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 14511,
         subclassesPicture = {
         },
@@ -20816,6 +21202,7 @@ return {
         des = "2202920",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -20860,7 +21247,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30010,
         subclassesPicture = {
         },
@@ -20870,6 +21257,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -20914,7 +21302,7 @@ return {
         icon = "icon/skill/10901_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 9011,
         subclassesPicture = {
         },
@@ -20924,6 +21312,7 @@ return {
         des = "2200910",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -20968,6 +21357,7 @@ return {
         icon = "icon/skill/13301_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 15451,
         subclassesPicture = {
         },
@@ -21003,7 +21393,7 @@ return {
         video = "",
         keyEvent = "auto",
         witchTimeId = 0,
-        belongHero = "圆神凛祢",
+        belongHero = "园神凛祢",
         coverBuff = {
         },
         skillType = 7,
@@ -21021,7 +21411,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27330,
         subclassesPicture = {
         },
@@ -21031,6 +21421,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -21075,6 +21466,7 @@ return {
         icon = "icon/skill/10102_icon6.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 12041,
         subclassesPicture = {
         },
@@ -21127,7 +21519,7 @@ return {
         icon = "icon/skill/10302_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 12593,
         subclassesPicture = {
         },
@@ -21137,6 +21529,7 @@ return {
         des = "2201680",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -21181,7 +21574,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 434006,
         subclassesPicture = {
         },
@@ -21191,6 +21584,7 @@ return {
         des = "2200510",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -21235,7 +21629,7 @@ return {
         icon = "icon/skill/11401_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 13021,
         subclassesPicture = {
         },
@@ -21245,6 +21639,7 @@ return {
         des = "2202030",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -21289,7 +21684,7 @@ return {
         icon = "icon/skill/10301_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 516383,
         subclassesPicture = {
         },
@@ -21299,6 +21694,7 @@ return {
         des = "2200380",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -21343,6 +21739,7 @@ return {
         icon = "icon/skill/11301_icon13.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13361,
         subclassesPicture = {
         },
@@ -21396,7 +21793,7 @@ return {
         icon = "icon/skill/10602_skillCC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 511095,
         subclassesPicture = {
         },
@@ -21406,6 +21803,7 @@ return {
         des = "2201240",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -21450,7 +21848,7 @@ return {
         icon = "icon/skill/11201_icon1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 14001,
         subclassesPicture = {
         },
@@ -21460,6 +21858,7 @@ return {
         des = "2201410",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -21504,7 +21903,7 @@ return {
         icon = "icon/skill/10210_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 512961,
         subclassesPicture = {
         },
@@ -21514,6 +21913,7 @@ return {
         des = "2201970",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -21558,6 +21958,7 @@ return {
         icon = "icon/skill/12801_skillB2.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 14641,
         subclassesPicture = {
         },
@@ -21611,7 +22012,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31130,
         subclassesPicture = {
         },
@@ -21621,6 +22022,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -21665,7 +22067,7 @@ return {
         icon = "icon/skill/10110_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 10040,
         subclassesPicture = {
         },
@@ -21675,6 +22077,7 @@ return {
         des = "2201040",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -21719,7 +22122,7 @@ return {
         icon = "icon/skill/13201_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 15371,
         subclassesPicture = {
         },
@@ -21729,6 +22132,7 @@ return {
         des = "2203380",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -21773,7 +22177,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31131,
         subclassesPicture = {
         },
@@ -21783,6 +22187,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -21827,7 +22232,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601310,
         subclassesPicture = {
         },
@@ -21837,6 +22242,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -21881,7 +22287,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30020,
         subclassesPicture = {
         },
@@ -21891,6 +22297,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -21935,6 +22342,7 @@ return {
         icon = "icon/skill/10302_skillG.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12596,
         subclassesPicture = {
         },
@@ -21988,7 +22396,7 @@ return {
         icon = "icon/skill/10208_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 12611,
         subclassesPicture = {
         },
@@ -21998,6 +22406,7 @@ return {
         des = "2201720",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -22042,7 +22451,7 @@ return {
         icon = "icon/skill/12201_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 514101,
         subclassesPicture = {
         },
@@ -22052,6 +22461,7 @@ return {
         des = "2202510",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -22096,6 +22506,7 @@ return {
         icon = "icon/skill/11501_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13151,
         subclassesPicture = {
         },
@@ -22149,7 +22560,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 434088,
         subclassesPicture = {
         },
@@ -22159,6 +22570,7 @@ return {
         des = "2200520",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -22203,7 +22615,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601320,
         subclassesPicture = {
         },
@@ -22213,6 +22625,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -22257,7 +22670,7 @@ return {
         icon = "icon/skill/12201_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 14131,
         subclassesPicture = {
         },
@@ -22267,6 +22680,7 @@ return {
         des = "2202540",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -22311,7 +22725,7 @@ return {
         icon = "icon/skill/10901_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 469050,
         subclassesPicture = {
         },
@@ -22321,6 +22735,7 @@ return {
         des = "2200950",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -22365,7 +22780,7 @@ return {
         icon = "icon/skill/10501_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 5030,
         subclassesPicture = {
         },
@@ -22375,6 +22790,7 @@ return {
         des = "2200530",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -22419,6 +22835,7 @@ return {
         icon = "icon/skill/10111_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 10210,
         subclassesPicture = {
         },
@@ -22472,7 +22889,7 @@ return {
         icon = "icon/skill/10401_skillE.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 4201,
         subclassesPicture = {
         },
@@ -22482,6 +22899,7 @@ return {
         des = "2200410",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -22526,7 +22944,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31140,
         subclassesPicture = {
         },
@@ -22536,6 +22954,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -22580,7 +22999,7 @@ return {
         icon = "icon/skill/10801_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 446120,
         subclassesPicture = {
         },
@@ -22590,6 +23009,7 @@ return {
         des = "",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -22634,7 +23054,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20203,
         subclassesPicture = {
         },
@@ -22644,6 +23064,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -22688,7 +23109,7 @@ return {
         icon = "icon/skill/11201_icon5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 12751,
         subclassesPicture = {
         },
@@ -22698,6 +23119,7 @@ return {
         des = "2201460",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -22742,7 +23164,7 @@ return {
         icon = "icon/skill/10501_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 5031,
         subclassesPicture = {
         },
@@ -22752,6 +23174,7 @@ return {
         des = "2200530",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -22796,7 +23219,7 @@ return {
         icon = "icon/skill/10901_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600210,
         subclassesPicture = {
         },
@@ -22806,6 +23229,7 @@ return {
         des = "2200910",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -22850,7 +23274,7 @@ return {
         icon = "icon/skill/12201_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 514111,
         subclassesPicture = {
         },
@@ -22860,6 +23284,7 @@ return {
         des = "2202520",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -22904,7 +23329,7 @@ return {
         icon = "icon/skill/11601_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 13621,
         subclassesPicture = {
         },
@@ -22914,6 +23339,7 @@ return {
         des = "2202330",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -22958,7 +23384,7 @@ return {
         icon = "icon/skill/10413_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 14271,
         subclassesPicture = {
         },
@@ -22968,6 +23394,7 @@ return {
         des = "2202270",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -23012,7 +23439,7 @@ return {
         icon = "icon/skill/10501_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 434030,
         subclassesPicture = {
         },
@@ -23022,6 +23449,7 @@ return {
         des = "2200530",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 3,
         },
@@ -23066,6 +23494,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 6060,
         subclassesPicture = {
         },
@@ -23119,7 +23548,7 @@ return {
         icon = "icon/skill/13101_skillA.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 15111,
         subclassesPicture = {
         },
@@ -23129,6 +23558,7 @@ return {
         des = "2203120",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -23173,7 +23603,7 @@ return {
         icon = "icon/skill/10901_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 469060,
         subclassesPicture = {
         },
@@ -23183,6 +23613,7 @@ return {
         des = "2200960",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -23227,7 +23658,7 @@ return {
         icon = "icon/skill/11301_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 12331,
         subclassesPicture = {
         },
@@ -23237,6 +23668,7 @@ return {
         des = "2201523",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -23282,7 +23714,7 @@ return {
         icon = "icon/skill/10210_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 512971,
         subclassesPicture = {
         },
@@ -23292,6 +23724,7 @@ return {
         des = "2201980",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -23336,6 +23769,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12861,
         subclassesPicture = {
         },
@@ -23389,7 +23823,7 @@ return {
         icon = "icon/skill/10210_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 512981,
         subclassesPicture = {
         },
@@ -23399,6 +23833,7 @@ return {
         des = "2201910",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -23443,7 +23878,7 @@ return {
         icon = "icon/skill/13101_skillA.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 15116,
         subclassesPicture = {
         },
@@ -23453,6 +23888,7 @@ return {
         des = "2203120",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -23497,7 +23933,7 @@ return {
         icon = "icon/skill/10801_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 446130,
         subclassesPicture = {
         },
@@ -23507,6 +23943,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -23551,7 +23988,7 @@ return {
         icon = "icon/skill/10112_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 10550,
         subclassesPicture = {
         },
@@ -23561,6 +23998,7 @@ return {
         des = "2200120",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -23605,7 +24043,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26110,
         subclassesPicture = {
         },
@@ -23615,6 +24053,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -23659,6 +24098,7 @@ return {
         icon = "icon/skill/11701_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13750,
         subclassesPicture = {
         },
@@ -23712,6 +24152,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 501,
         subclassesPicture = {
         },
@@ -23765,7 +24206,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26111,
         subclassesPicture = {
         },
@@ -23775,6 +24216,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -23819,7 +24261,7 @@ return {
         icon = "icon/skill/12201_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 514121,
         subclassesPicture = {
         },
@@ -23829,6 +24271,7 @@ return {
         des = "2202530",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -23874,6 +24317,7 @@ return {
         icon = "0",
         levelType = 2,
         openCd = 0,
+        costLow = 0,
         first = 15240,
         subclassesPicture = {
         },
@@ -23927,7 +24371,7 @@ return {
         icon = "icon/skill/10601_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 11230,
         subclassesPicture = {
         },
@@ -23937,6 +24381,7 @@ return {
         des = "2201260",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -23981,7 +24426,7 @@ return {
         icon = "icon/skill/10501_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 434040,
         subclassesPicture = {
         },
@@ -23991,6 +24436,7 @@ return {
         des = "2200540",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -24035,6 +24481,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12461,
         subclassesPicture = {
         },
@@ -24088,6 +24535,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 469070,
         subclassesPicture = {
         },
@@ -24140,7 +24588,7 @@ return {
         icon = "icon/skill/10501_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 5301,
         subclassesPicture = {
         },
@@ -24150,6 +24598,7 @@ return {
         des = "2200510",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -24194,7 +24643,7 @@ return {
         icon = "icon/skill/10901_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 600230,
         subclassesPicture = {
         },
@@ -24204,6 +24653,7 @@ return {
         des = "2200940",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -24248,7 +24698,7 @@ return {
         icon = "icon/skill/10413_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 13251,
         subclassesPicture = {
         },
@@ -24258,6 +24708,7 @@ return {
         des = "2202250",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 1,
         },
@@ -24302,7 +24753,7 @@ return {
         icon = "icon/skill/12301_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 13871,
         subclassesPicture = {
         },
@@ -24312,6 +24763,7 @@ return {
         des = "2202680",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -24356,7 +24808,7 @@ return {
         icon = "icon/skill/10801_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 446140,
         subclassesPicture = {
         },
@@ -24366,6 +24818,7 @@ return {
         des = "2200710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -24410,7 +24863,7 @@ return {
         icon = "icon/skill/10201_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 2050,
         subclassesPicture = {
         },
@@ -24420,6 +24873,7 @@ return {
         des = "2200280",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -24464,7 +24918,7 @@ return {
         icon = "icon/skill/12401_skillB1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 14521,
         subclassesPicture = {
         },
@@ -24474,6 +24928,7 @@ return {
         des = "2202930",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -24518,7 +24973,7 @@ return {
         icon = "icon/skill/10901_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 9021,
         subclassesPicture = {
         },
@@ -24528,6 +24983,7 @@ return {
         des = "2200920",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -24572,7 +25028,7 @@ return {
         icon = "icon/skill/13301_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 15461,
         subclassesPicture = {
         },
@@ -24582,6 +25038,7 @@ return {
         des = "2203270",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -24608,7 +25065,7 @@ return {
         video = "",
         keyEvent = "down",
         witchTimeId = 0,
-        belongHero = "圆神凛祢",
+        belongHero = "园神凛祢",
         coverBuff = {
         },
         skillType = 5,
@@ -24626,7 +25083,7 @@ return {
         icon = "icon/skill/10901_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 600240,
         subclassesPicture = {
         },
@@ -24636,6 +25093,7 @@ return {
         des = "2200950",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -24680,6 +25138,7 @@ return {
         icon = "icon/skill/10102_icon2.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 12051,
         subclassesPicture = {
         },
@@ -24732,7 +25191,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 13872,
         subclassesPicture = {
         },
@@ -24742,6 +25201,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -24786,7 +25246,7 @@ return {
         icon = "icon/skill/10601_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 434041,
         subclassesPicture = {
         },
@@ -24796,6 +25256,7 @@ return {
         des = "",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -24840,7 +25301,7 @@ return {
         icon = "icon/skill/11401_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 13031,
         subclassesPicture = {
         },
@@ -24850,6 +25311,7 @@ return {
         des = "2202040",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -24894,7 +25356,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46110,
         subclassesPicture = {
         },
@@ -24904,6 +25366,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -24948,6 +25411,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13371,
         subclassesPicture = {
         },
@@ -25001,7 +25465,7 @@ return {
         icon = "icon/skill/10901_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 600241,
         subclassesPicture = {
         },
@@ -25011,6 +25475,7 @@ return {
         des = "2200960",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -25055,7 +25520,7 @@ return {
         icon = "icon/skill/11201_icon2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 14011,
         subclassesPicture = {
         },
@@ -25065,6 +25530,7 @@ return {
         des = "2201420",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -25109,7 +25575,7 @@ return {
         icon = "icon/skill/10501_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 515306,
         subclassesPicture = {
         },
@@ -25119,6 +25585,7 @@ return {
         des = "2200510",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -25163,7 +25630,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 650010,
         subclassesPicture = {
         },
@@ -25173,6 +25640,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -25218,7 +25686,7 @@ return {
         icon = "icon/skill/10401_skillE.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 4001,
         subclassesPicture = {
         },
@@ -25228,6 +25696,7 @@ return {
         des = "2200410",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -25272,7 +25741,7 @@ return {
         icon = "icon/skill/12401_skillB3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 14523,
         subclassesPicture = {
         },
@@ -25282,6 +25751,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -25326,7 +25796,7 @@ return {
         icon = "icon/skill/12801_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 14661,
         subclassesPicture = {
         },
@@ -25336,6 +25806,7 @@ return {
         des = "2202860",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -25380,7 +25851,7 @@ return {
         icon = "icon/skill/10110_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 10050,
         subclassesPicture = {
         },
@@ -25390,6 +25861,7 @@ return {
         des = "2201050",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -25434,7 +25906,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 26120,
         subclassesPicture = {
         },
@@ -25444,6 +25916,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -25488,7 +25961,7 @@ return {
         icon = "icon/skill/10208_extraskillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 12621,
         subclassesPicture = {
         },
@@ -25498,6 +25971,7 @@ return {
         des = "2201730",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -25542,6 +26016,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 600243,
         subclassesPicture = {
         },
@@ -25594,7 +26069,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36020,
         subclassesPicture = {
         },
@@ -25604,6 +26079,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -25648,7 +26124,7 @@ return {
         icon = "icon/skill/11501_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 13152,
         subclassesPicture = {
         },
@@ -25658,6 +26134,7 @@ return {
         des = "2202170",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -25702,7 +26179,7 @@ return {
         icon = "icon/skill/10210_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 13501,
         subclassesPicture = {
         },
@@ -25712,6 +26189,7 @@ return {
         des = "2201910",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -25756,7 +26234,7 @@ return {
         icon = "icon/skill/12201_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 14151,
         subclassesPicture = {
         },
@@ -25766,6 +26244,7 @@ return {
         des = "2202550",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -25810,7 +26289,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46120,
         subclassesPicture = {
         },
@@ -25820,6 +26299,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -25864,7 +26344,7 @@ return {
         icon = "icon/skill/10501_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 5040,
         subclassesPicture = {
         },
@@ -25874,6 +26354,7 @@ return {
         des = "2200540",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -25918,6 +26399,7 @@ return {
         icon = "icon/skill/12701_icon6.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 15053,
         subclassesPicture = {
         },
@@ -25970,6 +26452,7 @@ return {
         icon = "icon/skill/10901_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 600244,
         subclassesPicture = {
         },
@@ -26022,6 +26505,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 10220,
         subclassesPicture = {
         },
@@ -26075,7 +26559,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40020,
         subclassesPicture = {
         },
@@ -26085,6 +26569,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -26129,7 +26614,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28010,
         subclassesPicture = {
         },
@@ -26139,6 +26624,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -26183,7 +26669,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40030,
         subclassesPicture = {
         },
@@ -26193,6 +26679,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -26237,7 +26724,7 @@ return {
         icon = "icon/skill/11201_icon6.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 12761,
         subclassesPicture = {
         },
@@ -26247,6 +26734,7 @@ return {
         des = "2201450",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -26291,7 +26779,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601410,
         subclassesPicture = {
         },
@@ -26301,6 +26789,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -26345,7 +26834,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40040,
         subclassesPicture = {
         },
@@ -26355,6 +26844,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -26399,7 +26889,7 @@ return {
         icon = "icon/skill/10901_skillM.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 600250,
         subclassesPicture = {
         },
@@ -26409,6 +26899,7 @@ return {
         des = "2200990",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -26453,7 +26944,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36030,
         subclassesPicture = {
         },
@@ -26463,6 +26954,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -26507,7 +26999,7 @@ return {
         icon = "icon/skill/11601_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 13631,
         subclassesPicture = {
         },
@@ -26517,6 +27009,7 @@ return {
         des = "2202340",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -26561,7 +27054,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36031,
         subclassesPicture = {
         },
@@ -26571,6 +27064,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -26616,6 +27110,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14281,
         subclassesPicture = {
         },
@@ -26669,7 +27164,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36032,
         subclassesPicture = {
         },
@@ -26679,6 +27174,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -26724,7 +27220,7 @@ return {
         icon = "icon/skill/10601_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 6070,
         subclassesPicture = {
         },
@@ -26734,6 +27230,7 @@ return {
         des = "2200670",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -26778,7 +27275,7 @@ return {
         icon = "icon/skill/13101_skillB.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 15124,
         subclassesPicture = {
         },
@@ -26788,6 +27285,7 @@ return {
         des = "2203140",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
             [1] = 0,
         },
@@ -26832,7 +27330,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36033,
         subclassesPicture = {
         },
@@ -26842,6 +27340,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -26887,7 +27386,7 @@ return {
         icon = "icon/skill/25301_skill1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31710,
         subclassesPicture = {
         },
@@ -26897,6 +27396,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -26941,7 +27441,7 @@ return {
         icon = "icon/skill/10301_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 3110,
         subclassesPicture = {
         },
@@ -26951,6 +27451,7 @@ return {
         des = "2200310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -26995,7 +27496,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36034,
         subclassesPicture = {
         },
@@ -27005,6 +27506,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -27050,7 +27552,7 @@ return {
         icon = "icon/skill/11301_icon4.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 12341,
         subclassesPicture = {
         },
@@ -27060,6 +27562,7 @@ return {
         des = "2201525",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 1,
         },
@@ -27104,7 +27607,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40050,
         subclassesPicture = {
         },
@@ -27114,6 +27617,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -27158,7 +27662,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20501,
         subclassesPicture = {
         },
@@ -27168,6 +27672,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -27212,7 +27717,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 28020,
         subclassesPicture = {
         },
@@ -27222,6 +27727,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -27266,7 +27772,7 @@ return {
         icon = "icon/skill/13101_skillB.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 15125,
         subclassesPicture = {
         },
@@ -27276,6 +27782,7 @@ return {
         des = "2203140",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
             [1] = 0,
         },
@@ -27320,7 +27827,7 @@ return {
         icon = "icon/skill/10112_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 10564,
         subclassesPicture = {
         },
@@ -27330,6 +27837,7 @@ return {
         des = "2200120",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -27374,7 +27882,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26130,
         subclassesPicture = {
         },
@@ -27384,6 +27892,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -27428,7 +27937,7 @@ return {
         icon = "icon/skill/10302_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 601430,
         subclassesPicture = {
         },
@@ -27438,6 +27947,7 @@ return {
         des = "2201660",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -27482,7 +27992,7 @@ return {
         icon = "icon/skill/11701_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 13760,
         subclassesPicture = {
         },
@@ -27492,6 +28002,7 @@ return {
         des = "2202470",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -27536,7 +28047,7 @@ return {
         icon = "icon/skill/11201_icon1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 512201,
         subclassesPicture = {
         },
@@ -27546,6 +28057,7 @@ return {
         des = "2201410",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -27590,6 +28102,7 @@ return {
         icon = "icon/skill/10101_skillE.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 801,
         subclassesPicture = {
         },
@@ -27643,7 +28156,7 @@ return {
         icon = "icon/skill/12501_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 14401,
         subclassesPicture = {
         },
@@ -27653,6 +28166,7 @@ return {
         des = "2202710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -27697,7 +28211,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36040,
         subclassesPicture = {
         },
@@ -27707,6 +28221,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -27751,6 +28266,7 @@ return {
         icon = "0",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 15260,
         subclassesPicture = {
         },
@@ -27804,7 +28320,7 @@ return {
         icon = "icon/skill/10602_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 11200,
         subclassesPicture = {
         },
@@ -27814,6 +28330,7 @@ return {
         des = "2201250",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -27858,7 +28375,7 @@ return {
         icon = "icon/skill/10601_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 434073,
         subclassesPicture = {
         },
@@ -27868,6 +28385,7 @@ return {
         des = "2200510",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -27912,6 +28430,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12471,
         subclassesPicture = {
         },
@@ -27965,7 +28484,7 @@ return {
         icon = "icon/skill/25301_skill2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 31720,
         subclassesPicture = {
         },
@@ -27975,6 +28494,7 @@ return {
         des = "",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
             [1] = 0,
         },
@@ -28019,7 +28539,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46140,
         subclassesPicture = {
         },
@@ -28029,6 +28549,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -28073,7 +28594,7 @@ return {
         icon = "icon/skill/10209_icon9.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 0,
         subclassesPicture = {
         },
@@ -28083,6 +28604,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -28127,7 +28649,7 @@ return {
         icon = "icon/skill/10501_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 5380,
         subclassesPicture = {
         },
@@ -28137,6 +28659,7 @@ return {
         des = "2200520",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -28181,7 +28704,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600321,
         subclassesPicture = {
         },
@@ -28191,6 +28714,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -28235,7 +28759,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31480,
         subclassesPicture = {
         },
@@ -28245,6 +28769,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -28289,7 +28814,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40060,
         subclassesPicture = {
         },
@@ -28299,6 +28824,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -28343,6 +28869,7 @@ return {
         icon = "icon/skill/10413_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13261,
         subclassesPicture = {
         },
@@ -28396,7 +28923,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 28030,
         subclassesPicture = {
         },
@@ -28406,6 +28933,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -28451,7 +28979,7 @@ return {
         icon = "icon/skill/12401_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 14531,
         subclassesPicture = {
         },
@@ -28461,6 +28989,7 @@ return {
         des = "2202940",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -28505,7 +29034,7 @@ return {
         icon = "icon/skill/10501_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 5360,
         subclassesPicture = {
         },
@@ -28515,6 +29044,7 @@ return {
         des = "2200521",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -28559,7 +29089,7 @@ return {
         icon = "icon/skill/10901_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 9031,
         subclassesPicture = {
         },
@@ -28569,6 +29099,7 @@ return {
         des = "2200930",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -28613,6 +29144,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 15462,
         subclassesPicture = {
         },
@@ -28648,7 +29180,7 @@ return {
         video = "",
         keyEvent = "auto",
         witchTimeId = 0,
-        belongHero = "圆神凛祢",
+        belongHero = "园神凛祢",
         coverBuff = {
         },
         skillType = 8,
@@ -28666,7 +29198,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 27410,
         subclassesPicture = {
         },
@@ -28676,6 +29208,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -28720,6 +29253,7 @@ return {
         icon = "icon/skill/10102_icon7.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 12061,
         subclassesPicture = {
         },
@@ -28772,7 +29306,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36051,
         subclassesPicture = {
         },
@@ -28782,6 +29316,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -28826,7 +29361,7 @@ return {
         icon = "icon/skill/10101_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 1101,
         subclassesPicture = {
         },
@@ -28836,6 +29371,7 @@ return {
         des = "2200110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -28880,7 +29416,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36052,
         subclassesPicture = {
         },
@@ -28890,6 +29426,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -28934,7 +29471,7 @@ return {
         icon = "icon/skill/10501_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 5370,
         subclassesPicture = {
         },
@@ -28944,6 +29481,7 @@ return {
         des = "2200522",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -28988,7 +29526,7 @@ return {
         icon = "icon/skill/11401_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 13041,
         subclassesPicture = {
         },
@@ -28998,6 +29536,7 @@ return {
         des = "2202050",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -29042,6 +29581,7 @@ return {
         icon = "icon/skill/10701_skillB.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 9035,
         subclassesPicture = {
         },
@@ -29095,7 +29635,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36053,
         subclassesPicture = {
         },
@@ -29105,6 +29645,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -29149,7 +29690,7 @@ return {
         icon = "icon/skill/25301_skill3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31730,
         subclassesPicture = {
         },
@@ -29159,6 +29700,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -29203,7 +29745,7 @@ return {
         icon = "icon/skill/10302_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 600341,
         subclassesPicture = {
         },
@@ -29213,6 +29755,7 @@ return {
         des = "2201640",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -29258,7 +29801,7 @@ return {
         icon = "icon/skill/11201_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 14021,
         subclassesPicture = {
         },
@@ -29268,6 +29811,7 @@ return {
         des = "2201430",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -29312,7 +29856,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40070,
         subclassesPicture = {
         },
@@ -29322,6 +29866,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -29366,7 +29911,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20502,
         subclassesPicture = {
         },
@@ -29376,6 +29921,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -29420,7 +29966,7 @@ return {
         icon = "icon/skill/10401_skillI.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 4090,
         subclassesPicture = {
         },
@@ -29430,6 +29976,7 @@ return {
         des = "2200420",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -29474,7 +30021,7 @@ return {
         icon = "icon/skill/12801_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 14681,
         subclassesPicture = {
         },
@@ -29484,6 +30031,7 @@ return {
         des = "2202870",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -29528,7 +30076,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28310,
         subclassesPicture = {
         },
@@ -29538,6 +30086,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -29582,7 +30131,7 @@ return {
         icon = "icon/skill/25301_skill1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31210,
         subclassesPicture = {
         },
@@ -29592,6 +30141,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -29636,7 +30186,7 @@ return {
         icon = "icon/skill/10110_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 10060,
         subclassesPicture = {
         },
@@ -29646,6 +30196,7 @@ return {
         des = "2201060",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -29690,7 +30241,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26140,
         subclassesPicture = {
         },
@@ -29700,6 +30251,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -29744,7 +30296,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43040,
         subclassesPicture = {
         },
@@ -29754,6 +30306,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -29798,7 +30351,7 @@ return {
         icon = "icon/skill/10208_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 12631,
         subclassesPicture = {
         },
@@ -29808,6 +30361,7 @@ return {
         des = "2201740",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -29852,7 +30406,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27420,
         subclassesPicture = {
         },
@@ -29862,6 +30416,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -29906,7 +30461,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36060,
         subclassesPicture = {
         },
@@ -29916,6 +30471,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -29960,6 +30516,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13153,
         subclassesPicture = {
         },
@@ -30013,7 +30570,7 @@ return {
         icon = "icon/skill/10110_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 10061,
         subclassesPicture = {
         },
@@ -30023,6 +30580,7 @@ return {
         des = "2201060",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -30067,7 +30625,7 @@ return {
         icon = "icon/skill/10210_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 13511,
         subclassesPicture = {
         },
@@ -30077,6 +30635,7 @@ return {
         des = "2201920",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -30121,7 +30680,7 @@ return {
         icon = "icon/skill/25301_skill4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 31740,
         subclassesPicture = {
         },
@@ -30131,6 +30690,7 @@ return {
         des = "",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
             [1] = 0,
         },
@@ -30175,6 +30735,7 @@ return {
         icon = "icon/skill/10301_skillC.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 5050,
         subclassesPicture = {
         },
@@ -30228,7 +30789,7 @@ return {
         icon = "icon/skill/12701_icon2.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 15011,
         subclassesPicture = {
         },
@@ -30238,6 +30799,7 @@ return {
         des = "2203030",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
         },
         gainEnergy = 0,
@@ -30281,7 +30843,7 @@ return {
         icon = "icon/skill/10302_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 600351,
         subclassesPicture = {
         },
@@ -30291,6 +30853,7 @@ return {
         des = "2201660",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -30335,7 +30898,7 @@ return {
         icon = "icon/skill/10111_skillAB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 10225,
         subclassesPicture = {
         },
@@ -30345,6 +30908,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -30389,7 +30953,7 @@ return {
         icon = "icon/skill/10401_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 4230,
         subclassesPicture = {
         },
@@ -30399,6 +30963,7 @@ return {
         des = "2200430",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 1,
         },
@@ -30443,7 +31008,7 @@ return {
         icon = "icon/skill/25301_skill2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 31220,
         subclassesPicture = {
         },
@@ -30453,6 +31018,7 @@ return {
         des = "",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
             [1] = 0,
         },
@@ -30497,6 +31063,7 @@ return {
         icon = "icon/skill/11201_icon7.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12781,
         subclassesPicture = {
         },
@@ -30550,7 +31117,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43050,
         subclassesPicture = {
         },
@@ -30560,6 +31127,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -30604,7 +31172,7 @@ return {
         icon = "icon/skill/10111_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 10410,
         subclassesPicture = {
         },
@@ -30614,6 +31182,7 @@ return {
         des = "2201110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -30658,7 +31227,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 27430,
         subclassesPicture = {
         },
@@ -30668,6 +31237,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -30712,7 +31282,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36070,
         subclassesPicture = {
         },
@@ -30722,6 +31292,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -30766,7 +31337,7 @@ return {
         icon = "icon/skill/11601_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 13641,
         subclassesPicture = {
         },
@@ -30776,6 +31347,7 @@ return {
         des = "2202350",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -30820,7 +31392,7 @@ return {
         icon = "icon/skill/10413_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 14291,
         subclassesPicture = {
         },
@@ -30830,6 +31402,7 @@ return {
         des = "2202280",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -30874,7 +31447,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 435010,
         subclassesPicture = {
         },
@@ -30884,6 +31457,7 @@ return {
         des = "2200610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -30928,7 +31502,7 @@ return {
         icon = "icon/skill/10601_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 6080,
         subclassesPicture = {
         },
@@ -30938,6 +31512,7 @@ return {
         des = "2200680",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -30982,6 +31557,7 @@ return {
         icon = "icon/skill/13101_icon02.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 15131,
         subclassesPicture = {
         },
@@ -31035,7 +31611,7 @@ return {
         icon = "icon/skill/25301_skill5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 31750,
         subclassesPicture = {
         },
@@ -31045,6 +31621,7 @@ return {
         des = "",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
             [1] = 0,
         },
@@ -31089,7 +31666,7 @@ return {
         icon = "icon/skill/10301_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 3120,
         subclassesPicture = {
         },
@@ -31099,6 +31676,7 @@ return {
         des = "2200320",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -31143,7 +31721,7 @@ return {
         icon = "icon/skill/11301_icon6.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 12351,
         subclassesPicture = {
         },
@@ -31153,6 +31731,7 @@ return {
         des = "2201524",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -31197,7 +31776,7 @@ return {
         icon = "icon/skill/10502_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 515459,
         subclassesPicture = {
         },
@@ -31207,6 +31786,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -31251,7 +31831,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20503,
         subclassesPicture = {
         },
@@ -31261,6 +31841,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -31305,7 +31886,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 28330,
         subclassesPicture = {
         },
@@ -31315,6 +31896,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -31360,7 +31942,7 @@ return {
         icon = "icon/skill/25301_skill3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31230,
         subclassesPicture = {
         },
@@ -31370,6 +31952,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -31414,7 +31997,7 @@ return {
         icon = "icon/skill/10112_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 10580,
         subclassesPicture = {
         },
@@ -31424,6 +32007,7 @@ return {
         des = "2200120",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -31468,7 +32052,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20504,
         subclassesPicture = {
         },
@@ -31478,6 +32062,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -31522,7 +32107,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 26150,
         subclassesPicture = {
         },
@@ -31532,6 +32117,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -31576,7 +32162,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601510,
         subclassesPicture = {
         },
@@ -31586,6 +32172,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -31630,6 +32217,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13761,
         subclassesPicture = {
         },
@@ -31683,7 +32271,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43060,
         subclassesPicture = {
         },
@@ -31693,6 +32281,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -31737,7 +32326,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27440,
         subclassesPicture = {
         },
@@ -31747,6 +32336,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -31791,7 +32381,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36080,
         subclassesPicture = {
         },
@@ -31801,6 +32391,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -31845,7 +32436,7 @@ return {
         icon = "icon/skill/10801_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 8001,
         subclassesPicture = {
         },
@@ -31855,6 +32446,7 @@ return {
         des = "2200810",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -31899,6 +32491,7 @@ return {
         icon = "icon/skill/10302_skillG.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 600371,
         subclassesPicture = {
         },
@@ -31952,6 +32545,7 @@ return {
         icon = "0",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 15250,
         subclassesPicture = {
         },
@@ -32005,6 +32599,7 @@ return {
         icon = "icon/skill/10602_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 11221,
         subclassesPicture = {
         },
@@ -32058,7 +32653,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 435400,
         subclassesPicture = {
         },
@@ -32068,6 +32663,7 @@ return {
         des = "2200620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -32112,7 +32708,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44020,
         subclassesPicture = {
         },
@@ -32122,6 +32718,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -32166,7 +32763,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36083,
         subclassesPicture = {
         },
@@ -32176,6 +32773,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -32220,7 +32818,7 @@ return {
         icon = "icon/skill/25301_skill6.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31760,
         subclassesPicture = {
         },
@@ -32230,6 +32828,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -32274,7 +32873,7 @@ return {
         icon = "icon/skill/10101_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 430010,
         subclassesPicture = {
         },
@@ -32284,6 +32883,7 @@ return {
         des = "2200110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -32328,7 +32928,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36085,
         subclassesPicture = {
         },
@@ -32338,6 +32938,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -32382,7 +32983,7 @@ return {
         icon = "icon/skill/10501_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 5330,
         subclassesPicture = {
         },
@@ -32392,6 +32993,7 @@ return {
         des = "2200530",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -32436,7 +33038,7 @@ return {
         icon = "icon/skill/12501_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600380,
         subclassesPicture = {
         },
@@ -32446,6 +33048,7 @@ return {
         des = "2202710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -32490,7 +33093,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36086,
         subclassesPicture = {
         },
@@ -32500,6 +33103,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -32544,7 +33148,7 @@ return {
         icon = "icon/skill/10502_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 515493,
         subclassesPicture = {
         },
@@ -32554,6 +33158,7 @@ return {
         des = "",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -32598,7 +33203,7 @@ return {
         icon = "icon/skill/10413_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 13271,
         subclassesPicture = {
         },
@@ -32608,6 +33213,7 @@ return {
         des = "2202270",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -32652,7 +33258,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36087,
         subclassesPicture = {
         },
@@ -32662,6 +33268,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -32706,7 +33313,7 @@ return {
         icon = "icon/skill/10502_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 515473,
         subclassesPicture = {
         },
@@ -32716,6 +33323,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -32760,7 +33368,7 @@ return {
         icon = "icon/skill/25301_skill4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 31240,
         subclassesPicture = {
         },
@@ -32770,6 +33378,7 @@ return {
         des = "",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
             [1] = 0,
         },
@@ -32814,7 +33423,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36088,
         subclassesPicture = {
         },
@@ -32824,6 +33433,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -32868,7 +33478,7 @@ return {
         icon = "icon/skill/10502_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 515483,
         subclassesPicture = {
         },
@@ -32878,6 +33488,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -32922,7 +33533,7 @@ return {
         icon = "icon/skill/12401_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 14541,
         subclassesPicture = {
         },
@@ -32932,6 +33543,7 @@ return {
         des = "2202950",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -32976,7 +33588,7 @@ return {
         icon = "icon/skill/10901_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 9041,
         subclassesPicture = {
         },
@@ -32986,6 +33598,7 @@ return {
         des = "2200940",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -33030,7 +33643,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36091,
         subclassesPicture = {
         },
@@ -33040,6 +33653,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -33080,11 +33694,11 @@ return {
         witchTimeType = 0,
         appearAction = "",
         costEnergyShow = -1,
-        level = 3,
+        level = 2,
         icon = "icon/skill/13301_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 15471,
         subclassesPicture = {
             [1] = "icon/skill/13301_skillG_1.png",
@@ -33097,12 +33711,13 @@ return {
         des = "2203280",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
         gainEnergy = 0,
         useWarn = "",
-        cd = 10000,
+        cd = 15000,
         skillSubclasses = {
             [1] = 100,
             [2] = 200,
@@ -33129,7 +33744,7 @@ return {
         video = "",
         keyEvent = "down",
         witchTimeId = 0,
-        belongHero = "圆神凛祢",
+        belongHero = "园神凛祢",
         coverBuff = {
         },
         skillType = 10,
@@ -33147,7 +33762,7 @@ return {
         icon = "icon/skill/12501_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600390,
         subclassesPicture = {
         },
@@ -33157,6 +33772,7 @@ return {
         des = "2202720",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -33201,6 +33817,7 @@ return {
         icon = "icon/skill/10102_icon7.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 12071,
         subclassesPicture = {
         },
@@ -33253,7 +33870,7 @@ return {
         icon = "icon/skill/12501_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600393,
         subclassesPicture = {
         },
@@ -33263,6 +33880,7 @@ return {
         des = "2202720",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -33307,7 +33925,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36093,
         subclassesPicture = {
         },
@@ -33317,6 +33935,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -33361,7 +33980,7 @@ return {
         icon = "icon/skill/10101_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 1140,
         subclassesPicture = {
         },
@@ -33371,6 +33990,7 @@ return {
         des = "2200120",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -33415,7 +34035,7 @@ return {
         icon = "icon/skill/10601_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 435150,
         subclassesPicture = {
         },
@@ -33425,6 +34045,7 @@ return {
         des = "2200630",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 3,
         },
@@ -33469,7 +34090,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44030,
         subclassesPicture = {
         },
@@ -33479,6 +34100,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -33523,6 +34145,7 @@ return {
         icon = "icon/skill/11401_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13051,
         subclassesPicture = {
         },
@@ -33576,7 +34199,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31770,
         subclassesPicture = {
         },
@@ -33586,6 +34209,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -33630,7 +34254,7 @@ return {
         icon = "icon/skill/10101_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 430020,
         subclassesPicture = {
         },
@@ -33640,6 +34264,7 @@ return {
         des = "2200120",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -33684,7 +34309,7 @@ return {
         icon = "icon/skill/12501_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600400,
         subclassesPicture = {
         },
@@ -33694,6 +34319,7 @@ return {
         des = "2202730",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -33738,7 +34364,7 @@ return {
         icon = "icon/skill/11201_icon4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 14031,
         subclassesPicture = {
         },
@@ -33748,6 +34374,7 @@ return {
         des = "2201440",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -33792,7 +34419,7 @@ return {
         icon = "icon/skill/10502_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 4096,
+        costLow = 0,
         first = 515520,
         subclassesPicture = {
         },
@@ -33802,6 +34429,7 @@ return {
         des = "",
         keyName = "H",
         extraFirst = 0,
+        keyCode = 4096,
         skillShow = {
             [1] = 0,
         },
@@ -33846,7 +34474,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20505,
         subclassesPicture = {
         },
@@ -33856,6 +34484,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -33900,7 +34529,7 @@ return {
         icon = "icon/skill/10401_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 4030,
         subclassesPicture = {
         },
@@ -33910,6 +34539,7 @@ return {
         des = "2200430",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 1,
         },
@@ -33954,6 +34584,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14682,
         subclassesPicture = {
         },
@@ -34007,7 +34638,7 @@ return {
         icon = "icon/skill/25301_skill5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31250,
         subclassesPicture = {
         },
@@ -34017,6 +34648,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -34061,6 +34693,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 10070,
         subclassesPicture = {
         },
@@ -34113,6 +34746,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 515510,
         subclassesPicture = {
         },
@@ -34166,7 +34800,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26160,
         subclassesPicture = {
         },
@@ -34176,6 +34810,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -34220,7 +34855,7 @@ return {
         icon = "icon/skill/11201_icon1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 12201,
         subclassesPicture = {
         },
@@ -34230,6 +34865,7 @@ return {
         des = "2201410",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -34274,7 +34910,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43080,
         subclassesPicture = {
         },
@@ -34284,6 +34920,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -34329,7 +34966,7 @@ return {
         icon = "icon/skill/10208_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 12641,
         subclassesPicture = {
         },
@@ -34339,6 +34976,7 @@ return {
         des = "2201750",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -34383,7 +35021,7 @@ return {
         icon = "icon/skill/12501_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600410,
         subclassesPicture = {
         },
@@ -34393,6 +35031,7 @@ return {
         des = "2202740",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -34437,7 +35076,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36100,
         subclassesPicture = {
         },
@@ -34447,6 +35086,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -34491,7 +35131,7 @@ return {
         icon = "icon/skill/11501_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 13161,
         subclassesPicture = {
         },
@@ -34501,6 +35141,7 @@ return {
         des = "2202180",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -34545,7 +35186,7 @@ return {
         icon = "icon/skill/10601_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 435170,
         subclassesPicture = {
         },
@@ -34555,6 +35196,7 @@ return {
         des = "2200640",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -34599,7 +35241,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44040,
         subclassesPicture = {
         },
@@ -34609,6 +35251,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -34653,7 +35296,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46511,
         subclassesPicture = {
         },
@@ -34663,6 +35306,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -34707,7 +35351,7 @@ return {
         icon = "icon/skill/12201_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 14171,
         subclassesPicture = {
         },
@@ -34717,6 +35361,7 @@ return {
         des = "2202570",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -34761,7 +35406,7 @@ return {
         icon = "icon/skill/10101_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 430020,
         subclassesPicture = {
         },
@@ -34771,6 +35416,7 @@ return {
         des = "2200130",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 2,
         },
@@ -34815,6 +35461,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 5041,
         subclassesPicture = {
         },
@@ -34868,7 +35515,7 @@ return {
         icon = "icon/skill/12501_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600450,
         subclassesPicture = {
         },
@@ -34878,6 +35525,7 @@ return {
         des = "2202750",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -34922,7 +35570,7 @@ return {
         icon = "icon/skill/10401_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 4240,
         subclassesPicture = {
         },
@@ -34932,6 +35580,7 @@ return {
         des = "2200440",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -34976,7 +35625,7 @@ return {
         icon = "icon/skill/25301_skill6.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 31260,
         subclassesPicture = {
         },
@@ -34986,6 +35635,7 @@ return {
         des = "",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
             [1] = 0,
         },
@@ -35030,6 +35680,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12771,
         subclassesPicture = {
         },
@@ -35083,6 +35734,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512271,
         subclassesPicture = {
         },
@@ -35136,7 +35788,7 @@ return {
         icon = "icon/skill/10111_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 10420,
         subclassesPicture = {
         },
@@ -35146,6 +35798,7 @@ return {
         des = "2201120",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -35190,6 +35843,7 @@ return {
         icon = "icon/skill/12501_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 600420,
         subclassesPicture = {
         },
@@ -35243,7 +35897,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36120,
         subclassesPicture = {
         },
@@ -35253,6 +35907,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -35297,6 +35952,7 @@ return {
         icon = "icon/skill/11601_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13651,
         subclassesPicture = {
         },
@@ -35350,7 +36006,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44050,
         subclassesPicture = {
         },
@@ -35360,6 +36016,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -35404,6 +36061,7 @@ return {
         icon = "0",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 15141,
         subclassesPicture = {
         },
@@ -35457,7 +36115,7 @@ return {
         icon = "icon/skill/10301_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 3130,
         subclassesPicture = {
         },
@@ -35467,6 +36125,7 @@ return {
         des = "2200330",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -35511,7 +36170,7 @@ return {
         icon = "icon/skill/10101_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 430030,
         subclassesPicture = {
         },
@@ -35521,6 +36180,7 @@ return {
         des = "2200140",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -35565,7 +36225,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46151,
         subclassesPicture = {
         },
@@ -35575,6 +36235,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -35619,6 +36280,7 @@ return {
         icon = "icon/skill/11301_icon13.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12361,
         subclassesPicture = {
         },
@@ -35672,7 +36334,7 @@ return {
         icon = "icon/skill/11401_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 516001,
         subclassesPicture = {
         },
@@ -35682,6 +36344,7 @@ return {
         des = "2202010",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -35726,7 +36389,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20506,
         subclassesPicture = {
         },
@@ -35736,6 +36399,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -35780,7 +36444,7 @@ return {
         icon = "icon/skill/10210_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 12901,
         subclassesPicture = {
         },
@@ -35790,6 +36454,7 @@ return {
         des = "2201910",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -35834,7 +36499,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46153,
         subclassesPicture = {
         },
@@ -35844,6 +36509,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -35888,7 +36554,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31270,
         subclassesPicture = {
         },
@@ -35898,6 +36564,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -35942,7 +36609,7 @@ return {
         icon = "icon/skill/10111_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 10591,
         subclassesPicture = {
         },
@@ -35952,6 +36619,7 @@ return {
         des = "2200140",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -35996,7 +36664,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 512241,
         subclassesPicture = {
         },
@@ -36006,6 +36674,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -36050,7 +36719,7 @@ return {
         icon = "icon/skill/10101_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601,
         subclassesPicture = {
         },
@@ -36060,6 +36729,7 @@ return {
         des = "2200180",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -36106,7 +36776,7 @@ return {
         icon = "icon/skill/12501_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 14421,
         subclassesPicture = {
         },
@@ -36116,6 +36786,7 @@ return {
         des = "2202730",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -36161,7 +36832,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36140,
         subclassesPicture = {
         },
@@ -36171,6 +36842,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -36215,7 +36887,7 @@ return {
         icon = "icon/skill/10801_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 8020,
         subclassesPicture = {
         },
@@ -36225,6 +36897,7 @@ return {
         des = "2200820",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -36269,7 +36942,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46150,
         subclassesPicture = {
         },
@@ -36279,6 +36952,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -36323,7 +36997,7 @@ return {
         icon = "icon/skill/10301_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 516330,
         subclassesPicture = {
         },
@@ -36333,6 +37007,7 @@ return {
         des = "2200330",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -36377,6 +37052,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 11210,
         subclassesPicture = {
         },
@@ -36430,7 +37106,7 @@ return {
         icon = "icon/skill/10701_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 435200,
         subclassesPicture = {
         },
@@ -36440,6 +37116,7 @@ return {
         des = "",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -36484,7 +37161,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46623,
         subclassesPicture = {
         },
@@ -36494,6 +37171,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -36538,7 +37216,7 @@ return {
         icon = "icon/skill/10302_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 601610,
         subclassesPicture = {
         },
@@ -36548,6 +37226,7 @@ return {
         des = "2201660",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -36592,7 +37271,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601520,
         subclassesPicture = {
         },
@@ -36602,6 +37281,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -36646,7 +37326,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601450,
         subclassesPicture = {
         },
@@ -36656,6 +37336,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -36700,6 +37381,7 @@ return {
         icon = "icon/skill/10302_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 601440,
         subclassesPicture = {
         },
@@ -36753,7 +37435,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601420,
         subclassesPicture = {
         },
@@ -36763,6 +37445,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -36807,7 +37490,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 430040,
         subclassesPicture = {
         },
@@ -36817,6 +37500,7 @@ return {
         des = "",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -36861,7 +37545,7 @@ return {
         icon = "icon/skill/10302_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 601330,
         subclassesPicture = {
         },
@@ -36871,6 +37555,7 @@ return {
         des = "2201660",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -36915,7 +37600,7 @@ return {
         icon = "icon/skill/10501_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 5340,
         subclassesPicture = {
         },
@@ -36925,6 +37610,7 @@ return {
         des = "2200540",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -36969,7 +37655,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601250,
         subclassesPicture = {
         },
@@ -36979,6 +37665,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -37023,7 +37710,7 @@ return {
         icon = "icon/skill/12501_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600437,
         subclassesPicture = {
         },
@@ -37033,6 +37720,7 @@ return {
         des = "2202780",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -37077,7 +37765,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601221,
         subclassesPicture = {
         },
@@ -37087,6 +37775,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -37131,7 +37820,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40110,
         subclassesPicture = {
         },
@@ -37141,6 +37830,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -37185,6 +37875,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13281,
         subclassesPicture = {
         },
@@ -37238,7 +37929,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600433,
         subclassesPicture = {
         },
@@ -37248,6 +37939,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -37292,7 +37984,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601210,
         subclassesPicture = {
         },
@@ -37302,6 +37994,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -37346,7 +38039,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40120,
         subclassesPicture = {
         },
@@ -37356,6 +38049,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -37400,7 +38094,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28110,
         subclassesPicture = {
         },
@@ -37410,6 +38104,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -37454,7 +38149,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31280,
         subclassesPicture = {
         },
@@ -37464,6 +38159,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -37508,7 +38204,7 @@ return {
         icon = "icon/skill/10208_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 512601,
         subclassesPicture = {
         },
@@ -37518,6 +38214,7 @@ return {
         des = "2201710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -37562,7 +38259,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40130,
         subclassesPicture = {
         },
@@ -37572,6 +38269,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -37616,7 +38314,7 @@ return {
         icon = "icon/skill/10301_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 3010,
         subclassesPicture = {
         },
@@ -37626,6 +38324,7 @@ return {
         des = "2200310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -37670,7 +38369,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 600438,
         subclassesPicture = {
         },
@@ -37680,6 +38379,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -37724,6 +38424,7 @@ return {
         icon = "icon/skill/12401_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14551,
         subclassesPicture = {
         },
@@ -37777,7 +38478,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40140,
         subclassesPicture = {
         },
@@ -37787,6 +38488,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -37831,7 +38533,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601123,
         subclassesPicture = {
         },
@@ -37841,6 +38543,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -37885,7 +38588,7 @@ return {
         icon = "icon/skill/10901_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 9050,
         subclassesPicture = {
         },
@@ -37895,6 +38598,7 @@ return {
         des = "2200950",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -37939,7 +38643,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601122,
         subclassesPicture = {
         },
@@ -37949,6 +38653,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -37993,7 +38698,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601121,
         subclassesPicture = {
         },
@@ -38003,6 +38708,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -38047,7 +38753,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601120,
         subclassesPicture = {
         },
@@ -38057,6 +38763,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -38101,7 +38808,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 512292,
         subclassesPicture = {
         },
@@ -38111,6 +38818,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -38155,7 +38863,7 @@ return {
         icon = "icon/skill/10102_icon4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 12081,
         subclassesPicture = {
         },
@@ -38165,6 +38873,7 @@ return {
         des = "2201360",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
         },
         gainEnergy = 0,
@@ -38208,7 +38917,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 600460,
         subclassesPicture = {
         },
@@ -38218,6 +38927,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -38262,7 +38972,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601050,
         subclassesPicture = {
         },
@@ -38272,6 +38982,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -38316,7 +39027,7 @@ return {
         icon = "icon/skill/12501_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600461,
         subclassesPicture = {
         },
@@ -38326,6 +39037,7 @@ return {
         des = "2202730",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -38370,6 +39082,7 @@ return {
         icon = "icon/skill/10302_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 601040,
         subclassesPicture = {
         },
@@ -38423,7 +39136,7 @@ return {
         icon = "icon/skill/10101_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 1150,
         subclassesPicture = {
         },
@@ -38433,6 +39146,7 @@ return {
         des = "2200130",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -38477,7 +39191,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601020,
         subclassesPicture = {
         },
@@ -38487,6 +39201,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -38531,7 +39246,7 @@ return {
         icon = "icon/skill/12501_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600463,
         subclassesPicture = {
         },
@@ -38541,6 +39256,7 @@ return {
         des = "2202730",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -38585,7 +39301,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601010,
         subclassesPicture = {
         },
@@ -38595,6 +39311,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -38639,7 +39356,7 @@ return {
         icon = "icon/skill/10302_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 600931,
         subclassesPicture = {
         },
@@ -38649,6 +39366,7 @@ return {
         des = "2201660",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -38693,7 +39411,7 @@ return {
         icon = "icon/skill/11401_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 13061,
         subclassesPicture = {
         },
@@ -38703,6 +39421,7 @@ return {
         des = "2202070",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -38747,7 +39466,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600921,
         subclassesPicture = {
         },
@@ -38757,6 +39476,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -38801,6 +39521,7 @@ return {
         icon = "icon/skill/10302_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 601620,
         subclassesPicture = {
         },
@@ -38854,7 +39575,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46510,
         subclassesPicture = {
         },
@@ -38864,6 +39585,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -38908,7 +39630,7 @@ return {
         icon = "icon/skill/10302_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 600831,
         subclassesPicture = {
         },
@@ -38918,6 +39640,7 @@ return {
         des = "2201660",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -38962,7 +39685,7 @@ return {
         icon = "icon/skill/11301_icon7.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 13401,
         subclassesPicture = {
         },
@@ -38972,6 +39695,7 @@ return {
         des = "2201527",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -39016,7 +39740,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600821,
         subclassesPicture = {
         },
@@ -39026,6 +39750,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -39070,7 +39795,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600810,
         subclassesPicture = {
         },
@@ -39080,6 +39805,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -39124,7 +39850,7 @@ return {
         icon = "icon/skill/10301_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 432023,
         subclassesPicture = {
         },
@@ -39134,6 +39860,7 @@ return {
         des = "2200310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -39178,7 +39905,7 @@ return {
         icon = "icon/skill/12501_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600680,
         subclassesPicture = {
         },
@@ -39188,6 +39915,7 @@ return {
         des = "2202710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -39232,7 +39960,7 @@ return {
         icon = "icon/skill/11201_icon5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 14051,
         subclassesPicture = {
         },
@@ -39242,6 +39970,7 @@ return {
         des = "2201460",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -39286,7 +40015,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40150,
         subclassesPicture = {
         },
@@ -39296,6 +40025,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -39340,7 +40070,7 @@ return {
         icon = "icon/skill/10701_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 451210,
         subclassesPicture = {
         },
@@ -39350,6 +40080,7 @@ return {
         des = "2200720",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -39394,7 +40125,7 @@ return {
         icon = "icon/skill/10401_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 4040,
         subclassesPicture = {
         },
@@ -39404,6 +40135,7 @@ return {
         des = "2200440",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -39448,7 +40180,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 599070,
         subclassesPicture = {
         },
@@ -39458,6 +40190,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -39502,6 +40235,7 @@ return {
         icon = "icon/skill/12801_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14671,
         subclassesPicture = {
         },
@@ -39555,7 +40289,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28120,
         subclassesPicture = {
         },
@@ -39565,6 +40299,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -39609,7 +40344,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31290,
         subclassesPicture = {
         },
@@ -39619,6 +40354,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -39663,6 +40399,7 @@ return {
         icon = "icon/angleskill/110010_angleskillA.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 10080,
         subclassesPicture = {
         },
@@ -39715,7 +40452,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23110,
         subclassesPicture = {
         },
@@ -39725,6 +40462,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -39769,7 +40507,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 4096,
+        costLow = 0,
         first = 433050,
         subclassesPicture = {
         },
@@ -39779,6 +40517,7 @@ return {
         des = "",
         keyName = "H",
         extraFirst = 403050,
+        keyCode = 4096,
         skillShow = {
             [1] = 0,
         },
@@ -39823,7 +40562,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23062,
         subclassesPicture = {
         },
@@ -39833,6 +40572,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -39877,7 +40617,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26114,
         subclassesPicture = {
         },
@@ -39887,6 +40627,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -39931,7 +40672,7 @@ return {
         icon = "icon/skill/11201_icon2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 12211,
         subclassesPicture = {
         },
@@ -39941,6 +40682,7 @@ return {
         des = "2201420",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -39985,7 +40727,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 599020,
         subclassesPicture = {
         },
@@ -39995,6 +40737,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -40039,7 +40782,7 @@ return {
         icon = "icon/skill/10401_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 433140,
         subclassesPicture = {
         },
@@ -40049,6 +40792,7 @@ return {
         des = "2200410",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -40093,7 +40837,7 @@ return {
         icon = "icon/skill/10301_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 516230,
         subclassesPicture = {
         },
@@ -40103,6 +40847,7 @@ return {
         des = "2200330",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -40147,6 +40892,7 @@ return {
         icon = "icon/skill/10301_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 516250,
         subclassesPicture = {
         },
@@ -40200,6 +40946,7 @@ return {
         icon = "icon/skill/10208_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12651,
         subclassesPicture = {
         },
@@ -40253,7 +41000,7 @@ return {
         icon = "icon/skill/12501_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600690,
         subclassesPicture = {
         },
@@ -40263,6 +41010,7 @@ return {
         des = "2202720",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -40307,7 +41055,7 @@ return {
         icon = "icon/skill/12501_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600761,
         subclassesPicture = {
         },
@@ -40317,6 +41065,7 @@ return {
         des = "2202730",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -40361,7 +41110,7 @@ return {
         icon = "icon/skill/12501_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 606393,
         subclassesPicture = {
         },
@@ -40371,6 +41120,7 @@ return {
         des = "2202720",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -40415,7 +41165,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 600760,
         subclassesPicture = {
         },
@@ -40425,6 +41175,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -40469,7 +41220,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 600739,
         subclassesPicture = {
         },
@@ -40479,6 +41230,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -40523,7 +41275,7 @@ return {
         icon = "icon/skill/10301_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 516340,
         subclassesPicture = {
         },
@@ -40533,6 +41285,7 @@ return {
         des = "2200340",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -40577,7 +41330,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600110,
         subclassesPicture = {
         },
@@ -40587,6 +41340,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -40631,7 +41385,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 600736,
         subclassesPicture = {
         },
@@ -40641,6 +41395,7 @@ return {
         des = "",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -40685,7 +41440,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600111,
         subclassesPicture = {
         },
@@ -40695,6 +41450,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -40739,7 +41495,7 @@ return {
         icon = "icon/skill/10210_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 13531,
         subclassesPicture = {
         },
@@ -40749,6 +41505,7 @@ return {
         des = "2201940",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -40793,7 +41550,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600112,
         subclassesPicture = {
         },
@@ -40803,6 +41560,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -40847,7 +41605,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 22010,
         subclassesPicture = {
         },
@@ -40857,6 +41615,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -40901,7 +41660,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 39001,
         subclassesPicture = {
         },
@@ -40911,6 +41670,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -40955,7 +41715,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600735,
         subclassesPicture = {
         },
@@ -40965,6 +41725,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -41009,6 +41770,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14172,
         subclassesPicture = {
         },
@@ -41062,7 +41824,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600734,
         subclassesPicture = {
         },
@@ -41072,6 +41834,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -41116,7 +41879,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 39002,
         subclassesPicture = {
         },
@@ -41126,6 +41889,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -41170,7 +41934,7 @@ return {
         icon = "icon/skill/10502_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 5150,
         subclassesPicture = {
         },
@@ -41180,6 +41944,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -41224,7 +41989,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600733,
         subclassesPicture = {
         },
@@ -41234,6 +41999,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -41278,6 +42044,7 @@ return {
         icon = "icon/skill/12701_icon7.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 15024,
         subclassesPicture = {
         },
@@ -41330,7 +42097,7 @@ return {
         icon = "icon/skill/12501_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600700,
         subclassesPicture = {
         },
@@ -41340,6 +42107,7 @@ return {
         des = "2202730",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -41384,7 +42152,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31500,
         subclassesPicture = {
         },
@@ -41394,6 +42162,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -41438,7 +42207,7 @@ return {
         icon = "icon/skill/10111_skillAB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 10240,
         subclassesPicture = {
         },
@@ -41448,6 +42217,7 @@ return {
         des = "2200110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -41492,7 +42262,7 @@ return {
         icon = "icon/skill/10701_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 451220,
         subclassesPicture = {
         },
@@ -41502,6 +42272,7 @@ return {
         des = "2200730",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -41546,7 +42317,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 39004,
         subclassesPicture = {
         },
@@ -41556,6 +42327,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -41600,7 +42372,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 600732,
         subclassesPicture = {
         },
@@ -41610,6 +42382,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -41654,6 +42427,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 516360,
         subclassesPicture = {
         },
@@ -41707,6 +42481,7 @@ return {
         icon = "icon/skill/10401_skillC.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 4220,
         subclassesPicture = {
         },
@@ -41760,7 +42535,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 39005,
         subclassesPicture = {
         },
@@ -41770,6 +42545,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -41814,7 +42590,7 @@ return {
         icon = "icon/skill/10208_extraskillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 512621,
         subclassesPicture = {
         },
@@ -41824,6 +42600,7 @@ return {
         des = "2201730",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -41868,7 +42645,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20301,
         subclassesPicture = {
         },
@@ -41878,6 +42655,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -41922,7 +42700,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28131,
         subclassesPicture = {
         },
@@ -41932,6 +42710,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -41976,7 +42755,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 12741,
         subclassesPicture = {
         },
@@ -41986,6 +42765,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -42030,6 +42810,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 600731,
         subclassesPicture = {
         },
@@ -42083,7 +42864,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600151,
         subclassesPicture = {
         },
@@ -42093,6 +42874,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -42137,6 +42919,7 @@ return {
         icon = "icon/skill/12501_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 600720,
         subclassesPicture = {
         },
@@ -42190,7 +42973,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 39007,
         subclassesPicture = {
         },
@@ -42200,6 +42983,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -42244,7 +43028,7 @@ return {
         icon = "icon/skill/10111_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 10450,
         subclassesPicture = {
         },
@@ -42254,6 +43038,7 @@ return {
         des = "2201130",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -42298,7 +43083,7 @@ return {
         icon = "icon/skill/12501_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600750,
         subclassesPicture = {
         },
@@ -42308,6 +43093,7 @@ return {
         des = "2202750",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -42352,7 +43138,7 @@ return {
         icon = "icon/skill/12501_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600710,
         subclassesPicture = {
         },
@@ -42362,6 +43148,7 @@ return {
         des = "2202740",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -42406,7 +43193,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 39008,
         subclassesPicture = {
         },
@@ -42416,6 +43203,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -42461,7 +43249,7 @@ return {
         icon = "icon/skill/11501_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 516131,
         subclassesPicture = {
         },
@@ -42471,6 +43259,7 @@ return {
         des = "2202140",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -42515,7 +43304,7 @@ return {
         icon = "icon/skill/11601_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 13661,
         subclassesPicture = {
         },
@@ -42525,6 +43314,7 @@ return {
         des = "2202370",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -42569,7 +43359,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600502,
         subclassesPicture = {
         },
@@ -42579,6 +43369,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -42623,7 +43414,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 39009,
         subclassesPicture = {
         },
@@ -42633,6 +43424,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -42677,6 +43469,7 @@ return {
         icon = "icon/skill/11501_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 516151,
         subclassesPicture = {
         },
@@ -42730,7 +43523,7 @@ return {
         icon = "icon/skill/12501_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600462,
         subclassesPicture = {
         },
@@ -42740,6 +43533,7 @@ return {
         des = "2202730",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -42784,7 +43578,7 @@ return {
         icon = "icon/skill/10210_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 14301,
         subclassesPicture = {
         },
@@ -42794,6 +43588,7 @@ return {
         des = "2201910",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -42838,7 +43633,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 39010,
         subclassesPicture = {
         },
@@ -42848,6 +43643,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -42892,7 +43688,7 @@ return {
         icon = "icon/skill/10701_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 435120,
         subclassesPicture = {
         },
@@ -42902,6 +43698,7 @@ return {
         des = "2200610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -42946,7 +43743,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600132,
         subclassesPicture = {
         },
@@ -42956,6 +43753,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -43000,7 +43798,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 600439,
         subclassesPicture = {
         },
@@ -43010,6 +43808,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -43054,7 +43853,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 39011,
         subclassesPicture = {
         },
@@ -43064,6 +43863,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -43108,7 +43908,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 600436,
         subclassesPicture = {
         },
@@ -43118,6 +43918,7 @@ return {
         des = "",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -43162,7 +43963,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600435,
         subclassesPicture = {
         },
@@ -43172,6 +43973,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -43216,7 +44018,7 @@ return {
         icon = "icon/skill/10301_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 3140,
         subclassesPicture = {
         },
@@ -43226,6 +44028,7 @@ return {
         des = "2200340",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -43270,7 +44073,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 39012,
         subclassesPicture = {
         },
@@ -43280,6 +44083,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -43324,7 +44128,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600434,
         subclassesPicture = {
         },
@@ -43334,6 +44138,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -43378,7 +44183,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 600432,
         subclassesPicture = {
         },
@@ -43388,6 +44193,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -43432,6 +44238,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 600431,
         subclassesPicture = {
         },
@@ -43485,6 +44292,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12371,
         subclassesPicture = {
         },
@@ -43538,7 +44346,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31510,
         subclassesPicture = {
         },
@@ -43548,6 +44356,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -43592,7 +44401,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40170,
         subclassesPicture = {
         },
@@ -43602,6 +44411,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -43646,7 +44456,7 @@ return {
         icon = "icon/skill/10701_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 451230,
         subclassesPicture = {
         },
@@ -43656,6 +44466,7 @@ return {
         des = "2200740",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -43700,7 +44511,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 12792,
         subclassesPicture = {
         },
@@ -43710,6 +44521,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -43754,7 +44566,7 @@ return {
         icon = "icon/skill/10210_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 12911,
         subclassesPicture = {
         },
@@ -43764,6 +44576,7 @@ return {
         des = "2201920",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -43808,7 +44621,7 @@ return {
         icon = "icon/skill/12501_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600430,
         subclassesPicture = {
         },
@@ -43818,6 +44631,7 @@ return {
         des = "2202770",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -43862,7 +44676,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28410,
         subclassesPicture = {
         },
@@ -43872,6 +44686,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -43916,7 +44731,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31310,
         subclassesPicture = {
         },
@@ -43926,6 +44741,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -43970,7 +44786,7 @@ return {
         icon = "icon/skill/10208_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 512631,
         subclassesPicture = {
         },
@@ -43980,6 +44796,7 @@ return {
         des = "2201740",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -44024,7 +44841,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23120,
         subclassesPicture = {
         },
@@ -44034,6 +44851,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -44078,7 +44896,7 @@ return {
         icon = "icon/skill/10302_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 600361,
         subclassesPicture = {
         },
@@ -44088,6 +44906,7 @@ return {
         des = "2201680",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -44132,6 +44951,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12592,
         subclassesPicture = {
         },
@@ -44185,6 +45005,7 @@ return {
         icon = "icon/skill/10302_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12591,
         subclassesPicture = {
         },
@@ -44238,7 +45059,7 @@ return {
         icon = "icon/skill/10302_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 12580,
         subclassesPicture = {
         },
@@ -44248,6 +45069,7 @@ return {
         des = "2201650",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -44292,7 +45114,7 @@ return {
         icon = "icon/skill/10302_ExtraskillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 600331,
         subclassesPicture = {
         },
@@ -44302,6 +45124,7 @@ return {
         des = "2201630",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -44346,7 +45169,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43540,
         subclassesPicture = {
         },
@@ -44356,6 +45179,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -44400,7 +45224,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600310,
         subclassesPicture = {
         },
@@ -44410,6 +45234,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -44454,7 +45279,7 @@ return {
         icon = "icon/skill/10101_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 1001,
         subclassesPicture = {
         },
@@ -44464,6 +45289,7 @@ return {
         des = "2200190",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -44508,6 +45334,7 @@ return {
         icon = "icon/skill/10701_skillB.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 9035,
         subclassesPicture = {
         },
@@ -44561,7 +45388,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27520,
         subclassesPicture = {
         },
@@ -44571,6 +45398,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -44615,7 +45443,7 @@ return {
         icon = "icon/skill/10901_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 9031,
         subclassesPicture = {
         },
@@ -44625,6 +45453,7 @@ return {
         des = "2200930",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -44669,7 +45498,7 @@ return {
         icon = "icon/skill/10901_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600220,
         subclassesPicture = {
         },
@@ -44679,6 +45508,7 @@ return {
         des = "2200920",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -44723,7 +45553,7 @@ return {
         icon = "icon/skill/10801_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 8030,
         subclassesPicture = {
         },
@@ -44733,6 +45563,7 @@ return {
         des = "2200830",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -44777,7 +45608,7 @@ return {
         icon = "icon/skill/10602_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 511080,
         subclassesPicture = {
         },
@@ -44787,6 +45618,7 @@ return {
         des = "2201230",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -44831,6 +45663,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 511211,
         subclassesPicture = {
         },
@@ -44884,6 +45717,7 @@ return {
         icon = "icon/skill/10602_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 511220,
         subclassesPicture = {
         },
@@ -44937,7 +45771,7 @@ return {
         icon = "icon/skill/10602_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 511200,
         subclassesPicture = {
         },
@@ -44947,6 +45781,7 @@ return {
         des = "2201250",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -44991,7 +45826,7 @@ return {
         icon = "icon/skill/10602_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 11050,
         subclassesPicture = {
         },
@@ -45001,6 +45836,7 @@ return {
         des = "2201230",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -45045,7 +45881,7 @@ return {
         icon = "icon/skill/10701_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 435320,
         subclassesPicture = {
         },
@@ -45055,6 +45891,7 @@ return {
         des = "2200610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -45099,7 +45936,7 @@ return {
         icon = "icon/skill/10601_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 511230,
         subclassesPicture = {
         },
@@ -45109,6 +45946,7 @@ return {
         des = "2201260",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -45153,7 +45991,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 22020,
         subclassesPicture = {
         },
@@ -45163,6 +46001,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -45207,7 +46046,7 @@ return {
         icon = "icon/skill/10602_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 511040,
         subclassesPicture = {
         },
@@ -45217,6 +46056,7 @@ return {
         des = "2201220",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -45261,7 +46101,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 12501,
         subclassesPicture = {
         },
@@ -45271,6 +46111,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -45315,7 +46156,7 @@ return {
         icon = "icon/skill/10111_skillAB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 105,
         subclassesPicture = {
         },
@@ -45325,6 +46166,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -45369,7 +46211,7 @@ return {
         icon = "icon/skill/10602_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 511006,
         subclassesPicture = {
         },
@@ -45379,6 +46221,7 @@ return {
         des = "2201210",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -45423,7 +46266,7 @@ return {
         icon = "icon/skill/10101_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 430060,
         subclassesPicture = {
         },
@@ -45433,6 +46276,7 @@ return {
         des = "2200110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -45477,7 +46321,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600161,
         subclassesPicture = {
         },
@@ -45487,6 +46331,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -45531,6 +46376,7 @@ return {
         icon = "icon/skill/10301_skillC.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 5353,
         subclassesPicture = {
         },
@@ -45584,7 +46430,7 @@ return {
         icon = "icon/skill/10801_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 8031,
         subclassesPicture = {
         },
@@ -45594,6 +46440,7 @@ return {
         des = "2200830",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -45638,7 +46485,7 @@ return {
         icon = "icon/skill/12501_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600730,
         subclassesPicture = {
         },
@@ -45648,6 +46495,7 @@ return {
         des = "2202770",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -45692,7 +46540,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31520,
         subclassesPicture = {
         },
@@ -45702,6 +46550,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -45746,7 +46595,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40180,
         subclassesPicture = {
         },
@@ -45756,6 +46605,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -45800,7 +46650,7 @@ return {
         icon = "icon/skill/10413_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 13291,
         subclassesPicture = {
         },
@@ -45810,6 +46660,7 @@ return {
         des = "2202280",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -45854,7 +46705,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600141,
         subclassesPicture = {
         },
@@ -45864,6 +46715,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -45908,7 +46760,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600131,
         subclassesPicture = {
         },
@@ -45918,6 +46770,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -45962,7 +46815,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600121,
         subclassesPicture = {
         },
@@ -45972,6 +46825,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -46016,7 +46870,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28420,
         subclassesPicture = {
         },
@@ -46026,6 +46880,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -46070,7 +46925,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31320,
         subclassesPicture = {
         },
@@ -46080,6 +46935,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -46124,7 +46980,7 @@ return {
         icon = "icon/skill/10208_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 512641,
         subclassesPicture = {
         },
@@ -46134,6 +46990,7 @@ return {
         des = "2201750",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -46178,7 +47035,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20302,
         subclassesPicture = {
         },
@@ -46188,6 +47045,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -46232,7 +47090,7 @@ return {
         icon = "icon/skill/10301_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 3020,
         subclassesPicture = {
         },
@@ -46242,6 +47100,7 @@ return {
         des = "2200320",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -46286,7 +47145,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600113,
         subclassesPicture = {
         },
@@ -46296,6 +47155,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -46340,7 +47200,7 @@ return {
         icon = "icon/skill/12401_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 14561,
         subclassesPicture = {
         },
@@ -46350,6 +47210,7 @@ return {
         des = "2202970",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -46394,7 +47255,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600010,
         subclassesPicture = {
         },
@@ -46404,6 +47265,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -46448,7 +47310,7 @@ return {
         icon = "icon/skill/12201_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 14181,
         subclassesPicture = {
         },
@@ -46458,6 +47320,7 @@ return {
         des = "2202580",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -46502,7 +47365,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43550,
         subclassesPicture = {
         },
@@ -46512,6 +47375,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -46556,6 +47420,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14172,
         subclassesPicture = {
         },
@@ -46609,7 +47474,7 @@ return {
         icon = "icon/skill/13201_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 15301,
         subclassesPicture = {
         },
@@ -46619,6 +47484,7 @@ return {
         des = "2203310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -46663,7 +47529,7 @@ return {
         icon = "icon/skill/12201_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 14171,
         subclassesPicture = {
         },
@@ -46673,6 +47539,7 @@ return {
         des = "2202570",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -46717,7 +47584,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27530,
         subclassesPicture = {
         },
@@ -46727,6 +47594,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -46771,7 +47639,7 @@ return {
         icon = "icon/skill/10102_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 12091,
         subclassesPicture = {
         },
@@ -46781,6 +47649,7 @@ return {
         des = "2201350",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
         },
         gainEnergy = 0,
@@ -46824,6 +47693,7 @@ return {
         icon = "icon/skill/12201_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14161,
         subclassesPicture = {
         },
@@ -46877,7 +47747,7 @@ return {
         icon = "icon/skill/12201_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 14151,
         subclassesPicture = {
         },
@@ -46887,6 +47757,7 @@ return {
         des = "2202550",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -46931,7 +47802,7 @@ return {
         icon = "icon/skill/12201_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 514131,
         subclassesPicture = {
         },
@@ -46941,6 +47812,7 @@ return {
         des = "2202540",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -46985,7 +47857,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30970,
         subclassesPicture = {
         },
@@ -46995,6 +47867,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -47039,7 +47912,7 @@ return {
         icon = "icon/skill/10101_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 1160,
         subclassesPicture = {
         },
@@ -47049,6 +47922,7 @@ return {
         des = "2200140",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -47093,7 +47967,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29111,
         subclassesPicture = {
         },
@@ -47103,6 +47977,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -47147,7 +48022,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23080,
         subclassesPicture = {
         },
@@ -47157,6 +48032,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -47201,7 +48077,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 436005,
         subclassesPicture = {
         },
@@ -47211,6 +48087,7 @@ return {
         des = "2200710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -47255,7 +48132,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44510,
         subclassesPicture = {
         },
@@ -47265,6 +48142,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -47309,6 +48187,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13062,
         subclassesPicture = {
         },
@@ -47362,7 +48241,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 39031,
         subclassesPicture = {
         },
@@ -47372,6 +48251,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -47416,7 +48296,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31410,
         subclassesPicture = {
         },
@@ -47426,6 +48306,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -47471,7 +48352,7 @@ return {
         icon = "icon/skill/10601_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 434210,
         subclassesPicture = {
         },
@@ -47481,6 +48362,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -47525,7 +48407,7 @@ return {
         icon = "icon/skill/10801_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 446160,
         subclassesPicture = {
         },
@@ -47535,6 +48417,7 @@ return {
         des = "2200710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -47579,7 +48462,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 39032,
         subclassesPicture = {
         },
@@ -47589,6 +48472,7 @@ return {
         des = "",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -47633,7 +48517,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 42020,
         subclassesPicture = {
         },
@@ -47643,6 +48527,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -47687,7 +48572,7 @@ return {
         icon = "icon/skill/10210_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 13906,
         subclassesPicture = {
         },
@@ -47697,6 +48582,7 @@ return {
         des = "2202620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -47741,7 +48627,7 @@ return {
         icon = "icon/skill/10501_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 515340,
         subclassesPicture = {
         },
@@ -47751,6 +48637,7 @@ return {
         des = "2200540",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -47795,7 +48682,7 @@ return {
         icon = "icon/skill/12501_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600737,
         subclassesPicture = {
         },
@@ -47805,6 +48692,7 @@ return {
         des = "2202780",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -47849,7 +48737,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31530,
         subclassesPicture = {
         },
@@ -47859,6 +48747,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -47903,7 +48792,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40190,
         subclassesPicture = {
         },
@@ -47913,6 +48802,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -47957,6 +48847,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 451250,
         subclassesPicture = {
         },
@@ -48010,6 +48901,7 @@ return {
         icon = "icon/skill/10401_skillC.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 4020,
         subclassesPicture = {
         },
@@ -48063,6 +48955,7 @@ return {
         icon = "icon/skill/10301_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 516350,
         subclassesPicture = {
         },
@@ -48116,7 +49009,7 @@ return {
         icon = "icon/skill/12801_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 14651,
         subclassesPicture = {
         },
@@ -48126,6 +49019,7 @@ return {
         des = "2202880",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -48170,7 +49064,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28430,
         subclassesPicture = {
         },
@@ -48180,6 +49074,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -48224,7 +49119,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31330,
         subclassesPicture = {
         },
@@ -48234,6 +49129,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -48278,6 +49174,7 @@ return {
         icon = "icon/skill/10208_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512651,
         subclassesPicture = {
         },
@@ -48331,7 +49228,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23130,
         subclassesPicture = {
         },
@@ -48341,6 +49238,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -48385,7 +49283,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28431,
         subclassesPicture = {
         },
@@ -48395,6 +49293,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -48439,7 +49338,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 600738,
         subclassesPicture = {
         },
@@ -48449,6 +49348,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -48493,7 +49393,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 601710,
         subclassesPicture = {
         },
@@ -48503,6 +49403,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -48547,7 +49448,7 @@ return {
         icon = "icon/skill/11201_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 12221,
         subclassesPicture = {
         },
@@ -48557,6 +49458,7 @@ return {
         des = "2201430",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -48601,7 +49503,7 @@ return {
         icon = "icon/skill/10301_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 516323,
         subclassesPicture = {
         },
@@ -48611,6 +49513,7 @@ return {
         des = "2200320",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -48655,7 +49558,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43560,
         subclassesPicture = {
         },
@@ -48665,6 +49568,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -48709,7 +49613,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 24110,
         subclassesPicture = {
         },
@@ -48719,6 +49623,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -48763,7 +49668,7 @@ return {
         icon = "icon/skill/10301_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 516301,
         subclassesPicture = {
         },
@@ -48773,6 +49678,7 @@ return {
         des = "2200310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -48817,7 +49723,7 @@ return {
         icon = "icon/skill/10208_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 12652,
         subclassesPicture = {
         },
@@ -48827,6 +49733,7 @@ return {
         des = "2201760",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -48871,7 +49778,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27550,
         subclassesPicture = {
         },
@@ -48881,6 +49788,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -48925,7 +49833,7 @@ return {
         icon = "icon/skill/10301_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 516283,
         subclassesPicture = {
         },
@@ -48935,6 +49843,7 @@ return {
         des = "2200380",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -48979,6 +49888,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14653,
         subclassesPicture = {
         },
@@ -49032,7 +49942,7 @@ return {
         icon = "icon/skill/10301_skillE.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 516273,
         subclassesPicture = {
         },
@@ -49042,6 +49952,7 @@ return {
         des = "2200370",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -49088,7 +49999,7 @@ return {
         icon = "icon/skill/10301_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 3210,
         subclassesPicture = {
         },
@@ -49098,6 +50009,7 @@ return {
         des = "2200310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -49142,6 +50054,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 516260,
         subclassesPicture = {
         },
@@ -49195,7 +50108,7 @@ return {
         icon = "icon/skill/12501_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600762,
         subclassesPicture = {
         },
@@ -49205,6 +50118,7 @@ return {
         des = "2202730",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -49249,7 +50163,7 @@ return {
         icon = "icon/skill/10301_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 516240,
         subclassesPicture = {
         },
@@ -49259,6 +50173,7 @@ return {
         des = "2200340",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -49303,7 +50218,7 @@ return {
         icon = "icon/skill/12501_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600763,
         subclassesPicture = {
         },
@@ -49313,6 +50228,7 @@ return {
         des = "2202730",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -49357,7 +50273,7 @@ return {
         icon = "icon/skill/10210_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 13541,
         subclassesPicture = {
         },
@@ -49367,6 +50283,7 @@ return {
         des = "2201950",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -49411,7 +50328,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44520,
         subclassesPicture = {
         },
@@ -49421,6 +50338,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -49465,7 +50383,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 22030,
         subclassesPicture = {
         },
@@ -49475,6 +50393,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -49519,7 +50438,7 @@ return {
         icon = "icon/skill/10301_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 516223,
         subclassesPicture = {
         },
@@ -49529,6 +50448,7 @@ return {
         des = "2200320",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -49573,7 +50493,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 601720,
         subclassesPicture = {
         },
@@ -49583,6 +50503,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -49627,7 +50548,7 @@ return {
         icon = "icon/skill/12201_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 14181,
         subclassesPicture = {
         },
@@ -49637,6 +50558,7 @@ return {
         des = "2202580",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -49681,7 +50603,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23020,
         subclassesPicture = {
         },
@@ -49691,6 +50613,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -49735,7 +50658,7 @@ return {
         icon = "icon/skill/10201_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 431010,
         subclassesPicture = {
         },
@@ -49745,6 +50668,7 @@ return {
         des = "2200210",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -49789,7 +50713,7 @@ return {
         icon = "icon/skill/10502_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 5190,
         subclassesPicture = {
         },
@@ -49799,6 +50723,7 @@ return {
         des = "",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -49843,7 +50768,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 23010,
         subclassesPicture = {
         },
@@ -49853,6 +50778,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -49897,6 +50823,7 @@ return {
         icon = "icon/skill/12701_icon7.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 15062,
         subclassesPicture = {
         },
@@ -49949,7 +50876,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600501,
         subclassesPicture = {
         },
@@ -49959,6 +50886,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -50003,7 +50931,7 @@ return {
         icon = "icon/skill/11501_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 516141,
         subclassesPicture = {
         },
@@ -50013,6 +50941,7 @@ return {
         des = "2202150",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -50057,7 +50986,7 @@ return {
         icon = "icon/skill/10112_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 10250,
         subclassesPicture = {
         },
@@ -50067,6 +50996,7 @@ return {
         des = "2200120",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -50111,7 +51041,7 @@ return {
         icon = "icon/skill/10701_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 451160,
         subclassesPicture = {
         },
@@ -50121,6 +51051,7 @@ return {
         des = "2200770",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -50167,7 +51098,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 600503,
         subclassesPicture = {
         },
@@ -50177,6 +51108,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -50221,7 +51153,7 @@ return {
         icon = "icon/skill/11501_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 516122,
         subclassesPicture = {
         },
@@ -50231,6 +51163,7 @@ return {
         des = "2202130",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -50275,7 +51208,7 @@ return {
         icon = "icon/skill/11501_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 516114,
         subclassesPicture = {
         },
@@ -50285,6 +51218,7 @@ return {
         des = "2202120",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -50329,6 +51263,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 4260,
         subclassesPicture = {
         },
@@ -50382,7 +51317,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31340,
         subclassesPicture = {
         },
@@ -50392,6 +51327,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -50436,7 +51372,7 @@ return {
         icon = "icon/skill/10208_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 512652,
         subclassesPicture = {
         },
@@ -50446,6 +51382,7 @@ return {
         des = "2201760",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -50490,7 +51427,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20303,
         subclassesPicture = {
         },
@@ -50500,6 +51437,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -50544,7 +51482,7 @@ return {
         icon = "icon/skill/10110_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 470015,
         subclassesPicture = {
         },
@@ -50554,6 +51492,7 @@ return {
         des = "2201010",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -50598,6 +51537,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512861,
         subclassesPicture = {
         },
@@ -50651,7 +51591,7 @@ return {
         icon = "icon/skill/10502_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 5170,
         subclassesPicture = {
         },
@@ -50661,6 +51601,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -50705,6 +51646,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 516062,
         subclassesPicture = {
         },
@@ -50758,7 +51700,7 @@ return {
         icon = "icon/skill/11401_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 516061,
         subclassesPicture = {
         },
@@ -50768,6 +51710,7 @@ return {
         des = "2202070",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -50812,7 +51755,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43570,
         subclassesPicture = {
         },
@@ -50822,6 +51765,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -50866,7 +51810,7 @@ return {
         icon = "icon/skill/10111_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 10490,
         subclassesPicture = {
         },
@@ -50876,6 +51820,7 @@ return {
         des = "2201140",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -50920,6 +51865,7 @@ return {
         icon = "icon/skill/11401_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 516051,
         subclassesPicture = {
         },
@@ -50973,7 +51919,7 @@ return {
         icon = "icon/skill/11401_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 516041,
         subclassesPicture = {
         },
@@ -50983,6 +51929,7 @@ return {
         des = "2202050",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -51027,7 +51974,7 @@ return {
         icon = "icon/skill/11401_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 516032,
         subclassesPicture = {
         },
@@ -51037,6 +51984,7 @@ return {
         des = "2202040",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -51081,7 +52029,7 @@ return {
         icon = "icon/skill/11401_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 516021,
         subclassesPicture = {
         },
@@ -51091,6 +52039,7 @@ return {
         des = "2202030",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -51135,6 +52084,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13662,
         subclassesPicture = {
         },
@@ -51188,7 +52138,7 @@ return {
         icon = "icon/skill/11401_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 516011,
         subclassesPicture = {
         },
@@ -51198,6 +52148,7 @@ return {
         des = "2202020",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -51242,7 +52193,7 @@ return {
         icon = "icon/skill/10502_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 515500,
         subclassesPicture = {
         },
@@ -51252,6 +52203,7 @@ return {
         des = "",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -51296,6 +52248,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 515341,
         subclassesPicture = {
         },
@@ -51349,6 +52302,7 @@ return {
         icon = "icon/skill/10301_skillC.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 515350,
         subclassesPicture = {
         },
@@ -51402,7 +52356,7 @@ return {
         icon = "icon/skill/10210_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 14311,
         subclassesPicture = {
         },
@@ -51412,6 +52366,7 @@ return {
         des = "2201920",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -51456,7 +52411,7 @@ return {
         icon = "icon/skill/10210_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 13901,
         subclassesPicture = {
         },
@@ -51466,6 +52421,7 @@ return {
         des = "2202610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -51510,7 +52466,7 @@ return {
         icon = "icon/skill/10502_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 5180,
         subclassesPicture = {
         },
@@ -51520,6 +52476,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -51564,7 +52521,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44530,
         subclassesPicture = {
         },
@@ -51574,6 +52531,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -51618,7 +52576,7 @@ return {
         icon = "icon/skill/10501_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 515330,
         subclassesPicture = {
         },
@@ -51628,6 +52586,7 @@ return {
         des = "2200530",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -51672,6 +52631,7 @@ return {
         icon = "0",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 15161,
         subclassesPicture = {
         },
@@ -51725,7 +52685,7 @@ return {
         icon = "icon/skill/10501_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 515373,
         subclassesPicture = {
         },
@@ -51735,6 +52695,7 @@ return {
         des = "2200522",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -51779,7 +52740,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44531,
         subclassesPicture = {
         },
@@ -51789,6 +52750,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -51833,6 +52795,7 @@ return {
         icon = "icon/skill/10301_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 3150,
         subclassesPicture = {
         },
@@ -51886,7 +52849,7 @@ return {
         icon = "icon/skill/10201_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 431070,
         subclassesPicture = {
         },
@@ -51896,6 +52859,7 @@ return {
         des = "2200220",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -51940,7 +52904,7 @@ return {
         icon = "icon/skill/10501_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 515366,
         subclassesPicture = {
         },
@@ -51950,6 +52914,7 @@ return {
         des = "2200521",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -51994,7 +52959,7 @@ return {
         icon = "icon/skill/10501_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 515388,
         subclassesPicture = {
         },
@@ -52004,6 +52969,7 @@ return {
         des = "2200520",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -52048,6 +53014,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512962,
         subclassesPicture = {
         },
@@ -52101,7 +53068,7 @@ return {
         icon = "icon/skill/10210_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 512931,
         subclassesPicture = {
         },
@@ -52111,6 +53078,7 @@ return {
         des = "2201940",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -52155,7 +53123,7 @@ return {
         icon = "icon/skill/10209_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 512851,
         subclassesPicture = {
         },
@@ -52165,6 +53133,7 @@ return {
         des = "2201880",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -52209,7 +53178,7 @@ return {
         icon = "icon/skill/11401_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 516071,
         subclassesPicture = {
         },
@@ -52219,6 +53188,7 @@ return {
         des = "2202080",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -52263,7 +53233,7 @@ return {
         icon = "icon/skill/10701_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 451260,
         subclassesPicture = {
         },
@@ -52273,6 +53243,7 @@ return {
         des = "2200780",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -52317,6 +53288,7 @@ return {
         icon = "icon/skill/10209_icon6.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512862,
         subclassesPicture = {
         },
@@ -52370,7 +53342,7 @@ return {
         icon = "icon/skill/10210_extraskillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 12921,
         subclassesPicture = {
         },
@@ -52380,6 +53352,7 @@ return {
         des = "2201930",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -52424,7 +53397,7 @@ return {
         icon = "icon/skill/10209_icon2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 512811,
         subclassesPicture = {
         },
@@ -52434,6 +53407,7 @@ return {
         des = "2201820",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -52478,7 +53452,7 @@ return {
         icon = "icon/skill/10208_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 512611,
         subclassesPicture = {
         },
@@ -52488,6 +53462,7 @@ return {
         des = "2201720",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -52532,7 +53507,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31350,
         subclassesPicture = {
         },
@@ -52542,6 +53517,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -52586,6 +53562,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512653,
         subclassesPicture = {
         },
@@ -52639,7 +53616,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23140,
         subclassesPicture = {
         },
@@ -52649,6 +53626,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -52693,7 +53671,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 512291,
         subclassesPicture = {
         },
@@ -52703,6 +53681,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -52747,6 +53726,7 @@ return {
         icon = "icon/skill/11201_icon7.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512281,
         subclassesPicture = {
         },
@@ -52800,7 +53780,7 @@ return {
         icon = "icon/skill/11201_icon6.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 512261,
         subclassesPicture = {
         },
@@ -52810,6 +53790,7 @@ return {
         des = "2201450",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -52854,7 +53835,7 @@ return {
         icon = "icon/skill/11201_icon5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 512251,
         subclassesPicture = {
         },
@@ -52864,6 +53845,7 @@ return {
         des = "2201460",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -52908,7 +53890,7 @@ return {
         icon = "icon/skill/12301_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 13801,
         subclassesPicture = {
         },
@@ -52918,6 +53900,7 @@ return {
         des = "2202610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -52962,7 +53945,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43580,
         subclassesPicture = {
         },
@@ -52972,6 +53955,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -53016,7 +54000,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 24120,
         subclassesPicture = {
         },
@@ -53026,6 +54010,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -53070,7 +54055,7 @@ return {
         icon = "icon/skill/11201_icon4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 512231,
         subclassesPicture = {
         },
@@ -53080,6 +54065,7 @@ return {
         des = "2201440",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -53124,7 +54110,7 @@ return {
         icon = "icon/skill/11201_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 512221,
         subclassesPicture = {
         },
@@ -53134,6 +54120,7 @@ return {
         des = "2201430",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -53178,7 +54165,7 @@ return {
         icon = "icon/skill/12501_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 14440,
         subclassesPicture = {
         },
@@ -53188,6 +54175,7 @@ return {
         des = "2202750",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -53232,7 +54220,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36200,
         subclassesPicture = {
         },
@@ -53242,6 +54230,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -53286,7 +54275,7 @@ return {
         icon = "icon/skill/11201_icon2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 512211,
         subclassesPicture = {
         },
@@ -53296,6 +54285,7 @@ return {
         des = "2201420",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -53340,7 +54330,7 @@ return {
         icon = "icon/skill/10801_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 8040,
         subclassesPicture = {
         },
@@ -53350,6 +54340,7 @@ return {
         des = "2200840",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -53394,7 +54385,7 @@ return {
         icon = "icon/skill/10102_icon4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 512081,
         subclassesPicture = {
         },
@@ -53404,6 +54395,7 @@ return {
         des = "2201360",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
         },
         gainEnergy = 0,
@@ -53447,6 +54439,7 @@ return {
         icon = "icon/skill/10102_icon6.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 512041,
         subclassesPicture = {
         },
@@ -53499,6 +54492,7 @@ return {
         icon = "icon/skill/10102_icon6.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 512031,
         subclassesPicture = {
         },
@@ -53551,6 +54545,7 @@ return {
         icon = "icon/skill/10102_icon1.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 512021,
         subclassesPicture = {
         },
@@ -53603,7 +54598,7 @@ return {
         icon = "icon/skill/10602_skillCC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 11095,
         subclassesPicture = {
         },
@@ -53613,6 +54608,7 @@ return {
         des = "2201240",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -53657,7 +54653,7 @@ return {
         icon = "icon/skill/10701_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 436040,
         subclassesPicture = {
         },
@@ -53667,6 +54663,7 @@ return {
         des = "2200740",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -53711,7 +54708,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44540,
         subclassesPicture = {
         },
@@ -53721,6 +54718,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -53765,7 +54763,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 22040,
         subclassesPicture = {
         },
@@ -53775,6 +54773,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -53819,7 +54818,7 @@ return {
         icon = "icon/skill/10102_icon2.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 8192,
+        costLow = 0,
         first = 512011,
         subclassesPicture = {
         },
@@ -53829,6 +54828,7 @@ return {
         des = "2201330",
         keyName = "I",
         extraFirst = 0,
+        keyCode = 8192,
         skillShow = {
         },
         gainEnergy = 0,
@@ -53872,7 +54872,7 @@ return {
         icon = "icon/skill/10302_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 12520,
         subclassesPicture = {
         },
@@ -53882,6 +54882,7 @@ return {
         des = "2201620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -53926,7 +54927,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29010,
         subclassesPicture = {
         },
@@ -53936,6 +54937,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -53980,7 +54982,7 @@ return {
         icon = "icon/skill/10102_icon1.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 512001,
         subclassesPicture = {
         },
@@ -53990,6 +54992,7 @@ return {
         des = "2201310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
         },
         gainEnergy = 0,
@@ -54033,7 +55036,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46512,
         subclassesPicture = {
         },
@@ -54043,6 +55046,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -54087,6 +55091,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512471,
         subclassesPicture = {
         },
@@ -54140,7 +55145,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29011,
         subclassesPicture = {
         },
@@ -54150,6 +55155,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -54194,7 +55200,7 @@ return {
         icon = "icon/skill/11301_icon9.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 512431,
         subclassesPicture = {
         },
@@ -54204,6 +55210,7 @@ return {
         des = "2201530",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -54248,7 +55255,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46513,
         subclassesPicture = {
         },
@@ -54258,6 +55265,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -54302,7 +55310,7 @@ return {
         icon = "icon/skill/11301_icon11.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 512411,
         subclassesPicture = {
         },
@@ -54312,6 +55320,7 @@ return {
         des = "2201528",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -54356,7 +55365,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29013,
         subclassesPicture = {
         },
@@ -54366,6 +55375,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -54410,7 +55420,7 @@ return {
         icon = "icon/skill/10111_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 480180,
         subclassesPicture = {
         },
@@ -54420,6 +55430,7 @@ return {
         des = "2201130",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -54464,6 +55475,7 @@ return {
         icon = "icon/skill/11301_icon13.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 512361,
         subclassesPicture = {
         },
@@ -54517,7 +55529,7 @@ return {
         icon = "icon/skill/11301_icon6.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 512351,
         subclassesPicture = {
         },
@@ -54527,6 +55539,7 @@ return {
         des = "2201524",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -54571,7 +55584,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23021,
         subclassesPicture = {
         },
@@ -54581,6 +55594,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -54625,7 +55639,7 @@ return {
         icon = "icon/skill/11301_icon4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 512341,
         subclassesPicture = {
         },
@@ -54635,6 +55649,7 @@ return {
         des = "2201525",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 1,
         },
@@ -54679,7 +55694,7 @@ return {
         icon = "icon/skill/10301_skillE.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 3170,
         subclassesPicture = {
         },
@@ -54689,6 +55704,7 @@ return {
         des = "2200370",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -54735,7 +55751,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45260,
         subclassesPicture = {
         },
@@ -54745,6 +55761,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -54789,7 +55806,7 @@ return {
         icon = "icon/skill/11301_icon5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 512311,
         subclassesPicture = {
         },
@@ -54799,6 +55816,7 @@ return {
         des = "2201521",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -54843,7 +55861,7 @@ return {
         icon = "icon/skill/10301_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 3030,
         subclassesPicture = {
         },
@@ -54853,6 +55871,7 @@ return {
         des = "2200330",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -54897,7 +55916,7 @@ return {
         icon = "icon/skill/10301_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 432093,
         subclassesPicture = {
         },
@@ -54907,6 +55926,7 @@ return {
         des = "2200320",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -54951,6 +55971,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14562,
         subclassesPicture = {
         },
@@ -55004,7 +56025,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23022,
         subclassesPicture = {
         },
@@ -55014,6 +56035,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -55058,7 +56080,7 @@ return {
         icon = "icon/skill/10602_skillCC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 511095,
         subclassesPicture = {
         },
@@ -55068,6 +56090,7 @@ return {
         des = "2201240",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -55112,6 +56135,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 9070,
         subclassesPicture = {
         },
@@ -55164,6 +56188,7 @@ return {
         icon = "icon/skill/10602_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 511220,
         subclassesPicture = {
         },
@@ -55213,11 +56238,11 @@ return {
         witchTimeType = 0,
         appearAction = "",
         costEnergyShow = -1,
-        level = 2,
+        level = 4,
         icon = "icon/skill/13201_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 15311,
         subclassesPicture = {
         },
@@ -55227,12 +56252,13 @@ return {
         des = "2203320",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
         gainEnergy = 0,
         useWarn = "",
-        cd = 6000,
+        cd = 7000,
         skillSubclasses = {
         },
         continuousAction = "",
@@ -55271,7 +56297,7 @@ return {
         icon = "icon/skill/10602_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 511200,
         subclassesPicture = {
         },
@@ -55281,6 +56307,7 @@ return {
         des = "2201250",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -55325,7 +56352,7 @@ return {
         icon = "icon/skill/10601_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 511230,
         subclassesPicture = {
         },
@@ -55335,6 +56362,7 @@ return {
         des = "2201260",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -55379,6 +56407,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12092,
         subclassesPicture = {
         },
@@ -55431,7 +56460,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 25040,
         subclassesPicture = {
         },
@@ -55441,6 +56470,7 @@ return {
         des = "",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -55485,7 +56515,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46310,
         subclassesPicture = {
         },
@@ -55495,6 +56525,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -55539,6 +56570,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 480220,
         subclassesPicture = {
         },
@@ -55592,6 +56624,7 @@ return {
         icon = "icon/skill/10111_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 480210,
         subclassesPicture = {
         },
@@ -55645,6 +56678,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 1162,
         subclassesPicture = {
         },
@@ -55698,7 +56732,7 @@ return {
         icon = "icon/skill/10111_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 480230,
         subclassesPicture = {
         },
@@ -55708,6 +56742,7 @@ return {
         des = "2201160",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -55752,7 +56787,7 @@ return {
         icon = "icon/skill/10209_icon1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 13917,
         subclassesPicture = {
         },
@@ -55762,6 +56797,7 @@ return {
         des = "2202630",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -55806,7 +56842,7 @@ return {
         icon = "icon/skill/10111_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 480190,
         subclassesPicture = {
         },
@@ -55816,6 +56852,7 @@ return {
         des = "2201140",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -55860,7 +56897,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44550,
         subclassesPicture = {
         },
@@ -55870,6 +56907,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -55914,7 +56952,7 @@ return {
         icon = "icon/skill/11401_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 13071,
         subclassesPicture = {
         },
@@ -55924,6 +56962,7 @@ return {
         des = "2202080",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -55968,7 +57007,7 @@ return {
         icon = "icon/skill/10111_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 480140,
         subclassesPicture = {
         },
@@ -55978,6 +57017,7 @@ return {
         des = "2201120",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -56022,7 +57062,7 @@ return {
         icon = "icon/skill/10111_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 480115,
         subclassesPicture = {
         },
@@ -56032,6 +57072,7 @@ return {
         des = "2201110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -56076,7 +57117,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29020,
         subclassesPicture = {
         },
@@ -56086,6 +57127,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -56130,7 +57172,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46210,
         subclassesPicture = {
         },
@@ -56140,6 +57182,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -56184,7 +57227,7 @@ return {
         icon = "icon/skill/11301_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 13421,
         subclassesPicture = {
         },
@@ -56194,6 +57237,7 @@ return {
         des = "2201529",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -56238,7 +57282,7 @@ return {
         icon = "icon/skill/10110_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 470050,
         subclassesPicture = {
         },
@@ -56248,6 +57292,7 @@ return {
         des = "2201050",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -56292,7 +57337,7 @@ return {
         icon = "icon/skill/10110_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 470033,
         subclassesPicture = {
         },
@@ -56302,6 +57347,7 @@ return {
         des = "2201030",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -56346,7 +57392,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46211,
         subclassesPicture = {
         },
@@ -56356,6 +57402,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -56400,7 +57447,7 @@ return {
         icon = "icon/skill/10110_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 470023,
         subclassesPicture = {
         },
@@ -56410,6 +57457,7 @@ return {
         des = "2201020",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -56454,6 +57502,7 @@ return {
         icon = "icon/skill/11201_icon7.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14081,
         subclassesPicture = {
         },
@@ -56507,7 +57556,7 @@ return {
         icon = "icon/skill/11501_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 516101,
         subclassesPicture = {
         },
@@ -56517,6 +57566,7 @@ return {
         des = "2202110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -56561,7 +57611,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46212,
         subclassesPicture = {
         },
@@ -56571,6 +57621,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -56615,6 +57666,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 4060,
         subclassesPicture = {
         },
@@ -56668,6 +57720,7 @@ return {
         icon = "icon/skill/10901_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 469080,
         subclassesPicture = {
         },
@@ -56720,7 +57773,7 @@ return {
         icon = "icon/skill/12701_icon1.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 15001,
         subclassesPicture = {
         },
@@ -56730,6 +57783,7 @@ return {
         des = "2203010",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
         },
         gainEnergy = 0,
@@ -56773,7 +57827,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46214,
         subclassesPicture = {
         },
@@ -56783,6 +57837,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -56827,7 +57882,7 @@ return {
         icon = "icon/skill/10901_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 469045,
         subclassesPicture = {
         },
@@ -56837,6 +57892,7 @@ return {
         des = "2200940",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -56881,7 +57937,7 @@ return {
         icon = "icon/skill/10901_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 469016,
         subclassesPicture = {
         },
@@ -56891,6 +57947,7 @@ return {
         des = "2200910",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -56935,7 +57992,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23150,
         subclassesPicture = {
         },
@@ -56945,6 +58002,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -56989,7 +58047,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46216,
         subclassesPicture = {
         },
@@ -56999,6 +58057,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -57043,7 +58102,7 @@ return {
         icon = "icon/skill/10801_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 461240,
         subclassesPicture = {
         },
@@ -57053,6 +58112,7 @@ return {
         des = "2200880",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -57097,7 +58157,7 @@ return {
         icon = "icon/skill/10801_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 461230,
         subclassesPicture = {
         },
@@ -57107,6 +58167,7 @@ return {
         des = "2200870",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -57151,7 +58212,7 @@ return {
         icon = "icon/skill/11201_icon4.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 12231,
         subclassesPicture = {
         },
@@ -57161,6 +58222,7 @@ return {
         des = "2201440",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -57205,7 +58267,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46217,
         subclassesPicture = {
         },
@@ -57215,6 +58277,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -57259,7 +58322,7 @@ return {
         icon = "icon/skill/10801_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 461200,
         subclassesPicture = {
         },
@@ -57269,6 +58332,7 @@ return {
         des = "2200840",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -57313,7 +58377,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 24130,
         subclassesPicture = {
         },
@@ -57323,6 +58387,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -57367,6 +58432,7 @@ return {
         icon = "icon/skill/10701_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 451240,
         subclassesPicture = {
         },
@@ -57420,6 +58486,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12653,
         subclassesPicture = {
         },
@@ -57473,7 +58540,7 @@ return {
         icon = "icon/skill/10701_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 451110,
         subclassesPicture = {
         },
@@ -57483,6 +58550,7 @@ return {
         des = "2200710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -57527,7 +58595,7 @@ return {
         icon = "icon/skill/11201_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 12791,
         subclassesPicture = {
         },
@@ -57537,6 +58605,7 @@ return {
         des = "2201480",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -57581,7 +58650,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36082,
         subclassesPicture = {
         },
@@ -57591,6 +58660,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -57635,7 +58705,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36210,
         subclassesPicture = {
         },
@@ -57645,6 +58715,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -57689,7 +58760,7 @@ return {
         icon = "icon/skill/10301_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 3220,
         subclassesPicture = {
         },
@@ -57699,6 +58770,7 @@ return {
         des = "2200320",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -57743,7 +58815,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 36150,
         subclassesPicture = {
         },
@@ -57753,6 +58825,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -57797,7 +58870,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 430070,
         subclassesPicture = {
         },
@@ -57807,6 +58880,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -57851,7 +58925,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 42060,
         subclassesPicture = {
         },
@@ -57861,6 +58935,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -57905,7 +58980,7 @@ return {
         icon = "icon/skill/10302_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 13920,
         subclassesPicture = {
         },
@@ -57915,6 +58990,7 @@ return {
         des = "2202640",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -57959,7 +59035,7 @@ return {
         icon = "icon/skill/10701_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 436060,
         subclassesPicture = {
         },
@@ -57969,6 +59045,7 @@ return {
         des = "",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -58013,7 +59090,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44560,
         subclassesPicture = {
         },
@@ -58023,6 +59100,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -58067,6 +59145,7 @@ return {
         icon = "icon/skill/13101_icon01.png",
         levelType = 1,
         openCd = 0,
+        costLow = 0,
         first = 15151,
         subclassesPicture = {
         },
@@ -58120,7 +59199,7 @@ return {
         icon = "icon/skill/10111_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 10600,
         subclassesPicture = {
         },
@@ -58130,6 +59209,7 @@ return {
         des = "",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -58174,6 +59254,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13471,
         subclassesPicture = {
         },
@@ -58227,7 +59308,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 29030,
         subclassesPicture = {
         },
@@ -58237,6 +59318,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -58281,7 +59363,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 446010,
         subclassesPicture = {
         },
@@ -58291,6 +59373,7 @@ return {
         des = "2200710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -58335,7 +59418,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 431120,
         subclassesPicture = {
         },
@@ -58345,6 +59428,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -58389,7 +59473,7 @@ return {
         icon = "icon/skill/10502_skillH.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 4096,
+        costLow = 0,
         first = 5220,
         subclassesPicture = {
         },
@@ -58399,6 +59483,7 @@ return {
         des = "",
         keyName = "H",
         extraFirst = 0,
+        keyCode = 4096,
         skillShow = {
             [1] = 0,
         },
@@ -58443,7 +59528,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 23030,
         subclassesPicture = {
         },
@@ -58453,6 +59538,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -58497,7 +59583,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43510,
         subclassesPicture = {
         },
@@ -58507,6 +59593,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -58551,7 +59638,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30917,
         subclassesPicture = {
         },
@@ -58561,6 +59648,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -58605,7 +59693,7 @@ return {
         icon = "icon/skill/10111_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 0,
         subclassesPicture = {
         },
@@ -58615,6 +59703,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -58659,7 +59748,7 @@ return {
         icon = "icon/skill/10112_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 10264,
         subclassesPicture = {
         },
@@ -58669,6 +59758,7 @@ return {
         des = "2200120",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -58713,7 +59803,7 @@ return {
         icon = "icon/skill/10111_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 480200,
         subclassesPicture = {
         },
@@ -58723,6 +59813,7 @@ return {
         des = "2201150",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -58767,7 +59858,7 @@ return {
         icon = "icon/skill/11201_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 12721,
         subclassesPicture = {
         },
@@ -58777,6 +59868,7 @@ return {
         des = "2201430",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -58821,7 +59913,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 24010,
         subclassesPicture = {
         },
@@ -58831,6 +59923,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -58875,7 +59968,7 @@ return {
         icon = "icon/skill/12501_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 14431,
         subclassesPicture = {
         },
@@ -58885,6 +59978,7 @@ return {
         des = "2202740",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -58929,7 +60023,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28210,
         subclassesPicture = {
         },
@@ -58939,6 +60033,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -58983,7 +60078,7 @@ return {
         icon = "icon/skill/10101_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 430050,
         subclassesPicture = {
         },
@@ -58993,6 +60088,7 @@ return {
         des = "2200110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -59037,7 +60133,7 @@ return {
         icon = "icon/skill/10701_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 436130,
         subclassesPicture = {
         },
@@ -59047,6 +60143,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -59091,7 +60188,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46515,
         subclassesPicture = {
         },
@@ -59101,6 +60198,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -59145,7 +60243,7 @@ return {
         icon = "icon/skill/10901_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 9060,
         subclassesPicture = {
         },
@@ -59155,6 +60253,7 @@ return {
         des = "2200960",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -59199,7 +60298,7 @@ return {
         icon = "icon/skill/10209_icon1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 12801,
         subclassesPicture = {
         },
@@ -59209,6 +60308,7 @@ return {
         des = "2201810",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -59253,7 +60353,7 @@ return {
         icon = "icon/skill/10502_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 5200,
         subclassesPicture = {
         },
@@ -59263,6 +60363,7 @@ return {
         des = "",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -59307,7 +60408,7 @@ return {
         icon = "icon/skill/10701_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 436030,
         subclassesPicture = {
         },
@@ -59317,6 +60418,7 @@ return {
         des = "2200730",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 3,
         },
@@ -59361,7 +60463,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 20103,
         subclassesPicture = {
         },
@@ -59371,6 +60473,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -59415,7 +60518,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 436023,
         subclassesPicture = {
         },
@@ -59425,6 +60528,7 @@ return {
         des = "2200720",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -59469,7 +60573,7 @@ return {
         icon = "icon/skill/10111_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 10500,
         subclassesPicture = {
         },
@@ -59479,6 +60583,7 @@ return {
         des = "2201150",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -59523,7 +60628,7 @@ return {
         icon = "icon/skill/10111_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 10290,
         subclassesPicture = {
         },
@@ -59533,6 +60638,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -59577,7 +60683,7 @@ return {
         icon = "icon/skill/10701_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 435140,
         subclassesPicture = {
         },
@@ -59587,6 +60693,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -59631,7 +60738,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30980,
         subclassesPicture = {
         },
@@ -59641,6 +60748,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -59685,7 +60793,7 @@ return {
         icon = "icon/skill/10413_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 14251,
         subclassesPicture = {
         },
@@ -59695,6 +60803,7 @@ return {
         des = "2202250",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 1,
         },
@@ -59739,7 +60848,7 @@ return {
         icon = "icon/skill/11601_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 13671,
         subclassesPicture = {
         },
@@ -59749,6 +60858,7 @@ return {
         des = "2202380",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -59793,7 +60903,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36092,
         subclassesPicture = {
         },
@@ -59803,6 +60913,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -59847,7 +60958,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 29130,
         subclassesPicture = {
         },
@@ -59857,6 +60968,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -59901,7 +61013,7 @@ return {
         icon = "icon/skill/10601_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 434066,
         subclassesPicture = {
         },
@@ -59911,6 +61023,7 @@ return {
         des = "2200510",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -59955,7 +61068,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31120,
         subclassesPicture = {
         },
@@ -59965,6 +61078,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -60009,7 +61123,7 @@ return {
         icon = "icon/skill/10210_extraskillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 14321,
         subclassesPicture = {
         },
@@ -60019,6 +61133,7 @@ return {
         des = "2201930",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -60063,7 +61178,7 @@ return {
         icon = "icon/skill/10111_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 13840,
         subclassesPicture = {
         },
@@ -60073,6 +61188,7 @@ return {
         des = "2202650",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -60117,6 +61233,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 5210,
         subclassesPicture = {
         },
@@ -60170,7 +61287,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44570,
         subclassesPicture = {
         },
@@ -60180,6 +61297,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -60224,7 +61342,7 @@ return {
         icon = "icon/skill/11301_icon11.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 13411,
         subclassesPicture = {
         },
@@ -60234,6 +61352,7 @@ return {
         des = "2201528",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -60278,7 +61397,7 @@ return {
         icon = "icon/skill/13101_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 15171,
         subclassesPicture = {
         },
@@ -60288,6 +61407,7 @@ return {
         des = "2203160",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -60332,7 +61452,7 @@ return {
         icon = "icon/skill/10401_skillJ.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 4022,
         subclassesPicture = {
         },
@@ -60342,6 +61462,7 @@ return {
         des = "2200450",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -60386,7 +61507,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29040,
         subclassesPicture = {
         },
@@ -60396,6 +61517,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -60440,6 +61562,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 3160,
         subclassesPicture = {
         },
@@ -60493,7 +61616,7 @@ return {
         icon = "icon/skill/10201_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 431130,
         subclassesPicture = {
         },
@@ -60503,6 +61626,7 @@ return {
         des = "2200210",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -60547,7 +61671,7 @@ return {
         icon = "icon/skill/10501_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 433180,
         subclassesPicture = {
         },
@@ -60557,6 +61681,7 @@ return {
         des = "2200480",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -60601,7 +61726,7 @@ return {
         icon = "icon/skill/11201_icon6.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 14061,
         subclassesPicture = {
         },
@@ -60611,6 +61736,7 @@ return {
         des = "2201450",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -60655,6 +61781,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14362,
         subclassesPicture = {
         },
@@ -60708,7 +61835,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 599010,
         subclassesPicture = {
         },
@@ -60718,6 +61845,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -60762,7 +61890,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20605,
         subclassesPicture = {
         },
@@ -60772,6 +61900,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -60817,7 +61946,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45020,
         subclassesPicture = {
         },
@@ -60827,6 +61956,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -60871,7 +62001,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20601,
         subclassesPicture = {
         },
@@ -60881,6 +62011,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -60925,7 +62056,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 599030,
         subclassesPicture = {
         },
@@ -60935,6 +62066,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -60979,7 +62111,7 @@ return {
         icon = "icon/skill/10210_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 12931,
         subclassesPicture = {
         },
@@ -60989,6 +62121,7 @@ return {
         des = "2201940",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -61033,7 +62166,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 599050,
         subclassesPicture = {
         },
@@ -61043,6 +62176,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -61087,7 +62221,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28220,
         subclassesPicture = {
         },
@@ -61097,6 +62231,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -61141,7 +62276,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 599060,
         subclassesPicture = {
         },
@@ -61151,6 +62286,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -61195,6 +62331,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12592,
         subclassesPicture = {
         },
@@ -61248,7 +62385,7 @@ return {
         icon = "icon/skill/10111_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 10590,
         subclassesPicture = {
         },
@@ -61258,6 +62395,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -61302,7 +62440,7 @@ return {
         icon = "icon/skill/10301_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 432084,
         subclassesPicture = {
         },
@@ -61312,6 +62450,7 @@ return {
         des = "2200310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -61356,7 +62495,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 599080,
         subclassesPicture = {
         },
@@ -61366,6 +62505,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -61410,7 +62550,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 432110,
         subclassesPicture = {
         },
@@ -61420,6 +62560,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -61464,7 +62605,7 @@ return {
         icon = "icon/skill/10701_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 7000,
         subclassesPicture = {
         },
@@ -61474,6 +62615,7 @@ return {
         des = "2200710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -61518,7 +62660,7 @@ return {
         icon = "icon/skill/12301_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 13811,
         subclassesPicture = {
         },
@@ -61528,6 +62670,7 @@ return {
         des = "2202620",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -61572,7 +62715,7 @@ return {
         icon = "icon/skill/11301_icon1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 512301,
         subclassesPicture = {
         },
@@ -61582,6 +62725,7 @@ return {
         des = "2201520",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -61626,7 +62770,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 24140,
         subclassesPicture = {
         },
@@ -61636,6 +62780,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -61680,7 +62825,7 @@ return {
         icon = "icon/skill/10201_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 2001,
         subclassesPicture = {
         },
@@ -61690,6 +62835,7 @@ return {
         des = "2200210",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -61734,7 +62880,7 @@ return {
         icon = "icon/skill/12301_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 13831,
         subclassesPicture = {
         },
@@ -61744,6 +62890,7 @@ return {
         des = "2202640",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -61788,6 +62935,7 @@ return {
         icon = "icon/skill/12501_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14450,
         subclassesPicture = {
         },
@@ -61841,7 +62989,7 @@ return {
         icon = "icon/skill/12401_skillG2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 0,
         subclassesPicture = {
         },
@@ -61851,6 +62999,7 @@ return {
         des = "",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -61895,7 +63044,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26141,
         subclassesPicture = {
         },
@@ -61905,6 +63054,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -61949,6 +63099,7 @@ return {
         icon = "icon/skill/10801_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 8050,
         subclassesPicture = {
         },
@@ -62002,7 +63153,7 @@ return {
         icon = "icon/skill/10701_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 431160,
         subclassesPicture = {
         },
@@ -62012,6 +63163,7 @@ return {
         des = "2200220",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -62056,7 +63208,7 @@ return {
         icon = "icon/skill/12501_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 14411,
         subclassesPicture = {
         },
@@ -62066,6 +63218,7 @@ return {
         des = "2202720",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -62110,6 +63263,7 @@ return {
         icon = "icon/skill/10901_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 9080,
         subclassesPicture = {
         },
@@ -62162,7 +63316,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45010,
         subclassesPicture = {
         },
@@ -62172,6 +63326,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -62216,6 +63371,7 @@ return {
         icon = "icon/skill/11601_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13850,
         subclassesPicture = {
         },
@@ -62269,7 +63425,7 @@ return {
         icon = "icon/skill/10701_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 436011,
         subclassesPicture = {
         },
@@ -62279,6 +63435,7 @@ return {
         des = "2200710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -62323,7 +63480,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44580,
         subclassesPicture = {
         },
@@ -62333,6 +63490,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -62377,7 +63535,7 @@ return {
         icon = "icon/skill/10201_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 431080,
         subclassesPicture = {
         },
@@ -62387,6 +63545,7 @@ return {
         des = "2200240",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -62431,7 +63590,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41010,
         subclassesPicture = {
         },
@@ -62441,6 +63600,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -62485,7 +63645,7 @@ return {
         icon = "icon/skill/10302_ExtraskillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 12540,
         subclassesPicture = {
         },
@@ -62495,6 +63655,7 @@ return {
         des = "2201630",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -62539,7 +63700,7 @@ return {
         icon = "icon/skill/10201_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 431110,
         subclassesPicture = {
         },
@@ -62549,6 +63710,7 @@ return {
         des = "2200230",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 2,
         },
@@ -62593,6 +63755,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 10592,
         subclassesPicture = {
         },
@@ -62646,7 +63809,7 @@ return {
         icon = "icon/skill/10201_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 431150,
         subclassesPicture = {
         },
@@ -62656,6 +63819,7 @@ return {
         des = "2200210",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -62700,6 +63864,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 5341,
         subclassesPicture = {
         },
@@ -62753,7 +63918,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 23040,
         subclassesPicture = {
         },
@@ -62763,6 +63928,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -62807,7 +63973,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28250,
         subclassesPicture = {
         },
@@ -62817,6 +63983,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -62861,7 +64028,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41030,
         subclassesPicture = {
         },
@@ -62871,6 +64038,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -62915,7 +64083,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46621,
         subclassesPicture = {
         },
@@ -62925,6 +64093,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -62969,7 +64138,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45030,
         subclassesPicture = {
         },
@@ -62979,6 +64148,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -63023,7 +64193,7 @@ return {
         icon = "icon/skill/11301_icon1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 13301,
         subclassesPicture = {
         },
@@ -63033,6 +64203,7 @@ return {
         des = "2201520",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -63077,7 +64248,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41040,
         subclassesPicture = {
         },
@@ -63087,6 +64258,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -63131,7 +64303,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 24020,
         subclassesPicture = {
         },
@@ -63141,6 +64313,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -63185,7 +64358,7 @@ return {
         icon = "icon/skill/12201_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 14121,
         subclassesPicture = {
         },
@@ -63195,6 +64368,7 @@ return {
         des = "2202530",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -63240,7 +64414,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28230,
         subclassesPicture = {
         },
@@ -63250,6 +64424,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -63294,7 +64469,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41050,
         subclassesPicture = {
         },
@@ -63304,6 +64479,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -63348,7 +64524,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30120,
         subclassesPicture = {
         },
@@ -63358,6 +64534,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -63402,7 +64579,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30310,
         subclassesPicture = {
         },
@@ -63412,6 +64589,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -63456,7 +64634,7 @@ return {
         icon = "icon/skill/10301_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 3040,
         subclassesPicture = {
         },
@@ -63466,6 +64644,7 @@ return {
         des = "2200340",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -63510,7 +64689,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41060,
         subclassesPicture = {
         },
@@ -63520,6 +64699,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -63564,7 +64744,7 @@ return {
         icon = "icon/skill/12401_skillG1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 14571,
         subclassesPicture = {
         },
@@ -63574,6 +64754,7 @@ return {
         des = "2202980",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -63618,7 +64799,7 @@ return {
         icon = "icon/skill/10701_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 7020,
         subclassesPicture = {
         },
@@ -63628,6 +64809,7 @@ return {
         des = "2200720",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -63672,7 +64854,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 26062,
         subclassesPicture = {
         },
@@ -63682,6 +64864,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -63727,7 +64910,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41070,
         subclassesPicture = {
         },
@@ -63737,6 +64920,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -63781,7 +64965,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41020,
         subclassesPicture = {
         },
@@ -63791,6 +64975,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -63835,7 +65020,7 @@ return {
         icon = "icon/skill/13201_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 15321,
         subclassesPicture = {
         },
@@ -63845,12 +65030,13 @@ return {
         des = "2203330",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
         gainEnergy = 0,
         useWarn = "",
-        cd = 9000,
+        cd = 14000,
         skillSubclasses = {
         },
         continuousAction = "",
@@ -63889,7 +65075,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27120,
         subclassesPicture = {
         },
@@ -63899,6 +65085,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -63943,7 +65130,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 27610,
         subclassesPicture = {
         },
@@ -63953,6 +65140,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -63997,6 +65185,7 @@ return {
         icon = "icon/skill/10102_icon8.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 12100,
         subclassesPicture = {
         },
@@ -64049,7 +65238,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46315,
         subclassesPicture = {
         },
@@ -64059,6 +65248,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -64103,7 +65293,7 @@ return {
         icon = "icon/skill/10602_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 511006,
         subclassesPicture = {
         },
@@ -64113,6 +65303,7 @@ return {
         des = "2201210",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -64157,7 +65348,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46152,
         subclassesPicture = {
         },
@@ -64167,6 +65358,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -64211,7 +65403,7 @@ return {
         icon = "icon/skill/10210_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 14371,
         subclassesPicture = {
         },
@@ -64221,6 +65413,7 @@ return {
         des = "2201980",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -64265,6 +65458,7 @@ return {
         icon = "icon/skill/10101_skillE.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 1180,
         subclassesPicture = {
         },
@@ -64318,7 +65512,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31780,
         subclassesPicture = {
         },
@@ -64328,6 +65522,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -64372,7 +65567,7 @@ return {
         icon = "icon/skill/11601_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 13860,
         subclassesPicture = {
         },
@@ -64382,6 +65577,7 @@ return {
         des = "2202670",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -64426,7 +65622,7 @@ return {
         icon = "icon/skill/10701_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 436073,
         subclassesPicture = {
         },
@@ -64436,6 +65632,7 @@ return {
         des = "2200710",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -64480,7 +65677,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36010,
         subclassesPicture = {
         },
@@ -64490,6 +65687,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -64534,7 +65732,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30913,
         subclassesPicture = {
         },
@@ -64544,6 +65742,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -64588,7 +65787,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31300,
         subclassesPicture = {
         },
@@ -64598,6 +65797,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -64642,7 +65842,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46130,
         subclassesPicture = {
         },
@@ -64652,6 +65852,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -64696,6 +65897,7 @@ return {
         icon = "icon/skill/10210_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13551,
         subclassesPicture = {
         },
@@ -64749,7 +65951,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28271,
         subclassesPicture = {
         },
@@ -64759,6 +65961,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -64803,7 +66006,7 @@ return {
         icon = "icon/skill/11301_icon9.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 13431,
         subclassesPicture = {
         },
@@ -64813,6 +66016,7 @@ return {
         des = "2201530",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -64857,7 +66061,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45330,
         subclassesPicture = {
         },
@@ -64867,6 +66071,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -64911,7 +66116,7 @@ return {
         icon = "icon/skill/10401_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 4270,
         subclassesPicture = {
         },
@@ -64921,6 +66126,7 @@ return {
         des = "2200470",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -64965,7 +66171,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45210,
         subclassesPicture = {
         },
@@ -64975,6 +66181,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -65019,6 +66226,7 @@ return {
         icon = "icon/skill/10302_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 600841,
         subclassesPicture = {
         },
@@ -65072,6 +66280,7 @@ return {
         icon = "",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14071,
         subclassesPicture = {
         },
@@ -65125,7 +66334,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45040,
         subclassesPicture = {
         },
@@ -65135,6 +66344,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -65180,7 +66390,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20602,
         subclassesPicture = {
         },
@@ -65190,6 +66400,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -65235,7 +66446,7 @@ return {
         icon = "icon/skill/10401_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 4070,
         subclassesPicture = {
         },
@@ -65245,6 +66456,7 @@ return {
         des = "2200470",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -65289,7 +66501,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46010,
         subclassesPicture = {
         },
@@ -65299,6 +66511,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -65343,7 +66556,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45041,
         subclassesPicture = {
         },
@@ -65353,6 +66566,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -65398,7 +66612,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28240,
         subclassesPicture = {
         },
@@ -65408,6 +66622,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -65452,7 +66667,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31360,
         subclassesPicture = {
         },
@@ -65462,6 +66677,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -65506,7 +66722,7 @@ return {
         icon = "icon/skill/10111_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 10110,
         subclassesPicture = {
         },
@@ -65516,6 +66732,7 @@ return {
         des = "2201110",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -65560,7 +66777,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28276,
         subclassesPicture = {
         },
@@ -65570,6 +66787,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -65614,7 +66832,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28241,
         subclassesPicture = {
         },
@@ -65624,6 +66842,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -65668,7 +66887,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 29033,
         subclassesPicture = {
         },
@@ -65678,6 +66897,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -65722,6 +66942,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13562,
         subclassesPicture = {
         },
@@ -65775,7 +66996,7 @@ return {
         icon = "icon/skill/11201_icon5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 12251,
         subclassesPicture = {
         },
@@ -65785,6 +67006,7 @@ return {
         des = "2201460",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -65829,7 +67051,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45280,
         subclassesPicture = {
         },
@@ -65839,6 +67061,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -65883,7 +67106,7 @@ return {
         icon = "icon/skill/11301_icon2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 512321,
         subclassesPicture = {
         },
@@ -65893,6 +67116,7 @@ return {
         des = "2201522",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -65937,7 +67161,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 24150,
         subclassesPicture = {
         },
@@ -65947,6 +67171,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -65991,7 +67216,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45230,
         subclassesPicture = {
         },
@@ -66001,6 +67226,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -66045,7 +67271,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30930,
         subclassesPicture = {
         },
@@ -66055,6 +67281,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -66100,7 +67327,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27620,
         subclassesPicture = {
         },
@@ -66110,6 +67337,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -66154,7 +67382,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47114,
         subclassesPicture = {
         },
@@ -66164,6 +67392,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -66208,7 +67437,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45130,
         subclassesPicture = {
         },
@@ -66218,6 +67447,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -66262,7 +67492,7 @@ return {
         icon = "icon/skill/10602_skillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 511030,
         subclassesPicture = {
         },
@@ -66272,6 +67502,7 @@ return {
         des = "2201220",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -66316,7 +67547,7 @@ return {
         icon = "icon/skill/10301_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 3230,
         subclassesPicture = {
         },
@@ -66326,6 +67557,7 @@ return {
         des = "2200330",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -66370,7 +67602,7 @@ return {
         icon = "icon/skill/10502_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 5450,
         subclassesPicture = {
         },
@@ -66380,6 +67612,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -66424,7 +67657,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29110,
         subclassesPicture = {
         },
@@ -66434,6 +67667,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -66478,7 +67712,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 27110,
         subclassesPicture = {
         },
@@ -66488,6 +67722,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -66532,6 +67767,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 13861,
         subclassesPicture = {
         },
@@ -66585,7 +67821,7 @@ return {
         icon = "icon/skill/10210_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 13561,
         subclassesPicture = {
         },
@@ -66595,6 +67831,7 @@ return {
         des = "2201970",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -66639,7 +67876,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 45050,
         subclassesPicture = {
         },
@@ -66649,6 +67886,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -66694,7 +67932,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 29113,
         subclassesPicture = {
         },
@@ -66704,6 +67942,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -66748,7 +67987,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 25030,
         subclassesPicture = {
         },
@@ -66758,6 +67997,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -66802,7 +68042,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40010,
         subclassesPicture = {
         },
@@ -66812,6 +68052,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -66856,7 +68097,7 @@ return {
         icon = "icon/skill/10413_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 14211,
         subclassesPicture = {
         },
@@ -66866,6 +68107,7 @@ return {
         des = "2202210",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -66910,7 +68152,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40160,
         subclassesPicture = {
         },
@@ -66920,6 +68162,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -66964,7 +68207,7 @@ return {
         icon = "icon/skill/10401_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 431170,
         subclassesPicture = {
         },
@@ -66974,6 +68217,7 @@ return {
         des = "2200220",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -67018,7 +68262,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 28320,
         subclassesPicture = {
         },
@@ -67028,6 +68272,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -67072,7 +68317,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23050,
         subclassesPicture = {
         },
@@ -67082,6 +68327,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -67126,7 +68372,7 @@ return {
         icon = "icon/skill/12701_icon5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 15041,
         subclassesPicture = {
         },
@@ -67136,6 +68382,7 @@ return {
         des = "2203080",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
         },
         gainEnergy = 0,
@@ -67179,7 +68426,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41520,
         subclassesPicture = {
         },
@@ -67189,6 +68436,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -67233,7 +68481,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31490,
         subclassesPicture = {
         },
@@ -67243,6 +68491,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -67287,7 +68536,7 @@ return {
         icon = "icon/skill/10112_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 10280,
         subclassesPicture = {
         },
@@ -67297,6 +68546,7 @@ return {
         des = "2200120",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -67341,7 +68591,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47116,
         subclassesPicture = {
         },
@@ -67351,6 +68601,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -67395,7 +68646,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43070,
         subclassesPicture = {
         },
@@ -67405,6 +68656,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -67450,7 +68702,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 24030,
         subclassesPicture = {
         },
@@ -67460,6 +68712,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -67504,7 +68757,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23051,
         subclassesPicture = {
         },
@@ -67514,6 +68767,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -67558,7 +68812,7 @@ return {
         icon = "icon/skill/10401_skillG.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 4280,
         subclassesPicture = {
         },
@@ -67568,6 +68822,7 @@ return {
         des = "2200480",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -67612,7 +68867,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31370,
         subclassesPicture = {
         },
@@ -67622,6 +68877,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -67666,7 +68922,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 43010,
         subclassesPicture = {
         },
@@ -67676,6 +68932,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -67720,7 +68977,7 @@ return {
         icon = "icon/skill/10209_icon2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 12811,
         subclassesPicture = {
         },
@@ -67730,6 +68987,7 @@ return {
         des = "2201820",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -67774,7 +69032,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28251,
         subclassesPicture = {
         },
@@ -67784,6 +69042,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -67828,7 +69087,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 25010,
         subclassesPicture = {
         },
@@ -67838,6 +69097,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -67882,7 +69142,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36050,
         subclassesPicture = {
         },
@@ -67892,6 +69152,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -67936,7 +69197,7 @@ return {
         icon = "icon/skill/12401_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 14522,
         subclassesPicture = {
         },
@@ -67946,6 +69207,7 @@ return {
         des = "",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -67990,7 +69252,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30910,
         subclassesPicture = {
         },
@@ -68000,6 +69262,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -68044,7 +69307,7 @@ return {
         icon = "icon/skill/11301_icon3.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 512331,
         subclassesPicture = {
         },
@@ -68054,6 +69317,7 @@ return {
         des = "2201523",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -68099,7 +69363,7 @@ return {
         icon = "icon/skill/10111_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 10530,
         subclassesPicture = {
         },
@@ -68109,6 +69373,7 @@ return {
         des = "2201160",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 0,
         },
@@ -68153,7 +69418,7 @@ return {
         icon = "icon/skill/10701_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 7031,
         subclassesPicture = {
         },
@@ -68163,6 +69428,7 @@ return {
         des = "2200730",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -68207,7 +69473,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30911,
         subclassesPicture = {
         },
@@ -68217,6 +69483,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -68261,7 +69528,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 27630,
         subclassesPicture = {
         },
@@ -68271,6 +69538,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -68315,7 +69583,7 @@ return {
         icon = "icon/skill/10210_extraskillB.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 13521,
         subclassesPicture = {
         },
@@ -68325,6 +69593,7 @@ return {
         des = "2201930",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -68369,6 +69638,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 8060,
         subclassesPicture = {
         },
@@ -68422,7 +69692,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30912,
         subclassesPicture = {
         },
@@ -68432,6 +69702,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -68476,7 +69747,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 44010,
         subclassesPicture = {
         },
@@ -68486,6 +69757,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -68530,7 +69802,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47118,
         subclassesPicture = {
         },
@@ -68540,6 +69812,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -68584,7 +69857,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 42530,
         subclassesPicture = {
         },
@@ -68594,6 +69867,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -68638,7 +69912,7 @@ return {
         icon = "icon/skill/10210_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 14331,
         subclassesPicture = {
         },
@@ -68648,6 +69922,7 @@ return {
         des = "2201940",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -68692,7 +69967,7 @@ return {
         icon = "icon/skill/10701_skillE.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 13871,
         subclassesPicture = {
         },
@@ -68702,6 +69977,7 @@ return {
         des = "2202680",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -68746,7 +70022,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 437001,
         subclassesPicture = {
         },
@@ -68756,6 +70032,7 @@ return {
         des = "2200810",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -68800,7 +70077,7 @@ return {
         icon = "icon/skill/10701_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 7030,
         subclassesPicture = {
         },
@@ -68810,6 +70087,7 @@ return {
         des = "2200730",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 3,
         },
@@ -68854,7 +70132,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30914,
         subclassesPicture = {
         },
@@ -68864,6 +70142,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -68908,7 +70187,7 @@ return {
         icon = "icon/skill/13101_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 15181,
         subclassesPicture = {
         },
@@ -68918,6 +70197,7 @@ return {
         des = "2203180",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -68962,7 +70242,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30971,
         subclassesPicture = {
         },
@@ -68972,6 +70252,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -69016,7 +70297,7 @@ return {
         icon = "icon/skill/10401_skillI.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 4290,
         subclassesPicture = {
         },
@@ -69026,6 +70307,7 @@ return {
         des = "2200420",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -69070,7 +70352,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30915,
         subclassesPicture = {
         },
@@ -69080,6 +70362,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -69124,7 +70407,7 @@ return {
         icon = "icon/skill/12301_skillB2.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 256,
+        costLow = 0,
         first = 13821,
         subclassesPicture = {
         },
@@ -69134,6 +70417,7 @@ return {
         des = "2202630",
         keyName = "D",
         extraFirst = 0,
+        keyCode = 256,
         skillShow = {
             [1] = 0,
         },
@@ -69178,7 +70462,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30972,
         subclassesPicture = {
         },
@@ -69188,6 +70472,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -69232,7 +70517,7 @@ return {
         icon = "icon/skill/13101_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 15182,
         subclassesPicture = {
         },
@@ -69242,6 +70527,7 @@ return {
         des = "2203180",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -69286,7 +70572,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30916,
         subclassesPicture = {
         },
@@ -69296,6 +70582,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -69340,7 +70627,7 @@ return {
         icon = "icon/skill/11301_icon7.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 12401,
         subclassesPicture = {
         },
@@ -69350,6 +70637,7 @@ return {
         des = "2201527",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -69394,7 +70682,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36081,
         subclassesPicture = {
         },
@@ -69404,6 +70692,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -69448,7 +70737,7 @@ return {
         icon = "icon/skill/11501_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 516152,
         subclassesPicture = {
         },
@@ -69458,6 +70747,7 @@ return {
         des = "2202170",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -69502,7 +70792,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20603,
         subclassesPicture = {
         },
@@ -69512,6 +70802,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -69556,7 +70847,7 @@ return {
         icon = "icon/skill/12501_dodge.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 64,
+        costLow = 0,
         first = 14460,
         subclassesPicture = {
         },
@@ -69566,6 +70857,7 @@ return {
         des = "2202770",
         keyName = "B",
         extraFirst = 0,
+        keyCode = 64,
         skillShow = {
             [1] = 0,
         },
@@ -69610,7 +70902,7 @@ return {
         icon = "icon/skill/10210_skillD.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 1024,
+        costLow = 0,
         first = 12941,
         subclassesPicture = {
         },
@@ -69620,6 +70912,7 @@ return {
         des = "2201950",
         keyName = "F",
         extraFirst = 0,
+        keyCode = 1024,
         skillShow = {
             [1] = 2,
         },
@@ -69664,7 +70957,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23056,
         subclassesPicture = {
         },
@@ -69674,6 +70967,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -69718,7 +71012,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28260,
         subclassesPicture = {
         },
@@ -69728,6 +71022,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -69772,7 +71067,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31380,
         subclassesPicture = {
         },
@@ -69782,6 +71077,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -69827,7 +71123,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46611,
         subclassesPicture = {
         },
@@ -69837,6 +71133,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -69881,7 +71178,7 @@ return {
         icon = "icon/skill/10209_icon8.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 2048,
+        costLow = 0,
         first = 12851,
         subclassesPicture = {
         },
@@ -69891,6 +71188,7 @@ return {
         des = "2201880",
         keyName = "G",
         extraFirst = 0,
+        keyCode = 2048,
         skillShow = {
             [1] = 0,
         },
@@ -69935,7 +71233,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 41540,
         subclassesPicture = {
         },
@@ -69945,6 +71243,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -69989,7 +71288,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31390,
         subclassesPicture = {
         },
@@ -69999,6 +71298,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -70044,7 +71344,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26100,
         subclassesPicture = {
         },
@@ -70054,6 +71354,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -70098,7 +71399,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28130,
         subclassesPicture = {
         },
@@ -70108,6 +71409,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -70152,7 +71454,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30920,
         subclassesPicture = {
         },
@@ -70162,6 +71464,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -70206,7 +71509,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31400,
         subclassesPicture = {
         },
@@ -70216,6 +71519,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -70261,7 +71565,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 20102,
         subclassesPicture = {
         },
@@ -70271,6 +71575,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -70315,7 +71620,7 @@ return {
         icon = "icon/skill/10201_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 2020,
         subclassesPicture = {
         },
@@ -70325,6 +71630,7 @@ return {
         des = "2200220",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -70369,7 +71675,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30921,
         subclassesPicture = {
         },
@@ -70379,6 +71685,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -70423,7 +71730,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 27640,
         subclassesPicture = {
         },
@@ -70433,6 +71740,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -70477,7 +71785,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 40080,
         subclassesPicture = {
         },
@@ -70487,6 +71795,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -70532,7 +71841,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47128,
         subclassesPicture = {
         },
@@ -70542,6 +71851,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -70586,7 +71896,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30922,
         subclassesPicture = {
         },
@@ -70596,6 +71906,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -70640,7 +71951,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31420,
         subclassesPicture = {
         },
@@ -70650,6 +71961,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -70690,12 +72002,12 @@ return {
         costAnger = 0,
         witchTimeType = 0,
         appearAction = "",
-        costEnergyShow = -1,
+        costEnergyShow = 5,
         level = 1,
         icon = "icon/skill/13301_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 15401,
         subclassesPicture = {
         },
@@ -70705,6 +72017,7 @@ return {
         des = "2203210",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -70731,7 +72044,7 @@ return {
         video = "",
         keyEvent = "down",
         witchTimeId = 0,
-        belongHero = "圆神凛祢",
+        belongHero = "园神凛祢",
         coverBuff = {
         },
         skillType = 1,
@@ -70749,7 +72062,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 39006,
         subclassesPicture = {
         },
@@ -70759,6 +72072,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -70803,7 +72117,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27130,
         subclassesPicture = {
         },
@@ -70813,6 +72127,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -70857,7 +72172,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31430,
         subclassesPicture = {
         },
@@ -70867,6 +72182,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -70912,7 +72228,7 @@ return {
         icon = "icon/skill/10801_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 437320,
         subclassesPicture = {
         },
@@ -70922,6 +72238,7 @@ return {
         des = "2200820",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -70966,7 +72283,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36094,
         subclassesPicture = {
         },
@@ -70976,6 +72293,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -71020,7 +72338,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 36090,
         subclassesPicture = {
         },
@@ -71030,6 +72348,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -71074,7 +72393,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31000,
         subclassesPicture = {
         },
@@ -71084,6 +72403,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -71128,7 +72448,7 @@ return {
         icon = "icon/skill/10302_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 12560,
         subclassesPicture = {
         },
@@ -71138,6 +72458,7 @@ return {
         des = "2201640",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -71183,7 +72504,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27230,
         subclassesPicture = {
         },
@@ -71193,6 +72514,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -71237,7 +72559,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 47121,
         subclassesPicture = {
         },
@@ -71247,6 +72569,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -71291,7 +72614,7 @@ return {
         icon = "icon/skill/10301_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 432010,
         subclassesPicture = {
         },
@@ -71301,6 +72624,7 @@ return {
         des = "2200310",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -71345,7 +72669,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30520,
         subclassesPicture = {
         },
@@ -71355,6 +72679,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -71399,7 +72724,7 @@ return {
         icon = "icon/skill/10502_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 5490,
         subclassesPicture = {
         },
@@ -71409,6 +72734,7 @@ return {
         des = "",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -71453,6 +72779,7 @@ return {
         icon = "icon/skill/12201_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14161,
         subclassesPicture = {
         },
@@ -71506,7 +72833,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 31580,
         subclassesPicture = {
         },
@@ -71516,6 +72843,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -71560,7 +72888,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 27510,
         subclassesPicture = {
         },
@@ -71570,6 +72898,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -71614,6 +72943,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 516153,
         subclassesPicture = {
         },
@@ -71667,7 +72997,7 @@ return {
         icon = "icon/skill/11301_icon5.png",
         levelType = 1,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 13311,
         subclassesPicture = {
         },
@@ -71677,6 +73007,7 @@ return {
         des = "2201521",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -71721,7 +73052,7 @@ return {
         icon = "icon/skill/11201_icon1.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 12701,
         subclassesPicture = {
         },
@@ -71731,6 +73062,7 @@ return {
         des = "2201410",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -71775,7 +73107,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 24040,
         subclassesPicture = {
         },
@@ -71785,6 +73117,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -71829,7 +73162,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 23061,
         subclassesPicture = {
         },
@@ -71839,6 +73172,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -71883,7 +73217,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28270,
         subclassesPicture = {
         },
@@ -71893,6 +73227,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -71937,7 +73272,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 30420,
         subclassesPicture = {
         },
@@ -71947,6 +73282,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -71991,6 +73327,7 @@ return {
         icon = "icon/skill/10210_skillF.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 14351,
         subclassesPicture = {
         },
@@ -72044,7 +73381,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 26070,
         subclassesPicture = {
         },
@@ -72054,6 +73391,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -72098,6 +73436,7 @@ return {
         icon = "icon/skill/10301_skillH.png",
         levelType = 0,
         openCd = 0,
+        costLow = 0,
         first = 3050,
         subclassesPicture = {
         },
@@ -72151,7 +73490,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 25020,
         subclassesPicture = {
         },
@@ -72161,6 +73500,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -72205,7 +73545,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 42510,
         subclassesPicture = {
         },
@@ -72215,6 +73555,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -72259,7 +73600,7 @@ return {
         icon = "icon/skill/10502_skillF.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 5470,
         subclassesPicture = {
         },
@@ -72269,6 +73610,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -72313,7 +73655,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28272,
         subclassesPicture = {
         },
@@ -72323,6 +73665,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -72367,7 +73710,7 @@ return {
         icon = "icon/skill/10901_skillM.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 9090,
         subclassesPicture = {
         },
@@ -72377,6 +73720,7 @@ return {
         des = "2200990",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
@@ -72421,7 +73765,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 128,
+        costLow = 0,
         first = 46616,
         subclassesPicture = {
         },
@@ -72431,6 +73775,7 @@ return {
         des = "",
         keyName = "C",
         extraFirst = 0,
+        keyCode = 128,
         skillShow = {
             [1] = 0,
         },
@@ -72475,7 +73820,7 @@ return {
         icon = "icon/skill/13201_skillC.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 15331,
         subclassesPicture = {
         },
@@ -72485,12 +73830,13 @@ return {
         des = "2203340",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
             [1] = 0,
         },
         gainEnergy = 0,
         useWarn = "",
-        cd = 11000,
+        cd = 18000,
         skillSubclasses = {
         },
         continuousAction = "",
@@ -72529,7 +73875,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 28273,
         subclassesPicture = {
         },
@@ -72539,6 +73885,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -72583,7 +73930,7 @@ return {
         icon = "icon/skill/10302_skillA.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 600910,
         subclassesPicture = {
         },
@@ -72593,6 +73940,7 @@ return {
         des = "2201610",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -72637,7 +73985,7 @@ return {
         icon = "icon/skill/10102_icon5.png",
         levelType = 0,
         openCd = 0,
-        keyCode = 512,
+        costLow = 0,
         first = 12110,
         subclassesPicture = {
         },
@@ -72647,6 +73995,7 @@ return {
         des = "2201380",
         keyName = "E",
         extraFirst = 0,
+        keyCode = 512,
         skillShow = {
         },
         gainEnergy = 0,
@@ -72690,7 +74039,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 20101,
         subclassesPicture = {
         },
@@ -72700,6 +74049,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },
@@ -72744,7 +74094,7 @@ return {
         icon = "0",
         levelType = 0,
         openCd = 0,
-        keyCode = 32,
+        costLow = 0,
         first = 26045,
         subclassesPicture = {
         },
@@ -72754,6 +74104,7 @@ return {
         des = "",
         keyName = "A",
         extraFirst = 0,
+        keyCode = 32,
         skillShow = {
             [1] = 0,
         },

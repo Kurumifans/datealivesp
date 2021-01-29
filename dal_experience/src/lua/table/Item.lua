@@ -37754,7 +37754,7 @@ return {
         convertMax = {
         },
         des = "D级能量宝石，获取后可随机得到【或守鞠奈】任意技能D级宝石。（获得后自动使用）",
-        desTextId = 42244,
+        desTextId = 42286,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -37828,7 +37828,7 @@ return {
         convertMax = {
         },
         des = "C级能量宝石，获取后可随机得到【或守鞠奈】任意技能C级宝石。（获得后自动使用）",
-        desTextId = 42245,
+        desTextId = 42287,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -37902,7 +37902,7 @@ return {
         convertMax = {
         },
         des = "B级能量宝石，获取后可随机得到【或守鞠奈】任意技能B级宝石。（获得后自动使用）",
-        desTextId = 42246,
+        desTextId = 42288,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -37976,7 +37976,7 @@ return {
         convertMax = {
         },
         des = "A级能量宝石，获取后可随机得到【或守鞠奈】任意技能A级宝石。（获得后自动使用）",
-        desTextId = 42247,
+        desTextId = 42289,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -38050,7 +38050,7 @@ return {
         convertMax = {
         },
         des = "S级能量宝石，获取后可随机得到【或守鞠奈】任意技能S级宝石。（获得后自动使用）",
-        desTextId = 42248,
+        desTextId = 42290,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -38124,7 +38124,7 @@ return {
         convertMax = {
         },
         des = "SS级能量宝石，获取后可随机得到【或守鞠奈】任意技能SS级宝石。（获得后自动使用）",
-        desTextId = 42249,
+        desTextId = 42291,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -38198,7 +38198,7 @@ return {
         convertMax = {
         },
         des = "SSS级能量宝石，获取后可随机得到【或守鞠奈】任意技能SSS级宝石。（获得后自动使用）",
-        desTextId = 42250,
+        desTextId = 42292,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -38494,7 +38494,7 @@ return {
         convertMax = {
         },
         des = "D级能量宝石，获取后可随机得到【圆神凛绪】任意技能D级宝石。（获得后自动使用）",
-        desTextId = 42244,
+        desTextId = 42279,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -38568,7 +38568,7 @@ return {
         convertMax = {
         },
         des = "C级能量宝石，获取后可随机得到【圆神凛绪】任意技能C级宝石。（获得后自动使用）",
-        desTextId = 42245,
+        desTextId = 42280,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -38642,7 +38642,7 @@ return {
         convertMax = {
         },
         des = "B级能量宝石，获取后可随机得到【圆神凛绪】任意技能B级宝石。（获得后自动使用）",
-        desTextId = 42246,
+        desTextId = 42281,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -38716,7 +38716,7 @@ return {
         convertMax = {
         },
         des = "A级能量宝石，获取后可随机得到【圆神凛绪】任意技能A级宝石。（获得后自动使用）",
-        desTextId = 42247,
+        desTextId = 42282,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -38790,7 +38790,7 @@ return {
         convertMax = {
         },
         des = "S级能量宝石，获取后可随机得到【圆神凛绪】任意技能S级宝石。（获得后自动使用）",
-        desTextId = 42248,
+        desTextId = 42283,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -38864,7 +38864,7 @@ return {
         convertMax = {
         },
         des = "SS级能量宝石，获取后可随机得到【圆神凛绪】任意技能SS级宝石。（获得后自动使用）",
-        desTextId = 42249,
+        desTextId = 42284,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,
@@ -38938,7 +38938,7 @@ return {
         convertMax = {
         },
         des = "SSS级能量宝石，获取后可随机得到【圆神凛绪】任意技能SSS级宝石。（获得后自动使用）",
-        desTextId = 42250,
+        desTextId = 42285,
         bornEffect = false,
         showBgPreview = 0,
         buyItemRecover = 0,

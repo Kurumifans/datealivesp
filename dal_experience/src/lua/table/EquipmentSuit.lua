@@ -467,7 +467,7 @@ return {
         combatPower = 120,
         nameIcon = "icon/equipment/suit/ruler.png",
         id = 60,
-        suitSkill = 20036,
+        suitSkill = 20043,
         icon = "icon/equipment/suit/icon47.png",
         suitNewPokedex = 1705209,
     },

@@ -138,6 +138,7 @@ function Hero:ctor(data,team,host)
     self.atkRect  = me.rect(data.area[1],data.area[2],data.area[3],data.area[4])               --me.rect(-100,-20,200,50)
 
     self.data = data
+    self.data = BattleDataMgr:getHeroDataByAngle(data,self:getAngleDatas())
     self.team = team
     self.camp = self.data.camp
     -- 技能参数
@@ -5036,7 +5037,7 @@ function Hero:onEventTrigger(event,target,param)
     end
 end
 -- 属性变更
-function Hero:onAttrTrigger(attrType,value)
+function Hero:onAttrTrigger(attrType,value, event)
     if attrType == eAttrType.ATTR_NOW_HP then
         --自动恢复
         if self:isFlag(eFlag.HP_AUTO_RECOVERY) then
@@ -5044,6 +5045,9 @@ function Hero:onAttrTrigger(attrType,value)
                 self.property:setValue(eAttrType.ATTR_NOW_HP,self:getMaxHp())
             end
         end
+    end
+    if event and event > 0 then
+        self:onEventTrigger(event,self)
     end
 
 

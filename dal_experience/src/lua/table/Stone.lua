@@ -14,6 +14,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130734",
         totalMax = 999,
@@ -50,6 +52,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140366",
         totalMax = 999,
@@ -90,6 +94,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130619",
         totalMax = 999,
@@ -126,6 +132,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130850",
         totalMax = 999,
@@ -180,6 +188,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130109",
         totalMax = 999,
@@ -216,6 +226,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130735",
         totalMax = 999,
@@ -252,6 +264,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140367",
         totalMax = 999,
@@ -292,6 +306,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130620",
         totalMax = 999,
@@ -328,6 +344,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130851",
         totalMax = 999,
@@ -381,6 +399,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130110",
         totalMax = 999,
@@ -417,6 +437,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130736",
         totalMax = 999,
@@ -453,6 +475,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140368",
         totalMax = 999,
@@ -493,6 +517,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130852",
         totalMax = 999,
@@ -546,6 +572,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130111",
         totalMax = 999,
@@ -582,6 +610,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130561",
         totalMax = 999,
@@ -618,6 +648,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140289",
         totalMax = 999,
@@ -658,6 +690,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130677",
         totalMax = 999,
@@ -694,6 +728,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140341",
         totalMax = 999,
@@ -734,6 +770,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130562",
         totalMax = 999,
@@ -770,6 +808,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130793",
         totalMax = 999,
@@ -806,6 +846,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140290",
         totalMax = 999,
@@ -846,6 +888,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140393",
         totalMax = 999,
@@ -886,6 +930,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130678",
         totalMax = 999,
@@ -922,6 +968,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130909",
         totalMax = 999,
@@ -962,6 +1010,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140342",
         totalMax = 999,
@@ -1002,6 +1052,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130563",
         totalMax = 999,
@@ -1038,6 +1090,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130794",
         totalMax = 999,
@@ -1092,6 +1146,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130053",
         totalMax = 999,
@@ -1128,6 +1184,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140394",
         totalMax = 999,
@@ -1168,6 +1226,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130679",
         totalMax = 999,
@@ -1204,6 +1264,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130910",
         totalMax = 999,
@@ -1244,6 +1306,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140343",
         totalMax = 999,
@@ -1284,6 +1348,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130564",
         totalMax = 999,
@@ -1320,6 +1386,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130795",
         totalMax = 999,
@@ -1373,6 +1441,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130054",
         totalMax = 999,
@@ -1409,6 +1479,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140395",
         totalMax = 999,
@@ -1449,6 +1521,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130680",
         totalMax = 999,
@@ -1485,6 +1559,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130911",
         totalMax = 999,
@@ -1525,6 +1601,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140344",
         totalMax = 999,
@@ -1565,6 +1643,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130796",
         totalMax = 999,
@@ -1618,6 +1698,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130055",
         totalMax = 999,
@@ -1654,6 +1736,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140396",
         totalMax = 999,
@@ -1694,6 +1778,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130505",
         totalMax = 999,
@@ -1730,6 +1816,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130912",
         totalMax = 999,
@@ -1770,6 +1858,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140265",
         totalMax = 999,
@@ -1810,6 +1900,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130621",
         totalMax = 999,
@@ -1846,6 +1938,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140317",
         totalMax = 999,
@@ -1886,6 +1980,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130506",
         totalMax = 999,
@@ -1922,6 +2018,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130737",
         totalMax = 999,
@@ -1958,6 +2056,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140266",
         totalMax = 999,
@@ -1998,6 +2098,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140369",
         totalMax = 999,
@@ -2038,6 +2140,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130622",
         totalMax = 999,
@@ -2074,6 +2178,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130853",
         totalMax = 999,
@@ -2114,6 +2220,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140318",
         totalMax = 999,
@@ -2154,6 +2262,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130507",
         totalMax = 999,
@@ -2190,6 +2300,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130738",
         totalMax = 999,
@@ -2226,6 +2338,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140267",
         totalMax = 999,
@@ -2266,6 +2380,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140370",
         totalMax = 999,
@@ -2306,6 +2422,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130623",
         totalMax = 999,
@@ -2342,6 +2460,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130854",
         totalMax = 999,
@@ -2382,6 +2502,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140319",
         totalMax = 999,
@@ -2422,6 +2544,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130508",
         totalMax = 999,
@@ -2458,6 +2582,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130739",
         totalMax = 999,
@@ -2494,6 +2620,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140268",
         totalMax = 999,
@@ -2534,6 +2662,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140371",
         totalMax = 999,
@@ -2574,6 +2704,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130624",
         totalMax = 999,
@@ -2610,6 +2742,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130855",
         totalMax = 999,
@@ -2650,6 +2784,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140320",
         totalMax = 999,
@@ -2690,6 +2826,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130740",
         totalMax = 999,
@@ -2726,6 +2864,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140372",
         totalMax = 999,
@@ -2766,6 +2906,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130449",
         totalMax = 999,
@@ -2802,6 +2944,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130856",
         totalMax = 999,
@@ -2842,6 +2986,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140241",
         totalMax = 999,
@@ -2882,6 +3028,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130565",
         totalMax = 999,
@@ -2918,6 +3066,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140293",
         totalMax = 999,
@@ -2958,6 +3108,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130450",
         totalMax = 999,
@@ -2994,6 +3146,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130681",
         totalMax = 999,
@@ -3030,6 +3184,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140242",
         totalMax = 999,
@@ -3070,6 +3226,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140345",
         totalMax = 999,
@@ -3110,6 +3268,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130566",
         totalMax = 999,
@@ -3146,6 +3306,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130797",
         totalMax = 999,
@@ -3186,6 +3348,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140294",
         totalMax = 999,
@@ -3226,6 +3390,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130451",
         totalMax = 999,
@@ -3262,6 +3428,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130682",
         totalMax = 999,
@@ -3298,6 +3466,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140243",
         totalMax = 999,
@@ -3346,6 +3516,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130913",
         totalMax = 999,
@@ -3386,6 +3558,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140346",
         totalMax = 999,
@@ -3426,6 +3600,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130567",
         totalMax = 999,
@@ -3462,6 +3638,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130798",
         totalMax = 999,
@@ -3502,6 +3680,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140295",
         totalMax = 999,
@@ -3542,6 +3722,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130452",
         totalMax = 999,
@@ -3578,6 +3760,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130683",
         totalMax = 999,
@@ -3614,6 +3798,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140244",
         totalMax = 999,
@@ -3661,6 +3847,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130914",
         totalMax = 999,
@@ -3701,6 +3889,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140347",
         totalMax = 999,
@@ -3741,6 +3931,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130568",
         totalMax = 999,
@@ -3777,6 +3969,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130799",
         totalMax = 999,
@@ -3817,6 +4011,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140296",
         totalMax = 999,
@@ -3857,6 +4053,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130684",
         totalMax = 999,
@@ -3900,6 +4098,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130915",
         totalMax = 999,
@@ -3940,6 +4140,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140348",
         totalMax = 999,
@@ -3980,6 +4182,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130393",
         totalMax = 999,
@@ -4016,6 +4220,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130800",
         totalMax = 999,
@@ -4056,6 +4262,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140217",
         totalMax = 999,
@@ -4096,6 +4304,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130509",
         totalMax = 999,
@@ -4139,6 +4349,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130916",
         totalMax = 999,
@@ -4179,6 +4391,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140269",
         totalMax = 999,
@@ -4219,6 +4433,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130394",
         totalMax = 999,
@@ -4255,6 +4471,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130625",
         totalMax = 999,
@@ -4291,6 +4509,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140218",
         totalMax = 999,
@@ -4331,6 +4551,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140321",
         totalMax = 999,
@@ -4371,6 +4593,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130510",
         totalMax = 999,
@@ -4407,6 +4631,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130741",
         totalMax = 999,
@@ -4447,6 +4673,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140270",
         totalMax = 999,
@@ -4487,6 +4715,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130395",
         totalMax = 999,
@@ -4523,6 +4753,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130626",
         totalMax = 999,
@@ -4559,6 +4791,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140219",
         totalMax = 999,
@@ -4607,6 +4841,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130857",
         totalMax = 999,
@@ -4647,6 +4883,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140322",
         totalMax = 999,
@@ -4687,6 +4925,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130511",
         totalMax = 999,
@@ -4723,6 +4963,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130742",
         totalMax = 999,
@@ -4763,6 +5005,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140271",
         totalMax = 999,
@@ -4803,6 +5047,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130396",
         totalMax = 999,
@@ -4839,6 +5085,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130627",
         totalMax = 999,
@@ -4875,6 +5123,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140220",
         totalMax = 999,
@@ -4922,6 +5172,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130858",
         totalMax = 999,
@@ -4962,6 +5214,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140323",
         totalMax = 999,
@@ -5002,6 +5256,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130512",
         totalMax = 999,
@@ -5038,6 +5294,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130743",
         totalMax = 999,
@@ -5078,6 +5336,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140272",
         totalMax = 999,
@@ -5118,6 +5378,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130628",
         totalMax = 999,
@@ -5161,6 +5423,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130859",
         totalMax = 999,
@@ -5201,6 +5465,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140324",
         totalMax = 999,
@@ -5241,6 +5507,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130337",
         totalMax = 999,
@@ -5277,6 +5545,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130744",
         totalMax = 999,
@@ -5317,6 +5587,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140193",
         totalMax = 999,
@@ -5357,6 +5629,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130453",
         totalMax = 999,
@@ -5400,6 +5674,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130860",
         totalMax = 999,
@@ -5440,6 +5716,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140245",
         totalMax = 999,
@@ -5480,6 +5758,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130338",
         totalMax = 999,
@@ -5516,6 +5796,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130569",
         totalMax = 999,
@@ -5552,6 +5834,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140194",
         totalMax = 999,
@@ -5592,6 +5876,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140297",
         totalMax = 999,
@@ -5632,6 +5918,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130454",
         totalMax = 999,
@@ -5668,6 +5956,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130685",
         totalMax = 999,
@@ -5708,6 +5998,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140246",
         totalMax = 999,
@@ -5748,6 +6040,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130339",
         totalMax = 999,
@@ -5784,6 +6078,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130570",
         totalMax = 999,
@@ -5820,6 +6116,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140195",
         totalMax = 999,
@@ -5868,6 +6166,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130801",
         totalMax = 999,
@@ -5908,6 +6208,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140298",
         totalMax = 999,
@@ -5948,6 +6250,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130455",
         totalMax = 999,
@@ -5984,6 +6288,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130686",
         totalMax = 999,
@@ -6024,6 +6330,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140247",
         totalMax = 999,
@@ -6077,6 +6385,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130917",
         totalMax = 999,
@@ -6117,6 +6427,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130571",
         totalMax = 999,
@@ -6153,6 +6465,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140196",
         totalMax = 999,
@@ -6200,6 +6514,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130802",
         totalMax = 999,
@@ -6240,6 +6556,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140299",
         totalMax = 999,
@@ -6280,6 +6598,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130456",
         totalMax = 999,
@@ -6316,6 +6636,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130687",
         totalMax = 999,
@@ -6356,6 +6678,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140248",
         totalMax = 999,
@@ -6408,6 +6732,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130918",
         totalMax = 999,
@@ -6448,6 +6774,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130572",
         totalMax = 999,
@@ -6491,6 +6819,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130803",
         totalMax = 999,
@@ -6531,6 +6861,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140300",
         totalMax = 999,
@@ -6571,6 +6903,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130281",
         totalMax = 999,
@@ -6607,6 +6941,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130688",
         totalMax = 999,
@@ -6659,6 +6995,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130919",
         totalMax = 999,
@@ -6699,6 +7037,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130397",
         totalMax = 999,
@@ -6742,6 +7082,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130804",
         totalMax = 999,
@@ -6782,6 +7124,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140221",
         totalMax = 999,
@@ -6822,6 +7166,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130282",
         totalMax = 999,
@@ -6858,6 +7204,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130513",
         totalMax = 999,
@@ -6906,6 +7254,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130920",
         totalMax = 999,
@@ -6946,6 +7296,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140273",
         totalMax = 999,
@@ -6986,6 +7338,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130398",
         totalMax = 999,
@@ -7022,6 +7376,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130629",
         totalMax = 999,
@@ -7062,6 +7418,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140222",
         totalMax = 999,
@@ -7102,6 +7460,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130283",
         totalMax = 999,
@@ -7138,6 +7498,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130514",
         totalMax = 999,
@@ -7174,6 +7536,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140171",
         totalMax = 999,
@@ -7222,6 +7586,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130745",
         totalMax = 999,
@@ -7262,6 +7628,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140274",
         totalMax = 999,
@@ -7302,6 +7670,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130399",
         totalMax = 999,
@@ -7338,6 +7708,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130630",
         totalMax = 999,
@@ -7378,6 +7750,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140223",
         totalMax = 999,
@@ -7431,6 +7805,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130861",
         totalMax = 999,
@@ -7471,6 +7847,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130515",
         totalMax = 999,
@@ -7507,6 +7885,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140172",
         totalMax = 999,
@@ -7554,6 +7934,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130746",
         totalMax = 999,
@@ -7594,6 +7976,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140275",
         totalMax = 999,
@@ -7634,6 +8018,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130400",
         totalMax = 999,
@@ -7670,6 +8056,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130631",
         totalMax = 999,
@@ -7710,6 +8098,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140224",
         totalMax = 999,
@@ -7762,6 +8152,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130862",
         totalMax = 999,
@@ -7802,6 +8194,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130516",
         totalMax = 999,
@@ -7845,6 +8239,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130747",
         totalMax = 999,
@@ -7885,6 +8281,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140276",
         totalMax = 999,
@@ -7925,6 +8323,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130225",
         totalMax = 999,
@@ -7961,6 +8361,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130632",
         totalMax = 999,
@@ -8013,6 +8415,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130863",
         totalMax = 999,
@@ -8053,6 +8457,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130341",
         totalMax = 999,
@@ -8096,6 +8502,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130748",
         totalMax = 999,
@@ -8136,6 +8544,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140197",
         totalMax = 999,
@@ -8176,6 +8586,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130226",
         totalMax = 999,
@@ -8212,6 +8624,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130457",
         totalMax = 999,
@@ -8260,6 +8674,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130864",
         totalMax = 999,
@@ -8300,6 +8716,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140249",
         totalMax = 999,
@@ -8340,6 +8758,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130342",
         totalMax = 999,
@@ -8376,6 +8796,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130573",
         totalMax = 999,
@@ -8416,6 +8838,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140198",
         totalMax = 999,
@@ -8456,6 +8880,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130227",
         totalMax = 999,
@@ -8492,6 +8918,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130458",
         totalMax = 999,
@@ -8528,6 +8956,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140147",
         totalMax = 999,
@@ -8576,6 +9006,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130689",
         totalMax = 999,
@@ -8616,6 +9048,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140250",
         totalMax = 999,
@@ -8656,6 +9090,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130343",
         totalMax = 999,
@@ -8692,6 +9128,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130574",
         totalMax = 999,
@@ -8732,6 +9170,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140199",
         totalMax = 999,
@@ -8785,6 +9225,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130805",
         totalMax = 999,
@@ -8825,6 +9267,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130459",
         totalMax = 999,
@@ -8861,6 +9305,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140148",
         totalMax = 999,
@@ -8908,6 +9354,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130690",
         totalMax = 999,
@@ -8948,6 +9396,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140251",
         totalMax = 999,
@@ -9006,6 +9456,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130921",
         totalMax = 999,
@@ -9042,6 +9494,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130575",
         totalMax = 999,
@@ -9082,6 +9536,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140200",
         totalMax = 999,
@@ -9134,6 +9590,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130806",
         totalMax = 999,
@@ -9174,6 +9632,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130460",
         totalMax = 999,
@@ -9217,6 +9677,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130691",
         totalMax = 999,
@@ -9257,6 +9719,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140252",
         totalMax = 999,
@@ -9314,6 +9778,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130922",
         totalMax = 999,
@@ -9350,6 +9816,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130169",
         totalMax = 999,
@@ -9386,6 +9854,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130576",
         totalMax = 999,
@@ -9438,6 +9908,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130807",
         totalMax = 999,
@@ -9478,6 +9950,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130285",
         totalMax = 999,
@@ -9521,6 +9995,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130692",
         totalMax = 999,
@@ -9578,6 +10054,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130923",
         totalMax = 999,
@@ -9614,6 +10092,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130170",
         totalMax = 999,
@@ -9650,6 +10130,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130401",
         totalMax = 999,
@@ -9698,6 +10180,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130808",
         totalMax = 999,
@@ -9738,6 +10222,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140225",
         totalMax = 999,
@@ -9778,6 +10264,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130286",
         totalMax = 999,
@@ -9814,6 +10302,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130517",
         totalMax = 999,
@@ -9871,6 +10361,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130924",
         totalMax = 999,
@@ -9907,6 +10399,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130171",
         totalMax = 999,
@@ -9943,6 +10437,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130402",
         totalMax = 999,
@@ -9979,6 +10475,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140123",
         totalMax = 999,
@@ -10027,6 +10525,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130633",
         totalMax = 999,
@@ -10067,6 +10567,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140226",
         totalMax = 999,
@@ -10107,6 +10609,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130287",
         totalMax = 999,
@@ -10143,6 +10647,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130518",
         totalMax = 999,
@@ -10183,6 +10689,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140175",
         totalMax = 999,
@@ -10236,6 +10744,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130749",
         totalMax = 999,
@@ -10276,6 +10786,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130403",
         totalMax = 999,
@@ -10312,6 +10824,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140124",
         totalMax = 999,
@@ -10359,6 +10873,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130634",
         totalMax = 999,
@@ -10399,6 +10915,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140227",
         totalMax = 999,
@@ -10457,6 +10975,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130865",
         totalMax = 999,
@@ -10493,6 +11013,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130519",
         totalMax = 999,
@@ -10533,6 +11055,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140176",
         totalMax = 999,
@@ -10585,6 +11109,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130750",
         totalMax = 999,
@@ -10625,6 +11151,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130404",
         totalMax = 999,
@@ -10668,6 +11196,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130635",
         totalMax = 999,
@@ -10708,6 +11238,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140228",
         totalMax = 999,
@@ -10765,6 +11297,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130866",
         totalMax = 999,
@@ -10801,6 +11335,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130113",
         totalMax = 999,
@@ -10837,6 +11373,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130520",
         totalMax = 999,
@@ -10889,6 +11427,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130751",
         totalMax = 999,
@@ -10929,6 +11469,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130229",
         totalMax = 999,
@@ -10972,6 +11514,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130636",
         totalMax = 999,
@@ -11029,6 +11573,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130867",
         totalMax = 999,
@@ -11065,6 +11611,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130114",
         totalMax = 999,
@@ -11101,6 +11649,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130345",
         totalMax = 999,
@@ -11149,6 +11699,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130752",
         totalMax = 999,
@@ -11189,6 +11741,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140201",
         totalMax = 999,
@@ -11229,6 +11783,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130230",
         totalMax = 999,
@@ -11265,6 +11821,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130461",
         totalMax = 999,
@@ -11322,6 +11880,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130868",
         totalMax = 999,
@@ -11358,6 +11918,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130115",
         totalMax = 999,
@@ -11394,6 +11956,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130346",
         totalMax = 999,
@@ -11430,6 +11994,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140099",
         totalMax = 999,
@@ -11478,6 +12044,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130577",
         totalMax = 999,
@@ -11518,6 +12086,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140202",
         totalMax = 999,
@@ -11558,6 +12128,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130231",
         totalMax = 999,
@@ -11594,6 +12166,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130462",
         totalMax = 999,
@@ -11634,6 +12208,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140151",
         totalMax = 999,
@@ -11687,6 +12263,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130693",
         totalMax = 999,
@@ -11733,6 +12311,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130693",
         totalMax = 999,
@@ -11769,6 +12349,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130347",
         totalMax = 999,
@@ -11805,6 +12387,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140100",
         totalMax = 999,
@@ -11852,6 +12436,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130578",
         totalMax = 999,
@@ -11892,6 +12478,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140203",
         totalMax = 999,
@@ -11932,6 +12520,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130232",
         totalMax = 999,
@@ -11968,6 +12558,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130463",
         totalMax = 999,
@@ -12008,6 +12600,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140152",
         totalMax = 999,
@@ -12060,6 +12654,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130694",
         totalMax = 999,
@@ -12106,6 +12702,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130694",
         totalMax = 999,
@@ -12142,6 +12740,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130348",
         totalMax = 999,
@@ -12185,6 +12785,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130579",
         totalMax = 999,
@@ -12225,6 +12827,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140204",
         totalMax = 999,
@@ -12282,6 +12886,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130810",
         totalMax = 999,
@@ -12318,6 +12924,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130057",
         totalMax = 999,
@@ -12354,6 +12962,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130464",
         totalMax = 999,
@@ -12406,6 +13016,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130695",
         totalMax = 999,
@@ -12452,6 +13064,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130695",
         totalMax = 999,
@@ -12488,6 +13102,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130173",
         totalMax = 999,
@@ -12531,6 +13147,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130580",
         totalMax = 999,
@@ -12588,6 +13206,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130811",
         totalMax = 999,
@@ -12624,6 +13244,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130058",
         totalMax = 999,
@@ -12660,6 +13282,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130289",
         totalMax = 999,
@@ -12708,6 +13332,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130696",
         totalMax = 999,
@@ -12754,6 +13380,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130696",
         totalMax = 999,
@@ -12790,6 +13418,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140177",
         totalMax = 999,
@@ -12830,6 +13460,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130174",
         totalMax = 999,
@@ -12866,6 +13498,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130405",
         totalMax = 999,
@@ -12923,6 +13557,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130812",
         totalMax = 999,
@@ -12959,6 +13595,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130059",
         totalMax = 999,
@@ -12995,6 +13633,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130290",
         totalMax = 999,
@@ -13031,6 +13671,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140075",
         totalMax = 999,
@@ -13079,6 +13721,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130521",
         totalMax = 999,
@@ -13119,6 +13763,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140178",
         totalMax = 999,
@@ -13159,6 +13805,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130175",
         totalMax = 999,
@@ -13195,6 +13843,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130406",
         totalMax = 999,
@@ -13235,6 +13885,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140127",
         totalMax = 999,
@@ -13288,6 +13940,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130637",
         totalMax = 999,
@@ -13328,6 +13982,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130291",
         totalMax = 999,
@@ -13364,6 +14020,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140076",
         totalMax = 999,
@@ -13411,6 +14069,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130522",
         totalMax = 999,
@@ -13451,6 +14111,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140179",
         totalMax = 999,
@@ -13491,6 +14153,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130176",
         totalMax = 999,
@@ -13527,6 +14191,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130407",
         totalMax = 999,
@@ -13567,6 +14233,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140128",
         totalMax = 999,
@@ -13619,6 +14287,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130638",
         totalMax = 999,
@@ -13659,6 +14329,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130292",
         totalMax = 999,
@@ -13702,6 +14374,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130523",
         totalMax = 999,
@@ -13742,6 +14416,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140180",
         totalMax = 999,
@@ -13799,6 +14475,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130754",
         totalMax = 999,
@@ -13835,6 +14513,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130001",
         totalMax = 999,
@@ -13871,6 +14551,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130408",
         totalMax = 999,
@@ -13923,6 +14605,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130639",
         totalMax = 999,
@@ -13963,6 +14647,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130117",
         totalMax = 999,
@@ -14006,6 +14692,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130524",
         totalMax = 999,
@@ -14063,6 +14751,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130755",
         totalMax = 999,
@@ -14099,6 +14789,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130002",
         totalMax = 999,
@@ -14135,6 +14827,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130233",
         totalMax = 999,
@@ -14183,6 +14877,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130640",
         totalMax = 999,
@@ -14223,6 +14919,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140153",
         totalMax = 999,
@@ -14263,6 +14961,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130118",
         totalMax = 999,
@@ -14299,6 +14999,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130349",
         totalMax = 999,
@@ -14356,6 +15058,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130756",
         totalMax = 999,
@@ -14392,6 +15096,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130003",
         totalMax = 999,
@@ -14428,6 +15134,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130234",
         totalMax = 999,
@@ -14464,6 +15172,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140051",
         totalMax = 999,
@@ -14512,6 +15222,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130465",
         totalMax = 999,
@@ -14552,6 +15264,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140154",
         totalMax = 999,
@@ -14592,6 +15306,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130119",
         totalMax = 999,
@@ -14628,6 +15344,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130350",
         totalMax = 999,
@@ -14668,6 +15386,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140103",
         totalMax = 999,
@@ -14721,6 +15441,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130581",
         totalMax = 999,
@@ -14767,6 +15489,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130581",
         totalMax = 999,
@@ -14803,6 +15527,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130235",
         totalMax = 999,
@@ -14839,6 +15565,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140052",
         totalMax = 999,
@@ -14886,6 +15614,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130466",
         totalMax = 999,
@@ -14926,6 +15656,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140155",
         totalMax = 999,
@@ -14966,6 +15698,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130120",
         totalMax = 999,
@@ -15002,6 +15736,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130351",
         totalMax = 999,
@@ -15042,6 +15778,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140104",
         totalMax = 999,
@@ -15094,6 +15832,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130582",
         totalMax = 999,
@@ -15140,6 +15880,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130582",
         totalMax = 999,
@@ -15176,6 +15918,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130236",
         totalMax = 999,
@@ -15219,6 +15963,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130467",
         totalMax = 999,
@@ -15259,6 +16005,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140156",
         totalMax = 999,
@@ -15316,6 +16064,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130698",
         totalMax = 999,
@@ -15352,6 +16102,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130352",
         totalMax = 999,
@@ -15404,6 +16156,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130583",
         totalMax = 999,
@@ -15450,6 +16204,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130583",
         totalMax = 999,
@@ -15486,6 +16242,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130061",
         totalMax = 999,
@@ -15529,6 +16287,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130468",
         totalMax = 999,
@@ -15586,6 +16346,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130699",
         totalMax = 999,
@@ -15622,6 +16384,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130177",
         totalMax = 999,
@@ -15670,6 +16434,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130584",
         totalMax = 999,
@@ -15716,6 +16482,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130584",
         totalMax = 999,
@@ -15752,6 +16520,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140129",
         totalMax = 999,
@@ -15792,6 +16562,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130062",
         totalMax = 999,
@@ -15828,6 +16600,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130293",
         totalMax = 999,
@@ -15885,6 +16659,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130700",
         totalMax = 999,
@@ -15921,6 +16697,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130178",
         totalMax = 999,
@@ -15957,6 +16735,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140027",
         totalMax = 999,
@@ -16005,6 +16785,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130409",
         totalMax = 999,
@@ -16045,6 +16827,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140130",
         totalMax = 999,
@@ -16085,6 +16869,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130063",
         totalMax = 999,
@@ -16121,6 +16907,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130294",
         totalMax = 999,
@@ -16161,6 +16949,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140079",
         totalMax = 999,
@@ -16214,6 +17004,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130525",
         totalMax = 999,
@@ -16260,6 +17052,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130525",
         totalMax = 999,
@@ -16296,6 +17090,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130179",
         totalMax = 999,
@@ -16332,6 +17128,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140028",
         totalMax = 999,
@@ -16379,6 +17177,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130410",
         totalMax = 999,
@@ -16419,6 +17219,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140131",
         totalMax = 999,
@@ -16459,6 +17261,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130064",
         totalMax = 999,
@@ -16495,6 +17299,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130295",
         totalMax = 999,
@@ -16535,6 +17341,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140080",
         totalMax = 999,
@@ -16587,6 +17395,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130526",
         totalMax = 999,
@@ -16633,6 +17443,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130526",
         totalMax = 999,
@@ -16669,6 +17481,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130180",
         totalMax = 999,
@@ -16712,6 +17526,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130411",
         totalMax = 999,
@@ -16752,6 +17568,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140132",
         totalMax = 999,
@@ -16809,6 +17627,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130642",
         totalMax = 999,
@@ -16845,6 +17665,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130296",
         totalMax = 999,
@@ -16897,6 +17719,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130527",
         totalMax = 999,
@@ -16943,6 +17767,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130527",
         totalMax = 999,
@@ -16979,6 +17805,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130005",
         totalMax = 999,
@@ -17022,6 +17850,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130412",
         totalMax = 999,
@@ -17079,6 +17909,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130643",
         totalMax = 999,
@@ -17115,6 +17947,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130121",
         totalMax = 999,
@@ -17163,6 +17997,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130528",
         totalMax = 999,
@@ -17209,6 +18045,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130528",
         totalMax = 999,
@@ -17245,6 +18083,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140105",
         totalMax = 999,
@@ -17285,6 +18125,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130006",
         totalMax = 999,
@@ -17321,6 +18163,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130237",
         totalMax = 999,
@@ -17378,6 +18222,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130644",
         totalMax = 999,
@@ -17414,6 +18260,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130122",
         totalMax = 999,
@@ -17450,6 +18298,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140003",
         totalMax = 999,
@@ -17498,6 +18348,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130353",
         totalMax = 999,
@@ -17538,6 +18390,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140106",
         totalMax = 999,
@@ -17578,6 +18432,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130007",
         totalMax = 999,
@@ -17614,6 +18470,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130238",
         totalMax = 999,
@@ -17654,6 +18512,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140055",
         totalMax = 999,
@@ -17707,6 +18567,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130469",
         totalMax = 999,
@@ -17747,6 +18609,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130123",
         totalMax = 999,
@@ -17783,6 +18647,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140004",
         totalMax = 999,
@@ -17830,6 +18696,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130354",
         totalMax = 999,
@@ -17870,6 +18738,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140107",
         totalMax = 999,
@@ -17928,6 +18798,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130585",
         totalMax = 999,
@@ -17964,6 +18836,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130239",
         totalMax = 999,
@@ -18004,6 +18878,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140056",
         totalMax = 999,
@@ -18056,6 +18932,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130470",
         totalMax = 999,
@@ -18096,6 +18974,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130124",
         totalMax = 999,
@@ -18139,6 +19019,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130355",
         totalMax = 999,
@@ -18179,6 +19061,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140108",
         totalMax = 999,
@@ -18236,6 +19120,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130586",
         totalMax = 999,
@@ -18272,6 +19158,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130240",
         totalMax = 999,
@@ -18324,6 +19212,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130471",
         totalMax = 999,
@@ -18371,6 +19261,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130356",
         totalMax = 999,
@@ -18411,6 +19303,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140029",
         totalMax = 999,
@@ -18451,6 +19345,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130065",
         totalMax = 999,
@@ -18499,6 +19395,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130472",
         totalMax = 999,
@@ -18539,6 +19437,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140081",
         totalMax = 999,
@@ -18579,6 +19479,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130181",
         totalMax = 999,
@@ -18636,6 +19538,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130588",
         totalMax = 999,
@@ -18672,6 +19576,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130066",
         totalMax = 999,
@@ -18716,6 +19622,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130297",
         totalMax = 999,
@@ -18756,6 +19664,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140082",
         totalMax = 999,
@@ -18796,6 +19706,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130182",
         totalMax = 999,
@@ -18836,6 +19748,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140031",
         totalMax = 999,
@@ -18889,6 +19803,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130413",
         totalMax = 999,
@@ -18929,6 +19845,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130067",
         totalMax = 999,
@@ -18972,6 +19890,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130298",
         totalMax = 999,
@@ -19012,6 +19932,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140083",
         totalMax = 999,
@@ -19070,6 +19992,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130529",
         totalMax = 999,
@@ -19106,6 +20030,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130183",
         totalMax = 999,
@@ -19146,6 +20072,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140032",
         totalMax = 999,
@@ -19198,6 +20126,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130414",
         totalMax = 999,
@@ -19238,6 +20168,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130068",
         totalMax = 999,
@@ -19281,6 +20213,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130299",
         totalMax = 999,
@@ -19321,6 +20255,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140084",
         totalMax = 999,
@@ -19378,6 +20314,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130530",
         totalMax = 999,
@@ -19414,6 +20352,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130184",
         totalMax = 999,
@@ -19466,6 +20406,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130415",
         totalMax = 999,
@@ -19513,6 +20455,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130300",
         totalMax = 999,
@@ -19553,6 +20497,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140005",
         totalMax = 999,
@@ -19593,6 +20539,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130009",
         totalMax = 999,
@@ -19641,6 +20589,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130416",
         totalMax = 999,
@@ -19681,6 +20631,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140057",
         totalMax = 999,
@@ -19721,6 +20673,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130125",
         totalMax = 999,
@@ -19778,6 +20732,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130532",
         totalMax = 999,
@@ -19814,6 +20770,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130010",
         totalMax = 999,
@@ -19858,6 +20816,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130241",
         totalMax = 999,
@@ -19898,6 +20858,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140058",
         totalMax = 999,
@@ -19938,6 +20900,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130126",
         totalMax = 999,
@@ -19978,6 +20942,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140007",
         totalMax = 999,
@@ -20031,6 +20997,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130357",
         totalMax = 999,
@@ -20071,6 +21039,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130011",
         totalMax = 999,
@@ -20114,6 +21084,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130242",
         totalMax = 999,
@@ -20154,6 +21126,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140059",
         totalMax = 999,
@@ -20212,6 +21186,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130473",
         totalMax = 999,
@@ -20248,6 +21224,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130127",
         totalMax = 999,
@@ -20288,6 +21266,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140008",
         totalMax = 999,
@@ -20340,6 +21320,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130358",
         totalMax = 999,
@@ -20380,6 +21362,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130012",
         totalMax = 999,
@@ -20423,6 +21407,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130243",
         totalMax = 999,
@@ -20463,6 +21449,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140060",
         totalMax = 999,
@@ -20520,6 +21508,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130474",
         totalMax = 999,
@@ -20556,6 +21546,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130128",
         totalMax = 999,
@@ -20608,6 +21600,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130359",
         totalMax = 999,
@@ -20655,6 +21649,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130244",
         totalMax = 999,
@@ -20712,6 +21708,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130475",
         totalMax = 999,
@@ -20760,6 +21758,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130360",
         totalMax = 999,
@@ -20800,6 +21800,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140033",
         totalMax = 999,
@@ -20840,6 +21842,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130069",
         totalMax = 999,
@@ -20897,6 +21901,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130476",
         totalMax = 999,
@@ -20941,6 +21947,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130185",
         totalMax = 999,
@@ -20981,6 +21989,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140034",
         totalMax = 999,
@@ -21021,6 +22031,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130070",
         totalMax = 999,
@@ -21074,6 +22086,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130301",
         totalMax = 999,
@@ -21120,6 +22134,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130301",
         totalMax = 999,
@@ -21163,6 +22179,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130186",
         totalMax = 999,
@@ -21203,6 +22221,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140035",
         totalMax = 999,
@@ -21261,6 +22281,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130417",
         totalMax = 999,
@@ -21297,6 +22319,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130071",
         totalMax = 999,
@@ -21349,6 +22373,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130302",
         totalMax = 999,
@@ -21395,6 +22421,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130302",
         totalMax = 999,
@@ -21438,6 +22466,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130187",
         totalMax = 999,
@@ -21478,6 +22508,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140036",
         totalMax = 999,
@@ -21535,6 +22567,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130418",
         totalMax = 999,
@@ -21571,6 +22605,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130072",
         totalMax = 999,
@@ -21623,6 +22659,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130303",
         totalMax = 999,
@@ -21669,6 +22707,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130303",
         totalMax = 999,
@@ -21712,6 +22752,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130188",
         totalMax = 999,
@@ -21769,6 +22811,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130419",
         totalMax = 999,
@@ -21817,6 +22861,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130304",
         totalMax = 999,
@@ -21863,6 +22909,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130304",
         totalMax = 999,
@@ -21899,6 +22947,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140009",
         totalMax = 999,
@@ -21939,6 +22989,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130013",
         totalMax = 999,
@@ -21996,6 +23048,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130420",
         totalMax = 999,
@@ -22032,6 +23086,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130870",
         totalMax = 999,
@@ -22076,6 +23132,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130129",
         totalMax = 999,
@@ -22116,6 +23174,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140010",
         totalMax = 999,
@@ -22156,6 +23216,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130014",
         totalMax = 999,
@@ -22209,6 +23271,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130245",
         totalMax = 999,
@@ -22249,6 +23313,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130871",
         totalMax = 999,
@@ -22292,6 +23358,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130130",
         totalMax = 999,
@@ -22332,6 +23400,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140011",
         totalMax = 999,
@@ -22390,6 +23460,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130361",
         totalMax = 999,
@@ -22426,6 +23498,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130015",
         totalMax = 999,
@@ -22478,6 +23552,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130246",
         totalMax = 999,
@@ -22518,6 +23594,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130872",
         totalMax = 999,
@@ -22561,6 +23639,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130131",
         totalMax = 999,
@@ -22601,6 +23681,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140012",
         totalMax = 999,
@@ -22658,6 +23740,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130362",
         totalMax = 999,
@@ -22694,6 +23778,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130016",
         totalMax = 999,
@@ -22746,6 +23832,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130247",
         totalMax = 999,
@@ -22793,6 +23881,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130132",
         totalMax = 999,
@@ -22850,6 +23940,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130363",
         totalMax = 999,
@@ -22886,6 +23978,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130813",
         totalMax = 999,
@@ -22939,6 +24033,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130364",
         totalMax = 999,
@@ -22975,6 +24071,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130814",
         totalMax = 999,
@@ -23019,6 +24117,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130073",
         totalMax = 999,
@@ -23072,6 +24172,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130189",
         totalMax = 999,
@@ -23112,6 +24214,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130815",
         totalMax = 999,
@@ -23155,6 +24259,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130074",
         totalMax = 999,
@@ -23213,6 +24319,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130305",
         totalMax = 999,
@@ -23261,6 +24369,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130190",
         totalMax = 999,
@@ -23301,6 +24411,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130816",
         totalMax = 999,
@@ -23344,6 +24456,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130075",
         totalMax = 999,
@@ -23401,6 +24515,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130306",
         totalMax = 999,
@@ -23449,6 +24565,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130191",
         totalMax = 999,
@@ -23496,6 +24614,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130076",
         totalMax = 999,
@@ -23553,6 +24673,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130307",
         totalMax = 999,
@@ -23589,6 +24711,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130757",
         totalMax = 999,
@@ -23625,6 +24749,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140373",
         totalMax = 999,
@@ -23682,6 +24808,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130308",
         totalMax = 999,
@@ -23718,6 +24846,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130758",
         totalMax = 999,
@@ -23762,6 +24892,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130017",
         totalMax = 999,
@@ -23802,6 +24934,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140374",
         totalMax = 999,
@@ -23842,6 +24976,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130874",
         totalMax = 999,
@@ -23891,6 +25027,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130133",
         totalMax = 999,
@@ -23931,6 +25069,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130759",
         totalMax = 999,
@@ -23974,6 +25114,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130018",
         totalMax = 999,
@@ -24032,6 +25174,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130249",
         totalMax = 999,
@@ -24068,6 +25212,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130875",
         totalMax = 999,
@@ -24116,6 +25262,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130134",
         totalMax = 999,
@@ -24156,6 +25304,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130760",
         totalMax = 999,
@@ -24199,6 +25349,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130019",
         totalMax = 999,
@@ -24256,6 +25408,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130250",
         totalMax = 999,
@@ -24292,6 +25446,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130876",
         totalMax = 999,
@@ -24340,6 +25496,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130135",
         totalMax = 999,
@@ -24387,6 +25545,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130020",
         totalMax = 999,
@@ -24444,6 +25604,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130251",
         totalMax = 999,
@@ -24480,6 +25642,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130701",
         totalMax = 999,
@@ -24516,6 +25680,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140349",
         totalMax = 999,
@@ -24556,6 +25722,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130817",
         totalMax = 999,
@@ -24592,6 +25760,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130702",
         totalMax = 999,
@@ -24628,6 +25798,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140350",
         totalMax = 999,
@@ -24668,6 +25840,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130818",
         totalMax = 999,
@@ -24717,6 +25891,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130077",
         totalMax = 999,
@@ -24757,6 +25933,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130703",
         totalMax = 999,
@@ -24811,6 +25989,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130193",
         totalMax = 999,
@@ -24847,6 +26027,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130819",
         totalMax = 999,
@@ -24895,6 +26077,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130078",
         totalMax = 999,
@@ -24935,6 +26119,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130704",
         totalMax = 999,
@@ -24988,6 +26174,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130194",
         totalMax = 999,
@@ -25024,6 +26212,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130820",
         totalMax = 999,
@@ -25072,6 +26262,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130079",
         totalMax = 999,
@@ -25129,6 +26321,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130195",
         totalMax = 999,
@@ -25165,6 +26359,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130645",
         totalMax = 999,
@@ -25201,6 +26397,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140325",
         totalMax = 999,
@@ -25241,6 +26439,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130761",
         totalMax = 999,
@@ -25277,6 +26477,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140377",
         totalMax = 999,
@@ -25317,6 +26519,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130646",
         totalMax = 999,
@@ -25353,6 +26557,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130877",
         totalMax = 999,
@@ -25389,6 +26595,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140326",
         totalMax = 999,
@@ -25429,6 +26637,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130762",
         totalMax = 999,
@@ -25478,6 +26688,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130021",
         totalMax = 999,
@@ -25518,6 +26730,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140378",
         totalMax = 999,
@@ -25558,6 +26772,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130647",
         totalMax = 999,
@@ -25594,6 +26810,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130878",
         totalMax = 999,
@@ -25648,6 +26866,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130137",
         totalMax = 999,
@@ -25684,6 +26904,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130763",
         totalMax = 999,
@@ -25732,6 +26954,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130022",
         totalMax = 999,
@@ -25772,6 +26996,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140379",
         totalMax = 999,
@@ -25812,6 +27038,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130648",
         totalMax = 999,
@@ -25848,6 +27076,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130879",
         totalMax = 999,
@@ -25901,6 +27131,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130138",
         totalMax = 999,
@@ -25937,6 +27169,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130764",
         totalMax = 999,
@@ -25985,6 +27219,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130023",
         totalMax = 999,
@@ -26025,6 +27261,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140380",
         totalMax = 999,
@@ -26065,6 +27303,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130880",
         totalMax = 999,
@@ -26118,6 +27358,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130139",
         totalMax = 999,
@@ -26154,6 +27396,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130589",
         totalMax = 999,
@@ -26190,6 +27434,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140301",
         totalMax = 999,
@@ -26230,6 +27476,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130705",
         totalMax = 999,
@@ -26266,6 +27514,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140353",
         totalMax = 999,
@@ -26306,6 +27556,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130590",
         totalMax = 999,
@@ -26342,6 +27594,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130821",
         totalMax = 999,
@@ -26378,6 +27632,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140302",
         totalMax = 999,
@@ -26418,6 +27674,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130706",
         totalMax = 999,
@@ -26454,6 +27712,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140354",
         totalMax = 999,
@@ -26494,6 +27754,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130591",
         totalMax = 999,
@@ -26530,6 +27792,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130822",
         totalMax = 999,
@@ -26584,6 +27848,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130081",
         totalMax = 999,
@@ -26620,6 +27886,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130707",
         totalMax = 999,
@@ -26656,6 +27924,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140355",
         totalMax = 999,
@@ -26696,6 +27966,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130592",
         totalMax = 999,
@@ -26732,6 +28004,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130823",
         totalMax = 999,
@@ -26785,6 +28059,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130082",
         totalMax = 999,
@@ -26821,6 +28097,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130708",
         totalMax = 999,
@@ -26857,6 +28135,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140356",
         totalMax = 999,
@@ -26897,6 +28177,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130824",
         totalMax = 999,
@@ -26950,6 +28232,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130083",
         totalMax = 999,
@@ -26986,6 +28270,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130533",
         totalMax = 999,
@@ -27022,6 +28308,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140277",
         totalMax = 999,
@@ -27062,6 +28350,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130649",
         totalMax = 999,
@@ -27098,6 +28388,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140329",
         totalMax = 999,
@@ -27138,6 +28430,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130534",
         totalMax = 999,
@@ -27174,6 +28468,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130765",
         totalMax = 999,
@@ -27210,6 +28506,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140278",
         totalMax = 999,
@@ -27250,6 +28548,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140381",
         totalMax = 999,
@@ -27290,6 +28590,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130650",
         totalMax = 999,
@@ -27326,6 +28628,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130881",
         totalMax = 999,
@@ -27366,6 +28670,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140330",
         totalMax = 999,
@@ -27406,6 +28712,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130535",
         totalMax = 999,
@@ -27442,6 +28750,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130766",
         totalMax = 999,
@@ -27496,6 +28806,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130025",
         totalMax = 999,
@@ -27532,6 +28844,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140382",
         totalMax = 999,
@@ -27572,6 +28886,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130651",
         totalMax = 999,
@@ -27608,6 +28924,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130882",
         totalMax = 999,
@@ -27648,6 +28966,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140331",
         totalMax = 999,
@@ -27688,6 +29008,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130536",
         totalMax = 999,
@@ -27724,6 +29046,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130767",
         totalMax = 999,
@@ -27777,6 +29101,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130026",
         totalMax = 999,
@@ -27813,6 +29139,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140383",
         totalMax = 999,
@@ -27853,6 +29181,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130652",
         totalMax = 999,
@@ -27889,6 +29219,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130883",
         totalMax = 999,
@@ -27929,6 +29261,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140332",
         totalMax = 999,
@@ -27969,6 +29303,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130768",
         totalMax = 999,
@@ -28022,6 +29358,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130027",
         totalMax = 999,
@@ -28058,6 +29396,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140384",
         totalMax = 999,
@@ -28098,6 +29438,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130477",
         totalMax = 999,
@@ -28134,6 +29476,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130884",
         totalMax = 999,
@@ -28174,6 +29518,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140253",
         totalMax = 999,
@@ -28214,6 +29560,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130593",
         totalMax = 999,
@@ -28250,6 +29598,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140305",
         totalMax = 999,
@@ -28290,6 +29640,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130478",
         totalMax = 999,
@@ -28326,6 +29678,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130709",
         totalMax = 999,
@@ -28362,6 +29716,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140254",
         totalMax = 999,
@@ -28402,6 +29758,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140357",
         totalMax = 999,
@@ -28442,6 +29800,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130594",
         totalMax = 999,
@@ -28478,6 +29838,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130825",
         totalMax = 999,
@@ -28518,6 +29880,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140306",
         totalMax = 999,
@@ -28558,6 +29922,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130479",
         totalMax = 999,
@@ -28594,6 +29960,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130710",
         totalMax = 999,
@@ -28630,6 +29998,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140255",
         totalMax = 999,
@@ -28670,6 +30040,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140358",
         totalMax = 999,
@@ -28710,6 +30082,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130595",
         totalMax = 999,
@@ -28746,6 +30120,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130826",
         totalMax = 999,
@@ -28786,6 +30162,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140307",
         totalMax = 999,
@@ -28826,6 +30204,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130480",
         totalMax = 999,
@@ -28862,6 +30242,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130711",
         totalMax = 999,
@@ -28898,6 +30280,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140256",
         totalMax = 999,
@@ -28938,6 +30322,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140359",
         totalMax = 999,
@@ -28978,6 +30364,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130596",
         totalMax = 999,
@@ -29014,6 +30402,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130827",
         totalMax = 999,
@@ -29054,6 +30444,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140308",
         totalMax = 999,
@@ -29094,6 +30486,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130712",
         totalMax = 999,
@@ -29130,6 +30524,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140360",
         totalMax = 999,
@@ -29170,6 +30566,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130421",
         totalMax = 999,
@@ -29206,6 +30604,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130828",
         totalMax = 999,
@@ -29246,6 +30646,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140229",
         totalMax = 999,
@@ -29286,6 +30688,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130537",
         totalMax = 999,
@@ -29322,6 +30726,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140281",
         totalMax = 999,
@@ -29362,6 +30768,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130422",
         totalMax = 999,
@@ -29398,6 +30806,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130653",
         totalMax = 999,
@@ -29434,6 +30844,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140230",
         totalMax = 999,
@@ -29474,6 +30886,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140333",
         totalMax = 999,
@@ -29514,6 +30928,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130538",
         totalMax = 999,
@@ -29550,6 +30966,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130769",
         totalMax = 999,
@@ -29590,6 +31008,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140282",
         totalMax = 999,
@@ -29630,6 +31050,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130423",
         totalMax = 999,
@@ -29666,6 +31088,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130654",
         totalMax = 999,
@@ -29702,6 +31126,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140231",
         totalMax = 999,
@@ -29750,6 +31176,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130885",
         totalMax = 999,
@@ -29790,6 +31218,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140334",
         totalMax = 999,
@@ -29830,6 +31260,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130539",
         totalMax = 999,
@@ -29866,6 +31298,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130770",
         totalMax = 999,
@@ -29906,6 +31340,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140283",
         totalMax = 999,
@@ -29946,6 +31382,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130424",
         totalMax = 999,
@@ -29982,6 +31420,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130655",
         totalMax = 999,
@@ -30018,6 +31458,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140232",
         totalMax = 999,
@@ -30065,6 +31507,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130886",
         totalMax = 999,
@@ -30105,6 +31549,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140335",
         totalMax = 999,
@@ -30145,6 +31591,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130540",
         totalMax = 999,
@@ -30181,6 +31629,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130771",
         totalMax = 999,
@@ -30221,6 +31671,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140284",
         totalMax = 999,
@@ -30261,6 +31713,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130656",
         totalMax = 999,
@@ -30304,6 +31758,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130887",
         totalMax = 999,
@@ -30344,6 +31800,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140336",
         totalMax = 999,
@@ -30384,6 +31842,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130365",
         totalMax = 999,
@@ -30420,6 +31880,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130772",
         totalMax = 999,
@@ -30460,6 +31922,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140205",
         totalMax = 999,
@@ -30500,6 +31964,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130481",
         totalMax = 999,
@@ -30543,6 +32009,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130888",
         totalMax = 999,
@@ -30583,6 +32051,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140257",
         totalMax = 999,
@@ -30623,6 +32093,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130366",
         totalMax = 999,
@@ -30659,6 +32131,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130597",
         totalMax = 999,
@@ -30695,6 +32169,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140206",
         totalMax = 999,
@@ -30735,6 +32211,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140309",
         totalMax = 999,
@@ -30775,6 +32253,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130482",
         totalMax = 999,
@@ -30811,6 +32291,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130713",
         totalMax = 999,
@@ -30851,6 +32333,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140258",
         totalMax = 999,
@@ -30891,6 +32375,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130367",
         totalMax = 999,
@@ -30927,6 +32413,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130598",
         totalMax = 999,
@@ -30963,6 +32451,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140207",
         totalMax = 999,
@@ -31011,6 +32501,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130829",
         totalMax = 999,
@@ -31051,6 +32543,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140310",
         totalMax = 999,
@@ -31091,6 +32585,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130483",
         totalMax = 999,
@@ -31127,6 +32623,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130714",
         totalMax = 999,
@@ -31167,6 +32665,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140259",
         totalMax = 999,
@@ -31207,6 +32707,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130368",
         totalMax = 999,
@@ -31243,6 +32745,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130599",
         totalMax = 999,
@@ -31279,6 +32783,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140208",
         totalMax = 999,
@@ -31326,6 +32832,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130830",
         totalMax = 999,
@@ -31366,6 +32874,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140311",
         totalMax = 999,
@@ -31406,6 +32916,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130484",
         totalMax = 999,
@@ -31442,6 +32954,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130715",
         totalMax = 999,
@@ -31482,6 +32996,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140260",
         totalMax = 999,
@@ -31522,6 +33038,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130600",
         totalMax = 999,
@@ -31565,6 +33083,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130831",
         totalMax = 999,
@@ -31605,6 +33125,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140312",
         totalMax = 999,
@@ -31645,6 +33167,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130309",
         totalMax = 999,
@@ -31681,6 +33205,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130716",
         totalMax = 999,
@@ -31721,6 +33247,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140181",
         totalMax = 999,
@@ -31761,6 +33289,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130425",
         totalMax = 999,
@@ -31804,6 +33334,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130832",
         totalMax = 999,
@@ -31844,6 +33376,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140233",
         totalMax = 999,
@@ -31884,6 +33418,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130310",
         totalMax = 999,
@@ -31920,6 +33456,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130541",
         totalMax = 999,
@@ -31956,6 +33494,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140182",
         totalMax = 999,
@@ -31996,6 +33536,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140285",
         totalMax = 999,
@@ -32036,6 +33578,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130426",
         totalMax = 999,
@@ -32072,6 +33616,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130657",
         totalMax = 999,
@@ -32112,6 +33658,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140234",
         totalMax = 999,
@@ -32152,6 +33700,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130311",
         totalMax = 999,
@@ -32188,6 +33738,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130542",
         totalMax = 999,
@@ -32224,6 +33776,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140183",
         totalMax = 999,
@@ -32272,6 +33826,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130773",
         totalMax = 999,
@@ -32312,6 +33868,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140286",
         totalMax = 999,
@@ -32352,6 +33910,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130427",
         totalMax = 999,
@@ -32388,6 +33948,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130658",
         totalMax = 999,
@@ -32428,6 +33990,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140235",
         totalMax = 999,
@@ -32481,6 +34045,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130889",
         totalMax = 999,
@@ -32521,6 +34087,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130543",
         totalMax = 999,
@@ -32557,6 +34125,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140184",
         totalMax = 999,
@@ -32604,6 +34174,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130774",
         totalMax = 999,
@@ -32644,6 +34216,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140287",
         totalMax = 999,
@@ -32684,6 +34258,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130428",
         totalMax = 999,
@@ -32720,6 +34296,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130659",
         totalMax = 999,
@@ -32760,6 +34338,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140236",
         totalMax = 999,
@@ -32802,7 +34382,7 @@ return {
             [2] = {
                 [1] = 40062,
                 [2] = 40072,
-                [3] = 50011,
+                [3] = 41011,
             },
         },
         decompose = true,
@@ -32812,6 +34392,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130890",
         totalMax = 999,
@@ -32852,6 +34434,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130544",
         totalMax = 999,
@@ -32895,6 +34479,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130775",
         totalMax = 999,
@@ -32935,6 +34521,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140288",
         totalMax = 999,
@@ -32975,6 +34563,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130253",
         totalMax = 999,
@@ -33011,6 +34601,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130660",
         totalMax = 999,
@@ -33053,7 +34645,7 @@ return {
             [2] = {
                 [1] = 40063,
                 [2] = 40073,
-                [3] = 50012,
+                [3] = 41022,
             },
         },
         decompose = true,
@@ -33063,6 +34655,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130891",
         totalMax = 999,
@@ -33103,6 +34697,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130369",
         totalMax = 999,
@@ -33146,6 +34742,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130776",
         totalMax = 999,
@@ -33186,6 +34784,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140209",
         totalMax = 999,
@@ -33226,6 +34826,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130254",
         totalMax = 999,
@@ -33262,6 +34864,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130485",
         totalMax = 999,
@@ -33300,7 +34904,7 @@ return {
             [2] = {
                 [1] = 40064,
                 [2] = 40074,
-                [3] = 50013,
+                [3] = 41033,
             },
         },
         decompose = true,
@@ -33310,6 +34914,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130892",
         totalMax = 999,
@@ -33350,6 +34956,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140261",
         totalMax = 999,
@@ -33390,6 +34998,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130370",
         totalMax = 999,
@@ -33426,6 +35036,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130601",
         totalMax = 999,
@@ -33466,6 +35078,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140210",
         totalMax = 999,
@@ -33506,6 +35120,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130255",
         totalMax = 999,
@@ -33542,6 +35158,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130486",
         totalMax = 999,
@@ -33578,6 +35196,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140159",
         totalMax = 999,
@@ -33626,6 +35246,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130717",
         totalMax = 999,
@@ -33666,6 +35288,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140262",
         totalMax = 999,
@@ -33706,6 +35330,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130371",
         totalMax = 999,
@@ -33742,6 +35368,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130602",
         totalMax = 999,
@@ -33782,6 +35410,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140211",
         totalMax = 999,
@@ -33835,6 +35465,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130833",
         totalMax = 999,
@@ -33875,6 +35507,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130487",
         totalMax = 999,
@@ -33911,6 +35545,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140160",
         totalMax = 999,
@@ -33958,6 +35594,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130718",
         totalMax = 999,
@@ -33998,6 +35636,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140263",
         totalMax = 999,
@@ -34038,6 +35678,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130372",
         totalMax = 999,
@@ -34074,6 +35716,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130603",
         totalMax = 999,
@@ -34114,6 +35758,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140212",
         totalMax = 999,
@@ -34166,6 +35812,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130834",
         totalMax = 999,
@@ -34206,6 +35854,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130488",
         totalMax = 999,
@@ -34249,6 +35899,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130719",
         totalMax = 999,
@@ -34289,6 +35941,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140264",
         totalMax = 999,
@@ -34329,6 +35983,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130197",
         totalMax = 999,
@@ -34365,6 +36021,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130604",
         totalMax = 999,
@@ -34417,6 +36075,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130835",
         totalMax = 999,
@@ -34457,6 +36117,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130313",
         totalMax = 999,
@@ -34500,6 +36162,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130720",
         totalMax = 999,
@@ -34540,6 +36204,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140185",
         totalMax = 999,
@@ -34580,6 +36246,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130198",
         totalMax = 999,
@@ -34616,6 +36284,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130429",
         totalMax = 999,
@@ -34664,6 +36334,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130836",
         totalMax = 999,
@@ -34704,6 +36376,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140237",
         totalMax = 999,
@@ -34744,6 +36418,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130314",
         totalMax = 999,
@@ -34780,6 +36456,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130545",
         totalMax = 999,
@@ -34820,6 +36498,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140186",
         totalMax = 999,
@@ -34860,6 +36540,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130199",
         totalMax = 999,
@@ -34896,6 +36578,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130430",
         totalMax = 999,
@@ -34932,6 +36616,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140135",
         totalMax = 999,
@@ -34980,6 +36666,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130661",
         totalMax = 999,
@@ -35020,6 +36708,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140238",
         totalMax = 999,
@@ -35060,6 +36750,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130315",
         totalMax = 999,
@@ -35096,6 +36788,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130546",
         totalMax = 999,
@@ -35136,6 +36830,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140187",
         totalMax = 999,
@@ -35189,6 +36885,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130777",
         totalMax = 999,
@@ -35229,6 +36927,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130431",
         totalMax = 999,
@@ -35265,6 +36965,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140136",
         totalMax = 999,
@@ -35312,6 +37014,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130662",
         totalMax = 999,
@@ -35352,6 +37056,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140239",
         totalMax = 999,
@@ -35410,6 +37116,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130893",
         totalMax = 999,
@@ -35446,6 +37154,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130547",
         totalMax = 999,
@@ -35486,6 +37196,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140188",
         totalMax = 999,
@@ -35538,6 +37250,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130778",
         totalMax = 999,
@@ -35578,6 +37292,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130432",
         totalMax = 999,
@@ -35621,6 +37337,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130663",
         totalMax = 999,
@@ -35661,6 +37379,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140240",
         totalMax = 999,
@@ -35703,12 +37423,12 @@ return {
             [2] = {
                 [1] = 40062,
                 [2] = 40072,
-                [3] = 50011,
+                [3] = 41011,
             },
             [3] = {
                 [1] = 40062,
                 [2] = 40072,
-                [3] = 50011,
+                [3] = 41011,
             },
         },
         decompose = false,
@@ -35718,6 +37438,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130894",
         totalMax = 999,
@@ -35754,6 +37476,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130141",
         totalMax = 999,
@@ -35790,6 +37514,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130548",
         totalMax = 999,
@@ -35842,6 +37568,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130779",
         totalMax = 999,
@@ -35882,6 +37610,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130257",
         totalMax = 999,
@@ -35925,6 +37655,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130664",
         totalMax = 999,
@@ -35967,12 +37699,12 @@ return {
             [2] = {
                 [1] = 40063,
                 [2] = 40073,
-                [3] = 50012,
+                [3] = 41022,
             },
             [3] = {
                 [1] = 40063,
                 [2] = 40073,
-                [3] = 50012,
+                [3] = 41022,
             },
         },
         decompose = false,
@@ -35982,6 +37714,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130895",
         totalMax = 999,
@@ -36018,6 +37752,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130142",
         totalMax = 999,
@@ -36054,6 +37790,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130373",
         totalMax = 999,
@@ -36102,6 +37840,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130780",
         totalMax = 999,
@@ -36142,6 +37882,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140213",
         totalMax = 999,
@@ -36182,6 +37924,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130258",
         totalMax = 999,
@@ -36218,6 +37962,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130489",
         totalMax = 999,
@@ -36260,12 +38006,12 @@ return {
             [2] = {
                 [1] = 40064,
                 [2] = 40074,
-                [3] = 50013,
+                [3] = 41033,
             },
             [3] = {
                 [1] = 40064,
                 [2] = 40074,
-                [3] = 50013,
+                [3] = 41033,
             },
         },
         decompose = false,
@@ -36275,6 +38021,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130896",
         totalMax = 999,
@@ -36311,6 +38059,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130143",
         totalMax = 999,
@@ -36347,6 +38097,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130374",
         totalMax = 999,
@@ -36383,6 +38135,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140111",
         totalMax = 999,
@@ -36431,6 +38185,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130605",
         totalMax = 999,
@@ -36471,6 +38227,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140214",
         totalMax = 999,
@@ -36511,6 +38269,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130259",
         totalMax = 999,
@@ -36547,6 +38307,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130490",
         totalMax = 999,
@@ -36587,6 +38349,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140163",
         totalMax = 999,
@@ -36640,6 +38404,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130721",
         totalMax = 999,
@@ -36686,6 +38452,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130721",
         totalMax = 999,
@@ -36722,6 +38490,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130375",
         totalMax = 999,
@@ -36758,6 +38528,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140112",
         totalMax = 999,
@@ -36805,6 +38577,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130606",
         totalMax = 999,
@@ -36845,6 +38619,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140215",
         totalMax = 999,
@@ -36903,6 +38679,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130837",
         totalMax = 999,
@@ -36939,6 +38717,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130491",
         totalMax = 999,
@@ -36979,6 +38759,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140164",
         totalMax = 999,
@@ -37031,6 +38813,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130722",
         totalMax = 999,
@@ -37077,6 +38861,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130722",
         totalMax = 999,
@@ -37113,6 +38899,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130376",
         totalMax = 999,
@@ -37156,6 +38944,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130607",
         totalMax = 999,
@@ -37196,6 +38986,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140216",
         totalMax = 999,
@@ -37253,6 +39045,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130838",
         totalMax = 999,
@@ -37289,6 +39083,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130085",
         totalMax = 999,
@@ -37325,6 +39121,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130492",
         totalMax = 999,
@@ -37377,6 +39175,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130723",
         totalMax = 999,
@@ -37423,6 +39223,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130723",
         totalMax = 999,
@@ -37459,6 +39261,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130201",
         totalMax = 999,
@@ -37502,6 +39306,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130608",
         totalMax = 999,
@@ -37559,6 +39365,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130839",
         totalMax = 999,
@@ -37595,6 +39403,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130086",
         totalMax = 999,
@@ -37631,6 +39441,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130317",
         totalMax = 999,
@@ -37679,6 +39491,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130724",
         totalMax = 999,
@@ -37725,6 +39539,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130724",
         totalMax = 999,
@@ -37761,6 +39577,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140189",
         totalMax = 999,
@@ -37801,6 +39619,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130202",
         totalMax = 999,
@@ -37837,6 +39657,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130433",
         totalMax = 999,
@@ -37894,6 +39716,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130840",
         totalMax = 999,
@@ -37930,6 +39754,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130087",
         totalMax = 999,
@@ -37966,6 +39792,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130318",
         totalMax = 999,
@@ -38002,6 +39830,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140087",
         totalMax = 999,
@@ -38050,6 +39880,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130549",
         totalMax = 999,
@@ -38090,6 +39922,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140190",
         totalMax = 999,
@@ -38130,6 +39964,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130203",
         totalMax = 999,
@@ -38166,6 +40002,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130434",
         totalMax = 999,
@@ -38206,6 +40044,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140139",
         totalMax = 999,
@@ -38259,6 +40099,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130665",
         totalMax = 999,
@@ -38305,6 +40147,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130665",
         totalMax = 999,
@@ -38341,6 +40185,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130319",
         totalMax = 999,
@@ -38377,6 +40223,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140088",
         totalMax = 999,
@@ -38424,6 +40272,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130550",
         totalMax = 999,
@@ -38464,6 +40314,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140191",
         totalMax = 999,
@@ -38504,6 +40356,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130204",
         totalMax = 999,
@@ -38540,6 +40394,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130435",
         totalMax = 999,
@@ -38580,6 +40436,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140140",
         totalMax = 999,
@@ -38632,6 +40490,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130666",
         totalMax = 999,
@@ -38678,6 +40538,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130666",
         totalMax = 999,
@@ -38714,6 +40576,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130320",
         totalMax = 999,
@@ -38757,6 +40621,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130551",
         totalMax = 999,
@@ -38797,6 +40663,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140192",
         totalMax = 999,
@@ -38854,6 +40722,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130782",
         totalMax = 999,
@@ -38890,6 +40760,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130029",
         totalMax = 999,
@@ -38926,6 +40798,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130436",
         totalMax = 999,
@@ -38978,6 +40852,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130667",
         totalMax = 999,
@@ -39024,6 +40900,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130667",
         totalMax = 999,
@@ -39060,6 +40938,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130145",
         totalMax = 999,
@@ -39103,6 +40983,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130552",
         totalMax = 999,
@@ -39160,6 +41042,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130783",
         totalMax = 999,
@@ -39196,6 +41080,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130030",
         totalMax = 999,
@@ -39232,6 +41118,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130261",
         totalMax = 999,
@@ -39280,6 +41168,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130668",
         totalMax = 999,
@@ -39326,6 +41216,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130668",
         totalMax = 999,
@@ -39362,6 +41254,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140165",
         totalMax = 999,
@@ -39402,6 +41296,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130146",
         totalMax = 999,
@@ -39438,6 +41334,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130377",
         totalMax = 999,
@@ -39495,6 +41393,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130784",
         totalMax = 999,
@@ -39531,6 +41431,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130031",
         totalMax = 999,
@@ -39567,6 +41469,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130262",
         totalMax = 999,
@@ -39603,6 +41507,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140063",
         totalMax = 999,
@@ -39651,6 +41557,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130493",
         totalMax = 999,
@@ -39691,6 +41599,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140166",
         totalMax = 999,
@@ -39731,6 +41641,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130147",
         totalMax = 999,
@@ -39767,6 +41679,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130378",
         totalMax = 999,
@@ -39807,6 +41721,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140115",
         totalMax = 999,
@@ -39860,6 +41776,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130609",
         totalMax = 999,
@@ -39906,6 +41824,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130609",
         totalMax = 999,
@@ -39942,6 +41862,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130263",
         totalMax = 999,
@@ -39978,6 +41900,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140064",
         totalMax = 999,
@@ -40025,6 +41949,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130494",
         totalMax = 999,
@@ -40065,6 +41991,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140167",
         totalMax = 999,
@@ -40123,6 +42051,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130725",
         totalMax = 999,
@@ -40159,6 +42089,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130379",
         totalMax = 999,
@@ -40199,6 +42131,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140116",
         totalMax = 999,
@@ -40251,6 +42185,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130610",
         totalMax = 999,
@@ -40297,6 +42233,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130610",
         totalMax = 999,
@@ -40333,6 +42271,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130264",
         totalMax = 999,
@@ -40376,6 +42316,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130495",
         totalMax = 999,
@@ -40416,6 +42358,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140168",
         totalMax = 999,
@@ -40473,6 +42417,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130726",
         totalMax = 999,
@@ -40509,6 +42455,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130380",
         totalMax = 999,
@@ -40561,6 +42509,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130611",
         totalMax = 999,
@@ -40607,6 +42557,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130611",
         totalMax = 999,
@@ -40643,6 +42595,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130089",
         totalMax = 999,
@@ -40686,6 +42640,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130496",
         totalMax = 999,
@@ -40743,6 +42699,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130727",
         totalMax = 999,
@@ -40779,6 +42737,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130205",
         totalMax = 999,
@@ -40827,6 +42787,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130612",
         totalMax = 999,
@@ -40873,6 +42835,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130612",
         totalMax = 999,
@@ -40909,6 +42873,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140141",
         totalMax = 999,
@@ -40949,6 +42915,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130090",
         totalMax = 999,
@@ -40985,6 +42953,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130321",
         totalMax = 999,
@@ -41042,6 +43012,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130728",
         totalMax = 999,
@@ -41078,6 +43050,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130206",
         totalMax = 999,
@@ -41114,6 +43088,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140039",
         totalMax = 999,
@@ -41162,6 +43138,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130437",
         totalMax = 999,
@@ -41202,6 +43180,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140142",
         totalMax = 999,
@@ -41242,6 +43222,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130091",
         totalMax = 999,
@@ -41278,6 +43260,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130322",
         totalMax = 999,
@@ -41318,6 +43302,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140091",
         totalMax = 999,
@@ -41371,6 +43357,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130553",
         totalMax = 999,
@@ -41417,6 +43405,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130553",
         totalMax = 999,
@@ -41453,6 +43443,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130207",
         totalMax = 999,
@@ -41489,6 +43481,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140040",
         totalMax = 999,
@@ -41536,6 +43530,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130438",
         totalMax = 999,
@@ -41576,6 +43572,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140143",
         totalMax = 999,
@@ -41616,6 +43614,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130092",
         totalMax = 999,
@@ -41652,6 +43652,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130323",
         totalMax = 999,
@@ -41692,6 +43694,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140092",
         totalMax = 999,
@@ -41744,6 +43748,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130554",
         totalMax = 999,
@@ -41790,6 +43796,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130554",
         totalMax = 999,
@@ -41826,6 +43834,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130208",
         totalMax = 999,
@@ -41869,6 +43879,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130439",
         totalMax = 999,
@@ -41909,6 +43921,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140144",
         totalMax = 999,
@@ -41966,6 +43980,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130670",
         totalMax = 999,
@@ -42002,6 +44018,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130324",
         totalMax = 999,
@@ -42054,6 +44072,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130555",
         totalMax = 999,
@@ -42100,6 +44120,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130555",
         totalMax = 999,
@@ -42136,6 +44158,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130033",
         totalMax = 999,
@@ -42179,6 +44203,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130440",
         totalMax = 999,
@@ -42236,6 +44262,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130671",
         totalMax = 999,
@@ -42272,6 +44300,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130149",
         totalMax = 999,
@@ -42320,6 +44350,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130556",
         totalMax = 999,
@@ -42366,6 +44398,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130556",
         totalMax = 999,
@@ -42402,6 +44436,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140117",
         totalMax = 999,
@@ -42442,6 +44478,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130034",
         totalMax = 999,
@@ -42478,6 +44516,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130265",
         totalMax = 999,
@@ -42535,6 +44575,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130672",
         totalMax = 999,
@@ -42571,6 +44613,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130150",
         totalMax = 999,
@@ -42607,6 +44651,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140015",
         totalMax = 999,
@@ -42655,6 +44701,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130381",
         totalMax = 999,
@@ -42695,6 +44743,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140118",
         totalMax = 999,
@@ -42735,6 +44785,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130035",
         totalMax = 999,
@@ -42771,6 +44823,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130266",
         totalMax = 999,
@@ -42811,6 +44865,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140067",
         totalMax = 999,
@@ -42864,6 +44920,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130497",
         totalMax = 999,
@@ -42904,6 +44962,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130151",
         totalMax = 999,
@@ -42940,6 +45000,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140016",
         totalMax = 999,
@@ -42987,6 +45049,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130382",
         totalMax = 999,
@@ -43027,6 +45091,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140119",
         totalMax = 999,
@@ -43067,6 +45133,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130036",
         totalMax = 999,
@@ -43103,6 +45171,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130267",
         totalMax = 999,
@@ -43143,6 +45213,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140068",
         totalMax = 999,
@@ -43195,6 +45267,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130498",
         totalMax = 999,
@@ -43235,6 +45309,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130152",
         totalMax = 999,
@@ -43278,6 +45354,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130383",
         totalMax = 999,
@@ -43318,6 +45396,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140120",
         totalMax = 999,
@@ -43375,6 +45455,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130614",
         totalMax = 999,
@@ -43411,6 +45493,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130268",
         totalMax = 999,
@@ -43463,6 +45547,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130499",
         totalMax = 999,
@@ -43510,6 +45596,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130384",
         totalMax = 999,
@@ -43550,6 +45638,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140041",
         totalMax = 999,
@@ -43590,6 +45680,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130093",
         totalMax = 999,
@@ -43638,6 +45730,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130500",
         totalMax = 999,
@@ -43678,6 +45772,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140093",
         totalMax = 999,
@@ -43718,6 +45814,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130209",
         totalMax = 999,
@@ -43775,6 +45873,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130616",
         totalMax = 999,
@@ -43811,6 +45911,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130094",
         totalMax = 999,
@@ -43855,6 +45957,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130325",
         totalMax = 999,
@@ -43895,6 +45999,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140094",
         totalMax = 999,
@@ -43935,6 +46041,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130210",
         totalMax = 999,
@@ -43975,6 +46083,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140043",
         totalMax = 999,
@@ -44028,6 +46138,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130441",
         totalMax = 999,
@@ -44068,6 +46180,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130095",
         totalMax = 999,
@@ -44111,6 +46225,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130326",
         totalMax = 999,
@@ -44151,6 +46267,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140095",
         totalMax = 999,
@@ -44209,6 +46327,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130557",
         totalMax = 999,
@@ -44245,6 +46365,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130211",
         totalMax = 999,
@@ -44285,6 +46407,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140044",
         totalMax = 999,
@@ -44337,6 +46461,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130442",
         totalMax = 999,
@@ -44377,6 +46503,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130096",
         totalMax = 999,
@@ -44420,6 +46548,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130327",
         totalMax = 999,
@@ -44460,6 +46590,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140096",
         totalMax = 999,
@@ -44517,6 +46649,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130558",
         totalMax = 999,
@@ -44553,6 +46687,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130212",
         totalMax = 999,
@@ -44605,6 +46741,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130443",
         totalMax = 999,
@@ -44652,6 +46790,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130328",
         totalMax = 999,
@@ -44692,6 +46832,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140017",
         totalMax = 999,
@@ -44732,6 +46874,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130037",
         totalMax = 999,
@@ -44780,6 +46924,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130444",
         totalMax = 999,
@@ -44820,6 +46966,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140069",
         totalMax = 999,
@@ -44860,6 +47008,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130153",
         totalMax = 999,
@@ -44917,6 +47067,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130560",
         totalMax = 999,
@@ -44953,6 +47105,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130038",
         totalMax = 999,
@@ -44997,6 +47151,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130269",
         totalMax = 999,
@@ -45037,6 +47193,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140070",
         totalMax = 999,
@@ -45077,6 +47235,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130154",
         totalMax = 999,
@@ -45117,6 +47277,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140019",
         totalMax = 999,
@@ -45170,6 +47332,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130385",
         totalMax = 999,
@@ -45216,6 +47380,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130385",
         totalMax = 999,
@@ -45252,6 +47418,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130039",
         totalMax = 999,
@@ -45295,6 +47463,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130270",
         totalMax = 999,
@@ -45335,6 +47505,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140071",
         totalMax = 999,
@@ -45393,6 +47565,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130501",
         totalMax = 999,
@@ -45429,6 +47603,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130155",
         totalMax = 999,
@@ -45469,6 +47645,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140020",
         totalMax = 999,
@@ -45521,6 +47699,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130386",
         totalMax = 999,
@@ -45567,6 +47747,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130386",
         totalMax = 999,
@@ -45603,6 +47785,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130040",
         totalMax = 999,
@@ -45646,6 +47830,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130271",
         totalMax = 999,
@@ -45686,6 +47872,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140072",
         totalMax = 999,
@@ -45743,6 +47931,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130502",
         totalMax = 999,
@@ -45779,6 +47969,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130156",
         totalMax = 999,
@@ -45831,6 +48023,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130387",
         totalMax = 999,
@@ -45877,6 +48071,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130387",
         totalMax = 999,
@@ -45920,6 +48116,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130272",
         totalMax = 999,
@@ -45977,6 +48175,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130503",
         totalMax = 999,
@@ -46025,6 +48225,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130388",
         totalMax = 999,
@@ -46071,6 +48273,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 1,
         desTextId = "1130388",
         totalMax = 999,
@@ -46107,6 +48311,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140045",
         totalMax = 999,
@@ -46147,6 +48353,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130097",
         totalMax = 999,
@@ -46204,6 +48412,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130504",
         totalMax = 999,
@@ -46248,6 +48458,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130213",
         totalMax = 999,
@@ -46288,6 +48500,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140046",
         totalMax = 999,
@@ -46328,6 +48542,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130098",
         totalMax = 999,
@@ -46381,6 +48597,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130329",
         totalMax = 999,
@@ -46428,6 +48646,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130214",
         totalMax = 999,
@@ -46468,6 +48688,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140047",
         totalMax = 999,
@@ -46526,6 +48748,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130445",
         totalMax = 999,
@@ -46562,6 +48786,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130099",
         totalMax = 999,
@@ -46614,6 +48840,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130330",
         totalMax = 999,
@@ -46661,6 +48889,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130215",
         totalMax = 999,
@@ -46701,6 +48931,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140048",
         totalMax = 999,
@@ -46758,6 +48990,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130446",
         totalMax = 999,
@@ -46794,6 +49028,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130100",
         totalMax = 999,
@@ -46846,6 +49082,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130331",
         totalMax = 999,
@@ -46893,6 +49131,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130216",
         totalMax = 999,
@@ -46950,6 +49190,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130447",
         totalMax = 999,
@@ -46998,6 +49240,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130332",
         totalMax = 999,
@@ -47038,6 +49282,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140021",
         totalMax = 999,
@@ -47078,6 +49324,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130041",
         totalMax = 999,
@@ -47135,6 +49383,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130448",
         totalMax = 999,
@@ -47171,6 +49421,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130898",
         totalMax = 999,
@@ -47215,6 +49467,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130157",
         totalMax = 999,
@@ -47255,6 +49509,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140022",
         totalMax = 999,
@@ -47295,6 +49551,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130042",
         totalMax = 999,
@@ -47348,6 +49606,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130273",
         totalMax = 999,
@@ -47388,6 +49648,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130899",
         totalMax = 999,
@@ -47431,6 +49693,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130158",
         totalMax = 999,
@@ -47471,6 +49735,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140023",
         totalMax = 999,
@@ -47529,6 +49795,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130389",
         totalMax = 999,
@@ -47565,6 +49833,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130043",
         totalMax = 999,
@@ -47617,6 +49887,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130274",
         totalMax = 999,
@@ -47657,6 +49929,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130900",
         totalMax = 999,
@@ -47700,6 +49974,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130159",
         totalMax = 999,
@@ -47740,6 +50016,8 @@ return {
         quality = 7,
         type = 2,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140024",
         totalMax = 999,
@@ -47797,6 +50075,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130390",
         totalMax = 999,
@@ -47851,6 +50131,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130613",
         totalMax = 999,
@@ -47887,6 +50169,8 @@ return {
         quality = 4,
         type = 1,
         rarity = 4,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130044",
         totalMax = 999,
@@ -47927,6 +50211,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130288",
         totalMax = 999,
@@ -47975,6 +50261,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130275",
         totalMax = 999,
@@ -48032,6 +50320,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130056",
         totalMax = 999,
@@ -48085,6 +50375,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130224",
         totalMax = 999,
@@ -48121,6 +50413,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140388",
         totalMax = 999,
@@ -48168,6 +50462,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130160",
         totalMax = 999,
@@ -48208,6 +50504,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140387",
         totalMax = 999,
@@ -48265,6 +50563,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130391",
         totalMax = 999,
@@ -48301,6 +50601,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140125",
         totalMax = 999,
@@ -48341,6 +50643,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140146",
         totalMax = 999,
@@ -48381,6 +50685,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140376",
         totalMax = 999,
@@ -48421,6 +50727,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130841",
         totalMax = 999,
@@ -48457,6 +50765,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140375",
         totalMax = 999,
@@ -48497,6 +50807,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130116",
         totalMax = 999,
@@ -48533,6 +50845,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140364",
         totalMax = 999,
@@ -48573,6 +50887,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140363",
         totalMax = 999,
@@ -48613,6 +50929,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140053",
         totalMax = 999,
@@ -48670,6 +50988,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130392",
         totalMax = 999,
@@ -48706,6 +51026,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140014",
         totalMax = 999,
@@ -48746,6 +51068,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140352",
         totalMax = 999,
@@ -48786,6 +51110,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140351",
         totalMax = 999,
@@ -48826,6 +51152,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130842",
         totalMax = 999,
@@ -48870,6 +51198,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130101",
         totalMax = 999,
@@ -48910,6 +51240,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140340",
         totalMax = 999,
@@ -48950,6 +51282,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140339",
         totalMax = 999,
@@ -49008,6 +51342,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130697",
         totalMax = 999,
@@ -49061,6 +51397,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130280",
         totalMax = 999,
@@ -49097,6 +51435,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140328",
         totalMax = 999,
@@ -49150,6 +51490,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130217",
         totalMax = 999,
@@ -49190,6 +51532,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140327",
         totalMax = 999,
@@ -49230,6 +51574,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140316",
         totalMax = 999,
@@ -49270,6 +51616,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130843",
         totalMax = 999,
@@ -49313,6 +51661,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130102",
         totalMax = 999,
@@ -49353,6 +51703,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140315",
         totalMax = 999,
@@ -49411,6 +51763,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130333",
         totalMax = 999,
@@ -49447,6 +51801,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130148",
         totalMax = 999,
@@ -49483,6 +51839,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130200",
         totalMax = 999,
@@ -49519,6 +51877,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140304",
         totalMax = 999,
@@ -49571,6 +51931,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130218",
         totalMax = 999,
@@ -49611,6 +51973,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140303",
         totalMax = 999,
@@ -49651,6 +52015,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140292",
         totalMax = 999,
@@ -49691,6 +52057,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130844",
         totalMax = 999,
@@ -49734,6 +52102,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130103",
         totalMax = 999,
@@ -49774,6 +52144,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140291",
         totalMax = 999,
@@ -49831,6 +52203,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130334",
         totalMax = 999,
@@ -49867,6 +52241,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140280",
         totalMax = 999,
@@ -49907,6 +52283,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140279",
         totalMax = 999,
@@ -49947,6 +52325,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140174",
         totalMax = 999,
@@ -49999,6 +52379,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130219",
         totalMax = 999,
@@ -50039,6 +52421,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140173",
         totalMax = 999,
@@ -50079,6 +52463,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140170",
         totalMax = 999,
@@ -50119,6 +52505,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140169",
         totalMax = 999,
@@ -50166,6 +52554,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130104",
         totalMax = 999,
@@ -50206,6 +52596,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140162",
         totalMax = 999,
@@ -50263,6 +52655,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130335",
         totalMax = 999,
@@ -50299,6 +52693,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140161",
         totalMax = 999,
@@ -50339,6 +52735,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140158",
         totalMax = 999,
@@ -50379,6 +52777,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140157",
         totalMax = 999,
@@ -50419,6 +52819,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130785",
         totalMax = 999,
@@ -50455,6 +52857,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140150",
         totalMax = 999,
@@ -50495,6 +52899,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140149",
         totalMax = 999,
@@ -50535,6 +52941,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140385",
         totalMax = 999,
@@ -50575,6 +52983,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140145",
         totalMax = 999,
@@ -50615,6 +53025,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140138",
         totalMax = 999,
@@ -50655,6 +53067,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130901",
         totalMax = 999,
@@ -50691,6 +53105,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140137",
         totalMax = 999,
@@ -50731,6 +53147,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140134",
         totalMax = 999,
@@ -50771,6 +53189,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140133",
         totalMax = 999,
@@ -50811,6 +53231,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130786",
         totalMax = 999,
@@ -50855,6 +53277,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130045",
         totalMax = 999,
@@ -50895,6 +53319,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140126",
         totalMax = 999,
@@ -50935,6 +53361,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140386",
         totalMax = 999,
@@ -50975,6 +53403,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140122",
         totalMax = 999,
@@ -51015,6 +53445,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140121",
         totalMax = 999,
@@ -51055,6 +53487,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130902",
         totalMax = 999,
@@ -51104,6 +53538,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130161",
         totalMax = 999,
@@ -51144,6 +53580,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140114",
         totalMax = 999,
@@ -51184,6 +53622,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140113",
         totalMax = 999,
@@ -51224,6 +53664,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130787",
         totalMax = 999,
@@ -51267,6 +53709,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130046",
         totalMax = 999,
@@ -51307,6 +53751,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140110",
         totalMax = 999,
@@ -51365,6 +53811,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130277",
         totalMax = 999,
@@ -51401,6 +53849,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140109",
         totalMax = 999,
@@ -51441,6 +53891,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140102",
         totalMax = 999,
@@ -51481,6 +53933,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130903",
         totalMax = 999,
@@ -51529,6 +53983,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130162",
         totalMax = 999,
@@ -51569,6 +54025,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140101",
         totalMax = 999,
@@ -51609,6 +54067,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140098",
         totalMax = 999,
@@ -51649,6 +54109,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130788",
         totalMax = 999,
@@ -51692,6 +54154,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130047",
         totalMax = 999,
@@ -51732,6 +54196,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140097",
         totalMax = 999,
@@ -51789,6 +54255,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130278",
         totalMax = 999,
@@ -51825,6 +54293,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140090",
         totalMax = 999,
@@ -51865,6 +54335,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140089",
         totalMax = 999,
@@ -51905,6 +54377,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130904",
         totalMax = 999,
@@ -51953,6 +54427,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130163",
         totalMax = 999,
@@ -51993,6 +54469,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140086",
         totalMax = 999,
@@ -52033,6 +54511,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140085",
         totalMax = 999,
@@ -52073,6 +54553,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140078",
         totalMax = 999,
@@ -52120,6 +54602,8 @@ return {
         quality = 5,
         type = 1,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130048",
         totalMax = 999,
@@ -52160,6 +54644,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140077",
         totalMax = 999,
@@ -52217,6 +54703,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130279",
         totalMax = 999,
@@ -52253,6 +54741,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140074",
         totalMax = 999,
@@ -52293,6 +54783,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140073",
         totalMax = 999,
@@ -52333,6 +54825,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140066",
         totalMax = 999,
@@ -52373,6 +54867,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130729",
         totalMax = 999,
@@ -52409,6 +54905,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140065",
         totalMax = 999,
@@ -52449,6 +54947,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130008",
         totalMax = 999,
@@ -52485,6 +54985,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140361",
         totalMax = 999,
@@ -52542,6 +55044,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130615",
         totalMax = 999,
@@ -52578,6 +55082,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140062",
         totalMax = 999,
@@ -52618,6 +55124,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130845",
         totalMax = 999,
@@ -52654,6 +55162,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140002",
         totalMax = 999,
@@ -52694,6 +55204,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140061",
         totalMax = 999,
@@ -52751,6 +55263,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130587",
         totalMax = 999,
@@ -52787,6 +55301,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130730",
         totalMax = 999,
@@ -52840,6 +55356,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130559",
         totalMax = 999,
@@ -52876,6 +55394,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140054",
         totalMax = 999,
@@ -52916,6 +55436,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140362",
         totalMax = 999,
@@ -52973,6 +55495,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130531",
         totalMax = 999,
@@ -53009,6 +55533,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140050",
         totalMax = 999,
@@ -53049,6 +55575,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130846",
         totalMax = 999,
@@ -53098,6 +55626,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130105",
         totalMax = 999,
@@ -53138,6 +55668,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140049",
         totalMax = 999,
@@ -53178,6 +55710,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140018",
         totalMax = 999,
@@ -53218,6 +55752,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130731",
         totalMax = 999,
@@ -53254,6 +55790,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140042",
         totalMax = 999,
@@ -53294,6 +55832,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140006",
         totalMax = 999,
@@ -53352,6 +55892,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130221",
         totalMax = 999,
@@ -53388,6 +55930,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140038",
         totalMax = 999,
@@ -53428,6 +55972,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140037",
         totalMax = 999,
@@ -53468,6 +56014,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130847",
         totalMax = 999,
@@ -53516,6 +56064,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130106",
         totalMax = 999,
@@ -53556,6 +56106,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140030",
         totalMax = 999,
@@ -53596,6 +56148,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140026",
         totalMax = 999,
@@ -53636,6 +56190,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130732",
         totalMax = 999,
@@ -53672,6 +56228,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140025",
         totalMax = 999,
@@ -53724,6 +56282,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130276",
         totalMax = 999,
@@ -53781,6 +56341,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130222",
         totalMax = 999,
@@ -53817,6 +56379,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140013",
         totalMax = 999,
@@ -53869,6 +56433,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130248",
         totalMax = 999,
@@ -53909,6 +56475,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130848",
         totalMax = 999,
@@ -53957,6 +56525,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130107",
         totalMax = 999,
@@ -53997,6 +56567,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140001",
         totalMax = 999,
@@ -54049,6 +56621,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130220",
         totalMax = 999,
@@ -54106,6 +56680,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130336",
         totalMax = 999,
@@ -54160,6 +56736,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130753",
         totalMax = 999,
@@ -54208,6 +56786,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130192",
         totalMax = 999,
@@ -54265,6 +56845,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130223",
         totalMax = 999,
@@ -54319,6 +56901,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130669",
         totalMax = 999,
@@ -54355,6 +56939,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130032",
         totalMax = 999,
@@ -54391,6 +56977,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130088",
         totalMax = 999,
@@ -54427,6 +57015,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130673",
         totalMax = 999,
@@ -54475,6 +57065,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130080",
         totalMax = 999,
@@ -54527,6 +57119,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130164",
         totalMax = 999,
@@ -54567,6 +57161,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140337",
         totalMax = 999,
@@ -54607,6 +57203,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130897",
         totalMax = 999,
@@ -54655,6 +57253,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130136",
         totalMax = 999,
@@ -54695,6 +57295,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130789",
         totalMax = 999,
@@ -54748,6 +57350,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130252",
         totalMax = 999,
@@ -54796,6 +57400,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130108",
         totalMax = 999,
@@ -54836,6 +57442,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140389",
         totalMax = 999,
@@ -54876,6 +57484,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130674",
         totalMax = 999,
@@ -54929,6 +57539,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130196",
         totalMax = 999,
@@ -54965,6 +57577,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130905",
         totalMax = 999,
@@ -55001,6 +57615,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140338",
         totalMax = 999,
@@ -55058,6 +57674,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130168",
         totalMax = 999,
@@ -55094,6 +57712,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130873",
         totalMax = 999,
@@ -55130,6 +57750,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130790",
         totalMax = 999,
@@ -55179,6 +57801,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130049",
         totalMax = 999,
@@ -55236,6 +57860,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130140",
         totalMax = 999,
@@ -55272,6 +57898,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140390",
         totalMax = 999,
@@ -55312,6 +57940,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130675",
         totalMax = 999,
@@ -55348,6 +57978,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130869",
         totalMax = 999,
@@ -55384,6 +58016,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130906",
         totalMax = 999,
@@ -55438,6 +58072,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130165",
         totalMax = 999,
@@ -55486,6 +58122,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130052",
         totalMax = 999,
@@ -55543,6 +58181,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130084",
         totalMax = 999,
@@ -55579,6 +58219,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130791",
         totalMax = 999,
@@ -55627,6 +58269,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130050",
         totalMax = 999,
@@ -55667,6 +58311,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130256",
         totalMax = 999,
@@ -55703,6 +58349,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140391",
         totalMax = 999,
@@ -55743,6 +58391,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130676",
         totalMax = 999,
@@ -55791,6 +58441,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130024",
         totalMax = 999,
@@ -55831,6 +58483,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130907",
         totalMax = 999,
@@ -55884,6 +58538,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130166",
         totalMax = 999,
@@ -55938,6 +58594,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130641",
         totalMax = 999,
@@ -55991,6 +58649,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130112",
         totalMax = 999,
@@ -56027,6 +58687,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130792",
         totalMax = 999,
@@ -56075,6 +58737,8 @@ return {
         quality = 6,
         type = 1,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130051",
         totalMax = 999,
@@ -56133,6 +58797,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130809",
         totalMax = 999,
@@ -56169,6 +58835,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140392",
         totalMax = 999,
@@ -56226,6 +58894,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130028",
         totalMax = 999,
@@ -56280,6 +58950,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130781",
         totalMax = 999,
@@ -56316,6 +58988,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130908",
         totalMax = 999,
@@ -56369,6 +59043,8 @@ return {
         quality = 7,
         type = 1,
         rarity = 7,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130167",
         totalMax = 999,
@@ -56405,6 +59081,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130340",
         totalMax = 999,
@@ -56441,6 +59119,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130312",
         totalMax = 999,
@@ -56477,6 +59157,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130284",
         totalMax = 999,
@@ -56513,6 +59195,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130617",
         totalMax = 999,
@@ -56549,6 +59233,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130228",
         totalMax = 999,
@@ -56585,6 +59271,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130344",
         totalMax = 999,
@@ -56621,6 +59309,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140313",
         totalMax = 999,
@@ -56661,6 +59351,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130316",
         totalMax = 999,
@@ -56697,6 +59389,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130172",
         totalMax = 999,
@@ -56733,6 +59427,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130733",
         totalMax = 999,
@@ -56769,6 +59465,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130144",
         totalMax = 999,
@@ -56805,6 +59503,8 @@ return {
         quality = 2,
         type = 1,
         rarity = 2,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130260",
         totalMax = 999,
@@ -56841,6 +59541,8 @@ return {
         quality = 6,
         type = 2,
         rarity = 6,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140365",
         totalMax = 999,
@@ -56881,6 +59583,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130618",
         totalMax = 999,
@@ -56917,6 +59621,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130060",
         totalMax = 999,
@@ -56953,6 +59659,8 @@ return {
         quality = 3,
         type = 1,
         rarity = 3,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130849",
         totalMax = 999,
@@ -56989,6 +59697,8 @@ return {
         quality = 5,
         type = 2,
         rarity = 5,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1140314",
         totalMax = 999,
@@ -57029,6 +59739,8 @@ return {
         quality = 1,
         type = 1,
         rarity = 1,
+        accessId = {
+        },
         showType = 0,
         desTextId = "1130004",
         totalMax = 999,

@@ -407,7 +407,12 @@ end
 
 --是否有足够的专属能量
 function Skill:isEnoughEnergy()
-    return self.hero:getEnergy() >= self:getCostEnergy()
+    local costLow = self.data.costLow or 0
+    local energy = self.hero:getEnergy()
+    if costLow > 0 then
+        return energy >= costLow
+    end
+    return energy >= self:getCostEnergy()
 end
 
 

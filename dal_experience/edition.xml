@@ -1,445 +1,164 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.2.36" lastVersion="3.2.35">
-  <f p=".nomedia/nomedia.txt" m="a238f4c705a25dcaaf6a92167f587b8a" c="0" />
-  <f p="res/basic/effect/effects_13201_exskillB/effects_13201_exskillB.skel" m="c1a92cbcb31e2eaa4f5de9fc8701232f" c="0" />
-  <f p="res/basic/effect/effects_13201_skillA/effects_13201_skillA.skel" m="62df5b3c37ecaba6650a4f217c9c55e7" c="0" />
-  <f p="res/basic/effect/effects_13201_skillB/effects_13201_skillB.atlas" m="25b51f38e350fee964106766929e799a" c="0" />
-  <f p="res/basic/effect/effects_13201_skillB/effects_13201_skillB.png" m="3fd3ace94ee787ddcb4f43d6719492fb" c="0" />
-  <f p="res/basic/effect/effects_13201_skillB/effects_13201_skillB.skel" m="b370a09b005e8d17aef7f19cd9af0688" c="0" />
-  <f p="res/basic/effect/effects_13201_skillB/effects_13201_skillB2.png" m="079e6b98cc6384363ce0250b227b5934" c="0" />
-  <f p="res/basic/effect/effects_13201_skillB/effects_13201_skillB3.png" m="c341454799b139c1a797954666735f5e" c="0" />
-  <f p="res/basic/effect/effects_13201_skillC/effects_13201_skillC.skel" m="e21a42a9ebdf0dff94e09f4f8ed6102e" c="0" />
-  <f p="res/basic/effect/effects_13201_skillD/effects_13201_skillD.atlas" m="ccf6cac669f9f26b850ba740cfcbe746" c="0" />
-  <f p="res/basic/effect/effects_13201_skillD/effects_13201_skillD.skel" m="0ab2e180b1aa92169e8c0eaedc2f22dc" c="0" />
-  <f p="res/basic/effect/effects_13201_skillD/effects_13201_skillD4.png" m="bf7019e087b3ac9359c9496ce4872482" c="0" />
-  <f p="res/basic/effect/effects_13201_skillG/effects_13201_skillG.atlas" m="885d91ed11a57df695e3cde27b797ca9" c="0" />
-  <f p="res/basic/effect/effects_13201_skillG/effects_13201_skillG.skel" m="92a37ac02fde34f77da08f056f40b945" c="0" />
-  <f p="res/basic/effect/effects_13201_skillG/effects_13201_skillG3.png" m="a884e275302a6112d74b50d03f5db1e4" c="0" />
-  <f p="res/basic/effect/effects_13201_skillG/effects_13201_skillG4.png" m="35e82d4790e37b4e032e5ef0594f5f16" c="0" />
-  <f p="res/basic/effect/fight_13201_skillD_show/fight_13201_skillD_show.atlas" m="573767335be8a0738b6fd72d4f9e0ebb" c="0" />
-  <f p="res/basic/effect/fight_13201_skillD_show/fight_13201_skillD_show.png" m="7d38a2d8c9c76ed2009a7e5d065a4cff" c="0" />
-  <f p="res/basic/effect/fight_13201_skillD_show/fight_13201_skillD_show.skel" m="f33462f42fe2551f7977f5e9e7224706" c="0" />
-  <f p="res/basic/effect/fight_13201_skillD_show/fight_13201_skillD_show2.png" m="15f96e33a2b25738d1497c446695e9df" c="0" />
-  <f p="res/basic/effect/fight_13201_skillD_show/fight_13201_skillD_show3.png" m="4ff6a6da5b46d675ae718977ba85774c" c="0" />
-  <f p="src/lua/logic/battle/Actor.lua" m="b4b25110f01a057bd95a216d40946e89" c="0" />
-  <f p="src/lua/logic/battle/BattleCamera.lua" m="876ba7c9b319ac7231b4b947953ff29b" c="0" />
-  <f p="src/lua/logic/battle/enum.lua" m="b9b5cd7a08e42b3f2ad6e624d813afef" c="0" />
-  <f p="src/lua/logic/battle/Hero.lua" m="0de39016cea8bccdf0b3d013c838ad41" c="0" />
-  <f p="src/lua/logic/battle/KeyBoard.lua" m="82ee44f9f9c518061e3b3072458dbb7a" c="0" />
-  <f p="src/lua/logic/battle/KeyStateMgr.lua" m="c1034f26cb79bbc28824eb8af03382f4" c="0" />
-  <f p="src/lua/logic/battle/LockStep.lua" m="d1c1bed5e60e0d9c0d0fa80dff80084d" c="0" />
-  <f p="src/lua/logic/battle/Operate.lua" m="fbb398be0e8b8d6d5cdb7d4ec000bd01" c="0" />
-  <f p="src/lua/logic/battle/Skill.lua" m="43a5a63c061b8e14e9fd9d2a15c24bb6" c="0" />
-  <f p="src/lua/logic/battle/SkillEffect.lua" m="471adeae747ac7af9508f99332248534" c="0" />
-  <f p="src/lua/table/AngelBreakthrough.lua" m="e109d1ac263980bcdfdfc74aa9df4020" c="0" />
-  <f p="src/lua/table/AngelSkillFunction.lua" m="7069dfe4bcdd2f4499a45da6e183ef9b" c="0" />
-  <f p="src/lua/table/AngelSkillTree.lua" m="995df59222cbc37f9f0b329310c87042" c="0" />
-  <f p="src/lua/table/BattleEventsMusic.lua" m="9c05707f579c1ced2997d601db81c5a3" c="0" />
-  <f p="src/lua/table/Buffer.lua" m="21defbdccee2314b517064bc83641e8f" c="0" />
-  <f p="src/lua/table/BufferEffect.lua" m="635dc4928f5551675453dbbb1f9994b8" c="0" />
-  <f p="src/lua/table/Commodity.lua" m="313d23743f521ab67066579403494bdd" c="0" />
-  <f p="src/lua/table/ContractBreak.lua" m="e965ffdb796a01f2e3e5eff229651595" c="0" />
-  <f p="src/lua/table/ContractLevel.lua" m="f02b155fafa5bde22406345eda1dee42" c="0" />
-  <f p="src/lua/table/DiscreteData.lua" m="2a045a60968868c9a210a26ef9c483e4" c="0" />
-  <f p="src/lua/table/Equipment.lua" m="3a0acd5477f1b48ab354f5e346657a0d" c="0" />
-  <f p="src/lua/table/EquipmentRecommend.lua" m="e2375bd42ce71761c978494654f5debd" c="0" />
-  <f p="src/lua/table/EquipmentStar.lua" m="febc4762e0cb61b23bc4bdb0db5c366d" c="0" />
-  <f p="src/lua/table/EquipmentSuit.lua" m="fdad2a8b48201be4c3868e7c10266042" c="0" />
-  <f p="src/lua/table/EventCondition.lua" m="272beab37764d71e442bf28fa7d3d562" c="0" />
-  <f p="src/lua/table/Evolution.lua" m="bc45b90cacee8181ae5b915950ec2420" c="0" />
-  <f p="src/lua/table/Hero.lua" m="c74a3dc54fa79ae5bf0ba34ebe01ad85" c="0" />
-  <f p="src/lua/table/HeroForm.lua" m="8ae3a0c5156ea64b4dea0a72f6589f84" c="0" />
-  <f p="src/lua/table/HeroModle.lua" m="7dc5d8239b35d14138b391455ae1a2d0" c="0" />
-  <f p="src/lua/table/HeroProgress.lua" m="bd0e866e278ec6abe6398d99c19f5d15" c="0" />
-  <f p="src/lua/table/HeroSkin.lua" m="0a6698a9e9eb65b1d46ac18d716776c3" c="0" />
-  <f p="src/lua/table/HeroWeaponModle.lua" m="4183f6dd73ffd2388f76817694473646" c="0" />
-  <f p="src/lua/table/Item.lua" m="87e96a629b9730054bb69780e2c8e93b" c="0" />
-  <f p="src/lua/table/Monster.lua" m="cc8a443263bb1352394acb17e23490af" c="0" />
-  <f p="src/lua/table/MonsterSection.lua" m="f8a498b6408c7293a76b82f70fc5356e" c="0" />
-  <f p="src/lua/table/NewEquipSkill.lua" m="351e31fe275b9f6d19480957f6e2bc20" c="0" />
-  <f p="src/lua/table/NewPokedex.lua" m="54b23e9f2d2592d459ad6854c78afa1c" c="0" />
-  <f p="src/lua/table/NewPokedexPage.lua" m="4786d00ad76a6e4be6cf3b537d262a7f" c="0" />
-  <f p="src/lua/table/NewPokedexType.lua" m="c21eb7222fc7f6222dc098c8837e5582" c="0" />
-  <f p="src/lua/table/PassiveSkills.lua" m="532aabdf03609fdb37be9473e94a3e85" c="0" />
-  <f p="src/lua/table/Role.lua" m="86e04ccd0868f094a69bae7ab95cfb87" c="0" />
-  <f p="src/lua/table/RoleAction.lua" m="e860a1efca366a6ec91a7dd4bcb8d1f6" c="0" />
-  <f p="src/lua/table/RoleDescribe.lua" m="be64a9a608525fdd9c47053a975816d7" c="0" />
-  <f p="src/lua/table/Skill.lua" m="647abf71864adeee9c377c0fb4e25d8e" c="0" />
-  <f p="src/lua/table/SkillAction.lua" m="f0fa8027128cfa359c93dface11c0785" c="0" />
-  <f p="src/lua/table/SkillEffect.lua" m="a6143532bccac0decd11741e8062d881" c="0" />
-  <f p="src/lua/table/SkillGrab.lua" m="7734afcf0ec2d5084d6c36283ea7d3ea" c="0" />
-  <f p="src/lua/table/SkillHurt.lua" m="43a0c0e9e9410bac645e63461fd3dd0c" c="0" />
-  <f p="src/lua/table/SkillMusic.lua" m="865b960d7a1032418cf701eeab94975e" c="0" />
-  <f p="src/lua/table/SkillShow.lua" m="5f67643f682d3d8cf58767ebd3eeb39f" c="0" />
-  <f p="src/lua/table/Stone.lua" m="52c04b46e0c9d09dcec2e8663ae9d2d3" c="0" />
-  <f p="src/lua/table/StoneAngel.lua" m="6f91e309dddd41272ff7623976880cd3" c="0" />
-  <f p="src/lua/table/StoneCompose.lua" m="8b6164e332028421bc0ff07d5451dd4b" c="0" />
-  <f p="src/lua/table/String.lua" m="109b6a92a78d1f3511a4c29fe6f3f22c" c="0" />
-  <f p="src/lua/table/TrialHeroSkin.lua" m="baf496d125766de9a65346cf872f3f23" c="0" />
-  <f p="src/lua/uiconfig/battle/ctrlView.lua" m="c7eec2aea15904bf2a5da705e62e21a4" c="0" />
-  <f p="res/basic/effect/effects_13201_quickmove/effects_13201_quickmove.atlas" m="0f5e32741d635e3f978ec869ac2f79b0" />
-  <f p="res/basic/effect/effects_13201_quickmove/effects_13201_quickmove.png" m="ddb588c0c8b535c4518c6c0eb6fc7e0c" />
-  <f p="res/basic/effect/effects_13201_quickmove/effects_13201_quickmove.skel" m="0486df41f2392bd3d483245f91949076" />
-  <f p="res/basic/effect/effects_13201_quickmove/effects_13201_quickmove2.png" m="a56816bfc60985f7a744e9a79f775af9" />
-  <f p="res/basic/effect/effects_13201_skillB/effects_13201_skillB4.png" m="b27c15549ee8d1cda055aaacd21c9e67" />
-  <f p="res/basic/effect/effects_13301_exskillB/effects_13301_exskillB.atlas" m="2fdee4edcdc71fb7b5e5261e1df3587b" />
-  <f p="res/basic/effect/effects_13301_exskillB/effects_13301_exskillB.png" m="143c5da92ae429b0b3ec1036b06c773a" />
-  <f p="res/basic/effect/effects_13301_exskillB/effects_13301_exskillB.skel" m="7e24c558c7512ef40be4482e42dae022" />
-  <f p="res/basic/effect/effects_13301_exskillB/effects_13301_exskillB2.png" m="bb43f62aac5650d65330ddeeb48b09ed" />
-  <f p="res/basic/effect/effects_13301_exskillB/effects_13301_exskillB3.png" m="46e20f1dec57dcf124fffddd26a15e02" />
-  <f p="res/basic/effect/effects_13301_exskillB/effects_13301_exskillB4.png" m="b1a5c3043ba38ed70baed4440e722e24" />
-  <f p="res/basic/effect/effects_13301_exskillB2/effects_13301_exskillB2.atlas" m="16fea5b659263e82b9365cbbafdffed7" />
-  <f p="res/basic/effect/effects_13301_exskillB2/effects_13301_exskillB2.png" m="143c5da92ae429b0b3ec1036b06c773a" />
-  <f p="res/basic/effect/effects_13301_exskillB2/effects_13301_exskillB2.skel" m="721d3799252b11d001034aa3e1591438" />
-  <f p="res/basic/effect/effects_13301_exskillB2/effects_13301_exskillB22.png" m="bb43f62aac5650d65330ddeeb48b09ed" />
-  <f p="res/basic/effect/effects_13301_exskillB2/effects_13301_exskillB23.png" m="46e20f1dec57dcf124fffddd26a15e02" />
-  <f p="res/basic/effect/effects_13301_exskillB2/effects_13301_exskillB24.png" m="b1a5c3043ba38ed70baed4440e722e24" />
-  <f p="res/basic/effect/effects_13301_jiejie/effects_13301_jiejie.atlas" m="f9ffef22490f79f147526a3f772b261b" />
-  <f p="res/basic/effect/effects_13301_jiejie/effects_13301_jiejie.png" m="7345bd5f645095c9ef43037a90c8f6df" />
-  <f p="res/basic/effect/effects_13301_jiejie/effects_13301_jiejie.skel" m="56a2070dec87d7cb71123fecb0fbe263" />
-  <f p="res/basic/effect/effects_13301_quickmove/effects_13301_quickmove.atlas" m="c182ba65902832efadf6f6aade95dbfb" />
-  <f p="res/basic/effect/effects_13301_quickmove/effects_13301_quickmove.png" m="3b1a4c4eab0a27a624d0052b7b640d21" />
-  <f p="res/basic/effect/effects_13301_quickmove/effects_13301_quickmove.skel" m="2e66e9d1ca6657b2073cac1daf788a6f" />
-  <f p="res/basic/effect/effects_13301_skillA/effects_13301_skillA.atlas" m="1d2ffce2c5ec53da93b914f9646f2d88" />
-  <f p="res/basic/effect/effects_13301_skillA/effects_13301_skillA.png" m="de62fc89e7d106865be8d9058506fcee" />
-  <f p="res/basic/effect/effects_13301_skillA/effects_13301_skillA.skel" m="c67460224bfd6e0f902003a255d4d771" />
-  <f p="res/basic/effect/effects_13301_skillA/effects_13301_skillA2.png" m="52a48be96e1299375103d56ee6a210b4" />
-  <f p="res/basic/effect/effects_13301_skillA/effects_13301_skillA3.png" m="3fb1a48b85997e856f6a8032199c23ba" />
-  <f p="res/basic/effect/effects_13301_skillB/effects_13301_skillB.atlas" m="e1e379daea20e9816b45393fd01f6cfe" />
-  <f p="res/basic/effect/effects_13301_skillB/effects_13301_skillB.png" m="84057aefa686225fdf9bd6c9a87fc6fc" />
-  <f p="res/basic/effect/effects_13301_skillB/effects_13301_skillB.skel" m="45aa5e97589a0e43cb0746dbcf53c989" />
-  <f p="res/basic/effect/effects_13301_skillB/effects_13301_skillB2.png" m="f41e39507d3bf2e90e0ab3ee7e029f13" />
-  <f p="res/basic/effect/effects_13301_skillB/effects_13301_skillB3.png" m="035681eefbffde5dc7954f537c17f12c" />
-  <f p="res/basic/effect/effects_13301_skillB/effects_13301_skillB4.png" m="e9032385af61b41e07f57d58f6590821" />
-  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC.atlas" m="6fe0ed13923c71628054129d44d8ddca" />
-  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC.png" m="950429c86b062f768c2e9dca9d79aef8" />
-  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC.skel" m="717f1d318419c41583540c54b1337093" />
-  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC2.png" m="1615c919fdb8f9f0c3ed0e43b1927d3b" />
-  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC3.png" m="9a774b3c92ab06811990d0447114243e" />
-  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC4.png" m="843488727fd809f53914b53c375d79c5" />
-  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD.atlas" m="13f5bf876e6c387519d6a5797bfb2098" />
-  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD.png" m="dc2de52d6c6fcd21b1dfbab0d681eaf0" />
-  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD.skel" m="59f7f810d4a9468eacdae6074879a33c" />
-  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD2.png" m="c1f679241996210dbec4143ddcb7682c" />
-  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD3.png" m="d9153f2e78ac6050a6898e3bafd1635f" />
-  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD4.png" m="d96b40f23300422b2f5bebfe3a9b1843" />
-  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD5.png" m="6d7f8e21727c45e30042ba2486e62ed8" />
-  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD6.png" m="c5fd6a507c12142be2b8e9b327e492d4" />
-  <f p="res/basic/effect/effects_13301_skillD_show/effects_13301_skillD_show.atlas" m="faba579ce5db50dd23f97ce24a133608" />
-  <f p="res/basic/effect/effects_13301_skillD_show/effects_13301_skillD_show.png" m="f63a9043b8151732fa15876988dcaa75" />
-  <f p="res/basic/effect/effects_13301_skillD_show/effects_13301_skillD_show.skel" m="4f38c98a5dc4e5eb96fcecdf4dc6eecc" />
-  <f p="res/basic/effect/effects_13301_skillD_show/effects_13301_skillD_show2.png" m="83a418875b05aa03ff46f1c92d4773d7" />
-  <f p="res/basic/effect/effects_13301_skillD_show/effects_13301_skillD_show3.png" m="4c32353a19235624d9d1f938eb5b8580" />
-  <f p="res/basic/effect/effects_13301_skillD_show/effects_13301_skillD_show4.png" m="d1d4691d51f2b1ececd4f6446401229e" />
-  <f p="res/basic/effect/effects_13301_skillD_show/effects_13301_skillD_show5.png" m="9a16dedd1fee5e93f9876e2ec2c2f18a" />
-  <f p="res/basic/effect/effects_13301_skillD_show/effects_13301_skillD_show6.png" m="1e1f2ea90d61b25587b15f8d3fb881d5" />
-  <f p="res/basic/effect/effects_13301_skillE/effects_13301_skillE.atlas" m="e971ebb98bcb1737c7c033507ad5bc3d" />
-  <f p="res/basic/effect/effects_13301_skillE/effects_13301_skillE.png" m="ca83bbb57fcc6fd0ed4a623be0f6ea05" />
-  <f p="res/basic/effect/effects_13301_skillE/effects_13301_skillE.skel" m="ca62217d6fe43a705c93b87b2790bb1e" />
-  <f p="res/basic/effect/effects_13301_skillE/effects_13301_skillE2.png" m="f1bdda281e578c429fd937eccdf185a9" />
-  <f p="res/basic/effect/effects_13301_skillF/effects_13301_skillF.atlas" m="2f0d1eefaa5313bd1088f83f29aaadd0" />
-  <f p="res/basic/effect/effects_13301_skillF/effects_13301_skillF.png" m="813bacedb7be63e320babed16c536fd0" />
-  <f p="res/basic/effect/effects_13301_skillF/effects_13301_skillF.skel" m="633d440acbbffd88a7d12fc013bb7989" />
-  <f p="res/basic/effect/effects_13301_skillF/effects_13301_skillF2.png" m="b42f14fdf19cb5c62a467ecbadeca90e" />
-  <f p="res/basic/effect/effects_Watchmen_1_skill1/effects_Watchmen_1_skill1.atlas" m="eb79597f7edf445ce413f6ef3191f5dd" />
-  <f p="res/basic/effect/effects_Watchmen_1_skill1/effects_Watchmen_1_skill1.png" m="31c5c941f124cced05d0bee46de4d630" />
-  <f p="res/basic/effect/effects_Watchmen_1_skill1/effects_Watchmen_1_skill1.skel" m="f82fc00dac1899e42636c5788e9b9d07" />
-  <f p="res/basic/effect/effects_Watchmen_1_skill1/effects_Watchmen_1_skill12.png" m="34327054bca79ced01188a7cf0c93952" />
-  <f p="res/basic/effect/effects_Watchmen_1_skill2/effects_Watchmen_1_skill2.atlas" m="c767dae50e9f539f25b6dac14e015d00" />
-  <f p="res/basic/effect/effects_Watchmen_1_skill2/effects_Watchmen_1_skill2.png" m="11d7f6f9295f7a9d7b0fea899b42ef37" />
-  <f p="res/basic/effect/effects_Watchmen_1_skill2/effects_Watchmen_1_skill2.skel" m="e040016fc4b17e8adecd5bbd63e0b445" />
-  <f p="res/basic/effect/effects_Watchmen_1_skill2/effects_Watchmen_1_skill22.png" m="5927490d2b77f8ae8ba9838fa649a009" />
-  <f p="res/basic/effect/effects_Watchmen_2_hit/effects_Watchmen_2_hit.atlas" m="760371c4bc846a58c149929af5dae91f" />
-  <f p="res/basic/effect/effects_Watchmen_2_hit/effects_Watchmen_2_hit.png" m="fdeccad788e5415c61ae5c3e019745c0" />
-  <f p="res/basic/effect/effects_Watchmen_2_hit/effects_Watchmen_2_hit.skel" m="2d97304f55e37f13049f5c26b388bac9" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill1/effects_Watchmen_1_skill1.atlas" m="eb79597f7edf445ce413f6ef3191f5dd" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill1/effects_Watchmen_1_skill1.png" m="e227a31cd0b5aba160c68c33eb478f79" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill1/effects_Watchmen_1_skill1.skel" m="882b70dd91321f882c4c6faf4be89dee" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill1/effects_Watchmen_1_skill12.png" m="b0d3773a6532831d8e55069ffc4bbc22" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill1/effects_Watchmen_2_skill1.atlas" m="fd6f76c04a86917b6b85779a2fdddef4" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill1/effects_Watchmen_2_skill1.png" m="8a9cdcd76b4add05d28aede62b8ad141" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill1/effects_Watchmen_2_skill1.skel" m="154d263d87c37cd1dd7d6709d626dc10" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill1/effects_Watchmen_2_skill12.png" m="d99cf26909baba98e47be75e88b7e3ac" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill2/effects_Watchmen_1_skill2.atlas" m="c767dae50e9f539f25b6dac14e015d00" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill2/effects_Watchmen_1_skill2.png" m="11d7f6f9295f7a9d7b0fea899b42ef37" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill2/effects_Watchmen_1_skill2.skel" m="ffb2f23404487203230682da40aa690c" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill2/effects_Watchmen_1_skill22.png" m="5927490d2b77f8ae8ba9838fa649a009" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill2/effects_Watchmen_2_skill2.atlas" m="9d903969c042136a418046fef1efafc8" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill2/effects_Watchmen_2_skill2.png" m="817ea9d6a878a68f31235c7604a83ec7" />
-  <f p="res/basic/effect/effects_Watchmen_2_skill2/effects_Watchmen_2_skill2.skel" m="6b3049b535f0b2e430689e0bddb8b103" />
-  <f p="res/basic/effect/effects_Watchmen_3_hit/effects_Watchmen_3_hit.atlas" m="d580a65ee24ad4c8a9d6e2efe7172bfb" />
-  <f p="res/basic/effect/effects_Watchmen_3_hit/effects_Watchmen_3_hit.png" m="fa170dee3e7d1413b2f2c6112c398418" />
-  <f p="res/basic/effect/effects_Watchmen_3_hit/effects_Watchmen_3_hit.skel" m="c7a789bb26acd9ae5766874409c5cfce" />
-  <f p="res/basic/effect/effects_Watchmen_3_skill1/effects_Watchmen_3_skill1.atlas" m="83a19eb0094fe2e50fcbf9e08ae671ae" />
-  <f p="res/basic/effect/effects_Watchmen_3_skill1/effects_Watchmen_3_skill1.png" m="498d4860d7558518353252b485de30ff" />
-  <f p="res/basic/effect/effects_Watchmen_3_skill1/effects_Watchmen_3_skill1.skel" m="496cb544c79239e63e54d6908c29a745" />
-  <f p="res/basic/effect/effects_Watchmen_3_skill1/effects_Watchmen_3_skill12.png" m="bf6c40b170d766dc6fff8b9145d11c32" />
-  <f p="res/basic/effect/effects_Watchmen_3_skill2/effects_Watchmen_3_skill2.atlas" m="2e226bcdb61a5e7a024c1fd3cfd9bc64" />
-  <f p="res/basic/effect/effects_Watchmen_3_skill2/effects_Watchmen_3_skill2.png" m="5bcb9e9fcb184ac4b5136ce0bb818274" />
-  <f p="res/basic/effect/effects_Watchmen_3_skill2/effects_Watchmen_3_skill2.skel" m="562b79431cb1e13e5d44c1e2e9701bc6" />
-  <f p="res/basic/effect/fight_13301/fight_13301.atlas" m="f53e4dafc49d1da4099e38c65aefb8f9" />
-  <f p="res/basic/effect/fight_13301/fight_13301.png" m="4bdfba4bf897acaa5a82d050899c3caf" />
-  <f p="res/basic/effect/fight_13301/fight_13301.skel" m="806472f91bba466431fe8b16523b47d1" />
-  <f p="res/basic/effect/fight_13301/fight_133012.png" m="fd2e4c760aebc59aedecad64423d9c3f" />
-  <f p="res/basic/effect/fight_Watchmen_1/fight_Watchmen_1.atlas" m="af6edb4653a7bd4e648699c82aa3e741" />
-  <f p="res/basic/effect/fight_Watchmen_1/fight_Watchmen_1.png" m="846fb2fe8981f9b00baed8f7f62f5063" />
-  <f p="res/basic/effect/fight_Watchmen_1/fight_Watchmen_1.skel" m="1b885f6dfe4aeaee0a4059250056ab3d" />
-  <f p="res/basic/effect/fight_Watchmen_2/fight_Watchmen_1.atlas" m="af6edb4653a7bd4e648699c82aa3e741" />
-  <f p="res/basic/effect/fight_Watchmen_2/fight_Watchmen_1.png" m="c0a318a8514dae6df5958a7cffdf0ee8" />
-  <f p="res/basic/effect/fight_Watchmen_2/fight_Watchmen_1.skel" m="030db4b194e0bd4c3ef0f74852094836" />
-  <f p="res/basic/effect/fight_Watchmen_2/fight_Watchmen_2.atlas" m="91f617d9226fef67e0ca3247851c8057" />
-  <f p="res/basic/effect/fight_Watchmen_2/fight_Watchmen_2.png" m="e8253d5b7ae6199c26e474c0eb8052f3" />
-  <f p="res/basic/effect/fight_Watchmen_2/fight_Watchmen_2.skel" m="14eb78e435ece5b94a18848593ae4610" />
-  <f p="res/basic/effect/fight_Watchmen_2/fight_Watchmen_22.png" m="841e4095be88613228dbd00e64281224" />
-  <f p="res/basic/effect/fight_Watchmen_3/fight_Watchmen_3.atlas" m="0e8f918c7d3921e32db451c445524352" />
-  <f p="res/basic/effect/fight_Watchmen_3/fight_Watchmen_3.png" m="8411cca06c3c2e16d02b9c2deadcfb2d" />
-  <f p="res/basic/effect/fight_Watchmen_3/fight_Watchmen_3.skel" m="5d7eee68f686145457aeaaf87ff8a7d9" />
-  <f p="res/basic/effect/fight_Watchmen_3/fight_Watchmen_32.png" m="b29966f497cbdff6aaeb54c8bfaa6686" />
-  <f p="res/basic/icon/angleEnergy/32.png" m="d2ccdeba951a33408dc98c60c3201272" />
-  <f p="res/basic/icon/angleEnergy/33.png" m="9dc015a6219cbbd6085a703dfee540ca" />
-  <f p="res/basic/icon/angleskill/132001_angleskillA.png" m="0d301030e8b490deb1f5c78f0f14442b" />
-  <f p="res/basic/icon/angleskill/132001_angleskillB.png" m="ceec3645305f88f563c870096fab9f73" />
-  <f p="res/basic/icon/angleskill/132001_angleskillB2.png" m="a7d5490667f870bee7d65602b9c30592" />
-  <f p="res/basic/icon/angleskill/132001_angleskillC.png" m="c49113861ec4396da9d4cf82687c75ae" />
-  <f p="res/basic/icon/angleskill/13201_1.png" m="d2a42aa4a21a858d97f2f32319597c97" />
-  <f p="res/basic/icon/angleskill/13201_10.png" m="687440c28937a46e540e09a100bd908a" />
-  <f p="res/basic/icon/angleskill/13201_11.png" m="f6c22542a0193dfba7e5ff4a74152664" />
-  <f p="res/basic/icon/angleskill/13201_12.png" m="89632aaf6590d0c7ad2dac445b537780" />
-  <f p="res/basic/icon/angleskill/13201_13.png" m="286db131737e652b1636ea96b1889cd6" />
-  <f p="res/basic/icon/angleskill/13201_14.png" m="2c10e72371e3a2b94604afd55bc9cc0b" />
-  <f p="res/basic/icon/angleskill/13201_15.png" m="a097262e96ab2652224d121db02d77d3" />
-  <f p="res/basic/icon/angleskill/13201_16.png" m="50af60765809a4c8547783aa0768f2eb" />
-  <f p="res/basic/icon/angleskill/13201_2.png" m="6ad319e498634b7bf8703dc4c1b882e1" />
-  <f p="res/basic/icon/angleskill/13201_3.png" m="53edf0e1cfccc65ecbaab3bdfcffd660" />
-  <f p="res/basic/icon/angleskill/13201_4.png" m="a174669825136342538c3e5758dc3f8e" />
-  <f p="res/basic/icon/angleskill/13201_5.png" m="9d861b2441c3d9a70fb7815a78aad17f" />
-  <f p="res/basic/icon/angleskill/13201_6.png" m="05aa4174703ed0c6f4e54b0108316593" />
-  <f p="res/basic/icon/angleskill/13201_7.png" m="bd16689163be41426c52e7f668a3542b" />
-  <f p="res/basic/icon/angleskill/13201_8.png" m="066fec9aca9ef7c46472f421b6165349" />
-  <f p="res/basic/icon/angleskill/13201_9.png" m="4adb93cf834d3af30e3a6f0cb3d4a6e4" />
-  <f p="res/basic/icon/angleskill/13301_angelA.png" m="027416b0dbc2c953f01a66e91adc407b" />
-  <f p="res/basic/icon/angleskill/13301_angelB.png" m="1fb27a917d324bda4e1f33fa507d6ae3" />
-  <f p="res/basic/icon/angleskill/13301_angelB2.png" m="5454ba83f4c9487ed7e209093776f52b" />
-  <f p="res/basic/icon/angleskill/13301_angelC.png" m="f05599efc9550b5cb549b8021e654ba8" />
-  <f p="res/basic/icon/angleskill/13301_icon1.png" m="aa8cca83da583c9b5993405fcba60416" />
-  <f p="res/basic/icon/angleskill/13301_icon10.png" m="0206b94d63aef7ba8da60333094aa333" />
-  <f p="res/basic/icon/angleskill/13301_icon11.png" m="e7c73b80952d554b463ee6ccc6f4b2ca" />
-  <f p="res/basic/icon/angleskill/13301_icon12.png" m="731ab78cdc07d452da7d0399296c3d86" />
-  <f p="res/basic/icon/angleskill/13301_icon13.png" m="11f8bd12f186e340d74506508ce02b4f" />
-  <f p="res/basic/icon/angleskill/13301_icon14.png" m="4c1bc71ae02056a230abcbfab6fe9dc5" />
-  <f p="res/basic/icon/angleskill/13301_icon15.png" m="09d81887430eaa4a856e45339cf44727" />
-  <f p="res/basic/icon/angleskill/13301_icon16.png" m="689a4ae8347aa172f418a69697b99687" />
-  <f p="res/basic/icon/angleskill/13301_icon2.png" m="1437162d104b4ed62e2a9c176ed6214a" />
-  <f p="res/basic/icon/angleskill/13301_icon3.png" m="14fd3946afb59620b1c94948fcffc5bc" />
-  <f p="res/basic/icon/angleskill/13301_icon4.png" m="be39a68fbae775928f03779b9c4c02c1" />
-  <f p="res/basic/icon/angleskill/13301_icon5.png" m="68358b68c52215eddafb7b86a4a662ad" />
-  <f p="res/basic/icon/angleskill/13301_icon6.png" m="e310e871a3ac7ec240cc63c8a29d0208" />
-  <f p="res/basic/icon/angleskill/13301_icon7.png" m="d2362e4a504586c20f1edaf5e6bb93fc" />
-  <f p="res/basic/icon/angleskill/13301_icon8.png" m="fad1a721fc120985eaff9e85a4238ec0" />
-  <f p="res/basic/icon/angleskill/13301_icon9.png" m="54b76ec3daae84040e8b064936ab3470" />
-  <f p="res/basic/icon/equipment/heroicon/linxu.png" m="df9a77965b60b1c541e641ce6828c60d" />
-  <f p="res/basic/icon/equipment/icon/106_106/icon1_guanghui_22.png" m="22082d95dfd60fbc3f8738e4dd20d5f0" />
-  <f p="res/basic/icon/equipment/icon/106_106/icon1_lijie_21.png" m="64872508697555502f38993c86c896bd" />
-  <f p="res/basic/icon/equipment/icon/106_106/icon1_meili_40.png" m="34cf65bfb4c7b85cea967aec19913ec0" />
-  <f p="res/basic/icon/equipment/icon/106_106/icon1_meili_41.png" m="fa4b18094d5e4b819f9763aa5d5963ea" />
-  <f p="res/basic/icon/equipment/icon/106_106/icon1_yange_21.png" m="8403db8a9d3150bfdebcc26f922b8b85" />
-  <f p="res/basic/icon/equipment/icon/106_106/icon1_yange_22.png" m="a10d8e53bac09aeefdaecc39f007815a" />
-  <f p="res/basic/icon/equipment/icon/170_214/icon2_guanghui_22.png" m="5f033b5a989420e37c3bad97065f4ff9" />
-  <f p="res/basic/icon/equipment/icon/170_214/icon2_lijie_21.png" m="d5892211c6c9561682b801fcf7435032" />
-  <f p="res/basic/icon/equipment/icon/170_214/icon2_meili_40.png" m="b5d18c84b136151dcdbad00a4367ae2f" />
-  <f p="res/basic/icon/equipment/icon/170_214/icon2_meili_41.png" m="621a1c18c5da246d78fc3d79b5f547e5" />
-  <f p="res/basic/icon/equipment/icon/170_214/icon2_yange_21.png" m="02ed4880d2c86cdec4db2026c7e8901a" />
-  <f p="res/basic/icon/equipment/icon/170_214/icon2_yange_22.png" m="f6c6962501768ae1ec647123223f9d30" />
-  <f p="res/basic/icon/equipment/icon/192_166/icon3_guanghui_22.png" m="ca516d5ae079b9852df28c600a7a448b" />
-  <f p="res/basic/icon/equipment/icon/192_166/icon3_lijie_21.png" m="9aadbbad710dc6351215b8f7100d5a3d" />
-  <f p="res/basic/icon/equipment/icon/192_166/icon3_meili_40.png" m="52458d484c445bb085e50576d66aae08" />
-  <f p="res/basic/icon/equipment/icon/192_166/icon3_meili_41.png" m="b3e2afce88aa7421b6f1c875b3dc960c" />
-  <f p="res/basic/icon/equipment/icon/192_166/icon3_yange_21.png" m="8676ea58f812ff407c13f69538b79cfd" />
-  <f p="res/basic/icon/equipment/icon/192_166/icon3_yange_22.png" m="9711a150a3aacd388aaf157893bddb41" />
-  <f p="res/basic/icon/equipment/name/xujiashijie.png" m="0bda12f539b58e87847c9ea82071280c" />
-  <f p="res/basic/icon/equipment/name/zaicixiangjian.png" m="2fd4df3bcf4ca3561f34b1df343287e8" />
-  <f p="res/basic/icon/equipment/name/zhenshizhiai.png" m="b5cb60d6c4e63fb338574f90fea2bf23" />
-  <f p="res/basic/icon/equipment/paint/paint_guanghui_22.png" m="834a7912acb841ac9ac4a20bd61facf2" />
-  <f p="res/basic/icon/equipment/paint/paint_meili_41.png" m="213ec607517939959438eb80d66b1d01" />
-  <f p="res/basic/icon/equipment/paint/paint_yange_22.png" m="44f708e149d0794b673641a22cd7ef81" />
-  <f p="res/basic/icon/equipment/suit/icon46.png" m="15035fa194b0925de0add95561c10796" />
-  <f p="res/basic/icon/equipment/suit/icon47.png" m="1ecfbac1d6799d69f625978ab5ef988f" />
-  <f p="res/basic/icon/equipment/suit/leyuan.png" m="d17449bf2dac9921dcf0706d2643fe97" />
-  <f p="res/basic/icon/equipment/suit/ruler.png" m="fb5f40c68a0d746b100b3b9a12e07436" />
-  <f p="res/basic/icon/hero/backdrop/13201.png" m="45267bb2bc32e24ce6d1b19366dbf256" />
-  <f p="res/basic/icon/hero/backdrop/13301.png" m="cec3985ef45b2a1f595794c98611e4b5" />
-  <f p="res/basic/icon/hero/face/1132011.png" m="ea283f3189c748b62ed8a976a875c3f6" />
-  <f p="res/basic/icon/hero/face/1133011.png" m="e24b25f905bd578877762212f6337ea1" />
-  <f p="res/basic/icon/hero/name/1132011.png" m="95f9e41af073c45546404bccbeef36fc" />
-  <f p="res/basic/icon/hero/name/1133011.png" m="63db74bc3fb226cbc62b3f554a136155" />
-  <f p="res/basic/icon/item/goods/510333.png" m="249a24176c3d0e6466f0a730b025457d" />
-  <f p="res/basic/icon/item/goods/510334.png" m="ae6b45c6b01587c99c6174ae9dd4c1ba" />
-  <f p="res/basic/icon/role/dress/13201s.png" m="70684474fb9b46a2f376bc2cb2907288" />
-  <f p="res/basic/icon/role/dress/13301s.png" m="ce740a0090f8b1b7a34bc583d88e7b57" />
-  <f p="res/basic/icon/role/roleSkin/13201.png" m="b82e43e8f3aeb5c636942f0f07b63ad4" />
-  <f p="res/basic/icon/role/roleSkin/13301.png" m="cb84d898358130c26ce613259012f555" />
-  <f p="res/basic/icon/skill/13201_dodge.png" m="bb0521544f7ef181af5e73bcd370a91e" />
-  <f p="res/basic/icon/skill/13201_skillA.png" m="5b8a2c9c6447bc94a5d5e9039bbbe61a" />
-  <f p="res/basic/icon/skill/13201_skillB.png" m="c7c38c4d5e10b8c510dd169ac5d7bb84" />
-  <f p="res/basic/icon/skill/13201_skillB2.png" m="3122a141386b98efef588eeaaf24a716" />
-  <f p="res/basic/icon/skill/13201_skillC.png" m="ed2dd107142fdda327eef65a662de885" />
-  <f p="res/basic/icon/skill/13201_skillD.png" m="31ec7af6da9faa54fa8569a58777ebdb" />
-  <f p="res/basic/icon/skill/13201_skillF.png" m="61ecd65f84e5fd208f413ebdaf8876e8" />
-  <f p="res/basic/icon/skill/13201_skillG.png" m="72efa4f2387ee590e17468b9c6a6a8ed" />
-  <f p="res/basic/icon/skill/13301_dodge.png" m="ddf2e4119056b3a89963c85d08ccb627" />
-  <f p="res/basic/icon/skill/13301_skillA.png" m="e8825e25d46e647927580709e1bd12f4" />
-  <f p="res/basic/icon/skill/13301_skillB.png" m="09ea538f423a1622611997c6a6cec6b1" />
-  <f p="res/basic/icon/skill/13301_skillB2.png" m="ef3fcb48a3898ed000c6ae26937407e9" />
-  <f p="res/basic/icon/skill/13301_skillC.png" m="f12ec14b9020b7f5f907c934d9d4af66" />
-  <f p="res/basic/icon/skill/13301_skillD.png" m="8d5f74a2220117c4501a4213a71beace" />
-  <f p="res/basic/icon/skill/13301_skillF.png" m="4696ca20de380721d7c2af44a2239fcc" />
-  <f p="res/basic/icon/skill/13301_skillG.png" m="e099054f2e6b41d32871b40db0dc9202" />
-  <f p="res/basic/icon/skill/13301_skillG_1.png" m="10b56d35c64937722ef9795bc91cd518" />
-  <f p="res/basic/icon/skill/13301_skillG_2.png" m="49f61f2b811279cda83e8e8e7f59b8c7" />
-  <f p="res/basic/icon/skill/13301_skillG_3.png" m="128b062729be988254d92c3ebebc7015" />
-  <f p="res/basic/icon/stone/113201/11.png" m="41d96643d238392556b045f696fbf920" />
-  <f p="res/basic/icon/stone/113201/12.png" m="b1593ab0fc863febc71d3d891e8ce6ed" />
-  <f p="res/basic/icon/stone/113201/13.png" m="f44309a6d65da9e2964d1332a37e5a0b" />
-  <f p="res/basic/icon/stone/113201/14.png" m="f44309a6d65da9e2964d1332a37e5a0b" />
-  <f p="res/basic/icon/stone/113201/21.png" m="849425736c6e8ec6ce7737282252db9b" />
-  <f p="res/basic/icon/stone/113201/22.png" m="8b63ba05855493126e449ae5a9ea4bff" />
-  <f p="res/basic/icon/stone/113201/23.png" m="65bdd01e18c4ac39929b6b71b5c554ef" />
-  <f p="res/basic/icon/stone/113201/24.png" m="c3536dc5618332646483290ad179d6e3" />
-  <f p="res/basic/icon/stone/113201/31.png" m="ff239efa058a52cab0099bdb522f2713" />
-  <f p="res/basic/icon/stone/113201/32.png" m="b6a7139174a58bf0658e7a786f5ddb65" />
-  <f p="res/basic/icon/stone/113201/33.png" m="2354692fe734074d0453de5001208d9f" />
-  <f p="res/basic/icon/stone/113201/34.png" m="5cd9bb0eb2dbcbcb5c445ad5c75025bb" />
-  <f p="res/basic/icon/stone/113201/41.png" m="ff239efa058a52cab0099bdb522f2713" />
-  <f p="res/basic/icon/stone/113201/42.png" m="b6a7139174a58bf0658e7a786f5ddb65" />
-  <f p="res/basic/icon/stone/113201/43.png" m="2354692fe734074d0453de5001208d9f" />
-  <f p="res/basic/icon/stone/113201/44.png" m="5cd9bb0eb2dbcbcb5c445ad5c75025bb" />
-  <f p="res/basic/icon/stone/113201/51.png" m="21947c3e90dbd7e124f4c6ccee304c0a" />
-  <f p="res/basic/icon/stone/113201/52.png" m="b7b46ff168c98e279ab63f44c95a7171" />
-  <f p="res/basic/icon/stone/113201/53.png" m="ebfc3d159068dbaf98942b6672ed1fd8" />
-  <f p="res/basic/icon/stone/113201/54.png" m="638698ac73cbdcc056df36c9c0e55788" />
-  <f p="res/basic/icon/stone/113201/61.png" m="3d2407f84c5a7d9f044cf3070c84ac35" />
-  <f p="res/basic/icon/stone/113201/62.png" m="ffbbd775631694c520537543b6e4333d" />
-  <f p="res/basic/icon/stone/113201/63.png" m="2048bb4f2e3bed849961aecb6f278676" />
-  <f p="res/basic/icon/stone/113201/64.png" m="745bacd6196243e41df360aa50786633" />
-  <f p="res/basic/icon/stone/113201/71.png" m="4881f57a08f38794d87535d8bc3afd72" />
-  <f p="res/basic/icon/stone/113201/72.png" m="514e662fc6b88669160e7c6e42f1a39b" />
-  <f p="res/basic/icon/stone/113201/73.png" m="ea2991f3cdc0e9d713e9f6346021b734" />
-  <f p="res/basic/icon/stone/113201/74.png" m="e2b6c49021cfe77a20219c860b9b47d8" />
-  <f p="res/basic/icon/stone/113201/s11.png" m="31e6a09f9ec2eafdacc0c92c5b55266e" />
-  <f p="res/basic/icon/stone/113201/s12.png" m="5b5dfbe1ae575b26a89bc3deef188d91" />
-  <f p="res/basic/icon/stone/113201/s13.png" m="99be25ff81ce7286337269815d6a5965" />
-  <f p="res/basic/icon/stone/113201/s14.png" m="42fe88e37a943c9a9cfdd9b34c822ed7" />
-  <f p="res/basic/icon/stone/113201/s21.png" m="5ab52fbd9446394b1ae6f78094ae6131" />
-  <f p="res/basic/icon/stone/113201/s22.png" m="69dbe78c364ac74989633028d995db5f" />
-  <f p="res/basic/icon/stone/113201/s23.png" m="27eb3e3cd5ef908084a844835a8a1711" />
-  <f p="res/basic/icon/stone/113201/s24.png" m="f4e905a34b662df755b7df23ee0b7e7a" />
-  <f p="res/basic/icon/stone/113201/s31.png" m="37a91ebb8f9d4be4871f3cf0580ac7b0" />
-  <f p="res/basic/icon/stone/113201/s32.png" m="bff678f5599b31afad264524926b503d" />
-  <f p="res/basic/icon/stone/113201/s33.png" m="90e982ae6f485cf558b354493491cf0d" />
-  <f p="res/basic/icon/stone/113201/s34.png" m="3b112960f55b722afe08d75081391a8b" />
-  <f p="res/basic/icon/stone/113301/11.png" m="070c0d9ec0dc216b2f5644ba0b72dd9b" />
-  <f p="res/basic/icon/stone/113301/12.png" m="a58f3af1bc4b9668790252bdf0d7bdc3" />
-  <f p="res/basic/icon/stone/113301/13.png" m="76e7d45174248e85a6e9359fe14d6655" />
-  <f p="res/basic/icon/stone/113301/14.png" m="5596294baa7a508e2a8db82d193fcd16" />
-  <f p="res/basic/icon/stone/113301/21.png" m="f1ed2874f418a8b2a83c4fda614ca2a6" />
-  <f p="res/basic/icon/stone/113301/22.png" m="ef86ed8848856aafdddd85982734909b" />
-  <f p="res/basic/icon/stone/113301/24.png" m="ef94c9d9711659fcf6263474683f040a" />
-  <f p="res/basic/icon/stone/113301/31.png" m="6a8242312d4922627fbf5d828b7d3f4f" />
-  <f p="res/basic/icon/stone/113301/32.png" m="85480e1fe1194313d131d474ddcf86af" />
-  <f p="res/basic/icon/stone/113301/33.png" m="310e714590becc75a857672c1d260230" />
-  <f p="res/basic/icon/stone/113301/34.png" m="6567d5ae6ceb79e4ed7505b56935f1aa" />
-  <f p="res/basic/icon/stone/113301/41.png" m="89c4aea94b8c404a67e192050665af2e" />
-  <f p="res/basic/icon/stone/113301/42.png" m="cc84631dcde0d32ebfd3c948ae3b24ce" />
-  <f p="res/basic/icon/stone/113301/43.png" m="a4de518b718fb3433dc06bb275e5d112" />
-  <f p="res/basic/icon/stone/113301/44.png" m="7be9498a211916f01e1473a0cc636948" />
-  <f p="res/basic/icon/stone/113301/51.png" m="24c7336ab64686f18944932d888775c1" />
-  <f p="res/basic/icon/stone/113301/52.png" m="df89f10e9f31a22cfabf9be75451d0a2" />
-  <f p="res/basic/icon/stone/113301/53.png" m="a9d2c5e5402842832c463f93445920f8" />
-  <f p="res/basic/icon/stone/113301/54.png" m="71853602561ca2c2b621f7c287e224a3" />
-  <f p="res/basic/icon/stone/113301/61.png" m="dfd5bb60e946bf410df6a9b1fcd39ee1" />
-  <f p="res/basic/icon/stone/113301/62.png" m="2ceb231980df8f57e5a7d933a39db955" />
-  <f p="res/basic/icon/stone/113301/63.png" m="f497815fc2c0a2effccf8da5a025d7a7" />
-  <f p="res/basic/icon/stone/113301/64.png" m="0d0e8cf12b0143ac3d5da40d8bd01a70" />
-  <f p="res/basic/icon/stone/113301/71.png" m="437b096e95fccbd0e9ddfb9f01f88891" />
-  <f p="res/basic/icon/stone/113301/72.png" m="bc6e660b19dd316d9a92337ed94519ed" />
-  <f p="res/basic/icon/stone/113301/73.png" m="cfcf570e2247bec964bf4e0b14dcf0b6" />
-  <f p="res/basic/icon/stone/113301/74.png" m="4b42593ae85aa909970f34bb42b8b867" />
-  <f p="res/basic/icon/stone/113301/83.png" m="f8680404c1b5d87a0f32ee4ee9963eaf" />
-  <f p="res/basic/icon/stone/113301/s11.png" m="bea1e3862f4b2af3525e7580a6fb0660" />
-  <f p="res/basic/icon/stone/113301/s12.png" m="36d463f8da4d0f509e5dbda0d1c19259" />
-  <f p="res/basic/icon/stone/113301/s13.png" m="28ab9a62327f30ff185e6227839cb5a8" />
-  <f p="res/basic/icon/stone/113301/s14.png" m="37e245627ac60d97e67576e737f14399" />
-  <f p="res/basic/icon/stone/113301/s21.png" m="4d427297314d729b4a52d51662e6937f" />
-  <f p="res/basic/icon/stone/113301/s22.png" m="e796ffb0a0b7d106c9ecba0f4bc140ff" />
-  <f p="res/basic/icon/stone/113301/s23.png" m="e0edd7aac10f6af5da10147f0cf7f7dc" />
-  <f p="res/basic/icon/stone/113301/s24.png" m="2826caf72029985989567ec950efa161" />
-  <f p="res/basic/icon/stone/113301/s31.png" m="9bbd0342fa8475250ee29be8afcc1d37" />
-  <f p="res/basic/icon/stone/113301/s32.png" m="30307bf4680c99f44d3ee4c58fe1b1e9" />
-  <f p="res/basic/icon/stone/113301/s33.png" m="448c2bd38677326e0606ce82320f4082" />
-  <f p="res/basic/icon/stone/113301/s34.png" m="66329a52afea3a0610acfb8ac1d18f46" />
-  <f p="res/basic/icon/system/113201.png" m="cece1d2046d49fa4f061e8d78d9e23bd" />
-  <f p="res/basic/icon/system/113301.png" m="e545bb11ed0f73d0aafea38bdebbfd25" />
-  <f p="res/basic/icon/teampic/1132011.png" m="f1f1e54d57512974d81e28ca87168395" />
-  <f p="res/basic/modle/hero/paintshow_13201/paintshow_13201.atlas" m="01cdf53ece8fe17c4e211f467a208428" />
-  <f p="res/basic/modle/hero/paintshow_13201/paintshow_13201.png" m="4395afae4677cf8a038a1ca56fc370c3" />
-  <f p="res/basic/modle/hero/paintshow_13201/paintshow_13201.skel" m="0373e993a91a8865c3f113ae321f3b2d" />
-  <f p="res/basic/modle/hero/paintshow_13201/paintshow_132012.png" m="980b0b6780d27e8ff018ce216eeeccc6" />
-  <f p="res/basic/modle/hero/paintshow_13301/paintshow_13301.atlas" m="74d95bdef923c5854bc2ed7199684fa9" />
-  <f p="res/basic/modle/hero/paintshow_13301/paintshow_13301.png" m="f00554e3575fb19030f7c0f6a6c2df32" />
-  <f p="res/basic/modle/hero/paintshow_13301/paintshow_13301.skel" m="3a1dbbf76cb418a6f32884a36507ac5f" />
-  <f p="res/basic/modle/hero/paintshow_13301/paintshow_133012.png" m="1cff04ccc49d88df4bf19c83c86a3431" />
-  <f p="res/basic/modle/weapon/angel_1132011/angel_1132011.atlas" m="b2bb865afaa76e47274ce8c833bf8022" />
-  <f p="res/basic/modle/weapon/angel_1132011/angel_1132011.png" m="1dfb46fd43db99479e81d3b1aecbfa48" />
-  <f p="res/basic/modle/weapon/angel_1132011/angel_1132011.skel" m="420e85079af83a6a558c0efe26cf4517" />
-  <f p="res/basic/modle/weapon/angel_1132011/angel_11320112.png" m="a0c10db333c43e745903e7da7677182d" />
-  <f p="res/basic/modle/weapon/angel_1133011/angel_1133011.atlas" m="51dfa0d2c36a35163e1077cdb1385022" />
-  <f p="res/basic/modle/weapon/angel_1133011/angel_1133011.png" m="5448fe20bfc2fde8b9da40aa0a6d692c" />
-  <f p="res/basic/modle/weapon/angel_1133011/angel_1133011.skel" m="2b34c743bec222e2aef686533a864bf9" />
-  <f p="res/basic/modle/weapon/angel_1133011/angel_11330112.png" m="3ec1c624209294c3128174ba4af9e6ea" />
-  <f p="res/basic/sound/13201/extra_skillB_1_1.mp3" m="1462c830cdd709652639d787825a47c9" />
-  <f p="res/basic/sound/13201/extra_skillB_1_2.mp3" m="fb36ea1a63c661d1e57b7d89926eaf52" />
-  <f p="res/basic/sound/13201/quickmove.mp3" m="d51e961307e6237995e32cb7123fd043" />
-  <f p="res/basic/sound/13201/skillA_1.mp3" m="462b1603137c7596961064ed76ad4d99" />
-  <f p="res/basic/sound/13201/skillA_2.mp3" m="db9702a2ab5d75e5d5017a09474efc29" />
-  <f p="res/basic/sound/13201/skillA_3.mp3" m="ec73a743d38ebf39c1ca1a1c1e961196" />
-  <f p="res/basic/sound/13201/skillA_4.mp3" m="19dfc7fd69e5fcdc2e43202bc6e99894" />
-  <f p="res/basic/sound/13201/skillA_5.mp3" m="00e942364155c2f6c57479ba4971f3c0" />
-  <f p="res/basic/sound/13201/skillB_1.mp3" m="14eece0f42ffc908461ed3d6de766f9e" />
-  <f p="res/basic/sound/13201/skillB_2.mp3" m="554906b8d5bba219e482bba1ff7a94ab" />
-  <f p="res/basic/sound/13201/skillB_3.mp3" m="57f68354ec2eb13fbc51e3ea2b33a10e" />
-  <f p="res/basic/sound/13201/skillC_1.mp3" m="eb20bf1318782df733c7a4b1d3f94ede" />
-  <f p="res/basic/sound/13201/skillC_2.mp3" m="04e9289ef646a9a4cfdefb337bd71654" />
-  <f p="res/basic/sound/13201/skillC_3.mp3" m="8e4005115d9b070e7ab8cc6dee446b2d" />
-  <f p="res/basic/sound/13201/skillD_2.mp3" m="da5222c0ca289ccc8ffb4bfdaf3d96ed" />
-  <f p="res/basic/sound/13201/skillD_3.mp3" m="3dce70112efc213829c0dabd1cf23509" />
-  <f p="res/basic/sound/13201/skillF.mp3" m="dd4b1123c45c2c29c413ee199e4c422d" />
-  <f p="res/basic/sound/13201/skillG_1.mp3" m="e246145b3a12a0597f4f76d626a6ebd4" />
-  <f p="res/basic/sound/13201/skillG_2.mp3" m="99b8f4651737aff361176e6fa9722fc1" />
-  <f p="res/basic/sound/13201/SonoRio_032.mp3" m="6851b628150ebe4b79758c8b120c170b" />
-  <f p="res/basic/sound/13201/SonoRio_033.mp3" m="aab90f9a5d50fc284083d9dcec898597" />
-  <f p="res/basic/sound/13201/SonoRio_034.mp3" m="d84b7e5644c8e8f7433d5a0e25788c0c" />
-  <f p="res/basic/sound/13201/SonoRio_035.mp3" m="979f1040630bfdc0d9f8454a3e44b7a8" />
-  <f p="res/basic/sound/13201/SonoRio_036.mp3" m="71bb18e57cded50c09424d8a6f8e3a8e" />
-  <f p="res/basic/sound/13201/SonoRio_037.mp3" m="860b4c70eeaceee69bf498da7088c89f" />
-  <f p="res/basic/sound/13201/SonoRio_038.mp3" m="3ee4d7c8cc27094f9b114419ad3d26d0" />
-  <f p="res/basic/sound/13201/SonoRio_039.mp3" m="92c680daf544969a44f12bb379c89154" />
-  <f p="res/basic/sound/13201/SonoRio_040.mp3" m="143bce7bf66a01c8f3500a0b0b6ea5fa" />
-  <f p="res/basic/sound/13201/SonoRio_041.mp3" m="12da8640e36796bf7cb7e74436461277" />
-  <f p="res/basic/sound/13201/SonoRio_042.mp3" m="03c2cc5823bd36bc4ec15d22ef35e849" />
-  <f p="res/basic/sound/13201/SonoRio_043.mp3" m="cd41d79c86af2b1b7fea16429b7c4245" />
-  <f p="res/basic/sound/13201/SonoRio_045.mp3" m="6fd564688ec805eef43365dcd87f795f" />
-  <f p="res/basic/sound/13201/SonoRio_047.mp3" m="e77ebaa9724a526840d0440608f4f519" />
-  <f p="res/basic/sound/13201/SonoRio_050.mp3" m="39fc7ebfd5788f72d8c3e13f5e1dbb33" />
-  <f p="res/basic/sound/13201/SonoRio_055.mp3" m="60658a1a993f0e1b71d197a313509310" />
-  <f p="res/basic/sound/13201/SonoRio_057_B.mp3" m="ff00afe9ac27d310271ee77bd16a8f83" />
-  <f p="res/basic/sound/13201/SonoRio_059.mp3" m="77574a0b29f1e2acd885bef6042f9474" />
-  <f p="res/basic/sound/13201/SonoRio_062.mp3" m="2eb1ce24148e8107a85fad5c16ed9e4f" />
-  <f p="res/basic/ui/battle/sub_skill_bg.png" m="1b45d52844e2e954dd579fc7267faa9f" />
-  <f p="res/basic/ui/battle/sub_skill_di.png" m="d28f9fccda20243ccb7383216d02cb4a" />
-  <f p="res/basic/video/summon_linxu1.mp4" m="a8a6c27aa10dcb8c7aa8eb050883aa9d" />
-  <f p="res/basic/video/summon_linxu2.mp4" m="7d8241d800eb5376b59a45c4ed65ddf6" />
-  <f p="src/lua/ai/ai_121005.lua" m="0d37bbd99451d55b2138a31d194518eb" />
-  <f p="src/lua/ai/ai_999184.lua" m="9504f64de0e965de3d1bfe82e6640adc" />
-  <f p="src/lua/ai/ai_999185.lua" m="e343c8b10efe271e385f14bd7aa92e19" />
-  <f p="src/lua/ai/ai_999186.lua" m="6ca1fde24d7a997d8691f99799ff4a8d" />
+<files version="3.2.39" lastVersion="3.2.36">
+  <f p=".nomedia/nomedia.txt" m="49033fd9311dc283dac779ff1573e45c" c="0" />
+  <f p="res/basic/effect/effects_13201_exskillB/effects_13201_exskillB.atlas" m="6e6124780a651849f03d9c5aba9ebccf" c="0" />
+  <f p="res/basic/effect/effects_13201_exskillB/effects_13201_exskillB.png" m="5bc677c53350fe6f75f8308970b1f139" c="0" />
+  <f p="res/basic/effect/effects_13201_exskillB/effects_13201_exskillB.skel" m="ced11625393e4bb1b59c7093bc1910a4" c="0" />
+  <f p="res/basic/effect/effects_13201_exskillB/effects_13201_exskillB2.png" m="9873c11608d7e2e7d01e40816a0895f8" c="0" />
+  <f p="res/basic/effect/effects_13201_exskillB/effects_13201_exskillB3.png" m="32c9fba0a0684e1146fad1cc1cedf241" c="0" />
+  <f p="res/basic/effect/effects_13201_exskillB/effects_13201_exskillB4.png" m="16f11f0697d4cb9d04c609ef6f13d32d" c="0" />
+  <f p="res/basic/effect/effects_13201_skillC/effects_13201_skillC.atlas" m="c2f9546996e25df0aa3d6ff99020578c" c="0" />
+  <f p="res/basic/effect/effects_13201_skillC/effects_13201_skillC.png" m="e506727b64c98d65e2b9a9c8bda1f33d" c="0" />
+  <f p="res/basic/effect/effects_13201_skillC/effects_13201_skillC.skel" m="805f662d869f39ce52a416561d25d765" c="0" />
+  <f p="res/basic/effect/effects_13201_skillC/effects_13201_skillC2.png" m="2a3ca1858538ba009a124684a806fd98" c="0" />
+  <f p="res/basic/effect/effects_13201_skillC/effects_13201_skillC3.png" m="5e7354560e23e1bde003c7f0a0fc01cd" c="0" />
+  <f p="res/basic/effect/effects_13201_skillC/effects_13201_skillC4.png" m="49d358ec89c754ac6fa71bc1db8d7a53" c="0" />
+  <f p="res/basic/effect/effects_13201_skillD/effects_13201_skillD.skel" m="d83e4c7d53acfffbf08319af45fd59de" c="0" />
+  <f p="res/basic/effect/effects_13201_skillG/effects_13201_skillG.skel" m="75eba650bc12bbb1d5c0274304505ce4" c="0" />
+  <f p="res/basic/effect/effects_13301_exskillB2/effects_13301_exskillB2.png" m="d0ce3e132995d3db4134c5f1555df280" c="0" />
+  <f p="res/basic/effect/effects_13301_exskillB2/effects_13301_exskillB2.skel" m="b8ae9d0867abaf9988b54b5a4daef9b0" c="0" />
+  <f p="res/basic/effect/effects_13301_exskillB2/effects_13301_exskillB22.png" m="6747f4ae4a53074226a06cfc1c020970" c="0" />
+  <f p="res/basic/effect/effects_13301_exskillB2/effects_13301_exskillB23.png" m="dc4b453c6995b7c9e7e8aa3128e1e21b" c="0" />
+  <f p="res/basic/effect/effects_13301_exskillB2/effects_13301_exskillB24.png" m="d10db82c8d9464c5f82e4aff01505ebe" c="0" />
+  <f p="res/basic/effect/effects_13301_skillB/effects_13301_skillB.png" m="b75d07e61b1df40a9a3101f86b72da49" c="0" />
+  <f p="res/basic/effect/effects_13301_skillB/effects_13301_skillB.skel" m="d21e590d1ede16b1fd42eb31820208ab" c="0" />
+  <f p="res/basic/effect/effects_13301_skillB/effects_13301_skillB2.png" m="2753db43493337c827c05244211ddfc6" c="0" />
+  <f p="res/basic/effect/effects_13301_skillB/effects_13301_skillB3.png" m="c05b9e746a01cfb471e2dbc975004b04" c="0" />
+  <f p="res/basic/effect/effects_13301_skillB/effects_13301_skillB4.png" m="7bd968bc01864809a00e05178095991e" c="0" />
+  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC.atlas" m="c021f4bc684e446c868c91e2012684be" c="0" />
+  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC.png" m="e5cabe745811fc458935bd17a45cee8c" c="0" />
+  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC.skel" m="bd3e74540ab5e5043ffdb446813fc2b0" c="0" />
+  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC2.png" m="ae1076f8eb81576d04ab623ef1400190" c="0" />
+  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC3.png" m="f4382c24d89fc4a55e905367561879a7" c="0" />
+  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC4.png" m="32ae66636604e0075a0eb2a51015d9e1" c="0" />
+  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD.png" m="6d2ae75c533e446f259c3bd1aa803757" c="0" />
+  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD.skel" m="45cdb4904edeb11dba60c4adc88e866f" c="0" />
+  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD2.png" m="292a67c76ea2737c48f1f2ce11b52934" c="0" />
+  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD3.png" m="949cfd011ac2afa7d35e42c4eab68776" c="0" />
+  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD4.png" m="2b171c75666e6198db34f01c99a03f02" c="0" />
+  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD5.png" m="84b44fbf040f07301c572dda42424b2f" c="0" />
+  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD6.png" m="d732980379c7c1bbff9b5eb9c9d69285" c="0" />
+  <f p="res/basic/effect/effects_13301_skillE/effects_13301_skillE.png" m="cd795a572587127140dbdae91f341007" c="0" />
+  <f p="res/basic/effect/effects_13301_skillE/effects_13301_skillE.skel" m="391f2e186385795e4ca29d2e2cd76a3f" c="0" />
+  <f p="res/basic/effect/effects_13301_skillE/effects_13301_skillE2.png" m="356eacce24388baa9e87c34321e10d6f" c="0" />
+  <f p="res/basic/effect/effects_Watchmen_1_skill1/effects_Watchmen_1_skill1.png" m="e227a31cd0b5aba160c68c33eb478f79" c="0" />
+  <f p="res/basic/effect/effects_Watchmen_1_skill1/effects_Watchmen_1_skill1.skel" m="44d56e6e0638ee80f03d230531a0ee95" c="0" />
+  <f p="res/basic/effect/effects_Watchmen_1_skill1/effects_Watchmen_1_skill12.png" m="b0d3773a6532831d8e55069ffc4bbc22" c="0" />
+  <f p="res/basic/effect/effects_Watchmen_1_skill2/effects_Watchmen_1_skill2.skel" m="57ae5ef8d5f8e0a85c693a53af887be5" c="0" />
+  <f p="res/basic/effect/effects_Watchmen_2_skill1/effects_Watchmen_2_skill1.png" m="ea25ed92aad1825d4e86fc299104c295" c="0" />
+  <f p="res/basic/effect/effects_Watchmen_2_skill1/effects_Watchmen_2_skill1.skel" m="c5731dc3ad3d03906fd95bf629e12f5b" c="0" />
+  <f p="res/basic/effect/effects_Watchmen_2_skill2/effects_Watchmen_2_skill2.atlas" m="c0877ae73936c4ef1432dcdf2b89495b" c="0" />
+  <f p="res/basic/effect/effects_Watchmen_2_skill2/effects_Watchmen_2_skill2.png" m="415e59269ad359b1bc3e6a814cff49d3" c="0" />
+  <f p="res/basic/effect/effects_Watchmen_2_skill2/effects_Watchmen_2_skill2.skel" m="897e71f2f4b64bc2543318969c9eccca" c="0" />
+  <f p="res/basic/effect/effects_Watchmen_3_skill1/effects_Watchmen_3_skill1.skel" m="8723bd724993e11abbdcca7d279e9db3" c="0" />
+  <f p="res/basic/effect/effects_Watchmen_3_skill2/effects_Watchmen_3_skill2.skel" m="cf93a2711ffbb41afd053aa4a4dbdca6" c="0" />
+  <f p="res/basic/effect/fight_13301/fight_13301.png" m="39abac58f4a2fff866c6a0b378ad07cc" c="0" />
+  <f p="res/basic/effect/fight_13301/fight_13301.skel" m="a4e126b6f8bf483aad33129ef055ba6f" c="0" />
+  <f p="res/basic/effect/fight_13301/fight_133012.png" m="db395be258e7127ca1f7cabb99f07cf1" c="0" />
+  <f p="res/basic/modle/weapon/angel_1133011/angel_1133011.atlas" m="2addbb9ecc934b9b11aaf9fea6599de2" c="0" />
+  <f p="res/basic/modle/weapon/angel_1133011/angel_1133011.png" m="1374571dc2f4f34228d1175164d2cb03" c="0" />
+  <f p="res/basic/modle/weapon/angel_1133011/angel_1133011.skel" m="b067d02f3e5ca9cf3852c564eb71c5f7" c="0" />
+  <f p="res/basic/modle/weapon/angel_1133011/angel_11330112.png" m="7cb2c38a390bf3b5ca5ca72ce62fef19" c="0" />
+  <f p="src/lua/ai/ai_999184.lua" m="e76e7e26b31594234f42a533d1f5f08a" c="0" />
+  <f p="src/lua/ai/ai_999185.lua" m="c3be2b0e1b312c9a162b8037967651c2" c="0" />
+  <f p="src/lua/ai/ai_999186.lua" m="3c2ff25c0be5fd582437d3bb6eb0808e" c="0" />
+  <f p="src/lua/dataMgr/BattleDataMgr.lua" m="725d1090a2bf529b4099fb639294ba46" c="0" />
+  <f p="src/lua/logic/battle/enum.lua" m="3d28052e1089cf6892f985423e7370dd" c="0" />
+  <f p="src/lua/logic/battle/Hero.lua" m="f98a272c80e121533dd3d6986a4f8a9a" c="0" />
+  <f p="src/lua/logic/battle/KeyBoard.lua" m="be2ba53da06dd8a52be830395aa38a2b" c="0" />
+  <f p="src/lua/logic/battle/PropertyEx.lua" m="8e3e38d5c8b3f10ebacdc0a1df652717" c="0" />
+  <f p="src/lua/logic/battle/Skill.lua" m="5ac3c1731d313de3a359e9ba48eec187" c="0" />
+  <f p="src/lua/logic/battle/SkillEffect.lua" m="3886356da8c41c7b2100c46bc663884f" c="0" />
+  <f p="src/lua/table/AngelSkillFunction.lua" m="1ec1923cf40690df9cc6d7e7a53ffe91" c="0" />
+  <f p="src/lua/table/AngelSkillTree.lua" m="30f50e8773b871f3a4c9db1982e6baa9" c="0" />
+  <f p="src/lua/table/Buffer.lua" m="deec8538e45304f17353eb2e8aec3da8" c="0" />
+  <f p="src/lua/table/BufferEffect.lua" m="12a39ccbddcdc62942fea2c76436908f" c="0" />
+  <f p="src/lua/table/Equipment.lua" m="045bff0843c8343941556b7d104f8d4c" c="0" />
+  <f p="src/lua/table/EquipmentSuit.lua" m="cf7a34656495fc18b1ca1e06e5db1ee1" c="0" />
+  <f p="src/lua/table/Hero.lua" m="dc06b916043f6b9e9600202fe0a04043" c="0" />
+  <f p="src/lua/table/HeroModle.lua" m="f56288490a757a1e9b49c06e30e2aa93" c="0" />
+  <f p="src/lua/table/HeroPower.lua" m="43184fa3bf64840474c9f6a94cfe41f7" c="0" />
+  <f p="src/lua/table/HeroProgress.lua" m="2763194f2809595ec20cb103030518f8" c="0" />
+  <f p="src/lua/table/Item.lua" m="1e91a3ca06a35524879ceb02e00cf611" c="0" />
+  <f p="src/lua/table/Monster.lua" m="d2358f0f4b8bf988cefbb67769ddbbc5" c="0" />
+  <f p="src/lua/table/MonsterLevel.lua" m="0a4250013f8bad49703b4bdcf4f12e00" c="0" />
+  <f p="src/lua/table/MonsterSection.lua" m="daf2b7bf163a10d9e8823c57bb6c1806" c="0" />
+  <f p="src/lua/table/PassiveSkills.lua" m="7bbb1637a12437ad1fa77930b6fd3a43" c="0" />
+  <f p="src/lua/table/Portrait.lua" m="7bc7d54bb88b2aec892827adb67dd85c" c="0" />
+  <f p="src/lua/table/Role.lua" m="090c93fed7bda6c895948ef5fdb87507" c="0" />
+  <f p="src/lua/table/RoleAction.lua" m="fe6d0f16f8e3000bea69c18670c8a081" c="0" />
+  <f p="src/lua/table/RoleDescribe.lua" m="1ad89b31774a6cfd745bf8045eaf9d84" c="0" />
+  <f p="src/lua/table/Skill.lua" m="ee623329b96a56970c235bcf6a5996b6" c="0" />
+  <f p="src/lua/table/SkillAction.lua" m="fc06a8d43c7d1afef6bddc1ca55562d5" c="0" />
+  <f p="src/lua/table/SkillEffect.lua" m="ad5b5643edfc912b095c744f22112f96" c="0" />
+  <f p="src/lua/table/SkillHurt.lua" m="ac968a17c7573bc74985d663b3a09cae" c="0" />
+  <f p="src/lua/table/SkillMusic.lua" m="5e590a7c088806f313af377a3c5dddbb" c="0" />
+  <f p="src/lua/table/Stone.lua" m="f2bf465577a3249c360181cfe7a885cc" c="0" />
+  <f p="src/lua/table/String.lua" m="92e40aaf86130f6f51347b474d26a344" c="0" />
+  <f p="src/lua/table/TrialHeroSkin.lua" m="a8be0ff85a4891a346f3279aab215a2b" c="0" />
+  <f p="src/lua/uiconfig/battle/ctrlView.lua" m="5a0db7c5a3d398ac338c8a4637bb01fb" c="0" />
+  <f p="res/basic/effect/effects_13301_skillC/effects_13301_skillC5.png" m="edf470d2cc6b7b6275c15e66daf13823" />
+  <f p="res/basic/effect/effects_Watchmen_2_skill2/effects_Watchmen_2_skill22.png" m="779b0574e0c16ecfd79f7318b4cb6e7e" />
+  <f p="res/basic/icon/hero/name/2000248.png" m="8bfe80e7cf61edb76f036f74c8ec88dd" />
+  <f p="res/basic/icon/hero/name/2000249.png" m="9b422d7d89fcedd958790a2fe97a0e25" />
+  <f p="res/basic/sound/13301/b_skill1_1.mp3" m="6b2b54adf959b7d057787ed38fa98e3d" />
+  <f p="res/basic/sound/13301/b_skill1_2.mp3" m="4cfc85964d2ce58951502c403b51e73a" />
+  <f p="res/basic/sound/13301/b_skill1_2_3.mp3" m="f16f4885755942e78c923015f45f0634" />
+  <f p="res/basic/sound/13301/b_skill2.mp3" m="4fe6fa8462e6b2af151e3662f48c9955" />
+  <f p="res/basic/sound/13301/quickmove.mp3" m="cff0d9505da2fc9b623ddc4e45387d80" />
+  <f p="res/basic/sound/13301/r_skill1.mp3" m="33d1b4f707070f8d66e2612e7c7a81f7" />
+  <f p="res/basic/sound/13301/r_skill2.mp3" m="435d6d5ad6b0bec37db1ff462fe634c6" />
+  <f p="res/basic/sound/13301/skillA.mp3" m="dc2eaec2b8e67692888979096254764b" />
+  <f p="res/basic/sound/13301/skillAA.mp3" m="cfc5ab69ef6a8cf465cabce9eb7fb0eb" />
+  <f p="res/basic/sound/13301/skillAAA.mp3" m="42141032357a559c036bb8f135355451" />
+  <f p="res/basic/sound/13301/skillAAAA.mp3" m="49a023e4bfccf06f349e60218c32dcb8" />
+  <f p="res/basic/sound/13301/skillAAAAA.mp3" m="c272dd7242d24e5cadc2ae764a855964" />
+  <f p="res/basic/sound/13301/skillB_1.mp3" m="d83e6a9fd3972c6a6a2b8db648bbc7e7" />
+  <f p="res/basic/sound/13301/skillB_2.mp3" m="f7b558c4e3d348572da7ff129d742e01" />
+  <f p="res/basic/sound/13301/skillB_3.mp3" m="2f69b60161b059e11d85364ae2c8b8f1" />
+  <f p="res/basic/sound/13301/skillB_4.mp3" m="80a0a6fa0747bb47dc73928fb3f728e2" />
+  <f p="res/basic/sound/13301/skillB_5.mp3" m="2d2ab842a4e73546b81b9e94afe83eea" />
+  <f p="res/basic/sound/13301/skillC_1.mp3" m="abe4e535b9e19b730c230729ca0f5b0f" />
+  <f p="res/basic/sound/13301/skillC_10.mp3" m="5f52121b05f9f0b25c3cdbea170340ce" />
+  <f p="res/basic/sound/13301/skillC_2.mp3" m="25c27f4daa23af738ae5d3df4d91547e" />
+  <f p="res/basic/sound/13301/skillC_3.mp3" m="5a7b93f3c6df7ae99cec950589296a26" />
+  <f p="res/basic/sound/13301/skillC_4.mp3" m="c18191e2ec37b5dcc1a3f80bacfbcd00" />
+  <f p="res/basic/sound/13301/skillC_5.mp3" m="fa42fb853cf6e2deda1d2b2e6d5646b9" />
+  <f p="res/basic/sound/13301/skillC_6.mp3" m="2b605b4bdf451ac9b61a375226ae37bf" />
+  <f p="res/basic/sound/13301/skillC_7.mp3" m="3de11c87e305f0a28785857256c12d0b" />
+  <f p="res/basic/sound/13301/skillC_8.mp3" m="8b139a84d7ea61f82db28f4c4259f751" />
+  <f p="res/basic/sound/13301/skillC_9.mp3" m="d53d04425d0fae1e124c2c0acdf50193" />
+  <f p="res/basic/sound/13301/skillD_1.mp3" m="9d599710df9199c307821e27079b8dcf" />
+  <f p="res/basic/sound/13301/skillD_2.mp3" m="d82bdd611bd47cca2578b18f5f44656b" />
+  <f p="res/basic/sound/13301/skillD_3.mp3" m="44601b1c56773c9650a7ca8599b0c8f2" />
+  <f p="res/basic/sound/13301/skillE.mp3" m="63d3703adc5fe2f72baf90911d91fbcd" />
+  <f p="res/basic/sound/13301/skillexskillB_1.mp3" m="e673644ae8c9aff42940cdccee377ab7" />
+  <f p="res/basic/sound/13301/skillexskillB_2.mp3" m="50876c39cc13a439347cf12ecb4fd7a5" />
+  <f p="res/basic/sound/13301/skillexskillB_3.mp3" m="f00e068f0ea49d802434f09ebee25c6b" />
+  <f p="res/basic/sound/13301/skillexskillB_4.mp3" m="ed0d0aab7971d6886d5b6bbc8ccfd96c" />
+  <f p="res/basic/sound/13301/skillexskillB_5.mp3" m="847fdc11c221bcfd4715247714d24346" />
+  <f p="res/basic/sound/13301/skillexskillB_6.mp3" m="bc6041b78a088a8d102fb0d60e97038a" />
+  <f p="res/basic/sound/13301/skillexskillB_7.mp3" m="17a1741185cfa032bbf00f5114fe8d79" />
+  <f p="res/basic/sound/13301/skillE_2.mp3" m="7e31f416774831a5c9c6e091aa45c88b" />
+  <f p="res/basic/sound/13301/skillF.mp3" m="22a26e04a7272c6c26edbc4791263e46" />
+  <f p="res/basic/sound/13301/SonoRinne_051_B.mp3" m="edfb2ea7228cf483e992e5e6d6d83403" />
+  <f p="res/basic/sound/13301/SonoRinne_052_B.mp3" m="7b4ea98fa641fd3cd7d8d3160c4568f8" />
+  <f p="res/basic/sound/13301/SonoRinne_053_B.mp3" m="b306c696fccbccb10b29700c16bac90a" />
+  <f p="res/basic/sound/13301/SonoRinne_054_B.mp3" m="dbd4f76c2edf44e4725859d4cbd0901a" />
+  <f p="res/basic/sound/13301/SonoRinne_055_B.mp3" m="3b50526db99fc6cc0052698954f27ce5" />
+  <f p="res/basic/sound/13301/SonoRinne_056_B.mp3" m="035abbc4cb517b5d9135d5f859aa93e4" />
+  <f p="res/basic/sound/13301/SonoRinne_057_B.mp3" m="ced38754a4cd3ead285583f8f13a571e" />
+  <f p="res/basic/sound/13301/SonoRinne_058_B.mp3" m="9b3f69e4141f8fcb87af87ba0497cca8" />
+  <f p="res/basic/sound/13301/SonoRinne_059_B.mp3" m="43a155569f66240e24cb254dbb8707bd" />
+  <f p="res/basic/sound/13301/SonoRinne_060_B.mp3" m="93b6bb4d701a18d7974724fd733e28d5" />
+  <f p="res/basic/sound/13301/SonoRinne_061_B.mp3" m="28def7bb5fe0303c6f3cceefdfc0bb82" />
+  <f p="res/basic/sound/13301/SonoRinne_062_B.mp3" m="94099211b7c77fb5f7705aa8cb08a6c6" />
+  <f p="res/basic/sound/13301/SonoRinne_063_B.mp3" m="e234d4b8c74fa260f216a8df71970edb" />
+  <f p="res/basic/sound/13301/w_skill1.mp3" m="49b98918322858989186833dd59b4944" />
+  <f p="res/basic/sound/13301/w_skill2_1.mp3" m="77b27a7d2798c58fa65779a908b4854d" />
+  <f p="res/basic/sound/13301/w_skill2_2.mp3" m="6a97b474a008cc8a11db3fd77845ce0b" />
+  <f p="res/basic/ui/battle/sub_skill_1.png" m="842b2e967f57063c97aeed70c57e47c8" />
+  <f p="res/basic/ui/battle/sub_skill_2.png" m="f66e524a9019807bb70d06806d8ebb5b" />
+  <f p="res/basic/ui/battle/sub_skill_3.png" m="080f3b2167ab4b0510de0f0486efbfa6" />
+  <f p="res/basic/ui/battle/sub_skill_normal.png" m="076ab476d68b3978c4850f17125a5685" />
 </files>

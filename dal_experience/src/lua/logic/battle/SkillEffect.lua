@@ -68,7 +68,8 @@ local ePlace =
     CASTER_MOUNT  = 2 , --施法者骨骼
     CASTER        = 3 , --施法者位置
     TARGET_MOUNT  = 4 , --目标骨骼
-    RANDOM        = 5   -- 随机位置
+    RANDOM        = 5 ,  -- 随机位置
+    CASTER_MAP_CENTER = 7 ,  --施法者当前地图中心
     -- （0无1目标位置2施法者挂点位置）
 }
 
@@ -742,6 +743,19 @@ function Effect:initialPos(tarHero)
                 self:setPosition3D(0 , 0 , 0)
             end
         end
+    elseif place == ePlace.CASTER_MAP_CENTER then
+        local pos = self.srcHero:getPosition()
+        local rect = levelParse:getMoveRect()
+        self.position3D.y = rect.origin.y + rect.size.height / 2
+        local winSize = me.Director:getWinSize()
+        if pos.x < rect.origin.x + winSize.width / 2 then 
+            self.position3D.x = rect.origin.x + winSize.width / 2
+        elseif pos.x > rect.origin.x + rect.size.width -winSize.width / 2 then
+            self.position3D.x = rect.origin.x + rect.size.width -winSize.width / 2
+        else
+            self.position3D.x = pos.x
+        end
+        self:setPositionZ(self.position3D.y)
     end
     
     --Y 方向位置修正
@@ -767,6 +781,9 @@ function Effect:initialPos(tarHero)
         local placeSkewingX = self.effectData.placeSkewingX
         local placeSkewingY = self.effectData.placeSkewingY
         local pram = host:getDir() == eDir.RIGHT and 1 or -1
+        if place == ePlace.CASTER_MAP_CENTER then
+            pram = 1
+        end
         if placeSkewingX ~= 0 then
             self.position3D.x = self.position3D.x + placeSkewingX*pram
             self:setPositionX(self.position3D.x)
@@ -790,6 +807,17 @@ function Effect:initialPos(tarHero)
             end 
         end
     elseif parent == eParent.UI then  --地图上的
+        local placeSkewingX = self.effectData.placeSkewingX
+        local placeSkewingY = self.effectData.placeSkewingY
+        if placeSkewingX ~= 0 then
+            self.position3D.x = self.position3D.x + placeSkewingX
+            self:setPositionX(self.position3D.x)
+        end
+        if placeSkewingY ~= 0 then
+            self.position3D.z = self.position3D.z + placeSkewingY
+            self:setPositionZ(self.position3D.z)
+        end
+
         if place == ePlace.CASTER_MOUNT then --施法者的骨骼位置
             self.position3D.y = host:getWorldPosition3D().y
         else
@@ -1580,7 +1608,7 @@ function Effect:checkRoller(target)
         posY = (_minV + _maxV) / 2
     end
     if self.effectData.parent == eParent.CASTER then
-        posY = self.srcHero:getPositionY()
+        posY = self:getCasterPosition().y
     end
     local minV = posY - self.effectData.yRoller[2]
     local maxV = posY + self.effectData.yRoller[1]
@@ -1767,7 +1795,11 @@ function Effect:createSkeletonNode()
     self:createParticles()
     self:createText()
     if not battleController.isShowAttackEffect(self.srcHero) then 
-        self.skeletonNode:hide()
+        if self.effectData.display and self.effectData.display == 1 then --强制显示
+
+        else
+            self.skeletonNode:hide()
+        end
     end
 end
 
@@ -2484,7 +2516,7 @@ function NormalEffect:checkRoller_effect(effect)
         posY = tarY
     end
     if self.effectData.parent == eParent.CASTER then
-        posY = self.srcHero:getPositionY()
+        posY = self:getCasterPosition().y
     end
     local minV = posY - self.effectData.yRoller[2]
     local maxV = posY + self.effectData.yRoller[1]

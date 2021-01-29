@@ -15,6 +15,7 @@ local eTableName =
     TB_SKILLEFFECT = 3 ,--SKILLEffect
     TB_SKILLHURT   = 4 ,--SKILLHurt
     TB_HEROPOWER   = 5 ,--HeroPower
+    TB_HERO        = 6 ,--Hero
 }
 
 local eChangeType =
@@ -299,6 +300,13 @@ function BattleDataMgr:getEnergyData(id,angleDatas)
         energyData = handleAngleData(energyData,angleDatas[eTableName.TB_HEROPOWER],self.mixAngleDatas[eTableName.TB_HEROPOWER])
     end
     return energyData
+end
+
+function BattleDataMgr:getHeroDataByAngle(heroData,angleDatas)
+    if heroData and angleDatas then  --处理天使数据
+        heroData = handleAngleData(heroData,angleDatas[eTableName.TB_HERO],self.mixAngleDatas[eTableName.TB_HERO])
+    end
+    return heroData
 end
 
 -- hero和monster 转换成同样的结构

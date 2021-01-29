@@ -5836,7 +5836,7 @@ return {
         },
         host = 105240,
         target = 0,
-        speedAddition = false,
+        speedAddition = true,
         loopTime = 0,
         moveType = 0,
         withstandDirection = 0,
@@ -5846,7 +5846,7 @@ return {
         loop = false,
         name = "凛祢—必杀-起手",
         cond = 0,
-        actionHard = 1,
+        actionHard = 0,
         keyName = {
         },
         frameEvents = {
@@ -9959,8 +9959,8 @@ return {
         },
         host = 105240,
         target = 0,
-        speedAddition = false,
-        loopTime = 1100,
+        speedAddition = true,
+        loopTime = 700,
         moveType = 0,
         withstandDirection = 0,
         particleEffect = {
@@ -9969,7 +9969,7 @@ return {
         loop = true,
         name = "凛祢—必杀-蓄力1段",
         cond = 0,
-        actionHard = 1,
+        actionHard = 0,
         keyName = {
         },
         frameEvents = {
@@ -14624,8 +14624,8 @@ return {
         },
         host = 105240,
         target = 0,
-        speedAddition = false,
-        loopTime = 1100,
+        speedAddition = true,
+        loopTime = 700,
         moveType = 0,
         withstandDirection = 0,
         particleEffect = {
@@ -14634,7 +14634,7 @@ return {
         loop = true,
         name = "凛祢—必杀-蓄力2段",
         cond = 0,
-        actionHard = 1,
+        actionHard = 0,
         keyName = {
         },
         frameEvents = {
@@ -14689,10 +14689,6 @@ return {
         rockerChange = 0,
         actionMoveX = 0,
         fixCamerZ = {
-            [1] = {
-                [1] = -1,
-                [2] = -50,
-            },
         },
         moveSpeed = 0,
     },
@@ -18239,8 +18235,8 @@ return {
         },
         host = 105240,
         target = 0,
-        speedAddition = false,
-        loopTime = 1100,
+        speedAddition = true,
+        loopTime = 700,
         moveType = 0,
         withstandDirection = 0,
         particleEffect = {
@@ -18249,7 +18245,7 @@ return {
         loop = true,
         name = "凛祢—必杀-蓄力3段",
         cond = 0,
-        actionHard = 1,
+        actionHard = 0,
         keyName = {
         },
         frameEvents = {
@@ -18304,10 +18300,6 @@ return {
         rockerChange = 0,
         actionMoveX = 0,
         fixCamerZ = {
-            [1] = {
-                [1] = -1,
-                [2] = -50,
-            },
         },
         moveSpeed = 0,
     },
@@ -23628,7 +23620,7 @@ return {
         },
         host = 105240,
         target = 0,
-        speedAddition = false,
+        speedAddition = true,
         loopTime = 0,
         moveType = 0,
         withstandDirection = 0,
@@ -23638,7 +23630,7 @@ return {
         loop = false,
         name = "凛祢—无蓄力爆发",
         cond = 0,
-        actionHard = 1,
+        actionHard = 0,
         keyName = {
         },
         frameEvents = {
@@ -23669,7 +23661,7 @@ return {
         actionMoveX = 0,
         fixCamerZ = {
             [1] = {
-                [1] = 2000,
+                [1] = 3000,
                 [2] = 150,
             },
         },
@@ -28921,7 +28913,7 @@ return {
         },
         host = 105240,
         target = 0,
-        speedAddition = false,
+        speedAddition = true,
         loopTime = 0,
         moveType = 0,
         withstandDirection = 0,
@@ -28931,7 +28923,7 @@ return {
         loop = false,
         name = "凛祢—蓄力1级爆发-6颗球",
         cond = 0,
-        actionHard = 1,
+        actionHard = 0,
         keyName = {
         },
         frameEvents = {
@@ -28962,7 +28954,7 @@ return {
         actionMoveX = 0,
         fixCamerZ = {
             [1] = {
-                [1] = 3000,
+                [1] = 4000,
                 [2] = 150,
             },
         },
@@ -33676,7 +33668,7 @@ return {
         },
         host = 105240,
         target = 0,
-        speedAddition = false,
+        speedAddition = true,
         loopTime = 0,
         moveType = 0,
         withstandDirection = 0,
@@ -33686,7 +33678,7 @@ return {
         loop = false,
         name = "凛祢—蓄力2级爆发-大球出现",
         cond = 0,
-        actionHard = 1,
+        actionHard = 0,
         keyName = {
         },
         frameEvents = {
@@ -37695,7 +37687,7 @@ return {
         },
         host = 105240,
         target = 0,
-        speedAddition = false,
+        speedAddition = true,
         loopTime = 0,
         moveType = 0,
         withstandDirection = 0,
@@ -37705,7 +37697,7 @@ return {
         loop = false,
         name = "凛祢—蓄力3级爆发",
         cond = 0,
-        actionHard = 1,
+        actionHard = 0,
         keyName = {
         },
         frameEvents = {
@@ -37736,7 +37728,7 @@ return {
         actionMoveX = 0,
         fixCamerZ = {
             [1] = {
-                [1] = -1,
+                [1] = 7000,
                 [2] = 150,
             },
         },
@@ -45191,7 +45183,7 @@ return {
         },
         host = 105240,
         target = 0,
-        speedAddition = false,
+        speedAddition = true,
         loopTime = 0,
         moveType = 0,
         withstandDirection = 0,
@@ -45201,7 +45193,7 @@ return {
         loop = false,
         name = "凛祢—蓄力下落",
         cond = 0,
-        actionHard = 1,
+        actionHard = 0,
         keyName = {
         },
         frameEvents = {
@@ -45231,10 +45223,6 @@ return {
         rockerChange = 0,
         actionMoveX = 0,
         fixCamerZ = {
-            [1] = {
-                [1] = -1,
-                [2] = 150,
-            },
         },
         moveSpeed = 0,
     },
@@ -78380,7 +78368,6 @@ return {
         includeEffect = {
             [1] = 174021,
             [2] = 174023,
-            [3] = 174025,
         },
         host = 105330,
         target = 0,
@@ -106254,7 +106241,7 @@ return {
         },
         host = 105230,
         target = 0,
-        speedAddition = false,
+        speedAddition = true,
         loopTime = 0,
         moveType = 0,
         withstandDirection = 0,
@@ -135400,7 +135387,8 @@ return {
     },
     [601510] = {
         includeEffect = {
-            [1] = 597022,
+            [1] = 597000,
+            [2] = 597022,
         },
         host = 701310,
         target = 2,

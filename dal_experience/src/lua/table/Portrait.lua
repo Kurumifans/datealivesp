@@ -5616,7 +5616,7 @@ return {
         accessdes = 265587,
         titleType = 10006,
         theirdialog = "",
-        icon = "icon/hero/name/2000247.png",
+        icon = "icon/hero/name/2000248.png",
         checkType = 0,
         minedialog = "",
         id = 1055,

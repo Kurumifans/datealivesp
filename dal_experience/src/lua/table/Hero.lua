@@ -5154,8 +5154,8 @@ return {
         patrolFar = 100,
         money = 0,
         attribute2 = 1242,
-        callLimit = 20,
-        isOpen = 0,
+        callLimit = 3,
+        isOpen = 1,
         color2 = {
             [1] = 69,
             [2] = 91,

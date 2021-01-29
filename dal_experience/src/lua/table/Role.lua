@@ -3192,11 +3192,6 @@ return {
         height = "150cm",
         moodPath = "icon/role/mood/133/",
         moodBuff = {
-            [1] = 7030,
-            [2] = 7029,
-            [3] = 0,
-            [4] = 0,
-            [5] = 7028,
         },
         constellation = "10000",
         voiceUnlock = {

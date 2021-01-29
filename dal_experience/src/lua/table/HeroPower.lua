@@ -551,11 +551,9 @@ return {
         specialEnergyUI = 0,
         powerUI = 1,
         specialEnergyName = 0,
-        getType = 3,
+        getType = 0,
         consumeType = 0,
         getPrams = {
-            [1] = 1000,
-            [2] = 3,
         },
         triggerBuff = {
         },
@@ -570,9 +568,11 @@ return {
         specialEnergyUI = 0,
         powerUI = 1,
         specialEnergyName = 0,
-        getType = 0,
+        getType = 3,
         consumeType = 0,
         getPrams = {
+            [1] = 1000,
+            [2] = 3,
         },
         triggerBuff = {
         },
