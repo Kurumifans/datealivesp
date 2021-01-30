@@ -10,10 +10,10 @@ function TeamChooseBuffView:initData(teamInfo)
     self.buffCfg = TabDataMgr:getData("ItemOfBattleBuff")
     self.selectBuffId = nil
 
-    local data = ActivityDataMgr2:getSnowFestivalTeamData()
+    local data = ActivityDataMgr2:getSnowFestivalTeamData() or {}
     self.buff = {}
     for i, v in ipairs(self.teamInfo) do
-        for j, _buff in ipairs(data.buff) do
+        for j, _buff in ipairs(data) do
             if v.pid == _buff.playerId then
                 _buff.name = v.name
                 table.insert(self.buff, _buff)

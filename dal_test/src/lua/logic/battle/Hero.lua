@@ -139,6 +139,7 @@ function Hero:ctor(data,team,host)
     self.atkRect  = me.rect(data.area[1],data.area[2],data.area[3],data.area[4])               --me.rect(-100,-20,200,50)
 
     self.data = data
+    self.data = BattleDataMgr:getHeroDataByAngle(data,self:getAngleDatas())
     self.team = team
     self.camp = self.data.camp
     -- 技能参数
@@ -603,6 +604,11 @@ function Hero:recoverySkin(objectID)
     end
 end
 
+function Hero:combatCustomSkills(originSkills)
+    local customSkills = battleController.getCustomSkills(originSkills, self)
+    return customSkills
+end
+
 function Hero:changeSkin(formId,force)
     if self.curForm then 
         if self.curForm:getDataId() == formId then
@@ -790,12 +796,12 @@ function Hero:matchKeyEvent(...)
     return self.operate:matchKeyEvent(...)
 end
 
-function Hero:createAndPush(keyCode,eventType)
+function Hero:createAndPush(keyCode,eventType,skillSubId)
     if not self:isFlag(eFlag.FirstUpdate) then
         return
     end
     if self:isValidKey(keyCode) then
-        self.operate:createAndPush(keyCode,eventType)
+        self.operate:createAndPush(keyCode,eventType,skillSubId)
     end
 end
 
@@ -1534,6 +1540,16 @@ function Hero:createBufferList()
         for i, buffId in ipairs(affixData.effectBuffers) do
             buffIds[buffId] = buffId
         end
+    end
+
+    --特定模式下只使用特定条件buff
+    if self:getCampType() == eCampType.Hero and battleController.useCustomAttrModle() then
+        buffIds = {}
+    end
+    --特殊条件buff加成
+    local ids = battleController.getAdditionBuff(self)
+    for k, buffId in ipairs(ids) do
+        buffIds[buffId] = buffId
     end
 
     buffIds = self:filteBuff(buffIds)
@@ -3417,6 +3433,7 @@ function Hero:changeHp(value,hurtType,target,bAbsorb,point,hideDamage)
            hurtType = eHurtType.DODGE1
         end
     end
+    local showValue
     -- 护盾吸收处理
     if bAbsorb then
         value = self:absorb(value)
@@ -3457,6 +3474,16 @@ function Hero:changeHp(value,hurtType,target,bAbsorb,point,hideDamage)
                 end
             end
 
+            local limitHp = self:getLimitHp()
+            if limitHp > 0 then
+                if hp < limitHp then
+                    self:setValue(eAttrType.ATTR_NOW_HP,limitHp)
+                    value = 0
+                elseif value + hp < limitHp then
+                    showValue = value
+                    value = limitHp - hp
+                end
+            end
         elseif value > 0 then --加血
             --触发被治疗事件
             self:onEventTrigger(eBFState.E_TREATE)
@@ -3482,7 +3509,8 @@ function Hero:changeHp(value,hurtType,target,bAbsorb,point,hideDamage)
         end
     end
     if not hideDamage then
-        self:showDamage(value,hurtType,point)
+        showValue = showValue or value
+        self:showDamage(showValue,hurtType,point)
     end
     if self.actor then
         self.actor:refresh()
@@ -4524,9 +4552,9 @@ function Hero:castById(id)
     self:castSK(skill,true)
 end
 
-function Hero:castSK(skill,force)
+function Hero:castSK(skill,force,skillSubId)
     if self:canCast(skill) then
-        skill:tryCast(force)
+        skill:tryCast(force,skillSubId)
         return true
     else
         self.willUseSkill = self.skill
@@ -4535,11 +4563,11 @@ function Hero:castSK(skill,force)
     end
 end
 
-function Hero:cast(keyCode)
+function Hero:cast(keyCode,skillSubId)
     local skill = self:getSkill(keyCode)
     if skill and skill:isEnable() and skill ~= self.skill then
         -- print("cast keyCode:",keyCode)
-        return self:castSK(skill)
+        return self:castSK(skill,false,skillSubId)
     end
     if not skill then
         --_print(""..self:getName().."没有skill "..tostring(keyCode))
@@ -4560,7 +4588,7 @@ function Hero:castByType(skillType)
 end
 
 --有按键输入
-function Hero:onKeyEvent(keyCode)
+function Hero:onKeyEvent(keyCode,skillSubId)
     --TODO 处理的不科学
     if battleController.isClearing then --战斗结束 不再处理案件响应
         return
@@ -4569,10 +4597,10 @@ function Hero:onKeyEvent(keyCode)
     if skill then
         if self.skill then
             if self.skill:getKeyCode() ~= keyCode and skill:checkLevel(self.skill:getLevel())  then
-                return self:cast(keyCode)
+                return self:cast(keyCode,skillSubId)
             end
         else
-            return self:cast(keyCode)
+            return self:cast(keyCode,skillSubId)
         end
     end
 end
@@ -6338,6 +6366,20 @@ function Hero:getLockHp()
     for i = 10, 1,-1 do
         if self:isAState(200 + i) then
             return self:getMaxHp()* i * 0.1
+        end
+    end
+    return 0
+end
+
+function Hero:getLimitHp()
+    for i = 9, 1,-1 do
+        if self:isAState(300 + i) then
+            return i * 10
+        end
+    end
+    for i = 5, 1,-1 do
+        if self:isAState(310 + i) then
+            return i * i * 100
         end
     end
     return 0

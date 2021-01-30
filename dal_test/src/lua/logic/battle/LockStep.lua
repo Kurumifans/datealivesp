@@ -480,7 +480,7 @@ function LockStep.excuteFrameData(data)
                 local hero = battleController.getPlayer(id)
                 if hero then
                     hero:fix(operate.posX, operate.posY ,operate.dir, operate.hp)
-                    hero:createAndPush(keyCode, LockStep.trans2String(keyEvent))
+                    hero:createAndPush(keyCode, LockStep.trans2String(keyEvent),keyEventEx)
                 end
             end
         end
@@ -649,7 +649,11 @@ end
 function LockStep:onRevPong(event)
     local data  = event.data
     local time  = data.time --服务器时间
-    LockStep.sendFightPing(time)
+    if tonumber(time) then
+        LockStep.sendFightPing(time)
+    else
+        LockStep.sendFightPing(tostring(ServerDataMgr:getServerTime()))
+    end
     -- dump(data)
     if data.data then
         this.netDelayTimes = {}
@@ -1120,7 +1124,7 @@ function LockStep:isValidKey(keyCode)
     return true
 end
 
-function LockStep:createAndPush(keyCode,eventType)
+function LockStep:createAndPush(keyCode,eventType,skillSubId)
     -- print("Input key:", keyCode," event:",eventType)
     if this.isAllowInput() then
         local posX =  0
@@ -1133,7 +1137,7 @@ function LockStep:createAndPush(keyCode,eventType)
 
 
         if hero then
-            hero:createAndPush(keyCode, eventType)
+            hero:createAndPush(keyCode, eventType,skillSubId)
             local pos3D  = hero:getPosition3D()
             posX =  math.abs(pos3D.x)
             posY =  math.abs(pos3D.y)

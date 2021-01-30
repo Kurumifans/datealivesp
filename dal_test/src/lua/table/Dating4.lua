@@ -57,6 +57,20 @@ return {
         name = "1",
         id = 749058031,
     },
+    [10013007] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10013008,
+        },
+        id = 10013007,
+        text = "是汉服哟，看起来还不错吧？",
+        condition = {
+        },
+        scriptId = 10013,
+        name = "时崎狂三",
+        datingType = 2,
+        voice = "sound/role/kuangsan/KURUMI_139.mp3",
+    },
     [749059055] = {
         textShowType = 1,
         id = 749059055,
@@ -76,6 +90,18 @@ return {
         modelId3 = 411306,
         roleShowType3 = 2,
         roleScale3 = 0.8,
+    },
+    [10013003] = {
+        scriptId = 10013,
+        textShowType = 1,
+        jump = {
+            [1] = 10013004,
+        },
+        id = 10013003,
+        text = "本来约好要一起放烟花的，在路上却突然发短信要我来这家店铺……",
+        condition = {
+        },
+        datingType = 2,
     },
     [749060079] = {
         action2 = "id_normal_6",
@@ -1834,6 +1860,25 @@ return {
         },
         id = 749058048,
     },
+    [10010014] = {
+        textShowType = 1,
+        appear = "3",
+        autoJump = true,
+        text = " ",
+        condition = {
+        },
+        isVisibleUI = 1,
+        cg = "cg_chunjie2021_1",
+        id = 10010014,
+        jump = {
+            [1] = 10010015,
+        },
+        datingType = 2,
+        scriptId = 10010,
+        effectId = {
+            [1] = 1,
+        },
+    },
     [749059072] = {
         textShowType = 1,
         jump = {
@@ -1846,6 +1891,18 @@ return {
         scriptId = 749059,
         name = "1",
         id = 749059072,
+    },
+    [10010004] = {
+        scriptId = 10010,
+        textShowType = 1,
+        jump = {
+            [1] = 10010005,
+        },
+        id = 10010004,
+        text = "明天就是新的一年了，说好了今天大家要一起度过除夕来着……",
+        condition = {
+        },
+        datingType = 2,
     },
     [749056001] = {
         textShowType = 1,
@@ -1951,6 +2008,16 @@ return {
         },
         datingType = 20,
     },
+    [10013013] = {
+        textShowType = 1,
+        name = "1",
+        scriptId = 10013,
+        datingType = 2,
+        text = "嗯！一起去吧！",
+        condition = {
+        },
+        id = 10013013,
+    },
     [749056002] = {
         textShowType = 1,
         jump = {
@@ -2044,6 +2111,24 @@ return {
         name = "1",
         datingType = 20,
     },
+    [749058012] = {
+        action2 = "id_normal_1",
+        textShowType = 1,
+        jump = {
+            [1] = 749058013,
+        },
+        datingType = 20,
+        roleLipAnime = 2,
+        voice = "sound/role/zhenna/MANA_171.mp3",
+        modelId1 = 1,
+        scriptId = 749058,
+        name = "崇宫真那",
+        modelId2 = 1,
+        id = 749058012,
+        text = "嗯，交给我吧！",
+        condition = {
+        },
+    },
     [749059074] = {
         scriptId = 749059,
         textShowType = 1,
@@ -2055,6 +2140,20 @@ return {
         condition = {
         },
         datingType = 20,
+    },
+    [10013011] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10013012,
+        },
+        id = 10013011,
+        text = "新的一年……一起在烟花下许愿吧。",
+        condition = {
+        },
+        scriptId = 10013,
+        name = "时崎狂三",
+        datingType = 2,
+        voice = "sound/role/kuangsan/KURUMI_154.mp3",
     },
     [749056003] = {
         textShowType = 1,
@@ -2138,6 +2237,20 @@ return {
         bgTime = -1,
         datingType = 20,
     },
+    [10013010] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10013011,
+        },
+        id = 10013010,
+        text = "呵呵，和你一起去放烟花，当然要穿得隆重一些了。",
+        condition = {
+        },
+        scriptId = 10013,
+        name = "时崎狂三",
+        datingType = 2,
+        voice = "sound/role/kuangsan/KURUMI_150.mp3",
+    },
     [749059075] = {
         scriptId = 749059,
         textShowType = 1,
@@ -2149,6 +2262,18 @@ return {
         condition = {
         },
         datingType = 20,
+    },
+    [10013009] = {
+        scriptId = 10013,
+        textShowType = 1,
+        jump = {
+            [1] = 10013010,
+        },
+        id = 10013009,
+        text = "我这次注意到室内古色古香的装修风格，还有一排排琳琅满目的衣裙。",
+        condition = {
+        },
+        datingType = 2,
     },
     [749056004] = {
         textShowType = 1,
@@ -2225,6 +2350,19 @@ return {
         bgm = "sound/bgm/date_030.mp3",
         id = 749058052,
     },
+    [10013008] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10013009,
+        },
+        datingType = 2,
+        text = "真好看啊……原来是汉服店啊。",
+        condition = {
+        },
+        scriptId = 10013,
+        name = "1",
+        id = 10013008,
+    },
     [749059076] = {
         textShowType = 1,
         jump = {
@@ -2249,6 +2387,19 @@ return {
         autoJump = true,
         bgTime = -1,
         id = 749059076,
+    },
+    [10013006] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10013007,
+        },
+        datingType = 2,
+        text = "狂三……你穿的是……？",
+        condition = {
+        },
+        scriptId = 10013,
+        name = "1",
+        id = 10013006,
     },
     [749056005] = {
         textShowType = 1,
@@ -2330,6 +2481,20 @@ return {
         bgTime = -1,
         datingType = 20,
     },
+    [10013005] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10013006,
+        },
+        id = 10013005,
+        text = "啊啦，新年快乐~",
+        condition = {
+        },
+        scriptId = 10013,
+        name = "时崎狂三",
+        datingType = 2,
+        voice = "sound/role/kuangsan/KURUMI_121.mp3",
+    },
     [749059077] = {
         textShowType = 1,
         jump = {
@@ -2343,6 +2508,25 @@ return {
         scriptId = 749059,
         id = 749059077,
         autoJump = true,
+    },
+    [10013004] = {
+        textShowType = 1,
+        appear = "3",
+        autoJump = true,
+        text = " ",
+        condition = {
+        },
+        isVisibleUI = 1,
+        cg = "cg_chunjie2021_3",
+        id = 10013004,
+        jump = {
+            [1] = 10013005,
+        },
+        datingType = 2,
+        scriptId = 10013,
+        effectId = {
+            [1] = 1,
+        },
     },
     [749056006] = {
         textShowType = 1,
@@ -2422,6 +2606,24 @@ return {
         },
         id = 749058054,
     },
+    [749058004] = {
+        action2 = "id_normal_1",
+        textShowType = 1,
+        jump = {
+            [1] = 749058005,
+        },
+        datingType = 20,
+        roleLipAnime = 2,
+        voice = "sound/role/zhenna/MANA_150.mp3",
+        modelId1 = 1,
+        scriptId = 749058,
+        name = "崇宫真那",
+        modelId2 = 1,
+        id = 749058004,
+        text = "要玩桌游哦！",
+        condition = {
+        },
+    },
     [749059078] = {
         textShowType = 1,
         jump = {
@@ -2439,6 +2641,29 @@ return {
         id = 749059078,
         text = "折纸，你来了。",
         roleShowType1 = 2,
+    },
+    [10013001] = {
+        effectId = {
+            [1] = 1,
+        },
+        datingType = 2,
+        condition = {
+        },
+        isVisibleUI = 1,
+        scriptId = 10013,
+        autoJump = true,
+        textShowType = 1,
+        bgmSize = 70,
+        bgm = "sound/bgm/date_060.mp3",
+        id = 10013001,
+        text = " ",
+        jump = {
+            [1] = 10013002,
+        },
+        backGround = "scene/bg/bg_zhonghuajie.png",
+        appear = "1",
+        bgScale = 1.3,
+        bgTime = -1,
     },
     [749056007] = {
         textShowType = 1,
@@ -2524,6 +2749,15 @@ return {
         bgTime = -1,
         datingType = 20,
     },
+    [10012022] = {
+        scriptId = 10012,
+        textShowType = 1,
+        id = 10012022,
+        text = "旋转木马转动了起来……一片繁华的庆典现场，充满着欢声笑语。",
+        condition = {
+        },
+        datingType = 2,
+    },
     [749059079] = {
         textShowType = 1,
         jump = {
@@ -2541,6 +2775,25 @@ return {
         condition = {
         },
         name = "鸢一折纸",
+    },
+    [749059013] = {
+        action2 = "id_normal_12_kaixin",
+        textShowType = 1,
+        jump = {
+            [1] = 749059014,
+        },
+        id = 749059013,
+        roleLipAnime = 2,
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 749059,
+        name = "五河琴里",
+        modelId2 = 1,
+        datingType = 20,
+        modelId3 = 1,
+        text = "直到遇到了%s？",
+        voice = "sound/role/qinli/KOTORI_181.mp3",
     },
     [749056008] = {
         textShowType = 1,
@@ -2604,6 +2857,20 @@ return {
         },
         id = 749058056,
     },
+    [10010017] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010018,
+        },
+        id = 10010017,
+        text = "%s，你终于来了！快看！是熊猫啊！超可爱的……",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "夜刀神十香",
+        datingType = 2,
+        voice = "sound/role/shixiang/TOUKA_279.mp3",
+    },
     [749059080] = {
         textShowType = 1,
         jump = {
@@ -2618,6 +2885,19 @@ return {
         name = "1",
         id = 749059080,
     },
+    [10012019] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012020,
+        },
+        datingType = 2,
+        text = "等等……折纸你怎么也坐上来了！？",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "1",
+        id = 10012019,
+    },
     [749056009] = {
         textShowType = 1,
         jump = {
@@ -2630,6 +2910,20 @@ return {
         scriptId = 749056,
         name = "1",
         id = 749056009,
+    },
+    [10012018] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012019,
+        },
+        id = 10012018,
+        text = "嗯。",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "鸢一折纸",
+        datingType = 2,
+        voice = "sound/role/zhezhi/ORIGAMI_119.mp3",
     },
     [749057033] = {
         textShowType = 1,
@@ -2687,6 +2981,19 @@ return {
         bgTime = -1,
         datingType = 20,
     },
+    [10012017] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012018,
+        },
+        datingType = 2,
+        text = "谢谢，气球也是给我的吗？",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "1",
+        id = 10012017,
+    },
     [749059081] = {
         textShowType = 1,
         jump = {
@@ -2704,6 +3011,20 @@ return {
         condition = {
         },
     },
+    [10012016] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012017,
+        },
+        id = 10012016,
+        text = "这里有一个位置，%s。",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "鸢一折纸",
+        datingType = 2,
+        voice = "sound/role/zhezhi/ORIGAMI_86.mp3",
+    },
     [749056010] = {
         textShowType = 1,
         jump = {
@@ -2717,6 +3038,19 @@ return {
         name = "诱宵美九",
         datingType = 20,
         voice = "sound/role/meijiu/MIKU_192.mp3",
+    },
+    [10012015] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012016,
+        },
+        datingType = 2,
+        text = "旋转木马？",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "1",
+        id = 10012015,
     },
     [749057034] = {
         textShowType = 1,
@@ -2757,6 +3091,19 @@ return {
         },
         id = 749058058,
     },
+    [10010019] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010020,
+        },
+        datingType = 2,
+        text = "原来是熊猫形状的糯米团子啊，真可爱……",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "1",
+        id = 10010019,
+    },
     [749059082] = {
         textShowType = 1,
         jump = {
@@ -2770,6 +3117,19 @@ return {
         scriptId = 749059,
         name = "1",
         id = 749059082,
+    },
+    [10012013] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012014,
+        },
+        datingType = 2,
+        text = "美九，你小心一点。",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "1",
+        id = 10012013,
     },
     [749056011] = {
         textShowType = 1,
@@ -2795,6 +3155,30 @@ return {
         autoJump = true,
         bgTime = -1,
         id = 749056011,
+    },
+    [10012012] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012013,
+        },
+        id = 10012012,
+        text = "呀——！darling，这个好刺激呀~",
+        voice = "sound/role/meijiu/MIKU_189.mp3",
+        windowEffects = {
+            [1] = 4,
+        },
+        scriptId = 10012,
+        windowEfxPara = {
+            [1] = 0.1,
+            [2] = 7,
+            [3] = 9,
+            [4] = 5,
+            [5] = 0.024,
+        },
+        datingType = 2,
+        condition = {
+        },
+        name = "诱宵美九",
     },
     [749057035] = {
         textShowType = 1,
@@ -2830,6 +3214,19 @@ return {
         condition = {
         },
         id = 749058059,
+    },
+    [10012011] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012012,
+        },
+        datingType = 2,
+        text = "非常漂亮！你看……",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "1",
+        id = 10012011,
     },
     [749059083] = {
         textShowType = 1,
@@ -2873,6 +3270,20 @@ return {
         name = "1",
         id = 749056012,
     },
+    [10012010] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012011,
+        },
+        id = 10012010,
+        text = "呵呵，那……拍得怎么样？",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "时崎狂三",
+        datingType = 2,
+        voice = "sound/role/kuangsan/KURUMI_150.mp3",
+    },
     [749057036] = {
         effectId = {
             [1] = 1,
@@ -2899,6 +3310,19 @@ return {
         appear = "12",
         bgTime = -1,
     },
+    [10012009] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012010,
+        },
+        datingType = 2,
+        text = "狂三……抱歉！我只是觉得这样正好……",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "1",
+        id = 10012009,
+    },
     [749058060] = {
         textShowType = 1,
         effectId = {
@@ -2918,6 +3342,20 @@ return {
         autoJump = true,
         bgTime = -1,
         datingType = 20,
+    },
+    [10012008] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012009,
+        },
+        id = 10012008,
+        text = "啊啦啊啦，好像不小心把我也拍进去了呢~",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "时崎狂三",
+        datingType = 2,
+        voice = "sound/role/kuangsan/KURUMI_121.mp3",
     },
     [749059084] = {
         textShowType = 1,
@@ -2959,6 +3397,18 @@ return {
         name = "1",
         id = 749056013,
     },
+    [10012007] = {
+        scriptId = 10012,
+        textShowType = 1,
+        jump = {
+            [1] = 10012008,
+        },
+        id = 10012007,
+        text = "话音未落，一簇烟花冲上天际绽放，映照出十香眼里的星光。我按下了拍照按钮。",
+        condition = {
+        },
+        datingType = 2,
+    },
     [749057037] = {
         action2 = "id_normal_1",
         roleLocation1 = 1,
@@ -2986,6 +3436,19 @@ return {
         roleScale1 = 1.3,
         text = "你你你是从哪里冒出来的，鸢一折纸！",
     },
+    [10012006] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012007,
+        },
+        datingType = 2,
+        text = "稍等一下，我在等烟花哦！",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "1",
+        id = 10012006,
+    },
     [749058061] = {
         textShowType = 1,
         scriptId = 749058,
@@ -2997,6 +3460,24 @@ return {
         condition = {
         },
         id = 749058061,
+    },
+    [749059014] = {
+        textShowType = 1,
+        jump = {
+            [1] = 749059015,
+        },
+        datingType = 20,
+        text = "那、那个是意外啦！而且最后结局还不错所以——",
+        voice = "sound/role/qizui/qizui_151.mp3",
+        modelId1 = 1,
+        scriptId = 749059,
+        name = "七罪",
+        action1 = "id_normal_3",
+        id = 749059014,
+        modelId3 = 1,
+        condition = {
+        },
+        modelId2 = 1,
     },
     [749059085] = {
         textShowType = 1,
@@ -3049,6 +3530,18 @@ return {
         datingType = 20,
         voice = "sound/role/meijiu/MIKU_168.mp3",
     },
+    [10010018] = {
+        scriptId = 10010,
+        textShowType = 1,
+        jump = {
+            [1] = 10010019,
+        },
+        id = 10010018,
+        text = "被十香小心翼翼捧在手心的是……",
+        condition = {
+        },
+        datingType = 2,
+    },
     [749057038] = {
         textShowType = 1,
         jump = {
@@ -3064,6 +3557,25 @@ return {
         modelId2 = 1,
         datingType = 20,
     },
+    [10012003] = {
+        textShowType = 1,
+        appear = "3",
+        autoJump = true,
+        text = " ",
+        condition = {
+        },
+        isVisibleUI = 1,
+        cg = "cg_chunjie2021_2",
+        id = 10012003,
+        jump = {
+            [1] = 10012004,
+        },
+        datingType = 2,
+        scriptId = 10012,
+        effectId = {
+            [1] = 1,
+        },
+    },
     [749058062] = {
         textShowType = 1,
         scriptId = 749058,
@@ -3075,6 +3587,20 @@ return {
         condition = {
         },
         id = 749058062,
+    },
+    [10012002] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012003,
+        },
+        datingType = 2,
+        text = "在大家的努力下，中华街终于恢复了。赶在烟花绽放之前，我们终于来到了乐园中心。",
+        condition = {
+        },
+        scriptId = 10012,
+        bgmSize = 70,
+        bgm = "sound/bgm/date_052.mp3",
+        id = 10012002,
     },
     [749059086] = {
         effectId = {
@@ -3134,6 +3660,27 @@ return {
         },
         datingType = 20,
     },
+    [10012001] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012002,
+        },
+        bgScale = 1.3,
+        text = " ",
+        condition = {
+        },
+        isVisibleUI = 1,
+        appear = "1",
+        scriptId = 10012,
+        backGround = "scene/bg/bg_zhonghuajie.png",
+        effectId = {
+            [1] = 1,
+        },
+        datingType = 2,
+        id = 10012001,
+        bgTime = -1,
+        autoJump = true,
+    },
     [749057039] = {
         textShowType = 1,
         jump = {
@@ -3147,6 +3694,17 @@ return {
         scriptId = 749057,
         modelId2 = 1,
         datingType = 20,
+    },
+    [10011033] = {
+        textShowType = 1,
+        datingType = 2,
+        text = " ",
+        condition = {
+        },
+        isVisibleUI = 1,
+        scriptId = 10011,
+        id = 10011033,
+        autoJump = true,
     },
     [749058063] = {
         textShowType = 1,
@@ -3167,6 +3725,20 @@ return {
         autoJump = true,
         bgTime = -1,
         datingType = 20,
+    },
+    [10011032] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011033,
+        },
+        datingType = 2,
+        text = " ",
+        condition = {
+        },
+        isVisibleUI = 1,
+        scriptId = 10011,
+        id = 10011032,
+        dialogScriptId = 100381,
     },
     [749059087] = {
         scriptId = 749059,
@@ -3206,6 +3778,20 @@ return {
         name = "1",
         id = 749056016,
     },
+    [10011006] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011007,
+        },
+        datingType = 2,
+        text = "中国公司啊……说起来中国年也快到了吧。",
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "1",
+        id = 10011006,
+    },
     [749057040] = {
         textShowType = 1,
         jump = {
@@ -3221,6 +3807,29 @@ return {
         modelId2 = 1,
         datingType = 20,
     },
+    [10011002] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011003,
+        },
+        id = 10011002,
+        text = "这里……竟然是中华街！？太豪华了吧！",
+        condition = {
+        },
+        windowEffects = {
+            [1] = 4,
+        },
+        scriptId = 10011,
+        name = "1",
+        datingType = 2,
+        windowEfxPara = {
+            [1] = 0.1,
+            [2] = 7,
+            [3] = 9,
+            [4] = 5,
+            [5] = 0.024,
+        },
+    },
     [749058064] = {
         textShowType = 1,
         scriptId = 749058,
@@ -3232,6 +3841,21 @@ return {
         condition = {
         },
         id = 749058064,
+    },
+    [10011012] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011013,
+        },
+        id = 10011012,
+        text = "四糸乃想去参加猜灯谜活动吗？我带你去吧！",
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "1",
+        modelId2 = 1,
+        datingType = 2,
     },
     [749059088] = {
         textShowType = 1,
@@ -3285,6 +3909,25 @@ return {
         bgTime = -1,
         id = 749056017,
     },
+    [10011031] = {
+        textShowType = 1,
+        bgm = "sound/bgm/dafuweng_main.mp3",
+        autoJump = true,
+        text = " ",
+        condition = {
+        },
+        isVisibleUI = 1,
+        jump = {
+            [1] = 10011032,
+        },
+        scriptId = 10011,
+        bgmSize = 70,
+        appear = "2",
+        datingType = 2,
+        backGround = "scene/bg/bg_touming.png",
+        bgTime = -1,
+        id = 10011031,
+    },
     [749057041] = {
         action2 = "id_normal_7",
         textShowType = 1,
@@ -3302,6 +3945,21 @@ return {
         text = "你记错了，你是因为看到了我才坐在这里的。",
         condition = {
         },
+    },
+    [10011030] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011031,
+        },
+        id = 10011030,
+        text = " ",
+        roleDisaprType1 = 3,
+        isVisibleUI = 1,
+        scriptId = 10011,
+        datingType = 2,
+        condition = {
+        },
+        autoJump = true,
     },
     [749058065] = {
         textShowType = 1,
@@ -3322,6 +3980,24 @@ return {
         autoJump = true,
         bgTime = -1,
         datingType = 20,
+    },
+    [749060020] = {
+        textShowType = 1,
+        jump = {
+            [1] = 749060021,
+        },
+        datingType = 20,
+        roleLipAnime = 1,
+        voice = "sound/role/meijiu/MIKU_200.mp3",
+        modelId1 = 1,
+        scriptId = 749060,
+        name = "诱宵美九",
+        modelId2 = 1,
+        id = 749060020,
+        modelId3 = 1,
+        text = "哎……",
+        condition = {
+        },
     },
     [749059089] = {
         textShowType = 1,
@@ -3371,6 +4047,23 @@ return {
         name = "1",
         id = 749056018,
     },
+    [10011028] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011029,
+        },
+        datingType = 2,
+        text = "为了大家的约会，一起努力想办法吧！",
+        voice = "sound/role/qinli/KOTORI_153.mp3",
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "五河琴里",
+        action1 = "id_normal_1",
+        id = 10011028,
+        roleLipAnime = 1,
+        condition = {
+        },
+    },
     [749057042] = {
         textShowType = 1,
         jump = {
@@ -3389,6 +4082,26 @@ return {
         voice = "sound/role/shixiang/TOUKA_164.mp3",
         modelId2 = 1,
     },
+    [10011027] = {
+        textShowType = 1,
+        roleLocation1 = 2,
+        jump = {
+            [1] = 10011028,
+        },
+        datingType = 2,
+        roleScale1 = 1.3,
+        voice = "sound/role/qinli/KOTORI_294.mp3",
+        modelId1 = 410505,
+        id = 10011027,
+        scriptId = 10011,
+        name = "五河琴里",
+        action1 = "id_normal_9",
+        text = "必须想办法恢复建筑，并且击败年兽才行。",
+        condition = {
+        },
+        roleLipAnime = 1,
+        roleShowType1 = 3,
+    },
     [749058066] = {
         textShowType = 1,
         scriptId = 749058,
@@ -3400,6 +4113,21 @@ return {
         condition = {
         },
         id = 749058066,
+    },
+    [10011026] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011027,
+        },
+        id = 10011026,
+        text = " ",
+        roleDisaprType1 = 3,
+        isVisibleUI = 1,
+        scriptId = 10011,
+        datingType = 2,
+        condition = {
+        },
+        autoJump = true,
     },
     [749059090] = {
         textShowType = 1,
@@ -3449,6 +4177,29 @@ return {
         roleLocation3 = 6,
         roleScale3 = 0.8,
     },
+    [10011025] = {
+        action2 = "id_normal_6",
+        datingType = 2,
+        voice = "sound/role/sisinai/YOSHINO_101.mp3",
+        roleDisaprType2 = 3,
+        scriptId = 10011,
+        roleScale2 = 1.3,
+        face2 = "0",
+        textShowType = 1,
+        roleShowType2 = 3,
+        jump = {
+            [1] = 10011026,
+        },
+        id = 10011025,
+        text = "需要……帮忙吗？",
+        modelId1 = 1,
+        name = "四糸乃",
+        modelId2 = 410303,
+        roleLocation2 = 5,
+        condition = {
+        },
+        roleLipAnime = 2,
+    },
     [749057043] = {
         action2 = "id_normal_10",
         textShowType = 1,
@@ -3466,6 +4217,28 @@ return {
         text = "是嘛？我不介意谁先谁后，夜刀神十香。比起这种事情——",
         condition = {
         },
+    },
+    [10011024] = {
+        roleLocation1 = 4,
+        datingType = 2,
+        condition = {
+        },
+        scriptId = 10011,
+        roleShowType1 = 3,
+        textShowType = 1,
+        jump = {
+            [1] = 10011025,
+        },
+        id = 10011024,
+        roleScale1 = 1.3,
+        modelId1 = 410107,
+        roleDisaprType1 = 3,
+        name = "夜刀神十香",
+        modelId2 = 1,
+        text = "什么？意思是中华料理没有了吗？",
+        action1 = "id_normal_3",
+        roleLipAnime = 1,
+        voice = "sound/role/shixiang/TOUKA_191.mp3",
     },
     [749058067] = {
         textShowType = 1,
@@ -3486,6 +4259,25 @@ return {
         autoJump = true,
         bgTime = -1,
         datingType = 20,
+    },
+    [10011023] = {
+        action2 = "id_normal_10",
+        textShowType = 1,
+        jump = {
+            [1] = 10011024,
+        },
+        datingType = 2,
+        roleLipAnime = 2,
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "五河琴里",
+        modelId2 = 1,
+        id = 10011023,
+        face2 = "0",
+        text = "马上确认毁坏的情况！真是的……这下乐园计划泡汤了……",
+        voice = "sound/role/qinli/KOTORI_148.mp3",
     },
     [749059091] = {
         effectId = {
@@ -3546,6 +4338,24 @@ return {
         roleLocation3 = 6,
         roleScale3 = 0.8,
     },
+    [10011022] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011023,
+        },
+        datingType = 2,
+        roleLipAnime = 1,
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "神无月",
+        action1 = "id_normal_3",
+        id = 10011022,
+        text = "是的，每年春节，这些神秘的生物都会来破坏人间。",
+        voice = "sound/role/shenwuyue/shenwuyue_5.mp3",
+        modelId2 = 1,
+    },
     [749057044] = {
         textShowType = 1,
         jump = {
@@ -3560,6 +4370,21 @@ return {
         modelId2 = 1,
         datingType = 20,
     },
+    [10011021] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011022,
+        },
+        id = 10011021,
+        text = "我记得，是[年兽]吧！它们又来搞破坏了！",
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "1",
+        modelId2 = 1,
+        datingType = 2,
+    },
     [749058068] = {
         textShowType = 1,
         scriptId = 749058,
@@ -3571,6 +4396,24 @@ return {
         condition = {
         },
         id = 749058068,
+    },
+    [10011020] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011021,
+        },
+        datingType = 2,
+        roleLipAnime = 1,
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "神无月",
+        action1 = "id_normal_2",
+        id = 10011020,
+        text = "不，并不是新精灵。而是一群……像狮子又像兔子的生物。",
+        voice = "sound/role/shenwuyue/shenwuyue_16.mp3",
+        modelId2 = 1,
     },
     [749059092] = {
         textShowType = 1,
@@ -3623,6 +4466,25 @@ return {
         datingType = 20,
         voice = "sound/role/meijiu/MIKU_169.mp3",
     },
+    [10011019] = {
+        action2 = "id_normal_8",
+        textShowType = 1,
+        jump = {
+            [1] = 10011020,
+        },
+        datingType = 2,
+        roleLipAnime = 2,
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "五河琴里",
+        modelId2 = 1,
+        id = 10011019,
+        face2 = "0",
+        text = "被破坏？难道是有精灵现世！？",
+        voice = "sound/role/qinli/KOTORI_300.mp3",
+    },
     [749057045] = {
         action2 = "id_normal_1",
         datingType = 20,
@@ -3645,6 +4507,28 @@ return {
         voice = "sound/role/zhezhi/ORIGAMI_92.mp3",
         text = "这种时候，“距离”才是关键呢。",
     },
+    [10011018] = {
+        roleLocation1 = 4,
+        datingType = 2,
+        condition = {
+        },
+        scriptId = 10011,
+        roleShowType1 = 3,
+        textShowType = 1,
+        jump = {
+            [1] = 10011019,
+        },
+        id = 10011018,
+        roleScale1 = 1.3,
+        modelId1 = 30501,
+        roleDisaprType1 = 3,
+        name = "神无月",
+        modelId2 = 1,
+        text = "报告司令——！大事不妙了！监测到中华乐园的建筑被破坏了！",
+        action1 = "id_normal_11",
+        roleLipAnime = 1,
+        voice = "sound/role/shenwuyue/shenwuyue_20.mp3",
+    },
     [749058069] = {
         textShowType = 1,
         effectId = {
@@ -3664,6 +4548,35 @@ return {
         autoJump = true,
         bgTime = -1,
         datingType = 20,
+    },
+    [10011017] = {
+        action2 = "id_normal_2",
+        datingType = 2,
+        voice = "sound/role/qinli/KOTORI_177.mp3",
+        windowEffects = {
+            [1] = 4,
+        },
+        scriptId = 10011,
+        windowEfxPara = {
+            [1] = 0.1,
+            [2] = 7,
+            [3] = 9,
+            [4] = 5,
+            [5] = 0.024,
+        },
+        face2 = "0",
+        textShowType = 1,
+        jump = {
+            [1] = 10011018,
+        },
+        id = 10011017,
+        text = "怎么了！？",
+        modelId1 = 1,
+        name = "五河琴里",
+        modelId2 = 1,
+        condition = {
+        },
+        roleLipAnime = 2,
     },
     [749059093] = {
         textShowType = 1,
@@ -3706,6 +4619,21 @@ return {
         name = "1",
         id = 749056022,
     },
+    [10011016] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011017,
+        },
+        datingType = 2,
+        text = "此时屏幕突然一片雪花，热闹的乐园场景消失不见了。",
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 10011,
+        modelId2 = 1,
+        id = 10011016,
+        action1 = "id_normal_2",
+    },
     [749057046] = {
         textShowType = 1,
         jump = {
@@ -3724,6 +4652,25 @@ return {
         voice = "sound/role/shixiang/TOUKA_183.mp3",
         modelId2 = 1,
     },
+    [10011015] = {
+        action2 = "id_normal_8",
+        textShowType = 1,
+        jump = {
+            [1] = 10011016,
+        },
+        datingType = 2,
+        roleLipAnime = 2,
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "五河琴里",
+        modelId2 = 1,
+        id = 10011015,
+        face2 = "0",
+        text = "咳咳，还是先完成你的约会再说吧。我这就把大家传送过去……",
+        voice = "sound/role/qinli/KOTORI_289.mp3",
+    },
     [749058070] = {
         textShowType = 1,
         scriptId = 749058,
@@ -3735,6 +4682,21 @@ return {
         condition = {
         },
         id = 749058070,
+    },
+    [10011014] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011015,
+        },
+        id = 10011014,
+        text = "琴里会来的吧？我们一起看烟花。",
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "1",
+        modelId2 = 1,
+        datingType = 2,
     },
     [749059094] = {
         textShowType = 1,
@@ -3789,6 +4751,25 @@ return {
         bgTime = -1,
         autoJump = true,
     },
+    [749060022] = {
+        textShowType = 1,
+        jump = {
+            [1] = 749060023,
+        },
+        id = 749060022,
+        text = "提议。我们找专家咨询一下这个问题如何？",
+        voice = "sound/role/xixian/YUZURU_S_89.mp3",
+        modelId1 = 1,
+        datingType = 20,
+        scriptId = 749060,
+        name = "八舞夕弦",
+        modelId2 = 1,
+        roleLipAnime = 3,
+        modelId3 = 1,
+        condition = {
+        },
+        action3 = "id_normal_9",
+    },
     [749057047] = {
         textShowType = 1,
         jump = {
@@ -3802,6 +4783,28 @@ return {
         scriptId = 749057,
         modelId2 = 1,
         datingType = 20,
+    },
+    [10011011] = {
+        roleLocation1 = 4,
+        datingType = 2,
+        condition = {
+        },
+        scriptId = 10011,
+        roleShowType1 = 3,
+        textShowType = 1,
+        jump = {
+            [1] = 10011012,
+        },
+        id = 10011011,
+        roleScale1 = 1.3,
+        modelId1 = 410303,
+        roleDisaprType1 = 3,
+        name = "四糸乃",
+        modelId2 = 1,
+        text = "传统活动……是猜灯谜吗？",
+        action1 = "id_normal_10",
+        roleLipAnime = 1,
+        voice = "sound/role/sisinai/YOSHINO_173.mp3",
     },
     [749058071] = {
         textShowType = 1,
@@ -3827,6 +4830,24 @@ return {
         autoJump = true,
         bgTime = -1,
         id = 749058071,
+    },
+    [10011010] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011011,
+        },
+        datingType = 2,
+        roleLipAnime = 1,
+        condition = {
+        },
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "夜刀神十香",
+        action1 = "id_normal_6",
+        id = 10011010,
+        text = "太棒了！好久没有吃到中华料理了，我太想念那个美味了。",
+        voice = "sound/role/shixiang/TOUKA_135.mp3",
+        modelId2 = 1,
     },
     [749059095] = {
         textShowType = 1,
@@ -3869,6 +4890,28 @@ return {
         name = "1",
         id = 749056024,
     },
+    [10011009] = {
+        action2 = "id_normal_6",
+        datingType = 2,
+        condition = {
+        },
+        scriptId = 10011,
+        roleScale2 = 1.3,
+        face2 = "0",
+        textShowType = 1,
+        roleShowType2 = 3,
+        jump = {
+            [1] = 10011010,
+        },
+        id = 10011009,
+        roleLipAnime = 2,
+        modelId1 = 1,
+        name = "五河琴里",
+        modelId2 = 410505,
+        roleLocation2 = 5,
+        voice = "sound/role/qinli/KOTORI_295.mp3",
+        text = "当然，作为辞旧迎新的重大节日，不仅有美食，还有很多传统活动呢！",
+    },
     [749057048] = {
         textShowType = 1,
         jump = {
@@ -3886,6 +4929,27 @@ return {
         condition = {
         },
     },
+    [10011008] = {
+        roleLocation1 = 4,
+        datingType = 2,
+        action1 = "id_normal_2",
+        condition = {
+        },
+        scriptId = 10011,
+        roleShowType1 = 3,
+        roleScale1 = 1.3,
+        textShowType = 1,
+        jump = {
+            [1] = 10011009,
+        },
+        id = 10011008,
+        text = "唔姆？有好吃的吗？",
+        modelId1 = 410107,
+        name = "夜刀神十香",
+        roleLipAnime = 1,
+        voice = "sound/role/shixiang/TOUKA_196.mp3",
+        roleDisaprType1 = 3,
+    },
     [749058072] = {
         textShowType = 1,
         scriptId = 749058,
@@ -3897,6 +4961,22 @@ return {
         condition = {
         },
         id = 749058072,
+    },
+    [10011007] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011008,
+        },
+        id = 10011007,
+        text = "是啊，乐园现在正在进行中国年的庆典活动，你带着精灵们去看看吧。",
+        voice = "sound/role/qinli/KOTORI_157.mp3",
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "五河琴里",
+        action1 = "id_normal_1",
+        datingType = 2,
+        condition = {
+        },
     },
     [749055001] = {
         textShowType = 1,
@@ -3952,6 +5032,22 @@ return {
         name = "1",
         id = 749056025,
     },
+    [10011005] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10011006,
+        },
+        datingType = 2,
+        text = "现在的中华街已经蜕变成一座豪华乐园了！",
+        voice = "sound/role/qinli/KOTORI_156.mp3",
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "五河琴里",
+        condition = {
+        },
+        id = 10011005,
+        roleLipAnime = 1,
+    },
     [749057049] = {
         textShowType = 1,
         roleLocation1 = 4,
@@ -3971,6 +5067,26 @@ return {
         action1 = "id_normal_8_xiufen",
         roleShowType1 = 2,
     },
+    [10011004] = {
+        textShowType = 1,
+        roleLocation1 = 2,
+        jump = {
+            [1] = 10011005,
+        },
+        datingType = 2,
+        roleScale1 = 1.3,
+        voice = "sound/role/qinli/KOTORI_164.mp3",
+        modelId1 = 410505,
+        id = 10011004,
+        scriptId = 10011,
+        name = "五河琴里",
+        action1 = "id_normal_12",
+        text = "是真的哦。在某个神秘的中国公司的注资下，还有拉塔托斯克的协助下，中华街区进行了大改造。",
+        condition = {
+        },
+        roleLipAnime = 1,
+        roleShowType1 = 3,
+    },
     [749058073] = {
         textShowType = 1,
         jump = {
@@ -3983,6 +5099,25 @@ return {
         scriptId = 749058,
         name = "1",
         datingType = 20,
+    },
+    [749060023] = {
+        textShowType = 1,
+        jump = {
+            [1] = 749060024,
+        },
+        id = 749060023,
+        text = "这个提案不错呢，那，有想到什么合适的人选嘛？",
+        voice = "sound/role/meijiu/MIKU_212.mp3",
+        modelId1 = 1,
+        datingType = 20,
+        scriptId = 749060,
+        name = "诱宵美九",
+        action1 = "id_normal_12",
+        roleLipAnime = 1,
+        modelId3 = 1,
+        condition = {
+        },
+        modelId2 = 1,
     },
     [749055002] = {
         textShowType = 1,
@@ -4027,6 +5162,34 @@ return {
         datingType = 20,
         voice = "sound/role/meijiu/MIKU_168.mp3",
     },
+    [10011001] = {
+        effectId = {
+            [1] = 1058,
+            [2] = 1059,
+        },
+        datingType = 2,
+        condition = {
+        },
+        isVisibleUI = 1,
+        scriptId = 10011,
+        autoJump = true,
+        layerBelongTo = {
+            [1] = 3,
+            [2] = 1,
+        },
+        textShowType = 1,
+        id = 10011001,
+        appear = "1",
+        bgScale = 1.3,
+        text = " ",
+        bgm = "sound/bgm/date_021.mp3",
+        backGround = "scene/bg/bg_zhihuibu.png",
+        bgmSize = 70,
+        jump = {
+            [1] = 10011002,
+        },
+        bgTime = -1,
+    },
     [749057050] = {
         textShowType = 1,
         jump = {
@@ -4041,6 +5204,15 @@ return {
         name = "1",
         modelId2 = 1,
         datingType = 20,
+    },
+    [10010039] = {
+        scriptId = 10010,
+        textShowType = 1,
+        id = 10010039,
+        text = "爆竹声中一岁除，在点燃鞭炮之后，又是新的一年了。",
+        condition = {
+        },
+        datingType = 2,
     },
     [749058074] = {
         textShowType = 1,
@@ -4061,6 +5233,19 @@ return {
         autoJump = true,
         bgTime = -1,
         datingType = 20,
+    },
+    [10010038] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010039,
+        },
+        datingType = 2,
+        text = "嗯！",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "1",
+        id = 10010038,
     },
     [749055003] = {
         textShowType = 1,
@@ -4105,6 +5290,18 @@ return {
         name = "1",
         id = 749056027,
     },
+    [749061019] = {
+        scriptId = 749061,
+        textShowType = 1,
+        jump = {
+            [1] = 749061020,
+        },
+        id = 749061019,
+        text = "我赶忙收拾好东西，去往温泉。",
+        condition = {
+        },
+        datingType = 20,
+    },
     [749057051] = {
         action2 = "id_normal_6",
         textShowType = 1,
@@ -4123,6 +5320,19 @@ return {
         condition = {
         },
     },
+    [10010036] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010037,
+        },
+        datingType = 2,
+        text = "帅气吗……明白了，我也选一套好了。",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "1",
+        id = 10010036,
+    },
     [749058075] = {
         textShowType = 1,
         scriptId = 749058,
@@ -4134,6 +5344,20 @@ return {
         condition = {
         },
         id = 749058075,
+    },
+    [10010035] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010036,
+        },
+        id = 10010035,
+        text = "期待。%s穿上的效果一定非常帅气。",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "夕弦",
+        datingType = 2,
+        voice = "sound/role/xixian/YUZURU_S_67.mp3",
     },
     [749055004] = {
         textShowType = 1,
@@ -4176,6 +5400,20 @@ return {
         datingType = 20,
         voice = "sound/role/meijiu/MIKU_192.mp3",
     },
+    [10010034] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010035,
+        },
+        id = 10010034,
+        text = "哼哼，吾之眷属哟，请穿上属于汝的华服吧！",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "耶俱矢",
+        datingType = 2,
+        voice = "sound/role/yejushi/KAGUYA_96.mp3",
+    },
     [749057052] = {
         textShowType = 1,
         jump = {
@@ -4194,6 +5432,19 @@ return {
         voice = "sound/role/shixiang/TOUKA_191.mp3",
         modelId2 = 1,
     },
+    [10010033] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010034,
+        },
+        datingType = 2,
+        text = "绝对不要！",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "1",
+        id = 10010033,
+    },
     [749058076] = {
         textShowType = 1,
         jump = {
@@ -4206,6 +5457,20 @@ return {
         scriptId = 749058,
         name = "1",
         datingType = 20,
+    },
+    [10010032] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010033,
+        },
+        id = 10010032,
+        text = "呵呵，darling不要害羞嘛，反正不是第一次了。",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "诱宵美九",
+        datingType = 2,
+        voice = "sound/role/meijiu/MIKU_152.mp3",
     },
     [749055005] = {
         textShowType = 1,
@@ -4227,6 +5492,29 @@ return {
         roleLipAnime = 1,
         roleShowType1 = 2,
     },
+    [10010031] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010032,
+        },
+        id = 10010031,
+        text = "好的……不对，裙子！？",
+        condition = {
+        },
+        windowEffects = {
+            [1] = 4,
+        },
+        scriptId = 10010,
+        name = "1",
+        datingType = 2,
+        windowEfxPara = {
+            [1] = 0.1,
+            [2] = 7,
+            [3] = 9,
+            [4] = 5,
+            [5] = 0.024,
+        },
+    },
     [749056029] = {
         textShowType = 1,
         jump = {
@@ -4239,6 +5527,20 @@ return {
         scriptId = 749056,
         name = "1",
         id = 749056029,
+    },
+    [10010030] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010031,
+        },
+        id = 10010030,
+        text = "我也可以来帮忙挑选哦，darling~不如和我穿同款的裙子吧。",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "诱宵美九",
+        datingType = 2,
+        voice = "sound/role/meijiu/MIKU_117.mp3",
     },
     [749057053] = {
         effectId = {
@@ -4267,6 +5569,31 @@ return {
         },
         bgTime = -1,
     },
+    [749061020] = {
+        textShowType = 1,
+        jump = {
+            [1] = 749061021,
+        },
+        effectId = {
+            [1] = 1,
+        },
+        datingType = 20,
+        text = " ",
+        condition = {
+        },
+        isVisibleUI = 1,
+        appear = "5",
+        scriptId = 749061,
+        backGround = "scene/bg/bg_yuchang_dong.png",
+        bgScale = 1.6,
+        bgOffset = {
+            y = 0,
+            x = 340,
+        },
+        autoJump = true,
+        bgTime = -1,
+        id = 749061020,
+    },
     [749058077] = {
         textShowType = 1,
         effectId = {
@@ -4292,6 +5619,18 @@ return {
         bgTime = -1,
         id = 749058077,
     },
+    [10010028] = {
+        scriptId = 10010,
+        textShowType = 1,
+        jump = {
+            [1] = 10010029,
+        },
+        id = 10010028,
+        text = "四糸乃挥舞了一下手臂，果然四糸奈也穿着和四糸乃同款的新衣。",
+        condition = {
+        },
+        datingType = 2,
+    },
     [749055006] = {
         textShowType = 1,
         jump = {
@@ -4308,6 +5647,20 @@ return {
         id = 749055006,
         roleLipAnime = 1,
     },
+    [10010027] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010028,
+        },
+        id = 10010027,
+        text = "四糸奈也穿上了可爱的新衣服呢，%s哥哥当然也要。",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "四糸乃",
+        datingType = 2,
+        voice = "sound/role/sisinai/YOSHINO_136.mp3",
+    },
     [749056030] = {
         textShowType = 1,
         jump = {
@@ -4320,6 +5673,19 @@ return {
         scriptId = 749056,
         name = "1",
         id = 749056030,
+    },
+    [10010026] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010027,
+        },
+        datingType = 2,
+        text = "诶？我也要换吗？",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "1",
+        id = 10010026,
     },
     [749057054] = {
         action2 = "id_normal_5",
@@ -4350,6 +5716,20 @@ return {
         text = "啊啦，darling，被女孩子左拥右簇真是幸福呢，我可以参与吗？",
         modelId2 = 410303,
     },
+    [10010025] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010026,
+        },
+        id = 10010025,
+        text = "哦呀，小哥也要换衣服吧？",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "四糸奈",
+        datingType = 2,
+        voice = "sound/role/sisinai/YOSHINO_255.mp3",
+    },
     [749058078] = {
         textShowType = 1,
         jump = {
@@ -4363,6 +5743,20 @@ return {
         bgmSize = 70,
         bgm = "1",
         id = 749058078,
+    },
+    [10010024] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010025,
+        },
+        id = 10010024,
+        text = "放完鞭炮就可以吃饭了吧！",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "夜刀神十香",
+        datingType = 2,
+        voice = "sound/role/shixiang/TOUKA_149.mp3",
     },
     [749055007] = {
         effectId = {
@@ -4390,6 +5784,20 @@ return {
         appear = "12",
         bgTime = -1,
     },
+    [10010023] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010024,
+        },
+        id = 10010023,
+        text = "年夜饭就是要大鱼大肉才对嘛！说起来人都到齐了，可以去放鞭炮了吗？",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "七罪",
+        datingType = 2,
+        voice = "sound/role/qizui/qizui_113.mp3",
+    },
     [749056031] = {
         textShowType = 1,
         jump = {
@@ -4415,6 +5823,19 @@ return {
         bgTime = -1,
         id = 749056031,
     },
+    [10010022] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010023,
+        },
+        datingType = 2,
+        text = "今天的饭菜好丰盛啊！",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "1",
+        id = 10010022,
+    },
     [749057055] = {
         textShowType = 1,
         jump = {
@@ -4432,6 +5853,19 @@ return {
         condition = {
         },
     },
+    [749061021] = {
+        textShowType = 1,
+        jump = {
+            [1] = 749061022,
+        },
+        datingType = 20,
+        text = "呼……还好温泉还没关……说起来是九点就不再开放了吗？",
+        condition = {
+        },
+        scriptId = 749061,
+        name = "1",
+        id = 749061021,
+    },
     [749058079] = {
         textShowType = 1,
         scriptId = 749058,
@@ -4443,6 +5877,20 @@ return {
         condition = {
         },
         id = 749058079,
+    },
+    [10010020] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010021,
+        },
+        id = 10010020,
+        text = "%s，坐到我身边来，熊猫什么的，我这里还有很多。",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "鸢一折纸",
+        datingType = 2,
+        voice = "sound/role/zhezhi/ORIGAMI_155.mp3",
     },
     [749055008] = {
         action2 = "id_normal_1",
@@ -4469,6 +5917,20 @@ return {
         roleLipAnime = 1,
         text = "可惜，与“吾之半身”之间的对决只能放在决赛中了。",
     },
+    [10012014] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012015,
+        },
+        id = 10012014,
+        text = "哥哥，再不过来的话，旋转木马就要启动了哦~",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "五河琴里",
+        datingType = 2,
+        voice = "sound/role/qinli/KOTORI_275.mp3",
+    },
     [749056032] = {
         textShowType = 1,
         jump = {
@@ -4481,6 +5943,20 @@ return {
         scriptId = 749056,
         name = "鸢一折纸",
         id = 749056032,
+    },
+    [10012004] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012005,
+        },
+        id = 10012004,
+        text = "照好了吗？我手都酸了。",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "夜刀神十香",
+        datingType = 2,
+        voice = "sound/role/shixiang/TOUKA_149.mp3",
     },
     [749057056] = {
         textShowType = 1,
@@ -4501,6 +5977,20 @@ return {
         },
         action3 = "id_normal_9",
     },
+    [10012020] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10012021,
+        },
+        id = 10012020,
+        text = "因为，位置不够了。四糸乃和七罪占了最后的两个位置。",
+        condition = {
+        },
+        scriptId = 10012,
+        name = "鸢一折纸",
+        datingType = 2,
+        voice = "sound/role/zhezhi/ORIGAMI_167.mp3",
+    },
     [749058080] = {
         textShowType = 1,
         scriptId = 749058,
@@ -4512,6 +6002,20 @@ return {
         condition = {
         },
         id = 749058080,
+    },
+    [10010016] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010017,
+        },
+        id = 10010016,
+        text = "愣着干什么呀？快点进来，大家都在等着你呢。",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "五河琴里",
+        datingType = 2,
+        voice = "sound/role/qinli/KOTORI_131.mp3",
     },
     [749055009] = {
         textShowType = 1,
@@ -4529,6 +6033,18 @@ return {
         roleLipAnime = 2,
         condition = {
         },
+    },
+    [10010015] = {
+        scriptId = 10010,
+        textShowType = 1,
+        jump = {
+            [1] = 10010016,
+        },
+        id = 10010015,
+        text = "精灵们穿着带有中华元素的华丽服装，就像画中的谪仙一般。",
+        condition = {
+        },
+        datingType = 2,
     },
     [749056033] = {
         textShowType = 1,
@@ -4555,6 +6071,19 @@ return {
         bgTime = -1,
         id = 749056033,
     },
+    [10010013] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010014,
+        },
+        datingType = 2,
+        text = "不好意思，我来晚了！这是……",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "1",
+        id = 10010013,
+    },
     [749057057] = {
         action2 = "id_normal_8",
         textShowType = 1,
@@ -4573,6 +6102,18 @@ return {
         modelId3 = 1,
         text = "%s对面的位置还空着……唔……",
         voice = "sound/role/sisinai/YOSHINO_100.mp3",
+    },
+    [10010012] = {
+        scriptId = 10010,
+        textShowType = 1,
+        jump = {
+            [1] = 10010013,
+        },
+        id = 10010012,
+        text = "我忐忑地推开饭店的大门。",
+        condition = {
+        },
+        datingType = 2,
     },
     [749058081] = {
         textShowType = 1,
@@ -4593,6 +6134,18 @@ return {
         autoJump = true,
         bgTime = -1,
         datingType = 20,
+    },
+    [10010011] = {
+        scriptId = 10010,
+        textShowType = 1,
+        jump = {
+            [1] = 10010012,
+        },
+        id = 10010011,
+        text = "呼……呼……应该没有迟到吧……",
+        condition = {
+        },
+        datingType = 2,
     },
     [749055010] = {
         action2 = "id_normal_1",
@@ -4621,6 +6174,27 @@ return {
         voice = "sound/role/sisinai/YOSHINO_121.mp3",
         roleLipAnime = 1,
     },
+    [10010010] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010011,
+        },
+        bgScale = 1.3,
+        text = " ",
+        condition = {
+        },
+        isVisibleUI = 1,
+        appear = "1",
+        scriptId = 10010,
+        backGround = "scene/bg/bg_zhonghuajie.png",
+        effectId = {
+            [1] = 1,
+        },
+        datingType = 2,
+        id = 10010010,
+        bgTime = -1,
+        autoJump = true,
+    },
     [749056034] = {
         textShowType = 1,
         jump = {
@@ -4634,6 +6208,19 @@ return {
         name = "五河琴里",
         datingType = 20,
         voice = "sound/role/qinli/KOTORI_138.mp3",
+    },
+    [10010009] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010010,
+        },
+        datingType = 2,
+        text = "我、我马上来！",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "1",
+        id = 10010009,
     },
     [749057058] = {
         effectId = {
@@ -4663,6 +6250,22 @@ return {
         bgTime = -1,
         appear = "1",
     },
+    [10010008] = {
+        textShowType = 1,
+        phonePath = "effect/dianhua/dianhua",
+        datingType = 2,
+        text = "我已经在中华饭店定好房间了，一起来吃团年饭！",
+        voice = "sound/role/qinli/KOTORI_294.mp3",
+        phoneAction = "dianhua",
+        scriptId = 10010,
+        name = "五河琴里",
+        jump = {
+            [1] = 10010009,
+        },
+        id = 10010008,
+        condition = {
+        },
+    },
     [749058082] = {
         textShowType = 1,
         effectId = {
@@ -4683,6 +6286,19 @@ return {
         bgTime = -1,
         datingType = 20,
     },
+    [10010007] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010008,
+        },
+        datingType = 2,
+        text = "诶？都在等我？",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "1",
+        id = 10010007,
+    },
     [749055011] = {
         textShowType = 1,
         jump = {
@@ -4696,6 +6312,22 @@ return {
         name = "四糸奈",
         modelId2 = 1,
         id = 749055011,
+        condition = {
+        },
+    },
+    [10010006] = {
+        textShowType = 1,
+        phonePath = "effect/dianhua/dianhua",
+        datingType = 2,
+        text = "笨蛋哥哥，快点来中华街！大家都在等你了！",
+        voice = "sound/role/qinli/KOTORI_132.mp3",
+        phoneAction = "dianhua",
+        scriptId = 10010,
+        name = "五河琴里",
+        jump = {
+            [1] = 10010007,
+        },
+        id = 10010006,
         condition = {
         },
     },
@@ -4724,6 +6356,18 @@ return {
         bgTime = -1,
         id = 749056035,
     },
+    [749061022] = {
+        scriptId = 749061,
+        textShowType = 1,
+        jump = {
+            [1] = 749061023,
+        },
+        id = 749061022,
+        text = "我脱下衣服后，正走进温泉时——",
+        condition = {
+        },
+        datingType = 20,
+    },
     [749057059] = {
         roleLocation1 = 4,
         datingType = 20,
@@ -4747,6 +6391,19 @@ return {
         roleLocation2 = 5,
         action1 = "id_normal_9",
         roleLipAnime = 1,
+    },
+    [10010003] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010004,
+        },
+        datingType = 2,
+        text = "瑞雪兆丰年，是新年的好兆头呢。",
+        condition = {
+        },
+        scriptId = 10010,
+        name = "1",
+        id = 10010003,
     },
     [749058083] = {
         action2 = "id_normal_9",
@@ -4775,6 +6432,20 @@ return {
         roleScale1 = 1.3,
         text = "思考。我不相信，难道必须这么做了吗？",
     },
+    [10010002] = {
+        textShowType = 1,
+        jump = {
+            [1] = 10010003,
+        },
+        datingType = 2,
+        text = "窗外街道上薄薄地覆盖着一层雪，连成白茫茫一片。",
+        condition = {
+        },
+        scriptId = 10010,
+        bgmSize = 70,
+        bgm = "sound/bgm/date_052.mp3",
+        id = 10010002,
+    },
     [749055012] = {
         textShowType = 1,
         jump = {
@@ -4790,6 +6461,31 @@ return {
         modelId2 = 1,
         datingType = 20,
         text = "光是听到这句话就能感受到热情呢。嘛，能跟大家一起玩很开心。",
+    },
+    [749061023] = {
+        textShowType = 1,
+        jump = {
+            [1] = 749061024,
+        },
+        effectId = {
+            [1] = 1,
+        },
+        datingType = 20,
+        text = " ",
+        condition = {
+        },
+        isVisibleUI = 1,
+        appear = "12",
+        scriptId = 749061,
+        backGround = "scene/bg/bg_yuchang_dong.png",
+        bgScale = 1.1,
+        bgOffset = {
+            y = 0,
+            x = 0,
+        },
+        autoJump = true,
+        bgTime = -1,
+        id = 749061023,
     },
     [749056036] = {
         textShowType = 1,
@@ -6422,23 +8118,18 @@ return {
         bgTime = -1,
         appear = "3",
     },
-    [749058004] = {
-        action2 = "id_normal_1",
+    [10013002] = {
         textShowType = 1,
         jump = {
-            [1] = 749058005,
+            [1] = 10013003,
         },
-        datingType = 20,
-        roleLipAnime = 2,
-        voice = "sound/role/zhenna/MANA_150.mp3",
-        modelId1 = 1,
-        scriptId = 749058,
-        name = "崇宫真那",
-        modelId2 = 1,
-        id = 749058004,
-        text = "要玩桌游哦！",
+        datingType = 2,
+        text = "狂三说的地方……就是这里了吧。",
         condition = {
         },
+        scriptId = 10013,
+        name = "1",
+        id = 10013002,
     },
     [749055024] = {
         textShowType = 1,
@@ -6460,23 +8151,17 @@ return {
             [1] = 749055025,
         },
     },
-    [749058012] = {
-        action2 = "id_normal_1",
+    [10013012] = {
+        scriptId = 10013,
         textShowType = 1,
         jump = {
-            [1] = 749058013,
+            [1] = 10013013,
         },
-        datingType = 20,
-        roleLipAnime = 2,
-        voice = "sound/role/zhenna/MANA_171.mp3",
-        modelId1 = 1,
-        scriptId = 749058,
-        name = "崇宫真那",
-        modelId2 = 1,
-        id = 749058012,
-        text = "嗯，交给我吧！",
+        id = 10013012,
+        text = "狂三用扇子遮住微红的脸颊，我的心跳突然加速……",
         condition = {
         },
+        datingType = 2,
     },
     [749056048] = {
         roleLocation1 = 4,
@@ -8875,30 +10560,26 @@ return {
         text = "……",
         roleScale1 = 1.3,
     },
-    [749061023] = {
+    [10010001] = {
         textShowType = 1,
         jump = {
-            [1] = 749061024,
+            [1] = 10010002,
         },
-        effectId = {
-            [1] = 1,
-        },
-        datingType = 20,
+        bgScale = 1.3,
         text = " ",
         condition = {
         },
         isVisibleUI = 1,
-        appear = "12",
-        scriptId = 749061,
-        backGround = "scene/bg/bg_yuchang_dong.png",
-        bgScale = 1.1,
-        bgOffset = {
-            y = 0,
-            x = 0,
+        appear = "1",
+        scriptId = 10010,
+        backGround = "scene/bg/bg_ketingxin.png",
+        effectId = {
+            [1] = 1101,
         },
-        autoJump = true,
+        datingType = 2,
+        id = 10010001,
         bgTime = -1,
-        id = 749061023,
+        autoJump = true,
     },
     [749059136] = {
         textShowType = 1,
@@ -8921,17 +10602,17 @@ return {
         bgTime = -1,
         autoJump = true,
     },
-    [749061022] = {
-        scriptId = 749061,
+    [10010005] = {
+        scriptId = 10010,
         textShowType = 1,
         jump = {
-            [1] = 749061023,
+            [1] = 10010006,
         },
-        id = 749061022,
-        text = "我脱下衣服后，正走进温泉时——",
+        id = 10010005,
+        text = "可是……怎么家里都没有人！？都出去了吗？",
         condition = {
         },
-        datingType = 20,
+        datingType = 2,
     },
     [749056065] = {
         action2 = "id_normal_7",
@@ -8951,55 +10632,45 @@ return {
         condition = {
         },
     },
-    [749061021] = {
+    [10010021] = {
+        scriptId = 10010,
         textShowType = 1,
         jump = {
-            [1] = 749061022,
+            [1] = 10010022,
         },
-        datingType = 20,
-        text = "呼……还好温泉还没关……说起来是九点就不再开放了吗？",
+        id = 10010021,
+        text = "折纸指着桌上的一盘糯米团子，我这才发现满满的一桌的中华料理。",
         condition = {
         },
-        scriptId = 749061,
-        name = "1",
-        id = 749061021,
+        datingType = 2,
     },
-    [749061020] = {
+    [10010029] = {
         textShowType = 1,
         jump = {
-            [1] = 749061021,
+            [1] = 10010030,
         },
-        effectId = {
-            [1] = 1,
-        },
-        datingType = 20,
-        text = " ",
+        id = 10010029,
+        text = "啊啦，需要我来帮你挑选一下吗？",
         condition = {
         },
-        isVisibleUI = 1,
-        appear = "5",
-        scriptId = 749061,
-        backGround = "scene/bg/bg_yuchang_dong.png",
-        bgScale = 1.6,
-        bgOffset = {
-            y = 0,
-            x = 340,
-        },
-        autoJump = true,
-        bgTime = -1,
-        id = 749061020,
+        scriptId = 10010,
+        name = "时崎狂三",
+        datingType = 2,
+        voice = "sound/role/kuangsan/KURUMI_117.mp3",
     },
-    [749061019] = {
-        scriptId = 749061,
+    [10010037] = {
         textShowType = 1,
         jump = {
-            [1] = 749061020,
+            [1] = 10010038,
         },
-        id = 749061019,
-        text = "我赶忙收拾好东西，去往温泉。",
+        id = 10010037,
+        text = "别犹豫了，快点换上衣服，我们要出去放鞭炮了。",
         condition = {
         },
-        datingType = 20,
+        scriptId = 10010,
+        name = "五河琴里",
+        datingType = 2,
+        voice = "sound/role/qinli/KOTORI_289.mp3",
     },
     [749054018] = {
         textShowType = 1,
@@ -11106,24 +12777,17 @@ return {
         scriptId = 749053,
         id = 749053009,
     },
-    [749060023] = {
+    [10011003] = {
+        scriptId = 10011,
         textShowType = 1,
         jump = {
-            [1] = 749060024,
+            [1] = 10011004,
         },
-        id = 749060023,
-        text = "这个提案不错呢，那，有想到什么合适的人选嘛？",
-        voice = "sound/role/meijiu/MIKU_212.mp3",
-        modelId1 = 1,
-        datingType = 20,
-        scriptId = 749060,
-        name = "诱宵美九",
-        action1 = "id_normal_12",
-        roleLipAnime = 1,
-        modelId3 = 1,
+        id = 10011003,
+        text = "我惊讶地看着琴里屏幕上的热闹场景，和印象中的中华街大相径庭。",
         condition = {
         },
-        modelId2 = 1,
+        datingType = 2,
     },
     [749054033] = {
         action2 = "id_normal_4",
@@ -11143,24 +12807,24 @@ return {
         condition = {
         },
     },
-    [749060022] = {
+    [10011013] = {
+        action2 = "id_normal_13",
         textShowType = 1,
         jump = {
-            [1] = 749060023,
+            [1] = 10011014,
         },
-        id = 749060022,
-        text = "提议。我们找专家咨询一下这个问题如何？",
-        voice = "sound/role/xixian/YUZURU_S_89.mp3",
-        modelId1 = 1,
-        datingType = 20,
-        scriptId = 749060,
-        name = "八舞夕弦",
-        modelId2 = 1,
-        roleLipAnime = 3,
-        modelId3 = 1,
+        datingType = 2,
+        roleLipAnime = 2,
         condition = {
         },
-        action3 = "id_normal_9",
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "五河琴里",
+        modelId2 = 1,
+        id = 10011013,
+        face2 = "0",
+        text = "晚上在还有大型烟花燃放活动，有非常特别的烟花可以观看。",
+        voice = "sound/role/qinli/KOTORI_193.mp3",
     },
     [749060048] = {
         action2 = "id_normal_6",
@@ -11184,23 +12848,19 @@ return {
         },
         roleLipAnime = 2,
     },
-    [749060020] = {
+    [10011029] = {
         textShowType = 1,
         jump = {
-            [1] = 749060021,
+            [1] = 10011030,
         },
-        datingType = 20,
-        roleLipAnime = 1,
-        voice = "sound/role/meijiu/MIKU_200.mp3",
-        modelId1 = 1,
-        scriptId = 749060,
-        name = "诱宵美九",
-        modelId2 = 1,
-        id = 749060020,
-        modelId3 = 1,
-        text = "哎……",
+        datingType = 2,
+        text = "明白！为了和大家一起看烟花，我会努力完成任务的！",
         condition = {
         },
+        modelId1 = 1,
+        scriptId = 10011,
+        name = "1",
+        id = 10011029,
     },
     [749061072] = {
         textShowType = 1,
@@ -13408,23 +15068,17 @@ return {
         bgTime = -1,
         id = 749052001,
     },
-    [749059014] = {
+    [10012005] = {
+        scriptId = 10012,
         textShowType = 1,
         jump = {
-            [1] = 749059015,
+            [1] = 10012006,
         },
-        datingType = 20,
-        text = "那、那个是意外啦！而且最后结局还不错所以——",
-        voice = "sound/role/qizui/qizui_151.mp3",
-        modelId1 = 1,
-        scriptId = 749059,
-        name = "七罪",
-        action1 = "id_normal_3",
-        id = 749059014,
-        modelId3 = 1,
+        id = 10012005,
+        text = "十香比着v字，冲着我的镜头笑着。",
         condition = {
         },
-        modelId2 = 1,
+        datingType = 2,
     },
     [749058016] = {
         textShowType = 1,
@@ -13441,24 +15095,19 @@ return {
         modelId2 = 1,
         datingType = 20,
     },
-    [749059013] = {
-        action2 = "id_normal_12_kaixin",
+    [10012021] = {
         textShowType = 1,
         jump = {
-            [1] = 749059014,
+            [1] = 10012022,
         },
-        id = 749059013,
-        roleLipAnime = 2,
+        id = 10012021,
+        text = "出发——！",
         condition = {
         },
-        modelId1 = 1,
-        scriptId = 749059,
+        scriptId = 10012,
         name = "五河琴里",
-        modelId2 = 1,
-        datingType = 20,
-        modelId3 = 1,
-        text = "直到遇到了%s？",
-        voice = "sound/role/qinli/KOTORI_181.mp3",
+        datingType = 2,
+        voice = "sound/role/qinli/KOTORI_232.mp3",
     },
     [749059040] = {
         textShowType = 1,

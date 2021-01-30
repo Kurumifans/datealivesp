@@ -399,4 +399,20 @@ return {
         icon = "icon/equipment/suit/icon45.png",
         suitNewPokedex = 1705208,
     },
+    [60] = {
+        combatPower = 120,
+        nameIcon = "icon/equipment/suit/ruler.png",
+        id = 60,
+        suitSkill = 20043,
+        icon = "icon/equipment/suit/icon47.png",
+        suitNewPokedex = 1705209,
+    },
+    [61] = {
+        combatPower = 120,
+        nameIcon = "icon/equipment/suit/leyuan.png",
+        id = 61,
+        suitSkill = 20042,
+        icon = "icon/equipment/suit/icon46.png",
+        suitNewPokedex = 1705210,
+    },
 }

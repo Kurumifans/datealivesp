@@ -84,6 +84,9 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.FAN_SHI_TASK] = requireNew("lua.logic.activity.fanShi.FanShiTaskView"),
             [EC_ActivityType2.FAN_SHI_DOC] = requireNew("lua.logic.activity.fanShi.FanShiActivityDescView"),
             [EC_ActivityType2.HANTER] = requireNew("lua.logic.activity.TaskActivityView2"),
+            [EC_ActivityType2.FLOWER_SEND] = requireNew("lua.logic.activity.2021_spring.ValentinesDay"),
+            -- [EC_ActivityType2.FIREWORKS_PRODUCT] = requireNew("lua.logic.activity.2021_spring.FireFactoryView"),
+            [EC_ActivityType2.SPRITE_FOR_GIFT] = requireNew("lua.logic.activity.SpriteForGift"),
         },
         [2] = {
             [EC_ActivityType2.CGCOLLECTED] = requireNew("lua.logic.activity.JumpActivityView"),

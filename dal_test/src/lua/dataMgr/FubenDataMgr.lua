@@ -2424,6 +2424,19 @@ function FubenDataMgr:send_DUNGEON_FIGHT_START(levelId, assistantPlayerId, assis
     TFDirector:send(c2s.DUNGEON_FIGHT_START, {levelId, assistantPlayerId, assistantHeroCid, limitHeros, quickCount, isDuelMod})
 end
 
+function FubenDataMgr:saveCurFightParam(...)
+    self.saveFightParam = {...}
+end
+
+function FubenDataMgr:clearCurFightParam()
+    self.saveFightParam = nil
+end
+
+function FubenDataMgr:getCurFightParam()
+    return self.saveFightParam
+end
+
+
 function FubenDataMgr:send_DUNGEON_FIGHT_OVER(levelId, isWin, reachStar, maxComboNum, pickUpTypeCount, pickUpCount, killTargets, costTime, damage,rating ,skillEnemy)
     maxComboNum = maxComboNum or 0
     pickUpTypeCount = pickUpTypeCount or 0
@@ -2609,6 +2622,7 @@ function FubenDataMgr:onRecvFightStart(event)
             or levelCfg.dungeonType == EC_FBLevelType.DICUO_HUALUN
             or levelCfg.dungeonType == EC_FBLevelType.DICUO_JIBAN 
             or levelCfg.dungeonType == EC_FBLevelType.SNOW_FESTIVAL then
+    elseif levelCfg.dungeonType == EC_FBLevelType.ENDLESS_PLUSS then
         battleController.enterBattle(data, EC_BattleType.COMMON)
     end
     self:cachePlayerInfo()
@@ -3675,6 +3689,13 @@ end
 function FubenDataMgr:SEND_DUNGEON_REQ_CHANGE_LINK_AGE_DESIRE( ... )
     -- body
     TFDirector:send(c2s.DUNGEON_REQ_CHANGE_LINK_AGE_DESIRE,{...})
+end
+function FubenDataMgr:setReopenFlag(flag)
+    self.reOpen = flag
+end
+
+function FubenDataMgr:getReopenFlag()
+    return self.reOpen
 end
 
 return FubenDataMgr:new()

@@ -1015,6 +1015,20 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [410222] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_10222/main_effect_10222",
+        action = "down",
+        isLoop = true,
+        id = 410222,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 1,
+    },
     [1072] = {
         offset = {
         },
@@ -2085,6 +2099,22 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [410125] = {
+        offset = {
+            y = 16,
+            x = -1,
+        },
+        path = "effect/dating/ui_superKanban_10125/main_effect_yanhua",
+        action = "animation",
+        isLoop = false,
+        id = 410125,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 1,
+    },
     [410509] = {
         offset = {
         },
@@ -2424,6 +2454,20 @@ return {
         isDelete = true,
         speBg = "scene/bg/kanban/bg_11315_base.png",
         Zorder = 0,
+    },
+    [4102221] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_10222/main_effect_10222",
+        action = "up",
+        isLoop = true,
+        id = 4102221,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 2,
     },
     [4110061] = {
         offset = {

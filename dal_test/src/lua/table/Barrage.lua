@@ -832,6 +832,21 @@ return {
         loadNumber = 50,
         quantityReserved  = 500,
     },
+    [1118] = {
+        otherShowType = {
+            [1] = 5,
+        },
+        detail  = "春节2021祈愿活动",
+        id = 1118,
+        coolTime = 43200,
+        barrageTim = 10,
+        quantityPublish = 100,
+        path  = "cg1",
+        selfShowType = 6,
+        barrageType  = 7,
+        loadNumber = 100,
+        quantityReserved  = 500,
+    },
     [1055] = {
         otherShowType = {
             [1] = 5,

@@ -257,6 +257,18 @@ return {
         event_id = 2,
         remark = "圣诞节道具合成",
     },
+    [17054] = {
+        id = 17054,
+        history = false,
+        event_id = 17,
+        remark = "建筑修复到多少级",
+    },
+    [17058] = {
+        id = 17058,
+        history = false,
+        event_id = 17,
+        remark = "春节乐园成功燃放各类型烟花*次",
+    },
     [2007] = {
         id = 2007,
         history = true,
@@ -779,6 +791,12 @@ return {
         event_id = 17,
         remark = "全服获得X分下卷应援积分",
     },
+    [59008] = {
+        id = 59008,
+        history = false,
+        event_id = 59,
+        remark = "完成解谜一次",
+    },
     [17044] = {
         id = 17044,
         history = false,
@@ -791,11 +809,35 @@ return {
         event_id = 17,
         remark = "n个配方升到满级 ",
     },
-    [27001] = {
-        id = 27001,
+    [17052] = {
+        id = 17052,
         history = false,
-        event_id = 27,
-        remark = "万圣节日活动",
+        event_id = 17,
+        remark = "累计*N天给精灵送礼物",
+    },
+    [17056] = {
+        id = 17056,
+        history = false,
+        event_id = 17,
+        remark = "参与春节乐园猜谜*次",
+    },
+    [17034] = {
+        id = 17034,
+        history = false,
+        event_id = 17,
+        remark = "端午2020幕府大作战：完成据点事件次数",
+    },
+    [58006] = {
+        id = 58006,
+        history = false,
+        event_id = 58,
+        remark = "战斗次数任务 ",
+    },
+    [59004] = {
+        id = 59004,
+        history = false,
+        event_id = 59,
+        remark = "拾取礼盒",
     },
     [59006] = {
         id = 59006,
@@ -815,30 +857,6 @@ return {
         event_id = 58,
         remark = "单舱室等级任务 ",
     },
-    [25001] = {
-        id = 25001,
-        history = false,
-        event_id = 25,
-        remark = "领取精灵副本的宝箱",
-    },
-    [17034] = {
-        id = 17034,
-        history = false,
-        event_id = 17,
-        remark = "端午2020幕府大作战：完成据点事件次数",
-    },
-    [59004] = {
-        id = 59004,
-        history = false,
-        event_id = 59,
-        remark = "拾取礼盒",
-    },
-    [58006] = {
-        id = 58006,
-        history = false,
-        event_id = 58,
-        remark = "战斗次数任务 ",
-    },
     [58005] = {
         id = 58005,
         history = false,
@@ -856,6 +874,12 @@ return {
         history = false,
         event_id = 8,
         remark = "洗练N次质点",
+    },
+    [25001] = {
+        id = 25001,
+        history = false,
+        event_id = 25,
+        remark = "领取精灵副本的宝箱",
     },
     [58001] = {
         id = 58001,
@@ -887,6 +911,48 @@ return {
         event_id = 29,
         remark = "社团空投补给次数达到N",
     },
+    [29001] = {
+        id = 29001,
+        history = true,
+        event_id = 29,
+        remark = "社团活跃度达到N",
+    },
+    [27001] = {
+        id = 27001,
+        history = false,
+        event_id = 27,
+        remark = "万圣节日活动",
+    },
+    [26004] = {
+        id = 26004,
+        history = false,
+        event_id = 26,
+        remark = "应援集结活动",
+    },
+    [26002] = {
+        id = 26002,
+        history = false,
+        event_id = 26,
+        remark = "应援集结活动",
+    },
+    [17017] = {
+        id = 17017,
+        history = false,
+        event_id = 17,
+        remark = "累计击杀X个X级悬赏",
+    },
+    [17059] = {
+        id = 17059,
+        history = false,
+        event_id = 17,
+        remark = "发送弹幕",
+    },
+    [17057] = {
+        id = 17057,
+        history = false,
+        event_id = 17,
+        remark = "春节乐园成功燃放*次烟花",
+    },
     [16001] = {
         id = 16001,
         history = false,
@@ -911,29 +977,29 @@ return {
         event_id = 16,
         remark = "完成X次料理或手工",
     },
-    [29001] = {
-        id = 29001,
-        history = true,
-        event_id = 29,
-        remark = "社团活跃度达到N",
-    },
-    [26004] = {
-        id = 26004,
-        history = false,
-        event_id = 26,
-        remark = "应援集结活动",
-    },
-    [26002] = {
-        id = 26002,
-        history = false,
-        event_id = 26,
-        remark = "应援集结活动",
-    },
-    [17017] = {
-        id = 17017,
+    [17055] = {
+        id = 17055,
         history = false,
         event_id = 17,
-        remark = "累计击杀X个X级悬赏",
+        remark = "建筑修复材料捐献次数",
+    },
+    [17053] = {
+        id = 17053,
+        history = false,
+        event_id = 17,
+        remark = "个人累计赠送玫瑰花数量",
+    },
+    [17051] = {
+        id = 17051,
+        history = false,
+        event_id = 17,
+        remark = "任意N个精灵收到礼物",
+    },
+    [17050] = {
+        id = 17050,
+        history = false,
+        event_id = 17,
+        remark = "任意精灵收到礼物数量",
     },
     [9003] = {
         id = 9003,

@@ -90,7 +90,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "543",
+							height = "547",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "0",
@@ -103,7 +103,7 @@ local t =
 							{
 								
 							},
-							width = "923",
+							width = "895",
 							ZOrder = "1",
 							components = 
 							{
@@ -523,7 +523,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 221,
+										PositionX = 192,
 										PositionY = -267,
 									},
 									uipanelviewmodel = 
@@ -604,7 +604,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FF436993",
+										StrokeColor = "#FF963029",
 										StrokeSize = 2,
 									},
 									height = "26",
@@ -651,7 +651,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FF436993",
+										StrokeColor = "#FF963029",
 										StrokeSize = 2,
 									},
 									height = "26",
@@ -669,7 +669,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -460,
+										PositionX = -442,
 										PositionY = 181,
 									},
 									width = "76",
@@ -698,7 +698,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FF436993",
+										StrokeColor = "#FF963029",
 										StrokeSize = 2,
 									},
 									height = "26",
@@ -716,7 +716,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -440,
+										PositionX = -436,
 										PositionY = 212,
 									},
 									width = "76",
@@ -741,14 +741,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "24",
+									fontSize = "22",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "30",
+									height = "27",
 									ignoreSize = "True",
 									name = "Label_denglu",
 									nTextAlign = "1",
@@ -762,10 +762,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 328,
+										PositionX = 318,
 										PositionY = 246,
 									},
-									width = "101",
+									width = "89",
 									ZOrder = "1",
 								},
 							},
@@ -860,7 +860,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "2",
+									height = "64",
 									ignoreSize = "True",
 									name = "Image_border",
 									sizepercentx = "0",
@@ -873,7 +873,7 @@ local t =
 									{
 										
 									},
-									width = "2",
+									width = "64",
 									ZOrder = "1",
 								},
 								{
@@ -1133,7 +1133,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "2",
+									height = "64",
 									ignoreSize = "True",
 									name = "Image_getted",
 									sizepercentx = "0",
@@ -1147,7 +1147,7 @@ local t =
 										
 									},
 									visible = "False",
-									width = "2",
+									width = "64",
 									ZOrder = "1",
 								},
 							},
@@ -1371,7 +1371,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF1048A7",
+									FontColor = "#FF842541",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{

@@ -1,4 +1,43 @@
 return {
+    [8001045] = {
+        Exclusive = {
+            [1] = 110401,
+            [2] = 110413,
+        },
+        NameId = 331044,
+        nameIcon = "",
+        id = 8001045,
+        suitSkill = 24,
+        combatPower = 60,
+        desTextId = 231024,
+        herosequip = 332005,
+        display = true,
+        suitarmsID = {
+            [1] = 324001,
+        },
+        icon = "icon/equipment/equipsuit/TZ_icon_21.png",
+        suitnum = 1,
+    },
+    [8001053] = {
+        Exclusive = {
+            [1] = 113201,
+            [2] = 113301,
+        },
+        NameId = 331052,
+        nameIcon = "",
+        id = 8001053,
+        suitSkill = 32,
+        combatPower = 60,
+        desTextId = 231032,
+        herosequip = 332013,
+        display = true,
+        suitarmsID = {
+            [1] = 332001,
+            [2] = 332002,
+        },
+        icon = "icon/equipment/equipsuit/TZ_icon_29.png",
+        suitnum = 1,
+    },
     [8001052] = {
         Exclusive = {
             [1] = 112001,
@@ -442,23 +481,24 @@ return {
         icon = "icon/equipment/equipsuit/TZ_icon_26.png",
         suitnum = 1,
     },
-    [8001045] = {
+    [8001054] = {
         Exclusive = {
-            [1] = 110401,
-            [2] = 110413,
+            [1] = 113201,
+            [2] = 113301,
         },
-        NameId = 331044,
+        NameId = 331053,
         nameIcon = "",
-        id = 8001045,
-        suitSkill = 24,
+        id = 8001054,
+        suitSkill = 33,
         combatPower = 60,
-        desTextId = 231024,
-        herosequip = 332005,
+        desTextId = 231033,
+        herosequip = 332014,
         display = true,
         suitarmsID = {
-            [1] = 324001,
+            [1] = 333001,
+            [2] = 333002,
         },
-        icon = "icon/equipment/equipsuit/TZ_icon_21.png",
+        icon = "icon/equipment/equipsuit/TZ_icon_30.png",
         suitnum = 1,
     },
     [8001044] = {

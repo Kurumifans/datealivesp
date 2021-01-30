@@ -20,6 +20,7 @@ function EquipmentDataMgr:ctor()
 	self.gemsData = {}  --宝石数据
 	self.chooseConditionData = {selectState = {},cids = {},isSingle = true}
 	self.equipBackUpInfos = {}
+	self.tokenBackUpInfos = {}
     self:init()
 end
 
@@ -60,6 +61,11 @@ function EquipmentDataMgr:init()
 	TFDirector:addProto(s2c.EQUIPMENT_RES_SAVE_EQUIP_BACKUP_POS, self, self.recvSaveEquipBackUpPos)
 	TFDirector:addProto(s2c.EQUIPMENT_RES_SAVE_EQUIP_BACKUP_DECR, self, self.recvSaveEquipBackUpName)
 	TFDirector:addProto(s2c.EQUIPMENT_RES_USE_EQUIP_BACKUP, self, self.recvUseEquipBackUp)
+
+	TFDirector:addProto(s2c.EQUIPMENT_RESP_GET_NEW_EQUIP_PLANS, self, self.recvTokenBackUpInfo)
+	TFDirector:addProto(s2c.EQUIPMENT_RESP_SET_NEW_EQUIP_PLAN_NAME, self, self.recvSaveTokenBackUpName)
+	TFDirector:addProto(s2c.EQUIPMENT_RESP_USE_NEW_EQUIP_PLAN, self, self.recvUseTokenBackUpPos)
+	TFDirector:addProto(s2c.EQUIPMENT_RESP_SAVE_NEW_EQUIP_PLAN, self, self.recvSaveTokenBackUp)
 
 end
 
@@ -2362,9 +2368,11 @@ function EquipmentDataMgr:getHeroOwnTuzhiInfos(rarity)
 	        local tuzhiCfg = self:getGemCfg(v.drawingId)
 	        if num > 0 then
 	            local info = infos[condition[2]]
-	            local posNum = info.posNum[tuzhiCfg.skillType]
-	            info.num = info.num + num
-	            info.posNum[tuzhiCfg.skillType] = info.posNum[tuzhiCfg.skillType] + num
+				if info then
+					local posNum = info.posNum[tuzhiCfg.skillType]
+					info.num = info.num + num
+					info.posNum[tuzhiCfg.skillType] = info.posNum[tuzhiCfg.skillType] + num
+				end
 	        end
 	    end
     end
@@ -2910,6 +2918,52 @@ end
 
 function EquipmentDataMgr:getSortEquipBackUpInfo()
 	return self.equipBackUpInfos
+end
+
+-- 信物保存方案
+function EquipmentDataMgr:requestTokenPlan(heroId)
+	TFDirector:send(c2s.EQUIPMENT_REQ_GET_NEW_EQUIP_PLANS,{heroId})
+end
+
+function EquipmentDataMgr:requestTokenRename(heroId, index, name)
+	TFDirector:send(c2s.EQUIPMENT_REQ_SET_NEW_EQUIP_PLAN_NAME,{heroId, index, name})
+end
+
+function EquipmentDataMgr:requestUseToken(heroId, index)
+	TFDirector:send(c2s.EQUIPMENT_REQ_USE_NEW_EQUIP_PLAN,{heroId, index})
+end
+
+function EquipmentDataMgr:requestSavaToken(heroId, index, txtName, plans)
+	TFDirector:send(c2s.EQUIPMENT_REQ_SAVE_NEW_EQUIP_PLAN,{heroId, index, txtName, plans})
+end
+
+function EquipmentDataMgr:recvTokenBackUpInfo(event)
+	local data = event.data
+	if not data then
+		return
+	end 
+	self.tokenBackUpInfos = {}
+	for i, v in ipairs(data.plan or {}) do
+		self.tokenBackUpInfos[v.index] = v
+	end
+	EventMgr:dispatchEvent(TOKEN_BACKUP_INFO, data)
+end
+
+function EquipmentDataMgr:recvUseTokenBackUpPos(event)
+	EventMgr:dispatchEvent(TOKEN_USE_BACKUP_INFO)
+end
+
+function EquipmentDataMgr:recvSaveTokenBackUpName(event)
+	EventMgr:dispatchEvent(TOKEN_SAVE_BACKUP_NAME)
+	Utils:showTips(270454)
+end
+
+function EquipmentDataMgr:recvSaveTokenBackUp(event)
+	EventMgr:dispatchEvent(TOKEN_SAVE_BACKUP_POS)
+end
+
+function EquipmentDataMgr:getTokenBackUpInfo()
+	return self.tokenBackUpInfos
 end
 
 return EquipmentDataMgr:new();

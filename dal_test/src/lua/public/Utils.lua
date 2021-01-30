@@ -544,7 +544,7 @@ function Utils:openView(moduleName, ...)
         view:setAnchorPoint(me.p(0.5,0.5))
         currentScene:addCustomLayer(view)
     else
-        AlertManager:addLayer(view)
+        AlertManager:addLayer(view, view.block)
         AlertManager:show()
         if table.indexOf(not_cache_views,view.__cname) == -1 then  --排除不需要缓存的ui
             AlertManager:addMainSceneLayerParamsCache(view.__cname, moduleName, ...)
@@ -571,10 +571,10 @@ function Utils:setAliginCenterByListView(listView, isHorizontal)
     listView:setContentSize(size)
 end
 
-function Utils:format_number(count)
-    local million = math.pow(10, 6)
+function Utils:format_number(count,boundaryNumber)
+    boundaryNumber = boundaryNumber or math.pow(10, 6)
     local rets = tostring(count)
-    if count >= million then
+    if count >= boundaryNumber then
         local foo = math.floor(count / 1000)
         rets = tostring(foo) .. "k"
     end
@@ -1904,7 +1904,7 @@ function Utils:checkInWorldRoomScene(roomType)
     return false
 end
 
-function Utils:checkFlagIsEnable( flagId ) -- 标记检测
+function Utils:checkFlagIsEnable( flagId ) -- 标记检测条件是否满足
     -- body
     local flagCfg = TabDataMgr:getData("Flags",flagId)
     if not flagCfg then return true end
@@ -1916,6 +1916,19 @@ function Utils:checkFlagIsEnable( flagId ) -- 标记检测
         end
     end
     return checkResult
+end
+
+function Utils:getFlagData( flagId ) -- 获取标记对应key数据
+    -- body
+    local flagCfg = TabDataMgr:getData("Flags",flagId)
+    if not flagCfg then return true end
+    local returnData = {}
+    for k,v in pairs(flagCfg.condition) do
+        if UtilsCheckCondFunc["get_"..k] then
+            returnData[k] = UtilsCheckCondFunc["get_"..k](v)
+        end
+    end
+    return returnData
 end
 
 function Utils:isOfficialChannel()

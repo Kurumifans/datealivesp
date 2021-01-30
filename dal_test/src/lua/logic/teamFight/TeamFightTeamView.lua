@@ -155,7 +155,7 @@ function TeamFightTeamView:initUI(ui)
             table.insert(self.gmSkill_,{btn = btn, iconBg = Image_icon_bg, skillIcon = icon})
         end
     end
-
+    self.Panel_touch = TFDirector:getChildByPath(ui, "Panel_touch")
     ---房间操作
     self.Panel_room_hadle =  TFDirector:getChildByPath(ui, "Panel_room_hadle")
     self.Image_match_state = TFDirector:getChildByPath(self.Panel_room_hadle, "Image_match_state"):hide()
@@ -226,6 +226,8 @@ function TeamFightTeamView:initUI(ui)
         self.Image_buff_tip:setTexture("ui/activity/activity_2020wsj/figthReady/005.png")
     elseif TeamFightDataMgr.nTeamType == EC_NetTeamType.SnowFestival then
         imgSrc = "ui/activity/snowFestivalFightView/hardBg.png"
+    elseif TeamFightDataMgr.nTeamType == EC_NetTeamType.NianShou then
+        imgSrc = "ui/activity/newyear_2021/nianshou/bg.png"
     end
     if imgSrc then
         TFDirector:getChildByPath(ui, "Image_bg"):setTexture(imgSrc)
@@ -263,6 +265,20 @@ function TeamFightTeamView:initUI(ui)
     self.listView_snowBuff:setVisible(isEntertainment)
     self.Panel_snowFestival:setVisible(TeamFightDataMgr.nTeamType == EC_NetTeamType.SnowFestival)
 
+    -- 年兽大作战
+    self.Panel_nianshou = TFDirector:getChildByPath(ui, "Panel_nianshou")
+    self.Button_nianshou_tips = TFDirector:getChildByPath(self.Panel_nianshou, "Button_nianshou_tips")
+    self.Image_tips_show = TFDirector:getChildByPath(self.Panel_nianshou, "Image_tips_show")
+    self.Image_tips_show:getChildByName("Label_tips_show"):setTextById(16000676)
+    self.Label_bianpao_buff = TFDirector:getChildByPath(self.Panel_nianshou, "Label_bianpao_buff")
+
+    self.listView_bianpao = UIListView:create(self.Panel_nianshou:getChildByName("ScrollView_bianpao"))
+    self.listView_bianpao:setItemsMargin(1)
+    self.Panel_bianpao_item = TFDirector:getChildByPath(self.Panel_nianshou, "Panel_bianpao_item"):hide()
+    self.Label_nianshou_tips = TFDirector:getChildByPath(self.Panel_nianshou, "Label_nianshou_tips")
+    self.Label_nianshou_tips:setTextById(16000656)
+    self.Panel_nianshou:setVisible(TeamFightDataMgr.nTeamType == EC_NetTeamType.NianShou)
+
     self:initTeamPart()
     self:initCommonPart()
     self:onHandleTeamData()
@@ -274,10 +290,12 @@ function TeamFightTeamView:initUI(ui)
     ---房间操作
     self:updateHandleInfo()
 
-    if self.Label_noAffix:isVisible() and TeamFightDataMgr.nTeamType == EC_NetTeamType.SnowFestival then
+    if self.Label_noAffix:isVisible() and (TeamFightDataMgr.nTeamType == EC_NetTeamType.SnowFestival or TeamFightDataMgr.nTeamType == EC_NetTeamType.NianShou) then
         self.Label_noAffix:hide()
     end
-    
+    if TeamFightDataMgr.nTeamType == EC_NetTeamType.NianShou then
+        self:initNianshouPanel()
+    end
     AlertManager:closeLayerByName("ChatView")
 end
 
@@ -355,6 +373,96 @@ function TeamFightTeamView:updateBuffInfos()
     end
 end
 
+function TeamFightTeamView:initNianshouPanel()
+    self.Panel_touch:setTouchEnabled(true)
+    local itemsCfg = TabDataMgr:getData("ItemOfBattleBuff")
+    self.skillItemCfgs = {}
+    self.bianpaoSkillItems = {}
+    for k,v in pairs(itemsCfg) do
+        if v.functionType == 2 then
+            table.insert(self.skillItemCfgs,v)
+        end
+    end
+    table.sort(self.skillItemCfgs,function(a,b)
+        return a.id < b.id
+    end)
+    for i,v in ipairs(self.skillItemCfgs) do
+        local item = self.Panel_bianpao_item:clone():show()
+        local foo = {}
+        foo.root = item
+        foo.Image_bianpao_bg = TFDirector:getChildByPath(item,"Image_bianpao_bg")
+        foo.Image_bianpao_icon = TFDirector:getChildByPath(item,"Image_bianpao_icon")
+        foo.Image_bianpao_icon_select = TFDirector:getChildByPath(item,"Image_bianpao_icon_select")
+        foo.Image_bianpao_icon:setTexture(v.iconShow)
+        TFDirector:getChildByPath(item,"Label_bianpao_name"):setTextById(v.nameTextId)
+        TFDirector:getChildByPath(item,"Label_bianpao_desc"):setTextById(v.desTextId)
+        foo.Image_p1 = TFDirector:getChildByPath(item,"Image_p1")
+        foo.Image_p2 = TFDirector:getChildByPath(item,"Image_p2")
+        foo.Image_p3 = TFDirector:getChildByPath(item,"Image_p3")
+        foo.Image_bianpao_bg:setTouchEnabled(true)
+        foo.Image_bianpao_bg:onClick(function ()
+            self.bianpaoSelectIdx = i
+            ActivityDataMgr2:SEND_CHASM_REQ_USE_BUFF(v.id)
+        end)
+        self.bianpaoSkillItems[i] = foo
+        self.listView_bianpao:pushBackCustomItem(item)
+        if i == 1 then
+            ActivityDataMgr2:SEND_CHASM_REQ_USE_BUFF(v.id)
+        end
+    end
+    self.Button_nianshou_tips:onClick(function ()
+        if self.tipsShow then
+            self.tipsShow = false
+            self.Image_tips_show:setVisible(false)
+        else
+            self.tipsShow = true
+            self.Image_tips_show:setVisible(true)
+        end
+    end)
+end
+
+function TeamFightTeamView:updateNianshouItemList()
+    local skillData = ActivityDataMgr2:getNianShouTeamSkillData()
+    if not skillData or not self.teamInfoData then return end
+    local buff = {}
+    for i, v in ipairs(self.teamInfoData) do
+        for j, _buff in ipairs(skillData) do
+            if v.pid == _buff.playerId then
+                _buff.idx = i
+                buff[i] = _buff
+                break
+            end
+        end
+    end
+    local selectIdx
+    for i,foo in ipairs(self.bianpaoSkillItems) do
+        foo.Image_bianpao_bg:setTexture("ui/activity/newyear_2021/nianshou/009.png")
+        foo.Image_bianpao_icon_select:setVisible(false)
+        local cfg = self.skillItemCfgs[i]
+        for j=1,3 do
+            if buff[j] and buff[j].buffId == cfg.id then
+                foo["Image_p"..j]:setVisible(true)
+                if buff[j].playerId == MainPlayer:getPlayerId() then
+                    selectIdx = i
+                    foo.Image_bianpao_bg:setTexture("ui/activity/newyear_2021/nianshou/008.png")
+                    foo.Image_bianpao_icon_select:setVisible(true)
+                    self.Label_bianpao_buff:setTextById(cfg.extraDes)
+                end
+            else
+                foo["Image_p"..j]:setVisible(false)
+            end
+        end
+    end
+    if not selectIdx then
+        self.bianpaoSelectIdx = self.bianpaoSelectIdx or 1
+        local foo = self.bianpaoSkillItems[self.bianpaoSelectIdx]
+        local cfg = self.skillItemCfgs[self.bianpaoSelectIdx]
+        foo.Image_bianpao_bg:setTexture("ui/activity/newyear_2021/nianshou/008.png")
+        foo.Image_bianpao_icon_select:setVisible(true)
+        self.Label_bianpao_buff:setTextById(cfg.extraDes)
+    end
+end
+
 function TeamFightTeamView:updateSnowFestivalInfos()
     self:refreshSnowFestivalAwards()
     self:updateSnowFestivalBuff()
@@ -365,7 +473,7 @@ function TeamFightTeamView:updateSnowFestivalBuff()
     if not data or not self.teamInfoData then return end
     local buff = {}
     for i, v in ipairs(self.teamInfoData) do
-        for j, _buff in ipairs(data.buff) do
+        for j, _buff in ipairs(data) do
             if v.pid == _buff.playerId then
                 _buff.name = v.name
                 table.insert(buff, _buff)
@@ -489,6 +597,7 @@ function TeamFightTeamView:initTeamPart()
         self.teamItems[i]["player"]["name"] = self.teamItems[i]["item_root"]:getChildByName("Label_name")
         self.teamItems[i]["player"]["quality"] = self.teamItems[i]["item_root"]:getChildByName("Image_quality")
         self.teamItems[i]["player"]["ready"] = self.teamItems[i]["item_root"]:getChildByName("Image_ready")
+        self.teamItems[i]["player"]["Image_role_change"] = self.teamItems[i]["item_root"]:getChildByName("Image_role_change")
         self.teamItems[i]["player"]["getting_ready"] = self.teamItems[i]["item_root"]:getChildByName("Image_getting_ready")
         self.teamItems[i]["player"]["msg_bg"] = self.teamItems[i]["item_root"]:getChildByName("Image_msg_bubble")
         self.teamItems[i]["player"]["msg"] = self.teamItems[i]["player"]["msg_bg"]:getChildByName("TextArea_msg")
@@ -742,8 +851,8 @@ function TeamFightTeamView:initCommonPart()
                     local _data = ActivityDataMgr2:getSnowFestivalTeamData()
                     if not _data then return end
                     local isReady = true
-                    if table.count(_data.buff) == table.count(self.teamInfoData) then
-                        for i, v in ipairs(_data.buff) do
+                    if table.count(_data) == table.count(self.teamInfoData) then
+                        for i, v in ipairs(_data) do
                             if v.buffId == 0 then
                                 isReady = false
                                 break
@@ -898,9 +1007,18 @@ function TeamFightTeamView:updateTeamPart()
         end
         local tmheroStatShow = self.teamItemsStatShow[self.teamItems[i]["stat"]["value"]]
         self.teamItems[i]["player"]["repeat_tip"]:setVisible(tmheroStatShow.warning)
-        self.teamItems[i]["player"]["ready"]:setVisible(tmheroStatShow.ready)
-        self.teamItems[i]["player"]["getting_ready"]:setVisible(tmheroStatShow.unready)
 
+        local state = TeamFightDataMgr:getTeamPushState(self.teamItems[i]._pid,EC_NetChangeState.HeroChange)
+        print(self.teamItems[i]._pid,state)
+        if state == 1 then
+            self.teamItems[i]["player"]["Image_role_change"]:show()
+            self.teamItems[i]["player"]["ready"]:hide()
+            self.teamItems[i]["player"]["getting_ready"]:hide()
+        else
+            self.teamItems[i]["player"]["Image_role_change"]:hide()
+            self.teamItems[i]["player"]["ready"]:setVisible(tmheroStatShow.ready)
+            self.teamItems[i]["player"]["getting_ready"]:setVisible(tmheroStatShow.unready)
+        end
 
         local ctrl_stat = 2
         if self.teamItems[i]["stat"]["value"] == 1 then
@@ -1268,6 +1386,8 @@ function TeamFightTeamView:registerEvents()
     EventMgr:addEventListener(self, EV_ACTIVITY_HALLOWEEN_PASS_RSP, handler(self.updateBuffInfos, self))
     EventMgr:addEventListener(self, EV_SNOWFESTIVAL_FIGHT_BUFF_INFO, handler(self.updateSnowFestivalBuff, self))
     EventMgr:addEventListener(self, EV_TEAM_RUN_BATTLE_SCENE,handler(self.closePopLayer,self))
+    EventMgr:addEventListener(self, EV_NIANSHOU_FIGHT_ITEM_INFO, handler(self.updateNianshouItemList, self))
+    EventMgr:addEventListener(self, EV_TEAM_PUSH_STATE, handler(self.onHandleTeamData, self))
 
     self.chat_img:onClick(function()
         local ChatView = require("lua.logic.chat.ChatView")
@@ -1317,6 +1437,13 @@ function TeamFightTeamView:registerEvents()
 
     self.btn_tactics:onClick(function()
        self:clickChooseBuffFunc()
+    end)
+
+    self.Panel_touch:onClick(function()
+        if self.tipsShow and self.Image_tips_show then
+            self.tipsShow = false
+            self.Image_tips_show:setVisible(false)
+        end
     end)
 end
 

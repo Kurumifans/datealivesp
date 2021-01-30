@@ -331,6 +331,9 @@ function MainLayer:initUI(ui)
         self.image_dot[i] = TFDirector:getChildByPath(self.Panel_activity,"Image_dot"..i)
     end
     self.btn_ad = TFDirector:getChildByPath(self.Panel_activity, "btn_ad")
+    if self.btn_ad then
+        self.btn_ad:hide()
+    end
 
     self.PageView_Activity = TFDirector:getChildByPath(self.Panel_activity,"PageView_Activity")
     self.PageView_Activity:setDirection(0)
@@ -1395,6 +1398,8 @@ function MainLayer:registerEvents()
 	EventMgr:addEventListener(self, EV_DATING_EVENT.changeDress, handler(self.onRecvUpdateLive2D, self))
 	EventMgr:addEventListener(self, EV_BAG_DRESS_UPDATE, handler(self.onDressDelete, self))
     EventMgr:addEventListener(self, EV_WEBVIEW_URL_BACK, handler(self.onWebViewUrlBack, self))
+    EventMgr:addEventListener(self, EV_BAG_DRESS_UPDATE, handler(self.onDressDelete, self))
+    EventMgr:addEventListener(self, EV_VALENTINESDAY_MAIN_INFO, handler(self.onUpdateActivitysState, self))
     
 	if not self:isOneCelebrationMainLayer() then
 		--self.Panel_btListEx = TFDirector:getChildByPath(self.Panel_left, "Panel_btListEx")
@@ -1412,16 +1417,16 @@ function MainLayer:registerEvents()
 		end)
 	end
 	
-    self.btn_ad:onClick(function()
-        if not ActivityDataMgr2:isAdActivityOpen() then
-            Utils:showTips(213227)
-            return
-        end
+    -- self.btn_ad:onClick(function()
+    --     if not ActivityDataMgr2:isAdActivityOpen() then
+    --         Utils:showTips(213227)
+    --         return
+    --     end
 
-        local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.AD_ACTIVITY)
-        ActivityDataMgr2:sendReqClickAdActivity(activity[1], 0, 2)
-        Utils:openView("activity.AdView")
-    end)
+    --     local activity = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.AD_ACTIVITY)
+    --     ActivityDataMgr2:sendReqClickAdActivity(activity[1], 0, 2)
+    --     Utils:openView("activity.AdView")
+    -- end)
 
     self.tiliAdd:onClick(function()
             local itemCfg = GoodsDataMgr:getItemCfg(EC_SItemType.POWER)
@@ -1978,7 +1983,10 @@ function MainLayer:widgetShow()
 end
 
 function MainLayer:onChatViewClose()
-    self.chatView.closeState = true
+    
+    if self.chatView then
+        self.chatView.closeState = true
+    end
     self:widgetShow();
     if self.elvesNpc then
         self.elvesNpc:runAction(Sequence:create({CCMoveBy:create(0.2,ccp(-600,0))}));
@@ -1988,7 +1996,6 @@ function MainLayer:onChatViewClose()
         v:runAction(Sequence:create({CCMoveBy:create(0.2,ccp(-600,0))}))
     end
     self.ui:timeOut(function()
-            self.chatView.closeState = nil
             self.chatView = nil
         end,0.3)
 end
@@ -2689,6 +2696,8 @@ function MainLayer:onShow()
     self:checkNewRecharge()
     self:checkStarEvaluate()
     self:check206TypeInfo()
+
+    self:checkfestivalInfoUIShow()
 	
     self:checkDayOpenView()
     self:checkPreview();
@@ -2770,6 +2779,16 @@ function MainLayer:onShow()
         Utils:checkRedPointStatus(RedPointFunctionId.Explore_collectFull)
     end
     FunctionDataMgr:request_ITEM_REQ_TIME_OUT_ITEM_CONVERT()
+
+    local actId = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.FLOWER_SEND)[1]
+    if actId then
+        local info = ActivityDataMgr2:getActivityInfo(actId)
+        if info then
+            --请求情人节活动数据
+            print("开始请求情人节活动")
+            TFDirector:send(c2s.ACTIVITY2_REQ_VALENTINE_DATA,{})
+        end
+    end   
 end
 
 function MainLayer:onUpdateServerGiftRedPoint(  )
@@ -3720,11 +3739,11 @@ function MainLayer:onUpdateActivitysState()
         local activityInfos = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.SERVER_GIFT)
         self.Button_serverGiftActivity:setVisible(#activityInfos > 0)
     end
-    local adPath = "ui/mainLayer/ad_btn.png"
-    if not ActivityDataMgr2:isAdActivityOpen() then
-        adPath = "ui/mainLayer/ad_btn1.png"
-    end
-    self.btn_ad:setTextureNormal(adPath)
+    -- local adPath = "ui/mainLayer/ad_btn.png"
+    -- if not ActivityDataMgr2:isAdActivityOpen() then
+    --     adPath = "ui/mainLayer/ad_btn1.png"
+    -- end
+    -- self.btn_ad:setTextureNormal(adPath)
   
     self:oneYearUIDeal()
 end
@@ -4015,6 +4034,12 @@ function MainLayer:onWebViewUrlBack(msg)
     --跳转
     if funcID then
         FunctionDataMgr:enterByFuncId(tonumber(funcID))
+    end
+end
+function MainLayer:checkfestivalInfoUIShow()
+    local _data = MainUISettingMgr:getfestivalInfo()
+    if _data then
+        Utils:openView("MainScene.ChangeMainUIPopView", _data)
     end
 end
 

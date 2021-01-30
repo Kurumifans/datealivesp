@@ -28,6 +28,7 @@ function SingleAIBehave:ctor(param)
 	self.AIEnable = false
 	self.life = param.life or -1
 	self.life = self.life == 0 and -1 or self.life
+	self.aiCfg = TabDataMgr:getData("WorldObjectAIscript", param.cfgId)
 	self:initData()
 end
 
@@ -49,12 +50,6 @@ function SingleAIBehave:setAIEnabled(isEnable)
 	end
 end
 
-function SingleAIBehave:getSpecialEmoj()
-	local specialEmojList = {"special1","special2"}
-	return specialEmojList
-end
-
-
 function SingleAIBehave:getTalk()
 	local idx = math.floor(math.random(1,#self.talkGroup))
 	local talklist = self.talkGroup[idx]
@@ -63,7 +58,9 @@ end
 
 function SingleAIBehave:removeAI()
 	self.timerhandleList = {}
-	self.tarNode:playStand()
+	if not self.aiCfg.notInterfereAni then
+		self.tarNode:playStand()
+	end
 end
 
 function SingleAIBehave:runAI()
@@ -73,31 +70,38 @@ function SingleAIBehave:runAI()
 		self:deleteAI()
 		return
 	end
+	self:runRandomBehave()
+end
 
-	self:addAITimer(math.random(1000,2000),function()
-		self:runRandomBehave()
-	end)
-end
-function SingleAIBehave:getBehaveList()
-	--临时行为列表
-	local behaveList = {
-		"freemove",
-		"idle",
-	}
-	return behaveList
-end
 function SingleAIBehave:reportBornPos(pos)
 	self.bornPos = pos
 end
+
 function SingleAIBehave:getMapInfo()
 	self.mapInfo = MapUtils:getMapParse()
 end
 
 function SingleAIBehave:runRandomBehave()
-	local behavelist = self:getBehaveList()
-	local idx = math.random(1,#behavelist)
-	local mbehave = behavelist[idx]
-	print(mbehave)
+	local behavelist = self.aiCfg.behaviorWeight
+	local weight = math.random(1,10000)
+
+	local mbehave = ""
+	local weightTab = {}
+	local curWeight = 0
+
+	for k,v in pairs(behavelist) do
+		curWeight = curWeight + v
+		weightTab[k] = curWeight
+	end
+
+	local tmpWeight = 10001
+	for k,v in pairs(weightTab) do
+		if weight <= v and tmpWeight > v then
+			tmpWeight = v
+			mbehave = k
+		end
+	end
+
 	if mbehave == "freemove" then
 		self:moveToPos()
 	elseif mbehave == "freetalk" then
@@ -107,16 +111,58 @@ function SingleAIBehave:runRandomBehave()
 		self:addAITimer(math.random(1000,3000),function()
 			self:onBehaveComplete()
 		end)
+	elseif mbehave == "checkActionList" then
+		self:checkActionList()
 	elseif mbehave == "randomEmoj" then
 		self:randomEmoj()
 	else
-
+		self:addAITimer(math.random(1000,3000),function()
+			self:onBehaveComplete()
+		end)
 	end 
+end
+
+function SingleAIBehave:checkActionList( ... )
+	-- body
+	local actionMap = self.aiCfg.checkAction or {}
+	local success = false
+	for k,v in ipairs(actionMap) do
+		if WorldRoomDataMgr:getCurControl():checkCondition(v.cond) then
+			local actionId = 0
+			if v.actionList then
+				self.curActionIndex = self.curActionIndex or 1
+				self.curActionIndex = self.curActionIndex%(#v.actionList + 1)
+				if self.curActionIndex == 0 then
+					self.curActionIndex = 1
+				end
+				actionId = v.actionList[self.curActionIndex]
+				self.curActionIndex = self.curActionIndex + 1
+			elseif v.actionRandom then
+				actionId = v.actionRandom[math.random(1,#v.actionRandom)]
+			end
+			success = true
+			self:addAITimer(math.random(v.pretime[1],v.pretime[2]), function ( ... )
+				-- body
+				self.tarNode:actionByCfgId(actionId,nil,function ( ... )
+						self:addAITimer(math.random(v.delaytime[1],v.delaytime[2]),function () 
+								self:onBehaveComplete()
+							end)
+					end)
+			end)
+			break;
+		end
+	end
+
+	if not success then
+		self:addAITimer(math.random(1000,2000),function () 
+			self:onBehaveComplete()
+		end)
+	end
 end
 
 function SingleAIBehave:randomEmoj()
 	if not self.tarNode.skeletonNode then return end
-	local emojlist = self:getSpecialEmoj()
+	local emojlist = self.aiCfg.emojList
 	local emojidx = math.random(1,#emojlist)
 	local emoj = emojlist[emojidx]
 	self.tarNode.skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(sklete)
@@ -130,7 +176,7 @@ function SingleAIBehave:moveToPos(tarpos,callback,endDir)
 	
 	local curpos = self.tarNode:getPosition()
 	if tarpos == nil then
-    	tarpos = self.mapInfo:getRandomDP(curpos,200,200)
+    	tarpos = curpos + ccp(math.random(-200,200),math.random(-200,200))
     end
     if tarpos == nil then
         print("没有目的地")

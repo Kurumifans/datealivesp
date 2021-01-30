@@ -1709,6 +1709,9 @@ function BattleView:registerEvents()
 
     --显示提示事件信息
     EventMgr:addEventListener(self,eEvent.EVENT_BATTLE_TIPS, handler(self.onBattleEvtTips, self))
+
+    EventMgr:addEventListener(self, EV_FUBEN_ENDLESSPLUS_CONTINUE, handler(self.onEndlessPlusContinueEvent,self))
+
     -------------UI事件--------------
     if self.battleType_ == EC_BattleType.TEAM_FIGHT then
         self.keyBoard.pause_btn:setTextureNormal("ui/battle/n212.png")
@@ -3283,12 +3286,38 @@ function BattleView:normalFightResult()
                 end
             elseif self.levelType_ == EC_FBLevelType.TXJZ then
                 Utils:openView("battle.TxjzResultView")
+            elseif self.levelType_ == EC_FBLevelType.ENDLESS_PLUSS then
+                self:endlessPlusWin()
             else
                 Utils:openView("battle.BattleResultView")
             end
         else
             self:showFuben()
         end
+    end
+end
+
+function BattleView:endlessPlusWin()
+
+    local cfg = FubenEndlessPlusDataMgr:getFloorDungeonLevelCfg(self.levelCfg_.id)
+    if not cfg then
+        Utils:openView("battle.BattleResultView")
+        return
+    end
+
+    local function callback()
+        self:showFuben()
+    end
+    if cfg.lastDungeon == 1 then
+        Utils:openView("battle.BattleResultView")
+    else
+        local isInstage = FubenEndlessPlusDataMgr:inStageTime()
+        if isInstage then
+            Utils:openView("battle.EndlessPlusLevelResultView", self.levelCfg_.id,callback)
+        else
+            self:showFuben()
+        end
+        
     end
 end
 
@@ -3299,12 +3328,7 @@ function BattleView:showFuben()
         TeamFightDataMgr:reset()
     end
     GuideDataMgr:setPlotLvlBackState(true)
-    if battleController.lastSceneName == "BaseOSDScene" then 
-        local OSDControl = require("lua.logic.osd.OSDControl")
-        OSDControl:enterOSD({})
-    else
-        AlertManager:changeScene(SceneType.MainScene)
-    end
+    battleController.popLastScence()
 end
 
 function BattleView:commonFightResult()
@@ -3954,6 +3978,55 @@ function BattleView:onEndlessContinueEvent()
     end
 
     local view = requireNew("lua.logic.battle.EndlessCountdownView"):new(completeCallback)
+    AlertManager:addLayer(view, AlertManager.NONE)
+    AlertManager:show()
+end
+
+function BattleView:onEndlessPlusContinueEvent(levelCid)
+
+    local hero = battleController.getCaptain()
+    hero:cancelToStand()
+    KeyStateMgr.setEnable(true)
+
+    local propMgr = BattleMgr.getPropMgr()
+    local objects = propMgr:getObjects()
+    -- print_("objects size:",#objects)
+    for index = #objects , 1 , -1 do
+        local prop = objects[index]
+        prop:removeFromParent()
+    end
+    propMgr:clear()
+
+    local function completeCallback()
+
+        local cfg = FubenEndlessPlusDataMgr:getFloorDungeonLevelCfg(levelCid)
+        if not cfg then
+            Utils:openView("battle.BattleResultView")
+            return
+        end
+
+        local nextLevelCid = cfg.nextDungeon
+        if nextLevelCid == 0 then
+            Utils:openView("battle.BattleResultView")
+            return
+        end
+
+        local formation = {}
+        local heroIds = FubenEndlessPlusDataMgr:getHeroFormation(cfg.floorId,nextLevelCid)
+        for k,v in pairs(heroIds) do
+            table.insert(formation, {1, v})
+        end
+
+        local isInstage = FubenEndlessPlusDataMgr:inStageTime()
+        if isInstage then
+            local battleController = require("lua.logic.battle.BattleController")
+            battleController.requestFightStart(nextLevelCid,0, 0, formation)
+        else
+            self:showFuben()
+        end   
+    end
+
+    local view = requireNew("lua.logic.battle.EndlessPlusCountdownView"):new(completeCallback)
     AlertManager:addLayer(view, AlertManager.NONE)
     AlertManager:show()
 end

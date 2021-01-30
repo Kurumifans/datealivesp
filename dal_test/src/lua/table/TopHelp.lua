@@ -6872,6 +6872,101 @@ return {
         icon = "icon/system/025.png",
         isDiban = true,
     },
+    [512] = {
+        helpDes = 18000003,
+        resource = {
+            [1] = {
+                [1] = 500004,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+            [3] = {
+                [1] = 500002,
+                [2] = 1,
+            },
+        },
+        dynamic = false,
+        id = 512,
+        helpTitle = 18000002,
+        fileName = "FireFactoryView",
+        isResource = true,
+        helpInterface = {
+            [1] = 4107,
+        },
+        isHelp = true,
+        help = "",
+        isMain = false,
+        isBack = true,
+        name = "烟花工坊",
+        icon = "",
+        isDiban = true,
+    },
+    [511] = {
+        helpDes = 0,
+        resource = {
+            [1] = {
+                [1] = 500004,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 665105,
+                [2] = 0,
+            },
+            [3] = {
+                [1] = 500002,
+                [2] = 1,
+            },
+        },
+        dynamic = true,
+        id = 511,
+        helpTitle = 0,
+        fileName = "NianShouChallegeView",
+        isResource = true,
+        helpInterface = {
+            [1] = 4106,
+        },
+        isHelp = true,
+        help = "",
+        isMain = true,
+        isBack = true,
+        name = "鞭炮战年兽",
+        icon = "",
+        isDiban = true,
+    },
+    [510] = {
+        helpDes = 0,
+        resource = {
+            [1] = {
+                [1] = 500004,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 665101,
+                [2] = 1,
+            },
+            [3] = {
+                [1] = 500002,
+                [2] = 1,
+            },
+        },
+        dynamic = false,
+        id = 510,
+        helpTitle = 0,
+        fileName = "FubenSquadViewDicuo",
+        isResource = true,
+        helpInterface = {
+        },
+        isHelp = false,
+        help = "",
+        isMain = true,
+        isBack = true,
+        name = "作战·准备",
+        icon = "",
+        isDiban = true,
+    },
     [300] = {
         helpDes = 3300023,
         resource = {
@@ -7317,6 +7412,37 @@ return {
         icon = "icon/system/025.png",
         isDiban = true,
     },
+    [314] = {
+        helpDes = 0,
+        resource = {
+            [1] = {
+                [1] = 500004,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 1,
+            },
+            [3] = {
+                [1] = 500002,
+                [2] = 1,
+            },
+        },
+        dynamic = false,
+        id = 314,
+        helpTitle = 0,
+        fileName = "TokenReviewLayer",
+        isResource = true,
+        helpInterface = {
+        },
+        isHelp = false,
+        help = "",
+        isMain = false,
+        isBack = true,
+        name = "信物预设",
+        icon = "icon/system/025.png",
+        isDiban = true,
+    },
     [503] = {
         helpDes = 0,
         resource = {
@@ -7346,37 +7472,6 @@ return {
         isBack = true,
         name = "补给站",
         icon = "icon/system/025.png",
-        isDiban = true,
-    },
-    [510] = {
-        helpDes = 0,
-        resource = {
-            [1] = {
-                [1] = 500004,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 665101,
-                [2] = 1,
-            },
-            [3] = {
-                [1] = 500002,
-                [2] = 1,
-            },
-        },
-        dynamic = false,
-        id = 510,
-        helpTitle = 0,
-        fileName = "FubenSquadViewDicuo",
-        isResource = true,
-        helpInterface = {
-        },
-        isHelp = false,
-        help = "",
-        isMain = true,
-        isBack = true,
-        name = "作战·准备",
-        icon = "",
         isDiban = true,
     },
     [505] = {

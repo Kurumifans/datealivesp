@@ -110,6 +110,11 @@ end
 function AmusementPackControl:updateInFrame9( dt )
     -- body
     self.super.updateInFrame9(self,dt)
+    
+    if not self.setViewOffset then
+        self.setViewOffset = true
+        self.baseMap:setViewOffset(800,800)
+    end
     self:updateNpcEffectSound()
 end
 
@@ -202,6 +207,33 @@ function AmusementPackControl:checkCondition( cond )
             end
         elseif k == "flag" and not Utils:checkFlagIsEnable(v) then
             isFix = false
+        elseif k == "notflag" and Utils:checkFlagIsEnable(v) then
+            isFix = false
+        elseif k == "flags" then
+            for _k,_v in pairs(v) do
+                if not Utils:checkFlagIsEnable(_v) then
+                    isFix = false
+                    break
+                end
+            end
+        elseif k == "orFlags" then
+            local re = false
+            for _k,_v in pairs(v) do
+                if Utils:checkFlagIsEnable(_v) then
+                    re = true
+                    break
+                end
+            end
+            if not re then
+                isFix = false
+            end
+        elseif k == "notflags" then
+            for _k,_v in pairs(v) do
+                if Utils:checkFlagIsEnable(_v) then
+                    isFix = false
+                    break
+                end
+            end
 		end
 	end
 	return isFix
@@ -344,17 +376,38 @@ function AmusementPackControl:getFocusInterActionList( ... )
         end
     end
 
-    for i = #interAction,1,-1 do
-        if self:triggerNpcFunc(interAction[i], true) then
+    for k,v in ipairs(self.alwayTriggers) do -- 强制每回合触发的action 
+        local npcData = self:getActorDataByPid(v)
+        local npcCfg = TabDataMgr:getData("WorldObjectMgr", npcData.decorateId)
+        for _k,_v in ipairs(npcCfg.alwayTriggerActionButtonId) do
+            table.insert(interAction,{interActionId = _v, actorPid = v})
+        end
+    end
+    local overActionIds = {}
+    for i = #interAction,1,-1 do -- 排除不符合当前显示条件的action
+        local actionCfg = TabDataMgr:getData("WorldActionButton",interAction[i].interActionId)
+        if not self:checkCondition(actionCfg.aprCondition or {}) then
             table.remove(interAction,i)
+        end
+
+        if actionCfg.overlayButton then -- 互斥列表整理
+            for k,v in ipairs(actionCfg.overlayButton) do
+                table.insert(overActionIds,v)
+            end
         end
     end
 
-    for k,v in ipairs(self.alwayTriggers) do
-        local npcData = self:getActorDataByPid(v)
-        local npcCfg = TabDataMgr:getData("WorldObjectMgr", npcData.decorateId)
-        for _k,_v in ipairs(npcCfg.actionButtonId) do
-            self:triggerNpcFunc({interActionId = _v, actorPid = v}, true)
+    for k,v in ipairs(overActionIds) do -- 移除互斥actionButton
+        for _k,_v in ipairs(interAction) do
+            if _v.interActionId == v then
+                table.remove(interAction,_k)
+            end
+        end
+    end
+
+    for i = #interAction,1,-1 do -- 自动触发action 
+        if self:triggerNpcFunc(interAction[i], true) then
+            table.remove(interAction,i)
         end
     end
     return interAction
@@ -365,27 +418,35 @@ function AmusementPackControl:triggerNpcFunc( actionData, isAuto )
     local curTime = ServerDataMgr:getServerTime() 
     local actionCfg = TabDataMgr:getData("WorldActionButton",actionData.interActionId)
 
+    if not self:checkCondition(actionCfg.actionCondition or {}) then -- 不满足操作条件返回
+        return actionCfg.isAuto
+    end
+
+    if actionCfg.isSingle then  
+        self:triggerNpcFuncSingle(actionData,isAuto)
+        return actionCfg.isAuto
+    end
+
     if isAuto and not actionCfg.isAuto then return end -- 自动触发的操作只有isAuto对象才能出理
     actionCfg.autoDelayTime = actionCfg.autoDelayTime or 0
     self.autoTriggerActionIds = self.autoTriggerActionIds or {}
     if isAuto then
         if actionData.triggerPid then
             if self.autoTriggerActionIds[actionData.triggerPid] and self.autoTriggerActionIds[actionData.triggerPid][actionData.interActionId] and self.autoTriggerActionIds[actionData.triggerPid][actionData.interActionId] > curTime then
-                return
+                return true
             else
                 self.autoTriggerActionIds[actionData.triggerPid] = self.autoTriggerActionIds[actionData.triggerPid] or {}
                 self.autoTriggerActionIds[actionData.triggerPid][actionData.interActionId] = curTime + actionCfg.autoDelayTime 
             end
         else
             if self.autoTriggerActionIds[actionData.actorPid] and self.autoTriggerActionIds[actionData.actorPid][actionData.interActionId] and self.autoTriggerActionIds[actionData.actorPid][actionData.interActionId] > curTime then
-                return
+                return true
             else
                 self.autoTriggerActionIds[actionData.actorPid] = self.autoTriggerActionIds[actionData.actorPid] or {}
                 self.autoTriggerActionIds[actionData.actorPid][actionData.interActionId] = curTime + actionCfg.autoDelayTime 
             end
         end
     end
-
 
     local function callBack( ... )
         if self.actorDataQueue:length() == 0 then return end
@@ -397,9 +458,18 @@ function AmusementPackControl:triggerNpcFunc( actionData, isAuto )
         elseif interActionType == 3 then -- 通知打开礼物盒
             self:operateOpenGift(actionData.actorPid)
         elseif interActionType == 4 then -- 离开
-            self:operateLeaveBuild(actionData.actorPid)
-        elseif interActionType == 5 then -- 建筑上播放表情
+            local pid = actionData.actorPid or actionData.triggerPid
+            if self:getActorDataByPid(self:getMainHero():getPid()).buildId == pid then -- 判断控制对象在建筑上
+                self:operateLeaveBuild(pid)
+            end
+        elseif interActionType == 5 or interActionType == 10 then -- 建筑上播放表情
             self:operatePlayAction(actionCfg.interTypeParma.actionId)
+        elseif interActionType == 7 then -- 添加ai
+            
+        elseif interActionType == 8 then -- 移除碰撞的非静态对象
+            
+        elseif interActionType == 9 then -- 移动到指定位置
+            self:operateChangePos(ccp(actionCfg.interTypeParma.pos[1],actionCfg.interTypeParma.pos[2]))
         end
     end
 
@@ -425,9 +495,190 @@ function AmusementPackControl:triggerNpcFunc( actionData, isAuto )
     return true
 end
 
+function AmusementPackControl:triggerNpcFuncSingle( actionData, isAuto )
+    -- body
+    local curTime = ServerDataMgr:getServerTime() 
+    local actionCfg = TabDataMgr:getData("WorldActionButton",actionData.interActionId)
+
+    if isAuto and not actionCfg.isAuto then return end -- 自动触发的操作只有isAuto对象才能出理
+    actionCfg.autoDelayTime = actionCfg.autoDelayTime or 0
+    self.autoTriggerActionIds = self.autoTriggerActionIds or {}
+    if isAuto then
+        if actionData.triggerPid then
+            if self.autoTriggerActionIds[actionData.triggerPid] and self.autoTriggerActionIds[actionData.triggerPid][actionData.interActionId] and self.autoTriggerActionIds[actionData.triggerPid][actionData.interActionId] > curTime then
+                return
+            else
+                self.autoTriggerActionIds[actionData.triggerPid] = self.autoTriggerActionIds[actionData.triggerPid] or {}
+                self.autoTriggerActionIds[actionData.triggerPid][actionData.interActionId] = curTime + actionCfg.autoDelayTime 
+            end
+        else
+            if self.autoTriggerActionIds[actionData.actorPid] and self.autoTriggerActionIds[actionData.actorPid][actionData.interActionId] and self.autoTriggerActionIds[actionData.actorPid][actionData.interActionId] > curTime then
+                return
+            else
+                self.autoTriggerActionIds[actionData.actorPid] = self.autoTriggerActionIds[actionData.actorPid] or {}
+                self.autoTriggerActionIds[actionData.actorPid][actionData.interActionId] = curTime + actionCfg.autoDelayTime 
+            end
+        end
+    end
+
+    local function callBack( ... )
+        if self.actorDataQueue:length() == 0 then return end
+        local interActionType = actionCfg.interType
+        if interActionType == 1 then -- 打开对应功能
+            FunctionDataMgr:enterByFuncId(actionCfg.interTypeParma.jumpInterface,unpack(actionCfg.interTypeParma.parameter))
+        elseif interActionType == 2 then -- 通知服务器交互建筑
+            local actorData = self:getActorDataByPid(actionData.triggerPid)
+            local _actorData1 = self:getActorDataByPid(actionData.actorPid)
+            if actorData.buildId ~= _actorData1.decorateId then
+                actorData.buildId = _actorData1.decorateId
+            else
+                actorData.buildId = -1
+            end
+            self:deriveData()
+        elseif interActionType == 4 then -- 离开
+            local actorData = self:getActorDataByPid(actionData.triggerPid)
+            if actorData.inRoomPid then
+                for k,v in pairs(actorData.inRoomPid) do
+                    local _actorData = self:getActorDataByPid(v)
+                    _actorData.buildId = -1
+                end
+            else
+                actorData.buildId = -1
+            end
+            self:deriveData()
+        elseif interActionType == 5 then -- 建筑上播放表情
+            local actions = {}
+            local pid = actionData.triggerPid or actionData.actorPid
+            if actionCfg.interTypeParma.target == 1 then
+                pid = actionData.actorPid or actionData.triggerPid
+            end
+            table.insert(actions,{actionId = actionCfg.interTypeParma.actionId, pid = pid})
+            self:operateAction({actions = actions})
+        elseif interActionType == 10 then -- 强制为主角执行actionId
+            local actions = {}
+            table.insert(actions,{actionId = actionCfg.interTypeParma.actionId, pid = self:getMainHero():getPid()})
+            self:operateAction({actions = actions})
+        elseif interActionType == 7 then -- 添加ai
+            if self:checkCondition(actionCfg.interTypeParma.cond or {}) then -- 检测触发条件
+                for i = 1,10 do -- 固定10次内随机
+                    local willCreateActor = actionCfg.interTypeParma.actorCfgId[math.random(1,#actionCfg.interTypeParma.actorCfgId)]
+                    local npcCfg = TabDataMgr:getData("WorldObjectMgr",willCreateActor)
+                    if not self:getActorDataByPid(willCreateActor) or actionCfg.interTypeParma.allowRepeat then
+                        if not actionCfg.interTypeParma.isHero then
+                            if npcCfg and self:checkCondition(npcCfg.creatCond) then
+                                local actorData = self:createNewEmptyData(willCreateActor, actionCfg.interTypeParma.isHero)
+                                actorData.childType = actionCfg.interTypeParma.childType
+                                local dir = eDir.LEFT
+                                if actionData.actorPid then
+                                    local actorNode = self:getActorNodeByPid(actionData.actorPid)
+                                    actorData.pos = actorNode:getPosition()
+                                    dir = actorNode:getDir()
+                                end
+
+                                if actionData.triggerPid then
+                                    local actorNode = self:getActorNodeByPid(actionData.triggerPid)
+                                    actorData.pos = actorNode:getPosition()
+                                    dir = actorNode:getDir()
+                                end
+
+                                if actionCfg.interTypeParma.pos then
+                                    actorData.pos = ccp(actionCfg.interTypeParma.pos[1],actionCfg.interTypeParma.pos[2])
+                                end
+
+                                if actionCfg.interTypeParma.isFollowMainHero then
+                                    actorData.pos = self:getMainHero():getPosition()
+                                    dir = self:getMainHero():getDir()
+                                end
+
+                                if actionCfg.interTypeParma.parmaFlag then -- 通过标记获取数据
+                                    local flagData = Utils:getFlagData(actionCfg.interTypeParma.parmaFlag)
+                                    if flagData and flagData.worldRiddlesData then
+                                        actorData.pos = ccp(flagData.worldRiddlesData.lox,flagData.worldRiddlesData.loy)
+                                    end 
+                                end
+                                
+                                if actionCfg.interTypeParma.offset then
+                                    actorData.pos = actorData.pos + ccp(actionCfg.interTypeParma.offset[1],actionCfg.interTypeParma.offset[2])
+                                elseif actionCfg.interTypeParma.offsetWithDir then
+                                    local flipX = dir == eDir.LEFT and -1 or 1
+                                    actorData.pos = actorData.pos + ccp(flipX*actionCfg.interTypeParma.offsetWithDir[1],actionCfg.interTypeParma.offsetWithDir[2])
+                                end
+
+                                if actionCfg.interTypeParma.allowRepeat then
+                                    for i = 1,100 do
+                                        local id = actorData.pid*1000 + i
+                                        if not self:getActorDataByPid(id) then
+                                            actorData.pid = id
+                                            break
+                                        end
+                                    end
+                                end
+                                self:updateActorData(actorData)
+                                break
+                            end
+                        else
+                            local actorData = self:createNewEmptyData(willCreateActor, actionCfg.interTypeParma.isHero)
+                            actorData.childType = actionCfg.interTypeParma.childType
+                            local actorNode = self:getActorNodeByPid(actionData.actorPid)
+                            actorData.pos = actorNode:getPosition()
+                            self:updateActorData(actorData)
+                            break
+                        end
+                    end
+                end
+            end
+        elseif interActionType == 8 then -- 移除碰撞的非静态对象
+            if actionCfg.interTypeParma.removeChildType then
+                local actorNode = self:getActorNodeByPid(actionData.triggerPid) -- 移除碰撞者
+                if actionCfg.interTypeParma.target == 1 then -- 移除被碰撞对象
+                    actorNode = self:getActorNodeByPid(actionData.actorPid)
+                end
+                if not actorNode then  return true end
+                if actorNode.childType and table.find(actionCfg.interTypeParma.removeChildType, actorNode.childType) ~= -1 then
+                    self.autoTriggerActionIds[actorNode:getPid()] = {}
+                    self:removeActorNode(actorNode)
+                end
+            elseif actionCfg.interTypeParma.npcId then
+                local actorNode = self:getActorNodeByPid(actionCfg.interTypeParma.npcId) -- 移除特定对象
+                self.autoTriggerActionIds[actorNode:getPid()] = {}
+                self:removeActorNode(actorNode)
+            end
+        elseif interActionType == 9 then -- 移动到指定位置
+            local actorNode = self:getActorNodeByPid(actionData.triggerPid)
+            if not actorNode then  return true end
+            actorNode:moveTo(ccp(actionCfg.interTypeParma.pos[1],actionCfg.interTypeParma.pos[2]),function ( ... )
+                -- body
+                actorNode:delayAIAction( 1000 )
+            end)
+        end
+    end
+
+    if actionData.actorPid then -- 统一播对象交互逻辑
+        local actor = self:getActorNodeByPid(actionData.actorPid)
+        local actorData = self:getActorDataByPid(actionData.actorPid)
+
+        if not actorData then return end -- 对象触发移除 不在执行触发动作
+        
+        if actorData.decorateId then
+            local npcCfg = TabDataMgr:getData("WorldObjectMgr", actorData.decorateId) 
+            if actionCfg.asyn then -- 异步同时执行
+                actor:actionByCfgId(npcCfg.objectAni_inter)
+                callBack()
+            else
+                actor:actionByCfgId(npcCfg.objectAni_inter, nil ,callBack)
+            end
+        else
+            callBack()
+        end
+    else
+        callBack()
+    end
+    return true
+end
+
 function AmusementPackControl:mainHeroIsInBuilding( ... )
     -- body
-    return self:getMainHero().inBuilding
+    return self:getMainHero() and self:getMainHero().inBuilding or false
 end
 
 function AmusementPackControl:getMainHeroIsInBuildingInterActionList( ... )
@@ -437,8 +688,11 @@ function AmusementPackControl:getMainHeroIsInBuildingInterActionList( ... )
     local buildActor = self:getActorDataByPid(mainActor.buildId)
     local npcCfg = TabDataMgr:getData("WorldObjectMgr", buildActor.decorateId)
     local interAction = {}
-    for k,v in ipairs(npcCfg.ableActionOnBuild) do        
-        table.insert(interAction,{interActionId = v, actorPid = buildActor.pid})
+    for k,v in ipairs(npcCfg.ableActionOnBuild) do
+        local actionCfg = TabDataMgr:getData("WorldActionButton",v)
+        if self:checkCondition(actionCfg.condition or {}) then
+            table.insert(interAction,{interActionId = v, actorPid = buildActor.pid})
+        end
     end
     return interAction
 end
@@ -498,11 +752,17 @@ function AmusementPackControl:getAllShowEffectList( ... )
     return showList
 end
 
+function AmusementPackControl:playActionButton( actionButtonId, actorPid, triggerPid  )
+    -- body
+    self:triggerNpcFunc({interActionId = actionButtonId, actorPid = actorPid, triggerPid = triggerPid},true)
+end
+
 function AmusementPackControl:operateAction( operateData )
     -- body
     if not operateData then return end
     if operateData.actions then
         for k,v in ipairs(operateData.actions) do
+            WorldRoomDataMgr:getCurExtDataControl():parseActionCfg(v.actionId, v.pid)
             local actor = self:getActorNodeByPid(v.pid)
             if actor then
                 actor:actionByCfgId(v.actionId)
@@ -610,5 +870,12 @@ function AmusementPackControl:changeCameraFixZ( fixZ )
     end
 end
 
+function AmusementPackControl:setFocusNode( actorPid )
+    -- body
+    local actorNode = self:getActorNodeByPid(actorPid)
+    if self:getBaseMap() and actorNode then
+        self:getBaseMap().camera:setFocusNode(actorNode)
+    end
+end
 
 return AmusementPackControl

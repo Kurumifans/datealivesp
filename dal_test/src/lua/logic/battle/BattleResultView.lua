@@ -43,6 +43,8 @@ function BattleResultView:initData()
         self.invented     =  teamFightEndData.invented
         --荣誉值
         self.huntingHonor =  teamFightEndData.huntingHonor or 0
+        self.extRewards = teamFightEndData.extRewards or {}
+        self.extTips = teamFightEndData.extTips or 0
     end
     
     for i, v in ipairs(dropReward or {}) do
@@ -343,6 +345,26 @@ function BattleResultView:refreshTeamPage()
                 end
             end
         end
+        if playerInfo.pid == MainPlayer:getPlayerId() then
+            playerInfo.extRewards = self.extRewards
+            playerInfo.extTips = self.extTips
+        end
+
+        if playerInfo.extRewards and #playerInfo.extRewards > 0 then
+            for i, v in ipairs(playerInfo.extRewards) do 
+                if v.id ~= EC_SItemType.PLAYEREXP and v.id ~= EC_SItemType.SPIRITEXP and
+                    v.id ~= EC_SItemType.FAVOR and v.id ~= EC_SItemType.CONTRIBUTION then
+                    local item = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
+                    item:setScale(0.7)
+                    roleRewardList:pushBackCustomItem(item)
+                    local flag = EC_DropShowType.ACTIVITY_EXTRA
+                    if playerInfo.extTips == 1 then
+
+                    end
+                    PrefabDataMgr:setInfo(item, {v.id, v.num},flag)
+                end
+            end
+        end
 
         local roleitem   = panel_item:getChildByName("Panel_item")
         panel_item.roleitem = roleitem
@@ -632,6 +654,14 @@ function BattleResultView:refreshView()
                         -- local msec = string.format("%02d", self.passTime_ % 1000 * 0.1)
                         local hour, min, sec = Utils:getTime(timestamp, true)
                         self.Label_pass_time:setTextById(800014, min, sec)
+                    elseif self.levelCfg_.dungeonType == EC_FBLevelType.ENDLESS_PLUSS then
+                        local cfg = FubenEndlessPlusDataMgr:getFloorDungeonLevelCfg(self.levelCfg_.id)
+                        if cfg then
+                            local passTime = FubenEndlessPlusDataMgr:getFloorCostTiem(cfg.floorId)
+                            local timestamp = passTime / 1000
+                            local hour, min, sec = Utils:getTime(timestamp, true)
+                            self.Label_pass_time:setTextById(800014, min, sec)
+                        end
                     elseif self.levelCfg_.dungeonType == EC_FBLevelType.THEATER_FIGHTING then
                         local theaterBossInfo = FubenDataMgr:getTheaterBossInfo()
                         self.Image_lingbo:setVisible(theaterBossInfo.odeumType == EC_TheaterBossType.LINGBO)
@@ -1560,12 +1590,7 @@ function BattleResultView:registerEvents()
                     if GuideDataMgr:isInNewGuide() and AlertManager:getMainSceneCacheLayerNum() < 1 then
                         AlertManager:setOpenFubenCom(true)
                     end
-                    if battleController.lastSceneName == "BaseOSDScene" then 
-                        local OSDControl = require("lua.logic.osd.OSDControl")
-                        OSDControl:enterOSD({})
-                    else
-                        AlertManager:changeScene(SceneType.MainScene)
-                    end
+                    battleController.popLastScence()
                 end
             end
     end)

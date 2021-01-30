@@ -619,9 +619,11 @@ function TaskMainView:showDailyTask()
 
     for i, v in ipairs(self.activeItem_) do
         local taskInfo = TaskDataMgr:getTaskInfo(self.activeTask_[i])
-        v.Panel_geted:setVisible(taskInfo.status == EC_TaskStatus.GETED)
-        v.Panel_canGet:setVisible(taskInfo.status == EC_TaskStatus.GET)
-        v.Panel_notGet:setVisible(taskInfo.status == EC_TaskStatus.ING)
+        if taskInfo then
+            v.Panel_geted:setVisible(taskInfo.status == EC_TaskStatus.GETED)
+            v.Panel_canGet:setVisible(taskInfo.status == EC_TaskStatus.GET)
+            v.Panel_notGet:setVisible(taskInfo.status == EC_TaskStatus.ING)
+        end
     end
 
 

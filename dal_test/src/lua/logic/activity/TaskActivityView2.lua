@@ -1,5 +1,5 @@
 
-local TaskActivityView = class("TaskActivityView", BaseLayer)
+local TaskActivityView = class("TaskActivityView2", BaseLayer)
 local TaskTable = TabDataMgr:getData("Task")
 
 function TaskActivityView:initData(activityId)
@@ -98,6 +98,7 @@ end
 function TaskActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
     local taskType = self.activityInfo_.extendData.taskType
+    print("任务类型",taskType)
     local taskData = {}
     for k, item in pairs(TaskTable or {}) do
         if item.type == taskType then                
@@ -126,7 +127,7 @@ function TaskActivityView:updateActivity()
             return A.order < B.order      
         end
     end)
-    dump(taskData)
+    --dump(taskData)
 
     self.taskData_ = {}
     for k,v in ipairs(taskData) do

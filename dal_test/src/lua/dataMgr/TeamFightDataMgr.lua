@@ -25,6 +25,8 @@ function TeamFightDataMgr:getTeamLevelCfg( nTeamType, dungeonId )
         battlecfg = TabDataMgr:getData("GhostDungeon")[dungeonId]
     elseif nTeamType == 10 then -- 冰雪大作战组队
         battlecfg = TabDataMgr:getData("DungeonWithCombatModule")[dungeonId]
+    elseif nTeamType == 11 then -- 年兽作战组队
+        battlecfg = TabDataMgr:getData("NewYearBeast2021")[dungeonId]
     end
     return battlecfg
 end
@@ -56,6 +58,7 @@ function TeamFightDataMgr:init()
     TFDirector:addProto(s2c.TEAM_RESP_MATCH_RANK, self, self.onRecvMatchRank)
 	TFDirector:addProto(s2c.TEAM_RESP_BACK_HOME_PAGE, self, self.onRespBackHomePage)
 
+    TFDirector:addProto(s2c.CHASM_RESP_STATE_PUSH, self, self.onRespStatePush)
 
     self.inviteSendReport = {friend = {},public = {},club = {}}
     self.levelsGroup = TabDataMgr:getData("ChasmDungeonGroup")
@@ -88,6 +91,7 @@ function TeamFightDataMgr:reset()
     self.roomTypeCfg = Utils:getKVP(28504,"room")
     self.showInRoom = true
     self.minLv           = 1
+    self.stateInfo_ = {}
 end
 
 function TeamFightDataMgr:onLoginOut()
@@ -221,6 +225,7 @@ function TeamFightDataMgr:onRecvLeaveTeam(event)
         self:reset()
         EventMgr:dispatchEvent(EV_TEAM_FIGHT_TEAMTIME_OUT_TEAM)
     end
+
 end
 
 function TeamFightDataMgr:onRecvMatchTeamQuit(event)
@@ -357,6 +362,8 @@ function TeamFightDataMgr:onRecvHeroReward(event)
             for i, v in ipairs(self.battleEndData.results) do
                 if v.pid == data.pid then 
                     v.rewards = data.rewards or {}
+                    v.extTips = data.extTips or 0
+                    v.extRewards = data.extRewards or {}
                 end
             end
         end
@@ -545,7 +552,7 @@ function TeamFightDataMgr:requestJoinTeam( nTeamId,nBattleId,nTeamType,joinType)
                 openInfo.isOpening = false
             end
             openInfo.isOpening = dungeonInfo.isOpen
-        elseif nTeamType == 3 or nTeamType == 4 or nTeamType == 5  or nTeamType == 6 or nTeamType == 10 then
+        elseif nTeamType == 3 or nTeamType == 4 or nTeamType == 5  or nTeamType == 6 or nTeamType == 10  or nTeamType == 11 then
             self.nTeamType = nTeamType
             self.nBattleId = nBattleId
             if nTeamId == nil or nTeamId == "" then
@@ -936,6 +943,7 @@ function TeamFightDataMgr:installTeamInfo( data )
     end
     self.nLeaderId       = data.leaderPid   or 0
     self.tTeamMemberInfo = data.members 	or {}
+
     for i=1,5 do
         if self.tTeamMemberInfo[i] and self.tTeamMemberInfo[i].pid == self.nLeaderId and i ~= 1 then
             local temp = self.tTeamMemberInfo[i]
@@ -943,9 +951,40 @@ function TeamFightDataMgr:installTeamInfo( data )
             self.tTeamMemberInfo[1] = temp
         end
     end
+
+    self:updateStateInfo()
+
     print("event.data=========>>>>>>>>>>>" , data)
     print("self.strTeamId=========>>>>>>>>>>>" .. self.strTeamId)
    EventMgr:dispatchEvent(EV_TEAM_FIGHT_TEAM_DATA)
+end
+
+function TeamFightDataMgr:updateStateInfo()
+
+    local notHave_ = {}
+    for k,v in pairs(self.stateInfo_) do
+
+        local have = false
+        for i=1,5 do
+            if self.tTeamMemberInfo[i] and self.tTeamMemberInfo[i].pid then
+                if k == self.tTeamMemberInfo[i].pid then
+                    have = true
+                    break
+                end
+            end
+        end
+
+        if not have then
+            table.insert(notHave_,k)
+        end
+
+    end
+
+    for k,v in ipairs(notHave_) do
+        self.stateInfo_[v] = nil
+    end
+    dump(self.stateInfo_,"self.stateInfo_")
+
 end
 
 function TeamFightDataMgr:isAutoMatching( ... )
@@ -1195,7 +1234,7 @@ function TeamFightDataMgr:checkInviteMsg(chatInfo,timestamp)
 			print("----------3")
             return false
         end
-    elseif nTeamType == 3 or nTeamType == 4 or nTeamType == 5 or nTeamType == 6 or nTeamType == 7 or nTeamType == 8 or nTeamType == 9 or nTeamType == 10 then
+    elseif nTeamType == 3 or nTeamType == 4 or nTeamType == 5 or nTeamType == 6 or nTeamType == 7 or nTeamType == 8 or nTeamType == 9 or nTeamType == 10 or nTeamType == 11 then
     else
         local levelsStat = self:getTeamLevelStat()
         if levelsStat then
@@ -1247,6 +1286,13 @@ function TeamFightDataMgr:setShowInlistState(state)
     self.showInRoom = state
 end
 
+function TeamFightDataMgr:getTeamPushState(pid,type)
+
+    if not self.stateInfo_[pid] then
+        return
+    end
+    return self.stateInfo_[pid][type]
+end
 
 function TeamFightDataMgr:Send_getTeamRoomInfo(teamType)
     TFDirector:send(c2s.TEAM_REQ_ALL_TEAM_INFO, {teamType,0})
@@ -1254,6 +1300,11 @@ end
 
 function TeamFightDataMgr:Send_ChangeTeamShowType(show_type)
     TFDirector:send(c2s.TEAM_REQ_SET_TEAM_SHOW_TYPE, {show_type})
+end
+
+
+function TeamFightDataMgr:Send_ChangeRoleState(type,state)
+    TFDirector:send(c2s.CHASM_REQ_STATE_PUSH, {type,tostring(state)})
 end
 
 function TeamFightDataMgr:onRecvRoomInfo(event)
@@ -1292,5 +1343,27 @@ function TeamFightDataMgr:onRecvMatchRank(event)
 
     EventMgr:dispatchEvent(EV_TEAM_MATCH_RANK, data)
 end
+
+function TeamFightDataMgr:onRespStatePush(event)
+
+    local data = event.data
+    dump(data)
+    if not data then
+        return
+    end
+
+    local pid = data.pid
+    local type = data.type
+    local state = data.state
+
+    if not self.stateInfo_[pid] then
+        self.stateInfo_[pid] = {}
+    end
+    self.stateInfo_[pid][type] = tonumber(state)
+
+    EventMgr:dispatchEvent(EV_TEAM_PUSH_STATE)
+end
+
+
 
 return TeamFightDataMgr:new()

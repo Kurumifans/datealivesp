@@ -2603,6 +2603,27 @@ return {
         icon = "",
         EXA = 13017,
     },
+    [1314010] = {
+        unlockHint = 1705453,
+        sortForMainScene = 5,
+        id = 1314010,
+        backgroundEffect = {
+        },
+        kanbanEffect = {
+        },
+        bgOffset = {
+        },
+        scale = 0,
+        dayNight = {
+            [1] = 210005,
+        },
+        name = 1705451,
+        groupBelong = 10012,
+        describe = 1705452,
+        background = "ui/mainLayer/new_ui/bg_2021.png",
+        icon = "icon/datingSceneIcon/bg_2021.png",
+        EXA = 11031,
+    },
     [1314009] = {
         unlockHint = 1705448,
         sortForMainScene = 4,

@@ -2,7 +2,7 @@
 	"Version": 3,
 	"Meta": {
 		"PhysicsSettingCount": 1,
-		"TotalInputCount": 8,
+		"TotalInputCount": 2,
 		"TotalOutputCount": 10,
 		"VertexCount": 4,
 		"EffectiveForces": {
@@ -29,7 +29,7 @@
 				{
 					"Source": {
 						"Target": "Parameter",
-						"Id": "PARAM_ANGLE_X"
+						"Id": "PARAM_ANGLE_X_02"
 					},
 					"Weight": 60,
 					"Type": "X",
@@ -38,63 +38,9 @@
 				{
 					"Source": {
 						"Target": "Parameter",
-						"Id": "PARAM_ANGLE_Y"
-					},
-					"Weight": 40,
-					"Type": "X",
-					"Reflect": false
-				},
-				{
-					"Source": {
-						"Target": "Parameter",
-						"Id": "PARAM_ANGLE_Z"
-					},
-					"Weight": 0,
-					"Type": "X",
-					"Reflect": false
-				},
-				{
-					"Source": {
-						"Target": "Parameter",
-						"Id": "PARAM_BODY_ANGLE_Z"
-					},
-					"Weight": 0,
-					"Type": "X",
-					"Reflect": false
-				},
-				{
-					"Source": {
-						"Target": "Parameter",
-						"Id": "PARAM_ANGLE_X_02"
-					},
-					"Weight": 0,
-					"Type": "X",
-					"Reflect": false
-				},
-				{
-					"Source": {
-						"Target": "Parameter",
 						"Id": "PARAM_ANGLE_Y_02"
 					},
-					"Weight": 0,
-					"Type": "X",
-					"Reflect": false
-				},
-				{
-					"Source": {
-						"Target": "Parameter",
-						"Id": "PARAM_ANGLE_Z_02"
-					},
-					"Weight": 0,
-					"Type": "X",
-					"Reflect": false
-				},
-				{
-					"Source": {
-						"Target": "Parameter",
-						"Id": "PARAM_BODY_ANGLE_Z_02"
-					},
-					"Weight": 0,
+					"Weight": 40,
 					"Type": "X",
 					"Reflect": false
 				}
@@ -127,7 +73,7 @@
 						"Target": "Parameter",
 						"Id": "PARAM_SKIRT_X_02"
 					},
-					"VertexIndex": 1,
+					"VertexIndex": 2,
 					"Scale": 1,
 					"Weight": 100,
 					"Type": "Angle",
@@ -138,7 +84,7 @@
 						"Target": "Parameter",
 						"Id": "PARAM_SKIRT_Y_02"
 					},
-					"VertexIndex": 2,
+					"VertexIndex": 1,
 					"Scale": 1,
 					"Weight": 100,
 					"Type": "Angle",
@@ -193,7 +139,7 @@
 						"Target": "Parameter",
 						"Id": "PARAM_bwqunzipiao01"
 					},
-					"VertexIndex": 2,
+					"VertexIndex": 1,
 					"Scale": 1,
 					"Weight": 100,
 					"Type": "Angle",
@@ -204,7 +150,7 @@
 						"Target": "Parameter",
 						"Id": "PARAM_bwqunzipiao02"
 					},
-					"VertexIndex": 1,
+					"VertexIndex": 2,
 					"Scale": 1,
 					"Weight": 100,
 					"Type": "Angle",

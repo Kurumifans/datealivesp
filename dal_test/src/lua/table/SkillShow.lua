@@ -1291,4 +1291,56 @@ return {
         },
         skipGame = 0,
     },
+    [51] = {
+        showSound = "0",
+        id = 51,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 15341,
+        detection = false,
+        effectsUp = {
+            [1] = {
+                action = "skillD_show_up",
+                animation = "effects_13201_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "fight_13201_skillD_show",
+        },
+        effectsDown = {
+            [1] = {
+                action = "skillD_show_down",
+                animation = "effects_13201_skillD",
+            },
+        },
+        skipGame = 0,
+    },
+    [52] = {
+        showSound = "0",
+        id = 52,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 15441,
+        detection = false,
+        effectsUp = {
+            [1] = {
+                action = "show_up",
+                animation = "effects_13301_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "effects_13301_skillD_show",
+        },
+        effectsDown = {
+            [1] = {
+                action = "show_down",
+                animation = "effects_13301_skillD",
+            },
+        },
+        skipGame = 0,
+    },
 }

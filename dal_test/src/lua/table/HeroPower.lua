@@ -542,4 +542,40 @@ return {
         },
         powerName = 2300123,
     },
+    [31] = {
+        consumePrams = {
+        },
+        id = 31,
+        energyExchange = {
+        },
+        specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
+        getType = 0,
+        consumeType = 0,
+        getPrams = {
+        },
+        triggerBuff = {
+        },
+        powerName = 2300124,
+    },
+    [32] = {
+        consumePrams = {
+        },
+        id = 32,
+        energyExchange = {
+        },
+        specialEnergyUI = 0,
+        powerUI = 1,
+        specialEnergyName = 0,
+        getType = 3,
+        consumeType = 0,
+        getPrams = {
+            [1] = 1000,
+            [2] = 3,
+        },
+        triggerBuff = {
+        },
+        powerName = 2300125,
+    },
 }

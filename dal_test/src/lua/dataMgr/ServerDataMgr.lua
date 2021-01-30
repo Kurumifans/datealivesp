@@ -67,7 +67,7 @@ function ServerDataMgr:init()
         ["pub_test"] = {
             sort = 7,
             name = "外网-压测服",
-            url = "http://uctest.datealive.com:8888/account/login"
+            url = "http://140.143.181.116:8081/account/login"
         },
         ["tiyan_ext"] = {
             sort = 19,

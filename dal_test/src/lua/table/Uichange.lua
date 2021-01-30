@@ -76,6 +76,24 @@ return {
         icon = "ui/setting/new/bg2.png",
         des = "14310003",
     },
+    [100007] = {
+        preBeginTime = "2021-02-04 00:00:00",
+        bgm = "sound/bgm/main_2020.mp3",
+        id = 100007,
+        popupLocation = {
+        },
+        condition = {
+        },
+        unlockType = 0,
+        titleType = 2,
+        uiConfig  = "lua.uiconfig.MainScene.newYear2021Theme",
+        name = "14320007",
+        preEndTime = "2021-03-09 23:59:59",
+        endTime = "2021-03-09 23:59:59",
+        beginTime = "2021-02-04 00:00:00",
+        icon = "ui/setting/new/bg7.png",
+        des = "14310008",
+    },
     [100004] = {
         preBeginTime = "2020-01-15 00:00:00",
         bgm = "sound/bgm/main_2020.mp3",

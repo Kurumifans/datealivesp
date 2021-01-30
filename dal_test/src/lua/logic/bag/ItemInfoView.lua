@@ -2,7 +2,7 @@
 local ItemInfoView = class("ItemInfoView", BaseLayer)
 
 function ItemInfoView:initData(itemCid, itemId, isShowAccess, isNotShowTry)
-    dump(itemCid)
+    print(itemCid, itemId, isShowAccess, isNotShowTry)
     self.itemCid_ = itemCid
     self.itemId_ = itemId
     self.isShowAccess_ = tobool(isShowAccess)
@@ -38,6 +38,7 @@ function ItemInfoView:initUI(ui)
     self.Label_desc = TFDirector:getChildByPath(Panel_content, "Label_desc")
     self.Image_line2 = TFDirector:getChildByPath(Panel_content, "Image_line2")
     self.Button_use = TFDirector:getChildByPath(Panel_content, "Button_use"):hide()
+    self.Button_exchange = TFDirector:getChildByPath(Panel_content, "Button_exchange"):hide()
     self.Label_use = TFDirector:getChildByPath(self.Button_use, "Label_use")
     self.Button_access = TFDirector:getChildByPath(Panel_content, "Button_access")
     self.Button_try = TFDirector:getChildByPath(Panel_content, "Button_try"):hide()
@@ -123,6 +124,8 @@ function ItemInfoView:refreshView()
         self.ListView_cost:setContentSize(containerSize)
     elseif self.itemCfg_.superType == EC_ResourceType.TRAILCARD and GoodsDataMgr:getItemCount(self.itemCid_) > 0 then
         self.Button_use:setVisible(true)
+    elseif self.itemCfg_.superType == EC_ResourceType.EXCHANGE then
+        self.Button_exchange:show()
     else
         self.Button_access:setPositionX(self.Button_use:getPositionX())
     end
@@ -148,6 +151,7 @@ function ItemInfoView:updateCountDown()
     local remainTime = math.max(0, self.itemInfo_.outTime - ServerDataMgr:getServerTime())
     if remainTime == 0 then
         self.Button_use:hide()
+        self.Button_exchange:hide()
         self:removeCountDownTimer()
         self.Label_countDown:setTextById(301010)
     else
@@ -268,7 +272,11 @@ function ItemInfoView:registerEvents()
 
 	self.Button_mirror:onClick(function()
 		Utils:openView("collect.CollectScenePreView", self.itemCfg_.showBgPreview)
-	end)
+    end)
+    
+    self.Button_exchange:onClick(function()
+        Utils:openView("friend.FriendView",self.itemCfg_.id)
+    end)
 end
 
 function ItemInfoView:tryOnDress(dressId)

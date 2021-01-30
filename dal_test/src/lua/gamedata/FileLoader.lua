@@ -94,6 +94,7 @@ local __dataMgr = {
     KVP("PrivilegeDataMgr","lua.dataMgr.PrivilegeDataMgr"),
     KVP("TurnTabletMgr", "lua.dataMgr.TurnTabletMgr"),
     KVP("MaokaActivityMgr", "lua.dataMgr.MaokaActivityMgr"),
+    KVP("FubenEndlessPlusDataMgr", "lua.dataMgr.FubenEndlessPlusDataMgr"),
 }
 
 local __loadList = {}

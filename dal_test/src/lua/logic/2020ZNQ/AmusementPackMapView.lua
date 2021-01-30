@@ -27,6 +27,7 @@ local AmusementPackMapView = class("AmusementPackMapView",BasicMap)
 
 function AmusementPackMapView:ctor( ... )
 	-- body
+    self.viewOffset = CCSize(200,200)
 	self.super.ctor(self, WorldRoomDataMgr:getCurControl())
 end
 
@@ -62,6 +63,11 @@ function AmusementPackMapView:initMapElement( ... )
     end
 
     self:createActors()
+end
+
+function AmusementPackMapView:setViewOffset( width, height )
+    -- body
+    self.viewOffset = CCSize(width,height)
 end
 
 function AmusementPackMapView:updateMapNpcList( ... )
@@ -135,7 +141,7 @@ function AmusementPackMapView:checkInViewByPos( pos )
     local cameraPos = self.camera:getPosition3D()
     local cameraPos2d = ccp(cameraPos.x,cameraPos.y)
     local _pos = ccp(pos.x - cameraPos2d.x, pos.y - cameraPos2d.y)
-    if math.abs(_pos.x) < cameraSize.width/2 + 400 and math.abs(_pos.y) < cameraSize.height/2 + 400 then
+    if math.abs(_pos.x) < cameraSize.width/2 + self.viewOffset.width and math.abs(_pos.y) < cameraSize.height/2 + self.viewOffset.height then
         return true
     else
         return false

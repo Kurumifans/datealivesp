@@ -436,8 +436,11 @@ function BasicControl:updateRoles(dt)
 
     for npc in self:getNPCList():iterator() do
     	local actorData = self:getActorDataByPid(npc:getPid())
-        npc:update(dt,actorData)
+    	if npc:needUpdate() then
+        	npc:update(dt,actorData)
+        end 
     end
+   
 end
 
 --判断是否触发npc功能
@@ -448,7 +451,7 @@ function BasicControl:checkIsTriggerNpcFuc(hero)
     for npc in self:getNPCList():iterator() do
         local rect = npc:getNpcRect()
         local pos  = hero:getPosition3D()
-        if me.rectContainsPoint(rect, pos) and not npc.isAlWayTrigger then
+        if me.rectContainsPoint(rect, pos) then
             table.insert(self.focusNpcs[hero:getPid()],npc:getPid())
         end
     end
@@ -528,6 +531,7 @@ function BasicControl:checkInScreen( ... )
 		if actorData.pid == MainPlayer:getPlayerId() then
 			inView = true
 		end
+
 		-- todo 根据需求决定是否要处理
 		self:actorInView(actorData, inView)
 	end
@@ -535,27 +539,41 @@ end
 
 function BasicControl:actorInView( actorData , inView)
 	-- body
-	local isHero = actorData.skinCid
-	if isHero then
-		if self.addPlayerNum > 1 and actorData.pid ~= MainPlayer:getPlayerId() then
+	local actorNode = self:getActorNodeByPid(actorData.pid)
+	if not actorNode then
+		if not inView then
+			self:addDelayCreateNode(actorData)
 			return
 		end
+		self.delayCreateActor = self.delayCreateActor or {}
+		self.delayCreateActor[actorData.pid] = nil
+		self:createActor(actorData)
+	end
 
-		local hero = self:getActorNodeByPid(actorData.pid)
-		if not hero and inView then
-			self.addPlayerNum = self.addPlayerNum + 1
-			self:createActor(actorData)
-		end
+	local actorNode = self:getActorNodeByPid(actorData.pid)
+	if actorNode then
+		actorNode:hideSelf(inView)
+	end
 
-		if hero then
-			hero:hideSelf(inView)
-		end
-	else -- npc 逻辑 不做删除
-		local npc = self:getActorNodeByPid(actorData.pid)
-		if not npc then
+end
+
+function BasicControl:dasyncCreateActor( ... )
+	-- body
+	local addNum = 0
+	for k,v in pairs(self.delayCreateActor) do
+		local actorData = self:getActorDataByPid(k)
+		if actorData and addNum < 1 then
 			self:createActor(actorData)
+			self.delayCreateActor[k] = nil
+			addNum = addNum + 1
 		end
 	end
+end
+
+function BasicControl:addDelayCreateNode( actorData )
+	-- body
+	self.delayCreateActor = self.delayCreateActor or {}
+	self.delayCreateActor[actorData.pid] = true
 end
 
 function BasicControl:createActor( actorData )
@@ -598,6 +616,7 @@ end
 
 function BasicControl:updateInFrame9( dt )
 	-- body
+	self:dasyncCreateActor()
 end
 
 function BasicControl:initUpdate( dt )

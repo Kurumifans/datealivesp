@@ -259,6 +259,30 @@ return {
         weaponPaintSize = 0.9,
         weaponPaint = "modle/weapon/angel_1103021/angel_10302",
     },
+    [1132011] = {
+        weaponPaintPosition = {
+            y = 0,
+            x = -20,
+        },
+        particleEffect = {
+        },
+        weaponName = "2200040",
+        id = 1132011,
+        weaponPaintSize = 0.6,
+        weaponPaint = "modle/weapon/angel_1132011/angel_1132011",
+    },
+    [1133011] = {
+        weaponPaintPosition = {
+            y = 30,
+            x = -20,
+        },
+        particleEffect = {
+        },
+        weaponName = "2200040",
+        id = 1133011,
+        weaponPaintSize = 0.5,
+        weaponPaint = "modle/weapon/angel_1133011/angel_1133011",
+    },
     [1125011] = {
         weaponPaintPosition = {
             y = 30,

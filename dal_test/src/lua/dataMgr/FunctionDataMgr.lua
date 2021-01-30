@@ -96,6 +96,15 @@ function FunctionDataMgr:initFuncList()
         [306] = self.jTurnTable,    -- 转盘活动
         [307] = self.jSimulateSummon,    -- 模拟召唤
         [308] = self.jActivityByHasActivity,    -- 活动跳转，强制无活动不打开
+        [309] = self.jNewYearWishTree,    -- 许愿树
+        [310] = self.jNewYearBuildRepair,  -- 建筑修复
+        [311] = self.jGuessWord2021,  -- 灯谜街-猜灯谜
+        [312] = self.jFireWorkFactory,  -- 2021烟花工场
+        [313] = self.jNianshou2021,  -- 2021年兽鞭炮挑战
+        [314] = self.jNewYearClothStore,  -- 2021年成衣铺
+        [315] = self.jNewYearStore,  -- 2021乐园商店
+        [316] = self.jNewYearTask,  -- 2021乐园任务
+
     }
     local tempFunc = {}
     for k, v in pairs(self.funcList_) do
@@ -146,6 +155,8 @@ function FunctionDataMgr:init()
     TFDirector:addProto(s2c.PLAYER_RES_WELFARE_INFO, self, self.onRecvMainFuncInfo)
     TFDirector:addProto(s2c.PLAYER_RES_OPEN_WELFARE_INFO, self, self.onRecvUpdateMainFuncInfo)
     TFDirector:addProto(s2c.ITEM_RESP_TIME_OUT_ITEM_CONVERT, self, self.onRecyclingItems)
+
+    EventMgr:addEventListener(self, EV_RIDDLE_GET_QUESDATA, handler(self.openGuessWord2021, self))
 
     self:initFuncList()
     self.accessMap_ = TabDataMgr:getData("Access")
@@ -1546,6 +1557,63 @@ function FunctionDataMgr:jPrivilegeLeague( ... )
     Utils:openView("privilege.PrivilegeLeagueView")
 end
 
+function FunctionDataMgr:jNewYearWishTree()
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.NEWYEAR_WISH)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+
+    local view = requireNew("lua.logic.newYear.WishTree"):new()
+    AlertManager:addLayer(view,AlertManager.BLOCK_CLOSE)
+    AlertManager:show()
+    --Utils:openView("newYear.WishTree")
+end
+
+function FunctionDataMgr:jFireWorkFactory()
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.FIREWORKS_PRODUCT)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+    Utils:openView("activity.2021_spring.FireFactoryView")
+end
+
+function FunctionDataMgr:jNewYearClothStore()
+    Utils:openView("activity.2021_spring.NewspringClothStore")
+end
+
+function FunctionDataMgr:jNewYearStore()
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.STORE)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+    Utils:openView("activity.2021_spring.FireworkStoreView")
+end
+
+function FunctionDataMgr:jNewYearTask()
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.SNOW_FESTIVAL_TASK)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+    Utils:openView("activity.2021_spring.NewyearTaskView")
+end
+
+function FunctionDataMgr:jNewYearBuildRepair()
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.NEWYEAR_BUILDREPAIR)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+
+    local view = requireNew("lua.logic.newYear.BuildRepairView"):new()
+    AlertManager:addLayer(view,AlertManager.BLOCK_CLOSE)
+    AlertManager:show()
+
+end
+
 function FunctionDataMgr:jPersonInfoBase( index )
     -- body
     if Utils:checkInWorldRoomScene(WorldRoomType.ZNQ_WORLD) then
@@ -1610,6 +1678,32 @@ function FunctionDataMgr:getModifyFuncIsOpen( ... )
         return not info.openWelfare
     end
     return true
+end
+
+function FunctionDataMgr:jGuessWord2021( ... )
+    local isOpen = ActivityDataMgr2:isInOpenTimeByType(EC_ActivityType2.GUESS_WORD)
+    if not isOpen then
+        Utils:showTips(1710021)
+        return
+    end
+    ActivityDataMgr2:SEND_ACTIVITY2_REQ_RIDDLE_DATA()
+end
+
+function FunctionDataMgr:openGuessWord2021(data)
+    if data and data.type == 1 and not AlertManager:getLayerBySpecialName("GuessWordMainView") then
+        Utils:openView("activity.GuessWordMainView", data)
+    end
+end
+
+function FunctionDataMgr:jNianshou2021()
+    local levelCfg = TabDataMgr:getData("NewYearBeast2021",291135)
+    local closeTime = Utils:getTimeByDate(levelCfg.closeTime)
+    local serverTime = ServerDataMgr:getServerTime()
+    if closeTime <= serverTime then
+        Utils:showTips(1890001)
+        return
+    end
+    Utils:openView("activity.2021_spring.NianShouChallegeView")
 end
 
 return FunctionDataMgr:new()

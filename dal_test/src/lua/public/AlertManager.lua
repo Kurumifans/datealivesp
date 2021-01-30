@@ -318,7 +318,7 @@ function AlertManager:addLayerToQueue(layer,block,tweentype)
     end
 
     if layer.popAnim then
-        layer.block = AlertManager.BLOCK_AND_GRAY_CLOSE
+        layer.block = block or AlertManager.BLOCK_AND_GRAY_CLOSE
     else
         layer.block = block or AlertManager.BLOCK_AND_GRAY
     end

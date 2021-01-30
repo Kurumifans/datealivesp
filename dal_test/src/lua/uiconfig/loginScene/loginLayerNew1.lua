@@ -135,7 +135,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "47",
+							height = "51",
 							ignoreSize = "True",
 							name = "Image_loginLayerNew1_1",
 							sizepercentx = "0",
@@ -150,7 +150,7 @@ local t =
 								PositionY = 24,
 							},
 							visible = "False",
-							width = "1277",
+							width = "1386",
 							ZOrder = "1",
 						},
 						{
@@ -193,7 +193,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "2",
+									height = "64",
 									ignoreSize = "True",
 									name = "Image_go",
 									sizepercentx = "0",
@@ -206,7 +206,7 @@ local t =
 									{
 										
 									},
-									width = "2",
+									width = "64",
 									ZOrder = "1",
 									components = 
 									{
@@ -1334,7 +1334,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF92D8F4",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -1588,7 +1588,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "64",
+							height = "70",
 							ignoreSize = "True",
 							name = "Button_pv",
 							normal = "ui/login/005.png",
@@ -1605,7 +1605,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
-							width = "63",
+							width = "70",
 							ZOrder = "1",
 							components = 
 							{
@@ -1619,7 +1619,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FFFFDED0",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1633,7 +1633,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FF383434",
+										StrokeColor = "#20560000",
 										StrokeSize = 1,
 									},
 									height = "24",
@@ -1669,7 +1669,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "64",
+							height = "70",
 							ignoreSize = "True",
 							name = "Button_User_proto",
 							normal = "ui/login/004.png",
@@ -1686,7 +1686,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
-							width = "63",
+							width = "70",
 							ZOrder = "1",
 							components = 
 							{
@@ -1700,7 +1700,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FFFFDED0",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1714,7 +1714,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FF383434",
+										StrokeColor = "#20560000",
 										StrokeSize = 1,
 									},
 									height = "24",
@@ -1750,7 +1750,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "64",
+							height = "70",
 							ignoreSize = "True",
 							name = "Button_Conceal_proto",
 							normal = "ui/login/003.png",
@@ -1767,7 +1767,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
-							width = "63",
+							width = "70",
 							ZOrder = "1",
 							components = 
 							{
@@ -1781,7 +1781,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FFFFDED0",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1795,7 +1795,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FF383434",
+										StrokeColor = "#20560000",
 										StrokeSize = 1,
 									},
 									height = "24",
@@ -1831,7 +1831,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "64",
+							height = "70",
 							ignoreSize = "True",
 							name = "Button_notice",
 							normal = "ui/login/002.png",
@@ -1848,7 +1848,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
-							width = "63",
+							width = "70",
 							ZOrder = "1",
 							components = 
 							{
@@ -1862,7 +1862,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FFFFDED0",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1876,7 +1876,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FF383434",
+										StrokeColor = "#20560000",
 										StrokeSize = 1,
 									},
 									height = "24",
@@ -1912,7 +1912,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "64",
+							height = "70",
 							ignoreSize = "True",
 							name = "Button_thanks",
 							normal = "ui/login/006.png",
@@ -1929,7 +1929,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
-							width = "63",
+							width = "70",
 							ZOrder = "1",
 							components = 
 							{
@@ -1943,7 +1943,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FFFFDED0",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1957,7 +1957,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FF383434",
+										StrokeColor = "#20560000",
 										StrokeSize = 1,
 									},
 									height = "24",
@@ -1993,7 +1993,7 @@ local t =
 							dstBlendFunc = "771",
 							flipX = "False",
 							flipY = "False",
-							height = "64",
+							height = "70",
 							ignoreSize = "True",
 							name = "Button_cleanup",
 							normal = "ui/login/001.png",
@@ -2010,7 +2010,7 @@ local t =
 								relativeToName = "Panel",
 							},
 							UItype = "Button",
-							width = "63",
+							width = "70",
 							ZOrder = "1",
 							components = 
 							{
@@ -2024,7 +2024,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FFFFDED0",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -2038,7 +2038,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FF383434",
+										StrokeColor = "#20560000",
 										StrokeSize = 1,
 									},
 									height = "24",

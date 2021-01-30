@@ -150,8 +150,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -422,
-								PositionY = 169,
+								PositionX = -430,
+								PositionY = 162,
 							},
 							width = "181",
 							ZOrder = "1",
@@ -878,8 +878,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -268,
-								PositionY = 63,
+								PositionX = -269,
+								PositionY = 64,
 								IsPercent = true,
 								PercentX = -29.11,
 								PercentY = 11.92,
@@ -1213,8 +1213,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 272,
-								PositionY = -68,
+								PositionX = 270,
+								PositionY = -67,
 							},
 							UItype = "Button",
 							width = "269",

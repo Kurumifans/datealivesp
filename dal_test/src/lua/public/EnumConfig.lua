@@ -97,13 +97,14 @@ EC_FBLevelType = {
     MUSIC_GAME = 44,             --端午音律游戏
 	WORLD_BOSS = 45,           -- 社团世界Boss
     BOSS_CHALLENGE = 46,           -- Boss挑战
-
     DICUO_MAINFIGHT = 47,           -- 地错主线战斗
     DICUO_MAINDATING = 48,           -- 地错主线约会
     DICUO_ENHUI = 49,           -- 地错恩惠
     DICUO_HUALUN = 50,           -- 地错华伦
     DICUO_JIBAN = 51,           -- 地错羁绊
     SNOW_FESTIVAL = 52,         -- 冰雪大作战
+    NIANSHOU = 53,              -- 年兽大作战（鞭炮）
+    ENDLESS_PLUSS = 106,        --无尽plus
 }
 
 -- 万由里关卡类型
@@ -179,7 +180,7 @@ EC_FBType = {
     WORLD_BOSS = 45,    -- 社团世界Boss
 }
 
--- 活动副本id
+-- 活动副本id(Dungeonchapter id字段)
 EC_ActivityFubenType = {
     ENDLESS = 401,    -- 无尽副本
     TEAM = 402,    -- 组队副本
@@ -201,6 +202,7 @@ EC_ActivityFubenType = {
 	HALLOWEEN2019 = 415,	--万圣节活动2019
     BOSS_CHALLENGE = 422,    --BOSS挑战入口
     SNOW_FESVITAL = 430,     -- 冰雪节大作战
+    ENDLESS_PLUSS = 430,     --无尽plus
 }
 
 -- 活动副本
@@ -272,6 +274,7 @@ EC_LevelPassCond = {
     SCORE3 = 17,    -- 日常副本积分
     LIMIT_TIME_KILL2 = 18, -- 日常副本(限时杀怪)
     TIMING = 19,  -- 日常副本计时
+    KILL_ALL_OR_LIMIT = 20,    -- 歼灭或至少击杀数量
 }
 
 -- 主线剧情类型
@@ -628,6 +631,7 @@ EC_ResourceType = {
     FIRST_RECHARGE_ITEM = 66,   --首冲重置券
     CONTRACT_ITEM = 67,         --精灵锲约重置券
     ACTIVITY_ITEM = 71,         --活动道具类型
+    EXCHANGE    = 72            --可以交换的物品
 }
 
 -- 资源条类型
@@ -1286,6 +1290,8 @@ EC_TaskType = {
     ROLE_TEACH = 33,     -- 精灵调教成就
     WORLD_BOSS = 38,     -- 世界boss个人伤害奖励任务类型
     DAY_GETAWARD = 39,   -- 每日免费奖励领取
+    NIANSHOU = 43,   -- 2021年兽任务
+    ENDLESS_PLUSS = 41,  -- 无尽plus任务
 }
 
 -- 任务状态
@@ -1712,7 +1718,7 @@ EC_ActivityType2 = {
     DETECTIVE_VOTE = 62,               --探索投票
     TURNTABLET2 = 63,          -- 2周年庆翻牌游戏
     TWOYEAR_FASHION_STORE = 64,  --2周年庆时装商店
-	BALLOON_ACTIVITY = 66,     --气球活动
+	BALLOON_ACTIVITY = 66,     --气球活动/烟花爆竹活动
     SIMULATION_SUMMON = 67,     --模拟召唤
     DUNGEON_DROP = 68,         --固定关卡掉落翻倍活动
     WSJ_2020 = 70,         --固定关卡掉落翻倍活动
@@ -1735,7 +1741,14 @@ EC_ActivityType2 = {
     FAN_SHI_STORE = 76,          -- 反十商店
     FAN_SHI_TASK = 77,           -- 反十任务
     FAN_SHI_DOC = 78,            -- 反十说明
+    NEWYEAR_WISH = 79,           -- 新年许愿
+    NEWYEAR_BUILDREPAIR = 83,    -- 新年建筑修复
     HANTER = 85, --狩猎
+    FLOWER_SEND = 82,    -- 情人节鲜花赠送 
+
+    GUESS_WORD = 80,             -- 2021答题活动
+    SPRITE_FOR_GIFT = 81,        -- 精灵抽一送一
+    FIREWORKS_PRODUCT = 84          --烟花制作
 }
 
 EC_Activity_CHRISTMAS_Subtype = {
@@ -2200,6 +2213,7 @@ EC_DanmuType = {
     VIDEO = 3, -- 视频
     SCRIPT = 4, -- 剧情脚本
     Dating = 6, -- 约会弹幕
+    Wish = 7,   -- 许愿弹幕
     EVALUATION = 10, -- 剧情脚本
 }
 
@@ -2259,7 +2273,12 @@ EC_NetTeamType = {
     Osd  = 3,      ---夏拉姆
     FuShi = 4,     ---符石挑战
     Hunter = 5,    ---追猎计划
-    SnowFestival = 10 --双旦大作战
+    SnowFestival = 10, --双旦大作战
+    NianShou = 11, --年兽大作战
+}
+
+EC_NetChangeState = {
+    HeroChange = 1,     ---角色更换中
 }
 
 EC_JOINTEAM_TYPE = {

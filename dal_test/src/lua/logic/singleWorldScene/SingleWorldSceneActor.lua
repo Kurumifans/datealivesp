@@ -46,17 +46,6 @@ local function createActor( self, actorData )
 end
 rawset(SingleWorldSceneActor, "createActor", createActor)
 
-local function getAnimWithPrefix(self, anim)
-    if self.isSpecialModel == true then
-        if self.dir == eDir.LEFT then
-            anim = "l_"..anim
-        else
-            anim = "r_"..anim
-        end
-    end
-    return anim
-end
-
 local function createSpine( self, ... )
 	-- body
 	 if ResLoader.cacheSpine[self.resPath] and #ResLoader.cacheSpine[self.resPath] >= 1 then
@@ -150,8 +139,10 @@ local function createNpc( self, actorData )
 		 	self.isSpecialModel = resCfg.isSpecialModel
 			self.skeletonNode:setScale(npcCfg.modelScale)
 		 else
-
 		 	self.imageNode = TFImage:create(resCfg.path)
+		 	if resCfg.anchor and #resCfg.anchor > 0 then
+			 	self.imageNode:setAnchorPoint(ccp(resCfg.anchor[1],resCfg.anchor[2]))
+			end
 		 	self:addChild(self.imageNode)
 		 end
 		 self.isSpecialModel = resCfg.isSpecialModel

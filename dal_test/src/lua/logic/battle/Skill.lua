@@ -518,9 +518,9 @@ function Skill:cancel(isCd)
     self.hero:getActor():clearActionParticle()
 end
 
-function Skill:tryCast(force)
-    if force then 
-        self:playActionF()
+function Skill:tryCast(force,skillSubId)
+    if force or skillSubId then 
+        self:playActionF(skillSubId)
         return true
     end
     if self:isManual() then
@@ -600,17 +600,28 @@ function Skill:triggerEvent()
     end
 end
 
-function Skill:playActionF()
-
+function Skill:playActionF(skillSubId)
     --非强制消耗
     if self:isEnoughExtraAnger() then
         self:costExtra() --费强制的消耗处理
-        self:playAction(self.data.extraFirst)
+        local actionID = self.data.extraFirst
+        if skillSubId and skillSubId > 0 then
+            if skillSubId > 0 then
+                actionID = self.data.subclassesFirst[skillSubId]
+            end
+        end
+        self:playAction(actionID)
         self:triggerEvent()
         self:doGainEnergy()
     else
         self:costForce() 
-        self:playAction(self.data.first)
+        local actionID = self.data.first
+        if skillSubId and skillSubId > 0 then
+            if skillSubId > 0 then
+                actionID = self.data.subclassesFirst[skillSubId]
+            end
+        end
+        self:playAction(actionID)
         self:triggerEvent()
         self:doGainEnergy()
     end
@@ -1350,6 +1361,22 @@ function Skill:forceUpdate(flag)--强制更新
             EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE, self , flag)
         end
     end
+end
+
+function Skill:setShowSubSkill(show)
+    self.showingSubSkill = show
+end
+
+function Skill:getSubSkillShowState()
+    return self.subSkillState
+end
+
+function Skill:setSubSkillShowState(state)
+    self.subSkillState = state
+end
+
+function Skill:showOrHideSubSkills()
+    EventMgr:dispatchEvent(eEvent.EVENT_SUB_SKILL_SHOW, self)
 end
 
 return Skill

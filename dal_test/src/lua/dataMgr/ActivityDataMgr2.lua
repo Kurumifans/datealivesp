@@ -150,6 +150,24 @@ function ActivityDataMgr:init()
     TFDirector:addProto(s2c.ACTIVITY2_RES_REVERSE_TEN_WINDOW, self, self.onRecvFanShiAwardData)
     TFDirector:addProto(s2c.ACTIVITY2_RES_REVERSE_TEN_REWARD, self, self.onRecvFanShiGet)
 
+    --- 新年愿望列表
+    TFDirector:addProto(s2c.ACTIVITY2_RESP_SEND_SPRING_WITH_TREE, self, self.onRecvSendWishTree)
+    TFDirector:addProto(s2c.ACTIVITY2_RESP_SPRING_WITH_TREE_LIST, self, self.onRecvWishList)
+
+    ---建筑修复
+    TFDirector:addProto(s2c.ACTIVITY2_RES_REPAIR_DATA, self, self.onRecvRepairData)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_REPAIR_SUBMIT, self, self.onRecvSubMit)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_TAKE_REPAIR_OUTPUT, self, self.onRecvGetBuildReward)
+
+    --2021春节活动
+    TFDirector:addProto(s2c.ACTIVITY2_RES_VALENTINE_DATA, self, self.onRecValentinesDayData)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_SEND_ROSE, self, self.onRecFlowerVotes)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_TAKE_ROSE_REWARD, self, self.onRecVantinesProgressReward)
+
+    -- 2021答题
+    TFDirector:addProto(s2c.ACTIVITY2_RES_RIDDLE_DATA, self, self.onRecvRiddleData)
+    TFDirector:addProto(s2c.ACTIVITY2_RES_RIDDLE_ONCE, self, self.onRecvRiddleAwarsInfo)
+    
     self.activityInfo_ = {}
     self.activityInfoMap_ = {}
     self.itemInfoMap_ = {}
@@ -172,6 +190,13 @@ function ActivityDataMgr:reset()
     self.newYearFubenInfo = nil
     self.callbackInfo = nil
     self.halloweenPass = nil
+
+    self.curRepairExp =  0
+    self.curRepairLv = 1
+    self.repairOutput = {}
+    self.wishMyInfo = {}
+    self.wishList = {}
+
     self:resetActivityInfoMap_()
 end
 
@@ -182,7 +207,6 @@ function ActivityDataMgr:onLogin()
     TFDirector:send(c2s.ACTIVITY_NEW_REQ_ACTIVITY_PROGRESS, {})
     TFDirector:send(c2s.ACTIVITY_REQ_GET_WAR_ORDER_INFO, {})
     TFDirector:send(c2s.ACTIVITY_NEW_REQ_YEAR_ACTIVITY_CONFIG, {})
-
     self:Send_getGhostInfo()
     -- TFDirector:send(c2s.ACTIVITY_NEW_REQ_YEAR_ACTIVITY_CONFIG, {})
     return {s2c.ACTIVITY_NEW_RESP_ACTIVITYS, s2c.ACTIVITY_NEW_RESP_ACTIVITY_ITEMS, s2c.ACTIVITY_NEW_RESP_ACTIVITY_PROGRESS}
@@ -725,6 +749,50 @@ function ActivityDataMgr:isShowRedPoint(activityId)
                         break;
                     end
                 end 
+            end
+        elseif activityInfo.activityType == EC_ActivityType2.FLOWER_SEND then
+            local items = self:getItems(activityId)
+            for k,v in pairs( items) do
+                local progressInfo = self:getProgressInfo(activityInfo.activityType, v)
+                if progressInfo.status == EC_TaskStatus.GET then
+                    isShow = true
+                    break;
+                end
+            end
+
+            local ValentineData = self:getValentinesDayData()
+            if ValentineData then
+                local takelist = self:getVantinesProgress() or {}
+                local rewards = activityInfo.extendData.rewards or {}
+                for k,v in pairs(rewards) do
+                    print(progress)              
+                    local index = table.indexOf(takelist, tostring(k))
+                    if index == -1 then
+                        print(ValentineData.totalCount, k)
+                        if tonumber(ValentineData.totalCount or 0) > tonumber(k) then
+                            isShow = true
+                            break;
+                        end
+                    end
+                end
+            end            
+        elseif activityInfo.activityType == EC_ActivityType2.SNOW_FESTIVAL_TASK then
+            local day = activityInfo.extendData.day or {}
+            for i=1,#day do
+                local progressInfo = self:getProgressInfo(activityInfo.activityType, day[i])
+                if progressInfo.status == EC_TaskStatus.GET then
+                    isShow = true
+                    break;
+                end
+            end
+
+            local once = activityInfo.extendData.once or {}
+            for i=1,#once do
+                local progressInfo = ActivityDataMgr2:getProgressInfo(activityInfo.activityType, once[i])
+                if progressInfo.status == EC_TaskStatus.GET then
+                    isShow = true
+                    break;
+                end
             end
 
         elseif activityInfo.activityType == EC_ActivityType2.BINGOGAME then
@@ -1523,6 +1591,8 @@ function ActivityDataMgr:actionActivtyPush( activitys )
                 FubenDataMgr:SEND_DUNGEON_REQ_GET_LINK_AGE()
             elseif v.activityType == EC_ActivityType2.MAOKA then 
                 MaokaActivityMgr:onActivityAdd()
+            elseif v.activityType == EC_ActivityType2.NEWYEAR_BUILDREPAIR then
+                TFDirector:send(c2s.ACTIVITY2_REQ_REPAIR_DATA,{})
             end
         end
     end
@@ -1992,6 +2062,9 @@ end
 
 function ActivityDataMgr:getWarOrderChargeState()
     local activityInfo = self:getWarOrderAcrivityInfo()
+    if not activityInfo then
+        return 0
+    end
     local rechargeList = activityInfo.extendData.rechargeList
     if RechargeDataMgr:getBuyCount(rechargeList[2]) > 0 then
         return 2
@@ -3026,6 +3099,7 @@ end
 --对方收到交易的提示
 function ActivityDataMgr:onExchangeBalloonNotify(event)
     local data = event.data
+    print("对方收到交易的提示", data)
     if data.timeout > 0 then
         --收到交易的提示
         self:showBalloonNotifyLayer(data)
@@ -3039,12 +3113,13 @@ function ActivityDataMgr:onExchangeBalloonNotify(event)
 end
 
 function ActivityDataMgr:isCanExchange()
+    local ret = true
     local currentScene = Public:currentScene()
-    if currentScene.__cname == "BattleScene" or DatingDataMgr:getIsDating() then 
-        return false
+    if currentScene.__cname == "BattleScene" or DatingDataMgr:getIsDating() and AlertManager:getLayerBySpecialName("DatingScriptView") then 
+        ret = false
     end
-
-    return true
+    print("ActivityDataMgr:isCanExchange", ret, currentScene.__cname, DatingDataMgr:getIsDating())
+    return ret
 end
 
 function ActivityDataMgr:showBalloonNotifyLayer(data)
@@ -3348,8 +3423,13 @@ end
 function ActivityDataMgr:onRecvChasmTeamBuffData(event)
     local data = event.data
     if not data then return end
-    self.snowFestivalTeamData = data
-    EventMgr:dispatchEvent(EV_SNOWFESTIVAL_FIGHT_BUFF_INFO)
+    self.chasmTeamBuffItemData = self.chasmTeamBuffItemData or {}
+    self.chasmTeamBuffItemData[data.functionType] = data.buff
+    if data.functionType == 1 then
+        EventMgr:dispatchEvent(EV_SNOWFESTIVAL_FIGHT_BUFF_INFO)
+    elseif data.functionType == 2 then
+        EventMgr:dispatchEvent(EV_NIANSHOU_FIGHT_ITEM_INFO)
+    end
 end
 
 function ActivityDataMgr:onRecvChasmTeamUseBuff(event)
@@ -3362,7 +3442,15 @@ function ActivityDataMgr:SEND_CHASM_REQ_USE_BUFF(buffId)
 end
 
 function ActivityDataMgr:getSnowFestivalTeamData()
-    return self.snowFestivalTeamData
+    if self.chasmTeamBuffItemData then
+        return self.chasmTeamBuffItemData[1]
+    end
+end
+
+function ActivityDataMgr:getNianShouTeamSkillData()
+    if self.chasmTeamBuffItemData then
+        return self.chasmTeamBuffItemData[2]
+    end
 end
 
 function ActivityDataMgr:SEND_ACTIVITY2_REQ_REVERSE_TEN_WINDOW()
@@ -3385,6 +3473,127 @@ function ActivityDataMgr:onRecvFanShiGet(event)
     if data.reward then
         Utils:showReward(data.reward)
     end
+end
+
+function ActivityDataMgr:onRecvSendWishTree(event)
+    local data = event.data
+    if not data then return end
+
+    TFDirector:send(c2s.ACTIVITY2_REQ_SPRING_WITH_TREE_LIST,{})
+end
+
+function ActivityDataMgr:getNewYearWishInfo()
+    return self.wishMyInfo or {},self.wishList or {}
+end
+
+function ActivityDataMgr:onRecvWishList(event)
+    local data = event.data
+    if not data then return end
+
+    self.wishMyInfo = data.myInfo or {}
+    self.wishList = {}
+    for k,v in ipairs(data.friendWish or {}) do
+        table.insert(self.wishList,{data = v, type = 1})
+    end
+
+    for k,v in ipairs(data.unionWish or {}) do
+        table.insert(self.wishList,{data = v, type = 2})
+    end
+
+    table.sort(self.wishList,function(a,b)
+        return a.data.time < b.data.time
+    end)
+    EventMgr:dispatchEvent(EV_FRIEND_WISH_LIST)
+end
+
+function ActivityDataMgr:getBuildRepairInfo()
+    return self.curRepairExp,self.curRepairLv
+end
+
+function ActivityDataMgr:getBuildOutPut()
+    return self.repairOutput or {}
+end
+
+function ActivityDataMgr:onRecvRepairData(event)
+    local data = event.data
+    if not data then return end
+
+    self.curRepairExp = data.progress or 0
+    self.curRepairLv = data.level or 1
+    self.repairOutput = data.repairOutput or {}
+    dump(data)
+    EventMgr:dispatchEvent(EV_BUILD_REPAIR_DATA)
+end
+
+function ActivityDataMgr:onRecvSubMit(event)
+    local data = event.data
+    if not data then return end
+
+    if data.rewardsMsg then
+        Utils:showReward(data.rewardsMsg)
+    end
+
+    EventMgr:dispatchEvent(EV_AFTER_BUILD_REPAIR)
+
+end
+
+function ActivityDataMgr:onRecvGetBuildReward(event)
+    local data = event.data
+    if not data then return end
+
+    if data.rewardsMsg then
+        Utils:showReward(data.rewardsMsg)
+    end
+end
+
+--春节活动2021
+function ActivityDataMgr:onRecValentinesDayData(event)
+    self.ValentinesDayData = event.data or {}
+    self.valentinesRewardProgress = self.ValentinesDayData.takeList or {}
+    EventMgr:dispatchEvent(EV_VALENTINESDAY_MAIN_INFO)
+end
+
+function ActivityDataMgr:getValentinesDayData()
+    return self.ValentinesDayData
+end
+
+function ActivityDataMgr:onRecFlowerVotes(event)
+    EventMgr:dispatchEvent(EV_VALENTINESDAY_FLOWERS_VOTES)
+end
+
+function ActivityDataMgr:onRecVantinesProgressReward(event)
+    local data = event.data or {}
+    self.valentinesRewardProgress = data.takeList or {}
+    EventMgr:dispatchEvent(EV_VALENTINESDAY_RPOGRESS_REWARD, data.rewardsMsg)
+end
+
+function ActivityDataMgr:getVantinesProgress()
+    return self.valentinesRewardProgress or {}
+end
+function ActivityDataMgr:SEND_ACTIVITY2_REQ_RIDDLE_DATA()
+    TFDirector:send(c2s.ACTIVITY2_REQ_RIDDLE_DATA, {})
+end
+
+function ActivityDataMgr:SEND_ACTIVITY2_REQ_RIDDLE_ONCE(idx)
+    TFDirector:send(c2s.ACTIVITY2_REQ_RIDDLE_ONCE, {idx})
+end
+
+function ActivityDataMgr:onRecvRiddleData(event)
+    local data = event.data
+    if not data then return end
+    if data.id == 0 then
+        if not AlertManager:getLayerBySpecialName("GuessWordMainView") then
+            Utils:showTips(17000000)
+        end
+    else
+        EventMgr:dispatchEvent(EV_RIDDLE_GET_QUESDATA, data)
+    end
+end
+
+function ActivityDataMgr:onRecvRiddleAwarsInfo(event)
+    local data = event.data
+    if not data then return end
+    EventMgr:dispatchEvent(EV_RIDDLE_ANSAWE_AWARD, data)
 end
 
 

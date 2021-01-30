@@ -62,6 +62,11 @@ function WorldRoomDataMgr:ctor()
 
 	TFDirector:addProto(s2c.NEW_WORLD_RESP_AREA_SHOW_DATA, self, self.onRevAreaShowData)
 
+	TFDirector:addProto(s2c.NEW_WORLD_REFRESH_AREA_RIDDLES, self, self.onRevAreaRiddlesData)
+
+	TFDirector:addProto(s2c.NEW_WORLD_REFRESH_RIDDLES, self, self.onRevUpdateAreaRiddlesData)
+
+
 end
 
 function WorldRoomDataMgr:reset()
@@ -103,7 +108,6 @@ end
 function WorldRoomDataMgr:initData( ... )
 	-- body
 	self.serverInfo = {}
-	self.roomType = nil
 	self.controlerMap = self.controlerMap or {}
 	self.extDataControlerMap = self.extDataControlerMap or {}
 end
@@ -168,6 +172,10 @@ function WorldRoomDataMgr:handlePreEnter(data)
 	local mapCfg = TabDataMgr:getData("WorldMap",data.roomType)
 	OSDConnector:setReconnectCount(mapCfg.netReconnectCount)
 	OSDConnector:setHeartBeatDeal(mapCfg.heartBeatDeal)
+
+	
+	local dataControler = self:getExtDataControlByType(data.roomType)
+	dataControler:clearData()
 	--尝试连接到服务器
 	OSDConnector:connect(self.serverInfo)
 	showLoading()
@@ -253,6 +261,15 @@ function WorldRoomDataMgr:enterRoom( roomType )
 	self:clearChatInfoList()
 	
 	controler:enterRoom()
+end
+
+
+function WorldRoomDataMgr:enterCurRoom( )
+	if not self.roomType then -- 没有当前房间类型直接返回主场景
+        AlertManager:changeScene(SceneType.MainScene) 
+		return 
+	end
+	FunctionDataMgr:jWorldRoom(self.roomType)
 end
 
 function WorldRoomDataMgr:getCurWorldMainView(  )
@@ -583,6 +600,28 @@ function WorldRoomDataMgr:onRevAreaShowData(event)
 	end
 	EventMgr:dispatchEvent(EV_WORLD_AREA_DATA,data)
 end
+
+function WorldRoomDataMgr:onRevAreaRiddlesData(event)
+	local data = event.data
+	if not data then
+		return
+	end
+	local controler = self:getExtDataControlByType(data.roomType)
+	controler:parseAllRiddlesData(data)
+	EventMgr:dispatchEvent(EV_WORLD_AREA_DATA,data)
+end
+
+function WorldRoomDataMgr:onRevUpdateAreaRiddlesData(event)
+	local data = event.data
+	if not data then
+		return
+	end
+	local controler = self:getExtDataControlByType(data.roomType)
+	controler:parseRiddlesData(data)
+	EventMgr:dispatchEvent(EV_WORLD_AREA_DATA,data)
+end
+
+
 
 function WorldRoomDataMgr:setWorldRoomUpdateTotalDt( dt )
 	-- body

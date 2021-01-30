@@ -5933,4 +5933,157 @@ return {
         probability = 3000,
         param = 0,
     },
+    [359] = {
+        id = 359,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 5,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_032.mp3",
+            [2] = "sound/13201/SonoRio_032.mp3",
+        },
+        describe = "战斗胜利",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [360] = {
+        id = 360,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 7,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_037.mp3",
+        },
+        describe = "切换角色(登场)",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [361] = {
+        id = 361,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 6,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_034.mp3",
+            [2] = "sound/13201/SonoRio_035.mp3",
+        },
+        describe = "战斗失败",
+        cdTime = 0,
+        probability = 10000,
+        param = 0,
+    },
+    [362] = {
+        id = 362,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 1,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_038.mp3",
+        },
+        describe = "遇到强大敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [363] = {
+        id = 363,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 4,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_036.mp3",
+        },
+        describe = "击杀敌人",
+        cdTime = 5000,
+        probability = 10000,
+        param = 0,
+    },
+    [364] = {
+        id = 364,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 2,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_039.mp3",
+        },
+        describe = "单次受到巨大伤害",
+        cdTime = 5000,
+        probability = 10000,
+        param = 2000,
+    },
+    [365] = {
+        id = 365,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 3,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_040.mp3",
+            [2] = "sound/13201/SonoRio_041.mp3",
+            [3] = "sound/13201/SonoRio_042.mp3",
+        },
+        describe = "在战场上待机一段时间",
+        cdTime = 10000,
+        probability = 5000,
+        param = 5000,
+    },
+    [366] = {
+        id = 366,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 8,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_043.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 112501,
+    },
+    [367] = {
+        id = 367,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 8,
+        roleId = 113201,
+        resources = {
+            [1] = "sound/13201/SonoRio_045.mp3",
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 113301,
+    },
+    [368] = {
+        id = 368,
+        formId = {
+            [1] = 1320101,
+        },
+        eventType = 8,
+        roleId = 113201,
+        resources = {
+        },
+        describe = "队友为指定角色时",
+        cdTime = 15000,
+        probability = 3000,
+        param = 0,
+    },
 }
