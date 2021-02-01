@@ -481,7 +481,8 @@ function VictoryDecide.checkResult()
             this.agent.endBattle(true)
         end
     elseif this.nViewType == EC_LevelPassCond.KILL_ALL_OR_LIMIT then    -- 限时杀怪
-        if statistics.killNum >= this.data[1].victoryParam[1] then 
+        local members =  this.agent.getEnemyMember__()
+        if statistics.killNum >= this.data[1].victoryParam[1] and #members < 1 then 
              this.agent.endBattle(true)
              return
         end

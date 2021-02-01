@@ -557,11 +557,11 @@ return {
         event_id = 12,
         remark = "好感度达到x级",
     },
-    [12016] = {
-        id = 12016,
-        history = false,
-        event_id = 12,
-        remark = "周年庆通过事件（奖励、信件、召唤、商店）",
+    [2024] = {
+        id = 2024,
+        history = true,
+        event_id = 2,
+        remark = "持有x英雄",
     },
     [11002] = {
         id = 11002,
@@ -737,6 +737,12 @@ return {
         event_id = 30,
         remark = "天梯周期任务积分",
     },
+    [59008] = {
+        id = 59008,
+        history = false,
+        event_id = 59,
+        remark = "完成解谜一次",
+    },
     [17004] = {
         id = 17004,
         history = false,
@@ -791,11 +797,11 @@ return {
         event_id = 17,
         remark = "全服获得X分下卷应援积分",
     },
-    [59008] = {
-        id = 59008,
-        history = false,
-        event_id = 59,
-        remark = "完成解谜一次",
+    [8008] = {
+        id = 8008,
+        history = true,
+        event_id = 8,
+        remark = "持有多个装备等级达标 ",
     },
     [17044] = {
         id = 17044,
@@ -821,14 +827,8 @@ return {
         event_id = 17,
         remark = "参与春节乐园猜谜*次",
     },
-    [17034] = {
-        id = 17034,
-        history = false,
-        event_id = 17,
-        remark = "端午2020幕府大作战：完成据点事件次数",
-    },
-    [58006] = {
-        id = 58006,
+    [58005] = {
+        id = 58005,
         history = false,
         event_id = 58,
         remark = "战斗次数任务 ",
@@ -838,6 +838,12 @@ return {
         history = false,
         event_id = 59,
         remark = "拾取礼盒",
+    },
+    [58006] = {
+        id = 58006,
+        history = false,
+        event_id = 58,
+        remark = "战斗次数任务 ",
     },
     [59006] = {
         id = 59006,
@@ -857,12 +863,6 @@ return {
         event_id = 58,
         remark = "单舱室等级任务 ",
     },
-    [58005] = {
-        id = 58005,
-        history = false,
-        event_id = 58,
-        remark = "战斗次数任务 ",
-    },
     [58004] = {
         id = 58004,
         history = false,
@@ -875,23 +875,23 @@ return {
         event_id = 8,
         remark = "洗练N次质点",
     },
-    [25001] = {
-        id = 25001,
-        history = false,
-        event_id = 25,
-        remark = "领取精灵副本的宝箱",
-    },
     [58001] = {
         id = 58001,
         history = false,
         event_id = 58,
         remark = "战斗力达到XX",
     },
-    [17018] = {
-        id = 17018,
+    [25001] = {
+        id = 25001,
+        history = false,
+        event_id = 25,
+        remark = "领取精灵副本的宝箱",
+    },
+    [17017] = {
+        id = 17017,
         history = false,
         event_id = 17,
-        remark = "累计无偿帮助其他玩家击杀悬赏令N个",
+        remark = "累计击杀X个X级悬赏",
     },
     [31001] = {
         id = 31001,
@@ -935,11 +935,11 @@ return {
         event_id = 26,
         remark = "应援集结活动",
     },
-    [17017] = {
-        id = 17017,
+    [17013] = {
+        id = 17013,
         history = false,
         event_id = 17,
-        remark = "累计击杀X个X级悬赏",
+        remark = "单次10连抽奖出现X个稀有道具",
     },
     [17059] = {
         id = 17059,
@@ -952,6 +952,12 @@ return {
         history = false,
         event_id = 17,
         remark = "春节乐园成功燃放*次烟花",
+    },
+    [17055] = {
+        id = 17055,
+        history = false,
+        event_id = 17,
+        remark = "建筑修复材料捐献次数",
     },
     [16001] = {
         id = 16001,
@@ -976,12 +982,6 @@ return {
         history = false,
         event_id = 16,
         remark = "完成X次料理或手工",
-    },
-    [17055] = {
-        id = 17055,
-        history = false,
-        event_id = 17,
-        remark = "建筑修复材料捐献次数",
     },
     [17053] = {
         id = 17053,
@@ -1019,17 +1019,23 @@ return {
         event_id = 2,
         remark = "玩家持有的宝物总星数",
     },
-    [8008] = {
-        id = 8008,
-        history = true,
-        event_id = 8,
-        remark = "持有多个装备等级达标 ",
+    [12016] = {
+        id = 12016,
+        history = false,
+        event_id = 12,
+        remark = "周年庆通过事件（奖励、信件、召唤、商店）",
     },
     [17035] = {
         id = 17035,
         history = false,
         event_id = 17,
         remark = "提交N个道具",
+    },
+    [17034] = {
+        id = 17034,
+        history = false,
+        event_id = 17,
+        remark = "端午2020幕府大作战：完成据点事件次数",
     },
     [59007] = {
         id = 59007,
@@ -1049,12 +1055,6 @@ return {
         event_id = 58,
         remark = "总舱室等级任务 ",
     },
-    [2001] = {
-        id = 2001,
-        history = true,
-        event_id = 2,
-        remark = "持有英雄X个",
-    },
     [17023] = {
         id = 17023,
         history = false,
@@ -1072,6 +1072,12 @@ return {
         history = false,
         event_id = 17,
         remark = "无尽200层boss10秒内通关",
+    },
+    [17018] = {
+        id = 17018,
+        history = false,
+        event_id = 17,
+        remark = "累计无偿帮助其他玩家击杀悬赏令N个",
     },
     [14001] = {
         id = 14001,
@@ -1091,11 +1097,11 @@ return {
         event_id = 18,
         remark = "分享x次",
     },
-    [17013] = {
-        id = 17013,
-        history = false,
-        event_id = 17,
-        remark = "单次10连抽奖出现X个稀有道具",
+    [2001] = {
+        id = 2001,
+        history = true,
+        event_id = 2,
+        remark = "持有英雄X个",
     },
     [1004] = {
         id = 1004,
@@ -1103,17 +1109,17 @@ return {
         event_id = 17,
         remark = "购买充值商品x次",
     },
-    [17002] = {
-        id = 17002,
-        history = false,
-        event_id = 17,
-        remark = "随机召唤X次",
-    },
     [17003] = {
         id = 17003,
         history = false,
         event_id = 17,
         remark = "购买资源X次",
+    },
+    [17002] = {
+        id = 17002,
+        history = false,
+        event_id = 17,
+        remark = "随机召唤X次",
     },
     [17001] = {
         id = 17001,

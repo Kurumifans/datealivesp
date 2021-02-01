@@ -2637,7 +2637,7 @@ return {
         flip = false,
         id = 412703,
         modelId = 127,
-        isPlyaerControlled = true,
+        isPlyaerControlled = false,
         iconPos = {
             y = 230,
             x = 70,
@@ -2647,7 +2647,6 @@ return {
         rolePath2 = "modle/citymodle/city_411203",
         role = "",
         sameModelId = {
-            [1] = 412703,
         },
         showPic = "icon/role/SD_modelIcon/412701.png",
         moveSpeedMultiplier = 1,
@@ -2657,7 +2656,7 @@ return {
         flip = false,
         id = 412702,
         modelId = 127,
-        isPlyaerControlled = true,
+        isPlyaerControlled = false,
         iconPos = {
             y = 230,
             x = 70,
@@ -2667,7 +2666,6 @@ return {
         rolePath2 = "modle/citymodle/city_411203",
         role = "",
         sameModelId = {
-            [1] = 412702,
         },
         showPic = "icon/role/SD_modelIcon/412701.png",
         moveSpeedMultiplier = 1,
@@ -3216,6 +3214,8 @@ return {
         role = "",
         sameModelId = {
             [1] = 412701,
+            [2] = 412702,
+            [3] = 412703,
         },
         showPic = "icon/role/SD_modelIcon/412701.png",
         moveSpeedMultiplier = 1,

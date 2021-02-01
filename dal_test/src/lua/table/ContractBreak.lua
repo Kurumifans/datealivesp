@@ -5501,10 +5501,650 @@ return {
     },
     [1569] = {
         BreakCost = {
+            [510242] = 3,
         },
         LimitLevel_Mini = 768,
         MatchHero = 101,
         id = 1569,
+        BreakReward = 0,
+        LimitLevel_Max = 769,
+    },
+    [1570] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 769,
+        MatchHero = 101,
+        id = 1570,
+        BreakReward = 0,
+        LimitLevel_Max = 770,
+    },
+    [1571] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 770,
+        MatchHero = 101,
+        id = 1571,
+        BreakReward = 0,
+        LimitLevel_Max = 771,
+    },
+    [1572] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 771,
+        MatchHero = 101,
+        id = 1572,
+        BreakReward = 0,
+        LimitLevel_Max = 772,
+    },
+    [1573] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 772,
+        MatchHero = 101,
+        id = 1573,
+        BreakReward = 0,
+        LimitLevel_Max = 773,
+    },
+    [1574] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 773,
+        MatchHero = 101,
+        id = 1574,
+        BreakReward = 0,
+        LimitLevel_Max = 774,
+    },
+    [1575] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 774,
+        MatchHero = 101,
+        id = 1575,
+        BreakReward = 0,
+        LimitLevel_Max = 775,
+    },
+    [1576] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 775,
+        MatchHero = 101,
+        id = 1576,
+        BreakReward = 0,
+        LimitLevel_Max = 776,
+    },
+    [1577] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 776,
+        MatchHero = 101,
+        id = 1577,
+        BreakReward = 0,
+        LimitLevel_Max = 777,
+    },
+    [1578] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 777,
+        MatchHero = 101,
+        id = 1578,
+        BreakReward = 0,
+        LimitLevel_Max = 778,
+    },
+    [1579] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 778,
+        MatchHero = 101,
+        id = 1579,
+        BreakReward = 0,
+        LimitLevel_Max = 779,
+    },
+    [1580] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 779,
+        MatchHero = 101,
+        id = 1580,
+        BreakReward = 0,
+        LimitLevel_Max = 780,
+    },
+    [1581] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 780,
+        MatchHero = 101,
+        id = 1581,
+        BreakReward = 0,
+        LimitLevel_Max = 781,
+    },
+    [1582] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 781,
+        MatchHero = 101,
+        id = 1582,
+        BreakReward = 0,
+        LimitLevel_Max = 782,
+    },
+    [1583] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 782,
+        MatchHero = 101,
+        id = 1583,
+        BreakReward = 0,
+        LimitLevel_Max = 783,
+    },
+    [1584] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 783,
+        MatchHero = 101,
+        id = 1584,
+        BreakReward = 0,
+        LimitLevel_Max = 784,
+    },
+    [1585] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 784,
+        MatchHero = 101,
+        id = 1585,
+        BreakReward = 0,
+        LimitLevel_Max = 785,
+    },
+    [1586] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 785,
+        MatchHero = 101,
+        id = 1586,
+        BreakReward = 0,
+        LimitLevel_Max = 786,
+    },
+    [1587] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 786,
+        MatchHero = 101,
+        id = 1587,
+        BreakReward = 0,
+        LimitLevel_Max = 787,
+    },
+    [1588] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 787,
+        MatchHero = 101,
+        id = 1588,
+        BreakReward = 0,
+        LimitLevel_Max = 788,
+    },
+    [1589] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 788,
+        MatchHero = 101,
+        id = 1589,
+        BreakReward = 0,
+        LimitLevel_Max = 789,
+    },
+    [1590] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 789,
+        MatchHero = 101,
+        id = 1590,
+        BreakReward = 0,
+        LimitLevel_Max = 790,
+    },
+    [1591] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 790,
+        MatchHero = 101,
+        id = 1591,
+        BreakReward = 0,
+        LimitLevel_Max = 791,
+    },
+    [1592] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 791,
+        MatchHero = 101,
+        id = 1592,
+        BreakReward = 0,
+        LimitLevel_Max = 792,
+    },
+    [1593] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 792,
+        MatchHero = 101,
+        id = 1593,
+        BreakReward = 0,
+        LimitLevel_Max = 793,
+    },
+    [1594] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 793,
+        MatchHero = 101,
+        id = 1594,
+        BreakReward = 0,
+        LimitLevel_Max = 794,
+    },
+    [1595] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 794,
+        MatchHero = 101,
+        id = 1595,
+        BreakReward = 0,
+        LimitLevel_Max = 795,
+    },
+    [1596] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 795,
+        MatchHero = 101,
+        id = 1596,
+        BreakReward = 0,
+        LimitLevel_Max = 796,
+    },
+    [1597] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 796,
+        MatchHero = 101,
+        id = 1597,
+        BreakReward = 0,
+        LimitLevel_Max = 797,
+    },
+    [1598] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 797,
+        MatchHero = 101,
+        id = 1598,
+        BreakReward = 0,
+        LimitLevel_Max = 798,
+    },
+    [1599] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 798,
+        MatchHero = 101,
+        id = 1599,
+        BreakReward = 0,
+        LimitLevel_Max = 799,
+    },
+    [1600] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 799,
+        MatchHero = 101,
+        id = 1600,
+        BreakReward = 0,
+        LimitLevel_Max = 800,
+    },
+    [1601] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 800,
+        MatchHero = 101,
+        id = 1601,
+        BreakReward = 0,
+        LimitLevel_Max = 801,
+    },
+    [1602] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 801,
+        MatchHero = 101,
+        id = 1602,
+        BreakReward = 0,
+        LimitLevel_Max = 802,
+    },
+    [1603] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 802,
+        MatchHero = 101,
+        id = 1603,
+        BreakReward = 0,
+        LimitLevel_Max = 803,
+    },
+    [1604] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 803,
+        MatchHero = 101,
+        id = 1604,
+        BreakReward = 0,
+        LimitLevel_Max = 804,
+    },
+    [1605] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 804,
+        MatchHero = 101,
+        id = 1605,
+        BreakReward = 0,
+        LimitLevel_Max = 805,
+    },
+    [1606] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 805,
+        MatchHero = 101,
+        id = 1606,
+        BreakReward = 0,
+        LimitLevel_Max = 806,
+    },
+    [1607] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 806,
+        MatchHero = 101,
+        id = 1607,
+        BreakReward = 0,
+        LimitLevel_Max = 807,
+    },
+    [1608] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 807,
+        MatchHero = 101,
+        id = 1608,
+        BreakReward = 0,
+        LimitLevel_Max = 808,
+    },
+    [1609] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 808,
+        MatchHero = 101,
+        id = 1609,
+        BreakReward = 0,
+        LimitLevel_Max = 809,
+    },
+    [1610] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 809,
+        MatchHero = 101,
+        id = 1610,
+        BreakReward = 0,
+        LimitLevel_Max = 810,
+    },
+    [1611] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 810,
+        MatchHero = 101,
+        id = 1611,
+        BreakReward = 0,
+        LimitLevel_Max = 811,
+    },
+    [1612] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 811,
+        MatchHero = 101,
+        id = 1612,
+        BreakReward = 0,
+        LimitLevel_Max = 812,
+    },
+    [1613] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 812,
+        MatchHero = 101,
+        id = 1613,
+        BreakReward = 0,
+        LimitLevel_Max = 813,
+    },
+    [1614] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 813,
+        MatchHero = 101,
+        id = 1614,
+        BreakReward = 0,
+        LimitLevel_Max = 814,
+    },
+    [1615] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 814,
+        MatchHero = 101,
+        id = 1615,
+        BreakReward = 0,
+        LimitLevel_Max = 815,
+    },
+    [1616] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 815,
+        MatchHero = 101,
+        id = 1616,
+        BreakReward = 0,
+        LimitLevel_Max = 816,
+    },
+    [1617] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 816,
+        MatchHero = 101,
+        id = 1617,
+        BreakReward = 0,
+        LimitLevel_Max = 817,
+    },
+    [1618] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 817,
+        MatchHero = 101,
+        id = 1618,
+        BreakReward = 0,
+        LimitLevel_Max = 818,
+    },
+    [1619] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 818,
+        MatchHero = 101,
+        id = 1619,
+        BreakReward = 0,
+        LimitLevel_Max = 819,
+    },
+    [1620] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 819,
+        MatchHero = 101,
+        id = 1620,
+        BreakReward = 0,
+        LimitLevel_Max = 820,
+    },
+    [1621] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 820,
+        MatchHero = 101,
+        id = 1621,
+        BreakReward = 0,
+        LimitLevel_Max = 821,
+    },
+    [1622] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 821,
+        MatchHero = 101,
+        id = 1622,
+        BreakReward = 0,
+        LimitLevel_Max = 822,
+    },
+    [1623] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 822,
+        MatchHero = 101,
+        id = 1623,
+        BreakReward = 0,
+        LimitLevel_Max = 823,
+    },
+    [1624] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 823,
+        MatchHero = 101,
+        id = 1624,
+        BreakReward = 0,
+        LimitLevel_Max = 824,
+    },
+    [1625] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 824,
+        MatchHero = 101,
+        id = 1625,
+        BreakReward = 0,
+        LimitLevel_Max = 825,
+    },
+    [1626] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 825,
+        MatchHero = 101,
+        id = 1626,
+        BreakReward = 0,
+        LimitLevel_Max = 826,
+    },
+    [1627] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 826,
+        MatchHero = 101,
+        id = 1627,
+        BreakReward = 0,
+        LimitLevel_Max = 827,
+    },
+    [1628] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 827,
+        MatchHero = 101,
+        id = 1628,
+        BreakReward = 0,
+        LimitLevel_Max = 828,
+    },
+    [1629] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 828,
+        MatchHero = 101,
+        id = 1629,
+        BreakReward = 0,
+        LimitLevel_Max = 829,
+    },
+    [1630] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 829,
+        MatchHero = 101,
+        id = 1630,
+        BreakReward = 0,
+        LimitLevel_Max = 830,
+    },
+    [1631] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 830,
+        MatchHero = 101,
+        id = 1631,
+        BreakReward = 0,
+        LimitLevel_Max = 831,
+    },
+    [1632] = {
+        BreakCost = {
+            [510242] = 3,
+        },
+        LimitLevel_Mini = 831,
+        MatchHero = 101,
+        id = 1632,
+        BreakReward = 0,
+        LimitLevel_Max = 832,
+    },
+    [1633] = {
+        BreakCost = {
+        },
+        LimitLevel_Mini = 832,
+        MatchHero = 101,
+        id = 1633,
         BreakReward = 0,
         LimitLevel_Max = 0,
     },

@@ -28,7 +28,7 @@ return {
         convertMax = {
         },
         totalMax = 0,
-        iconShow = "icon/item/combatModule/buff/912003.png",
+        iconShow = "icon/skill/chunjie_skill4.png",
         desTextId = 16000670,
         dealProfit = {
         },
@@ -106,7 +106,7 @@ return {
         convertMax = {
         },
         totalMax = 0,
-        iconShow = "icon/item/combatModule/buff/912004.png",
+        iconShow = "icon/skill/chunjie_skill5.png",
         desTextId = 16000671,
         dealProfit = {
         },
@@ -384,7 +384,7 @@ return {
         convertMax = {
         },
         totalMax = 0,
-        iconShow = "icon/item/combatModule/buff/912001.png",
+        iconShow = "icon/skill/chunjie_skill2.png",
         desTextId = 16000668,
         dealProfit = {
         },
@@ -462,7 +462,7 @@ return {
         convertMax = {
         },
         totalMax = 0,
-        iconShow = "icon/item/combatModule/buff/912002.png",
+        iconShow = "icon/skill/chunjie_skill3.png",
         desTextId = 16000669,
         dealProfit = {
         },

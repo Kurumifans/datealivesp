@@ -6360,6 +6360,16 @@ return {
         },
         des = "喜爱礼物",
     },
+    [133002] = {
+        hero = 0,
+        role = 133,
+        id = 133002,
+        type = "button_dating",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_003.mp3",
+        },
+        des = "点击约会按钮",
+    },
     [126024] = {
         hero = 0,
         role = 126,
@@ -6438,6 +6448,15 @@ return {
         voice = {
         },
         des = "一般礼物",
+    },
+    [133004] = {
+        hero = 0,
+        role = 0,
+        id = 133004,
+        type = "hidden_end",
+        voice = {
+        },
+        des = "约会结束-hidden end",
     },
     [126025] = {
         hero = 0,
@@ -6518,6 +6537,15 @@ return {
         },
         des = "好感度等级提升",
     },
+    [133006] = {
+        hero = 0,
+        role = 0,
+        id = 133006,
+        type = "bad_end",
+        voice = {
+        },
+        des = "约会结束-normal、bad",
+    },
     [126026] = {
         hero = 0,
         role = 126,
@@ -6597,6 +6625,15 @@ return {
             [1] = "sound/role/shixiang/TOUKA_239.mp3",
         },
         des = "等级/星级提升",
+    },
+    [133008] = {
+        hero = 0,
+        role = 0,
+        id = 133008,
+        type = "dating_invite_no",
+        voice = {
+        },
+        des = "预定约会-拒绝邀请",
     },
     [126027] = {
         hero = 0,
@@ -6687,6 +6724,16 @@ return {
         },
         des = "切换看板娘",
     },
+    [133010] = {
+        hero = 0,
+        role = 133,
+        id = 133010,
+        type = "dress_low",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_018.mp3",
+        },
+        des = "换上服装-一般",
+    },
     [126028] = {
         hero = 0,
         role = 126,
@@ -6776,6 +6823,16 @@ return {
         },
         des = "切换精灵",
     },
+    [133012] = {
+        hero = 0,
+        role = 133,
+        id = 133012,
+        type = "button_gift",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_020.mp3",
+        },
+        des = "进入送礼",
+    },
     [126029] = {
         hero = 0,
         role = 126,
@@ -6863,6 +6920,16 @@ return {
         voice = {
         },
         des = "更换灵装",
+    },
+    [133014] = {
+        hero = 0,
+        role = 133,
+        id = 133014,
+        type = "food_high",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_022.mp3",
+        },
+        des = "喜爱食物",
     },
     [126030] = {
         hero = 0,
@@ -6952,6 +7019,16 @@ return {
         },
         des = "上阵",
     },
+    [133016] = {
+        hero = 0,
+        role = 133,
+        id = 133016,
+        type = "gift_high",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_024_A.mp3",
+        },
+        des = "喜爱礼物",
+    },
     [114005] = {
         hero = 0,
         role = 0,
@@ -7030,6 +7107,16 @@ return {
         },
         des = "看板娘处于无聊、生气、饥饿状态",
     },
+    [133018] = {
+        hero = 0,
+        role = 133,
+        id = 133018,
+        type = "favor_up",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_026.mp3",
+        },
+        des = "好感度等级提升",
+    },
     [114006] = {
         hero = 0,
         role = 0,
@@ -7106,6 +7193,16 @@ return {
         voice = {
         },
         des = "在城市点击看板娘模型1",
+    },
+    [133020] = {
+        hero = 0,
+        role = 133,
+        id = 133020,
+        type = "change_kanban",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_027.mp3",
+        },
+        des = "切换看板娘",
     },
     [114007] = {
         hero = 0,
@@ -7184,6 +7281,16 @@ return {
         voice = {
         },
         des = "进入主界面-早上",
+    },
+    [133022] = {
+        hero = 0,
+        role = 133,
+        id = 133022,
+        type = "change_equip",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_031.mp3",
+        },
+        des = "更换灵装",
     },
     [114008] = {
         hero = 0,
@@ -7281,6 +7388,16 @@ return {
         },
         des = "进入换装",
     },
+    [132001] = {
+        hero = 113201,
+        role = 0,
+        id = 132001,
+        type = "hero_get",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_001.mp3",
+        },
+        des = "获得角色1",
+    },
     [104030] = {
         hero = 0,
         role = 104,
@@ -7359,6 +7476,15 @@ return {
         },
         des = "换上服装-一般",
     },
+    [132003] = {
+        hero = 0,
+        role = 0,
+        id = 132003,
+        type = "dating_complete",
+        voice = {
+        },
+        des = "约会结束-成功",
+    },
     [104031] = {
         hero = 0,
         role = 104,
@@ -7435,6 +7561,15 @@ return {
             [1] = "sound/role/neptune/0001_235_01.mp3",
         },
         des = "换上服装-高级",
+    },
+    [132005] = {
+        hero = 0,
+        role = 0,
+        id = 132005,
+        type = "good_end",
+        voice = {
+        },
+        des = "约会结束-happy、good",
     },
     [104032] = {
         hero = 0,
@@ -7522,6 +7657,15 @@ return {
         },
         des = "进入送礼",
     },
+    [132007] = {
+        hero = 0,
+        role = 0,
+        id = 132007,
+        type = "dating_invite_yes",
+        voice = {
+        },
+        des = "预定约会-接受邀请",
+    },
     [104033] = {
         hero = 0,
         role = 104,
@@ -7607,6 +7751,16 @@ return {
         voice = {
         },
         des = "等待送礼",
+    },
+    [132009] = {
+        hero = 0,
+        role = 132,
+        id = 132009,
+        type = "button_dress",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_016.mp3",
+        },
+        des = "进入换装",
     },
     [104034] = {
         hero = 110413,
@@ -8186,6 +8340,16 @@ return {
         },
         des = "换上服装-一般",
     },
+    [132024] = {
+        hero = 0,
+        role = 132,
+        id = 132024,
+        type = "mood_sad",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_005.mp3",
+        },
+        des = "看板娘处于无聊、生气、饥饿状态",
+    },
     [103018] = {
         hero = 0,
         role = 103,
@@ -8244,6 +8408,16 @@ return {
             [1] = "sound/role/mojinKUROKO_007.mp3",
         },
         des = "换上服装-高级",
+    },
+    [132026] = {
+        hero = 0,
+        role = 132,
+        id = 132026,
+        type = "mian_morning",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_063.mp3",
+        },
+        des = "进入主界面-早上",
     },
     [103019] = {
         hero = 110301,
@@ -8314,6 +8488,16 @@ return {
         },
         des = "进入送礼",
     },
+    [132028] = {
+        hero = 0,
+        role = 132,
+        id = 132028,
+        type = "mian_night",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_067.mp3",
+        },
+        des = "进入主界面-晚上",
+    },
     [103020] = {
         hero = 0,
         role = 103,
@@ -8383,6 +8567,15 @@ return {
         voice = {
         },
         des = "等待送礼",
+    },
+    [132030] = {
+        hero = 0,
+        role = 0,
+        id = 132030,
+        type = "spring",
+        voice = {
+        },
+        des = "温泉功能",
     },
     [103021] = {
         hero = 110301,
@@ -8794,6 +8987,15 @@ return {
         },
         des = "约会结束-happy、good",
     },
+    [133030] = {
+        hero = 0,
+        role = 0,
+        id = 133030,
+        type = "spring",
+        voice = {
+        },
+        des = "温泉功能",
+    },
     [103026] = {
         hero = 0,
         role = 103,
@@ -8803,6 +9005,26 @@ return {
             [1] = "sound/role/sisinai/YOSHINO_22.mp3",
         },
         des = "进入主界面-早上",
+    },
+    [133029] = {
+        hero = 0,
+        role = 133,
+        id = 133029,
+        type = "mian_dawn",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_068.mp3",
+        },
+        des = "进入主界面-凌晨",
+    },
+    [133028] = {
+        hero = 0,
+        role = 133,
+        id = 133028,
+        type = "mian_night",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_067.mp3",
+        },
+        des = "进入主界面-晚上",
     },
     [130021] = {
         hero = 0,
@@ -8822,6 +9044,16 @@ return {
             [1] = "sound/role/juya/MARIA_057.mp3",
         },
         des = "预定约会-拒绝邀请",
+    },
+    [133027] = {
+        hero = 0,
+        role = 133,
+        id = 133027,
+        type = "mian_afternoon",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_066.mp3",
+        },
+        des = "进入主界面-下午",
     },
     [114029] = {
         hero = 0,
@@ -8853,6 +9085,46 @@ return {
         },
         des = "约会结束-成功",
     },
+    [133026] = {
+        hero = 0,
+        role = 133,
+        id = 133026,
+        type = "mian_morning",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_064.mp3",
+        },
+        des = "进入主界面-早上",
+    },
+    [133025] = {
+        hero = 0,
+        role = 133,
+        id = 133025,
+        type = "mood_normal",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_004.mp3",
+        },
+        des = "在城市点击看板娘模型1",
+    },
+    [133024] = {
+        hero = 0,
+        role = 133,
+        id = 133024,
+        type = "mood_sad",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_006.mp3",
+        },
+        des = "看板娘处于无聊、生气、饥饿状态",
+    },
+    [133023] = {
+        hero = 113301,
+        role = 0,
+        id = 133023,
+        type = "battle_play",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_028.mp3",
+        },
+        des = "上阵",
+    },
     [119019] = {
         hero = 111701,
         role = 0,
@@ -8873,6 +9145,16 @@ return {
         },
         des = "约会结束-normal、bad",
     },
+    [133021] = {
+        hero = 113301,
+        role = 0,
+        id = 133021,
+        type = "change_hero",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_030.mp3",
+        },
+        des = "切换精灵",
+    },
     [103027] = {
         hero = 0,
         role = 103,
@@ -8882,6 +9164,26 @@ return {
             [1] = "sound/role/sisinai/YOSHINO_22.mp3",
         },
         des = "进入主界面-下午",
+    },
+    [133019] = {
+        hero = 113301,
+        role = 0,
+        id = 133019,
+        type = "ability_up",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_029.mp3",
+        },
+        des = "等级/星级提升",
+    },
+    [133017] = {
+        hero = 0,
+        role = 133,
+        id = 133017,
+        type = "gift_low",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_025.mp3",
+        },
+        des = "一般礼物",
     },
     [130022] = {
         hero = 0,
@@ -8901,6 +9203,16 @@ return {
             [1] = "sound/role/juya/MARIA_058.mp3",
         },
         des = "进入换装",
+    },
+    [133015] = {
+        hero = 0,
+        role = 133,
+        id = 133015,
+        type = "food_low",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_023.mp3",
+        },
+        des = "一般食物",
     },
     [114030] = {
         hero = 0,
@@ -8931,6 +9243,45 @@ return {
         },
         des = "约会结束-hidden end",
     },
+    [133013] = {
+        hero = 0,
+        role = 133,
+        id = 133013,
+        type = "gifts_wait",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_021.mp3",
+        },
+        des = "等待送礼",
+    },
+    [133011] = {
+        hero = 0,
+        role = 133,
+        id = 133011,
+        type = "dress_high",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_019.mp3",
+        },
+        des = "换上服装-高级",
+    },
+    [133009] = {
+        hero = 0,
+        role = 133,
+        id = 133009,
+        type = "button_dress",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_017.mp3",
+        },
+        des = "进入换装",
+    },
+    [133007] = {
+        hero = 0,
+        role = 0,
+        id = 133007,
+        type = "dating_invite_yes",
+        voice = {
+        },
+        des = "预定约会-接受邀请",
+    },
     [119020] = {
         hero = 0,
         role = 119,
@@ -8951,6 +9302,15 @@ return {
         },
         des = "预定约会-接受邀请",
     },
+    [133005] = {
+        hero = 0,
+        role = 0,
+        id = 133005,
+        type = "good_end",
+        voice = {
+        },
+        des = "约会结束-happy、good",
+    },
     [103028] = {
         hero = 0,
         role = 103,
@@ -8960,6 +9320,25 @@ return {
             [1] = "sound/role/sisinai/YOSHINO_195.mp3",
         },
         des = "进入主界面-晚上",
+    },
+    [133003] = {
+        hero = 0,
+        role = 0,
+        id = 133003,
+        type = "dating_complete",
+        voice = {
+        },
+        des = "约会结束-成功",
+    },
+    [133001] = {
+        hero = 113301,
+        role = 0,
+        id = 133001,
+        type = "hero_get",
+        voice = {
+            [1] = "sound/role/sonorinne/SonoRinne_001.mp3",
+        },
+        des = "获得角色1",
     },
     [130023] = {
         hero = 0,
@@ -8979,6 +9358,26 @@ return {
             [1] = "sound/role/juya/MARIA_059.mp3",
         },
         des = "换上服装-一般",
+    },
+    [132029] = {
+        hero = 0,
+        role = 132,
+        id = 132029,
+        type = "mian_dawn",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_068_A.mp3",
+        },
+        des = "进入主界面-凌晨",
+    },
+    [132027] = {
+        hero = 0,
+        role = 132,
+        id = 132027,
+        type = "mian_afternoon",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_066.mp3",
+        },
+        des = "进入主界面-下午",
     },
     [108018] = {
         hero = 0,
@@ -9000,6 +9399,46 @@ return {
         },
         des = "约会结束-happy、good",
     },
+    [132025] = {
+        hero = 0,
+        role = 132,
+        id = 132025,
+        type = "mood_normal",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_003.mp3",
+        },
+        des = "在城市点击看板娘模型1",
+    },
+    [132023] = {
+        hero = 113201,
+        role = 0,
+        id = 132023,
+        type = "battle_play",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_027.mp3",
+        },
+        des = "上阵",
+    },
+    [132022] = {
+        hero = 0,
+        role = 132,
+        id = 132022,
+        type = "change_equip",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_030.mp3",
+        },
+        des = "更换灵装",
+    },
+    [132021] = {
+        hero = 113201,
+        role = 0,
+        id = 132021,
+        type = "change_hero",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_029.mp3",
+        },
+        des = "切换精灵",
+    },
     [119021] = {
         hero = 111701,
         role = 0,
@@ -9020,6 +9459,16 @@ return {
         },
         des = "预定约会-拒绝邀请",
     },
+    [132020] = {
+        hero = 0,
+        role = 132,
+        id = 132020,
+        type = "change_kanban",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_026.mp3",
+        },
+        des = "切换看板娘",
+    },
     [103029] = {
         hero = 0,
         role = 103,
@@ -9029,6 +9478,26 @@ return {
             [1] = "sound/role/sisinai/YOSHINO_79.mp3",
         },
         des = "进入主界面-凌晨",
+    },
+    [132019] = {
+        hero = 113201,
+        role = 0,
+        id = 132019,
+        type = "ability_up",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_028.mp3",
+        },
+        des = "等级/星级提升",
+    },
+    [132018] = {
+        hero = 0,
+        role = 132,
+        id = 132018,
+        type = "favor_up",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_025.mp3",
+        },
+        des = "好感度等级提升",
     },
     [130024] = {
         hero = 0,
@@ -9050,6 +9519,26 @@ return {
         },
         des = "换上服装-高级",
     },
+    [132017] = {
+        hero = 0,
+        role = 132,
+        id = 132017,
+        type = "gift_low",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_024.mp3",
+        },
+        des = "一般礼物",
+    },
+    [132016] = {
+        hero = 0,
+        role = 132,
+        id = 132016,
+        type = "gift_high",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_023.mp3",
+        },
+        des = "喜爱礼物",
+    },
     [108019] = {
         hero = 110801,
         role = 0,
@@ -9070,6 +9559,26 @@ return {
         },
         des = "约会结束-normal、bad",
     },
+    [132015] = {
+        hero = 0,
+        role = 132,
+        id = 132015,
+        type = "food_low",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_022.mp3",
+        },
+        des = "一般食物",
+    },
+    [132014] = {
+        hero = 0,
+        role = 132,
+        id = 132014,
+        type = "food_high",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_021.mp3",
+        },
+        des = "喜爱食物",
+    },
     [129001] = {
         hero = 112901,
         role = 0,
@@ -9079,6 +9588,16 @@ return {
             [1] = "sound/role/lingyin/lingyin_32.mp3",
         },
         des = "获得角色1",
+    },
+    [132013] = {
+        hero = 0,
+        role = 132,
+        id = 132013,
+        type = "gifts_wait",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_020.mp3",
+        },
+        des = "等待送礼",
     },
     [119022] = {
         hero = 0,
@@ -9100,6 +9619,16 @@ return {
         },
         des = "进入换装",
     },
+    [132012] = {
+        hero = 0,
+        role = 132,
+        id = 132012,
+        type = "button_gift",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_019.mp3",
+        },
+        des = "进入送礼",
+    },
     [103030] = {
         hero = 0,
         role = 103,
@@ -9109,6 +9638,26 @@ return {
             [1] = "sound/role/sisinai/YOSHINO_98.mp3",
         },
         des = "温泉功能",
+    },
+    [132011] = {
+        hero = 0,
+        role = 132,
+        id = 132011,
+        type = "dress_high",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_018.mp3",
+        },
+        des = "换上服装-高级",
+    },
+    [132010] = {
+        hero = 0,
+        role = 132,
+        id = 132010,
+        type = "dress_low",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_017.mp3",
+        },
+        des = "换上服装-一般",
     },
     [130025] = {
         hero = 0,
@@ -9130,6 +9679,24 @@ return {
         },
         des = "进入送礼",
     },
+    [132008] = {
+        hero = 0,
+        role = 0,
+        id = 132008,
+        type = "dating_invite_no",
+        voice = {
+        },
+        des = "预定约会-拒绝邀请",
+    },
+    [132006] = {
+        hero = 0,
+        role = 0,
+        id = 132006,
+        type = "bad_end",
+        voice = {
+        },
+        des = "约会结束-normal、bad",
+    },
     [108020] = {
         hero = 0,
         role = 108,
@@ -9149,6 +9716,25 @@ return {
             [1] = "sound/role/zhezhi/ORIGAMI_41.mp3",
         },
         des = "预定约会-接受邀请",
+    },
+    [132004] = {
+        hero = 0,
+        role = 0,
+        id = 132004,
+        type = "hidden_end",
+        voice = {
+        },
+        des = "约会结束-hidden end",
+    },
+    [132002] = {
+        hero = 0,
+        role = 132,
+        id = 132002,
+        type = "button_dating",
+        voice = {
+            [1] = "sound/role/sonorio/SonoRio_002.mp3",
+        },
+        des = "点击约会按钮",
     },
     [129002] = {
         hero = 0,

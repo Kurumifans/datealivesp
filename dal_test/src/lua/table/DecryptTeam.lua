@@ -8,7 +8,7 @@ return {
         weight = 100,
         team = 1,
         stime = "2021-01-18 00:00:00",
-        icon = "citymap/world/object/Decrypt/zhaopai.png",
+        icon = "citymap/world/object/Decrypt/tupian.png",
         des = 15011222,
     },
     [2] = {
@@ -92,7 +92,7 @@ return {
         weight = 100,
         team = 8,
         stime = "2021-01-18 00:00:00",
-        icon = "citymap/world/object/Decrypt/zhaopai.png",
+        icon = "citymap/world/object/Decrypt/tupian.png",
         des = 15011274,
     },
     [9] = {
@@ -104,7 +104,7 @@ return {
         weight = 100,
         team = 9,
         stime = "2021-01-18 00:00:00",
-        icon = "citymap/world/object/Decrypt/zhaopai.png",
+        icon = "citymap/world/object/Decrypt/tupian.png",
         des = 15011275,
     },
 }

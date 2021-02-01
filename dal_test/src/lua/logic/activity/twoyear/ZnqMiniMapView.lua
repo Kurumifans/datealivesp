@@ -51,6 +51,8 @@ function ZnqMiniMapView:getRedPointState( index )
 		return ActivityDataMgr2:isBalloonTip()
 	elseif index == 5 then
 		return ActivityDataMgr2:isShowRedPointInMainView(7)
+	elseif index == 8 then -- 年兽界面红点逻辑
+		return GoodsDataMgr:getItemCount(665105) > 0 and not FubenDataMgr.enterNianshouChanllenge
 	elseif index == 9 then
 		return TurnTabletMgr:isTurnTabletRedShow()
 	end

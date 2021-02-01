@@ -305,7 +305,7 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "首次获得以下任一精灵，可直接领取另外一个精灵。",
+									text = "首次获得以下任意精灵，可直接领取另外一个精灵。",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
@@ -313,7 +313,7 @@ local t =
 										PositionX = 116,
 										PositionY = 246,
 									},
-									width = "541",
+									width = "542",
 									ZOrder = "1",
 								},
 							},

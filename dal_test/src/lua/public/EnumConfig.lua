@@ -631,7 +631,6 @@ EC_ResourceType = {
     FIRST_RECHARGE_ITEM = 66,   --首冲重置券
     CONTRACT_ITEM = 67,         --精灵锲约重置券
     ACTIVITY_ITEM = 71,         --活动道具类型
-    EXCHANGE    = 72            --可以交换的物品
 }
 
 -- 资源条类型

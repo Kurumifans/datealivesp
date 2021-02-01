@@ -370,7 +370,7 @@ function AmusementPackActor:playTalk(content, nofadeIn, borderImg)
 		    self.image_bubble:setScale(1)
   			local actions = 
 		    {   
-		        DelayTime:create(1.5),
+		        DelayTime:create(2.5),
 		        Hide:create()
 		    }
 		    self.image_bubble:runAction(Sequence:create(actions))
@@ -470,34 +470,51 @@ function AmusementPackActor:needUpdate(  )
 	return self.aiModel or (self.manualAITab and table.count(self.manualAITab) > 0) or self.parmaFlag
 end
 
-function AmusementPackActor:update( dt, actorData )
+function AmusementPackActor:update( dt, actorData, index)
 	-- body
 	self.super.update(self,dt,actorData)
+	index = index or 0
 
 	self.aiUpdateDt = self.aiUpdateDt or 0
 	self.aiUpdateDt = self.aiUpdateDt + dt
-	if self.aiModel and self.aiUpdateDt >= math.random(100,200)/1000 then
-		self.aiModel:update(self.aiUpdateDt)
+
+	if not self.actorAiDt and self.aiUpdateDt > 0.01 then
+		self.actorAiDt = 0 + index*0.003
 		self.aiUpdateDt = 0
 	end
 
+	if self.aiModel and self.actorAiDt and  self.aiUpdateDt >= self.actorAiDt then
+		self.actorAiDt = nil
+		self.aiModel:update(self.aiUpdateDt)
+	end
 	self.manualAiUpdateDt = self.manualAiUpdateDt or 0
 	self.manualAiUpdateDt = self.manualAiUpdateDt + dt
-	if self.manualAITab and self.manualAiUpdateDt >= math.random(200,300)/1000  then
-		for k,v in pairs(self.manualAITab) do
-			v:update(self.manualAiUpdateDt)
-		end
+
+	if not self.actorManualAiDt and self.manualAiUpdateDt > 0.02 then
+		self.actorManualAiDt = 0.01 + index*0.003
 		self.manualAiUpdateDt = 0
 	end
 
+	if self.manualAITab and self.actorManualAiDt and self.manualAiUpdateDt >= self.actorManualAiDt then
+		self.actorManualAiDt = nil
+		for k,v in pairs(self.manualAITab) do
+			v:update(self.manualAiUpdateDt)
+		end
+	end
+	
 	self.updateExDatadt = self.updateExDatadt or 0
 	self.updateExDatadt = self.updateExDatadt + dt
-	if self.parmaFlag and self.updateExDatadt >= math.random(400,500)/1000 then -- 通过标记获取数据
+
+	if not self.actorExDataDt and self.updateExDatadt > 0.03  then
+		self.actorExDataDt = 0.02 + index*0.003
+        self.updateExDatadt = 0
+	end
+	if self.parmaFlag and self.actorExDataDt and self.updateExDatadt >= self.actorExDataDt then -- 通过标记获取数据
+		self.updateExDatadt = nil
         local flagData = Utils:getFlagData(self.parmaFlag)
         if flagData and flagData.worldRiddlesData then
             self:setPosition(ccp(flagData.worldRiddlesData.lox,flagData.worldRiddlesData.loy))
         end 
-        self.updateExDatadt = 0
     end
 end 
 

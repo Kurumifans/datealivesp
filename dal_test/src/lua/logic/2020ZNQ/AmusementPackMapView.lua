@@ -27,7 +27,7 @@ local AmusementPackMapView = class("AmusementPackMapView",BasicMap)
 
 function AmusementPackMapView:ctor( ... )
 	-- body
-    self.viewOffset = CCSize(200,200)
+    self.viewOffset = CCSize(400,400)
 	self.super.ctor(self, WorldRoomDataMgr:getCurControl())
 end
 

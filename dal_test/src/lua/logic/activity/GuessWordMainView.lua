@@ -33,10 +33,13 @@ function GuessWordMainView:initUI(ui)
     self.super.initUI(self,ui)
 
     self.contentList = UIListView:create(self._ui.ScrollView_content)
-    -- self.contentList:setItemsMargin(20)
 
     self.awardList = UIListView:create(self._ui.ScrollView_award)
     self.awardList:setItemsMargin(15)
+
+    local st_year, st_month, st_day = Utils:getDate(self.activityInfo_.startTime)
+    local en_year, en_month, en_day = Utils:getDate(self.activityInfo_.showEndTime)
+    self._ui.Label_act_time:setTextById(63887, st_month, st_day, en_month, en_day)
 
     self._ui.Panel_content:hide()
     self._ui.lab_finshAllQues:hide()

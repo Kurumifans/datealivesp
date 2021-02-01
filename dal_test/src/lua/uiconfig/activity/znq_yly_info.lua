@@ -383,7 +383,7 @@ local t =
 							height = "376",
 							ignoreSize = "False",
 							innerHeight = "376",
-							innerWidth = "108",
+							innerWidth = "131",
 							name = "ScrollView_tab",
 							showScrollbar = "False",
 							sizepercentx = "0",
@@ -393,15 +393,15 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 42,
-								PositionY = 153,
+								PositionX = 31,
+								PositionY = 149,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "108",
+							width = "131",
 							ZOrder = "10",
 						},
 						{
@@ -515,7 +515,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "97",
+							height = "128",
 							ignoreSize = "False",
 							name = "Panel_tabItem",
 							sizepercentx = "0",
@@ -547,7 +547,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "95",
+									height = "128",
 									ignoreSize = "True",
 									name = "Image_normal",
 									sizepercentx = "0",
@@ -621,7 +621,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "124",
+									height = "158",
 									ignoreSize = "True",
 									name = "select",
 									sizepercentx = "0",

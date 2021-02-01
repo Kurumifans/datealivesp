@@ -297,6 +297,7 @@ function FubenDataMgr:reset()
 
     ---阵容排序默认排序ID
     self.formationSortRuleId = 5
+    self.enterNianshouChanllenge = nil -- 特殊标记重置
 
 end
 

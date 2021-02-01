@@ -187,7 +187,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "2",
+							height = "64",
 							ignoreSize = "True",
 							name = "Image_role",
 							sizepercentx = "0",
@@ -200,7 +200,7 @@ local t =
 							{
 								
 							},
-							width = "2",
+							width = "64",
 							ZOrder = "1",
 							components = 
 							{
@@ -3090,9 +3090,11 @@ local t =
 													DesignType = "0",
 													DesignWidth = "960",
 													dstBlendFunc = "771",
-													height = "84",
+													height = "100",
 													ignoreSize = "False",
 													name = "PageView_Activity",
+													scaleX = "0.835",
+													scaleY = "0.835",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -3100,7 +3102,7 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = -82,
+														PositionX = -140,
 														PositionY = -34,
 													},
 													uipanelviewmodel = 
@@ -3108,7 +3110,7 @@ local t =
 														Layout="Absolute",
 														nType = "0"
 													},
-													width = "306",
+													width = "440",
 													ZOrder = "1",
 												},
 												{
@@ -4889,7 +4891,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "2",
+											height = "64",
 											ignoreSize = "True",
 											name = "RedTips",
 											sizepercentx = "0",
@@ -4903,7 +4905,7 @@ local t =
 												PositionX = 27,
 												PositionY = 26,
 											},
-											width = "2",
+											width = "64",
 											ZOrder = "1",
 										},
 										{

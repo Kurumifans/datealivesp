@@ -128744,7 +128744,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "八舞耶俱失",
+        name = "八舞耶俱矢",
         cameraAction = 0,
         headL = "10701_a2",
         conditions = {
@@ -150410,7 +150410,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "八舞耶俱失",
+        name = "八舞耶俱矢",
         cameraAction = 0,
         headL = "10701_d1",
         conditions = {
@@ -158777,7 +158777,7 @@ return {
             },
             [3] = {
                 speed = 40,
-                text = "烟花和爆炸什么的，",
+                text = "烟花和爆竹什么的，",
                 delay = 300,
             },
             [4] = {
@@ -165788,7 +165788,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "八舞耶俱失",
+        name = "八舞耶俱矢",
         cameraAction = 0,
         headL = "10701_c2",
         conditions = {

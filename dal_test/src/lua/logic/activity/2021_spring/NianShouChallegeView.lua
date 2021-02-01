@@ -71,12 +71,6 @@ function NianShouChallegeView:initUI( ui )
 	self:refreshTaskUI()
 end
 
-function NianShouChallegeView:onShow( ... )
-	-- body
-	self.super.onShow(self)
-    DatingDataMgr:triggerDating(self.__cname, "onShow")
-end
-
 function NianShouChallegeView:initPanelInfos()
 	self:initNianshouInfo()
 	self:initLevelInfo()
@@ -414,6 +408,7 @@ function NianShouChallegeView:onShow()
     self.super.onShow(self)
 
     DatingDataMgr:triggerDating(self.__cname, "onShow")
+    FubenDataMgr.enterNianshouChanllenge = true
 end
 
 

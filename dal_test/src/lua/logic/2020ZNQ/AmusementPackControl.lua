@@ -111,10 +111,10 @@ function AmusementPackControl:updateInFrame9( dt )
     -- body
     self.super.updateInFrame9(self,dt)
     
-    if not self.setViewOffset then
-        self.setViewOffset = true
+    if self.setViewOffset then
         self.baseMap:setViewOffset(800,800)
     end
+    self.setViewOffset = true
     self:updateNpcEffectSound()
 end
 
@@ -463,7 +463,15 @@ function AmusementPackControl:triggerNpcFunc( actionData, isAuto )
                 self:operateLeaveBuild(pid)
             end
         elseif interActionType == 5 or interActionType == 10 then -- 建筑上播放表情
-            self:operatePlayAction(actionCfg.interTypeParma.actionId)
+            local actionId = actionCfg.interTypeParma.actionId
+            if not actionId then
+                if actionCfg.interTypeParma.actionRandom then
+                    actionId = actionCfg.interTypeParma.actionRandom[math.random(1,#actionCfg.interTypeParma.actionRandom)]
+                else
+                    return  true
+                end
+            end
+            self:operatePlayAction(actionId)
         elseif interActionType == 7 then -- 添加ai
             
         elseif interActionType == 8 then -- 移除碰撞的非静态对象
@@ -552,7 +560,15 @@ function AmusementPackControl:triggerNpcFuncSingle( actionData, isAuto )
             if actionCfg.interTypeParma.target == 1 then
                 pid = actionData.actorPid or actionData.triggerPid
             end
-            table.insert(actions,{actionId = actionCfg.interTypeParma.actionId, pid = pid})
+            local actionId = actionCfg.interTypeParma.actionId
+            if not actionId then
+                if actionCfg.interTypeParma.actionRandom then
+                    actionId = actionCfg.interTypeParma.actionRandom[math.random(1,#actionCfg.interTypeParma.actionRandom)]
+                else
+                    return  true
+                end
+            end
+            table.insert(actions,{actionId = actionId, pid = pid})
             self:operateAction({actions = actions})
         elseif interActionType == 10 then -- 强制为主角执行actionId
             local actions = {}

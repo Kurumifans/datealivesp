@@ -340,6 +340,312 @@ return {
             },
         },
     },
+    [50] = {
+        id = 50,
+        condition = {
+            serverTimeRange = {
+                [1] = 1612368000,
+                [2] = 1612454400,
+            },
+        },
+    },
+    [51] = {
+        id = 51,
+        condition = {
+            serverTimeRange = {
+                [1] = 1612454400,
+                [2] = 1612540800,
+            },
+        },
+    },
+    [52] = {
+        id = 52,
+        condition = {
+            serverTimeRange = {
+                [1] = 1612540800,
+                [2] = 1612627200,
+            },
+        },
+    },
+    [53] = {
+        id = 53,
+        condition = {
+            serverTimeRange = {
+                [1] = 1612627200,
+                [2] = 1612713600,
+            },
+        },
+    },
+    [54] = {
+        id = 54,
+        condition = {
+            serverTimeRange = {
+                [1] = 1612713600,
+                [2] = 1612800000,
+            },
+        },
+    },
+    [55] = {
+        id = 55,
+        condition = {
+            serverTimeRange = {
+                [1] = 1612800000,
+                [2] = 1612886400,
+            },
+        },
+    },
+    [56] = {
+        id = 56,
+        condition = {
+            serverTimeRange = {
+                [1] = 1612886400,
+                [2] = 1612972800,
+            },
+        },
+    },
+    [57] = {
+        id = 57,
+        condition = {
+            serverTimeRange = {
+                [1] = 1612972800,
+                [2] = 1613059200,
+            },
+        },
+    },
+    [58] = {
+        id = 58,
+        condition = {
+            serverTimeRange = {
+                [1] = 1613059200,
+                [2] = 1613145600,
+            },
+        },
+    },
+    [59] = {
+        id = 59,
+        condition = {
+            serverTimeRange = {
+                [1] = 1613145600,
+                [2] = 1613232000,
+            },
+        },
+    },
+    [60] = {
+        id = 60,
+        condition = {
+            serverTimeRange = {
+                [1] = 1613232000,
+                [2] = 1613318400,
+            },
+        },
+    },
+    [61] = {
+        id = 61,
+        condition = {
+            serverTimeRange = {
+                [1] = 1613318400,
+                [2] = 1613404800,
+            },
+        },
+    },
+    [62] = {
+        id = 62,
+        condition = {
+            serverTimeRange = {
+                [1] = 1613404800,
+                [2] = 1613491200,
+            },
+        },
+    },
+    [63] = {
+        id = 63,
+        condition = {
+            serverTimeRange = {
+                [1] = 1613491200,
+                [2] = 1613577600,
+            },
+        },
+    },
+    [64] = {
+        id = 64,
+        condition = {
+            serverTimeRange = {
+                [1] = 1613577600,
+                [2] = 1613664000,
+            },
+        },
+    },
+    [65] = {
+        id = 65,
+        condition = {
+            serverTimeRange = {
+                [1] = 1613664000,
+                [2] = 1613750400,
+            },
+        },
+    },
+    [66] = {
+        id = 66,
+        condition = {
+            serverTimeRange = {
+                [1] = 1613750400,
+                [2] = 1613836800,
+            },
+        },
+    },
+    [67] = {
+        id = 67,
+        condition = {
+            serverTimeRange = {
+                [1] = 1613836800,
+                [2] = 1613923200,
+            },
+        },
+    },
+    [68] = {
+        id = 68,
+        condition = {
+            serverTimeRange = {
+                [1] = 1613923200,
+                [2] = 1614009600,
+            },
+        },
+    },
+    [69] = {
+        id = 69,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614009600,
+                [2] = 1614096000,
+            },
+        },
+    },
+    [70] = {
+        id = 70,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614096000,
+                [2] = 1614182400,
+            },
+        },
+    },
+    [71] = {
+        id = 71,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614182400,
+                [2] = 1614268800,
+            },
+        },
+    },
+    [72] = {
+        id = 72,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614268800,
+                [2] = 1614355200,
+            },
+        },
+    },
+    [73] = {
+        id = 73,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614355200,
+                [2] = 1614441600,
+            },
+        },
+    },
+    [74] = {
+        id = 74,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614441600,
+                [2] = 1614528000,
+            },
+        },
+    },
+    [75] = {
+        id = 75,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614528000,
+                [2] = 1614614400,
+            },
+        },
+    },
+    [76] = {
+        id = 76,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614614400,
+                [2] = 1614700800,
+            },
+        },
+    },
+    [77] = {
+        id = 77,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614700800,
+                [2] = 1614787200,
+            },
+        },
+    },
+    [78] = {
+        id = 78,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614787200,
+                [2] = 1614873600,
+            },
+        },
+    },
+    [79] = {
+        id = 79,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614873600,
+                [2] = 1614960000,
+            },
+        },
+    },
+    [80] = {
+        id = 80,
+        condition = {
+            serverTimeRange = {
+                [1] = 1614960000,
+                [2] = 1615046400,
+            },
+        },
+    },
+    [81] = {
+        id = 81,
+        condition = {
+            serverTimeRange = {
+                [1] = 1615046400,
+                [2] = 1615132800,
+            },
+        },
+    },
+    [82] = {
+        id = 82,
+        condition = {
+            serverTimeRange = {
+                [1] = 1615132800,
+                [2] = 1615219200,
+            },
+        },
+    },
+    [83] = {
+        id = 83,
+        condition = {
+            serverTimeRange = {
+                [1] = 1615219200,
+                [2] = 1615305600,
+            },
+        },
+    },
     [2446] = {
         id = 2446,
         condition = {

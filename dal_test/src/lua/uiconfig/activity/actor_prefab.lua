@@ -150,7 +150,7 @@ local t =
 							{
 								PositionY = 130,
 							},
-							width = "278",
+							width = "200",
 							ZOrder = "1",
 							components = 
 							{
@@ -190,15 +190,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "玩家名称玩家名称玩家名称玩家名称玩名称玩家名称玩名称玩家名称玩",
+									text = "玩家名称玩家名称玩家名称玩家名称玩家名称玩家名称",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 1,
-										PositionY = 38,
+										PositionY = 23,
 									},
-									width = "217",
+									width = "150",
 									ZOrder = "1",
 								},
 							},
@@ -265,7 +264,7 @@ local t =
 							{
 								PositionY = 130,
 							},
-							width = "278",
+							width = "200",
 							ZOrder = "1",
 							components = 
 							{
@@ -305,15 +304,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "玩家名称玩家名称玩家名称玩家名称玩名称玩家名称玩名称玩家名称玩",
+									text = "玩家名称玩家名称玩家名称玩家名称玩家名称玩家名称",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 1,
-										PositionY = 38,
+										PositionY = 19,
 									},
-									width = "217",
+									width = "150",
 									ZOrder = "1",
 								},
 							},

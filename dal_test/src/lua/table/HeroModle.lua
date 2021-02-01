@@ -715,7 +715,7 @@ return {
             x = -50,
         },
         battleEndPosition = {
-            y = 0,
+            y = 60,
             x = 45,
         },
         battleEndSize = 1.1,

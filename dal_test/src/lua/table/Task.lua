@@ -20894,7 +20894,7 @@ return {
     },
     [800318] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 13005,
         order = 3,
@@ -20939,7 +20939,7 @@ return {
     },
     [800319] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 2021,
         order = 4,
@@ -21856,7 +21856,7 @@ return {
     },
     [800333] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 13005,
         order = 2,
@@ -21955,7 +21955,7 @@ return {
     },
     [800334] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 13005,
         order = 3,
@@ -21991,7 +21991,7 @@ return {
         acceptCondId = 0,
         finishParams = {
             quality = 7,
-            heroId = 113201,
+            heroId = 113301,
         },
         effectiveTime = -1,
         colour1 = {
@@ -22000,7 +22000,7 @@ return {
     },
     [800335] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 2021,
         order = 4,
@@ -22404,7 +22404,7 @@ return {
     },
     [800340] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 13001,
         order = 9,
@@ -22448,7 +22448,7 @@ return {
     },
     [800341] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 13001,
         order = 10,
@@ -22600,7 +22600,7 @@ return {
     },
     [800343] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 13001,
         order = 12,
@@ -25872,7 +25872,7 @@ return {
     },
     [800347] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 14001,
         order = 16,
@@ -25964,7 +25964,7 @@ return {
     },
     [800346] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 14001,
         order = 15,
@@ -26053,7 +26053,7 @@ return {
     },
     [800345] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 14001,
         order = 14,
@@ -26240,7 +26240,7 @@ return {
     },
     [800344] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 14001,
         order = 13,
@@ -26436,7 +26436,7 @@ return {
     },
     [800342] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 13001,
         order = 11,
@@ -26624,7 +26624,7 @@ return {
     },
     [800339] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 8009,
         order = 8,
@@ -26724,7 +26724,7 @@ return {
     },
     [800338] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 8008,
         order = 7,
@@ -26828,7 +26828,7 @@ return {
     },
     [800337] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 8008,
         order = 6,
@@ -27026,7 +27026,7 @@ return {
     },
     [800336] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 8008,
         order = 5,
@@ -27230,7 +27230,7 @@ return {
     },
     [800332] = {
         ext = {
-            acttype = 85,
+            actId = 11176,
         },
         finishCondId = 2001,
         order = 1,
@@ -27418,7 +27418,7 @@ return {
     },
     [800331] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 14001,
         order = 16,
@@ -27510,7 +27510,7 @@ return {
     },
     [800330] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 14001,
         order = 15,
@@ -27598,7 +27598,7 @@ return {
     },
     [800329] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 14001,
         order = 14,
@@ -27784,7 +27784,7 @@ return {
     },
     [800328] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 14001,
         order = 13,
@@ -27980,7 +27980,7 @@ return {
     },
     [800327] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 13001,
         order = 12,
@@ -28172,7 +28172,7 @@ return {
     },
     [800326] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 13001,
         order = 11,
@@ -28264,7 +28264,7 @@ return {
     },
     [800325] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 13001,
         order = 10,
@@ -28360,7 +28360,7 @@ return {
     },
     [800324] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 13001,
         order = 9,
@@ -28543,7 +28543,7 @@ return {
     },
     [800323] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 8009,
         order = 8,
@@ -28758,7 +28758,7 @@ return {
     },
     [800322] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 8008,
         order = 7,
@@ -28862,7 +28862,7 @@ return {
     },
     [800321] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 8008,
         order = 6,
@@ -28966,7 +28966,7 @@ return {
     },
     [800320] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 8008,
         order = 5,
@@ -29069,7 +29069,7 @@ return {
     },
     [800317] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 13005,
         order = 2,
@@ -29160,7 +29160,7 @@ return {
     },
     [800316] = {
         ext = {
-            acttype = 85,
+            actId = 11175,
         },
         finishCondId = 2001,
         order = 1,
@@ -71694,6 +71694,8 @@ return {
                 [11] = 112401,
                 [12] = 112701,
                 [13] = 113101,
+                [14] = 113201,
+                [15] = 113301,
             },
         },
         effectiveTime = -1,

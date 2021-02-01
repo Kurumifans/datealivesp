@@ -893,6 +893,7 @@ return {
         type = 2,
         rarity = 7,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140393",
@@ -1190,6 +1191,7 @@ return {
         type = 2,
         rarity = 7,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140394",
@@ -1486,6 +1488,7 @@ return {
         type = 2,
         rarity = 7,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140395",
@@ -1744,6 +1747,7 @@ return {
         type = 2,
         rarity = 7,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140396",
@@ -24863,6 +24867,7 @@ return {
         type = 2,
         rarity = 5,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140373",
@@ -25048,6 +25053,7 @@ return {
         type = 2,
         rarity = 5,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140374",
@@ -26592,6 +26598,7 @@ return {
         type = 2,
         rarity = 6,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140377",
@@ -26846,6 +26853,7 @@ return {
         type = 2,
         rarity = 6,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140378",
@@ -27112,6 +27120,7 @@ return {
         type = 2,
         rarity = 6,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140379",
@@ -27377,6 +27386,7 @@ return {
         type = 2,
         rarity = 6,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140380",
@@ -28665,6 +28675,7 @@ return {
         type = 2,
         rarity = 7,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140381",
@@ -28962,6 +28973,7 @@ return {
         type = 2,
         rarity = 7,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140382",
@@ -29258,6 +29270,7 @@ return {
         type = 2,
         rarity = 7,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140383",
@@ -29516,6 +29529,7 @@ return {
         type = 2,
         rarity = 7,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140384",
@@ -50631,6 +50645,7 @@ return {
         type = 2,
         rarity = 5,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140388",
@@ -50722,6 +50737,7 @@ return {
         type = 2,
         rarity = 5,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140387",
@@ -50905,6 +50921,7 @@ return {
         type = 2,
         rarity = 5,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140376",
@@ -50985,6 +51002,7 @@ return {
         type = 2,
         rarity = 5,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140375",
@@ -53181,6 +53199,7 @@ return {
         type = 2,
         rarity = 5,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140385",
@@ -53607,6 +53626,7 @@ return {
         type = 2,
         rarity = 5,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140386",
@@ -57727,6 +57747,7 @@ return {
         type = 2,
         rarity = 6,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140389",
@@ -58184,6 +58205,7 @@ return {
         type = 2,
         rarity = 6,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140390",
@@ -58635,6 +58657,7 @@ return {
         type = 2,
         rarity = 6,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140391",
@@ -59121,6 +59144,7 @@ return {
         type = 2,
         rarity = 6,
         accessId = {
+            [1] = 211,
         },
         showType = 0,
         desTextId = "1140392",

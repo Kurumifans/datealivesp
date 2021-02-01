@@ -124,8 +124,10 @@ function ItemInfoView:refreshView()
         self.ListView_cost:setContentSize(containerSize)
     elseif self.itemCfg_.superType == EC_ResourceType.TRAILCARD and GoodsDataMgr:getItemCount(self.itemCid_) > 0 then
         self.Button_use:setVisible(true)
-    elseif self.itemCfg_.superType == EC_ResourceType.EXCHANGE then
-        self.Button_exchange:show()
+    elseif self.itemCfg_.superType == EC_ResourceType.ACTIVITY_ITEM then
+        if self.itemCfg_.exchangType == 1 then--可以交换的物品
+            self.Button_exchange:show()
+        end
     else
         self.Button_access:setPositionX(self.Button_use:getPositionX())
     end

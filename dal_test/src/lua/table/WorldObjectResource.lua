@@ -146,6 +146,24 @@ return {
         isSpecialModel = false,
         resourceType = 2,
     },
+    [2330] = {
+        path = "citymap/world/object/interObject_springFes_lantern2/interObject_springFes_lantern2",
+        notSetPose = false,
+        id = 2330,
+        anchor = {
+        },
+        isSpecialModel = false,
+        resourceType = 2,
+    },
+    [2331] = {
+        path = "citymap/world/object/interObject_springFes_lantern1/interObject_springFes_lantern1",
+        notSetPose = false,
+        id = 2331,
+        anchor = {
+        },
+        isSpecialModel = false,
+        resourceType = 2,
+    },
     [102] = {
         path = "citymap/world/object/build_summon/kachijianzhu",
         notSetPose = false,
@@ -518,6 +536,17 @@ return {
         isSpecialModel = false,
         resourceType = 2,
     },
+    [2357] = {
+        path = "citymap/world/object/springFes_png/springFes_tree5.png",
+        notSetPose = false,
+        id = 2357,
+        anchor = {
+            [1] = 0.5,
+            [2] = 0.05,
+        },
+        isSpecialModel = false,
+        resourceType = 1,
+    },
     [1119] = {
         path = "modle/citymodle/city_10105/city_10105",
         notSetPose = false,
@@ -726,7 +755,7 @@ return {
         id = 2511,
         anchor = {
             [1] = 0.5,
-            [2] = 0.5,
+            [2] = 0.12,
         },
         isSpecialModel = false,
         resourceType = 1,
@@ -746,7 +775,7 @@ return {
         id = 2512,
         anchor = {
             [1] = 0.5,
-            [2] = 0.5,
+            [2] = 0.12,
         },
         isSpecialModel = false,
         resourceType = 1,
@@ -757,7 +786,7 @@ return {
         id = 2513,
         anchor = {
             [1] = 0.5,
-            [2] = 0.5,
+            [2] = 0.12,
         },
         isSpecialModel = false,
         resourceType = 1,
@@ -768,7 +797,7 @@ return {
         id = 2514,
         anchor = {
             [1] = 0.5,
-            [2] = 0.5,
+            [2] = 0.12,
         },
         isSpecialModel = false,
         resourceType = 1,
@@ -788,7 +817,7 @@ return {
         id = 2516,
         anchor = {
             [1] = 0.5,
-            [2] = 0.5,
+            [2] = 0.12,
         },
         isSpecialModel = false,
         resourceType = 1,
@@ -799,7 +828,7 @@ return {
         id = 2517,
         anchor = {
             [1] = 0.5,
-            [2] = 0.5,
+            [2] = 0.12,
         },
         isSpecialModel = false,
         resourceType = 1,
@@ -1215,15 +1244,6 @@ return {
         isSpecialModel = false,
         resourceType = 2,
     },
-    [2304] = {
-        path = "citymap/world/object/build_springFes_battleGround/build_springFes_battleGround",
-        notSetPose = false,
-        id = 2304,
-        anchor = {
-        },
-        isSpecialModel = false,
-        resourceType = 2,
-    },
     [2547] = {
         path = "citymap/world/object/Decrypt/springFes_2547.png",
         notSetPose = false,
@@ -1235,10 +1255,10 @@ return {
         isSpecialModel = false,
         resourceType = 1,
     },
-    [2305] = {
-        path = "citymap/world/object/build_springFes_lanternPuzzle/build_springFes_lanternPuzzle",
+    [2304] = {
+        path = "citymap/world/object/build_springFes_battleGround/build_springFes_battleGround",
         notSetPose = false,
-        id = 2305,
+        id = 2304,
         anchor = {
         },
         isSpecialModel = false,
@@ -1255,6 +1275,26 @@ return {
         isSpecialModel = false,
         resourceType = 1,
     },
+    [2305] = {
+        path = "citymap/world/object/build_springFes_lanternPuzzle/build_springFes_lanternPuzzle",
+        notSetPose = false,
+        id = 2305,
+        anchor = {
+        },
+        isSpecialModel = false,
+        resourceType = 2,
+    },
+    [2523] = {
+        path = "citymap/world/object/Decrypt/springFes_2523.png",
+        notSetPose = false,
+        id = 2523,
+        anchor = {
+            [1] = 0.5,
+            [2] = 0.5,
+        },
+        isSpecialModel = false,
+        resourceType = 1,
+    },
     [2306] = {
         path = "citymap/world/object/build_springFes_noticeBoard/build_springFes_noticeBoard",
         notSetPose = false,
@@ -1264,10 +1304,10 @@ return {
         isSpecialModel = false,
         resourceType = 2,
     },
-    [203] = {
-        path = "citymap/world/object/chuan/chuan",
+    [103] = {
+        path = "citymap/world/object/build_game/youxijianzhu",
         notSetPose = false,
-        id = 203,
+        id = 103,
         anchor = {
         },
         isSpecialModel = false,
@@ -1300,21 +1340,19 @@ return {
         isSpecialModel = false,
         resourceType = 2,
     },
-    [2523] = {
-        path = "citymap/world/object/Decrypt/springFes_2523.png",
+    [2332] = {
+        path = "citymap/world/object/interObject_springFes_kont/interObject_springFes_kont",
         notSetPose = false,
-        id = 2523,
+        id = 2332,
         anchor = {
-            [1] = 0.5,
-            [2] = 0.5,
         },
         isSpecialModel = false,
-        resourceType = 1,
+        resourceType = 2,
     },
-    [103] = {
-        path = "citymap/world/object/build_game/youxijianzhu",
+    [203] = {
+        path = "citymap/world/object/chuan/chuan",
         notSetPose = false,
-        id = 103,
+        id = 203,
         anchor = {
         },
         isSpecialModel = false,
@@ -1492,7 +1530,7 @@ return {
         id = 2515,
         anchor = {
             [1] = 0.5,
-            [2] = 0.5,
+            [2] = 0.12,
         },
         isSpecialModel = false,
         resourceType = 1,

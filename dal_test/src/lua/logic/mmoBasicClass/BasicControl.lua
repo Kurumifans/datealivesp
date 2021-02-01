@@ -429,15 +429,18 @@ function BasicControl:getNPCList()
 end
 
 function BasicControl:updateRoles(dt)
+	local index = 0
     for hero in self:getHeroList():iterator() do
     	local actorData = self:getActorDataByPid(hero:getPid())
-        hero:update(dt,actorData)
+        hero:update(dt,actorData,index)
+    	index = index + 1
     end
 
     for npc in self:getNPCList():iterator() do
     	local actorData = self:getActorDataByPid(npc:getPid())
     	if npc:needUpdate() then
-        	npc:update(dt,actorData)
+        	npc:update(dt,actorData,index)
+    		index = index + 1
         end 
     end
    

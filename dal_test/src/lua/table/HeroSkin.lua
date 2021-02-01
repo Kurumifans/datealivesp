@@ -1788,7 +1788,7 @@ return {
             [7] = 105260,
         },
         beginForm = 1330101,
-        Equipheroicon = "icon/equipment/heroicon/huoshoujunai.png",
+        Equipheroicon = "icon/equipment/heroicon/linmi.png",
         des = "圆神凛祢-灵装",
         desTextId = 21133,
         winBackdrop = "ui/629.png",
