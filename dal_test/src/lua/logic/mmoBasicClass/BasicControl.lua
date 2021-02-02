@@ -602,7 +602,7 @@ function BasicControl:checkIsTriggerFuc()
     for hero in self:getHeroList():iterator() do
     	if hero.isTriggerFuc then
     		local actorData = self:getActorDataByPid(hero:getPid())
-    		if not actorData.buildId then
+    		if not actorData or not actorData.buildId then
 	    		self:checkIsTriggerPlayerFuc(hero)
 	    		self:checkIsTriggerNpcFuc(hero)
 	    	end

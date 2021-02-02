@@ -3314,6 +3314,12 @@ function Hero:changeValue(attrType,value)
                 return
             end
         end
+    elseif attrType == eAttrType.ATTR_MOVE_SPEED then
+        if value < 0 then
+            if self:isAState(eAState.E_MOVE_SPEED_MY) then
+                return
+            end
+        end
     elseif attrType == eAttrType.ATTR_NOW_ENERGY then
         if value < 0 then
             if self:isFlag(eFlag.SUPER_SKILL) then
@@ -3533,7 +3539,13 @@ function Hero:changeHp(value,hurtType,target,bAbsorb,point,hideDamage)
             self:addRevHurtValue(value)
         end
         EventMgr:dispatchEvent(eEvent.EVENT_HP_CHANGE, self,value)
-        battleController.synchronHp(self)
+        if battleController.useCustomAttrModle() then
+            if value > 0 or self:getRoleType() == eRoleType.Team then
+                battleController.synchronHp(self)
+            end
+        else
+            battleController.synchronHp(self)
+        end
     end
     return value
 end
@@ -5100,7 +5112,7 @@ function Hero:onEventTrigger(event,target,param)
     end
 end
 -- 属性变更
-function Hero:onAttrTrigger(attrType,value)
+function Hero:onAttrTrigger(attrType,value, event)
     if attrType == eAttrType.ATTR_NOW_HP then
         --自动恢复
         if self:isFlag(eFlag.HP_AUTO_RECOVERY) then
@@ -5108,6 +5120,9 @@ function Hero:onAttrTrigger(attrType,value)
                 self.property:setValue(eAttrType.ATTR_NOW_HP,self:getMaxHp())
             end
         end
+    end
+    if event and event > 0 then
+        self:onEventTrigger(event,self)
     end
 
 

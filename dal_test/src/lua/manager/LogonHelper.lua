@@ -320,7 +320,7 @@ function LogonHelper:loginVerification()
                 return
             end
 
-            if GameConfig.Debug then
+            if GameConfig.Debug or RELEASE_TEST then
                 self:cacheLoginInfo()
             end
 
@@ -372,6 +372,13 @@ function LogonHelper:loginVerification()
     local size = CCDirector:sharedDirector():getOpenGLView():getFrameSize();
 
     local url = self.loginUrl_
+    if RELEASE_TEST then
+        local serverGroupConfig = ServerDataMgr:getServerList(self.serverGroup_)
+        if serverGroupConfig and serverGroupConfig.url then
+            url = serverGroupConfig.url
+        end
+    end
+
     url = url.."?token="..string.url_encode(token);
     url = url.."&accountId="..string.url_encode(HeitaoSdk.getuserid());
     url = url.."&deviceid="..string.url_encode(((TFDeviceInfo:getMachineOnlyID()) or 1));
@@ -405,7 +412,11 @@ function LogonHelper:loginVerification()
         url = url.."&androidid="..string.url_encode(((TFDeviceInfo:getAndroidId()) or 1));
     end
     if RELEASE_TEST then
-        url = url.."&serverGroup=".."cehua_ext";
+        if self.serverGroup_ then
+            url = url.."&serverGroup=" .. self.serverGroup_
+        else
+            url = url.."&serverGroup=".."cehua_ext";
+        end
         url = url.."&channelId=".."LOCAL_TEST";
     else
         url = url.."&serverGroup=".."ios_check";

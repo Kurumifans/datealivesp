@@ -186,7 +186,8 @@ function BuildRepairView:uppdateRepair()
         self.Label_bar_exp:setText("max")
         self.bar:setPercent(100)
         --self.Panel_next:setVisible(false)
-        self:updateInfo(self.Panel_cur,curCfg.desc or "",false)
+        --self:updateInfo(self.Panel_cur,curCfg.desc or "",false)
+        self:updateInfo(self.Panel_cur,15011311 or "",false)
     else
         local exp = curExp
         local needExp = nextCfg.exp

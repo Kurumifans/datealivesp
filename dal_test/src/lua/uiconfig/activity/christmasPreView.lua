@@ -93,7 +93,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "546",
+							height = "547",
 							ignoreSize = "True",
 							name = "bg",
 							sizepercentx = "0",
@@ -106,7 +106,7 @@ local t =
 							{
 								PositionX = -2,
 							},
-							width = "890",
+							width = "891",
 							ZOrder = "1",
 							components = 
 							{
@@ -120,7 +120,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "82",
+									height = "142",
 									ignoreSize = "True",
 									name = "Image_title",
 									sizepercentx = "0",
@@ -131,10 +131,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -314,
-										PositionY = 125,
+										PositionX = 294,
+										PositionY = 70,
 									},
-									width = "265",
+									width = "298",
 									ZOrder = "1",
 								},
 							},
@@ -148,7 +148,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF737594",
+							FontColor = "#FFA82826",
 							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
@@ -1157,8 +1157,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 404,
-								PositionY = 245,
+								PositionX = 400,
+								PositionY = -156,
 							},
 							UItype = "Button",
 							width = "53",

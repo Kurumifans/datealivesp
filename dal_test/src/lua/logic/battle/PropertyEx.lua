@@ -4,8 +4,16 @@ local Property  = import(".Property")
 local enum      = import(".enum")
 local eAttrType = enum.eAttrType
 local eRoleType = enum.eRoleType
+local eBFState = enum.eBFState
 local print = BattleUtils.print
 local PropertyEx = class("PropertyEx")
+
+local AttrFullEvent = {}
+AttrFullEvent[eAttrType.ATTR_NOW_ENERGY] = eBFState.E_ATTR_FULL_56
+
+local AttrEmptyEvent = {}
+AttrEmptyEvent[eAttrType.ATTR_NOW_ENERGY] = eBFState.E_ATTR_EMPTY_56
+
 function PropertyEx:ctor()
     self.basePro = Property:new()
     self.dynaPro = Property:new()  --修改的属性
@@ -20,10 +28,10 @@ function PropertyEx:setListener(listener)
     self.listener = listener
 end
 
-function PropertyEx:doChange(attrType,value)
+function PropertyEx:doChange(attrType,value,event)
     if attrType < 100 or attrType > 2000 or attrType == 503 or attrType == 507 then
         if self.listener then
-            self.listener(attrType,value)
+            self.listener(attrType,value,event)
             if attrType == eAttrType.ATTR_NOW_HP then
                 self.listener(eAttrType.ATTR_NOW_HP_PERCENT,0)
             end
@@ -160,6 +168,7 @@ function PropertyEx:calcuPlusValue(attrType,value)
     return value
 end
 function PropertyEx:changeValue(attrType,value)
+    local lastValue = self:getValue(attrType)
     value = math.floor(value)
     local _changeValue = value
     if value == 0 then
@@ -229,8 +238,10 @@ function PropertyEx:changeValue(attrType,value)
     else
         self.dynaPro:changeValue(attrType,value)
     end
+    
+    local event = self:checkFullOrEmptyEvent(attrType,lastValue)
     self:fixAttr(attrType)
-    self:doChange(attrType,value)
+    self:doChange(attrType,value,event)
     if DEBUG == 1 then
         if _changeValue > 0 then 
             print(string.format("ATTR[%s]+%s=%s",attrType,_changeValue ,self:getValue(attrType)))
@@ -239,6 +250,22 @@ function PropertyEx:changeValue(attrType,value)
         end
     end
     return value
+end
+
+function PropertyEx:checkFullOrEmptyEvent(attrType,lastValue)
+    local nowValue = self:getValue(attrType)
+    local minValue = 0
+    local maxValue = 0 
+    if attrType == eAttrType.ATTR_NOW_ENERGY then
+        minValue = 0
+        maxValue = self:getValue(eAttrType.ATTR_MAX_ENERGY)
+    end
+    if lastValue < maxValue and nowValue >= maxValue then
+        return AttrFullEvent[attrType] or 0
+    elseif lastValue > minValue and nowValue <= minValue then
+        return AttrEmptyEvent[attrType] or 0
+    end
+    return 0
 end
 
 function PropertyEx:fixAttr(attrType)

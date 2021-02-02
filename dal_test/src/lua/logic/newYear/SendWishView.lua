@@ -75,7 +75,21 @@ function SendWishView:onCloseInputLayer()
 
 end
 
+function SendWishView:updateAfterSend(danmuId)
+
+    print(self.danmuId,danmuId)
+    if self.danmuId ~= danmuId then
+        return
+    end
+    local text = self.TextField_detail:getText()
+    TFDirector:send(c2s.ACTIVITY2_REQ_SEND_SPRING_WITH_TREE,{text})
+    AlertManager:closeLayer(self)
+end
+
 function SendWishView:registerEvents( )
+
+    EventMgr:addEventListener(self, EV_DANMU_AFTER_SEND, handler(self.updateAfterSend, self))
+
 
     self.Button_close:onClick(function()
         AlertManager:closeLayer(self)
@@ -104,11 +118,7 @@ function SendWishView:registerEvents( )
         end
         local text = self.TextField_detail:getText()
         if text ~= "" then
-
             DanmuDataMgr:sendDanmu(self.danmuId, text)
-            TFDirector:send(c2s.ACTIVITY2_REQ_SEND_SPRING_WITH_TREE,{text})
-
-            AlertManager:closeLayer(self)
         else
             Utils:showTips(13205004)
         end

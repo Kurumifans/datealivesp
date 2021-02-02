@@ -154,9 +154,27 @@ function FireFactoryView:initModule()
         module.Image_select = TFDirector:getChildByPath(module,"Image_select"):hide()
         module.Image_select.label = TFDirector:getChildByPath(module.Image_select,"Label_Btn")
         module.Image_select.label:setTextById(cfg.nameTextId)
+        module.Image_updateTip = TFDirector:getChildByPath(module,"Image_updateTip"):hide()
 
         
         table.insert(self.modules, module)
+    end
+
+    self:updateRedPoint()
+end
+
+function FireFactoryView:updateRedPoint()
+    for i, module in ipairs(self.modules) do
+        local itemInfo = module.itemInfo
+        local price = itemInfo.extendData.price
+        local enough = true
+        for itemId, cost in pairs(price) do
+            if GoodsDataMgr:getItemCount(tonumber(itemId)) < cost then
+                enough = false
+                break
+            end
+        end
+        module.Image_updateTip:setVisible(enough)
     end
 end
 
@@ -278,7 +296,7 @@ function FireFactoryView:initMaterial()
         material.Label_num = TFDirector:getChildByPath(material, "Label_num")
         --if i <= 4 then
         local cfg = GoodsDataMgr:getItemCfg(self.defaultMaterial[i])
-        material.Image_Icon:setTexture(cfg.icon)
+        material.Image_Icon:setTexture(cfg.iconShow)
 
         local count = GoodsDataMgr:getItemCount(self.defaultMaterial[i])
         if count > 0 then
@@ -348,6 +366,8 @@ function FireFactoryView:updateMaterialNum()
 
         v.Label_num:setTextById(13202307,count, target)
     end
+
+    self:updateRedPoint()
 end
 
 function FireFactoryView:setupMaterial(itemInfo, needUnload)
@@ -436,7 +456,7 @@ function FireFactoryView:onRespGetReward(actId, entryID, reward)
                 self.Button_Storage:getParent():addChild(item)
                 item:release()
 
-                item:runAction(Sequence:create({Spawn:create({EaseOut:create(MoveTo:create(0.4, self.Button_Storage:getPosition()),0.3), ScaleTo:create(0.5,0.5)}), RemoveSelf:create()}))
+                item:runAction(Sequence:create({Spawn:create({EaseOut:create(MoveTo:create(0.4, self.Button_Storage:getPosition()),0.3), ScaleTo:create(0.5,0.5), RotateTo:create(0.3,-500)}), RemoveSelf:create()}))
             end
         end)
         self:updateMaterialNum()

@@ -40854,7 +40854,7 @@ return {
         musicType = 0,
     },
     [2838] = {
-        action = "SkillD_3",
+        action = "skillD_3",
         cartoonType = 1,
         triggerEvents = {
             [1] = "music0",
@@ -42907,7 +42907,7 @@ return {
         stopJudge = 0,
         name = "凛绪-普攻-语音",
         volume = 120,
-        resource = "Sound/13301/SonoRinne_051_B.mp3",
+        resource = "sound/13301/SonoRinne_051_B.mp3",
         id = 2984,
         musicType = 1,
     },

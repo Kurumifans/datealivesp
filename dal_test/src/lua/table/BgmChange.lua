@@ -491,4 +491,16 @@ return {
         nameId = "SnowDayMemoryLevel",
         bgm = "sound/bgm/kanban/main_qinli_1.mp3",
     },
+    [87] = {
+        id = 87,
+        changeTime = 0,
+        nameId = "FireFactoryView",
+        bgm = "sound/bgm/dafuweng_main.mp3",
+    },
+    [88] = {
+        id = 88,
+        changeTime = 0,
+        nameId = "NianShouChallegeView",
+        bgm = "sound/bgm/dafuweng_main.mp3",
+    },
 }

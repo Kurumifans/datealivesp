@@ -352,10 +352,12 @@ function ZnqPersonInfoView:onClose( ... )
 	local control = WorldRoomDataMgr:getCurControl()
 	if self.selectSkin and self.selectSkin ~= self.actorData.skinCid then
 		control:operateChangeSkin(self.selectSkin)
+		Utils:showTips(13205006)
 	end
 
 	if self.selectEffectId and self.selectEffectId ~= self.actorData.effectId then
 		control:operateChangeEffect(self.selectEffectId)
+		Utils:showTips(13205006)
 	end
 end
 

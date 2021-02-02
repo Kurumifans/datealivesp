@@ -261,10 +261,10 @@ return {
     },
     [2000406] = {
         resource2 = "sound/chunjie/ZhuanZhuan2.mp3",
-        volume2 = 100,
+        volume2 = 65,
         name = "鞭炮",
-        volume3 = 100,
-        volume1 = 100,
+        volume3 = 65,
+        volume1 = 65,
         resource3 = "sound/chunjie/ZhuanZhuan2.mp3",
         resource1 = "sound/chunjie/ZhuanZhuan2.mp3",
         id = 2000406,

@@ -1022,6 +1022,7 @@ E_BA_TI_EX    = 165 ,--霸体扩展
 E_MIANYI_ATTR_DEBUFF   = 166 ,--免疫属性减少debuff
 E_MIANYI_LOSH_HP   = 167 ,--免疫免疫扣血
 E_RELIVE   = 61 ,--复活
+E_MOVE_SPEED_MY   = 168 ,--减速免疫
 
 
 
@@ -1276,6 +1277,8 @@ E_REV_DARK          = 658, --受到暗属性伤害
 E_REV_MIND          = 659, --受到精神伤害
 E_REV_SPACE         = 660, --受到空间伤害
 
+E_ATTR_FULL_56         = 700, --56属性达到最大值
+E_ATTR_EMPTY_56        = 701, --56属性置空时
 
 }
 

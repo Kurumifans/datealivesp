@@ -85,6 +85,9 @@ function DanmuDataMgr:onSendDanmuRsp( event )
 	local index = self.index[data.type] or #self.allDanmuData[data.type]
 	table.insert(self.allDanmuData[data.type],index,{playerName = MainPlayer:getPlayerName(),content = data.content, sendTime = ServerDataMgr:getServerTime(), showType = danmuCfg.selfShowType})
 
+	EventMgr:dispatchEvent(EV_DANMU_AFTER_SEND,data.type)
+
+
 end
 
 function DanmuDataMgr:onRecvDanmuData(event)

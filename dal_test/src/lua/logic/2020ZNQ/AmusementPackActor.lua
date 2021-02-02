@@ -513,7 +513,7 @@ function AmusementPackActor:update( dt, actorData, index)
 		self.updateExDatadt = nil
         local flagData = Utils:getFlagData(self.parmaFlag)
         if flagData and flagData.worldRiddlesData then
-            self:setPosition(ccp(flagData.worldRiddlesData.lox,flagData.worldRiddlesData.loy))
+            self:setPosition3D(flagData.worldRiddlesData.lox, flagData.worldRiddlesData.loy, flagData.worldRiddlesData.loy)
         end 
     end
 end 
@@ -619,6 +619,7 @@ end
 function AmusementPackActor:aiAction( )
 	-- body
 	local actorData = self:getActorData()
+	if not actorData then return end
 	actorData.buildId = nil
 end
 
@@ -1060,6 +1061,8 @@ end
 function AmusementPackActor:removeActor( ... )
 	-- body
 	self:notInBuilding()
+	self.aiModel = nil
+	self.manualAITab = {}
 	if self.skeletonNode then -- 缓存现有spine 备用
 		self:addCacheSpine(self.skeletonNode,self.resPath)
 	end

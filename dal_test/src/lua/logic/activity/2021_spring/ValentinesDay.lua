@@ -199,11 +199,14 @@ function ValentinesDay:updateCell(item, data, idx)
 	end
 	local progress = 0
 	if self.maxVotes == 0 then
-		progress = 0
+		progress = 100
 	else
 		progress = tonumber(data.count) / self.maxVotes * 100
+		if progress < 3 then
+			progress = 3
+		end
 	end
-	local cfg = 
+
 	item.votesPercent:setPercent(progress)
 	item.Label_votes_count:setTextById(15010051, data.count)
 

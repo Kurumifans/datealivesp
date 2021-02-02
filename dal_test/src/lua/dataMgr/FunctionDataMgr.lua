@@ -1692,6 +1692,19 @@ end
 function FunctionDataMgr:openGuessWord2021(data)
     if data and data.type == 1 and not AlertManager:getLayerBySpecialName("GuessWordMainView") then
         Utils:openView("activity.GuessWordMainView", data)
+    else  -- TODO test(存在手机上出现无法打开界面情况)
+        if not data then
+            Utils:showTips("数据下发为空~")
+            return
+        end
+        if data.type ~= 1 then
+            Utils:showTips("非主动请求推送~")
+            return
+        end
+        if AlertManager:getLayerBySpecialName("GuessWordMainView") then
+            Utils:showTips("界面已存在~")
+            return
+        end
     end
 end
 

@@ -25,9 +25,9 @@ function NewspringClothStore:initUI(ui)
 
     EventMgr:addEventListener(self, EV_ACTIVITY_DELETED, function ( activityId, extendData )
         -- body
-        if self.activityId == activityId then
-            AlertManager:closeLayer(self)
-        end
+        -- if self.activityId == activityId then
+        --     AlertManager:closeLayer(self)
+        -- end
     end)
 end
 

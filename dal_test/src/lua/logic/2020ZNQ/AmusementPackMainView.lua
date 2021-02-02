@@ -205,7 +205,7 @@ function AmusementPackMainView:registerEvents( ... )
 
     EventMgr:addEventListener(self, EV_ACTIVITY_DELETED, function ( activityId, extendData )
         -- body
-        if extendData and extendData.isWorldRoom then
+        if extendData and type(actorData) == "table" and extendData.isWorldRoom then
             Utils:showTips(extendData.activityEndTip)
             self:onLeave()
         end
@@ -255,13 +255,11 @@ end
 function AmusementPackMainView:onShow()
     self.super.onShow(self)
 
-    if Utils:getLocalSettingValue("enterWorldRoomFirst") == "" then
+    if Utils:getLocalSettingValue("enterWorldRoomFirst1") == "" and (not DatingDataMgr:triggerDating(self.__cname, "onShow")) and (not DatingDataMgr:getIsDating())  then
         FunctionDataMgr:jPersonInfoBase(4)
-        Utils:setLocalSettingValue("enterWorldRoomFirst","true")
+        Utils:setLocalSettingValue("enterWorldRoomFirst1","true")
         return
     end
-
-    DatingDataMgr:triggerDating(self.__cname, "onShow")
     local currentScene = Public:currentScene();
     if currentScene:getTopLayer() == self then
         SpineCache:getInstance():clearUnused();

@@ -182,7 +182,7 @@ function LoginLayer:initUI(ui)
 	end));
 
     self.Panel_serverList = TFDirector:getChildByPath(ui, "Panel_serverList")
-    self.Panel_serverList:setVisible(GameConfig.Debug)
+    self.Panel_serverList:setVisible(GameConfig.Debug or RELEASE_TEST)
     self.Label_serverName = TFDirector:getChildByPath(self.Panel_serverList, "Label_serverName")
 
     self.gameServerList = TFDirector:getChildByPath(ui, "game_serverList")

@@ -3285,6 +3285,10 @@ function MainLayer:checkPreview()
 end
 
 function MainLayer:checkDayOpenView()
+    --关闭广告页弹出功能
+    if true then
+        return
+    end
     if not ActivityDataMgr2:isAdActivityOpen() then
         return
     end

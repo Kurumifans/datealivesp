@@ -238,7 +238,11 @@ function LockStep.synchronBossState(markID)
         end
     else
         local time = LockStep.gettime()
-        if time - this.synchronBossStateTime > BattleConfig.BOSS_STATE_SYNCHRON_TIME then
+        local limitTime = BattleConfig.BOSS_STATE_SYNCHRON_TIME
+        if battleController.useCustomAttrModle() then
+            limitTime = BattleConfig.BOSS_STATE_SYNCHRON_TIME * 4
+        end
+        if time - this.synchronBossStateTime > limitTime then
             this.synchronBossStateTime =  time
             local enemys = battleController.getEnemyMember()
             for i, enemy in ipairs(enemys) do
@@ -306,7 +310,11 @@ function LockStep.syncAIStepData(markID, lastIdx, cruIdx, params)
         return
     end
     if lastIdx > 0 then
-        this.synchronBossState(markID)
+        if battleController.useCustomAttrModle() then
+
+        else
+            this.synchronBossState(markID)
+        end
     end
     local data = {}
     data[1] = markID

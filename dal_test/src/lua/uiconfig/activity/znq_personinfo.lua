@@ -2352,14 +2352,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "23",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_close",
 											nTextAlign = "1",
@@ -2375,7 +2375,7 @@ local t =
 											{
 												PositionY = -3,
 											},
-											width = "44",
+											width = "49",
 											ZOrder = "1",
 										},
 									},

@@ -6126,7 +6126,7 @@ return {
         result = {
         },
         motionAction_1 = "",
-        audioRange = 500,
+        audioRange = 1000,
         audioId = 8144,
         objectAction = "play10",
         dirFollowObj = false,
@@ -7149,7 +7149,7 @@ return {
         result = {
         },
         motionAction_1 = "animation",
-        audioRange = 500,
+        audioRange = 1000,
         audioId = 8134,
         objectAction = "idle",
         dirFollowObj = false,
@@ -7952,6 +7952,42 @@ return {
         changeModel = {
         },
     },
+    [21039] = {
+        playCond = {
+        },
+        manualAICfgId  = 0,
+        chatText = 0,
+        audioLoop = false,
+        manualDelAICfgId  = 0,
+        finishActionButton = {
+        },
+        chatTexture  = "",
+        recoverModel = false,
+        modelDir = 0,
+        aiDelayTime = 0,
+        result = {
+        },
+        motionAction_1 = "",
+        audioRange = 0,
+        audioId = 0,
+        objectAction = "",
+        dirFollowObj = false,
+        id = 21039,
+        audioRate = 0,
+        motionRecourse_1 = "",
+        speedMulti = 0,
+        motionActIsLoop = false,
+        beStand = false,
+        offSet = {
+        },
+        hideShadow = false,
+        modelScale = 0,
+        objectActIsLoop = false,
+        fullScene = false,
+        changeModel = {
+            actorCfgId = 2036,
+        },
+    },
     [21038] = {
         playCond = {
         },
@@ -8292,7 +8328,7 @@ return {
         result = {
         },
         motionAction_1 = "",
-        audioRange = 500,
+        audioRange = 1000,
         audioId = 8145,
         objectAction = "play11",
         dirFollowObj = false,
@@ -8327,7 +8363,7 @@ return {
         result = {
         },
         motionAction_1 = "",
-        audioRange = 500,
+        audioRange = 1000,
         audioId = 8143,
         objectAction = "play9",
         dirFollowObj = false,
@@ -8362,7 +8398,7 @@ return {
         result = {
         },
         motionAction_1 = "",
-        audioRange = 500,
+        audioRange = 1000,
         audioId = 8142,
         objectAction = "play8",
         dirFollowObj = false,
@@ -8397,7 +8433,7 @@ return {
         result = {
         },
         motionAction_1 = "",
-        audioRange = 500,
+        audioRange = 1000,
         audioId = 8141,
         objectAction = "play7",
         dirFollowObj = false,
