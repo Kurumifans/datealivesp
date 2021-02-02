@@ -42907,7 +42907,7 @@ return {
         stopJudge = 0,
         name = "凛绪-普攻-语音",
         volume = 120,
-        resource = "Sound/13301/SonoRinne_051_B.mp3",
+        resource = "sound/13301/SonoRinne_051_B.mp3",
         id = 2984,
         musicType = 1,
     },
@@ -43346,7 +43346,7 @@ return {
         musicType = 0,
     },
     [3016] = {
-        action = "skillC_daqiu_xiaoshi",
+        action = "skillC_daqiu_xunhuan",
         cartoonType = 2,
         triggerEvents = {
             [1] = "music0",
@@ -43360,7 +43360,7 @@ return {
         musicType = 0,
     },
     [3017] = {
-        action = "skillC_daqiu_xunhuan",
+        action = "skillC_daqiu_xiaoshi",
         cartoonType = 2,
         triggerEvents = {
             [1] = "music0",

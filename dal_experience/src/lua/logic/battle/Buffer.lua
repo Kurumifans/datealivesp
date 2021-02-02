@@ -404,6 +404,18 @@ function Buffer:triggerOnce(takeObj,data)
             end
         end
 
+        if self.data.statestrike and #self.data.statestrike > 0 then
+            for i,state in ipairs(self.data.statestrike) do
+                if takeObj:isAState(state) then
+                    return
+                end
+            end
+        end
+
+        if not self:checkAttrChangeState(takeObj,data) then
+            return
+        end
+
         if not self:checkEffectCondition(takeObj,data) then
             return
         end
@@ -481,6 +493,17 @@ function Buffer:triggerOnce(takeObj,data)
         end
     -- end
     self.effectNode = nil
+end
+
+function Buffer:checkAttrChangeState(takeObj,data)
+    if data.attributeGrow and data.attributeGrow > 0 then
+        if data.attributeGrow == eAttrType.ATTR_MOVE_SPEED then
+            if takeObj:isAState(eAState.E_MOVE_SPEED_MY) then
+                return false
+            end
+        end
+    end
+    return true
 end
 
 function Buffer:checkEffectCondition(takeObj,data)

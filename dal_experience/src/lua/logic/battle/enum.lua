@@ -1008,6 +1008,7 @@ E_BA_TI_EX    = 165 ,--霸体扩展
 E_MIANYI_ATTR_DEBUFF   = 166 ,--免疫属性减少debuff
 E_MIANYI_LOSH_HP   = 167 ,--免疫免疫扣血
 E_RELIVE   = 61 ,--复活
+E_MOVE_SPEED_MY   = 168 ,--减速免疫
 
 
 

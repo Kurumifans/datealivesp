@@ -3251,6 +3251,12 @@ function Hero:changeValue(attrType,value)
                 return
             end
         end
+    elseif attrType == eAttrType.ATTR_MOVE_SPEED then
+        if value < 0 then
+            if self:isAState(eAState.E_MOVE_SPEED_MY) then
+                return
+            end
+        end
     elseif attrType == eAttrType.ATTR_NOW_ENERGY then
         if value < 0 then
             if self:isFlag(eFlag.SUPER_SKILL) then
