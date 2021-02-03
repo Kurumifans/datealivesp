@@ -11342,7 +11342,7 @@ return {
         skinSettingTitle = 0,
         accessId = {
         },
-        icon = "icon/role/dress_kanban/10307.png",
+        icon = "icon/role/dress_kanban/10306.png",
     },
     [411106] = {
         superType = 4,

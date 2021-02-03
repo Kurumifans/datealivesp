@@ -1332,6 +1332,19 @@ function BFEffect:_triggerNewEffects(effectId)
     end
 end
 
+function BFEffect:checkAttrChangeState(takeObj,data)
+    if data.attributeGrow and data.attributeGrow > 0 and (data.effectNum < 0 or data.ratio < 0) then
+        if data.statestrike and #data.statestrike > 0 then
+            for i,state in ipairs(data.statestrike) do
+                if takeObj:isAState(state) then
+                    return false
+                end
+            end
+        end
+    end
+    return true
+end
+
 function BFEffect:_triggerNewEffect(data,takeObj)
     --免疫负面效果
     if takeObj:isAState(eAState.E_MIANYI_DBUFF) then
@@ -1345,6 +1358,11 @@ function BFEffect:_triggerNewEffect(data,takeObj)
         if data.attrDebuff then
             return
         end
+    end
+
+    --受目标状态影响
+    if not self:checkAttrChangeState(takeObj,data) then
+        return
     end
 
     if not self:checkEffectCondition(takeObj, data) then

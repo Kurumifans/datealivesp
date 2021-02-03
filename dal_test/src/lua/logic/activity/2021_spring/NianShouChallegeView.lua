@@ -180,7 +180,7 @@ function NianShouChallegeView:registerEvents()
 				selLevelCfg.type = selLevelCfg.type or 1
 				TeamFightDataMgr:requestCreateTeam(selLevelCfg.type, selLevelCfg.id,visibleType,limitLv,isAutoMatch)
 			end
-			Utils:openView("teamFight.TeamRoomSettingView",true,self.levelCfg.type,callback)
+			Utils:openView("teamFight.TeamRoomSettingView",true,self.levelCfg.type,callback,self.levelCfg.lvlLimit)
 		end
 	end)
 

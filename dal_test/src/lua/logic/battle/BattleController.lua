@@ -2120,8 +2120,7 @@ function battleController.getCustomSkills(skills, hero)
                 local skillCfg = BattleDataMgr:getSkillData(id)
                 if skillCfg.skillType  ==  eSkillType.DODGE 
                     or skillCfg.skillType  ==  eSkillType.DOWN
-                    or skillCfg.skillType  ==  eSkillType.STANDUP
-                    or skillCfg.skillType  ==  eSkillType.ENTER then
+                    or skillCfg.skillType  ==  eSkillType.STANDUP then
                     table.insert(realSkills,id)
                 end
             end

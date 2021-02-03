@@ -3,7 +3,7 @@ return {
         incrItemId = 500004,
         id = 1,
         incrCount  = 3,
-        endTime = "2021-10-25 00:00:00",
+        endTime = "2018-10-25 00:00:00",
         interval  = 86400,
         initInterval  = 0,
         incrMax  = 10,

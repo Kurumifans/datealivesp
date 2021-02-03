@@ -215,6 +215,7 @@ function AmusementPackMainView:registerEvents( ... )
         -- body
         self.rokerPanel:setVisible(show)
     end)
+    EventMgr:addEventListener(self, EV_RIDDLE_GET_QUESDATA, handler(self.openGuessWord2021, self))
 
 end
 
@@ -623,6 +624,12 @@ function AmusementPackMainView:checkMessageShow(  )
         strTime = string.format("%.2d:%.2d",min,sec)
     end
     Label_message:setTextById("r"..textId,strTime)
+end
+
+function AmusementPackMainView:openGuessWord2021(data)
+    if data and data.type == 1 and not AlertManager:getLayerBySpecialName("GuessWordMainView") then
+        Utils:openView("activity.GuessWordMainView", data)
+    end
 end
 
 return AmusementPackMainView

@@ -1366,7 +1366,7 @@ return {
     [3104] = {
         chapterDescribe = 0,
         nameEn = "",
-        unlockLevel = 20,
+        unlockLevel = 2,
         order = 1,
         openTime = 1612368000000,
         openTime2 = 1612368000000,
@@ -1381,7 +1381,7 @@ return {
         chapterBuffHint = 0,
         video = 0,
         endWord = "",
-        name = "16000645",
+        name = "16000682",
         pictureIcon = "",
         lockedTip = 0,
         unlockHero = 0,

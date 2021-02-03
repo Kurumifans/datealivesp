@@ -4133,7 +4133,7 @@ return {
     [8315] = {
         resIcon = "",
         heroChapter = 0,
-        unlockLevel = 20,
+        unlockLevel = 2,
         order = 1,
         activityDsc = "",
         preDungeonId = {

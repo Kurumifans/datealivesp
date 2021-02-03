@@ -798,10 +798,15 @@ end
 --播放特效
 function AmusementPackActor:playEffect(effectName, followDir, effectScale, isLoop, actionName, fullScene,callFunc)
 	local showOtherEffect = SettingDataMgr:getWorldShowEffect()
-	if not self:isMainHero() and not showOtherEffect then
+	if (not self:isMainHero() and not showOtherEffect) 
+		or (self.ishide and not fullScene ) then
+		if callFunc then
+			callFunc()
+		end
 		return
 	end
 
+	
 	local skeletonNode = self.staticEffect
 	local recoverAni = false
 	if effectName ~= "all" then
@@ -1111,6 +1116,7 @@ function AmusementPackActor:hideSelf( show )
 	if self.ghostNode then
 		self.ghostNode:setVisible(not show)
 	end
+	self.ishide = not show
 end
 
 return AmusementPackActor 

@@ -164,6 +164,9 @@ function NewyearTaskView:initCell(item, taskId)
     item.Button_get = TFDirector:getChildByPath(item, "Button_get")
 
     item.Label_finish = TFDirector:getChildByPath(item, "Label_finish")
+    item.pos_1 = TFDirector:getChildByPath(item, "pos_1"):getPosition()
+    item.pos_2 = TFDirector:getChildByPath(item, "pos_2"):getPosition()
+    item.pos_3 = TFDirector:getChildByPath(item, "pos_3"):getPosition()
 end
 
 function NewyearTaskView:updateCell(item, taskId, idx)
@@ -174,7 +177,7 @@ function NewyearTaskView:updateCell(item, taskId, idx)
     end
     dump(itemInfo)
     for i=1,3 do
-        local child = TFDirector:getChildByPath(item, "Image_reward_"..i)
+        local child = TFDirector:getChildByPath(item, "Image_reward_"..i):hide()
         if child then
             child:removeAllChildren()
         end
@@ -184,16 +187,23 @@ function NewyearTaskView:updateCell(item, taskId, idx)
     local progressInfo = ActivityDataMgr2:getProgressInfo(self.activityData.activityType, taskId)
 
     local rewards = itemInfo.reward
+    local rewardCnt = table.count(rewards)
     local i = 1
     for k,v in pairs(rewards) do
         item["Image_reward_"..i] = TFDirector:getChildByPath(item, "Image_reward_"..i)
         if item["Image_reward_"..i] then
+            item["Image_reward_"..i]:show()
             item["Image_reward_"..i]:removeAllChildren()
             local rewardItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
             rewardItem:setPosition(ccp(0,0))
             rewardItem:setScale(0.7)
             PrefabDataMgr:setInfo(rewardItem, tonumber(k), v)
-            item["Image_reward_"..i]:addChild(rewardItem)
+            item["Image_reward_"..i]:addChild(rewardItem)            
+            
+            if rewardCnt < 3 then
+                item["Image_reward_"..i]:setPosition(item["pos_"..(i - 1 + rewardCnt)])
+            end
+
             i = i + 1
         end
     end

@@ -1641,7 +1641,7 @@ return {
         itemTemplateId = {
             [1] = 113301,
         },
-        classifyOrder = 90,
+        classifyOrder = 10006,
         fontcolor = "",
         classify = 1,
     },
@@ -5783,7 +5783,7 @@ return {
         itemTemplateId = {
             [1] = 113301,
         },
-        classifyOrder = 89,
+        classifyOrder = 10005,
         fontcolor = "",
         classify = 1,
     },

@@ -294,7 +294,7 @@ function Hero:getCallHeros()
         end
     end
     table.sort(result,function ( a,b )
-        return a.nBornTime > b.nBornTime
+        return a.nBornTime < b.nBornTime
     end)
     return result
 end

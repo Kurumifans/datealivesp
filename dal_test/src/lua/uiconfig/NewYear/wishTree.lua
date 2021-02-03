@@ -66,7 +66,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 480,
-						PositionY = 360,
+						PositionY = 359,
 						IsPercent = true,
 						PercentX = 50,
 						PercentY = 50,
@@ -184,8 +184,8 @@ local t =
 							ZOrder = "1",
 						},
 						{
-							controlID = "Panel_cg_Panel_base_Panel-wishTree_Layer1_NewYear_Game",
-							UUID = "582c0892_8b27_45ed_b4f6_64a03ea254b3",
+							controlID = "Panel_mask_Panel_base_Panel-wishTree_Layer1_NewYear_Game",
+							UUID = "ee39284d_9d9f_4a4f_be52_1d5e6dbef323",
 							anchorPoint = "False",
 							anchorPointX = "0",
 							anchorPointY = "0",
@@ -198,9 +198,9 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "382",
+							height = "380",
 							ignoreSize = "False",
-							name = "Panel_cg",
+							name = "Panel_mask",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -208,15 +208,107 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 78,
-								PositionY = 114,
+								PositionX = 149,
+								PositionY = 116,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "990",
+							width = "862",
+							ZOrder = "1",
+							components = 
+							{
+								
+								{
+									controlID = "Panel_cg_Panel_mask_Panel_base_Panel-wishTree_Layer1_NewYear_Game",
+									UUID = "582c0892_8b27_45ed_b4f6_64a03ea254b3",
+									anchorPoint = "False",
+									anchorPointX = "0",
+									anchorPointY = "0",
+									backGroundScale9Enable = "False",
+									bgColorOpacity = "50",
+									bIsOpenClipping = "True",
+									classname = "MEPanel",
+									colorType = "0;SingleColor:#FFFF0000;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+									DesignHeight = "640",
+									DesignType = "0",
+									DesignWidth = "960",
+									dstBlendFunc = "771",
+									height = "425",
+									ignoreSize = "False",
+									name = "Panel_cg",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										PositionY = -41,
+									},
+									uipanelviewmodel = 
+									{
+										Layout="Absolute",
+										nType = "0"
+									},
+									width = "862",
+									ZOrder = "1",
+								},
+							},
+						},
+						{
+							controlID = "da8c486b-a465-44e0-a2de-5f3530d6be0b",
+							UUID = "9cefdd0d_b6d5_4aa9_b216_722e858c33e3",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							height = "384",
+							ignoreSize = "True",
+							name = "Image_wishTree_1",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							texturePath = "ui/newyear/wishtree/011.png",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 116,
+								PositionY = 307,
+							},
+							width = "86",
+							ZOrder = "1",
+						},
+						{
+							controlID = "7bc573c4-fc7e-47e5-b4b6-658f84a779ee",
+							UUID = "182d783a_3aa5_4329_976e_b6f25968a362",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							classname = "MEImage",
+							dstBlendFunc = "771",
+							flipX = "True",
+							height = "384",
+							ignoreSize = "True",
+							name = "Image_wishTree_1-Copy1",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							texturePath = "ui/newyear/wishtree/011.png",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 1028,
+								PositionY = 307,
+							},
+							width = "86",
 							ZOrder = "1",
 						},
 						{
@@ -898,6 +990,7 @@ local t =
 		{
 			"ui/activity/znq_yly/Image_mark.png",
 			"ui/newyear/build/bg.png",
+			"ui/newyear/wishtree/011.png",
 			"ui/newyear/build/dress1.png",
 			"ui/newyear/build/004.png",
 			"ui/newyear/wishtree/001.png",
