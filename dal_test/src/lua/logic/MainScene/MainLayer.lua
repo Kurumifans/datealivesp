@@ -1332,9 +1332,9 @@ end
 
 function MainLayer:onChatViewForceClose()
     if self.chatView and not self.chatView.closeState then
-        self:resetLive2dPos()
         self.chatView.closeState = nil
         self.chatView = nil
+        self:onChatViewClose()
     end
 end
 
@@ -2772,6 +2772,7 @@ function MainLayer:onShow()
 
     self:onUpdateServerGiftRedPoint()
 
+    RoleSwitchDataMgr:setSwitchAnimateState(false)
 
     --请求回收过期物品
     local currentScene = Public:currentScene()
@@ -4026,18 +4027,21 @@ end
 function MainLayer:onWebViewUrlBack(msg)
     local url = msg or ""
     print("onWebViewUrlBack========================= "..url)
-    local funcID
+    local funcID,params
     local pStart,pEnd = string.find(url,"gofun/")
-    local pramStart,pramEnd = string.find(url,"?")
+    local pramStart,pramEnd = string.find(url,"?id=")
     if pStart and pramStart then
         funcID = string.sub(url,pEnd + 1,pramStart - 1)
+        params = string.sub(url,pramEnd + 1)
     elseif pStart and not pramStart then
         funcID = string.sub(url,pEnd + 1)
     end
-    
+    if params then
+        params = tonumber(params)
+    end
     --跳转
     if funcID then
-        FunctionDataMgr:enterByFuncId(tonumber(funcID))
+        FunctionDataMgr:enterByFuncId(tonumber(funcID),params)
     end
 end
 function MainLayer:checkfestivalInfoUIShow()

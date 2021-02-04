@@ -5135,7 +5135,7 @@ return {
             trigger = false,
             param = 0,
         },
-        role = 131,
+        role = 133,
         callReplenish = 1,
         expitem = {
             [1] = 510101,

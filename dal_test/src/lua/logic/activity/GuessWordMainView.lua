@@ -66,6 +66,8 @@ end
 
 function GuessWordMainView:refrehUIView(data)
     self.keepData = data
+
+    self._ui.lab_lastCanGetAward:setTextById(800005, ActivityDataMgr2:getGuessWorldLeftRewardCountKeep(), self.activityInfo_.extendData.reward)
     if data.type == 1 then
         -- 用于最后收到数据没有题目不再刷新界面 
         if self.lastData and self.lastData.id == self.keepData.id then
@@ -121,7 +123,6 @@ function GuessWordMainView:refrehUIView(data)
     end
 
     self._ui.lab_answerSum:setText(data.leftRiddleCount)
-    self._ui.lab_lastCanGetAward:setTextById(800005, data.leftRewardCount, self.activityInfo_.extendData.reward)
     self._ui.lab_titleDesc:setTextById(cfg.name)
     self._ui.lab_titleDesc:setLineHeight(45)
     self._ui.Panel_award:setVisible(data.leftRewardCount > 0)

@@ -1484,7 +1484,6 @@ end
 
 --结束战斗
 function battleController.endBattle(bWin)
-    printError("endBattle")
     if this.isZLJH() or this.isWorldBossFour() then 
         bWin = true
     end

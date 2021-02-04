@@ -2943,7 +2943,6 @@ function Hero:update(time)
     if not self:isBattle() then
         self:clearFlag(eFlag.HITED)
         if self:isDead() then
-            battleController.synchronHp(self)
             self:onEventTrigger(eBFState.E_DEAD,self)
             if self:isAState(eAState.E_RELIVE) then
                 self:clearAState(eAState.E_RELIVE)
@@ -2976,7 +2975,6 @@ function Hero:update(time)
     end
     --死亡
     if self:isDead() then
-        battleController.synchronHp(self)
         if not self:isFlag(eFlag.Dead) then
             self:setFlag(eFlag.Dead)
             --清理负面状态

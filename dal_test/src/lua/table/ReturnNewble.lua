@@ -469,7 +469,7 @@ return {
         weight = 11,
         status = 2,
         titleIcon = "ui/activity/picture/icon235.png",
-        details = "{\"dayTime\":14,\"level\":30,\"beginTime\":\"2021-02-05 00:00:00\",\"endTime\":\"2021-03-09 23:59:59\"}",
+        details = "{\"dayTime\":14,\"level\":30,\"beginTime\":\"2021-02-04 00:00:00\",\"endTime\":\"2021-03-09 23:59:59\"}",
         type = 1021,
     },
     [120009] = {

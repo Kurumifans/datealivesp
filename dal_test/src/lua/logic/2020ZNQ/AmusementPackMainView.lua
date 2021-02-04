@@ -49,6 +49,7 @@ function AmusementPackMainView:initUI(ui)
     self.Button_emoji = TFDirector:getChildByPath(self.uiPanel, "Button_emoji")
 
     self.Panel_emoji = TFDirector:getChildByPath(self.uiPanel, "Panel_emoji"):hide()
+    self.Panel_emoji_block = TFDirector:getChildByPath(self.Panel_emoji, "Panel_block")
 
     self.Panel_miniMap = TFDirector:getChildByPath(self.uiPanel, "Panel_miniMap")
 
@@ -169,6 +170,11 @@ function AmusementPackMainView:registerEvents( ... )
         -- body
         self.showPage = 1
         self:updateEmojiPanel()
+    end)
+
+    self.Panel_emoji_block:onClick(function ( ... )
+        -- body
+        self.Panel_emoji:hide()
     end)
 
     self.Button_ani_n:onClick(function ( ... )

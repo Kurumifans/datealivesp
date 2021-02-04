@@ -3581,6 +3581,7 @@ end
 function ActivityDataMgr:onRecvRiddleData(event)
     local data = event.data
     if not data then return end
+    self.leftRewardCountKeep = data.leftRewardCount -- 奖励次数
     if data.id == 0 then
         if not AlertManager:getLayerBySpecialName("GuessWordMainView") then
             Utils:showTips(17000000)
@@ -3596,5 +3597,8 @@ function ActivityDataMgr:onRecvRiddleAwarsInfo(event)
     EventMgr:dispatchEvent(EV_RIDDLE_ANSAWE_AWARD, data)
 end
 
+function ActivityDataMgr:getGuessWorldLeftRewardCountKeep()
+    return self.leftRewardCountKeep or 0
+end
 
 return ActivityDataMgr:new()

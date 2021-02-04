@@ -2101,15 +2101,15 @@ return {
     },
     [410125] = {
         offset = {
-            y = 16,
-            x = -1,
+            y = 13,
+            x = 0,
         },
         path = "effect/dating/ui_superKanban_10125/main_effect_yanhua",
         action = "animation",
         isLoop = false,
         id = 410125,
         particle = "",
-        lag = 0,
+        lag = 1.3,
         scales = 1,
         isDelete = true,
         speBg = "",

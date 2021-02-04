@@ -254,7 +254,6 @@ end
 
 --请求追猎计划信息 TODO
 function LeagueDataMgr:ReqHuntingDungeonInfo()
-    printError("请求追猎计划信息")
     -- Box("请求追猎计划信息")
     TFDirector:send(c2s.HUNTING_DUNGEON_REQ_HUNTING_DUNGEON_INFO, {})
 end

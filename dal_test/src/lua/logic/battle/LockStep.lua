@@ -625,7 +625,6 @@ end
 
 --关闭连接
 function LockStep.closeUDP()
-    printError("LockStep.closeUDP")
     if this.tb_heartbeat_timer then
         TFDirector:removeTimer(this.tb_heartbeat_timer)
         this.tb_heartbeat_timer = nil

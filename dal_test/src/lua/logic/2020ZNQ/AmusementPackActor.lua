@@ -46,6 +46,7 @@ local ActorStateType = {
 		MOVE = 3,
 		SILENCE = 4,
 		ACTIVE = 5,
+		INIT = 6,
 	}
 
 local ActorEventName = {
@@ -54,6 +55,7 @@ local ActorEventName = {
 		MOVE = "MOVE",
 		SILENCE = "SILENCE",
 		ACTIVE = "ACTIVE",
+		INIT = "INIT",
 	}
 
 local eAnimation = {
@@ -64,8 +66,9 @@ local eAnimation = {
 function AmusementPackActor:ctor( data )
 	-- body
 	local events = {
-			{name = ActorEventName.BORN, from = {ActorStateType.STAND}, to = ActorStateType.BORN},
-			{name = ActorEventName.STAND, from = {"*"}, to = ActorStateType.STAND},
+			{name = ActorEventName.INIT, from = {"*"}, to = ActorStateType.INIT},
+			{name = ActorEventName.BORN, from = {ActorStateType.INIT}, to = ActorStateType.BORN},
+			{name = ActorEventName.STAND, from = {ActorStateType.INIT, ActorStateType.BORN, ActorStateType.MOVE, ActorStateType.ACTIVE}, to = ActorStateType.STAND},
 			{name = ActorEventName.MOVE, from = {ActorStateType.BORN, ActorStateType.STAND, ActorStateType.MOVE}, to = ActorStateType.MOVE},
 			{name = ActorEventName.SILENCE, from = {ActorStateType.STAND, ActorStateType.MOVE,ActorStateType.ACTIVE}, to = ActorStateType.SILENCE},
 			{name = ActorEventName.ACTIVE, from = {ActorStateType.SILENCE}, to = ActorStateType.ACTIVE},
@@ -73,10 +76,11 @@ function AmusementPackActor:ctor( data )
 
 	local initial = {
 			event = "initEvent",
-			state = ActorStateType.STAND,
+			state = ActorStateType.INIT,
 			defer = true
 		}
 	self.super.ctor(self, data, events, initial)
+	self:addFSMAfterEvents(ActorStateType.INIT, handler(self.initState,self))
 	self:addFSMAfterEvents(ActorStateType.BORN, handler(self.playBorn,self))
 	self:addFSMAfterEvents(ActorStateType.STAND, handler(self.playStand,self))
 	self:addFSMAfterEvents(ActorStateType.MOVE, handler(self.playMove,self))
@@ -85,8 +89,12 @@ function AmusementPackActor:ctor( data )
 
 	self:addFSMLeaveEvents(ActorStateType.MOVE, handler(self.leaveMove,self))
 
-	self:doEvent("initEvent")
 	self:createActor(data)
+	self:doEvent("initEvent")
+end
+
+function AmusementPackActor:initState( ... )
+	-- body
 end
 
 function AmusementPackActor:createActor( actorData )
@@ -169,6 +177,7 @@ function AmusementPackActor:createHero( actorData )
 	local heroUI = TFDirector:getChildByPath(prefabe, "Panel_player"):clone()
 
 	
+	self.isCameraScale = false
 	self.lable_name = TFDirector:getChildByPath(heroUI,"lable_name")
 	self.lable_name:setText(actorData.pname)
 
@@ -905,6 +914,7 @@ function AmusementPackActor:updateShowNode( actorData )
 	self.ghostNode = nil
 	self.lable_name = nil
 	self:createActor(actorData)
+	self:doEvent(ActorEventName.ACTIVE)
 	self:setCameraMask(self:getCameraMask())
 	if self:isMainHero() then
 		local control = WorldRoomDataMgr:getCurControl()
