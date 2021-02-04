@@ -191,7 +191,7 @@ function AmusementPackControl:enterScene( ... )
     AlertManager:changeScene(SceneType.AmusementPack)
 end
 
-function AmusementPackControl:checkCondition( cond )
+function AmusementPackControl:checkCondition( cond, ... )
 	-- body
 	-- todo 后续完成逻辑
     local isFix = true
@@ -205,13 +205,13 @@ function AmusementPackControl:checkCondition( cond )
             if WorldRoomDataMgr.roomType ~= v then
                 isFix = false
             end
-        elseif k == "flag" and not Utils:checkFlagIsEnable(v) then
+        elseif k == "flag" and not Utils:checkFlagIsEnable(v, ...) then
             isFix = false
-        elseif k == "notflag" and Utils:checkFlagIsEnable(v) then
+        elseif k == "notflag" and Utils:checkFlagIsEnable(v, ...) then
             isFix = false
         elseif k == "flags" then
             for _k,_v in pairs(v) do
-                if not Utils:checkFlagIsEnable(_v) then
+                if not Utils:checkFlagIsEnable(_v, ...) then
                     isFix = false
                     break
                 end
@@ -219,7 +219,7 @@ function AmusementPackControl:checkCondition( cond )
         elseif k == "orFlags" then
             local re = false
             for _k,_v in pairs(v) do
-                if Utils:checkFlagIsEnable(_v) then
+                if Utils:checkFlagIsEnable(_v, ...) then
                     re = true
                     break
                 end
@@ -229,7 +229,7 @@ function AmusementPackControl:checkCondition( cond )
             end
         elseif k == "notflags" then
             for _k,_v in pairs(v) do
-                if Utils:checkFlagIsEnable(_v) then
+                if Utils:checkFlagIsEnable(_v, ...) then
                     isFix = false
                     break
                 end

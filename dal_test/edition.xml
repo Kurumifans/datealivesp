@@ -1,53 +1,68 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.3.98" lastVersion="3.3.96">
-  <f p=".nomedia/nomedia.txt" m="441ddb1f2d7978cedf6a170c04ada00e" c="0" />
-  <f p="res/basic/citymap/world/object/Decrypt/zhaopai.png" m="38f9c7a5e6a2545c05452f9af5602267" c="0" />
-  <f p="res/basic/effect/fight_13301/fight_13301.skel" m="eb5b76be8db388c1a82e607eadba70a0" c="0" />
-  <f p="res/basic/effect/fight_30601/fight_30601.json" m="d029a33571b293b7fd7a7aa24533417e" c="0" />
-  <f p="res/basic/effect/fight_30601/fight_30601.png" m="bc2a89a63293a6ac164022420a050357" c="0" />
-  <f p="res/basic/effect/fight_30601/fight_306012.png" m="d903162340bbadcfd196aba6b9a6fbdb" c="0" />
-  <f p="res/basic/icon/role/dress_kanban/10307.png" m="10834fa3a761f211119aaa499df9b060" c="0" />
-  <f p="res/basic/modle/bust/sounds/KURUMI_67_B.mp3" m="820004a11d95a1713ae53dae5da567c1" c="0" />
-  <f p="src/lua/dataMgr/FunctionDataMgr.lua" m="085a6bd4214647ec02da24b3b185e340" c="0" />
-  <f p="src/lua/logic/2020ZNQ/AmusementPackActor.lua" m="2fcb50a01901088dd5eb1e48f7d2ac85" c="0" />
-  <f p="src/lua/logic/2020ZNQ/AmusementPackMainView.lua" m="94706a2d245efd4694e6e9236a42bd59" c="0" />
-  <f p="src/lua/logic/activity/2021_spring/NewyearTaskView.lua" m="2fca062694031c29a4de9e70286c1e4e" c="0" />
-  <f p="src/lua/logic/activity/2021_spring/NianShouChallegeView.lua" m="9b3b27e8eb7d8cbe1b0fc95eef19b4d0" c="0" />
-  <f p="src/lua/logic/battle/BattleController.lua" m="2733fbe601bed02ce40a65c2e190419c" c="0" />
-  <f p="src/lua/logic/battle/BattleUtils.lua" m="f6b202faa4fe4ba8a9ab6f30bb43a40f" c="0" />
-  <f p="src/lua/logic/battle/BFEffect.lua" m="d7b59d490244a07bdfc5b46d9355d7c1" c="0" />
-  <f p="src/lua/logic/battle/Buffer.lua" m="064be815f84986a24f0221a1b2064d97" c="0" />
-  <f p="src/lua/logic/battle/Hero.lua" m="431197fbd245d7e506b3821c5fd8afe8" c="0" />
-  <f p="src/lua/logic/teamFight/TeamRoomSettingView.lua" m="0302af80f6b98ea7427ac8d8afff9a11" c="0" />
-  <f p="src/lua/table/AngelSkillTree.lua" m="061a6912b4bfb3a1375ac1046d6a7bc1" c="0" />
-  <f p="src/lua/table/AutoIncrItem.lua" m="5c39f1ce63a27a1f8f96e0ecd11fc9a5" c="0" />
-  <f p="src/lua/table/BgmChange.lua" m="162c2e63da635cd2964fba7acc1993ba" c="0" />
-  <f p="src/lua/table/Buffer.lua" m="82afcb3e699e1ac61d42dc9640e502dd" c="0" />
-  <f p="src/lua/table/BufferEffect.lua" m="0111f316436d9b22549573a72b9d8714" c="0" />
-  <f p="src/lua/table/DiscreteData.lua" m="2cc80280187b6cdf221ecb839856f838" c="0" />
-  <f p="src/lua/table/Dress.lua" m="92ebac03676308af3296f1e8dbcf14f8" c="0" />
-  <f p="src/lua/table/DungeonChapter.lua" m="e0e5277cdb2e604ab64b51e2d8a8038b" c="0" />
-  <f p="src/lua/table/DungeonLevel.lua" m="d0c6291cf03d04de66665e0b5f4dd078" c="0" />
-  <f p="src/lua/table/DungeonLevelGroup.lua" m="0b0775697cc8dbfdebb747b0dcd8cc89" c="0" />
-  <f p="src/lua/table/EquipmentRecommend.lua" m="4a4f13732fe09f4da730b0288025ebc8" c="0" />
-  <f p="src/lua/table/Flags.lua" m="a18c99d309fe41f597ea24fd2be8a045" c="0" />
-  <f p="src/lua/table/Function.lua" m="4b293baebdbb03c2b5e2afeb96e3b591" c="0" />
-  <f p="src/lua/table/Monster.lua" m="cb2222fd54dfc4859ab506f5bc5fbc16" c="0" />
-  <f p="src/lua/table/MonsterLevel.lua" m="acf9672fc419044e3a63914faa60caa6" c="0" />
-  <f p="src/lua/table/MonsterSection.lua" m="e2aaa33210d45eecaf2486e2434d88d2" c="0" />
-  <f p="src/lua/table/NewYearBeast2021.lua" m="5433b493d55e2e813f370056a614f857" c="0" />
-  <f p="src/lua/table/PassiveSkills.lua" m="791c0707135ad540a5e063b68d1c55e2" c="0" />
-  <f p="src/lua/table/Portrait.lua" m="6c1db889bb45ff5129730cb76965cd3f" c="0" />
-  <f p="src/lua/table/RoleDescribe.lua" m="1f60a427f82a9dbdf259d8a7fd2efe7f" c="0" />
-  <f p="src/lua/table/Skill.lua" m="64b6d860f178386e7326ebdbd1e1f828" c="0" />
-  <f p="src/lua/table/SkillEffect.lua" m="9ee67bb8a3ef7c8a21aa56059948cf88" c="0" />
-  <f p="src/lua/table/SkillHurt.lua" m="399e3e439f11e826271378cbe3d01c49" c="0" />
-  <f p="src/lua/table/Stone.lua" m="87c31cfd076db4afa577fad8f18e8ee8" c="0" />
-  <f p="src/lua/table/String.lua" m="a5b2b34c5b7afe7b7d00e0d716572cc7" c="0" />
-  <f p="src/lua/table/Uichange.lua" m="c9838e26fe57edb2180f10985f4255c8" c="0" />
-  <f p="src/lua/table/WorldObjectAIscript.lua" m="7280e32dbe6b660c8d46f77fd306ec41" c="0" />
-  <f p="src/lua/uiconfig/activity/newspringTaskView.lua" m="76a9c794a270edd154a3b67b15a470a1" c="0" />
-  <f p="src/lua/uiconfig/NewYear/wishTree.lua" m="e292ec1729936b805763e0063edd82db" c="0" />
-  <f p="res/basic/icon/role/dress_kanban/10306.png" m="400d98cf4bffe38c3a6f83373aca7ef5" />
-  <f p="res/basic/ui/newyear/wishtree/011.png" m="a7b7f8bc6902e0b719d8ff1e7301b6bf" />
+<files version="3.3.99" lastVersion="3.3.98">
+  <f p=".nomedia/nomedia.txt" m="60b04fe1b474617d7f73beb4a688a0b8" c="0" />
+  <f p="res/basic/icon/angleskill/13301_icon1.png" m="ab42ea2ebe4e15858a740216b2c3d1d0" c="0" />
+  <f p="res/basic/icon/angleskill/13301_icon11.png" m="8d62a17e88c5d1d23c91b94133a63d6a" c="0" />
+  <f p="res/basic/icon/angleskill/13301_icon12.png" m="ac9ad529da22061b37fcca0b08b15c7f" c="0" />
+  <f p="res/basic/icon/angleskill/13301_icon13.png" m="19fbc6e22d5d7deebc27f85b2ed7bb10" c="0" />
+  <f p="res/basic/icon/angleskill/13301_icon2.png" m="a4dcbc3b59de0bb8b2b7dae53d3396c7" c="0" />
+  <f p="res/basic/icon/angleskill/13301_icon8.png" m="bc91d3114b9cedbdd6edee9b651cafb9" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_051_B.mp3" m="a95c85de8ca1d8a5539b4004b0f088ba" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_052_B.mp3" m="b2cd8b23f6009b86ef44927824224d8a" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_053_B.mp3" m="e5b045e7ec2124b2f9a6c6fdfab62232" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_054_B.mp3" m="99f670b720c81d741aa8d31874d5fb21" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_055_B.mp3" m="a9c4be05f261354374a744d73497fc11" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_056_B.mp3" m="06b3a6de685957457a825ea90c7cea6c" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_057_B.mp3" m="af674da67cf4df5cba3b505563bba33c" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_058_B.mp3" m="e2f49997f4bbc267098cfb69f314d5f4" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_059_B.mp3" m="13946ef9702845115992a6cc516d0ad5" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_060_B.mp3" m="263307db11d5bf8e614d2d4189eb8be3" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_061_B.mp3" m="4d8283d3a73232c088a99cea152d9ed7" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_062_B.mp3" m="420cc9ddebaa5367d0626302ecfebfc5" c="0" />
+  <f p="res/basic/sound/13301/SonoRinne_063_B.mp3" m="a0dd6de2769d94626264e3ccac27f843" c="0" />
+  <f p="src/lua/logic/2020ZNQ/AmusementPackControl.lua" m="1a124242d0b9e608844ae87e08fb8fcf" c="0" />
+  <f p="src/lua/logic/activity/2021_spring/ValentinesDay.lua" m="7149520457e63586e7d83b858332b7b2" c="0" />
+  <f p="src/lua/logic/Equipment/EquipmentInfo.lua" m="44e7620c48f3ba503cacbd4f75abda6a" c="0" />
+  <f p="src/lua/logic/singleWorldScene/SingleAIBehave.lua" m="011ca1349b2f767c4618bebf8443d51d" c="0" />
+  <f p="src/lua/public/Utils.lua" m="b192975025ee9f8290a0a763a5183e28" c="0" />
+  <f p="src/lua/public/UtilsCheckCondFunc.lua" m="256fbe7dc7e529c4d4c7c6bfae583cab" c="0" />
+  <f p="src/lua/table/BattleEventsMusic.lua" m="55e55f070ee3ad025aa91668f5cccee7" c="0" />
+  <f p="src/lua/table/Buffer.lua" m="c8a81eb2f88fa819d213a86985980cfd" c="0" />
+  <f p="src/lua/table/BufferEffect.lua" m="7283a55535449b26191e8c2a118a9718" c="0" />
+  <f p="src/lua/table/CatList.lua" m="82a9847c9ed134cad23b0c6abeabe003" c="0" />
+  <f p="src/lua/table/Cg.lua" m="65e702bef4fb06fef56cb91e2fdbf805" c="0" />
+  <f p="src/lua/table/EventCondition.lua" m="5a427b6ff75aabcbc5096a0ce9271b32" c="0" />
+  <f p="src/lua/table/Flags.lua" m="6bf989350c02cfef091fe16e4b9cceab" c="0" />
+  <f p="src/lua/table/HeroForm.lua" m="45819fcd45a6bdbb39482c3e0ce7efed" c="0" />
+  <f p="src/lua/table/HeroModle.lua" m="adaa992040aa4d2ef93be7f06f1a9504" c="0" />
+  <f p="src/lua/table/SkillEffect.lua" m="5a04003813e65b33db8ea20ad0942829" c="0" />
+  <f p="src/lua/table/SkillMusic.lua" m="90998b963dbb74dc33714af68a19938a" c="0" />
+  <f p="src/lua/table/String.lua" m="6d43b8ccf021ffd0c54ed5b8a7951b00" c="0" />
+  <f p="src/lua/table/WorldActionButton.lua" m="30482f9d1cf2c8f934bc6cd4f2ed0f9e" c="0" />
+  <f p="src/lua/table/WorldObjectAction.lua" m="425646939f4c37421f65241229e9b9ae" c="0" />
+  <f p="src/lua/table/WorldObjectAIscript.lua" m="7695134330041c16e62d382abdc23334" c="0" />
+  <f p="src/lua/table/WorldObjectMgr.lua" m="ac23b599865bb6dc3964dfa1c6251fea" c="0" />
+  <f p="src/lua/uiconfig/Equip/EquipInfoLayer.lua" m="ecc4267f2e9b3c46c32cda8094edb1dd" c="0" />
+  <f p="res/basic/effect/effects_13301_buff/effects_13301_buff.atlas" m="b78c4d96b3ecb11ccb27d5c413479f3e" />
+  <f p="res/basic/effect/effects_13301_buff/effects_13301_buff.png" m="3895f652f85e3c4f72eb68cf752e434a" />
+  <f p="res/basic/effect/effects_13301_buff/effects_13301_buff.skel" m="8c7996cef630ff4f28b3a48273887765" />
+  <f p="res/basic/effect/effects_13301_buff/effects_13301_buff2.png" m="7c54a17e11d340e407d49e5392460ef9" />
+  <f p="res/basic/sound/13301/SonoRinne_033.mp3" m="ddb9d0ac76b1fb46fbf10e1c8bf0eded" />
+  <f p="res/basic/sound/13301/SonoRinne_034.mp3" m="e88a4e29cc4181903ac2acec6239dcfd" />
+  <f p="res/basic/sound/13301/SonoRinne_035.mp3" m="3d59a0ad5bb94b51125a38aa887b32ca" />
+  <f p="res/basic/sound/13301/SonoRinne_036.mp3" m="23797ff6edff6b7ff0b11fad7d781a54" />
+  <f p="res/basic/sound/13301/SonoRinne_037.mp3" m="82e3185ba9ba9110447763ecbc5508f0" />
+  <f p="res/basic/sound/13301/SonoRinne_038.mp3" m="7485eb3ebf96c4a14ae053c5283171f7" />
+  <f p="res/basic/sound/13301/SonoRinne_039.mp3" m="0a8afe62033a2d5504b3944c017e9967" />
+  <f p="res/basic/sound/13301/SonoRinne_040.mp3" m="13c2fc408648604f457bf62f336fbdac" />
+  <f p="res/basic/sound/13301/SonoRinne_041.mp3" m="e489f1c2f39f5317484beaf2653d8088" />
+  <f p="res/basic/sound/13301/SonoRinne_042.mp3" m="aca8654285c941dcea33732d175d0471" />
+  <f p="res/basic/sound/13301/SonoRinne_043.mp3" m="be7f0dc28037e736071e1b3319d64e87" />
+  <f p="res/basic/sound/13301/SonoRinne_044.mp3" m="d7dc90862f14cbd5ed77144dc1d0a8ca" />
+  <f p="res/basic/sound/13301/SonoRinne_045.mp3" m="46567f15f3920a9e51ccc5349450aed6" />
+  <f p="res/basic/sound/13301/SonoRinne_046.mp3" m="99ad6db2f483c9774bc148ae7c8a36e7" />
+  <f p="res/basic/sound/13301/SonoRinne_047.mp3" m="5bd41753298782a2f027a7ccfb54361d" />
+  <f p="res/basic/sound/13301/SonoRinne_048.mp3" m="38f45b7fca4f802d8b20261cf186a25c" />
+  <f p="src/lua/ai/ai_121006.lua" m="a6af45c3c80cb328595ec6ab265d00bd" />
+  <f p="src/lua/ai/ai_624132.lua" m="4ff40f510093893093641ade0e397419" />
 </files>

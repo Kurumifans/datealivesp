@@ -199,7 +199,7 @@ function ValentinesDay:updateCell(item, data, idx)
 	end
 	local progress = 0
 	if self.maxVotes == 0 then
-		progress = 100
+		progress = 0
 	else
 		progress = tonumber(data.count) / self.maxVotes * 100
 		if progress < 3 then

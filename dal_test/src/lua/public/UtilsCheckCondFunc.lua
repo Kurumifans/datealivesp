@@ -102,6 +102,13 @@ function UtilsCheckCondFunc.check_worldRiddlesInMySelf( parama )
 	return riddleInfo.playerId == MainPlayer:getPlayerId()
 end
 
+function UtilsCheckCondFunc.check_worldRiddlesInActor( parama, actorPid )
+	if not parama or not actorPid then return nil end
+	local riddleInfo = WorldRoomDataMgr:getCurExtDataControl():getRiddleData(parama)
+	if not riddleInfo then return false end
+	return riddleInfo.playerId == actorPid
+end
+
 function UtilsCheckCondFunc.check_noWorldRiddles( parama )
 	local hasRiddle =  WorldRoomDataMgr:getCurExtDataControl():checkHasRiddleByPlayerId(MainPlayer:getPlayerId())
 	return not hasRiddle

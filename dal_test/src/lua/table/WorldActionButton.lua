@@ -1685,6 +1685,48 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
+    [12803] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12803,
+        interType = 5,
+        actionCondition = {
+            flag = 2403,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2903,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12807] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12807,
+        interType = 5,
+        actionCondition = {
+            flag = 2407,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2907,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
     [81] = {
         isAuto = true,
         aprCondition = {
@@ -1705,6 +1747,195 @@ return {
         },
         effectAction = "",
         actionButton = "ui/activity/znq_yly/mainUi/020.png",
+        effectPath = "",
+    },
+    [12815] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12815,
+        interType = 5,
+        actionCondition = {
+            flag = 2415,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2915,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12819] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12819,
+        interType = 5,
+        actionCondition = {
+            flag = 2419,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2919,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12823] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12823,
+        interType = 5,
+        actionCondition = {
+            flag = 2423,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2923,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12827] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12827,
+        interType = 5,
+        actionCondition = {
+            flag = 2427,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2927,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12831] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12831,
+        interType = 5,
+        actionCondition = {
+            flag = 2431,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2931,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12835] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12835,
+        interType = 5,
+        actionCondition = {
+            flag = 2435,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2935,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12839] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12839,
+        interType = 5,
+        actionCondition = {
+            flag = 2439,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2939,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12843] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12843,
+        interType = 5,
+        actionCondition = {
+            flag = 2443,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2943,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12847] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12847,
+        interType = 5,
+        actionCondition = {
+            flag = 2447,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2947,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
         effectPath = "",
     },
     [12903] = {
@@ -3313,6 +3544,48 @@ return {
         },
         effectAction = "",
         actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        effectPath = "",
+    },
+    [12804] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12804,
+        interType = 5,
+        actionCondition = {
+            flag = 2404,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2904,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12808] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12808,
+        interType = 5,
+        actionCondition = {
+            flag = 2408,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2908,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
         effectPath = "",
     },
     [85] = {
@@ -5098,6 +5371,83 @@ return {
         actionButton = "",
         effectPath = "",
     },
+    [12567] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12567,
+        interType = 7,
+        actionCondition = {
+            flag = 2516,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            offset = {
+                [1] = 0,
+                [2] = 0,
+            },
+            parmaFlag = 3516,
+            childType = 1,
+            actorCfgId = {
+                [1] = 2516,
+            },
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        effectPath = "",
+    },
+    [12948] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12948,
+        interType = 8,
+        actionCondition = {
+            notflag = 4548,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12947] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12947,
+        interType = 8,
+        actionCondition = {
+            notflag = 4547,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
     [12705] = {
         isAuto = true,
         aprCondition = {
@@ -5578,6 +5928,220 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/017.png",
         effectPath = "effect/world/UI_button2/UI_anniu2",
     },
+    [12556] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12556,
+        interType = 7,
+        actionCondition = {
+            flag = 2505,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            offset = {
+                [1] = 0,
+                [2] = 0,
+            },
+            parmaFlag = 3505,
+            childType = 1,
+            actorCfgId = {
+                [1] = 2505,
+            },
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        effectPath = "",
+    },
+    [12945] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12945,
+        interType = 8,
+        actionCondition = {
+            notflag = 4545,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12944] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12944,
+        interType = 8,
+        actionCondition = {
+            notflag = 4544,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12943] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12943,
+        interType = 8,
+        actionCondition = {
+            notflag = 4543,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12557] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12557,
+        interType = 7,
+        actionCondition = {
+            flag = 2506,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            offset = {
+                [1] = 0,
+                [2] = 0,
+            },
+            parmaFlag = 3506,
+            childType = 1,
+            actorCfgId = {
+                [1] = 2506,
+            },
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        effectPath = "",
+    },
+    [12801] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12801,
+        interType = 5,
+        actionCondition = {
+            flag = 2401,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2901,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12805] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12805,
+        interType = 5,
+        actionCondition = {
+            flag = 2405,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2905,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12809] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12809,
+        interType = 5,
+        actionCondition = {
+            flag = 2409,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2909,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12813] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12813,
+        interType = 5,
+        actionCondition = {
+            flag = 2413,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2913,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
     [105] = {
         isAuto = true,
         aprCondition = {
@@ -5604,6 +6168,477 @@ return {
         },
         effectAction = "",
         actionButton = "",
+        effectPath = "",
+    },
+    [12821] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12821,
+        interType = 5,
+        actionCondition = {
+            flag = 2421,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2921,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12825] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12825,
+        interType = 5,
+        actionCondition = {
+            flag = 2425,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2925,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12829] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12829,
+        interType = 5,
+        actionCondition = {
+            flag = 2429,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2929,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12833] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12833,
+        interType = 5,
+        actionCondition = {
+            flag = 2433,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2933,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12837] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12837,
+        interType = 5,
+        actionCondition = {
+            flag = 2437,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2937,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12841] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12841,
+        interType = 5,
+        actionCondition = {
+            flag = 2441,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2941,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12845] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12845,
+        interType = 5,
+        actionCondition = {
+            flag = 2445,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2945,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12849] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12849,
+        interType = 5,
+        actionCondition = {
+            flag = 2449,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2949,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12941] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12941,
+        interType = 8,
+        actionCondition = {
+            notflag = 4541,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12940] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12940,
+        interType = 8,
+        actionCondition = {
+            notflag = 4540,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12939] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12939,
+        interType = 8,
+        actionCondition = {
+            notflag = 4539,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12560] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12560,
+        interType = 7,
+        actionCondition = {
+            flag = 2509,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            offset = {
+                [1] = 0,
+                [2] = 0,
+            },
+            parmaFlag = 3509,
+            childType = 1,
+            actorCfgId = {
+                [1] = 2509,
+            },
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        effectPath = "",
+    },
+    [12927] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12927,
+        interType = 8,
+        actionCondition = {
+            notflag = 4527,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12936] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12936,
+        interType = 8,
+        actionCondition = {
+            notflag = 4536,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12935] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12935,
+        interType = 8,
+        actionCondition = {
+            notflag = 4535,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12561] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12561,
+        interType = 7,
+        actionCondition = {
+            flag = 2510,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            offset = {
+                [1] = 0,
+                [2] = 0,
+            },
+            parmaFlag = 3510,
+            childType = 1,
+            actorCfgId = {
+                [1] = 2510,
+            },
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        effectPath = "",
+    },
+    [12928] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12928,
+        interType = 8,
+        actionCondition = {
+            notflag = 4528,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12932] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12932,
+        interType = 8,
+        actionCondition = {
+            notflag = 4532,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12931] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12931,
+        interType = 8,
+        actionCondition = {
+            notflag = 4531,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12564] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12564,
+        interType = 7,
+        actionCondition = {
+            flag = 2513,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            offset = {
+                [1] = 0,
+                [2] = 0,
+            },
+            parmaFlag = 3513,
+            childType = 1,
+            actorCfgId = {
+                [1] = 2513,
+            },
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
     [12901] = {
@@ -5911,14 +6946,14 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/take.png",
         effectPath = "",
     },
-    [12948] = {
+    [12924] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12948,
+        id = 12924,
         interType = 8,
         actionCondition = {
-            notflag = 4548,
+            notflag = 4524,
         },
         isSingle = true,
         autoDelayTime = 0,
@@ -5935,38 +6970,14 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/take.png",
         effectPath = "",
     },
-    [12947] = {
+    [12568] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12947,
-        interType = 8,
-        actionCondition = {
-            notflag = 4547,
-        },
-        isSingle = true,
-        autoDelayTime = 0,
-        asyn = false,
-        interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
-        },
-        overlayButton = {
-        },
-        effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
-        effectPath = "",
-    },
-    [12556] = {
-        isAuto = true,
-        aprCondition = {
-        },
-        id = 12556,
+        id = 12568,
         interType = 7,
         actionCondition = {
-            flag = 2505,
+            flag = 2517,
         },
         isSingle = true,
         autoDelayTime = 0,
@@ -5976,10 +6987,10 @@ return {
                 [1] = 0,
                 [2] = 0,
             },
-            parmaFlag = 3505,
+            parmaFlag = 3517,
             childType = 1,
             actorCfgId = {
-                [1] = 2505,
+                [1] = 2517,
             },
         },
         overlayButton = {
@@ -5988,14 +6999,14 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
-    [12945] = {
+    [12920] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12945,
+        id = 12920,
         interType = 8,
         actionCondition = {
-            notflag = 4545,
+            notflag = 4520,
         },
         isSingle = true,
         autoDelayTime = 0,
@@ -6012,14 +7023,14 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/take.png",
         effectPath = "",
     },
-    [12944] = {
+    [12919] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12944,
+        id = 12919,
         interType = 8,
         actionCondition = {
-            notflag = 4544,
+            notflag = 4519,
         },
         isSingle = true,
         autoDelayTime = 0,
@@ -6036,38 +7047,205 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/take.png",
         effectPath = "",
     },
-    [12943] = {
+    [102] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12943,
-        interType = 8,
-        actionCondition = {
-            notflag = 4543,
-        },
-        isSingle = true,
-        autoDelayTime = 0,
-        asyn = false,
-        interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
-        },
-        overlayButton = {
-        },
-        effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
-        effectPath = "",
-    },
-    [12557] = {
-        isAuto = true,
-        aprCondition = {
-        },
-        id = 12557,
+        id = 102,
         interType = 7,
         actionCondition = {
-            flag = 2506,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            childType = 2,
+            allowRepeat = 1,
+            offsetWithDir = {
+                [1] = 50,
+                [2] = -20,
+            },
+            actorCfgId = {
+                [1] = 2330,
+            },
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12916] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12916,
+        interType = 8,
+        actionCondition = {
+            notflag = 4516,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [86] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 86,
+        interType = 5,
+        actionCondition = {
+        },
+        isSingle = true,
+        autoDelayTime = 30,
+        asyn = true,
+        interTypeParma = {
+            actionId = 31004,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/020.png",
+        effectPath = "",
+    },
+    [12912] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12912,
+        interType = 8,
+        actionCondition = {
+            notflag = 4512,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [82] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 82,
+        interType = 9,
+        actionCondition = {
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            pos = {
+                [1] = 1329,
+                [2] = 133,
+            },
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/020.png",
+        effectPath = "",
+    },
+    [12908] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12908,
+        interType = 8,
+        actionCondition = {
+            notflag = 4508,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12906] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12906,
+        interType = 8,
+        actionCondition = {
+            notflag = 4506,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12904] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12904,
+        interType = 8,
+        actionCondition = {
+            notflag = 4504,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            removeChildType = {
+                [1] = 1,
+            },
+            target = 1,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        effectPath = "",
+    },
+    [12563] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12563,
+        interType = 7,
+        actionCondition = {
+            flag = 2512,
         },
         isSingle = true,
         autoDelayTime = 0,
@@ -6077,10 +7255,10 @@ return {
                 [1] = 0,
                 [2] = 0,
             },
-            parmaFlag = 3506,
+            parmaFlag = 3512,
             childType = 1,
             actorCfgId = {
-                [1] = 2506,
+                [1] = 2512,
             },
         },
         overlayButton = {
@@ -6089,86 +7267,35 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
-    [12941] = {
+    [12848] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12941,
-        interType = 8,
+        id = 12848,
+        interType = 5,
         actionCondition = {
-            notflag = 4541,
+            flag = 2448,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
+            actionId = 2948,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12940] = {
+    [12576] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12940,
-        interType = 8,
-        actionCondition = {
-            notflag = 4540,
-        },
-        isSingle = true,
-        autoDelayTime = 0,
-        asyn = false,
-        interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
-        },
-        overlayButton = {
-        },
-        effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
-        effectPath = "",
-    },
-    [12939] = {
-        isAuto = true,
-        aprCondition = {
-        },
-        id = 12939,
-        interType = 8,
-        actionCondition = {
-            notflag = 4539,
-        },
-        isSingle = true,
-        autoDelayTime = 0,
-        asyn = false,
-        interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
-        },
-        overlayButton = {
-        },
-        effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
-        effectPath = "",
-    },
-    [12560] = {
-        isAuto = true,
-        aprCondition = {
-        },
-        id = 12560,
+        id = 12576,
         interType = 7,
         actionCondition = {
-            flag = 2509,
+            flag = 2525,
         },
         isSingle = true,
         autoDelayTime = 0,
@@ -6178,10 +7305,10 @@ return {
                 [1] = 0,
                 [2] = 0,
             },
-            parmaFlag = 3509,
+            parmaFlag = 3525,
             childType = 1,
             actorCfgId = {
-                [1] = 2509,
+                [1] = 2525,
             },
         },
         overlayButton = {
@@ -6478,28 +7605,25 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/take.png",
         effectPath = "",
     },
-    [12936] = {
+    [12844] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12936,
-        interType = 8,
+        id = 12844,
+        interType = 5,
         actionCondition = {
-            notflag = 4536,
+            flag = 2444,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
+            actionId = 2944,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        actionButton = "",
         effectPath = "",
     },
     [12554] = {
@@ -6850,38 +7974,56 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
-    [12935] = {
+    [12842] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12935,
-        interType = 8,
+        id = 12842,
+        interType = 5,
         actionCondition = {
-            notflag = 4535,
+            flag = 2442,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
+            actionId = 2942,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12561] = {
+    [12840] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12561,
+        id = 12840,
+        interType = 5,
+        actionCondition = {
+            flag = 2440,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2940,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12579] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12579,
         interType = 7,
         actionCondition = {
-            flag = 2510,
+            flag = 2528,
         },
         isSingle = true,
         autoDelayTime = 0,
@@ -6891,10 +8033,10 @@ return {
                 [1] = 0,
                 [2] = 0,
             },
-            parmaFlag = 3510,
+            parmaFlag = 3528,
             childType = 1,
             actorCfgId = {
-                [1] = 2510,
+                [1] = 2528,
             },
         },
         overlayButton = {
@@ -6903,52 +8045,25 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
-    [12932] = {
+    [12836] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12932,
-        interType = 8,
+        id = 12836,
+        interType = 5,
         actionCondition = {
-            notflag = 4532,
+            flag = 2436,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
+            actionId = 2936,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
-        effectPath = "",
-    },
-    [12931] = {
-        isAuto = true,
-        aprCondition = {
-        },
-        id = 12931,
-        interType = 8,
-        actionCondition = {
-            notflag = 4531,
-        },
-        isSingle = true,
-        autoDelayTime = 0,
-        asyn = false,
-        interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
-        },
-        overlayButton = {
-        },
-        effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        actionButton = "",
         effectPath = "",
     },
     [301] = {
@@ -6971,14 +8086,14 @@ return {
         actionButton = "",
         effectPath = "",
     },
-    [12564] = {
+    [12580] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12564,
+        id = 12580,
         interType = 7,
         actionCondition = {
-            flag = 2513,
+            flag = 2529,
         },
         isSingle = true,
         autoDelayTime = 0,
@@ -6988,10 +8103,10 @@ return {
                 [1] = 0,
                 [2] = 0,
             },
-            parmaFlag = 3513,
+            parmaFlag = 3529,
             childType = 1,
             actorCfgId = {
-                [1] = 2513,
+                [1] = 2529,
             },
         },
         overlayButton = {
@@ -7000,62 +8115,35 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
-    [12928] = {
+    [12832] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12928,
-        interType = 8,
+        id = 12832,
+        interType = 5,
         actionCondition = {
-            notflag = 4528,
+            flag = 2432,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
+            actionId = 2932,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12927] = {
+    [12583] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12927,
-        interType = 8,
-        actionCondition = {
-            notflag = 4527,
-        },
-        isSingle = true,
-        autoDelayTime = 0,
-        asyn = false,
-        interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
-        },
-        overlayButton = {
-        },
-        effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
-        effectPath = "",
-    },
-    [12567] = {
-        isAuto = true,
-        aprCondition = {
-        },
-        id = 12567,
+        id = 12583,
         interType = 7,
         actionCondition = {
-            flag = 2516,
+            flag = 2532,
         },
         isSingle = true,
         autoDelayTime = 0,
@@ -7065,10 +8153,10 @@ return {
                 [1] = 0,
                 [2] = 0,
             },
-            parmaFlag = 3516,
+            parmaFlag = 3532,
             childType = 1,
             actorCfgId = {
-                [1] = 2516,
+                [1] = 2532,
             },
         },
         overlayButton = {
@@ -7077,38 +8165,35 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
-    [12924] = {
+    [12828] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12924,
-        interType = 8,
+        id = 12828,
+        interType = 5,
         actionCondition = {
-            notflag = 4524,
+            flag = 2428,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
+            actionId = 2928,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12568] = {
+    [12584] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12568,
+        id = 12584,
         interType = 7,
         actionCondition = {
-            flag = 2517,
+            flag = 2533,
         },
         isSingle = true,
         autoDelayTime = 0,
@@ -7118,10 +8203,10 @@ return {
                 [1] = 0,
                 [2] = 0,
             },
-            parmaFlag = 3517,
+            parmaFlag = 3533,
             childType = 1,
             actorCfgId = {
-                [1] = 2517,
+                [1] = 2533,
             },
         },
         overlayButton = {
@@ -7130,28 +8215,54 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
-    [12920] = {
+    [12824] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12920,
-        interType = 8,
+        id = 12824,
+        interType = 5,
         actionCondition = {
-            notflag = 4520,
+            flag = 2424,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2924,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12587] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12587,
+        interType = 7,
+        actionCondition = {
+            flag = 2536,
         },
         isSingle = true,
         autoDelayTime = 0,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
+            offset = {
+                [1] = 0,
+                [2] = 0,
             },
-            target = 1,
+            parmaFlag = 3536,
+            childType = 1,
+            actorCfgId = {
+                [1] = 2536,
+            },
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
     [302] = {
@@ -7177,51 +8288,20 @@ return {
         actionButton = "",
         effectPath = "",
     },
-    [12919] = {
+    [12820] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12919,
-        interType = 8,
+        id = 12820,
+        interType = 5,
         actionCondition = {
-            notflag = 4519,
+            flag = 2420,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
-        },
-        overlayButton = {
-        },
-        effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
-        effectPath = "",
-    },
-    [102] = {
-        isAuto = true,
-        aprCondition = {
-        },
-        id = 102,
-        interType = 7,
-        actionCondition = {
-        },
-        isSingle = true,
-        autoDelayTime = 0,
-        asyn = false,
-        interTypeParma = {
-            childType = 2,
-            allowRepeat = 1,
-            offsetWithDir = {
-                [1] = 50,
-                [2] = -20,
-            },
-            actorCfgId = {
-                [1] = 2330,
-            },
+            actionId = 2920,
         },
         overlayButton = {
         },
@@ -7229,119 +8309,146 @@ return {
         actionButton = "",
         effectPath = "",
     },
-    [12916] = {
+    [12588] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12916,
-        interType = 8,
+        id = 12588,
+        interType = 7,
         actionCondition = {
-            notflag = 4516,
+            flag = 2537,
         },
         isSingle = true,
         autoDelayTime = 0,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
+            offset = {
+                [1] = 0,
+                [2] = 0,
             },
-            target = 1,
+            parmaFlag = 3537,
+            childType = 1,
+            actorCfgId = {
+                [1] = 2537,
+            },
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
-    [86] = {
+    [12817] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 86,
+        id = 12817,
         interType = 5,
         actionCondition = {
+            flag = 2417,
         },
-        isSingle = true,
-        autoDelayTime = 30,
-        asyn = true,
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
         interTypeParma = {
-            actionId = 31004,
+            actionId = 2917,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/020.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12912] = {
+    [12816] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12912,
-        interType = 8,
+        id = 12816,
+        interType = 5,
         actionCondition = {
-            notflag = 4512,
+            flag = 2416,
+        },
+        isSingle = false,
+        autoDelayTime = 20,
+        asyn = false,
+        interTypeParma = {
+            actionId = 2916,
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "",
+        effectPath = "",
+    },
+    [12591] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12591,
+        interType = 7,
+        actionCondition = {
+            flag = 2540,
         },
         isSingle = true,
         autoDelayTime = 0,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
+            offset = {
+                [1] = 0,
+                [2] = 0,
             },
-            target = 1,
+            parmaFlag = 3540,
+            childType = 1,
+            actorCfgId = {
+                [1] = 2540,
+            },
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
-    [82] = {
+    [12812] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 82,
-        interType = 9,
+        id = 12812,
+        interType = 5,
         actionCondition = {
+            flag = 2412,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            pos = {
-                [1] = 1329,
-                [2] = 133,
-            },
+            actionId = 2912,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/020.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12908] = {
+    [12811] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12908,
-        interType = 8,
+        id = 12811,
+        interType = 5,
         actionCondition = {
-            notflag = 4508,
+            flag = 2411,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
+            actionId = 2911,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        actionButton = "",
         effectPath = "",
     },
     [303] = {
@@ -7367,62 +8474,35 @@ return {
         actionButton = "",
         effectPath = "",
     },
-    [12906] = {
+    [12810] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12906,
-        interType = 8,
+        id = 12810,
+        interType = 5,
         actionCondition = {
-            notflag = 4506,
+            flag = 2410,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
+            actionId = 2910,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12904] = {
+    [12592] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12904,
-        interType = 8,
-        actionCondition = {
-            notflag = 4504,
-        },
-        isSingle = true,
-        autoDelayTime = 0,
-        asyn = false,
-        interTypeParma = {
-            removeChildType = {
-                [1] = 1,
-            },
-            target = 1,
-        },
-        overlayButton = {
-        },
-        effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/take.png",
-        effectPath = "",
-    },
-    [12563] = {
-        isAuto = true,
-        aprCondition = {
-        },
-        id = 12563,
+        id = 12592,
         interType = 7,
         actionCondition = {
-            flag = 2512,
+            flag = 2541,
         },
         isSingle = true,
         autoDelayTime = 0,
@@ -7432,10 +8512,39 @@ return {
                 [1] = 0,
                 [2] = 0,
             },
-            parmaFlag = 3512,
+            parmaFlag = 3541,
             childType = 1,
             actorCfgId = {
-                [1] = 2512,
+                [1] = 2541,
+            },
+        },
+        overlayButton = {
+        },
+        effectAction = "",
+        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        effectPath = "",
+    },
+    [12595] = {
+        isAuto = true,
+        aprCondition = {
+        },
+        id = 12595,
+        interType = 7,
+        actionCondition = {
+            flag = 2544,
+        },
+        isSingle = true,
+        autoDelayTime = 0,
+        asyn = false,
+        interTypeParma = {
+            offset = {
+                [1] = 0,
+                [2] = 0,
+            },
+            parmaFlag = 3544,
+            childType = 1,
+            actorCfgId = {
+                [1] = 2544,
             },
         },
         overlayButton = {
@@ -8080,62 +9189,46 @@ return {
         actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
         effectPath = "",
     },
-    [12595] = {
+    [12802] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12595,
-        interType = 7,
+        id = 12802,
+        interType = 5,
         actionCondition = {
-            flag = 2544,
+            flag = 2402,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            offset = {
-                [1] = 0,
-                [2] = 0,
-            },
-            parmaFlag = 3544,
-            childType = 1,
-            actorCfgId = {
-                [1] = 2544,
-            },
+            actionId = 2902,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12592] = {
+    [12806] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12592,
-        interType = 7,
+        id = 12806,
+        interType = 5,
         actionCondition = {
-            flag = 2541,
+            flag = 2406,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            offset = {
-                [1] = 0,
-                [2] = 0,
-            },
-            parmaFlag = 3541,
-            childType = 1,
-            actorCfgId = {
-                [1] = 2541,
-            },
+            actionId = 2906,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        actionButton = "",
         effectPath = "",
     },
     [307] = {
@@ -8161,207 +9254,151 @@ return {
         actionButton = "",
         effectPath = "",
     },
-    [12591] = {
+    [12814] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12591,
-        interType = 7,
+        id = 12814,
+        interType = 5,
         actionCondition = {
-            flag = 2540,
+            flag = 2414,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            offset = {
-                [1] = 0,
-                [2] = 0,
-            },
-            parmaFlag = 3540,
-            childType = 1,
-            actorCfgId = {
-                [1] = 2540,
-            },
+            actionId = 2914,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12588] = {
+    [12818] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12588,
-        interType = 7,
+        id = 12818,
+        interType = 5,
         actionCondition = {
-            flag = 2537,
+            flag = 2418,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            offset = {
-                [1] = 0,
-                [2] = 0,
-            },
-            parmaFlag = 3537,
-            childType = 1,
-            actorCfgId = {
-                [1] = 2537,
-            },
+            actionId = 2918,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12587] = {
+    [12822] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12587,
-        interType = 7,
+        id = 12822,
+        interType = 5,
         actionCondition = {
-            flag = 2536,
+            flag = 2422,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            offset = {
-                [1] = 0,
-                [2] = 0,
-            },
-            parmaFlag = 3536,
-            childType = 1,
-            actorCfgId = {
-                [1] = 2536,
-            },
+            actionId = 2922,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12584] = {
+    [12826] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12584,
-        interType = 7,
+        id = 12826,
+        interType = 5,
         actionCondition = {
-            flag = 2533,
+            flag = 2426,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            offset = {
-                [1] = 0,
-                [2] = 0,
-            },
-            parmaFlag = 3533,
-            childType = 1,
-            actorCfgId = {
-                [1] = 2533,
-            },
+            actionId = 2926,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12583] = {
+    [12830] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12583,
-        interType = 7,
+        id = 12830,
+        interType = 5,
         actionCondition = {
-            flag = 2532,
+            flag = 2430,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            offset = {
-                [1] = 0,
-                [2] = 0,
-            },
-            parmaFlag = 3532,
-            childType = 1,
-            actorCfgId = {
-                [1] = 2532,
-            },
+            actionId = 2930,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12580] = {
+    [12834] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12580,
-        interType = 7,
+        id = 12834,
+        interType = 5,
         actionCondition = {
-            flag = 2529,
+            flag = 2434,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            offset = {
-                [1] = 0,
-                [2] = 0,
-            },
-            parmaFlag = 3529,
-            childType = 1,
-            actorCfgId = {
-                [1] = 2529,
-            },
+            actionId = 2934,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        actionButton = "",
         effectPath = "",
     },
-    [12579] = {
+    [12838] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12579,
-        interType = 7,
+        id = 12838,
+        interType = 5,
         actionCondition = {
-            flag = 2528,
+            flag = 2438,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            offset = {
-                [1] = 0,
-                [2] = 0,
-            },
-            parmaFlag = 3528,
-            childType = 1,
-            actorCfgId = {
-                [1] = 2528,
-            },
+            actionId = 2938,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        actionButton = "",
         effectPath = "",
     },
     [308] = {
@@ -8387,33 +9424,25 @@ return {
         actionButton = "",
         effectPath = "",
     },
-    [12576] = {
+    [12846] = {
         isAuto = true,
         aprCondition = {
         },
-        id = 12576,
-        interType = 7,
+        id = 12846,
+        interType = 5,
         actionCondition = {
-            flag = 2525,
+            flag = 2446,
         },
-        isSingle = true,
-        autoDelayTime = 0,
+        isSingle = false,
+        autoDelayTime = 20,
         asyn = false,
         interTypeParma = {
-            offset = {
-                [1] = 0,
-                [2] = 0,
-            },
-            parmaFlag = 3525,
-            childType = 1,
-            actorCfgId = {
-                [1] = 2525,
-            },
+            actionId = 2946,
         },
         overlayButton = {
         },
         effectAction = "",
-        actionButton = "ui/activity/znq_yly/mainUi/putDown.png",
+        actionButton = "",
         effectPath = "",
     },
     [12575] = {

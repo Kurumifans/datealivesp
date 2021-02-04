@@ -1904,13 +1904,13 @@ function Utils:checkInWorldRoomScene(roomType)
     return false
 end
 
-function Utils:checkFlagIsEnable( flagId ) -- 标记检测条件是否满足
+function Utils:checkFlagIsEnable( flagId, ... ) -- 标记检测条件是否满足
     -- body
     local flagCfg = TabDataMgr:getData("Flags",flagId)
     if not flagCfg then return true end
     local checkResult = true
     for k,v in pairs(flagCfg.condition) do
-        if not (UtilsCheckCondFunc["check_"..k] and UtilsCheckCondFunc["check_"..k](v))then
+        if not (UtilsCheckCondFunc["check_"..k] and UtilsCheckCondFunc["check_"..k](v, ...))then
             checkResult = false
             break
         end

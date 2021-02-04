@@ -1146,12 +1146,12 @@ return {
     [1133011] = {
         images = "icon/role/roleSkin/13301.png",
         teamModelPos = {
-            y = -330,
+            y = -300,
             x = -20,
         },
         teamModelScale = 0.5,
         TeampaintPosition = {
-            y = -45,
+            y = -20,
             x = 10,
         },
         huntingModelPos = {
@@ -1168,7 +1168,7 @@ return {
         },
         TeampaintSize = 0.3,
         paintPosition = {
-            y = -640,
+            y = -630,
             x = 120,
         },
         paintSize = 0.85,
@@ -1177,7 +1177,7 @@ return {
             x = -50,
         },
         battleEndPosition = {
-            y = -60,
+            y = 20,
             x = 55,
         },
         battleEndSize = 1.1,

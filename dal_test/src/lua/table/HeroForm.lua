@@ -51018,7 +51018,7 @@ return {
         },
         triggerTrans = {
         },
-        AI = 120001,
+        AI = 121006,
         skillRoller5 = {
         },
         model = "fight_13301",

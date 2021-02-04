@@ -127,7 +127,8 @@ function SingleAIBehave:checkActionList( ... )
 	local actionMap = self.aiCfg.checkAction or {}
 	local success = false
 	for k,v in ipairs(actionMap) do
-		if WorldRoomDataMgr:getCurControl():checkCondition(v.cond) then
+		local actorPid = self.tarNode:getPid()
+		if WorldRoomDataMgr:getCurControl():checkCondition(v.cond, actorPid) then
 			local actionId = 0
 			if v.actionList then
 				self.curActionIndex = self.curActionIndex or 1
@@ -154,7 +155,7 @@ function SingleAIBehave:checkActionList( ... )
 	end
 
 	if not success then
-		self:addAITimer(math.random(1000,2000),function () 
+		self:addAITimer(math.random(10,10),function () 
 			self:onBehaveComplete()
 		end)
 	end

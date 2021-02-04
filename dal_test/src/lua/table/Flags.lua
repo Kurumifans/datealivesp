@@ -658,22 +658,19 @@ return {
             worldRiddlesInMySelf = 2547,
         },
     },
+    [5509] = {
+        id = 5509,
+        condition = {
+            worldDecryptResetTime = {
+                [1] = 9,
+                [2] = 599,
+            },
+        },
+    },
     [2448] = {
         id = 2448,
         condition = {
             worldRiddlesInMySelf = 2548,
-        },
-    },
-    [2449] = {
-        id = 2449,
-        condition = {
-            worldRiddlesInMySelf = 2549,
-        },
-    },
-    [4516] = {
-        id = 4516,
-        condition = {
-            worldRiddlesIsCorrect = 2516,
         },
     },
     [5508] = {
@@ -685,10 +682,19 @@ return {
             },
         },
     },
-    [4504] = {
-        id = 4504,
+    [2449] = {
+        id = 2449,
         condition = {
-            worldRiddlesIsCorrect = 2504,
+            worldRiddlesInMySelf = 2549,
+        },
+    },
+    [5507] = {
+        id = 5507,
+        condition = {
+            worldDecryptResetTime = {
+                [1] = 7,
+                [2] = 599,
+            },
         },
     },
     [5506] = {
@@ -700,10 +706,13 @@ return {
             },
         },
     },
-    [4518] = {
-        id = 4518,
+    [5505] = {
+        id = 5505,
         condition = {
-            worldRiddlesIsCorrect = 2518,
+            worldDecryptResetTime = {
+                [1] = 5,
+                [2] = 599,
+            },
         },
     },
     [5504] = {
@@ -715,10 +724,13 @@ return {
             },
         },
     },
-    [4502] = {
-        id = 4502,
+    [5503] = {
+        id = 5503,
         condition = {
-            worldRiddlesIsCorrect = 2502,
+            worldDecryptResetTime = {
+                [1] = 3,
+                [2] = 599,
+            },
         },
     },
     [5502] = {
@@ -730,10 +742,13 @@ return {
             },
         },
     },
-    [4520] = {
-        id = 4520,
+    [5501] = {
+        id = 5501,
         condition = {
-            worldRiddlesIsCorrect = 2520,
+            worldDecryptResetTime = {
+                [1] = 1,
+                [2] = 599,
+            },
         },
     },
     [4549] = {
@@ -778,22 +793,10 @@ return {
             worldRiddlesIsCorrect = 2543,
         },
     },
-    [3501] = {
-        id = 3501,
-        condition = {
-            worldRiddlesData = 2501,
-        },
-    },
     [4542] = {
         id = 4542,
         condition = {
             worldRiddlesIsCorrect = 2542,
-        },
-    },
-    [3502] = {
-        id = 3502,
-        condition = {
-            worldRiddlesData = 2502,
         },
     },
     [4541] = {
@@ -802,22 +805,10 @@ return {
             worldRiddlesIsCorrect = 2541,
         },
     },
-    [3503] = {
-        id = 3503,
-        condition = {
-            worldRiddlesData = 2503,
-        },
-    },
     [4540] = {
         id = 4540,
         condition = {
             worldRiddlesIsCorrect = 2540,
-        },
-    },
-    [3504] = {
-        id = 3504,
-        condition = {
-            worldRiddlesData = 2504,
         },
     },
     [4539] = {
@@ -826,22 +817,10 @@ return {
             worldRiddlesIsCorrect = 2539,
         },
     },
-    [3505] = {
-        id = 3505,
-        condition = {
-            worldRiddlesData = 2505,
-        },
-    },
     [4538] = {
         id = 4538,
         condition = {
             worldRiddlesIsCorrect = 2538,
-        },
-    },
-    [3506] = {
-        id = 3506,
-        condition = {
-            worldRiddlesData = 2506,
         },
     },
     [4537] = {
@@ -850,22 +829,10 @@ return {
             worldRiddlesIsCorrect = 2537,
         },
     },
-    [3507] = {
-        id = 3507,
-        condition = {
-            worldRiddlesData = 2507,
-        },
-    },
     [4536] = {
         id = 4536,
         condition = {
             worldRiddlesIsCorrect = 2536,
-        },
-    },
-    [3508] = {
-        id = 3508,
-        condition = {
-            worldRiddlesData = 2508,
         },
     },
     [4535] = {
@@ -874,22 +841,10 @@ return {
             worldRiddlesIsCorrect = 2535,
         },
     },
-    [3509] = {
-        id = 3509,
-        condition = {
-            worldRiddlesData = 2509,
-        },
-    },
     [4534] = {
         id = 4534,
         condition = {
             worldRiddlesIsCorrect = 2534,
-        },
-    },
-    [3510] = {
-        id = 3510,
-        condition = {
-            worldRiddlesData = 2510,
         },
     },
     [4533] = {
@@ -898,22 +853,10 @@ return {
             worldRiddlesIsCorrect = 2533,
         },
     },
-    [3511] = {
-        id = 3511,
-        condition = {
-            worldRiddlesData = 2511,
-        },
-    },
     [4532] = {
         id = 4532,
         condition = {
             worldRiddlesIsCorrect = 2532,
-        },
-    },
-    [3512] = {
-        id = 3512,
-        condition = {
-            worldRiddlesData = 2512,
         },
     },
     [4531] = {
@@ -922,22 +865,10 @@ return {
             worldRiddlesIsCorrect = 2531,
         },
     },
-    [3513] = {
-        id = 3513,
-        condition = {
-            worldRiddlesData = 2513,
-        },
-    },
     [4530] = {
         id = 4530,
         condition = {
             worldRiddlesIsCorrect = 2530,
-        },
-    },
-    [3514] = {
-        id = 3514,
-        condition = {
-            worldRiddlesData = 2514,
         },
     },
     [4529] = {
@@ -946,22 +877,10 @@ return {
             worldRiddlesIsCorrect = 2529,
         },
     },
-    [3515] = {
-        id = 3515,
-        condition = {
-            worldRiddlesData = 2515,
-        },
-    },
     [4528] = {
         id = 4528,
         condition = {
             worldRiddlesIsCorrect = 2528,
-        },
-    },
-    [3516] = {
-        id = 3516,
-        condition = {
-            worldRiddlesData = 2516,
         },
     },
     [3546] = {
@@ -970,22 +889,10 @@ return {
             worldRiddlesData = 2546,
         },
     },
-    [3517] = {
-        id = 3517,
-        condition = {
-            worldRiddlesData = 2517,
-        },
-    },
     [4526] = {
         id = 4526,
         condition = {
             worldRiddlesIsCorrect = 2526,
-        },
-    },
-    [3518] = {
-        id = 3518,
-        condition = {
-            worldRiddlesData = 2518,
         },
     },
     [3547] = {
@@ -994,22 +901,10 @@ return {
             worldRiddlesData = 2547,
         },
     },
-    [3519] = {
-        id = 3519,
-        condition = {
-            worldRiddlesData = 2519,
-        },
-    },
     [4524] = {
         id = 4524,
         condition = {
             worldRiddlesIsCorrect = 2524,
-        },
-    },
-    [3520] = {
-        id = 3520,
-        condition = {
-            worldRiddlesData = 2520,
         },
     },
     [3548] = {
@@ -1018,22 +913,10 @@ return {
             worldRiddlesData = 2548,
         },
     },
-    [2501] = {
-        id = 2501,
-        condition = {
-            worldRiddlesIsShow = 2501,
-        },
-    },
     [4522] = {
         id = 4522,
         condition = {
             worldRiddlesIsCorrect = 2522,
-        },
-    },
-    [2502] = {
-        id = 2502,
-        condition = {
-            worldRiddlesIsShow = 2502,
         },
     },
     [3549] = {
@@ -1042,145 +925,10 @@ return {
             worldRiddlesData = 2549,
         },
     },
-    [2503] = {
-        id = 2503,
+    [4520] = {
+        id = 4520,
         condition = {
-            worldRiddlesIsShow = 2503,
-        },
-    },
-    [5501] = {
-        id = 5501,
-        condition = {
-            worldDecryptResetTime = {
-                [1] = 1,
-                [2] = 599,
-            },
-        },
-    },
-    [2504] = {
-        id = 2504,
-        condition = {
-            worldRiddlesIsShow = 2504,
-        },
-    },
-    [5503] = {
-        id = 5503,
-        condition = {
-            worldDecryptResetTime = {
-                [1] = 3,
-                [2] = 599,
-            },
-        },
-    },
-    [2505] = {
-        id = 2505,
-        condition = {
-            worldRiddlesIsShow = 2505,
-        },
-    },
-    [5505] = {
-        id = 5505,
-        condition = {
-            worldDecryptResetTime = {
-                [1] = 5,
-                [2] = 599,
-            },
-        },
-    },
-    [2506] = {
-        id = 2506,
-        condition = {
-            worldRiddlesIsShow = 2506,
-        },
-    },
-    [5507] = {
-        id = 5507,
-        condition = {
-            worldDecryptResetTime = {
-                [1] = 7,
-                [2] = 599,
-            },
-        },
-    },
-    [2507] = {
-        id = 2507,
-        condition = {
-            worldRiddlesIsShow = 2507,
-        },
-    },
-    [5509] = {
-        id = 5509,
-        condition = {
-            worldDecryptResetTime = {
-                [1] = 9,
-                [2] = 599,
-            },
-        },
-    },
-    [2508] = {
-        id = 2508,
-        condition = {
-            worldRiddlesIsShow = 2508,
-        },
-    },
-    [4506] = {
-        id = 4506,
-        condition = {
-            worldRiddlesIsCorrect = 2506,
-        },
-    },
-    [2509] = {
-        id = 2509,
-        condition = {
-            worldRiddlesIsShow = 2509,
-        },
-    },
-    [4514] = {
-        id = 4514,
-        condition = {
-            worldRiddlesIsCorrect = 2514,
-        },
-    },
-    [2510] = {
-        id = 2510,
-        condition = {
-            worldRiddlesIsShow = 2510,
-        },
-    },
-    [4508] = {
-        id = 4508,
-        condition = {
-            worldRiddlesIsCorrect = 2508,
-        },
-    },
-    [2511] = {
-        id = 2511,
-        condition = {
-            worldRiddlesIsShow = 2511,
-        },
-    },
-    [4512] = {
-        id = 4512,
-        condition = {
-            worldRiddlesIsCorrect = 2512,
-        },
-    },
-    [2512] = {
-        id = 2512,
-        condition = {
-            worldRiddlesIsShow = 2512,
-        },
-    },
-    [4510] = {
-        id = 4510,
-        condition = {
-            worldRiddlesIsCorrect = 2510,
-        },
-    },
-    [2513] = {
-        id = 2513,
-        condition = {
-            worldRiddlesIsShow = 2513,
+            worldRiddlesIsCorrect = 2520,
         },
     },
     [4501] = {
@@ -1189,82 +937,22 @@ return {
             worldRiddlesIsCorrect = 2501,
         },
     },
-    [2514] = {
-        id = 2514,
+    [4518] = {
+        id = 4518,
         condition = {
-            worldRiddlesIsShow = 2514,
+            worldRiddlesIsCorrect = 2518,
         },
     },
-    [4503] = {
-        id = 4503,
+    [4517] = {
+        id = 4517,
         condition = {
-            worldRiddlesIsCorrect = 2503,
+            worldRiddlesIsCorrect = 2517,
         },
     },
-    [2515] = {
-        id = 2515,
+    [4516] = {
+        id = 4516,
         condition = {
-            worldRiddlesIsShow = 2515,
-        },
-    },
-    [4505] = {
-        id = 4505,
-        condition = {
-            worldRiddlesIsCorrect = 2505,
-        },
-    },
-    [2516] = {
-        id = 2516,
-        condition = {
-            worldRiddlesIsShow = 2516,
-        },
-    },
-    [4507] = {
-        id = 4507,
-        condition = {
-            worldRiddlesIsCorrect = 2507,
-        },
-    },
-    [2517] = {
-        id = 2517,
-        condition = {
-            worldRiddlesIsShow = 2517,
-        },
-    },
-    [4509] = {
-        id = 4509,
-        condition = {
-            worldRiddlesIsCorrect = 2509,
-        },
-    },
-    [2518] = {
-        id = 2518,
-        condition = {
-            worldRiddlesIsShow = 2518,
-        },
-    },
-    [4511] = {
-        id = 4511,
-        condition = {
-            worldRiddlesIsCorrect = 2511,
-        },
-    },
-    [2519] = {
-        id = 2519,
-        condition = {
-            worldRiddlesIsShow = 2519,
-        },
-    },
-    [4513] = {
-        id = 4513,
-        condition = {
-            worldRiddlesIsCorrect = 2513,
-        },
-    },
-    [2520] = {
-        id = 2520,
-        condition = {
-            worldRiddlesIsShow = 2520,
+            worldRiddlesIsCorrect = 2516,
         },
     },
     [4515] = {
@@ -1273,16 +961,622 @@ return {
             worldRiddlesIsCorrect = 2515,
         },
     },
+    [4514] = {
+        id = 4514,
+        condition = {
+            worldRiddlesIsCorrect = 2514,
+        },
+    },
+    [4513] = {
+        id = 4513,
+        condition = {
+            worldRiddlesIsCorrect = 2513,
+        },
+    },
+    [4512] = {
+        id = 4512,
+        condition = {
+            worldRiddlesIsCorrect = 2512,
+        },
+    },
+    [4511] = {
+        id = 4511,
+        condition = {
+            worldRiddlesIsCorrect = 2511,
+        },
+    },
+    [4510] = {
+        id = 4510,
+        condition = {
+            worldRiddlesIsCorrect = 2510,
+        },
+    },
+    [4509] = {
+        id = 4509,
+        condition = {
+            worldRiddlesIsCorrect = 2509,
+        },
+    },
+    [2601] = {
+        id = 2601,
+        condition = {
+            worldRiddlesInActor = 2501,
+        },
+    },
+    [4508] = {
+        id = 4508,
+        condition = {
+            worldRiddlesIsCorrect = 2508,
+        },
+    },
+    [2602] = {
+        id = 2602,
+        condition = {
+            worldRiddlesInActor = 2502,
+        },
+    },
+    [4507] = {
+        id = 4507,
+        condition = {
+            worldRiddlesIsCorrect = 2507,
+        },
+    },
+    [2603] = {
+        id = 2603,
+        condition = {
+            worldRiddlesInActor = 2503,
+        },
+    },
+    [4506] = {
+        id = 4506,
+        condition = {
+            worldRiddlesIsCorrect = 2506,
+        },
+    },
+    [2604] = {
+        id = 2604,
+        condition = {
+            worldRiddlesInActor = 2504,
+        },
+    },
+    [4505] = {
+        id = 4505,
+        condition = {
+            worldRiddlesIsCorrect = 2505,
+        },
+    },
+    [2605] = {
+        id = 2605,
+        condition = {
+            worldRiddlesInActor = 2505,
+        },
+    },
+    [4504] = {
+        id = 4504,
+        condition = {
+            worldRiddlesIsCorrect = 2504,
+        },
+    },
+    [2606] = {
+        id = 2606,
+        condition = {
+            worldRiddlesInActor = 2506,
+        },
+    },
+    [4503] = {
+        id = 4503,
+        condition = {
+            worldRiddlesIsCorrect = 2503,
+        },
+    },
+    [2607] = {
+        id = 2607,
+        condition = {
+            worldRiddlesInActor = 2507,
+        },
+    },
+    [4502] = {
+        id = 4502,
+        condition = {
+            worldRiddlesIsCorrect = 2502,
+        },
+    },
+    [2608] = {
+        id = 2608,
+        condition = {
+            worldRiddlesInActor = 2508,
+        },
+    },
+    [3501] = {
+        id = 3501,
+        condition = {
+            worldRiddlesData = 2501,
+        },
+    },
+    [2609] = {
+        id = 2609,
+        condition = {
+            worldRiddlesInActor = 2509,
+        },
+    },
+    [3502] = {
+        id = 3502,
+        condition = {
+            worldRiddlesData = 2502,
+        },
+    },
+    [2610] = {
+        id = 2610,
+        condition = {
+            worldRiddlesInActor = 2510,
+        },
+    },
+    [3503] = {
+        id = 3503,
+        condition = {
+            worldRiddlesData = 2503,
+        },
+    },
+    [2611] = {
+        id = 2611,
+        condition = {
+            worldRiddlesInActor = 2511,
+        },
+    },
+    [3504] = {
+        id = 3504,
+        condition = {
+            worldRiddlesData = 2504,
+        },
+    },
+    [2612] = {
+        id = 2612,
+        condition = {
+            worldRiddlesInActor = 2512,
+        },
+    },
+    [3505] = {
+        id = 3505,
+        condition = {
+            worldRiddlesData = 2505,
+        },
+    },
+    [2613] = {
+        id = 2613,
+        condition = {
+            worldRiddlesInActor = 2513,
+        },
+    },
+    [3506] = {
+        id = 3506,
+        condition = {
+            worldRiddlesData = 2506,
+        },
+    },
+    [2614] = {
+        id = 2614,
+        condition = {
+            worldRiddlesInActor = 2514,
+        },
+    },
+    [3507] = {
+        id = 3507,
+        condition = {
+            worldRiddlesData = 2507,
+        },
+    },
+    [2615] = {
+        id = 2615,
+        condition = {
+            worldRiddlesInActor = 2515,
+        },
+    },
+    [3508] = {
+        id = 3508,
+        condition = {
+            worldRiddlesData = 2508,
+        },
+    },
+    [2616] = {
+        id = 2616,
+        condition = {
+            worldRiddlesInActor = 2516,
+        },
+    },
+    [3509] = {
+        id = 3509,
+        condition = {
+            worldRiddlesData = 2509,
+        },
+    },
+    [2617] = {
+        id = 2617,
+        condition = {
+            worldRiddlesInActor = 2517,
+        },
+    },
+    [3510] = {
+        id = 3510,
+        condition = {
+            worldRiddlesData = 2510,
+        },
+    },
+    [2618] = {
+        id = 2618,
+        condition = {
+            worldRiddlesInActor = 2518,
+        },
+    },
+    [3511] = {
+        id = 3511,
+        condition = {
+            worldRiddlesData = 2511,
+        },
+    },
+    [2619] = {
+        id = 2619,
+        condition = {
+            worldRiddlesInActor = 2519,
+        },
+    },
+    [3512] = {
+        id = 3512,
+        condition = {
+            worldRiddlesData = 2512,
+        },
+    },
+    [2620] = {
+        id = 2620,
+        condition = {
+            worldRiddlesInActor = 2520,
+        },
+    },
+    [3513] = {
+        id = 3513,
+        condition = {
+            worldRiddlesData = 2513,
+        },
+    },
+    [2621] = {
+        id = 2621,
+        condition = {
+            worldRiddlesInActor = 2521,
+        },
+    },
+    [3514] = {
+        id = 3514,
+        condition = {
+            worldRiddlesData = 2514,
+        },
+    },
+    [2622] = {
+        id = 2622,
+        condition = {
+            worldRiddlesInActor = 2522,
+        },
+    },
+    [3515] = {
+        id = 3515,
+        condition = {
+            worldRiddlesData = 2515,
+        },
+    },
+    [2623] = {
+        id = 2623,
+        condition = {
+            worldRiddlesInActor = 2523,
+        },
+    },
+    [3516] = {
+        id = 3516,
+        condition = {
+            worldRiddlesData = 2516,
+        },
+    },
+    [2624] = {
+        id = 2624,
+        condition = {
+            worldRiddlesInActor = 2524,
+        },
+    },
+    [3517] = {
+        id = 3517,
+        condition = {
+            worldRiddlesData = 2517,
+        },
+    },
+    [2625] = {
+        id = 2625,
+        condition = {
+            worldRiddlesInActor = 2525,
+        },
+    },
+    [3518] = {
+        id = 3518,
+        condition = {
+            worldRiddlesData = 2518,
+        },
+    },
+    [2626] = {
+        id = 2626,
+        condition = {
+            worldRiddlesInActor = 2526,
+        },
+    },
+    [3519] = {
+        id = 3519,
+        condition = {
+            worldRiddlesData = 2519,
+        },
+    },
+    [2627] = {
+        id = 2627,
+        condition = {
+            worldRiddlesInActor = 2527,
+        },
+    },
+    [3520] = {
+        id = 3520,
+        condition = {
+            worldRiddlesData = 2520,
+        },
+    },
+    [2628] = {
+        id = 2628,
+        condition = {
+            worldRiddlesInActor = 2528,
+        },
+    },
+    [2501] = {
+        id = 2501,
+        condition = {
+            worldRiddlesIsShow = 2501,
+        },
+    },
+    [2629] = {
+        id = 2629,
+        condition = {
+            worldRiddlesInActor = 2529,
+        },
+    },
+    [2502] = {
+        id = 2502,
+        condition = {
+            worldRiddlesIsShow = 2502,
+        },
+    },
+    [2630] = {
+        id = 2630,
+        condition = {
+            worldRiddlesInActor = 2530,
+        },
+    },
+    [2503] = {
+        id = 2503,
+        condition = {
+            worldRiddlesIsShow = 2503,
+        },
+    },
+    [2631] = {
+        id = 2631,
+        condition = {
+            worldRiddlesInActor = 2531,
+        },
+    },
+    [2504] = {
+        id = 2504,
+        condition = {
+            worldRiddlesIsShow = 2504,
+        },
+    },
+    [2632] = {
+        id = 2632,
+        condition = {
+            worldRiddlesInActor = 2532,
+        },
+    },
+    [2505] = {
+        id = 2505,
+        condition = {
+            worldRiddlesIsShow = 2505,
+        },
+    },
+    [2633] = {
+        id = 2633,
+        condition = {
+            worldRiddlesInActor = 2533,
+        },
+    },
+    [2506] = {
+        id = 2506,
+        condition = {
+            worldRiddlesIsShow = 2506,
+        },
+    },
+    [2634] = {
+        id = 2634,
+        condition = {
+            worldRiddlesInActor = 2534,
+        },
+    },
+    [2507] = {
+        id = 2507,
+        condition = {
+            worldRiddlesIsShow = 2507,
+        },
+    },
+    [2635] = {
+        id = 2635,
+        condition = {
+            worldRiddlesInActor = 2535,
+        },
+    },
+    [2508] = {
+        id = 2508,
+        condition = {
+            worldRiddlesIsShow = 2508,
+        },
+    },
+    [2636] = {
+        id = 2636,
+        condition = {
+            worldRiddlesInActor = 2536,
+        },
+    },
+    [2509] = {
+        id = 2509,
+        condition = {
+            worldRiddlesIsShow = 2509,
+        },
+    },
+    [2637] = {
+        id = 2637,
+        condition = {
+            worldRiddlesInActor = 2537,
+        },
+    },
+    [2510] = {
+        id = 2510,
+        condition = {
+            worldRiddlesIsShow = 2510,
+        },
+    },
+    [2638] = {
+        id = 2638,
+        condition = {
+            worldRiddlesInActor = 2538,
+        },
+    },
+    [2511] = {
+        id = 2511,
+        condition = {
+            worldRiddlesIsShow = 2511,
+        },
+    },
+    [2639] = {
+        id = 2639,
+        condition = {
+            worldRiddlesInActor = 2539,
+        },
+    },
+    [2512] = {
+        id = 2512,
+        condition = {
+            worldRiddlesIsShow = 2512,
+        },
+    },
+    [2640] = {
+        id = 2640,
+        condition = {
+            worldRiddlesInActor = 2540,
+        },
+    },
+    [2513] = {
+        id = 2513,
+        condition = {
+            worldRiddlesIsShow = 2513,
+        },
+    },
+    [2641] = {
+        id = 2641,
+        condition = {
+            worldRiddlesInActor = 2541,
+        },
+    },
+    [2514] = {
+        id = 2514,
+        condition = {
+            worldRiddlesIsShow = 2514,
+        },
+    },
+    [2642] = {
+        id = 2642,
+        condition = {
+            worldRiddlesInActor = 2542,
+        },
+    },
+    [2515] = {
+        id = 2515,
+        condition = {
+            worldRiddlesIsShow = 2515,
+        },
+    },
+    [2643] = {
+        id = 2643,
+        condition = {
+            worldRiddlesInActor = 2543,
+        },
+    },
+    [2516] = {
+        id = 2516,
+        condition = {
+            worldRiddlesIsShow = 2516,
+        },
+    },
+    [2644] = {
+        id = 2644,
+        condition = {
+            worldRiddlesInActor = 2544,
+        },
+    },
+    [2517] = {
+        id = 2517,
+        condition = {
+            worldRiddlesIsShow = 2517,
+        },
+    },
+    [2645] = {
+        id = 2645,
+        condition = {
+            worldRiddlesInActor = 2545,
+        },
+    },
+    [2518] = {
+        id = 2518,
+        condition = {
+            worldRiddlesIsShow = 2518,
+        },
+    },
+    [2646] = {
+        id = 2646,
+        condition = {
+            worldRiddlesInActor = 2546,
+        },
+    },
+    [2519] = {
+        id = 2519,
+        condition = {
+            worldRiddlesIsShow = 2519,
+        },
+    },
+    [2647] = {
+        id = 2647,
+        condition = {
+            worldRiddlesInActor = 2547,
+        },
+    },
+    [2520] = {
+        id = 2520,
+        condition = {
+            worldRiddlesIsShow = 2520,
+        },
+    },
+    [2648] = {
+        id = 2648,
+        condition = {
+            worldRiddlesInActor = 2548,
+        },
+    },
     [2521] = {
         id = 2521,
         condition = {
             worldRiddlesIsShow = 2521,
         },
     },
-    [4517] = {
-        id = 4517,
+    [2649] = {
+        id = 2649,
         condition = {
-            worldRiddlesIsCorrect = 2517,
+            worldRiddlesInActor = 2549,
         },
     },
     [2522] = {
