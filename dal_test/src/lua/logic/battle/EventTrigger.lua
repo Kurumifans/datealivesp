@@ -871,12 +871,6 @@ function EventTrigger:refreshMonster(event, refreshCfg, trigger)
 	local params = {}
 	if refreshCfg.SummonType ~= "RandomPos" then
 		local pointsIDs = self.groupList[refreshCfg.TargetID or refreshCfg.GroupID]
-		if not pointsIDs then
-			local levelCfg = BattleDataMgr:getLevelCfg()
-			local msg = string.format("level id:%s,  groupList count:%d, targetID:%s, groupID:%s",
-					tostring(levelCfg.id), table.count(self.groupList), tostring(refreshCfg.TargetID), tostring(refreshCfg.GroupID) )
-			Bugly:ReportLuaException(msg)
-		end
 		local pointPosList = {}
 		for i,v in ipairs(pointsIDs or {}) do
 			local point = self.mapInfo.visualNodes[v]

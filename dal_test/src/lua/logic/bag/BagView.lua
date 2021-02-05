@@ -1783,8 +1783,10 @@ function BagView:onItemUpdateEvent(oldGoods, goods)
                 end
             end
         else
-            goodsData[index] = GoodsDataMgr:getSingleItem(goodsId)
-            table.insert(needUpdateGoods, index)
+            if index then
+                goodsData[index] = GoodsDataMgr:getSingleItem(goodsId)
+                table.insert(needUpdateGoods, index)
+            end
         end
         for i, v in ipairs(needUpdateGoods) do
             local item = gridView:getItem(v)

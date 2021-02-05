@@ -838,6 +838,7 @@ function AmusementPackActor:playEffect(effectName, followDir, effectScale, isLoo
 		else
 			local pos = WorldRoomDataMgr:getCurControl():getBaseMap():convertToNodeSpace(ccp(GameConfig.WS.width/2,GameConfig.WS.height/2))
 			skeletonNode:setPosition(pos)
+			skeletonNode:setCameraMask(1)
 			WorldRoomDataMgr:getCurControl():getBaseMap():addChild(skeletonNode)
 		end
 	else

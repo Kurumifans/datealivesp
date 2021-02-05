@@ -36,15 +36,19 @@ function MainLayer:ctor(data)
     end
 	]]
 	--self:init("lua.uiconfig.MainScene.WanKryptonMainLayer")
-
-	local uidata = TabDataMgr:getData("Uichange", MainUISettingMgr:getui())
-	if uidata then
-		print("init--------------------------------------------=" .. MainUISettingMgr:getui())
-		-- dump(uidata)
-		self:init(uidata.uiConfig)
-	else
-		self:init("lua.uiconfig.MainScene.DefaultMainLayer")
-	end
+    local changeId = MainUISettingMgr:getui()
+    if changeId > 0 then
+    	local uidata = TabDataMgr:getData("Uichange", changeId)
+    	if uidata then
+    		print("init--------------------------------------------=" .. MainUISettingMgr:getui())
+    		-- dump(uidata)
+    		self:init(uidata.uiConfig)
+    	else
+    		self:init("lua.uiconfig.MainScene.DefaultMainLayer")
+    	end
+    else
+        self:init("lua.uiconfig.MainScene.DefaultMainLayer")
+    end
 	
 end
 
@@ -1332,10 +1336,10 @@ end
 
 function MainLayer:onChatViewForceClose()
     if self.chatView and not self.chatView.closeState then
-        self.chatView.closeState = nil
-        self.chatView = nil
-        self:onChatViewClose()
+        self:resetLive2dPos()
     end
+    self.chatView.closeState = nil
+    self.chatView = nil
 end
 
 function MainLayer:registerEvents()
@@ -2020,8 +2024,8 @@ end
 
 function MainLayer:onChatViewOpen(isOpenInput,type)
     --if not FunctionDataMgr:checkFuncOpen(42) then return end
-
     if self.chatView then
+         self.chatView.closeState = nil
         return
     end
 
@@ -2040,6 +2044,7 @@ function MainLayer:onChatViewOpen(isOpenInput,type)
     end,isOpenInput,nil,nil,type) 
 
     self.chatView = ChatView
+    self.chatView.closeState = nil
 end
 
 function MainLayer:onRecvUpdateLive2D()
@@ -2655,7 +2660,7 @@ function MainLayer:onShow()
     self.Image_wjTip:setVisible(not MainPlayer:getIsTouchWJ());
     self.fairyTips:setVisible(HeroDataMgr:checkRedPoint());
     if self.chatView and not self.chatView.closeState then
-        self:onChatViewClose()
+        self:resetLive2dPos()
     end
 
     local redPoin = TitleDataMgr:checkTitleRedState()

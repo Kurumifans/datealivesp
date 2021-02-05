@@ -384,7 +384,9 @@ function TeamFightDataMgr:onRecvOverFight(event)
                 v.rewards = data.rewards or {}
             else
                 if self.battleRewards and self.battleRewards[v.pid] then 
-                    v.rewards = self.battleRewards[v.pid].rewards
+                    v.rewards = self.battleRewards[v.pid].rewards or {}
+                    v.extTips = self.battleRewards[v.pid].extTips or 0
+                    v.extRewards = self.battleRewards[v.pid].extRewards or {}
                 end
                 v.rewards = v.rewards or {}
             end

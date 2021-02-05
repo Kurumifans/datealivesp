@@ -1496,6 +1496,22 @@ function BattleResultView:onTeamFightRewardRefresh(data)
                         end
                     end
                 end
+
+                if data.extRewards and #data.extRewards > 0 then
+                    for i, v in ipairs(data.extRewards) do 
+                        if v.id ~= EC_SItemType.PLAYEREXP and v.id ~= EC_SItemType.SPIRITEXP and
+                            v.id ~= EC_SItemType.FAVOR and v.id ~= EC_SItemType.CONTRIBUTION then
+                            local item = PrefabDataMgr:getPrefab("Panel_dropGoodsItem"):clone()
+                            item:setScale(0.7)
+                            list:pushBackCustomItem(item)
+                            local flag = EC_DropShowType.ACTIVITY_EXTRA
+                            if data.extTips and data.extTips == 1 then
+
+                            end
+                            PrefabDataMgr:setInfo(item, {v.id, v.num},flag)
+                        end
+                    end
+                end
             end
         end
     end

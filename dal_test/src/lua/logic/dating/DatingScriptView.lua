@@ -2569,8 +2569,9 @@ function DatingScriptView:playSceneSoundEffect(pathName)
             print("sceneSoundEffectName ", sceneSoundEffectName)
             self.sceneSoundEffectHandle = TFAudio.playSound(sceneSoundEffectName,true)
         else
+            local handler = self.sceneSoundEffectHandle
             changeEffectVolume(self.Image_black, 0.8, 0.5, 0.8, function ( ... )
-                TFAudio.stopEffect(self.sceneSoundEffectHandle)
+                TFAudio.stopEffect(handler)
                 self.sceneSoundEffectHandle = nil
             end, function ( ... )
                 local sceneSoundEffectName = self.itemData.sceneSoundEffect

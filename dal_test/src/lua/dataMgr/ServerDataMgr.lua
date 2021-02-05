@@ -149,7 +149,7 @@ function ServerDataMgr:setGameServerList(serverData)
         return
     end
 
-    self.gameSeverList = serverData;
+    self.gameSeverList = serverData or {}
 end
 
 function ServerDataMgr:getGameServerList()

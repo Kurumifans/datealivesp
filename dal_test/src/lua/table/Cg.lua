@@ -2313,7 +2313,7 @@ return {
         video = "",
         cg = "date_cg_269",
         backGround = "",
-        cg2 = "",
+        cg2 = "date_cg_269_01",
         id = 2002,
         cg3 = "",
         type = 1,

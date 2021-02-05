@@ -485,7 +485,7 @@ function AmusementPackControl:triggerNpcFunc( actionData, isAuto )
         local actor = self:getActorNodeByPid(actionData.actorPid)
         local actorData = self:getActorDataByPid(actionData.actorPid)
 
-        if actorData.decorateId then
+        if actorData and actorData.decorateId then
             local npcCfg = TabDataMgr:getData("WorldObjectMgr", actorData.decorateId)
             if actionCfg.asyn then -- 异步同时执行
                 actor:actionByCfgId(npcCfg.objectAni_inter)

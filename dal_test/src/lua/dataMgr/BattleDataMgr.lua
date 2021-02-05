@@ -212,52 +212,39 @@ function BattleDataMgr:getScriptSoundData(resource,action,event)
     return check(self.musicDatas[3],prams)
 end
 --TODO 处理天使动态数据
-local function handleAngleData(data,angleDatas,mixDatas)
+local function handleAngleData(data,angleDatas,mixDatas,isClone)
+    local mergeAttrs = {}
     if angleDatas then
         local attrs = angleDatas[data.id] --有没有对应ID得数据
         if attrs then
-            -- Box("xxxxxxdata.id"..tostring(data.id))
-            data = clone(data)
-            for i , attr in ipairs(attrs) do
-                if attr.changeType == eChangeType.MATH or attr.changeType == eChangeType.MATH_EX then     --加减
-                    local _changeValue   = attr["data"..attr.valueType]
-                    data[attr.fieldName] = data[attr.fieldName] + _changeValue
-                    if attr.changeType == eChangeType.MATH then
-                        data[attr.fieldName] = math.max(data[attr.fieldName],0)
-                    end
-                elseif attr.changeType == eChangeType.REPLACE then --替换
-                    data[attr.fieldName] = attr["data"..attr.valueType]
-                elseif attr.changeType == eChangeType.RIDE then --乘
-                    data[attr.fieldName] = data[attr.fieldName] * attr["data"..attr.valueType]
-                    -- data[attr.fieldName] = math.floor(data[attr.fieldName] + 0.5) --四舍五入  (波哥让屏蔽四舍五入)
-                elseif attr.changeType == eChangeType.MERGE then -- 数组类型合并 
-                    table.insertTo(data[attr.fieldName],attr["data"..attr.valueType])
-                end
-                -- print("Angle ["..attr.id..","..attr.fieldName..","..tostring(data[attr.fieldName]).."]")
-            end
+            table.insertTo(mergeAttrs, attrs)
         end
     end
     if mixDatas then
         local attrs = mixDatas[data.id] --有没有对应ID得数据
         if attrs then
-            data = clone(data)
-            for i , attr in ipairs(attrs) do
-                if attr.changeType == eChangeType.MATH or attr.changeType == eChangeType.MATH_EX then     --加减
-                    local _changeValue   = attr["data"..attr.valueType]
-                    data[attr.fieldName] = data[attr.fieldName] + _changeValue
-                    if attr.changeType == eChangeType.MATH then
-                        data[attr.fieldName] = math.max(data[attr.fieldName],0)
-                    end
-                elseif attr.changeType == eChangeType.REPLACE then --替换
-                    data[attr.fieldName] = attr["data"..attr.valueType]
-                elseif attr.changeType == eChangeType.RIDE then --乘
-                    data[attr.fieldName] = data[attr.fieldName] * attr["data"..attr.valueType]
-                elseif attr.changeType == eChangeType.MERGE then -- 数组类型合并 
-                    table.insertTo(data[attr.fieldName],attr["data"..attr.valueType])
-                end
-            end
+            table.insertTo(mergeAttrs, attrs)
         end
     end 
+    if isClone then
+        data = clone(data)
+    end
+    for i , attr in ipairs(mergeAttrs) do
+        if attr.changeType == eChangeType.MATH or attr.changeType == eChangeType.MATH_EX then     --加减
+            local _changeValue   = attr["data"..attr.valueType]
+            data[attr.fieldName] = data[attr.fieldName] + _changeValue
+            if attr.changeType == eChangeType.MATH then
+                data[attr.fieldName] = math.max(data[attr.fieldName],0)
+            end
+        elseif attr.changeType == eChangeType.REPLACE then --替换
+            data[attr.fieldName] = attr["data"..attr.valueType]
+        elseif attr.changeType == eChangeType.RIDE then --乘
+            data[attr.fieldName] = data[attr.fieldName] * attr["data"..attr.valueType]
+            -- data[attr.fieldName] = math.floor(data[attr.fieldName] + 0.5) --四舍五入  (波哥让屏蔽四舍五入)
+        elseif attr.changeType == eChangeType.MERGE then -- 数组类型合并 
+            table.insertTo(data[attr.fieldName],attr["data"..attr.valueType])
+        end
+    end
     return data
 end
 
@@ -265,7 +252,7 @@ end
 function BattleDataMgr:getSkillData(id,angleDatas)
     local skillData = TabDataMgr:getData("Skill", id)
     if skillData and angleDatas then  --处理天使数据
-        skillData = handleAngleData(skillData,angleDatas[eTableName.TB_SKILL],self.mixAngleDatas[eTableName.TB_SKILL])
+        skillData = handleAngleData(skillData,angleDatas[eTableName.TB_SKILL],self.mixAngleDatas[eTableName.TB_SKILL],true)
     end
     return skillData
 end
@@ -273,7 +260,7 @@ end
 function BattleDataMgr:getActionData(id,angleDatas)
     local actionData = TabDataMgr:getData("SkillAction",id)
     if actionData and angleDatas then  --处理天使数据
-        actionData = handleAngleData(actionData,angleDatas[eTableName.TB_SKILLACTION],self.mixAngleDatas[eTableName.TB_SKILLACTION])
+        actionData = handleAngleData(actionData,angleDatas[eTableName.TB_SKILLACTION],self.mixAngleDatas[eTableName.TB_SKILLACTION],true)
     end
     return actionData
 end
@@ -281,7 +268,7 @@ end
 function BattleDataMgr:getEffectData(id,angleDatas)
     local effectData = TabDataMgr:getData("SkillEffect",id)
     if effectData and angleDatas then  --处理天使数据
-        effectData = handleAngleData(effectData,angleDatas[eTableName.TB_SKILLEFFECT],self.mixAngleDatas[eTableName.TB_SKILLEFFECT])
+        effectData = handleAngleData(effectData,angleDatas[eTableName.TB_SKILLEFFECT],self.mixAngleDatas[eTableName.TB_SKILLEFFECT],true)
     end
     return effectData
 end
@@ -289,7 +276,7 @@ end
 function BattleDataMgr:getHurtData(id,angleDatas)
     local hurtData = TabDataMgr:getData("SkillHurt",id)
     if hurtData and angleDatas then
-        hurtData = handleAngleData(hurtData,angleDatas[eTableName.TB_SKILLHURT],self.mixAngleDatas[eTableName.TB_SKILLHURT])
+        hurtData = handleAngleData(hurtData,angleDatas[eTableName.TB_SKILLHURT],self.mixAngleDatas[eTableName.TB_SKILLHURT],true)
     end
     return hurtData
 end
@@ -297,14 +284,14 @@ end
 function BattleDataMgr:getEnergyData(id,angleDatas)
     local energyData = TabDataMgr:getData("HeroPower", id)
     if energyData and angleDatas then  --处理天使数据
-        energyData = handleAngleData(energyData,angleDatas[eTableName.TB_HEROPOWER],self.mixAngleDatas[eTableName.TB_HEROPOWER])
+        energyData = handleAngleData(energyData,angleDatas[eTableName.TB_HEROPOWER],self.mixAngleDatas[eTableName.TB_HEROPOWER],true)
     end
     return energyData
 end
 
 function BattleDataMgr:getHeroDataByAngle(heroData,angleDatas)
     if heroData and angleDatas then  --处理天使数据
-        heroData = handleAngleData(heroData,angleDatas[eTableName.TB_HERO],self.mixAngleDatas[eTableName.TB_HERO])
+        heroData = handleAngleData(heroData,angleDatas[eTableName.TB_HERO],self.mixAngleDatas[eTableName.TB_HERO],false)
     end
     return heroData
 end

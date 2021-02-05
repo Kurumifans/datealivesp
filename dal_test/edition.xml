@@ -1,38 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.01" lastVersion="3.3.99">
-  <f p=".nomedia/nomedia.txt" m="77fb33ccc78683b6801e17723c14fe68" c="0" />
-  <f p="res/basic/effect/dating/ui_superKanban_10125/main_effect_yanhua.skel" m="3f349654894129ca67e1d5e1188e28a7" c="0" />
-  <f p="res/basic/icon/item/goods/501046.png" m="b4b6a5a5f155c283d8ec3276b4e49a54" c="0" />
-  <f p="res/basic/levels/anniversary_springFes.json" m="41bf517b5bc37e8196a52c120091b70b" c="0" />
-  <f p="res/basic/video/cg_main_jinglingzhezhijianglin.mp4" m="0cb55dc0ac10711fba6e5c3710e09485" c="0" />
-  <f p="res/basic/video/loginPart1.mp4" m="4cf15b6350f1efa20f9b260cbc2b6553" c="0" />
-  <f p="res/basic/video/loginPart2.mp4" m="00af1c5c6d8babe86a8faf6ad369c713" c="0" />
-  <f p="src/lua/dataMgr/ActivityDataMgr2.lua" m="da1d60afa66bc8a8c77ffc46586e4830" c="0" />
-  <f p="src/lua/dataMgr/LeagueDataMgr.lua" m="2e5c5a0d7fdeebae22d96cc18d1ac323" c="0" />
-  <f p="src/lua/logic/2020ZNQ/AmusementPackActor.lua" m="20568e231430db131526b91b2b1568c2" c="0" />
-  <f p="src/lua/logic/2020ZNQ/AmusementPackMainView.lua" m="ecc132fade8711e879fad90c5a5bfb32" c="0" />
-  <f p="src/lua/logic/activity/GuessWordMainView.lua" m="27009ad0a0aec2aa4cd2e8739f6bc112" c="0" />
-  <f p="src/lua/logic/battle/BattleController.lua" m="eee2fa8bd1d27844f52f1a6a619ee7d4" c="0" />
-  <f p="src/lua/logic/battle/Hero.lua" m="84596db7f1868e97c3b72e5ea75cd9f7" c="0" />
-  <f p="src/lua/logic/battle/LockStep.lua" m="b7330bfa904461d8bea4128adccd5408" c="0" />
-  <f p="src/lua/logic/MainScene/MainLayer.lua" m="caa3bf9b2bd921800814582b92ce08d7" c="0" />
-  <f p="src/lua/logic/MainScene/MainScene.lua" m="77cd5b7879c0413de0d00c8e79e43317" c="0" />
-  <f p="src/lua/table/Buffer.lua" m="b9d597737b52c3c5d449ab50c72a013c" c="0" />
-  <f p="src/lua/table/BufferEffect.lua" m="9177e45ed88309d5febeb8091642687c" c="0" />
-  <f p="src/lua/table/Dating4.lua" m="ae32a9df4746c09e51178831b1b5cdf1" c="0" />
-  <f p="src/lua/table/DatingEffectMgr.lua" m="c35a151c179bbba64411decfa7d70917" c="0" />
-  <f p="src/lua/table/Hero.lua" m="5751bce2d716e241407dd699dbc09a86" c="0" />
-  <f p="src/lua/table/Item.lua" m="d31d49f65af8a1367c4f5dab7e282897" c="0" />
-  <f p="src/lua/table/PassiveSkills.lua" m="0c42008713cea4f33d821cc73cd96a25" c="0" />
-  <f p="src/lua/table/ReturnNewble.lua" m="07c671a077ec06c23802a35833cba31c" c="0" />
-  <f p="src/lua/table/ReturnNewbleItem.lua" m="831cc01d44f744e586fef31d3156e55e" c="0" />
-  <f p="src/lua/table/Stone.lua" m="6ae5f55bd48b014b4535e48cf6520060" c="0" />
-  <f p="src/lua/table/StoneCompose.lua" m="c6b427fba54207b507b7b71b04448dcd" c="0" />
-  <f p="src/lua/table/String.lua" m="8a228c26ef4a6acbab6f103734ba0a61" c="0" />
-  <f p="src/lua/table/Task.lua" m="070330aa9f8018e90c6a94a8e43e74ee" c="0" />
-  <f p="src/lua/uiconfig/activity/znq_yly_maplayer.lua" m="8c35e05a5a1e8f7c26649a6f5d02af92" c="0" />
-  <f p="src/lua/uiconfig/MainScene/newYear2021Theme.lua" m="5e57b84b9c3681bfa4af1efd1a6d8344" c="0" />
-  <f p="res/basic/ui/mainLayer/new_ui/ad/springFes2021.png" m="5ef5c79a0d7d028925ccc889912c506a" />
-  <f p="res/basic/ui/mainLayer/new_ui_3/btn_tzr.png" m="ea0e37f37813159d6b343b5a5bbbfbff" />
-  <f p="res/basic/ui/mainLayer/new_ui_3/btn_tzrnew.png" m="0230aa70dc762923898ce53d529b2ebe" />
+<files version="3.4.02" lastVersion="3.4.01">
+  <f p=".nomedia/nomedia.txt" m="1aef8da4a296cdb5da3938c86a34f40f" c="0" />
+  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD.skel" m="7c7e9a86be5bbacf7c1892fc25ef1e1e" c="0" />
+  <f p="res/basic/icon/stone/113201/11.png" m="f44309a6d65da9e2964d1332a37e5a0b" c="0" />
+  <f p="res/basic/icon/stone/113201/14.png" m="41d96643d238392556b045f696fbf920" c="0" />
+  <f p="res/basic/icon/stone/113201/21.png" m="c3536dc5618332646483290ad179d6e3" c="0" />
+  <f p="res/basic/icon/stone/113201/24.png" m="849425736c6e8ec6ce7737282252db9b" c="0" />
+  <f p="res/basic/icon/stone/113201/31.png" m="a62fface853c33ec3af1d341d84fc874" c="0" />
+  <f p="res/basic/icon/stone/113201/32.png" m="4430679a72d82d7263043ea2acaf3e2c" c="0" />
+  <f p="res/basic/icon/stone/113201/33.png" m="32cd40969777f7b12762aa42d6e22177" c="0" />
+  <f p="res/basic/icon/stone/113201/34.png" m="e4e29a212f30f8748b9a0a337f1acecd" c="0" />
+  <f p="res/basic/icon/stone/113201/41.png" m="5cd9bb0eb2dbcbcb5c445ad5c75025bb" c="0" />
+  <f p="res/basic/icon/stone/113201/44.png" m="ff239efa058a52cab0099bdb522f2713" c="0" />
+  <f p="res/basic/icon/stone/113201/51.png" m="638698ac73cbdcc056df36c9c0e55788" c="0" />
+  <f p="res/basic/icon/stone/113201/54.png" m="21947c3e90dbd7e124f4c6ccee304c0a" c="0" />
+  <f p="res/basic/icon/stone/113201/61.png" m="745bacd6196243e41df360aa50786633" c="0" />
+  <f p="res/basic/icon/stone/113201/64.png" m="3d2407f84c5a7d9f044cf3070c84ac35" c="0" />
+  <f p="res/basic/icon/stone/113201/71.png" m="e2b6c49021cfe77a20219c860b9b47d8" c="0" />
+  <f p="res/basic/icon/stone/113201/74.png" m="4881f57a08f38794d87535d8bc3afd72" c="0" />
+  <f p="res/basic/modle/bust/sounds/KURUMI_67_B.mp3" m="d4843ff424f16ba5503c6846342e3480" c="0" />
+  <f p="res/basic/ui/mainLayer/new_ui/ad/springFes2021.png" m="c245718f027e306ca246f99d6a348dd5" c="0" />
+  <f p="src/lua/dataMgr/ActivityDataMgr2.lua" m="b84bc88f4b9596bc13fc022eb357236a" c="0" />
+  <f p="src/lua/dataMgr/BattleDataMgr.lua" m="ba3fad4ee19ec254aa2c343abb5fe15a" c="0" />
+  <f p="src/lua/dataMgr/MailDataMgr.lua" m="d40c08ab06881544a1b1c6414ff60397" c="0" />
+  <f p="src/lua/dataMgr/ServerDataMgr.lua" m="bb8316ff25bbfec244a3305132714b4b" c="0" />
+  <f p="src/lua/dataMgr/TabDataMgr.lua" m="e774dc5b86dbb739a47b7d3909315eeb" c="0" />
+  <f p="src/lua/dataMgr/TeamFightDataMgr.lua" m="751b36d7ac6777865d7a296f9ce1117c" c="0" />
+  <f p="src/lua/logic/2020ZNQ/AmusementPackActor.lua" m="5a1fd880485e0c9d03b60cb6bdde2c16" c="0" />
+  <f p="src/lua/logic/2020ZNQ/AmusementPackControl.lua" m="f581a2a03ae78d29aabdcbfcd1fd9378" c="0" />
+  <f p="src/lua/logic/2020ZNQ/AmusementPackMainView.lua" m="2e34e07f2be6c0e3b362a4c1251689e7" c="0" />
+  <f p="src/lua/logic/bag/BagView.lua" m="99145697f4ff5ea1a4a686b685310bd1" c="0" />
+  <f p="src/lua/logic/battle/BattleResultView.lua" m="9fe90081c58122f7212772fb33cf0dbd" c="0" />
+  <f p="src/lua/logic/battle/EventTrigger.lua" m="80f2a194bfbee06895eb9ff8fc37b1cb" c="0" />
+  <f p="src/lua/logic/common/ExtAssetsDownloadView.lua" m="007dacab745344a937bcd6e42ff26566" c="0" />
+  <f p="src/lua/logic/dating/DatingScriptView.lua" m="49554c1fa0c80f1af84e9abe64be1bb0" c="0" />
+  <f p="src/lua/logic/fairyNew/BaoshiComposeView.lua" m="7070242cb46342d891f43ce26248669c" c="0" />
+  <f p="src/lua/logic/fuben/FubenMonsterTrialView.lua" m="407192245f283ab083f394a478660e67" c="0" />
+  <f p="src/lua/logic/login/LoginLayer.lua" m="4d870af2f4621bd8ea92198fa36ea10b" c="0" />
+  <f p="src/lua/logic/MainScene/MainLayer.lua" m="afd5f28a3745ac0d8acd22050da2f8ec" c="0" />
+  <f p="src/lua/logic/MainScene/MainScene.lua" m="71e82e008eedd75eb65337332a41c23f" c="0" />
+  <f p="src/lua/manager/LogonHelper.lua" m="17784d01c163dc1e6a7aa9f2a107f557" c="0" />
+  <f p="src/lua/table/Buffer.lua" m="a736f3d64e4ea877c995f238aa916210" c="0" />
+  <f p="src/lua/table/BufferEffect.lua" m="b17218dc43ff17f10ea6e8cb8cd27384" c="0" />
+  <f p="src/lua/table/Cg.lua" m="853b9887df458c3fde87387541041abb" c="0" />
+  <f p="src/lua/table/DiscreteData.lua" m="fcf122aeea819127dcffb737d7ee8c15" c="0" />
+  <f p="src/lua/table/MainAdBoard.lua" m="ca631e440a0daf51165e03f1dd121033" c="0" />
+  <f p="src/lua/table/PassiveSkills.lua" m="c7283f35c36ac433f639917fcdc888d8" c="0" />
+  <f p="src/lua/table/ReturnNewble.lua" m="b43482c38bb5baabd38eb7a4c5774060" c="0" />
+  <f p="src/lua/table/Skill.lua" m="5575ddd8b56f3ac4edf3a826601bfe0c" c="0" />
+  <f p="src/lua/table/String.lua" m="c3a68f6bc3b88ba1053bc89c613006b3" c="0" />
+  <f p="res/basic/icon/skill/13301_skillG1.png" m="63ba88aee8f652ae6aaf98ce2b55896e" />
+  <f p="res/basic/icon/skill/13301_skillG2.png" m="087c4c1aecced9a022ce85665a983a16" />
+  <f p="res/basic/icon/skill/13301_skillG3.png" m="4cdee9625d0bccbf0a4c196e207924d0" />
 </files>

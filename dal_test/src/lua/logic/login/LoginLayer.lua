@@ -91,17 +91,21 @@ function LoginLayer:initUI(ui)
 		end));
 
 	self.Button_User_proto = TFDirector:getChildByPath(ui,"Button_User_proto")
-	self.Button_User_proto:getChildByName("Label_user_proto"):setSkewX(5)
-	self.Button_User_proto:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
-		Utils:openView("login.UserProto")
-	end));
+	if self.Button_User_proto then
+		self.Button_User_proto:getChildByName("Label_user_proto"):setSkewX(5)
+		self.Button_User_proto:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+			Utils:openView("login.UserProto")
+		end));
+	end
 
 	self.Button_Conceal_proto = TFDirector:getChildByPath(ui,"Button_Conceal_proto")
-	print(self.Button_Conceal_proto)
-	self.Button_Conceal_proto:getChildByName("Label_conceal_proto"):setSkewX(5)
-	self.Button_Conceal_proto:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
-		Utils:openView("login.ConcealProto")
-	end));
+	if self.Button_Conceal_proto then
+		print(self.Button_Conceal_proto)
+		self.Button_Conceal_proto:getChildByName("Label_conceal_proto"):setSkewX(5)
+		self.Button_Conceal_proto:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+			Utils:openView("login.ConcealProto")
+		end));
+	end
 
 	self.Button_notice = TFDirector:getChildByPath(ui,"Button_notice")
 	self.Button_notice:getChildByName("Label_notice"):setSkewX(5)

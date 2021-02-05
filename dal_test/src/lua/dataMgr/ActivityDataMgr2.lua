@@ -2042,6 +2042,7 @@ end
 
 function ActivityDataMgr:checkWarOrderTaskRedPoint()
     local activityInfo = self:getWarOrderAcrivityInfo()
+    if not activityInfo then return false end
     local taskData = self:getItems(activityInfo.id)
     for i, info in ipairs(taskData) do
         if not activityInfo.extendData.daytask or tonumber(activityInfo.extendData.daytask) ~= info then

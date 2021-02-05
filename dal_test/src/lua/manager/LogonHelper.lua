@@ -273,6 +273,14 @@ function LogonHelper:GMLogin(pid)
     UserCenterHttpClient:httpRequest(TFHTTP_TYPE_GET,url)
 end
 
+function LogonHelper:isOfficialChannel()
+    local platformId = 0
+    if HeitaoSdk then
+        platformId = HeitaoSdk.getplatformId() % 10000
+    end
+
+    return platformId == 101 or platformId == 173 or platformId == 682
+end
 
 function LogonHelper:loginVerification()
     showLongLoading()
@@ -345,7 +353,7 @@ function LogonHelper:loginVerification()
                 SaveManager:saveUserInfoDemo(account,password,data.data[selectIdx].token,data.data[selectIdx].gameServerIp,data.data[selectIdx].gameServerPort);
             end
 
-            if not Utils:isOfficialChannel() then
+            if not self:isOfficialChannel() then
                 if curServer and curServer.tip then
                     self.protoAgreeFlag = curServer.tip == 1
                 else
@@ -514,7 +522,7 @@ function LogonHelper:isAgreedProto()
     if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
         return true
     end
-    if Utils:isOfficialChannel() then
+    if self:isOfficialChannel() then
         return true
     end
     return self.protoAgreeFlag

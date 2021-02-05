@@ -402,6 +402,10 @@ function AmusementPackMainView:updateEmojiPanel()
         self.showPage = 1
     end
 
+    if not itemFunEnable and self.showPage == 3 then
+        self.showPage = 1
+    end
+
     self.Image_emoji_s:setVisible(self.showPage == 1)
     self.Button_emoji_n:setVisible(self.showPage ~= 1)
     self.Image_ani_s:setVisible(self.showPage == 2)

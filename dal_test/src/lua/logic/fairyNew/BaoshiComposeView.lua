@@ -12,6 +12,7 @@ function BaoshiComposeView:initData()
     self.minRarity = 2
     self.maxRarity = 6
 
+    self.gemsData = {}
 
     self.gem_group = {}
     self.spineLineAnim = {}
