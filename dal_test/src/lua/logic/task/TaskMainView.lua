@@ -623,6 +623,10 @@ function TaskMainView:showDailyTask()
             v.Panel_geted:setVisible(taskInfo.status == EC_TaskStatus.GETED)
             v.Panel_canGet:setVisible(taskInfo.status == EC_TaskStatus.GET)
             v.Panel_notGet:setVisible(taskInfo.status == EC_TaskStatus.ING)
+        else
+            v.Panel_geted:setVisible(true)
+            v.Panel_canGet:setVisible(false)
+            v.Panel_notGet:setVisible(false)
         end
     end
 

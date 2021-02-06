@@ -28,7 +28,7 @@ function ExtAssetsDownloadView:initUI(ui)
 	self.loadingbar = TFDirector:getChildByPath(self.root_panel,"LoadingBar_process")
 	self.txt_speed = TFDirector:getChildByPath(self.root_panel,"Label_speed")
 	self.txt_fileSize = TFDirector:getChildByPath(self.root_panel,"Label_filesize")
-	self.closed = false
+	self.closed = true
 end
 
 function ExtAssetsDownloadView:onShow()
@@ -70,10 +70,10 @@ function ExtAssetsDownloadView:transNetSpeed(speed)
 	return speedstr
 end
 function ExtAssetsDownloadView:onCloseUI()
-	if self.closed  then
+	if not self.closed  then
 		return
 	end
-	self.closed = true
+	self.closed = false
 	self:removeMEListener(TFWIDGET_ENTERFRAME)
 	EventMgr:removeEventListenerByTarget(self)
 	local currentScene = Public:currentScene()

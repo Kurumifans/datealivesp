@@ -3,7 +3,7 @@
 	"Meta": {
 		"PhysicsSettingCount": 1,
 		"TotalInputCount": 2,
-		"TotalOutputCount": 10,
+		"TotalOutputCount": 2,
 		"VertexCount": 4,
 		"EffectiveForces": {
 			"Gravity": {
@@ -29,7 +29,7 @@
 				{
 					"Source": {
 						"Target": "Parameter",
-						"Id": "PARAM_ANGLE_X_02"
+						"Id": "PARAM_ANGLE_X"
 					},
 					"Weight": 60,
 					"Type": "X",
@@ -38,7 +38,7 @@
 				{
 					"Source": {
 						"Target": "Parameter",
-						"Id": "PARAM_ANGLE_Y_02"
+						"Id": "PARAM_ANGLE_Y"
 					},
 					"Weight": 40,
 					"Type": "X",
@@ -61,94 +61,6 @@
 					"Destination": {
 						"Target": "Parameter",
 						"Id": "PARAM_HAIR_FRONT_02_02"
-					},
-					"VertexIndex": 2,
-					"Scale": 1,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "PARAM_SKIRT_X_02"
-					},
-					"VertexIndex": 2,
-					"Scale": 1,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "PARAM_SKIRT_Y_02"
-					},
-					"VertexIndex": 1,
-					"Scale": 1,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "PARAM_CHESTX"
-					},
-					"VertexIndex": 1,
-					"Scale": 1,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "PARAM_CHESTY"
-					},
-					"VertexIndex": 2,
-					"Scale": 1,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "PARAM_CHESTX_02"
-					},
-					"VertexIndex": 1,
-					"Scale": 1,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "PARAM_CHESTY_02"
-					},
-					"VertexIndex": 2,
-					"Scale": 1,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "PARAM_bwqunzipiao01"
-					},
-					"VertexIndex": 1,
-					"Scale": 1,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "PARAM_bwqunzipiao02"
 					},
 					"VertexIndex": 2,
 					"Scale": 1,

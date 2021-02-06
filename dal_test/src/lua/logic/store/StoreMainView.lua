@@ -581,6 +581,9 @@ function StoreMainView:updateCountDonw()
     local storeId = self.storeData_[self.selectIndex_]
     -- 商店刷新倒计时
     local storeInfo = StoreDataMgr:getStoreInfo(storeId)
+    if not storeInfo then
+        return
+    end
     local remainTime = math.max(0, storeInfo.nextRefreshTime - ServerDataMgr:getServerTime())
     local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
     -- local timeVec = string.split(TextDataMgr:getTextAttr(302202).text,"：")

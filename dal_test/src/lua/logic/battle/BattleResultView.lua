@@ -1007,10 +1007,17 @@ function BattleResultView:createHeroPanel()
     model1:update(0.1)
     model1:stop()
     local tx = CCRenderTexture:create(1136,1000)
+    if not tx then
+        return
+    end
     tx:begin()
     self.Image_battleResult_role_mirror:visit()
     tx:endToLua()
     
+    if not tx:getSprite():getTexture() then
+        model1:removeFromParent()
+        return
+    end
     local yinziPos = ccp(-340, -380)
     yinziPos.x = yinziPos.x + modelInfo.battleEndYingziPos.x
     yinziPos.y = yinziPos.y + modelInfo.battleEndYingziPos.y

@@ -625,6 +625,9 @@ function NewRoleShowView:showUnInfoList()
     end
 
 	local dressCfg = TabDataMgr:getData("Dress", selectId)
+	if not dressCfg then
+		return
+	end
 	for i, v in ipairs (dressCfg.exActionList) do
 		local cfg = iTable[v]
 		local enough = GoodsDataMgr:isGoodsEnough(cfg.conditionEx.ownItems)

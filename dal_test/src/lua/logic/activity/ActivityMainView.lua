@@ -372,6 +372,12 @@ function ActivityMainView:removeEvents()
 end
 
 function ActivityMainView:onCountDownPer()
+    if not self.activityInfo_ then
+        if self.countDownTimer_ then
+            TFDirector:removeTimer(self.countDownTimer_)
+        end
+        return
+    end
     for i, v in ipairs(self.activityInfo_) do
         local model = self.activityModel_[v.id]
         if model and model.onUpdateCountDownEvent then

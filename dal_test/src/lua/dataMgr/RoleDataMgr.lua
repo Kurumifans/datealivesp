@@ -1296,6 +1296,9 @@ end
 
 function RoleDataMgr:getFavorMaxLv(id)
     local npcInfo = self.roleTable[id]
+    if not npcInfo then
+        return 1
+    end
     return #npcInfo.favorLevels-1
 end
 

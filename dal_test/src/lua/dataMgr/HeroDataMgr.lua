@@ -139,7 +139,10 @@ function HeroDataMgr:reveFormationChange(event)
 end
 
 function HeroDataMgr:getIsFormationOn(_pos)
-	return self.formation.stance[_pos] ~= nil;
+	if self.formation.stance then
+		return self.formation.stance[_pos] ~= nil;
+	end
+	return false
 end
 
 function HeroDataMgr:getHeroIdByFormationPos(_pos)
@@ -2393,6 +2396,9 @@ end
 
 function HeroDataMgr:getSkins(heroid)
 	local ret = {};
+	if not self.heroTable[heroid] then
+		return ret
+	end
 	local skins = self.heroTable[heroid].optionalSkin;
 	local sortFunc = function(a,b)
 		local ause = 0;

@@ -299,6 +299,9 @@ function EquipmentDataMgr:getEquipStarLv(id)
 	if self:isCid(id) then
 		cid = id
 	else
+		if not self.equips[id] then
+			return starLv
+		end
 		cid = self.equips[id].cid;
 		starLv = self.equips[id].star
 	end
@@ -365,7 +368,10 @@ function EquipmentDataMgr:isUesing(id)
 	end
 
 	if string.find(id,"equipment") then return false end 
-	return self.equips[id].heroId ~= "0";
+	if self.equips[id] and self.equips[id].heroId then
+		return self.equips[id].heroId ~= "0";
+	end
+	return false
 end
 
 function EquipmentDataMgr:checkIsusing(heroId,cid)
@@ -768,8 +774,6 @@ function EquipmentDataMgr:getEquipSubType(id)
 		cid = id
 	elseif self.equips[id] then
 		cid = self.equips[id].cid;
-	else
-		Bugly:ReportLuaException("errorEquipId:========================="..id)
 	end
 
 	local subType = -1
@@ -2398,8 +2402,10 @@ function EquipmentDataMgr:getHeroOwnGemInfos(rarity)
     	local cfg = self:getGemCfg(v.cid)
     	if cfg.rarity == rarity then
 	    	local info = infos[cfg.heroId]
-	        info.num = info.num + 1
-	        info.posNum[cfg.skillType] = info.posNum[cfg.skillType] + 1
+	    	if info then
+		        info.num = info.num + 1
+		        info.posNum[cfg.skillType] = info.posNum[cfg.skillType] + 1		    	
+		    end
 	    end
     end
     local heroInfos = {}

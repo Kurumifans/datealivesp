@@ -2311,13 +2311,13 @@ return {
     },
     [2002] = {
         video = "",
-        cg = "date_cg_269",
+        cg = "date_cg_269_event",
         backGround = "",
-        cg2 = "date_cg_269_01",
+        cg2 = "",
         id = 2002,
         cg3 = "",
         type = 1,
-        cgId = 540380,
+        cgId = 0,
     },
     [911003] = {
         video = "",
@@ -4591,13 +4591,13 @@ return {
     },
     [2001] = {
         video = "",
-        cg = "date_cg_268",
+        cg = "date_cg_268_event",
         backGround = "",
         cg2 = "",
         id = 2001,
         cg3 = "",
         type = 1,
-        cgId = 540379,
+        cgId = 0,
     },
     [910106] = {
         video = "",
@@ -4631,13 +4631,13 @@ return {
     },
     [2003] = {
         video = "",
-        cg = "cg_dab_shuangren",
+        cg = "cg_dab_shuangren_event",
         backGround = "",
         cg2 = "",
         id = 2003,
         cg3 = "",
         type = 1,
-        cgId = 540409,
+        cgId = 0,
     },
     [1010302] = {
         video = "",

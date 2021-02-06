@@ -743,6 +743,9 @@ end
 local TFLive2dTimer = nil;
 function TTFLive2D:addRenderTexture()
 	local tx = CCRenderTexture:create(self:getSize().width,self:getSize().height)
+	if not tx then
+		tx = CCRenderTexture:create(500,300)
+	end
 	tx:begin();
 	self:visit();
 	tx:endToLua();
@@ -767,7 +770,10 @@ function TTFLive2D:addRenderTexture()
 	    	TFLive2dTimer = nil;
 	    	return;
 		end
-
+		if not self.timer_ then
+			return
+		end
+		self:stopTimer()
 		self:show()
 		local tx = CCRenderTexture:create(self:getSize().width,self:getSize().height)
 		tx:begin();
@@ -778,7 +784,10 @@ function TTFLive2D:addRenderTexture()
 		sp:setTexture(tx:getSprite():getTexture());
 		--self:stopTimer()
 	end
-	self.timer_ = TFDirector:addTimer(10, -1, nil, delayToGame)
+	if self.timer_ then
+		TFDirector:removeTimer(self.timer_)
+	end
+	self.timer_ = TFDirector:addTimer(10, 1, nil, delayToGame)
 	TFLive2dTimer = self.timer_;
 
 	return sp
@@ -1096,6 +1105,9 @@ function ElvesNpc:getModelBindVoicePath(modelId,actionName)
 	local str = string.format("%s/%s",modelData.rolePath,modelData.roleName)
 	local jsonContent = io.readfile(str)
 	local data         = json.decode(jsonContent) --模型数据
+	if not data then
+		return
+	end
 	local newAddStr = "newPath/"
 	local motions  = data.motions or data.FileReferences.Motions
 	if motions and motions[actionName] and motions[actionName][1] then

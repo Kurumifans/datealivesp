@@ -333,11 +333,14 @@ function FubenLevelView:selectDiff(index)
     if not enabled then
         local firstLevelCid = FubenDataMgr:getChapterFirstLevel(self.chapterCid_, diffData.diff)
         local firstLevelCfg = FubenDataMgr:getLevelCfg(firstLevelCid)
+        if not firstLevelCfg then
+            return
+        end
         local count = #firstLevelCfg.preLevelId
         if count == 1 then
             local levelName = FubenDataMgr:getLevelName(firstLevelCfg.preLevelId[1])
             local preLevelCfg = FubenDataMgr:getLevelCfg(firstLevelCfg.preLevelId[1])
-            local diffData = self:getDiffData(preLevelCfg1.difficulty)
+            local diffData = self:getDiffData(preLevelCfg.difficulty)
             local diffName = TextDataMgr:getText(diffData.name)
             Utils:showTips(300004, diffName .. levelName)
         elseif count == 2 then

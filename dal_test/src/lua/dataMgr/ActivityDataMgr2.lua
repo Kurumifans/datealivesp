@@ -2018,6 +2018,9 @@ function ActivityDataMgr:getWarOrderLevel()
 end
 
 function ActivityDataMgr:getWarOrderMaxLevel()
+    if not self:getWarOrderAcrivityInfo() then
+        return 0
+    end
     return self:getWarOrderAcrivityInfo().extendData.maxLevel
 end
 
@@ -2057,6 +2060,9 @@ end
 
 function ActivityDataMgr:getWarOrderChargeList()
     local activityInfo = self:getWarOrderAcrivityInfo()
+    if not activityInfo then
+        return {}
+    end
     local rechargeList = activityInfo.extendData.rechargeList or {}
     return rechargeList
 end

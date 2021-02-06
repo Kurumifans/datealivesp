@@ -44,6 +44,9 @@ end
 function StoreDataMgr:sortWithCommodity(storeId)
     local commodity = self.commodity_[storeId]
     local storeCfg = self:getStoreCfg(storeId)
+    if not storeCfg then
+        return
+    end
     local orderType = 1;
     if storeCfg.extra then
         local jsonData = json.decode(storeCfg.extra);

@@ -416,7 +416,7 @@ function TeamFightDataMgr:onRecvOverFight(event)
     if battleController.isClearing then
         --延迟退出
        local timer
-       timer = TFDirector:addTimer(1000, -1, nil, function ()
+       timer = TFDirector:addTimer(1000, 1, nil, function ()
            TFDirector:removeTimer(timer)
             if data.win then
                 local layer = require("lua.logic.battle.BattleResultView"):new()

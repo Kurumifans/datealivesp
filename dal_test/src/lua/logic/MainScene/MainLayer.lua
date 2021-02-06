@@ -1338,8 +1338,10 @@ function MainLayer:onChatViewForceClose()
     if self.chatView and not self.chatView.closeState then
         self:resetLive2dPos()
     end
-    self.chatView.closeState = nil
-    self.chatView = nil
+    if self.chatView then
+        self.chatView.closeState = nil
+        self.chatView = nil
+    end
 end
 
 function MainLayer:registerEvents()

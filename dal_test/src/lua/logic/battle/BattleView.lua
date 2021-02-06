@@ -1603,6 +1603,10 @@ function BattleView:onShow()
         self:_fadeOut()
         self.bOnShow = true
         --开始战斗
+        if not battleController.data then
+            EventMgr:dispatchEvent(eEvent.EVENT_LEAVE)
+            return
+        end
         battleController.start()
 
         if battleController.isLockStep() then 

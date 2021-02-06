@@ -1,55 +1,51 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.02" lastVersion="3.4.01">
-  <f p=".nomedia/nomedia.txt" m="1aef8da4a296cdb5da3938c86a34f40f" c="0" />
-  <f p="res/basic/effect/effects_13301_skillD/effects_13301_skillD.skel" m="7c7e9a86be5bbacf7c1892fc25ef1e1e" c="0" />
-  <f p="res/basic/icon/stone/113201/11.png" m="f44309a6d65da9e2964d1332a37e5a0b" c="0" />
-  <f p="res/basic/icon/stone/113201/14.png" m="41d96643d238392556b045f696fbf920" c="0" />
-  <f p="res/basic/icon/stone/113201/21.png" m="c3536dc5618332646483290ad179d6e3" c="0" />
-  <f p="res/basic/icon/stone/113201/24.png" m="849425736c6e8ec6ce7737282252db9b" c="0" />
-  <f p="res/basic/icon/stone/113201/31.png" m="a62fface853c33ec3af1d341d84fc874" c="0" />
-  <f p="res/basic/icon/stone/113201/32.png" m="4430679a72d82d7263043ea2acaf3e2c" c="0" />
-  <f p="res/basic/icon/stone/113201/33.png" m="32cd40969777f7b12762aa42d6e22177" c="0" />
-  <f p="res/basic/icon/stone/113201/34.png" m="e4e29a212f30f8748b9a0a337f1acecd" c="0" />
-  <f p="res/basic/icon/stone/113201/41.png" m="5cd9bb0eb2dbcbcb5c445ad5c75025bb" c="0" />
-  <f p="res/basic/icon/stone/113201/44.png" m="ff239efa058a52cab0099bdb522f2713" c="0" />
-  <f p="res/basic/icon/stone/113201/51.png" m="638698ac73cbdcc056df36c9c0e55788" c="0" />
-  <f p="res/basic/icon/stone/113201/54.png" m="21947c3e90dbd7e124f4c6ccee304c0a" c="0" />
-  <f p="res/basic/icon/stone/113201/61.png" m="745bacd6196243e41df360aa50786633" c="0" />
-  <f p="res/basic/icon/stone/113201/64.png" m="3d2407f84c5a7d9f044cf3070c84ac35" c="0" />
-  <f p="res/basic/icon/stone/113201/71.png" m="e2b6c49021cfe77a20219c860b9b47d8" c="0" />
-  <f p="res/basic/icon/stone/113201/74.png" m="4881f57a08f38794d87535d8bc3afd72" c="0" />
-  <f p="res/basic/modle/bust/sounds/KURUMI_67_B.mp3" m="d4843ff424f16ba5503c6846342e3480" c="0" />
-  <f p="res/basic/ui/mainLayer/new_ui/ad/springFes2021.png" m="c245718f027e306ca246f99d6a348dd5" c="0" />
-  <f p="src/lua/dataMgr/ActivityDataMgr2.lua" m="b84bc88f4b9596bc13fc022eb357236a" c="0" />
-  <f p="src/lua/dataMgr/BattleDataMgr.lua" m="ba3fad4ee19ec254aa2c343abb5fe15a" c="0" />
-  <f p="src/lua/dataMgr/MailDataMgr.lua" m="d40c08ab06881544a1b1c6414ff60397" c="0" />
-  <f p="src/lua/dataMgr/ServerDataMgr.lua" m="bb8316ff25bbfec244a3305132714b4b" c="0" />
-  <f p="src/lua/dataMgr/TabDataMgr.lua" m="e774dc5b86dbb739a47b7d3909315eeb" c="0" />
-  <f p="src/lua/dataMgr/TeamFightDataMgr.lua" m="751b36d7ac6777865d7a296f9ce1117c" c="0" />
-  <f p="src/lua/logic/2020ZNQ/AmusementPackActor.lua" m="5a1fd880485e0c9d03b60cb6bdde2c16" c="0" />
-  <f p="src/lua/logic/2020ZNQ/AmusementPackControl.lua" m="f581a2a03ae78d29aabdcbfcd1fd9378" c="0" />
-  <f p="src/lua/logic/2020ZNQ/AmusementPackMainView.lua" m="2e34e07f2be6c0e3b362a4c1251689e7" c="0" />
-  <f p="src/lua/logic/bag/BagView.lua" m="99145697f4ff5ea1a4a686b685310bd1" c="0" />
-  <f p="src/lua/logic/battle/BattleResultView.lua" m="9fe90081c58122f7212772fb33cf0dbd" c="0" />
-  <f p="src/lua/logic/battle/EventTrigger.lua" m="80f2a194bfbee06895eb9ff8fc37b1cb" c="0" />
-  <f p="src/lua/logic/common/ExtAssetsDownloadView.lua" m="007dacab745344a937bcd6e42ff26566" c="0" />
-  <f p="src/lua/logic/dating/DatingScriptView.lua" m="49554c1fa0c80f1af84e9abe64be1bb0" c="0" />
-  <f p="src/lua/logic/fairyNew/BaoshiComposeView.lua" m="7070242cb46342d891f43ce26248669c" c="0" />
-  <f p="src/lua/logic/fuben/FubenMonsterTrialView.lua" m="407192245f283ab083f394a478660e67" c="0" />
-  <f p="src/lua/logic/login/LoginLayer.lua" m="4d870af2f4621bd8ea92198fa36ea10b" c="0" />
-  <f p="src/lua/logic/MainScene/MainLayer.lua" m="afd5f28a3745ac0d8acd22050da2f8ec" c="0" />
-  <f p="src/lua/logic/MainScene/MainScene.lua" m="71e82e008eedd75eb65337332a41c23f" c="0" />
-  <f p="src/lua/manager/LogonHelper.lua" m="17784d01c163dc1e6a7aa9f2a107f557" c="0" />
-  <f p="src/lua/table/Buffer.lua" m="a736f3d64e4ea877c995f238aa916210" c="0" />
-  <f p="src/lua/table/BufferEffect.lua" m="b17218dc43ff17f10ea6e8cb8cd27384" c="0" />
-  <f p="src/lua/table/Cg.lua" m="853b9887df458c3fde87387541041abb" c="0" />
-  <f p="src/lua/table/DiscreteData.lua" m="fcf122aeea819127dcffb737d7ee8c15" c="0" />
-  <f p="src/lua/table/MainAdBoard.lua" m="ca631e440a0daf51165e03f1dd121033" c="0" />
-  <f p="src/lua/table/PassiveSkills.lua" m="c7283f35c36ac433f639917fcdc888d8" c="0" />
-  <f p="src/lua/table/ReturnNewble.lua" m="b43482c38bb5baabd38eb7a4c5774060" c="0" />
-  <f p="src/lua/table/Skill.lua" m="5575ddd8b56f3ac4edf3a826601bfe0c" c="0" />
-  <f p="src/lua/table/String.lua" m="c3a68f6bc3b88ba1053bc89c613006b3" c="0" />
-  <f p="res/basic/icon/skill/13301_skillG1.png" m="63ba88aee8f652ae6aaf98ce2b55896e" />
-  <f p="res/basic/icon/skill/13301_skillG2.png" m="087c4c1aecced9a022ce85665a983a16" />
-  <f p="res/basic/icon/skill/13301_skillG3.png" m="4cdee9625d0bccbf0a4c196e207924d0" />
+<files version="3.4.03" lastVersion="3.4.02">
+  <f p=".nomedia/nomedia.txt" m="883e9a9ef1bd8b7cabffd43e3f15c945" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10426_superKanban/motions/idle.motion3.json" m="1d4e33fac1e2fd6f3792ee0ead055c97" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10426_superKanban/motions/id_favor1_1.motion3.json" m="ee1c5cffea0b9e425837aab218069160" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10426_superKanban/motions/id_favor1_2.motion3.json" m="67c0ee7ba2a6a195b3ad66751cc36263" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10426_superKanban/motions/id_favor1_3.motion3.json" m="fec12e091768e0ec5a21866c5f578849" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10426_superKanban/motions/id_favor2_1.motion3.json" m="079df6ac7926694a89c8e1c0b3df269a" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10426_superKanban/motions/id_favor3_1.motion3.json" m="086575dc03f4e2e3e6e4e9bf535d83ce" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10426_superKanban/motions/id_favor4_1.motion3.json" m="38da91119ba1414526b1baf5e0228132" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10426_superKanban/bust_10426_new.moc3" m="4093e1b1d4a0820d280f98d10f399403" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10426_superKanban/bust_10426_new.physics3.json" m="0f9a28f4e790677c3a5e2b78af2029c0" c="0" />
+  <f p="src/lua/dataMgr/ActivityDataMgr2.lua" m="a71da07f7ce228f5bfc1a7889a46fccd" c="0" />
+  <f p="src/lua/dataMgr/AvatarDataMgr.lua" m="5f103e3560a3dcc7fb59d2e1b4313cdf" c="0" />
+  <f p="src/lua/dataMgr/EquipmentDataMgr.lua" m="395bb3d11936a65d1f52e926b4a243ca" c="0" />
+  <f p="src/lua/dataMgr/HeroDataMgr.lua" m="73d806fda9ef396f14ac994f367eacdc" c="0" />
+  <f p="src/lua/dataMgr/NewCityDataMgr.lua" m="46e096350b1439ce5ee5235171c87de5" c="0" />
+  <f p="src/lua/dataMgr/RoleDataMgr.lua" m="98ba99eae396046af62486fb8ba7b63e" c="0" />
+  <f p="src/lua/dataMgr/ServerDataMgr.lua" m="a7d3ec9927e273537c2cf35d284945c5" c="0" />
+  <f p="src/lua/dataMgr/StoreDataMgr.lua" m="2a88999dcc933ecc8eaaa287c81cc175" c="0" />
+  <f p="src/lua/dataMgr/TeamFightDataMgr.lua" m="ce8c10c4572441dcda27d9be23808e63" c="0" />
+  <f p="src/lua/logic/activity/ActivityMainView.lua" m="d57f240617214011d520ef99ce5539ec" c="0" />
+  <f p="src/lua/logic/activity/Activity_touziren.lua" m="483b50ec29f74045db55b9062037c94c" c="0" />
+  <f p="src/lua/logic/battle/BattleResultView.lua" m="ad0a4690421ad78b4173e68cdffd4bd4" c="0" />
+  <f p="src/lua/logic/battle/BattleView.lua" m="9990c07823969ff6fd5c1362df69a775" c="0" />
+  <f p="src/lua/logic/city/CityJobView.lua" m="d61a589bb6c9b8c15855c379d6a657cb" c="0" />
+  <f p="src/lua/logic/common/ElvesNpc.lua" m="180542860e300cfc655922fe6e630155" c="0" />
+  <f p="src/lua/logic/common/ExtAssetsDownloadView.lua" m="2c03af9d358f53c59d7f3473db00cad7" c="0" />
+  <f p="src/lua/logic/dating/DatingLetterView.lua" m="3fc32a8060722d916115e80b9fb78620" c="0" />
+  <f p="src/lua/logic/dating/SettlementLayer.lua" m="8c697bc972c737ecb4ee28d487f60c77" c="0" />
+  <f p="src/lua/logic/fuben/FubenChapterView.lua" m="4125ce3f4be5827219df6f15cc3891e7" c="0" />
+  <f p="src/lua/logic/fuben/FubenLevelView.lua" m="42862ac79cf90f98d9eda3adc84daf1e" c="0" />
+  <f p="src/lua/logic/league/LeagueBuildingMainView.lua" m="e61770007ce05b61307b3e6a9b53d73e" c="0" />
+  <f p="src/lua/logic/MainScene/MainLayer.lua" m="a0b97ddf879fe38e6d4b4da700336a8e" c="0" />
+  <f p="src/lua/logic/role/NewRoleShowView.lua" m="2872df26ee551dbee99eb85b86b88ad9" c="0" />
+  <f p="src/lua/logic/store/StoreMainView.lua" m="58e0087a7d8ff767399fa32193b513f2" c="0" />
+  <f p="src/lua/logic/task/TaskMainView.lua" m="ed50d5aafd8d03d138419aa7e29649ce" c="0" />
+  <f p="src/lua/logic/BaseLayer.lua" m="2f8d3c85430d4b66ea091152220755e7" c="0" />
+  <f p="src/lua/logic/BaseScene.lua" m="10cb29b7e3068cad4636678cecb83603" c="0" />
+  <f p="src/lua/public/AudioExchangePlay.lua" m="4d3034f55aa4bbfcc0f504cf2234b34d" c="0" />
+  <f p="src/lua/public/ScrollMenu.lua" m="075fc7ee5b3848d06f890c8b2093a958" c="0" />
+  <f p="src/lua/table/Buffer.lua" m="01f9482d40944668eead782033cf753a" c="0" />
+  <f p="src/lua/table/BufferEffect.lua" m="0e3b658cc07d4b1236bfed95a14060ab" c="0" />
+  <f p="src/lua/table/Cg.lua" m="9510602097b6b8a1a99d07462d66bfad" c="0" />
+  <f p="src/lua/table/DungeonLevel.lua" m="b703d2946adf93e606f4395754778618" c="0" />
+  <f p="src/lua/table/Flags.lua" m="771054f21ef2b90170f625456d4260bb" c="0" />
+  <f p="src/lua/table/String.lua" m="a89192e9cdab777fc816314462e3ab2b" c="0" />
+  <f p="res/basic/cgAnimation/cg_dab_shuangren_event.lua" m="7c29a5207555d4d54f7de258dc46cf3a" />
+  <f p="res/basic/cgAnimation/date_cg_268_event.lua" m="3b4df2b8e99a24c23a21eec8a1c722c9" />
+  <f p="res/basic/cgAnimation/date_cg_269_event.lua" m="1f377c5ae00986b6cf366aab62539b31" />
 </files>

@@ -2267,6 +2267,10 @@ function FubenChapterView:removeCountDownTimer()
 end
 
 function FubenChapterView:onCountDownPer()
+
+    if not self.fubenData_ then
+        return
+    end
     for i, v in ipairs(self.fubenData_) do
         if v.type_ == EC_FBType.DAILY then
             if self.cache_[i] then

@@ -85,7 +85,7 @@ function ServerDataMgr:init()
             url = "http://43.254.2.141:8081/account/login"
         },
     }
-
+    self.gameSeverList = {}
     TFDirector:addProto(s2c.LOGIN_RESP_SERVER_TIME, self, self.onRecvServerTime)
 end
 -- [[登录服开始]]--
