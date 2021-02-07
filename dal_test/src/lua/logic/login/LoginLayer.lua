@@ -477,6 +477,7 @@ function LoginLayer:loginGameServerSuccess(event)
     local currentScene = Public:currentScene()
     if currentScene ~= nil and currentScene.getTopLayer then
         if currentScene.__cname == "LoginScene" then
+        	MainPlayer:stopLoadTimer()
         	local playerLv = MainPlayer:getPlayerLv()
         	if playerLv <= 5 then
         		MainPlayer:enterGame()
@@ -517,8 +518,11 @@ function LoginLayer.enterNextPage(sender)
 		end
 
 		if not LogonHelper:isAgreedProto() then
-			Utils:openView("login.ConcealProto")
-			return
+			local filePath = "src/lua/uiconfig/loginScene/concealProto.lua"
+			if me.FileUtils:isFileExist( filePath ) then
+				Utils:openView("login.ConcealProto")
+				return
+			end
 		end
 		
 		local platformId = 0

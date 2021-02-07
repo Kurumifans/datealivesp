@@ -259,6 +259,7 @@ function BuildRepairView:cellSizeForTable()
 end
 
 function BuildRepairView:numberOfCellsInTableView()
+    self.repairOutput = self.repairOutput or {}
     local cnt = math.ceil(#self.repairOutput/2)
     return cnt
 end

@@ -595,6 +595,9 @@ function EquipmentDataMgr:getEquipStarGrow(id)
 	if self:isCid(id) then
 		cid = id
 	else
+        if not self.equips[id] then
+            return false
+        end
 		cid = self.equips[id].cid
 	end
 

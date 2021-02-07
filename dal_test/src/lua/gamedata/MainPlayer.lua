@@ -853,6 +853,7 @@ function MainPlayer:onLogin(event)
         if isOver or not CommonManager:getConnectionStatus() then
             NetWork:reset()
             TFDirector:removeTimer(timer);
+            self.loadDataTimer = nil
         end
 
         local value = self.dataMgr_[index];
@@ -873,6 +874,14 @@ function MainPlayer:onLogin(event)
     self:sendReqInvestorScoreInfo()
     self:sendReqSwitchList()
     timer = TFDirector:addTimer(0, -1, nil,step);
+    self.loadDataTimer = timer
+end
+
+function MainPlayer:stopLoadTimer()
+    if self.loadDataTimer then
+        TFDirector:removeTimer(self.loadDataTimer)
+        self.loadDataTimer = nil
+    end
 end
 
 function MainPlayer:onLoginOut()

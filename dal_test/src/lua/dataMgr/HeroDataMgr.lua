@@ -105,11 +105,16 @@ function HeroDataMgr:revcFormationList(event,isFriend)
 	self.formation.heros = {}
 	if formation.stance then
 		for _id,hero in pairs(self.heroTable) do
-			hero.job = 4;
-			for _pos,sid in pairs(formation.stance) do
-				if hero.ishave and hero.sid == sid then
-					hero.job = _pos;  	--队长
-					self.formation.heros[_pos] = hero.id
+			if type(v) == "number" then
+				self.heroTable[_id] = TabDataMgr:getData("Hero",_id)
+				self.heroTable[_id].isHave = false
+			else
+				hero.job = 4;
+				for _pos,sid in pairs(formation.stance) do
+					if hero.ishave and hero.sid == sid then
+						hero.job = _pos;  	--队长
+						self.formation.heros[_pos] = hero.id
+					end
 				end
 			end
 		end
@@ -832,8 +837,13 @@ end
 
 function HeroDataMgr:getHeroCid(sid)
 	for k,v in pairs(self.heroTable) do
-		if v.sid == sid then
-			return v.id
+		if type(v) == "number" then
+			self.heroTable[k] = TabDataMgr:getData("Hero",k)
+			self.heroTable[k].isHave = false
+		else
+			if v.sid == sid then
+				return v.id
+			end
 		end
 	end
 end
@@ -1014,11 +1024,13 @@ function HeroDataMgr:syncServer(hero,ct)
         end
         self:setHeroAngelInfo(self.heroTable[hero.cid])
 	elseif ct == EC_SChangeType.DEFAULT then
-        self.heroTable[hero.cid].ishave = true;
-        table.merge(self.heroTable[hero.cid],hero);
-        self.haveList[hero.sid] = self.haveList[hero.sid] or {}
-        table.merge(self.haveList[hero.sid],self.heroTable[hero.cid]);
-        self:setHeroAngelInfo(self.heroTable[hero.cid])
+		if self.heroTable[hero.cid] then
+			self.heroTable[hero.cid].ishave = true;
+			table.merge(self.heroTable[hero.cid],hero);
+			self.haveList[hero.sid] = self.haveList[hero.sid] or {}
+			table.merge(self.haveList[hero.sid],self.heroTable[hero.cid]);
+			self:setHeroAngelInfo(self.heroTable[hero.cid])
+		end
     elseif ct == EC_SChangeType.UPDATE then
     	local old = clone(self.heroTable[hero.cid])
     	self.heroTable[hero.cid] = nil;
@@ -1172,9 +1184,11 @@ function HeroDataMgr:changeDataToSelf()
 
 		for _id,hero in pairs(self.heroTable) do
 			hero.job = 4;
-			for _pos,cid in pairs(self.formation.heros) do
-				if hero.ishave and hero.id == cid then
-					hero.job = _pos;  	--队长
+			if self.formation.heros then
+				for _pos,cid in pairs(self.formation.heros) do
+					if hero.ishave and hero.id == cid then
+						hero.job = _pos;  	--队长
+					end
 				end
 			end
 		end
@@ -2659,6 +2673,9 @@ function HeroDataMgr:revcPropertyChange(event)
 	event.data.heroId = self:getHeroCid(event.data.heroId)
 	local data = event.data
 	local hero = self:getHero(data.heroId)
+	if not hero or not hero.attr then
+		return
+	end
 	hero.fightPower = data.fightPower
 	GoodsDataMgr:syncHeroFightPower(data.heroId,hero.fightPower)
 	for i, v in ipairs(data.attr) do

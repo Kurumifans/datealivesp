@@ -1106,7 +1106,7 @@ function ElvesNpc:getModelBindVoicePath(modelId,actionName)
 	local jsonContent = io.readfile(str)
 	local data         = json.decode(jsonContent) --模型数据
 	if not data then
-		return
+		return "modle/bust/sounds/TOUKA_02.mp3"
 	end
 	local newAddStr = "newPath/"
 	local motions  = data.motions or data.FileReferences.Motions

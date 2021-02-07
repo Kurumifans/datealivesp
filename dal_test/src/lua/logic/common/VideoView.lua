@@ -189,7 +189,7 @@ function VideoView:addTopLayer(layer)
 end
 
 function VideoView:addLoadingLayer(layer)
-    if self.videoPlayer_ then
+    if self.videoPlayer_ and self.videoPlayer_.addLoadingLayer then
         self.videoPlayer_:addLoadingLayer(layer);
     end
 end

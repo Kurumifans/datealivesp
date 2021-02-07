@@ -531,6 +531,7 @@ function CityJobView:updateCountDonw()
         self:refreshJobEvent()
         self:refreshBuildScroll()
         self.Panel_working:hide()
+        self:removeCountDownTimer()
         return
     end
     local _, hour, min, sec = Utils:getDHMS(remainTime, false)

@@ -1879,22 +1879,17 @@ function MainLayer:registerEvents()
         end
         self.Button_showUI:setVisible(not self.Panel_top:isVisible())
         self.Button_showUI:setZOrder(100)
-
-        if not self.hideTimer then
-            self.hideTimer = TFDirector:addTimer(3000,1,nil,function ( ... )
-                -- body
-                self.hideTimer = nil
-                local arr = {
-                    FadeOut:create(0.5),
-                     CallFunc:create(function ( ... )
-                         -- body
-                         self.Button_showUI:hide()
-                         self.Button_showUI:setOpacity(255)
-                     end)
-                }
-                self.Button_showUI:runAction(Sequence:create(arr))
-            end)
-        end
+        self.Button_showUI:timeOut(function ( ... )
+            local arr = {
+                FadeOut:create(0.5),
+                 CallFunc:create(function ( ... )
+                     -- body
+                     self.Button_showUI:hide()
+                     self.Button_showUI:setOpacity(255)
+                 end)
+            }
+            self.Button_showUI:runAction(Sequence:create(arr))
+        end,3000)
     end)
 
     self.Button_showUI:onClick(function ( ... )

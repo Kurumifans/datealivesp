@@ -918,7 +918,8 @@ end
 function NewRoleShowView:updateDressListItem()
 	local selectId
 	local cfg = TabDataMgr:getData("Dress", self.dressId_[self.selectDIdx])
-	if table.count( cfg.skinGroup) < 2 then
+	local skinGroup = cfg.skinGroup or {}
+	if table.count( skinGroup) < 2 then
 		selectId = cfg.id
 	else
 		selectId = RoleDataMgr:getDressGroupSelect(cfg.groupId, cfg.id)			
@@ -926,9 +927,9 @@ function NewRoleShowView:updateDressListItem()
 	
 	--把当前是时装组中正在使用的作为玩家时装设置项
 	local useId
-	for i = 1,#cfg.skinGroup do
-		if RoleDataMgr:checkDressUseState(cfg.skinGroup[i], self.useDressId) and RoleDataMgr:checkRoleUseState(self.curId) then
-			useId = cfg.skinGroup[i]
+	for i = 1,#skinGroup do
+		if RoleDataMgr:checkDressUseState(skinGroup[i], self.useDressId) and RoleDataMgr:checkRoleUseState(self.curId) then
+			useId = skinGroup[i]
 			break;
 		end
 	end

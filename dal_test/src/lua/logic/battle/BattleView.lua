@@ -3886,10 +3886,12 @@ end
 function BattleView:updateTeamItem(itemInfo,idx)
     if self.team_list_refresh_enable == true then
         local item = self.team_left_list:getItem(idx)
-        if self.team_switch_btn.page_idx == 0 then
-            self:updateTeamItemA(item,itemInfo)
-        else
-            self:updateTeamItemB(item,itemInfo,idx)
+        if item then
+            if self.team_switch_btn.page_idx == 0 then
+                self:updateTeamItemA(item,itemInfo)
+            else
+                self:updateTeamItemB(item,itemInfo,idx)
+            end
         end
     end
 end

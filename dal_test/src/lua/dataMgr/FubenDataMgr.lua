@@ -1672,7 +1672,7 @@ end
 
 function FubenDataMgr:makeFormationData(heroData, type_, id)
     return {
-        data = heroData,
+        data = clone(heroData),
         type = type_,
         id = id,
     }
@@ -1902,8 +1902,10 @@ end
 
 function FubenDataMgr:getSpriteChallengeRemainCount()
     local count = self:getSpriteChallengeTotalCount()
-    local remainCount = count - self.spriteChallengeInfo_.count
-    return remainCount
+    if count and self.spriteChallengeInfo_.count then
+        return count - self.spriteChallengeInfo_.count
+    end
+    return 0
 end
 
 function FubenDataMgr:getSpriteChallengeTotalCount()

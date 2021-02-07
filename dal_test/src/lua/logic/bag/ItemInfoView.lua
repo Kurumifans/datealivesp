@@ -9,8 +9,12 @@ function ItemInfoView:initData(itemCid, itemId, isShowAccess, isNotShowTry)
     self.isNotShowTry_ = tobool(isNotShowTry)
     if self.itemId_ then
         self.itemInfo_ = GoodsDataMgr:getSingleItem(self.itemId_)
-        self.itemCid_ = self.itemInfo_.cid
+        if self.itemInfo_ then
+            self.itemCid_ = self.itemInfo_.cid
+        end
     end
+
+
     self.itemCfg_ = GoodsDataMgr:getItemCfg(self.itemCid_)
     self.costEnable_ = true
     self.countDownTimer_ = nil

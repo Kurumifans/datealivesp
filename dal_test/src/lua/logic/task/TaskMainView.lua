@@ -1159,6 +1159,9 @@ function TaskMainView:updateTrainingTask()
         foo.idx = loadIndex
         local progressInfo = ActivityDataMgr2:getProgressInfo(self.warOrderActivity.activityType, self.trainingTaskData[foo.idx])
         local itemInfo = ActivityDataMgr2:getItemInfo(self.warOrderActivity.activityType, self.trainingTaskData[foo.idx])
+        if not itemInfo then
+            return
+        end
         foo.Image_diban:setTexture("ui/task/training/ui_019.png")
         foo.Label_reset_tips:setText("")
         foo.Label_name:setColor(ccc3(48,61,153))
