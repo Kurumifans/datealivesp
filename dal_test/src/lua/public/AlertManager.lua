@@ -946,8 +946,10 @@ function AlertManager:closeAllByChangeScene()
 
     for layer in self.layerQueue:iterator() do
         local function onCompleteCallback()
-            layer:onHide()
-            layer:onClose()
+            if layer.onHide then
+                layer:onHide()
+                layer:onClose()
+            end
             if layer.blockUI then
                 layer.toScene:removeLayer(layer.blockUI);
             end

@@ -1,34 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.04" lastVersion="3.4.03">
-  <f p=".nomedia/nomedia.txt" m="46fcdda4f34b9ae80ca6b7a5b561c44c" c="0" />
-  <f p="res/basic/modle/cat/xiaolaomei/xiaolaomei.atlas" m="21847bebc300f2669865d1ae116175d5" c="0" />
-  <f p="res/basic/modle/cat/xiaolaomei/xiaolaomei.json" m="3d01aa7e97e8d06c149ce0078767f1af" c="0" />
-  <f p="res/basic/modle/cat/xiaolaomei/xiaolaomei.png" m="ff29a330b6f31599e3a5d9a1d57235c2" c="0" />
-  <f p="res/basic/modle/hero/paintshow_13201/paintshow_13201.atlas" m="5774801d59929198fde283e0de0a2345" c="0" />
-  <f p="res/basic/modle/hero/paintshow_13201/paintshow_13201.png" m="f84e75f827cee01a8e095dd3d4a220e0" c="0" />
-  <f p="res/basic/modle/hero/paintshow_13201/paintshow_13201.skel" m="0821ad2e18e9537f6df046c944f025ec" c="0" />
-  <f p="res/basic/modle/hero/paintshow_13201/paintshow_132012.png" m="4ac70629bbabc644247d5817986c311f" c="0" />
-  <f p="src/lua/dataMgr/EquipmentDataMgr.lua" m="c65a249393acf326b2a07f2f586db26e" c="0" />
-  <f p="src/lua/dataMgr/FubenDataMgr.lua" m="398607264842705f4b3099e1f5e91fee" c="0" />
-  <f p="src/lua/dataMgr/HeroDataMgr.lua" m="53f268ea80339b2c50816c04637d5731" c="0" />
-  <f p="src/lua/dataMgr/MakeFoodDataMgr.lua" m="6680e8bbe5a6b57bd24459524ee11651" c="0" />
-  <f p="src/lua/dataMgr/PrefabDataMgr.lua" m="6459c4ce3a6de4472414a98f90c606e4" c="0" />
-  <f p="src/lua/gamedata/MainPlayer.lua" m="7edfe05aa6c23df258efab8535f7e7df" c="0" />
-  <f p="src/lua/logic/bag/ItemInfoView.lua" m="a5a66b628d4dbafa51ff40354b6be560" c="0" />
-  <f p="src/lua/logic/battle/BattleView.lua" m="d71c729ca0b2cccf147054bfc26fb354" c="0" />
-  <f p="src/lua/logic/city/CityJobView.lua" m="69227d76b4d6470915397209988172a9" c="0" />
-  <f p="src/lua/logic/common/ElvesNpc.lua" m="a611b6d496b305f0235a2e563169d25b" c="0" />
-  <f p="src/lua/logic/common/VideoView.lua" m="8e5e84bab0ed3b4902bb376082922444" c="0" />
-  <f p="src/lua/logic/fairyNew/FairyEvolutionLayer.lua" m="d7fd8711ce01e3ce3c3a8e0bbda9acb6" c="0" />
-  <f p="src/lua/logic/fuben/FubenFlightSquadView.lua" m="e8ce60836cfc6121afd2bb4d9c785796" c="0" />
-  <f p="src/lua/logic/league/LeagueHallView.lua" m="6f14a3acffac436e5ae19c7b3860ecc5" c="0" />
-  <f p="src/lua/logic/league/LeagueTrainingView.lua" m="c3b4c74e386cc7911a7e67f27ba46e2f" c="0" />
-  <f p="src/lua/logic/login/LoginLayer.lua" m="0c772fb482aa2a74fab0a79907f78657" c="0" />
-  <f p="src/lua/logic/MainScene/MainLayer.lua" m="979e22cb5fa6182724431830a4ae5732" c="0" />
-  <f p="src/lua/logic/newYear/BuildRepairView.lua" m="65e0ee18d234377eb0e997b466d03b24" c="0" />
-  <f p="src/lua/logic/role/NewRoleShowView.lua" m="c25e3ac514b6fe1ed2e46b6b193cbe8a" c="0" />
-  <f p="src/lua/logic/task/TaskMainView.lua" m="89a54f59c9006a53beefde9447116f4f" c="0" />
-  <f p="src/lua/logic/teamPve/TeamRoomView.lua" m="e91d941603219981e6e7b226c100ca9f" c="0" />
-  <f p="src/lua/table/BufferEffect.lua" m="400ad50c2f8412804a508f02befa5c99" c="0" />
-  <f p="src/lua/table/String.lua" m="5243d41f416ef0b1042ceb695d387db4" c="0" />
+<files version="3.4.05" lastVersion="3.4.04">
+  <f p=".nomedia/nomedia.txt" m="98cce3b8a65cc0a83b67b344f24f4db2" c="0" />
+  <f p="res/basic/modle/cat/xiaolaomei/xiaolaomei.atlas" m="1b85b9c6cbc1c146f67f8353acc4c85b" c="0" />
+  <f p="res/basic/modle/cat/xiaolaomei/xiaolaomei.json" m="a131474158346578993153083592172f" c="0" />
+  <f p="res/basic/modle/cat/xiaolaomei/xiaolaomei.png" m="cfb8e26f18c179c3f7c4c95998f4b3cd" c="0" />
+  <f p="res/basic/modle/hero/paintshow_13201/paintshow_13201.png" m="66715e698bd24fc47a6c0115ea568ccc" c="0" />
+  <f p="res/basic/modle/hero/paintshow_13201/paintshow_132012.png" m="6a5a23c5148e731f3778b811fcee06d6" c="0" />
+  <f p="res/basic/video/flight_preview_bingjingkuilei.mp4" m="a6678b2b11f7d26e0d1ec5e3bde82baf" c="0" />
+  <f p="res/basic/video/flight_preview_shixiang.mp4" m="c124eccee0e0d33d5a058527de43aa8c" c="0" />
+  <f p="res/basic/video/flight_preview_sixinai.mp4" m="e41a251b0d9b57c7ade92257fefabd0d" c="0" />
+  <f p="res/basic/video/flight_preview_wanyouli.mp4" m="457d6dff82b72824f2fc777d9d05a404" c="0" />
+  <f p="src/lua/dataMgr/GoodsDataMgr.lua" m="adacdf503fe39802d37b2b4797183af0" c="0" />
+  <f p="src/lua/logic/activity/TaskActivityView.lua" m="d5593aafdd2d03e66e414132c95cbd1e" c="0" />
+  <f p="src/lua/logic/fuben/FubenStarRewardView.lua" m="448197d1ea479073bfeb1960fb24837f" c="0" />
+  <f p="src/lua/logic/league/LeagueHunterMainView.lua" m="48071dcb881bf6571d8d5cf97be10f95" c="0" />
+  <f p="src/lua/logic/newCity/NewCityMainLayer.lua" m="668e2862255f736e72d29c39df7de19d" c="0" />
+  <f p="src/lua/public/AlertManager.lua" m="9b62357387c82afcc8744d07747170d3" c="0" />
+  <f p="src/lua/public/DanmuFrame.lua" m="e3687383b63959299f545212ce7c64a3" c="0" />
+  <f p="src/lua/table/SkillEffect.lua" m="7927f41550ad956e63b4d9804c317ba9" c="0" />
+  <f p="src/lua/table/String.lua" m="757e60bc9be46ba64f9de7563c978b0b" c="0" />
+  <f p="res/basic/modle/cat/xiaolaomei/xiaolaomei2.png" m="4fcfa3e5b3a1df75de9e16c042c317f7" />
+  <f p="res/basic/modle/cat/xiaolaomei/xiaolaomei3.png" m="84a7e620fa2de88c1740f819a11443fb" />
 </files>

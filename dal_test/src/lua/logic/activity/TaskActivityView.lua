@@ -96,6 +96,9 @@ end
 
 function TaskActivityView:updateActivity()
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(self.activityId_)
+    if not self.activityInfo_ then
+        return
+    end
     local taskData = ActivityDataMgr2:getItems(self.activityId_)
     self.taskData_ = {}
     local unLockData = {}

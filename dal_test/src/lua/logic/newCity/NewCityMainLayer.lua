@@ -731,6 +731,13 @@ function NewCityMainLayer:cityCameraMove(movetype, offx, offy, endz, callback)
             end
             return
         end
+        if not self.cityCamera then
+            if self.cityCameraMoveTimer then
+                TFDirector:removeTimer(self.cityCameraMoveTimer)
+                self.cityCameraMoveTimer = nil
+            end
+            return
+        end
 
         --if movetype == E_CameraMoveType.E_ChangeToBack then
         --    local newop = self.foreMap.root:getOpacity() - opper

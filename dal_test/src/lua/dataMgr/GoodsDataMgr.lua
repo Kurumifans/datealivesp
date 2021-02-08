@@ -159,7 +159,7 @@ function GoodsDataMgr:getItemCfg(cid)
 
     if tabName then
         local cfg = TabDataMgr:getData(tabName, cid)
-        return cfg
+        return cfg or {}
     else
         Bugly:ReportLuaException("getItemCfg error no item id:"..cid)
         Utils:showError(800001, cid)
