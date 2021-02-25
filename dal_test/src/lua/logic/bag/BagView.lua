@@ -1489,6 +1489,9 @@ function BagView:removeCountDownTimer()
 end
 
 function BagView:onCountDownPer()
+    if not self.goodsData_ then
+        return
+    end
     local goodsData = self.goodsData_[self.selectIndex_]
     if goodsData == nil then
         return

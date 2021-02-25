@@ -256,7 +256,7 @@ function GetItemView:playAni()
                         Utils:playSound(6002)
                         showItemCnt = showItemCnt + 1
                         print(showItemCnt)
-                        if not self.directClose then
+                        if not self.directClose and self.Panel_touch then
                             self.Panel_touch:setVisible(showItemCnt >= itemCount)
                         end
                     end),

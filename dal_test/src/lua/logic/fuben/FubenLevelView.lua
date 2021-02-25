@@ -100,8 +100,8 @@ function FubenLevelView:initData(chapterCid, levelCid)
             table.sort(level, function(a, b)
                            local cfgA = FubenDataMgr:getLevelCfg(a)
                            local cfgB = FubenDataMgr:getLevelCfg(b)
-                           local colA = math.mod(cfgA.positionOrder[1], self.colNum_)
-                           local colB = math.mod(cfgB.positionOrder[1], self.colNum_)
+                           local colA = math.mod(cfgA.positionOrder[1] or 1, self.colNum_)
+                           local colB = math.mod(cfgB.positionOrder[1] or 1, self.colNum_)
                            return colA > colB
             end)
         end
@@ -681,12 +681,18 @@ function FubenLevelView:registerEvents()
 
     self.Button_reward_receive:onClick(function()
             local diffData = self.diffData_[self.selectDiffIndex_]
+            if not diffData then
+                return
+            end
             local levelGroupCid = self.levelGroup_[self.selectLevelGroupIndex_]
             Utils:openView("fuben.FubenStarRewardView", self.levelGroup_[1], diffData.diff)
     end)
 
     self.Button_reward_geted:onClick(function()
             local diffData = self.diffData_[self.selectDiffIndex_]
+            if not diffData then
+                return
+            end
             local levelGroupCid = self.levelGroup_[self.selectLevelGroupIndex_]
             Utils:openView("fuben.FubenStarRewardView", self.levelGroup_[1], diffData.diff)
     end)

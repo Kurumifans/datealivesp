@@ -625,7 +625,7 @@ function NewRoleShowView:showUnInfoList()
     end
 
 	local dressCfg = TabDataMgr:getData("Dress", selectId)
-	if not dressCfg then
+	if not dressCfg or not dressCfg.exActionList then
 		return
 	end
 	for i, v in ipairs (dressCfg.exActionList) do
@@ -1132,6 +1132,7 @@ function NewRoleShowView:updateRoleModel(modelId)
             self.model.effectHandle = nil
         end
         self.model:removeFromParent()
+		self.model = nil
     end
 	print("model",self.modelId)
     self.model = ElvesNpcTable:createLive2dNpcID(self.modelId,false,false,nil,true).live2d:hide()
@@ -1150,13 +1151,13 @@ function NewRoleShowView:updateRoleModel(modelId)
         self.effectSKB[k] = nil
     end
 
-    local offPos = data.offSet
+    local offPos = data and data.offSet or {}
     if offPos and offPos.x and offPos.y then
         self.model:setPosition(pos + ccp(offPos.x,offPos.y))
     end
     self.Panel_black:hide()
 
-    if data.background and #data.background ~= 0 then
+    if data and data.background and #data.background ~= 0 then
         if self.notFirst then
             self.Panel_black:show()
             self.Panel_black:setOpacity(255)
@@ -1174,11 +1175,11 @@ function NewRoleShowView:updateRoleModel(modelId)
         end
     end
 
-    if data.backgroundEffect and #data.backgroundEffect ~= 0 then
+    if data and data.backgroundEffect and #data.backgroundEffect ~= 0 then
         self:refreshEffect(data.backgroundEffect,true)
     end
 
-    if data.kanbanEffect and #data.kanbanEffect ~= 0 then
+    if data and data.kanbanEffect and #data.kanbanEffect ~= 0 then
         self:refreshEffect(data.kanbanEffect)
     end
 
@@ -1416,8 +1417,9 @@ function NewRoleShowView:onShow()
         end
     end
     self:resetBtn()
-    if self.model then
+    if self.model and self.modelHide then
         self.model:show();
+        self.modelHide = false
     end
 end
 
@@ -1473,7 +1475,7 @@ function NewRoleShowView:updateTrialTime(selectIdx)
 	local dressId = self.dressId_[selectIdx]
 	local cfg = GoodsDataMgr:getItemCfg(dressId)
 	
-	if cfg.masterId ~= 0 then
+	if cfg and cfg.masterId ~= 0 then
 		self.TrialDressTimeBg:show()
 		self.TrialDressUpgrade:show()
 		local text = ""
@@ -1601,6 +1603,7 @@ function NewRoleShowView:registerEvents()
         local info = self:findDressDatingTrigger()
         if info then
             self.model:hide();
+            self.modelHide = true
             DatingDataMgr:showDatingLayer(EC_DatingScriptType.SHOW_SCRIPT,info.currentNodeId,false,info.datingRuleCid)
         end
     end)

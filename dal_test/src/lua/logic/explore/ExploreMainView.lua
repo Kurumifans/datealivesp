@@ -935,7 +935,7 @@ function ExploreMainView:updateRedTip()
 
     ---天赋
     local knowledgeData = ExploreDataMgr:getKnowledgeState(0)
-    for k,v in pairs(knowledgeData) do
+    for k,v in pairs(knowledgeData or {}) do
         if v == 0 then
             local cfg = ExploreDataMgr:getKnowledgeCfg(k)
             if cfg and cfg.chapterID == self.curNationId then

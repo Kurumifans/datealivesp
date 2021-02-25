@@ -409,7 +409,7 @@ function SummonDataMgr:getSummon()
     end
 
     -- 热点召唤列表单独处理
-    if self.hotSpotInfo_.heroHotSummonOrder then
+    if self.hotSpotInfo_ and self.hotSpotInfo_.heroHotSummonOrder then
         local hotSummon = self:getHotSummon(EC_SummonLoopType.ROLE)
         table.insert(summon, hotSummon)
     end

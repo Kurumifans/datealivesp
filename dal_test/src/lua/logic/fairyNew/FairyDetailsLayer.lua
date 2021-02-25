@@ -1840,13 +1840,15 @@ function FairyDetailsLayer:updateAngelLayer()
     local effect = HeroDataMgr:getAngelModelEffect(self.showHeroId)
     for i, v in ipairs(effect) do
         local particleNode  = TFParticle:create(v.effect)
-        particleNode:setName("particleNode")
-        particleNode:resetSystem()
-        particleNode:setZOrder(v.order)
-        local position = ccpAdd(self.Image_angel:Pos(), offset)
-        particleNode:setPosition(position)
-        self.Image_angel:getParent():addChild(particleNode)
-        self.angelParticleNode_[i] = particleNode
+        if particleNode then
+	        particleNode:setName("particleNode")
+	        particleNode:resetSystem()
+	        particleNode:setZOrder(v.order)
+	        local position = ccpAdd(self.Image_angel:Pos(), offset)
+	        particleNode:setPosition(position)
+	        self.Image_angel:getParent():addChild(particleNode)
+	        self.angelParticleNode_[i] = particleNode
+	    end
     end
 
     --天使形象

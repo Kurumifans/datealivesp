@@ -1409,7 +1409,9 @@ function FubenSquadView:refreshView()
     self.Button_preTeam:setPositionX(posX)
     self.Button_preTeam:setVisible(not self.isLimitHero_ and not FubenDataMgr:isSimulationChapter(self.chapterCid_))
 
-    self.Button_affixShow:setVisible(self.levelCfg_.levelAffix and self.levelCfg_.levelAffix.isShow)
+    if self.levelCfg_ then
+        self.Button_affixShow:setVisible(self.levelCfg_.levelAffix and self.levelCfg_.levelAffix.isShow)
+    end
 end
 
 function FubenSquadView:showExperience()
@@ -1713,6 +1715,9 @@ end
 
 
 function FubenSquadView:onCountDownPer()
+    if not self.TableView_assistant then
+        return
+    end
     self.TableView_assistant:reloadData()
 end
 
@@ -1752,7 +1757,7 @@ function FubenSquadView:onFightingClick()
 
         local enabled = true
         if self.isDisableHero_ then
-            for i, v in ipairs(self.formationData_) do
+            for i, v in ipairs(self.formationData_ or {}) do
                 if table.indexOf(self.levelCfg_.heroForbiddenID, v.data.cid) ~= -1 then
                     enabled = false
                     break
@@ -1764,7 +1769,7 @@ function FubenSquadView:onFightingClick()
         end
     end
 
-    if #self.formationData_ == 0 then
+    if not self.formationData_ or #self.formationData_ == 0 then
         Utils:showTips(2100116)
         return
     end

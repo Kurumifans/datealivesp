@@ -461,7 +461,9 @@ end
 
 function ValentinesDay:updateFlowerNum()
 	local hasNum = GoodsDataMgr:getItemCount(self.flowerItemId)
-	PrefabDataMgr:setInfo(self.Panel_flowers.flowerItem, self.flowerItemId, hasNum)
+	if self.Panel_flowers and self.Panel_flowers.flowerItem then
+		PrefabDataMgr:setInfo(self.Panel_flowers.flowerItem, self.flowerItemId, hasNum)
+	end
 
 	if self.batchNumDefault > hasNum then
 		self.batchNumDefault = hasNum

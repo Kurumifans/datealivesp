@@ -1362,10 +1362,17 @@ function battleController.enterBattle(data, ...)
     this.nStartTime = BattleUtils.gettime() --战斗开始时间
     BattleDataMgr:setServerData(data, ...)
     local data = BattleDataMgr:getBattleData()
+    if not data.heros or #data.heros < 1 then
+        return
+    end
     ResLoader.loadAllRes(data , function()
         this.init(data)
         this.changeToBattleScene()
     end)
+end
+
+function battleController.stopEnterBattle()
+    ResLoader.stopTimer()
 end
 
 --
@@ -1420,6 +1427,9 @@ end
 
 --TODO重先进入战斗场景
 function battleController.reEnterTeamBattle(index,resTime)
+    if not this.data then
+        return
+    end
     this.isChangeDungeon = true
     --重先组织角色数据
     local node  = this.data.dungeonNodes[this.data.dungeonIndex]
@@ -1443,10 +1453,15 @@ function battleController.reEnterTeamBattle(index,resTime)
     levelParse:clean()
     AlertManager:changeScene(SceneType.TRANSITION)
     --延迟切换到战斗场景
-    local timerHandle
-    timerHandle = TFDirector:addTimer(500, 1, nil, function ()
-        TFDirector:removeTimer(timerHandle)
+    local timerHandle = TFDirector:addTimer(500, 1, nil, function ()
+        if timerHandle then
+            TFDirector:removeTimer(timerHandle)
+            timerHandle = nil
+        end
         local data = BattleDataMgr:getBattleData()
+        if not data then
+            return
+        end
         local maxComboNum = statistics.maxComboNum
         local killNum     = statistics.killNum   -- 击杀总人数
         local killBossNum = statistics.killBossNum --击杀Boss数量
@@ -1525,6 +1540,9 @@ function battleController.endBattle(bWin)
     local count = 1
     this.removeEndBattleTimer()
     this.endBattleTimer = BattleTimerManager:addTimer(500,-1,nil,function()
+        if not this.endBattleTimer then
+            return
+        end
         if this.team:isPlayedEndAction(eCampType.Hero) or count > 4 then
             this.removeEndBattleTimer()
             this._endBattle()

@@ -701,6 +701,9 @@ function EquipSuitMainLayer:registerEvents()
     self.Button_wear:onClick(function()
         local data = self.equipData[self.bagSelectIdx]
         local function confirmCall(show)
+            if not self.selectIdx then
+                return
+            end
             if not show then
                 AlertManager:close(self)
             end

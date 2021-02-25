@@ -18,6 +18,7 @@ function RoleDataMgr:ctor()
 end
 
 function RoleDataMgr:init()
+    TFDirector:addProto(s2c.ROLE_ROLE_INFO_LIST, self, self.roleHandle)
     TFDirector:addProto(s2c.ROLE_ROLE_INFO, self, self.roleInfoChange)
     TFDirector:addProto(s2c.ROLE_SWITCH_ROLE_RESULT, self, self.switchRoleHandle)
     TFDirector:addProto(s2c.ROLE_TOUCH_ROLE, self, self.onTouchRoleHandle)
@@ -64,7 +65,6 @@ end
 function RoleDataMgr:onLogin()
     self:resetLogin()
 
-    TFDirector:addProto(s2c.ROLE_ROLE_INFO_LIST, self, self.roleHandle)
     TFDirector:send(c2s.ROLE_GET_ROLE, {})
     TFDirector:send(c2s.EXTRA_DATING_REQ_FAVOR_DATING_ROLE_STATUE, {})
     TFDirector:send(c2s.EXTRA_DATING_REQ_FAVOR_DATING_AWARD,{})
@@ -898,6 +898,7 @@ function RoleDataMgr:getCurId()
 end
 
 function RoleDataMgr:getRoleCount()
+    if not self.showList then return 0 end
     return table.count(self.showList);
 end
 
@@ -1043,7 +1044,11 @@ end
 
 function RoleDataMgr:getRoleInfo(id)
     id = id or self:getCurId()
-    return self.roleTable[id]
+    local role = self.roleTable[id]
+    if not role then
+        return self.roleTable[101]
+    end
+    return role
 end
 
 function RoleDataMgr:getMainIconPath(id,idx)

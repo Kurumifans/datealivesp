@@ -59,12 +59,18 @@ end
 function SingleAIBehave:removeAI()
 	self.timerhandleList = {}
 	if not self.aiCfg.notInterfereAni then
-		self.tarNode:playStand()
+		if self.tarNode then
+			self.tarNode:playStand()
+		end
 	end
 end
 
 function SingleAIBehave:runAI()
-	self.tarNode:aiAction()
+	
+	if self.tarNode then
+		self.tarNode:aiAction()
+	end
+
 	if self.willDelete then
 		self:removeAI()
 		self:deleteAI()
@@ -257,7 +263,7 @@ end
 
 function SingleAIBehave:deleteAI( ... )
 	-- body
-	if self.tarNode.aiDeleteCallBack then
+	if self.tarNode and self.tarNode.aiDeleteCallBack then
 		self.tarNode:aiDeleteCallBack()
 		return
 	end

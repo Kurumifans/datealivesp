@@ -92,6 +92,11 @@ end
 
 function WhiteValentineActivityView:refreshView()
 	local activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
+	if activityInfo.extendData.dressId2 then
+		self.tab_1:show()
+		self.tab_2:show()
+	end
+
 	local startStr =  Utils:getDateString(activityInfo.startTime)
     local endStr =  Utils:getDateString(activityInfo.endTime)
     self.time_time:setText(startStr)

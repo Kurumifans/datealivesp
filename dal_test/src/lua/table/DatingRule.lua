@@ -24732,6 +24732,8 @@ return {
             [5] = 910374,
             [6] = 910375,
             [7] = 910376,
+            [8] = 910377,
+            [9] = 910378,
         },
         portail = "ui/dating/datingtouxiang/10801.png",
         callTableName = "Dating2",

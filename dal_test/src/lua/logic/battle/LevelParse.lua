@@ -104,6 +104,7 @@ function LevelParse:loadJson(file,exCfg)
 		self.data = json.decode(jsonContent) --关卡数据
 		if self.data == nil then
 			Box(string.format("Decode %s.json failed",self.file))
+			return
 		end
 		if self.exCfg and self.exCfg > 0 then
 			local exCfgData = TabDataMgr:getData("DungeonLevelStep",self.exCfg)
@@ -224,7 +225,11 @@ end
 
 
 function LevelParse:getBlockSize()
-	return self.data.BlockSize
+	if self.data then
+		return self.data.BlockSize
+	else
+		return 10
+	end
 end
 
 

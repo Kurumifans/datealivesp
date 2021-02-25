@@ -27,6 +27,7 @@ function HeroDataMgr:ctor()
 	self.myFormation = nil;
 
 	self.preTeamInfo = {}
+	self.formation.stance = {}
     self:init()
 end
 
@@ -155,11 +156,11 @@ function HeroDataMgr:getHeroIdByFormationPos(_pos)
 end
 
 function HeroDataMgr:getFormationHeroCnt()
-	return table.count(self.formation.stance);
+	return table.count(self.formation.stance or {});
 end
 
 function HeroDataMgr:getFormationIsFull()
-	return table.count(self.formation.stance) >= 3;
+	return table.count(self.formation.stance or {}) >= 3;
 end
 
 function HeroDataMgr:checkOnFormationByRole(heroid)
@@ -1432,6 +1433,9 @@ function HeroDataMgr:changeDataByLevelCfg(levelCfg_,formationData)
 end
 
 function HeroDataMgr:changeDataByFuben(levelID,formationData)
+	if not formationData or #formationData <= 0 then
+		return
+	end
 	local levelCfg_  = FubenDataMgr:getLevelCfg(levelID)
 	self:changeDataByLevelCfg(levelCfg_,formationData)
 end
@@ -2457,8 +2461,11 @@ function HeroDataMgr:getCurSkin(heroid)
 		else
 			local skins = GoodsDataMgr:getBag(11);
 			local skinSid = self.heroTable[heroid].skinId;
-			local skinCid = skins[skinSid].cid
-			return skinCid;
+			if skins[skinSid] then
+				return skins[skinSid].cid
+			else
+				return self.heroTable[heroid].defaultSkin
+			end
 		end
 	else
 		return self.heroTable[heroid].defaultSkin;
@@ -2871,7 +2878,7 @@ end
 function HeroDataMgr:getOpenedHeroNum()
 	local num = 0
 	for k, v in pairs(self.heroTable) do
-		if v.isOpen and  v.isOpen == 1 then
+		if v.isOpen and  v.isOpen == 1 and v.heroStatus ~= 3 and v.testType ~=1 then
 			num = num + 1
 		end
 	end
@@ -3899,7 +3906,7 @@ function HeroDataMgr:crystalRedTip(heroid)
 		return false
 	end
 
-	local job = self:getHeroJob(heroid)
+	local job = self:getHeroJob(heroid) or 1
 	if job >= 4 then
 		return false
 	end

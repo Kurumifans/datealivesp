@@ -584,13 +584,15 @@ function StoreMainView:updateCountDonw()
     if not storeInfo then
         return
     end
-    local remainTime = math.max(0, storeInfo.nextRefreshTime - ServerDataMgr:getServerTime())
-    local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
-    -- local timeVec = string.split(TextDataMgr:getTextAttr(302202).text,"：")
-    if day == "00" then
-        self.Label_countdown_time:setTextById(800027, hour, min)
-    else
-        self.Label_countdown_time:setTextById(800044, day, hour, min)
+    if storeInfo.nextRefreshTime then
+        local remainTime = math.max(0, storeInfo.nextRefreshTime - ServerDataMgr:getServerTime())
+        local day, hour, min = Utils:getFuzzyDHMS(remainTime, true)
+        -- local timeVec = string.split(TextDataMgr:getTextAttr(302202).text,"：")
+        if day == "00" then
+            self.Label_countdown_time:setTextById(800027, hour, min)
+        else
+            self.Label_countdown_time:setTextById(800044, day, hour, min)
+        end
     end
     -- 限时商店倒计时
     self.Label_deadLine:hide()

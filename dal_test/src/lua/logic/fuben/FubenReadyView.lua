@@ -164,6 +164,12 @@ end
 
 function FubenReadyView:playPrePlot()
     local function callback()
+        if not self.levelCfg_ then
+            if self.Panel_root then
+                self.Panel_root:show()
+            end
+            return
+        end
         KabalaTreeDataMgr:playStory(1, self.levelCfg_.preDialog,function ()
                                         EventMgr:dispatchEvent(EV_CG_END, function()
                                                                    self.Panel_root:show()

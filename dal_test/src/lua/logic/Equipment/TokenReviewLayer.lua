@@ -78,7 +78,7 @@ function TokenReviewLayer:registerEvents()
         local info = self.backUpInfos[self.selectIdx]
         local nameStr = ""
         local state = false
-        local sumCost = 0
+        local sumCost = HeroDataMgr:getCost(self.heroId)
         for k, v in ipairs(info.plan) do
             local _data = GoodsDataMgr:getSingleItem(v.equipId)
             local cid = _data.cid

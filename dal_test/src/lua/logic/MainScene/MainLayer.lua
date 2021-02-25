@@ -916,7 +916,8 @@ function MainLayer:refreshBg(imageBg, bgPath)
     imageBg.disSize = imageBg:Size()
     imageBg:setContentSize(CCSizeMake(newWidth, newHeigth))
 
-    if  RoleDataMgr:useDressFindData().highRoleModel ~= 0 then
+    local dressData = RoleDataMgr:useDressFindData()
+    if dressData and dressData.highRoleModel ~= 0 then
         DatingPhoneDataMgr:keepMainBgTexture(false)
     else
         DatingPhoneDataMgr:keepMainBgTexture(imageBg:getTexture())
@@ -1692,6 +1693,7 @@ function MainLayer:registerEvents()
     --狂三应援
     self.Button_Activity6:onClick(function()
         local activityInfo = ActivityDataMgr2:getActivityInfo(nil,6)[1]
+        if not activityInfo then return end
         FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface,unpack(activityInfo.extendData.jumpParamters or {}))
     end)
 
@@ -2556,6 +2558,9 @@ end
 
 function MainLayer:onCountDownPer(dt)
 
+    if not self.feellingInfoShowTime_ then
+        return
+    end
     self.feellingInfoShowTime_ = self.feellingInfoShowTime_ + 1
     if self.feellingInfoShowTime_ > 3 then
         self.Panel_feelling_info:hide()

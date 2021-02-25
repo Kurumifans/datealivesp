@@ -1077,8 +1077,18 @@ end
 function AmusementPackActor:removeActor( ... )
 	-- body
 	self:notInBuilding()
+	if  self.aiModel then
+		self.aiModel.tarNode = nil
+	end
+
+	if self.manualAITab then
+		for k ,v in pairs(self.manualAITab) do
+			v.tarNode = nil
+		end
+	end
+
 	self.aiModel = nil
-	self.manualAITab = {}
+	self.manualAITab = nil
 	if self.skeletonNode then -- 缓存现有spine 备用
 		self:addCacheSpine(self.skeletonNode,self.resPath)
 	end

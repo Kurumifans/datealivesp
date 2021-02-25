@@ -216,7 +216,7 @@ function ItemInfoView:registerEvents()
                 return
             end
 
-            if self.itemCfg_.useProfit.custom then
+            if self.itemCfg_.useProfit.custom and self.itemInfo_ then
                 local itemId = self.itemId_
                 AlertManager:closeLayer(self)
                 Utils:openView("bag.UseItemSelectView",itemId, self.selectNum)

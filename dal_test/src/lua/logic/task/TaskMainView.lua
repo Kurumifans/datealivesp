@@ -1070,6 +1070,9 @@ end
 function TaskMainView:updateTrainingTime()
     local serverTime = ServerDataMgr:getServerTime()
     local activityInfo = ActivityDataMgr2:getWarOrderAcrivityInfo()
+    if activityInfo == nil then
+        return
+    end
     local isEnd = serverTime > activityInfo.endTime
     local remainTime
     if isEnd then

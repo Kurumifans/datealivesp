@@ -2913,6 +2913,9 @@ function Hero:clearFlag(flagType)
 end
 
 function Hero:toFlashBack(sec)
+    if not self.recorder then
+        return
+    end
     local data  = self.recorder:getData(sec)
     if data then 
         -- self:forceToFloor()
@@ -2932,7 +2935,9 @@ function Hero:update(time)
         EventTrigger:_onChangePos(self)
         self:setLastPosition(self.position3D.x,self.position3D.y,self.position3D.z)
     end
-    self.recorder:update(time,self)
+    if self.recorder then
+        self.recorder:update(time,self)
+    end
     local originTime = time
     time = time * self:getTimeScale()
     self.showTiming_ = self.showTiming_ + time

@@ -60,6 +60,9 @@ end
 
 function TTFLive2D:startActionEventTimer()
 	self.actionEventtimer_ = TFDirector:addTimer(0, -1, nil, function(dt)
+		if not self.newActionEventTime then
+			self.newActionEventTime = 0
+		end
         self.newActionEventTime = self.newActionEventTime + dt
         if self.curActionEvents then
         	for eventId,time in pairs(self.curActionEvents) do
@@ -742,10 +745,8 @@ end
 
 local TFLive2dTimer = nil;
 function TTFLive2D:addRenderTexture()
-	local tx = CCRenderTexture:create(self:getSize().width,self:getSize().height)
-	if not tx then
-		tx = CCRenderTexture:create(500,300)
-	end
+	local renderSize = self.getSize and self:getSize() or {width = 500,height = 300}
+	local tx = CCRenderTexture:create(renderSize.width,renderSize.height)
 	tx:begin();
 	self:visit();
 	tx:endToLua();
@@ -784,9 +785,7 @@ function TTFLive2D:addRenderTexture()
 		sp:setTexture(tx:getSprite():getTexture());
 		--self:stopTimer()
 	end
-	if self.timer_ then
-		TFDirector:removeTimer(self.timer_)
-	end
+	self:stopTimer()
 	self.timer_ = TFDirector:addTimer(10, 1, nil, delayToGame)
 	TFLive2dTimer = self.timer_;
 
@@ -821,6 +820,10 @@ function TTFLive2D:stopTimer()
 	    TFDirector:removeTimer(self.timer_)
 	    self.timer_ = nil
 	    TFLive2dTimer = nil;
+	end
+	if TFLive2dTimer then
+		TFDirector:removeTimer(TFLive2dTimer)
+		TFLive2dTimer = nil
 	end
 end
 

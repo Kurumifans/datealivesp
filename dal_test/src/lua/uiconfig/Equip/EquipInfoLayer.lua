@@ -5754,7 +5754,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "476",
 							ZOrder = "1",
 							components = 

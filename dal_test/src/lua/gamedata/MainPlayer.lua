@@ -845,6 +845,9 @@ function MainPlayer:onLogin(event)
     local isOver = false;
     dump(table.count(self.dataMgr_));
     local function step(dt)
+        if not self.loadDataTimer then
+            return
+        end
         index = index + 1;
         if index > table.count(self.dataMgr_) then
             isOver = NetWork:checkLoginMsgOver()

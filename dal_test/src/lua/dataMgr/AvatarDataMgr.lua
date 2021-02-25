@@ -156,7 +156,7 @@ function AvatarDataMgr:onRecvAvatarUnlock(event)
                     local name = TextDataMgr:getText(cfg.name)
                     if #cfg.toggle > 0  then
                         local extraData = self:getExtraData()
-                        local month = extraData.month or 1
+                        local month = extraData and extraData.month or 1
                         for k, v in pairs(cfg.toggle) do
                             local months = v.month
                             local month1 = months[1]

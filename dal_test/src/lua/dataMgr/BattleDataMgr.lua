@@ -794,11 +794,25 @@ function BattleDataMgr:heroData()
                     job = 1
                 end
                 if not data then
-                    local errMsg = string.format("BattleDataMgr:heroData ERROR: levelCid=%s limitType=%s limitCid=%s pos=%s job=%s hero data is nil !",
+                    local limitHero = FubenDataMgr.limitHeros_
+                    local levelFormation = FubenDataMgr.levelFormation_
+                    local dataStr = "--"
+                    for k,v in pairs(limitHero) do
+                        dataStr = dataStr..k.."--"
+                    end
+                    dataStr = dataStr.."***"
+                    for k,v in pairs(levelFormation) do
+                        dataStr = dataStr..k.."--"
+                    end
+                    local errMsg = string.format("BattleDataMgr:heroData ERROR: formationdata = %s levelCid=%s limitType=%s limitCid=%s pos=%s job=%s hero data is nil !",
+                        dataStr,
                         tostring(self.levelCid_ ),
                         tostring(formation.limitType ),tostring(formation.limitCid),tostring(pos),tostring(job))
                         Bugly:ReportLuaException(errMsg)
                         Box(errMsg)
+                        self:getController().stopEnterBattle()
+                        CommonManager:closeConnection2()
+                        return {}
                 end
                 table.insert(rawDataList, clone(data))
                 data = self:transData(eRoleType.Hero, data, job,limitCid)

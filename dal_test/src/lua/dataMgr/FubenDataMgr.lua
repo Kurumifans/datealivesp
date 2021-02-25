@@ -294,6 +294,9 @@ function FubenDataMgr:reset()
     self.attrUpData = nil
     self.linkAgeHeros = nil
     self.jiBanHero = nil
+    self.limitHeros_ = {}
+    self.originLevelFormation_ = {}
+    self.levelFormation_ = {}
 
     ---阵容排序默认排序ID
     self.formationSortRuleId = 5
@@ -2345,7 +2348,7 @@ function FubenDataMgr:checkTheaterChapterEnabled(chapterCid)
     local levels = self:getTheaterDungeonLevel(chapterCid)
     local chapterCfg = self:getChapterCfg(chapterCid)
     local condEnabled = false
-    for i, v in ipairs(levels) do
+    for i, v in ipairs(levels or {}) do
         if self:checkTheaterLevelEnabled(v) then
             condEnabled = true
             break

@@ -288,6 +288,9 @@ end
 function CityJobView:updateBuildItem(buildItem,idx)
     local buildCfg = CityJobDataMgr:getBuildCfgByIdx(idx)
     local jobInfoList = CityJobDataMgr:getJobInfoListByIdx(idx)
+    if not jobInfoList then
+        return
+    end
     local Image_bg = TFDirector:getChildByPath(buildItem,"Image_bg")
     local LoadingBar_job = TFDirector:getChildByPath(buildItem,"LoadingBar_job")
     local Label_percent = TFDirector:getChildByPath(buildItem,"Label_percent"):hide()

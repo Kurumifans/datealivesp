@@ -935,6 +935,10 @@ function Utils:getLocalDate(timestamp)
 end
 
 function Utils:getChineseNumber(number)
+    if not number then
+        return ""
+    end
+
     local retTab = {}
     if number < 10000 then
         local bits = #tostring(number)
