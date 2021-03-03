@@ -2733,13 +2733,13 @@ return {
         id = 61004,
         data = {
             seasonduration = {
-                balancetime = "2021-02-21 22:30:00",
-                endtime = "2021-02-21 23:00:00",
-                opentime = "2020-12-15 05:00:00",
+                balancetime = "2021-04-25 22:30:00",
+                endtime = "2021-04-25 23:00:00",
+                opentime = "2021-02-23 05:00:00",
             },
             season = {
-                numberServer = 11,
-                numberClient = 11,
+                numberServer = 12,
+                numberClient = 12,
             },
             weekduration = {
                 [1] = {
@@ -3950,8 +3950,8 @@ return {
         id = 61002,
         data = {
             time = {
-                [1] = "2020-2-27 00:00:01",
-                [2] = "2020-3-12 23:59:59",
+                [1] = "2021-3-4 00:00:01",
+                [2] = "2021-3-21 23:59:59",
             },
             refreshTime = 0,
         },

@@ -277,6 +277,41 @@ local t =
 							width = "1386",
 						},
 						{
+							controlID = "Panel_newRole_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
+							UUID = "e70ee160_6285_49fc_8c19_4a9d05dec77b",
+							anchorPoint = "False",
+							anchorPointX = "0",
+							anchorPointY = "0",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "50",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "400",
+							ignoreSize = "False",
+							name = "Panel_newRole",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "400",
+							ZOrder = "1",
+						},
+						{
 							controlID = "Panel_left_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
 							UUID = "49d30e76_647c_4d4a_aaa3_b9765f6e6fb2",
 							anchorPoint = "False",
@@ -3572,7 +3607,7 @@ local t =
 									controlID = "NpcEffectPanel_Panel_mid_Panel_base_Panel-newRoleShowView_Layer1_role_Game",
 									UUID = "f18dcc50_6d19_44c8_a95a_9478eb9bb3ba",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "0.5",
 									anchorPointY = "0",
 									backGroundScale9Enable = "False",
 									bgColorOpacity = "50",
@@ -3583,7 +3618,7 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "400",
+									height = "640",
 									ignoreSize = "False",
 									name = "NpcEffectPanel",
 									sizepercentx = "0",
@@ -3594,7 +3629,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 568,
-										PositionY = 320,
+										PositionY = 318,
 										relativeToName = "Panel",
 									},
 									uipanelviewmodel = 
@@ -3602,7 +3637,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "400",
+									width = "1386",
 									ZOrder = "20",
 									components = 
 									{

@@ -131,7 +131,7 @@ function SupplyMainNewView:selectTabIdx(idx)
         item.Image_select:setVisible(i == self.selectIndex)
     end
 
-    local topBannerDisId = self.tabBtnCfg[idx].topBannerDisId
+    local topBannerDisId = self.tabBtnCfg[idx] and self.tabBtnCfg[idx].topBannerDisId or nil
     local topData = nil
     if nil ~= topBannerDisId then
         self._ui.Image_topBtn:setVisible(true)

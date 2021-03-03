@@ -4776,7 +4776,6 @@ return {
         attribute = {
             [1001] = 500,
             [1003] = 500,
-            [1002] = 500,
         },
         name = "",
         angelSkillFunctions = {
@@ -5034,7 +5033,6 @@ return {
         },
         attribute = {
             [603] = 400,
-            [1002] = 500,
         },
         name = "",
         angelSkillFunctions = {
@@ -5070,7 +5068,6 @@ return {
         },
         attribute = {
             [601] = 400,
-            [1002] = 500,
         },
         name = "",
         angelSkillFunctions = {
@@ -5533,7 +5530,6 @@ return {
         attributeExtra = {
         },
         attribute = {
-            [1002] = 700,
         },
         name = "",
         angelSkillFunctions = {
@@ -6017,6 +6013,8 @@ return {
         attributeExtra = {
         },
         attribute = {
+            [606] = 900,
+            [1006] = 400,
         },
         name = "",
         angelSkillFunctions = {
@@ -8500,6 +8498,7 @@ return {
         attributeExtra = {
         },
         attribute = {
+            [1003] = 500,
         },
         name = "",
         angelSkillFunctions = {
@@ -8536,7 +8535,7 @@ return {
         attributeExtra = {
         },
         attribute = {
-            [1002] = 500,
+            [1006] = 500,
             [1003] = 500,
         },
         name = "",
@@ -8666,7 +8665,6 @@ return {
         },
         attribute = {
             [605] = 500,
-            [1002] = 400,
         },
         name = "",
         angelSkillFunctions = {
@@ -8721,7 +8719,6 @@ return {
         attributeExtra = {
         },
         attribute = {
-            [1002] = 700,
             [1003] = 700,
         },
         name = "",
@@ -8812,7 +8809,6 @@ return {
         },
         attribute = {
             [1001] = 700,
-            [1002] = 700,
         },
         name = "",
         angelSkillFunctions = {

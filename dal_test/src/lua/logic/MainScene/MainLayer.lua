@@ -802,7 +802,7 @@ function MainLayer:setBackGroundByTime()
     if dressData and dressData.background and #dressData.background ~= 0 then
         spbackground = dressData.background
     end
-
+    
     if spbackground then
         local spine = self.background:getChildByName("yearBgSpine")
         if spine then
@@ -843,7 +843,6 @@ function MainLayer:setBackGroundByTime()
         self.background:setScale(dressData.scale)
         local curPosX, curPosY = self:checkImageBgPos(dressData.bgOffset)
         self.background:Pos(curPosX, curPosY)
-        return
     else
         self.effectSK = self.effectSK or {}
             for k,v in pairs(self.effectSK) do
@@ -855,50 +854,62 @@ function MainLayer:setBackGroundByTime()
             v:removeFromParent()
             self.effectSKB[k] = nil
         end
-    end
-
-    if Utils:isNewYearMainLayerUi() then
-        self:refreshBg(self.background,"ui/newyear/bg_newyear.png")
-    else
-        local res = "ui/mainLayer/new_ui/bg_morning.png"
-        local curDayCid,curNightCid = SceneSoundDataMgr:getCurSceneCid()
-        local sceneDayCfg = SceneSoundDataMgr:getMainSceneChange(curDayCid)
-        local sceneNightCfg = SceneSoundDataMgr:getMainSceneChange(curNightCid)
-        local hour = Utils:getTime(ServerDataMgr:getServerTime())
-        if hour <= 18 and hour >= 6 then
-            if sceneDayCfg and sceneDayCfg.background then
-                res = sceneDayCfg.background
-            end
+        if Utils:isNewYearMainLayerUi() then
+            self:refreshBg(self.background,"ui/newyear/bg_newyear.png")
         else
-            if sceneNightCfg and sceneNightCfg.background then
-                res = sceneNightCfg.background
+            local res = "ui/mainLayer/new_ui/bg_morning.png"
+            local curDayCid,curNightCid = SceneSoundDataMgr:getCurSceneCid()
+            local sceneDayCfg = SceneSoundDataMgr:getMainSceneChange(curDayCid)
+            local sceneNightCfg = SceneSoundDataMgr:getMainSceneChange(curNightCid)
+            local hour = Utils:getTime(ServerDataMgr:getServerTime())
+            if hour <= 18 and hour >= 6 then
+                if sceneDayCfg and sceneDayCfg.background then
+                    res = sceneDayCfg.background
+                end
             else
-                res = "ui/mainLayer/new_ui/bg_nightfall.png"
+                if sceneNightCfg and sceneNightCfg.background then
+                    res = sceneNightCfg.background
+                else
+                    res = "ui/mainLayer/new_ui/bg_nightfall.png"
+                end
             end
-        end
 
-        -- 周年庆固定骨骼背景
-        local spine = self.background:getChildByName("yearBgSpine")
-        local disData = Utils:getKVP(46026,"data")[1]
-        local defaultBgDayId = disData.defaultDayScene
-        if curDayCid == defaultBgDayId and nil == spbackground and disData.isusespine ~= 0 then
-            if not spine then
-                local tempSpine = SkeletonAnimation:create("effect/ui_effect_oneYearKanban/effects_ZNQ_kanban")
-                tempSpine:setName("yearBgSpine")
-                tempSpine:play("animation", true)
-                tempSpine:setVisible(true)
-                tempSpine:setPosition(self.Spine_effectHB:getPosition())
-                self.background:addChild(tempSpine, self.Spine_effectHB:getZOrder())
+            -- 周年庆固定骨骼背景
+            local spine = self.background:getChildByName("yearBgSpine")
+            local disData = Utils:getKVP(46026,"data")[1]
+            local defaultBgDayId = disData.defaultDayScene
+            if curDayCid == defaultBgDayId and nil == spbackground and disData.isusespine ~= 0 then
+                if not spine then
+                    local tempSpine = SkeletonAnimation:create("effect/ui_effect_oneYearKanban/effects_ZNQ_kanban")
+                    tempSpine:setName("yearBgSpine")
+                    tempSpine:play("animation", true)
+                    tempSpine:setVisible(true)
+                    tempSpine:setPosition(self.Spine_effectHB:getPosition())
+                    self.background:addChild(tempSpine, self.Spine_effectHB:getZOrder())
+                end
+            else
+                if spine then
+                    spine:removeFromParent()
+                end
             end
-        else
-            if spine then
-                spine:removeFromParent()
-            end
+            self:refreshBg(self.background,res)
         end
-        self:refreshBg(self.background,res)
+        self.background:Pos(self.background.savePos)
     end
-    self.background:setScale(1)
-    self.background:Pos(self.background.savePos)
+
+    local curWidth = me.EGLView:getDesignResolutionSize().width
+    local fitScale = (curWidth - 1386) / 1386 * 1.0
+    if dressData and dressData.adaptation and dressData.adaptation == 1 and fitScale > 0 then
+        self.background:setScale(1.0 + fitScale)
+        self.imageNpc:setScale(1.0 + fitScale)
+        local offX = 1386 * fitScale / 2 * 0.8
+        local offY = 640 * fitScale / 2 * 0.8
+        self.imageNpc:setPosition(ccp(-offX, -offY))
+    else
+        self.background:setScale(1.0)
+        self.imageNpc:setScale(1.0)
+        self.imageNpc:setPosition(ccp(0, 0))
+    end
 end
 
 function MainLayer:refreshBg(imageBg, bgPath)
@@ -1028,6 +1039,7 @@ function MainLayer:updateAction()
     local size = self.Panel_activity:Size()
     local beginPos, endPos = me.p(0, 0), me.p(0, 0)
     self.PageView_Activity:onTouch(function(event)
+        Utils:sendHttpLog("banner")
         if event.name == "began" then
             beginPos = event.target:getTouchStartPos()
             self.PageView_Activity:stopAllActions()
@@ -1460,6 +1472,7 @@ function MainLayer:registerEvents()
     -- 约会
     self.dateBtn:onClick(function ()
             -- FunctionDataMgr:jDating()
+        Utils:sendHttpLog("date")
             FunctionDataMgr:jCity()
             GameGuide:checkGuideEnd(self.guideFuncId)
     end)
@@ -1469,6 +1482,7 @@ function MainLayer:registerEvents()
 		--BlackAndWhiteDataMgr:send_NEW_WORLD_REQ_BLACK_WHITE()
 		--Utils:openView("blackAndWhite.BlackAndWhiteMainView")
 		
+        Utils:sendHttpLog("battle")
             TFAssetsManager:downloadHeroAssets(function()
                 --检查更新
                 MainPlayer:checkVersion();
@@ -1503,6 +1517,7 @@ function MainLayer:registerEvents()
     end)
 
     self.Button_fairy:onClick(function()
+        Utils:sendHttpLog("elf")
             Utils:openView("fairyNew.FairyMainLayer")
 
             -- local layer = requireNew("lua.logic.fairyNew.FairyMainLayer"):new()
@@ -1513,6 +1528,8 @@ function MainLayer:registerEvents()
 
     -- 背包
     self.Button_bag:onClick(function()
+
+        Utils:sendHttpLog("bag")
             FunctionDataMgr:jBag()
     end)
 
@@ -1535,6 +1552,7 @@ function MainLayer:registerEvents()
     -- 召唤
     self.Button_zhaohuan:onClick(function()
             --检查更新
+        Utils:sendHttpLog("call")
             MainPlayer:checkVersion();
             FunctionDataMgr:jSummonMain()
             GameGuide:checkGuideEnd(self.guideFuncId)
@@ -1561,24 +1579,29 @@ function MainLayer:registerEvents()
     end)
 
     self.Button_friend:onClick(function()
+        Utils:sendHttpLog("firend")
             FunctionDataMgr:jFriend()
     end)
 
     self.Button_mail:onClick(function()
+        Utils:sendHttpLog("email")
             FunctionDataMgr:jEmail()
     end)
 
     self.Button_shop:onClick(function()
+        Utils:sendHttpLog("store")
             FunctionDataMgr:jStore()
     end)
 
     self.Button_task:onClick(function()
+        Utils:sendHttpLog("Task")
             FunctionDataMgr:jTask()
             GameGuide:checkGuideEnd(self.guideFuncId)
     end)
 
     self.Button_explore:onClick(function ( ... )
         -- body
+        Utils:sendHttpLog("Explore")
             FunctionDataMgr:jFlyShip()
     end)
 
@@ -1599,6 +1622,7 @@ function MainLayer:registerEvents()
     end
 
     self.Button_pokedex:onClick(function()
+        Utils:sendHttpLog("Collection")
             FunctionDataMgr:jPokedex()
     end)
     
@@ -1633,6 +1657,7 @@ function MainLayer:registerEvents()
     -- 福利
     self.Button_welfare:onClick(function()
             --Utils:openView("task.TaskSignInView")
+        Utils:sendHttpLog("gift")
             if ActivityDataMgr:getIsHaveActs() then
                 Utils:openView("activity.ActivityMain")
             end
@@ -1649,23 +1674,27 @@ function MainLayer:registerEvents()
 
     -- 活动
     self.Button_activity:onClick(function()
+        Utils:sendHttpLog("Activity")
         FunctionDataMgr:jActivity()
     end)
 
 
     self.Button_activity2:onClick(function ()
+        Utils:sendHttpLog("Activity")
         FunctionDataMgr:jActivity2()
     end)
 
     --周年庆活动
     if self.button_OneYear then
         self.button_OneYear:onClick(function ()
+            Utils:sendHttpLog("Activity")
             FunctionDataMgr:jActivity3()
         end)
     end
 
     if self.button_Caociyuan then
         self.button_Caociyuan:onClick(function ()
+            Utils:sendHttpLog("Activity")
             FunctionDataMgr:jActivity4()
         end)
     end
@@ -1687,11 +1716,13 @@ function MainLayer:registerEvents()
 
     --试胆大会
     self.Button_Activity5:onClick(function()
+        Utils:sendHttpLog("Activity")
         FunctionDataMgr:jActivity5()
     end)
 
     --狂三应援
     self.Button_Activity6:onClick(function()
+        Utils:sendHttpLog("Activity")
         local activityInfo = ActivityDataMgr2:getActivityInfo(nil,6)[1]
         if not activityInfo then return end
         FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface,unpack(activityInfo.extendData.jumpParamters or {}))
@@ -1699,6 +1730,7 @@ function MainLayer:registerEvents()
 
     --狂三应援
     self.Button_Activity7:onClick(function()
+        Utils:sendHttpLog("Activity")
         FunctionDataMgr:jActivity7()
     end)
 
@@ -1733,6 +1765,7 @@ function MainLayer:registerEvents()
 
     -- 充值
     self.Button_recharge:onClick(function ()
+        Utils:sendHttpLog("pay")
          FunctionDataMgr:jPayGift()
     end)
 
@@ -1820,6 +1853,7 @@ function MainLayer:registerEvents()
 
     --社团
     self.Button_league:onClick(function()
+        Utils:sendHttpLog("Community")
         FunctionDataMgr:jUnion()
     end)
 
@@ -1901,6 +1935,7 @@ function MainLayer:registerEvents()
     end)
 
     self.Button_dispatch:onClick(function()
+        Utils:sendHttpLog("Command")
         FunctionDataMgr:jDispatch()
         GameGuide:checkGuideEnd(self.guideFuncId)
     end)

@@ -255,7 +255,7 @@ end
 function MakeFoodView:initFoodMenu()
 
 	for meueType=1,3 do
-		local foodList = MakeFoodDataMgr:getFoodlistByType(meueType)
+		local foodList = MakeFoodDataMgr:getFoodlistByType(meueType) or {}
 		local gridView = self.GridView_item[meueType]
 		for k,v in ipairs(foodList) do
 			local item = gridView:getItem(k)
@@ -269,7 +269,7 @@ function MakeFoodView:initFoodMenu()
 	self:initMenu()
 	local gridId = 1
 	if self.choosedFood then
-		local foodList = MakeFoodDataMgr:getFoodlistByType(self.curMenuId)
+		local foodList = MakeFoodDataMgr:getFoodlistByType(self.curMenuId) or {}
 		for k,v in ipairs(foodList) do
 			if v.id == self.choosedFood.id then
 				gridId = k

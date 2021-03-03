@@ -868,7 +868,7 @@ function ChatView:tryClose()
          AlertManager:closeLayer(self)
     end)
     local actions = {
-        MoveTo:create(0.2, me.p(-self.panel_chat:getSize().width,0)),
+        MoveTo:create(0.2, me.p(-self.panel_chat:getSize().width - 100,0)),
         callback
     }
 

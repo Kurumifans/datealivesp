@@ -804,6 +804,7 @@ function BattleDataMgr:heroData()
                     for k,v in pairs(levelFormation) do
                         dataStr = dataStr..k.."--"
                     end
+                    dataStr = dataStr..tostring(#FubenDataMgr.levelInfo_)
                     local errMsg = string.format("BattleDataMgr:heroData ERROR: formationdata = %s levelCid=%s limitType=%s limitCid=%s pos=%s job=%s hero data is nil !",
                         dataStr,
                         tostring(self.levelCid_ ),

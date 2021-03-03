@@ -267,6 +267,7 @@ function FubenDataMgr:init()
     self.theaterControlProcess = {}
     -- 模拟试炼数据
     self.simulationTrialInfo_ = {}
+    self.isEntry = false
 end
 
 function FubenDataMgr:reset()
@@ -297,6 +298,8 @@ function FubenDataMgr:reset()
     self.limitHeros_ = {}
     self.originLevelFormation_ = {}
     self.levelFormation_ = {}
+    self.isEntry = false
+    self.entryFirstLevelTimes = 0
 
     ---阵容排序默认排序ID
     self.formationSortRuleId = 5
@@ -1685,25 +1688,30 @@ function FubenDataMgr:enterFirstPlotLevel()
     local chapter = self:getChapter(EC_FBType.PLOT)
     local firstLevelCid = self:getChapterFirstLevel(chapter[1], EC_FBDiff.SIMPLE)
     firstLevelCid = 101101
-    local isEntry = false
+    self.isEntry = false
     if not self:isPassPlotLevel(firstLevelCid) then
-        isEntry = true
-        local levelCfg = self:getLevelCfg(firstLevelCid)
-        local levelGroupCfg = self:getLevelGroupCfg(levelCfg.levelGroupId)
-        local chapterCfg = self:getChapterCfg(levelGroupCfg.dungeonChapterId)
-        self:cacheSelectFubenType(chapterCfg.type)
-        self:cacheSelectChapter(levelGroupCfg.dungeonChapterId)
-        self:cacheSelectLevel(firstLevelCid)
-        local formationData = self:getInitFormation(firstLevelCid)
-        HeroDataMgr:changeDataByFuben(firstLevelCid, formationData)
-        local heros = {}
-        for i, v in ipairs(formationData) do
-            table.insert(heros, {v.type, v.id})
+        if self:getLimitHero(1000) and not self.isEntry then
+            self.isEntry = true
+            local levelCfg = self:getLevelCfg(firstLevelCid)
+            local levelGroupCfg = self:getLevelGroupCfg(levelCfg.levelGroupId)
+            local chapterCfg = self:getChapterCfg(levelGroupCfg.dungeonChapterId)
+            self:cacheSelectFubenType(chapterCfg.type)
+            self:cacheSelectChapter(levelGroupCfg.dungeonChapterId)
+            self:cacheSelectLevel(firstLevelCid)
+            local formationData = self:getInitFormation(firstLevelCid)
+            HeroDataMgr:changeDataByFuben(firstLevelCid, formationData)
+            local heros = {}
+            for i, v in ipairs(formationData) do
+                table.insert(heros, {v.type, v.id})
+            end
+            local battleController = require("lua.logic.battle.BattleController")
+            battleController.requestFightStart(firstLevelCid, 0, 0, heros, 0, false)
+        else
+            TFDirector:send(c2s.DUNGEON_LIMIT_HERO_DUNGEON, {firstLevelCid})
         end
-        local battleController = require("lua.logic.battle.BattleController")
-        battleController.requestFightStart(firstLevelCid, 0, 0, heros, 0, false)
+        return true
     end
-    return isEntry
+    return false
 end
 
 --返回角色额外的skinIDs[灵装试用功能]
@@ -2814,7 +2822,11 @@ function FubenDataMgr:onRecvLimitHeros(event)
 
     local data = event.data
     -- print("==============",data)
-    if not data.heros then return end
+    if not data.heros or #data.heros < 1 then 
+        local errMsg = string.format("recv no limitheroinfos: levelCid=%s",tostring(data.leveId))
+        Bugly:ReportLuaException(errMsg)
+        return
+    end
     for i, v in ipairs(data.heros) do
         local newAttr = {}
         for _, attr in pairs(v.heros.attr) do
@@ -2834,6 +2846,17 @@ function FubenDataMgr:onRecvLimitHeros(event)
     EventMgr:dispatchEvent(EV_FUBEN_UPDATE_LIMITHERO)
     if self.requestLimitInfo then
         self:enterMusicGameLevel()
+    end
+    if data.leveId == 101101 then
+        self.entryFirstLevelTimes = self.entryFirstLevelTimes or 0
+        if self.entryFirstLevelTimes > 10 then
+            
+        else
+            if not self:isPassPlotLevel(101101) then
+                self.entryFirstLevelTimes = self.entryFirstLevelTimes + 1
+                self:enterFirstPlotLevel()
+            end
+        end
     end
 end
 

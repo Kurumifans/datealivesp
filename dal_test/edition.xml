@@ -1,72 +1,244 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.07" lastVersion="3.4.05">
-  <f p=".nomedia/nomedia.txt" m="ea8f2ab54ab7f16843cee74c09eb0fc3" c="0" />
-  <f p="res/basic/effect/fight_30601/fight_30601.json" m="f8aaa43b7f2e924f9091d7178c6abb90" c="0" />
-  <f p="res/basic/icon/hero/frame/410416.png" m="f7bd8cbb324e49960bc8373b56ee07a6" c="0" />
-  <f p="res/basic/icon/item/goods/570285.png" m="37173a3f0580937682296667129f1507" c="0" />
-  <f p="res/basic/icon/stone/113301/13.png" m="ad0507315cea4dd2700bd1548779608e" c="0" />
-  <f p="res/basic/icon/stone/113301/23.png" m="46ff95f484a34ec9ed66a02451e4f9ce" c="0" />
-  <f p="res/basic/icon/stone/113301/33.png" m="cb81bb03ecf89974f128e77bfd0f7064" c="0" />
-  <f p="res/basic/icon/stone/113301/43.png" m="2cb91fb2602a03fe7eeac020a0a81f58" c="0" />
-  <f p="res/basic/icon/stone/113301/53.png" m="5fe7fd751f41602bf30b5df504d64292" c="0" />
-  <f p="res/basic/icon/stone/113301/63.png" m="1a06da2a853ae6f9bea46f65983dede8" c="0" />
-  <f p="res/basic/icon/stone/113301/73.png" m="114cabea9ba623017b7cf040a5f88e73" c="0" />
-  <f p="res/basic/icon/stone/113301/s13.png" m="e270dcbb174cf97024c53df60e52cf06" c="0" />
-  <f p="res/basic/icon/stone/113301/s23.png" m="47f62accdb554472605c78c66044505b" c="0" />
-  <f p="res/basic/icon/stone/113301/s33.png" m="93a9e90249e97746f2e89c105f4b8ccb" c="0" />
-  <f p="res/basic/modle/hero/paintshow_13201/paintshow_13201.png" m="058b6b0f0e6857cccb54e1d1099fd5df" c="0" />
-  <f p="res/basic/modle/hero/paintshow_13201/paintshow_13201.skel" m="cd0c56460d1b1daa38e31517fb13c688" c="0" />
-  <f p="res/basic/modle/hero/paintshow_13201/paintshow_132012.png" m="a32e5d8680f13dd354de4b2dc16250fc" c="0" />
-  <f p="src/lua/dataMgr/AvatarDataMgr.lua" m="8dcd18977aaebc6cb3842523b1247e24" c="0" />
-  <f p="src/lua/dataMgr/BattleDataMgr.lua" m="97cadd841185ce7b601fb3debd5227a2" c="0" />
-  <f p="src/lua/dataMgr/DatingDataMgr.lua" m="3c3170d5d937b117cbf6b75589f148b7" c="0" />
-  <f p="src/lua/dataMgr/EquipmentDataMgr.lua" m="514a04c57846cdb199013e7936c75d5c" c="0" />
-  <f p="src/lua/dataMgr/FubenDataMgr.lua" m="c565a94e16ba3c05858ee8e3658e9f70" c="0" />
-  <f p="src/lua/dataMgr/HeroDataMgr.lua" m="e8791ac48c438fb9004f3533cbcfecf8" c="0" />
-  <f p="src/lua/dataMgr/RoleDataMgr.lua" m="9cc96fe82832070300c86271333d301d" c="0" />
-  <f p="src/lua/dataMgr/SummonDataMgr.lua" m="fd9ee8c64268d1cd8c669db323c1197f" c="0" />
-  <f p="src/lua/gamedata/MainPlayer.lua" m="cdd7764e27f1a5be5c8b56e4f2998c8a" c="0" />
-  <f p="src/lua/logic/2020ZNQ/AmusementPackActor.lua" m="fe31a9f90666e6288f9a5bdd0fddb412" c="0" />
-  <f p="src/lua/logic/activity/2021_spring/ValentinesDay.lua" m="f0464ef1de2dddc31566eb033cd00111" c="0" />
-  <f p="src/lua/logic/activity/WhiteValentineActivityView.lua" m="caf6a24f781e75cf46c4dcfd17e5f8cb" c="0" />
-  <f p="src/lua/logic/bag/BagView.lua" m="4c6988416af9b5e228e79e81ca3417ff" c="0" />
-  <f p="src/lua/logic/bag/GetItemView.lua" m="89317a1b27588368bc0d4a1c8f5b45ca" c="0" />
-  <f p="src/lua/logic/bag/ItemInfoView.lua" m="3f5f18614fd1f62ddeef4679c0ee1009" c="0" />
-  <f p="src/lua/logic/battle/BattleController.lua" m="a704be4eb2e9062b2e26df6c2ebbb995" c="0" />
-  <f p="src/lua/logic/battle/BrushMonster.lua" m="385d7257940d546a9bd9bf8931b9d389" c="0" />
-  <f p="src/lua/logic/battle/Hero.lua" m="923509aaf4ede5c4ec58fb525f3168c6" c="0" />
-  <f p="src/lua/logic/battle/LevelParse.lua" m="f2e94684aeeddf4032ff1b595c06acbd" c="0" />
-  <f p="src/lua/logic/battle/Property.lua" m="6f22e1c3f2e7af272bf2cca6ea68b4db" c="0" />
-  <f p="src/lua/logic/city/CityJobView.lua" m="762187c6edac09f704597be1b1f70f53" c="0" />
-  <f p="src/lua/logic/common/ElvesNpc.lua" m="2f916d400049a1b45148da4bf54b8793" c="0" />
-  <f p="src/lua/logic/dating/FavorUpgradeLayer.lua" m="2fd493b2223c765fbc0c74004167f488" c="0" />
-  <f p="src/lua/logic/dating/NewDatingDayView.lua" m="97d6ed3d0588271398a69e24ab843f05" c="0" />
-  <f p="src/lua/logic/Equipment/EquipmentSelect.lua" m="6a72fd7245b58bafd81cf3ec9352deb1" c="0" />
-  <f p="src/lua/logic/Equipment/TokenReviewLayer.lua" m="95920501e2ddc385ca79782b5504879b" c="0" />
-  <f p="src/lua/logic/explore/ExploreMainView.lua" m="18b2c41cc2352fb76572221582d85ed2" c="0" />
-  <f p="src/lua/logic/fairy/FairyLevelUp.lua" m="18342bc723b0d4bf27e84c5a5658d62c" c="0" />
-  <f p="src/lua/logic/fairyNew/EquipSuitMainLayer.lua" m="3de698f8289f8d33a5035f2a3cbbb2a5" c="0" />
-  <f p="src/lua/logic/fairyNew/FairyDetailsLayer.lua" m="9f2047c3acdda46f267edd8d2a0feafe" c="0" />
-  <f p="src/lua/logic/fuben/FubenLevelView.lua" m="2b352ed235f8c3c4c01810507bc97697" c="0" />
-  <f p="src/lua/logic/fuben/FubenReadyView.lua" m="aea1fa3f432c8f1153ce7ec8c097ec01" c="0" />
-  <f p="src/lua/logic/fuben/FubenSquadView.lua" m="6da403a272bbdd9e2efa52784d283fc2" c="0" />
-  <f p="src/lua/logic/fuben/FubenTheaterBossView.lua" m="3354dc65738e607cd6167b8bea28c436" c="0" />
-  <f p="src/lua/logic/MainScene/MainLayer.lua" m="ebee980822e463ec4bb89522fcc13ae6" c="0" />
-  <f p="src/lua/logic/newYear/BuildRepairView.lua" m="7be7d4c5c8ef716ba39113caba306cdd" c="0" />
-  <f p="src/lua/logic/osd/LuckdrawLayer.lua" m="5f3f0483029c1af128a72e958652b976" c="0" />
-  <f p="src/lua/logic/role/NewRoleShowView.lua" m="12bed29f48b3d30a367fd104882a7229" c="0" />
-  <f p="src/lua/logic/singleWorldScene/SingleAIBehave.lua" m="ed26315d1a129ae43277047051a1eaa0" c="0" />
-  <f p="src/lua/logic/store/StoreMainView.lua" m="9fe751bb382970abf556f366d51f8b2c" c="0" />
-  <f p="src/lua/logic/supplyNew/DepotView.lua" m="d63a2f67ed52112af2a215e4d555b276" c="0" />
-  <f p="src/lua/logic/task/TaskMainView.lua" m="f96f3098c6232700e7c1e1cb7f221b9c" c="0" />
-  <f p="src/lua/public/Utils.lua" m="921d81f0a36c2e81bc0da012587e2c53" c="0" />
-  <f p="src/lua/table/AngelSkillFunction.lua" m="5226fbb23780271f02d9a1aa11436221" c="0" />
-  <f p="src/lua/table/AngelSkillTree.lua" m="a258eb5166729dbfa146464b27314401" c="0" />
-  <f p="src/lua/table/BufferEffect.lua" m="4c4331206bb9729b32e1e27f7462e0b6" c="0" />
-  <f p="src/lua/table/DatingRule.lua" m="df21861ceac07a8c20bef0afe5f0788f" c="0" />
-  <f p="src/lua/table/NewPokedex.lua" m="3db51c94e69fa772ee51c6eb9f550077" c="0" />
-  <f p="src/lua/table/SkillEffect.lua" m="a2c1305aa77bdf36a8fdda47f275d879" c="0" />
-  <f p="src/lua/table/String.lua" m="846adfc2b744a350669544aa64b8ec1d" c="0" />
-  <f p="src/lua/uiconfig/dispatch/dispatchHeroLayer.lua" m="2e974cd5c766eb87cf3f9a996d36546e" c="0" />
-  <f p="src/lua/uiconfig/Equip/EquipInfoLayer.lua" m="2bfbaa123c236c364fef8a0397356289" c="0" />
+<files version="3.4.08" lastVersion="3.4.07">
+  <f p=".nomedia/nomedia.txt" m="4975ba011390e963f51bd2b552b5aa33" c="0" />
+  <f p="res/basic/effect/effects_13101_skillD/effects_13101_skillD.atlas" m="be7fc67ac1482e08cc1a376775123980" c="0" />
+  <f p="res/basic/effect/effects_13101_skillD/effects_13101_skillD.png" m="a08b310d22b871e94986ed44f81995a4" c="0" />
+  <f p="res/basic/effect/effects_13101_skillD/effects_13101_skillD.skel" m="8b1da61f6f7a6a035fbcfa8071d620c4" c="0" />
+  <f p="res/basic/effect/effects_13101_skillD/effects_13101_skillD2.png" m="ddc32e6d005c373b84eb128ece51af05" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/CG-gongyuanyewan.png" m="0f9eb68ebb52bda5a03efeef00fd74c4" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/CG-kongjianjian.png" m="42fa7dc40bcb83823abddf4fe5a76cf5" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/CG-shidaojiachufang.png" m="455c8f3c731f86d5d12139fbfd40f983" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/yh-gaotaiyewan.png" m="e5c5201358d3212bf869b8bda9076e13" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/yh-gongyuanyewan.png" m="c57c6b724995e16cddcc23f0b4ed5565" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/yh-kongjianjian.png" m="6c6bc8965c3151e56d05629bb6c08b7a" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/yh-shangyejie.png" m="787e09085fa86d78b65e2167921845ca" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/yh-shidaowoshi.png" m="d001d46307ea427d68e79ac5b2119478" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/zd-demdalounei.png" m="b6edfc0f5631a6550974831dd214cece" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/zd-demdalouwai.png" m="a49a853668eb92752f8af431a3da00cd" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/zd-juyuanjiedao.png" m="07f01c08398a79ddf7185b31f3e79560" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/zd-shenshe.png" m="10f4b3e35ae916b2e8e11f71cf913e95" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/zd-shijiehexin.png" m="21a3d2164f1a67ae0d053b1de6f33103" c="0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/zd-tiangongta.png" m="877024a3fc458a65a35eff3dd8e0d2e6" c="0" />
+  <f p="res/basic/levels/2_hedao.json" m="abf81356aad9b018e691e464618ec428" c="0" />
+  <f p="res/basic/levels/3_S2L9.json" m="40914f5fa2bfc044716c5bfd21e11167" c="0" />
+  <f p="res/basic/levels/juchang_yuanshen_001.json" m="04e6319e977ad965c1348a1ea217d04e" c="0" />
+  <f p="res/basic/levels/juchang_yuanshen_002.json" m="348f9efcdcb087e09982a5ca9ad4fdb6" c="0" />
+  <f p="res/basic/levels/juchang_yuanshen_003.json" m="863ac30039c9000d077c0814cba029b0" c="0" />
+  <f p="res/basic/levels/juchang_yuanshen_004.json" m="293f7a57a38b415ae00c838450fb6d1a" c="0" />
+  <f p="res/basic/levels/juchang_yuanshen_005.json" m="36c5172355f015514be111523b229b08" c="0" />
+  <f p="res/basic/levels/juchang_yuanshen_006.json" m="b6878cd97bd02649116cc3f48882b5fa" c="0" />
+  <f p="res/basic/levels/juchang_yuanshen_007.json" m="3ad34cfa907d8ac3d2c3fe5084011419" c="0" />
+  <f p="res/basic/levels/juchang_yuanshen_008.json" m="a35602114712ecf7563a3a47cff01b3d" c="0" />
+  <f p="res/basic/levels/juchang_yuanshen_009.json" m="2b59149760f3fa587af79aa508a4be5e" c="0" />
+  <f p="res/basic/levels/juchang_yuanshen_010.json" m="7998f9985b868bfe2848b9f6295f074e" c="0" />
+  <f p="res/basic/levels/juchang_yuanshen_011.json" m="7f668421e2859229b2c1b511baeb0cb5" c="0" />
+  <f p="src/lua/ai/ai_999187.lua" m="8ec37bc5a65b8af5282528d88889c3eb" c="0" />
+  <f p="src/lua/ai/ai_999188.lua" m="4c9292579fad7cceb9a4bfbab2a3064b" c="0" />
+  <f p="src/lua/ai/ai_999189.lua" m="6ce22d8d327fe5b851134176d6aa1863" c="0" />
+  <f p="src/lua/dataMgr/BattleDataMgr.lua" m="33b8c7b2eb22ac195c75d34c894b6820" c="0" />
+  <f p="src/lua/dataMgr/FubenDataMgr.lua" m="a3aefdea7636ba5b391b9a22d9a8e38e" c="0" />
+  <f p="src/lua/logic/battle/BattleView.lua" m="a9f628aa19836eb5a5f7e52aa46864a3" c="0" />
+  <f p="src/lua/logic/battle/Hero.lua" m="8c5e10a36cc9252d1f8e40e12dd8f855" c="0" />
+  <f p="src/lua/logic/chat/ChatView.lua" m="abbde2052c1dafaceee5638b8178bf58" c="0" />
+  <f p="src/lua/logic/dating/DatingScriptView.lua" m="f9619e7e5900c9473d79c60fb59302c4" c="0" />
+  <f p="src/lua/logic/dating/FubenCitySettlementLayer.lua" m="0672ac7f505e9c1241e7acc8ccdcdf76" c="0" />
+  <f p="src/lua/logic/MainScene/MainLayer.lua" m="746538bcc6fa656bc6a78e3822b634f5" c="0" />
+  <f p="src/lua/logic/newCity/MakeFoodView.lua" m="0e8f2cc06c481c786bd77ae19de2f01c" c="0" />
+  <f p="src/lua/logic/role/NewRoleShowView.lua" m="ff5aa13c960e9675e6d5de7d8ea113c7" c="0" />
+  <f p="src/lua/logic/role/NewSceneShowView.lua" m="c33fef7f58da9156f97e526495c4cb91" c="0" />
+  <f p="src/lua/logic/supplyNew/SupplyMainNewView.lua" m="a1daa0ea3e64a98bde8025e7f5e1a0cb" c="0" />
+  <f p="src/lua/logic/test/GMView.lua" m="990b5b5356957430bfa910b8530db459" c="0" />
+  <f p="src/lua/table/AngelSkillFunction.lua" m="3980f163c3c31952a7e283e9935ac56e" c="0" />
+  <f p="src/lua/table/BufferEffect.lua" m="5b54aa78b42aae15f67189b1bf43519c" c="0" />
+  <f p="src/lua/table/Commodity.lua" m="421f3f51efd5e4b7350abb49ce52c745" c="0" />
+  <f p="src/lua/table/DiscreteData.lua" m="0f9534dd2edfad88e16223996ef63980" c="0" />
+  <f p="src/lua/table/Drop.lua" m="c4533a57a87dc95b9b7962edc1bb3a19" c="0" />
+  <f p="src/lua/table/DungeonChapter.lua" m="9bcdcd726e44ede346a7db1c3d4d9566" c="0" />
+  <f p="src/lua/table/DungeonLevel.lua" m="d0416004a3a0f56aacefa0276b1c2fde" c="0" />
+  <f p="src/lua/table/Item.lua" m="76bfd8653f648a137018cdf493cf9f85" c="0" />
+  <f p="src/lua/table/Medal.lua" m="26920094d4196eea9eb828dc3ed35840" c="0" />
+  <f p="src/lua/table/MonsterSection.lua" m="4a5b2f7efe7ece223aec70fd47562263" c="0" />
+  <f p="src/lua/table/NewPokedex.lua" m="7581fa53e109863a021a59b2a38da394" c="0" />
+  <f p="src/lua/table/PassiveSkills.lua" m="36ba1d0699b4afd4bb80a6da3a046450" c="0" />
+  <f p="src/lua/table/SkillEffect.lua" m="636215137959957fde64511aac4d46dd" c="0" />
+  <f p="src/lua/table/Store.lua" m="dd406f21cc8b2c0bf1e2ec5b0af1e7ee" c="0" />
+  <f p="src/lua/table/String.lua" m="3901040f333ad82b499f1eed11b2a791" c="0" />
+  <f p="src/lua/table/Task.lua" m="caa48766e80dab5a5953713fc6bb47ba" c="0" />
+  <f p="src/lua/table/TitleBase.lua" m="e1803f8b2fcb5931c1fb8f3f18f235a0" c="0" />
+  <f p="src/lua/table/TrainDungeon.lua" m="cf49d11031609f5b55906ae1da77be9c" c="0" />
+  <f p="src/lua/table/TrainDungeonLevel.lua" m="fe727918eab0bd77ddb2bc61323d5f26" c="0" />
+  <f p="src/lua/uiconfig/battle/battleView.lua" m="4a58c68b972f44b28b1f7d40bc8632e5" c="0" />
+  <f p="src/lua/uiconfig/chat/chatView.lua" m="42a2ec5483d8072ae9014ca87c2cd74e" c="0" />
+  <f p="src/lua/uiconfig/fuben/sceneConfig.lua" m="3c2582a5f9ef1acbbaaaa170cddbeb51" c="0" />
+  <f p="src/lua/uiconfig/fuben/yuanshen_theater_chapter_1.lua" m="433c2e035349bcf21eaf486f779b3c51" c="0" />
+  <f p="src/lua/uiconfig/fuben/yuanshen_theater_chapter_2.lua" m="3dbb10386be651a1c2d939b38122099a" c="0" />
+  <f p="src/lua/uiconfig/fuben/yuanshen_theater_chapter_hard.lua" m="a211d5f8071efeff5511492fdbcdd23f" c="0" />
+  <f p="src/lua/uiconfig/role/newRoleShowView.lua" m="81615bcfd03ece93f14ac2ec2916e3c3" c="0" />
+  <f p="res/basic/effect/fight_11215/fight_11215.atlas" m="a70e3f104441b14ec7bba63a27cdd601" />
+  <f p="res/basic/effect/fight_11215/fight_11215.png" m="eb940bc1084660108b22e1ed0be5e153" />
+  <f p="res/basic/effect/fight_11215/fight_11215.skel" m="bc120d57bc8e366ed405acd6db10c85b" />
+  <f p="res/basic/effect/fight_11215/fight_112152.png" m="2d82914667c7d2bbb07b2c88aa465a5e" />
+  <f p="res/basic/effect/title/chenghao_KXZZ/chenghao_KXZZ.atlas" m="4da4fb146e7e3063ea023fdfcc8d0ec2" />
+  <f p="res/basic/effect/title/chenghao_KXZZ/chenghao_KXZZ.png" m="076ecccce742ba3d9dfbd4b4960172c5" />
+  <f p="res/basic/effect/title/chenghao_KXZZ/chenghao_KXZZ.skel" m="6918b8c85bab4bc81464a17bbe945027" />
+  <f p="res/basic/fightmap/ditiejiedao/qianjing/langan.png" m="e400ccea6d7d03e79f484f03422f4f14" />
+  <f p="res/basic/fightmap/ditiejiedao/qianjing/zhuzi1.png" m="928bbe8285f2da2790cee689bf2f69be" />
+  <f p="res/basic/fightmap/ditiejiedao/qianjing/zhuzi2.png" m="a3d5fa3f6884dbe61a7df70c1c1eeee3" />
+  <f p="res/basic/fightmap/ditiejiedao/yuanjing/jianzhu.png" m="379544d1448c5e100288b5624c3b1ce0" />
+  <f p="res/basic/fightmap/ditiejiedao/yuanjing/tiankong.png" m="a974e859ad9e697140a288545bc80ec6" />
+  <f p="res/basic/fightmap/ditiejiedao/yuanjing/yun.png" m="e8c36cee29760918534a4b2021d1faa5" />
+  <f p="res/basic/fightmap/ditiejiedao/zhandouqu/zhandouqu.png" m="ff2ce4cdf91524c81064bc68a8270342" />
+  <f p="res/basic/fightmap/ditiejiedao/zhongjing/huoche.png" m="8963574a190b47071fb822e7644e70d3" />
+  <f p="res/basic/fightmap/ditiejiedao/zhongjing/huoche2.png" m="6caa901552d35fae027ada602a2228b0" />
+  <f p="res/basic/fightmap/ditiejiedao/zhongjing/paizi.png" m="d16e74648f767e4ded10067cd7b87740" />
+  <f p="res/basic/fightmap/ditiejiedao/zhongjing/tianqiao.png" m="5f694239191f3d291ffc3a023421e506" />
+  <f p="res/basic/fightmap/ditiejiedao/zhongjing/tianqiao2.png" m="49c724dface12fd95324a2a90e7b8bf8" />
+  <f p="res/basic/fightmap/ditiejiedao/zhongjing/zhantai1.png" m="3484145a2e8e9b6986cca6c7cff4b90a" />
+  <f p="res/basic/fightmap/ditiejiedao/zhongjing/zhantai2.png" m="d74d12541a8a70e3eec2de4ac33fe267" />
+  <f p="res/basic/fightmap/tiangongta/dibiao1.png" m="27010ca5ece1e8820e95f4c0d883dd64" />
+  <f p="res/basic/fightmap/tiangongta/dibiao2.png" m="063e30164c330da39a029ac7c9f90982" />
+  <f p="res/basic/fightmap/tiangongta/dibiao3.png" m="b51abfa681a4544d55a0f81b1e23f73e" />
+  <f p="res/basic/fightmap/tiangongta/qianjing1.png" m="42d22221d9d97be8ec983c9a6f5da483" />
+  <f p="res/basic/fightmap/tiangongta/qianjing2.png" m="06706fc7098f6cb403f475aecd4f4727" />
+  <f p="res/basic/fightmap/tiangongta/qianjing3.png" m="0be93c61dd2d056e61af78e58f08a9ff" />
+  <f p="res/basic/icon/cg/cg_yuanshenjuchang.png" m="15d3cb81e283afe55a59cc5d644f2654" />
+  <f p="res/basic/icon/equipment/heroicon/wanyouli_4.png" m="4bc7b455327fe81fbdb3a497def997b0" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/CG-shidaojiaketing.png" m="35c8ff56db49acbf114f6144a526b5bc" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/zd-ditiejiedao.png" m="ab2a89f59c68eef74a960ee9558ef024" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/zd-hebianjiedao.png" m="5df11864a2ca5cd97e10b57da5ab6372" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/zd-shizhongxinjiedao.png" m="59c702bb86e44ccf090cd781d63e2c1c" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/zd-xuexiaowaijiedao.png" m="b320385150dffb9fc9072fc8f82b62cb" />
+  <f p="res/basic/icon/fuben/levelIcon/Dungeon/yuanshen/zd-youleyuan.png" m="dc149b13544a875a9999baaf6a22c7bf" />
+  <f p="res/basic/icon/hero/backdrop/jixiewanyouli.png" m="084f7fb62a2f66fb17a4f195c48806d3" />
+  <f p="res/basic/icon/hero/face/1112151.png" m="4433b630e2e5894b2c1185152c8dde03" />
+  <f p="res/basic/icon/hero/face/1133011_juchang.png" m="bc38de4b784a78557a26071b553c0d1b" />
+  <f p="res/basic/icon/hero/name/1112151.png" m="c2a2b1f5516486635be006c2fcbcb5f8" />
+  <f p="res/basic/icon/item/goods/1200042.png" m="6c432691474acd1efdf02aeb14bad25a" />
+  <f p="res/basic/icon/item/goods/529046.png" m="d94d7effacfed07fdbd0ca9846ff0bde" />
+  <f p="res/basic/icon/item/goods/570540.png" m="97eb1496de413c54edbfea9a43b72cc5" />
+  <f p="res/basic/icon/role/dress/11215s.png" m="074dba0847a4c4377b194a08fda44f96" />
+  <f p="res/basic/icon/role/dress_kanban/13201.png" m="15b4452b0c379e10fb49299b7ef3da6a" />
+  <f p="res/basic/icon/role/dress_kanban/13201m.png" m="367bdc9aa8e333452d31d0542acac057" />
+  <f p="res/basic/icon/role/dress_kanban/13202.png" m="dd6c65f235aa008f397aaf7306010d04" />
+  <f p="res/basic/icon/role/dress_kanban/13202m.png" m="b4e1e5b83e80cb9b887149fbcdc466b0" />
+  <f p="res/basic/icon/role/dress_kanban/13301.png" m="5452d423ae5425a90a5f44e799f09434" />
+  <f p="res/basic/icon/role/dress_kanban/13301m.png" m="e4ffab5d9524f456fbaa004ff2cd8c96" />
+  <f p="res/basic/icon/role/dress_kanban/13302.png" m="24e79fd9eb2544c3d8e84ebdbabe9457" />
+  <f p="res/basic/icon/role/dress_kanban/13302m.png" m="5dba9d9007f2c7f8c06db14f0f02c240" />
+  <f p="res/basic/icon/role/roleSkin/11215.png" m="830a66809d89dafc1a9668d1b8aecd11" />
+  <f p="res/basic/icon/skill/13301_angelA.png" m="027416b0dbc2c953f01a66e91adc407b" />
+  <f p="res/basic/icon/skill/13301_angelB.png" m="1fb27a917d324bda4e1f33fa507d6ae3" />
+  <f p="res/basic/icon/skill/13301_angelB2.png" m="5454ba83f4c9487ed7e209093776f52b" />
+  <f p="res/basic/icon/skill/13301_angelC.png" m="f05599efc9550b5cb549b8021e654ba8" />
+  <f p="res/basic/icon/skill/13301_icon1.png" m="aa8cca83da583c9b5993405fcba60416" />
+  <f p="res/basic/icon/skill/13301_icon10.png" m="0206b94d63aef7ba8da60333094aa333" />
+  <f p="res/basic/icon/skill/13301_icon11.png" m="e7c73b80952d554b463ee6ccc6f4b2ca" />
+  <f p="res/basic/icon/skill/13301_icon12.png" m="731ab78cdc07d452da7d0399296c3d86" />
+  <f p="res/basic/icon/skill/13301_icon13.png" m="11f8bd12f186e340d74506508ce02b4f" />
+  <f p="res/basic/icon/skill/13301_icon14.png" m="4c1bc71ae02056a230abcbfab6fe9dc5" />
+  <f p="res/basic/icon/skill/13301_icon15.png" m="09d81887430eaa4a856e45339cf44727" />
+  <f p="res/basic/icon/skill/13301_icon16.png" m="689a4ae8347aa172f418a69697b99687" />
+  <f p="res/basic/icon/skill/13301_icon2.png" m="1437162d104b4ed62e2a9c176ed6214a" />
+  <f p="res/basic/icon/skill/13301_icon3.png" m="14fd3946afb59620b1c94948fcffc5bc" />
+  <f p="res/basic/icon/skill/13301_icon4.png" m="be39a68fbae775928f03779b9c4c02c1" />
+  <f p="res/basic/icon/skill/13301_icon5.png" m="68358b68c52215eddafb7b86a4a662ad" />
+  <f p="res/basic/icon/skill/13301_icon6.png" m="e310e871a3ac7ec240cc63c8a29d0208" />
+  <f p="res/basic/icon/skill/13301_icon7.png" m="d2362e4a504586c20f1edaf5e6bb93fc" />
+  <f p="res/basic/icon/skill/13301_icon8.png" m="fad1a721fc120985eaff9e85a4238ec0" />
+  <f p="res/basic/icon/skill/13301_icon9.png" m="54b76ec3daae84040e8b064936ab3470" />
+  <f p="res/basic/icon/teampic/1120015.png" m="165120fa2b4d47e6973d7fca0e5df946" />
+  <f p="res/basic/levels/juchang_yuanshen_001.path" m="e99e7f4095e7835462f66f84018b9479" />
+  <f p="res/basic/levels/juchang_yuanshen_002.path" m="b28887f972bd7a036e77526d58433eb0" />
+  <f p="res/basic/levels/juchang_yuanshen_003.path" m="670360cc5edbf994faccd2b1d0ca0231" />
+  <f p="res/basic/levels/juchang_yuanshen_004.path" m="05cc6198fe9c8fdc65e785dad4fb3d2c" />
+  <f p="res/basic/levels/juchang_yuanshen_005.path" m="a40b822dcc8da0d2fa37e22b857a8525" />
+  <f p="res/basic/levels/juchang_yuanshen_006.path" m="78751f64da5ea1687c9fca9e2e30f096" />
+  <f p="res/basic/levels/juchang_yuanshen_007.path" m="2afc4f962d8925355f36b3d7fdea2327" />
+  <f p="res/basic/levels/juchang_yuanshen_008.path" m="685bcd0a44f939f1652d51741784485d" />
+  <f p="res/basic/levels/juchang_yuanshen_009.path" m="53a3272f03d50ae7ccbc2f2b10558882" />
+  <f p="res/basic/levels/juchang_yuanshen_010.path" m="5851ac1744585d6bbc7efb2297eee623" />
+  <f p="res/basic/levels/juchang_yuanshen_011.path" m="206b65ae2a01fdf3c151569a1902b052" />
+  <f p="res/basic/modle/hero/paintshow_11215/paintshow_11215.atlas" m="2a98ab83ca6f0d73f41a5dad24b8340a" />
+  <f p="res/basic/modle/hero/paintshow_11215/paintshow_11215.png" m="619232a36d14c5a31eda8b6a23a98a85" />
+  <f p="res/basic/modle/hero/paintshow_11215/paintshow_11215.skel" m="7995d75f42dc836cc6b4636951e409c9" />
+  <f p="res/basic/modle/hero/paintshow_11215/paintshow_112152.png" m="bce9f1dc4f74dd9b73e28b348777eb57" />
+  <f p="res/basic/scene/bg/bg_yuanshenjuchang.png" m="0056f71bf5680170ebe4f6f53babe897" />
+  <f p="res/basic/storyscript/story_9469.lua" m="e48995a81d83aaa8665c60410842abbe" />
+  <f p="res/basic/storyscript/story_9470.lua" m="0f47d94008fa15ec3129f1e3a9539b02" />
+  <f p="res/basic/storyscript/story_9471.lua" m="8e74768d7285db7eec98687afcad14b6" />
+  <f p="res/basic/storyscript/story_9472.lua" m="24da95d076b3631d30a64d6819e6bb88" />
+  <f p="res/basic/storyscript/story_9473.lua" m="17c1b3c96c539f708941dcb6dbd2d27f" />
+  <f p="res/basic/storyscript/story_9474.lua" m="ec8e63c959ab69653d5ecf3b42e0c65c" />
+  <f p="res/basic/storyscript/story_9475.lua" m="8b82cc74c1d347c88d2bcba557d9485f" />
+  <f p="res/basic/storyscript/story_9476.lua" m="35a0f6fde4e11786aae9472989e344f7" />
+  <f p="res/basic/storyscript/story_9477.lua" m="497aeec6fefc376c031cc89074b1fac4" />
+  <f p="res/basic/storyscript/story_9478.lua" m="e1c6f8af16077d9adc320ca021c0576f" />
+  <f p="res/basic/storyscript/story_9479.lua" m="136b8b825a382c155b9b184bbba02941" />
+  <f p="res/basic/storyscript/story_9480.lua" m="168ed9c9816b39dd487623db31ffe54a" />
+  <f p="res/basic/storyscript/story_9481.lua" m="4afe6a6ee82192d0aa4f8ae44e5516ac" />
+  <f p="res/basic/storyscript/story_9482.lua" m="d8f0df947141fd165013453cd4b72930" />
+  <f p="res/basic/storyscript/story_9483.lua" m="1da1625c374a4dfc21b1ac0a6e6740e0" />
+  <f p="res/basic/storyscript/story_9484.lua" m="2ddc6a9a02119a1bcf88fa3e14000117" />
+  <f p="res/basic/storyscript/story_9485.lua" m="4e7a3124329c815c1f817cd23daf61fd" />
+  <f p="res/basic/storyscript/story_9486.lua" m="845fdfa4104c9a2e155630c9a893e308" />
+  <f p="res/basic/storyscript/story_9487.lua" m="62892e665fe3d7312f1b7af9a5be11f1" />
+  <f p="res/basic/storyscript/story_9488.lua" m="7749aea84247a4c3a23ccf1ff4175f67" />
+  <f p="res/basic/storyscript/story_9489.lua" m="b343fd8dff648d47b4d2bfd89f3b036b" />
+  <f p="res/basic/storyscript/story_9490.lua" m="1e5309cade299c47a05bd9837ae87018" />
+  <f p="res/basic/storyscript/story_9491.lua" m="a0510cf5f8a278982422ddd3ea9915c0" />
+  <f p="res/basic/storyscript/story_9492.lua" m="42ffca993ad913b4f8e35c60b1a92b11" />
+  <f p="res/basic/storyscript/story_9493.lua" m="816b6529961abca111326e24a2e5e888" />
+  <f p="res/basic/storyscript/story_9494.lua" m="dfbecdb1716d1a254485e7577a68c654" />
+  <f p="res/basic/storyscript/story_9495.lua" m="49339457612a234ba690e597a0a8e442" />
+  <f p="res/basic/storyscript/story_9496.lua" m="98d2dc03f5180baccded12bf63de54ff" />
+  <f p="res/basic/storyscript/story_9497.lua" m="b7ff0f1c4d4aae1d75bfd0b92bfeea00" />
+  <f p="res/basic/storyscript/story_9498.lua" m="da05963159fb62e4938b46f734461e9c" />
+  <f p="res/basic/storyscript/story_9499.lua" m="1d70efb98c355bb2274cbf4d51f8dcd0" />
+  <f p="res/basic/storyscript/story_9500.lua" m="e24a05fbe176323be685559e3180cd69" />
+  <f p="res/basic/storyscript/story_9501.lua" m="142ca4e8ae6b8d94710f1199da540dc6" />
+  <f p="res/basic/storyscript/story_9502.lua" m="eca71c0ae40c460f15606c8b55f22975" />
+  <f p="res/basic/storyscript/story_9503.lua" m="25db3551816a0f8316572aaf449231ba" />
+  <f p="res/basic/storyscript/story_9504.lua" m="9a51a1ba723e7de697778feadb342fa7" />
+  <f p="res/basic/storyscript/story_9505.lua" m="6c93508745a69825bf2ff5a51e4db403" />
+  <f p="res/basic/storyscript/story_9506.lua" m="7c9904c02c376e135fea5c17702bcfda" />
+  <f p="res/basic/storyscript/story_9507.lua" m="a20fab5ec9d1c63ca8e65fa525c12648" />
+  <f p="res/basic/storyscript/story_9508.lua" m="da3b05e5b14a53a29eef2c85d0bc57a0" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/button/battle.png" m="dde84d113a778c002b82ae8e737c23b1" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/button/CG1.png" m="8e2f3e19f7adc45908508c2290e69e21" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/button/CG2.png" m="e9f64fb392a1ffc58dc42337781ba45e" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/button/date.png" m="f6effd051d1c8a0c38c83564acb4acfd" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/1.png" m="09d69f9e34fe22f93acb66fd913e356c" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/10.png" m="95577aa398f02647c6097232dbbdea04" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/11.png" m="4e638252fa0ff59a524aadaf935d167b" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/12.png" m="8537f40dfccec7252836a8bda636805f" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/13.png" m="7b6e2acd351c03f3c78db625298fabb0" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/2.png" m="c50c1e01ed5c294a40ada2cff55554c7" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/3.png" m="1b1fff4814c23fb28177b7871f1f47e8" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/4.png" m="26a8a6397a9d1687792f4da07f2b19ac" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/5.png" m="790060d354a7cd2e6148df22fb5744c1" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/6.png" m="bd6f1caa14ac6a9145edd888e28ddaa4" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/7.png" m="95daad2dcce9140a3d79de6428ef2b96" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/8.png" m="4a980cd5bf2103b713afad890dbb5672" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter1/9.png" m="32366ded8e91e062491aa136596ffa37" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/1.png" m="bc3f1a47d7c00ea52df3ca160dc026bc" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/10.png" m="40aa21c14bbddf0c938e132344ce5e30" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/11.png" m="9f2fd8e883237e7bca127fbf40aa1acb" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/12.png" m="19b6ebfb62b987764e97f964305a3abf" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/2.png" m="34d6904f0fa5a229c57ab2d337657448" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/3.png" m="4c763607069a7b713a19258d78977777" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/4.png" m="3e47124f58d4259b9645b44d23af2694" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/5.png" m="557f54d133a12a09a6ffb2e08046f858" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/6-1.png" m="8ddc15be4b8fc4019a8accc3d9c38dac" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/6-2.png" m="0cef0056db45189de35ae319d55946ca" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/7.png" m="9f035ef1d82c3b17c54d17b33342f2f4" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/8.png" m="c051e52ce8bc00e9da36bd7073046edc" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/chapter2/9.png" m="9147af2f17453216368a8564f6afbf66" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/hard/1.png" m="9643c159d09e1f13b64e52ec971779d8" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/hard/2.png" m="f7eb9b2a20a40666596aa0a000da3f7d" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/hard/3.png" m="e2da59159672eca16db4cab4f2d8ec37" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/hard/4.png" m="b4d2c2c8270362fedef44711b338fd37" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/line/hard/5.png" m="4a2d4bb7bb2470a8d7c899bdd5148fc6" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/yuanshen_TabText.png" m="3f9d7e3600405f6f47323c1ab6469e42" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/zhangjie_cg_1.png" m="fa758d0ac38ec13b96938da188ff6ea7" />
+  <f p="res/basic/ui/fuben/yuanshenjuchang/zhangjie_cg_2.png" m="ca9b4db5f296539b21424e8d002efc81" />
 </files>

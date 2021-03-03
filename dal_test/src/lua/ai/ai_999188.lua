@@ -3,23 +3,58 @@ return {
         ["67CA4DC8EC8D4AADB5CB0A6DB7061C0E"] = {
             [1] = "F9B40A9CEB8B4FFFB52C76247678D2A7",
         },
-        ["3B882C6D6CE44367A893E215B245B37D"] = {
-            [1] = "95563AEEE7D048588F59802084CD11BA",
+        ["BC5A0EEDEC184CF69C04DED810E50DD7"] = {
+            [1] = "8811BBACC47749C89E2B6F7019E4C384",
         },
         ["F9B40A9CEB8B4FFFB52C76247678D2A7"] = {
             [1] = "E58284241DEF4597B1419EC401754BE3",
         },
-        ["BC5A0EEDEC184CF69C04DED810E50DD7"] = {
-            [1] = "8811BBACC47749C89E2B6F7019E4C384",
-        },
-        ["35CDA9D8D59744E68B478388AA72B16A"] = {
-            [1] = "A0D6DAB51D0D4B32A5ACA8E66B357027",
-        },
         ["EB2255181C674183B5FB1157FD1051E4"] = {
             [1] = "118AFD3F63B74F82B7F6F5BEF6D8EFB9",
         },
+        ["03F9A33CED97442EBACEF8A1AB5D7DA5"] = {
+            [1] = "6545F5899F5345A89FB0601A1CBD8026",
+        },
+        ["1DA93EA36DAD481BADA0B32C6744D732"] = {
+            [1] = "7EDBA49A89164EE1AF9112023CE871A4",
+        },
+        ["CD92E6D76FC54F22B9F61DC2F124779B"] = {
+            [1] = "2433AFB4472F4185B1983B3520424A62",
+        },
+        ["0E5B67F2C2AE462EA0EA8120083C7742"] = {
+            [1] = "7622E9CE1DDB40CB90F974FBD886D1D6",
+        },
+        ["DED267C033334C7F8528EE89000D01BB"] = {
+            [1] = "233D3D9686EF4C1C9F6136CB0FCD987E",
+        },
+        ["3CED947024E94CC88D5E77FE428CF8B6"] = {
+            [1] = "EB6A68EED1FD445DBEFFCC7306B2DE4A",
+        },
+        ["0A581B16B59849C0BA7D3273BFB4AFE2"] = {
+            [1] = "0E5B67F2C2AE462EA0EA8120083C7742",
+            [2] = "87B9DA9988B548988215AF26F81F6949",
+            [3] = "A737DBC1EDA14766AA6C9D6225759588",
+            [4] = "1286712DAE064E51B7D47035867DA9E0",
+            [5] = "EB2255181C674183B5FB1157FD1051E4",
+        },
+        ["BEDC334069104B6CB9F25604DF0B472D"] = {
+            [1] = "3CED947024E94CC88D5E77FE428CF8B6",
+        },
+        ["5F3A1088025246BB854607A0123AA0D0"] = {
+            [1] = "A8F7271149B941E6A024956C21EEEE8B",
+        },
         ["698A3460F5E740668CEF79C21ED90489"] = {
             [1] = "BC5A0EEDEC184CF69C04DED810E50DD7",
+        },
+        ["A737DBC1EDA14766AA6C9D6225759588"] = {
+            [1] = "03F9A33CED97442EBACEF8A1AB5D7DA5",
+            [2] = "C62AF6631BF84D87A4B3AB01860BC2D8",
+        },
+        ["3B882C6D6CE44367A893E215B245B37D"] = {
+            [1] = "95563AEEE7D048588F59802084CD11BA",
+        },
+        ["C62AF6631BF84D87A4B3AB01860BC2D8"] = {
+            [1] = "6545F5899F5345A89FB0601A1CBD8026",
         },
         ["1286712DAE064E51B7D47035867DA9E0"] = {
             [1] = "5C4D514313894227BFEA9B05D93F7BDA",
@@ -27,79 +62,53 @@ return {
         ["9354FE8A402A48B2A741DF3CCAD5102F"] = {
             [1] = "A632001CDCB84096872D273A6C863C7C",
         },
-        ["A632001CDCB84096872D273A6C863C7C"] = {
-            [1] = "9D910CE548804EB88233B006214D0ABB",
-        },
-        ["053DB747B5F24D64B43BFBF65E5C5280"] = {
-            [1] = "849BC88BF56144BCB1E46D517C7CABB4",
-        },
-        ["DED267C033334C7F8528EE89000D01BB"] = {
-            [1] = "233D3D9686EF4C1C9F6136CB0FCD987E",
-        },
-        ["1DA93EA36DAD481BADA0B32C6744D732"] = {
-            [1] = "7EDBA49A89164EE1AF9112023CE871A4",
-        },
-        ["3CED947024E94CC88D5E77FE428CF8B6"] = {
-            [1] = "EB6A68EED1FD445DBEFFCC7306B2DE4A",
-        },
         ["118AFD3F63B74F82B7F6F5BEF6D8EFB9"] = {
             [1] = "FE7E10735E22427CBF14196448D0F32A",
         },
-        ["9D910CE548804EB88233B006214D0ABB"] = {
-            [1] = "6E62B5F6F1DB4408A12AC24326F136D3",
-        },
-        ["0E5B67F2C2AE462EA0EA8120083C7742"] = {
-            [1] = "7622E9CE1DDB40CB90F974FBD886D1D6",
+        ["A632001CDCB84096872D273A6C863C7C"] = {
+            [1] = "9D910CE548804EB88233B006214D0ABB",
         },
         ["7EDBA49A89164EE1AF9112023CE871A4"] = {
             [1] = "E0E913C1CAA547148C49EDBD5356E930",
         },
-        ["5C4D514313894227BFEA9B05D93F7BDA"] = {
-            [1] = "698A3460F5E740668CEF79C21ED90489",
+        ["6AB4ECB6EDFA449D99AFD06DC556F466"] = {
+            [1] = "5F3A1088025246BB854607A0123AA0D0",
         },
-        ["EB6A68EED1FD445DBEFFCC7306B2DE4A"] = {
-            [1] = "7760EF1DAEBF45558177188A1C34C32F",
-        },
-        ["7622E9CE1DDB40CB90F974FBD886D1D6"] = {
-            [1] = "1DA93EA36DAD481BADA0B32C6744D732",
-        },
-        ["0A581B16B59849C0BA7D3273BFB4AFE2"] = {
-            [1] = "0E5B67F2C2AE462EA0EA8120083C7742",
-            [2] = "AB43F23008BD4F57AD258AE3638852BF",
-            [3] = "A17DD623D21E43E9AFEC9693C4BE6DFE",
-            [4] = "9354FE8A402A48B2A741DF3CCAD5102F",
-            [5] = "053DB747B5F24D64B43BFBF65E5C5280",
-            [6] = "BEDC334069104B6CB9F25604DF0B472D",
-            [7] = "1286712DAE064E51B7D47035867DA9E0",
-            [8] = "EB2255181C674183B5FB1157FD1051E4",
-            [9] = "23C669085BCD4405A6F1DA2C8492C846",
-        },
-        ["BEDC334069104B6CB9F25604DF0B472D"] = {
-            [1] = "3CED947024E94CC88D5E77FE428CF8B6",
-        },
-        ["CD92E6D76FC54F22B9F61DC2F124779B"] = {
-            [1] = "2433AFB4472F4185B1983B3520424A62",
+        ["053DB747B5F24D64B43BFBF65E5C5280"] = {
+            [1] = "849BC88BF56144BCB1E46D517C7CABB4",
         },
         ["34438F87E36E4DA7A095FF81025F949D"] = {
             [1] = "3B882C6D6CE44367A893E215B245B37D",
         },
-        ["964A1742AC6A4D70BF9FDAF951F6A07C"] = {
-            [1] = "35CDA9D8D59744E68B478388AA72B16A",
+        ["6545F5899F5345A89FB0601A1CBD8026"] = {
+            [1] = "7DB4CFD0EC8C4D1384637FF6DF21C1B9",
         },
-        ["849BC88BF56144BCB1E46D517C7CABB4"] = {
-            [1] = "CD92E6D76FC54F22B9F61DC2F124779B",
+        ["AB43F23008BD4F57AD258AE3638852BF"] = {
+            [1] = "67CA4DC8EC8D4AADB5CB0A6DB7061C0E",
+        },
+        ["5C4D514313894227BFEA9B05D93F7BDA"] = {
+            [1] = "698A3460F5E740668CEF79C21ED90489",
         },
         ["A17DD623D21E43E9AFEC9693C4BE6DFE"] = {
             [1] = "34438F87E36E4DA7A095FF81025F949D",
         },
+        ["849BC88BF56144BCB1E46D517C7CABB4"] = {
+            [1] = "CD92E6D76FC54F22B9F61DC2F124779B",
+        },
+        ["7622E9CE1DDB40CB90F974FBD886D1D6"] = {
+            [1] = "1DA93EA36DAD481BADA0B32C6744D732",
+        },
+        ["EB6A68EED1FD445DBEFFCC7306B2DE4A"] = {
+            [1] = "7760EF1DAEBF45558177188A1C34C32F",
+        },
         ["FE7E10735E22427CBF14196448D0F32A"] = {
             [1] = "DED267C033334C7F8528EE89000D01BB",
         },
-        ["23C669085BCD4405A6F1DA2C8492C846"] = {
-            [1] = "964A1742AC6A4D70BF9FDAF951F6A07C",
+        ["9D910CE548804EB88233B006214D0ABB"] = {
+            [1] = "6E62B5F6F1DB4408A12AC24326F136D3",
         },
-        ["AB43F23008BD4F57AD258AE3638852BF"] = {
-            [1] = "67CA4DC8EC8D4AADB5CB0A6DB7061C0E",
+        ["87B9DA9988B548988215AF26F81F6949"] = {
+            [1] = "6AB4ECB6EDFA449D99AFD06DC556F466",
         },
     },
     ["nodes"] = {
@@ -139,6 +148,19 @@ return {
             ["Type"] = 0,
             ["Static"] = false,
         },
+        ["A8F7271149B941E6A024956C21EEEE8B"] = {
+            ["Desc"] = "行为",
+            ["Pos"] = {
+                ["y"] = -77,
+                ["x"] = 756,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "FollowBevNode",
+            ["NodeTag"] = "A8F7271149B941E6A024956C21EEEE8B",
+            ["Distance"] = 100,
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
         ["EB2255181C674183B5FB1157FD1051E4"] = {
             ["Desc"] = "免伤范围",
             ["Duration"] = 3000,
@@ -146,8 +168,8 @@ return {
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {
-                ["y"] = 119,
-                ["x"] = -139,
+                ["y"] = 51,
+                ["x"] = -124,
             },
             ["Class"] = "ChildNode",
             ["Loop"] = 0,
@@ -157,11 +179,22 @@ return {
                 [2] = 0,
             },
         },
+        ["03F9A33CED97442EBACEF8A1AB5D7DA5"] = {
+            ["Pos"] = {
+                ["y"] = 332,
+                ["x"] = 176,
+            },
+            ["Class"] = "ConditionInFightTimeoutNode",
+            ["NodeTag"] = "03F9A33CED97442EBACEF8A1AB5D7DA5",
+            ["Duration"] = 0,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
         ["1DA93EA36DAD481BADA0B32C6744D732"] = {
             ["Desc"] = "顺序行为",
             ["Pos"] = {
-                ["y"] = 634,
-                ["x"] = 483,
+                ["y"] = 640,
+                ["x"] = 519,
             },
             ["Weight"] = 0,
             ["Class"] = "OrderBevNode",
@@ -189,8 +222,8 @@ return {
             ["TriggerType"] = 0,
             ["Static"] = false,
             ["Pos"] = {
-                ["y"] = 608,
-                ["x"] = -198,
+                ["y"] = 629,
+                ["x"] = -179,
             },
             ["Class"] = "ChildNode",
             ["Loop"] = 0,
@@ -213,8 +246,8 @@ return {
             ["Static"] = false,
             ["FixTarget"] = -1,
             ["Pos"] = {
-                ["y"] = 125,
-                ["x"] = 753,
+                ["y"] = 71,
+                ["x"] = 733,
             },
             ["Class"] = "PathfindingBevNode",
             ["WalkWeight"] = 0,
@@ -227,8 +260,8 @@ return {
         },
         ["7622E9CE1DDB40CB90F974FBD886D1D6"] = {
             ["Pos"] = {
-                ["y"] = 654,
-                ["x"] = 119,
+                ["y"] = 621,
+                ["x"] = 171,
             },
             ["Class"] = "ConditionInFightTimeoutNode",
             ["NodeTag"] = "7622E9CE1DDB40CB90F974FBD886D1D6",
@@ -271,6 +304,18 @@ return {
                 [2] = 0,
             },
         },
+        ["5F3A1088025246BB854607A0123AA0D0"] = {
+            ["Desc"] = "顺序行为",
+            ["Pos"] = {
+                ["y"] = -81,
+                ["x"] = 467,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "OrderBevNode",
+            ["NodeTag"] = "5F3A1088025246BB854607A0123AA0D0",
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
         ["A17DD623D21E43E9AFEC9693C4BE6DFE"] = {
             ["Desc"] = "变量值为6",
             ["Duration"] = 1000,
@@ -290,21 +335,20 @@ return {
                 [2] = 0,
             },
         },
-        ["23C669085BCD4405A6F1DA2C8492C846"] = {
-            ["Desc"] = "巡逻\
-",
+        ["A737DBC1EDA14766AA6C9D6225759588"] = {
+            ["Desc"] = "巡逻",
             ["Duration"] = 1000,
-            ["NodeTag"] = "23C669085BCD4405A6F1DA2C8492C846",
-            ["TriggerType"] = 0,
+            ["NodeTag"] = "A737DBC1EDA14766AA6C9D6225759588",
+            ["TriggerType"] = 1,
             ["Static"] = false,
             ["Pos"] = {
-                ["y"] = 481,
-                ["x"] = -172,
+                ["y"] = 322,
+                ["x"] = -118,
             },
             ["Class"] = "ChildNode",
             ["Loop"] = 0,
             ["Parallel"] = 0,
-            ["Priority"] = 0,
+            ["Priority"] = 3,
             ["DurationInterval"] = {
                 [1] = 0,
                 [2] = 0,
@@ -322,11 +366,22 @@ return {
             ["Type"] = 0,
             ["Static"] = false,
         },
+        ["C62AF6631BF84D87A4B3AB01860BC2D8"] = {
+            ["Pos"] = {
+                ["y"] = 463,
+                ["x"] = 185,
+            },
+            ["EnemyNum"] = 1,
+            ["Class"] = "ConditionEnemyAliveNode",
+            ["NodeTag"] = "C62AF6631BF84D87A4B3AB01860BC2D8",
+            ["Operator"] = 2,
+            ["Static"] = false,
+        },
         ["E0E913C1CAA547148C49EDBD5356E930"] = {
             ["Desc"] = "行为",
             ["Pos"] = {
-                ["y"] = 584,
-                ["x"] = 970,
+                ["y"] = 667,
+                ["x"] = 961,
             },
             ["Weight"] = 0,
             ["Class"] = "ChangeSelfHPBevNode",
@@ -335,24 +390,29 @@ return {
             ["Type"] = 0,
             ["Static"] = false,
         },
-        ["1286712DAE064E51B7D47035867DA9E0"] = {
-            ["Desc"] = "血池\
-",
-            ["Duration"] = 8000,
-            ["NodeTag"] = "1286712DAE064E51B7D47035867DA9E0",
-            ["TriggerType"] = 0,
-            ["Static"] = false,
+        ["3CED947024E94CC88D5E77FE428CF8B6"] = {
             ["Pos"] = {
-                ["y"] = 347,
-                ["x"] = -160,
+                ["y"] = 939,
+                ["x"] = 166,
             },
-            ["Class"] = "ChildNode",
-            ["Loop"] = 0,
-            ["Priority"] = 2,
-            ["DurationInterval"] = {
-                [1] = 0,
-                [2] = 0,
+            ["Judge"] = 2,
+            ["Class"] = "ConditionAssociationNode",
+            ["NodeTag"] = "3CED947024E94CC88D5E77FE428CF8B6",
+            ["Value"] = 3,
+            ["Key"] = "number",
+            ["Static"] = false,
+        },
+        ["6545F5899F5345A89FB0601A1CBD8026"] = {
+            ["Desc"] = "顺序行为",
+            ["Pos"] = {
+                ["y"] = 383,
+                ["x"] = 520,
             },
+            ["Weight"] = 0,
+            ["Class"] = "OrderBevNode",
+            ["NodeTag"] = "6545F5899F5345A89FB0601A1CBD8026",
+            ["Type"] = 0,
+            ["Static"] = false,
         },
         ["E58284241DEF4597B1419EC401754BE3"] = {
             ["Desc"] = "行为",
@@ -389,6 +449,68 @@ return {
                 [2] = 0,
             },
         },
+        ["6AB4ECB6EDFA449D99AFD06DC556F466"] = {
+            ["Pos"] = {
+                ["y"] = -80,
+                ["x"] = 160,
+            },
+            ["EnemyNum"] = 1,
+            ["Class"] = "ConditionEnemyAliveNode",
+            ["NodeTag"] = "6AB4ECB6EDFA449D99AFD06DC556F466",
+            ["Operator"] = 3,
+            ["Static"] = false,
+        },
+        ["8811BBACC47749C89E2B6F7019E4C384"] = {
+            ["Desc"] = "施放技能",
+            ["Pos"] = {
+                ["y"] = 210,
+                ["x"] = 968,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "ReleaseSkillBevNode",
+            ["NodeTag"] = "8811BBACC47749C89E2B6F7019E4C384",
+            ["ID"] = 701920,
+            ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["87B9DA9988B548988215AF26F81F6949"] = {
+            ["Desc"] = "子节点",
+            ["Duration"] = 1000,
+            ["NodeTag"] = "87B9DA9988B548988215AF26F81F6949",
+            ["TriggerType"] = 0,
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = -84,
+                ["x"] = -116,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 0,
+            ["Parallel"] = 1,
+            ["Priority"] = 10,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+        },
+        ["1286712DAE064E51B7D47035867DA9E0"] = {
+            ["Desc"] = "血池\
+",
+            ["Duration"] = 8000,
+            ["NodeTag"] = "1286712DAE064E51B7D47035867DA9E0",
+            ["TriggerType"] = 0,
+            ["Static"] = false,
+            ["Pos"] = {
+                ["y"] = 164,
+                ["x"] = -105,
+            },
+            ["Class"] = "ChildNode",
+            ["Loop"] = 0,
+            ["Priority"] = 2,
+            ["DurationInterval"] = {
+                [1] = 0,
+                [2] = 0,
+            },
+        },
         ["BC5A0EEDEC184CF69C04DED810E50DD7"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 100,
@@ -402,8 +524,8 @@ return {
             ["Static"] = false,
             ["FixTarget"] = 0,
             ["Pos"] = {
-                ["y"] = 338,
-                ["x"] = 786,
+                ["y"] = 204,
+                ["x"] = 745,
             },
             ["Class"] = "PathfindingBevNode",
             ["WalkWeight"] = 0,
@@ -414,64 +536,10 @@ return {
             ["WalkDistance"] = 0,
             ["Type"] = 0,
         },
-        ["8811BBACC47749C89E2B6F7019E4C384"] = {
-            ["Desc"] = "施放技能",
-            ["Pos"] = {
-                ["y"] = 336,
-                ["x"] = 1060,
-            },
-            ["Weight"] = 0,
-            ["Class"] = "ReleaseSkillBevNode",
-            ["NodeTag"] = "8811BBACC47749C89E2B6F7019E4C384",
-            ["ID"] = 701920,
-            ["Type"] = 1,
-            ["Static"] = false,
-        },
-        ["A0D6DAB51D0D4B32A5ACA8E66B357027"] = {
-            ["Desc"] = "行为",
-            ["Weight"] = 0,
-            ["NodeTag"] = "A0D6DAB51D0D4B32A5ACA8E66B357027",
-            ["RunWeight"] = 0,
-            ["WalkDistance"] = 0,
-            ["Pos"] = {
-                ["y"] = 485,
-                ["x"] = 734,
-            },
-            ["Class"] = "PatrolBevNode",
-            ["WalkWeight"] = 0,
-            ["TriggerType"] = 2,
-            ["Static"] = false,
-            ["Type"] = 9,
-        },
-        ["35CDA9D8D59744E68B478388AA72B16A"] = {
-            ["Desc"] = "顺序行为",
-            ["Pos"] = {
-                ["y"] = 490,
-                ["x"] = 479,
-            },
-            ["Weight"] = 0,
-            ["Class"] = "OrderBevNode",
-            ["NodeTag"] = "35CDA9D8D59744E68B478388AA72B16A",
-            ["Type"] = 0,
-            ["Static"] = false,
-        },
-        ["7760EF1DAEBF45558177188A1C34C32F"] = {
-            ["Desc"] = "行为",
-            ["Pos"] = {
-                ["y"] = 923,
-                ["x"] = 767,
-            },
-            ["Weight"] = 0,
-            ["Class"] = "TriggerBufferBevNode",
-            ["NodeTag"] = "7760EF1DAEBF45558177188A1C34C32F",
-            ["Type"] = 0,
-            ["BufferID"] = 6389,
-            ["Static"] = false,
-        },
         ["118AFD3F63B74F82B7F6F5BEF6D8EFB9"] = {
             ["Pos"] = {
-                ["y"] = 110,
-                ["x"] = 137,
+                ["y"] = 50,
+                ["x"] = 161,
             },
             ["Class"] = "ConditionInFightTimeoutNode",
             ["NodeTag"] = "118AFD3F63B74F82B7F6F5BEF6D8EFB9",
@@ -518,8 +586,8 @@ return {
             ["Reset"] = 0,
             ["Static"] = false,
             ["Pos"] = {
-                ["y"] = 605,
-                ["x"] = 688,
+                ["y"] = 634,
+                ["x"] = 725,
             },
             ["AddValue"] = -1,
             ["Class"] = "AssociationBevNode",
@@ -529,8 +597,8 @@ return {
         },
         ["5C4D514313894227BFEA9B05D93F7BDA"] = {
             ["Pos"] = {
-                ["y"] = 348,
-                ["x"] = 110,
+                ["y"] = 189,
+                ["x"] = 176,
             },
             ["Class"] = "ConditionInFightTimeoutNode",
             ["NodeTag"] = "5C4D514313894227BFEA9B05D93F7BDA",
@@ -565,8 +633,8 @@ return {
         ["233D3D9686EF4C1C9F6136CB0FCD987E"] = {
             ["Desc"] = "施放技能",
             ["Pos"] = {
-                ["y"] = 134,
-                ["x"] = 951,
+                ["y"] = 83,
+                ["x"] = 949,
             },
             ["Weight"] = 0,
             ["Class"] = "ReleaseSkillBevNode",
@@ -590,8 +658,8 @@ return {
         ["698A3460F5E740668CEF79C21ED90489"] = {
             ["Desc"] = "顺序行为",
             ["Pos"] = {
-                ["y"] = 351,
-                ["x"] = 476,
+                ["y"] = 201,
+                ["x"] = 494,
             },
             ["Weight"] = 0,
             ["Class"] = "OrderBevNode",
@@ -599,27 +667,33 @@ return {
             ["Type"] = 0,
             ["Static"] = false,
         },
-        ["3CED947024E94CC88D5E77FE428CF8B6"] = {
+        ["7DB4CFD0EC8C4D1384637FF6DF21C1B9"] = {
+            ["Desc"] = "行为",
+            ["Weight"] = 0,
+            ["NodeTag"] = "7DB4CFD0EC8C4D1384637FF6DF21C1B9",
+            ["RunWeight"] = 0,
+            ["WalkDistance"] = 0,
             ["Pos"] = {
-                ["y"] = 939,
-                ["x"] = 166,
+                ["y"] = 393,
+                ["x"] = 812,
             },
-            ["Judge"] = 2,
-            ["Class"] = "ConditionAssociationNode",
-            ["NodeTag"] = "3CED947024E94CC88D5E77FE428CF8B6",
-            ["Value"] = 3,
-            ["Key"] = "number",
+            ["Class"] = "PatrolBevNode",
+            ["WalkWeight"] = 0,
+            ["TriggerType"] = 2,
             ["Static"] = false,
+            ["Type"] = 9,
         },
-        ["964A1742AC6A4D70BF9FDAF951F6A07C"] = {
+        ["7760EF1DAEBF45558177188A1C34C32F"] = {
+            ["Desc"] = "行为",
             ["Pos"] = {
-                ["y"] = 495,
-                ["x"] = 121,
+                ["y"] = 923,
+                ["x"] = 767,
             },
-            ["Class"] = "ConditionInFightTimeoutNode",
-            ["NodeTag"] = "964A1742AC6A4D70BF9FDAF951F6A07C",
-            ["Duration"] = 0,
-            ["Type"] = 1,
+            ["Weight"] = 0,
+            ["Class"] = "TriggerBufferBevNode",
+            ["NodeTag"] = "7760EF1DAEBF45558177188A1C34C32F",
+            ["Type"] = 0,
+            ["BufferID"] = 6389,
             ["Static"] = false,
         },
         ["053DB747B5F24D64B43BFBF65E5C5280"] = {
@@ -656,8 +730,8 @@ return {
         ["FE7E10735E22427CBF14196448D0F32A"] = {
             ["Desc"] = "顺序行为",
             ["Pos"] = {
-                ["y"] = 125,
-                ["x"] = 503,
+                ["y"] = 62,
+                ["x"] = 491,
             },
             ["Weight"] = 0,
             ["Class"] = "OrderBevNode",

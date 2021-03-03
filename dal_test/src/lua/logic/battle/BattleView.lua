@@ -416,6 +416,8 @@ function BattleView:initUI(ui)
 
     local image_hp = self.plyerNode:getChildByName("Image_hp")
     self.plyerNode.loadingBar_hp = image_hp:getChildByName("LoadingBar_hp")
+    self.plyerNode.Image_loadbar_bt = self.plyerNode:getChildByName("Image_loadbar_bt")
+    self.plyerNode.LoadingBar_bt = self.plyerNode:getChildByName("LoadingBar_bt")
 
 
     self.plyerNode.label_sp  = self.plyerNode:getChildByName("Label_sp") --TODO 设置SP的名称
@@ -2353,6 +2355,9 @@ function BattleView:onHeroAttrChange(hero)
     local captain = battleController.getCaptain()
     if hero == captain then
         self.plyerNode.loadingBar_hp:setPercent(BattleUtils.fixPercent(hero:getHpPercent()*0.01))
+        local btPercent = BattleUtils.fixPercent(hero:getResistPercent()*0.01)
+        self.plyerNode.Image_loadbar_bt:setVisible(btPercent > 0)
+        self.plyerNode.LoadingBar_bt:setPercent(btPercent)
 
         local resPath = hero:getData().fightIcon
         if self.plyerNode.imageHead._resPath ~= resPath then

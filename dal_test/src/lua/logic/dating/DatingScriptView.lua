@@ -3840,6 +3840,9 @@ function DatingScriptView:onClose()
     self.ui:stopAllActions()
     self:stopAllActions()
     self.super.onClose(self)
+    for k,v in pairs(self.npcData_) do
+        v:stopTimer()
+    end
 
 end
 

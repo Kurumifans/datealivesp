@@ -4946,6 +4946,9 @@ function Hero:ai(dt)
     if self:isAState(eAState.E_JING_ZHI) or self:isAState(eAState.E_DONG_JIE) then
         return
     end
+    if EventTrigger:isRunning() then
+        return
+    end
 
     if self.isAIEnable == false then
         return
@@ -5003,28 +5006,39 @@ end
 
 -- 获取巡逻区域（方式2）
 function Hero:getPatrolRect(targetPos, myPos)
-    local site = self:checksite(targetPos, myPos)
+    local tpos = clone(targetPos)
+    local mpos = clone(myPos)
+    local moveRect = battleController:getMoveRect()
+    local moveRectMaxX = moveRect.origin.x + moveRect.size.width
+    local moveRectMaxY = moveRect.origin.y + moveRect.size.height
+    tpos.x = math.min(tpos.x, moveRectMaxX)
+    mpos.x = math.min(mpos.x, moveRectMaxX)
+    tpos.y = math.min(tpos.y,moveRectMaxY)
+    tpos.y = math.max(tpos.y,0)
+    mpos.y = math.min(mpos.y,moveRectMaxY)
+    mpos.y = math.max(mpos.y,0)
+    local site = self:checksite(tpos, mpos)
     local min = self.data.patrolNear
     local max = self.data.patrolFar
     local x = RandomGenerator.random(min, max)
     local y = RandomGenerator.random(min, max)
-    local moveRect = battleController:getMoveRect()
+    
     if site == 1 or site == 2 then
-        if math.abs(targetPos.x - moveRect.origin.x) <= x / 2 then
+        if math.abs(tpos.x - moveRect.origin.x) <= x / 2 then
             site = 3
         end
     else
-        local moveRectMaxX = moveRect.origin.x + moveRect.size.width
-        if math.abs(moveRectMaxX - targetPos.x) <= x / 2 then
+        
+        if math.abs(moveRectMaxX - tpos.x) <= x / 2 then
             site = 1
         end
     end
 
     local rect = {}
     if site == 1 or site == 2 then
-        rect = me.rect(targetPos.x - x, targetPos.y - y, x, y * 2)
+        rect = me.rect(tpos.x - x, tpos.y - y, x, y * 2)
     else
-        rect = me.rect(targetPos.x, targetPos.y - y, x, y * 2)
+        rect = me.rect(tpos.x, tpos.y - y, x, y * 2)
     end
     return rect
 end
