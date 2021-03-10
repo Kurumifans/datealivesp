@@ -317,7 +317,7 @@ return {
         id = 118010,
         type = "dress_low",
         voice = {
-            [1] = "sound/role/mojinMIKOTO_041_S.mp3",
+            [1] = "sound/role/mojin/MIKOTO_041_S.mp3",
         },
         des = "换上服装-一般",
     },
@@ -386,7 +386,7 @@ return {
         id = 118011,
         type = "dress_high",
         voice = {
-            [1] = "sound/role/mojinMIKOTO_041_S.mp3",
+            [1] = "sound/role/mojin/MIKOTO_041_S.mp3",
         },
         des = "换上服装-高级",
     },
@@ -1038,7 +1038,7 @@ return {
         id = 118019,
         type = "ability_up",
         voice = {
-            [1] = "sound/role/mojinMIKOTO_022.mp3",
+            [1] = "sound/role/mojin/MIKOTO_022.mp3",
         },
         des = "等级/星级提升",
     },
@@ -1341,7 +1341,7 @@ return {
         id = 118023,
         type = "battle_play",
         voice = {
-            [1] = "sound/role/mojinMIKOTO_021.mp3",
+            [1] = "sound/role/mojin/MIKOTO_021.mp3",
         },
         des = "上阵",
     },
@@ -1575,7 +1575,7 @@ return {
         type = "mian_morning",
         voice = {
             [1] = "modle/bust/sounds/MIKOTO_001.mp3",
-            [2] = "sound/role/mojinMIKOTO_046.mp3",
+            [2] = "sound/role/mojin/MIKOTO_046.mp3",
         },
         des = "进入主界面-早上",
     },
@@ -1654,7 +1654,7 @@ return {
         type = "mian_afternoon",
         voice = {
             [1] = "modle/bust/sounds/MIKOTO_001.mp3",
-            [2] = "sound/role/mojinMIKOTO_046.mp3",
+            [2] = "sound/role/mojin/MIKOTO_046.mp3",
         },
         des = "进入主界面-下午",
     },
@@ -1741,7 +1741,7 @@ return {
         type = "mian_night",
         voice = {
             [1] = "modle/bust/sounds/MIKOTO_001.mp3",
-            [2] = "sound/role/mojinMIKOTO_046.mp3",
+            [2] = "sound/role/mojin/MIKOTO_046.mp3",
         },
         des = "进入主界面-晚上",
     },
@@ -1819,7 +1819,7 @@ return {
         type = "mian_dawn",
         voice = {
             [1] = "modle/bust/sounds/MIKOTO_001.mp3",
-            [2] = "sound/role/mojinMIKOTO_046.mp3",
+            [2] = "sound/role/mojin/MIKOTO_046.mp3",
         },
         des = "进入主界面-凌晨",
     },
@@ -5675,7 +5675,7 @@ return {
         id = 121026,
         type = "mian_morning",
         voice = {
-            [1] = "sound/role/mojinINDEX_008.mp3",
+            [1] = "sound/role/mojin/INDEX_008.mp3",
         },
         des = "进入主界面-早上",
     },
@@ -5752,7 +5752,7 @@ return {
         id = 121027,
         type = "mian_afternoon",
         voice = {
-            [1] = "sound/role/mojinINDEX_008.mp3",
+            [1] = "sound/role/mojin/INDEX_008.mp3",
         },
         des = "进入主界面-下午",
     },
@@ -5839,7 +5839,7 @@ return {
         id = 121028,
         type = "mian_night",
         voice = {
-            [1] = "sound/role/mojinINDEX_008.mp3",
+            [1] = "sound/role/mojin/INDEX_008.mp3",
         },
         des = "进入主界面-晚上",
     },
@@ -5926,7 +5926,7 @@ return {
         id = 121029,
         type = "mian_dawn",
         voice = {
-            [1] = "sound/role/mojinINDEX_008.mp3",
+            [1] = "sound/role/mojin/INDEX_008.mp3",
         },
         des = "进入主界面-凌晨",
     },
@@ -8405,7 +8405,7 @@ return {
         id = 119011,
         type = "dress_high",
         voice = {
-            [1] = "sound/role/mojinKUROKO_007.mp3",
+            [1] = "sound/role/mojin/KUROKO_007.mp3",
         },
         des = "换上服装-高级",
     },
@@ -9131,7 +9131,7 @@ return {
         id = 119019,
         type = "ability_up",
         voice = {
-            [1] = "sound/role/mojinKUROKO_026.mp3",
+            [1] = "sound/role/mojin/KUROKO_026.mp3",
         },
         des = "等级/星级提升",
     },
@@ -9918,7 +9918,7 @@ return {
         id = 119024,
         type = "mood_sad",
         voice = {
-            [1] = "sound/role/mojinKUROKO_034.mp3",
+            [1] = "sound/role/mojin/KUROKO_034.mp3",
         },
         des = "看板娘处于无聊、生气、饥饿状态",
     },
@@ -10235,7 +10235,7 @@ return {
         type = "mian_morning",
         voice = {
             [1] = "modle/bust/sounds/KUROKO_001.mp3",
-            [2] = "sound/role/mojinKUROKO_046.mp3",
+            [2] = "sound/role/mojin/KUROKO_046.mp3",
         },
         des = "进入主界面-早上",
     },
@@ -10392,7 +10392,7 @@ return {
         type = "mian_afternoon",
         voice = {
             [1] = "modle/bust/sounds/KUROKO_001.mp3",
-            [2] = "sound/role/mojinKUROKO_046.mp3",
+            [2] = "sound/role/mojin/KUROKO_046.mp3",
         },
         des = "进入主界面-下午",
     },
@@ -10547,7 +10547,7 @@ return {
         type = "mian_night",
         voice = {
             [1] = "modle/bust/sounds/KUROKO_021.mp3",
-            [2] = "sound/role/mojinKUROKO_046.mp3",
+            [2] = "sound/role/mojin/KUROKO_046.mp3",
         },
         des = "进入主界面-晚上",
     },
@@ -10703,7 +10703,7 @@ return {
         type = "mian_dawn",
         voice = {
             [1] = "modle/bust/sounds/KUROKO_021.mp3",
-            [2] = "sound/role/mojinKUROKO_046.mp3",
+            [2] = "sound/role/mojin/KUROKO_046.mp3",
         },
         des = "进入主界面-凌晨",
     },

@@ -104,7 +104,7 @@ EC_FBLevelType = {
     DICUO_JIBAN = 51,           -- 地错羁绊
     SNOW_FESTIVAL = 52,         -- 冰雪大作战
     NIANSHOU = 53,              -- 年兽大作战（鞭炮）
-    ENDLESS_PLUSS = 106,        --无尽plus
+    ENDLESS_PLUSS = 107,        --无尽plus
 }
 
 -- 万由里关卡类型
@@ -1747,7 +1747,8 @@ EC_ActivityType2 = {
 
     GUESS_WORD = 80,             -- 2021答题活动
     SPRITE_FOR_GIFT = 81,        -- 精灵抽一送一
-    FIREWORKS_PRODUCT = 84          --烟花制作
+    FIREWORKS_PRODUCT = 84,      --烟花制作
+    SPRING_GIFT = 86,            -- 春分赠礼
 }
 
 EC_Activity_CHRISTMAS_Subtype = {

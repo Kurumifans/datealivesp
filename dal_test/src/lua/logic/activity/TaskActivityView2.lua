@@ -293,7 +293,7 @@ function TaskActivityView:updateTaskItem(index)
                 return
             end
 
-            local param = taskCfg.parameter or {}
+            local param = taskCfg.ext.parameter or {}
             FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface,unpack(param))
     end)
 

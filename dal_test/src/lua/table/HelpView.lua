@@ -1046,6 +1046,20 @@ return {
             [1] = 63035,
         },
     },
+    [4108] = {
+        picPath  = "",
+        type = 0,
+        title = "15011348",
+        pictureParameter = {
+        },
+        id = 4108,
+        desParameter = {
+        },
+        fileName = "Help",
+        desc = {
+            [1] = 15011349,
+        },
+    },
     [2106] = {
         picPath  = "",
         type = 0,

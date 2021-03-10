@@ -167,6 +167,9 @@ function ActivityDataMgr:init()
     -- 2021答题
     TFDirector:addProto(s2c.ACTIVITY2_RES_RIDDLE_DATA, self, self.onRecvRiddleData)
     TFDirector:addProto(s2c.ACTIVITY2_RES_RIDDLE_ONCE, self, self.onRecvRiddleAwarsInfo)
+
+    --  春分赠礼
+    TFDirector:addProto(s2c.SUMMON_RES_ACTIVITY_EXCHANGE, self, self.onRecvSpringGiftReward)
     
     self.activityInfo_ = {}
     self.activityInfoMap_ = {}
@@ -386,7 +389,8 @@ function ActivityDataMgr:getItems(id)
             activityInfo.activityType ==EC_ActivityType2.FUND or
             activityInfo.activityType ==EC_ActivityType2.TRAINING or
             activityInfo.activityType ==EC_ActivityType2.NEW_BACKACTIVITY or
-            activityInfo.activityType ==EC_ActivityType2.SNOW_FESTIVAL_TASK then
+            activityInfo.activityType ==EC_ActivityType2.SNOW_FESTIVAL_TASK or 
+            activityInfo.activityType ==EC_ActivityType2.SPRING_GIFT then
             local getData = {}
             local ingData = {}
             local getedData = {}
@@ -3606,6 +3610,16 @@ end
 
 function ActivityDataMgr:getGuessWorldLeftRewardCountKeep()
     return self.leftRewardCountKeep or 0
+end
+
+function ActivityDataMgr:SEND_SUMMON_REQ_ACTIVITY_EXCHANGE(choiceIds, targetModelId)
+    TFDirector:send(c2s.SUMMON_REQ_ACTIVITY_EXCHANGE, {choiceIds, targetModelId})
+end
+
+function ActivityDataMgr:onRecvSpringGiftReward(event)
+    local data = event.data
+    if not data then return end
+    EventMgr:dispatchEvent(EV_SPRING_GIFT_DATA, data)
 end
 
 return ActivityDataMgr:new()

@@ -796,24 +796,28 @@ function BattleDataMgr:heroData()
                 if not data then
                     local limitHero = FubenDataMgr.limitHeros_
                     local levelFormation = FubenDataMgr.levelFormation_
-                    local dataStr = "--"
+                    local dataStr = MainPlayer:getPlayerId().."aa"..FubenDataMgr:getPassLevelNum().."bb"
                     for k,v in pairs(limitHero) do
-                        dataStr = dataStr..k.."--"
+                        dataStr = dataStr..k.."cc"
                     end
-                    dataStr = dataStr.."***"
                     for k,v in pairs(levelFormation) do
-                        dataStr = dataStr..k.."--"
+                        dataStr = dataStr..k.."dd"
                     end
-                    dataStr = dataStr..tostring(#FubenDataMgr.levelInfo_)
+                    local saveParam = FubenDataMgr:getCurFightParam()
+                    if saveParam then
+                        dataStr = dataStr..saveParam[1] or ""
+                        dataStr = dataStr.."ee"
+                        for i,v in ipairs(saveParam[4] or {}) do
+                            dataStr = dataStr..v[2].."--"
+                            dataStr = dataStr..v[1].."ff"
+                        end
+                    end
                     local errMsg = string.format("BattleDataMgr:heroData ERROR: formationdata = %s levelCid=%s limitType=%s limitCid=%s pos=%s job=%s hero data is nil !",
                         dataStr,
                         tostring(self.levelCid_ ),
                         tostring(formation.limitType ),tostring(formation.limitCid),tostring(pos),tostring(job))
                         Bugly:ReportLuaException(errMsg)
                         Box(errMsg)
-                        self:getController().stopEnterBattle()
-                        CommonManager:closeConnection2()
-                        return {}
                 end
                 table.insert(rawDataList, clone(data))
                 data = self:transData(eRoleType.Hero, data, job,limitCid)

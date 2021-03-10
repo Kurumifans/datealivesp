@@ -331,7 +331,7 @@ function TaskMainView:showMainTask()
                     local levelId = taskCfg.finishParams["dunId"]
                     FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
                 else
-                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
                 end
         end)
 
@@ -340,6 +340,7 @@ function TaskMainView:showMainTask()
                 GameGuide:checkGuideEnd(self.guideFuncId)
         end)
     end
+    
 
     self:updateRedPointStatus()
 end
@@ -607,7 +608,7 @@ function TaskMainView:showDailyTask()
                     local levelId = taskCfg.finishParams["dunId"]
                     FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
                 else
-                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
                 end
         end)
 
@@ -745,7 +746,7 @@ function TaskMainView:updateHonorTaskItem(item, index)
                 local levelId = taskCfg.finishParams["dunId"]
                 FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
             else
-                FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
             end
     end)
 
@@ -841,7 +842,7 @@ function TaskMainView:showActivityTask()
                     local levelId = taskCfg.finishParams["dunId"]
                     FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
                 else
-                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
                 end
         end)
 
@@ -1208,7 +1209,7 @@ function TaskMainView:updateTrainingTask()
 
         foo.Button_goto:setVisible(isIng and itemInfo.extendData.jumpInterface and itemInfo.extendData.jumpInterface ~= 0)
         foo.Button_goto:onClick(function()
-           FunctionDataMgr:enterByFuncId(itemInfo.extendData.jumpInterface)
+            FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
         end)
 
         local fadeInDuration = 0.2

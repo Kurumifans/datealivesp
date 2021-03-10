@@ -207,8 +207,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -292,
-								PositionY = -174,
+								PositionX = -273,
+								PositionY = -230,
 							},
 							width = "468",
 							ZOrder = "1",

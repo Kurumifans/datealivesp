@@ -87,6 +87,7 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.FLOWER_SEND] = requireNew("lua.logic.activity.2021_spring.ValentinesDay"),
             -- [EC_ActivityType2.FIREWORKS_PRODUCT] = requireNew("lua.logic.activity.2021_spring.FireFactoryView"),
             [EC_ActivityType2.SPRITE_FOR_GIFT] = requireNew("lua.logic.activity.SpriteForGift"),
+            [EC_ActivityType2.SPRING_GIFT] = requireNew("lua.logic.activity.SpringGiftView")
         },
         [2] = {
             [EC_ActivityType2.CGCOLLECTED] = requireNew("lua.logic.activity.JumpActivityView"),

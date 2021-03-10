@@ -2465,10 +2465,16 @@ end
 
 function Hero:onDie(arg)
     --死亡事件检查
+    
     self:onEventTrigger(eBFState.E_DEAD,self)
     if not self:isAState(eAState.E_RELIVE) then
         self:setFlag(eFlag.DEAD_Statistics)
-        EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        if self.isDeaded then
+            
+        else
+            self.isDeaded = true
+            EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        end
     end
     local function _fadeOut( )
         self.actor:fadeOut(function()
@@ -2956,7 +2962,12 @@ function Hero:update(time)
                 -- self:removeFrormBattle()
             else
                 self:setFlag(eFlag.DEAD_Statistics)
-                EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+                if self.isDeaded then
+                    
+                else
+                    self.isDeaded = true
+                    EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+                end
                 self:release()
                 self:checkAndRelease()
             end
@@ -5631,7 +5642,12 @@ function Hero:act_killMySelf(id,isCount)
     self:setAIEnable(false)
     self.team:remove(self)
     if isCount then
-        EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        if self.isDeaded then
+            
+        else
+            self.isDeaded = true
+            EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        end
     else
         EventMgr:dispatchEvent(eEvent.EVENT_HERO_REMOVE, self)
     end
