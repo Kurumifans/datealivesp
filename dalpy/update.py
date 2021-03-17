@@ -42,7 +42,7 @@ def check_updates(server):
 	# Using zipsource folder
 	r = requests.get(zipsource[server] + "?" + str(time.time())) # Prevent caching
 	regex = re.findall(r"<a\shref=\"([\w\W]*?)\"[\w\W]*?<\/a>\s*([\w\d\-]*)\s([\d:]*)", r.text)
-	new_ver = regex[2][0].replace("/", "") # Newest version
+	new_ver = regex[-1][0].replace("/", "") # Newest version
 	#return new_ver
 
 	with open(server + "/.nomedia/nomedia.txt","r") as file:
