@@ -85,7 +85,6 @@ function battleController.registerEvents()
     EventMgr:addEventListener(this, EV_BATTLE_END_TRIGGER_EVENT, this.endBattle)
     EventMgr:addEventListener(this, EV_PRACTICE_SET_SKIN, this.setSkin) --木桩试穿灵装
     EventMgr:addEventListener(this, eEvent.EVENT_TRIGGER_JUMP, this.onTriggerJump) --组队副本跳转
-    EventMgr:addEventListener(this, EV_RECONECT_EVENT, handler(this.onReconnect))
     -- EventMgr:addEventListener(this, eEvent.EVENT_CHANGE_GUNGEON, this.onChangeDungeon) --组队副本跳转
 
 
@@ -457,45 +456,10 @@ function battleController.getTime()
    return statistics.time
 end
 
-function battleController.pauseOrResume(isPause)
-    this.adjustSysStartTime()
-    if isPause then
-        if this.sysStartTime > this.sysTimeLimit then
-            this.sysPauseTime = BattleUtils.gettime()
-        end
-    end
-    BattleMgr.updatePauseState(isPause)
-end
-
-function battleController.adjustSysStartTime()
-    if this.sysStartTime < this.sysTimeLimit then
-        return
-    end
-    if this.sysStopTime > this.sysTimeLimit then
-        this.sysStartTime = this.sysStartTime + (BattleUtils.gettime() - this.sysStopTime)
-        this.sysStopTime = 0
-    end
-    if this.sysPauseTime > this.sysTimeLimit then
-        this.sysStartTime = this.sysStartTime + (BattleUtils.gettime() - this.sysPauseTime)
-        this.sysPauseTime = 0
-    end
-end
-
---真实操作时间（暂停 剧情中断时间除外）
-function battleController.getControlPassTime()
-    if this.sysStartTime < this.sysTimeLimit then
-        return 0
-    end
-    if this.sysEndBattleTime > 0 then
-        return this.sysEndBattleTime - this.sysStartTime
-    end
-    return BattleUtils.gettime() - this.sysStartTime
-end
-
 function battleController.fixTime(time)
     if time > statistics.time then
-        this.sysStartTime = BattleUtils.gettime() - time
-        victoryDecide.fixRemainime()
+        statistics.time = time
+        victoryDecide.fixRemainime(statistics.time)
     end
 end
 
@@ -520,11 +484,6 @@ function battleController.init(data)
     this.bWin      = false
     this.bSlowMotion = false
     this.bSlowMotionTime = 0
-    this.sysTimeLimit = 1577811661 --2020年1月1日
-    this.sysStartTime = 0  --开始计时节点时间
-    this.sysStopTime = 0   --强制停止计时节点
-    this.sysPauseTime = 0   --游戏暂停时间节点
-    this.sysEndBattleTime = 0  --战斗结束时间点
     this.captain = nil --当前正在操作的角色
     KeyStateMgr.setEnable(true)
     --关卡胜利条件
@@ -754,16 +713,7 @@ function battleController.setTiming(bTime)
     if EventTrigger:isRunning() then
         return
     end
-    this.adjustSysStartTime()
-    if bTime then
-        
-    else
-        if this.sysStartTime > this.sysTimeLimit then
-            this.sysStopTime = BattleUtils.gettime()
-        end
-    end
     this.bTiming = bTime
-    BattleMgr.updatePauseState(not bTime)
 end
 
 function battleController:getBattleData()
@@ -930,10 +880,6 @@ function battleController.clear()
     this.bSlowMotion = false
     this.bSlowMotionTime = 0
     -- --统计相关
-    this.sysStartTime = 0
-    this.sysStopTime = 0
-    this.sysPauseTime = 0
-    this.sysEndBattleTime = 0
     statistics.clear()
     --关卡胜利条件
     victoryDecide.clear()
@@ -1583,7 +1529,6 @@ function battleController.endBattle(bWin)
     victoryDecide.doRefresh()
     victoryDecide.stopReduceTimer()
     this.isClearing = true
-    this.sysEndBattleTime = BattleUtils.gettime()
     this.bWin = bWin
     KeyStateMgr.setEnable(false)
     this.stopSynchronizeTimer()
@@ -1611,7 +1556,6 @@ function battleController.forceEndBattle(bWin,callFunc)
     _print("forceEndBattle")
     if this.isClearing then return end
     this.isClearing = true
-    this.sysEndBattleTime = BattleUtils.gettime()
     KeyStateMgr.setEnable(false)
     this.stopSynchronizeTimer()
     if bWin then
@@ -1630,12 +1574,6 @@ function battleController.forceEndBattle(bWin,callFunc)
         end)
     HeroDataMgr:changeDataToSelf()
     this.team:clearAllBuff()
-end
-
-function battleController:onReconnect()
-    if this.isClearing then
-        EventMgr:dispatchEvent(eEvent.EVENT_LEAVE)
-    end
 end
 
 function battleController.startTimer()
@@ -1681,9 +1619,6 @@ function battleController.update(delta)
     this.handlSlowMotion(delta)
     this.skillExUpdate(delta)
     if this.isTiming() then
-        if this.sysStartTime < this.sysTimeLimit then
-            this.sysStartTime = BattleUtils.gettime()
-        end
         --关卡挑战统计
         statistics.update(delta)
         --胜负判定

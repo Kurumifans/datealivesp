@@ -60,28 +60,25 @@ end
 function PrivilageGiftContent:initView()
 	self.list:removeAllItems()
 	local items = self.cfg.item or {}
-	self.list:AsyncUpdateItem(items, function ( ... )
-		-- body
+    for i = 1, #items do
         local prefab = self.Panel_prefab:clone()
         prefab:show()
-        return prefab
-      
-	end, function ( prefab, data )
-		-- body
-		local itemCfg = GoodsDataMgr:getItemCfg(data.id)
+		local itemCfg = GoodsDataMgr:getItemCfg(items[i].id)
 
         local name = TFDirector:getChildByPath(prefab, "name")
 		name:setTextById(itemCfg.nameTextId)
 
         local content     = TFDirector:getChildByPath(prefab, "content")
-        content:setText("X" ..data.num)
+        content:setText("X" ..items[i].num)
 
 		local Panel_Item = TFDirector:getChildByPath(prefab, "Panel_Item")
 		local Item = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone():Scale(0.75):Pos(0,0)
-        PrefabDataMgr:setInfo(Item, data.id, 0)
+        PrefabDataMgr:setInfo(Item, items[i].id, 0)
 		TFDirector:getChildByPath(Item, "Label_count"):hide()
 		Panel_Item:addChild(Item)
-	end)
+        
+        self.list:pushBackCustomItem(prefab)
+    end
 
 	self.name:setText(self.cfg.name)
 

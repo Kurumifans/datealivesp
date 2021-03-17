@@ -1640,7 +1640,6 @@ end
 
 function BattleView:onPause(keepSound)
     self.pause_ = true
-    battleController.pauseOrResume(true)
     if not keepSound then
         TFAudio:pauseAllEffects()
         TFAudio:pauseMusic()
@@ -1649,7 +1648,6 @@ end
 
 function BattleView:onResume()
     self.pause_ = false
-    battleController.pauseOrResume(false)
     TFAudio:resumeMusic()
     TFAudio:resumeAllEffects()
 end

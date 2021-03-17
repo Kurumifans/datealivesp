@@ -2459,26 +2459,6 @@ return {
         icon = "ui/function/illustrated.png",
         levelType = 1,
     },
-    [157] = {
-        isOpen = true,
-        openLevel = 40,
-        isStinger = false,
-        id = 157,
-        openDun = 0,
-        repetition = false,
-        stingerTrigger = {
-        },
-        serverId = 3,
-        showIcon = false,
-        stingerDating = "",
-        name = "15010267",
-        unlockExplain = {
-            [1] = 1,
-            [2] = 3203019,
-        },
-        icon = "",
-        levelType = 1,
-    },
     [160] = {
         isOpen = true,
         openLevel = 28,

@@ -173,7 +173,6 @@ function TaskMainView:refreshView()
 end
 
 function TaskMainView:initDailyTask()
-    self.initDailyTaskFlag = true
     self.activeTask_ = TaskDataMgr:getTask(EC_TaskType.ACTIVE)
     local size = self.Image_active_progress:Size()
     for i = #self.activeTask_, 1, -1 do
@@ -243,9 +242,6 @@ function TaskMainView:showTask()
         self:showMainTask()
     elseif tabData.type_ == EC_TaskPage.DAILY then
         self.Panel_daily:show()
-        if not self.initDailyTaskFlag then
-            self.initDailyTask()
-        end
         self:showDailyTask()
     elseif tabData.type_ == EC_TaskPage.HONOR then
         self.Panel_honor:show()
@@ -279,11 +275,25 @@ end
 
 function TaskMainView:showMainTask()
     self.mainTask_ = TaskDataMgr:getTask(EC_TaskType.MAIN)
-    self.ListView_main:AsyncUpdateItem(self.mainTask_,function ( ... )
-        return self:addMainTaskItem()
-    end, function (v, data)
+
+    local items = self.ListView_main:getItems()
+    local gap = #self.mainTask_ - #items
+    if gap > 0 then
+        for i = 1, math.abs(gap) do
+            local Panel_mainItem = self:addMainTaskItem(i)
+            Panel_mainItem:setName("Panel_mainItem"..i);
+            self.ListView_main:pushBackCustomItem(Panel_mainItem)
+        end
+    else
+        for i = 1, math.abs(gap) do
+            self.ListView_main:removeItem(1)
+        end
+    end
+
+    local items = self.ListView_main:getItems()
+    for i, v in ipairs(items) do
         local item = self.mainItem_[v]
-        local taskCid = data
+        local taskCid = self.mainTask_[i]
         local taskCfg = TaskDataMgr:getTaskCfg(taskCid)
         local taskInfo = TaskDataMgr:getTaskInfo(taskCid)
         local progress = math.min(taskInfo.progress, taskCfg.progress)
@@ -329,7 +339,8 @@ function TaskMainView:showMainTask()
                 TaskDataMgr:send_TASK_SUBMIT_TASK(taskInfo.cid)
                 GameGuide:checkGuideEnd(self.guideFuncId)
         end)
-    end)    
+    end
+    
 
     self:updateRedPointStatus()
 end
@@ -516,13 +527,23 @@ function TaskMainView:showDailyTask()
     self.daiyTask_ = TaskDataMgr:getTask(EC_TaskType.DAILY)
     self.activeTask_ = TaskDataMgr:getTask(EC_TaskType.ACTIVE)
 
-    self.ListView_daily:AsyncUpdateItem(self.daiyTask_,function ( ... )
-        -- body
-        return self:addDailyTaskItem()
-    end, function ( v, data )
-        -- body
+    local items = self.ListView_daily:getItems()
+    local gap = #self.daiyTask_ - #items
+    if gap > 0 then
+        for i = 1, math.abs(gap) do
+            local Panel_dailyItem = self:addDailyTaskItem()
+            self.ListView_daily:pushBackCustomItem(Panel_dailyItem)
+        end
+    else
+        for i = 1, math.abs(gap) do
+            self.ListView_daily:removeItem(1)
+        end
+    end
+
+    local items = self.ListView_daily:getItems()
+    for i, v in ipairs(items) do
         local item = self.dailyItem_[v]
-        local taskCid = data
+        local taskCid = self.daiyTask_[i]
         local taskCfg = TaskDataMgr:getTaskCfg(taskCid)
         local taskInfo = TaskDataMgr:getTaskInfo(taskCid)
         local progress = math.min(taskInfo.progress, taskCfg.progress)
@@ -594,7 +615,7 @@ function TaskMainView:showDailyTask()
         item.Button_receive:onClick(function()
                 TaskDataMgr:send_TASK_SUBMIT_TASK(taskInfo.cid)
         end)
-    end)
+    end
     self:updateDoubleCardCountdown()
 
     for i, v in ipairs(self.activeItem_) do

@@ -141,8 +141,20 @@ function RecommondView:updateContentView()
         end
     end
 
-    self.gridView:AsyncUpdateItem(realDataList, function ( item , data )
-        -- body
+    local items = self.gridView:getItems()
+    local gap = #realDataList - #items
+    if gap > 0 then
+        for i = 1, math.abs(gap) do
+            self.gridView:pushBackDefaultItem()
+        end
+    else
+        for i = 1, math.abs(gap) do
+            self.gridView:removeItem(1)
+        end
+    end
+    local items = self.gridView:getItems()
+    for i, item in ipairs(items) do
+        local data = realDataList[i]
         if data then
             item:show()
             local cell_gift = TFDirector:getChildByPath(item, "cell_gift")
@@ -154,8 +166,7 @@ function RecommondView:updateContentView()
                 self:updateCellItem(cell_item, data.item)
             end
         end
-    end)
-   
+    end
 end
 
 function RecommondView:updateGiftItem(item, data)

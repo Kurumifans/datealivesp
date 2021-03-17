@@ -242,23 +242,37 @@ function RechargeMain:updateGiftUI()
         end
     end
 
-    self.gridView:AsyncUpdateItem(realDataList, function (item, data)
-            if data then
-                item:show()
-                local cell_recharge = TFDirector:getChildByPath(item, "cell_recharge")
-                local cell_token = TFDirector:getChildByPath(item, "cell_token")
-                local cell_gift = TFDirector:getChildByPath(item, "cell_gift")
-                local cell_total = TFDirector:getChildByPath(item, "cell_total")
-                local cell_item = TFDirector:getChildByPath(item, "cell_item")
-                cell_recharge:hide()
-                cell_gift:show()
-                cell_total:hide()
-                cell_item:show()
-                cell_token:hide()
-                self:updateGiftItem(cell_gift, data)
-                Utils:createRewardItemStyle1(cell_item, data.item)
-            end
-        end)
+    local items = self.gridView:getItems()
+    local gap = #realDataList - #items
+    if gap > 0 then
+        for i = 1, math.abs(gap) do
+            self.gridView:pushBackDefaultItem()
+        end
+    else
+        for i = 1, math.abs(gap) do
+            self.gridView:removeItem(1)
+        end
+    end
+
+    local items = self.gridView:getItems()
+    for i, item in ipairs(items) do
+        local data = realDataList[i]
+        if data then
+        	item:show()
+            local cell_recharge = TFDirector:getChildByPath(item, "cell_recharge")
+        	local cell_token = TFDirector:getChildByPath(item, "cell_token")
+        	local cell_gift = TFDirector:getChildByPath(item, "cell_gift")
+        	local cell_total = TFDirector:getChildByPath(item, "cell_total")
+        	local cell_item = TFDirector:getChildByPath(item, "cell_item")
+        	cell_recharge:hide()
+        	cell_gift:show()
+        	cell_total:hide()
+        	cell_item:show()
+        	cell_token:hide()
+            self:updateGiftItem(cell_gift, data)
+            Utils:createRewardItemStyle1(cell_item, data.item)
+        end
+    end
 
     if preSize.height ~= self.initSize.height then
     	self.scroll_list:jumpToTop()
@@ -401,23 +415,37 @@ function RechargeMain:updateRechargeUI()
     self.gridView:doLayout()
 
     local rechargeList = RechargeDataMgr:getRechargeList()
-    self.gridView:AsyncUpdateItem(rechargeList,function ( item, data )
+    local items = self.gridView:getItems()
+    local gap = #rechargeList - #items
+    if gap > 0 then
+        for i = 1, math.abs(gap) do
+            self.gridView:pushBackDefaultItem()
+        end
+    else
+        for i = 1, math.abs(gap) do
+            self.gridView:removeItem(1)
+        end
+    end
+
+    local items = self.gridView:getItems()
+    for i, item in ipairs(items) do
+        local data = rechargeList[i]
         if data then
-            item:show()
+        	item:show()
             local cell_recharge = TFDirector:getChildByPath(item, "cell_recharge")
-            local cell_token = TFDirector:getChildByPath(item, "cell_token")
-            local cell_gift = TFDirector:getChildByPath(item, "cell_gift")
-            local cell_total = TFDirector:getChildByPath(item, "cell_total")
-            local cell_item = TFDirector:getChildByPath(item, "cell_item")
-            cell_recharge:show()
-            cell_gift:hide()
-            cell_token:hide()
-            cell_total:hide()
-            cell_item:hide()
-            self:updateRechargeItem(cell_recharge, data, false)
-        end  
-    end)
-   
+        	local cell_token = TFDirector:getChildByPath(item, "cell_token")
+        	local cell_gift = TFDirector:getChildByPath(item, "cell_gift")
+        	local cell_total = TFDirector:getChildByPath(item, "cell_total")
+        	local cell_item = TFDirector:getChildByPath(item, "cell_item")
+        	cell_recharge:show()
+        	cell_gift:hide()
+        	cell_token:hide()
+        	cell_total:hide()
+        	cell_item:hide()
+        	self:updateRechargeItem(cell_recharge, data, false)
+        end
+    end
+
     if preSize.height ~= self.initSize.height then
     	self.scroll_list:jumpToTop()
     end
@@ -562,26 +590,38 @@ function RechargeMain:updateTotalUI()
     self.progressEndLabel:setVisible(#RechargeDataMgr:getRewardIds() >= #RechargeDataMgr:getRewardCfgs())
 
     local totalPayRewardCfg = RechargeDataMgr:getRewardCfgsBySort()
+    local items = self.gridView:getItems()
+    local gap = #totalPayRewardCfg - #items
+    if gap > 0 then
+        for i = 1, math.abs(gap) do
+            self.gridView:pushBackDefaultItem()
+        end
+    else
+        for i = 1, math.abs(gap) do
+            self.gridView:removeItem(1)
+        end
+    end
 
-    self.gridView:AsyncUpdateItem(totalPayRewardCfg,function ( item ,data)
-        -- body
+    local items = self.gridView:getItems()
+    for i, item in ipairs(items) do
+        local data = totalPayRewardCfg[i]
         if data then
-            item:show()
-            local cell_recharge = TFDirector:getChildByPath(item, "cell_recharge")
-            local cell_token = TFDirector:getChildByPath(item, "cell_token")
-            local cell_gift = TFDirector:getChildByPath(item, "cell_gift")
-            local cell_total = TFDirector:getChildByPath(item, "cell_total")
-            local cell_item = TFDirector:getChildByPath(item, "cell_item")
-            cell_recharge:hide()
-            cell_gift:hide()
-            cell_total:show()
-            cell_item:show()
-            cell_token:hide()
+        	item:show()
+        	local cell_recharge = TFDirector:getChildByPath(item, "cell_recharge")
+        	local cell_token = TFDirector:getChildByPath(item, "cell_token")
+        	local cell_gift = TFDirector:getChildByPath(item, "cell_gift")
+        	local cell_total = TFDirector:getChildByPath(item, "cell_total")
+        	local cell_item = TFDirector:getChildByPath(item, "cell_item")
+        	cell_recharge:hide()
+        	cell_gift:hide()
+        	cell_total:show()
+        	cell_item:show()
+        	cell_token:hide()
             self:updateTotalItem(cell_total, data)
             cell_item:setPositionY(47)
             Utils:createRewardItemStyle1(cell_item, data.items, data.canReward)
         end
-    end)
+    end
 
     if preSize.height ~= curSize.height then
     	self.scroll_list:jumpToTop()

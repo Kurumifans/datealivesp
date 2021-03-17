@@ -210,14 +210,12 @@ function FunctionDataMgr:getOpenFuncList()
     return self.openFuncList_
 end
 
-function FunctionDataMgr:__makeAccessItem(desc, open, jumpId, args, accessCfg)
+function FunctionDataMgr:__makeAccessItem(desc, open, jumpId, args)
     return {
         desc = desc,
         open = open,
         jumpId = jumpId,
         args = args,
-        startTime = accessCfg.startTime,
-        endTime = accessCfg.endTime,
     }
 end
 
@@ -256,7 +254,7 @@ function FunctionDataMgr:getAccess(itemId)
                     local open = FubenDataMgr:checkPlotLevelEnabled(levelId)
                     local jumpId = accessCfg.jumpInterface
                     local args = {levelId}
-                    local foo = self:__makeAccessItem(desc, open, jumpId, args, accessCfg)
+                    local foo = self:__makeAccessItem(desc, open, jumpId, args)
                     table.insert(rets, foo)
                 end
             end
@@ -276,7 +274,7 @@ function FunctionDataMgr:getAccess(itemId)
                         local open = FubenDataMgr:checkPlotLevelEnabled(levelId)
                         local jumpId = accessCfg.jumpInterface
                         local args = {levelId}
-                        local foo = self:__makeAccessItem(desc, open, jumpId, args, accessCfg)
+                        local foo = self:__makeAccessItem(desc, open, jumpId, args)
                         table.insert(rets, foo)
                     end
                 end
@@ -299,7 +297,7 @@ function FunctionDataMgr:getAccess(itemId)
                     local open = enabled and not locked
                     local jumpId = accessCfg.jumpInterface
                     local args = {extraChapterCid,levelId}
-                    local foo = self:__makeAccessItem(desc, open, jumpId, args, accessCfg)
+                    local foo = self:__makeAccessItem(desc, open, jumpId, args)
                     table.insert(rets, foo)
                 end
             end
@@ -324,7 +322,7 @@ function FunctionDataMgr:getAccess(itemId)
                     local open = enabled and not locked and condEnabled
                     local jumpId = accessCfg.jumpInterface
                     local args = {accessCfg.parameter[1],levelId}
-                    local foo = self:__makeAccessItem(desc, open, jumpId, args, accessCfg)
+                    local foo = self:__makeAccessItem(desc, open, jumpId, args)
                     table.insert(rets, foo)
                 end
             end
@@ -340,9 +338,9 @@ function FunctionDataMgr:getAccess(itemId)
             local jumpCid = accessCfg.jumpInterface
             local open = levelEnable
             local args = accessCfg.parameter
-            local foo = self:__makeAccessItem(desc, open, jumpCid, args, accessCfg)
+            local foo = self:__makeAccessItem(desc, open, jumpCid, args)
             table.insert(rets, foo)
-        elseif accessType == self.accessType_.ACTIVITY then -- 途径是活动界面的 需要检测是否有对应类型活动
+         elseif accessType == self.accessType_.ACTIVITY then -- 途径是活动界面的 需要检测是否有对应类型活动
             local addAccess = true
             local parameter = {}
             if accessCfg.accessparam ~= "" then
@@ -366,7 +364,7 @@ function FunctionDataMgr:getAccess(itemId)
                 local jumpCid = accessCfg.jumpInterface
                 local open = self:isOpenByClient(jumpCid)
                 local args = parameter
-                local foo = self:__makeAccessItem(desc, open, jumpCid, args, accessCfg)
+                local foo = self:__makeAccessItem(desc, open, jumpCid, args)
                 table.insert(rets, foo)
             end
         elseif accessType == self.accessType_.ACTIVITYBYID then -- 途径是活动界面的 需要检测是否有对应类型活动
@@ -391,7 +389,7 @@ function FunctionDataMgr:getAccess(itemId)
                 local jumpCid = accessCfg.jumpInterface
                 local open = self:isOpenByClient(jumpCid)
                 local args = parameter
-                local foo = self:__makeAccessItem(desc, open, jumpCid, args, accessCfg)
+                local foo = self:__makeAccessItem(desc, open, jumpCid, args)
                 table.insert(rets, foo)
             end
         elseif accessType == self.accessType_.USEITEM then
@@ -404,7 +402,7 @@ function FunctionDataMgr:getAccess(itemId)
             local desc = TextDataMgr:getText(1420002, title, info)
             local jumpCid = accessCfg.jumpInterface
             local open = count > 0
-            local foo = self:__makeAccessItem(desc, open, jumpCid, args, accessCfg)
+            local foo = self:__makeAccessItem(desc, open, jumpCid, args)
             table.insert(rets, foo)
         else
             local title = TextDataMgr:getText(accessCfg.name)
@@ -413,7 +411,7 @@ function FunctionDataMgr:getAccess(itemId)
             local jumpCid = accessCfg.jumpInterface
             local open = self:isOpenByClient(jumpCid)
             local args = accessCfg.parameter
-            local foo = self:__makeAccessItem(desc, open, jumpCid, args, accessCfg)
+            local foo = self:__makeAccessItem(desc, open, jumpCid, args)
             table.insert(rets, foo)
         end
     end

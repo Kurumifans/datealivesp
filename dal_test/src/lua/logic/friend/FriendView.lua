@@ -98,6 +98,9 @@ function FriendView:onShow()
     if self.tabData_[self.selectIndex_].type_ ~= EC_Friend.INVITE then
         FriendDataMgr:send_FRIEND_REQ_GET_FRIEND_INVITE_INFO()
     end
+    if self.selectIndex_ then
+        self:updateSelectTab()
+    end
     self:refreshBtnsRed()
 end
 
@@ -247,6 +250,7 @@ function FriendView:initUI(ui)
     self.btn_masterSpecRed         = TFDirector:getChildByPath(self.btn_masterSpec, "Image_redtip")
     self.btn_taskRed               = TFDirector:getChildByPath(self.btn_task, "Image_redtip")
     self.btn_applyRed              = TFDirector:getChildByPath(self.btn_apply, "Image_redtip")
+    self:refreshMasterBtns()
 
     self.Panel_top = TFDirector:getChildByPath(self.Panel_root, "Panel_top")
     local Panel_left = TFDirector:getChildByPath(self.Panel_root, "Panel_left")
@@ -380,6 +384,7 @@ function FriendView:updateSelectTab()
     local tabData = self.tabData_[self.selectIndex_]
     self.delectState = false
     if tabData.type_ == EC_Friend.FRIEND then
+        self:showFriend()
         self:updateFriendBtnState()
     elseif tabData.type_ == EC_Friend.APPLY then
         self:showApply()
@@ -390,7 +395,6 @@ function FriendView:updateSelectTab()
     elseif tabData.type_ == EC_Friend.INVITE then
         self:showInvite()
     elseif tabData.type_ == EC_Friend.MASTER then
-        self:refreshMasterBtns()
         self:showMaster()
     end
 
@@ -607,16 +611,28 @@ function FriendView:updateFriendListByType(type_)
         self.shieldingFriend_ = FriendDataMgr:getFriend(EC_Friend.SHIELDING)
         data = self.shieldingFriend_
     end
-    listView:AsyncUpdateItem(data,function()
-        local Panel_friendItem = self:addFriendItem()
-        return Panel_friendItem
-    end,
-    function (v,info)
+    local items = listView:getItems()
+    local gap = #data - #items
+    local offset
+    if gap > 0 then
+        for i = 1, math.abs(gap) do
+            local Panel_friendItem = self:addFriendItem()
+            listView:pushBackCustomItem(Panel_friendItem)
+        end
+        offset = listView.scrollView:getContentOffset()
+    else
+        offset = listView.scrollView:getContentOffset()
+        for i = 1, math.abs(gap) do
+            listView:removeItem(1)
+        end
+    end
+    items = listView:getItems()
+    for i, v in ipairs(items) do
         local friendInfo
         if type_ == EC_Friend.ADD then
-            friendInfo = info
+            friendInfo = data[i]
         else
-            local pid = info
+            local pid = data[i]
             friendInfo = FriendDataMgr:getFriendInfo(pid)
         end
         local item = self.friendItem_[v]
@@ -629,47 +645,9 @@ function FriendView:updateFriendListByType(type_)
         item.Button_sendBless:setVisible(type_ == EC_Friend.FRIEND)
 
         self:setFriendInfo(item, friendInfo)
-    end)
-
-
-
-    -- local items = listView:getItems()
-    -- local gap = #data - #items
-    -- local offset
-    -- if gap > 0 then
-    --     for i = 1, math.abs(gap) do
-    --         local Panel_friendItem = self:addFriendItem()
-    --         listView:pushBackCustomItem(Panel_friendItem)
-    --     end
-    --     offset = listView.scrollView:getContentOffset()
-    -- else
-    --     offset = listView.scrollView:getContentOffset()
-    --     for i = 1, math.abs(gap) do
-    --         listView:removeItem(1)
-    --     end
-    -- end
-    -- items = listView:getItems()
-    -- for i, v in ipairs(items) do
-    --     local friendInfo
-    --     if type_ == EC_Friend.ADD then
-    --         friendInfo = data[i]
-    --     else
-    --         local pid = data[i]
-    --         friendInfo = FriendDataMgr:getFriendInfo(pid)
-    --     end
-    --     local item = self.friendItem_[v]
-    --     item.Button_receive:setVisible(type_ == EC_Friend.FRIEND and not self.delectState)
-    --     item.Button_giving:setVisible(type_ == EC_Friend.FRIEND and not self.delectState)
-    --     item.Button_agree:setVisible(type_ == EC_Friend.APPLY)
-    --     item.Button_reject:setVisible(type_ == EC_Friend.APPLY)
-    --     item.Button_add:setVisible(type_ == EC_Friend.ADD)
-    --     item.Button_shielding:setVisible(type_ == EC_Friend.SHIELDING)
-    --     item.Button_sendBless:setVisible(type_ == EC_Friend.FRIEND)
-
-    --     self:setFriendInfo(item, friendInfo)
-    -- end
-    -- local posy = math.abs(offset.y) - listView:getInnerContainerSize().height + listView.scrollView:getSize().height
-    -- listView:scrollTo(posy)
+    end
+    local posy = math.abs(offset.y) - listView:getInnerContainerSize().height + listView.scrollView:getSize().height
+    listView:scrollTo(posy)
 end
 
 function FriendView:updateFriendListByIndex(index)
@@ -678,6 +656,7 @@ function FriendView:updateFriendListByIndex(index)
 end
 
 function FriendView:setFriendInfo(item, friendInfo)
+    -- print("44444444444444444",friendInfo)
     local portraitCid = friendInfo.portraitCid
     if friendInfo.leaderCid then
         local heroCfg = TabDataMgr:getData("Hero", friendInfo.leaderCid)
@@ -855,20 +834,6 @@ function FriendView:setFriendInfo(item, friendInfo)
                 self.Button_delet_sure:setGrayEnabled(true)
             end
         end)
-        local isCanGiven = FriendDataMgr:isCanGiven(friendInfo.pid)
-        item.Button_giving:setTouchEnabled(isCanGiven)
-        item.Button_giving:setGrayEnabled(not isCanGiven)
-        if isCanGiven then
-            item.Label_givingTxt:setTextById(700014)
-        else
-            item.Label_givingTxt:setTextById(700032)
-        end
-        local isCanReceive = FriendDataMgr:isCanReceive(friendInfo.pid)
-        item.Button_receive:setVisible(isCanReceive and not self.delectState)
-        item.Button_sendBless:setVisible(FriendDataMgr:isWishBtnShow(friendInfo.pid))
-        if not item.Button_receive:isVisible() then
-            item.Button_sendBless:setPosition(item.Button_receive:Pos())
-        end
     end
 end
 
@@ -1244,8 +1209,26 @@ end
 function FriendView:selectSortRule(index)
     self.selectRuleIndex_ = index or self.defaultSelectRuleIndex_
     self:setSortRuleVisible(true)
-    
+
     self:updateFriendListByType(EC_Friend.FRIEND)
+    for i, v in ipairs(self.ListView_friend:getItems()) do
+        local item = self.friendItem_[v]
+        local pid = self.friend_[i]
+        local isCanGiven = FriendDataMgr:isCanGiven(pid)
+        item.Button_giving:setTouchEnabled(isCanGiven)
+        item.Button_giving:setGrayEnabled(not isCanGiven)
+        if isCanGiven then
+            item.Label_givingTxt:setTextById(700014)
+        else
+            item.Label_givingTxt:setTextById(700032)
+        end
+        local isCanReceive = FriendDataMgr:isCanReceive(pid)
+        item.Button_receive:setVisible(isCanReceive and not self.delectState)
+        item.Button_sendBless:setVisible(FriendDataMgr:isWishBtnShow(pid))
+        if not item.Button_receive:isVisible() then
+            item.Button_sendBless:setPosition(item.Button_receive:Pos())
+        end
+    end
 
     local count = GoodsDataMgr:getItemCount(EC_SItemType.FRIENDSHIP)
     self.Label_friendDotCount:setText(count)

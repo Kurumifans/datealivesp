@@ -1,1464 +1,10 @@
 return {
-    [103560] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103560,
-        special = 0,
-        condition = 9,
-        reward = {
-            [1] = {
-                [1] = 520021,
-                [2] = 2,
-            },
-        },
-    },
-    [103576] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 1,
-        groupId = 1,
-        id = 103576,
-        special = 0,
-        condition = 25,
-        reward = {
-            [1] = {
-                [1] = 651016,
-                [2] = 1,
-            },
-        },
-    },
-    [103592] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103592,
-        special = 0,
-        condition = 41,
-        reward = {
-            [1] = {
-                [1] = 520006,
-                [2] = 3,
-            },
-        },
-    },
-    [103608] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103608,
-        special = 0,
-        condition = 57,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 5,
-            },
-        },
-    },
-    [103624] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103624,
-        special = 0,
-        condition = 73,
-        reward = {
-        },
-    },
-    [103640] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103640,
-        special = 0,
-        condition = 89,
-        reward = {
-        },
-    },
-    [103656] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 1,
-        groupId = 1,
-        id = 103656,
-        special = 1,
-        condition = 5,
-        reward = {
-            [1] = {
-                [1] = 599604,
-                [2] = 1,
-            },
-        },
-    },
-    [103672] = {
-        returnnewbleId = 120025,
+    [103512] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103672,
-        special = 0,
-        condition = 21,
-        reward = {
-            [1] = {
-                [1] = 570031,
-                [2] = 2,
-            },
-        },
-    },
-    [103688] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103688,
-        special = 0,
-        condition = 37,
-        reward = {
-            [1] = {
-                [1] = 520065,
-                [2] = 1,
-            },
-        },
-    },
-    [103704] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103704,
-        special = 0,
-        condition = 53,
-        reward = {
-            [1] = {
-                [1] = 501032,
-                [2] = 100,
-            },
-        },
-    },
-    [103720] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103720,
-        special = 0,
-        condition = 69,
-        reward = {
-            [1] = {
-                [1] = 520023,
-                [2] = 2,
-            },
-        },
-    },
-    [103736] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 1,
-        groupId = 1,
-        id = 103736,
-        special = 1,
-        condition = 85,
-        reward = {
-            [1] = {
-                [1] = 599606,
-                [2] = 3,
-            },
-        },
-    },
-    [103561] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 1,
-        groupId = 1,
-        id = 103561,
-        special = 1,
-        condition = 10,
-        reward = {
-            [1] = {
-                [1] = 599602,
-                [2] = 2,
-            },
-        },
-    },
-    [103577] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103577,
-        special = 0,
-        condition = 26,
-        reward = {
-        },
-    },
-    [103593] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103593,
-        special = 0,
-        condition = 42,
-        reward = {
-        },
-    },
-    [103609] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103609,
-        special = 0,
-        condition = 58,
-        reward = {
-        },
-    },
-    [103625] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103625,
-        special = 0,
-        condition = 74,
-        reward = {
-        },
-    },
-    [103641] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 1,
-        groupId = 1,
-        id = 103641,
-        special = 1,
-        condition = 90,
-        reward = {
-        },
-    },
-    [103657] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103657,
-        special = 0,
-        condition = 6,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 5,
-            },
-        },
-    },
-    [103673] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103673,
-        special = 0,
-        condition = 22,
-        reward = {
-            [1] = {
-                [1] = 520064,
-                [2] = 2,
-            },
-        },
-    },
-    [103689] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103689,
-        special = 0,
-        condition = 38,
-        reward = {
-            [1] = {
-                [1] = 510242,
-                [2] = 3,
-            },
-        },
-    },
-    [103705] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103705,
-        special = 0,
-        condition = 54,
-        reward = {
-            [1] = {
-                [1] = 510105,
-                [2] = 7,
-            },
-        },
-    },
-    [103721] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 1,
-        groupId = 1,
-        id = 103721,
-        special = 1,
-        condition = 70,
-        reward = {
-            [1] = {
-                [1] = 570033,
-                [2] = 2,
-            },
-        },
-    },
-    [103737] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103737,
-        special = 0,
-        condition = 86,
-        reward = {
-            [1] = {
-                [1] = 510105,
-                [2] = 8,
-            },
-        },
-    },
-    [103562] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103562,
-        special = 0,
-        condition = 11,
-        reward = {
-            [1] = {
-                [1] = 520006,
-                [2] = 2,
-            },
-        },
-    },
-    [103578] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103578,
-        special = 0,
-        condition = 27,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 4,
-            },
-        },
-    },
-    [103594] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103594,
-        special = 0,
-        condition = 43,
-        reward = {
-            [1] = {
-                [1] = 510105,
-                [2] = 5,
-            },
-        },
-    },
-    [103610] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103610,
-        special = 0,
-        condition = 59,
-        reward = {
-            [1] = {
-                [1] = 520021,
-                [2] = 5,
-            },
-        },
-    },
-    [103626] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 1,
-        groupId = 1,
-        id = 103626,
-        special = 1,
-        condition = 75,
-        reward = {
-        },
-    },
-    [103642] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103642,
-        special = 0,
-        condition = 91,
-        reward = {
-        },
-    },
-    [103658] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103658,
-        special = 0,
-        condition = 7,
-        reward = {
-            [1] = {
-                [1] = 520065,
-                [2] = 1,
-            },
-        },
-    },
-    [103674] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103674,
-        special = 0,
-        condition = 23,
-        reward = {
-            [1] = {
-                [1] = 510105,
-                [2] = 7,
-            },
-        },
-    },
-    [103690] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103690,
-        special = 0,
-        condition = 39,
-        reward = {
-            [1] = {
-                [1] = 520023,
-                [2] = 2,
-            },
-        },
-    },
-    [103706] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 1,
-        groupId = 1,
-        id = 103706,
-        special = 1,
-        condition = 55,
-        reward = {
-            [1] = {
-                [1] = 599605,
-                [2] = 1,
-            },
-        },
-    },
-    [103722] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103722,
-        special = 0,
-        condition = 71,
-        reward = {
-            [1] = {
-                [1] = 570031,
-                [2] = 3,
-            },
-        },
-    },
-    [103738] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103738,
-        special = 0,
-        condition = 87,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 8,
-            },
-        },
-    },
-    [103563] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103563,
-        special = 0,
-        condition = 12,
-        reward = {
-        },
-    },
-    [103579] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103579,
-        special = 0,
-        condition = 28,
-        reward = {
-        },
-    },
-    [103595] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103595,
-        special = 0,
-        condition = 44,
-        reward = {
-        },
-    },
-    [103611] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 1,
-        groupId = 1,
-        id = 103611,
-        special = 1,
-        condition = 60,
-        reward = {
-            [1] = {
-                [1] = 413304,
-                [2] = 1,
-            },
-        },
-    },
-    [103627] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103627,
-        special = 0,
-        condition = 76,
-        reward = {
-        },
-    },
-    [103643] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103643,
-        special = 0,
-        condition = 92,
-        reward = {
-        },
-    },
-    [103659] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103659,
-        special = 0,
-        condition = 8,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 5,
-            },
-        },
-    },
-    [103675] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103675,
-        special = 0,
-        condition = 24,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 7,
-            },
-        },
-    },
-    [103691] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 1,
-        groupId = 1,
-        id = 103691,
-        special = 1,
-        condition = 40,
-        reward = {
-            [1] = {
-                [1] = 599605,
-                [2] = 1,
-            },
-        },
-    },
-    [103707] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103707,
-        special = 0,
-        condition = 56,
-        reward = {
-            [1] = {
-                [1] = 599503,
-                [2] = 1,
-            },
-        },
-    },
-    [103723] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103723,
-        special = 0,
-        condition = 72,
-        reward = {
-            [1] = {
-                [1] = 520064,
-                [2] = 2,
-            },
-        },
-    },
-    [103739] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103739,
-        special = 0,
-        condition = 88,
-        reward = {
-            [1] = {
-                [1] = 240009,
-                [2] = 8,
-            },
-        },
-    },
-    [103564] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103564,
-        special = 0,
-        condition = 13,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 4,
-            },
-        },
-    },
-    [103580] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103580,
-        special = 0,
-        condition = 29,
-        reward = {
-            [1] = {
-                [1] = 520021,
-                [2] = 3,
-            },
-        },
-    },
-    [103596] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 1,
-        groupId = 1,
-        id = 103596,
-        special = 1,
-        condition = 45,
-        reward = {
-            [1] = {
-                [1] = 599604,
-                [2] = 2,
-            },
-        },
-    },
-    [103612] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103612,
-        special = 0,
-        condition = 61,
-        reward = {
-        },
-    },
-    [103628] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103628,
-        special = 0,
-        condition = 77,
-        reward = {
-        },
-    },
-    [103644] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103644,
-        special = 0,
-        condition = 93,
-        reward = {
-        },
-    },
-    [103660] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103660,
-        special = 0,
-        condition = 9,
-        reward = {
-            [1] = {
-                [1] = 520023,
-                [2] = 2,
-            },
-        },
-    },
-    [103676] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 1,
-        groupId = 1,
-        id = 103676,
-        special = 1,
-        condition = 25,
-        reward = {
-            [1] = {
-                [1] = 599604,
-                [2] = 1,
-            },
-        },
-    },
-    [103692] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103692,
-        special = 0,
-        condition = 41,
-        reward = {
-            [1] = {
-                [1] = 570031,
-                [2] = 3,
-            },
-        },
-    },
-    [103708] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103708,
-        special = 0,
-        condition = 57,
-        reward = {
-            [1] = {
-                [1] = 520065,
-                [2] = 2,
-            },
-        },
-    },
-    [103724] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103724,
-        special = 0,
-        condition = 73,
-        reward = {
-            [1] = {
-                [1] = 520063,
-                [2] = 5,
-            },
-        },
-    },
-    [103740] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103740,
-        special = 0,
-        condition = 89,
-        reward = {
-            [1] = {
-                [1] = 570002,
-                [2] = 20,
-            },
-        },
-    },
-    [103565] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103565,
-        special = 0,
-        condition = 14,
-        reward = {
-        },
-    },
-    [103581] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 1,
-        groupId = 1,
-        id = 103581,
-        special = 1,
-        condition = 30,
-        reward = {
-            [1] = {
-                [1] = 599603,
-                [2] = 1,
-            },
-        },
-    },
-    [103597] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103597,
-        special = 0,
-        condition = 46,
-        reward = {
-        },
-    },
-    [103613] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103613,
-        special = 0,
-        condition = 62,
-        reward = {
-        },
-    },
-    [103629] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103629,
-        special = 0,
-        condition = 78,
-        reward = {
-        },
-    },
-    [103645] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103645,
-        special = 0,
-        condition = 94,
-        reward = {
-        },
-    },
-    [103661] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 1,
-        groupId = 1,
-        id = 103661,
-        special = 1,
-        condition = 10,
-        reward = {
-            [1] = {
-                [1] = 570033,
-                [2] = 1,
-            },
-        },
-    },
-    [103677] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103677,
-        special = 0,
-        condition = 26,
-        reward = {
-            [1] = {
-                [1] = 599503,
-                [2] = 1,
-            },
-        },
-    },
-    [103693] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103693,
-        special = 0,
-        condition = 42,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 7,
-            },
-        },
-    },
-    [103709] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103709,
-        special = 0,
-        condition = 58,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 8,
-            },
-        },
-    },
-    [103725] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103725,
-        special = 0,
-        condition = 74,
-        reward = {
-            [1] = {
-                [1] = 510105,
-                [2] = 8,
-            },
-        },
-    },
-    [103741] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 1,
-        groupId = 1,
-        id = 103741,
-        special = 1,
-        condition = 90,
-        reward = {
-            [1] = {
-                [1] = 570033,
-                [2] = 1,
-            },
-        },
-    },
-    [103566] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 1,
-        groupId = 1,
-        id = 103566,
-        special = 1,
-        condition = 15,
-        reward = {
-            [1] = {
-                [1] = 599603,
-                [2] = 1,
-            },
-        },
-    },
-    [103582] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103582,
-        special = 0,
-        condition = 31,
-        reward = {
-            [1] = {
-                [1] = 520006,
-                [2] = 2,
-            },
-        },
-    },
-    [103598] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103598,
-        special = 0,
-        condition = 47,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 5,
-            },
-        },
-    },
-    [103614] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103614,
-        special = 0,
-        condition = 63,
-        reward = {
-        },
-    },
-    [103630] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103630,
-        special = 0,
-        condition = 79,
-        reward = {
-        },
-    },
-    [103646] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103646,
-        special = 0,
-        condition = 95,
-        reward = {
-        },
-    },
-    [103662] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103662,
-        special = 0,
-        condition = 11,
-        reward = {
-            [1] = {
-                [1] = 570031,
-                [2] = 3,
-            },
-        },
-    },
-    [103678] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103678,
-        special = 0,
-        condition = 27,
-        reward = {
-            [1] = {
-                [1] = 520065,
-                [2] = 1,
-            },
-        },
-    },
-    [103694] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103694,
-        special = 0,
-        condition = 43,
-        reward = {
-            [1] = {
-                [1] = 501032,
-                [2] = 100,
-            },
-        },
-    },
-    [103710] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103710,
-        special = 0,
-        condition = 59,
-        reward = {
-            [1] = {
-                [1] = 520023,
-                [2] = 3,
-            },
-        },
-    },
-    [103726] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 1,
-        groupId = 1,
-        id = 103726,
-        special = 1,
-        condition = 75,
-        reward = {
-            [1] = {
-                [1] = 599607,
-                [2] = 2,
-            },
-        },
-    },
-    [103742] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103742,
-        special = 0,
-        condition = 91,
-        reward = {
-            [1] = {
-                [1] = 510105,
-                [2] = 7,
-            },
-        },
-    },
-    [103567] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103567,
-        special = 0,
-        condition = 16,
-        reward = {
-        },
-    },
-    [103583] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103583,
-        special = 0,
-        condition = 32,
-        reward = {
-        },
-    },
-    [103599] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103599,
-        special = 0,
-        condition = 48,
-        reward = {
-        },
-    },
-    [103615] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103615,
-        special = 0,
-        condition = 64,
-        reward = {
-        },
-    },
-    [103631] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 1,
-        groupId = 1,
-        id = 103631,
-        special = 1,
-        condition = 80,
-        reward = {
-        },
-    },
-    [103647] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103647,
-        special = 0,
-        condition = 96,
-        reward = {
-        },
-    },
-    [103663] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103663,
-        special = 0,
-        condition = 12,
-        reward = {
-            [1] = {
-                [1] = 520064,
-                [2] = 2,
-            },
-        },
-    },
-    [103679] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103679,
-        special = 0,
-        condition = 28,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 7,
-            },
-        },
-    },
-    [103695] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103695,
-        special = 0,
-        condition = 44,
-        reward = {
-            [1] = {
-                [1] = 510105,
-                [2] = 7,
-            },
-        },
-    },
-    [103711] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 1,
-        groupId = 1,
-        id = 103711,
-        special = 1,
-        condition = 60,
-        reward = {
-            [1] = {
-                [1] = 413303,
-                [2] = 1,
-            },
-        },
-    },
-    [103727] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103727,
-        special = 0,
-        condition = 76,
-        reward = {
-            [1] = {
-                [1] = 599503,
-                [2] = 1,
-            },
-        },
-    },
-    [103743] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103743,
-        special = 0,
-        condition = 92,
-        reward = {
-            [1] = {
-                [1] = 510155,
-                [2] = 8,
-            },
-        },
-    },
-    [103552] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103552,
-        special = 0,
-        condition = 1,
-        reward = {
-            [1] = {
-                [1] = 520006,
-                [2] = 2,
-            },
-        },
-    },
-    [103568] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103568,
-        special = 0,
-        condition = 17,
-        reward = {
-            [1] = {
-                [1] = 520063,
-                [2] = 2,
-            },
-        },
-    },
-    [103584] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103584,
-        special = 0,
-        condition = 33,
-        reward = {
-            [1] = {
-                [1] = 510105,
-                [2] = 4,
-            },
-        },
-    },
-    [103600] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103600,
-        special = 0,
-        condition = 49,
-        reward = {
-            [1] = {
-                [1] = 520021,
-                [2] = 5,
-            },
-        },
-    },
-    [103616] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 1,
-        groupId = 1,
-        id = 103616,
-        special = 1,
-        condition = 65,
-        reward = {
-        },
-    },
-    [103632] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103632,
-        special = 0,
-        condition = 81,
-        reward = {
-        },
-    },
-    [103648] = {
-        returnnewbleId = 120025,
-        type = 1,
-        preview = 0,
-        groupId = 1,
-        id = 103648,
-        special = 0,
-        condition = 97,
-        reward = {
-        },
-    },
-    [103664] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103664,
-        special = 0,
-        condition = 13,
-        reward = {
-            [1] = {
-                [1] = 510105,
-                [2] = 6,
-            },
-        },
-    },
-    [103680] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103680,
-        special = 0,
-        condition = 29,
-        reward = {
-            [1] = {
-                [1] = 520023,
-                [2] = 2,
-            },
-        },
-    },
-    [103696] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 1,
-        groupId = 1,
-        id = 103696,
-        special = 1,
-        condition = 45,
-        reward = {
-            [1] = {
-                [1] = 570033,
-                [2] = 1,
-            },
-        },
-    },
-    [103712] = {
-        returnnewbleId = 120025,
-        type = 2,
-        preview = 0,
-        groupId = 1,
-        id = 103712,
+        id = 103512,
         special = 0,
         condition = 61,
         reward = {
@@ -1468,12 +14,12 @@ return {
             },
         },
     },
-    [103728] = {
-        returnnewbleId = 120025,
+    [103528] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103728,
+        id = 103528,
         special = 0,
         condition = 77,
         reward = {
@@ -1483,12 +29,12 @@ return {
             },
         },
     },
-    [103744] = {
-        returnnewbleId = 120025,
+    [103544] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103744,
+        id = 103544,
         special = 0,
         condition = 93,
         reward = {
@@ -1498,45 +44,45 @@ return {
             },
         },
     },
-    [103553] = {
-        returnnewbleId = 120025,
+    [103353] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103553,
+        id = 103353,
         special = 0,
         condition = 2,
         reward = {
         },
     },
-    [103569] = {
-        returnnewbleId = 120025,
+    [103369] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103569,
+        id = 103369,
         special = 0,
         condition = 18,
         reward = {
         },
     },
-    [103585] = {
-        returnnewbleId = 120025,
+    [103385] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103585,
+        id = 103385,
         special = 0,
         condition = 34,
         reward = {
         },
     },
-    [103601] = {
-        returnnewbleId = 120025,
+    [103401] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 1,
         groupId = 1,
-        id = 103601,
+        id = 103401,
         special = 1,
         condition = 50,
         reward = {
@@ -1546,45 +92,45 @@ return {
             },
         },
     },
-    [103617] = {
-        returnnewbleId = 120025,
+    [103417] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103617,
+        id = 103417,
         special = 0,
         condition = 66,
         reward = {
         },
     },
-    [103633] = {
-        returnnewbleId = 120025,
+    [103433] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103633,
+        id = 103433,
         special = 0,
         condition = 82,
         reward = {
         },
     },
-    [103649] = {
-        returnnewbleId = 120025,
+    [103449] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103649,
+        id = 103449,
         special = 0,
         condition = 98,
         reward = {
         },
     },
-    [103665] = {
-        returnnewbleId = 120025,
+    [103465] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103665,
+        id = 103465,
         special = 0,
         condition = 14,
         reward = {
@@ -1594,12 +140,12 @@ return {
             },
         },
     },
-    [103681] = {
-        returnnewbleId = 120025,
+    [103481] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 1,
         groupId = 1,
-        id = 103681,
+        id = 103481,
         special = 1,
         condition = 30,
         reward = {
@@ -1609,12 +155,12 @@ return {
             },
         },
     },
-    [103697] = {
-        returnnewbleId = 120025,
+    [103497] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103697,
+        id = 103497,
         special = 0,
         condition = 46,
         reward = {
@@ -1624,12 +170,12 @@ return {
             },
         },
     },
-    [103713] = {
-        returnnewbleId = 120025,
+    [103513] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103713,
+        id = 103513,
         special = 0,
         condition = 62,
         reward = {
@@ -1639,12 +185,12 @@ return {
             },
         },
     },
-    [103729] = {
-        returnnewbleId = 120025,
+    [103529] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103729,
+        id = 103529,
         special = 0,
         condition = 78,
         reward = {
@@ -1654,12 +200,12 @@ return {
             },
         },
     },
-    [103745] = {
-        returnnewbleId = 120025,
+    [103545] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103745,
+        id = 103545,
         special = 0,
         condition = 94,
         reward = {
@@ -1669,12 +215,12 @@ return {
             },
         },
     },
-    [103554] = {
-        returnnewbleId = 120025,
+    [103354] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103554,
+        id = 103354,
         special = 0,
         condition = 3,
         reward = {
@@ -1684,12 +230,12 @@ return {
             },
         },
     },
-    [103570] = {
-        returnnewbleId = 120025,
+    [103370] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103570,
+        id = 103370,
         special = 0,
         condition = 19,
         reward = {
@@ -1699,12 +245,12 @@ return {
             },
         },
     },
-    [103586] = {
-        returnnewbleId = 120025,
+    [103386] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 1,
         groupId = 1,
-        id = 103586,
+        id = 103386,
         special = 1,
         condition = 35,
         reward = {
@@ -1714,12 +260,12 @@ return {
             },
         },
     },
-    [103602] = {
-        returnnewbleId = 120025,
+    [103402] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103602,
+        id = 103402,
         special = 0,
         condition = 51,
         reward = {
@@ -1729,45 +275,45 @@ return {
             },
         },
     },
-    [103618] = {
-        returnnewbleId = 120025,
+    [103418] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103618,
+        id = 103418,
         special = 0,
         condition = 67,
         reward = {
         },
     },
-    [103634] = {
-        returnnewbleId = 120025,
+    [103434] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103634,
+        id = 103434,
         special = 0,
         condition = 83,
         reward = {
         },
     },
-    [103650] = {
-        returnnewbleId = 120025,
+    [103450] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103650,
+        id = 103450,
         special = 0,
         condition = 99,
         reward = {
         },
     },
-    [103666] = {
-        returnnewbleId = 120025,
+    [103466] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 1,
         groupId = 1,
-        id = 103666,
+        id = 103466,
         special = 1,
         condition = 15,
         reward = {
@@ -1777,12 +323,12 @@ return {
             },
         },
     },
-    [103682] = {
-        returnnewbleId = 120025,
+    [103482] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103682,
+        id = 103482,
         special = 0,
         condition = 31,
         reward = {
@@ -1792,12 +338,12 @@ return {
             },
         },
     },
-    [103698] = {
-        returnnewbleId = 120025,
+    [103498] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103698,
+        id = 103498,
         special = 0,
         condition = 47,
         reward = {
@@ -1807,12 +353,12 @@ return {
             },
         },
     },
-    [103714] = {
-        returnnewbleId = 120025,
+    [103514] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103714,
+        id = 103514,
         special = 0,
         condition = 63,
         reward = {
@@ -1822,12 +368,12 @@ return {
             },
         },
     },
-    [103730] = {
-        returnnewbleId = 120025,
+    [103530] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103730,
+        id = 103530,
         special = 0,
         condition = 79,
         reward = {
@@ -1837,12 +383,12 @@ return {
             },
         },
     },
-    [103746] = {
-        returnnewbleId = 120025,
+    [103546] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103746,
+        id = 103546,
         special = 0,
         condition = 95,
         reward = {
@@ -1852,93 +398,93 @@ return {
             },
         },
     },
-    [103555] = {
-        returnnewbleId = 120025,
+    [103355] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103555,
+        id = 103355,
         special = 0,
         condition = 4,
         reward = {
         },
     },
-    [103571] = {
-        returnnewbleId = 120025,
+    [103371] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 1,
         groupId = 1,
-        id = 103571,
+        id = 103371,
         special = 1,
         condition = 20,
         reward = {
             [1] = {
                 [1] = 599603,
-                [2] = 2,
+                [2] = 1,
             },
         },
     },
-    [103587] = {
-        returnnewbleId = 120025,
+    [103387] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103587,
+        id = 103387,
         special = 0,
         condition = 36,
         reward = {
         },
     },
-    [103603] = {
-        returnnewbleId = 120025,
+    [103403] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103603,
+        id = 103403,
         special = 0,
         condition = 52,
         reward = {
         },
     },
-    [103619] = {
-        returnnewbleId = 120025,
+    [103419] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103619,
+        id = 103419,
         special = 0,
         condition = 68,
         reward = {
         },
     },
-    [103635] = {
-        returnnewbleId = 120025,
+    [103435] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103635,
+        id = 103435,
         special = 0,
         condition = 84,
         reward = {
         },
     },
-    [103651] = {
-        returnnewbleId = 120025,
+    [103451] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103651,
+        id = 103451,
         special = 0,
         condition = 100,
         reward = {
         },
     },
-    [103667] = {
-        returnnewbleId = 120025,
+    [103467] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103667,
+        id = 103467,
         special = 0,
         condition = 16,
         reward = {
@@ -1948,12 +494,12 @@ return {
             },
         },
     },
-    [103683] = {
-        returnnewbleId = 120025,
+    [103483] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103683,
+        id = 103483,
         special = 0,
         condition = 32,
         reward = {
@@ -1963,12 +509,12 @@ return {
             },
         },
     },
-    [103699] = {
-        returnnewbleId = 120025,
+    [103499] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103699,
+        id = 103499,
         special = 0,
         condition = 48,
         reward = {
@@ -1978,12 +524,12 @@ return {
             },
         },
     },
-    [103715] = {
-        returnnewbleId = 120025,
+    [103515] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103715,
+        id = 103515,
         special = 0,
         condition = 64,
         reward = {
@@ -1993,12 +539,12 @@ return {
             },
         },
     },
-    [103731] = {
-        returnnewbleId = 120025,
+    [103531] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 1,
         groupId = 1,
-        id = 103731,
+        id = 103531,
         special = 1,
         condition = 80,
         reward = {
@@ -2008,12 +554,12 @@ return {
             },
         },
     },
-    [103747] = {
-        returnnewbleId = 120025,
+    [103547] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103747,
+        id = 103547,
         special = 0,
         condition = 96,
         reward = {
@@ -2023,27 +569,27 @@ return {
             },
         },
     },
-    [103556] = {
-        returnnewbleId = 120025,
+    [103356] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 1,
         groupId = 1,
-        id = 103556,
+        id = 103356,
         special = 1,
         condition = 5,
         reward = {
             [1] = {
                 [1] = 599602,
-                [2] = 1,
+                [2] = 2,
             },
         },
     },
-    [103572] = {
-        returnnewbleId = 120025,
+    [103372] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103572,
+        id = 103372,
         special = 0,
         condition = 21,
         reward = {
@@ -2053,12 +599,12 @@ return {
             },
         },
     },
-    [103588] = {
-        returnnewbleId = 120025,
+    [103388] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103588,
+        id = 103388,
         special = 0,
         condition = 37,
         reward = {
@@ -2068,49 +614,49 @@ return {
             },
         },
     },
-    [103604] = {
-        returnnewbleId = 120025,
+    [103404] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103604,
+        id = 103404,
         special = 0,
         condition = 53,
         reward = {
             [1] = {
                 [1] = 510105,
-                [2] = 5,
+                [2] = 6,
             },
         },
     },
-    [103620] = {
-        returnnewbleId = 120025,
+    [103420] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103620,
+        id = 103420,
         special = 0,
         condition = 69,
         reward = {
         },
     },
-    [103636] = {
-        returnnewbleId = 120025,
+    [103436] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 1,
         groupId = 1,
-        id = 103636,
+        id = 103436,
         special = 1,
         condition = 85,
         reward = {
         },
     },
-    [103652] = {
-        returnnewbleId = 120025,
+    [103452] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103652,
+        id = 103452,
         special = 0,
         condition = 1,
         reward = {
@@ -2120,12 +666,12 @@ return {
             },
         },
     },
-    [103668] = {
-        returnnewbleId = 120025,
+    [103468] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103668,
+        id = 103468,
         special = 0,
         condition = 17,
         reward = {
@@ -2135,12 +681,12 @@ return {
             },
         },
     },
-    [103684] = {
-        returnnewbleId = 120025,
+    [103484] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103684,
+        id = 103484,
         special = 0,
         condition = 33,
         reward = {
@@ -2150,12 +696,12 @@ return {
             },
         },
     },
-    [103700] = {
-        returnnewbleId = 120025,
+    [103500] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103700,
+        id = 103500,
         special = 0,
         condition = 49,
         reward = {
@@ -2165,12 +711,12 @@ return {
             },
         },
     },
-    [103716] = {
-        returnnewbleId = 120025,
+    [103516] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 1,
         groupId = 1,
-        id = 103716,
+        id = 103516,
         special = 1,
         condition = 65,
         reward = {
@@ -2180,12 +726,12 @@ return {
             },
         },
     },
-    [103732] = {
-        returnnewbleId = 120025,
+    [103532] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103732,
+        id = 103532,
         special = 0,
         condition = 81,
         reward = {
@@ -2195,12 +741,12 @@ return {
             },
         },
     },
-    [103748] = {
-        returnnewbleId = 120025,
+    [103548] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103748,
+        id = 103548,
         special = 0,
         condition = 97,
         reward = {
@@ -2210,78 +756,78 @@ return {
             },
         },
     },
-    [103557] = {
-        returnnewbleId = 120025,
+    [103357] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103557,
+        id = 103357,
         special = 0,
         condition = 6,
         reward = {
         },
     },
-    [103573] = {
-        returnnewbleId = 120025,
+    [103373] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103573,
+        id = 103373,
         special = 0,
         condition = 22,
         reward = {
         },
     },
-    [103589] = {
-        returnnewbleId = 120025,
+    [103389] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103589,
+        id = 103389,
         special = 0,
         condition = 38,
         reward = {
         },
     },
-    [103605] = {
-        returnnewbleId = 120025,
+    [103405] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103605,
+        id = 103405,
         special = 0,
         condition = 54,
         reward = {
         },
     },
-    [103621] = {
-        returnnewbleId = 120025,
+    [103421] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 1,
         groupId = 1,
-        id = 103621,
+        id = 103421,
         special = 1,
         condition = 70,
         reward = {
         },
     },
-    [103637] = {
-        returnnewbleId = 120025,
+    [103437] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103637,
+        id = 103437,
         special = 0,
         condition = 86,
         reward = {
         },
     },
-    [103653] = {
-        returnnewbleId = 120025,
+    [103453] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103653,
+        id = 103453,
         special = 0,
         condition = 2,
         reward = {
@@ -2291,12 +837,12 @@ return {
             },
         },
     },
-    [103669] = {
-        returnnewbleId = 120025,
+    [103469] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103669,
+        id = 103469,
         special = 0,
         condition = 18,
         reward = {
@@ -2306,12 +852,12 @@ return {
             },
         },
     },
-    [103685] = {
-        returnnewbleId = 120025,
+    [103485] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103685,
+        id = 103485,
         special = 0,
         condition = 34,
         reward = {
@@ -2321,12 +867,12 @@ return {
             },
         },
     },
-    [103701] = {
-        returnnewbleId = 120025,
+    [103501] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 1,
         groupId = 1,
-        id = 103701,
+        id = 103501,
         special = 1,
         condition = 50,
         reward = {
@@ -2336,12 +882,12 @@ return {
             },
         },
     },
-    [103717] = {
-        returnnewbleId = 120025,
+    [103517] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103717,
+        id = 103517,
         special = 0,
         condition = 66,
         reward = {
@@ -2351,12 +897,12 @@ return {
             },
         },
     },
-    [103733] = {
-        returnnewbleId = 120025,
+    [103533] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103733,
+        id = 103533,
         special = 0,
         condition = 82,
         reward = {
@@ -2366,12 +912,12 @@ return {
             },
         },
     },
-    [103749] = {
-        returnnewbleId = 120025,
+    [103549] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103749,
+        id = 103549,
         special = 0,
         condition = 98,
         reward = {
@@ -2381,42 +927,42 @@ return {
             },
         },
     },
-    [103558] = {
-        returnnewbleId = 120025,
+    [103358] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103558,
+        id = 103358,
         special = 0,
         condition = 7,
         reward = {
             [1] = {
                 [1] = 520063,
-                [2] = 2,
+                [2] = 3,
             },
         },
     },
-    [103574] = {
-        returnnewbleId = 120025,
+    [103374] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103574,
+        id = 103374,
         special = 0,
         condition = 23,
         reward = {
             [1] = {
                 [1] = 510105,
-                [2] = 4,
+                [2] = 3,
             },
         },
     },
-    [103590] = {
-        returnnewbleId = 120025,
+    [103390] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103590,
+        id = 103390,
         special = 0,
         condition = 39,
         reward = {
@@ -2426,49 +972,49 @@ return {
             },
         },
     },
-    [103606] = {
-        returnnewbleId = 120025,
+    [103406] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 1,
         groupId = 1,
-        id = 103606,
+        id = 103406,
         special = 1,
         condition = 55,
         reward = {
             [1] = {
                 [1] = 599604,
-                [2] = 3,
+                [2] = 2,
             },
         },
     },
-    [103622] = {
-        returnnewbleId = 120025,
+    [103422] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103622,
+        id = 103422,
         special = 0,
         condition = 71,
         reward = {
         },
     },
-    [103638] = {
-        returnnewbleId = 120025,
+    [103438] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103638,
+        id = 103438,
         special = 0,
         condition = 87,
         reward = {
         },
     },
-    [103654] = {
-        returnnewbleId = 120025,
+    [103454] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103654,
+        id = 103454,
         special = 0,
         condition = 3,
         reward = {
@@ -2478,12 +1024,12 @@ return {
             },
         },
     },
-    [103670] = {
-        returnnewbleId = 120025,
+    [103470] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103670,
+        id = 103470,
         special = 0,
         condition = 19,
         reward = {
@@ -2493,12 +1039,12 @@ return {
             },
         },
     },
-    [103686] = {
-        returnnewbleId = 120025,
+    [103486] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 1,
         groupId = 1,
-        id = 103686,
+        id = 103486,
         special = 1,
         condition = 35,
         reward = {
@@ -2508,12 +1054,12 @@ return {
             },
         },
     },
-    [103702] = {
-        returnnewbleId = 120025,
+    [103502] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103702,
+        id = 103502,
         special = 0,
         condition = 51,
         reward = {
@@ -2523,12 +1069,12 @@ return {
             },
         },
     },
-    [103718] = {
-        returnnewbleId = 120025,
+    [103518] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103718,
+        id = 103518,
         special = 0,
         condition = 67,
         reward = {
@@ -2538,12 +1084,12 @@ return {
             },
         },
     },
-    [103734] = {
-        returnnewbleId = 120025,
+    [103534] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103734,
+        id = 103534,
         special = 0,
         condition = 83,
         reward = {
@@ -2553,12 +1099,12 @@ return {
             },
         },
     },
-    [103750] = {
-        returnnewbleId = 120025,
+    [103550] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103750,
+        id = 103550,
         special = 0,
         condition = 99,
         reward = {
@@ -2568,34 +1114,34 @@ return {
             },
         },
     },
-    [103559] = {
-        returnnewbleId = 120025,
+    [103359] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103559,
+        id = 103359,
         special = 0,
         condition = 8,
         reward = {
         },
     },
-    [103575] = {
-        returnnewbleId = 120025,
+    [103375] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103575,
+        id = 103375,
         special = 0,
         condition = 24,
         reward = {
         },
     },
-    [103591] = {
-        returnnewbleId = 120025,
+    [103391] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 1,
         groupId = 1,
-        id = 103591,
+        id = 103391,
         special = 1,
         condition = 40,
         reward = {
@@ -2605,60 +1151,60 @@ return {
             },
         },
     },
-    [103607] = {
-        returnnewbleId = 120025,
+    [103407] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103607,
+        id = 103407,
         special = 0,
         condition = 56,
         reward = {
         },
     },
-    [103623] = {
-        returnnewbleId = 120025,
+    [103423] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103623,
+        id = 103423,
         special = 0,
         condition = 72,
         reward = {
         },
     },
-    [103639] = {
-        returnnewbleId = 120025,
+    [103439] = {
+        returnnewbleId = 120019,
         type = 1,
         preview = 0,
         groupId = 1,
-        id = 103639,
+        id = 103439,
         special = 0,
         condition = 88,
         reward = {
         },
     },
-    [103655] = {
-        returnnewbleId = 120025,
+    [103455] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103655,
+        id = 103455,
         special = 0,
         condition = 4,
         reward = {
             [1] = {
                 [1] = 510105,
-                [2] = 5,
+                [2] = 6,
             },
         },
     },
-    [103671] = {
-        returnnewbleId = 120025,
+    [103471] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 1,
         groupId = 1,
-        id = 103671,
+        id = 103471,
         special = 1,
         condition = 20,
         reward = {
@@ -2668,12 +1214,12 @@ return {
             },
         },
     },
-    [103687] = {
-        returnnewbleId = 120025,
+    [103487] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103687,
+        id = 103487,
         special = 0,
         condition = 36,
         reward = {
@@ -2683,12 +1229,12 @@ return {
             },
         },
     },
-    [103703] = {
-        returnnewbleId = 120025,
+    [103503] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103703,
+        id = 103503,
         special = 0,
         condition = 52,
         reward = {
@@ -2698,12 +1244,12 @@ return {
             },
         },
     },
-    [103719] = {
-        returnnewbleId = 120025,
+    [103519] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103719,
+        id = 103519,
         special = 0,
         condition = 68,
         reward = {
@@ -2713,12 +1259,12 @@ return {
             },
         },
     },
-    [103735] = {
-        returnnewbleId = 120025,
+    [103535] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 0,
         groupId = 1,
-        id = 103735,
+        id = 103535,
         special = 0,
         condition = 84,
         reward = {
@@ -2728,14 +1274,1468 @@ return {
             },
         },
     },
-    [103751] = {
-        returnnewbleId = 120025,
+    [103551] = {
+        returnnewbleId = 120019,
         type = 2,
         preview = 1,
         groupId = 1,
-        id = 103751,
+        id = 103551,
         special = 1,
         condition = 100,
+        reward = {
+            [1] = {
+                [1] = 570033,
+                [2] = 1,
+            },
+        },
+    },
+    [103360] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103360,
+        special = 0,
+        condition = 9,
+        reward = {
+            [1] = {
+                [1] = 520021,
+                [2] = 2,
+            },
+        },
+    },
+    [103376] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 1,
+        groupId = 1,
+        id = 103376,
+        special = 0,
+        condition = 25,
+        reward = {
+            [1] = {
+                [1] = 651016,
+                [2] = 1,
+            },
+        },
+    },
+    [103392] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103392,
+        special = 0,
+        condition = 41,
+        reward = {
+            [1] = {
+                [1] = 520006,
+                [2] = 3,
+            },
+        },
+    },
+    [103408] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103408,
+        special = 0,
+        condition = 57,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 6,
+            },
+        },
+    },
+    [103424] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103424,
+        special = 0,
+        condition = 73,
+        reward = {
+        },
+    },
+    [103440] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103440,
+        special = 0,
+        condition = 89,
+        reward = {
+        },
+    },
+    [103456] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 1,
+        groupId = 1,
+        id = 103456,
+        special = 1,
+        condition = 5,
+        reward = {
+            [1] = {
+                [1] = 599604,
+                [2] = 1,
+            },
+        },
+    },
+    [103472] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103472,
+        special = 0,
+        condition = 21,
+        reward = {
+            [1] = {
+                [1] = 570031,
+                [2] = 2,
+            },
+        },
+    },
+    [103488] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103488,
+        special = 0,
+        condition = 37,
+        reward = {
+            [1] = {
+                [1] = 520065,
+                [2] = 1,
+            },
+        },
+    },
+    [103504] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103504,
+        special = 0,
+        condition = 53,
+        reward = {
+            [1] = {
+                [1] = 501032,
+                [2] = 100,
+            },
+        },
+    },
+    [103520] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103520,
+        special = 0,
+        condition = 69,
+        reward = {
+            [1] = {
+                [1] = 520023,
+                [2] = 2,
+            },
+        },
+    },
+    [103536] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 1,
+        groupId = 1,
+        id = 103536,
+        special = 1,
+        condition = 85,
+        reward = {
+            [1] = {
+                [1] = 599606,
+                [2] = 3,
+            },
+        },
+    },
+    [103361] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 1,
+        groupId = 1,
+        id = 103361,
+        special = 1,
+        condition = 10,
+        reward = {
+            [1] = {
+                [1] = 599602,
+                [2] = 1,
+            },
+        },
+    },
+    [103377] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103377,
+        special = 0,
+        condition = 26,
+        reward = {
+        },
+    },
+    [103393] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103393,
+        special = 0,
+        condition = 42,
+        reward = {
+        },
+    },
+    [103409] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103409,
+        special = 0,
+        condition = 58,
+        reward = {
+        },
+    },
+    [103425] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103425,
+        special = 0,
+        condition = 74,
+        reward = {
+        },
+    },
+    [103441] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 1,
+        groupId = 1,
+        id = 103441,
+        special = 1,
+        condition = 90,
+        reward = {
+        },
+    },
+    [103457] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103457,
+        special = 0,
+        condition = 6,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 6,
+            },
+        },
+    },
+    [103473] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103473,
+        special = 0,
+        condition = 22,
+        reward = {
+            [1] = {
+                [1] = 520064,
+                [2] = 2,
+            },
+        },
+    },
+    [103489] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103489,
+        special = 0,
+        condition = 38,
+        reward = {
+            [1] = {
+                [1] = 510242,
+                [2] = 3,
+            },
+        },
+    },
+    [103505] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103505,
+        special = 0,
+        condition = 54,
+        reward = {
+            [1] = {
+                [1] = 510105,
+                [2] = 7,
+            },
+        },
+    },
+    [103521] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 1,
+        groupId = 1,
+        id = 103521,
+        special = 1,
+        condition = 70,
+        reward = {
+            [1] = {
+                [1] = 570033,
+                [2] = 2,
+            },
+        },
+    },
+    [103537] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103537,
+        special = 0,
+        condition = 86,
+        reward = {
+            [1] = {
+                [1] = 510105,
+                [2] = 8,
+            },
+        },
+    },
+    [103362] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103362,
+        special = 0,
+        condition = 11,
+        reward = {
+            [1] = {
+                [1] = 520006,
+                [2] = 2,
+            },
+        },
+    },
+    [103378] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103378,
+        special = 0,
+        condition = 27,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 4,
+            },
+        },
+    },
+    [103394] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103394,
+        special = 0,
+        condition = 43,
+        reward = {
+            [1] = {
+                [1] = 510105,
+                [2] = 5,
+            },
+        },
+    },
+    [103410] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103410,
+        special = 0,
+        condition = 59,
+        reward = {
+            [1] = {
+                [1] = 520021,
+                [2] = 5,
+            },
+        },
+    },
+    [103426] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 1,
+        groupId = 1,
+        id = 103426,
+        special = 1,
+        condition = 75,
+        reward = {
+        },
+    },
+    [103442] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103442,
+        special = 0,
+        condition = 91,
+        reward = {
+        },
+    },
+    [103458] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103458,
+        special = 0,
+        condition = 7,
+        reward = {
+            [1] = {
+                [1] = 520065,
+                [2] = 1,
+            },
+        },
+    },
+    [103474] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103474,
+        special = 0,
+        condition = 23,
+        reward = {
+            [1] = {
+                [1] = 510105,
+                [2] = 6,
+            },
+        },
+    },
+    [103490] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103490,
+        special = 0,
+        condition = 39,
+        reward = {
+            [1] = {
+                [1] = 520023,
+                [2] = 2,
+            },
+        },
+    },
+    [103506] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 1,
+        groupId = 1,
+        id = 103506,
+        special = 1,
+        condition = 55,
+        reward = {
+            [1] = {
+                [1] = 599605,
+                [2] = 1,
+            },
+        },
+    },
+    [103522] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103522,
+        special = 0,
+        condition = 71,
+        reward = {
+            [1] = {
+                [1] = 570031,
+                [2] = 3,
+            },
+        },
+    },
+    [103538] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103538,
+        special = 0,
+        condition = 87,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 8,
+            },
+        },
+    },
+    [103363] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103363,
+        special = 0,
+        condition = 12,
+        reward = {
+        },
+    },
+    [103379] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103379,
+        special = 0,
+        condition = 28,
+        reward = {
+        },
+    },
+    [103395] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103395,
+        special = 0,
+        condition = 44,
+        reward = {
+        },
+    },
+    [103411] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 1,
+        groupId = 1,
+        id = 103411,
+        special = 1,
+        condition = 60,
+        reward = {
+            [1] = {
+                [1] = 411011,
+                [2] = 1,
+            },
+        },
+    },
+    [103427] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103427,
+        special = 0,
+        condition = 76,
+        reward = {
+        },
+    },
+    [103443] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103443,
+        special = 0,
+        condition = 92,
+        reward = {
+        },
+    },
+    [103459] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103459,
+        special = 0,
+        condition = 8,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 6,
+            },
+        },
+    },
+    [103475] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103475,
+        special = 0,
+        condition = 24,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 6,
+            },
+        },
+    },
+    [103491] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 1,
+        groupId = 1,
+        id = 103491,
+        special = 1,
+        condition = 40,
+        reward = {
+            [1] = {
+                [1] = 599605,
+                [2] = 1,
+            },
+        },
+    },
+    [103507] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103507,
+        special = 0,
+        condition = 56,
+        reward = {
+            [1] = {
+                [1] = 599503,
+                [2] = 1,
+            },
+        },
+    },
+    [103523] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103523,
+        special = 0,
+        condition = 72,
+        reward = {
+            [1] = {
+                [1] = 520064,
+                [2] = 2,
+            },
+        },
+    },
+    [103539] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103539,
+        special = 0,
+        condition = 88,
+        reward = {
+            [1] = {
+                [1] = 240009,
+                [2] = 8,
+            },
+        },
+    },
+    [103364] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103364,
+        special = 0,
+        condition = 13,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 4,
+            },
+        },
+    },
+    [103380] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103380,
+        special = 0,
+        condition = 29,
+        reward = {
+            [1] = {
+                [1] = 520021,
+                [2] = 3,
+            },
+        },
+    },
+    [103396] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 1,
+        groupId = 1,
+        id = 103396,
+        special = 1,
+        condition = 45,
+        reward = {
+            [1] = {
+                [1] = 599604,
+                [2] = 3,
+            },
+        },
+    },
+    [103412] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103412,
+        special = 0,
+        condition = 61,
+        reward = {
+        },
+    },
+    [103428] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103428,
+        special = 0,
+        condition = 77,
+        reward = {
+        },
+    },
+    [103444] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103444,
+        special = 0,
+        condition = 93,
+        reward = {
+        },
+    },
+    [103460] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103460,
+        special = 0,
+        condition = 9,
+        reward = {
+            [1] = {
+                [1] = 520023,
+                [2] = 2,
+            },
+        },
+    },
+    [103476] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 1,
+        groupId = 1,
+        id = 103476,
+        special = 1,
+        condition = 25,
+        reward = {
+            [1] = {
+                [1] = 599604,
+                [2] = 1,
+            },
+        },
+    },
+    [103492] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103492,
+        special = 0,
+        condition = 41,
+        reward = {
+            [1] = {
+                [1] = 570031,
+                [2] = 3,
+            },
+        },
+    },
+    [103508] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103508,
+        special = 0,
+        condition = 57,
+        reward = {
+            [1] = {
+                [1] = 520065,
+                [2] = 2,
+            },
+        },
+    },
+    [103524] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103524,
+        special = 0,
+        condition = 73,
+        reward = {
+            [1] = {
+                [1] = 520063,
+                [2] = 4,
+            },
+        },
+    },
+    [103540] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103540,
+        special = 0,
+        condition = 89,
+        reward = {
+            [1] = {
+                [1] = 570002,
+                [2] = 20,
+            },
+        },
+    },
+    [103365] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103365,
+        special = 0,
+        condition = 14,
+        reward = {
+        },
+    },
+    [103381] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 1,
+        groupId = 1,
+        id = 103381,
+        special = 1,
+        condition = 30,
+        reward = {
+            [1] = {
+                [1] = 599603,
+                [2] = 1,
+            },
+        },
+    },
+    [103397] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103397,
+        special = 0,
+        condition = 46,
+        reward = {
+        },
+    },
+    [103413] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103413,
+        special = 0,
+        condition = 62,
+        reward = {
+        },
+    },
+    [103429] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103429,
+        special = 0,
+        condition = 78,
+        reward = {
+        },
+    },
+    [103445] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103445,
+        special = 0,
+        condition = 94,
+        reward = {
+        },
+    },
+    [103461] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 1,
+        groupId = 1,
+        id = 103461,
+        special = 1,
+        condition = 10,
+        reward = {
+            [1] = {
+                [1] = 570033,
+                [2] = 1,
+            },
+        },
+    },
+    [103477] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103477,
+        special = 0,
+        condition = 26,
+        reward = {
+            [1] = {
+                [1] = 599503,
+                [2] = 1,
+            },
+        },
+    },
+    [103493] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103493,
+        special = 0,
+        condition = 42,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 7,
+            },
+        },
+    },
+    [103509] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103509,
+        special = 0,
+        condition = 58,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 8,
+            },
+        },
+    },
+    [103525] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103525,
+        special = 0,
+        condition = 74,
+        reward = {
+            [1] = {
+                [1] = 510105,
+                [2] = 8,
+            },
+        },
+    },
+    [103541] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 1,
+        groupId = 1,
+        id = 103541,
+        special = 1,
+        condition = 90,
+        reward = {
+            [1] = {
+                [1] = 570033,
+                [2] = 1,
+            },
+        },
+    },
+    [103366] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 1,
+        groupId = 1,
+        id = 103366,
+        special = 1,
+        condition = 15,
+        reward = {
+            [1] = {
+                [1] = 599603,
+                [2] = 2,
+            },
+        },
+    },
+    [103382] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103382,
+        special = 0,
+        condition = 31,
+        reward = {
+            [1] = {
+                [1] = 520006,
+                [2] = 2,
+            },
+        },
+    },
+    [103398] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103398,
+        special = 0,
+        condition = 47,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 5,
+            },
+        },
+    },
+    [103414] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103414,
+        special = 0,
+        condition = 63,
+        reward = {
+        },
+    },
+    [103430] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103430,
+        special = 0,
+        condition = 79,
+        reward = {
+        },
+    },
+    [103446] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103446,
+        special = 0,
+        condition = 95,
+        reward = {
+        },
+    },
+    [103462] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103462,
+        special = 0,
+        condition = 11,
+        reward = {
+            [1] = {
+                [1] = 570031,
+                [2] = 3,
+            },
+        },
+    },
+    [103478] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103478,
+        special = 0,
+        condition = 27,
+        reward = {
+            [1] = {
+                [1] = 520065,
+                [2] = 1,
+            },
+        },
+    },
+    [103494] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103494,
+        special = 0,
+        condition = 43,
+        reward = {
+            [1] = {
+                [1] = 501032,
+                [2] = 100,
+            },
+        },
+    },
+    [103510] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103510,
+        special = 0,
+        condition = 59,
+        reward = {
+            [1] = {
+                [1] = 520023,
+                [2] = 3,
+            },
+        },
+    },
+    [103526] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 1,
+        groupId = 1,
+        id = 103526,
+        special = 1,
+        condition = 75,
+        reward = {
+            [1] = {
+                [1] = 599607,
+                [2] = 2,
+            },
+        },
+    },
+    [103542] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103542,
+        special = 0,
+        condition = 91,
+        reward = {
+            [1] = {
+                [1] = 510105,
+                [2] = 7,
+            },
+        },
+    },
+    [103367] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103367,
+        special = 0,
+        condition = 16,
+        reward = {
+        },
+    },
+    [103383] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103383,
+        special = 0,
+        condition = 32,
+        reward = {
+        },
+    },
+    [103399] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103399,
+        special = 0,
+        condition = 48,
+        reward = {
+        },
+    },
+    [103415] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103415,
+        special = 0,
+        condition = 64,
+        reward = {
+        },
+    },
+    [103431] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 1,
+        groupId = 1,
+        id = 103431,
+        special = 1,
+        condition = 80,
+        reward = {
+        },
+    },
+    [103447] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103447,
+        special = 0,
+        condition = 96,
+        reward = {
+        },
+    },
+    [103463] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103463,
+        special = 0,
+        condition = 12,
+        reward = {
+            [1] = {
+                [1] = 520064,
+                [2] = 2,
+            },
+        },
+    },
+    [103479] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103479,
+        special = 0,
+        condition = 28,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 7,
+            },
+        },
+    },
+    [103495] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103495,
+        special = 0,
+        condition = 44,
+        reward = {
+            [1] = {
+                [1] = 510105,
+                [2] = 7,
+            },
+        },
+    },
+    [103511] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 1,
+        groupId = 1,
+        id = 103511,
+        special = 1,
+        condition = 60,
+        reward = {
+            [1] = {
+                [1] = 411010,
+                [2] = 1,
+            },
+        },
+    },
+    [103527] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103527,
+        special = 0,
+        condition = 76,
+        reward = {
+            [1] = {
+                [1] = 599503,
+                [2] = 1,
+            },
+        },
+    },
+    [103543] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103543,
+        special = 0,
+        condition = 92,
+        reward = {
+            [1] = {
+                [1] = 510155,
+                [2] = 8,
+            },
+        },
+    },
+    [103352] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103352,
+        special = 0,
+        condition = 1,
+        reward = {
+            [1] = {
+                [1] = 520006,
+                [2] = 3,
+            },
+        },
+    },
+    [103368] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103368,
+        special = 0,
+        condition = 17,
+        reward = {
+            [1] = {
+                [1] = 520063,
+                [2] = 3,
+            },
+        },
+    },
+    [103384] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103384,
+        special = 0,
+        condition = 33,
+        reward = {
+            [1] = {
+                [1] = 510105,
+                [2] = 4,
+            },
+        },
+    },
+    [103400] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103400,
+        special = 0,
+        condition = 49,
+        reward = {
+            [1] = {
+                [1] = 520021,
+                [2] = 5,
+            },
+        },
+    },
+    [103416] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 1,
+        groupId = 1,
+        id = 103416,
+        special = 1,
+        condition = 65,
+        reward = {
+        },
+    },
+    [103432] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103432,
+        special = 0,
+        condition = 81,
+        reward = {
+        },
+    },
+    [103448] = {
+        returnnewbleId = 120019,
+        type = 1,
+        preview = 0,
+        groupId = 1,
+        id = 103448,
+        special = 0,
+        condition = 97,
+        reward = {
+        },
+    },
+    [103464] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103464,
+        special = 0,
+        condition = 13,
+        reward = {
+            [1] = {
+                [1] = 510105,
+                [2] = 6,
+            },
+        },
+    },
+    [103480] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 0,
+        groupId = 1,
+        id = 103480,
+        special = 0,
+        condition = 29,
+        reward = {
+            [1] = {
+                [1] = 520023,
+                [2] = 2,
+            },
+        },
+    },
+    [103496] = {
+        returnnewbleId = 120019,
+        type = 2,
+        preview = 1,
+        groupId = 1,
+        id = 103496,
+        special = 1,
+        condition = 45,
         reward = {
             [1] = {
                 [1] = 570033,

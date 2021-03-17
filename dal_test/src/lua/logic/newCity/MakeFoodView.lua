@@ -59,8 +59,6 @@ function MakeFoodView:initData()
 	    end
 	else
 		self.curMenuId = 1
-		local foodList = MakeFoodDataMgr:getFoodlistByType(self.curMenuId) or {}
-		self.choosedFood = foodList[1]
 	end
 end
 
@@ -254,21 +252,20 @@ function MakeFoodView:initDatingCook(datingId)
 	self.choosedFood = self.foodList[1]
 end
 
-function MakeFoodView:updateGridView(  )
-	local foodList = MakeFoodDataMgr:getFoodlistByType(self.curMenuId) or {}
-		local gridView = self.GridView_item[self.curMenuId]
-
-		gridView:AsyncUpdateItem(foodList, function ( item ,data )
-			-- body
-			self:updateMenuItem(item,data)
-		end, function ( data )
-			-- body
-			return self:addGoodsItem(self.curMenuId,data)
-		end)
-end
-
 function MakeFoodView:initFoodMenu()
-	self:updateGridView()
+
+	for meueType=1,3 do
+		local foodList = MakeFoodDataMgr:getFoodlistByType(meueType) or {}
+		local gridView = self.GridView_item[meueType]
+		for k,v in ipairs(foodList) do
+			local item = gridView:getItem(k)
+			if not item then
+				item = self:addGoodsItem(meueType,v)
+			end
+			self:updateMenuItem(item,v)
+		end
+	end
+
 	self:initMenu()
 	local gridId = 1
 	if self.choosedFood then
@@ -348,19 +345,20 @@ function MakeFoodView:updateMenuItem(item,data)
 	if config then
 		PrefabDataMgr:setInfo(foo.Panel_goodsItem, data.presentId)
 	end
-
-	foo.Image_select:setVisible(self.choosedFood.presentId == data.presentId)
 	--材料是否充足
 	local isEnough = self:setFoodNewDot(data)
 	foo.Image_newtip:setVisible(isEnough)
-
-	foo.root:onClick(function()
-		self:selectMenuItem(k,data)
-	end)
 end
 
 function MakeFoodView:selectMenuItem(item,data)
-	
+	if self.selectedItem then
+		self.selectedItem.Image_select:setVisible(false)
+	end
+
+	self.selectedItem = self.menuItem_[item]
+
+	self.selectedItem.Image_select:setVisible(true)
+
 	self.choosedFood = data
 
 	local config = GoodsDataMgr:getItemCfg(data.presentId)
@@ -392,7 +390,6 @@ function MakeFoodView:selectMenuItem(item,data)
 		self.Label_makefood:setTextById(252025)
 		self.maxCookCnt = 1
 	end
-	self:updateGridView()
 end
 
 function MakeFoodView:initNoramlCook()
@@ -1307,6 +1304,11 @@ function MakeFoodView:registerEvents()
 		end
 	end)
 
+	for k,v in pairs(self.menuItem_) do
+		v.root:onClick(function()
+			self:selectMenuItem(k,v.data)
+		end)
+	end
 end
 
 function MakeFoodView:getEffectNameByID(id, lastType)

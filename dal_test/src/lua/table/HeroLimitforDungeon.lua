@@ -3100,139 +3100,6 @@ return {
         },
         level = 70,
     },
-    [100101] = {
-        powerValue = 818,
-        rarity = 2,
-        id = 100101,
-        breakthrough = 0,
-        sephiroth = {
-        },
-        dateBegin = {
-        },
-        skinID = 2101011,
-        dateEnd = {
-        },
-        heroID = 210101,
-        angelUp = {
-        },
-        level = 15,
-    },
-    [94043] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94043,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1132011,
-        dateEnd = {
-        },
-        heroID = 113201,
-        angelUp = {
-        },
-        level = 70,
-    },
-    [94042] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94042,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1133011,
-        dateEnd = {
-        },
-        heroID = 113301,
-        angelUp = {
-        },
-        level = 70,
-    },
-    [94041] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94041,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1124011,
-        dateEnd = {
-        },
-        heroID = 112401,
-        angelUp = {
-        },
-        level = 70,
-    },
-    [94040] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94040,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1125011,
-        dateEnd = {
-        },
-        heroID = 112501,
-        angelUp = {
-        },
-        level = 70,
-    },
     [9002] = {
         powerValue = 818,
         rarity = 7,
@@ -3352,35 +3219,6 @@ return {
         },
         level = 67,
     },
-    [94039] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94039,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1101014,
-        dateEnd = {
-        },
-        heroID = 110101,
-        angelUp = {
-        },
-        level = 70,
-    },
     [10010105] = {
         powerValue = 0,
         rarity = 2,
@@ -3482,209 +3320,6 @@ return {
         },
         level = 60,
     },
-    [94038] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94038,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1110011,
-        dateEnd = {
-        },
-        heroID = 111001,
-        angelUp = {
-        },
-        level = 70,
-    },
-    [94037] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94037,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1107011,
-        dateEnd = {
-        },
-        heroID = 110701,
-        angelUp = {
-        },
-        level = 70,
-    },
-    [94036] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94036,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1108011,
-        dateEnd = {
-        },
-        heroID = 110801,
-        angelUp = {
-        },
-        level = 70,
-    },
-    [94035] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94035,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1113011,
-        dateEnd = {
-        },
-        heroID = 111301,
-        angelUp = {
-        },
-        level = 70,
-    },
-    [94034] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94034,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1105011,
-        dateEnd = {
-        },
-        heroID = 110501,
-        angelUp = {
-        },
-        level = 70,
-    },
-    [94033] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94033,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1103011,
-        dateEnd = {
-        },
-        heroID = 110301,
-        angelUp = {
-        },
-        level = 70,
-    },
-    [94032] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94032,
-        breakthrough = 10,
-        sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
-        },
-        dateBegin = {
-        },
-        skinID = 1104011,
-        dateEnd = {
-        },
-        heroID = 110401,
-        angelUp = {
-        },
-        level = 70,
-    },
     [8101] = {
         powerValue = 818,
         rarity = 4,
@@ -3769,34 +3404,22 @@ return {
         },
         level = 60,
     },
-    [94031] = {
-        powerValue = 0,
-        rarity = 7,
-        id = 94031,
-        breakthrough = 10,
+    [100101] = {
+        powerValue = 818,
+        rarity = 2,
+        id = 100101,
+        breakthrough = 0,
         sephiroth = {
-            [1] = {
-                [1] = 250120,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 250121,
-                [2] = 50,
-            },
-            [3] = {
-                [1] = 250122,
-                [2] = 50,
-            },
         },
         dateBegin = {
         },
-        skinID = 1102011,
+        skinID = 2101011,
         dateEnd = {
         },
-        heroID = 110201,
+        heroID = 210101,
         angelUp = {
         },
-        level = 70,
+        level = 15,
     },
     [71010] = {
         powerValue = 818,

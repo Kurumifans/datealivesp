@@ -1547,20 +1547,6 @@ return {
         speBg = "",
         Zorder = 0,
     },
-    [413303] = {
-        offset = {
-        },
-        path = "effect/dating/ui_superKanban_13303/main_effect_13303",
-        action = "up",
-        isLoop = true,
-        id = 413303,
-        particle = "",
-        lag = 0,
-        scales = 1,
-        isDelete = true,
-        speBg = "",
-        Zorder = 0,
-    },
     [1102] = {
         offset = {
         },

@@ -124,8 +124,6 @@ function BFEffect:ctor(data)
 
     --持续时间
     self.nDuration  = 0
-    self.sysPauseTime = 0
-    self.sysStartTime = 0
     --生效次数
     self.nTakeTimes = 0
     --生效状态
@@ -247,21 +245,6 @@ function BFEffect:setEnabled(enabled)
     self.bEnabled = enabled
 end
 
-function BFEffect:updatePauseState(isPause)
-    if self.nDuration > 0 and self.sysPauseTime > 99999 then
-        self.sysStartTime = self.sysStartTime + (BattleUtils.gettime() - self.sysPauseTime)
-        self.sysPauseTime = 0
-    end
-    if isPause then
-        self.sysPauseTime = BattleUtils.gettime()
-    end
-end
-
-function BFEffect:resetSysTime()
-    self.sysStartTime = BattleUtils.gettime()
-    self.sysPauseTime = 0
-end
-
 --效果ID 叠加的依据
 function BFEffect:getId()
     return self.data.id
@@ -287,7 +270,6 @@ end
 --叠加时间
 function BFEffect:addTestTime()
     self.nDuration  = self.nDuration + self:getDuration()
-    self:resetSysTime()
 end
 --叠加
 function BFEffect:addTest()
@@ -298,12 +280,10 @@ function BFEffect:addTest()
         print("达到最大叠加次数：",self.data.id , self.nAddTimes)
         if self.data.superpositionType == eBFAddType.AT_ADD2 then -- 达到最大层数时持续时间还是要刷新
             self.nDuration  = self:getDuration() 
-            self:resetSysTime()
         end
         return
     end
     self.nDuration  = self:getDuration()
-    self:resetSysTime()
     self.nTakeTimes = value_0  --如果是叠加的话也生效次数清0重先算
     --叠加层数
     self.nAddTimes  = self.nAddTimes + value_1  --层数
@@ -341,7 +321,6 @@ function BFEffect:replace()
     self.nTakeTimes = 0
     self.nEventTriggerTimes = {}
     self.nDuration  = self:getDuration()
-    self:resetSysTime()
     --即时生效处理
     if self.data.effectType ~= eBFEffectType.ET_CHANGE_SKIN and self.data.effectType ~= eBFEffectType.ET_FORCE_CHANGE_SKIN then --变身效果不需要做效果替换
         self:onAtOnce()
@@ -939,23 +918,16 @@ function BFEffect:handlDuration(dt)
     end
     if self.nDuration > 0 then
         -- _print("handlDuration "..self.data.id.." ,"..self.nDuration )
-        local time = self:getSuplusTime()
+        self.nDuration  = self.nDuration - dt
         if self:isTwinkleTime() then -- 小于3秒闪提示icon闪所
             self:twinkleIcon(true)
         else
             self:twinkleIcon(false)
         end
-        if time <= 0 then
+        if self.nDuration <= 0 then
             self:normalDestory()
         end
     end
-end
-
-function BFEffect:getSuplusTime()
-    if self.nDuration > 0 then
-        return self.nDuration - (BattleUtils.gettime() - self.sysStartTime)
-    end
-    return 0
 end
 
 
@@ -1536,8 +1508,7 @@ function BFEffect:twinkleIcon(flag)
 end
 --是否到了闪烁倒计时时间段
 function BFEffect:isTwinkleTime()
-    local time = self:getSuplusTime()
-    return time <= 3000 and self.nDuration ~= -1
+    return self.nDuration <= 3000 and self.nDuration ~= -1
 end
 
 --获取buffer 效果类型

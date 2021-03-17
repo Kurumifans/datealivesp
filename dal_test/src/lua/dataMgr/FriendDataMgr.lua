@@ -231,13 +231,13 @@ end
 
 function FriendDataMgr:isCanGiven(pid)
     local friendInfo = self:getFriendInfo(pid)
-    local isCanGiven = tobool(friendInfo and friendInfo.canSend)
+    local isCanGiven = tobool(friendInfo.canSend)
     return isCanGiven
 end
 
 function FriendDataMgr:isCanReceive(pid)
     local friendInfo = self:getFriendInfo(pid)
-    return friendInfo and friendInfo.receive
+    return friendInfo.receive
 end
 
 function FriendDataMgr:isCanRecvFriendShip()

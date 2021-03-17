@@ -198,9 +198,6 @@ function BaseScene:leave(...)
 
     self.data        = nil;
     self.mainLayer   = nil;
-    if self.testView then
-        self.testView:removeAll()
-    end
 end
 
 function BaseScene:onRunning()

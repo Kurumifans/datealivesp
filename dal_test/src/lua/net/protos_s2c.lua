@@ -1322,11 +1322,11 @@ local tblProto = {
 			{{true,{'items','itemCid', 'totalNum', }},}
 		}
 	end,
-	[1557] = function()
+	[1814] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', },
-			{'roleId', 'sealState', 'sealType', }
+			{{false,{{true,{'v4', 'pv4', 'v4', 'b', 'v4', 'v4', }},}},{false,{{true,{'s', 'v4', 'v4', 'v4', {true,{'v4', 'pv4', }},'v4', 'v4', }},}},},
+			{{false,{'levelInfos',{true,{'levelInfos','cid', 'goals', 'fightCount', 'win', 'buyCount', 'freeCount', }},}},{false,{'groups',{true,{'group','id', 'cid', 'fightCount', 'buyCount', {true,{'rewardInfo','key', 'list', }},'mainLineCid', 'maxMainLine', }},}},}
 		}
 	end,
 	[2562] = function()
@@ -1455,32 +1455,11 @@ local tblProto = {
 			{'type', {true,{'rewards','id', 'num', }},'infomation', 'winNum', 'loseNum', 'winType', }
 		}
 	end,
-	[8705] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
 	[2071] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{{true,{'v4', 'tv4', }},{true,{'v8', 'v4', 'v4', }},{true,{'v4', 'v4', 'v4', 'v4', }},'v4', },
 			{{true,{'buildinginfos','buildingId', 'buildingFuns', }},{true,{'roleInRooms','dressId', 'buildingId', 'cityRoleId', }},{true,{'remindEvents','buildingId', 'funId', 'exeId', 'eventType', }},'dayType', }
-		}
-	end,
-	[1814] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{{true,{'v4', 'pv4', 'v4', 'b', 'v4', 'v4', }},}},{false,{{true,{'s', 'v4', 'v4', 'v4', {true,{'v4', 'pv4', }},'v4', 'v4', }},}},},
-			{{false,{'levelInfos',{true,{'levelInfos','cid', 'goals', 'fightCount', 'win', 'buyCount', 'freeCount', }},}},{false,{'groups',{true,{'group','id', 'cid', 'fightCount', 'buyCount', {true,{'rewardInfo','key', 'list', }},'mainLineCid', 'maxMainLine', }},}},}
-		}
-	end,
-	[8707] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'num', }
 		}
 	end,
 	[7909] = function()
@@ -1490,13 +1469,6 @@ local tblProto = {
 			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[8702] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 's', }},},
-			{{true,{'list','pid', 'pName', 'headId', 'headFrame', 'level', 'fightPower', 'round', 'prize', 'sid', 'channel', }},}
-		}
-	end,
 	[518] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -1504,11 +1476,11 @@ local tblProto = {
 			{'preNum', 'afterNum', 'roleId', 'itemId', 'state', }
 		}
 	end,
-	[6667] = function()
+	[8705] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4',}},},
-			{{true,{'applyInfo','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'ct',}},}
+			{},
+			{}
 		}
 	end,
 	[2305] = function()
@@ -1525,25 +1497,25 @@ local tblProto = {
 			{{false,{'stronghold','id', 'state', 'startTime', 'endTime', 'useSupTimes', 'progress', {true,{'event','id', 'state', 'startTime', }},{true,{'role','roleId', }},{true,{'buff','buffId', 'buffLv', }},{true,{'supportRole','playerId', 'playerName', 'startTime', 'times', {false,{'role','roleId', }},{true,{'buff','buffId', 'buffLv', }},}},}},}
 		}
 	end,
-	[8704] = function()
+	[3002] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'rewards','id', 'num', }},}
+			{'b', },
+			{'success', }
 		}
 	end,
-	[8801] = function()
+	[8707] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},},
-			{'type', {true,{'rewards','id', 'num', }},}
+			{'v4', },
+			{'num', }
 		}
 	end,
-	[293] = function()
+	[8702] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'recoverTimeList', }
+			{{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 's', }},},
+			{{true,{'list','pid', 'pName', 'headId', 'headFrame', 'level', 'fightPower', 'round', 'prize', 'sid', 'channel', }},}
 		}
 	end,
 	[1286] = function()
@@ -1553,11 +1525,11 @@ local tblProto = {
 			{{true,{'infos','roleId', 'mood', }},}
 		}
 	end,
-	[7401] = function()
+	[6672] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v8', }},},
-			{'circleMinu', {true,{'rankInfo','roleid', 'privity', }},}
+			{'v4', {true,{'v4', 'v4', }},},
+			{'index', {true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[9401] = function()
@@ -1581,11 +1553,11 @@ local tblProto = {
 			{{true,{'composeInfo','id', 'composeTimes', 'countDown', }},}
 		}
 	end,
-	[299] = function()
+	[8704] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{{false,{'v4','v4', 'v4', 'ts', }},'v4', 's', }},},
-			{{false,{'formation',{false,{'base','ct','type', 'status', 'stance', }},'id', 'desc', }},}
+			{{true,{'v4', 'v4', }},},
+			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[7707] = function()
@@ -1595,11 +1567,11 @@ local tblProto = {
 			{'map', }
 		}
 	end,
-	[9010] = function()
+	[8801] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'buff','buffId', 'buffLv', }},}
+			{'v4', {true,{'v4', 'v4', }},},
+			{'type', {true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[5634] = function()
@@ -1623,11 +1595,11 @@ local tblProto = {
 			{'id', 'type', 'showTime', 'buffIds', 'morale', }
 		}
 	end,
-	[7404] = function()
+	[9154] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'datingCid', }
+			{{false,{{true,{'v4', 'b', }},'v4', 'v4', 'v4', }},},
+			{{false,{'recruitInfo',{true,{'recruits','cid', 'state', }},'nextTime', 'recruitTimes', 'recruitBuyTimes', }},}
 		}
 	end,
 	[8313] = function()
@@ -1658,11 +1630,11 @@ local tblProto = {
 			{{true,{'unionDamage','rank', 'unionId', 'damage', 'unionName', }},{false,{'myUnionDamage','rank', 'unionId', 'damage', 'unionName', }},'type', 'damage', }
 		}
 	end,
-	[3349] = function()
+	[7401] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', 'v4', {true,{'v4', {true,{'v4', 'v4', }},'b', }},}},'v4', {true,{'v4', 'v4', }},},
-			{{true,{'simulateSummons','cid', 'simulateSummonCount', 'sysSimulateSummonCount', 'exchangeCount', {true,{'records','order', {true,{'items','id', 'num', }},'isReceive', }},}},'lastCid', {true,{'lastResult','id', 'num', }},}
+			{'v4', {true,{'v4', 'v8', }},},
+			{'circleMinu', {true,{'rankInfo','roleid', 'privity', }},}
 		}
 	end,
 	[4382] = function()
@@ -1693,11 +1665,11 @@ local tblProto = {
 			{{false,{'levelInfos',{true,{'levelInfos','cid', 'goals', 'fightCount', 'win', 'buyCount', 'freeCount', }},}},{false,{'groups',{true,{'group','id', 'cid', 'fightCount', 'buyCount', {true,{'rewardInfo','key', 'list', }},'mainLineCid', 'maxMainLine', }},}},}
 		}
 	end,
-	[6657] = function()
+	[284] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'buildingId', 'targetLevel', }
+			{'v4', },
+			{'anti', }
 		}
 	end,
 	[4386] = function()
@@ -1735,25 +1707,25 @@ local tblProto = {
 			{'datingRuleCid', {true,{'rewards','id', 'num', }},'outTime', }
 		}
 	end,
-	[6650] = function()
+	[6907] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', {false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 's', 's', {true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4',}},{true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4','v8', 'tv4', }},'b', 'b', 'b', 'v4', 'v4', 'v8', 'v4', 'tv4', 'v4', 'v4', 'v4', 'v4', }},},
-			{'succ', {false,{'union','id', 'name', 'level', 'icon', 'memberCount', 'exp', 'leaderName', 'notice', {true,{'applyList','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'ct',}},{true,{'members','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'degree', 'weekContribution', 'allContribution', 'ct','joinTime', 'groupGiftIds', }},'canApply', 'autoJoin', 'joinLimit', 'limitLevel', 'limitPower', 'delateEndTime', 'weekExp', 'weekExpPrizeReceiveIndex', 'lastWeekActive', 'receiveTimes', 'goldRedpacketTime', 'rechargeRedpacketTime', }},}
+			{'tv4', },
+			{'orderList', }
 		}
 	end,
-	[6655] = function()
+	[7404] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},},
-			{'index', {true,{'rewards','id', 'num', }},}
+			{'v4', },
+			{'datingCid', }
 		}
 	end,
-	[2817] = function()
+	[3340] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},},
-			{{false,{'equipment','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{false,{'oldEquipment','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}
+			{{false,{'b', 'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},},
+			{{false,{'info','noobStatus', 'endTime', 'summonCount', 'awardState', }},{true,{'item','id', 'num', }},}
 		}
 	end,
 	[7705] = function()
@@ -1763,11 +1735,11 @@ local tblProto = {
 			{{true,{'dungeonBuff','key', 'value', }},{true,{'chosenBuff','liftId', 'buff', }},}
 		}
 	end,
-	[6654] = function()
+	[6657] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 's', },
-			{'type', 'param', }
+			{'v4', 'v4', },
+			{'buildingId', 'targetLevel', }
 		}
 	end,
 	[2312] = function()
@@ -1777,11 +1749,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[6651] = function()
+	[6650] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'b', 'b', 's', 's', }},},
-			{{true,{'union','id', 'name', 'level', 'icon', 'memberCount', 'memberCountMax', 'active', 'limitLevel', 'limitPower', 'apply', 'canApply', 'leaderName', 'notice', }},}
+			{'b', {false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 's', 's', {true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4',}},{true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4','v8', 'tv4', }},'b', 'b', 'b', 'v4', 'v4', 'v8', 'v4', 'tv4', 'v4', 'v4', 'v4', 'v4', }},},
+			{'succ', {false,{'union','id', 'name', 'level', 'icon', 'memberCount', 'exp', 'leaderName', 'notice', {true,{'applyList','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'ct',}},{true,{'members','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'degree', 'weekContribution', 'allContribution', 'ct','joinTime', 'groupGiftIds', }},'canApply', 'autoJoin', 'joinLimit', 'limitLevel', 'limitPower', 'delateEndTime', 'weekExp', 'weekExpPrizeReceiveIndex', 'lastWeekActive', 'receiveTimes', 'goldRedpacketTime', 'rechargeRedpacketTime', }},}
 		}
 	end,
 	[8605] = function()
@@ -1791,25 +1763,25 @@ local tblProto = {
 			{{true,{'exhaustions','hero', 'exhaustion', 'nextTime', }},}
 		}
 	end,
-	[6675] = function()
+	[6655] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', }},{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', }},},
-			{{false,{'myUnionRank','id', 'name', 'icon', 'recallScore', 'recallNum', 'rank', }},{true,{'recallRank','id', 'name', 'icon', 'recallScore', 'recallNum', 'rank', }},}
+			{'v4', {true,{'v4', 'v4', }},},
+			{'index', {true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[6653] = function()
+	[8002] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'degree', 'target', }
+			{{false,{'v4', 'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {true,{'v4', 'v4', 'v4', }},'tv4', 'tv4', },
+			{{false,{'turnInfo','extraTimes', 'turnIndex', {true,{'turnTimes','turnId', 'times', }},{true,{'effectInfo','cfgId', 'effectId', }},}},'times', {true,{'rewards','id', 'num', 'tag', }},'locations', 'eventLocations', }
 		}
 	end,
-	[6662] = function()
+	[6654] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 's', 's', {true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4',}},{true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4','v8', 'tv4', }},'b', 'b', 'b', 'v4', 'v4', 'v8', 'v4', 'tv4', 'v4', 'v4', 'v4', 'v4', }},},
-			{{false,{'union','id', 'name', 'level', 'icon', 'memberCount', 'exp', 'leaderName', 'notice', {true,{'applyList','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'ct',}},{true,{'members','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'degree', 'weekContribution', 'allContribution', 'ct','joinTime', 'groupGiftIds', }},'canApply', 'autoJoin', 'joinLimit', 'limitLevel', 'limitPower', 'delateEndTime', 'weekExp', 'weekExpPrizeReceiveIndex', 'lastWeekActive', 'receiveTimes', 'goldRedpacketTime', 'rechargeRedpacketTime', }},}
+			{'v4', 's', },
+			{'type', 'param', }
 		}
 	end,
 	[1560] = function()
@@ -1819,25 +1791,25 @@ local tblProto = {
 			{}
 		}
 	end,
-	[5170] = function()
+	[1817] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', {true,{'v4', 'v4', }},},
-			{'activityId', 'hangUpEventId', {true,{'rewards','id', 'num', }},}
+			{{true,{'v4', 'v4', 'b', }},{true,{'v4', 'v4', }},'tv4', 'tv4', },
+			{{true,{'experiment','id', 'score', 'up', }},{true,{'heroBuff','heroId', 'buffId', }},'taskList', 'attackOrder', }
 		}
 	end,
-	[1044] = function()
+	[7843] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', {false,{'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},}},},
-			{'heroId', {false,{'skillStrategy','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},}
+			{{true,{'v4', 'tv4', }},},
+			{{true,{'taskPlan','taskId', 'heroId', }},}
 		}
 	end,
-	[3346] = function()
+	[6651] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4', {true,{'v4', 'v4', 'v4', 'v4', }},},
-			{'cid', 'count', 'startTime', 'endTime', {true,{'statistics','id', 'num', 'count', 'probability', }},}
+			{{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'b', 'b', 's', 's', }},},
+			{{true,{'union','id', 'name', 'level', 'icon', 'memberCount', 'memberCountMax', 'active', 'limitLevel', 'limitPower', 'apply', 'canApply', 'leaderName', 'notice', }},}
 		}
 	end,
 	[6701] = function()
@@ -1854,18 +1826,18 @@ local tblProto = {
 			{'records', }
 		}
 	end,
-	[6659] = function()
+	[6675] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'id', }
+			{{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', }},{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', }},},
+			{{false,{'myUnionRank','id', 'name', 'icon', 'recallScore', 'recallNum', 'rank', }},{true,{'recallRank','id', 'name', 'icon', 'recallScore', 'recallNum', 'rank', }},}
 		}
 	end,
-	[6669] = function()
+	[6653] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'tv4', 'v4', 'tv4', },
-			{'theme', 'remain', 'remainTimes', 'receivePrizeIndex', 'score', 'selfTrainPrizeIndex', }
+			{'v4', 'v4', },
+			{'degree', 'target', }
 		}
 	end,
 	[1029] = function()
@@ -1875,18 +1847,18 @@ local tblProto = {
 			{'id', 'exp', 'cid', }
 		}
 	end,
-	[6504] = function()
+	[6662] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'rewards','id', 'num', }},}
+			{{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 's', 's', {true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4',}},{true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4','v8', 'tv4', }},'b', 'b', 'b', 'v4', 'v4', 'v8', 'v4', 'tv4', 'v4', 'v4', 'v4', 'v4', }},},
+			{{false,{'union','id', 'name', 'level', 'icon', 'memberCount', 'exp', 'leaderName', 'notice', {true,{'applyList','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'ct',}},{true,{'members','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'degree', 'weekContribution', 'allContribution', 'ct','joinTime', 'groupGiftIds', }},'canApply', 'autoJoin', 'joinLimit', 'limitLevel', 'limitPower', 'delateEndTime', 'weekExp', 'weekExpPrizeReceiveIndex', 'lastWeekActive', 'receiveTimes', 'goldRedpacketTime', 'rechargeRedpacketTime', }},}
 		}
 	end,
-	[6661] = function()
+	[8504] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 's', 'v4', 'v4', 'v8', 's', 'v4', {true,{'s', 's', 'v4', 'v4', 'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', }},},
-			{{false,{'redPacketDetailInfo','id', 'blessing', 'count', 'senderId', 'createTime', 'senderName', 'moneyTempId', {true,{'record','playerId', 'playerName', 'openCount', 'leaderCid', 'portraitCid', 'portraitFrameCid', 'createTime', }},'status', 'senderLeaderCid', 'senderPortraitCid', 'senderPortraitFrameCid', }},}
+			{{true,{'v4', 'v4', }},{true,{'v4', 'v4', }},},
+			{{true,{'rewards','id', 'num', }},{true,{'fdAward','dungeon', 'status', }},}
 		}
 	end,
 	[2079] = function()
@@ -1910,11 +1882,11 @@ local tblProto = {
 			{{true,{'speedLink','location', 'id', }},}
 		}
 	end,
-	[6672] = function()
+	[6659] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},},
-			{'index', {true,{'rewards','id', 'num', }},}
+			{'v4', },
+			{'id', }
 		}
 	end,
 	[5163] = function()
@@ -1922,6 +1894,41 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{'v4', 'v4', 'v4', {true,{'v4', 'v4', 'b', 'v4', 'v4', 'b', 'v4', 'tv4', 'v4', 'v4', 'v4', 'b', 'b', }},},
 			{'camp', 'stage', 'stageEnd', {true,{'cities','id', 'dungeon', 'resOpen', 'resCount', 'resUpTime', 'invaded', 'invadedEnd', 'invadedCamp', 'resStartTime', 'fightTime', 'score', 'pass', 'dunPass', }},}
+		}
+	end,
+	[6669] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', 'v4', 'tv4', 'v4', 'tv4', },
+			{'theme', 'remain', 'remainTimes', 'receivePrizeIndex', 'score', 'selfTrainPrizeIndex', }
+		}
+	end,
+	[6511] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'tv4', },
+			{'datingNodes', }
+		}
+	end,
+	[6661] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{false,{'v4', 's', 'v4', 'v4', 'v8', 's', 'v4', {true,{'s', 's', 'v4', 'v4', 'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', }},},
+			{{false,{'redPacketDetailInfo','id', 'blessing', 'count', 'senderId', 'createTime', 'senderName', 'moneyTempId', {true,{'record','playerId', 'playerName', 'openCount', 'leaderCid', 'portraitCid', 'portraitFrameCid', 'createTime', }},'status', 'senderLeaderCid', 'senderPortraitCid', 'senderPortraitFrameCid', }},}
+		}
+	end,
+	[8701] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4', 'b', 'v4', }},'s', 'v4', 'v4', },
+			{{true,{'roundInfo','round', 'joinStatus', 'joinNum', }},'address', 'realPrize', 'realRound', }
+		}
+	end,
+	[283] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', },
+			{'status', 'time', }
 		}
 	end,
 	[6673] = function()
@@ -1945,46 +1952,11 @@ local tblProto = {
 			{'id', {true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[8701] = function()
+	[6667] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'b', 'v4', }},'s', 'v4', 'v4', },
-			{{true,{'roundInfo','round', 'joinStatus', 'joinNum', }},'address', 'realPrize', 'realRound', }
-		}
-	end,
-	[283] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'status', 'time', }
-		}
-	end,
-	[6666] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4','v8', 'tv4', }},},
-			{{true,{'member','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'degree', 'weekContribution', 'allContribution', 'ct','joinTime', 'groupGiftIds', }},}
-		}
-	end,
-	[7506] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'s', 'v4', 's', 'v4', 's', 'b', }},'v4','tv4', 'v4', 'v4', 'v4', 'v4', 'b', },
-			{{true,{'springWishInfo','id', 'senderId', 'senderName', 'receiverId', 'content', 'read', }},'changeType','sendFriend', 'dayReceiveCount', 'totalReceiveCount', 'daySendCount', 'totalSendCount', 'getReward', }
-		}
-	end,
-	[1047] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},{true,{'v4', 'v4',}},},
-			{{true,{'rewards','id', 'num', }},{true,{'tasks','id', 'status',}},}
-		}
-	end,
-	[5894] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{'s', 'v4', {true,{'v4', 'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 's', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', }},},
-			{{false,{'team','teamId', 'leaderPid', {true,{'members','pid', 'status', 'heroCid', 'name', 'plv', 'skinCid', 'heroLevel', 'heroQuality', 'titleId', 'unionName', 'fightPower', }},'status', 'teamType', 'battleId', 'show_type', 'level_limit', }},}
+			{{true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4',}},},
+			{{true,{'applyInfo','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'ct',}},}
 		}
 	end,
 	[3333] = function()
@@ -1994,11 +1966,11 @@ local tblProto = {
 			{{true,{'composeInfos','cid', 'finishTime', {true,{'items','id', 'num', }},'costTime', }},'freeNum', }
 		}
 	end,
-	[5890] = function()
+	[6666] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'status', }
+			{{true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4','v8', 'tv4', }},},
+			{{true,{'member','playerId', 'leaderCid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'online', 'portraitCid', 'portraitFrameCid', 'degree', 'weekContribution', 'allContribution', 'ct','joinTime', 'groupGiftIds', }},}
 		}
 	end,
 	[7502] = function()
@@ -2008,11 +1980,11 @@ local tblProto = {
 			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[6703] = function()
+	[6912] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{true,{'v4', 'v4', }},{false,{'v4', 'v4', }},{false,{'v4', 'v4', }},'tv4', },
+			{{true,{'rewardInfo','id', 'num', }},{false,{'apItemInfo','id', 'num', }},{false,{'ap','value', 'limit', }},'script', }
 		}
 	end,
 	[2822] = function()
@@ -2022,11 +1994,11 @@ local tblProto = {
 			{'ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }
 		}
 	end,
-	[5892] = function()
+	[4384] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{true,{'v4', 'v4', }},},
+			{{true,{'giftInfos','giftId', 'status', }},}
 		}
 	end,
 	[6224] = function()
@@ -2071,11 +2043,11 @@ local tblProto = {
 			{{true,{'heros','ct','id', 'cid', 'lvl', 'exp', {true,{'attr','type', 'val', }},'advancedLvl', {true,{'equipments','position', 'equipmentId', {false,{'equip','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}},'helpFight', 'angelLvl', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},'useSkillPiont', 'quality', 'provide', 'fightPower', 'skinCid', {true,{'skillStrategyInfo','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},'useSkillStrategy', {true,{'crystalInfo','rarity', 'gridId', }},'equipSkillIds', {true,{'euqipFetterInfo','index', {false,{'newEquipmentInfo','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},}},'heroStatus','deadLine', {true,{'gemInfos','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},'skinCidTemp', 'exploreTreasureSkill', 'breakLv', }},}
 		}
 	end,
-	[5895] = function()
+	[5894] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'type', }
+			{{false,{'s', 'v4', {true,{'v4', 'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 's', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', }},},
+			{{false,{'team','teamId', 'leaderPid', {true,{'members','pid', 'status', 'heroCid', 'name', 'plv', 'skinCid', 'heroLevel', 'heroQuality', 'titleId', 'unionName', 'fightPower', }},'status', 'teamType', 'battleId', 'show_type', 'level_limit', }},}
 		}
 	end,
 	[6501] = function()
@@ -2085,11 +2057,11 @@ local tblProto = {
 			{'bossDungeonId', 'serverContribution', {true,{'nodeStatus','contribution', {true,{'nodeRewards','id', 'num', }},}},'odeumType', 'closeTime', 'status', 'lingbo', 'lingboGroup', 'receiveStatus', {true,{'selfContriRewards','id', 'num', }},'selfContriPrizeStatus', 'fightState', }
 		}
 	end,
-	[5897] = function()
+	[5890] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', },
+			{'status', }
 		}
 	end,
 	[8510] = function()
@@ -2134,39 +2106,39 @@ local tblProto = {
 			{'datingRuleCid', }
 		}
 	end,
-	[5896] = function()
+	[7506] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'s', 'v4', 's', 'v4', 's', 'b', }},'v4','tv4', 'v4', 'v4', 'v4', 'v4', 'b', },
+			{{true,{'springWishInfo','id', 'senderId', 'senderName', 'receiverId', 'content', 'read', }},'changeType','sendFriend', 'dayReceiveCount', 'totalReceiveCount', 'daySendCount', 'totalSendCount', 'getReward', }
+		}
+	end,
+	[5892] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
 			{}
 		}
 	end,
-	[5889] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{'s', 'v4', {true,{'v4', 'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 's', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', }},},
-			{{false,{'team','teamId', 'leaderPid', {true,{'members','pid', 'status', 'heroCid', 'name', 'plv', 'skinCid', 'heroLevel', 'heroQuality', 'titleId', 'unionName', 'fightPower', }},'status', 'teamType', 'battleId', 'show_type', 'level_limit', }},}
-		}
-	end,
-	[5903] = function()
+	[5895] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', },
-			{'rank', }
+			{'type', }
 		}
 	end,
-	[5900] = function()
+	[5897] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 's', },
-			{'pid', 'name', }
+			{},
+			{}
 		}
 	end,
-	[5901] = function()
+	[5896] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'s', 'v4', {true,{'v4', 'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 's', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', }},'v4', 'v4', },
-			{{true,{'teamInfo','teamId', 'leaderPid', {true,{'members','pid', 'status', 'heroCid', 'name', 'plv', 'skinCid', 'heroLevel', 'heroQuality', 'titleId', 'unionName', 'fightPower', }},'status', 'teamType', 'battleId', 'show_type', 'level_limit', }},'teamType', 'nextTime', }
+			{},
+			{}
 		}
 	end,
 	[2065] = function()
@@ -2183,11 +2155,11 @@ local tblProto = {
 			{{true,{'cityInfo','changeType','cityId', {true,{'partInfo','cityPartId', 'state', }},{false,{'eventInfo','eventId', {true,{'rewards','id', 'num', }},}},}},}
 		}
 	end,
-	[5902] = function()
+	[5889] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'showType', }
+			{{false,{'s', 'v4', {true,{'v4', 'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 's', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', }},},
+			{{false,{'team','teamId', 'leaderPid', {true,{'members','pid', 'status', 'heroCid', 'name', 'plv', 'skinCid', 'heroLevel', 'heroQuality', 'titleId', 'unionName', 'fightPower', }},'status', 'teamType', 'battleId', 'show_type', 'level_limit', }},}
 		}
 	end,
 	[9150] = function()
@@ -2197,11 +2169,11 @@ local tblProto = {
 			{{true,{'maidObjects','onlyId', 'cid', 'strength', }},{false,{'maidInfo','totle', 'customer', 'cost', 'turnOver', 'attributes', }},'workLists', {false,{'recruitInfo',{true,{'recruits','cid', 'state', }},'nextTime', 'recruitTimes', 'recruitBuyTimes', }},'enterType', {false,{'maidRole','roleId', 'roleList', }},{true,{'eventList','ct','id', 'reward', 'cfgId', 'creatAt', {true,{'rewards','id', 'num', }},'weather', }},}
 		}
 	end,
-	[8404] = function()
+	[5903] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'b', 'b', {true,{'v4', 'v4', }},'v4', }},},
-			{{false,{'spirit','spiritPoints', 'grade', 'level', 'exp', {true,{'specialism','cid', 'num', }},'firstShow', 'feedback', {true,{'angleSpirits','heroCid', 'lv', }},'maxLv', }},}
+			{'v4', },
+			{'rank', }
 		}
 	end,
 	[2064] = function()
@@ -2225,25 +2197,25 @@ local tblProto = {
 			{'foodId', {true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[4373] = function()
+	[5900] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},'v4', },
-			{'giftId', {true,{'item','id', 'num', }},'receiveCount', }
+			{'v4', 's', },
+			{'pid', 'name', }
 		}
 	end,
-	[4096] = function()
+	[5901] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'s', 'v4', {true,{'v4', 'v4', }},}},{true,{'v4', 'v4', }},},
-			{{true,{'result','taskDbId', 'taskCid', {true,{'rewards','id', 'num', }},}},{true,{'rewards','id', 'num', }},}
+			{{true,{'s', 'v4', {true,{'v4', 'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 's', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', }},'v4', 'v4', },
+			{{true,{'teamInfo','teamId', 'leaderPid', {true,{'members','pid', 'status', 'heroCid', 'name', 'plv', 'skinCid', 'heroLevel', 'heroQuality', 'titleId', 'unionName', 'fightPower', }},'status', 'teamType', 'battleId', 'show_type', 'level_limit', }},'teamType', 'nextTime', }
 		}
 	end,
-	[8150] = function()
+	[5902] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4','v4', 'v4', 'b', 'v4', }},},
-			{{true,{'systemTitleInfos','ct','titleId', 'effectTime', 'isEquip', 'createTime', }},}
+			{'v4', },
+			{'showType', }
 		}
 	end,
 	[519] = function()
@@ -2267,18 +2239,18 @@ local tblProto = {
 			{'time', {true,{'data','pid', 'delayTime', }},'hostPlayerId', }
 		}
 	end,
-	[8152] = function()
+	[8407] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'id', }
+			{{false,{'v4', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'b', 'b', {true,{'v4', 'v4', }},'v4', }},},
+			{{false,{'spirits','spiritPoints', 'grade', 'level', 'exp', {true,{'specialism','cid', 'num', }},'firstShow', 'feedback', {true,{'angleSpirits','heroCid', 'lv', }},'maxLv', }},}
 		}
 	end,
-	[6213] = function()
+	[4367] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', }},'v4', },
-			{{true,{'produces','itemId', 'itemNum', 'buyCount', }},'nextRefresh', }
+			{'v4', 'v4', {true,{'v4', 'v4', }},},
+			{'id', 'buyCount', {true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[5222] = function()
@@ -2295,11 +2267,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[6910] = function()
+	[4096] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', }},},
-			{{false,{'apInfo','value', 'limit', }},}
+			{{true,{'s', 'v4', {true,{'v4', 'v4', }},}},{true,{'v4', 'v4', }},},
+			{{true,{'result','taskDbId', 'taskCid', {true,{'rewards','id', 'num', }},}},{true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[8402] = function()
@@ -2309,11 +2281,11 @@ local tblProto = {
 			{{false,{'spirit','spiritPoints', 'grade', 'level', 'exp', {true,{'specialism','cid', 'num', }},'firstShow', 'feedback', {true,{'angleSpirits','heroCid', 'lv', }},'maxLv', }},}
 		}
 	end,
-	[5128] = function()
+	[8150] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', 's', 'v4', }},},
-			{{true,{'items','id', 'itemId', 'progress', 'extend', 'status', }},}
+			{{true,{'v4','v4', 'v4', 'b', 'v4', }},},
+			{{true,{'systemTitleInfos','ct','titleId', 'effectTime', 'isEquip', 'createTime', }},}
 		}
 	end,
 	[2311] = function()
@@ -2344,18 +2316,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[3340] = function()
+	[8152] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'b', 'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},},
-			{{false,{'info','noobStatus', 'endTime', 'summonCount', 'awardState', }},{true,{'item','id', 'num', }},}
+			{'v4', },
+			{'id', }
 		}
 	end,
-	[6702] = function()
+	[6229] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4', 'v4', },
-			{'nianBeastId', 'builingId', 'randomSeed', 'datingId', 'deadline', }
+			{'v4', 'v4', {false,{{true,{'v4','s', 'v4', 'v8', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{true,{'v4','s', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},{true,{'v4','s', 'v4', 'v4', }},{true,{'v4','s', 'v4', 'v4', }},}},'tv4', },
+			{'eventCid', 'gameCid', {false,{'items',{true,{'items','ct','id', 'cid', 'num', 'outTime', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'dresss','ct','id', 'cid', 'roleId', 'outTime', }},{true,{'newEquipments','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},{true,{'gems','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},{true,{'treasures','ct','id', 'cid', 'star', }},{true,{'exploreEquip','ct','id', 'cid', 'level', }},}},'options', }
 		}
 	end,
 	[9005] = function()
@@ -2407,11 +2379,11 @@ local tblProto = {
 			{'roleId', {true,{'supportHero','playerId', 'playerName', 'startTime', 'times', {false,{'role','roleId', }},{true,{'buff','buffId', 'buffLv', }},}},{true,{'buff','buffId', 'buffLv', }},}
 		}
 	end,
-	[8306] = function()
+	[6916] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4','s', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'v4', {true,{'v4', 's', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},}},'b', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {true,{'v4', 'v4', }},'tv4', {true,{'v4', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},}},'v4','v4', {true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},'v4', 'tv4', 'v4', }},},
-			{{true,{'heros','ct','id', 'cid', 'lvl', 'exp', {true,{'attr','type', 'val', }},'advancedLvl', {true,{'equipments','position', 'equipmentId', {false,{'equip','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}},'helpFight', 'angelLvl', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},'useSkillPiont', 'quality', 'provide', 'fightPower', 'skinCid', {true,{'skillStrategyInfo','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},'useSkillStrategy', {true,{'crystalInfo','rarity', 'gridId', }},'equipSkillIds', {true,{'euqipFetterInfo','index', {false,{'newEquipmentInfo','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},}},'heroStatus','deadLine', {true,{'gemInfos','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},'skinCidTemp', 'exploreTreasureSkill', 'breakLv', }},}
+			{},
+			{}
 		}
 	end,
 	[4385] = function()
@@ -2449,11 +2421,11 @@ local tblProto = {
 			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[3329] = function()
+	[7501] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},{false,{'b', 'v4', 'v4', 'v4', }},'tv4', 'v4', 'v4', {true,{'v4', 'v4', }},'v4', {false,{'v4', 'v4', 'v4', }},{false,{'v4', 'v4', 'v4', }},'v4', },
-			{{true,{'item','id', 'num', }},{false,{'noobInfo','noobStatus', 'endTime', 'summonCount', 'awardState', }},'activeId', 'hotHeroSummonScore', 'hotEquipSummonScore', {true,{'fixItem','id', 'num', }},'id', {false,{'freeInfo','type', 'nextFreeTime', 'summonNums', }},{false,{'freeTime','type', 'nextFreeTime', 'summonNums', }},'preciousCount', }
+			{'v4', 'ts', {true,{'v4', 'v4', }},},
+			{'result', 'word', {true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[6815] = function()
@@ -2470,25 +2442,25 @@ local tblProto = {
 			{'orderNo', 'goodsId', }
 		}
 	end,
-	[5189] = function()
+	[8911] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', {true,{'v4', 'v4', }},},
-			{'addNum', 'itemId', 'activityId', {true,{'rewards','id', 'num', }},}
+			{'v4', 'v4', {true,{'v4', 'v4', }},},
+			{'id', 'voteId', {true,{'rewardInfo','id', 'num', }},}
 		}
 	end,
-	[3348] = function()
+	[3346] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'cid', 'dayTimes', }
+			{'v4', 'v4', 'v4', 'v4', {true,{'v4', 'v4', 'v4', 'v4', }},},
+			{'cid', 'count', 'startTime', 'endTime', {true,{'statistics','id', 'num', 'count', 'probability', }},}
 		}
 	end,
-	[3355] = function()
+	[3349] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'itemCid', }
+			{{true,{'v4', 'v4', 'v4', 'v4', {true,{'v4', {true,{'v4', 'v4', }},'b', }},}},'v4', {true,{'v4', 'v4', }},},
+			{{true,{'simulateSummons','cid', 'simulateSummonCount', 'sysSimulateSummonCount', 'exchangeCount', {true,{'records','order', {true,{'items','id', 'num', }},'isReceive', }},}},'lastCid', {true,{'lastResult','id', 'num', }},}
 		}
 	end,
 	[5635] = function()
@@ -2554,32 +2526,32 @@ local tblProto = {
 			{{true,{'boundEquips','itemId', 'heroCid', }},{true,{'boundNewEquips','itemId', 'heroCid', }},}
 		}
 	end,
-	[3342] = function()
+	[3329] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'item','id', 'num', }},}
+			{{true,{'v4', 'v4', }},{false,{'b', 'v4', 'v4', 'v4', }},'tv4', 'v4', 'v4', {true,{'v4', 'v4', }},'v4', {false,{'v4', 'v4', 'v4', }},{false,{'v4', 'v4', 'v4', }},'v4', },
+			{{true,{'item','id', 'num', }},{false,{'noobInfo','noobStatus', 'endTime', 'summonCount', 'awardState', }},'activeId', 'hotHeroSummonScore', 'hotEquipSummonScore', {true,{'fixItem','id', 'num', }},'id', {false,{'freeInfo','type', 'nextFreeTime', 'summonNums', }},{false,{'freeTime','type', 'nextFreeTime', 'summonNums', }},'preciousCount', }
 		}
 	end,
-	[264] = function()
+	[6102] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4','v4', 'v4', 'ts', },
-			{'ct','type', 'status', 'stance', }
+			{'v4', {true,{'v4', 'v4', }},},
+			{'id', {true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[3345] = function()
+	[3348] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', {true,{'v4', 'v4', }},'v4', }},'v4', },
-			{{true,{'composeInfo','cid', 'finishTime', {true,{'items','id', 'num', }},'costTime', }},'freeNum', }
+			{'v4', 'v4', },
+			{'cid', 'dayTimes', }
 		}
 	end,
-	[3343] = function()
+	[3355] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', },
-			{'heroHotSummonOrder', 'heroHotSummonTime', 'equipHotSummonOrder', 'equipHotSummonTime', 'hotHeroSummonScore', 'hotEquipSummonScore', }
+			{'v4', },
+			{'itemCid', }
 		}
 	end,
 	[7702] = function()
@@ -2596,18 +2568,18 @@ local tblProto = {
 			{{true,{'players','pid', 'name', 'lvl', 'helpHeroCid', 'coldDownTime', 'helpHeroFightPower', 'portraitCid', }},}
 		}
 	end,
-	[3353] = function()
+	[3342] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', }},},
-			{{true,{'freeInfo','type', 'nextFreeTime', 'summonNums', }},}
+			{{true,{'v4', 'v4', }},},
+			{{true,{'item','id', 'num', }},}
 		}
 	end,
-	[7839] = function()
+	[8509] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'stepInfo', }
+			{{false,{{true,{'v4', 'v4', }},'v4', }},},
+			{{false,{'playerWeakness',{true,{'weakness','dungeon', 'count', }},'leftCount', }},}
 		}
 	end,
 	[8311] = function()
@@ -2617,18 +2589,18 @@ local tblProto = {
 			{{true,{'card','cardId', 'cardLv', }},}
 		}
 	end,
-	[3339] = function()
+	[3345] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'info','cid', 'count', }},}
+			{{true,{'v4', 'v4', {true,{'v4', 'v4', }},'v4', }},'v4', },
+			{{true,{'composeInfo','cid', 'finishTime', {true,{'items','id', 'num', }},'costTime', }},'freeNum', }
 		}
 	end,
-	[2564] = function()
+	[3343] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', 'v4', 'v4', }},},
-			{{true,{'buyLogs','type', 'cid', 'nowBuyCount', 'totalBuyCount', 'storeState', }},}
+			{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', },
+			{'heroHotSummonOrder', 'heroHotSummonTime', 'equipHotSummonOrder', 'equipHotSummonTime', 'hotHeroSummonScore', 'hotEquipSummonScore', }
 		}
 	end,
 	[25605] = function()
@@ -2652,6 +2624,55 @@ local tblProto = {
 			{'id', {true,{'rewards','id', 'num', }},{true,{'extRewards','id', 'num', }},}
 		}
 	end,
+	[3353] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4', 'v4', 'v4', }},},
+			{{true,{'freeInfo','type', 'nextFreeTime', 'summonNums', }},}
+		}
+	end,
+	[7104] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'tv4', },
+			{'finTasks', }
+		}
+	end,
+	[3339] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4', 'v4', }},},
+			{{true,{'info','cid', 'count', }},}
+		}
+	end,
+	[6812] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', },
+			{'newLeaderId', }
+		}
+	end,
+	[3075] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'b', 'v4','v4', 'v4', 'b', 'v4', 'v4', 'tv4', 'v4', }},},
+			{{true,{'friends','pid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'lastHandselTime', 'receive', 'status', 'leaderCid', 'online', 'ct','time', 'helpCDtime', 'canSend', 'portraitCid', 'portraitFrameCid', 'groupGiftIds', 'type', }},}
+		}
+	end,
+	[4379] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'s', },
+			{'teamId', }
+		}
+	end,
+	[1562] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', 'v4', 'v4', },
+			{'roleId', 'intimacy', 'chatDays', 'hateVal', }
+		}
+	end,
 	[3347] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -2673,32 +2694,18 @@ local tblProto = {
 			{{false,{'simulateSummon','cid', 'simulateSummonCount', 'sysSimulateSummonCount', 'exchangeCount', {true,{'records','order', {true,{'items','id', 'num', }},'isReceive', }},}},}
 		}
 	end,
-	[6812] = function()
+	[5130] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'newLeaderId', }
+			{'v4', {true,{'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', {true,{'s', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},'v4', },
+			{'activityId', {true,{'ranks','rank', 'playerId', 'playerName', 'score', 'headIcon', 'helpFightHeroId', 'level', 'frameCid', 'groupRank', {true,{'rankPlayerInfo','playerName', 'playerId', 'level', 'frameCid', 'headIcon', 'helpFightHeroId', 'heroId', }},}},'myRank', }
 		}
 	end,
-	[2840] = function()
+	[2306] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'items','id', 'num', }},}
-		}
-	end,
-	[4379] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'s', },
-			{'teamId', }
-		}
-	end,
-	[1562] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4', },
-			{'roleId', 'intimacy', 'chatDays', 'hateVal', }
+			{'v4', 'v4', 's', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', },
+			{'channel', 'fun', 'content', 'pid', 'pname', 'lvl', 'helpFightHeroCid', 'portraitCid', 'portraitFrameCid', 'titleId', 'chatFrameCid', }
 		}
 	end,
 	[6902] = function()
@@ -2722,18 +2729,18 @@ local tblProto = {
 			{'stepInfo', 'open', }
 		}
 	end,
+	[1036] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{false,{'v4','s', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'v4', {true,{'v4', 's', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},}},'b', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {true,{'v4', 'v4', }},'tv4', {true,{'v4', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},}},'v4','v4', {true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},'v4', 'tv4', 'v4', }},'s', },
+			{{false,{'hero','ct','id', 'cid', 'lvl', 'exp', {true,{'attr','type', 'val', }},'advancedLvl', {true,{'equipments','position', 'equipmentId', {false,{'equip','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}},'helpFight', 'angelLvl', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},'useSkillPiont', 'quality', 'provide', 'fightPower', 'skinCid', {true,{'skillStrategyInfo','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},'useSkillStrategy', {true,{'crystalInfo','rarity', 'gridId', }},'equipSkillIds', {true,{'euqipFetterInfo','index', {false,{'newEquipmentInfo','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},}},'heroStatus','deadLine', {true,{'gemInfos','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},'skinCidTemp', 'exploreTreasureSkill', 'breakLv', }},'beforeSkinId', }
+		}
+	end,
 	[6915] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'b', },
 			{'open', }
-		}
-	end,
-	[2306] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 's', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', },
-			{'channel', 'fun', 'content', 'pid', 'pname', 'lvl', 'helpFightHeroCid', 'portraitCid', 'portraitFrameCid', 'titleId', 'chatFrameCid', }
 		}
 	end,
 	[6906] = function()
@@ -2743,41 +2750,6 @@ local tblProto = {
 			{{true,{'equipInfoList','position', 'equipId', }},}
 		}
 	end,
-	[6917] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'scriptId', }
-		}
-	end,
-	[7305] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'rewards','id', 'num', }},}
-		}
-	end,
-	[1036] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{'v4','s', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'v4', {true,{'v4', 's', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},}},'b', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {true,{'v4', 'v4', }},'tv4', {true,{'v4', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},}},'v4','v4', {true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},'v4', 'tv4', 'v4', }},'s', },
-			{{false,{'hero','ct','id', 'cid', 'lvl', 'exp', {true,{'attr','type', 'val', }},'advancedLvl', {true,{'equipments','position', 'equipmentId', {false,{'equip','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}},'helpFight', 'angelLvl', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},'useSkillPiont', 'quality', 'provide', 'fightPower', 'skinCid', {true,{'skillStrategyInfo','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},'useSkillStrategy', {true,{'crystalInfo','rarity', 'gridId', }},'equipSkillIds', {true,{'euqipFetterInfo','index', {false,{'newEquipmentInfo','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},}},'heroStatus','deadLine', {true,{'gemInfos','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},'skinCidTemp', 'exploreTreasureSkill', 'breakLv', }},'beforeSkinId', }
-		}
-	end,
-	[6913] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
-	[6916] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
-		}
-	end,
 	[9304] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -2785,18 +2757,18 @@ local tblProto = {
 			{'pamphletLevel', 'finishedId', 'exp', {true,{'buff','name', 'value', }},'dayExp', }
 		}
 	end,
-	[6905] = function()
+	[6917] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'equipInfoList','position', 'equipId', }},}
+			{'v4', },
+			{'scriptId', }
 		}
 	end,
-	[6912] = function()
+	[1290] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},{false,{'v4', 'v4', }},{false,{'v4', 'v4', }},'tv4', },
-			{{true,{'rewardInfo','id', 'num', }},{false,{'apItemInfo','id', 'num', }},{false,{'ap','value', 'limit', }},'script', }
+			{'tv4', },
+			{'rotationList', }
 		}
 	end,
 	[4001] = function()
@@ -2820,11 +2792,11 @@ local tblProto = {
 			{'count', 'rewardLevel', {true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[6907] = function()
+	[6913] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'orderList', }
+			{},
+			{}
 		}
 	end,
 	[4354] = function()
@@ -2883,11 +2855,11 @@ local tblProto = {
 			{{true,{'summonInfo','summonId', 'summstart', 'summend', 'startShow', 'endShow', {true,{'summonShow','count', 'itemId', 'itemNums', }},'summonNums', 'getRewards', 'count', 'equipRewards', 'remainScore', 'cardNum', 'dayTimes', {true,{'cardPrizes','id', 'num', }},'preciousCount', }},{false,{'noobInfo','noobStatus', 'endTime', 'summonCount', 'awardState', }},{true,{'personalSummons','summonType', 'summend', 'summonNums', }},}
 		}
 	end,
-	[6908] = function()
+	[6905] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'b', 'b', },
-			{'type', 'success', 'finished', }
+			{{true,{'v4', 'v4', }},},
+			{{true,{'equipInfoList','position', 'equipId', }},}
 		}
 	end,
 	[8309] = function()
@@ -2911,18 +2883,18 @@ local tblProto = {
 			{'datingCids', }
 		}
 	end,
-	[2565] = function()
+	[6910] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', {true,{'v4', 'v4', }},},
-			{'success', {true,{'rewards','id', 'num', }},}
+			{{false,{'v4', 'v4', }},},
+			{{false,{'apInfo','value', 'limit', }},}
 		}
 	end,
-	[5154] = function()
+	[6908] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', },
-			{'address', }
+			{'v4', 'b', 'b', },
+			{'type', 'success', 'finished', }
 		}
 	end,
 	[3352] = function()
@@ -2946,25 +2918,25 @@ local tblProto = {
 			{{true,{'rewardsMsg','id', 'num', }},}
 		}
 	end,
-	[7503] = function()
+	[2565] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'rewards','id', 'num', }},}
+			{'b', {true,{'v4', 'v4', }},},
+			{'success', {true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[7501] = function()
+	[6205] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'ts', {true,{'v4', 'v4', }},},
-			{'result', 'word', {true,{'rewards','id', 'num', }},}
+			{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},},
+			{'x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}
 		}
 	end,
-	[6709] = function()
+	[2564] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'activityId', 'score', }
+			{{true,{'v4', 'v4', 'v4', 'v4', 'v4', }},},
+			{{true,{'buyLogs','type', 'cid', 'nowBuyCount', 'totalBuyCount', 'storeState', }},}
 		}
 	end,
 	[5891] = function()
@@ -2988,11 +2960,11 @@ local tblProto = {
 			{'pids', }
 		}
 	end,
-	[6708] = function()
+	[7503] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'activityId', 'refreshCount', }
+			{{true,{'v4', 'v4', }},},
+			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[2830] = function()
@@ -3009,11 +2981,11 @@ local tblProto = {
 			{'itemCid', }
 		}
 	end,
-	[8509] = function()
+	[6709] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{{true,{'v4', 'v4', }},'v4', }},},
-			{{false,{'playerWeakness',{true,{'weakness','dungeon', 'count', }},'leftCount', }},}
+			{'v4', 'v4', },
+			{'activityId', 'score', }
 		}
 	end,
 	[2316] = function()
@@ -3037,11 +3009,11 @@ local tblProto = {
 			{{false,{'items',{true,{'items','ct','id', 'cid', 'num', 'outTime', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'dresss','ct','id', 'cid', 'roleId', 'outTime', }},{true,{'newEquipments','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},{true,{'gems','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},{true,{'treasures','ct','id', 'cid', 'star', }},{true,{'exploreEquip','ct','id', 'cid', 'level', }},}},}
 		}
 	end,
-	[1028] = function()
+	[6703] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4','s', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'v4', {true,{'v4', 's', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},}},'b', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {true,{'v4', 'v4', }},'tv4', {true,{'v4', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},}},'v4','v4', {true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},'v4', 'tv4', 'v4', }},},
-			{{false,{'hero','ct','id', 'cid', 'lvl', 'exp', {true,{'attr','type', 'val', }},'advancedLvl', {true,{'equipments','position', 'equipmentId', {false,{'equip','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}},'helpFight', 'angelLvl', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},'useSkillPiont', 'quality', 'provide', 'fightPower', 'skinCid', {true,{'skillStrategyInfo','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},'useSkillStrategy', {true,{'crystalInfo','rarity', 'gridId', }},'equipSkillIds', {true,{'euqipFetterInfo','index', {false,{'newEquipmentInfo','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},}},'heroStatus','deadLine', {true,{'gemInfos','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},'skinCidTemp', 'exploreTreasureSkill', 'breakLv', }},}
+			{},
+			{}
 		}
 	end,
 	[7910] = function()
@@ -3058,18 +3030,18 @@ local tblProto = {
 			{'heroId', {true,{'attr','type', 'val', }},'fightPower', }
 		}
 	end,
-	[6714] = function()
+	[6708] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', 'v4', 'tv4', {true,{'v4', 'v4', }},},
-			{'status', 'game', 'cases', {true,{'rewards','id', 'num', }},}
+			{'v4', 'v4', },
+			{'activityId', 'refreshCount', }
 		}
 	end,
-	[7206] = function()
+	[6702] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'items','itemId', 'itemNum', }},}
+			{'v4', 'v4', 'v4', 'v4', 'v4', },
+			{'nianBeastId', 'builingId', 'randomSeed', 'datingId', 'deadline', }
 		}
 	end,
 	[3073] = function()
@@ -3079,39 +3051,39 @@ local tblProto = {
 			{{true,{'friends','pid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'lastHandselTime', 'receive', 'status', 'leaderCid', 'online', 'ct','time', 'helpCDtime', 'canSend', 'portraitCid', 'portraitFrameCid', 'groupGiftIds', 'type', }},'receiveCount', 'lastReceiveTime', }
 		}
 	end,
-	[5179] = function()
+	[8202] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', },
+			{'indenture', }
 		}
 	end,
-	[9301] = function()
+	[1047] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},'v4',},
-			{{true,{'reward','id', 'num', }},'status',}
+			{{true,{'v4', 'v4', }},{true,{'v4', 'v4',}},},
+			{{true,{'rewards','id', 'num', }},{true,{'tasks','id', 'status',}},}
 		}
 	end,
-	[9305] = function()
+	[6714] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'location','chapterId', 'itemId', }},}
+			{'b', 'v4', 'tv4', {true,{'v4', 'v4', }},},
+			{'status', 'game', 'cases', {true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[4383] = function()
+	[299] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'s', 'v4', 'v4', 'b', 'b', 'b', {true,{'v4', 's', 'v4', 'v4', 'b', 'v4', 'v4', }},}},},
-			{{true,{'teamInfo','teamId', 'createTime', 'giftId', 'isShow', 'isComplete', 'isDestroy', {true,{'members','playerId', 'playerName', 'titleId', 'level', 'isCreator', 'portraitCid', 'portraitFrameId', }},}},}
+			{{false,{{false,{'v4','v4', 'v4', 'ts', }},'v4', 's', }},},
+			{{false,{'formation',{false,{'base','ct','type', 'status', 'stance', }},'id', 'desc', }},}
 		}
 	end,
-	[7219] = function()
+	[5137] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},}},},
-			{{true,{'points','x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}},}
+			{'v8', },
+			{'serverContribution', }
 		}
 	end,
 	[5380] = function()
@@ -3149,25 +3121,25 @@ local tblProto = {
 			{}
 		}
 	end,
-	[5122] = function()
+	[9301] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},},
-			{'id', {true,{'rewards','id', 'num', }},}
+			{{true,{'v4', 'v4', }},'v4',},
+			{{true,{'reward','id', 'num', }},'status',}
 		}
 	end,
-	[5121] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 's', 'tv4', 'v4', 'tv4', }},},
-			{{true,{'signInfos','id', 'index', 'extendData', 'awardType', 'supplyLimit', 'supplyDays', }},}
-		}
-	end,
-	[5161] = function()
+	[9305] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{{true,{'v4', 'v4', }},},
-			{{true,{'rewards','id', 'num', }},}
+			{{true,{'location','chapterId', 'itemId', }},}
+		}
+	end,
+	[4358] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4','v4', 'v4', },
+			{'ct','cid', 'buy_count', }
 		}
 	end,
 	[1809] = function()
@@ -3177,14 +3149,14 @@ local tblProto = {
 			{{true,{'multipleInfo','groupId', 'multiple', 'topStarsLevel', }},}
 		}
 	end,
-	[6103] = function()
+	[7224] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'b', },
-			{'id', 'verify', }
+			{{false,{'v4', 'v4', 'b', }},},
+			{{false,{'eventInfo','x', 'y', 'add', }},}
 		}
 	end,
-	[6102] = function()
+	[5122] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', {true,{'v4', 'v4', }},},
@@ -3205,18 +3177,18 @@ local tblProto = {
 			{{true,{'switchs','ct','switchType', 'open', }},}
 		}
 	end,
-	[4367] = function()
+	[5121] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', {true,{'v4', 'v4', }},},
-			{'id', 'buyCount', {true,{'rewards','id', 'num', }},}
+			{{true,{'v4', 'v4', 's', 'tv4', 'v4', 'tv4', }},},
+			{{true,{'signInfos','id', 'index', 'extendData', 'awardType', 'supplyLimit', 'supplyDays', }},}
 		}
 	end,
-	[4356] = function()
+	[5161] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4','v4', },
-			{'lastGainDate', 'surplus_Gain_Count', 'cardCid', 'ct','etime', }
+			{{true,{'v4', 'v4', }},},
+			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[5637] = function()
@@ -3233,11 +3205,11 @@ local tblProto = {
 			{{true,{'playerDamage','rank', 'playerId', 'damage', 'count', }},}
 		}
 	end,
-	[8002] = function()
+	[6103] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {true,{'v4', 'v4', 'v4', }},'tv4', 'tv4', },
-			{{false,{'turnInfo','extraTimes', 'turnIndex', {true,{'turnTimes','turnId', 'times', }},{true,{'effectInfo','cfgId', 'effectId', }},}},'times', {true,{'rewards','id', 'num', 'tag', }},'locations', 'eventLocations', }
+			{'v4', 'b', },
+			{'id', 'verify', }
 		}
 	end,
 	[2067] = function()
@@ -3247,11 +3219,11 @@ local tblProto = {
 			{'foodId', 'endTime', 'times', }
 		}
 	end,
-	[262] = function()
+	[8904] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'b', {true,{'v4', 'v4', }},},
+			{'finished', {true,{'rewardInfo','id', 'num', }},}
 		}
 	end,
 	[521] = function()
@@ -3275,18 +3247,18 @@ local tblProto = {
 			{{true,{'summonPreview','groupId', 'type', 'typeName', {true,{'previewItems','id', 'order', 'name', 'probability', 'noobProbability', 'showUpTips', }},}},}
 		}
 	end,
-	[8006] = function()
+	[4369] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'buffId', }
+			{{true,{{false,{'v4', 'f4', }},'v4', {true,{'v4', 'v4', }},'s', 's', 'b', 's', 's', 's', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'pv4', {true,{'v4', 'v4', }},'s', 's', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 'v4', 'v4', 'v4', 'b', 'v4', 's', }},{true,{{false,{'v4', 'f4', }},'v4', 's', 's', 's', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},'v4', 'v4', 's', 's', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 's', }},{true,{{false,{'v4', 'f4', }},'v4', {true,{'v4', 'v4', }},'s', 's', 'b', 's', 's', 's', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'pv4', {true,{'v4', 'v4', }},'s', 's', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 'v4', 'v4', 'v4', 'b', 'v4', 's', }},{true,{{false,{'v4', 'f4', }},'v4', 's', 's', 's', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},'v4', 'v4', 's', 's', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 's', }},},
+			{{true,{'updateCreateGiftCfg',{false,{'rechargeCfg','id', 'price', }},'type', {true,{'item','id', 'num', }},'name', 'icon', 'tag', 'tagDes', 'tagDes2', 'des1', 'des2', 'order', 'startDate', 'endDate', 'buyCount', 'resetType', 'resetDate', 'playerLevel', {true,{'firstBuyItem','id', 'num', }},'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'originalPrice', 'discount', 'triggerEndDate', 'isTrigger', 'days', 'extendData', }},{true,{'updateCreateMonthCardCfg',{false,{'rechargeCfg','id', 'price', }},'upgradeId', 'icon', 'name', 'des1', {true,{'presentItem','id', 'num', }},{true,{'gainItem','id', 'num', }},'days', 'type', 'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'extendData', }},{true,{'deleteGiftCfg',{false,{'rechargeCfg','id', 'price', }},'type', {true,{'item','id', 'num', }},'name', 'icon', 'tag', 'tagDes', 'tagDes2', 'des1', 'des2', 'order', 'startDate', 'endDate', 'buyCount', 'resetType', 'resetDate', 'playerLevel', {true,{'firstBuyItem','id', 'num', }},'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'originalPrice', 'discount', 'triggerEndDate', 'isTrigger', 'days', 'extendData', }},{true,{'deleteMonthCardCfg',{false,{'rechargeCfg','id', 'price', }},'upgradeId', 'icon', 'name', 'des1', {true,{'presentItem','id', 'num', }},{true,{'gainItem','id', 'num', }},'days', 'type', 'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'extendData', }},}
 		}
 	end,
-	[6401] = function()
+	[5157] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'b', 'b', {true,{'v4', 'pv4', 'v4', 'b', 'v4', }},},
-			{'startTime', 'endTime', 'status', 'alwaysOpen', {true,{'levelInfos','cid', 'goals', 'fightCount', 'win', 'buyCount', }},}
+			{{true,{'v4', 'v4', }},'tv4', },
+			{{true,{'cardInfo','pos', 'id', }},'ids', }
 		}
 	end,
 	[6656] = function()
@@ -3331,18 +3303,18 @@ local tblProto = {
 			{'activityId', 'step', 'locations', {true,{'rewards','id', 'num', }},'triggerClear', }
 		}
 	end,
-	[1287] = function()
+	[2838] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{true,{'v4', 'v4', }},},
+			{{true,{'items','id', 'num', }},}
 		}
 	end,
-	[1283] = function()
+	[8006] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4','s', 'v4', 'v4', 'v4', 'v4', 'pv4', 'pv4', {false,{'v4','s', 'v4', 's', 'v4', }},'v4', 'b', 'v4', 'tv4', 'b', },
-			{'ct','id', 'cid', 'favor', 'mood', 'status', 'unlockGift', 'unlockHobby', {false,{'dress','ct','id', 'cid', 'roleId', 'outTime', }},'roomId', 'favorCriticalPoint', 'roleState', 'favoriteIds', 'isShow', }
+			{'tv4', },
+			{'buffId', }
 		}
 	end,
 	[7804] = function()
@@ -3366,18 +3338,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[1288] = function()
+	[1026] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4','s', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'v4', {true,{'v4', 's', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},}},'b', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {true,{'v4', 'v4', }},'tv4', {true,{'v4', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},}},'v4','v4', {true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},'v4', 'tv4', 'v4', },
+			{'ct','id', 'cid', 'lvl', 'exp', {true,{'attr','type', 'val', }},'advancedLvl', {true,{'equipments','position', 'equipmentId', {false,{'equip','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}},'helpFight', 'angelLvl', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},'useSkillPiont', 'quality', 'provide', 'fightPower', 'skinCid', {true,{'skillStrategyInfo','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},'useSkillStrategy', {true,{'crystalInfo','rarity', 'gridId', }},'equipSkillIds', {true,{'euqipFetterInfo','index', {false,{'newEquipmentInfo','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},}},'heroStatus','deadLine', {true,{'gemInfos','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},'skinCidTemp', 'exploreTreasureSkill', 'breakLv', }
 		}
 	end,
-	[1281] = function()
+	[2817] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4','s', 'v4', 'v4', 'v4', 'v4', 'pv4', 'pv4', {false,{'v4','s', 'v4', 's', 'v4', }},'v4', 'b', 'v4', 'tv4', 'b', }},'tv4', 'b', },
-			{{true,{'roles','ct','id', 'cid', 'favor', 'mood', 'status', 'unlockGift', 'unlockHobby', {false,{'dress','ct','id', 'cid', 'roleId', 'outTime', }},'roomId', 'favorCriticalPoint', 'roleState', 'favoriteIds', 'isShow', }},'rotationList', 'rotationState', }
+			{{false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},},
+			{{false,{'equipment','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{false,{'oldEquipment','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}
 		}
 	end,
 	[2843] = function()
@@ -3415,7 +3387,7 @@ local tblProto = {
 			{{true,{'qualityInfo','qualityId', 'value', }},'signList', {true,{'items','id', 'num', }},}
 		}
 	end,
-	[1289] = function()
+	[1287] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
@@ -3436,11 +3408,11 @@ local tblProto = {
 			{'level', 'exp', 'propList', }
 		}
 	end,
-	[1292] = function()
+	[1283] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'dressGroups','group', 'curDressId', }},}
+			{'v4','s', 'v4', 'v4', 'v4', 'v4', 'pv4', 'pv4', {false,{'v4','s', 'v4', 's', 'v4', }},'v4', 'b', 'v4', 'tv4', 'b', },
+			{'ct','id', 'cid', 'favor', 'mood', 'status', 'unlockGift', 'unlockHobby', {false,{'dress','ct','id', 'cid', 'roleId', 'outTime', }},'roomId', 'favorCriticalPoint', 'roleState', 'favoriteIds', 'isShow', }
 		}
 	end,
 	[2068] = function()
@@ -3450,25 +3422,25 @@ local tblProto = {
 			{'foodId', 'qteId', 'integral', 'qteIntegral', }
 		}
 	end,
-	[1284] = function()
+	[1288] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
 			{}
 		}
 	end,
-	[1290] = function()
+	[1281] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'rotationList', }
+			{{true,{'v4','s', 'v4', 'v4', 'v4', 'v4', 'pv4', 'pv4', {false,{'v4','s', 'v4', 's', 'v4', }},'v4', 'b', 'v4', 'tv4', 'b', }},'tv4', 'b', },
+			{{true,{'roles','ct','id', 'cid', 'favor', 'mood', 'status', 'unlockGift', 'unlockHobby', {false,{'dress','ct','id', 'cid', 'roleId', 'outTime', }},'roomId', 'favorCriticalPoint', 'roleState', 'favoriteIds', 'isShow', }},'rotationList', 'rotationState', }
 		}
 	end,
-	[1291] = function()
+	[1289] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', },
-			{'rotationState', }
+			{},
+			{}
 		}
 	end,
 	[2835] = function()
@@ -3485,18 +3457,18 @@ local tblProto = {
 			{{true,{'logs','ct','cid', 'count', 'discountNum', }},}
 		}
 	end,
-	[1293] = function()
+	[1292] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'dressId', 'groupId', }
+			{{true,{'v4', 'v4', }},},
+			{{true,{'dressGroups','group', 'curDressId', }},}
 		}
 	end,
-	[7304] = function()
+	[1284] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},},
-			{'result', {true,{'rewards','id', 'num', }},}
+			{},
+			{}
 		}
 	end,
 	[6904] = function()
@@ -3506,18 +3478,18 @@ local tblProto = {
 			{{true,{'areaInfoList','areaId', 'isDevil', 'explored', {true,{'roadInfoList','startAreaId', 'endAreaId', 'unlocked', }},}},'currentAreaId', }
 		}
 	end,
-	[514] = function()
+	[1291] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'items','id', 'num', }},}
+			{'b', },
+			{'rotationState', }
 		}
 	end,
-	[7303] = function()
+	[1293] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', 'v4', },
-			{'id', 'result', }
+			{'v4', 'v4', },
+			{'dressId', 'groupId', }
 		}
 	end,
 	[9014] = function()
@@ -3527,11 +3499,11 @@ local tblProto = {
 			{{true,{'supportRole','playerId', 'playerName', 'startTime', 'times', {false,{'role','roleId', }},{true,{'buff','buffId', 'buffLv', }},}},}
 		}
 	end,
-	[7308] = function()
+	[7304] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', 'v8', 'v4', }},},
-			{{true,{'springEnvelopeInfo','id', 'sendCount', 'receiveCount', 'lastTime', 'money', }},}
+			{'v4', {true,{'v4', 'v4', }},},
+			{'result', {true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[5382] = function()
@@ -3541,11 +3513,39 @@ local tblProto = {
 			{{true,{'levelBuffs','levelCid', 'buff', }},}
 		}
 	end,
-	[4358] = function()
+	[7305] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4','v4', 'v4', },
-			{'ct','cid', 'buy_count', }
+			{{true,{'v4', 'v4', }},},
+			{{true,{'rewards','id', 'num', }},}
+		}
+	end,
+	[1548] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4','s', 'pv4', 'v4', 'v4', 'v4', 'b', }},},
+			{{true,{'cityDatingInfo','ct','cityDatingId', 'datingTimeFrame', 'datingRuleCid', 'date', 'state', 'inDating', }},}
+		}
+	end,
+	[7303] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'s', 'v4', },
+			{'id', 'result', }
+		}
+	end,
+	[7308] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4', 'v4', 'v4', 'v8', 'v4', }},},
+			{{true,{'springEnvelopeInfo','id', 'sendCount', 'receiveCount', 'lastTime', 'money', }},}
+		}
+	end,
+	[5123] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', {true,{'v4', 'v4', }},},
+			{'id', {true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[4366] = function()
@@ -3562,39 +3562,11 @@ local tblProto = {
 			{{true,{'monthCardCfg',{false,{'rechargeCfg','id', 'price', }},'upgradeId', 'icon', 'name', 'des1', {true,{'presentItem','id', 'num', }},{true,{'gainItem','id', 'num', }},'days', 'type', 'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'extendData', }},{true,{'rechargeGiftBagCfg',{false,{'rechargeCfg','id', 'price', }},'type', {true,{'item','id', 'num', }},'name', 'icon', 'tag', 'tagDes', 'tagDes2', 'des1', 'des2', 'order', 'startDate', 'endDate', 'buyCount', 'resetType', 'resetDate', 'playerLevel', {true,{'firstBuyItem','id', 'num', }},'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'originalPrice', 'discount', 'triggerEndDate', 'isTrigger', 'days', 'extendData', }},}
 		}
 	end,
-	[4002] = function()
+	[2836] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', },
-			{'success', }
-		}
-	end,
-	[5123] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},},
-			{'id', {true,{'rewards','id', 'num', }},}
-		}
-	end,
-	[4368] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'rechargeId', 'buyCount', }
-		}
-	end,
-	[3010] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4','v4', }},'v4', },
-			{{true,{'uiChange','ct','cid', }},'wearId', }
-		}
-	end,
-	[1819] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{false,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},},
+			{{false,{'gem','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},}
 		}
 	end,
 	[5125] = function()
@@ -3632,18 +3604,18 @@ local tblProto = {
 			{{false,{'eventInfo','eventId', 'x', 'y', }},}
 		}
 	end,
-	[4387] = function()
+	[4383] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'b', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},'v4', },
-			{'signDays', 'canSign', {true,{'basrReward','id', 'num', }},{true,{'specialReward','id', 'num', }},'etime', }
+			{{true,{'s', 'v4', 'v4', 'b', 'b', 'b', {true,{'v4', 's', 'v4', 'v4', 'b', 'v4', 'v4', }},}},},
+			{{true,{'teamInfo','teamId', 'createTime', 'giftId', 'isShow', 'isComplete', 'isDestroy', {true,{'members','playerId', 'playerName', 'titleId', 'level', 'isCreator', 'portraitCid', 'portraitFrameId', }},}},}
 		}
 	end,
-	[4372] = function()
+	[4368] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{{false,{'v4', 'f4', }},'v4', {true,{'v4', 'v4', }},'s', 's', 'b', 's', 's', 's', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'pv4', {true,{'v4', 'v4', }},'s', 's', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 'v4', 'v4', 'v4', 'b', 'v4', 's', }},'v4', },
-			{{true,{'rechargeGiftBagCfg',{false,{'rechargeCfg','id', 'price', }},'type', {true,{'item','id', 'num', }},'name', 'icon', 'tag', 'tagDes', 'tagDes2', 'des1', 'des2', 'order', 'startDate', 'endDate', 'buyCount', 'resetType', 'resetDate', 'playerLevel', {true,{'firstBuyItem','id', 'num', }},'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'originalPrice', 'discount', 'triggerEndDate', 'isTrigger', 'days', 'extendData', }},'pushStatus', }
+			{'v4', 'v4', },
+			{'rechargeId', 'buyCount', }
 		}
 	end,
 	[7835] = function()
@@ -3660,11 +3632,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[4359] = function()
+	[5154] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'v4', 'v4','v4', }},{false,{{true,{'v4','s', 'v4', 'v8', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{true,{'v4','s', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},{true,{'v4','s', 'v4', 'v4', }},{true,{'v4','s', 'v4', 'v4', }},}},},
-			{{false,{'monthCardInfo','lastGainDate', 'surplus_Gain_Count', 'cardCid', 'ct','etime', }},{false,{'itemList',{true,{'items','ct','id', 'cid', 'num', 'outTime', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'dresss','ct','id', 'cid', 'roleId', 'outTime', }},{true,{'newEquipments','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},{true,{'gems','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},{true,{'treasures','ct','id', 'cid', 'star', }},{true,{'exploreEquip','ct','id', 'cid', 'level', }},}},}
+			{'s', },
+			{'address', }
 		}
 	end,
 	[5198] = function()
@@ -3688,46 +3660,11 @@ local tblProto = {
 			{'skillId', }
 		}
 	end,
-	[4357] = function()
+	[4387] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4','v4', 'v4', }},},
-			{{true,{'info','ct','cid', 'buy_count', }},}
-		}
-	end,
-	[2838] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'items','id', 'num', }},}
-		}
-	end,
-	[4369] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{{false,{'v4', 'f4', }},'v4', {true,{'v4', 'v4', }},'s', 's', 'b', 's', 's', 's', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'pv4', {true,{'v4', 'v4', }},'s', 's', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 'v4', 'v4', 'v4', 'b', 'v4', 's', }},{true,{{false,{'v4', 'f4', }},'v4', 's', 's', 's', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},'v4', 'v4', 's', 's', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 's', }},{true,{{false,{'v4', 'f4', }},'v4', {true,{'v4', 'v4', }},'s', 's', 'b', 's', 's', 's', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'pv4', {true,{'v4', 'v4', }},'s', 's', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 'v4', 'v4', 'v4', 'b', 'v4', 's', }},{true,{{false,{'v4', 'f4', }},'v4', 's', 's', 's', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},'v4', 'v4', 's', 's', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 's', }},},
-			{{true,{'updateCreateGiftCfg',{false,{'rechargeCfg','id', 'price', }},'type', {true,{'item','id', 'num', }},'name', 'icon', 'tag', 'tagDes', 'tagDes2', 'des1', 'des2', 'order', 'startDate', 'endDate', 'buyCount', 'resetType', 'resetDate', 'playerLevel', {true,{'firstBuyItem','id', 'num', }},'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'originalPrice', 'discount', 'triggerEndDate', 'isTrigger', 'days', 'extendData', }},{true,{'updateCreateMonthCardCfg',{false,{'rechargeCfg','id', 'price', }},'upgradeId', 'icon', 'name', 'des1', {true,{'presentItem','id', 'num', }},{true,{'gainItem','id', 'num', }},'days', 'type', 'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'extendData', }},{true,{'deleteGiftCfg',{false,{'rechargeCfg','id', 'price', }},'type', {true,{'item','id', 'num', }},'name', 'icon', 'tag', 'tagDes', 'tagDes2', 'des1', 'des2', 'order', 'startDate', 'endDate', 'buyCount', 'resetType', 'resetDate', 'playerLevel', {true,{'firstBuyItem','id', 'num', }},'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'originalPrice', 'discount', 'triggerEndDate', 'isTrigger', 'days', 'extendData', }},{true,{'deleteMonthCardCfg',{false,{'rechargeCfg','id', 'price', }},'upgradeId', 'icon', 'name', 'des1', {true,{'presentItem','id', 'num', }},{true,{'gainItem','id', 'num', }},'days', 'type', 'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'extendData', }},}
-		}
-	end,
-	[294] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'s', },
-			{'record', }
-		}
-	end,
-	[8401] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'b', 'b', {true,{'v4', 'v4', }},'v4', }},},
-			{{false,{'spirit','spiritPoints', 'grade', 'level', 'exp', {true,{'specialism','cid', 'num', }},'firstShow', 'feedback', {true,{'angleSpirits','heroCid', 'lv', }},'maxLv', }},}
-		}
-	end,
-	[9207] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'v4', 'b', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},'v4', },
+			{'signDays', 'canSign', {true,{'basrReward','id', 'num', }},{true,{'specialReward','id', 'num', }},'etime', }
 		}
 	end,
 	[1827] = function()
@@ -3737,11 +3674,46 @@ local tblProto = {
 			{'attributeId', 'heroId', }
 		}
 	end,
-	[4362] = function()
+	[4372] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'b', 'v4', {true,{'v4', 'v4', }},'v4', 's', }},},
-			{{true,{'rewardCfgs','id', 'canReward', 'amount', {true,{'items','id', 'num', }},'order', 'des', }},}
+			{{true,{{false,{'v4', 'f4', }},'v4', {true,{'v4', 'v4', }},'s', 's', 'b', 's', 's', 's', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'pv4', {true,{'v4', 'v4', }},'s', 's', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 'v4', 'v4', 'v4', 'b', 'v4', 's', }},'v4', },
+			{{true,{'rechargeGiftBagCfg',{false,{'rechargeCfg','id', 'price', }},'type', {true,{'item','id', 'num', }},'name', 'icon', 'tag', 'tagDes', 'tagDes2', 'des1', 'des2', 'order', 'startDate', 'endDate', 'buyCount', 'resetType', 'resetDate', 'playerLevel', {true,{'firstBuyItem','id', 'num', }},'name2', 'des3', 'tagIcon', 'interfaceType', 'buyType', {true,{'exchangeCost','id', 'num', }},'packType', 'originalPrice', 'discount', 'triggerEndDate', 'isTrigger', 'days', 'extendData', }},'pushStatus', }
+		}
+	end,
+	[294] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'s', },
+			{'record', }
+		}
+	end,
+	[5189] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', 'v4', {true,{'v4', 'v4', }},},
+			{'addNum', 'itemId', 'activityId', {true,{'rewards','id', 'num', }},}
+		}
+	end,
+	[9207] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
+		}
+	end,
+	[4359] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{false,{'v4', 'v4', 'v4', 'v4','v4', }},{false,{{true,{'v4','s', 'v4', 'v8', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{true,{'v4','s', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},{true,{'v4','s', 'v4', 'v4', }},{true,{'v4','s', 'v4', 'v4', }},}},},
+			{{false,{'monthCardInfo','lastGainDate', 'surplus_Gain_Count', 'cardCid', 'ct','etime', }},{false,{'itemList',{true,{'items','ct','id', 'cid', 'num', 'outTime', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'dresss','ct','id', 'cid', 'roleId', 'outTime', }},{true,{'newEquipments','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},{true,{'gems','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},{true,{'treasures','ct','id', 'cid', 'star', }},{true,{'exploreEquip','ct','id', 'cid', 'level', }},}},}
+		}
+	end,
+	[4357] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4','v4', 'v4', }},},
+			{{true,{'info','ct','cid', 'buy_count', }},}
 		}
 	end,
 	[7806] = function()
@@ -3758,18 +3730,18 @@ local tblProto = {
 			{{true,{'shareInfos','id', 'statue', 'show', {true,{'rewards','id', 'num', }},}},}
 		}
 	end,
-	[4384] = function()
+	[6227] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'giftInfos','giftId', 'status', }},}
+			{'v4', {false,{{true,{'v4','s', 'v4', 'v8', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{true,{'v4','s', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},{true,{'v4','s', 'v4', 'v4', }},{true,{'v4','s', 'v4', 'v4', }},}},},
+			{'eventCid', {false,{'items',{true,{'items','ct','id', 'cid', 'num', 'outTime', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'dresss','ct','id', 'cid', 'roleId', 'outTime', }},{true,{'newEquipments','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},{true,{'gems','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},{true,{'treasures','ct','id', 'cid', 'star', }},{true,{'exploreEquip','ct','id', 'cid', 'level', }},}},}
 		}
 	end,
-	[4371] = function()
+	[4362] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},},
-			{'id', {true,{'reward','id', 'num', }},}
+			{{true,{'v4', 'b', 'v4', {true,{'v4', 'v4', }},'v4', 's', }},},
+			{{true,{'rewardCfgs','id', 'canReward', 'amount', {true,{'items','id', 'num', }},'order', 'des', }},}
 		}
 	end,
 	[4098] = function()
@@ -3786,18 +3758,18 @@ local tblProto = {
 			{'version', {true,{'notify','creatTime', 'notifyType', 'playerName', 'prams', }},}
 		}
 	end,
-	[4381] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},{true,{'v4', 'v4', }},},
-			{{true,{'items','id', 'num', }},{true,{'giftInfos','giftId', 'status', }},}
-		}
-	end,
-	[4363] = function()
+	[4371] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', {true,{'v4', 'v4', }},},
-			{'id', {true,{'items','id', 'num', }},}
+			{'id', {true,{'reward','id', 'num', }},}
+		}
+	end,
+	[4373] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', {true,{'v4', 'v4', }},'v4', },
+			{'giftId', {true,{'item','id', 'num', }},'receiveCount', }
 		}
 	end,
 	[8508] = function()
@@ -3870,6 +3842,41 @@ local tblProto = {
 			{{true,{'favorRoleStatue','favorDatingId', 'statue', }},}
 		}
 	end,
+	[4381] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4', 'v4', }},{true,{'v4', 'v4', }},},
+			{{true,{'items','id', 'num', }},{true,{'giftInfos','giftId', 'status', }},}
+		}
+	end,
+	[4363] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', {true,{'v4', 'v4', }},},
+			{'id', {true,{'items','id', 'num', }},}
+		}
+	end,
+	[7906] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'b', 'b', 'b', 'v4', 'v4','v4', 'b', }},'b', 'b', },
+			{{true,{'apprenticeList','playerId', 'portraitCId', 'name', 'fightPower', 'level', 'lastLoginTime', 'online', 'portraitFrameCId', 'isFriend', 'isUnion', 'finished', 'type', 'ct','famousExp', 'hasGift', }},'isCD', 'finished', }
+		}
+	end,
+	[8310] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'tv4', },
+			{'usingCards', }
+		}
+	end,
+	[4356] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', 'v4', 'v4','v4', },
+			{'lastGainDate', 'surplus_Gain_Count', 'cardCid', 'ct','etime', }
+		}
+	end,
 	[4380] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -3882,41 +3889,6 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{'v4', 'v4', 'tv4', },
 			{'eventCid', 'gameCid', 'options', }
-		}
-	end,
-	[7906] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 's', 'v4', 'v4', 'v8', 'b', 'v4', 'b', 'b', 'b', 'v4', 'v4','v4', 'b', }},'b', 'b', },
-			{{true,{'apprenticeList','playerId', 'portraitCId', 'name', 'fightPower', 'level', 'lastLoginTime', 'online', 'portraitFrameCId', 'isFriend', 'isUnion', 'finished', 'type', 'ct','famousExp', 'hasGift', }},'isCD', 'finished', }
-		}
-	end,
-	[1822] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'floor', 'costTime', }
-		}
-	end,
-	[6202] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},{true,{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},}},'tv4', {true,{'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', {true,{'v4', 'v4', }},{false,{{true,{'v4', 'v4', 'v4', }},'v4',}},{false,{'v4', 'v4', 'b', }},{false,{{true,{'v4', 'tv8', }},}},},
-			{'worldCid', {true,{'items','itemId', 'itemNum', }},{true,{'missions','missionId', 'progress', }},{true,{'points','x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}},'formation', {true,{'infections','heroId', 'infection', }},'qliphothCoin', 'qliphothEnergy', 'currentX', 'currentY', 'firstUse', 'mapCid', 'eventRefresh', {true,{'exploredPoints','x', 'y', }},{false,{'buffs',{true,{'buffs','buffCid', 'begining', 'useCount', }},'ct',}},{false,{'foundLocation','x', 'y', 'add', }},{false,{'hiddenEvents',{true,{'events','eventCid', 'progress', }},}},}
-		}
-	end,
-	[6209] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'qliphothEnergy', }
-		}
-	end,
-	[8907] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'b', 'v8', }},'v4', },
-			{{true,{'mainLogInfo','logId', 'finished', 'time', }},'type', }
 		}
 	end,
 	[6822] = function()
@@ -3933,32 +3905,32 @@ local tblProto = {
 			{{true,{'stronghold','id', 'state', 'startTime', 'endTime', 'useSupTimes', 'progress', {true,{'event','id', 'state', 'startTime', }},{true,{'role','roleId', }},{true,{'buff','buffId', 'buffLv', }},{true,{'supportRole','playerId', 'playerName', 'startTime', 'times', {false,{'role','roleId', }},{true,{'buff','buffId', 'buffLv', }},}},}},'refreshTimes', 'refreshTime', }
 		}
 	end,
-	[4003] = function()
+	[6301] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', },
-			{'success', }
+			{{true,{'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', 'b', },
+			{{true,{'levels','levelCid', 'status', }},'leftTime', 'count', 'buffCid', 'buffCount', 'awardStatus', 'finishAny', }
 		}
 	end,
-	[6205] = function()
+	[6202] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},},
-			{'x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}
+			{'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},{true,{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},}},'tv4', {true,{'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', {true,{'v4', 'v4', }},{false,{{true,{'v4', 'v4', 'v4', }},'v4',}},{false,{'v4', 'v4', 'b', }},{false,{{true,{'v4', 'tv8', }},}},},
+			{'worldCid', {true,{'items','itemId', 'itemNum', }},{true,{'missions','missionId', 'progress', }},{true,{'points','x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}},'formation', {true,{'infections','heroId', 'infection', }},'qliphothCoin', 'qliphothEnergy', 'currentX', 'currentY', 'firstUse', 'mapCid', 'eventRefresh', {true,{'exploredPoints','x', 'y', }},{false,{'buffs',{true,{'buffs','buffCid', 'begining', 'useCount', }},'ct',}},{false,{'foundLocation','x', 'y', 'add', }},{false,{'hiddenEvents',{true,{'events','eventCid', 'progress', }},}},}
 		}
 	end,
-	[7002] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', },
-			{'portraitType', 'equipCid', 'changCid', }
-		}
-	end,
-	[5178] = function()
+	[6209] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', },
-			{'successCode', }
+			{'qliphothEnergy', }
+		}
+	end,
+	[6512] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', {true,{'v4', 'v4', }},},
+			{'prizeIndex', {true,{'selfContriRewards','id', 'num', }},}
 		}
 	end,
 	[1804] = function()
@@ -3975,11 +3947,11 @@ local tblProto = {
 			{{true,{'datas','ct','data', }},}
 		}
 	end,
-	[6223] = function()
+	[6225] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},}},'v4', },
-			{{true,{'points','x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}},'eventRefresh', }
+			{{true,{'v4', 'v4', 'v4', }},'v4',},
+			{{true,{'buffs','buffCid', 'begining', 'useCount', }},'ct',}
 		}
 	end,
 	[6617] = function()
@@ -3989,11 +3961,11 @@ local tblProto = {
 			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[6229] = function()
+	[8912] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', {false,{{true,{'v4','s', 'v4', 'v8', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{true,{'v4','s', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},{true,{'v4','s', 'v4', 'v4', }},{true,{'v4','s', 'v4', 'v4', }},}},'tv4', },
-			{'eventCid', 'gameCid', {false,{'items',{true,{'items','ct','id', 'cid', 'num', 'outTime', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'dresss','ct','id', 'cid', 'roleId', 'outTime', }},{true,{'newEquipments','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},{true,{'gems','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},{true,{'treasures','ct','id', 'cid', 'star', }},{true,{'exploreEquip','ct','id', 'cid', 'level', }},}},'options', }
+			{{true,{'v4', {true,{'v4', 'v4', }},}},},
+			{{true,{'voteInfo','day', {true,{'detectiveStat','id', 'count', }},}},}
 		}
 	end,
 	[5191] = function()
@@ -4003,11 +3975,11 @@ local tblProto = {
 			{'itemId', }
 		}
 	end,
-	[5633] = function()
+	[7839] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 'v4', {true,{'v4', 'b', }},{true,{'v4', 'v4', }},}},},
-			{{false,{'info','datingType', 'datingValue', {true,{'bag','id', 'num', }},'endings', 'stepTime', {true,{'entrances','entranceId', 'guide', }},{true,{'quality','qualityId', 'value', }},}},}
+			{'tv4', },
+			{'stepInfo', }
 		}
 	end,
 	[7815] = function()
@@ -4017,11 +3989,11 @@ local tblProto = {
 			{{true,{'techTree','techType', 'nationId', {true,{'tech','techId', 'state', }},}},}
 		}
 	end,
-	[1559] = function()
+	[6223] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', },
-			{'trigger', }
+			{{true,{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},}},'v4', },
+			{{true,{'points','x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}},'eventRefresh', }
 		}
 	end,
 	[9004] = function()
@@ -4038,32 +4010,32 @@ local tblProto = {
 			{'id', }
 		}
 	end,
-	[2846] = function()
+	[6150] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{false,{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'b', 'b', }},},
+			{{false,{'chasmInfo','id', 'status', 'fightCount', 'buyCount', 'remainCount', 'awardStartTime', 'awardEndTime', 'isSpecial', 'finishOnce', }},}
 		}
 	end,
-	[5213] = function()
+	[2080] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 's', 's', 's', 'v4', 'v4', 'v4', }},{false,{'v4', 's', 's', 's', 'v4', 'v4', 'v4', }},},
-			{'activityId', {true,{'rankInfo','rank', 'playerName', 'unionName', 'successTime', 'group', 'layer', 'location', }},{false,{'myRank','rank', 'playerName', 'unionName', 'successTime', 'group', 'layer', 'location', }},}
+			{{false,{'v4', 'v4', 'v4', 'v4', }},},
+			{{false,{'handWorkInfo','manualId', 'endTime', 'integral', 'times', }},}
 		}
 	end,
-	[6227] = function()
+	[6213] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {false,{{true,{'v4','s', 'v4', 'v8', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{true,{'v4','s', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},{true,{'v4','s', 'v4', 'v4', }},{true,{'v4','s', 'v4', 'v4', }},}},},
-			{'eventCid', {false,{'items',{true,{'items','ct','id', 'cid', 'num', 'outTime', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'dresss','ct','id', 'cid', 'roleId', 'outTime', }},{true,{'newEquipments','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},{true,{'gems','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},{true,{'treasures','ct','id', 'cid', 'star', }},{true,{'exploreEquip','ct','id', 'cid', 'level', }},}},}
+			{{true,{'v4', 'v4', 'v4', }},'v4', },
+			{{true,{'produces','itemId', 'itemNum', 'buyCount', }},'nextRefresh', }
 		}
 	end,
-	[6201] = function()
+	[7703] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4', 'b', {true,{'v4', 'v4', 'v4', 'v4', }},},
-			{'openWorldCid', 'missionComplete', 'qliphothCoin', 'qliphothEnergy', 'firstUse', {true,{'worldTimes','worldCid', 'begining', 'endTime', 'beSoon', }},}
+			{{true,{'v4', 'v4', 'b', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'b', }},},
+			{{true,{'cities','id', 'dungeon', 'resOpen', 'resCount', 'resStartTime', 'resUpTime', 'replace', 'replaceEnd', 'replaceGame', 'pass', }},}
 		}
 	end,
 	[7840] = function()
@@ -4087,11 +4059,11 @@ local tblProto = {
 			{{true,{'eventList','ct','eventId', {true,{'rewards','id', 'num', }},'roleIds', 'eventEndTime', 'isSpecial', }},'activityId', }
 		}
 	end,
-	[6803] = function()
+	[5139] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', },
-			{'changeType', 'pid', 'heroCid', 'skinCid', 'effectId', 'roomType', }
+			{'s', 'v4', },
+			{'name', 'contribution', }
 		}
 	end,
 	[7823] = function()
@@ -4115,6 +4087,41 @@ local tblProto = {
 			{'heroId', {true,{'crystalInfo','rarity', 'gridId', }},}
 		}
 	end,
+	[6201] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', 'v4', 'v4', 'b', {true,{'v4', 'v4', 'v4', 'v4', }},},
+			{'openWorldCid', 'missionComplete', 'qliphothCoin', 'qliphothEnergy', 'firstUse', {true,{'worldTimes','worldCid', 'begining', 'endTime', 'beSoon', }},}
+		}
+	end,
+	[6828] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', {true,{'v4','v4', 'v4', 'v4', 'b', 'v4', }},'s', },
+			{'roomType', 'decryptTeamId', {true,{'riddles','ct','id', 'lox', 'loy', 'correct', 'playerId', }},'roomId', }
+		}
+	end,
+	[7225] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{false,{{true,{'v4', 'v4', 'v4', }},'v4',}},},
+			{{false,{'buffInfo',{true,{'buffs','buffCid', 'begining', 'useCount', }},'ct',}},}
+		}
+	end,
+	[7812] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{false,{'v4', 'v4', 'tv4', 'v8', 'v4', }},'b', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},},
+			{{false,{'task','id', 'state', 'heroId', 'startTime', 'cabinId', }},'bigAward', {true,{'rewards','id', 'num', }},{true,{'extRewards','id', 'num', }},}
+		}
+	end,
+	[8102] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{false,{'v4', {true,{'v4', 'v4', }},}},},
+			{{false,{'eventInfo','eventId', {true,{'rewards','id', 'num', }},}},}
+		}
+	end,
 	[6207] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -4127,41 +4134,6 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{{true,{'v4', 'v4', }},},
 			{{true,{'infections','heroId', 'infection', }},}
-		}
-	end,
-	[7225] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{{true,{'v4', 'v4', 'v4', }},'v4',}},},
-			{{false,{'buffInfo',{true,{'buffs','buffCid', 'begining', 'useCount', }},'ct',}},}
-		}
-	end,
-	[6225] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', }},'v4',},
-			{{true,{'buffs','buffCid', 'begining', 'useCount', }},'ct',}
-		}
-	end,
-	[8102] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{'v4', {true,{'v4', 'v4', }},}},},
-			{{false,{'eventInfo','eventId', {true,{'rewards','id', 'num', }},}},}
-		}
-	end,
-	[6221] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'v4', 'v4', 'b', {true,{'v4', 'v4', 'v4', 'v4', }},}},'b', },
-			{{false,{'treeInfo','openWorldCid', 'missionComplete', 'qliphothCoin', 'qliphothEnergy', 'firstUse', {true,{'worldTimes','worldCid', 'begining', 'endTime', 'beSoon', }},}},'openStatus', }
-		}
-	end,
-	[7003] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'portraitType', }
 		}
 	end,
 	[6219] = function()
@@ -4192,18 +4164,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[5181] = function()
+	[6303] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'totalScore', }
+			{{true,{'v4', 'v4', }},},
+			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[6613] = function()
+	[6221] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', {true,{'v4', 'b', }},},
-			{'refreshCount', 'refreshTime', 'helpCount', {true,{'levels','cid', 'pass', }},}
+			{{false,{'v4', 'v4', 'v4', 'v4', 'b', {true,{'v4', 'v4', 'v4', 'v4', }},}},'b', },
+			{{false,{'treeInfo','openWorldCid', 'missionComplete', 'qliphothCoin', 'qliphothEnergy', 'firstUse', {true,{'worldTimes','worldCid', 'begining', 'endTime', 'beSoon', }},}},'openStatus', }
 		}
 	end,
 	[1800] = function()
@@ -4213,11 +4185,11 @@ local tblProto = {
 			{'cid', }
 		}
 	end,
-	[285] = function()
+	[7003] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', },
-			{'pid', }
+			{'portraitType', }
 		}
 	end,
 	[25606] = function()
@@ -4227,11 +4199,11 @@ local tblProto = {
 			{{true,{'netFrames','index', {true,{'operateFrame','pid', 'keyCode', 'keyEvent', 'keyEventEx', 'posX', 'posY', 'dir', 'hp', 'sp', }},{true,{'dataFrame','pid', 'action', }},{true,{'bossFrame','id', 'posX', 'posY', 'dir', 'hp', 'operate', 'sp', }},{true,{'aiFrame','id', 'pid', 'lastStep', 'curStep', 'funcID', 'param1', 'param2', 'param3', }},}},}
 		}
 	end,
-	[266] = function()
+	[7002] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'pv4', 'v4', 'v4', },
-			{'x1', 'x2', 'x3', }
+			{'v4', 'v4', 'v4', },
+			{'portraitType', 'equipCid', 'changCid', }
 		}
 	end,
 	[2841] = function()
@@ -4269,18 +4241,18 @@ local tblProto = {
 			{'roomType', {true,{'areaRiddles','ct','decryptTeamId', 'success', 'nextTriggerTime', {true,{'riddles','ct','id', 'lox', 'loy', 'correct', 'playerId', }},}},'roomId', }
 		}
 	end,
-	[265] = function()
+	[285] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4','v4', 'v4', 'ts', }},},
-			{{true,{'formations','ct','type', 'status', 'stance', }},}
+			{'v4', },
+			{'pid', }
 		}
 	end,
-	[1817] = function()
+	[266] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'b', }},{true,{'v4', 'v4', }},'tv4', 'tv4', },
-			{{true,{'experiment','id', 'score', 'up', }},{true,{'heroBuff','heroId', 'buffId', }},'taskList', 'attackOrder', }
+			{'pv4', 'v4', 'v4', },
+			{'x1', 'x2', 'x3', }
 		}
 	end,
 	[5194] = function()
@@ -4290,18 +4262,18 @@ local tblProto = {
 			{'friendId', 'friendName', 'timeout', }
 		}
 	end,
-	[290] = function()
+	[293] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4', },
-			{'dayBackground', 'nightBackground', 'dayBGM', 'nightBGM', }
+			{'tv4', },
+			{'recoverTimeList', }
 		}
 	end,
-	[267] = function()
+	[265] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 's', 'v4', 'v8', 'v4', 'v8', 'v4','s', 'v4', {true,{'v4','v4', }},'b', 's', 's', 'tv4', 'v4', 'v4', {false,{{true,{'v4', {true,{'v4', 'v4', }},'v4', 'b', }},'v4', 'v4', }},'v4', 's', 'v4', 'v4', 'v4', },
-			{'pid', 'name', 'lvl', 'exp', 'vip_lvl', 'vip_exp', 'language','remark', 'helpFightHeroCid', {true,{'attr','attrKey','attrVal', }},'isFirstLogin', 'clientDiscreteData', 'settings', 'recoverTimeList', 'portraitCid', 'portraitFrameCid', {false,{'element',{true,{'elments','type', {true,{'element','cid', 'reward', }},'trophy', 'scan', }},'rank', 'totleTrophy', }},'unionId', 'unionName', 'titleId', 'createTime', 'famousExp', }
+			{{true,{'v4','v4', 'v4', 'ts', }},},
+			{{true,{'formations','ct','type', 'status', 'stance', }},}
 		}
 	end,
 	[1794] = function()
@@ -4325,18 +4297,18 @@ local tblProto = {
 			{{true,{'levelInfos','cid', 'goals', 'fightCount', 'win', 'buyCount', }},{true,{'dungeonInfos','dungeonId', 'time', }},{false,{'enemy','invadeId', 'time', }},{true,{'mapBoxes','location', 'eventCid', }},}
 		}
 	end,
-	[5168] = function()
+	[8907] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4','v4', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},}},{true,{'v4','v4', {true,{'v4', 'v4', }},'tv4', 'v4', 'b', }},{true,{'v4','v4', 'v4', }},},
-			{'activityId', {true,{'hangUpRoleInfo','ct','roleId', 'level', 'nextSettleTime', 'currentEventId', {true,{'rewards','id', 'num', }},}},{true,{'eventList','ct','eventId', {true,{'rewards','id', 'num', }},'roleIds', 'eventEndTime', 'isSpecial', }},{true,{'specialAward','ct','id', 'triggerId', }},}
+			{{true,{'v4', 'b', 'v8', }},'v4', },
+			{{true,{'mainLogInfo','logId', 'finished', 'time', }},'type', }
 		}
 	end,
-	[304] = function()
+	[290] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', 's', 'v4', },
-			{'needChange', 'data', 'id', }
+			{'v4', 'v4', 'v4', 'v4', },
+			{'dayBackground', 'nightBackground', 'dayBGM', 'nightBGM', }
 		}
 	end,
 	[4868] = function()
@@ -4353,11 +4325,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[5126] = function()
+	[267] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4','v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 's', 's', 'v4', 's', 'tv4', 's', }},},
-			{{true,{'activitys','ct','id', 'activityType', 'activityTitle', 'startTime', 'endTime', 'showStartTime', 'showEndTime', 'remark', 'extendData', 'rank', 'showIcon', 'items', 'titleIcon', }},}
+			{'v4', 's', 'v4', 'v8', 'v4', 'v8', 'v4','s', 'v4', {true,{'v4','v4', }},'b', 's', 's', 'tv4', 'v4', 'v4', {false,{{true,{'v4', {true,{'v4', 'v4', }},'v4', 'b', }},'v4', 'v4', }},'v4', 's', 'v4', 'v4', 'v4', },
+			{'pid', 'name', 'lvl', 'exp', 'vip_lvl', 'vip_exp', 'language','remark', 'helpFightHeroCid', {true,{'attr','attrKey','attrVal', }},'isFirstLogin', 'clientDiscreteData', 'settings', 'recoverTimeList', 'portraitCid', 'portraitFrameCid', {false,{'element',{true,{'elments','type', {true,{'element','cid', 'reward', }},'trophy', 'scan', }},'rank', 'totleTrophy', }},'unionId', 'unionName', 'titleId', 'createTime', 'famousExp', }
 		}
 	end,
 	[3334] = function()
@@ -4388,18 +4360,18 @@ local tblProto = {
 			{'success', }
 		}
 	end,
-	[292] = function()
+	[304] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'time', }
+			{'b', 's', 'v4', },
+			{'needChange', 'data', 'id', }
 		}
 	end,
-	[284] = function()
+	[6401] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'anti', }
+			{'v4', 'v4', 'b', 'b', {true,{'v4', 'pv4', 'v4', 'b', 'v4', }},},
+			{'startTime', 'endTime', 'status', 'alwaysOpen', {true,{'levelInfos','cid', 'goals', 'fightCount', 'win', 'buyCount', }},}
 		}
 	end,
 	[6513] = function()
@@ -4409,11 +4381,11 @@ local tblProto = {
 			{'id', 'chapterId', }
 		}
 	end,
-	[301] = function()
+	[264] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},'v4', },
-			{{true,{'phantomInfo','pos', 'phantomId', }},'type', }
+			{'v4','v4', 'v4', 'ts', },
+			{'ct','type', 'status', 'stance', }
 		}
 	end,
 	[3076] = function()
@@ -4423,11 +4395,11 @@ local tblProto = {
 			{{true,{'friends','pid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'lastHandselTime', 'receive', 'status', 'leaderCid', 'online', 'ct','time', 'helpCDtime', 'canSend', 'portraitCid', 'portraitFrameCid', 'groupGiftIds', 'type', }},}
 		}
 	end,
-	[287] = function()
+	[292] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', 's', },
-			{'openAsk', 'askUrl', }
+			{'v4', },
+			{'time', }
 		}
 	end,
 	[7810] = function()
@@ -4444,18 +4416,18 @@ local tblProto = {
 			{'roleid', {true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[7202] = function()
+	[301] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},{true,{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},}},'tv4', 'v4', 'v4', 'b', 'v4', 'v4', {true,{'v4', 'v4', }},{false,{{true,{'v4', 'v4', 'v4', }},'v4',}},{false,{'v4', 'v4', 'b', }},{false,{{true,{'v4', 'tv8', }},}},},
-			{'worldCid', {true,{'items','itemId', 'itemNum', }},{true,{'missions','missionId', 'progress', }},{true,{'points','x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}},'formation', 'currentX', 'currentY', 'firstUse', 'mapCid', 'eventRefresh', {true,{'exploredPoints','x', 'y', }},{false,{'buffs',{true,{'buffs','buffCid', 'begining', 'useCount', }},'ct',}},{false,{'foundLocation','x', 'y', 'add', }},{false,{'hiddenEvents',{true,{'events','eventCid', 'progress', }},}},}
+			{{true,{'v4', 'v4', }},'v4', },
+			{{true,{'phantomInfo','pos', 'phantomId', }},'type', }
 		}
 	end,
-	[7102] = function()
+	[287] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'tv4', 'tv4', {true,{'v4', {true,{'v4', 'v4', }},}},},
-			{'curAreaCid', 'openAreas', 'finTasks', {true,{'complteEvents','areaCid', {true,{'events','cid', 'num', }},}},}
+			{'b', 's', },
+			{'openAsk', 'askUrl', }
 		}
 	end,
 	[5155] = function()
@@ -4472,11 +4444,11 @@ local tblProto = {
 			{'activityId', 'stage', }
 		}
 	end,
-	[7210] = function()
+	[7202] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'ambushId', }
+			{'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},{true,{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},}},'tv4', 'v4', 'v4', 'b', 'v4', 'v4', {true,{'v4', 'v4', }},{false,{{true,{'v4', 'v4', 'v4', }},'v4',}},{false,{'v4', 'v4', 'b', }},{false,{{true,{'v4', 'tv8', }},}},},
+			{'worldCid', {true,{'items','itemId', 'itemNum', }},{true,{'missions','missionId', 'progress', }},{true,{'points','x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}},'formation', 'currentX', 'currentY', 'firstUse', 'mapCid', 'eventRefresh', {true,{'exploredPoints','x', 'y', }},{false,{'buffs',{true,{'buffs','buffCid', 'begining', 'useCount', }},'ct',}},{false,{'foundLocation','x', 'y', 'add', }},{false,{'hiddenEvents',{true,{'events','eventCid', 'progress', }},}},}
 		}
 	end,
 	[7220] = function()
@@ -4486,11 +4458,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[7104] = function()
+	[7102] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'finTasks', }
+			{'v4', 'tv4', 'tv4', {true,{'v4', {true,{'v4', 'v4', }},}},},
+			{'curAreaCid', 'openAreas', 'finTasks', {true,{'complteEvents','areaCid', {true,{'events','cid', 'num', }},}},}
 		}
 	end,
 	[2824] = function()
@@ -4500,11 +4472,11 @@ local tblProto = {
 			{{true,{'items','id', 'num', }},}
 		}
 	end,
-	[7205] = function()
+	[7206] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},}},},
-			{{false,{'mapPoint','x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}},}
+			{{true,{'v4', 'v4', }},},
+			{{true,{'items','itemId', 'itemNum', }},}
 		}
 	end,
 	[1049] = function()
@@ -4514,11 +4486,11 @@ local tblProto = {
 			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[7217] = function()
+	[7210] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'b', {true,{'v4', 'v4', }},}},},
-			{{false,{'exploreInfo','result', {true,{'exploredPoints','x', 'y', }},}},}
+			{'v4', },
+			{'ambushId', }
 		}
 	end,
 	[3330] = function()
@@ -4528,18 +4500,18 @@ local tblProto = {
 			{{false,{'composeInfo','cid', 'finishTime', {true,{'items','id', 'num', }},'costTime', }},}
 		}
 	end,
-	[7215] = function()
+	[7205] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', {false,{{true,{'v4','s', 'v4', 'v8', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{true,{'v4','s', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},{true,{'v4','s', 'v4', 'v4', }},{true,{'v4','s', 'v4', 'v4', }},}},}},},
-			{{false,{'eventItems','x', 'y', {false,{'items',{true,{'items','ct','id', 'cid', 'num', 'outTime', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'dresss','ct','id', 'cid', 'roleId', 'outTime', }},{true,{'newEquipments','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},{true,{'gems','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},{true,{'treasures','ct','id', 'cid', 'star', }},{true,{'exploreEquip','ct','id', 'cid', 'level', }},}},}},}
+			{{false,{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},}},},
+			{{false,{'mapPoint','x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}},}
 		}
 	end,
-	[5137] = function()
+	[7217] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v8', },
-			{'serverContribution', }
+			{{false,{'b', {true,{'v4', 'v4', }},}},},
+			{{false,{'exploreInfo','result', {true,{'exploredPoints','x', 'y', }},}},}
 		}
 	end,
 	[6222] = function()
@@ -4570,25 +4542,25 @@ local tblProto = {
 			{{false,{'info','id', 'desc', {true,{'detail','position', 'equipId', }},}},}
 		}
 	end,
-	[7224] = function()
+	[7215] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'b', }},},
-			{{false,{'eventInfo','x', 'y', 'add', }},}
+			{{false,{'v4', 'v4', {false,{{true,{'v4','s', 'v4', 'v8', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{true,{'v4','s', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},{true,{'v4','s', 'v4', 'v4', }},{true,{'v4','s', 'v4', 'v4', }},}},}},},
+			{{false,{'eventItems','x', 'y', {false,{'items',{true,{'items','ct','id', 'cid', 'num', 'outTime', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'dresss','ct','id', 'cid', 'roleId', 'outTime', }},{true,{'newEquipments','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},{true,{'gems','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},{true,{'treasures','ct','id', 'cid', 'star', }},{true,{'exploreEquip','ct','id', 'cid', 'level', }},}},}},}
 		}
 	end,
-	[7103] = function()
+	[1028] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'areaCid', }
+			{{false,{'v4','s', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'v4', {true,{'v4', 's', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},}},'b', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {true,{'v4', 'v4', }},'tv4', {true,{'v4', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},}},'v4','v4', {true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},'v4', 'tv4', 'v4', }},},
+			{{false,{'hero','ct','id', 'cid', 'lvl', 'exp', {true,{'attr','type', 'val', }},'advancedLvl', {true,{'equipments','position', 'equipmentId', {false,{'equip','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}},'helpFight', 'angelLvl', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},'useSkillPiont', 'quality', 'provide', 'fightPower', 'skinCid', {true,{'skillStrategyInfo','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},'useSkillStrategy', {true,{'crystalInfo','rarity', 'gridId', }},'equipSkillIds', {true,{'euqipFetterInfo','index', {false,{'newEquipmentInfo','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},}},'heroStatus','deadLine', {true,{'gemInfos','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},'skinCidTemp', 'exploreTreasureSkill', 'breakLv', }},}
 		}
 	end,
-	[7227] = function()
+	[8606] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', {false,{{true,{'v4','s', 'v4', 'v8', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{true,{'v4','s', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},{true,{'v4','s', 'v4', 'v4', }},{true,{'v4','s', 'v4', 'v4', }},}},}},},
-			{{false,{'rewardInfo','eventCid', {false,{'items',{true,{'items','ct','id', 'cid', 'num', 'outTime', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'dresss','ct','id', 'cid', 'roleId', 'outTime', }},{true,{'newEquipments','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},{true,{'gems','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},{true,{'treasures','ct','id', 'cid', 'star', }},{true,{'exploreEquip','ct','id', 'cid', 'level', }},}},}},}
+			{{true,{'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},},
+			{{true,{'dispatches','dungeonType', {true,{'fightPower','hero', 'fightPower', }},{true,{'dungeonInfo','dungeonCid', 'multiple', 'eTime', 'awardCount', 'runCount', 'maxCount', }},}},}
 		}
 	end,
 	[5120] = function()
@@ -4605,6 +4577,27 @@ local tblProto = {
 			{'bossDungeonId', }
 		}
 	end,
+	[7103] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', },
+			{'areaCid', }
+		}
+	end,
+	[7227] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{false,{'v4', {false,{{true,{'v4','s', 'v4', 'v8', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},{true,{'v4','s', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},{true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},{true,{'v4','s', 'v4', 'v4', }},{true,{'v4','s', 'v4', 'v4', }},}},}},},
+			{{false,{'rewardInfo','eventCid', {false,{'items',{true,{'items','ct','id', 'cid', 'num', 'outTime', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'dresss','ct','id', 'cid', 'roleId', 'outTime', }},{true,{'newEquipments','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},{true,{'gems','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},{true,{'treasures','ct','id', 'cid', 'star', }},{true,{'exploreEquip','ct','id', 'cid', 'level', }},}},}},}
+		}
+	end,
+	[7219] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4', 'v4', 'v4', 'b', 'b', {true,{'v4', 'v4', }},}},},
+			{{true,{'points','x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}},}
+		}
+	end,
 	[7229] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -4617,27 +4610,6 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{'v8', },
 			{'serverContribution', }
-		}
-	end,
-	[6511] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'datingNodes', }
-		}
-	end,
-	[6512] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', }},},
-			{'prizeIndex', {true,{'selfContriRewards','id', 'num', }},}
-		}
-	end,
-	[6514] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'id', 'chapterId', }
 		}
 	end,
 	[6670] = function()
@@ -4654,18 +4626,18 @@ local tblProto = {
 			{{true,{'produces','itemId', 'itemNum', 'buyCount', }},{true,{'rewardItems','itemId', 'itemNum', }},}
 		}
 	end,
-	[5124] = function()
+	[1537] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4','v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 's', 's', 'v4', 's', 'tv4', 's', }},},
-			{{true,{'activitys','ct','id', 'activityType', 'activityTitle', 'startTime', 'endTime', 'showStartTime', 'showEndTime', 'remark', 'extendData', 'rank', 'showIcon', 'items', 'titleIcon', }},}
+			{},
+			{}
 		}
 	end,
-	[6804] = function()
+	[6514] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 's', 'v4', {false,{'v4', 'v4', 'v4', 'v4', }},'v4', 'v4', }},'v4', },
-			{{false,{'playerInfo','pid', 'pname', 'level', 'heroCid', 'skinCid', 'unionId', 'unionName', 'titleId', {false,{'pos','x', 'y', 'dir', 'dt', }},'buildId', 'effectId', }},'roomType', }
+			{'v4', 'v4', },
+			{'id', 'chapterId', }
 		}
 	end,
 	[4865] = function()
@@ -4675,11 +4647,11 @@ local tblProto = {
 			{{true,{'elments','type', {true,{'element','cid', 'reward', }},'trophy', 'scan', }},'rank', 'totleTrophy', }
 		}
 	end,
-	[1821] = function()
+	[6504] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', {true,{'v4', 'v4', }},}},},
-			{'floor', {true,{'roundFormation','round', {true,{'heroes','index', 'hero', }},}},}
+			{{true,{'v4', 'v4', }},},
+			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[1558] = function()
@@ -4687,6 +4659,27 @@ local tblProto = {
 			{"net.NetHelper", "receive"},
 			{{true,{'v4', 'v4', 'v4', }},},
 			{{true,{'sealStateInfo','roleId', 'sealState', 'sealType', }},}
+		}
+	end,
+	[5196] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'b', },
+			{'friendId', 'result', }
+		}
+	end,
+	[6804] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 's', 'v4', {false,{'v4', 'v4', 'v4', 'v4', }},'v4', 'v4', }},'v4', },
+			{{false,{'playerInfo','pid', 'pname', 'level', 'heroCid', 'skinCid', 'unionId', 'unionName', 'titleId', {false,{'pos','x', 'y', 'dir', 'dt', }},'buildId', 'effectId', }},'roomType', }
+		}
+	end,
+	[6605] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 's', 'v4', {true,{'v4', 'v4', }},},
+			{'type', 'playerName', 'param', {true,{'composePrizes','id', 'num', }},}
 		}
 	end,
 	[6808] = function()
@@ -4703,32 +4696,11 @@ local tblProto = {
 			{'roomType', {false,{'areaShowTime','decorateId', 'stime', 'etime', 'needToShow', }},}
 		}
 	end,
-	[6605] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 's', 'v4', {true,{'v4', 'v4', }},},
-			{'type', 'playerName', 'param', {true,{'composePrizes','id', 'num', }},}
-		}
-	end,
 	[6823] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'v4', {true,{'v4', 's', {false,{'v4', 'v4', 'v4', 'v4', }},'s', }},},
 			{'roomType', {true,{'roomDecorate','decorateId', 'pid', {false,{'pos','x', 'y', 'dir', 'dt', }},'ext', }},}
-		}
-	end,
-	[6828] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', {true,{'v4','v4', 'v4', 'v4', 'b', 'v4', }},'s', },
-			{'roomType', 'decryptTeamId', {true,{'riddles','ct','id', 'lox', 'loy', 'correct', 'playerId', }},'roomId', }
-		}
-	end,
-	[8912] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', {true,{'v4', 'v4', }},}},},
-			{{true,{'voteInfo','day', {true,{'detectiveStat','id', 'count', }},}},}
 		}
 	end,
 	[6211] = function()
@@ -4738,11 +4710,11 @@ local tblProto = {
 			{{false,{'currentPoint','x', 'y', 'event', 'eventValid', 'visual', {true,{'foundPoints','x', 'y', }},}},}
 		}
 	end,
-	[6805] = function()
+	[8603] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'pid', 'roomType', }
+			{{true,{'v4', 'v4', }},},
+			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[7842] = function()
@@ -4752,18 +4724,18 @@ local tblProto = {
 			{'skinId', }
 		}
 	end,
-	[7828] = function()
+	[5158] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', {true,{'v4', 'v4', }},},
-			{'techType', 'nationId', {true,{'tech','techId', 'state', }},}
+			{},
+			{}
 		}
 	end,
-	[6800] = function()
+	[6803] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', 's', 'v4', 'v4', },
-			{'roomId', 'fightServerHost', 'fightServerPort', 'roomType', }
+			{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', },
+			{'changeType', 'pid', 'heroCid', 'skinCid', 'effectId', 'roomType', }
 		}
 	end,
 	[5199] = function()
@@ -4794,11 +4766,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[6811] = function()
+	[6805] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'b', {true,{'v4', 'v4', }},}},'tv4', 'tv4', 'v4', },
-			{{true,{'chapterInfo','chapter', 'isOpen', {true,{'mission','dungeonId', 'fightCount', }},}},'passedMission', 'firstPassedMission', 'endTime', }
+			{'v4', 'v4', },
+			{'pid', 'roomType', }
 		}
 	end,
 	[6226] = function()
@@ -4808,6 +4780,20 @@ local tblProto = {
 			{{true,{'events','eventCid', 'progress', }},}
 		}
 	end,
+	[6800] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'s', 's', 'v4', 'v4', },
+			{'roomId', 'fightServerHost', 'fightServerPort', 'roomType', }
+		}
+	end,
+	[1559] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'b', },
+			{'trigger', }
+		}
+	end,
 	[9203] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -4815,25 +4801,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[5130] = function()
+	[6811] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', {true,{'s', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},'v4', },
-			{'activityId', {true,{'ranks','rank', 'playerId', 'playerName', 'score', 'headIcon', 'helpFightHeroId', 'level', 'frameCid', 'groupRank', {true,{'rankPlayerInfo','playerName', 'playerId', 'level', 'frameCid', 'headIcon', 'helpFightHeroId', 'heroId', }},}},'myRank', }
-		}
-	end,
-	[8911] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', 'v4', {true,{'v4', 'v4', }},},
-			{'id', 'voteId', {true,{'rewardInfo','id', 'num', }},}
-		}
-	end,
-	[2062] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'s', 'v8', 'v8', 'v4', },
-			{'eggPool', 'pollRefreshCdEndTime', 'catchEndTime', 'eggPoolId', }
+			{{true,{'v4', 'b', {true,{'v4', 'v4', }},}},'tv4', 'tv4', 'v4', },
+			{{true,{'chapterInfo','chapter', 'isOpen', {true,{'mission','dungeonId', 'fightCount', }},}},'passedMission', 'firstPassedMission', 'endTime', }
 		}
 	end,
 	[25613] = function()
@@ -4843,11 +4815,11 @@ local tblProto = {
 			{'pid', {true,{'rewards','id', 'num', }},'extTips', {true,{'extRewards','id', 'num', }},}
 		}
 	end,
-	[2080] = function()
+	[9159] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'v4', 'v4', }},},
-			{{false,{'handWorkInfo','manualId', 'endTime', 'integral', 'times', }},}
+			{{true,{'v4', 'v4', }},},
+			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[8001] = function()
@@ -4878,11 +4850,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[2078] = function()
+	[2062] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', {true,{'v4', 'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},'v4', 'v4', 'v4', }},'v4', 'v8', }},{true,{'v4', 'v4', }},{true,{'v4', 'v4', }},'v8', },
-			{{false,{'jobList','buildingId', {true,{'jobInfos','buildingId', 'type', {true,{'rewards','id', 'num', }},{true,{'extraRewards','id', 'num', }},'jobId', 'jobType', 'etime', }},'level', 'exp', }},{true,{'rewards','id', 'num', }},{true,{'extraRewards','id', 'num', }},'addExp', }
+			{'s', 'v8', 'v8', 'v4', },
+			{'eggPool', 'pollRefreshCdEndTime', 'catchEndTime', 'eggPoolId', }
 		}
 	end,
 	[5134] = function()
@@ -4892,13 +4864,6 @@ local tblProto = {
 			{'url', }
 		}
 	end,
-	[6301] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', 'b', },
-			{{true,{'levels','levelCid', 'status', }},'leftTime', 'count', 'buffCid', 'buffCount', 'awardStatus', 'finishAny', }
-		}
-	end,
 	[2848] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -4906,11 +4871,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[7812] = function()
+	[262] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'tv4', 'v8', 'v4', }},'b', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},},
-			{{false,{'task','id', 'state', 'heroId', 'startTime', 'cabinId', }},'bigAward', {true,{'rewards','id', 'num', }},{true,{'extRewards','id', 'num', }},}
+			{},
+			{}
+		}
+	end,
+	[8501] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{false,{'v4', 'v4', }},{false,{'v4', 'v4', 'v4', 'tv4', 'v4', }},{false,{{true,{'v4', 'v4', }},'v4', }},},
+			{{false,{'step','step', 'nextTime', }},{false,{'curBoss','curDungeon', 'dungeonHp', 'leftCount', 'dungeonBuffs', 'honor', }},{false,{'playerWeakness',{true,{'weakness','dungeon', 'count', }},'leftCount', }},}
 		}
 	end,
 	[5640] = function()
@@ -4927,18 +4899,18 @@ local tblProto = {
 			{{false,{'myInfo','playerId', 'name', 'portraitCid', 'portraitFrameCid', 'context', 'time', }},{true,{'friendWish','playerId', 'name', 'portraitCid', 'portraitFrameCid', 'context', 'time', }},{true,{'unionWish','playerId', 'name', 'portraitCid', 'portraitFrameCid', 'context', 'time', }},}
 		}
 	end,
-	[8501] = function()
+	[2078] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', }},{false,{'v4', 'v4', 'v4', 'tv4', 'v4', }},{false,{{true,{'v4', 'v4', }},'v4', }},},
-			{{false,{'step','step', 'nextTime', }},{false,{'curBoss','curDungeon', 'dungeonHp', 'leftCount', 'dungeonBuffs', 'honor', }},{false,{'playerWeakness',{true,{'weakness','dungeon', 'count', }},'leftCount', }},}
+			{{false,{'v4', {true,{'v4', 'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', }},'v4', 'v4', 'v4', }},'v4', 'v8', }},{true,{'v4', 'v4', }},{true,{'v4', 'v4', }},'v8', },
+			{{false,{'jobList','buildingId', {true,{'jobInfos','buildingId', 'type', {true,{'rewards','id', 'num', }},{true,{'extraRewards','id', 'num', }},'jobId', 'jobType', 'etime', }},'level', 'exp', }},{true,{'rewards','id', 'num', }},{true,{'extraRewards','id', 'num', }},'addExp', }
 		}
 	end,
-	[8603] = function()
+	[5126] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'rewards','id', 'num', }},}
+			{{true,{'v4','v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 's', 's', 'v4', 's', 'tv4', 's', }},},
+			{{true,{'activitys','ct','id', 'activityType', 'activityTitle', 'startTime', 'endTime', 'showStartTime', 'showEndTime', 'remark', 'extendData', 'rank', 'showIcon', 'items', 'titleIcon', }},}
 		}
 	end,
 	[8906] = function()
@@ -4962,11 +4934,11 @@ local tblProto = {
 			{'cid', 'count', {true,{'reward','id', 'num', }},}
 		}
 	end,
-	[7703] = function()
+	[7828] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'b', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'b', }},},
-			{{true,{'cities','id', 'dungeon', 'resOpen', 'resCount', 'resStartTime', 'resUpTime', 'replace', 'replaceEnd', 'replaceGame', 'pass', }},}
+			{'v4', 'v4', {true,{'v4', 'v4', }},},
+			{'techType', 'nationId', {true,{'tech','techId', 'state', }},}
 		}
 	end,
 	[7802] = function()
@@ -5018,18 +4990,18 @@ local tblProto = {
 			{}
 		}
 	end,
-	[1825] = function()
+	[8401] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},}},'tv4', },
-			{{true,{'linkHero','heroId', 'level', 'exp', 'desire', 'index', {true,{'attrs','attributeId', 'value', }},}},'additionHero', }
+			{{false,{'v4', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'b', 'b', {true,{'v4', 'v4', }},'v4', }},},
+			{{false,{'spirit','spiritPoints', 'grade', 'level', 'exp', {true,{'specialism','cid', 'num', }},'firstShow', 'feedback', {true,{'angleSpirits','heroCid', 'lv', }},'maxLv', }},}
 		}
 	end,
-	[3002] = function()
+	[2846] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', },
-			{'success', }
+			{},
+			{}
 		}
 	end,
 	[7101] = function()
@@ -5046,11 +5018,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[3011] = function()
+	[1825] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'cid', }
+			{{true,{'v4', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},}},'tv4', },
+			{{true,{'linkHero','heroId', 'level', 'exp', 'desire', 'index', {true,{'attrs','attributeId', 'value', }},}},'additionHero', }
 		}
 	end,
 	[4377] = function()
@@ -5060,11 +5032,11 @@ local tblProto = {
 			{{false,{'teamInfo','teamId', 'createTime', 'giftId', 'isShow', 'isComplete', 'isDestroy', {true,{'members','playerId', 'playerName', 'titleId', 'level', 'isCreator', 'portraitCid', 'portraitFrameId', }},}},}
 		}
 	end,
-	[7603] = function()
+	[5633] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},{true,{'v4', 'v4', }},},
-			{{true,{'manaBagInfo','id', 'level', }},{true,{'manaEquipInfo','id', 'pos', }},}
+			{{false,{'v4', 'v4', {true,{'v4', 'v4', }},'tv4', 'v4', {true,{'v4', 'b', }},{true,{'v4', 'v4', }},}},},
+			{{false,{'info','datingType', 'datingValue', {true,{'bag','id', 'num', }},'endings', 'stepTime', {true,{'entrances','entranceId', 'guide', }},{true,{'quality','qualityId', 'value', }},}},}
 		}
 	end,
 	[9409] = function()
@@ -5088,25 +5060,25 @@ local tblProto = {
 			{{true,{'players','pid', 'pName', 'headId', 'headFrame', 'level', 'fightPower', 'round', 'prize', 'sid', 'channel', }},}
 		}
 	end,
-	[7601] = function()
+	[3011] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', }},},
-			{{false,{'manaBagInfo','id', 'level', }},}
+			{'v4', },
+			{'cid', }
 		}
 	end,
-	[772] = function()
+	[3010] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4','s', 'v4', 's', 'v4', 'v4', 'v4', 's', 's', {true,{'v4', 'v4', }},'v4', }},},
-			{{true,{'mails','ct','id', 'senderId', 'senderName', 'createTime', 'modifiedTime', 'status', 'title', 'body', {true,{'rewards','id', 'num', }},'mailType', }},}
+			{{true,{'v4','v4', }},'v4', },
+			{{true,{'uiChange','ct','cid', }},'wearId', }
 		}
 	end,
-	[9155] = function()
+	[7603] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', }},},
-			{{true,{'maidObject','onlyId', 'cid', 'strength', }},}
+			{{true,{'v4', 'v4', }},{true,{'v4', 'v4', }},},
+			{{true,{'manaBagInfo','id', 'level', }},{true,{'manaEquipInfo','id', 'pos', }},}
 		}
 	end,
 	[2821] = function()
@@ -5130,18 +5102,18 @@ local tblProto = {
 			{'cid', 'goals', 'fightCount', 'win', 'buyCount', }
 		}
 	end,
-	[9157] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'roleId', }
-		}
-	end,
-	[8915] = function()
+	[5187] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{},
 			{}
+		}
+	end,
+	[7601] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{false,{'v4', 'v4', }},},
+			{{false,{'manaBagInfo','id', 'level', }},}
 		}
 	end,
 	[1811] = function()
@@ -5151,11 +5123,11 @@ local tblProto = {
 			{{false,{'levelInfo','cid', 'goals', 'fightCount', 'win', 'buyCount', 'freeCount', }},}
 		}
 	end,
-	[9154] = function()
+	[772] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{{true,{'v4', 'b', }},'v4', 'v4', 'v4', }},},
-			{{false,{'recruitInfo',{true,{'recruits','cid', 'state', }},'nextTime', 'recruitTimes', 'recruitBuyTimes', }},}
+			{{true,{'v4','s', 'v4', 's', 'v4', 'v4', 'v4', 's', 's', {true,{'v4', 'v4', }},'v4', }},},
+			{{true,{'mails','ct','id', 'senderId', 'senderName', 'createTime', 'modifiedTime', 'status', 'title', 'body', {true,{'rewards','id', 'num', }},'mailType', }},}
 		}
 	end,
 	[2081] = function()
@@ -5200,25 +5172,25 @@ local tblProto = {
 			{}
 		}
 	end,
-	[9159] = function()
+	[9155] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'rewards','id', 'num', }},}
+			{{true,{'v4', 'v4', 'v4', }},},
+			{{true,{'maidObject','onlyId', 'cid', 'strength', }},}
 		}
 	end,
-	[9153] = function()
+	[9157] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{{true,{'v4', 'b', }},'v4', 'v4', 'v4', }},'v4', 'v4', },
-			{{false,{'recruitInfo',{true,{'recruits','cid', 'state', }},'nextTime', 'recruitTimes', 'recruitBuyTimes', }},'addRecruitId', 'roleId', }
+			{'v4', },
+			{'roleId', }
 		}
 	end,
-	[9151] = function()
+	[8915] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'workLists', }
+			{},
+			{}
 		}
 	end,
 	[5221] = function()
@@ -5256,18 +5228,11 @@ local tblProto = {
 			{{true,{'apprenticeInfo','playerId', 'portraitCId', 'name', 'fightPower', 'level', 'lastLoginTime', 'online', 'portraitFrameCId', 'isFriend', 'isUnion', 'finished', 'type', 'ct','famousExp', 'hasGift', }},'success', }
 		}
 	end,
-	[8904] = function()
+	[9153] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', {true,{'v4', 'v4', }},},
-			{'finished', {true,{'rewardInfo','id', 'num', }},}
-		}
-	end,
-	[261] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{false,{{true,{'v4', 'b', }},'v4', 'v4', 'v4', }},'v4', 'v4', },
+			{{false,{'recruitInfo',{true,{'recruits','cid', 'state', }},'nextTime', 'recruitTimes', 'recruitBuyTimes', }},'addRecruitId', 'roleId', }
 		}
 	end,
 	[6156] = function()
@@ -5277,6 +5242,13 @@ local tblProto = {
 			{'pid', 'type', 'state', }
 		}
 	end,
+	[9151] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'tv4', },
+			{'workLists', }
+		}
+	end,
 	[5167] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -5284,11 +5256,32 @@ local tblProto = {
 			{{true,{'cities','id', 'dungeon', 'resOpen', 'resCount', 'resUpTime', 'invaded', 'invadedEnd', 'invadedCamp', 'resStartTime', 'fightTime', 'score', 'pass', 'dunPass', }},}
 		}
 	end,
-	[263] = function()
+	[6613] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 'v4', 's', 's', 's', 's', }},},
-			{{true,{'info','id', 'inx', 'type', 'tag', 'title', 'context', 'contextImg', }},}
+			{'v4', 'v4', 'v4', {true,{'v4', 'b', }},},
+			{'refreshCount', 'refreshTime', 'helpCount', {true,{'levels','cid', 'pass', }},}
+		}
+	end,
+	[5124] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4','v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 's', 's', 'v4', 's', 'tv4', 's', }},},
+			{{true,{'activitys','ct','id', 'activityType', 'activityTitle', 'startTime', 'endTime', 'showStartTime', 'showEndTime', 'remark', 'extendData', 'rank', 'showIcon', 'items', 'titleIcon', }},}
+		}
+	end,
+	[261] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
+		}
+	end,
+	[9009] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{false,{'v4', 'v4', 'v8', 'v8', 'v4', 'v4', {true,{'v4', 'v4', 'v8', }},{true,{'v4', }},{true,{'v4', 'v4', }},{true,{'v8', 's', 'v8', 'v4', {false,{'v4', }},{true,{'v4', 'v4', }},}},}},'v4', {true,{'v4', 'v4', }},},
+			{{false,{'stronghold','id', 'state', 'startTime', 'endTime', 'useSupTimes', 'progress', {true,{'event','id', 'state', 'startTime', }},{true,{'role','roleId', }},{true,{'buff','buffId', 'buffLv', }},{true,{'supportRole','playerId', 'playerName', 'startTime', 'times', {false,{'role','roleId', }},{true,{'buff','buffId', 'buffLv', }},}},}},'completeStronghold', {true,{'reward','id', 'num', }},}
 		}
 	end,
 	[5219] = function()
@@ -5305,39 +5298,18 @@ local tblProto = {
 			{'success', 'type', }
 		}
 	end,
-	[9009] = function()
+	[263] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'v8', 'v8', 'v4', 'v4', {true,{'v4', 'v4', 'v8', }},{true,{'v4', }},{true,{'v4', 'v4', }},{true,{'v8', 's', 'v8', 'v4', {false,{'v4', }},{true,{'v4', 'v4', }},}},}},'v4', {true,{'v4', 'v4', }},},
-			{{false,{'stronghold','id', 'state', 'startTime', 'endTime', 'useSupTimes', 'progress', {true,{'event','id', 'state', 'startTime', }},{true,{'role','roleId', }},{true,{'buff','buffId', 'buffLv', }},{true,{'supportRole','playerId', 'playerName', 'startTime', 'times', {false,{'role','roleId', }},{true,{'buff','buffId', 'buffLv', }},}},}},'completeStronghold', {true,{'reward','id', 'num', }},}
+			{{true,{'v4', 'v4', 'v4', 's', 's', 's', 's', }},},
+			{{true,{'info','id', 'inx', 'type', 'tag', 'title', 'context', 'contextImg', }},}
 		}
 	end,
-	[2837] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},},
-			{{false,{'gem','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},}
-		}
-	end,
-	[8310] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'tv4', },
-			{'usingCards', }
-		}
-	end,
-	[8307] = function()
+	[8306] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{{true,{'v4','s', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'v4', {true,{'v4', 's', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},}},'b', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {true,{'v4', 'v4', }},'tv4', {true,{'v4', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},}},'v4','v4', {true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},'v4', 'tv4', 'v4', }},},
 			{{true,{'heros','ct','id', 'cid', 'lvl', 'exp', {true,{'attr','type', 'val', }},'advancedLvl', {true,{'equipments','position', 'equipmentId', {false,{'equip','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}},'helpFight', 'angelLvl', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},'useSkillPiont', 'quality', 'provide', 'fightPower', 'skinCid', {true,{'skillStrategyInfo','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},'useSkillStrategy', {true,{'crystalInfo','rarity', 'gridId', }},'equipSkillIds', {true,{'euqipFetterInfo','index', {false,{'newEquipmentInfo','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},}},'heroStatus','deadLine', {true,{'gemInfos','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},'skinCidTemp', 'exploreTreasureSkill', 'breakLv', }},}
-		}
-	end,
-	[8303] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},{false,{'v4', 'v4', {true,{'v4', 'v4', }},'v4', }},},
-			{{false,{'rankList',{true,{'rankList','pid', 'pName', 'segment', 'laderScore', 'rank', 'headId', 'level', 'battleScore', 'ladderAddtion', }},{false,{'rank','pid', 'pName', 'segment', 'laderScore', 'rank', 'headId', 'level', 'battleScore', 'ladderAddtion', }},}},{false,{'seasonData','segment', 'laderScore', {true,{'rewards','id', 'num', }},'clientSeason', }},}
 		}
 	end,
 	[1566] = function()
@@ -5347,11 +5319,11 @@ local tblProto = {
 			{'approvalNum', }
 		}
 	end,
-	[5187] = function()
+	[5381] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{true,{'v4', 'v4', }},},
+			{{true,{'heroHealth','heroCid', 'health', }},}
 		}
 	end,
 	[271] = function()
@@ -5361,32 +5333,32 @@ local tblProto = {
 			{{false,{'playerInfo','pid', 'name', 'lvl', 'exp', 'vip_lvl', 'vip_exp', 'language','remark', 'helpFightHeroCid', {true,{'attr','attrKey','attrVal', }},'isFirstLogin', 'clientDiscreteData', 'settings', 'recoverTimeList', 'portraitCid', 'portraitFrameCid', {false,{'element',{true,{'elments','type', {true,{'element','cid', 'reward', }},'trophy', 'scan', }},'rank', 'totleTrophy', }},'unionId', 'unionName', 'titleId', 'createTime', 'famousExp', }},{false,{'formationInfo',{true,{'formations','ct','type', 'status', 'stance', }},}},{true,{'heros','ct','id', 'cid', 'lvl', 'exp', {true,{'attr','type', 'val', }},'advancedLvl', {true,{'equipments','position', 'equipmentId', {false,{'equip','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}},'helpFight', 'angelLvl', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},'useSkillPiont', 'quality', 'provide', 'fightPower', 'skinCid', {true,{'skillStrategyInfo','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},'useSkillStrategy', {true,{'crystalInfo','rarity', 'gridId', }},'equipSkillIds', {true,{'euqipFetterInfo','index', {false,{'newEquipmentInfo','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},}},'heroStatus','deadLine', {true,{'gemInfos','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},'skinCidTemp', 'exploreTreasureSkill', 'breakLv', }},{true,{'equipments','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},{true,{'medal','ct','cid', 'star', 'quality', 'effectTime', 'isEquip', 'createTime', }},{true,{'switch','type', 'value', }},}
 		}
 	end,
-	[8507] = function()
+	[8307] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', }},},
-			{{false,{'step','step', 'nextTime', }},}
+			{{true,{'v4','s', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'v4', {true,{'v4', 's', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},}},'b', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {true,{'v4', 'v4', }},'tv4', {true,{'v4', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},}},'v4','v4', {true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},'v4', 'tv4', 'v4', }},},
+			{{true,{'heros','ct','id', 'cid', 'lvl', 'exp', {true,{'attr','type', 'val', }},'advancedLvl', {true,{'equipments','position', 'equipmentId', {false,{'equip','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}},'helpFight', 'angelLvl', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},'useSkillPiont', 'quality', 'provide', 'fightPower', 'skinCid', {true,{'skillStrategyInfo','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},'useSkillStrategy', {true,{'crystalInfo','rarity', 'gridId', }},'equipSkillIds', {true,{'euqipFetterInfo','index', {false,{'newEquipmentInfo','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},}},'heroStatus','deadLine', {true,{'gemInfos','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},'skinCidTemp', 'exploreTreasureSkill', 'breakLv', }},}
 		}
 	end,
-	[6303] = function()
+	[5168] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'rewards','id', 'num', }},}
+			{'v4', {true,{'v4','v4', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},}},{true,{'v4','v4', {true,{'v4', 'v4', }},'tv4', 'v4', 'b', }},{true,{'v4','v4', 'v4', }},},
+			{'activityId', {true,{'hangUpRoleInfo','ct','roleId', 'level', 'nextSettleTime', 'currentEventId', {true,{'rewards','id', 'num', }},}},{true,{'eventList','ct','eventId', {true,{'rewards','id', 'num', }},'roleIds', 'eventEndTime', 'isSpecial', }},{true,{'specialAward','ct','id', 'triggerId', }},}
 		}
 	end,
-	[1548] = function()
+	[8303] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4','s', 'pv4', 'v4', 'v4', 'v4', 'b', }},},
-			{{true,{'cityDatingInfo','ct','cityDatingId', 'datingTimeFrame', 'datingRuleCid', 'date', 'state', 'inDating', }},}
+			{{false,{{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},{false,{'v4', 'v4', {true,{'v4', 'v4', }},'v4', }},},
+			{{false,{'rankList',{true,{'rankList','pid', 'pName', 'segment', 'laderScore', 'rank', 'headId', 'level', 'battleScore', 'ladderAddtion', }},{false,{'rank','pid', 'pName', 'segment', 'laderScore', 'rank', 'headId', 'level', 'battleScore', 'ladderAddtion', }},}},{false,{'seasonData','segment', 'laderScore', {true,{'rewards','id', 'num', }},'clientSeason', }},}
 		}
 	end,
-	[7843] = function()
+	[5184] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'tv4', }},},
-			{{true,{'taskPlan','taskId', 'heroId', }},}
+			{'v4', 'v4', 'v4', 'v4', 'tv4', },
+			{'activityId', 'contractId', 'location', 'round', 'awardList', }
 		}
 	end,
 	[5193] = function()
@@ -5466,11 +5438,11 @@ local tblProto = {
 			{'inviteCode', }
 		}
 	end,
-	[5164] = function()
+	[6155] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', {true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', }},{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},},
-			{{true,{'campRank','camp', 'score', {true,{'innerRank','pid', 'pName', 'bestTime', 'headFrame', 'rank', 'headId', 'level', }},{false,{'selfRank','pid', 'pName', 'bestTime', 'headFrame', 'rank', 'headId', 'level', }},}},}
+			{},
+			{}
 		}
 	end,
 	[7829] = function()
@@ -5487,18 +5459,18 @@ local tblProto = {
 			{{true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[517] = function()
+	[5164] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{true,{'v4', 'v4', {true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', }},{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},},
+			{{true,{'campRank','camp', 'score', {true,{'innerRank','pid', 'pName', 'bestTime', 'headFrame', 'rank', 'headId', 'level', }},{false,{'selfRank','pid', 'pName', 'bestTime', 'headFrame', 'rank', 'headId', 'level', }},}},}
 		}
 	end,
-	[8202] = function()
+	[514] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', },
-			{'indenture', }
+			{{true,{'v4', 'v4', }},},
+			{{true,{'items','id', 'num', }},}
 		}
 	end,
 	[6611] = function()
@@ -5508,11 +5480,11 @@ local tblProto = {
 			{{true,{'mapBoxes','location', 'eventCid', }},}
 		}
 	end,
-	[5184] = function()
+	[517] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4', 'tv4', },
-			{'activityId', 'contractId', 'location', 'round', 'awardList', }
+			{},
+			{}
 		}
 	end,
 	[6704] = function()
@@ -5522,11 +5494,11 @@ local tblProto = {
 			{'type', 'param', {true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[8504] = function()
+	[9232] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},{true,{'v4', 'v4', }},},
-			{{true,{'rewards','id', 'num', }},{true,{'fdAward','dungeon', 'status', }},}
+			{{false,{'v4', 'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},},
+			{{false,{'clubInfo','id', 'exp', 'submitTimes', 'expLimit', }},{true,{'reward','id', 'num', }},}
 		}
 	end,
 	[3078] = function()
@@ -5536,11 +5508,11 @@ local tblProto = {
 			{'open', 'showInviteCode', 'limitLev', 'selfInviteCode', 'bindInviteCode', 'maxBindNum', {true,{'rewardInfos','cid', 'status', }},'bindNum', }
 		}
 	end,
-	[9232] = function()
+	[5128] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},},
-			{{false,{'clubInfo','id', 'exp', 'submitTimes', 'expLimit', }},{true,{'reward','id', 'num', }},}
+			{{true,{'v4', 'v4', 'v4', 's', 'v4', }},},
+			{{true,{'items','id', 'itemId', 'progress', 'extend', 'status', }},}
 		}
 	end,
 	[6151] = function()
@@ -5571,11 +5543,11 @@ local tblProto = {
 			{{true,{'dungeons','chapterCid', 'begin', 'end', }},'CGCids', }
 		}
 	end,
-	[8502] = function()
+	[8507] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', }},{false,{'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', }},{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},},
-			{{true,{'damages','unionId', 'unionLv', 'unionName', 'bossLv', 'dmgRate', 'rank', 'icon', }},{false,{'selfDamage','unionId', 'unionLv', 'unionName', 'bossLv', 'dmgRate', 'rank', 'icon', }},{true,{'honors','playerId', 'playerName', 'playerLv', 'honor', 'fightCount', 'rank', 'headId', 'dmgRate', }},{false,{'selfHonor','playerId', 'playerName', 'playerLv', 'honor', 'fightCount', 'rank', 'headId', 'dmgRate', }},}
+			{{false,{'v4', 'v4', }},},
+			{{false,{'step','step', 'nextTime', }},}
 		}
 	end,
 	[1828] = function()
@@ -5592,11 +5564,11 @@ local tblProto = {
 			{'activityId', 'useTime', 'nationId', 'cityId', {true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[6150] = function()
+	[8502] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'b', 'b', }},},
-			{{false,{'chasmInfo','id', 'status', 'fightCount', 'buyCount', 'remainCount', 'awardStartTime', 'awardEndTime', 'isSpecial', 'finishOnce', }},}
+			{{true,{'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', }},{false,{'v4', 'v4', 's', 'v4', 'v4', 'v4', 'v4', }},{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},{false,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},},
+			{{true,{'damages','unionId', 'unionLv', 'unionName', 'bossLv', 'dmgRate', 'rank', 'icon', }},{false,{'selfDamage','unionId', 'unionLv', 'unionName', 'bossLv', 'dmgRate', 'rank', 'icon', }},{true,{'honors','playerId', 'playerName', 'playerLv', 'honor', 'fightCount', 'rank', 'headId', 'dmgRate', }},{false,{'selfHonor','playerId', 'playerName', 'playerLv', 'honor', 'fightCount', 'rank', 'headId', 'dmgRate', }},}
 		}
 	end,
 	[1556] = function()
@@ -5606,18 +5578,18 @@ local tblProto = {
 			{'roleId', 'returnMsg', 'state', 'type', 'sealState', }
 		}
 	end,
-	[8407] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'b', 'b', {true,{'v4', 'v4', }},'v4', }},},
-			{{false,{'spirits','spiritPoints', 'grade', 'level', 'exp', {true,{'specialism','cid', 'num', }},'firstShow', 'feedback', {true,{'angleSpirits','heroCid', 'lv', }},'maxLv', }},}
-		}
-	end,
 	[7816] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{{false,{'v4', 'v4', {true,{'v4', 'v4', }},}},{true,{'v4', 'v4', }},},
 			{{false,{'techTree','techType', 'nationId', {true,{'tech','techId', 'state', }},}},{true,{'rewards','id', 'num', }},}
+		}
+	end,
+	[4003] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'b', },
+			{'success', }
 		}
 	end,
 	[5899] = function()
@@ -5634,11 +5606,11 @@ local tblProto = {
 			{'eventId', 'x', 'y', }
 		}
 	end,
-	[5139] = function()
+	[8404] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'s', 'v4', },
-			{'name', 'contribution', }
+			{{false,{'v4', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'b', 'b', {true,{'v4', 'v4', }},'v4', }},},
+			{{false,{'spirit','spiritPoints', 'grade', 'level', 'exp', {true,{'specialism','cid', 'num', }},'firstShow', 'feedback', {true,{'angleSpirits','heroCid', 'lv', }},'maxLv', }},}
 		}
 	end,
 	[5378] = function()
@@ -5648,18 +5620,18 @@ local tblProto = {
 			{'levelCid', 'buff', }
 		}
 	end,
+	[7820] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4', 'b', 'v4', 'v4', 'v8', 'v4', 'v4', 'v8', 'v4', 'b', 'v4', {false,{'v8', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},}},{true,{'v4', {true,{'v4', {true,{'v4', 'v4', 'v4', }},'tv4', }},}},{true,{'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {false,{'v4', {true,{'v4', 'v4', }},}},},
+			{{true,{'activity','id', 'first', 'localCity', 'localNation', 'startTime', 'cityAwardTimes', 'speed', 'lastAwardPointTime', 'capacity', 'isPush', 'totalRewardCount', {false,{'rewards','awardTime', 'activityId', 'nationId', 'cityId', 'dropId', {true,{'rewards','id', 'num', }},}},{true,{'nation','id', {true,{'city','id', {true,{'event','id', 'state', 'progress', }},'completeEvent', }},}},{true,{'totalRewards','id', 'num', }},{true,{'actRewards','id', 'num', }},}},'quickTimes', {false,{'ship','shape', {true,{'attr','systemId', 'fightPower', }},}},}
+		}
+	end,
 	[8408] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{{true,{'v4', 'v4', }},},
 			{{true,{'rewards','id', 'num', }},}
-		}
-	end,
-	[9231] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', 'v4', 'v4', }},},
-			{{false,{'clubInfo','id', 'exp', 'submitTimes', 'expLimit', }},}
 		}
 	end,
 	[8005] = function()
@@ -5669,25 +5641,25 @@ local tblProto = {
 			{'location', 'chessesId', }
 		}
 	end,
-	[1820] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4', {true,{'v4', {true,{'v4', {true,{'v4', 'v4', }},}},}},{true,{'v4', 'v4', }},},
-			{'currentFloor', {true,{'floorFormation','floor', {true,{'formation','round', {true,{'heroes','index', 'hero', }},}},}},{true,{'passFloor','floorId', 'score', }},}
-		}
-	end,
-	[1026] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{'v4','s', 'v4', 'v4', 'v8', {true,{'v4', 'v4', }},'v4', {true,{'v4', 's', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'v4', }},}},'b', 'v4', {true,{'v4', 'v4', 'v4', }},'v4', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {true,{'v4', 'v4', }},'tv4', {true,{'v4', {false,{'v4','s', 'v4', 'v4', 'v4', 's', 'v4', }},}},'v4','v4', {true,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},'v4', 'tv4', 'v4', },
-			{'ct','id', 'cid', 'lvl', 'exp', {true,{'attr','type', 'val', }},'advancedLvl', {true,{'equipments','position', 'equipmentId', {false,{'equip','ct','id', 'cid', 'level', 'exp', 'heroId', 'position', {true,{'attrs','cid', 'value', 'index', }},'oldAttrIndex', 'newAttrType', 'newAttrValue', 'outTime', 'isLock', 'star', 'stage', 'num', }},}},'helpFight', 'angelLvl', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},'useSkillPiont', 'quality', 'provide', 'fightPower', 'skinCid', {true,{'skillStrategyInfo','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},'useSkillStrategy', {true,{'crystalInfo','rarity', 'gridId', }},'equipSkillIds', {true,{'euqipFetterInfo','index', {false,{'newEquipmentInfo','ct','id', 'cid', 'stage', 'level', 'heroId', 'position', }},}},'heroStatus','deadLine', {true,{'gemInfos','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},'skinCidTemp', 'exploreTreasureSkill', 'breakLv', }
-		}
-	end,
 	[1042] = function()
 		return {
 			{"net.NetHelper", "receive"},
 			{'s', 'v4', 'v4', },
 			{'heroId', 'rarity', 'gridId', }
+		}
+	end,
+	[5179] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{},
+			{}
+		}
+	end,
+	[5181] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', },
+			{'totalScore', }
 		}
 	end,
 	[6710] = function()
@@ -5718,11 +5690,11 @@ local tblProto = {
 			{{true,{'missions','missionId', 'progress', }},'completed', }
 		}
 	end,
-	[5129] = function()
+	[1044] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4', },
-			{'activityId', 'process', 'myRank', 'realItemMinRank', }
+			{'s', {false,{'v4', 's', 'v4', {true,{'v4', 'v4', 'v4', }},{true,{'v4', 'v4', }},}},},
+			{'heroId', {false,{'skillStrategy','id', 'name', 'alreadyUseSkillPiont', {true,{'angeSkillInfos','type', 'pos', 'lvl', }},{true,{'passiveSkillInfo','pos', 'skillId', }},}},}
 		}
 	end,
 	[6712] = function()
@@ -5753,20 +5725,6 @@ local tblProto = {
 			{'enter', }
 		}
 	end,
-	[8601] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},{true,{'v4', 'v4', 'v4', }},{true,{'v4', 'tv4', }},},
-			{{true,{'dispatches','dungeonType', {true,{'fightPower','hero', 'fightPower', }},{true,{'dungeonInfo','dungeonCid', 'multiple', 'eTime', 'awardCount', 'runCount', 'maxCount', }},}},{true,{'exhaustions','hero', 'exhaustion', 'nextTime', }},{true,{'heroes','type', 'heroes', }},}
-		}
-	end,
-	[5157] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},'tv4', },
-			{{true,{'cardInfo','pos', 'id', }},'ids', }
-		}
-	end,
 	[5202] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -5774,11 +5732,11 @@ local tblProto = {
 			{{true,{'passInfo','dunId', 'passCount', }},}
 		}
 	end,
-	[8606] = function()
+	[8601] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},},
-			{{true,{'dispatches','dungeonType', {true,{'fightPower','hero', 'fightPower', }},{true,{'dungeonInfo','dungeonCid', 'multiple', 'eTime', 'awardCount', 'runCount', 'maxCount', }},}},}
+			{{true,{'v4', {true,{'v4', 'v4', }},{true,{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},{true,{'v4', 'v4', 'v4', }},{true,{'v4', 'tv4', }},},
+			{{true,{'dispatches','dungeonType', {true,{'fightPower','hero', 'fightPower', }},{true,{'dungeonInfo','dungeonCid', 'multiple', 'eTime', 'awardCount', 'runCount', 'maxCount', }},}},{true,{'exhaustions','hero', 'exhaustion', 'nextTime', }},{true,{'heroes','type', 'heroes', }},}
 		}
 	end,
 	[1550] = function()
@@ -5788,18 +5746,11 @@ local tblProto = {
 			{'roleId', 'datingRuleCid', }
 		}
 	end,
-	[1563] = function()
+	[2837] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 's', 's', },
-			{'roleId', 'sTime', 'eTime', 'totalNum', 'sucNum', 'level', 'exp', 'days', 'bestQuery', 'bestReply', }
-		}
-	end,
-	[2307] = function()
-		return {
-			{"net.NetHelper", "receive"},
-			{{false,{'v4', {true,{'v4', 'v4', 's', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},},
-			{{false,{'roomInfo','roomId', {true,{'msgs','channel', 'fun', 'content', 'pid', 'pname', 'lvl', 'helpFightHeroCid', 'portraitCid', 'portraitFrameCid', 'titleId', 'chatFrameCid', }},}},}
+			{{false,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},},
+			{{false,{'gem','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},}
 		}
 	end,
 	[2317] = function()
@@ -5809,6 +5760,27 @@ local tblProto = {
 			{'barrageId', 'lastSendTime', }
 		}
 	end,
+	[1563] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', 's', 's', },
+			{'roleId', 'sTime', 'eTime', 'totalNum', 'sucNum', 'level', 'exp', 'days', 'bestQuery', 'bestReply', }
+		}
+	end,
+	[9010] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{{true,{'v4', 'v4', }},},
+			{{true,{'buff','buffId', 'buffLv', }},}
+		}
+	end,
+	[7819] = function()
+		return {
+			{"net.NetHelper", "receive"},
+			{'v4', 'v4', 'v4', {false,{'v4', 'v4', 'v4', }},},
+			{'activityId', 'nationId', 'cityId', {false,{'event','id', 'state', 'progress', }},}
+		}
+	end,
 	[6909] = function()
 		return {
 			{"net.NetHelper", "receive"},
@@ -5816,11 +5788,11 @@ local tblProto = {
 			{{false,{'ap','value', 'limit', }},{true,{'areaInfoList','areaId', 'isDevil', 'explored', {true,{'roadInfoList','startAreaId', 'endAreaId', 'unlocked', }},}},{true,{'equipInfoList','position', 'equipId', }},'currentAreaId', 'currentChapterId', 'currentEvtId', 'isNewChapter', 'unlockChapterInfo', }
 		}
 	end,
-	[1537] = function()
+	[2307] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{false,{'v4', {true,{'v4', 'v4', 's', 'v4', 's', 'v4', 'v4', 'v4', 'v4', 'v4', 'v4', }},}},},
+			{{false,{'roomInfo','roomId', {true,{'msgs','channel', 'fun', 'content', 'pid', 'pname', 'lvl', 'helpFightHeroCid', 'portraitCid', 'portraitFrameCid', 'titleId', 'chatFrameCid', }},}},}
 		}
 	end,
 	[1538] = function()
@@ -5851,11 +5823,11 @@ local tblProto = {
 			{'guideId', 'finish', }
 		}
 	end,
-	[3075] = function()
+	[1557] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 's', 'v4', 'v4', 'v4', 'v4', 'b', 'v4', 'v4', 'b', 'v4','v4', 'v4', 'b', 'v4', 'v4', 'tv4', 'v4', }},},
-			{{true,{'friends','pid', 'name', 'fightPower', 'lvl', 'lastLoginTime', 'lastHandselTime', 'receive', 'status', 'leaderCid', 'online', 'ct','time', 'helpCDtime', 'canSend', 'portraitCid', 'portraitFrameCid', 'groupGiftIds', 'type', }},}
+			{'v4', 'v4', 'v4', },
+			{'roleId', 'sealState', 'sealType', }
 		}
 	end,
 	[6147] = function()
@@ -5865,11 +5837,11 @@ local tblProto = {
 			{}
 		}
 	end,
-	[6155] = function()
+	[9231] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{{false,{'v4', 'v4', 'v4', 'v4', }},},
+			{{false,{'clubInfo','id', 'exp', 'submitTimes', 'expLimit', }},}
 		}
 	end,
 	[6302] = function()
@@ -5900,11 +5872,11 @@ local tblProto = {
 			{{true,{'chashs','id', 'status', 'fightCount', 'buyCount', 'remainCount', 'awardStartTime', 'awardEndTime', 'isSpecial', 'finishOnce', }},}
 		}
 	end,
-	[5158] = function()
+	[4002] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{},
-			{}
+			{'b', },
+			{'success', }
 		}
 	end,
 	[6509] = function()
@@ -5935,25 +5907,25 @@ local tblProto = {
 			{'totalPay', 'rewardIds', }
 		}
 	end,
-	[5196] = function()
+	[5178] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'b', },
-			{'friendId', 'result', }
+			{'v4', },
+			{'successCode', }
 		}
 	end,
-	[7820] = function()
+	[2840] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'b', 'v4', 'v4', 'v8', 'v4', 'v4', 'v8', 'v4', 'b', 'v4', {false,{'v8', 'v4', 'v4', 'v4', 'v4', {true,{'v4', 'v4', }},}},{true,{'v4', {true,{'v4', {true,{'v4', 'v4', 'v4', }},'tv4', }},}},{true,{'v4', 'v4', }},{true,{'v4', 'v4', }},}},'v4', {false,{'v4', {true,{'v4', 'v4', }},}},},
-			{{true,{'activity','id', 'first', 'localCity', 'localNation', 'startTime', 'cityAwardTimes', 'speed', 'lastAwardPointTime', 'capacity', 'isPush', 'totalRewardCount', {false,{'rewards','awardTime', 'activityId', 'nationId', 'cityId', 'dropId', {true,{'rewards','id', 'num', }},}},{true,{'nation','id', {true,{'city','id', {true,{'event','id', 'state', 'progress', }},'completeEvent', }},}},{true,{'totalRewards','id', 'num', }},{true,{'actRewards','id', 'num', }},}},'quickTimes', {false,{'ship','shape', {true,{'attr','systemId', 'fightPower', }},}},}
+			{{true,{'v4', 'v4', }},},
+			{{true,{'items','id', 'num', }},}
 		}
 	end,
-	[7819] = function()
+	[5151] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', 'v4', {false,{'v4', 'v4', 'v4', }},},
-			{'activityId', 'nationId', 'cityId', {false,{'event','id', 'state', 'progress', }},}
+			{{false,{'v4', 'v4', }},'tv4', },
+			{{false,{'speedLink','location', 'id', }},'remove', }
 		}
 	end,
 	[6204] = function()
@@ -5970,25 +5942,25 @@ local tblProto = {
 			{'evtId', }
 		}
 	end,
-	[5151] = function()
+	[5213] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4', 'v4', }},'tv4', },
-			{{false,{'speedLink','location', 'id', }},'remove', }
+			{'v4', {true,{'v4', 's', 's', 's', 'v4', 'v4', 'v4', }},{false,{'v4', 's', 's', 's', 'v4', 'v4', 'v4', }},},
+			{'activityId', {true,{'rankInfo','rank', 'playerName', 'unionName', 'successTime', 'group', 'layer', 'location', }},{false,{'myRank','rank', 'playerName', 'unionName', 'successTime', 'group', 'layer', 'location', }},}
 		}
 	end,
-	[2836] = function()
+	[5170] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{false,{'v4','s', 'v4', 'v4', 'tv4', {false,{'v4', 'v4', }},}},},
-			{{false,{'gem','ct','id', 'cid', 'heroId', 'randSkill', {false,{'randSkillTemp','originalSkill', 'newSkill', }},}},}
+			{'v4', 'v4', {true,{'v4', 'v4', }},},
+			{'activityId', 'hangUpEventId', {true,{'rewards','id', 'num', }},}
 		}
 	end,
-	[5381] = function()
+	[7905] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{{true,{'v4', 'v4', }},},
-			{{true,{'heroHealth','heroCid', 'health', }},}
+			{'b', {true,{'v4', 'v4', }},},
+			{'success', {true,{'rewards','id', 'num', }},}
 		}
 	end,
 	[5166] = function()
@@ -5998,11 +5970,11 @@ local tblProto = {
 			{'camp', }
 		}
 	end,
-	[7905] = function()
+	[5129] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'b', {true,{'v4', 'v4', }},},
-			{'success', {true,{'rewards','id', 'num', }},}
+			{'v4', 'v4', 'v4', 'v4', },
+			{'activityId', 'process', 'myRank', 'realItemMinRank', }
 		}
 	end,
 	[7817] = function()
