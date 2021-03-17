@@ -341,16 +341,6 @@ function FubenDataMgr:onLogin()
     TFDirector:send(c2s.ODEUM_REQ_ODEUM_LEVEL_INFO, {})
     TFDirector:send(c2s.HERO_REQ_SIMULATE_TRAIN_INFO, {}) --模拟试炼信息
     TFDirector:send(c2s.DUNGEON_REQ_TIME_LINKAGE_INFO,{})
-    local chapter = self:getChapter(EC_FBType.PLOT)
-    local firstLevelCid = self:getChapterFirstLevel(chapter[1], EC_FBDiff.SIMPLE)
-    firstLevelCid = 101101
-    local levelCfg = self:getLevelCfg(firstLevelCid)
-    local type_ = levelCfg.heroLimitType
-    local isLimitHero = (type_ == EC_LimitHeroType.LIMIT_NJ or type_ == EC_LimitHeroType.LIMIT_J)
-    if isLimitHero and not self:isPassPlotLevel(firstLevelCid) then
-        TFDirector:send(c2s.DUNGEON_LIMIT_HERO_DUNGEON, {firstLevelCid})
-        table.insert(waitList, s2c.DUNGEON_LIMIT_HERO_DUNGEON)
-    end
     return waitList
 end
 
@@ -1688,7 +1678,6 @@ function FubenDataMgr:enterFirstPlotLevel()
     local chapter = self:getChapter(EC_FBType.PLOT)
     local firstLevelCid = self:getChapterFirstLevel(chapter[1], EC_FBDiff.SIMPLE)
     firstLevelCid = 101101
-    self.isEntry = false
     if not self:isPassPlotLevel(firstLevelCid) then
         if self:getLimitHero(1000) and not self.isEntry then
             self.isEntry = true
@@ -2561,6 +2550,16 @@ function FubenDataMgr:onRecvLevelInfo(event)
     end
     EventMgr:dispatchEvent(EV_FUBEN_LEVELINFOUPDATE)
     self:dasyncLevelInfo()
+end
+
+function FubenDataMgr:getPassLevelNum()
+    local num = 0
+    for k,v in pairs(self.levelInfo_) do
+        if v.win then
+            num = num + 1
+        end
+    end
+    return num
 end
 
 function FubenDataMgr:dasyncLevelInfo( ... )

@@ -3422,73 +3422,6 @@ return {
         cityLines = 0,
         dungeonRoleId = 107,
     },
-    [10014] = {
-        action2 = "",
-        start_node_id = 10014001,
-        startID = 0,
-        phoneRole = 0,
-        activityBirth = 0,
-        action1 = "",
-        missDating = 0,
-        phoneEnd = {
-        },
-        endAction = "",
-        buildingId = 0,
-        roleModelScale = 0,
-        roleModelId = 0,
-        other_script_ids = {
-        },
-        datingContent = 0,
-        phoneScript = 0,
-        lines = {
-        },
-        portail = "",
-        callTableName = "MainDialogue",
-        modelId = 0,
-        fail_condition = {
-        },
-        activityType = 0,
-        roleId = 0,
-        item = "",
-        item_type = 0,
-        dungeonDateDes = {
-            [1] = 16000761,
-        },
-        finallyType = 1,
-        dungeonDateHeart = {
-            [1] = {
-                tag_data = {
-                    operator_data = {
-                        right = {
-                            score = 50,
-                        },
-                    },
-                    operator = "mte",
-                },
-                tag = "relation",
-            },
-        },
-        endBg = "",
-        phoneType = {
-        },
-        type = 7,
-        idle = "",
-        datingTitle = 0,
-        id = 10014,
-        endSynopsis = 0,
-        endVoice = "",
-        endAction2 = "",
-        datingTypeNew = 71,
-        enter_condition = {
-        },
-        backGround = "",
-        other_info = {
-        },
-        iconPortail = "",
-        action3 = "",
-        cityLines = 0,
-        dungeonRoleId = 101,
-    },
     [442] = {
         action2 = "",
         start_node_id = 442001,
@@ -8739,73 +8672,6 @@ return {
         action3 = "",
         cityLines = 0,
         dungeonRoleId = 0,
-    },
-    [10015] = {
-        action2 = "",
-        start_node_id = 10015001,
-        startID = 0,
-        phoneRole = 0,
-        activityBirth = 0,
-        action1 = "",
-        missDating = 0,
-        phoneEnd = {
-        },
-        endAction = "",
-        buildingId = 0,
-        roleModelScale = 0,
-        roleModelId = 0,
-        other_script_ids = {
-        },
-        datingContent = 0,
-        phoneScript = 0,
-        lines = {
-        },
-        portail = "",
-        callTableName = "MainDialogue",
-        modelId = 0,
-        fail_condition = {
-        },
-        activityType = 0,
-        roleId = 0,
-        item = "",
-        item_type = 0,
-        dungeonDateDes = {
-            [1] = 16000762,
-        },
-        finallyType = 1,
-        dungeonDateHeart = {
-            [1] = {
-                tag_data = {
-                    operator_data = {
-                        right = {
-                            score = 50,
-                        },
-                    },
-                    operator = "mte",
-                },
-                tag = "relation",
-            },
-        },
-        endBg = "",
-        phoneType = {
-        },
-        type = 7,
-        idle = "",
-        datingTitle = 0,
-        id = 10015,
-        endSynopsis = 0,
-        endVoice = "",
-        endAction2 = "",
-        datingTypeNew = 71,
-        enter_condition = {
-        },
-        backGround = "",
-        other_info = {
-        },
-        iconPortail = "",
-        action3 = "",
-        cityLines = 0,
-        dungeonRoleId = 101,
     },
     [506] = {
         action2 = "",
@@ -40406,73 +40272,6 @@ return {
         cityLines = 0,
         dungeonRoleId = 107,
     },
-    [10020] = {
-        action2 = "",
-        start_node_id = 10020001,
-        startID = 0,
-        phoneRole = 0,
-        activityBirth = 0,
-        action1 = "",
-        missDating = 0,
-        phoneEnd = {
-        },
-        endAction = "",
-        buildingId = 0,
-        roleModelScale = 0,
-        roleModelId = 0,
-        other_script_ids = {
-        },
-        datingContent = 0,
-        phoneScript = 0,
-        lines = {
-        },
-        portail = "",
-        callTableName = "MainDialogue",
-        modelId = 0,
-        fail_condition = {
-        },
-        activityType = 0,
-        roleId = 0,
-        item = "",
-        item_type = 0,
-        dungeonDateDes = {
-            [1] = 16000767,
-        },
-        finallyType = 1,
-        dungeonDateHeart = {
-            [1] = {
-                tag_data = {
-                    operator_data = {
-                        right = {
-                            score = 50,
-                        },
-                    },
-                    operator = "mte",
-                },
-                tag = "relation",
-            },
-        },
-        endBg = "",
-        phoneType = {
-        },
-        type = 7,
-        idle = "",
-        datingTitle = 0,
-        id = 10020,
-        endSynopsis = 0,
-        endVoice = "",
-        endAction2 = "",
-        datingTypeNew = 71,
-        enter_condition = {
-        },
-        backGround = "",
-        other_info = {
-        },
-        iconPortail = "",
-        action3 = "",
-        cityLines = 0,
-        dungeonRoleId = 101,
-    },
     [1012301] = {
         action2 = "",
         start_node_id = 63001,
@@ -45515,195 +45314,6 @@ return {
         cityLines = 0,
         dungeonRoleId = 0,
     },
-    [10024] = {
-        action2 = "",
-        start_node_id = 10024001,
-        startID = 0,
-        phoneRole = 0,
-        activityBirth = 0,
-        action1 = "",
-        missDating = 0,
-        phoneEnd = {
-        },
-        endAction = "",
-        buildingId = 0,
-        roleModelScale = 0,
-        roleModelId = 0,
-        other_script_ids = {
-        },
-        datingContent = 0,
-        phoneScript = 0,
-        lines = {
-        },
-        portail = "",
-        callTableName = "MainDialogue",
-        modelId = 0,
-        fail_condition = {
-        },
-        activityType = 0,
-        roleId = 0,
-        item = "",
-        item_type = 0,
-        dungeonDateDes = {
-            [1] = 16000771,
-        },
-        finallyType = 1,
-        dungeonDateHeart = {
-            [1] = {
-                tag_data = {
-                    operator_data = {
-                        right = {
-                            score = 50,
-                        },
-                    },
-                    operator = "mte",
-                },
-                tag = "relation",
-            },
-        },
-        endBg = "",
-        phoneType = {
-        },
-        type = 7,
-        idle = "",
-        datingTitle = 0,
-        id = 10024,
-        endSynopsis = 0,
-        endVoice = "",
-        endAction2 = "",
-        datingTypeNew = 71,
-        enter_condition = {
-        },
-        backGround = "",
-        other_info = {
-        },
-        iconPortail = "",
-        action3 = "",
-        cityLines = 0,
-        dungeonRoleId = 101,
-    },
-    [915] = {
-        action2 = "",
-        start_node_id = 915001,
-        startID = 0,
-        phoneRole = 0,
-        activityBirth = 0,
-        action1 = "",
-        missDating = 0,
-        phoneEnd = {
-        },
-        endAction = "",
-        buildingId = 0,
-        roleModelScale = 0,
-        roleModelId = 0,
-        other_script_ids = {
-        },
-        datingContent = 0,
-        phoneScript = 0,
-        lines = {
-        },
-        portail = "",
-        callTableName = "DetectiveScript",
-        modelId = 0,
-        fail_condition = {
-        },
-        activityType = 28,
-        roleId = 0,
-        item = "",
-        item_type = 0,
-        dungeonDateDes = {
-        },
-        finallyType = 0,
-        dungeonDateHeart = {
-        },
-        endBg = "",
-        phoneType = {
-        },
-        type = 21,
-        idle = "",
-        datingTitle = 0,
-        id = 915,
-        endSynopsis = 0,
-        endVoice = "",
-        endAction2 = "",
-        datingTypeNew = 218,
-        enter_condition = {
-        },
-        backGround = "",
-        other_info = {
-        },
-        iconPortail = "",
-        action3 = "",
-        cityLines = 0,
-        dungeonRoleId = 0,
-    },
-    [10016] = {
-        action2 = "",
-        start_node_id = 10016001,
-        startID = 0,
-        phoneRole = 0,
-        activityBirth = 0,
-        action1 = "",
-        missDating = 0,
-        phoneEnd = {
-        },
-        endAction = "",
-        buildingId = 0,
-        roleModelScale = 0,
-        roleModelId = 0,
-        other_script_ids = {
-        },
-        datingContent = 0,
-        phoneScript = 0,
-        lines = {
-        },
-        portail = "",
-        callTableName = "MainDialogue",
-        modelId = 0,
-        fail_condition = {
-        },
-        activityType = 0,
-        roleId = 0,
-        item = "",
-        item_type = 0,
-        dungeonDateDes = {
-            [1] = 16000763,
-        },
-        finallyType = 1,
-        dungeonDateHeart = {
-            [1] = {
-                tag_data = {
-                    operator_data = {
-                        right = {
-                            score = 50,
-                        },
-                    },
-                    operator = "mte",
-                },
-                tag = "relation",
-            },
-        },
-        endBg = "",
-        phoneType = {
-        },
-        type = 7,
-        idle = "",
-        datingTitle = 0,
-        id = 10016,
-        endSynopsis = 0,
-        endVoice = "",
-        endAction2 = "",
-        datingTypeNew = 71,
-        enter_condition = {
-        },
-        backGround = "",
-        other_info = {
-        },
-        iconPortail = "",
-        action3 = "",
-        cityLines = 0,
-        dungeonRoleId = 101,
-    },
     [7004] = {
         action2 = "",
         start_node_id = 7004001,
@@ -45770,274 +45380,6 @@ return {
         action3 = "",
         cityLines = 0,
         dungeonRoleId = 110,
-    },
-    [10021] = {
-        action2 = "",
-        start_node_id = 10021001,
-        startID = 0,
-        phoneRole = 0,
-        activityBirth = 0,
-        action1 = "",
-        missDating = 0,
-        phoneEnd = {
-        },
-        endAction = "",
-        buildingId = 0,
-        roleModelScale = 0,
-        roleModelId = 0,
-        other_script_ids = {
-        },
-        datingContent = 0,
-        phoneScript = 0,
-        lines = {
-        },
-        portail = "",
-        callTableName = "MainDialogue",
-        modelId = 0,
-        fail_condition = {
-        },
-        activityType = 0,
-        roleId = 0,
-        item = "",
-        item_type = 0,
-        dungeonDateDes = {
-            [1] = 16000768,
-        },
-        finallyType = 1,
-        dungeonDateHeart = {
-            [1] = {
-                tag_data = {
-                    operator_data = {
-                        right = {
-                            score = 50,
-                        },
-                    },
-                    operator = "mte",
-                },
-                tag = "relation",
-            },
-        },
-        endBg = "",
-        phoneType = {
-        },
-        type = 7,
-        idle = "",
-        datingTitle = 0,
-        id = 10021,
-        endSynopsis = 0,
-        endVoice = "",
-        endAction2 = "",
-        datingTypeNew = 71,
-        enter_condition = {
-        },
-        backGround = "",
-        other_info = {
-        },
-        iconPortail = "",
-        action3 = "",
-        cityLines = 0,
-        dungeonRoleId = 101,
-    },
-    [10019] = {
-        action2 = "",
-        start_node_id = 10019001,
-        startID = 0,
-        phoneRole = 0,
-        activityBirth = 0,
-        action1 = "",
-        missDating = 0,
-        phoneEnd = {
-        },
-        endAction = "",
-        buildingId = 0,
-        roleModelScale = 0,
-        roleModelId = 0,
-        other_script_ids = {
-        },
-        datingContent = 0,
-        phoneScript = 0,
-        lines = {
-        },
-        portail = "",
-        callTableName = "MainDialogue",
-        modelId = 0,
-        fail_condition = {
-        },
-        activityType = 0,
-        roleId = 0,
-        item = "",
-        item_type = 0,
-        dungeonDateDes = {
-            [1] = 16000766,
-        },
-        finallyType = 1,
-        dungeonDateHeart = {
-            [1] = {
-                tag_data = {
-                    operator_data = {
-                        right = {
-                            score = 50,
-                        },
-                    },
-                    operator = "mte",
-                },
-                tag = "relation",
-            },
-        },
-        endBg = "",
-        phoneType = {
-        },
-        type = 7,
-        idle = "",
-        datingTitle = 0,
-        id = 10019,
-        endSynopsis = 0,
-        endVoice = "",
-        endAction2 = "",
-        datingTypeNew = 71,
-        enter_condition = {
-        },
-        backGround = "",
-        other_info = {
-        },
-        iconPortail = "",
-        action3 = "",
-        cityLines = 0,
-        dungeonRoleId = 101,
-    },
-    [10018] = {
-        action2 = "",
-        start_node_id = 10018001,
-        startID = 0,
-        phoneRole = 0,
-        activityBirth = 0,
-        action1 = "",
-        missDating = 0,
-        phoneEnd = {
-        },
-        endAction = "",
-        buildingId = 0,
-        roleModelScale = 0,
-        roleModelId = 0,
-        other_script_ids = {
-        },
-        datingContent = 0,
-        phoneScript = 0,
-        lines = {
-        },
-        portail = "",
-        callTableName = "MainDialogue",
-        modelId = 0,
-        fail_condition = {
-        },
-        activityType = 0,
-        roleId = 0,
-        item = "",
-        item_type = 0,
-        dungeonDateDes = {
-            [1] = 16000765,
-        },
-        finallyType = 1,
-        dungeonDateHeart = {
-            [1] = {
-                tag_data = {
-                    operator_data = {
-                        right = {
-                            score = 50,
-                        },
-                    },
-                    operator = "mte",
-                },
-                tag = "relation",
-            },
-        },
-        endBg = "",
-        phoneType = {
-        },
-        type = 7,
-        idle = "",
-        datingTitle = 0,
-        id = 10018,
-        endSynopsis = 0,
-        endVoice = "",
-        endAction2 = "",
-        datingTypeNew = 71,
-        enter_condition = {
-        },
-        backGround = "",
-        other_info = {
-        },
-        iconPortail = "",
-        action3 = "",
-        cityLines = 0,
-        dungeonRoleId = 101,
-    },
-    [10017] = {
-        action2 = "",
-        start_node_id = 10017001,
-        startID = 0,
-        phoneRole = 0,
-        activityBirth = 0,
-        action1 = "",
-        missDating = 0,
-        phoneEnd = {
-        },
-        endAction = "",
-        buildingId = 0,
-        roleModelScale = 0,
-        roleModelId = 0,
-        other_script_ids = {
-        },
-        datingContent = 0,
-        phoneScript = 0,
-        lines = {
-        },
-        portail = "",
-        callTableName = "MainDialogue",
-        modelId = 0,
-        fail_condition = {
-        },
-        activityType = 0,
-        roleId = 0,
-        item = "",
-        item_type = 0,
-        dungeonDateDes = {
-            [1] = 16000764,
-        },
-        finallyType = 1,
-        dungeonDateHeart = {
-            [1] = {
-                tag_data = {
-                    operator_data = {
-                        right = {
-                            score = 50,
-                        },
-                    },
-                    operator = "mte",
-                },
-                tag = "relation",
-            },
-        },
-        endBg = "",
-        phoneType = {
-        },
-        type = 7,
-        idle = "",
-        datingTitle = 0,
-        id = 10017,
-        endSynopsis = 0,
-        endVoice = "",
-        endAction2 = "",
-        datingTypeNew = 71,
-        enter_condition = {
-        },
-        backGround = "",
-        other_info = {
-        },
-        iconPortail = "",
-        action3 = "",
-        cityLines = 0,
-        dungeonRoleId = 101,
     },
     [2103002] = {
         action2 = "",
@@ -46168,73 +45510,6 @@ return {
         action3 = "",
         cityLines = 0,
         dungeonRoleId = 108,
-    },
-    [10022] = {
-        action2 = "",
-        start_node_id = 10022001,
-        startID = 0,
-        phoneRole = 0,
-        activityBirth = 0,
-        action1 = "",
-        missDating = 0,
-        phoneEnd = {
-        },
-        endAction = "",
-        buildingId = 0,
-        roleModelScale = 0,
-        roleModelId = 0,
-        other_script_ids = {
-        },
-        datingContent = 0,
-        phoneScript = 0,
-        lines = {
-        },
-        portail = "",
-        callTableName = "MainDialogue",
-        modelId = 0,
-        fail_condition = {
-        },
-        activityType = 0,
-        roleId = 0,
-        item = "",
-        item_type = 0,
-        dungeonDateDes = {
-            [1] = 16000769,
-        },
-        finallyType = 1,
-        dungeonDateHeart = {
-            [1] = {
-                tag_data = {
-                    operator_data = {
-                        right = {
-                            score = 50,
-                        },
-                    },
-                    operator = "mte",
-                },
-                tag = "relation",
-            },
-        },
-        endBg = "",
-        phoneType = {
-        },
-        type = 7,
-        idle = "",
-        datingTitle = 0,
-        id = 10022,
-        endSynopsis = 0,
-        endVoice = "",
-        endAction2 = "",
-        datingTypeNew = 71,
-        enter_condition = {
-        },
-        backGround = "",
-        other_info = {
-        },
-        iconPortail = "",
-        action3 = "",
-        cityLines = 0,
-        dungeonRoleId = 101,
     },
     [749071] = {
         action2 = "",
@@ -53785,9 +53060,9 @@ return {
         cityLines = 0,
         dungeonRoleId = 0,
     },
-    [10023] = {
+    [915] = {
         action2 = "",
-        start_node_id = 10023001,
+        start_node_id = 915001,
         startID = 0,
         phoneRole = 0,
         activityBirth = 0,
@@ -53806,42 +53081,30 @@ return {
         lines = {
         },
         portail = "",
-        callTableName = "MainDialogue",
+        callTableName = "DetectiveScript",
         modelId = 0,
         fail_condition = {
         },
-        activityType = 0,
+        activityType = 28,
         roleId = 0,
         item = "",
         item_type = 0,
         dungeonDateDes = {
-            [1] = 16000770,
         },
-        finallyType = 1,
+        finallyType = 0,
         dungeonDateHeart = {
-            [1] = {
-                tag_data = {
-                    operator_data = {
-                        right = {
-                            score = 50,
-                        },
-                    },
-                    operator = "mte",
-                },
-                tag = "relation",
-            },
         },
         endBg = "",
         phoneType = {
         },
-        type = 7,
+        type = 21,
         idle = "",
         datingTitle = 0,
-        id = 10023,
+        id = 915,
         endSynopsis = 0,
         endVoice = "",
         endAction2 = "",
-        datingTypeNew = 71,
+        datingTypeNew = 218,
         enter_condition = {
         },
         backGround = "",
@@ -53850,7 +53113,7 @@ return {
         iconPortail = "",
         action3 = "",
         cityLines = 0,
-        dungeonRoleId = 101,
+        dungeonRoleId = 0,
     },
     [914] = {
         action2 = "",

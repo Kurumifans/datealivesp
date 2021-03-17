@@ -613,7 +613,7 @@ end
 
 function StoreDataMgr:onRecvBuyResource(event)
     local data = event.data
-    EventMgr:dispatchEvent(EV_STORE_BUYRESOURCE, data.cid, data.count)
+    EventMgr:dispatchEvent(EV_STORE_BUYRESOURCE, data.cid, data.count, data.reward)
 end
 
 function StoreDataMgr:onRecvSellPreview(event)

@@ -924,6 +924,7 @@ function MainPlayer:reset()
     self.phoneNum = nil;
     self.antiAddication = 0;
     self.switchList = {}
+    self.playername = nil
     self:stopHeartBeat()
     self:stopWarnTimer()
     self:onLoginOut();

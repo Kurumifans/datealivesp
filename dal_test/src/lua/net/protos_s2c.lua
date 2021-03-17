@@ -4958,8 +4958,8 @@ local tblProto = {
 	[275] = function()
 		return {
 			{"net.NetHelper", "receive"},
-			{'v4', 'v4', },
-			{'cid', 'count', }
+			{'v4', 'v4', {true,{'v4', 'v4', }},},
+			{'cid', 'count', {true,{'reward','id', 'num', }},}
 		}
 	end,
 	[7703] = function()

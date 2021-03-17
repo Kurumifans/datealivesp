@@ -1799,6 +1799,13 @@ function FubenSquadView:onFightingClick()
                 return
             end
         end
+        if self.isLimitHero_ then
+            local levelFormation = FubenDataMgr:getLevelFormation(self.levelCid_)
+            if not levelFormation then
+                FubenDataMgr:send_DUNGEON_LIMIT_HERO_DUNGEON(self.levelCid_)
+                return
+            end
+        end
         battleController.requestFightStart(self.levelCid_, assistantPlayerId, assistantHeroCid, heros, self.challengeCount_, self.isDuelMod_)
     elseif self.fubenType_ == EC_FBType.ACTIVITY then
         if self.chapterCid_ == EC_ActivityFubenType.ENDLESS then

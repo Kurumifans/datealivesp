@@ -80,7 +80,7 @@ function SpringGiftView:chooseLayerByIdx(idx)
 
     if idx == 3 then  -- 任务页面特殊限制需求
         local sTime, eTime = self:getSpecialTaskTime()
-        local curTime = ServerDataMgr:getServerTime()
+        local curTime = ServerDataMgr:getServerTime() * 1000
         if curTime <= sTime or curTime >= eTime then
             Utils:showTips(15011344)
             return
@@ -128,21 +128,26 @@ function SpringGiftView:updateLayer1()
         for j = 1, 4 do
             local rewardPos = panel_rewardsChange:getChildByName("reward_pos"..j)
             local reward_posMask = panel_rewardsChange:getChildByName("reward_posMask"..j)
-            if costCfg[j] then
-                if not rewardPos.goods then
-                    rewardPos.goods = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-                    rewardPos.goods:setScale(0.5)
-                    rewardPos.goods:AddTo(rewardPos):Pos(ccp(0, 0))
+            if status == EC_TaskStatus.ING then
+                if costCfg[j] then
+                    if not rewardPos.goods then
+                        rewardPos.goods = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+                        rewardPos.goods:setScale(0.5)
+                        rewardPos.goods:AddTo(rewardPos):Pos(ccp(0, 0))
+                    end
+                    PrefabDataMgr:setInfo(rewardPos.goods, costCfg[j].costCfgId, costCfg[j].costCfgNum)
+                    rewardPos:show()
+                else
+                    rewardPos:hide()
                 end
-                PrefabDataMgr:setInfo(rewardPos.goods, costCfg[j].costCfgId, costCfg[j].costCfgNum)
-                rewardPos:show()
+                local itemNumInBag = GoodsDataMgr:getItemCount(costCfg[j].costCfgId)
+                reward_posMask:setVisible(itemNumInBag < 1)
+                if itemNumInBag < costCfg[j].costCfgNum then
+                    isCanSubmit = false
+                end
             else
                 rewardPos:hide()
-            end
-            local itemNumInBag = GoodsDataMgr:getItemCount(costCfg[j].costCfgId)
-            reward_posMask:setVisible(itemNumInBag < 1)
-            if itemNumInBag < costCfg[j].costCfgNum then
-                isCanSubmit = false
+                reward_posMask:hide()
             end
         end 
         if status == EC_TaskStatus.GET then
@@ -183,7 +188,7 @@ function SpringGiftView:updateLayer2()
         tarGetItem.imgSelectGoods:setVisible(self.layer2ChooseItemIdx == i)
         if self.layer2ChooseItemIdx == i then
             self.keepLayer2TarGetItem = tarGetItem
-            PrefabDataMgr:setInfo(targetGoods, id, 1)
+            PrefabDataMgr:setInfo(targetGoods, id)
         end
         if not tarGetItem.goods then
             tarGetItem.goods = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
@@ -203,7 +208,7 @@ function SpringGiftView:updateLayer2()
             self.keepLayer2TarGetItem.imgSelectGoods:setVisible(false)
             sender.imgSelectGoods:setVisible(true)
             self.keepLayer2TarGetItem = sender
-            PrefabDataMgr:setInfo(targetGoods, id, 1)
+            PrefabDataMgr:setInfo(targetGoods, id)
         end)
     end
 

@@ -12033,6 +12033,10 @@ s2c.CHAT_RES_SEND_BULLET_SCREEN = 2315
 	[1] = {--RespBuyResources
 		[1] = 'int32':cid
 		[2] = 'int32':count
+		[3] = {--repeated RewardsMsg
+			[1] = 'int32':id
+			[2] = 'int32':num
+		},
 	}
 --]]
 s2c.PLAYER_RESP_BUY_RESOURCES = 275
