@@ -836,6 +836,7 @@ function MainLayer:setBackGroundByTime()
             v:show()
         end
         self.background:setTexture(spbackground)
+        self:ResolutionAdaptation()
        
         self:refreshBg(self.background)
         dressData.scale = dressData.scale or 1
@@ -1543,11 +1544,9 @@ function MainLayer:registerEvents()
     -- 聊天
     self.Image_chat:setTouchEnabled(true)
     self.Image_chat:onClick(function()
-            Utils:sendHttpLog("Chat")
             self:onChatViewOpen();
     end)
     self.Panel_chat_di:onClick(function()
-            Utils:sendHttpLog("Chat")
             self:onChatViewOpen();
     end)
     -- 召唤
@@ -1612,7 +1611,6 @@ function MainLayer:registerEvents()
         end)
 
     self.Button_giftpacks:onClick(function()
-            Utils:sendHttpLog("supply")
             GlobalVarDataMgr:setValue(GV_ELF_CONTRACT_TIP, true)
             Utils:openView("supplyNew.SupplyMainNewView")
     end)
@@ -1943,7 +1941,6 @@ function MainLayer:registerEvents()
     end)
 
     if self.Button_gongzhu then
-        Utils:sendHttpLog("cultivate")
         self.Button_gongzhu:onClick(function()
             FunctionDataMgr:jTask(EC_TaskPage.TRAININIG)
         end)

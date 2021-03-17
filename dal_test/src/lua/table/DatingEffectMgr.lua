@@ -1547,6 +1547,20 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [413303] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_13303/main_effect_13303",
+        action = "up",
+        isLoop = true,
+        id = 413303,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
     [1102] = {
         offset = {
         },
@@ -2101,15 +2115,15 @@ return {
     },
     [410125] = {
         offset = {
-            y = 13,
-            x = 0,
+            y = 16,
+            x = -1,
         },
         path = "effect/dating/ui_superKanban_10125/main_effect_yanhua",
         action = "animation",
         isLoop = false,
         id = 410125,
         particle = "",
-        lag = 1.3,
+        lag = 0,
         scales = 1,
         isDelete = true,
         speBg = "",

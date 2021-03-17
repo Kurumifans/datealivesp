@@ -1050,6 +1050,16 @@ local t = {
 			logic="",
 		},
 		{
+			name="jumpActivityView6",
+			ui ="jumpActivityView6.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="activity",
+			canLoad=true,
+			logic="",
+		},
+		{
 			name="welfareSignView",
 			ui ="welfareSignView.lua",
 			x=0,

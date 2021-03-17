@@ -1308,6 +1308,12 @@ function Hero:getTimeScale()
     return battleController.getTeam():getTimeScale(self:getCamp())*selfTimeScale
 end
 
+function Hero:updatePauseState(isPause)
+    for k , effect in ipairs(self.bufferEffectMap) do
+        effect:updatePauseState(isPause)
+    end
+end
+
 ---buffer 效果
 function Hero:getBFEffectAddTimes(id)
     local times = 0
@@ -2465,16 +2471,10 @@ end
 
 function Hero:onDie(arg)
     --死亡事件检查
-    
     self:onEventTrigger(eBFState.E_DEAD,self)
     if not self:isAState(eAState.E_RELIVE) then
         self:setFlag(eFlag.DEAD_Statistics)
-        if self.isDeaded then
-            
-        else
-            self.isDeaded = true
-            EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
-        end
+        EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
     end
     local function _fadeOut( )
         self.actor:fadeOut(function()
@@ -2962,12 +2962,7 @@ function Hero:update(time)
                 -- self:removeFrormBattle()
             else
                 self:setFlag(eFlag.DEAD_Statistics)
-                if self.isDeaded then
-                    
-                else
-                    self.isDeaded = true
-                    EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
-                end
+                EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
                 self:release()
                 self:checkAndRelease()
             end
@@ -5642,12 +5637,7 @@ function Hero:act_killMySelf(id,isCount)
     self:setAIEnable(false)
     self.team:remove(self)
     if isCount then
-        if self.isDeaded then
-            
-        else
-            self.isDeaded = true
-            EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
-        end
+        EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
     else
         EventMgr:dispatchEvent(eEvent.EVENT_HERO_REMOVE, self)
     end

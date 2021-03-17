@@ -600,9 +600,7 @@ function LoginLayer:showWebView()
 	if not self.isShowWeb then
 		Utils:sendHttpLog("informed_page_L")
 		self.isShowWeb = true;
-		if RELEASE_TEST then
-			
-		elseif me.platform == "android" then
+		if me.platform == "android" then
 	        HeitaoSdk.isFunctionSupported("showAnnouncement");
 	    else
 	    	dump("show2")

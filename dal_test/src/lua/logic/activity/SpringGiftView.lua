@@ -80,7 +80,7 @@ function SpringGiftView:chooseLayerByIdx(idx)
 
     if idx == 3 then  -- 任务页面特殊限制需求
         local sTime, eTime = self:getSpecialTaskTime()
-        local curTime = ServerDataMgr:getServerTime() * 1000
+        local curTime = ServerDataMgr:getServerTime()
         if curTime <= sTime or curTime >= eTime then
             Utils:showTips(15011344)
             return

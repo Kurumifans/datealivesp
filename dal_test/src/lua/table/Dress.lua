@@ -8953,6 +8953,173 @@ return {
         },
         icon = "icon/role/dress_kanban/10205.png",
     },
+    [413303] = {
+        superType = 4,
+        relatedDress = {
+        },
+        cost = "0",
+        order = 1,
+        pileUp = false,
+        skinGroup = {
+        },
+        gridMax = 1,
+        masterId = 0,
+        background = "scene/bg/bg_black.png",
+        smallType = 0,
+        quality = 5,
+        roleUnlock = 133,
+        skinSettingIcon = "",
+        speVoiceSuffix = "",
+        subType = 0,
+        popupOffset = {
+        },
+        scales = 0,
+        name = "凛祢-私服-高级",
+        bgScales = 0,
+        des = "",
+        adaptation = 1,
+        desTextId = 20278,
+        skinSettingDesc = 0,
+        belongTo = 0,
+        convertMax = {
+            [570004] = 120,
+        },
+        kanbanBgm = "sound/bgm/kanban/main_linmi_13303.mp3",
+        kanbanEffect = {
+        },
+        favorUpOffset = {
+        },
+        wordSize = {
+        },
+        exActionList = {
+        },
+        playWord = {
+            [1] = 14400164,
+            [2] = 14400165,
+            [3] = 14400166,
+            [4] = 14400167,
+            [5] = 14400168,
+            [6] = 14400169,
+        },
+        bagType = 4,
+        playAction = {
+            [1] = 2045,
+            [2] = 2046,
+            [3] = 2047,
+            [4] = 2049,
+            [5] = 2051,
+            [6] = 2056,
+        },
+        star = 0,
+        roleName = 32289,
+        dealProfit = {
+        },
+        sellProfit = {
+        },
+        type = 2,
+        highRoleModel = 513303,
+        groupId = 0,
+        id = 413303,
+        notTurnPlay = false,
+        totalMax = 1,
+        kanbanBgmId = 11066,
+        backgroundEffect = {
+            [1] = 413303,
+        },
+        dressImg = "icon/role/dress_kanban/13303m.png",
+        offSet = {
+            y = 109,
+            x = -14,
+        },
+        nameTextId = 20277,
+        roleModel = 213304,
+        skinSettingTitle = 0,
+        accessId = {
+        },
+        icon = "icon/role/dress_kanban/13303.png",
+    },
+    [413304] = {
+        superType = 4,
+        relatedDress = {
+        },
+        cost = "0",
+        order = 1,
+        pileUp = false,
+        skinGroup = {
+        },
+        gridMax = 1,
+        masterId = 0,
+        background = "",
+        smallType = 0,
+        quality = 2,
+        roleUnlock = 133,
+        skinSettingIcon = "",
+        speVoiceSuffix = "",
+        subType = 0,
+        popupOffset = {
+        },
+        scales = 0,
+        name = "凛祢-私服-普通",
+        bgScales = 0,
+        des = "",
+        adaptation = 0,
+        desTextId = 20276,
+        skinSettingDesc = 0,
+        belongTo = 0,
+        convertMax = {
+            [570004] = 30,
+        },
+        kanbanBgm = "",
+        kanbanEffect = {
+        },
+        favorUpOffset = {
+        },
+        wordSize = {
+        },
+        exActionList = {
+        },
+        playWord = {
+            [1] = 14400158,
+            [2] = 14400159,
+            [3] = 14400160,
+            [4] = 14400161,
+            [5] = 14400162,
+            [6] = 14400163,
+        },
+        bagType = 4,
+        playAction = {
+            [1] = 2030,
+            [2] = 2031,
+            [3] = 2032,
+            [4] = 2034,
+            [5] = 2036,
+            [6] = 2041,
+        },
+        star = 0,
+        roleName = 32289,
+        dealProfit = {
+        },
+        sellProfit = {
+        },
+        type = 1,
+        highRoleModel = 0,
+        groupId = 0,
+        id = 413304,
+        notTurnPlay = false,
+        totalMax = 1,
+        kanbanBgmId = 0,
+        backgroundEffect = {
+        },
+        dressImg = "icon/role/dress_kanban/13304m.png",
+        offSet = {
+        },
+        nameTextId = 20275,
+        roleModel = 213304,
+        skinSettingTitle = 0,
+        accessId = {
+        },
+        icon = "icon/role/dress_kanban/13304.png",
+    },
     [412501] = {
         superType = 4,
         relatedDress = {
