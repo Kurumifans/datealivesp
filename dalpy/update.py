@@ -53,7 +53,7 @@ def check_updates(server):
 		old_ver = file.read().split('\n')[0] # Last version, remove new line character
 	if old_ver == new_ver:
 		return False
-	edition_url = servers[server] + "edition/" + new_ver + "/" + old_ver + "-" + new_ver + ".xml"
+	edition_url = url["dal"] + servers[server] + "edition/" + new_ver + "/" + old_ver + "-" + new_ver + ".xml"
 
 	r = requests.get(edition_url) # Get update's file list
 	with open(server + "/edition.xml", "w", encoding="utf-8") as f:
