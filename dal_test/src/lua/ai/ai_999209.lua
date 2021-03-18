@@ -6,11 +6,14 @@ return {
         ["9819F6D899A146C68C5BA9627C8AF861"] = {
             [1] = "177D2999CC624B62864E5BC5AB34D465",
         },
-        ["2D6EEDDE2CE0484492D4AAA889C5CBF6"] = {
-            [1] = "EB33A5DE88414BD39580766ED5745B34",
+        ["1989B20E214F45558238612D4CBBE722"] = {
+            [1] = "C5382F11C5AA49E189D6BB58695E8647",
         },
-        ["71B9386771D842068C6DBD8103AF16D4"] = {
-            [1] = "1989B20E214F45558238612D4CBBE722",
+        ["6C26242DE73A45DF95446B8DDC6E066B"] = {
+            [1] = "EB9A28A36D5141EDA76E8C451FAE80DC",
+        },
+        ["C8A08B40AF1D49CF8D2606899E32BBAB"] = {
+            [1] = "91B5B4A88E0245AEB1499D9CD10FC707",
         },
         ["BDC25A6AE24A4592B9F81B8F1190274D"] = {
             [1] = "AC87FCE641244A0B8DCC25D9E13A42E4",
@@ -27,20 +30,38 @@ return {
             [6] = "85A8873EE9324E589495E14A17C2EBF3",
         },
         ["177D2999CC624B62864E5BC5AB34D465"] = {
+            [1] = "D5686235B8E04CBC90162FEE8053AFD1",
+        },
+        ["088CECE2150D40F6A9C98AE28DCF3524"] = {
+            [1] = "0FEBD4A27618467EA3407C23E4AD6D4C",
+        },
+        ["D5686235B8E04CBC90162FEE8053AFD1"] = {
             [1] = "6C26242DE73A45DF95446B8DDC6E066B",
         },
         ["91B5B4A88E0245AEB1499D9CD10FC707"] = {
             [1] = "4BF893C130F54546830565B429FF2793",
         },
+        ["568B2E2EAA244864A6CFFD7169161347"] = {
+            [1] = "088CECE2150D40F6A9C98AE28DCF3524",
+        },
         ["EB33A5DE88414BD39580766ED5745B34"] = {
             [1] = "6845CF3A9C9F45968CE957B5D4CDF41B",
+        },
+        ["3505E382A7544EE2B90B4E3CF55A4C03"] = {
+            [1] = "3E4538A98A764A33AB3F5E8EEF9D3768",
         },
         ["85A8873EE9324E589495E14A17C2EBF3"] = {
             [1] = "3505E382A7544EE2B90B4E3CF55A4C03",
             [2] = "44690C09194E416BBB208C5043D0DCB2",
         },
-        ["C8A08B40AF1D49CF8D2606899E32BBAB"] = {
-            [1] = "91B5B4A88E0245AEB1499D9CD10FC707",
+        ["93DFB855C064456DB9000D9D8F8DF156"] = {
+            [1] = "8D8493A5AEF24A1E8245DC398FCB8C99",
+        },
+        ["160DA05BB5524C91A78E07A644FDF78E"] = {
+            [1] = "1989B20E214F45558238612D4CBBE722",
+        },
+        ["71B9386771D842068C6DBD8103AF16D4"] = {
+            [1] = "160DA05BB5524C91A78E07A644FDF78E",
         },
         ["D805096B9F9E4098BA6D93859A84D14A"] = {
             [1] = "BD579FD258944177B1D82C4B1709B69D",
@@ -52,10 +73,10 @@ return {
             [1] = "93DFB855C064456DB9000D9D8F8DF156",
         },
         ["BD579FD258944177B1D82C4B1709B69D"] = {
-            [1] = "088CECE2150D40F6A9C98AE28DCF3524",
+            [1] = "568B2E2EAA244864A6CFFD7169161347",
         },
-        ["3505E382A7544EE2B90B4E3CF55A4C03"] = {
-            [1] = "3E4538A98A764A33AB3F5E8EEF9D3768",
+        ["2D6EEDDE2CE0484492D4AAA889C5CBF6"] = {
+            [1] = "EB33A5DE88414BD39580766ED5745B34",
         },
     },
     ["nodes"] = {
@@ -74,7 +95,7 @@ return {
         },
         ["9819F6D899A146C68C5BA9627C8AF861"] = {
             ["Desc"] = "普通攻击",
-            ["Duration"] = 10000,
+            ["Duration"] = 5000,
             ["NodeTag"] = "9819F6D899A146C68C5BA9627C8AF861",
             ["TriggerType"] = 0,
             ["Static"] = false,
@@ -90,11 +111,35 @@ return {
                 [2] = 0,
             },
         },
+        ["D5686235B8E04CBC90162FEE8053AFD1"] = {
+            ["Desc"] = "顺序行为",
+            ["Pos"] = {
+                ["y"] = 497,
+                ["x"] = 955,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "OrderBevNode",
+            ["NodeTag"] = "D5686235B8E04CBC90162FEE8053AFD1",
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
+        ["568B2E2EAA244864A6CFFD7169161347"] = {
+            ["Desc"] = "顺序行为",
+            ["Pos"] = {
+                ["y"] = 339,
+                ["x"] = 960,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "OrderBevNode",
+            ["NodeTag"] = "568B2E2EAA244864A6CFFD7169161347",
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
         ["1989B20E214F45558238612D4CBBE722"] = {
             ["Desc"] = "技能2-异域穿刺",
             ["Pos"] = {
-                ["y"] = 220,
-                ["x"] = 988,
+                ["y"] = 205,
+                ["x"] = 1116,
             },
             ["Weight"] = 20,
             ["Class"] = "ReleaseSkillBevNode",
@@ -103,11 +148,23 @@ return {
             ["Type"] = 1,
             ["Static"] = false,
         },
+        ["160DA05BB5524C91A78E07A644FDF78E"] = {
+            ["Desc"] = "顺序行为",
+            ["Pos"] = {
+                ["y"] = 170,
+                ["x"] = 966,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "OrderBevNode",
+            ["NodeTag"] = "160DA05BB5524C91A78E07A644FDF78E",
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
         ["6C26242DE73A45DF95446B8DDC6E066B"] = {
             ["Desc"] = "普攻",
             ["Pos"] = {
-                ["y"] = 498,
-                ["x"] = 954,
+                ["y"] = 504,
+                ["x"] = 1132,
             },
             ["Weight"] = 100,
             ["Class"] = "ReleaseSkillBevNode",
@@ -146,6 +203,19 @@ return {
             ["InterruptWay"] = 2,
             ["Static"] = false,
         },
+        ["C5382F11C5AA49E189D6BB58695E8647"] = {
+            ["Desc"] = "行为",
+            ["Pos"] = {
+                ["y"] = 238,
+                ["x"] = 1297,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "DelayBevNode",
+            ["NodeTag"] = "C5382F11C5AA49E189D6BB58695E8647",
+            ["DelayTime"] = 1000,
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
         ["3E4538A98A764A33AB3F5E8EEF9D3768"] = {
             ["Desc"] = "顺序行为",
             ["Pos"] = {
@@ -171,6 +241,19 @@ return {
             ["Name"] = "园神剧场-艾伦",
             ["Static"] = true,
         },
+        ["EB9A28A36D5141EDA76E8C451FAE80DC"] = {
+            ["Desc"] = "行为",
+            ["Pos"] = {
+                ["y"] = 507,
+                ["x"] = 1342,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "DelayBevNode",
+            ["NodeTag"] = "EB9A28A36D5141EDA76E8C451FAE80DC",
+            ["DelayTime"] = 1000,
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
         ["177D2999CC624B62864E5BC5AB34D465"] = {
             ["Pos"] = {
                 ["y"] = 494,
@@ -188,17 +271,43 @@ return {
             },
             ["Static"] = false,
         },
+        ["0FEBD4A27618467EA3407C23E4AD6D4C"] = {
+            ["Desc"] = "行为",
+            ["Pos"] = {
+                ["y"] = 356,
+                ["x"] = 1309,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "DelayBevNode",
+            ["NodeTag"] = "0FEBD4A27618467EA3407C23E4AD6D4C",
+            ["DelayTime"] = 1000,
+            ["Type"] = 0,
+            ["Static"] = false,
+        },
         ["088CECE2150D40F6A9C98AE28DCF3524"] = {
             ["Desc"] = "技能1-连斩",
             ["Pos"] = {
-                ["y"] = 358,
-                ["x"] = 924,
+                ["y"] = 346,
+                ["x"] = 1126,
             },
             ["Weight"] = 50,
             ["Class"] = "ReleaseSkillBevNode",
             ["NodeTag"] = "088CECE2150D40F6A9C98AE28DCF3524",
             ["ID"] = 700120,
             ["Type"] = 1,
+            ["Static"] = false,
+        },
+        ["8D8493A5AEF24A1E8245DC398FCB8C99"] = {
+            ["Desc"] = "行为",
+            ["Pos"] = {
+                ["y"] = -59,
+                ["x"] = 1871,
+            },
+            ["Weight"] = 0,
+            ["Class"] = "DelayBevNode",
+            ["NodeTag"] = "8D8493A5AEF24A1E8245DC398FCB8C99",
+            ["DelayTime"] = 1000,
+            ["Type"] = 0,
             ["Static"] = false,
         },
         ["4BF893C130F54546830565B429FF2793"] = {
@@ -395,8 +504,8 @@ return {
         },
         ["BD579FD258944177B1D82C4B1709B69D"] = {
             ["Pos"] = {
-                ["y"] = 355,
-                ["x"] = 626,
+                ["y"] = 341,
+                ["x"] = 675,
             },
             ["Class"] = "ConditionTargetDistanceNode",
             ["NodeTag"] = "BD579FD258944177B1D82C4B1709B69D",

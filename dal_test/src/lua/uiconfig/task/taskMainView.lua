@@ -1588,7 +1588,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "偶像养成",
+											text = "度假小屋",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1634,7 +1634,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "舒展练习",
+											text = "惬意午后",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1642,7 +1642,7 @@ local t =
 												PositionX = 60,
 												PositionY = 149,
 											},
-											width = "91",
+											width = "92",
 											ZOrder = "1",
 										},
 										{

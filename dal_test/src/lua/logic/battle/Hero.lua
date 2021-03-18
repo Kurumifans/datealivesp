@@ -1308,6 +1308,12 @@ function Hero:getTimeScale()
     return battleController.getTeam():getTimeScale(self:getCamp())*selfTimeScale
 end
 
+function Hero:updatePauseState(isPause)
+    for k , effect in ipairs(self.bufferEffectMap) do
+        effect:updatePauseState(isPause)
+    end
+end
+
 ---buffer 效果
 function Hero:getBFEffectAddTimes(id)
     local times = 0

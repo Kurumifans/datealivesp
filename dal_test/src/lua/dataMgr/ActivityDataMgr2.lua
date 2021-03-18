@@ -452,7 +452,15 @@ function ActivityDataMgr:getNewPlayerActivityInfo(newOrBack)
     return activitys
 end
 
-
+function ActivityDataMgr:getAccessExtData(itemId)
+    local tmpTab = {}
+    local activityIds = self:getActivityInfoByType(EC_ActivityType2.ACCESS_TYPE)
+    for i, activityId in ipairs(activityIds) do
+        local activityInfo_ = ActivityDataMgr2:getActivityInfo(activityId)
+        table.insert(tmpTab, activityInfo_.extendData[tostring(itemId)])
+    end
+    return tmpTab
+end
 
 function ActivityDataMgr:getAssistItemInfos(id, subType)
     local index = self.activityInfoMap_[id]
