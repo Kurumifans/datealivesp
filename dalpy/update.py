@@ -22,13 +22,17 @@ def safe_open_w(path, per):
     return open(path, per)
 
 def check_updates(server):
+	url = {
+		"dal": "http://cdn.datealive.com/dal/",
+		"heitao": "http://c.dal.heitao2014.com/dal/"
+	}
 	checks = {
 		"dal_test": "http://cdn.datealive.com/dal/test/check.xml",
 		"dal_experience": "http://cdn.datealive.com/dal/release_experience/check.xml"
 	}
 	servers = {
-		"dal_test": "http://cdn.datealive.com/dal/DAL_TEST/MainSorceCode/",
-		"dal_experience": "http://cdn.datealive.com/dal/DAL_EXPERIENCE/MainSorceCode/"
+		"dal_test": "DAL_TEST/MainSorceCode/",
+		"dal_experience": "DAL_EXPERIENCE/MainSorceCode/"
 	}
 	zipsource = {
 		"dal_test": "http://cdn.datealive.com/dal/test/zipsource/",
@@ -60,7 +64,15 @@ def check_updates(server):
 	for file in files:
 		file_name = file.attributes['p'].value
 		print("Processing " + file_name)
-		with safe_open_w(server + "/" +file_name, "wb") as f:
-			f.write(requests.get(servers[server] + "source/" + file_name + "?" + str(time.time())).content)
+		with safe_open_w(server + "/" + file_name, "wb") as f:
+			try:
+				req = requests.get(url["dal"] + servers[server] + "source/" + file_name + "?" + str(time.time()))
+			except:
+				try:
+					req = requests.get(url["heitao"] + servers[server] + "source/" + file_name + "?" + str(time.time()))
+				except:
+					print("Failed to download " + file_name)
+					continue
+			f.write(req.content)
 	return True
 #print(check_updates("dal_test"))
