@@ -104,7 +104,7 @@ function NewYearBossPreview:initUIView()
 	local maxScore = self.activityInfo.extendData.battlePointsReward[1] or 0
 	local roundMax = self.activityInfo.extendData.battlePoints[1][2] or 0
 	self.Label_score_value:setText(self.newYearFubenInfo.roundScore.."/"..roundMax)
-	self.Label_total_score_value:setText(self.newYearFubenInfo.totalScore)
+	self.Label_total_score_value:setText(self.newYearFubenInfo.totalScore.."/"..maxScore)
 end
 
 function NewYearBossPreview:registerEvents()

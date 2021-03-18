@@ -515,7 +515,9 @@ end
 
 function ExploreMainView:onShow()
     self.super.onShow(self)
-    
+    if self.battleView then
+        self.battleView:onShow(true)
+    end
     if Utils:getLocalSettingValue("flyshipDating") == "" then
         FunctionDataMgr:jStartDating(649)
         Utils:setLocalSettingValue("flyshipDating","true")
@@ -528,6 +530,13 @@ function ExploreMainView:onShow()
 
     if self.curNationId and self.curCityId then
         ExploreDataMgr:Send_GetShipAttrsInfo(EC_AfkActivityID.Main,self.curNationId,self.curCityId)
+    end
+end
+
+function ExploreMainView:onHide()
+    self.super.onHide(self)
+    if self.battleView then
+        self.battleView:onShow(false)
     end
 end
 
@@ -926,7 +935,7 @@ function ExploreMainView:updateRedTip()
 
     ---天赋
     local knowledgeData = ExploreDataMgr:getKnowledgeState(0)
-    for k,v in pairs(knowledgeData) do
+    for k,v in pairs(knowledgeData or {}) do
         if v == 0 then
             local cfg = ExploreDataMgr:getKnowledgeCfg(k)
             if cfg and cfg.chapterID == self.curNationId then

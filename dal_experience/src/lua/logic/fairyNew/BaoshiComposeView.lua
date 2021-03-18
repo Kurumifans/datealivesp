@@ -12,6 +12,7 @@ function BaoshiComposeView:initData()
     self.minRarity = 2
     self.maxRarity = 6
 
+    self.gemsData = {}
 
     self.gem_group = {}
     self.spineLineAnim = {}
@@ -840,6 +841,10 @@ function BaoshiComposeView:registerEvents()
                     Utils:showTips(493004)
                 elseif tonumber(k) == EC_SItemType.DIAMOND then
                     Utils:showTips(800048)
+                else
+                    local itemCfg = GoodsDataMgr:getItemCfg(tonumber(k))
+                    local text = TextDataMgr:getText(63847,TextDataMgr:getText(itemCfg.nameTextId))
+                    Utils:showTips(text)
                 end
                 return
             end
@@ -866,6 +871,10 @@ function BaoshiComposeView:registerEvents()
                     Utils:showTips(493004)
                 elseif tonumber(k) == EC_SItemType.DIAMOND then
                     Utils:showTips(800048)
+                else
+                    local itemCfg = GoodsDataMgr:getItemCfg(tonumber(k))
+                    local text = TextDataMgr:getText(63847,TextDataMgr:getText(itemCfg.nameTextId))
+                    Utils:showTips(text)
                 end
                 return
             end

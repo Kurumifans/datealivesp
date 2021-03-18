@@ -100,7 +100,6 @@ local t =
 							{
 								
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -281,7 +280,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = -376,
-						PositionY = -187,
+						PositionY = -206,
 					},
 					width = "92",
 					ZOrder = "10",
@@ -880,7 +879,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = -414,
-						PositionY = -227,
+						PositionY = -242,
 					},
 					width = "248",
 					ZOrder = "1",

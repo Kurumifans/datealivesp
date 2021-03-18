@@ -627,6 +627,7 @@ function PrivilegeLeagueView:registerEvents()
 
     for k,v in ipairs(self.btnType) do
         v.btn:onClick(function()
+
             if k == self.typeIndex then
                 return
             end

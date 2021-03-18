@@ -35,9 +35,6 @@ function FundGrowView:registerEvents()
 end
 
 function FundGrowView:updateView()
-    if 1 then
-        return
-    end
     for i, cfg in ipairs(self.cfgs) do
         local serverData = RechargeDataMgr:getGrowFundById(cfg.id)
         self.cfgs[i].serverData = serverData

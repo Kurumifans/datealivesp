@@ -1073,6 +1073,12 @@ function Actor:playStand()
     end
 end
 
+--静止
+function Actor:stopAni()
+    self.skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+    self.skeletonNode:stop()
+end
+
 --倒地
 function Actor:playFloor(callFunc,delayTime)
     delayTime = delayTime or 0.5

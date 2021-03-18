@@ -156,7 +156,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 360,
+										PositionX = 560,
 										PositionY = 200,
 										LeftPositon = -30,
 										TopPosition = 627,
@@ -287,6 +287,7 @@ local t =
 										TopPosition = 627,
 									},
 									UItype = "Button",
+									visible = "False",
 									width = "402",
 									ZOrder = "1",
 								},
@@ -310,7 +311,7 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 360,
+										PositionX = 560,
 										PositionY = 30,
 									},
 									width = "174",
@@ -388,6 +389,7 @@ local t =
 										PositionX = 776,
 										PositionY = 41,
 									},
+									visible = "False",
 									width = "174",
 									ZOrder = "1",
 									components = 

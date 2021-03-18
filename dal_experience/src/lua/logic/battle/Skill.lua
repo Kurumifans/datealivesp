@@ -44,6 +44,8 @@ local Skill = class("Skill")
 function Skill:ctor(data,hero)
     self.data = data
     -- self.data.costAnger = 0
+
+    self.skillCfg = TabDataMgr:getData("Skill",self.data.id)
     if not self.data.revealSkill or self.data.revealSkill == 0 then
         self.bVisiable =  true
     else
@@ -241,6 +243,28 @@ function Skill:isManual(flag)
         return self._form == self.hero.curForm
     end
 end
+function Skill:handlLimitTime( time )
+    -- body
+    if not self.nLimitTime then return end
+    if self.nLimitTime > 0 then
+        self.nLimitTime = self.nLimitTime - time
+        self.nLimitTime = math.max(self.nLimitTime, 0)
+        local lastPercent = self.nLimitPercent
+        self.nLimitPercent = math.floor(self.nLimitTime/self.skillCfg.limitTime*100)
+        if lastPercent - self.nLimitPercent > 0 then
+            EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE,self)
+        end
+    elseif self.skillCfg.limitTime and self.skillCfg.limitTime > 0 then
+        if self.skillCfg.callbackSkill and self.skillCfg.callbackSkill > 0 then
+            local skill  = self.hero:getSkillByCid(self.skillCfg.callbackSkill)
+            self:setVisiable(false)
+            skill:setVisiable(true)
+            if self:isManual(true) then
+                EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE,self,true)
+            end
+        end
+    end
+end
 --处理冷却
 function Skill:handlCD(time)
     if self.hero:checkSkill_CD(self) then
@@ -315,6 +339,14 @@ end
 --技能CD时间
 function Skill:getCDTime()
     return self.nCDTime
+end
+
+--技能CD时间
+function Skill:getLimitTime()
+    return self.nLimitTime
+end
+function Skill:getLimitPercent()
+    return self.nLimitPercent or 0
 end
 
 function Skill:setCDPercent(percent)
@@ -1233,7 +1265,9 @@ end
 function Skill:update(time)
     if battleController.isTiming() then
         self:handlCD(time)
+        self:handlLimitTime(time)
     end
+
     self:autoMove(time)
     self:handleGather(time)
     --更新按钮
@@ -1270,6 +1304,25 @@ function Skill:checkLevel(level)
     return self:getLevel() >= level
 end
 
+--事件触发
+function Skill:onEventTrigger(source,event,target,param)
+    if not event then
+        printError("onEventTrigger event is nil")
+        Box("onEventTrigger event is nil")
+    end
+    local condition = self.skillCfg.conditionSkill or {}
+    for k,cond in ipairs(condition) do
+        if condition.event == event then
+            if condition.type == 1 then
+                if condition.skillId and condition.skillId > 0 then 
+                    local skill  = self.hero:getSkillByCid(condition.skillId)
+                    self:setVisiable(false)
+                    skill:setVisiable(true)
+                end
+            end
+        end
+    end
+end
 --技能的一个动作播放完成
 function Skill:onAcitonOver()
     --清理动作绑定的粒子
@@ -1362,6 +1415,7 @@ end
 --强制更新
 function Skill:forceUpdate(flag)--强制更新
     if self:isVisiable() then
+        self.nLimitTime = self.skillCfg.limitTime
         if self:isManual(true) then
             EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE, self , flag)
         end

@@ -3446,7 +3446,7 @@ local t =
 									height = "280",
 									ignoreSize = "False",
 									innerHeight = "350",
-									innerWidth = "350",
+									innerWidth = "378",
 									name = "ScrollView_allElements",
 									showScrollbar = "False",
 									sizepercentx = "0",
@@ -3464,7 +3464,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "350",
+									width = "378",
 									ZOrder = "1",
 									components = 
 									{
@@ -3999,7 +3999,7 @@ local t =
 											UUID = "9a577e44_c45e_4e77_ab7f_4c6742c5eab9",
 											anchorPoint = "False",
 											anchorPointX = "0",
-											anchorPointY = "0",
+											anchorPointY = "1",
 											backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 											bgColorOpacity = "50",
 											bIsOpenClipping = "False",
@@ -4009,7 +4009,7 @@ local t =
 											DesignType = "0",
 											DesignWidth = "960",
 											dstBlendFunc = "771",
-											height = "120",
+											height = "138",
 											ignoreSize = "False",
 											name = "Panel_teshu_title",
 											sizepercentx = "0",
@@ -4020,7 +4020,7 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = 25,
-												PositionY = 37,
+												PositionY = 200,
 												LeftPositon = 84,
 												TopPosition = 429,
 												relativeToName = "Panel_equip",
@@ -4056,7 +4056,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 132,
-														PositionY = 100,
+														PositionY = -26,
 													},
 													width = "278",
 													ZOrder = "1",
@@ -4102,7 +4102,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 4,
-														PositionY = 96,
+														PositionY = -28,
 													},
 													width = "89",
 													ZOrder = "1",
@@ -4149,7 +4149,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 98,
-														PositionY = 96,
+														PositionY = -28,
 													},
 													width = "45",
 													ZOrder = "1",
@@ -4180,8 +4180,8 @@ local t =
 														StrokeColor = "#FFE6E6E6",
 														StrokeSize = 1,
 													},
-													height = "108",
-													ignoreSize = "False",
+													height = "21",
+													ignoreSize = "True",
 													name = "Label_guyou",
 													nTextAlign = "0",
 													nTextHAlign = "0",
@@ -4194,10 +4194,10 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 31,
-														PositionY = 76,
+														PositionX = 19,
+														PositionY = -44,
 													},
-													width = "275",
+													width = "75",
 													ZOrder = "1",
 												},
 											},
@@ -6542,7 +6542,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "450",
 							ZOrder = "1",
 							components = 

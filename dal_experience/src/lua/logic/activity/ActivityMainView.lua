@@ -71,18 +71,35 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.BOSS_CHALLENGE] = requireNew("lua.logic.activity.JumpActivityView"),
             [EC_ActivityType2.DUNGEON_DROP] = requireNew("lua.logic.activity.DropActivityView"),
             [EC_ActivityType2.WSJ_2020] = requireNew("lua.logic.activity.JumpActivityView"), 
-            [EC_ActivityType2.LAND_TURNTABLET] = requireNew("lua.logic.activity.LandTurnTabletView")
+            [EC_ActivityType2.LAND_TURNTABLET] = requireNew("lua.logic.activity.LandTurnTabletView"),
+            [EC_ActivityType2.DICUO_LINKAGE] = requireNew("lua.logic.activity.JumpActivityView"), 
+            [EC_ActivityType2.CROSS_SUPPORT] = requireNew("lua.logic.activity.TaskActivityView"),
+            [EC_ActivityType2.MAOKA] = requireNew("lua.logic.activity.JumpActivityView"),   
+            [EC_ActivityType2.SNOW_FESTIVAL_TASK] = requireNew("lua.logic.activity.SnowFestivalTaskView"),
+            [EC_ActivityType2.DICUO_LINKAGE] = requireNew("lua.logic.activity.JumpActivityView"),
+            [EC_ActivityType2.CROSS_SUPPORT] = requireNew("lua.logic.activity.TaskActivityView"),  
+            [EC_ActivityType2.STORE_SNOW_FESTIVAL] = requireNew("lua.logic.activity.StoreSnowFestivalView"),
+            [EC_ActivityType2.SNOW_FESTIVAL_FIGHT] = requireNew("lua.logic.activity.SnowFestivalFightView"),
+            [EC_ActivityType2.FAN_SHI_STORE] = requireNew("lua.logic.activity.fanShi.FanShiStoreView"),
+            [EC_ActivityType2.FAN_SHI_TASK] = requireNew("lua.logic.activity.fanShi.FanShiTaskView"),
+            [EC_ActivityType2.FAN_SHI_DOC] = requireNew("lua.logic.activity.fanShi.FanShiActivityDescView"),
+            [EC_ActivityType2.HANTER] = requireNew("lua.logic.activity.TaskActivityView2"),
+            [EC_ActivityType2.FLOWER_SEND] = requireNew("lua.logic.activity.2021_spring.ValentinesDay"),
+            -- [EC_ActivityType2.FIREWORKS_PRODUCT] = requireNew("lua.logic.activity.2021_spring.FireFactoryView"),
+            [EC_ActivityType2.SPRITE_FOR_GIFT] = requireNew("lua.logic.activity.SpriteForGift"),
         },
         [2] = {
             [EC_ActivityType2.CGCOLLECTED] = requireNew("lua.logic.activity.JumpActivityView"),
+			
         },
         [3] = {
             [EC_ActivityType2.ONEYEAR_WELFARE] = requireNew("lua.logic.oneYear.WelfareView"),
             [EC_ActivityType2.HALLOWEEN_GHOST] = requireNew("lua.logic.activity.PreHalloweenView"),
+			[EC_ActivityType2.SNOW_BOOK] = requireNew("lua.logic.activity.SnowDay.SnowCastleMain"),	
+			[EC_ActivityType2.SNOW_MEMORY] = requireNew("lua.logic.activity.SnowDay.SnowDayMemoryEntry"), 
         },
         [4] = {
-
-
+           
         },
         [5] = {
             [EC_ActivityType2.COURAGE] = requireNew("lua.logic.courage.CourageEnterView"),
@@ -94,8 +111,8 @@ function ActivityMainView:initData(selectActivityId,activityShowType)
             [EC_ActivityType2.KSAN_CARD] = requireNew("lua.logic.activity.KuangsanTaskView"),
             [EC_ActivityType2.WELFARE_JUMP] = requireNew("lua.logic.activity.JumpActivityView"),
         },
-		[7] = {
-			[EC_ActivityType2.WELFARE_JUMP] = requireNew("lua.logic.activity.ChrismasActivityEntry"),
+		[7] = {			
+			[EC_ActivityType2.WELFARE_JUMP] = requireNew("lua.logic.activity.ChrismasActivityEntry"),		
 		}
     }
 
@@ -151,7 +168,7 @@ function ActivityMainView:refreshView()
 end
 
 function ActivityMainView:updateAllActivity()
-	--print("self.activityShowType=" .. self.activityShowType)
+	print("self.activityShowType=" , self.activityShowType)
     self.activityInfo_ = ActivityDataMgr2:getActivityInfo(nil ,self.activityShowType)
     --在线积分活动不显示在活动窗口里
     for i = 1, #self.activityInfo_ do
@@ -233,11 +250,17 @@ end
 function ActivityMainView:addModelItem(activitId, type_)
     local modelClassMap
     if self.activityShowType  then 
-        modelClassMap = self.createModelClass_[self.activityShowType] or self.createModelClass_[DEFAULT_SHOW_TYPE] 
+        modelClassMap = self.createModelClass_[self.activityShowType] or self.createModelClass_[DEFAULT_SHOW_TYPE]
     else
         modelClassMap = self.createModelClass_[DEFAULT_SHOW_TYPE] 
     end
     local modelClass = modelClassMap[type_] or self.createModelClass_[DEFAULT_SHOW_TYPE][type_]
+
+    local activityInfo = ActivityDataMgr2:getActivityInfo(activitId)
+    if EC_ActivityType2.TASK == activityInfo.activityType and  activityInfo.extendData.uiClass and  activityInfo.extendData.uiClass ~= "" then
+        modelClass = requireNew(activityInfo.extendData.uiClass)
+    end
+
     if modelClass then
         local model = modelClass:new(activitId, self)
         self:addLayerToNode(model, self.Panel_activity)
@@ -253,6 +276,7 @@ end
 function ActivityMainView:selectActivity(index, force)
     if #self.activityInfo_ == 0 then return end
     if self.selectIndex_ == index and not force then return end
+
 
     ---关闭上一个页签model
     if self.selectIndex_ then
@@ -348,6 +372,12 @@ function ActivityMainView:removeEvents()
 end
 
 function ActivityMainView:onCountDownPer()
+    if not self.activityInfo_ then
+        if self.countDownTimer_ then
+            TFDirector:removeTimer(self.countDownTimer_)
+        end
+        return
+    end
     for i, v in ipairs(self.activityInfo_) do
         local model = self.activityModel_[v.id]
         if model and model.onUpdateCountDownEvent then

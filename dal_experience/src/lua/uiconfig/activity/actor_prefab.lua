@@ -134,10 +134,10 @@ local t =
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "223",
+							height = "194",
 							ignoreSize = "False",
 							name = "Image_bubble",
 							sizepercentx = "0",
@@ -150,7 +150,7 @@ local t =
 							{
 								PositionY = 130,
 							},
-							width = "320",
+							width = "200",
 							ZOrder = "1",
 							components = 
 							{
@@ -159,8 +159,8 @@ local t =
 									controlID = "Label_bubble_Image_bubble_Panel_player_Panel-actor_prefab_znq_yly_activity_Game",
 									UUID = "7e861b98_99a2_4dcc_9bd0_670a1266bf46",
 									anchorPoint = "False",
-									anchorPointX = "0",
-									anchorPointY = "1",
+									anchorPointX = "0.5",
+									anchorPointY = "0",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
@@ -181,7 +181,7 @@ local t =
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "90",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_bubble",
 									nTextAlign = "0",
@@ -190,15 +190,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "玩家名称玩家名称玩家名称玩家名称玩名称玩家名称玩名称玩家名称玩",
+									text = "玩家名称玩家名称玩家名称玩家名称玩家名称玩家名称",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -106,
-										PositionY = 162,
+										PositionY = 23,
 									},
-									width = "212",
+									width = "150",
 									ZOrder = "1",
 								},
 							},
@@ -245,37 +244,37 @@ local t =
 						
 						{
 							controlID = "Image_bubble_Panel_npc_Panel-actor_prefab_znq_yly_activity_Game",
-							UUID = "45ee7f58_3e48_43c8_9c19_768c9f89962f",
+							UUID = "a4cd6fcc_c25c_4dd8_b0e6_0ec767d0353e",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0",
-							backGroundScale9Enable = "False",
+							backGroundScale9Enable = "True;capInsetsX:0;capInsetsY:0;capInsetsWidth:0;capInsetsHeight:0",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "98",
-							ignoreSize = "True",
+							height = "194",
+							ignoreSize = "False",
 							name = "Image_bubble",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/osd/main/003.png",
+							texturePath = "ui/activity/znq_yly/mainUi/chatBubble.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionY = 159,
+								PositionY = 130,
 							},
-							width = "98",
+							width = "200",
 							ZOrder = "1",
 							components = 
 							{
 								
 								{
 									controlID = "Label_bubble_Image_bubble_Panel_npc_Panel-actor_prefab_znq_yly_activity_Game",
-									UUID = "41ac61f6_b6d3_48c5_a4b2_a1a798701e9a",
+									UUID = "0c79def1_37eb_454b_8c8a_f91fd4d766cf",
 									anchorPoint = "False",
-									anchorPointX = "0",
-									anchorPointY = "1",
+									anchorPointX = "0.5",
+									anchorPointY = "0",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
@@ -289,14 +288,14 @@ local t =
 										OffsetX = 0,
 										OffsetY = 0,
 									},
-									fontSize = "16",
+									fontSize = "26",
 									fontStroke = 
 									{
 										IsStroke = false,
 										StrokeColor = "#FFE6E6E6",
 										StrokeSize = 1,
 									},
-									height = "65",
+									height = "0",
 									ignoreSize = "False",
 									name = "Label_bubble",
 									nTextAlign = "0",
@@ -305,15 +304,14 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "玩家名称",
+									text = "玩家名称玩家名称玩家名称玩家名称玩家名称玩家名称",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -45,
-										PositionY = 89,
+										PositionY = 19,
 									},
-									width = "89",
+									width = "150",
 									ZOrder = "1",
 								},
 							},
@@ -332,7 +330,6 @@ local t =
 		textures = 
 		{
 			"ui/activity/znq_yly/mainUi/chatBubble.png",
-			"ui/osd/main/003.png",
 		},
 		armatures = 
 		{

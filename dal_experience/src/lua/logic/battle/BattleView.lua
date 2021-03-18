@@ -358,7 +358,7 @@ function BattleView:initUI(ui)
 
     self.Panel_ui_effect_top    = TFDirector:getChildByPath(self.Panel_ui, "Panel_ui_effect_top")
     self.Panel_ui_effect_top:setTouchEnabled(false)
-    self.Panel_ui_effect_bottom = TFDirector:getChildByPath(self.Panel_ui, "Panel_ui_effect_bottom")
+    self.Panel_ui_effect_bottom = TFDirector:getChildByPath(ui, "Panel_ui_effect_bottom")
 
     self.effect_alert = TFDirector:getChildByPath(self.Panel_ui_effect_bottom, "Spine_alert")
     local size = self.Panel_ui_effect_bottom:getSize()
@@ -416,6 +416,8 @@ function BattleView:initUI(ui)
 
     local image_hp = self.plyerNode:getChildByName("Image_hp")
     self.plyerNode.loadingBar_hp = image_hp:getChildByName("LoadingBar_hp")
+    self.plyerNode.Image_loadbar_bt = self.plyerNode:getChildByName("Image_loadbar_bt")
+    self.plyerNode.LoadingBar_bt = self.plyerNode:getChildByName("LoadingBar_bt")
 
 
     self.plyerNode.label_sp  = self.plyerNode:getChildByName("Label_sp") --TODO 设置SP的名称
@@ -1513,7 +1515,7 @@ function BattleView:updateLevelTypeDisplay()
     self.panel_victory_time:setVisible(self.levelCfg_.dungeonType ~= EC_FBLevelType.PRACTICE)
 
     if self.levelType_ == EC_FBLevelType.PRACTICE then
-        self.keyBoard.pause_btn:hide()
+        self.keyBoard.pause_btn:setPositionX(self.keyBoard.pause_btn:getPositionX() + 30)
         self.Image_practice_atk_off:setVisible(not self.practice_atk_toggle)
         self.Image_practice_atk_on:setVisible(self.practice_atk_toggle)
         self.Image_practice_infinite_off:setVisible(not self.practice_infinite_toggle)
@@ -1603,6 +1605,10 @@ function BattleView:onShow()
         self:_fadeOut()
         self.bOnShow = true
         --开始战斗
+        if not battleController.data then
+            EventMgr:dispatchEvent(eEvent.EVENT_LEAVE)
+            return
+        end
         battleController.start()
 
         if battleController.isLockStep() then 
@@ -2163,9 +2169,21 @@ end
 
 function BattleView:onAddToUIEffect(effect)
     local size = self.Panel_ui_effect_bottom:getSize()
-    effect:setPosition(me.p(size.width/2,size.height/2))
-    effect:setCameraMask(self.Panel_ui_effect_bottom:getCameraMask())
-    self.Panel_ui_effect_bottom:addChild(effect)
+    if effect.fitScale then
+        local panel = TFPanel:create()
+        panel:setAnchorPoint(ccp(0.5,0.5))
+        panel:setPosition(me.p(size.width/2,size.height/2))
+        self.Panel_ui_effect_bottom:addChild(panel)
+        effect:setPosition(me.p(0,0))
+        effect:setCameraMask(self.Panel_ui_effect_bottom:getCameraMask())
+        panel:addChild(effect)
+        panel:setScale(1.0 + effect.fitScale)
+        effect:setBindParent(panel)
+    else
+        effect:setPosition(me.p(size.width/2,size.height/2))
+        effect:setCameraMask(self.Panel_ui_effect_bottom:getCameraMask())
+        self.Panel_ui_effect_bottom:addChild(effect)
+    end
 end
 
 -- 助战报幕
@@ -2337,6 +2355,9 @@ function BattleView:onHeroAttrChange(hero)
     local captain = battleController.getCaptain()
     if hero == captain then
         self.plyerNode.loadingBar_hp:setPercent(BattleUtils.fixPercent(hero:getHpPercent()*0.01))
+        local btPercent = BattleUtils.fixPercent(hero:getResistPercent()*0.01)
+        self.plyerNode.Image_loadbar_bt:setVisible(btPercent > 0)
+        self.plyerNode.LoadingBar_bt:setPercent(btPercent)
 
         local resPath = hero:getData().fightIcon
         if self.plyerNode.imageHead._resPath ~= resPath then
@@ -2486,10 +2507,7 @@ end
 
 function BattleView:updateEnergyBarPanel()
     local captain = battleController.getCaptain()
-    if not captain then
-        return
-    end
-    if captain:isDead() then
+    if not captain or captain:isDead() then
         return
     end
     local form = captain:getCurForm()
@@ -3319,12 +3337,7 @@ function BattleView:showFuben()
         TeamFightDataMgr:reset()
     end
     GuideDataMgr:setPlotLvlBackState(true)
-    if battleController.lastSceneName == "BaseOSDScene" then 
-        local OSDControl = require("lua.logic.osd.OSDControl")
-        OSDControl:enterOSD({})
-    else
-        AlertManager:changeScene(SceneType.MainScene)
-    end
+    battleController.popLastScence()
 end
 
 function BattleView:commonFightResult()
@@ -3878,10 +3891,12 @@ end
 function BattleView:updateTeamItem(itemInfo,idx)
     if self.team_list_refresh_enable == true then
         local item = self.team_left_list:getItem(idx)
-        if self.team_switch_btn.page_idx == 0 then
-            self:updateTeamItemA(item,itemInfo)
-        else
-            self:updateTeamItemB(item,itemInfo,idx)
+        if item then
+            if self.team_switch_btn.page_idx == 0 then
+                self:updateTeamItemA(item,itemInfo)
+            else
+                self:updateTeamItemB(item,itemInfo,idx)
+            end
         end
     end
 end

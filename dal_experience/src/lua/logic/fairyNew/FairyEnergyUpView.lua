@@ -108,11 +108,7 @@ function FairyEnergyUpView:onLevelUpOver(data)
     self:heroInfoChange()
     local curlevel = HeroDataMgr:getHeroEnergyLevel(self.showid)
     if self.lastLevel and curlevel > self.lastLevel then
-        local levelCfg = HeroDataMgr:getHeroEnergyLevelCfg()
-        local isBreakStage = levelCfg.ifButton == 1
-        if not isBreakStage then
-            Utils:openView("fairyNew.FairyEnergyLevelUpView",data, self.lastLevel)
-        end
+        Utils:openView("fairyNew.FairyEnergyLevelUpView",data, self.lastLevel)
     end
 end
 

@@ -89,7 +89,7 @@ function TouzirenView:refreshView( )
 	local changeNum = #self.task_ - #self.Grid_task:getItems()
 	
 	if changeNum < 0 then
-		for i = 1,#math.abs(changeNum) do
+		for i = 1,math.abs(changeNum) do
 			self.Grid_task:removeItem(1)
 		end
 	end

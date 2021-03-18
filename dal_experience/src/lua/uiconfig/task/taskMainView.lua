@@ -368,7 +368,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -1068,7 +1067,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "1136",
 							ZOrder = "1",
 							components = 
@@ -1590,7 +1588,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "生存游戏",
+											text = "偶像养成",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -1598,7 +1596,7 @@ local t =
 												PositionX = 60,
 												PositionY = 309,
 											},
-											width = "91",
+											width = "92",
 											ZOrder = "1",
 										},
 										{
@@ -1636,7 +1634,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "备用火力",
+											text = "舒展练习",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
@@ -2207,7 +2205,7 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 46,
+										PositionX = 40,
 										PositionY = -80,
 									},
 									uipanelviewmodel = 

@@ -221,7 +221,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#FF000000",
+										StrokeColor = "#FF4A43AC",
 										StrokeSize = 1,
 									},
 									height = "27",
@@ -392,7 +392,7 @@ local t =
 							fontStroke = 
 							{
 								IsStroke = true,
-								StrokeColor = "#FF000000",
+								StrokeColor = "#FF4A43AC",
 								StrokeSize = 2,
 							},
 							height = "36",
@@ -580,14 +580,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF000000",
+												StrokeColor = "#FF4A43AC",
 												StrokeSize = 2,
 											},
-											height = "34",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_geted",
 											nTextAlign = "1",
@@ -601,9 +601,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionY = 11,
+												PositionY = 12,
 											},
-											width = "79",
+											width = "66",
 											ZOrder = "1",
 										},
 									},
@@ -727,14 +727,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF000000",
+												StrokeColor = "#FF4A43AC",
 												StrokeSize = 2,
 											},
-											height = "34",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_get",
 											nTextAlign = "1",
@@ -750,7 +750,7 @@ local t =
 											{
 												PositionY = 11,
 											},
-											width = "54",
+											width = "46",
 											ZOrder = "1",
 										},
 									},
@@ -838,14 +838,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "19",
+											fontSize = "16",
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF000000",
+												StrokeColor = "#FF4A43AC",
 												StrokeSize = 2,
 											},
-											height = "28",
+											height = "24",
 											ignoreSize = "True",
 											name = "Label_money",
 											nTextAlign = "1",
@@ -861,7 +861,7 @@ local t =
 											{
 												PositionY = 10,
 											},
-											width = "48",
+											width = "42",
 											ZOrder = "1",
 										},
 									},

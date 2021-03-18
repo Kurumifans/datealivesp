@@ -82,6 +82,7 @@ function BrushMonster:init()
     self.waveMonsterId_ = {}
     self.enabled = true --刷怪器开关
     self.checkTiming = 0
+    self.preBrushData = {}  --缓存抢波次刷怪的配置指令
     self.checkCount = {}
 end
 --刷怪是否开启
@@ -169,6 +170,22 @@ function BrushMonster:update(delta)
             end
         end
     end
+    self:checkNextWaveData(delta)
+end
+
+function BrushMonster:checkNextWaveData(delta)
+    self.checkTiming = self.checkTiming + delta
+    if self.checkTiming > 1000 then
+        self.checkTiming = 0
+        local wave = battleController.getWave()
+        for k,v in pairs(self.preBrushData) do
+            if v.cfg.Count == wave then
+                self:onBurshEvent(v.cfg, v.param, v.call)
+                self.preBrushData[k] = nil
+                break
+            end
+        end
+    end
 end
 
 function BrushMonster:checkEnableNextWave(delta)
@@ -199,6 +216,16 @@ function BrushMonster:onBurshEvent(brushCfg, params, callback)
     if not self:isEnabled() then 
         return 
     end
+
+    local newDunStepType = TabDataMgr:getData("DiscreteData",61007).data.newDunStepType or {}
+    if table.indexOf(newDunStepType,self.levelCfg_.dungeonType) ~= -1 then
+        local wave = battleController.getWave()
+        if brushCfg.Count > wave then
+            self.preBrushData[brushCfg.Count] = {cfg = brushCfg,param = params,call = callback}
+            return
+        end
+    end
+
     -- dump(brushCfg)
     -- dump(params)
     local type_ = brushCfg.Class
@@ -671,6 +698,8 @@ function BrushMonster:transData(monsterSectionCid, monster)
         end
         if rawData.level then
             rawData.level = math.max(1, rawData.level)
+        else
+            rawData.level = MainPlayer:getPlayerLv()
         end
         local data = BattleDataMgr:transData(eRoleType.Monster, rawData)
         table.insert(waveMonster, data)

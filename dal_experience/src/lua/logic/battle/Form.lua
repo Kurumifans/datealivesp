@@ -8,6 +8,7 @@ function Form:ctor(data,hero)
 	self.skillList = {}
 	self.aiAgent   = AIAgent:new(self.hero,self.data.AI)
 	-- 创建技能
+	self.data.skills = hero:combatCustomSkills(self.data.skills)
     for k, id in ipairs(self.data.skills) do
         local data =  BattleDataMgr:getSkillData(id,self.hero:getAngleDatas())
         if not data then --TODO 怪物技能不存在

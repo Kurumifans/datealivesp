@@ -8,8 +8,8 @@ if  CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or VERSION_DEBUG == true then
     GM_URL    = "http://192.168.20.181:8080/login/account/adminLogin"
 else
     if RELEASE_TEST then
-        LOGIN_URL = "http://49.233.184.62:8081/account/login"
-        GM_URL    = "http://49.233.184.62:8081/account/login"
+        LOGIN_URL = "http://175.24.25.95:10001/account/login"
+        GM_URL    = "http://175.24.25.95:10001/account/login"
     elseif EXPERIENCE then
         LOGIN_URL = "http://uce.datealive.com:8081/account/login"
         GM_URL    = "http://uce.datealive.com:8081/account/login"
@@ -34,6 +34,9 @@ function LogonHelper:ctor(data)
     self.code_ = nil
     self.isAuto_ = false
     self.isLogined = false;
+    self.concealAgreeFlag = false
+    self.userAgreeFlag = false
+    self.protoAgreeFlag = false
 
     self.serverName_ = self:getCacheServerName()
     self.serverGroup_ = self:getCacheGroupName()
@@ -270,6 +273,14 @@ function LogonHelper:GMLogin(pid)
     UserCenterHttpClient:httpRequest(TFHTTP_TYPE_GET,url)
 end
 
+function LogonHelper:isOfficialChannel()
+    local platformId = 0
+    if HeitaoSdk then
+        platformId = HeitaoSdk.getplatformId() % 10000
+    end
+
+    return platformId == 101 or platformId == 173 or platformId == 682
+end
 
 function LogonHelper:loginVerification()
     showLongLoading()
@@ -317,7 +328,7 @@ function LogonHelper:loginVerification()
                 return
             end
 
-            if GameConfig.Debug then
+            if GameConfig.Debug or RELEASE_TEST then
                 self:cacheLoginInfo()
             end
 
@@ -332,11 +343,22 @@ function LogonHelper:loginVerification()
 
             ServerDataMgr:setGameServerList(data.data)
             
+            local curServer
             if table.count(data.data) == 1 then
+                curServer = data.data[1]
                 SaveManager:saveUserInfoDemo(account,password,data.data[1].token,data.data[1].gameServerIp,data.data[1].gameServerPort);
             else
                 local selectIdx = ServerDataMgr:getCurrentServerIndex();
+                curServer = data.data[selectIdx]
                 SaveManager:saveUserInfoDemo(account,password,data.data[selectIdx].token,data.data[selectIdx].gameServerIp,data.data[selectIdx].gameServerPort);
+            end
+
+            if not self:isOfficialChannel() then
+                if curServer and curServer.tip then
+                    self.protoAgreeFlag = curServer.tip == 1
+                else
+                    self.protoAgreeFlag = CCUserDefault:sharedUserDefault():getBoolForKey(HeitaoSdk.getuserid().."protoagree")
+                end
             end
 
             EventMgr:dispatchEvent(EV_LOGIN_UPDATESERVERNAME)
@@ -358,6 +380,13 @@ function LogonHelper:loginVerification()
     local size = CCDirector:sharedDirector():getOpenGLView():getFrameSize();
 
     local url = self.loginUrl_
+    if RELEASE_TEST then
+        local serverGroupConfig = ServerDataMgr:getServerList(self.serverGroup_)
+        if serverGroupConfig and serverGroupConfig.url then
+            url = serverGroupConfig.url
+        end
+    end
+
     url = url.."?token="..string.url_encode(token);
     url = url.."&accountId="..string.url_encode(HeitaoSdk.getuserid());
     url = url.."&deviceid="..string.url_encode(((TFDeviceInfo:getMachineOnlyID()) or 1));
@@ -391,7 +420,11 @@ function LogonHelper:loginVerification()
         url = url.."&androidid="..string.url_encode(((TFDeviceInfo:getAndroidId()) or 1));
     end
     if RELEASE_TEST then
-        url = url.."&serverGroup=".."cehua_ext";
+        if self.serverGroup_ then
+            url = url.."&serverGroup=" .. self.serverGroup_
+        else
+            url = url.."&serverGroup=".."cehua_ext";
+        end
         url = url.."&channelId=".."LOCAL_TEST";
     else
         url = url.."&serverGroup=".."ios_check";
@@ -452,11 +485,51 @@ function LogonHelper:setIsLogin(islogin)
     self.isLogined = islogin;
     if not islogin then
         self._isVerification = false;
+        self.concealAgreeFlag = false
+        self.userAgreeFlag = false
+        self.protoAgreeFlag = false
     end
 end
 
+function LogonHelper:setAgreeConcealProto(state)
+    self.concealAgreeFlag = state
+end
+
+function LogonHelper:setAgreeUserProto(state)
+    self.userAgreeFlag = state
+end
+
+function LogonHelper:isAgreedConcealProto()
+    return self.concealAgreeFlag
+end
+
+function LogonHelper:isAgreedUserProto()
+    return self.userAgreeFlag
+end
+
+function LogonHelper:setAgreeProto(state)
+    self.protoAgreeFlag = state
+    if HeitaoSdk then
+        CCUserDefault:sharedUserDefault():setBoolForKey(HeitaoSdk.getuserid().."protoagree", state)
+    end
+    local tipurl = clone(self.loginUrl_)
+    tipurl = string.gsub(tipurl,"login","saveTip")
+    tipurl = tipurl.."?accountId="..string.url_encode(HeitaoSdk.getuserid())
+    UserCenterHttpClient:httpRequest(TFHTTP_TYPE_GET,tipurl)
+end
+
+function LogonHelper:isAgreedProto()
+    if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+        return true
+    end
+    if self:isOfficialChannel() then
+        return true
+    end
+    return self.protoAgreeFlag
+end
+
 function LogonHelper:isVerification()
-    return self._isVerification;
+    return self._isVerification
 end
 
 function LogonHelper:setVerification(Verification)

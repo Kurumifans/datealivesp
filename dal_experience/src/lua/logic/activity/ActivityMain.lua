@@ -187,7 +187,7 @@ function ActivityMain:initActivitysBtn()
     end
 
     --七日狂欢
-    if self.selectSevenExIdx > 0 then
+    if self.selectSevenExIdx > 0 and not ActivityDataMgr:isActivateNewPlayerBook() then
         local btn           = self.actBtnItem:clone();
         local titleLabel    = TFDirector:getChildByPath(btn,"Label");
         local icon          = TFDirector:getChildByPath(btn,"Image_icon")
@@ -417,7 +417,8 @@ function ActivityMain:registerEvents()
             --         Utils:showTips(2100037, level)
             --     end
             -- end
-            Utils:openView("store.GiftPackMainView",3)
+            -- Utils:openView("store.GiftPackMainView",3)
+            FunctionDataMgr:jGiftPacks(2, 4)
     end)
 
     self.Panel_awardConfirm:onClick(function()

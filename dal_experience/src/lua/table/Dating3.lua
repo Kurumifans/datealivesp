@@ -16,6 +16,13 @@ return {
         text = "美佐子",
         id = 748060201,
     },
+    [749071003] = {
+        scriptId = 749071,
+        autoJump = true,
+        id = 749071003,
+        datingType = 2,
+        isVisibleUI = 1,
+    },
     [748180402] = {
         scriptId = 7000018,
         datingType = 2,
@@ -1032,6 +1039,20 @@ return {
         text = "七罪",
         id = 748030401,
     },
+    [749068001] = {
+        bgm = "sound/bgm/dafuweng_main.mp3",
+        autoJump = true,
+        appear = "14",
+        isVisibleUI = 1,
+        scriptId = 749068,
+        backGround = "scene/bg/bg_touming.png",
+        datingType = 2,
+        jump = {
+            [1] = 749068002,
+        },
+        bgTime = -1,
+        id = 749068001,
+    },
     [748020001] = {
         jump = {
             [1] = 748020002,
@@ -1180,6 +1201,16 @@ return {
         dialogScriptId = 100109,
         id = 748030402,
         text = " ",
+    },
+    [749068002] = {
+        scriptId = 749068,
+        jump = {
+            [1] = 749068003,
+        },
+        id = 749068002,
+        dialogScriptId = 100377,
+        datingType = 2,
+        isVisibleUI = 1,
     },
     [748020002] = {
         jump = {
@@ -1369,6 +1400,27 @@ return {
         dialogScriptId = 100176,
         id = 748110302,
         text = " ",
+    },
+    [749066003] = {
+        scriptId = 749066,
+        autoJump = true,
+        id = 749066003,
+        datingType = 2,
+        isVisibleUI = 1,
+    },
+    [749068003] = {
+        scriptId = 749068,
+        autoJump = true,
+        id = 749068003,
+        datingType = 2,
+        isVisibleUI = 1,
+    },
+    [749070003] = {
+        scriptId = 749070,
+        autoJump = true,
+        id = 749070003,
+        datingType = 2,
+        isVisibleUI = 1,
     },
     [748040402] = {
         jump = {
@@ -2122,6 +2174,16 @@ return {
         dialogScriptId = 100119,
         isVisibleUI = 1,
     },
+    [749071002] = {
+        scriptId = 749071,
+        jump = {
+            [1] = 749071003,
+        },
+        id = 749071002,
+        dialogScriptId = 100380,
+        datingType = 2,
+        isVisibleUI = 1,
+    },
     [749027002] = {
         scriptId = 749027,
         datingType = 2,
@@ -2152,6 +2214,44 @@ return {
         dialogScriptId = 100126,
         isVisibleUI = 1,
     },
+    [749071001] = {
+        bgm = "sound/bgm/dafuweng_main.mp3",
+        autoJump = true,
+        appear = "14",
+        isVisibleUI = 1,
+        scriptId = 749071,
+        backGround = "scene/bg/bg_touming.png",
+        datingType = 2,
+        jump = {
+            [1] = 749071002,
+        },
+        bgTime = -1,
+        id = 749071001,
+    },
+    [749070002] = {
+        scriptId = 749070,
+        jump = {
+            [1] = 749070003,
+        },
+        id = 749070002,
+        dialogScriptId = 100379,
+        datingType = 2,
+        isVisibleUI = 1,
+    },
+    [749070001] = {
+        bgm = "sound/bgm/dafuweng_main.mp3",
+        autoJump = true,
+        appear = "14",
+        isVisibleUI = 1,
+        scriptId = 749070,
+        backGround = "scene/bg/bg_touming.png",
+        datingType = 2,
+        jump = {
+            [1] = 749070002,
+        },
+        bgTime = -1,
+        id = 749070001,
+    },
     [748060501] = {
         scriptId = 7000006,
         jump = {
@@ -2160,6 +2260,13 @@ return {
         datingType = 2,
         text = "豪华餐厅",
         id = 748060501,
+    },
+    [749069003] = {
+        scriptId = 749069,
+        autoJump = true,
+        id = 749069003,
+        datingType = 2,
+        isVisibleUI = 1,
     },
     [748050102] = {
         jump = {
@@ -2174,6 +2281,21 @@ return {
         scriptId = 7000005,
         dialogScriptId = 100122,
         id = 748050102,
+        text = " ",
+    },
+    [748010802] = {
+        jump = {
+            [1] = 748010901,
+            [2] = 748011001,
+        },
+        datingType = 2,
+        optionType = 9,
+        isVisibleUI = 1,
+        jumpConfig = {
+        },
+        scriptId = 7000001,
+        dialogScriptId = 100095,
+        id = 748010802,
         text = " ",
     },
     [748140001] = {
@@ -2214,6 +2336,22 @@ return {
         id = 748060102,
         text = " ",
     },
+    [748140201] = {
+        scriptId = 7000014,
+        jump = {
+            [1] = 748140202,
+        },
+        datingType = 2,
+        text = "原谅大凉山",
+        id = 748140201,
+    },
+    [749067003] = {
+        scriptId = 749067,
+        autoJump = true,
+        id = 749067003,
+        datingType = 2,
+        isVisibleUI = 1,
+    },
     [748011001] = {
         scriptId = 7000001,
         jump = {
@@ -2223,6 +2361,16 @@ return {
         text = "逆卡巴拉生命树的质点",
         id = 748011001,
     },
+    [749067002] = {
+        scriptId = 749067,
+        jump = {
+            [1] = 749067003,
+        },
+        id = 749067002,
+        dialogScriptId = 100376,
+        datingType = 2,
+        isVisibleUI = 1,
+    },
     [748070101] = {
         scriptId = 7000007,
         jump = {
@@ -2231,6 +2379,62 @@ return {
         datingType = 2,
         text = "当然记得，是在……新干线上！",
         id = 748070101,
+    },
+    [748170102] = {
+        jump = {
+            [1] = 748170301,
+            [2] = 748170401,
+        },
+        datingType = 2,
+        optionType = 8,
+        isVisibleUI = 1,
+        jumpConfig = {
+            jumpCon = {
+                [748170301] = {
+                    cdt = 580149,
+                    text = "加油",
+                },
+                [748170401] = {
+                    cdt = 580148,
+                    text = "支持大凉山",
+                },
+            },
+            awardText = 13310536,
+            awardShow = {
+                [1] = 500075,
+                [2] = 500080,
+                [3] = 570002,
+            },
+            letterLines = 13310530,
+        },
+        scriptId = 7000017,
+        dialogScriptId = 100192,
+        id = 748170102,
+        text = " ",
+    },
+    [749066002] = {
+        scriptId = 749066,
+        jump = {
+            [1] = 749066003,
+        },
+        id = 749066002,
+        dialogScriptId = 100375,
+        datingType = 2,
+        isVisibleUI = 1,
+    },
+    [749066001] = {
+        bgm = "sound/bgm/dafuweng_main.mp3",
+        autoJump = true,
+        appear = "14",
+        isVisibleUI = 1,
+        scriptId = 749066,
+        backGround = "scene/bg/bg_touming.png",
+        datingType = 2,
+        jump = {
+            [1] = 749066002,
+        },
+        bgTime = -1,
+        id = 749066001,
     },
     [748080101] = {
         scriptId = 7000008,
@@ -2576,46 +2780,33 @@ return {
         id = 748000602,
         text = " ",
     },
-    [748170102] = {
-        jump = {
-            [1] = 748170301,
-            [2] = 748170401,
-        },
-        datingType = 2,
-        optionType = 8,
+    [749067001] = {
+        bgm = "sound/bgm/dafuweng_main.mp3",
+        autoJump = true,
+        appear = "14",
         isVisibleUI = 1,
-        jumpConfig = {
-            jumpCon = {
-                [748170301] = {
-                    cdt = 580149,
-                    text = "加油",
-                },
-                [748170401] = {
-                    cdt = 580148,
-                    text = "支持大凉山",
-                },
-            },
-            awardText = 13310536,
-            awardShow = {
-                [1] = 500075,
-                [2] = 500080,
-                [3] = 570002,
-            },
-            letterLines = 13310530,
-        },
-        scriptId = 7000017,
-        dialogScriptId = 100192,
-        id = 748170102,
-        text = " ",
-    },
-    [748140201] = {
-        scriptId = 7000014,
-        jump = {
-            [1] = 748140202,
-        },
+        scriptId = 749067,
+        backGround = "scene/bg/bg_touming.png",
         datingType = 2,
-        text = "原谅大凉山",
-        id = 748140201,
+        jump = {
+            [1] = 749067002,
+        },
+        bgTime = -1,
+        id = 749067001,
+    },
+    [749069001] = {
+        bgm = "sound/bgm/dafuweng_main.mp3",
+        autoJump = true,
+        appear = "14",
+        isVisibleUI = 1,
+        scriptId = 749069,
+        backGround = "scene/bg/bg_touming.png",
+        datingType = 2,
+        jump = {
+            [1] = 749069002,
+        },
+        bgTime = -1,
+        id = 749069001,
     },
     [748160001] = {
         jump = {
@@ -3012,20 +3203,15 @@ return {
         text = "期待更好的约战！",
         id = 748170401,
     },
-    [748010802] = {
+    [749069002] = {
+        scriptId = 749069,
         jump = {
-            [1] = 748010901,
-            [2] = 748011001,
+            [1] = 749069003,
         },
+        id = 749069002,
+        dialogScriptId = 100378,
         datingType = 2,
-        optionType = 9,
         isVisibleUI = 1,
-        jumpConfig = {
-        },
-        scriptId = 7000001,
-        dialogScriptId = 100095,
-        id = 748010802,
-        text = " ",
     },
     [748090502] = {
         jump = {

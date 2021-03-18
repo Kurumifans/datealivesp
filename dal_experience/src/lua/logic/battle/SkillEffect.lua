@@ -183,6 +183,7 @@ function Effect:tryTriggerEvent(damageType,damageAttr,target,realHurtValue)
         self.bTriggerHitEvent = true
         --通用命中事件
         self.srcHero:onEventTrigger(eBFState.E_HITED,target)
+        self.hitEvent = true
         local event = BattleUtils.getHitEvent(damageType)
         if event then
             self.srcHero:onEventTrigger(event,target)
@@ -412,11 +413,18 @@ function Effect:ctor(data)
     self.nHitCount = 0
     self.hitedBdboxs = {}
     self.soundEffects = {}
+    self._limitDis = 4
 end
 
 --命中记数
 function Effect:addHitCount()
     self.nHitCount = self.nHitCount + 1
+    if self.effectData.totalTime > 0 then
+        if self.effectData.addTime > 0 then
+            self.effectData.totalTime = self.effectData.totalTime + self.effectData.addTime
+            self.effectData.totalTime = math.min(self.effectData.totalTime,self.effectData.addtimeLimit)
+        end
+    end
 end
 
 function Effect:isValidObject(id)
@@ -550,6 +558,23 @@ function Effect:randomTarPos(checkDir)
     rect.origin = me.pAdd(pos,rect.origin)
     pos = levelParse:randomPos(rect)
     return pos
+end
+
+function Effect:selectNearlyTarget()
+    local target = 2
+    local team = battleController.getTeam()
+    local heros = team:getMenbers_(self.srcHero:getCamp(),target)
+    local targetHeros = {}
+    for k,targetHero in pairs(heros) do
+        local posx1 = self:getPosition()
+        local posx2 = targetHero:getPosition3D()
+        targetHero._tmp = me.pGetDistance(posx1,posx2)
+        table.insert(targetHeros, targetHero)
+    end
+    table.sort(targetHeros,function ( a ,b )
+        return a._tmp < b._tmp
+    end)
+    return targetHeros[1]
 end
 
 --找到所有目标
@@ -885,6 +910,8 @@ function Effect:addToParent(target)
             self.srcHero:addEffectToList(self)
         end
     elseif parent == eParent.UI then  --UI层的
+        
+        _print("55555555555555555555555",self.effectData.id)
         EventMgr:dispatchEvent(eEvent.EVENT_ADDTO_UI_EFFECT,self)
         if showParent == 1 then
             self.srcHero:addEffectToList(self)
@@ -998,6 +1025,7 @@ end
 --重管理器移除
 function Effect:remove(clean)
     self:playConnectEffect()
+    self:checkNotHitEvent(true)
     --移除监听
     if self.skeletonNode then
         self.skeletonNode:removeMEListener(TFARMATURE_EVENT)
@@ -1012,7 +1040,49 @@ function Effect:remove(clean)
         end
     end
     if clean then
-        self:removeFromParent()
+        if self.bindParentNode then
+            self.bindParentNode:removeFromParent()
+        else
+            self:removeFromParent()
+        end
+    end
+end
+
+function Effect:setBindParent(node)
+    self.bindParentNode = node
+end
+
+function Effect:checkNotHitEvent(endCheck)
+    if endCheck then
+        if not self.notHitEvent and not self.hitEvent then
+            local hurtId   = self:getHurtId(1)
+            if hurtId ~= 0 then
+                local hurtData = BattleDataMgr:getHurtData(hurtId,self.srcHero:getAngleDatas())
+                if hurtData then
+                    self.srcHero:onEventTrigger(eBFState.E_NOT_HITED)
+                    self.notHitEvent = true
+                    local event = BattleUtils.getNotHitEvent(hurtData.damageType)
+                    if event then
+                        self.srcHero:onEventTrigger(event)
+                    end
+                end
+            end
+        end
+    else
+        if not self.hitEvent then
+            local hurtId   = self:getHurtId(1)
+            if hurtId ~= 0 then
+                local hurtData = BattleDataMgr:getHurtData(hurtId,self.srcHero:getAngleDatas())
+                if hurtData then
+                    self.srcHero:onEventTrigger(eBFState.E_NOT_HITED)
+                    self.notHitEvent = true
+                    local event = BattleUtils.getNotHitEvent(hurtData.damageType)
+                    if event then
+                        self.srcHero:onEventTrigger(event)
+                    end
+                end
+            end
+        end
     end
 end
 
@@ -1040,6 +1110,7 @@ function Effect:onArmtureEvent(...)
         elseif self.effectData.hurtWay == eHurtWay.HW_FRAME then
             self:handlHurt(pramN)
             self:handlSummonMonster(pramN)
+            self:checkNotHitEvent()
         end
     elseif eventName == eArmtureEvent.MUSIC then  --音效触发
         self:handlMusic(pramN)
@@ -1389,7 +1460,7 @@ function Effect:triggerHurt(target,hurtData)
 		local hurtInfo = BattleUtils.triggerHurt(self.srcHero,target,hurtData,self.hitedBdboxs)
         local realHurtValue = hurtInfo.realHurtValue
         --UI Boss 血条更新
-        if target:isBoss() or target:hasAffixData() then
+        if target:enableUpdateBossPanel() then
             if hurtInfo.hurtValue ~= 0 then
                 EventMgr:dispatchEvent(eEvent.EVENT_BOSS_CHANGE, target)
             end
@@ -1753,8 +1824,14 @@ function Effect:getSkeletonModalSize()
     local parent = self.effectData.parent
     if parent == eParent.UI then
         scale = scale * eSkeletonScale.UI
-        if me.EGLView:getDesignResolutionSize().width > 1386 then
-            scale = scale + scale * 0.2
+        local curWidth = me.EGLView:getDesignResolutionSize().width
+        local fitScale = (curWidth - 1386) / 1386 * scale
+        if fitScale > 0 then
+            if scale + fitScale > 1.0 then
+                self.fitScale = fitScale
+            else
+                scale = scale + fitScale
+            end
         end
     else
         scale = scale * BattleConfig.MODAL_SCALE
@@ -2530,11 +2607,9 @@ end
 
 function NormalEffect:hitTestEffect(target)
     if target.bPreRemove then 
-        -- print_("44444444444444444444444")
         return false
     end
     if not self:checkRoller_effect(target) then
-        -- print_("555555555555555555555555555")
         return false
     end
 
@@ -2648,6 +2723,7 @@ function NormalEffect:handlHurt(order)
             end
         end
     end
+
     self:setAlreadyShowHitLine(false)
     --障碍物碰撞判定
     local objects = obstacleMgr:getObjects()
@@ -2741,7 +2817,32 @@ function EmitEffect:active(srcHero,hostType,effect,mainTarget)
         self._xv = math.floor(math.cos(angel)*emitSpeed)
         self._yv = math.floor(math.sin(angel)*emitSpeed)
         self.skeletonNode:setRotation(rotation)
-
+    elseif tailType == eTailType.TIMMER_FIND_POS then
+        self.movePauseTime = 0
+        self.tarHero = self:selectNearlyTarget()
+        self.tarList = self:getAllTarget() --目标丢失的情况下使用
+        if not self.tarHero then
+            self.tarHero = self.tarList[1]
+        end
+        if self.tarHero then
+            self.tarPos  = self.tarHero:getHitPosition()
+        else
+            if hostDir == eDir.LEFT then
+                self.tarPos = me.pAdd(self.prePos,me.p(-400,0))
+            else
+                self.tarPos = me.pAdd(self.prePos,me.p(400,0))
+            end
+        end
+        local area = self.effectData.area
+        local rect = me.rect( area[1], area[2], area[3], area[4])
+        rect.origin = me.pAdd(self.tarPos,rect.origin)
+        self.tarPos = levelParse:randomPos(rect)
+        
+        local dis  = me.pGetDistance(self.tarPos,self.prePos)
+        local sub        = me.pSub(self.tarPos,self.prePos)
+        local angel      = pGetAngle(me.p(0,0),sub)
+        self._xv = math.floor(math.cos(angel)*self.effectData.emitSpeed)
+        self._yv = math.floor(math.sin(angel)*self.effectData.emitSpeed)
     elseif tailType == eTailType.TARGET_POS or tailType == eTailType.TARGET_SHADOW_POS then --(飞目标位置)
         --寻找锁定的目标
         self.tarHero = self:selectTarget()[1]
@@ -2940,13 +3041,52 @@ elseif tailType == eTailType.ROUND or tailType == eTailType.S_CURVE then --直�
     self:createDebugInfo()
 end
 
+function EmitEffect:checkResetMoveParams(time)
+    local tailType  = self.effectData.tailType
+    if tailType == eTailType.TIMMER_FIND_POS then
+        if self.effectData.pauseTime > 0 then
+            self.movePauseTime = self.movePauseTime or 0
+            self.movePauseTime = self.movePauseTime + time
+            if self.movePauseTime > self.effectData.pauseTime then
+                self.movePauseTime = 0
+                local hostDir = self.parentNode:getDir()
+                self.tarHero = self:selectNearlyTarget()
+                self.prePos = self:getPosition()
+                if not self.tarHero then
+                    self.tarHero = self.tarList[1]
+                end
+                if self.tarHero then
+                    self.tarPos  = self.tarHero:getHitPosition()
+                else
+                    if hostDir == eDir.LEFT then
+                        self.tarPos = me.pAdd(self.prePos,me.p(-400,0))
+                    else
+                        self.tarPos = me.pAdd(self.prePos,me.p(400,0))
+                    end
+                end
+                local area = self.effectData.area
+                local rect = me.rect( area[1], area[2], area[3], area[4])
+                rect.origin = me.pAdd(self.tarPos,rect.origin)
+                self.tarPos = levelParse:randomPos(rect)
+                local dis  = me.pGetDistance(self.tarPos,self.prePos)
+                local sub        = me.pSub(self.tarPos,self.prePos)
+                local angel      = pGetAngle(me.p(0,0),sub)
+                self._xv = math.floor(math.cos(angel)*self.effectData.emitSpeed)
+                self._yv = math.floor(math.sin(angel)*self.effectData.emitSpeed)
+            end
+        end
+    end
+end
+
 
 function EmitEffect:logic(time)
+    self:checkResetMoveParams(time)
     local tailType = self.effectData.tailType
     -- print("tailType:::",tailType)
     if tailType == eTailType.TARGET_POS 
     or tailType == eTailType.RANDOM_POS 
-    or tailType == eTailType.TARGET_SHADOW_POS then --锁定目标位置
+    or tailType == eTailType.TARGET_SHADOW_POS
+    or tailType == eTailType.TIMMER_FIND_POS then --锁定目标位置
         self:toTargetPos(time)
     elseif tailType == eTailType.STRAIGHT then --直线
         self:straight(time)
@@ -3105,6 +3245,27 @@ function EmitEffect:handlHurt(order)
             return
         end
         --固定目标的不打障碍物
+    elseif tailType == eTailType.TIMMER_FIND_POS then
+        for index = #self.tarList , 1 ,-1 do
+            local target = self.tarList[index]
+            if not target:isRealDead()  then
+                if target:canHit(hurtData.isHurtFloor) then
+                    if self:_hitTest(target) then
+                        self:tryTriggerAIMEvent(hurtData.damageType,target)
+                        self:screenWobbleOnce(hurtData)
+                        self:recoveryAnger1(hurtData)
+                        self:triggerBuffer(hurtData,target)
+                        self:triggerHurt(target,hurtData)
+                        --清理释放者的临时属性
+                        self:cleanTempProperty(target)
+                        self:showHitLine(target:getPosition(),hurtData)
+                        return
+                    end
+                end
+            else
+                table.remove(self.tarList,index)
+            end
+        end
     elseif tailType == eTailType.BEZIER 
         or tailType == eTailType.BEZIER_POS
         or tailType == eTailType.BEZIER_RANDOM_POS then
@@ -3312,7 +3473,11 @@ function EmitEffect:toTargetPos(time)
     local targetPos  = self.tarPos
     local effectPos  = self.prePos
     local dis        = me.pGetDistance(targetPos,effectPos)
-    if math.floor(dis) < 4 then
+    local limitDis = math.sqrt(self.xv*self.xv + self.yv*self.yv)
+    if limitDis > 4 then
+        self._limitDis = limitDis
+    end
+    if math.floor(dis) < self._limitDis then
         self.xv = 0
         self.yv = 0
         return

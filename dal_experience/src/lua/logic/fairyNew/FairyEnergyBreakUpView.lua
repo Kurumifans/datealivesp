@@ -25,12 +25,6 @@ function FairyEnergyBreakUpView:initUI(ui)
 	old_lv:setString("Lv"..breakCfg.LimitLevel_Mini)
 	cur_lv:setString("Lv"..breakCfg.LimitLevel_Max)
 
-	local levelCfg = HeroDataMgr:getHeroEnergyLevelCfg()
-	local isBreakStage = levelCfg.ifButton
-	if isBreakStage then
-		self.Image_res_bg:show()
-	end
-	dump()
 	local rewardCount = 0
 	local lastCount = lastCfg.BreakReward
 	local curCount = breakCfg.BreakReward

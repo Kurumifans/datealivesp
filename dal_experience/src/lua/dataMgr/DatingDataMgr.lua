@@ -395,7 +395,6 @@ end
 
 function DatingDataMgr:initCityDatingInfo(cityDatingInfo)
     local data = self.datingRuleTable[cityDatingInfo.datingRuleCid]
-
     if data then 
         cityDatingInfo.cityId = data.enter_condition["buildingCid"]
         -- print("cityDatingInfo.cityId ",cityDatingInfo.cityId)
@@ -576,7 +575,11 @@ end
 
 function DatingDataMgr:getCityDatingLines(datingType,ruleCid)
     local cityDatingInfo = self:getCityDatingInfoByRuleCid(datingType,ruleCid)
-    return cityDatingInfo.data["lines"]
+    if cityDatingInfo then
+        return cityDatingInfo.data["lines"]
+    else
+        return {}
+    end
 end
 
 function DatingDataMgr:getCityDatingBg(datingType,ruleCid)
@@ -890,7 +893,7 @@ function DatingDataMgr:sendDialogueMsg(branchNodeId,selectedNodeId,datingType,ro
         isGameOver,
         datingType,
         roleId,
-        datingId
+        tostring(datingId)
     }
     print("dialogueMsg ",dialogueMsg)
     TFDirector:send(c2s.DATING_DIALOGUE, dialogueMsg)

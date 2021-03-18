@@ -39,8 +39,8 @@ function Property:ctor()
     for k , attrType in pairs(eAttrType) do
         self.valueRange[attrType] = {minValue = MinValue,maxValue = MaxValue}
     end
-
 end
+
 
 function Property:preAttrs100()
     for attrId, value in pairs(self.attr) do
@@ -53,6 +53,7 @@ end
 
 
 
+
 --设置属性取值范围
 function Property:setRange(attrType,minValue,maxValue)
     self.valueRange[attrType] = {minValue = minValue,maxValue = maxValue}
@@ -60,14 +61,16 @@ end
 
 function Property:getValue(attrType)
     if not self.attr[attrType] then
-        printError("xxxxxxxxxxxxxx不存在的属性类型"..tostring(attrType))
+        print("xxxxxxxxxxxxxx不存在的属性类型"..tostring(attrType))
+        self.attr[attrType] = 0
         return 0
     end
     return self.attr[attrType]
 end
 
 function Property:setValue(attrType,value)
-    --print(string.format("setValue(%s,%s)",attrType,value))
+    -- print(string.format("setValue(%s,%s)",attrType,value))
+    
     -- local oldValue = self.attr[attrType]
     -- if not oldValue then
     --     print("xxxxxxxxxxxxxx不存在的属性类型"..tostring(attrType))

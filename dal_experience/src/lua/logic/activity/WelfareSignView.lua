@@ -30,9 +30,10 @@ function WelfareSignView:ctor( data )
 	self.countPage_ = 7
 	self.activityId = data
 	self.activityInfo = ActivityDataMgr2:getActivityInfo(self.activityId)
-	dump(self.activityInfo.extendData)
+	dump(self.activityInfo)
 	self.isScrollType = self.activityInfo.extendData.isScrollType		---1:用滑动表现形式 其他用翻页表现形式
 	self.SevenItemType = self.activityInfo.extendData.SevenItemType or 1		---1：横放的 2:斜着的
+    self.itemBg = self.activityInfo.extendData.itemBg
 	local uiName = self.activityInfo.extendData.uiName or "welfareSignView"
 	self.curResFileName = "style2"
 	dump(uiName,"uiName")
@@ -57,6 +58,11 @@ function WelfareSignView:initUI(ui)
 
 
 	self.Panel_page = TFDirector:getChildByPath(ui, "Panel_page")
+
+	self.Button_dating_review = TFDirector:getChildByPath(ui, "Button_dating_review")
+	if self.Button_dating_review then
+		self.Button_dating_review:hide()
+	end
 
 
 	self.pos = {}
@@ -99,7 +105,34 @@ function WelfareSignView:intUILogic()
 	end
 
 	self.signItems_ = {}
-	self.items_ = ActivityDataMgr2:getItems(self.activityId)	--所有的子项
+	self.items_ = {}
+	local activityInfoItem = ActivityDataMgr2:getItems(self.activityId)	--所有的子项
+
+	for i, v in ipairs(activityInfoItem) do
+		local info = ActivityDataMgr2:getItemInfo(self.activityInfo.activityType, v)
+		if info and not (info.extendData and info.extendData.isHide) then
+			table.insert(self.items_, v)
+		end
+	end
+
+	table.sort(self.items_, function(a, b)
+		local infoA = ActivityDataMgr2:getItemInfo(self.activityInfo.activityType, a)
+		local infoB = ActivityDataMgr2:getItemInfo(self.activityInfo.activityType, b)
+
+		local rankA = 0
+		if infoA then
+			rankA = infoA.rank or 0
+		end
+
+		local rankB = 0
+		if infoB then
+			rankB = infoB.rank or 0
+		end
+
+		return rankA < rankB
+	end)
+
+
 	self.Panel_page:setVisible(self.isScrollType ~= 1)
 	self.GridView_award:s():setVisible(self.isScrollType == 1)
 	if self.isScrollType == 1 then
@@ -134,10 +167,13 @@ function WelfareSignView:initPageTypeData()
 		self.signItems_[i] = foo
 	end
 
-	--设置背景图
-	if self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == 6 then
-	else
-		self.Image_bg:setTexture("ui/activity/activityStyle/wefareSignActivity/"..self.curResFileName.."/bg"..self.selectPage_.. ".png")
+
+	if self.activityInfo.activityType ~=  EC_ActivityType2.TASK then
+		--设置背景图
+		if self.activityInfo.extendData.activityShowType and self.activityInfo.extendData.activityShowType == 6 then
+		else
+			self.Image_bg:setTexture("ui/activity/activityStyle/wefareSignActivity/"..self.curResFileName.."/bg"..self.selectPage_.. ".png")
+		end
 	end
 end
 
@@ -224,7 +260,9 @@ function WelfareSignView:updateItem(foo,_index)
 	local _itemId = self.items_[_index]
 	local _itemInfo = ActivityDataMgr2:getItemInfo(self.activityInfo.activityType, _itemId)
 	local _progressInfo = ActivityDataMgr2:getProgressInfo(self.activityInfo.activityType, _itemId)
-
+	if self.Button_dating_review and (self.activityInfo.extendData.dating and self.activityInfo.extendData.dating == 1) and _itemInfo.extendData.datingRuleId then
+		self.Button_dating_review:show()
+	end
 	local id, num = next(_itemInfo.reward)
 	local itemCfg = GoodsDataMgr:getItemCfg(id)
 	if not itemCfg then
@@ -232,7 +270,13 @@ function WelfareSignView:updateItem(foo,_index)
 	end
 
 
-	foo.Label_day:setTextById(tonumber(_itemInfo.details))
+	local details = tonumber(_itemInfo.details)
+	if not details then
+		foo.Label_day:setText(_itemInfo.details)
+	else
+		foo.Label_day:setTextById(details)
+	end
+
 	if foo.Image_iconbg then
 		foo.Image_iconbg:setTexture("ui/fairy_particle/" .. itemCfg.quality .. ".png")
 		foo.Image_iconbg:setScale(0.65)
@@ -255,13 +299,13 @@ function WelfareSignView:updateItem(foo,_index)
 			end
 		end
 	else
-		local framImg = self:getFramBg(itemCfg)
-		foo.Image_border:setTexture(framImg)
-		--if not foo.Panel_goodsItem then
-		--	foo.Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-		--	foo.Panel_goodsItem:Pos(0, 0):AddTo(foo.ItemIcon)
-		--end
-		--PrefabDataMgr:setInfo(foo.Panel_goodsItem, id)
+        foo.Image_border:show()
+        if self.itemBg then
+            foo.Image_border:setTexture(self.itemBg)
+        else
+            local framImg = self:getFramBg(itemCfg)
+            foo.Image_border:setTexture(framImg)
+        end
 	end
 
 	if foo.Image_getted then
@@ -317,6 +361,7 @@ function WelfareSignView:onSubmitSuccessEvent(activitId, itemId, reward)
 	if itemInfo and itemInfo.extendData.datingRuleId then
 		FunctionDataMgr:jStartDating(itemInfo.extendData.datingRuleId)
 	end
+
 end
 
 
@@ -339,6 +384,12 @@ function WelfareSignView:registerEvents()
 		self.selectPage_ = self.selectPage_ + 1
 		self:updateByPage()
 	end)
+
+	if self.Button_dating_review then
+		self.Button_dating_review:onClick(function ( ... )
+			Utils:openView("activity.DatingReview", self.activityId)
+		end)
+	end
 
 end
 

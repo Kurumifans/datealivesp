@@ -57,7 +57,7 @@ function ServerDataMgr:init()
         ["cehua_ext"] = {
             sort = 14,
             name = "外网-预发布",
-            url = "http://49.233.184.62:8081/account/login"
+            url = "http://175.24.25.95:10001/account/login"
         },
         ["already_pub"] = {
             sort = 12,
@@ -85,7 +85,7 @@ function ServerDataMgr:init()
             url = "http://43.254.2.141:8081/account/login"
         },
     }
-
+    self.gameSeverList = {}
     TFDirector:addProto(s2c.LOGIN_RESP_SERVER_TIME, self, self.onRecvServerTime)
 end
 -- [[登录服开始]]--
@@ -149,7 +149,7 @@ function ServerDataMgr:setGameServerList(serverData)
         return
     end
 
-    self.gameSeverList = serverData;
+    self.gameSeverList = serverData or {}
 end
 
 function ServerDataMgr:getGameServerList()

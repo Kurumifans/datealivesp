@@ -4,10 +4,11 @@
 
 local LandTurnTabletRankView = class("LandTurnTabletRankView",BaseLayer)
 
-function LandTurnTabletRankView:initData(rankData, isFinishAllTurn)
+function LandTurnTabletRankView:initData(rankData, isFinishAllTurn, turnNum)
     self.rankData = rankData.rankInfo or {}
     self.myRankData = rankData.myRank
     self.isFinishAllTurn = isFinishAllTurn
+    self.turnNum = turnNum
     self.activityId   = ActivityDataMgr2:getActivityInfoByType(EC_ActivityType2.LAND_TURNTABLET)[1]
     self.activityInfo =  ActivityDataMgr2:getActivityInfo(self.activityId)
     self.stopRankTime = self.activityInfo.extendData.listtime
@@ -50,6 +51,9 @@ function LandTurnTabletRankView:initUI(ui)
     end)
     self.tableView:reloadData()
 
+    self._ui.lab_hadgetnum1:setTextById(63850)
+    self._ui.lab_hadGetNums:setText(TextDataMgr:getText(63850)..":")
+
     self._ui.lab_noRank:setVisible(table.count(self.rankData) == 0)
     self:refreshMyRankInfo()
 end
@@ -63,11 +67,11 @@ function LandTurnTabletRankView:refreshMyRankInfo()
 
     local myRankTxt
     if not self.myRankData then
-        if self.isFinishAllTurn then
-            myRankTxt = TextDataMgr:getText(63841)
-        else
+        -- if self.isFinishAllTurn then
+        --     myRankTxt = TextDataMgr:getText(63841)
+        -- else
             myRankTxt = TextDataMgr:getText(63835)
-        end
+        -- end
         -- if not self.timer then
         --     self.timer = TFDirector:addTimer(1000, -1, nil, function ()
         --         timerCallFunc()
@@ -76,8 +80,16 @@ function LandTurnTabletRankView:refreshMyRankInfo()
         -- timerCallFunc()
     else
         myRankTxt = self.myRankData.rank == 0 and TextDataMgr:getText(63840) or TextDataMgr:getText(15010043, self.myRankData.rank) 
-        local day, hour, min, sec = Utils:getTimeDHMZ(self.myRankData.successTime / 1000, true)
-        self._ui.lab_myCostTime:setTextById(63834, day, hour, min, sec)
+        -- local day, hour, min, sec = Utils:getTimeDHMZ(self.myRankData.successTime / 1000, true)
+        -- self._ui.lab_myCostTime:setTextById(63834, day, hour, min, sec)
+        local layer = self.myRankData.layer
+        local location = self.myRankData.location
+        local curRound = ActivityDataMgr2:getCfgDataByType(EC_ActivityType2.LAND_TURNTABLET).roundNum
+        if curRound == 1 then
+            layer = ActivityDataMgr2:getCfgDataByType(EC_ActivityType2.LAND_TURNTABLET).round
+            location = self.turnNum
+        end
+        self._ui.lab_myCostTime:setTextById(800005, layer, location)
     end
     self._ui.lab_myRankTxt:setText(myRankTxt)
 
@@ -128,8 +140,9 @@ function LandTurnTabletRankView:updateCell(cell, idx)
         lab_legaueName:setText(data.unionName)
     end 
 
-    local day, hour, min, sec = Utils:getTimeDHMZ(data.successTime / 1000, true)
-    TFDirector:getChildByPath(cell, "lab_costTime"):setTextById(63834, day, hour, min, sec)
+    TFDirector:getChildByPath(cell, "lab_costTime"):setTextById(800005, data.layer, data.location)
+    -- local day, hour, min, sec = Utils:getTimeDHMZ(data.successTime / 1000, true)
+    -- TFDirector:getChildByPath(cell, "lab_costTime"):setTextById(63834, day, hour, min, sec)
 end
 
 function LandTurnTabletRankView:registerEvents()

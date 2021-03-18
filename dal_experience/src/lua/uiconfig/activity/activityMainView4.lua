@@ -71,7 +71,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 510,
-						PositionY = 354,
+						PositionY = 355,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -103,7 +103,7 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "770",
-							texturePath = "ui/activity/activityStyle/mainFrame/style2/bg.png",
+							texturePath = "ui/activity/fanShi/bg.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
@@ -217,7 +217,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 561,
-						PositionY = -286,
+						PositionY = -285,
 						LeftPositon = -7,
 						TopPosition = 675,
 						relativeToName = "Panel",
@@ -249,7 +249,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "75",
+							height = "99",
 							ignoreSize = "False",
 							name = "Panel_activityItem",
 							sizepercentx = "0",
@@ -259,15 +259,15 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = -556,
-								PositionY = 812,
+								PositionX = -392,
+								PositionY = 159,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "198",
+							width = "205",
 							ZOrder = "1",
 							components = 
 							{
@@ -281,7 +281,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "71",
+									height = "98",
 									ignoreSize = "True",
 									name = "ImageNormal",
 									sizepercentx = "0",
@@ -292,9 +292,9 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -2,
+										PositionX = -4,
 									},
-									width = "198",
+									width = "195",
 									ZOrder = "1",
 									components = 
 									{
@@ -329,12 +329,12 @@ local t =
 											controlID = "activityName_ImageNormal_Panel_activityItem_Panel_prefab_Panel-activityMainView4_activityStyleModel_activity_Game",
 											UUID = "cd39e78c_96af_45de_b4b3_2bf9ea7f1d8d",
 											anchorPoint = "False",
-											anchorPointX = "1",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFBAE3FB",
+											FontColor = "#FFAFDFFE",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -348,7 +348,7 @@ local t =
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF3C5AC7",
+												StrokeColor = "#FF2E3256",
 												StrokeSize = 2,
 											},
 											height = "31",
@@ -365,8 +365,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 90,
-												PositionY = -22,
+												PositionX = -7,
+												PositionY = -29,
 											},
 											width = "92",
 											ZOrder = "1",
@@ -391,9 +391,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 90,
-												PositionY = 27,
+												PositionX = 95,
+												PositionY = 40,
 											},
+											visible = "False",
 											width = "30",
 											ZOrder = "1",
 										},
@@ -408,21 +409,21 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "640",
+									height = "98",
 									ignoreSize = "True",
 									name = "ImageSelect",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
-									srcBlendFunc = "770",
-									texturePath = "ui/activity/activityStyle/mainFrame/style2/bg.png",
+									srcBlendFunc = "1",
+									texturePath = "ui/activity/activityStyle/mainFrame/style2/004.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionY = -2,
+										PositionX = -1,
 									},
 									visible = "False",
-									width = "1386",
+									width = "205",
 									ZOrder = "1",
 									components = 
 									{
@@ -457,7 +458,7 @@ local t =
 											controlID = "activityName_ImageSelect_Panel_activityItem_Panel_prefab_Panel-activityMainView4_activityStyleModel_activity_Game",
 											UUID = "441dab89_70c1_4e65_9b53_30267950c2b0",
 											anchorPoint = "False",
-											anchorPointX = "1",
+											anchorPointX = "0",
 											anchorPointY = "0.5",
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
@@ -476,7 +477,7 @@ local t =
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF4C8FF8",
+												StrokeColor = "#FFCB3A93",
 												StrokeSize = 2,
 											},
 											height = "31",
@@ -493,8 +494,8 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 52,
-												PositionY = -46,
+												PositionX = -10,
+												PositionY = -31,
 											},
 											width = "92",
 											ZOrder = "1",
@@ -519,9 +520,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 87,
-												PositionY = 52,
+												PositionX = 91,
+												PositionY = 40,
 											},
+											visible = "False",
 											width = "30",
 											ZOrder = "1",
 										},
@@ -542,10 +544,11 @@ local t =
 	{
 		textures = 
 		{
-			"ui/activity/activityStyle/mainFrame/style2/bg.png",
+			"ui/activity/fanShi/bg.png",
 			"ui/activity/activityStyle/mainFrame/style2/003.png",
 			"ui/activity/anniversary/ui_002.png",
 			"ui/common/news_small.png",
+			"ui/activity/activityStyle/mainFrame/style2/004.png",
 		},
 		armatures = 
 		{

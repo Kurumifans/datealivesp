@@ -99,6 +99,8 @@ function sdkCallback(result, msg)
         local ret = json.decode(msg);
         if ret.action == "TMGSpeechToTextSuccess" then
             EventMgr:dispatchEvent(EV_VOICE_SDK_BACK,ret.params.text);
+        elseif ret.action == "WebviewUrlBack" then
+            EventMgr:dispatchEvent(EV_WEBVIEW_URL_BACK,ret.params.url)
         end
     elseif result == HeitaoSdk.KEYBOARD_UP then
         dump(msg)

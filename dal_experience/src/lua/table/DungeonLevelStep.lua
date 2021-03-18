@@ -1096,14 +1096,63 @@ return {
         LengthN3 = {
         },
     },
-    [90117] = {
+    [8462] = {
         bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2400,
+        },
+        op = "9456",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 100260,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "狂三外传剧场-第二章-战斗-卑鄙-level30-学校外",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 8462,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [8478] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 50,
+            [2] = 2700,
         },
         op = "",
         LengthN4 = {
@@ -1120,20 +1169,28 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 100287,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 100289,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第9章简单 f9-8-波次",
+        dungeonName = "狂三外传剧场-困难8-学校操场",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90117,
+        victoryType = 3,
+        id = 8478,
         MonsterN4 = {
         },
         MonsterE = {
@@ -1142,22 +1199,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -1228,14 +1270,14 @@ return {
         LengthN3 = {
         },
     },
-    [113018] = {
-        bornPoint = 6,
+    [6304] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 2600,
+            [2] = 2500,
         },
         op = "",
         LengthN4 = {
@@ -1257,7 +1299,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第十一章地狱11-18 BOSS挑战（火+暗）",
+        dungeonName = "6-4(歼灭模式-噩梦) ",
         LengthN2 = {
         },
         MonsterT = {
@@ -1265,7 +1307,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 113018,
+        id = 6304,
         MonsterN4 = {
         },
         MonsterE = {
@@ -1283,6 +1325,11 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -1895,14 +1942,14 @@ return {
         LengthN3 = {
         },
     },
-    [90119] = {
-        bornPoint = 8,
+    [11021] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 150,
-            [2] = 2500,
+            [1] = 100,
+            [2] = 2100,
         },
         op = "",
         LengthN4 = {
@@ -1919,20 +1966,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 30,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第9章简单 f9-9-歼灭",
+        dungeonName = "春节副本限时",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90119,
+        victoryType = 5,
+        id = 11021,
         MonsterN4 = {
         },
         MonsterE = {
@@ -1955,6 +2005,11 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -3869,14 +3924,14 @@ return {
         LengthN3 = {
         },
     },
-    [5105] = {
-        bornPoint = 8,
+    [102022] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 150,
-            [2] = 2500,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -3898,7 +3953,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-5 (歼灭模式-困难)   ",
+        dungeonName = "第10章困难10-22歼灭",
         LengthN2 = {
         },
         MonsterT = {
@@ -3906,7 +3961,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 5105,
+        id = 102022,
         MonsterN4 = {
         },
         MonsterE = {
@@ -4790,14 +4845,61 @@ return {
         LengthN3 = {
         },
     },
-    [7304] = {
-        bornPoint = 4,
+    [8463] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+        },
+        op = "9457",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 100261,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "狂三外传剧场-第二章-战斗-喊话-level31-学校外",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 8463,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [8479] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
         },
         op = "",
         LengthN4 = {
@@ -4814,110 +4916,28 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "7-4歼灭-噩梦",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 7304,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
             [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
+                [1] = 100290,
+                [2] = 1,
             },
             [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [7312] = {
-        bornPoint = 4,
-        LengthT = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 6,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
+                [1] = 100293,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "7-12歼灭-噩梦",
+        dungeonName = "狂三外传剧场-困难9-学校外",
         LengthN2 = {
         },
         MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
         },
         LengthE = {
         },
-        victoryType = 2,
-        id = 7312,
+        victoryType = 3,
+        id = 8479,
         MonsterN4 = {
         },
         MonsterE = {
@@ -8735,14 +8755,63 @@ return {
         LengthN3 = {
         },
     },
-    [90133] = {
-        bornPoint = 4,
+    [8464] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+        },
+        op = "9458",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9459",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 100262,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "狂三外传剧场-第二章-战斗-落败-level32-学校外",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 8464,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [8480] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 50,
+            [2] = 2700,
         },
         op = "",
         LengthN4 = {
@@ -8751,7 +8820,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "90027",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -8759,20 +8828,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 100297,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第9章简单 9-25-BOSS",
+        dungeonName = "狂三外传剧场-困难10-礼拜堂",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90133,
+        victoryType = 3,
+        id = 8480,
         MonsterN4 = {
         },
         MonsterE = {
@@ -8781,17 +8854,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -15386,16 +15449,16 @@ return {
         LengthN3 = {
         },
     },
-    [73004] = {
-        bornPoint = 6,
+    [6106] = {
+        bornPoint = 8,
         LengthT = {
+            [1] = 150,
+            [2] = 2100,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 1800,
         },
-        op = "91001",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
@@ -15404,64 +15467,59 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 6,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 60000,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "真娜模拟试炼2-1",
+        dungeonName = "f6-2生存",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 2000,
+                [3] = 0,
+            },
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 73004,
+        victoryType = 2,
+        id = 6106,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 500,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 500,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 500,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 500,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 500,
-            },
-            [6] = {
-                [1] = 6,
-                [2] = 0,
-                [3] = 500,
-            },
         },
         LengthN3 = {
         },
@@ -16286,23 +16344,23 @@ return {
         LengthN3 = {
         },
     },
-    [4203] = {
-        bornPoint = 11,
+    [8402] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 700,
-            [2] = 2160,
+            [1] = 100,
+            [2] = 2600,
         },
-        op = "",
+        op = "9342",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9343",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -16310,23 +16368,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "4-3 (限时击杀-噩梦) ",
+        dungeonName = "或守鞠亚剧场-第一章-level3-战斗-市中心街道",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 4203,
+        victoryType = 1,
+        id = 8402,
         MonsterN4 = {
         },
         MonsterE = {
@@ -16335,17 +16390,12 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -16559,6 +16609,62 @@ return {
         MonsterE = {
         },
         MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [8466] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 50,
+            [2] = 2700,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9461",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 100264,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "狂三外传剧场-第二章-战斗-对决2-level35-礼拜堂",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 8466,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 100,
+            },
         },
         LengthN3 = {
         },
@@ -19422,7 +19528,7 @@ return {
         LengthN3 = {
         },
     },
-    [73012] = {
+    [7130] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -19431,14 +19537,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "1005",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "1006",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -19446,24 +19552,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 15060,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万由里模拟试炼1-3",
+        dungeonName = "7-26歼灭",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 73012,
+        victoryType = 1,
+        id = 7130,
         MonsterN4 = {
         },
         MonsterE = {
@@ -19481,6 +19583,11 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -20170,23 +20277,23 @@ return {
         LengthN3 = {
         },
     },
-    [73013] = {
-        bornPoint = 6,
+    [5211] = {
+        bornPoint = 24,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
+            [1] = 150,
             [2] = 2600,
         },
-        op = "300001",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "300002",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -20199,7 +20306,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "七罪模拟试炼1-1波次",
+        dungeonName = "5-11 (歼灭模式-噩梦)   ",
         LengthN2 = {
         },
         MonsterT = {
@@ -20207,7 +20314,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 73013,
+        id = 5211,
         MonsterN4 = {
         },
         MonsterE = {
@@ -20419,23 +20526,23 @@ return {
         LengthN3 = {
         },
     },
-    [7306] = {
-        bornPoint = 8,
+    [8467] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 50,
+            [2] = 2700,
         },
-        op = "",
+        op = "9462",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9463",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -20443,20 +20550,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 100265,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "7-6限时-噩梦",
+        dungeonName = "狂三外传剧场-第二章-战斗-对决3-level36-礼拜堂",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 7306,
+        victoryType = 3,
+        id = 8467,
         MonsterN4 = {
         },
         MonsterE = {
@@ -20465,27 +20576,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -22695,26 +22786,28 @@ return {
         LengthN3 = {
         },
     },
-    [4014] = {
+    [1004] = {
         bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 150,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
         },
         LengthL = {
+            [1] = 0,
+            [2] = 1500,
         },
         MonsterN3 = {
         },
         endScript = "",
-        TimeL = 0,
+        TimeL = 5000,
         NumMaxT = 0,
         MonsterL = {
+            [1] = 2,
+            [2] = 300,
         },
         CampNumMax = {
         },
@@ -22724,7 +22817,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第4章简单关卡1（河道，歼灭）",
+        dungeonName = "第1章简单关卡4",
         LengthN2 = {
         },
         MonsterT = {
@@ -22732,32 +22825,12 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 4014,
+        id = 1004,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 0,
-            },
         },
         LengthN3 = {
         },
@@ -24023,23 +24096,23 @@ return {
         LengthN3 = {
         },
     },
-    [2103] = {
-        bornPoint = 4,
+    [8404] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 0,
-            [2] = 2550,
+            [1] = 100,
+            [2] = 2600,
         },
-        op = "",
+        op = "9346",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9347",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -24047,23 +24120,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第2章困难关卡3（限时模式）",
+        dungeonName = "或守鞠亚剧场-第一章-level5-战斗-废弃游乐园",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 2103,
+        victoryType = 1,
+        id = 8404,
         MonsterN4 = {
         },
         MonsterE = {
@@ -24072,17 +24142,12 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
+                [3] = 100,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -24271,6 +24336,62 @@ return {
         MonsterE = {
         },
         MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [8468] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 50,
+            [2] = 2700,
+        },
+        op = "9464",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9465",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 100266,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "狂三外传剧场-第二章-战斗-故人-level38-礼拜堂",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 8468,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 100,
+            },
         },
         LengthN3 = {
         },
@@ -24679,14 +24800,14 @@ return {
         LengthN3 = {
         },
     },
-    [1102] = {
-        bornPoint = 4,
+    [2203] = {
+        bornPoint = 5,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 0,
-            [2] = 2300,
+            [1] = 650,
+            [2] = 2150,
         },
         op = "",
         LengthN4 = {
@@ -24703,20 +24824,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 16,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第1章困难关卡2",
+        dungeonName = "第2章噩梦关卡3（限时）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 1102,
+        victoryType = 5,
+        id = 2203,
         MonsterN4 = {
         },
         MonsterE = {
@@ -24725,22 +24849,22 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [4] = {
                 [1] = 4,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -28495,14 +28619,14 @@ return {
         LengthN3 = {
         },
     },
-    [16706] = {
-        bornPoint = 3,
+    [5204] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 150,
+            [2] = 2550,
         },
         op = "",
         LengthN4 = {
@@ -28519,24 +28643,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 521401,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9243",
-        dungeonName = "2020春节-魔禁联动第1阶段主线关卡-场景点8",
+        prevScript = "",
+        dungeonName = "5-4 (歼灭模式-噩梦)   ",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16706,
+        victoryType = 1,
+        id = 5204,
         MonsterN4 = {
         },
         MonsterE = {
@@ -28545,7 +28665,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -28910,7 +29030,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "狂三外传剧场-第二章-level16-战斗-第三精灵-学校操场-2",
+        dungeonName = "狂三外传剧场-第一章-level16-战斗-第三精灵-学校操场-2",
         LengthN2 = {
         },
         MonsterT = {
@@ -28933,23 +29053,23 @@ return {
         LengthN3 = {
         },
     },
-    [7307] = {
-        bornPoint = 4,
+    [8469] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 50,
+            [2] = 2700,
         },
-        op = "",
+        op = "9466",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9467",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -28957,20 +29077,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 100267,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "7-7歼灭-噩梦",
+        dungeonName = "狂三外传剧场-第二章-战斗-责任-level39-礼拜堂",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 7307,
+        victoryType = 3,
+        id = 8469,
         MonsterN4 = {
         },
         MonsterE = {
@@ -28979,27 +29103,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -32461,13 +32565,13 @@ return {
         LengthN3 = {
         },
     },
-    [6204] = {
-        bornPoint = 6,
+    [3103] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
+            [1] = 300,
             [2] = 2600,
         },
         op = "",
@@ -32488,17 +32592,29 @@ return {
         },
         extCfgID = 0,
         MonsterN2 = {
+            [1] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         prevScript = "",
-        dungeonName = "6-4(歼灭模式-困难)   ",
+        dungeonName = "3-3 (歼灭模式-困难)   ",
         LengthN2 = {
+            [1] = 1000,
+            [2] = 3900,
         },
         MonsterT = {
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 6204,
+        id = 3103,
         MonsterN4 = {
         },
         MonsterE = {
@@ -32514,25 +32630,15 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [3107] = {
+    [6212] = {
         bornPoint = 12,
         LengthT = {
-            [1] = 1000,
-            [2] = 2500,
+            [1] = 150,
+            [2] = 2100,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
@@ -32560,40 +32666,35 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-7 (生存模式-困难) ",
+        dungeonName = "6-12(生存模式-困难)    ",
         LengthN2 = {
         },
         MonsterT = {
             [1] = {
                 [1] = 1,
-                [2] = 2000,
-                [3] = 0,
+                [2] = 0,
+                [3] = 2000,
             },
             [2] = {
                 [1] = 2,
-                [2] = 2000,
-                [3] = 0,
+                [2] = 0,
+                [3] = 2000,
             },
             [3] = {
                 [1] = 3,
-                [2] = 2000,
-                [3] = 0,
+                [2] = 0,
+                [3] = 2000,
             },
             [4] = {
                 [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 2000,
-                [3] = 0,
+                [2] = 0,
+                [3] = 2000,
             },
         },
         LengthE = {
         },
         victoryType = 2,
-        id = 3107,
+        id = 6212,
         MonsterN4 = {
         },
         MonsterE = {
@@ -33025,7 +33126,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "狂三外传剧场-第二章-level17-战斗-混战-学校外-5",
+        dungeonName = "狂三外传剧场-第一章-level17-战斗-混战-学校外-5",
         LengthN2 = {
         },
         MonsterT = {
@@ -33044,6 +33145,62 @@ return {
         MonsterE = {
         },
         MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [8470] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 50,
+            [2] = 2700,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9468",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 100268,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "狂三外传剧场-第二章-战斗-终了-level40-礼拜堂",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 8470,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 100,
+            },
         },
         LengthN3 = {
         },
@@ -36848,14 +37005,14 @@ return {
         LengthN3 = {
         },
     },
-    [7132] = {
-        bornPoint = 4,
+    [16307] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 2250,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -36864,7 +37021,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "910035",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -36873,23 +37030,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 40831,
-                [2] = 1,
+                [1] = 24,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "7-28歼灭",
+        prevScript = "910034",
+        dungeonName = "海王星联动-4波怪-计数-妹妹的保护",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 7132,
+        victoryType = 5,
+        id = 16307,
         MonsterN4 = {
         },
         MonsterE = {
@@ -36898,7 +37054,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -37852,16 +38008,14 @@ return {
         LengthN3 = {
         },
     },
-    [16902] = {
-        bornPoint = 6,
+    [8455] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
-        op = "",
+        op = "9445",
         LengthN4 = {
         },
         LengthL = {
@@ -37877,7 +38031,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 101002,
+                [1] = 100251,
                 [2] = 1,
             },
         },
@@ -37885,7 +38039,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "12号boss挑战-轮数3-别西卜",
+        dungeonName = "狂三外传剧场-第二章-战斗-阻拦-level20-体育馆",
         LengthN2 = {
         },
         MonsterT = {
@@ -37893,29 +38047,24 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 16902,
+        id = 8455,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
         },
         LengthN3 = {
         },
     },
-    [7308] = {
+    [8471] = {
         bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 50,
+            [2] = 2700,
         },
         op = "",
         LengthN4 = {
@@ -37933,22 +38082,23 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 15,
+                [1] = 100269,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "7-8限时-噩梦",
+        dungeonName = "狂三外传剧场-困难1-学校前庭",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 7308,
+        victoryType = 3,
+        id = 8471,
         MonsterN4 = {
         },
         MonsterE = {
@@ -37957,17 +38107,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -38174,6 +38314,62 @@ return {
         LengthN3 = {
         },
     },
+    [9953] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 624703,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（悲痛）-BOSS战",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 9953,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
     [116] = {
         bornPoint = 3,
         LengthT = {
@@ -38272,6 +38468,118 @@ return {
         },
         victoryType = 3,
         id = 75605,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9951] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 24401,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（孤独）-BOSS战",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 9951,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9950] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 24302,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（迷茫）-BOSS战",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 9950,
         MonsterN4 = {
         },
         MonsterE = {
@@ -38418,6 +38726,138 @@ return {
         LengthN3 = {
         },
     },
+    [9908] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "600041",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "600042",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（悲痛）4-14 歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 9908,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9907] = {
+        bornPoint = 11,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "600039",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "600040",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（悲痛）4-13 限时",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 9907,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
     [117] = {
         bornPoint = 3,
         LengthT = {
@@ -38469,6 +38909,480 @@ return {
                 [1] = 1,
                 [2] = 0,
                 [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9906] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "600037",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "600038",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（悲痛）4-10 波次",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 9906,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9905] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（悲痛）4-8  歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 9905,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9903] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "600035",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "600036",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（悲痛）4-6  歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 9903,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [4203] = {
+        bornPoint = 11,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 700,
+            [2] = 2160,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "4-3 (限时击杀-噩梦) ",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 4203,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [5014] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 150,
+            [2] = 2200,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 19,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第5章困难关卡1（地铁正常，限时）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 5014,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [90109] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第9章简单 9-8-波次",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 90109,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [16824] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9329",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 516002,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9328",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点26",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 16824,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -38774,6 +39688,78 @@ return {
         LengthN3 = {
         },
     },
+    [75012] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "反转折纸模拟试炼2-7  波次",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 75012,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
     [80212] = {
         bornPoint = 4,
         LengthT = {
@@ -38834,6 +39820,158 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [80002] = {
+        bornPoint = 9,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 1500,
+            [2] = 4000,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "困难试炼-万圣节",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 80002,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 500,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 500,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 500,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 500,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 500,
+            },
+            [6] = {
+                [1] = 6,
+                [2] = 0,
+                [3] = 500,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9707] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "600021",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "600022",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（孤独）2-9 波次",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 9707,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -38911,6 +40049,417 @@ return {
         LengthN3 = {
         },
     },
+    [9706] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "600019",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "600020",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（孤独）2-8 歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 9706,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [102014] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 24,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第10章困难10-14波次（守护）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 102014,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9704] = {
+        bornPoint = 24,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（孤独）2-5 歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 9704,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9703] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（孤独）2-3 限时",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 9703,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9702] = {
+        bornPoint = 4,
+        LengthT = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+        },
+        op = "600018",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 6,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（孤独）2-2 生存",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
+        },
+        LengthE = {
+        },
+        victoryType = 2,
+        id = 9702,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [9303] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四糸乃挑战-自责-守护击杀",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 9303,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
     [210001] = {
         bornPoint = 6,
         LengthT = {
@@ -38963,8 +40512,8 @@ return {
         LengthN3 = {
         },
     },
-    [9953] = {
-        bornPoint = 4,
+    [9604] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -38972,14 +40521,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "",
+        op = "600011",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "600012",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -38987,24 +40536,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 624703,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四系乃（悲痛）-BOSS战",
+        dungeonName = "四系乃（迷茫）1-8  波次",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 9953,
+        victoryType = 1,
+        id = 9604,
         MonsterN4 = {
         },
         MonsterE = {
@@ -39012,6 +40557,26 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -39094,14 +40659,14 @@ return {
         LengthN3 = {
         },
     },
-    [9951] = {
-        bornPoint = 6,
+    [5006] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 150,
+            [2] = 1650,
         },
         op = "",
         LengthN4 = {
@@ -39118,24 +40683,32 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 24401,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
+            [1] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         prevScript = "",
-        dungeonName = "四系乃（孤独）-BOSS战",
+        dungeonName = "5-10(歼灭模式-普通)",
         LengthN2 = {
+            [1] = 1100,
+            [2] = 2600,
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 9951,
+        victoryType = 1,
+        id = 5006,
         MonsterN4 = {
         },
         MonsterE = {
@@ -39146,11 +40719,21 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [9950] = {
+    [9408] = {
         bornPoint = 4,
         LengthT = {
         },
@@ -39175,7 +40758,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 24302,
+                [1] = 624702,
                 [2] = 1,
             },
         },
@@ -39183,7 +40766,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四系乃（迷茫）-BOSS战",
+        dungeonName = "四糸乃挑战-悲痛-BOSS战",
         LengthN2 = {
         },
         MonsterT = {
@@ -39191,59 +40774,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 9950,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [9908] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "600041",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "600042",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "四系乃（悲痛）4-14 歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 9908,
+        id = 9408,
         MonsterN4 = {
         },
         MonsterE = {
@@ -39264,11 +40795,73 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+        },
+        LengthN3 = {
+        },
+    },
+    [9407] = {
+        bornPoint = 6,
+        LengthT = {
+            [1] = 100,
+            [2] = 2300,
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 6,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四糸乃挑战-悲痛-生存模式",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
             [4] = {
                 [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [2] = 2000,
+                [3] = 0,
             },
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 9407,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
         },
         LengthN3 = {
         },
@@ -39343,23 +40936,23 @@ return {
         LengthN3 = {
         },
     },
-    [9907] = {
-        bornPoint = 11,
+    [2209] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 150,
+            [2] = 2580,
         },
-        op = "600039",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "600040",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -39367,23 +40960,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四系乃（悲痛）4-13 限时",
+        dungeonName = "第2章噩梦关卡9（歼灭）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 9907,
+        victoryType = 1,
+        id = 2209,
         MonsterN4 = {
         },
         MonsterE = {
@@ -39592,7 +41182,7 @@ return {
         LengthN3 = {
         },
     },
-    [9906] = {
+    [8410] = {
         bornPoint = 3,
         LengthT = {
         },
@@ -39601,14 +41191,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "600037",
+        op = "9356",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "600038",
+        endScript = "9357",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -39621,7 +41211,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四系乃（悲痛）4-10 波次",
+        dungeonName = "或守鞠亚剧场-第一章-level12-战斗-剧院外街道",
         LengthN2 = {
         },
         MonsterT = {
@@ -39629,7 +41219,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 9906,
+        id = 8410,
         MonsterN4 = {
         },
         MonsterE = {
@@ -39638,40 +41228,25 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
         },
     },
-    [9905] = {
-        bornPoint = 6,
+    [4205] = {
+        bornPoint = 10,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 680,
+            [2] = 2500,
         },
         op = "",
         LengthN4 = {
@@ -39693,7 +41268,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四系乃（悲痛）4-8  歼灭",
+        dungeonName = "4-5 (波次模式-噩梦)   ",
         LengthN2 = {
         },
         MonsterT = {
@@ -39701,7 +41276,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 9905,
+        id = 4205,
         MonsterN4 = {
         },
         MonsterE = {
@@ -39798,8 +41373,8 @@ return {
         LengthN3 = {
         },
     },
-    [9903] = {
-        bornPoint = 4,
+    [75310] = {
+        bornPoint = 24,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -39807,14 +41382,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "600035",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "600036",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -39822,20 +41397,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 30,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四系乃（悲痛）4-6  歼灭",
+        dungeonName = "反十模拟试炼第二章2-2",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 9903,
+        victoryType = 5,
+        id = 75310,
         MonsterN4 = {
         },
         MonsterE = {
@@ -39861,18 +41439,23 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [5006] = {
-        bornPoint = 8,
+    [9401] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 150,
-            [2] = 1650,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -39892,29 +41475,17 @@ return {
         },
         extCfgID = 0,
         MonsterN2 = {
-            [1] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         prevScript = "",
-        dungeonName = "5-10(歼灭模式-普通)",
+        dungeonName = "四糸乃挑战-悲痛-歼灭模式（障碍物）",
         LengthN2 = {
-            [1] = 1100,
-            [2] = 2600,
         },
         MonsterT = {
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 5006,
+        id = 9401,
         MonsterN4 = {
         },
         MonsterE = {
@@ -39932,6 +41503,11 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -40197,75 +41773,8 @@ return {
         LengthN3 = {
         },
     },
-    [5022] = {
-        bornPoint = 8,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 150,
-            [2] = 2700,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第5章困难关卡1（游乐园，歼灭）",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 5022,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 0,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [179] = {
-        bornPoint = 6,
+    [163] = {
+        bornPoint = 0,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -40289,7 +41798,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 90058,
+                [1] = 90071,
                 [2] = 1,
             },
         },
@@ -40297,7 +41806,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "周年庆7月-<第十章>强化十香特特训VS万由里+狂三",
+        dungeonName = "周年庆4月-<卡巴拉>玩家 VS 卡巴拉隐藏BOSS",
         LengthN2 = {
         },
         MonsterT = {
@@ -40305,7 +41814,62 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 179,
+        id = 163,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9307] = {
+        bornPoint = 24,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2100,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 20,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四糸乃挑战-自责-限时击杀（词缀）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 9307,
         MonsterN4 = {
         },
         MonsterE = {
@@ -40323,6 +41887,11 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -40397,14 +41966,14 @@ return {
         LengthN3 = {
         },
     },
-    [110107] = {
+    [9306] = {
         bornPoint = 6,
         LengthT = {
+            [1] = 100,
+            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -40415,86 +41984,96 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 6,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
             [1] = {
-                [1] = 681301,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "110004",
-        dungeonName = "第11章简单 wave2-BOSS战（支线）f11-3",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 110107,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75311] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515108,
-                [2] = 1,
+                [1] = 60000,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "反十模拟试炼第二章2-3 反折",
+        dungeonName = "四糸乃挑战-自责-生存关卡",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
+        },
+        LengthE = {
+        },
+        victoryType = 2,
+        id = 9306,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [9305] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四糸乃挑战-自责-歼灭模式",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 75311,
+        victoryType = 1,
+        id = 9305,
         MonsterN4 = {
         },
         MonsterE = {
@@ -40512,6 +42091,11 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -40575,14 +42159,14 @@ return {
         LengthN3 = {
         },
     },
-    [81104] = {
-        bornPoint = 6,
+    [8315] = {
+        bornPoint = 17,
         LengthT = {
+            [1] = 100,
+            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -40593,56 +42177,54 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 8,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻1-战斗4",
+        dungeonName = "3-5万由里（DEM）",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 81104,
+        victoryType = 2,
+        id = 8315,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -40714,7 +42296,7 @@ return {
         LengthN3 = {
         },
     },
-    [9707] = {
+    [9206] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -40723,14 +42305,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "600021",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "600022",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -40738,20 +42320,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 24400,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四系乃（孤独）2-9 波次",
+        dungeonName = "四糸乃挑战-孤独-BOSS",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 9707,
+        victoryType = 3,
+        id = 9206,
         MonsterN4 = {
         },
         MonsterE = {
@@ -40772,89 +42358,12 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [9706] = {
+    [9205] = {
         bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "600019",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "600020",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "四系乃（孤独）2-8 歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 9706,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [81204] = {
-        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -40882,7 +42391,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻2-战斗4",
+        dungeonName = "四糸乃挑战-孤独-歼灭模式（关卡词缀）",
         LengthN2 = {
         },
         MonsterT = {
@@ -40890,79 +42399,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 81204,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [9704] = {
-        bornPoint = 24,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "四系乃（孤独）2-5 歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 9704,
+        id = 9205,
         MonsterN4 = {
         },
         MonsterE = {
@@ -40992,12 +42429,133 @@ return {
         LengthN3 = {
         },
     },
-    [9703] = {
+    [4106] = {
         bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
+            [1] = 640,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+            [1] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        prevScript = "",
+        dungeonName = "4-6 (歼灭模式-困难)   ",
+        LengthN2 = {
+            [1] = 1380,
+            [2] = 3900,
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 4106,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [210003] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "圣诞街道-年",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 210003,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [90040] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
             [1] = 100,
             [2] = 2600,
         },
@@ -41017,22 +42575,23 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 15,
+                [1] = 8709,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四系乃（孤独）2-3 限时",
+        dungeonName = "5-8挑战地狱（积分）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 9703,
+        victoryType = 3,
+        id = 90040,
         MonsterN4 = {
         },
         MonsterE = {
@@ -41257,77 +42816,7 @@ return {
         LengthN3 = {
         },
     },
-    [9702] = {
-        bornPoint = 4,
-        LengthT = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "600018",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 6,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "四系乃（孤独）2-2 生存",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 9702,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [9604] = {
+    [90039] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -41336,14 +42825,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "600011",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "600012",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -41351,20 +42840,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 8708,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四系乃（迷茫）1-8  波次",
+        dungeonName = "5-7挑战困难（积分）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 9604,
+        victoryType = 3,
+        id = 90039,
         MonsterN4 = {
         },
         MonsterE = {
@@ -41385,13 +42878,64 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
+        },
+        LengthN3 = {
+        },
+    },
+    [90038] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 8708,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "5-6挑战简单（积分）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 90038,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
                 [2] = 0,
                 [3] = 200,
             },
-            [5] = {
-                [1] = 5,
+            [2] = {
+                [1] = 2,
                 [2] = 0,
                 [3] = 200,
             },
@@ -41466,7 +43010,7 @@ return {
         LengthN3 = {
         },
     },
-    [90125] = {
+    [190037] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -41495,7 +43039,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第9章简单 f9-11-歼灭",
+        dungeonName = "5-5入侵（生存）",
         LengthN2 = {
         },
         MonsterT = {
@@ -41503,7 +43047,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 90125,
+        id = 190037,
         MonsterN4 = {
         },
         MonsterE = {
@@ -41533,8 +43077,8 @@ return {
         LengthN3 = {
         },
     },
-    [9408] = {
-        bornPoint = 4,
+    [190036] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -41558,23 +43102,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 624702,
-                [2] = 1,
+                [1] = 20,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四糸乃挑战-悲痛-BOSS战",
+        dungeonName = "5-4入侵（限时）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 9408,
+        victoryType = 5,
+        id = 190036,
         MonsterN4 = {
         },
         MonsterE = {
@@ -41592,6 +43135,11 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -41666,14 +43214,14 @@ return {
         LengthN3 = {
         },
     },
-    [9407] = {
+    [190035] = {
         bornPoint = 6,
         LengthT = {
-            [1] = 100,
-            [2] = 2300,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -41684,7 +43232,7 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 6,
+        NumMaxT = 0,
         MonsterL = {
         },
         CampNumMax = {
@@ -41695,40 +43243,40 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四糸乃挑战-悲痛-生存模式",
+        dungeonName = "5-3入侵（歼灭）",
         LengthN2 = {
         },
         MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 9407,
+        id = 190035,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
@@ -42004,8 +43552,8 @@ return {
         LengthN3 = {
         },
     },
-    [102015] = {
-        bornPoint = 4,
+    [190033] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -42028,24 +43576,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 4303,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第10章困难10-15BOSS战斗",
+        dungeonName = "5-1入侵（歼灭）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 102015,
+        victoryType = 1,
+        id = 190033,
         MonsterN4 = {
         },
         MonsterE = {
@@ -42055,71 +43599,6 @@ return {
                 [1] = 1,
                 [2] = 0,
                 [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16802] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9290",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 24,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9289",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点2",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 16802,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -42133,6 +43612,72 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [90037] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "505",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "506",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 8710,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "5-5剧情（BOSS）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 90037,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -42336,14 +43881,14 @@ return {
         LengthN3 = {
         },
     },
-    [73019] = {
+    [90036] = {
         bornPoint = 6,
         LengthT = {
+            [1] = 100,
+            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -42354,61 +43899,59 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 6,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "莫德雷德模拟试炼1-1波次",
+        dungeonName = "5-4剧情（生存）",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 73019,
+        victoryType = 2,
+        id = 90036,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [75412] = {
+    [90035] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -42417,14 +43960,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "",
+        op = "503",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "504",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -42437,7 +43980,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章3-1",
+        dungeonName = "5-3剧情（波次）",
         LengthN2 = {
         },
         MonsterT = {
@@ -42445,7 +43988,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 75412,
+        id = 90035,
         MonsterN4 = {
         },
         MonsterE = {
@@ -42550,7 +44093,7 @@ return {
         LengthN3 = {
         },
     },
-    [9401] = {
+    [90034] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -42579,7 +44122,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四糸乃挑战-悲痛-歼灭模式（障碍物）",
+        dungeonName = "5-2剧情（歼灭）",
         LengthN2 = {
         },
         MonsterT = {
@@ -42587,7 +44130,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 9401,
+        id = 90034,
         MonsterN4 = {
         },
         MonsterE = {
@@ -42813,23 +44356,23 @@ return {
         LengthN3 = {
         },
     },
-    [6115] = {
-        bornPoint = 17,
+    [90033] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 2400,
+            [2] = 2600,
         },
-        op = "",
+        op = "501",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "502",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -42842,7 +44385,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "f6-5歼灭",
+        dungeonName = "5-1剧情（歼灭）",
         LengthN2 = {
         },
         MonsterT = {
@@ -42850,7 +44393,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 6115,
+        id = 90033,
         MonsterN4 = {
         },
         MonsterE = {
@@ -42880,14 +44423,14 @@ return {
         LengthN3 = {
         },
     },
-    [9307] = {
-        bornPoint = 24,
+    [90032] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 2100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -42904,23 +44447,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 20,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四糸乃挑战-自责-限时击杀（词缀）",
+        dungeonName = "4-8挑战地狱（歼灭）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 9307,
+        victoryType = 1,
+        id = 90032,
         MonsterN4 = {
         },
         MonsterE = {
@@ -42943,6 +44483,11 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -43622,78 +45167,8 @@ return {
         LengthN3 = {
         },
     },
-    [9306] = {
+    [90031] = {
         bornPoint = 6,
-        LengthT = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 6,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "四糸乃挑战-自责-生存关卡",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 9306,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [9305] = {
-        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -43721,7 +45196,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四糸乃挑战-自责-歼灭模式",
+        dungeonName = "4-7挑战困难（歼灭）",
         LengthN2 = {
         },
         MonsterT = {
@@ -43729,7 +45204,79 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 9305,
+        id = 90031,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [90030] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "4-6挑战简单（歼灭）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 90030,
         MonsterN4 = {
         },
         MonsterE = {
@@ -43960,7 +45507,7 @@ return {
         LengthN3 = {
         },
     },
-    [190018] = {
+    [190028] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -43989,7 +45536,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-2入侵（歼灭）",
+        dungeonName = "4-4入侵（波次）",
         LengthN2 = {
         },
         MonsterT = {
@@ -43997,7 +45544,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 190018,
+        id = 190028,
         MonsterN4 = {
         },
         MonsterE = {
@@ -44020,6 +45567,11 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -44098,8 +45650,74 @@ return {
         LengthN3 = {
         },
     },
-    [9303] = {
-        bornPoint = 3,
+    [90029] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "405",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "406",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 8707,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "4-5剧情（BOSS）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 90029,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [90023] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -44123,11 +45741,11 @@ return {
         },
         victoryParam = {
         },
-        extCfgID = 0,
+        extCfgID = 202,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四糸乃挑战-自责-守护击杀",
+        dungeonName = "3-7挑战困难（守护）",
         LengthN2 = {
         },
         MonsterT = {
@@ -44135,7 +45753,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 9303,
+        id = 90023,
         MonsterN4 = {
         },
         MonsterE = {
@@ -44166,18 +45784,23 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [6] = {
+                [1] = 6,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [9206] = {
-        bornPoint = 6,
+    [4206] = {
+        bornPoint = 17,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 150,
+            [2] = 2550,
         },
         op = "",
         LengthN4 = {
@@ -44194,24 +45817,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 24400,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四糸乃挑战-孤独-BOSS",
+        dungeonName = "4-6 (歼灭模式-噩梦)   ",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 9206,
+        victoryType = 1,
+        id = 4206,
         MonsterN4 = {
         },
         MonsterE = {
@@ -44232,62 +45851,10 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-        },
-        LengthN3 = {
-        },
-    },
-    [8408] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 4090,
-        },
-        op = "9353",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "或守鞠亚剧场-第一章-level10-战斗-学校附近",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 8408,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
+            [4] = {
+                [1] = 4,
                 [2] = 0,
-                [3] = 100,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 100,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -44416,16 +45983,14 @@ return {
         LengthN3 = {
         },
     },
-    [100304] = {
-        bornPoint = 6,
+    [8456] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
-        op = "",
+        op = "9446",
         LengthN4 = {
         },
         LengthL = {
@@ -44441,54 +46006,40 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 18,
+                [1] = 100252,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第10章简单 f10-7 限时",
+        dungeonName = "狂三外传剧场-第二章-战斗-偷袭-level21-体育馆",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 100304,
+        victoryType = 3,
+        id = 8456,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [9205] = {
-        bornPoint = 6,
+    [8472] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 50,
+            [2] = 2700,
         },
         op = "",
         LengthN4 = {
@@ -44505,20 +46056,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 100271,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "四糸乃挑战-孤独-歼灭模式（关卡词缀）",
+        dungeonName = "狂三外传剧场-困难2-学校操场",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 9205,
+        victoryType = 3,
+        id = 8472,
         MonsterN4 = {
         },
         MonsterE = {
@@ -44527,22 +46082,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -44749,14 +46289,14 @@ return {
         LengthN3 = {
         },
     },
-    [5014] = {
-        bornPoint = 4,
+    [90022] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 150,
-            [2] = 2200,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -44773,23 +46313,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 19,
-            },
         },
-        extCfgID = 0,
+        extCfgID = 201,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第5章困难关卡1（地铁正常，限时）",
+        dungeonName = "3-6挑战简单（守护）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 5014,
+        victoryType = 1,
+        id = 90022,
         MonsterN4 = {
         },
         MonsterE = {
@@ -44798,22 +46335,32 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [4] = {
                 [1] = 4,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+            [6] = {
+                [1] = 6,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -44891,7 +46438,77 @@ return {
         LengthN3 = {
         },
     },
-    [210003] = {
+    [190020] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 20,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "3-4入侵（限时）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 190020,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [190018] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -44920,7 +46537,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "圣诞街道-年",
+        dungeonName = "3-2入侵（歼灭）",
         LengthN2 = {
         },
         MonsterT = {
@@ -44928,7 +46545,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 210003,
+        id = 190018,
         MonsterN4 = {
         },
         MonsterE = {
@@ -44939,11 +46556,26 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [90040] = {
+    [190017] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -44967,24 +46599,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 8709,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-8挑战地狱（积分）",
+        dungeonName = "3-1入侵（波次）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 90040,
+        victoryType = 1,
+        id = 190017,
         MonsterN4 = {
         },
         MonsterE = {
@@ -45005,69 +46633,13 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-        },
-        LengthN3 = {
-        },
-    },
-    [90039] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 8708,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "5-7挑战困难（积分）",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 90039,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -45187,7 +46759,7 @@ return {
         LengthN3 = {
         },
     },
-    [90038] = {
+    [90021] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -45196,14 +46768,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "",
+        op = "305",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "306",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -45212,7 +46784,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 8708,
+                [1] = 8702,
                 [2] = 1,
             },
         },
@@ -45220,7 +46792,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-6挑战简单（积分）",
+        dungeonName = "3-5剧情（BOSS）",
         LengthN2 = {
         },
         MonsterT = {
@@ -45228,7 +46800,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 90038,
+        id = 90021,
         MonsterN4 = {
         },
         MonsterE = {
@@ -45244,11 +46816,16 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [190037] = {
+    [90019] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -45257,14 +46834,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "",
+        op = "303",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "304",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -45277,7 +46854,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-5入侵（生存）",
+        dungeonName = "3-3剧情（歼灭）",
         LengthN2 = {
         },
         MonsterT = {
@@ -45285,7 +46862,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 190037,
+        id = 90019,
         MonsterN4 = {
         },
         MonsterE = {
@@ -45524,7 +47101,7 @@ return {
         LengthN3 = {
         },
     },
-    [190036] = {
+    [90015] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -45549,14 +47126,14 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 20,
+                [1] = 25,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-4入侵（限时）",
+        dungeonName = "2-7挑战困难（限时）",
         LengthN2 = {
         },
         MonsterT = {
@@ -45564,7 +47141,7 @@ return {
         LengthE = {
         },
         victoryType = 5,
-        id = 190036,
+        id = 90015,
         MonsterN4 = {
         },
         MonsterE = {
@@ -45587,6 +47164,11 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -45736,8 +47318,8 @@ return {
         LengthN3 = {
         },
     },
-    [190035] = {
-        bornPoint = 6,
+    [190012] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -45760,20 +47342,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 20,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-3入侵（歼灭）",
+        dungeonName = "2-4入侵（限时）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 190035,
+        victoryType = 5,
+        id = 190012,
         MonsterN4 = {
         },
         MonsterE = {
@@ -45803,23 +47388,23 @@ return {
         LengthN3 = {
         },
     },
-    [190033] = {
-        bornPoint = 6,
+    [90013] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 2600,
+            [2] = 2500,
         },
-        op = "",
+        op = "205",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "206",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -45827,20 +47412,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 8705,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-1入侵（歼灭）",
+        dungeonName = "2-5剧情（BOSS）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 190033,
+        victoryType = 3,
+        id = 90013,
         MonsterN4 = {
         },
         MonsterE = {
@@ -45858,11 +47447,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -45870,13 +47454,13 @@ return {
         LengthN3 = {
         },
     },
-    [138] = {
-        bornPoint = 6,
+    [2204] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
+            [1] = 300,
             [2] = 2600,
         },
         op = "",
@@ -45897,17 +47481,24 @@ return {
         },
         extCfgID = 0,
         MonsterN2 = {
+            [1] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         prevScript = "",
-        dungeonName = "周年庆12月-<圣诞节>雪人",
+        dungeonName = "第2章噩梦关卡4（歼灭）",
         LengthN2 = {
+            [1] = 1000,
+            [2] = 3800,
         },
         MonsterT = {
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 138,
+        id = 2204,
         MonsterN4 = {
         },
         MonsterE = {
@@ -45920,21 +47511,6 @@ return {
             },
             [2] = {
                 [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -46006,7 +47582,7 @@ return {
         LengthN3 = {
         },
     },
-    [90037] = {
+    [90007] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -46015,14 +47591,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "505",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "506",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -46030,24 +47606,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 8710,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-5剧情（BOSS）",
+        dungeonName = "1-7挑战困难（限时波次，歼灭）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 90037,
+        victoryType = 1,
+        id = 90007,
         MonsterN4 = {
         },
         MonsterE = {
@@ -46068,15 +47640,25 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [90036] = {
-        bornPoint = 6,
+    [190004] = {
+        bornPoint = 4,
         LengthT = {
             [1] = 100,
-            [2] = 2600,
+            [2] = 2150,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
@@ -46104,7 +47686,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-4剧情（生存）",
+        dungeonName = "1-4入侵（生存）",
         LengthN2 = {
         },
         MonsterT = {
@@ -46132,7 +47714,7 @@ return {
         LengthE = {
         },
         victoryType = 2,
-        id = 90036,
+        id = 190004,
         MonsterN4 = {
         },
         MonsterE = {
@@ -46265,79 +47847,7 @@ return {
         LengthN3 = {
         },
     },
-    [90035] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "503",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "504",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "5-3剧情（波次）",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 90035,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [90034] = {
+    [190003] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -46361,20 +47871,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 20,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-2剧情（歼灭）",
+        dungeonName = "1-3入侵（限时）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90034,
+        victoryType = 5,
+        id = 190003,
         MonsterN4 = {
         },
         MonsterE = {
@@ -46397,6 +47910,72 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [90005] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "105",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "106",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 8706,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "1-5剧情（BOSS）未配置哦",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 90005,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -46802,23 +48381,23 @@ return {
         LengthN3 = {
         },
     },
-    [90033] = {
-        bornPoint = 6,
+    [2104] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 0,
+            [2] = 2500,
         },
-        op = "501",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "502",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -46831,7 +48410,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-1剧情（歼灭）",
+        dungeonName = "第2章困难关卡4",
         LengthN2 = {
         },
         MonsterT = {
@@ -46839,7 +48418,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 90033,
+        id = 2104,
         MonsterN4 = {
         },
         MonsterE = {
@@ -46848,28 +48427,28 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [4] = {
                 [1] = 4,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
         },
         LengthN3 = {
         },
     },
-    [90032] = {
+    [16726] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -46893,20 +48472,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 521505,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "4-8挑战地狱（歼灭）",
+        dungeonName = "2020春节-魔禁联动第2阶段魔王关卡-贝芬格",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90032,
+        victoryType = 3,
+        id = 16726,
         MonsterN4 = {
         },
         MonsterE = {
@@ -46915,7 +48498,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -46924,16 +48507,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -47013,7 +48586,7 @@ return {
         LengthN3 = {
         },
     },
-    [90031] = {
+    [8603] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -47037,20 +48610,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 40821,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "4-7挑战困难（歼灭）",
+        dungeonName = "万由里限时boss",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90031,
+        victoryType = 3,
+        id = 8603,
         MonsterN4 = {
         },
         MonsterE = {
@@ -47058,26 +48635,6 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -47085,7 +48642,7 @@ return {
         LengthN3 = {
         },
     },
-    [90030] = {
+    [8602] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -47109,20 +48666,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 40821,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "4-6挑战简单（歼灭）",
+        dungeonName = "万由里限时boss",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90030,
+        victoryType = 3,
+        id = 8602,
         MonsterN4 = {
         },
         MonsterE = {
@@ -47130,21 +48691,6 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -47152,7 +48698,7 @@ return {
         LengthN3 = {
         },
     },
-    [190028] = {
+    [16814] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -47168,7 +48714,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9311",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -47180,8 +48726,8 @@ return {
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "4-4入侵（波次）",
+        prevScript = "9310",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点16",
         LengthN2 = {
         },
         MonsterT = {
@@ -47189,7 +48735,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 190028,
+        id = 16814,
         MonsterN4 = {
         },
         MonsterE = {
@@ -47198,7 +48744,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -47212,11 +48758,6 @@ return {
             },
             [4] = {
                 [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -47345,73 +48886,7 @@ return {
         LengthN3 = {
         },
     },
-    [90029] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "405",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "406",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 8707,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "4-5剧情（BOSS）",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 90029,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [90023] = {
+    [8320] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -47435,20 +48910,79 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 4320,
+                [2] = 1,
+            },
         },
-        extCfgID = 202,
+        extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-7挑战困难（守护）",
+        dungeonName = "4-5万由里（万由里）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90023,
+        victoryType = 3,
+        id = 8320,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [8318] = {
+        bornPoint = 17,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 20,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "4-3万由里（万由里）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 8318,
         MonsterN4 = {
         },
         MonsterE = {
@@ -47471,16 +49005,6 @@ return {
             },
             [4] = {
                 [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-            [6] = {
-                [1] = 6,
                 [2] = 0,
                 [3] = 200,
             },
@@ -47681,7 +49205,7 @@ return {
         LengthN3 = {
         },
     },
-    [90022] = {
+    [16710] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -47697,7 +49221,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9248",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -47706,11 +49230,11 @@ return {
         },
         victoryParam = {
         },
-        extCfgID = 201,
+        extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "3-6挑战简单（守护）",
+        prevScript = "9247",
+        dungeonName = "2020春节-魔禁联动第1阶段主线关卡-场景点13",
         LengthN2 = {
         },
         MonsterT = {
@@ -47718,7 +49242,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 90022,
+        id = 16710,
         MonsterN4 = {
         },
         MonsterE = {
@@ -47727,7 +49251,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -47741,16 +49265,6 @@ return {
             },
             [4] = {
                 [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-            [6] = {
-                [1] = 6,
                 [2] = 0,
                 [3] = 200,
             },
@@ -47892,14 +49406,14 @@ return {
         LengthN3 = {
         },
     },
-    [190020] = {
+    [8316] = {
         bornPoint = 6,
         LengthT = {
+            [1] = 100,
+            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -47910,54 +49424,54 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 8,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
             [1] = {
-                [1] = 20,
+                [1] = 60000,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-4入侵（限时）",
+        dungeonName = "4-1万由里（困难模式）（机械）",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 190020,
+        victoryType = 2,
+        id = 8316,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -48170,7 +49684,7 @@ return {
         LengthN3 = {
         },
     },
-    [190017] = {
+    [8314] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -48199,7 +49713,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-1入侵（波次）",
+        dungeonName = "3-4万由里（万由里）",
         LengthN2 = {
         },
         MonsterT = {
@@ -48207,7 +49721,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 190017,
+        id = 8314,
         MonsterN4 = {
         },
         MonsterE = {
@@ -48233,17 +49747,12 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [90021] = {
-        bornPoint = 6,
+    [8313] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -48251,14 +49760,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "305",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "306",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -48266,24 +49775,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 8702,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-5剧情（BOSS）",
+        dungeonName = "3-3万由里（万由里）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 90021,
+        victoryType = 1,
+        id = 8313,
         MonsterN4 = {
         },
         MonsterE = {
@@ -48301,6 +49806,11 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -48434,7 +49944,7 @@ return {
         LengthN3 = {
         },
     },
-    [90019] = {
+    [8312] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -48443,14 +49953,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "303",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "304",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -48463,7 +49973,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-3剧情（歼灭）",
+        dungeonName = "3-2万由里1（万由里）",
         LengthN2 = {
         },
         MonsterT = {
@@ -48471,7 +49981,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 90019,
+        id = 8312,
         MonsterN4 = {
         },
         MonsterE = {
@@ -48958,7 +50468,74 @@ return {
         LengthN3 = {
         },
     },
-    [90015] = {
+    [8311] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "3-1万由里（困难模式）（DEM）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 8311,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [8310] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -48983,22 +50560,23 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 25,
+                [1] = 24310,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "2-7挑战困难（限时）",
+        dungeonName = "2-5万由里（改成BOSS击杀）（万由里）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 90015,
+        victoryType = 3,
+        id = 8310,
         MonsterN4 = {
         },
         MonsterE = {
@@ -49016,86 +50594,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [190012] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 20,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "2-4入侵（限时）",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 190012,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -49159,73 +50657,7 @@ return {
         LengthN3 = {
         },
     },
-    [90013] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2500,
-        },
-        op = "205",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "206",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 8705,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "2-5剧情（BOSS）",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 90013,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [90007] = {
+    [8309] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -49254,7 +50686,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "1-7挑战困难（限时波次，歼灭）",
+        dungeonName = "2-4万由里（万由里）",
         LengthN2 = {
         },
         MonsterT = {
@@ -49262,7 +50694,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 90007,
+        id = 8309,
         MonsterN4 = {
         },
         MonsterE = {
@@ -49288,23 +50720,18 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [190004] = {
-        bornPoint = 4,
+    [8308] = {
+        bornPoint = 6,
         LengthT = {
-            [1] = 100,
-            [2] = 2150,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -49315,54 +50742,121 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 6,
+        NumMaxT = 0,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
             [1] = {
-                [1] = 60000,
+                [1] = 20,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "1-4入侵（生存）",
+        dungeonName = "2-3万由里1（机械）",
         LengthN2 = {
         },
         MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
         },
         LengthE = {
         },
-        victoryType = 2,
-        id = 190004,
+        victoryType = 5,
+        id = 8308,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [8307] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 300,
+            [2] = 3600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "2-2万由里（改成歼灭）（万由里）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 8307,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
@@ -49479,14 +50973,14 @@ return {
         LengthN3 = {
         },
     },
-    [190003] = {
-        bornPoint = 6,
+    [8306] = {
+        bornPoint = 3,
         LengthT = {
+            [1] = 150,
+            [2] = 3600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -49497,54 +50991,54 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 8,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
             [1] = {
-                [1] = 20,
+                [1] = 60000,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "1-3入侵（限时）",
+        dungeonName = "2-1万由里（困难模式）（万由里）",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 190003,
+        victoryType = 2,
+        id = 8306,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -50038,8 +51532,8 @@ return {
         LengthN3 = {
         },
     },
-    [90005] = {
-        bornPoint = 6,
+    [8305] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -50047,14 +51541,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "105",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "106",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -50062,24 +51556,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 8706,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "1-5剧情（BOSS）未配置哦",
+        dungeonName = "1-5万由里1（万由里）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 90005,
+        victoryType = 1,
+        id = 8305,
         MonsterN4 = {
         },
         MonsterE = {
@@ -50100,11 +51590,16 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [16318] = {
+    [8304] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -50129,23 +51624,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 516003,
-                [2] = 1,
+                [1] = 20,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "910054",
-        dungeonName = "海王星联动-艾伦的拦截",
+        prevScript = "",
+        dungeonName = "1-4万由里（万由里）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16318,
+        victoryType = 5,
+        id = 8304,
         MonsterN4 = {
         },
         MonsterE = {
@@ -50154,7 +51648,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -50163,6 +51657,11 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -50242,14 +51741,14 @@ return {
         LengthN3 = {
         },
     },
-    [16824] = {
-        bornPoint = 6,
+    [8303] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 150,
+            [2] = 2100,
         },
         op = "",
         LengthN4 = {
@@ -50258,7 +51757,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "9329",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -50266,24 +51765,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 516002,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9328",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点26",
+        prevScript = "",
+        dungeonName = "1-3万由里（改成歼灭）（DEM）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16824,
+        victoryType = 1,
+        id = 8303,
         MonsterN4 = {
         },
         MonsterE = {
@@ -50292,7 +51787,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -50304,12 +51799,87 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [8603] = {
-        bornPoint = 6,
+    [8302] = {
+        bornPoint = 17,
+        LengthT = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 8,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "1-2万由里（机械）",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
+        },
+        LengthE = {
+        },
+        victoryType = 2,
+        id = 8302,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [8301] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -50332,24 +51902,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 40821,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万由里限时boss",
+        dungeonName = "1-1万由里（困难模式）（万由里）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 8603,
+        victoryType = 1,
+        id = 8301,
         MonsterN4 = {
         },
         MonsterE = {
@@ -50360,59 +51926,18 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-        },
-        LengthN3 = {
-        },
-    },
-    [8602] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 40821,
-                [2] = 1,
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
             },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "万由里限时boss",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 8602,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -50564,14 +52089,14 @@ return {
         LengthN3 = {
         },
     },
-    [8307] = {
-        bornPoint = 3,
+    [16722] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 300,
-            [2] = 3600,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -50588,20 +52113,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 521501,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "2-2万由里（改成歼灭）（万由里）",
+        dungeonName = "2020春节-魔禁联动第2阶段魔王关卡-撒旦",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 8307,
+        victoryType = 3,
+        id = 16722,
         MonsterN4 = {
         },
         MonsterE = {
@@ -50610,7 +52139,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -50619,11 +52148,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -50772,7 +52296,7 @@ return {
             [2] = 2600,
         },
     },
-    [8320] = {
+    [75716] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -50797,23 +52321,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 4320,
-                [2] = 1,
+                [1] = 30,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "4-5万由里（万由里）",
+        dungeonName = "诺瓦露模拟试炼第二章4-2",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 8320,
+        victoryType = 5,
+        id = 75716,
         MonsterN4 = {
         },
         MonsterE = {
@@ -50824,12 +52347,32 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [8318] = {
-        bornPoint = 17,
+    [114] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -50853,22 +52396,23 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 20,
+                [1] = 90065,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "4-3万由里（万由里）",
+        dungeonName = "周年庆10月-<卡巴拉>玩家 VS 小怪+罗弗寇",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 8318,
+        victoryType = 3,
+        id = 114,
         MonsterN4 = {
         },
         MonsterE = {
@@ -50886,11 +52430,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -51105,8 +52644,8 @@ return {
         LengthN3 = {
         },
     },
-    [16710] = {
-        bornPoint = 6,
+    [16812] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -51121,7 +52660,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "9248",
+        endScript = "9307",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -51129,20 +52668,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 516010,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9247",
-        dungeonName = "2020春节-魔禁联动第1阶段主线关卡-场景点13",
+        prevScript = "9306",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点14",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 16710,
+        victoryType = 3,
+        id = 16812,
         MonsterN4 = {
         },
         MonsterE = {
@@ -51163,23 +52706,18 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [8316] = {
+    [75801] = {
         bornPoint = 6,
         LengthT = {
-            [1] = 100,
-            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -51190,54 +52728,40 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 8,
+        NumMaxT = 0,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
             [1] = {
-                [1] = 60000,
+                [1] = 515111,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "4-1万由里（困难模式）（机械）",
+        dungeonName = "贝露模拟试炼第一章1-1-十香",
         LengthN2 = {
         },
         MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
         },
         LengthE = {
         },
-        victoryType = 2,
-        id = 8316,
+        victoryType = 3,
+        id = 75801,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
@@ -51903,14 +53427,14 @@ return {
         LengthN3 = {
         },
     },
-    [8315] = {
+    [8116] = {
         bornPoint = 17,
         LengthT = {
-            [1] = 100,
-            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -51921,54 +53445,56 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 8,
+        NumMaxT = 0,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-5万由里（DEM）",
+        dungeonName = "boss",
         LengthN2 = {
         },
         MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
         },
         LengthE = {
         },
-        victoryType = 2,
-        id = 8315,
+        victoryType = 1,
+        id = 8116,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
@@ -52449,7 +53975,7 @@ return {
         LengthN3 = {
         },
     },
-    [8314] = {
+    [8114] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -52478,7 +54004,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-4万由里（万由里）",
+        dungeonName = "守护",
         LengthN2 = {
         },
         MonsterT = {
@@ -52486,7 +54012,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 8314,
+        id = 8114,
         MonsterN4 = {
         },
         MonsterE = {
@@ -52516,14 +54042,14 @@ return {
         LengthN3 = {
         },
     },
-    [8313] = {
+    [8113] = {
         bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 2600,
+            [2] = 2500,
         },
         op = "",
         LengthN4 = {
@@ -52540,20 +54066,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 18,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-3万由里（万由里）",
+        dungeonName = "限时",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 8313,
+        victoryType = 5,
+        id = 8113,
         MonsterN4 = {
         },
         MonsterE = {
@@ -52571,11 +54100,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -52716,14 +54240,14 @@ return {
         LengthN3 = {
         },
     },
-    [8312] = {
-        bornPoint = 6,
+    [8112] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 150,
+            [2] = 3600,
         },
         op = "",
         LengthN4 = {
@@ -52745,7 +54269,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-2万由里1（万由里）",
+        dungeonName = "守护",
         LengthN2 = {
         },
         MonsterT = {
@@ -52753,7 +54277,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 8312,
+        id = 8112,
         MonsterN4 = {
         },
         MonsterE = {
@@ -52783,74 +54307,7 @@ return {
         LengthN3 = {
         },
     },
-    [16810] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9303",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9302",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点11",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 16810,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [8425] = {
+    [8409] = {
         bornPoint = 3,
         LengthT = {
         },
@@ -52859,14 +54316,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "9378",
+        op = "9354",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9355",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -52879,7 +54336,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "或守鞠亚剧场-第三章-level16-战斗-世界数据核心",
+        dungeonName = "或守鞠亚剧场-第一章-level11-战斗-废弃游乐园",
         LengthN2 = {
         },
         MonsterT = {
@@ -52887,7 +54344,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 8425,
+        id = 8409,
         MonsterN4 = {
         },
         MonsterE = {
@@ -52903,10 +54360,75 @@ return {
                 [2] = 0,
                 [3] = 100,
             },
+        },
+        LengthN3 = {
+        },
+    },
+    [164] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "周年庆5月-<第九章>七罪VS机械",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 164,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 100,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -52968,23 +54490,23 @@ return {
         LengthN3 = {
         },
     },
-    [16906] = {
-        bornPoint = 6,
+    [8457] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 50,
+            [2] = 2700,
         },
-        op = "",
+        op = "9447",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9448",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -52993,7 +54515,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 101003,
+                [1] = 100254,
                 [2] = 1,
             },
         },
@@ -53001,7 +54523,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "12号boss挑战-轮数9-罗弗寇",
+        dungeonName = "狂三外传剧场-第二章-战斗-撤离-level22-教室",
         LengthN2 = {
         },
         MonsterT = {
@@ -53009,7 +54531,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 16906,
+        id = 8457,
         MonsterN4 = {
         },
         MonsterE = {
@@ -53018,7 +54540,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -53227,14 +54749,12 @@ return {
         LengthN3 = {
         },
     },
-    [8311] = {
-        bornPoint = 6,
+    [1002] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -53251,50 +54771,45 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 20,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-1万由里（困难模式）（DEM）",
+        dungeonName = "第1章简单关卡2-剧情",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
+            [1] = 0,
+            [2] = 1300,
         },
-        victoryType = 1,
-        id = 8311,
+        victoryType = 5,
+        id = 1002,
         MonsterN4 = {
         },
         MonsterE = {
-        },
-        MonsterN1 = {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
+        },
+        MonsterN1 = {
         },
         LengthN3 = {
         },
     },
-    [8310] = {
+    [147] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -53319,23 +54834,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 24310,
-                [2] = 1,
+                [1] = 15,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "2-5万由里（改成BOSS击杀）（万由里）",
+        dungeonName = "周年庆2月-<大凉山>策划",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 8310,
+        victoryType = 5,
+        id = 147,
         MonsterN4 = {
         },
         MonsterE = {
@@ -53430,8 +54944,8 @@ return {
         LengthN3 = {
         },
     },
-    [8309] = {
-        bornPoint = 6,
+    [8109] = {
+        bornPoint = 17,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -53459,7 +54973,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "2-4万由里（万由里）",
+        dungeonName = "歼灭",
         LengthN2 = {
         },
         MonsterT = {
@@ -53467,7 +54981,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 8309,
+        id = 8109,
         MonsterN4 = {
         },
         MonsterE = {
@@ -53497,16 +55011,16 @@ return {
         LengthN3 = {
         },
     },
-    [8308] = {
-        bornPoint = 6,
+    [8465] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 50,
+            [2] = 2700,
         },
-        op = "",
+        op = "9460",
         LengthN4 = {
         },
         LengthL = {
@@ -53522,22 +55036,23 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 20,
+                [1] = 100263,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "2-3万由里1（机械）",
+        dungeonName = "狂三外传剧场-第二章-战斗-对决1-level34-礼拜堂",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 8308,
+        victoryType = 3,
+        id = 8465,
         MonsterN4 = {
         },
         MonsterE = {
@@ -53546,22 +55061,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -53770,14 +55270,14 @@ return {
         LengthN3 = {
         },
     },
-    [8306] = {
-        bornPoint = 3,
+    [75802] = {
+        bornPoint = 6,
         LengthT = {
-            [1] = 150,
-            [2] = 3600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -53788,60 +55288,46 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 8,
+        NumMaxT = 0,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
             [1] = {
-                [1] = 60000,
+                [1] = 515135,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "2-1万由里（困难模式）（万由里）",
+        dungeonName = "贝露模拟试炼第一章1-2-耶俱矢",
         LengthN2 = {
         },
         MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
         },
         LengthE = {
         },
-        victoryType = 2,
-        id = 8306,
+        victoryType = 3,
+        id = 75802,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [8305] = {
-        bornPoint = 4,
+    [81601] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -53869,7 +55355,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "1-5万由里1（万由里）",
+        dungeonName = "万圣节2020-异闻6-战斗1",
         LengthN2 = {
         },
         MonsterT = {
@@ -53877,7 +55363,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 8305,
+        id = 81601,
         MonsterN4 = {
         },
         MonsterE = {
@@ -53886,7 +55372,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -53900,6 +55386,11 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -53963,7 +55454,79 @@ return {
         LengthN3 = {
         },
     },
-    [8304] = {
+    [81504] = {
+        bornPoint = 8,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "万圣节2020-异闻5-战斗4",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 81504,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [81501] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -53987,82 +55550,12 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 20,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "1-4万由里（万由里）",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 8304,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [8303] = {
-        bornPoint = 8,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 150,
-            [2] = 2100,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "1-3万由里（改成歼灭）（DEM）",
+        dungeonName = "万圣节2020-异闻5-战斗1",
         LengthN2 = {
         },
         MonsterT = {
@@ -54070,7 +55563,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 8303,
+        id = 81501,
         MonsterN4 = {
         },
         MonsterE = {
@@ -54079,7 +55572,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -54093,6 +55586,11 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -54312,78 +55810,8 @@ return {
         LengthN3 = {
         },
     },
-    [8302] = {
+    [16310] = {
         bornPoint = 17,
-        LengthT = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 8,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "1-2万由里（机械）",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 8302,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [8301] = {
-        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -54406,20 +55834,94 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 24,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "1-1万由里（困难模式）（万由里）",
+        prevScript = "910040",
+        dungeonName = "海王星联动-4波怪-计数-捕捉“精灵”",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 8301,
+        victoryType = 5,
+        id = 16310,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [11015] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 520,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "春节副本BOSS",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 11015,
         MonsterN4 = {
         },
         MonsterE = {
@@ -54519,14 +56021,14 @@ return {
         LengthN3 = {
         },
     },
-    [147] = {
-        bornPoint = 6,
+    [1102] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 0,
+            [2] = 2300,
         },
         op = "",
         LengthN4 = {
@@ -54543,23 +56045,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "周年庆2月-<大凉山>策划",
+        dungeonName = "第1章困难关卡2",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 147,
+        victoryType = 1,
+        id = 1102,
         MonsterN4 = {
         },
         MonsterE = {
@@ -54568,23 +56067,28 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
             },
         },
         LengthN3 = {
         },
     },
-    [75307] = {
+    [81401] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -54608,23 +56112,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 30,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "反十模拟试炼第二章1-2",
+        dungeonName = "万圣节2020-异闻4-战斗1",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 75307,
+        victoryType = 1,
+        id = 81401,
         MonsterN4 = {
         },
         MonsterE = {
@@ -54633,7 +56134,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -54659,14 +56160,14 @@ return {
         LengthN3 = {
         },
     },
-    [2104] = {
-        bornPoint = 4,
+    [81304] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 0,
-            [2] = 2500,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -54688,7 +56189,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第2章困难关卡4",
+        dungeonName = "万圣节2020-异闻3-战斗4",
         LengthN2 = {
         },
         MonsterT = {
@@ -54696,7 +56197,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 2104,
+        id = 81304,
         MonsterN4 = {
         },
         MonsterE = {
@@ -54705,22 +56206,27 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [4] = {
                 [1] = 4,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -54867,8 +56373,8 @@ return {
         LengthN3 = {
         },
     },
-    [16402] = {
-        bornPoint = 6,
+    [81303] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -54899,7 +56405,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "海王星联动-5波怪-计数",
+        dungeonName = "万圣节2020-异闻3-战斗3",
         LengthN2 = {
         },
         MonsterT = {
@@ -54907,7 +56413,7 @@ return {
         LengthE = {
         },
         victoryType = 5,
-        id = 16402,
+        id = 81303,
         MonsterN4 = {
         },
         MonsterE = {
@@ -54942,7 +56448,7 @@ return {
         LengthN3 = {
         },
     },
-    [81008] = {
+    [81302] = {
         bornPoint = 5,
         LengthT = {
         },
@@ -54958,7 +56464,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "9186",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -54966,23 +56472,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 30,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9185",
-        dungeonName = "万圣节2019-右上线路-2-厨房",
+        prevScript = "",
+        dungeonName = "万圣节2020-异闻3-战斗2",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 81008,
+        victoryType = 1,
+        id = 81302,
         MonsterN4 = {
         },
         MonsterE = {
@@ -55073,8 +56576,8 @@ return {
         LengthN3 = {
         },
     },
-    [8116] = {
-        bornPoint = 17,
+    [81301] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -55102,7 +56605,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "boss",
+        dungeonName = "万圣节2020-异闻3-战斗1",
         LengthN2 = {
         },
         MonsterT = {
@@ -55110,7 +56613,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 8116,
+        id = 81301,
         MonsterN4 = {
         },
         MonsterE = {
@@ -55119,7 +56622,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -55425,8 +56928,8 @@ return {
         LengthN3 = {
         },
     },
-    [8114] = {
-        bornPoint = 6,
+    [81204] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -55454,7 +56957,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "守护",
+        dungeonName = "万圣节2020-异闻2-战斗4",
         LengthN2 = {
         },
         MonsterT = {
@@ -55462,7 +56965,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 8114,
+        id = 81204,
         MonsterN4 = {
         },
         MonsterE = {
@@ -55471,7 +56974,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -55485,6 +56988,11 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -55632,140 +57140,8 @@ return {
         LengthN3 = {
         },
     },
-    [8113] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2500,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 18,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "限时",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 8113,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [8112] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 150,
-            [2] = 3600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "守护",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 8112,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [114] = {
-        bornPoint = 4,
+    [81203] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -55789,23 +57165,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 90065,
-                [2] = 1,
+                [1] = 30,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "周年庆10月-<卡巴拉>玩家 VS 小怪+罗弗寇",
+        dungeonName = "万圣节2020-异闻2-战斗3",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 114,
+        victoryType = 5,
+        id = 81203,
         MonsterN4 = {
         },
         MonsterE = {
@@ -55814,7 +57189,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -55823,6 +57198,160 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [81202] = {
+        bornPoint = 5,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "万圣节2020-异闻2-战斗2",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 81202,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [81201] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "万圣节2020-异闻2-战斗1",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 81201,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -55971,7 +57500,7 @@ return {
         LengthN3 = {
         },
     },
-    [16904] = {
+    [81104] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -55995,24 +57524,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 101001,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "12号boss挑战-轮数7-撒旦",
+        dungeonName = "万圣节2020-异闻1-战斗4",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16904,
+        victoryType = 1,
+        id = 81104,
         MonsterN4 = {
         },
         MonsterE = {
@@ -56023,12 +57548,32 @@ return {
                 [2] = 0,
                 [3] = 150,
             },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [8109] = {
-        bornPoint = 17,
+    [81101] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -56056,7 +57601,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "歼灭",
+        dungeonName = "万圣节2020-异闻1-战斗1",
         LengthN2 = {
         },
         MonsterT = {
@@ -56064,7 +57609,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 8109,
+        id = 81101,
         MonsterN4 = {
         },
         MonsterE = {
@@ -56073,7 +57618,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -56087,6 +57632,11 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -56150,14 +57700,14 @@ return {
         LengthN3 = {
         },
     },
-    [7130] = {
-        bornPoint = 6,
+    [90119] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 150,
+            [2] = 2500,
         },
         op = "",
         LengthN4 = {
@@ -56179,7 +57729,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "7-26歼灭",
+        dungeonName = "第9章简单 f9-9-歼灭",
         LengthN2 = {
         },
         MonsterT = {
@@ -56187,7 +57737,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 7130,
+        id = 90119,
         MonsterN4 = {
         },
         MonsterE = {
@@ -56217,7 +57767,7 @@ return {
         LengthN3 = {
         },
     },
-    [16905] = {
+    [81015] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -56241,24 +57791,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 101002,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "12号boss挑战-轮数8-别西卜",
+        dungeonName = "万圣节2019-右下线路-南瓜大王-主卧",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16905,
+        victoryType = 0,
+        id = 81015,
         MonsterN4 = {
         },
         MonsterE = {
@@ -56268,6 +57814,16 @@ return {
                 [1] = 1,
                 [2] = 0,
                 [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -56478,7 +58034,7 @@ return {
         LengthN3 = {
         },
     },
-    [16317] = {
+    [110107] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -56502,20 +58058,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 681301,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "910053",
-        dungeonName = "海王星联动-4波怪-歼灭-错过",
+        prevScript = "110004",
+        dungeonName = "第11章简单 wave2-BOSS战（支线）f11-3",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 16317,
+        victoryType = 3,
+        id = 110107,
         MonsterN4 = {
         },
         MonsterE = {
@@ -56523,21 +58083,6 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -56753,8 +58298,8 @@ return {
         LengthN3 = {
         },
     },
-    [81601] = {
-        bornPoint = 6,
+    [90221] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -56782,7 +58327,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻6-战斗1",
+        dungeonName = "第9章困难9-21-波次",
         LengthN2 = {
         },
         MonsterT = {
@@ -56790,7 +58335,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 81601,
+        id = 90221,
         MonsterN4 = {
         },
         MonsterE = {
@@ -56799,7 +58344,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -56816,16 +58361,11 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [81504] = {
+    [7306] = {
         bornPoint = 8,
         LengthT = {
         },
@@ -56854,7 +58394,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻5-战斗4",
+        dungeonName = "7-6限时-噩梦",
         LengthN2 = {
         },
         MonsterT = {
@@ -56862,7 +58402,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 81504,
+        id = 7306,
         MonsterN4 = {
         },
         MonsterE = {
@@ -56871,7 +58411,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -57040,13 +58580,13 @@ return {
         LengthN3 = {
         },
     },
-    [81501] = {
-        bornPoint = 6,
+    [4204] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
+            [1] = 300,
             [2] = 2600,
         },
         op = "",
@@ -57067,17 +58607,29 @@ return {
         },
         extCfgID = 0,
         MonsterN2 = {
+            [1] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻5-战斗1",
+        dungeonName = "4-4 (歼灭模式-噩梦)   ",
         LengthN2 = {
+            [1] = 1000,
+            [2] = 3600,
         },
         MonsterT = {
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 81501,
+        id = 4204,
         MonsterN4 = {
         },
         MonsterE = {
@@ -57086,25 +58638,10 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -57238,8 +58775,74 @@ return {
         LengthN3 = {
         },
     },
-    [16806] = {
-        bornPoint = 3,
+    [18209] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 300,
+            [2] = 2400,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 4312,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "卡巴拉质点2-隐藏精英敌人",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 18209,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [7129] = {
+        bornPoint = 17,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -57262,24 +58865,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 516011,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9296",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点7",
+        prevScript = "",
+        dungeonName = "f7-10歼灭",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16806,
+        victoryType = 1,
+        id = 7129,
         MonsterN4 = {
         },
         MonsterE = {
@@ -57288,7 +58887,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -57300,69 +58899,8 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-        },
-        LengthN3 = {
-        },
-    },
-    [16812] = {
-        bornPoint = 8,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9307",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 516010,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9306",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点14",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 16812,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -57576,8 +59114,8 @@ return {
         LengthN3 = {
         },
     },
-    [16821] = {
-        bornPoint = 6,
+    [81008] = {
+        bornPoint = 5,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -57592,7 +59130,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "9324",
+        endScript = "9186",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -57601,23 +59139,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 516014,
-                [2] = 1,
+                [1] = 30,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9323",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点23",
+        prevScript = "9185",
+        dungeonName = "万圣节2019-右上线路-2-厨房",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16821,
+        victoryType = 5,
+        id = 81008,
         MonsterN4 = {
         },
         MonsterE = {
@@ -57635,6 +59172,16 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -57765,7 +59312,7 @@ return {
         LengthN3 = {
         },
     },
-    [81401] = {
+    [75008] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -57789,20 +59336,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 680805,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻4-战斗1",
+        dungeonName = "反转折纸模拟试炼2-3  七罪",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 81401,
+        victoryType = 3,
+        id = 75008,
         MonsterN4 = {
         },
         MonsterE = {
@@ -57811,7 +59362,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -57823,21 +59374,11 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [81304] = {
+    [75211] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -57861,20 +59402,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 515106,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻3-战斗4",
+        dungeonName = "普兰模拟试炼第二章2-3 别西仆",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 81304,
+        victoryType = 3,
+        id = 75211,
         MonsterN4 = {
         },
         MonsterE = {
@@ -57883,7 +59428,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -57895,22 +59440,12 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [81303] = {
-        bornPoint = 8,
+    [75311] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -57934,22 +59469,23 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 30,
+                [1] = 515108,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻3-战斗3",
+        dungeonName = "反十模拟试炼第二章2-3 反折",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 81303,
+        victoryType = 3,
+        id = 75311,
         MonsterN4 = {
         },
         MonsterE = {
@@ -57958,7 +59494,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -57967,16 +59503,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -58131,79 +59657,7 @@ return {
         LengthN3 = {
         },
     },
-    [81302] = {
-        bornPoint = 5,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "万圣节2020-异闻3-战斗2",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 81302,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [81301] = {
+    [75406] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -58232,7 +59686,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻3-战斗1",
+        dungeonName = "强化狂三模拟试炼第二章1-1",
         LengthN2 = {
         },
         MonsterT = {
@@ -58240,7 +59694,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 81301,
+        id = 75406,
         MonsterN4 = {
         },
         MonsterE = {
@@ -58249,7 +59703,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -58268,6 +59722,72 @@ return {
             },
             [5] = {
                 [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75417] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 515109,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "强化狂三模拟试炼第二章4-3 撒旦",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75417,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -58340,7 +59860,7 @@ return {
         LengthN3 = {
         },
     },
-    [81203] = {
+    [81001] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -58364,23 +59884,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 30,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "万圣节2020-异闻2-战斗3",
+        prevScript = "9172",
+        dungeonName = "万圣节2019-大厅",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 81203,
+        victoryType = 1,
+        id = 81001,
         MonsterN4 = {
         },
         MonsterE = {
@@ -58415,14 +59932,14 @@ return {
         LengthN3 = {
         },
     },
-    [81202] = {
-        bornPoint = 5,
+    [17001] = {
+        bornPoint = 6,
         LengthT = {
+            [1] = 100,
+            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -58433,56 +59950,69 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 1,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 80000,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻2-战斗2",
+        dungeonName = "日常-祈愿",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [6] = {
+                [1] = 6,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [7] = {
+                [1] = 7,
+                [2] = 2000,
+                [3] = 0,
+            },
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 81202,
+        victoryType = 2,
+        id = 17001,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -58621,14 +60151,14 @@ return {
         LengthN3 = {
         },
     },
-    [81201] = {
-        bornPoint = 6,
+    [4001] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 640,
+            [2] = 2200,
         },
         op = "",
         LengthN4 = {
@@ -58648,17 +60178,29 @@ return {
         },
         extCfgID = 0,
         MonsterN2 = {
+            [1] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻2-战斗1",
+        dungeonName = "4-1 (歼灭模式-普通)",
         LengthN2 = {
+            [1] = 1380,
+            [2] = 2900,
         },
         MonsterT = {
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 81201,
+        id = 4001,
         MonsterN4 = {
         },
         MonsterE = {
@@ -58667,25 +60209,10 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -58825,7 +60352,139 @@ return {
         LengthN3 = {
         },
     },
-    [81101] = {
+    [179] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 90058,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "周年庆7月-<第十章>强化十香特特训VS万由里+狂三",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 179,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75814] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 515138,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "贝露模拟试炼第二章3-3 普兰",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75814,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75812] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -58854,7 +60513,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万圣节2020-异闻1-战斗1",
+        dungeonName = "贝露模拟试炼第二章3-1",
         LengthN2 = {
         },
         MonsterT = {
@@ -58862,7 +60521,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 81101,
+        id = 75812,
         MonsterN4 = {
         },
         MonsterE = {
@@ -58871,7 +60530,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -58897,8 +60556,8 @@ return {
         LengthN3 = {
         },
     },
-    [16818] = {
-        bornPoint = 4,
+    [75810] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -58913,7 +60572,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "9318",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -58922,23 +60581,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 516013,
-                [2] = 1,
+                [1] = 30,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9317",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点20",
+        prevScript = "",
+        dungeonName = "贝露模拟试炼第二章2-2",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16818,
+        victoryType = 5,
+        id = 75810,
         MonsterN4 = {
         },
         MonsterE = {
@@ -58947,7 +60605,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -58959,11 +60617,21 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [81015] = {
+    [75806] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -58992,69 +60660,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万圣节2019-右下线路-南瓜大王-主卧",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 0,
-        id = 81015,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [90221] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第9章困难9-21-波次",
+        dungeonName = "贝露模拟试炼第二章1-1",
         LengthN2 = {
         },
         MonsterT = {
@@ -59062,7 +60668,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 90221,
+        id = 75806,
         MonsterN4 = {
         },
         MonsterE = {
@@ -59088,73 +60694,8 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-        },
-        LengthN3 = {
-        },
-    },
-    [90219] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 20,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第9章困难9-19-限时",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 90219,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -59228,143 +60769,7 @@ return {
         LengthN3 = {
         },
     },
-    [2102] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 0,
-            [2] = 2300,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第2章困难关卡2",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 2102,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 0,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [4105] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 640,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-            [1] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        prevScript = "",
-        dungeonName = "4-5 (歼灭模式-困难)   ",
-        LengthN2 = {
-            [1] = 1380,
-            [2] = 3900,
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 4105,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16102] = {
+    [75805] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -59388,20 +60793,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 515114,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "天梯刷怪(Boss层)",
+        dungeonName = "贝露模拟试炼第一章1-5-精灵折纸",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 16102,
+        victoryType = 3,
+        id = 75805,
         MonsterN4 = {
         },
         MonsterE = {
@@ -59410,15 +60819,130 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
-            [2] = {
-                [1] = 2,
+        },
+        LengthN3 = {
+        },
+    },
+    [75804] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 515119,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "贝露模拟试炼第一章1-4-七罪",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75804,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
                 [2] = 0,
                 [3] = 200,
             },
-            [3] = {
+        },
+        LengthN3 = {
+        },
+    },
+    [3004] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 550,
+            [2] = 2220,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+            [1] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        prevScript = "",
+        dungeonName = "3-5  (歼灭模式-普通) ",
+        LengthN2 = {
+            [1] = 1380,
+            [2] = 2900,
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 3004,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
                 [2] = 0,
                 [3] = 200,
             },
@@ -59694,7 +61218,7 @@ return {
         LengthN3 = {
         },
     },
-    [16823] = {
+    [75803] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -59719,22 +61243,23 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 24,
+                [1] = 515113,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9327",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点25",
+        prevScript = "",
+        dungeonName = "贝露模拟试炼第一章1-3-琴里指挥官",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 16823,
+        victoryType = 3,
+        id = 75803,
         MonsterN4 = {
         },
         MonsterE = {
@@ -59742,21 +61267,6 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -60023,63 +61533,7 @@ return {
         LengthN3 = {
         },
     },
-    [75403] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515125,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9212",
-        dungeonName = "强化狂三模拟试炼第一章1-3-亚斯塔洛特",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75403,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75413] = {
+    [75710] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -60111,7 +61565,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章3-2",
+        dungeonName = "诺瓦露模拟试炼第二章2-2",
         LengthN2 = {
         },
         MonsterT = {
@@ -60119,7 +61573,7 @@ return {
         LengthE = {
         },
         victoryType = 5,
-        id = 75413,
+        id = 75710,
         MonsterN4 = {
         },
         MonsterE = {
@@ -60147,6 +61601,72 @@ return {
             },
             [5] = {
                 [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75708] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 515119,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "诺瓦露模拟试炼第二章1-3 七罪",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75708,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -60219,16 +61739,16 @@ return {
         LengthN3 = {
         },
     },
-    [16310] = {
-        bornPoint = 17,
+    [6110] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 300,
+            [2] = 2400,
         },
-        op = "",
+        op = "60004",
         LengthN4 = {
         },
         LengthL = {
@@ -60243,23 +61763,32 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 24,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
+            [1] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
-        prevScript = "910040",
-        dungeonName = "海王星联动-4波怪-计数-捕捉“精灵”",
+        prevScript = "",
+        dungeonName = "6-7歼灭",
         LengthN2 = {
+            [1] = 1800,
+            [2] = 3900,
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 16310,
+        victoryType = 1,
+        id = 6110,
         MonsterN4 = {
         },
         MonsterE = {
@@ -60268,20 +61797,10 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -60422,76 +61941,6 @@ return {
         LengthN3 = {
         },
     },
-    [6210] = {
-        bornPoint = 11,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "6-10(歼灭模式-困难) ",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 6210,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
     [75702] = {
         bornPoint = 6,
         LengthT = {
@@ -60541,6 +61990,78 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75612] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "万由里模拟试炼第二章3-1",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 75612,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -60760,7 +62281,7 @@ return {
         LengthN3 = {
         },
     },
-    [75810] = {
+    [75603] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -60785,22 +62306,23 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 30,
+                [1] = 515136,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "贝露模拟试炼第二章2-2",
+        dungeonName = "万由里模拟试炼第一章1-3-夕弦",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 75810,
+        victoryType = 3,
+        id = 75603,
         MonsterN4 = {
         },
         MonsterE = {
@@ -60808,26 +62330,6 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -60835,7 +62337,7 @@ return {
         LengthN3 = {
         },
     },
-    [81001] = {
+    [90229] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -60863,8 +62365,8 @@ return {
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9172",
-        dungeonName = "万圣节2019-大厅",
+        prevScript = "",
+        dungeonName = "第9章困难9-29-歼灭",
         LengthN2 = {
         },
         MonsterT = {
@@ -60872,7 +62374,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 81001,
+        id = 90229,
         MonsterN4 = {
         },
         MonsterE = {
@@ -60881,7 +62383,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -60895,11 +62397,6 @@ return {
             },
             [4] = {
                 [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -60977,14 +62474,14 @@ return {
         LengthN3 = {
         },
     },
-    [5013] = {
-        bornPoint = 12,
+    [75516] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 150,
-            [2] = 2200,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -61001,20 +62498,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 30,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第5章困难关卡1（地铁破坏，歼灭）",
+        dungeonName = "御坂美琴模拟试炼第二章4-2",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 5013,
+        victoryType = 5,
+        id = 75516,
         MonsterN4 = {
         },
         MonsterE = {
@@ -61023,27 +62523,27 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [4] = {
                 [1] = 4,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [5] = {
                 [1] = 5,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -61400,7 +62900,7 @@ return {
         LengthN3 = {
         },
     },
-    [16308] = {
+    [16810] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -61416,7 +62916,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "910037",
+        endScript = "9303",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -61428,8 +62928,8 @@ return {
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "910036",
-        dungeonName = "海王星联动-4波怪-涅普也有妹妹哦",
+        prevScript = "9302",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点11",
         LengthN2 = {
         },
         MonsterT = {
@@ -61437,7 +62937,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 16308,
+        id = 16810,
         MonsterN4 = {
         },
         MonsterE = {
@@ -61654,14 +63154,70 @@ return {
         LengthN3 = {
         },
     },
-    [80002] = {
-        bornPoint = 9,
+    [8458] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 1500,
-            [2] = 4000,
+            [1] = 50,
+            [2] = 2700,
+        },
+        op = "9449",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9450",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 100255,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "狂三外传剧场-第二章-战斗-彩眼-level24-教室",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 8458,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 100,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [8474] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 50,
+            [2] = 2700,
         },
         op = "",
         LengthN4 = {
@@ -61679,22 +63235,23 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 100275,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "困难试炼-万圣节",
+        dungeonName = "狂三外传剧场-困难4-学校前庭",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 80002,
+        victoryType = 3,
+        id = 8474,
         MonsterN4 = {
         },
         MonsterE = {
@@ -61703,121 +63260,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 500,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 500,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 500,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 500,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 500,
-            },
-            [6] = {
-                [1] = 6,
-                [2] = 0,
-                [3] = 500,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [90213] = {
-        bornPoint = 4,
-        LengthT = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 6,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第9章困难9-13-歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 90213,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -62099,77 +63542,7 @@ return {
         LengthN3 = {
         },
     },
-    [2203] = {
-        bornPoint = 5,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 650,
-            [2] = 2150,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 16,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第2章噩梦关卡3（限时）",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 2203,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75814] = {
+    [16819] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -62185,73 +63558,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515138,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "贝露模拟试炼第二章3-3 普兰",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75814,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75812] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
+        endScript = "9320",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -62263,8 +63570,8 @@ return {
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "贝露模拟试炼第二章3-1",
+        prevScript = "9319",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点21",
         LengthN2 = {
         },
         MonsterT = {
@@ -62272,7 +63579,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 75812,
+        id = 16819,
         MonsterN4 = {
         },
         MonsterE = {
@@ -62281,7 +63588,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -62298,10 +63605,127 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [5] = {
-                [1] = 5,
+        },
+        LengthN3 = {
+        },
+    },
+    [16834] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 516103,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "2020-海王星联动下卷第2阶段-火元素",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 16834,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
                 [2] = 0,
                 [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [16905] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 101002,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "12号boss挑战-轮数8-别西卜",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 16905,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
             },
         },
         LengthN3 = {
@@ -62379,14 +63803,14 @@ return {
         LengthN3 = {
         },
     },
-    [75806] = {
-        bornPoint = 6,
+    [2114] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 0,
+            [2] = 2300,
         },
         op = "",
         LengthN4 = {
@@ -62403,20 +63827,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "贝露模拟试炼第二章1-1",
+        dungeonName = "第2章困难关卡14（限时模式）",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 75806,
+        victoryType = 5,
+        id = 2114,
         MonsterN4 = {
         },
         MonsterE = {
@@ -62425,27 +63852,17 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
         },
         LengthN3 = {
@@ -62517,8 +63934,8 @@ return {
         LengthN3 = {
         },
     },
-    [75805] = {
-        bornPoint = 6,
+    [6210] = {
+        bornPoint = 11,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -62542,23 +63959,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 515114,
-                [2] = 1,
+                [1] = 15,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "贝露模拟试炼第一章1-5-精灵折纸",
+        dungeonName = "6-10(歼灭模式-困难) ",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 75805,
+        victoryType = 1,
+        id = 6210,
         MonsterN4 = {
         },
         MonsterE = {
@@ -62569,11 +63985,26 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [75804] = {
+    [75508] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -62598,7 +64029,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 515119,
+                [1] = 515107,
                 [2] = 1,
             },
         },
@@ -62606,7 +64037,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "贝露模拟试炼第一章1-4-七罪",
+        dungeonName = "御坂美琴模拟试炼第二章1-3 反折",
         LengthN2 = {
         },
         MonsterT = {
@@ -62614,7 +64045,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 75804,
+        id = 75508,
         MonsterN4 = {
         },
         MonsterE = {
@@ -62622,6 +64053,16 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -62685,7 +64126,7 @@ return {
         LengthN3 = {
         },
     },
-    [75803] = {
+    [75507] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -62710,23 +64151,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 515113,
-                [2] = 1,
+                [1] = 30,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "贝露模拟试炼第一章1-3-琴里指挥官",
+        dungeonName = "御坂美琴模拟试炼第二章1-2",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 75803,
+        victoryType = 5,
+        id = 75507,
         MonsterN4 = {
         },
         MonsterE = {
@@ -62734,6 +64174,26 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -62937,7 +64397,7 @@ return {
         LengthN3 = {
         },
     },
-    [75802] = {
+    [75003] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -62953,7 +64413,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9067",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -62962,15 +64422,15 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 515135,
+                [1] = 626302,
                 [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "贝露模拟试炼第一章1-2-耶俱矢",
+        prevScript = "9066",
+        dungeonName = "反转折纸模拟试炼1-3 真娜",
         LengthN2 = {
         },
         MonsterT = {
@@ -62978,7 +64438,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 75802,
+        id = 75003,
         MonsterN4 = {
         },
         MonsterE = {
@@ -62989,11 +64449,21 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [75801] = {
+    [75016] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -63017,24 +64487,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 515111,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "贝露模拟试炼第一章1-1-十香",
+        dungeonName = "反转折纸模拟试炼2-11 歼灭",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 75801,
+        victoryType = 1,
+        id = 75016,
         MonsterN4 = {
         },
         MonsterE = {
@@ -63042,6 +64508,26 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -63119,7 +64605,7 @@ return {
         LengthN3 = {
         },
     },
-    [75716] = {
+    [75308] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -63144,157 +64630,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 30,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "诺瓦露模拟试炼第二章4-2",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 75716,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75710] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 30,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "诺瓦露模拟试炼第二章2-2",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 75710,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75708] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515119,
+                [1] = 515120,
                 [2] = 1,
             },
         },
@@ -63302,7 +64638,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "诺瓦露模拟试炼第二章1-3 七罪",
+        dungeonName = "反十模拟试炼第二章1-3 万由里",
         LengthN2 = {
         },
         MonsterT = {
@@ -63310,7 +64646,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 75708,
+        id = 75308,
         MonsterN4 = {
         },
         MonsterE = {
@@ -63328,6 +64664,135 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75401] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9210",
+        dungeonName = "强化狂三模拟试炼第一章1-1-能量怪",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 75401,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75412] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "强化狂三模拟试炼第二章3-1",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 75412,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -63401,7 +64866,7 @@ return {
         LengthN3 = {
         },
     },
-    [75612] = {
+    [75416] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -63425,20 +64890,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 30,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万由里模拟试炼第二章3-1",
+        dungeonName = "强化狂三模拟试炼第二章4-2",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 75612,
+        victoryType = 5,
+        id = 75416,
         MonsterN4 = {
         },
         MonsterE = {
@@ -63473,7 +64941,79 @@ return {
         LengthN3 = {
         },
     },
-    [75603] = {
+    [75415] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "强化狂三模拟试炼第二章4-1",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 75415,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75414] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -63498,7 +65038,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 515136,
+                [1] = 515103,
                 [2] = 1,
             },
         },
@@ -63506,7 +65046,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "万由里模拟试炼第一章1-3-夕弦",
+        dungeonName = "强化狂三模拟试炼第二章3-3 琴里-指挥官",
         LengthN2 = {
         },
         MonsterT = {
@@ -63514,7 +65054,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 75603,
+        id = 75414,
         MonsterN4 = {
         },
         MonsterE = {
@@ -63524,61 +65064,6 @@ return {
                 [1] = 1,
                 [2] = 0,
                 [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16820] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9322",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 24,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9321",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点22",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 16820,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -63590,16 +65075,11 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [75516] = {
+    [75413] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -63631,7 +65111,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "御坂美琴模拟试炼第二章4-2",
+        dungeonName = "强化狂三模拟试炼第二章3-2",
         LengthN2 = {
         },
         MonsterT = {
@@ -63639,7 +65119,7 @@ return {
         LengthE = {
         },
         victoryType = 5,
-        id = 75516,
+        id = 75413,
         MonsterN4 = {
         },
         MonsterE = {
@@ -64014,7 +65494,7 @@ return {
         LengthN3 = {
         },
     },
-    [16852] = {
+    [75411] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -64039,7 +65519,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 516201,
+                [1] = 515107,
                 [2] = 1,
             },
         },
@@ -64047,7 +65527,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "2020-海王星联动下卷第2阶段-涅普",
+        dungeonName = "强化狂三模拟试炼第二章2-3 反十",
         LengthN2 = {
         },
         MonsterT = {
@@ -64055,7 +65535,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 16852,
+        id = 75411,
         MonsterN4 = {
         },
         MonsterE = {
@@ -64064,22 +65544,32 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
         },
     },
-    [6110] = {
-        bornPoint = 3,
+    [75410] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 300,
-            [2] = 2400,
+            [1] = 100,
+            [2] = 2600,
         },
-        op = "60004",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
@@ -64094,32 +65584,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 30,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
-            [1] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         prevScript = "",
-        dungeonName = "6-7歼灭",
+        dungeonName = "强化狂三模拟试炼第二章2-2",
         LengthN2 = {
-            [1] = 1800,
-            [2] = 3900,
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 6110,
+        victoryType = 5,
+        id = 75410,
         MonsterN4 = {
         },
         MonsterE = {
@@ -64132,6 +65613,21 @@ return {
             },
             [2] = {
                 [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -64206,113 +65702,8 @@ return {
         LengthN3 = {
         },
     },
-    [18311] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 300,
-            [2] = 2400,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 40801,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "卡巴拉质点3-Boss击杀-1",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 18311,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [1004] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-            [1] = 0,
-            [2] = 1500,
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 5000,
-        NumMaxT = 0,
-        MonsterL = {
-            [1] = 2,
-            [2] = 300,
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第1章简单关卡4",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 1004,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [8432] = {
-        bornPoint = 3,
+    [75409] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -64340,7 +65731,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "或守鞠亚剧场-困难难度-level7-鞠奈BOSS",
+        dungeonName = "强化狂三模拟试炼第二章2-1",
         LengthN2 = {
         },
         MonsterT = {
@@ -64348,7 +65739,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 8432,
+        id = 75409,
         MonsterN4 = {
         },
         MonsterE = {
@@ -64357,17 +65748,168 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 100,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 100,
+                [3] = 200,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 100,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75408] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 515104,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "强化狂三模拟试炼第二章1-3 精灵折纸",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75408,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75407] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 30,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "强化狂三模拟试炼第二章1-2",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 75407,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -64448,8 +65990,176 @@ return {
         LengthN3 = {
         },
     },
-    [7133] = {
-        bornPoint = 3,
+    [75405] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 515122,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9214",
+        dungeonName = "强化狂三模拟试炼第一章1-5-别西卜",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75405,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75404] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 515126,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9213",
+        dungeonName = "强化狂三模拟试炼第一章1-4-贝芬格",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75404,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75403] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 515125,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9212",
+        dungeonName = "强化狂三模拟试炼第一章1-3-亚斯塔洛特",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75403,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75402] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -64476,8 +66186,8 @@ return {
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "7-16-战斗",
+        prevScript = "9211",
+        dungeonName = "强化狂三模拟试炼第一章1-2-阿斯莫德",
         LengthN2 = {
         },
         MonsterT = {
@@ -64485,219 +66195,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 7133,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75508] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515107,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "御坂美琴模拟试炼第二章1-3 反折",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75508,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75507] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 30,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "御坂美琴模拟试炼第二章1-2",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 75507,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75302] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515119,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反十模拟试炼第一章1-2-七罪",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75302,
+        id = 75402,
         MonsterN4 = {
         },
         MonsterE = {
@@ -64768,8 +66266,8 @@ return {
         LengthN3 = {
         },
     },
-    [75315] = {
-        bornPoint = 6,
+    [75317] = {
+        bornPoint = 17,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -64792,20 +66290,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 515121,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "反十模拟试炼第二章4-1",
+        dungeonName = "反十模拟试炼第二章4-3 别西卜",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 75315,
+        victoryType = 3,
+        id = 75317,
         MonsterN4 = {
         },
         MonsterE = {
@@ -64826,21 +66328,11 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [75410] = {
+    [75316] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -64872,7 +66364,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章2-2",
+        dungeonName = "反十模拟试炼第二章4-2",
         LengthN2 = {
         },
         MonsterT = {
@@ -64880,7 +66372,7 @@ return {
         LengthE = {
         },
         victoryType = 5,
-        id = 75410,
+        id = 75316,
         MonsterN4 = {
         },
         MonsterE = {
@@ -65052,7 +66544,7 @@ return {
         LengthN3 = {
         },
     },
-    [75417] = {
+    [75315] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -65076,89 +66568,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 515109,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章4-3 撒旦",
+        dungeonName = "反十模拟试炼第二章4-1",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 75417,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75416] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 30,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章4-2",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 75416,
+        victoryType = 1,
+        id = 75315,
         MonsterN4 = {
         },
         MonsterE = {
@@ -65186,6 +66609,72 @@ return {
             },
             [5] = {
                 [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75314] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 515119,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "反十模拟试炼第二章3-3 七罪",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75314,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -65263,8 +66752,8 @@ return {
         LengthN3 = {
         },
     },
-    [75415] = {
-        bornPoint = 6,
+    [75313] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -65287,20 +66776,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 30,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章4-1",
+        dungeonName = "反十模拟试炼第二章3-2",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 75415,
+        victoryType = 5,
+        id = 75313,
         MonsterN4 = {
         },
         MonsterE = {
@@ -65395,7 +66887,7 @@ return {
         LengthN3 = {
         },
     },
-    [75414] = {
+    [75312] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -65419,24 +66911,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 515103,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章3-3 琴里-指挥官",
+        dungeonName = "反十模拟试炼第二章3-1",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 75414,
+        victoryType = 1,
+        id = 75312,
         MonsterN4 = {
         },
         MonsterE = {
@@ -65454,6 +66942,16 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -65670,8 +67168,8 @@ return {
         LengthN3 = {
         },
     },
-    [75411] = {
-        bornPoint = 6,
+    [75309] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -65694,24 +67192,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 515107,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章2-3 反十",
+        dungeonName = "反十模拟试炼第二章2-1",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 75411,
+        victoryType = 1,
+        id = 75309,
         MonsterN4 = {
         },
         MonsterE = {
@@ -65729,6 +67223,16 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -65859,7 +67363,7 @@ return {
         LengthN3 = {
         },
     },
-    [75409] = {
+    [75307] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -65883,20 +67387,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 30,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章2-1",
+        dungeonName = "反十模拟试炼第二章1-2",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 75409,
+        victoryType = 5,
+        id = 75307,
         MonsterN4 = {
         },
         MonsterE = {
@@ -65931,7 +67438,7 @@ return {
         LengthN3 = {
         },
     },
-    [75408] = {
+    [75306] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -65955,24 +67462,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 515104,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章1-3 精灵折纸",
+        dungeonName = "反十模拟试炼第二章1-1",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 75408,
+        victoryType = 1,
+        id = 75306,
         MonsterN4 = {
         },
         MonsterE = {
@@ -65990,6 +67493,16 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -66225,7 +67738,7 @@ return {
         LengthN3 = {
         },
     },
-    [75407] = {
+    [75305] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -66250,22 +67763,23 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 30,
+                [1] = 515114,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章1-2",
+        dungeonName = "反十模拟试炼第一章1-5-精灵折纸",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 75407,
+        victoryType = 3,
+        id = 75305,
         MonsterN4 = {
         },
         MonsterE = {
@@ -66273,26 +67787,6 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -66360,1464 +67854,6 @@ return {
             },
             [4] = {
                 [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75406] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "强化狂三模拟试炼第二章1-1",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 75406,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75405] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515122,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9214",
-        dungeonName = "强化狂三模拟试炼第一章1-5-别西卜",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75405,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75404] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515126,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9213",
-        dungeonName = "强化狂三模拟试炼第一章1-4-贝芬格",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75404,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [81006] = {
-        bornPoint = 8,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9178",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 5105,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9177",
-        dungeonName = "万圣节2019-左下线路-精英-卧室-7号boss",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 81006,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75402] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9211",
-        dungeonName = "强化狂三模拟试炼第一章1-2-阿斯莫德",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 75402,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75401] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9210",
-        dungeonName = "强化狂三模拟试炼第一章1-1-能量怪",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 75401,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75317] = {
-        bornPoint = 17,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515121,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反十模拟试炼第二章4-3 别西卜",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75317,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75316] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 30,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反十模拟试炼第二章4-2",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 75316,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75505] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515115,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "御坂美琴模拟试炼第一章1-5-哥特狂三",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75505,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75314] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515119,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反十模拟试炼第二章3-3 七罪",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75314,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75313] = {
-        bornPoint = 8,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 30,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反十模拟试炼第二章3-2",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 75313,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [90218] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第9章困难9-18-波次",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 90218,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [80111] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第8章简单f8-5-歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 80111,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75312] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反十模拟试炼第二章3-1",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 75312,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [9802] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "600024",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "600025",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "四系乃（自责）3-5 波次",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 9802,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [103012] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 24,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第10章地狱10-12限时",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 103012,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75310] = {
-        bornPoint = 24,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 30,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反十模拟试炼第二章2-2",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 75310,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75309] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反十模拟试炼第二章2-1",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 75309,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75308] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515120,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反十模拟试炼第二章1-3 万由里",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75308,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [81007] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9184",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9183",
-        dungeonName = "万圣节2019-右上线路-1-储物间",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 81007,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75306] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反十模拟试炼第二章1-1",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 75306,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75305] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 515114,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反十模拟试炼第一章1-5-精灵折纸",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75305,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
                 [2] = 0,
                 [3] = 200,
             },
@@ -67937,79 +67973,7 @@ return {
         LengthN3 = {
         },
     },
-    [75506] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "御坂美琴模拟试炼第二章1-1",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 75506,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75211] = {
+    [75302] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -68034,7 +67998,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 515106,
+                [1] = 515119,
                 [2] = 1,
             },
         },
@@ -68042,7 +68006,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "普兰模拟试炼第二章2-3 别西仆",
+        dungeonName = "反十模拟试炼第一章1-2-七罪",
         LengthN2 = {
         },
         MonsterT = {
@@ -68050,7 +68014,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 75211,
+        id = 75302,
         MonsterN4 = {
         },
         MonsterE = {
@@ -68060,6 +68024,62 @@ return {
                 [1] = 1,
                 [2] = 0,
                 [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [81006] = {
+        bornPoint = 8,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9178",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 5105,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9177",
+        dungeonName = "万圣节2019-左下线路-精英-卧室-7号boss",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 81006,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -68124,141 +68144,6 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [5007] = {
-        bornPoint = 15,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 900,
-            [2] = 2400,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "5-11(限时模式-普通)",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 5007,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [80112] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 20,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "81103",
-        dungeonName = "第8章简单8-9-限时",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 80112,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -68413,6 +68298,1608 @@ return {
         LengthN3 = {
         },
     },
+    [2103] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 0,
+            [2] = 2550,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第2章困难关卡3（限时模式）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 2103,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75505] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 515115,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "御坂美琴模拟试炼第一章1-5-哥特狂三",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75505,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [6204] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "6-4(歼灭模式-困难)   ",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 6204,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [5001] = {
+        bornPoint = 11,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 1600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+            [1] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        prevScript = "",
+        dungeonName = "5-1 (歼灭模式-普通) ",
+        LengthN2 = {
+            [1] = 1100,
+            [2] = 2600,
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 5001,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [90218] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第9章困难9-18-波次",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 90218,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [80111] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第8章简单f8-5-歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 80111,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [5010] = {
+        bornPoint = 24,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 150,
+            [2] = 1650,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+            [1] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        prevScript = "",
+        dungeonName = "5-17(歼灭模式-普通)",
+        LengthN2 = {
+            [1] = 1100,
+            [2] = 2600,
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 5010,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [9802] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "600024",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "600025",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四系乃（自责）3-5 波次",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 9802,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [103012] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 24,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第10章地狱10-12限时",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 103012,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75011] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 650402,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "反转折纸模拟试炼2-6  别犀浦",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75011,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [110123] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 681301,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "110015",
+        dungeonName = "第11章简单 wave5-BOSS战 11-21",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 110123,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [90117] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2400,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第9章简单 f9-8-波次",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 90117,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [81007] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9184",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9183",
+        dungeonName = "万圣节2019-右上线路-1-储物间",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 81007,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [6123] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2400,
+        },
+        op = "60009",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "60011",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "6-19歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 6123,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [4014] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 150,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第4章简单关卡1（河道，歼灭）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 4014,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [100202] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "100005",
+        dungeonName = "第10章简单 f10-4 ",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 100202,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75004] = {
+        bornPoint = 11,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9069",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 626402,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9068",
+        dungeonName = "反转折纸模拟试炼1-4  芬里尔真娜",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75004,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75506] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "御坂美琴模拟试炼第二章1-1",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 75506,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75002] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 628302,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9060",
+        dungeonName = "反转折纸模拟试炼1-2 琴里",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 75002,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [16840] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 516108,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "2020-海王星联动下卷第2阶段-罗弗寇",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 16840,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [5007] = {
+        bornPoint = 15,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 900,
+            [2] = 2400,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "5-11(限时模式-普通)",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 5007,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [80112] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 20,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "81103",
+        dungeonName = "第8章简单8-9-限时",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 80112,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [73020] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 640401,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "莫德雷德模拟试炼1-2boss",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 73020,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [73019] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "莫德雷德模拟试炼1-1波次",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 73019,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
     [103013] = {
         bornPoint = 4,
         LengthT = {
@@ -68483,67 +69970,74 @@ return {
         LengthN3 = {
         },
     },
-    [17002] = {
+    [73013] = {
         bornPoint = 6,
         LengthT = {
-            [1] = 100,
-            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
         },
-        op = "",
+        op = "300001",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "300002",
         TimeL = 0,
-        NumMaxT = 5,
+        NumMaxT = 0,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "日常-质点",
+        dungeonName = "七罪模拟试炼1-1波次",
         LengthN2 = {
         },
         MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
         },
         LengthE = {
         },
-        victoryType = 2,
-        id = 17002,
+        victoryType = 1,
+        id = 73013,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
@@ -69153,7 +70647,7 @@ return {
         LengthN3 = {
         },
     },
-    [75016] = {
+    [73012] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -69162,14 +70656,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "",
+        op = "1005",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "1006",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -69177,20 +70671,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 15060,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "反转折纸模拟试炼2-11 歼灭",
+        dungeonName = "万由里模拟试炼1-3",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 75016,
+        victoryType = 3,
+        id = 73012,
         MonsterN4 = {
         },
         MonsterE = {
@@ -69208,16 +70706,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -69359,16 +70847,16 @@ return {
         LengthN3 = {
         },
     },
-    [5109] = {
-        bornPoint = 23,
+    [73004] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 900,
-            [2] = 2400,
+            [1] = 100,
+            [2] = 1800,
         },
-        op = "",
+        op = "91001",
         LengthN4 = {
         },
         LengthL = {
@@ -69384,22 +70872,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 15,
+                [1] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-9 (限时击杀-困难) ",
+        dungeonName = "真娜模拟试炼2-1",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 5109,
+        victoryType = 1,
+        id = 73004,
         MonsterN4 = {
         },
         MonsterE = {
@@ -69408,17 +70896,32 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 500,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 500,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
+                [3] = 500,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 500,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 500,
+            },
+            [6] = {
+                [1] = 6,
+                [2] = 0,
+                [3] = 500,
             },
         },
         LengthN3 = {
@@ -69688,13 +71191,13 @@ return {
         LengthN3 = {
         },
     },
-    [4015] = {
-        bornPoint = 4,
+    [7125] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 150,
+            [1] = 100,
             [2] = 2600,
         },
         op = "",
@@ -69704,7 +71207,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "70022",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -69712,20 +71215,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 680701,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "第4章简单关卡1（天台，波次）",
+        prevScript = "70030",
+        dungeonName = "7-23歼灭",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 4015,
+        victoryType = 3,
+        id = 7125,
         MonsterN4 = {
         },
         MonsterE = {
@@ -69734,22 +71241,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -69898,7 +71390,7 @@ return {
         LengthN3 = {
         },
     },
-    [75012] = {
+    [7133] = {
         bornPoint = 3,
         LengthT = {
         },
@@ -69927,7 +71419,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "反转折纸模拟试炼2-7  波次",
+        dungeonName = "7-16-战斗",
         LengthN2 = {
         },
         MonsterT = {
@@ -69935,7 +71427,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 75012,
+        id = 7133,
         MonsterN4 = {
         },
         MonsterE = {
@@ -69961,23 +71453,18 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [75011] = {
-        bornPoint = 4,
+    [6114] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 2600,
+            [2] = 2400,
         },
         op = "",
         LengthN4 = {
@@ -69995,23 +71482,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 650402,
-                [2] = 1,
+                [1] = 15,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "反转折纸模拟试炼2-6  别犀浦",
+        dungeonName = "f6-4限时",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 75011,
+        victoryType = 5,
+        id = 6114,
         MonsterN4 = {
         },
         MonsterE = {
@@ -70212,81 +71698,61 @@ return {
         LengthN3 = {
         },
     },
-    [7302] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "7-2歼灭-噩梦",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 7302,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [7310] = {
+    [8459] = {
         bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2200,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9451",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 100256,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "狂三外传剧场-第二章-战斗-组队-level25-学校外",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 8459,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [8475] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
         },
         op = "",
         LengthN4 = {
@@ -70303,50 +71769,33 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 100276,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 100278,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "7-10限时-噩梦",
+        dungeonName = "狂三外传剧场-困难5-体育馆",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 7310,
+        victoryType = 3,
+        id = 8475,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -70389,1049 +71838,6 @@ return {
         },
         victoryType = 1,
         id = 80114,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [90109] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第9章简单 9-8-波次",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 90109,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [8418] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "9371",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "或守鞠亚剧场-第三章-level7-战斗-世界数据核心",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 8418,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 100,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 100,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 100,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [103015] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第10章地狱10-15歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 103015,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75008] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 680805,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反转折纸模拟试炼2-3  七罪",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75008,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [5016] = {
-        bornPoint = 11,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 150,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第5章困难关卡1（郊外，波次）",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 5016,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 0,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16816] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 24,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9314",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点18",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 16816,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [81010] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9190",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 5106,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9189",
-        dungeonName = "万圣节2019-右上线路-精英-箭塔-8号boss",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 81010,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75004] = {
-        bornPoint = 11,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9069",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 626402,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9068",
-        dungeonName = "反转折纸模拟试炼1-4  芬里尔真娜",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75004,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75003] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9067",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 626302,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9066",
-        dungeonName = "反转折纸模拟试炼1-3 真娜",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 75003,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [7125] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "70022",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 680701,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "70030",
-        dungeonName = "7-23歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 7125,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [7129] = {
-        bornPoint = 17,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "f7-10歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 7129,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75509] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "御坂美琴模拟试炼第二章2-1",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 75509,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [100201] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "100004",
-        dungeonName = "第10章简单 10-6  ",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 100201,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [6114] = {
-        bornPoint = 8,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2400,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "f6-4限时",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 6114,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [90222] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2100,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第9章困难9-22-歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 90222,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [80115] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "81105",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第8章简单8-11-歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 80115,
         MonsterN4 = {
         },
         MonsterE = {
@@ -71595,7 +72001,7 @@ return {
         LengthN3 = {
         },
     },
-    [103016] = {
+    [103015] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -71619,23 +72025,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 24,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第10章地狱10-16限时",
+        dungeonName = "第10章地狱10-15歼灭",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 103016,
+        victoryType = 1,
+        id = 103015,
         MonsterN4 = {
         },
         MonsterE = {
@@ -71665,14 +72068,14 @@ return {
         LengthN3 = {
         },
     },
-    [75002] = {
-        bornPoint = 6,
+    [18311] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 300,
+            [2] = 2400,
         },
         op = "",
         LengthN4 = {
@@ -71690,15 +72093,15 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 628302,
+                [1] = 40801,
                 [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9060",
-        dungeonName = "反转折纸模拟试炼1-2 琴里",
+        prevScript = "",
+        dungeonName = "卡巴拉质点3-Boss击杀-1",
         LengthN2 = {
         },
         MonsterT = {
@@ -71706,7 +72109,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 75002,
+        id = 18311,
         MonsterN4 = {
         },
         MonsterE = {
@@ -71715,13 +72118,13 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
         },
         LengthN3 = {
         },
     },
-    [8409] = {
+    [8425] = {
         bornPoint = 3,
         LengthT = {
         },
@@ -71730,14 +72133,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "9354",
+        op = "9378",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "9355",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -71750,7 +72153,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "或守鞠亚剧场-第一章-level11-战斗-废弃游乐园",
+        dungeonName = "或守鞠亚剧场-第三章-level16-战斗-世界数据核心",
         LengthN2 = {
         },
         MonsterT = {
@@ -71758,7 +72161,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 8409,
+        id = 8425,
         MonsterN4 = {
         },
         MonsterE = {
@@ -71771,6 +72174,11 @@ return {
             },
             [2] = {
                 [1] = 2,
+                [2] = 0,
+                [3] = 100,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 100,
             },
@@ -71850,14 +72258,14 @@ return {
         LengthN3 = {
         },
     },
-    [81011] = {
-        bornPoint = 9,
+    [81010] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 1500,
-            [2] = 4000,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -71866,7 +72274,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9190",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -71874,20 +72282,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 5106,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9191",
-        dungeonName = "万圣节2019-右下线路-1-武器库",
+        prevScript = "9189",
+        dungeonName = "万圣节2019-右上线路-精英-箭塔-8号boss",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 81011,
+        victoryType = 3,
+        id = 81010,
         MonsterN4 = {
         },
         MonsterE = {
@@ -71905,16 +72317,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -72183,6 +72585,1076 @@ return {
                 [1] = 3,
                 [2] = 0,
                 [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75509] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "御坂美琴模拟试炼第二章2-1",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 75509,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [100201] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "100004",
+        dungeonName = "第10章简单 10-6  ",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 100201,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [6214] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "6-14(歼灭模式-困难)   ",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 6214,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [90222] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2100,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第9章困难9-22-歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 90222,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [80115] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "81105",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第8章简单8-11-歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 80115,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [131] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 20,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "周年庆12月-<万由里剧场>小怪",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 131,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [5203] = {
+        bornPoint = 8,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 150,
+            [2] = 2550,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "5-3 (歼灭模式-噩梦)   ",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 5203,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [103016] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 24,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第10章地狱10-16限时",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 103016,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [5207] = {
+        bornPoint = 15,
+        LengthT = {
+            [1] = 900,
+            [2] = 2400,
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 5,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "5-7 (生存模式-噩梦) ",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
+        },
+        LengthE = {
+        },
+        victoryType = 2,
+        id = 5207,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [16836] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 516110,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "2020-海王星联动下卷第2阶段-黄皮",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 16836,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [2102] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 0,
+            [2] = 2300,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第2章困难关卡2",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 2102,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [81011] = {
+        bornPoint = 9,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 1500,
+            [2] = 4000,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9191",
+        dungeonName = "万圣节2019-右下线路-1-武器库",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 81011,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [2106] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 0,
+            [2] = 2300,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第2章困难关卡6",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 2106,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [2108] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 0,
+            [2] = 2500,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第2章困难关卡8",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 2108,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [8424] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "9377",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "或守鞠亚剧场-第三章-level15-战斗-世界数据核心-艾伦BOSS",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 8424,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 100,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 100,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 100,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [8432] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "或守鞠亚剧场-困难难度-level7-鞠奈BOSS",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 8432,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 100,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 100,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -72550,7 +74022,7 @@ return {
         LengthN3 = {
         },
     },
-    [6214] = {
+    [7301] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -72574,20 +74046,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "6-14(歼灭模式-困难)   ",
+        dungeonName = "7-1限时-噩梦",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 6214,
+        victoryType = 5,
+        id = 7301,
         MonsterN4 = {
         },
         MonsterE = {
@@ -72608,17 +74083,12 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [131] = {
-        bornPoint = 6,
+    [7309] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -72641,23 +74111,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 20,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "周年庆12月-<万由里剧场>小怪",
+        dungeonName = "7-9歼灭-噩梦",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 131,
+        victoryType = 1,
+        id = 7309,
         MonsterN4 = {
         },
         MonsterE = {
@@ -72759,155 +74226,13 @@ return {
         LengthN3 = {
         },
     },
-    [5203] = {
-        bornPoint = 8,
+    [7313] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 150,
-            [2] = 2550,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "5-3 (歼灭模式-噩梦)   ",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 5203,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [5207] = {
-        bornPoint = 15,
-        LengthT = {
-            [1] = 900,
-            [2] = 2400,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 5,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "5-7 (生存模式-噩梦) ",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 5207,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [5211] = {
-        bornPoint = 24,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 150,
+            [1] = 100,
             [2] = 2600,
         },
         op = "",
@@ -72925,12 +74250,77 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-11 (歼灭模式-噩梦)   ",
+        dungeonName = "7-13限时-噩梦",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 7313,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [90103] = {
+        bornPoint = 8,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "90030",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "90031",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第9章简单 9-3-波次",
         LengthN2 = {
         },
         MonsterT = {
@@ -72938,7 +74328,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 5211,
+        id = 90103,
         MonsterN4 = {
         },
         MonsterE = {
@@ -72964,8 +74354,70 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [5] = {
-                [1] = 5,
+        },
+        LengthN3 = {
+        },
+    },
+    [6302] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2500,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "6-2(歼灭模式-噩梦) ",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 6302,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -73039,13 +74491,13 @@ return {
         LengthN3 = {
         },
     },
-    [4204] = {
-        bornPoint = 4,
+    [138] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 300,
+            [1] = 100,
             [2] = 2600,
         },
         op = "",
@@ -73066,29 +74518,17 @@ return {
         },
         extCfgID = 0,
         MonsterN2 = {
-            [1] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         prevScript = "",
-        dungeonName = "4-4 (歼灭模式-噩梦)   ",
+        dungeonName = "周年庆12月-<圣诞节>雪人",
         LengthN2 = {
-            [1] = 1000,
-            [2] = 3600,
         },
         MonsterT = {
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 4204,
+        id = 138,
         MonsterN4 = {
         },
         MonsterE = {
@@ -73103,146 +74543,27 @@ return {
                 [1] = 2,
                 [2] = 0,
                 [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [2106] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 0,
-            [2] = 2300,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第2章困难关卡6",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 2106,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [4] = {
                 [1] = 4,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
         },
     },
-    [2108] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 0,
-            [2] = 2500,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第2章困难关卡8",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 2108,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 0,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [8424] = {
+    [90219] = {
         bornPoint = 3,
         LengthT = {
         },
@@ -73251,7 +74572,7 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "9377",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
@@ -73266,20 +74587,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 20,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "或守鞠亚剧场-第三章-level15-战斗-世界数据核心-艾伦BOSS",
+        dungeonName = "第9章困难9-19-限时",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 8424,
+        victoryType = 5,
+        id = 90219,
         MonsterN4 = {
         },
         MonsterE = {
@@ -73288,17 +74612,158 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 100,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 100,
+                [3] = 200,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 100,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [7132] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2250,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 40831,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "7-28歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 7132,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [3205] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 680,
+            [2] = 2220,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "3-5 (限时击杀-噩梦) ",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 3205,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -73437,14 +74902,14 @@ return {
         LengthN3 = {
         },
     },
-    [2114] = {
-        bornPoint = 4,
+    [16801] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 0,
-            [2] = 2300,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -73453,7 +74918,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9288",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -73461,23 +74926,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "第2章困难关卡14（限时模式）",
+        prevScript = "9287",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点1",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 2114,
+        victoryType = 1,
+        id = 16801,
         MonsterN4 = {
         },
         MonsterE = {
@@ -73486,17 +74948,22 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -73642,14 +75109,81 @@ return {
         LengthN3 = {
         },
     },
-    [7301] = {
-        bornPoint = 6,
+    [1101] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 0,
+            [2] = 2500,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第1章困难关卡1",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 1101,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [1103] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 0,
+            [2] = 2550,
         },
         op = "",
         LengthN4 = {
@@ -73674,7 +75208,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "7-1限时-噩梦",
+        dungeonName = "第1章困难关卡3(限时模式)",
         LengthN2 = {
         },
         MonsterT = {
@@ -73682,7 +75216,7 @@ return {
         LengthE = {
         },
         victoryType = 5,
-        id = 7301,
+        id = 1103,
         MonsterN4 = {
         },
         MonsterE = {
@@ -73691,84 +75225,17 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [7309] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "7-9歼灭-噩梦",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 7309,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
         },
         LengthN3 = {
@@ -73840,14 +75307,14 @@ return {
         LengthN3 = {
         },
     },
-    [7313] = {
-        bornPoint = 3,
+    [1104] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 400,
+            [2] = 2900,
         },
         op = "",
         LengthN4 = {
@@ -73864,23 +75331,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "7-13限时-噩梦",
+        dungeonName = "第1章困难关卡4",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 7313,
+        victoryType = 1,
+        id = 1104,
         MonsterN4 = {
         },
         MonsterE = {
@@ -73889,24 +75353,29 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
             },
         },
         LengthN3 = {
         },
     },
-    [16837] = {
-        bornPoint = 6,
+    [16803] = {
+        bornPoint = 17,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -73921,7 +75390,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9292",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -73930,15 +75399,15 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 516109,
+                [1] = 516007,
                 [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "2020-海王星联动下卷第2阶段-紫皮",
+        prevScript = "9291",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点3",
         LengthN2 = {
         },
         MonsterT = {
@@ -73946,7 +75415,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 16837,
+        id = 16803,
         MonsterN4 = {
         },
         MonsterE = {
@@ -73971,14 +75440,14 @@ return {
         LengthN3 = {
         },
     },
-    [6302] = {
+    [16906] = {
         bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 2500,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -73995,20 +75464,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 101003,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "6-2(歼灭模式-噩梦) ",
+        dungeonName = "12号boss挑战-轮数9-罗弗寇",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 6302,
+        victoryType = 3,
+        id = 16906,
         MonsterN4 = {
         },
         MonsterE = {
@@ -74017,22 +75490,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
         },
         LengthN3 = {
@@ -74255,7 +75713,7 @@ return {
         LengthN3 = {
         },
     },
-    [73020] = {
+    [8420] = {
         bornPoint = 3,
         LengthT = {
         },
@@ -74264,7 +75722,7 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "",
+        op = "9373",
         LengthN4 = {
         },
         LengthL = {
@@ -74279,24 +75737,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 640401,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "莫德雷德模拟试炼1-2boss",
+        dungeonName = "或守鞠亚剧场-第三章-level9-战斗-世界数据核心",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 73020,
+        victoryType = 1,
+        id = 8420,
         MonsterN4 = {
         },
         MonsterE = {
@@ -74305,17 +75759,17 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -74524,14 +75978,14 @@ return {
         LengthN3 = {
         },
     },
-    [3205] = {
-        bornPoint = 3,
+    [16904] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 680,
-            [2] = 2220,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -74549,22 +76003,23 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 15,
+                [1] = 101001,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "3-5 (限时击杀-噩梦) ",
+        dungeonName = "12号boss挑战-轮数7-撒旦",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 3205,
+        victoryType = 3,
+        id = 16904,
         MonsterN4 = {
         },
         MonsterE = {
@@ -74573,17 +76028,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
         },
         LengthN3 = {
@@ -74725,14 +76170,14 @@ return {
         LengthN3 = {
         },
     },
-    [1105] = {
-        bornPoint = 4,
+    [16902] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 0,
-            [2] = 2500,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -74749,20 +76194,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 101002,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第1章困难关卡5",
+        dungeonName = "12号boss挑战-轮数3-别西卜",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 1105,
+        victoryType = 3,
+        id = 16902,
         MonsterN4 = {
         },
         MonsterE = {
@@ -74771,35 +76220,20 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 0,
+                [3] = 150,
             },
         },
         LengthN3 = {
         },
     },
-    [11021] = {
+    [11022] = {
         bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 2100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -74816,23 +76250,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 30,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "春节副本限时",
+        dungeonName = "春节副本波次",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 11021,
+        victoryType = 1,
+        id = 11022,
         MonsterN4 = {
         },
         MonsterE = {
@@ -74867,14 +76298,14 @@ return {
         LengthN3 = {
         },
     },
-    [1101] = {
-        bornPoint = 4,
+    [16305] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 0,
-            [2] = 2500,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -74883,7 +76314,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "910032",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -74895,8 +76326,8 @@ return {
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "第1章困难关卡1",
+        prevScript = "910031",
+        dungeonName = "海王星联动-4波怪-停战协议",
         LengthN2 = {
         },
         MonsterT = {
@@ -74904,7 +76335,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 1101,
+        id = 16305,
         MonsterN4 = {
         },
         MonsterE = {
@@ -74913,154 +76344,22 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [4] = {
                 [1] = 4,
                 [2] = 0,
-                [3] = 0,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [1103] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 0,
-            [2] = 2550,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第1章困难关卡3(限时模式)",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 1103,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [1104] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 400,
-            [2] = 2900,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第1章困难关卡4",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 1104,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -75128,6 +76427,137 @@ return {
                 [1] = 4,
                 [2] = 0,
                 [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [16402] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 30,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "海王星联动-5波怪-计数",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 16402,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [16852] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 516201,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "2020-海王星联动下卷第2阶段-涅普",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 16852,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
             },
         },
         LengthN3 = {
@@ -75271,14 +76701,14 @@ return {
         LengthN3 = {
         },
     },
-    [18209] = {
-        bornPoint = 4,
+    [16839] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 300,
-            [2] = 2400,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -75296,7 +76726,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 4312,
+                [1] = 516107,
                 [2] = 1,
             },
         },
@@ -75304,7 +76734,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "卡巴拉质点2-隐藏精英敌人",
+        dungeonName = "2020-海王星联动下卷第2阶段-别西卜",
         LengthN2 = {
         },
         MonsterT = {
@@ -75312,69 +76742,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 18209,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16801] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9288",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9287",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点1",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 16801,
+        id = 16839,
         MonsterN4 = {
         },
         MonsterE = {
@@ -75395,17 +76763,12 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
     },
-    [11022] = {
-        bornPoint = 3,
+    [16838] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -75428,20 +76791,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 516106,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "春节副本波次",
+        dungeonName = "2020-海王星联动下卷第2阶段-撒旦",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 11022,
+        victoryType = 3,
+        id = 16838,
         MonsterN4 = {
         },
         MonsterE = {
@@ -75450,7 +76817,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -75462,13 +76829,69 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
+        },
+        LengthN3 = {
+        },
+    },
+    [16837] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 516109,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "2020-海王星联动下卷第2阶段-紫皮",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 16837,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
                 [2] = 0,
                 [3] = 200,
             },
-            [5] = {
-                [1] = 5,
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -75607,14 +77030,14 @@ return {
         LengthN3 = {
         },
     },
-    [4205] = {
-        bornPoint = 10,
+    [8473] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 680,
-            [2] = 2500,
+            [1] = 50,
+            [2] = 2700,
         },
         op = "",
         LengthN4 = {
@@ -75631,20 +77054,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 100272,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "4-5 (波次模式-噩梦)   ",
+        dungeonName = "狂三外传剧场-困难3-教室",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 4205,
+        victoryType = 3,
+        id = 8473,
         MonsterN4 = {
         },
         MonsterE = {
@@ -75653,22 +77080,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -75811,14 +77223,14 @@ return {
         LengthN3 = {
         },
     },
-    [3004] = {
-        bornPoint = 3,
+    [16832] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 550,
-            [2] = 2220,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -75835,32 +77247,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 516102,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
-            [1] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         prevScript = "",
-        dungeonName = "3-5  (歼灭模式-普通) ",
+        dungeonName = "2020-海王星联动下卷第2阶段-杰西卡",
         LengthN2 = {
-            [1] = 1380,
-            [2] = 2900,
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 3004,
+        victoryType = 3,
+        id = 16832,
         MonsterN4 = {
         },
         MonsterE = {
@@ -75869,10 +77273,15 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -75947,74 +77356,7 @@ return {
         LengthN3 = {
         },
     },
-    [6218] = {
-        bornPoint = 8,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "6-18(波次模式-困难)    ",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 6218,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [102013] = {
+    [16823] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -76045,8 +77387,8 @@ return {
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "第10章困难10-13限时",
+        prevScript = "9327",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点25",
         LengthN2 = {
         },
         MonsterT = {
@@ -76054,7 +77396,7 @@ return {
         LengthE = {
         },
         victoryType = 5,
-        id = 102013,
+        id = 16823,
         MonsterN4 = {
         },
         MonsterE = {
@@ -76063,7 +77405,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -76084,7 +77426,74 @@ return {
         LengthN3 = {
         },
     },
-    [16840] = {
+    [16822] = {
+        bornPoint = 8,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9326",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9325",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点24",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 16822,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [16821] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -76100,7 +77509,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9324",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -76109,15 +77518,15 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 516108,
+                [1] = 516014,
                 [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "2020-海王星联动下卷第2阶段-罗弗寇",
+        prevScript = "9323",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点23",
         LengthN2 = {
         },
         MonsterT = {
@@ -76125,7 +77534,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 16840,
+        id = 16821,
         MonsterN4 = {
         },
         MonsterE = {
@@ -76434,7 +77843,7 @@ return {
         LengthN3 = {
         },
     },
-    [177] = {
+    [16820] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -76450,7 +77859,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9322",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -76459,22 +77868,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 24,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "周年庆7月-<第十章>强化十香特特训VS万由里",
+        prevScript = "9321",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点22",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 177,
+        victoryType = 5,
+        id = 16820,
         MonsterN4 = {
         },
         MonsterE = {
@@ -76483,7 +77892,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -76504,13 +77913,13 @@ return {
         LengthN3 = {
         },
     },
-    [3105] = {
-        bornPoint = 3,
+    [16604] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 300,
+            [1] = 100,
             [2] = 2600,
         },
         op = "",
@@ -76520,7 +77929,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9222",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -76528,32 +77937,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 520401,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
-            [1] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
-        prevScript = "",
-        dungeonName = "3-5 (歼灭模式-困难)    ",
+        prevScript = "9221",
+        dungeonName = "狂三外传-第1阶段-隐瞒-阿斯莫德",
         LengthN2 = {
-            [1] = 1000,
-            [2] = 3900,
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 3105,
+        victoryType = 3,
+        id = 16604,
         MonsterN4 = {
         },
         MonsterE = {
@@ -76561,6 +77962,16 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -76701,8 +78112,8 @@ return {
         LengthN3 = {
         },
     },
-    [102022] = {
-        bornPoint = 6,
+    [16818] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -76717,7 +78128,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9318",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -76725,20 +78136,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 516013,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "第10章困难10-22歼灭",
+        prevScript = "9317",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点20",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 102022,
+        victoryType = 3,
+        id = 16818,
         MonsterN4 = {
         },
         MonsterE = {
@@ -76747,7 +78162,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -76756,11 +78171,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -76909,7 +78319,7 @@ return {
         LengthN3 = {
         },
     },
-    [164] = {
+    [16816] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -76934,22 +78344,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 1,
+                [1] = 24,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "周年庆5月-<第九章>七罪VS机械",
+        prevScript = "9314",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点18",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 164,
+        victoryType = 5,
+        id = 16816,
         MonsterN4 = {
         },
         MonsterE = {
@@ -76958,7 +78368,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -77239,14 +78649,14 @@ return {
         LengthN3 = {
         },
     },
-    [16722] = {
+    [110121] = {
         bornPoint = 6,
         LengthT = {
+            [1] = 100,
+            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -77257,50 +78667,54 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 6,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
             [1] = {
-                [1] = 521501,
-                [2] = 1,
+                [1] = 60000,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "2020春节-魔禁联动第2阶段魔王关卡-撒旦",
+        dungeonName = "第11章简单 wave4-生存 f11-9",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16722,
+        victoryType = 2,
+        id = 110121,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -78060,7 +79474,7 @@ return {
         LengthN3 = {
         },
     },
-    [16839] = {
+    [16808] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -78076,7 +79490,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9299",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -78084,24 +79498,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 516107,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "2020-海王星联动下卷第2阶段-别西卜",
+        prevScript = "9298",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点9",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16839,
+        victoryType = 1,
+        id = 16808,
         MonsterN4 = {
         },
         MonsterE = {
@@ -78111,134 +79521,6 @@ return {
                 [1] = 1,
                 [2] = 0,
                 [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16838] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 516106,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "2020-海王星联动下卷第2阶段-撒旦",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 16838,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [156] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "周年庆3月-<社团矩阵>2-反十",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 0,
-        id = 156,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -78255,8 +79537,136 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [5] = {
-                [1] = 5,
+        },
+        LengthN3 = {
+        },
+    },
+    [5016] = {
+        bornPoint = 11,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 150,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第5章困难关卡1（郊外，波次）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 5016,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [16806] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 516011,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9296",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点7",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 16806,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -78396,7 +79806,7 @@ return {
         LengthN3 = {
         },
     },
-    [16836] = {
+    [103014] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -78420,24 +79830,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 516110,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "2020-海王星联动下卷第2阶段-黄皮",
+        dungeonName = "第10章地狱10-14波次",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16836,
+        victoryType = 1,
+        id = 103014,
         MonsterN4 = {
         },
         MonsterE = {
@@ -78446,7 +79852,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -78455,6 +79861,16 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -78529,14 +79945,14 @@ return {
         LengthN3 = {
         },
     },
-    [103014] = {
-        bornPoint = 6,
+    [2115] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 0,
+            [2] = 2550,
         },
         op = "",
         LengthN4 = {
@@ -78553,20 +79969,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 20101,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第10章地狱10-14波次",
+        dungeonName = "第2章困难关卡15",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 103014,
+        victoryType = 3,
+        id = 2115,
         MonsterN4 = {
         },
         MonsterE = {
@@ -78575,27 +79995,17 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
         },
         LengthN3 = {
@@ -78668,23 +80078,23 @@ return {
         LengthN3 = {
         },
     },
-    [4208] = {
-        bornPoint = 17,
+    [8412] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 150,
-            [2] = 1650,
+            [1] = 100,
+            [2] = 2600,
         },
-        op = "",
+        op = "9360",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9361",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -78692,23 +80102,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "4-8 (限时击杀-噩梦) ",
+        dungeonName = "或守鞠亚剧场-第二章-level1-战斗-市中心街道",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 4208,
+        victoryType = 1,
+        id = 8412,
         MonsterN4 = {
         },
         MonsterE = {
@@ -78717,17 +80124,17 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -78857,23 +80264,23 @@ return {
         LengthN3 = {
         },
     },
-    [90101] = {
-        bornPoint = 6,
+    [8460] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 50,
+            [2] = 2700,
         },
-        op = "",
+        op = "9452",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9453",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -78881,20 +80288,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 100258,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第9章简单 f9-1-歼灭",
+        dungeonName = "狂三外传剧场-第二章-战斗-你是谁-level28-学校前庭",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90101,
+        victoryType = 3,
+        id = 8460,
         MonsterN4 = {
         },
         MonsterE = {
@@ -78903,35 +80314,18 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
         },
     },
-    [90229] = {
-        bornPoint = 6,
+    [8476] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -78948,45 +80342,33 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 100279,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 100280,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第9章困难9-29-歼灭",
+        dungeonName = "狂三外传剧场-困难6-学校外",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90229,
+        victoryType = 3,
+        id = 8476,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -79202,64 +80584,7 @@ return {
         LengthN3 = {
         },
     },
-    [8410] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "9356",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9357",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "或守鞠亚剧场-第一章-level12-战斗-剧院外街道",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 8410,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 100,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 100,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16834] = {
+    [16804] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -79275,7 +80600,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "9294",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -79283,24 +80608,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 516103,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "2020-海王星联动下卷第2阶段-火元素",
+        prevScript = "9293",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点4",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16834,
+        victoryType = 1,
+        id = 16804,
         MonsterN4 = {
         },
         MonsterE = {
@@ -79321,81 +80642,17 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-        },
-        LengthN3 = {
-        },
-    },
-    [6107] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 300,
-            [2] = 2400,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-            [1] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
+            [4] = {
                 [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
         },
-        prevScript = "",
-        dungeonName = "f6-3歼灭",
-        LengthN2 = {
-            [1] = 1800,
-            [2] = 3900,
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 6107,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
         LengthN3 = {
         },
     },
-    [16832] = {
-        bornPoint = 6,
+    [16708] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -79419,23 +80676,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 516102,
-                [2] = 1,
+                [1] = 24,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "2020-海王星联动下卷第2阶段-杰西卡",
+        prevScript = "9245",
+        dungeonName = "2020春节-魔禁联动第1阶段主线关卡-场景点11",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16832,
+        victoryType = 5,
+        id = 16708,
         MonsterN4 = {
         },
         MonsterE = {
@@ -79453,6 +80709,146 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [7202] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 150,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "7-2限时-困难",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 7202,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [16802] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9290",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 24,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "9289",
+        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点2",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 16802,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -79572,8 +80968,8 @@ return {
         LengthN3 = {
         },
     },
-    [16822] = {
-        bornPoint = 8,
+    [16616] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -79588,7 +80984,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "9326",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -79596,20 +80992,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 520411,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9325",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点24",
+        prevScript = "",
+        dungeonName = "狂三外传-第2阶段-中间3天阿斯莫德关卡",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 16822,
+        victoryType = 3,
+        id = 16616,
         MonsterN4 = {
         },
         MonsterE = {
@@ -79627,11 +81027,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -79711,7 +81106,7 @@ return {
         LengthN3 = {
         },
     },
-    [100202] = {
+    [90101] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -79739,8 +81134,8 @@ return {
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "100005",
-        dungeonName = "第10章简单 f10-4 ",
+        prevScript = "",
+        dungeonName = "第9章简单 f9-1-歼灭",
         LengthN2 = {
         },
         MonsterT = {
@@ -79748,7 +81143,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 100202,
+        id = 90101,
         MonsterN4 = {
         },
         MonsterE = {
@@ -79844,13 +81239,13 @@ return {
         LengthN3 = {
         },
     },
-    [16819] = {
-        bornPoint = 6,
+    [3208] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
+            [1] = 600,
             [2] = 2600,
         },
         op = "",
@@ -79860,7 +81255,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "9320",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -79871,17 +81266,29 @@ return {
         },
         extCfgID = 0,
         MonsterN2 = {
+            [1] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
         },
-        prevScript = "9319",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点21",
+        prevScript = "",
+        dungeonName = "3-8 (歼灭模式-噩梦)    ",
         LengthN2 = {
+            [1] = 1300,
+            [2] = 3800,
         },
         MonsterT = {
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 16819,
+        id = 3208,
         MonsterN4 = {
         },
         MonsterE = {
@@ -79889,21 +81296,6 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -80185,8 +81577,8 @@ return {
         LengthN3 = {
         },
     },
-    [163] = {
-        bornPoint = 0,
+    [156] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -80209,24 +81601,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 90071,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "周年庆4月-<卡巴拉>玩家 VS 卡巴拉隐藏BOSS",
+        dungeonName = "周年庆3月-<社团矩阵>2-反十",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 163,
+        victoryType = 0,
+        id = 156,
         MonsterN4 = {
         },
         MonsterE = {
@@ -80234,6 +81622,26 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -80378,14 +81786,14 @@ return {
         LengthN3 = {
         },
     },
-    [2209] = {
-        bornPoint = 6,
+    [1105] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 150,
-            [2] = 2580,
+            [1] = 0,
+            [2] = 2500,
         },
         op = "",
         LengthN4 = {
@@ -80407,7 +81815,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第2章噩梦关卡9（歼灭）",
+        dungeonName = "第1章困难关卡5",
         LengthN2 = {
         },
         MonsterT = {
@@ -80415,7 +81823,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 2209,
+        id = 1105,
         MonsterN4 = {
         },
         MonsterE = {
@@ -80424,17 +81832,22 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
             },
         },
         LengthN3 = {
@@ -80646,8 +82059,8 @@ return {
         LengthN3 = {
         },
     },
-    [16814] = {
-        bornPoint = 6,
+    [16706] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -80662,7 +82075,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "9311",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -80670,20 +82083,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 521401,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9310",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点16",
+        prevScript = "9243",
+        dungeonName = "2020春节-魔禁联动第1阶段主线关卡-场景点8",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 16814,
+        victoryType = 3,
+        id = 16706,
         MonsterN4 = {
         },
         MonsterE = {
@@ -80855,14 +82272,14 @@ return {
         LengthN3 = {
         },
     },
-    [6304] = {
-        bornPoint = 8,
+    [5004] = {
+        bornPoint = 15,
         LengthT = {
+            [1] = 1100,
+            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2500,
         },
         op = "",
         LengthN4 = {
@@ -80873,51 +82290,64 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 6,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "6-4(歼灭模式-噩梦) ",
+        dungeonName = "5-7 (生存模式-普通)",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [6] = {
+                [1] = 6,
+                [2] = 2000,
+                [3] = 0,
+            },
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 6304,
+        victoryType = 2,
+        id = 5004,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -81066,8 +82496,8 @@ return {
         LengthN3 = {
         },
     },
-    [16708] = {
-        bornPoint = 4,
+    [16317] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -81090,23 +82520,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 24,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9245",
-        dungeonName = "2020春节-魔禁联动第1阶段主线关卡-场景点11",
+        prevScript = "910053",
+        dungeonName = "海王星联动-4波怪-歼灭-错过",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 16708,
+        victoryType = 1,
+        id = 16317,
         MonsterN4 = {
         },
         MonsterE = {
@@ -81278,8 +82705,8 @@ return {
         LengthN3 = {
         },
     },
-    [16803] = {
-        bornPoint = 17,
+    [16316] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -81294,7 +82721,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "9292",
+        endScript = "910052",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -81303,15 +82730,15 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 516007,
+                [1] = 516009,
                 [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9291",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点3",
+        prevScript = "910051",
+        dungeonName = "海王星联动-粉色的吟唱",
         LengthN2 = {
         },
         MonsterT = {
@@ -81319,7 +82746,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 16803,
+        id = 16316,
         MonsterN4 = {
         },
         MonsterE = {
@@ -81344,220 +82771,10 @@ return {
         LengthN3 = {
         },
     },
-    [112009] = {
+    [110115] = {
         bornPoint = 6,
         LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
             [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第十一章困难10-9 波次",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 112009,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16808] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9299",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "9298",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点9",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 16808,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [11015] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 520,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "春节副本BOSS",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 11015,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [5004] = {
-        bornPoint = 15,
-        LengthT = {
-            [1] = 1100,
             [2] = 2600,
         },
         monsterBornLimit  = 1,
@@ -81586,7 +82803,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "5-7 (生存模式-普通)",
+        dungeonName = "第11章简单 wave3-生存 f11-6",
         LengthN2 = {
         },
         MonsterT = {
@@ -81610,21 +82827,11 @@ return {
                 [2] = 2000,
                 [3] = 0,
             },
-            [5] = {
-                [1] = 5,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [6] = {
-                [1] = 6,
-                [2] = 2000,
-                [3] = 0,
-            },
         },
         LengthE = {
         },
         victoryType = 2,
-        id = 5004,
+        id = 110115,
         MonsterN4 = {
         },
         MonsterE = {
@@ -81634,14 +82841,83 @@ return {
         LengthN3 = {
         },
     },
-    [110123] = {
-        bornPoint = 6,
+    [6107] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 300,
+            [2] = 2400,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+            [1] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        prevScript = "",
+        dungeonName = "f6-3歼灭",
+        LengthN2 = {
+            [1] = 1800,
+            [2] = 3900,
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 6107,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [6111] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 2600,
+            [2] = 2400,
         },
         op = "",
         LengthN4 = {
@@ -81659,23 +82935,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 681301,
-                [2] = 1,
+                [1] = 15,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "110015",
-        dungeonName = "第11章简单 wave5-BOSS战 11-21",
+        prevScript = "",
+        dungeonName = "6-9限时",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 110123,
+        victoryType = 5,
+        id = 6111,
         MonsterN4 = {
         },
         MonsterE = {
@@ -81683,6 +82958,148 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [6115] = {
+        bornPoint = 17,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2400,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "f6-5歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 6115,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [6119] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2400,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "6-16限时",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 6119,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -81765,13 +83182,13 @@ return {
         LengthN3 = {
         },
     },
-    [16604] = {
-        bornPoint = 6,
+    [3105] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
+            [1] = 300,
             [2] = 2600,
         },
         op = "",
@@ -81781,7 +83198,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "9222",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -81789,24 +83206,32 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 520401,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
+            [1] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
-        prevScript = "9221",
-        dungeonName = "狂三外传-第1阶段-隐瞒-阿斯莫德",
+        prevScript = "",
+        dungeonName = "3-5 (歼灭模式-困难)    ",
         LengthN2 = {
+            [1] = 1000,
+            [2] = 3900,
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16604,
+        victoryType = 1,
+        id = 3105,
         MonsterN4 = {
         },
         MonsterE = {
@@ -81814,16 +83239,6 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -81973,13 +83388,13 @@ return {
         LengthN3 = {
         },
     },
-    [16616] = {
-        bornPoint = 6,
+    [4105] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
+            [1] = 640,
             [2] = 2600,
         },
         op = "",
@@ -81997,24 +83412,32 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 520411,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
+            [1] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         prevScript = "",
-        dungeonName = "狂三外传-第2阶段-中间3天阿斯莫德关卡",
+        dungeonName = "4-5 (歼灭模式-困难)   ",
         LengthN2 = {
+            [1] = 1380,
+            [2] = 3900,
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16616,
+        victoryType = 1,
+        id = 4105,
         MonsterN4 = {
         },
         MonsterE = {
@@ -82023,15 +83446,10 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -82039,16 +83457,16 @@ return {
         LengthN3 = {
         },
     },
-    [110115] = {
-        bornPoint = 6,
+    [8408] = {
+        bornPoint = 3,
         LengthT = {
-            [1] = 100,
-            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
+            [1] = 100,
+            [2] = 4090,
         },
-        op = "",
+        op = "9353",
         LengthN4 = {
         },
         LengthL = {
@@ -82057,54 +83475,41 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 6,
+        NumMaxT = 0,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第11章简单 wave3-生存 f11-6",
+        dungeonName = "或守鞠亚剧场-第一章-level10-战斗-学校附近",
         LengthN2 = {
         },
         MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
         },
         LengthE = {
         },
-        victoryType = 2,
-        id = 110115,
+        victoryType = 1,
+        id = 8408,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 100,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 100,
+            },
         },
         LengthN3 = {
         },
@@ -82176,7 +83581,7 @@ return {
         LengthN3 = {
         },
     },
-    [16804] = {
+    [16302] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -82192,7 +83597,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "9294",
+        endScript = "910026",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -82200,20 +83605,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 515001,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "9293",
-        dungeonName = "2020-海王星联动下卷第1阶段主线关卡-场景点4",
+        prevScript = "910025",
+        dungeonName = "海王星联动-日下部燎子-可怕的袭击者",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 16804,
+        victoryType = 3,
+        id = 16302,
         MonsterN4 = {
         },
         MonsterE = {
@@ -82231,11 +83640,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -82385,14 +83789,14 @@ return {
         LengthN3 = {
         },
     },
-    [6111] = {
-        bornPoint = 3,
+    [6203] = {
+        bornPoint = 11,
         LengthT = {
+            [1] = 100,
+            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2400,
         },
         op = "",
         LengthN4 = {
@@ -82403,49 +83807,54 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 5,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
             [1] = {
-                [1] = 15,
+                [1] = 60000,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "6-9限时",
+        dungeonName = "6-3(生存模式-困难)   ",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 2000,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 2000,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 2000,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 2000,
+            },
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 6111,
+        victoryType = 2,
+        id = 6203,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -82502,209 +83911,11 @@ return {
         LengthN3 = {
         },
     },
-    [6119] = {
+    [6303] = {
         bornPoint = 6,
         LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2400,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "6-16限时",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 6119,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [6123] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2400,
-        },
-        op = "60009",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "60011",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "6-19歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 6123,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [6220] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
             [1] = 100,
             [2] = 2500,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 640201,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "6-20(BOSS-困难)",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 6220,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [80138] = {
-        bornPoint = 6,
-        LengthT = {
-            [1] = 100,
-            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
@@ -82732,40 +83943,234 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第8章简单f8-15-生存",
+        dungeonName = "6-3(生存模式-噩梦) ",
         LengthN2 = {
         },
         MonsterT = {
             [1] = {
                 [1] = 1,
-                [2] = 2000,
-                [3] = 0,
+                [2] = 0,
+                [3] = 2000,
             },
             [2] = {
                 [1] = 2,
-                [2] = 2000,
-                [3] = 0,
+                [2] = 0,
+                [3] = 2000,
             },
             [3] = {
                 [1] = 3,
-                [2] = 2000,
-                [3] = 0,
+                [2] = 0,
+                [3] = 2000,
             },
             [4] = {
                 [1] = 4,
-                [2] = 2000,
-                [3] = 0,
+                [2] = 0,
+                [3] = 2000,
             },
         },
         LengthE = {
         },
         victoryType = 2,
-        id = 80138,
+        id = 6303,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [100408] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第10章简单 f10-11 歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 100408,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [80131] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第8章简单f8-13-歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 80131,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [16620] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 520321,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 520421,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "狂三外传-第3阶段-亚斯塔罗特阵营助战关卡",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 16620,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
         },
         LengthN3 = {
         },
@@ -82908,8 +84313,8 @@ return {
         LengthN3 = {
         },
     },
-    [16726] = {
-        bornPoint = 6,
+    [8418] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -82917,7 +84322,7 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "",
+        op = "9371",
         LengthN4 = {
         },
         LengthL = {
@@ -82932,24 +84337,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 521505,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "2020春节-魔禁联动第2阶段魔王关卡-贝芬格",
+        dungeonName = "或守鞠亚剧场-第三章-level7-战斗-世界数据核心",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16726,
+        victoryType = 1,
+        id = 8418,
         MonsterN4 = {
         },
         MonsterE = {
@@ -82958,17 +84359,17 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 100,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -83046,83 +84447,13 @@ return {
         LengthN3 = {
         },
     },
-    [102007] = {
+    [7302] = {
         bornPoint = 6,
         LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
             [1] = 100,
-            [2] = 2600,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 6,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第10章困难10-7生存",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 102007,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [7202] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 150,
             [2] = 2600,
         },
         op = "",
@@ -83140,23 +84471,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "7-2限时-困难",
+        dungeonName = "7-2歼灭-噩梦",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 7202,
+        victoryType = 1,
+        id = 7302,
         MonsterN4 = {
         },
         MonsterE = {
@@ -83174,6 +84502,83 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [7310] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2200,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "7-10限时-噩梦",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 7310,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -83248,14 +84653,14 @@ return {
         LengthN3 = {
         },
     },
-    [6203] = {
-        bornPoint = 11,
+    [6307] = {
+        bornPoint = 6,
         LengthT = {
-            [1] = 100,
-            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
+            [1] = 100,
+            [2] = 2500,
         },
         op = "",
         LengthN4 = {
@@ -83266,54 +84671,51 @@ return {
         },
         endScript = "",
         TimeL = 0,
-        NumMaxT = 5,
+        NumMaxT = 0,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "6-3(生存模式-困难)   ",
+        dungeonName = "6-7(歼灭模式-噩梦) ",
         LengthN2 = {
         },
         MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 2000,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 2000,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 2000,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 2000,
-            },
         },
         LengthE = {
         },
-        victoryType = 2,
-        id = 6203,
+        victoryType = 1,
+        id = 6307,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
@@ -83460,131 +84862,7 @@ return {
         LengthN3 = {
         },
     },
-    [5204] = {
-        bornPoint = 8,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 150,
-            [2] = 2550,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "5-4 (歼灭模式-噩梦)   ",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 5204,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [8402] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "9342",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9343",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "或守鞠亚剧场-第一章-level3-战斗-市中心街道",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 8402,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 100,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 100,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [80131] = {
+    [16612] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -83608,20 +84886,155 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 520311,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第8章简单f8-13-歼灭",
+        dungeonName = "狂三外传-第2阶段-前3天贝芬格关卡",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 80131,
+        victoryType = 3,
+        id = 16612,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [16318] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 516003,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "910054",
+        dungeonName = "海王星联动-艾伦的拦截",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 16318,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [80133] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 20,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第8章简单f8-14-限时",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 80133,
         MonsterN4 = {
         },
         MonsterE = {
@@ -83925,11 +85338,78 @@ return {
         LengthN3 = {
         },
     },
-    [6303] = {
+    [16308] = {
         bornPoint = 6,
         LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
             [1] = 100,
-            [2] = 2500,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "910037",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "910036",
+        dungeonName = "海王星联动-4波怪-涅普也有妹妹哦",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 16308,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [100402] = {
+        bornPoint = 3,
+        LengthT = {
+            [1] = 100,
+            [2] = 2100,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
@@ -83957,107 +85437,40 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "6-3(生存模式-噩梦) ",
+        dungeonName = "第10章简单 10-18 生存",
         LengthN2 = {
         },
         MonsterT = {
             [1] = {
                 [1] = 1,
-                [2] = 0,
-                [3] = 2000,
+                [2] = 2000,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
-                [2] = 0,
-                [3] = 2000,
+                [2] = 2000,
+                [3] = 0,
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 2000,
+                [2] = 2000,
+                [3] = 0,
             },
             [4] = {
                 [1] = 4,
-                [2] = 0,
-                [3] = 2000,
+                [2] = 2000,
+                [3] = 0,
             },
         },
         LengthE = {
         },
         victoryType = 2,
-        id = 6303,
+        id = 100402,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [6307] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2500,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "6-7(歼灭模式-噩梦) ",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 6307,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -84129,77 +85542,7 @@ return {
         LengthN3 = {
         },
     },
-    [6212] = {
-        bornPoint = 12,
-        LengthT = {
-            [1] = 150,
-            [2] = 2100,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 5,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "6-12(生存模式-困难)    ",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 2000,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 2000,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 2000,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 2000,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 6212,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [80136] = {
+    [16534] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -84224,22 +85567,95 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 20,
+                [1] = 515004,
+                [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第8章简单8-27-限时",
+        dungeonName = "海王星联动-困难-精英雷元素首领",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 80136,
+        victoryType = 3,
+        id = 16534,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [80134] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第8章简单8-25-歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 80134,
         MonsterN4 = {
         },
         MonsterE = {
@@ -84339,7 +85755,7 @@ return {
         LengthN3 = {
         },
     },
-    [80133] = {
+    [7303] = {
         bornPoint = 4,
         LengthT = {
         },
@@ -84363,23 +85779,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 20,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第8章简单f8-14-限时",
+        dungeonName = "7-3歼灭-噩梦",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 80133,
+        victoryType = 1,
+        id = 7303,
         MonsterN4 = {
         },
         MonsterE = {
@@ -84615,409 +86028,6 @@ return {
         LengthN3 = {
         },
     },
-    [100402] = {
-        bornPoint = 3,
-        LengthT = {
-            [1] = 100,
-            [2] = 2100,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 6,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第10章简单 10-18 生存",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 100402,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [80134] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第8章简单8-25-歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 80134,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [2115] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 0,
-            [2] = 2550,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 20101,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第2章困难关卡15",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 2115,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [110121] = {
-        bornPoint = 6,
-        LengthT = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 6,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第11章简单 wave4-生存 f11-9",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 110121,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [16620] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 520321,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 520421,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "狂三外传-第3阶段-亚斯塔罗特阵营助战关卡",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 16620,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75010] = {
-        bornPoint = 8,
-        LengthT = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 6,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反转折纸模拟试炼2-5  守护（先歼灭）",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 75010,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
     [90301] = {
         bornPoint = 8,
         LengthT = {
@@ -85151,7 +86161,7 @@ return {
         LengthN3 = {
         },
     },
-    [102005] = {
+    [16401] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -85180,7 +86190,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第10章困难10-5歼灭",
+        dungeonName = "海王星联动-5波怪-歼灭",
         LengthN2 = {
         },
         MonsterT = {
@@ -85188,7 +86198,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 102005,
+        id = 16401,
         MonsterN4 = {
         },
         MonsterE = {
@@ -85197,7 +86207,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -85211,6 +86221,11 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -85289,7 +86304,7 @@ return {
         LengthN3 = {
         },
     },
-    [16612] = {
+    [80136] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -85314,15 +86329,155 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 520311,
-                [2] = 1,
+                [1] = 20,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "狂三外传-第2阶段-前3天贝芬格关卡",
+        dungeonName = "第8章简单8-27-限时",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 80136,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [75010] = {
+        bornPoint = 8,
+        LengthT = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 6,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "反转折纸模拟试炼2-5  守护（先歼灭）",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthE = {
+        },
+        victoryType = 2,
+        id = 75010,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [16324] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "910063",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 516003,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "910062",
+        dungeonName = "海王星联动-信仰削弱",
         LengthN2 = {
         },
         MonsterT = {
@@ -85330,7 +86485,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 16612,
+        id = 16324,
         MonsterN4 = {
         },
         MonsterE = {
@@ -85348,6 +86503,274 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [16322] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "910060",
+        dungeonName = "海王星联动-4波怪-歼灭-搜寻四糸乃和七罪",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 16322,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [102005] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第10章困难10-5歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 102005,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [90111] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "90009",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "90010",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第9章简单 9-9-歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 90111,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [80137] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第8章简单8-28-波次",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 80137,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -85633,74 +87056,7 @@ return {
         LengthN3 = {
         },
     },
-    [90111] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "90009",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "90010",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第9章简单 9-9-歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 90111,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [80137] = {
+    [16315] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -85716,74 +87072,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第8章简单8-28-波次",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 80137,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16534] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
+        endScript = "910050",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -85792,15 +87081,15 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 515004,
+                [1] = 516009,
                 [2] = 1,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "海王星联动-困难-精英雷元素首领",
+        prevScript = "910049",
+        dungeonName = "海王星联动-歌姬的操控",
         LengthN2 = {
         },
         MonsterT = {
@@ -85808,7 +87097,7 @@ return {
         LengthE = {
         },
         victoryType = 3,
-        id = 16534,
+        id = 16315,
         MonsterN4 = {
         },
         MonsterE = {
@@ -85829,13 +87118,139 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
+        },
+        LengthN3 = {
+        },
+    },
+    [16314] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "910048",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 516007,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "910047",
+        dungeonName = "海王星联动-营救七罪",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 16314,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 150,
+            },
+            [2] = {
+                [1] = 2,
                 [2] = 0,
                 [3] = 200,
             },
-            [5] = {
-                [1] = 5,
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [177] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "周年庆7月-<第十章>强化十香特特训VS万由里",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 177,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -86173,14 +87588,14 @@ return {
         LengthN3 = {
         },
     },
-    [16302] = {
+    [80138] = {
         bornPoint = 6,
         LengthT = {
+            [1] = 100,
+            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -86189,52 +87604,56 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "910026",
+        endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 6,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
             [1] = {
-                [1] = 515001,
-                [2] = 1,
+                [1] = 60000,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "910025",
-        dungeonName = "海王星联动-日下部燎子-可怕的袭击者",
+        prevScript = "",
+        dungeonName = "第8章简单f8-15-生存",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16302,
+        victoryType = 2,
+        id = 80138,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -87204,7 +88623,7 @@ return {
         LengthN3 = {
         },
     },
-    [100408] = {
+    [16303] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -87220,7 +88639,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "910028",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -87228,87 +88647,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第10章简单 f10-11 歼灭",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 100408,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
             [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
+                [1] = 516008,
+                [2] = 1,
             },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16401] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "",
-        dungeonName = "海王星联动-5波怪-歼灭",
+        prevScript = "910027",
+        dungeonName = "海王星联动-涅普-敌人的增援？",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 16401,
+        victoryType = 3,
+        id = 16303,
         MonsterN4 = {
         },
         MonsterE = {
@@ -87329,16 +88685,76 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+        },
+        LengthN3 = {
+        },
+    },
+    [102007] = {
+        bornPoint = 6,
+        LengthT = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 6,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第10章困难10-7生存",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
             [4] = {
                 [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [2] = 2000,
+                [3] = 0,
             },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
+        },
+        LengthE = {
+        },
+        victoryType = 2,
+        id = 102007,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
         },
         LengthN3 = {
         },
@@ -87524,81 +88940,70 @@ return {
         LengthN3 = {
         },
     },
-    [7303] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "7-3歼灭-噩梦",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 7303,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [7311] = {
+    [8461] = {
         bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 50,
+            [2] = 2700,
+        },
+        op = "9454",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "9455",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 100259,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "狂三外传剧场-第二章-战斗-阻碍-level29-学校前庭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 8461,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 100,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [8477] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 50,
+            [2] = 2700,
         },
         op = "",
         LengthN4 = {
@@ -87615,20 +89020,28 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 100283,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 100286,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "7-11歼灭-噩梦",
+        dungeonName = "狂三外传剧场-困难7-教室",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 7311,
+        victoryType = 3,
+        id = 8477,
         MonsterN4 = {
         },
         MonsterE = {
@@ -87637,22 +89050,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -87797,7 +89195,7 @@ return {
         LengthN3 = {
         },
     },
-    [16324] = {
+    [16102] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -87813,7 +89211,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "910063",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -87821,24 +89219,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 516003,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "910062",
-        dungeonName = "海王星联动-信仰削弱",
+        prevScript = "",
+        dungeonName = "天梯刷怪(Boss层)",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16324,
+        victoryType = 1,
+        id = 16102,
         MonsterN4 = {
         },
         MonsterE = {
@@ -87847,7 +89241,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
@@ -87930,14 +89324,14 @@ return {
         LengthN3 = {
         },
     },
-    [16322] = {
-        bornPoint = 6,
+    [4003] = {
+        bornPoint = 12,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 150,
+            [2] = 1600,
         },
         op = "",
         LengthN4 = {
@@ -87958,8 +89352,8 @@ return {
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "910060",
-        dungeonName = "海王星联动-4波怪-歼灭-搜寻四糸乃和七罪",
+        prevScript = "",
+        dungeonName = "4-5 (波次模式-普通)",
         LengthN2 = {
         },
         MonsterT = {
@@ -87967,7 +89361,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 16322,
+        id = 4003,
         MonsterN4 = {
         },
         MonsterE = {
@@ -87976,7 +89370,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -87993,18 +89387,23 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [4001] = {
-        bornPoint = 3,
+    [113018] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 640,
-            [2] = 2200,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -88024,29 +89423,17 @@ return {
         },
         extCfgID = 0,
         MonsterN2 = {
-            [1] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 0,
-            },
         },
         prevScript = "",
-        dungeonName = "4-1 (歼灭模式-普通)",
+        dungeonName = "第十一章地狱11-18 BOSS挑战（火+暗）",
         LengthN2 = {
-            [1] = 1380,
-            [2] = 2900,
         },
         MonsterT = {
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 4001,
+        id = 113018,
         MonsterN4 = {
         },
         MonsterE = {
@@ -88054,69 +89441,8 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
                 [2] = 0,
                 [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16314] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "910048",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 516007,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "910047",
-        dungeonName = "海王星联动-营救七罪",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 16314,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
             },
             [2] = {
                 [1] = 2,
@@ -88127,6 +89453,73 @@ return {
                 [1] = 3,
                 [2] = 0,
                 [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [2107] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 0,
+            [2] = 2550,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第2章困难关卡7（波次模式）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 2107,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
             },
         },
         LengthN3 = {
@@ -88263,7 +89656,7 @@ return {
         LengthN3 = {
         },
     },
-    [16316] = {
+    [102013] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -88279,7 +89672,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "910052",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -88288,23 +89681,22 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 516009,
-                [2] = 1,
+                [1] = 24,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "910051",
-        dungeonName = "海王星联动-粉色的吟唱",
+        prevScript = "",
+        dungeonName = "第10章困难10-13限时",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16316,
+        victoryType = 5,
+        id = 102013,
         MonsterN4 = {
         },
         MonsterE = {
@@ -88313,7 +89705,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -88322,6 +89714,11 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -88329,14 +89726,14 @@ return {
         LengthN3 = {
         },
     },
-    [16315] = {
-        bornPoint = 6,
+    [3107] = {
+        bornPoint = 12,
         LengthT = {
+            [1] = 1000,
+            [2] = 2500,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -88345,52 +89742,61 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "910050",
+        endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 5,
         MonsterL = {
         },
         CampNumMax = {
         },
         victoryParam = {
             [1] = {
-                [1] = 516009,
-                [2] = 1,
+                [1] = 60000,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "910049",
-        dungeonName = "海王星联动-歌姬的操控",
+        prevScript = "",
+        dungeonName = "3-7 (生存模式-困难) ",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 2000,
+                [3] = 0,
+            },
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 16315,
+        victoryType = 2,
+        id = 3107,
         MonsterN4 = {
         },
         MonsterE = {
         },
         MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -88467,14 +89873,14 @@ return {
         LengthN3 = {
         },
     },
-    [3103] = {
-        bornPoint = 3,
+    [4005] = {
+        bornPoint = 10,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 300,
-            [2] = 2600,
+            [1] = 680,
+            [2] = 2150,
         },
         op = "",
         LengthN4 = {
@@ -88491,32 +89897,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
-            [1] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         prevScript = "",
-        dungeonName = "3-3 (歼灭模式-困难)   ",
+        dungeonName = "4-7 (限时模式-普通)",
         LengthN2 = {
-            [1] = 1000,
-            [2] = 3900,
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 3103,
+        victoryType = 5,
+        id = 4005,
         MonsterN4 = {
         },
         MonsterE = {
@@ -88529,6 +89926,11 @@ return {
             },
             [2] = {
                 [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -88870,143 +90272,6 @@ return {
         LengthN3 = {
         },
     },
-    [4003] = {
-        bornPoint = 12,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 150,
-            [2] = 1600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "4-5 (波次模式-普通)",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 4003,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [4005] = {
-        bornPoint = 10,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 680,
-            [2] = 2150,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 15,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "4-7 (限时模式-普通)",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 4005,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
     [4007] = {
         bornPoint = 12,
         LengthT = {
@@ -89293,6 +90558,140 @@ return {
         LengthN3 = {
         },
     },
+    [4015] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 150,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第4章简单关卡1（天台，波次）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 4015,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [2113] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 0,
+            [2] = 2500,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第2章困难关卡13",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 2113,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
     [75014] = {
         bornPoint = 6,
         LengthT = {
@@ -89359,13 +90758,85 @@ return {
         LengthN3 = {
         },
     },
-    [6216] = {
-        bornPoint = 6,
+    [5013] = {
+        bornPoint = 12,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
+            [1] = 150,
+            [2] = 2200,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第5章困难关卡1（地铁破坏，歼灭）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 5013,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [5021] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 150,
             [2] = 2600,
         },
         op = "",
@@ -89388,7 +90859,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "6-16(歼灭模式-困难)    ",
+        dungeonName = "第5章困难关卡1（天台，歼灭）",
         LengthN2 = {
         },
         MonsterT = {
@@ -89396,7 +90867,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 6216,
+        id = 5021,
         MonsterN4 = {
         },
         MonsterE = {
@@ -89405,92 +90876,22 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
             [4] = {
                 [1] = 4,
                 [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16307] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "910035",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 24,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "910034",
-        dungeonName = "海王星联动-4波怪-计数-妹妹的保护",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 16307,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
+                [3] = 0,
             },
         },
         LengthN3 = {
@@ -89563,14 +90964,14 @@ return {
         LengthN3 = {
         },
     },
-    [5001] = {
-        bornPoint = 11,
+    [110131] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 1600,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -89587,32 +90988,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 24,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
-            [1] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 5,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         prevScript = "",
-        dungeonName = "5-1 (歼灭模式-普通) ",
+        dungeonName = "第11章简单 wave6-限时 f11-12",
         LengthN2 = {
-            [1] = 1100,
-            [2] = 2600,
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 5001,
+        victoryType = 5,
+        id = 110131,
         MonsterN4 = {
         },
         MonsterE = {
@@ -89630,6 +91022,11 @@ return {
             },
             [3] = {
                 [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -90014,14 +91411,14 @@ return {
         LengthN3 = {
         },
     },
-    [5021] = {
-        bornPoint = 4,
+    [5105] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 150,
-            [2] = 2600,
+            [2] = 2500,
         },
         op = "",
         LengthN4 = {
@@ -90043,7 +91440,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第5章困难关卡1（天台，歼灭）",
+        dungeonName = "5-5 (歼灭模式-困难)   ",
         LengthN2 = {
         },
         MonsterT = {
@@ -90051,7 +91448,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 5021,
+        id = 5105,
         MonsterN4 = {
         },
         MonsterE = {
@@ -90060,159 +91457,7 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 0,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [17001] = {
-        bornPoint = 6,
-        LengthT = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 1,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 80000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "日常-祈愿",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [6] = {
-                [1] = 6,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [7] = {
-                [1] = 7,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 17001,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [16305] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "910032",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "910031",
-        dungeonName = "海王星联动-4波怪-停战协议",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 16305,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
@@ -90233,14 +91478,14 @@ return {
         LengthN3 = {
         },
     },
-    [110131] = {
-        bornPoint = 6,
+    [5109] = {
+        bornPoint = 23,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
+            [1] = 900,
+            [2] = 2400,
         },
         op = "",
         LengthN4 = {
@@ -90258,14 +91503,14 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 24,
+                [1] = 15,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第11章简单 wave6-限时 f11-12",
+        dungeonName = "5-9 (限时击杀-困难) ",
         LengthN2 = {
         },
         MonsterT = {
@@ -90273,7 +91518,7 @@ return {
         LengthE = {
         },
         victoryType = 5,
-        id = 110131,
+        id = 5109,
         MonsterN4 = {
         },
         MonsterE = {
@@ -90294,224 +91539,6 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [9101] = {
-        bornPoint = 6,
-        LengthT = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 6,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 8709,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "四糸乃挑战-迷茫-守护雪人",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 5,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [5] = {
-                [1] = 6,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 9101,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [2107] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 0,
-            [2] = 2550,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第2章困难关卡7（波次模式）",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 2107,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 0,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [75015] = {
-        bornPoint = 6,
-        LengthT = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 6,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "反转折纸模拟试炼2-10 生存",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 75015,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
         },
         LengthN3 = {
         },
@@ -90554,142 +91581,6 @@ return {
         },
         victoryType = 1,
         id = 5113,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [16303] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "910028",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 516008,
-                [2] = 1,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "910027",
-        dungeonName = "海王星联动-涅普-敌人的增援？",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 3,
-        id = 16303,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 150,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [102010] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 24,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第10章困难10-10限时",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 102010,
         MonsterN4 = {
         },
         MonsterE = {
@@ -90784,13 +91675,229 @@ return {
         LengthN3 = {
         },
     },
-    [4106] = {
-        bornPoint = 3,
+    [9101] = {
+        bornPoint = 6,
+        LengthT = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 6,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 8709,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "四糸乃挑战-迷茫-守护雪人",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 5,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [5] = {
+                [1] = 6,
+                [2] = 2000,
+                [3] = 0,
+            },
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 9101,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [7312] = {
+        bornPoint = 4,
+        LengthT = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 6,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "7-12歼灭-噩梦",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
+        },
+        LengthE = {
+        },
+        victoryType = 2,
+        id = 7312,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [75015] = {
+        bornPoint = 6,
+        LengthT = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 6,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "反转折纸模拟试炼2-10 生存",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthE = {
+        },
+        victoryType = 2,
+        id = 75015,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [6216] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 640,
+            [1] = 100,
             [2] = 2600,
         },
         op = "",
@@ -90811,29 +91918,17 @@ return {
         },
         extCfgID = 0,
         MonsterN2 = {
-            [1] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         prevScript = "",
-        dungeonName = "4-6 (歼灭模式-困难)   ",
+        dungeonName = "6-16(歼灭模式-困难)    ",
         LengthN2 = {
-            [1] = 1380,
-            [2] = 3900,
         },
         MonsterT = {
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 4106,
+        id = 6216,
         MonsterN4 = {
         },
         MonsterE = {
@@ -90849,27 +91944,37 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [90112] = {
+    [6220] = {
         bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
-            [2] = 2600,
+            [2] = 2500,
         },
-        op = "90011",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "90012",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -90877,20 +91982,89 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 640201,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第9章简单 9-11-歼灭",
+        dungeonName = "6-20(BOSS-困难)",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90112,
+        victoryType = 3,
+        id = 6220,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [102010] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 24,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第10章困难10-10限时",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 102010,
         MonsterN4 = {
         },
         MonsterE = {
@@ -90982,6 +92156,210 @@ return {
                 [1] = 4,
                 [2] = 0,
                 [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [4210] = {
+        bornPoint = 10,
+        LengthT = {
+            [1] = 1000,
+            [2] = 2500,
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 5,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "4-10 (生存模式-噩梦) ",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 2000,
+                [3] = 0,
+            },
+        },
+        LengthE = {
+        },
+        victoryType = 2,
+        id = 4210,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [90112] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "90011",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "90012",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第9章简单 9-11-歼灭",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 90112,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [8428] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "或守鞠亚剧场-困难难度-level3-废弃游乐园",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 8428,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 100,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 100,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 100,
             },
         },
         LengthN3 = {
@@ -91203,270 +92581,14 @@ return {
         LengthN3 = {
         },
     },
-    [8404] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "9346",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "9347",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "或守鞠亚剧场-第一章-level5-战斗-废弃游乐园",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 8404,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 100,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 100,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [4210] = {
-        bornPoint = 10,
-        LengthT = {
-            [1] = 1000,
-            [2] = 2500,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 5,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "4-10 (生存模式-噩梦) ",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 4210,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [8420] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "9373",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "或守鞠亚剧场-第三章-level9-战斗-世界数据核心",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 8420,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 100,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 100,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 100,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [8428] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "或守鞠亚剧场-困难难度-level3-废弃游乐园",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 8428,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 100,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 100,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 100,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [2113] = {
+    [7307] = {
         bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 0,
-            [2] = 2500,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -91488,7 +92610,7 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第2章困难关卡13",
+        dungeonName = "7-7歼灭-噩梦",
         LengthN2 = {
         },
         MonsterT = {
@@ -91496,7 +92618,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 2113,
+        id = 7307,
         MonsterN4 = {
         },
         MonsterE = {
@@ -91505,22 +92627,302 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [4] = {
                 [1] = 4,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [7311] = {
+        bornPoint = 3,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "7-11歼灭-噩梦",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 7311,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [102015] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 4303,
+                [2] = 1,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第10章困难10-15BOSS战斗",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 3,
+        id = 102015,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [112009] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第十一章困难10-9 波次",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 112009,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [112008] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 24,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第十一章困难10-8 限时",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 112008,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -91664,12 +93066,14 @@ return {
         LengthN3 = {
         },
     },
-    [1002] = {
-        bornPoint = 4,
+    [90125] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -91686,40 +93090,45 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 20,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第1章简单关卡2-剧情",
+        dungeonName = "第9章简单 f9-11-歼灭",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
-            [1] = 0,
-            [2] = 1300,
         },
-        victoryType = 5,
-        id = 1002,
+        victoryType = 1,
+        id = 90125,
         MonsterN4 = {
         },
         MonsterE = {
+        },
+        MonsterN1 = {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 0,
+                [3] = 200,
             },
-        },
-        MonsterN1 = {
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
@@ -91847,13 +93256,13 @@ return {
         LengthN3 = {
         },
     },
-    [3208] = {
-        bornPoint = 3,
+    [102030] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 600,
+            [1] = 100,
             [2] = 2600,
         },
         op = "",
@@ -91871,32 +93280,24 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 4323,
+                [2] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
-            [1] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         prevScript = "",
-        dungeonName = "3-8 (歼灭模式-噩梦)    ",
+        dungeonName = "第10章困难10-30BOSS战斗",
         LengthN2 = {
-            [1] = 1300,
-            [2] = 3800,
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 3208,
+        victoryType = 3,
+        id = 102030,
         MonsterN4 = {
         },
         MonsterE = {
@@ -91904,6 +93305,16 @@ return {
         MonsterN1 = {
             [1] = {
                 [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
                 [2] = 0,
                 [3] = 200,
             },
@@ -92176,8 +93587,8 @@ return {
         LengthN3 = {
         },
     },
-    [112008] = {
-        bornPoint = 4,
+    [102023] = {
+        bornPoint = 6,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -92200,23 +93611,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 24,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第十一章困难10-8 限时",
+        dungeonName = "第10章困难10-23波次",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 5,
-        id = 112008,
+        victoryType = 1,
+        id = 102023,
         MonsterN4 = {
         },
         MonsterE = {
@@ -92239,6 +93647,11 @@ return {
             },
             [4] = {
                 [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+            [5] = {
+                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -92284,6 +93697,76 @@ return {
         },
         victoryType = 1,
         id = 80218,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [102006] = {
+        bornPoint = 6,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 24,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第10章困难10-6限时",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 5,
+        id = 102006,
         MonsterN4 = {
         },
         MonsterE = {
@@ -92446,8 +93929,8 @@ return {
         LengthN3 = {
         },
     },
-    [102030] = {
-        bornPoint = 4,
+    [6218] = {
+        bornPoint = 8,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -92470,89 +93953,20 @@ return {
         CampNumMax = {
         },
         victoryParam = {
-            [1] = {
-                [1] = 4323,
-                [2] = 1,
-            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第10章困难10-30BOSS战斗",
+        dungeonName = "6-18(波次模式-困难)    ",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 3,
-        id = 102030,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [102006] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 24,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第10章困难10-6限时",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 5,
-        id = 102006,
+        victoryType = 1,
+        id = 6218,
         MonsterN4 = {
         },
         MonsterE = {
@@ -92638,7 +94052,72 @@ return {
         LengthN3 = {
         },
     },
-    [102014] = {
+    [17002] = {
+        bornPoint = 6,
+        LengthT = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 5,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+            [1] = {
+                [1] = 60000,
+            },
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "日常-质点",
+        LengthN2 = {
+        },
+        MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+        },
+        LengthE = {
+        },
+        victoryType = 2,
+        id = 17002,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+        },
+        LengthN3 = {
+        },
+    },
+    [100304] = {
         bornPoint = 6,
         LengthT = {
         },
@@ -92663,14 +94142,14 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 24,
+                [1] = 18,
             },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第10章困难10-14波次（守护）",
+        dungeonName = "第10章简单 f10-7 限时",
         LengthN2 = {
         },
         MonsterT = {
@@ -92678,7 +94157,7 @@ return {
         LengthE = {
         },
         victoryType = 5,
-        id = 102014,
+        id = 100304,
         MonsterN4 = {
         },
         MonsterE = {
@@ -92696,83 +94175,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
-    [102023] = {
-        bornPoint = 6,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 100,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "第10章困难10-23波次",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 102023,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-            [5] = {
-                [1] = 5,
                 [2] = 0,
                 [3] = 200,
             },
@@ -92850,14 +94252,14 @@ return {
         LengthN3 = {
         },
     },
-    [5010] = {
-        bornPoint = 24,
+    [100104] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
-            [1] = 150,
-            [2] = 1650,
+            [1] = 100,
+            [2] = 2600,
         },
         op = "",
         LengthN4 = {
@@ -92877,29 +94279,17 @@ return {
         },
         extCfgID = 0,
         MonsterN2 = {
-            [1] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
         },
-        prevScript = "",
-        dungeonName = "5-17(歼灭模式-普通)",
+        prevScript = "100001",
+        dungeonName = "第10章简单 10-3  歼灭",
         LengthN2 = {
-            [1] = 1100,
-            [2] = 2600,
         },
         MonsterT = {
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 5010,
+        id = 100104,
         MonsterN4 = {
         },
         MonsterE = {
@@ -92915,29 +94305,41 @@ return {
                 [2] = 0,
                 [3] = 200,
             },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
+            },
         },
         LengthN3 = {
         },
     },
-    [8412] = {
-        bornPoint = 3,
+    [90213] = {
+        bornPoint = 4,
         LengthT = {
+            [1] = 100,
+            [2] = 2600,
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 100,
             [2] = 2600,
         },
-        op = "9360",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "9361",
+        endScript = "",
         TimeL = 0,
-        NumMaxT = 0,
+        NumMaxT = 6,
         MonsterL = {
         },
         CampNumMax = {
@@ -92948,15 +94350,35 @@ return {
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "或守鞠亚剧场-第二章-level1-战斗-市中心街道",
+        dungeonName = "第9章困难9-13-歼灭",
         LengthN2 = {
         },
         MonsterT = {
+            [1] = {
+                [1] = 1,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 2000,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 2000,
+                [3] = 0,
+            },
         },
         LengthE = {
         },
         victoryType = 1,
-        id = 8412,
+        id = 90213,
         MonsterN4 = {
         },
         MonsterE = {
@@ -92965,17 +94387,22 @@ return {
             [1] = {
                 [1] = 1,
                 [2] = 0,
-                [3] = 100,
+                [3] = 200,
             },
             [2] = {
                 [1] = 2,
                 [2] = 0,
-                [3] = 100,
+                [3] = 200,
             },
             [3] = {
                 [1] = 3,
                 [2] = 0,
-                [3] = 100,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -93048,8 +94475,8 @@ return {
         LengthN3 = {
         },
     },
-    [100104] = {
-        bornPoint = 3,
+    [90133] = {
+        bornPoint = 4,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -93064,7 +94491,7 @@ return {
         },
         MonsterN3 = {
         },
-        endScript = "",
+        endScript = "90027",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -93076,8 +94503,8 @@ return {
         extCfgID = 0,
         MonsterN2 = {
         },
-        prevScript = "100001",
-        dungeonName = "第10章简单 10-3  歼灭",
+        prevScript = "",
+        dungeonName = "第9章简单 9-25-BOSS",
         LengthN2 = {
         },
         MonsterT = {
@@ -93085,7 +94512,7 @@ return {
         LengthE = {
         },
         victoryType = 1,
-        id = 100104,
+        id = 90133,
         MonsterN4 = {
         },
         MonsterE = {
@@ -93103,11 +94530,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -93326,6 +94748,73 @@ return {
         LengthN3 = {
         },
     },
+    [5022] = {
+        bornPoint = 8,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 150,
+            [2] = 2700,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "第5章困难关卡1（游乐园，歼灭）",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 5022,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 0,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 0,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 0,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 0,
+            },
+        },
+        LengthN3 = {
+        },
+    },
     [17003] = {
         bornPoint = 6,
         LengthT = {
@@ -93392,70 +94881,6 @@ return {
         MonsterE = {
         },
         MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
-    [2204] = {
-        bornPoint = 3,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 300,
-            [2] = 2600,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-            [1] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        prevScript = "",
-        dungeonName = "第2章噩梦关卡4（歼灭）",
-        LengthN2 = {
-            [1] = 1000,
-            [2] = 3800,
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 2204,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
         },
         LengthN3 = {
         },
@@ -93532,81 +94957,6 @@ return {
         LengthN3 = {
         },
     },
-    [6106] = {
-        bornPoint = 8,
-        LengthT = {
-            [1] = 150,
-            [2] = 2100,
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 6,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-            [1] = {
-                [1] = 60000,
-            },
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "f6-2生存",
-        LengthN2 = {
-        },
-        MonsterT = {
-            [1] = {
-                [1] = 1,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 2000,
-                [3] = 0,
-            },
-            [5] = {
-                [1] = 5,
-                [2] = 2000,
-                [3] = 0,
-            },
-        },
-        LengthE = {
-        },
-        victoryType = 2,
-        id = 6106,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-        },
-        LengthN3 = {
-        },
-    },
     [4111] = {
         bornPoint = 3,
         LengthT = {
@@ -93669,6 +95019,73 @@ return {
             },
             [2] = {
                 [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [7220] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 150,
+            [2] = 2250,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "7-20歼灭-困难",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 7220,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -93746,73 +95163,6 @@ return {
         LengthN3 = {
         },
     },
-    [7220] = {
-        bornPoint = 4,
-        LengthT = {
-        },
-        monsterBornLimit  = 1,
-        LengthN1 = {
-            [1] = 150,
-            [2] = 2250,
-        },
-        op = "",
-        LengthN4 = {
-        },
-        LengthL = {
-        },
-        MonsterN3 = {
-        },
-        endScript = "",
-        TimeL = 0,
-        NumMaxT = 0,
-        MonsterL = {
-        },
-        CampNumMax = {
-        },
-        victoryParam = {
-        },
-        extCfgID = 0,
-        MonsterN2 = {
-        },
-        prevScript = "",
-        dungeonName = "7-20歼灭-困难",
-        LengthN2 = {
-        },
-        MonsterT = {
-        },
-        LengthE = {
-        },
-        victoryType = 1,
-        id = 7220,
-        MonsterN4 = {
-        },
-        MonsterE = {
-        },
-        MonsterN1 = {
-            [1] = {
-                [1] = 1,
-                [2] = 0,
-                [3] = 200,
-            },
-            [2] = {
-                [1] = 2,
-                [2] = 0,
-                [3] = 200,
-            },
-            [3] = {
-                [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
-                [2] = 0,
-                [3] = 200,
-            },
-        },
-        LengthN3 = {
-        },
-    },
     [8414] = {
         bornPoint = 3,
         LengthT = {
@@ -93870,6 +95220,73 @@ return {
                 [1] = 3,
                 [2] = 0,
                 [3] = 100,
+            },
+        },
+        LengthN3 = {
+        },
+    },
+    [7304] = {
+        bornPoint = 4,
+        LengthT = {
+        },
+        monsterBornLimit  = 1,
+        LengthN1 = {
+            [1] = 100,
+            [2] = 2600,
+        },
+        op = "",
+        LengthN4 = {
+        },
+        LengthL = {
+        },
+        MonsterN3 = {
+        },
+        endScript = "",
+        TimeL = 0,
+        NumMaxT = 0,
+        MonsterL = {
+        },
+        CampNumMax = {
+        },
+        victoryParam = {
+        },
+        extCfgID = 0,
+        MonsterN2 = {
+        },
+        prevScript = "",
+        dungeonName = "7-4歼灭-噩梦",
+        LengthN2 = {
+        },
+        MonsterT = {
+        },
+        LengthE = {
+        },
+        victoryType = 1,
+        id = 7304,
+        MonsterN4 = {
+        },
+        MonsterE = {
+        },
+        MonsterN1 = {
+            [1] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 200,
+            },
+            [2] = {
+                [1] = 2,
+                [2] = 0,
+                [3] = 200,
+            },
+            [3] = {
+                [1] = 3,
+                [2] = 0,
+                [3] = 200,
+            },
+            [4] = {
+                [1] = 4,
+                [2] = 0,
+                [3] = 200,
             },
         },
         LengthN3 = {
@@ -94138,8 +95555,8 @@ return {
         LengthN3 = {
         },
     },
-    [90103] = {
-        bornPoint = 8,
+    [7308] = {
+        bornPoint = 3,
         LengthT = {
         },
         monsterBornLimit  = 1,
@@ -94147,14 +95564,14 @@ return {
             [1] = 100,
             [2] = 2600,
         },
-        op = "90030",
+        op = "",
         LengthN4 = {
         },
         LengthL = {
         },
         MonsterN3 = {
         },
-        endScript = "90031",
+        endScript = "",
         TimeL = 0,
         NumMaxT = 0,
         MonsterL = {
@@ -94162,20 +95579,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "第9章简单 9-3-波次",
+        dungeonName = "7-8限时-噩梦",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 90103,
+        victoryType = 5,
+        id = 7308,
         MonsterN4 = {
         },
         MonsterE = {
@@ -94193,11 +95613,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },
@@ -94551,14 +95966,14 @@ return {
         LengthN3 = {
         },
     },
-    [4206] = {
+    [4208] = {
         bornPoint = 17,
         LengthT = {
         },
         monsterBornLimit  = 1,
         LengthN1 = {
             [1] = 150,
-            [2] = 2550,
+            [2] = 1650,
         },
         op = "",
         LengthN4 = {
@@ -94575,20 +95990,23 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 15,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
         },
         prevScript = "",
-        dungeonName = "4-6 (歼灭模式-噩梦)   ",
+        dungeonName = "4-8 (限时击杀-噩梦) ",
         LengthN2 = {
         },
         MonsterT = {
         },
         LengthE = {
         },
-        victoryType = 1,
-        id = 4206,
+        victoryType = 5,
+        id = 4208,
         MonsterN4 = {
         },
         MonsterE = {
@@ -94606,11 +96024,6 @@ return {
             },
             [3] = {
                 [1] = 3,
-                [2] = 0,
-                [3] = 200,
-            },
-            [4] = {
-                [1] = 4,
                 [2] = 0,
                 [3] = 200,
             },

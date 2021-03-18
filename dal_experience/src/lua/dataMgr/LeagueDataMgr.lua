@@ -254,7 +254,6 @@ end
 
 --请求追猎计划信息 TODO
 function LeagueDataMgr:ReqHuntingDungeonInfo()
-    printError("请求追猎计划信息")
     -- Box("请求追猎计划信息")
     TFDirector:send(c2s.HUNTING_DUNGEON_REQ_HUNTING_DUNGEON_INFO, {})
 end
@@ -2296,6 +2295,10 @@ end
 
 -- 是否有奖励和我造成最大伤害
 function LeagueDataMgr:getIsRewardsAndMaxNum()
+    if not self:getCurInvade() then
+        return false, 0
+    end
+
     local isCanGetAward = false
     local maxHurtNum = 0
     local taskList = TaskDataMgr:getTask(EC_TaskType.WORLD_BOSS)
@@ -2311,6 +2314,10 @@ end
 
 -- 是否开启世界boss并且战斗过一次（红点显隐）
 function LeagueDataMgr:isWorldBossOpenRedShow()
+    if not self:getCurInvade() then
+        return false
+    end
+
     local _bool = false
     local type = self:getWorldBossInfo().type
     if type and type == 2 and FunctionDataMgr:isOpen(97) and self:isPassTimeInWorldBoss() and self:isWorldBossOpen() then

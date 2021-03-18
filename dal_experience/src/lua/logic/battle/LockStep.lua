@@ -238,7 +238,11 @@ function LockStep.synchronBossState(markID)
         end
     else
         local time = LockStep.gettime()
-        if time - this.synchronBossStateTime > BattleConfig.BOSS_STATE_SYNCHRON_TIME then
+        local limitTime = BattleConfig.BOSS_STATE_SYNCHRON_TIME
+        if battleController.useCustomAttrModle() then
+            limitTime = BattleConfig.BOSS_STATE_SYNCHRON_TIME * 4
+        end
+        if time - this.synchronBossStateTime > limitTime then
             this.synchronBossStateTime =  time
             local enemys = battleController.getEnemyMember()
             for i, enemy in ipairs(enemys) do
@@ -306,7 +310,11 @@ function LockStep.syncAIStepData(markID, lastIdx, cruIdx, params)
         return
     end
     if lastIdx > 0 then
-        this.synchronBossState(markID)
+        if battleController.useCustomAttrModle() then
+
+        else
+            this.synchronBossState(markID)
+        end
     end
     local data = {}
     data[1] = markID
@@ -515,9 +523,8 @@ function LockStep.excuteBossAction( data )
                     if dataframe.posX ~= 0 or dataframe.posY ~= 0 then
                         enemy:revStateInfoData(clone(dataframe))  
                     end
-                    enemy:fix_boss(dataframe.operate,nil,nil,nil,nil,dataframe.sp)
                 end
-                enemy:fix_boss(dataframe.operate,nil,nil,nil,dataframe.hp)
+                enemy:fix_boss(dataframe.operate,nil,nil,nil,dataframe.hp,dataframe.sp)
             end
         end
     end
@@ -618,7 +625,6 @@ end
 
 --关闭连接
 function LockStep.closeUDP()
-    printError("LockStep.closeUDP")
     if this.tb_heartbeat_timer then
         TFDirector:removeTimer(this.tb_heartbeat_timer)
         this.tb_heartbeat_timer = nil
@@ -650,7 +656,11 @@ end
 function LockStep:onRevPong(event)
     local data  = event.data
     local time  = data.time --服务器时间
-    LockStep.sendFightPing(time)
+    if tonumber(time) then
+        LockStep.sendFightPing(time)
+    else
+        LockStep.sendFightPing(tostring(ServerDataMgr:getServerTime()))
+    end
     -- dump(data)
     if data.data then
         this.netDelayTimes = {}
@@ -808,6 +818,11 @@ function LockStep:onRevStartFight(event)
     table.sort(temp,function(a ,b)
         return a.pid > b.pid
     end)
+    if #data.pids > #temp then
+        LockStep.closeUDP()
+        EventMgr:dispatchEvent(eEvent.EVENT_LEAVE)
+        return
+    end
     battleController:getBattleData().heros = temp
     LockStep.closeNetWait()
     --切换到战斗场景

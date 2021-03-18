@@ -693,7 +693,7 @@ function ExploreBattleView:doSkillEvent(eventIdx)
                 for i, musicData in ipairs(musicDatas) do
                     local volume = musicData.volume*0.01
                     local EffectVolume = TFAudio.getEffectsVolume()
-                    if EffectVolume > 0 and volume > 0 then
+                    if EffectVolume > 0 and volume > 0 and self.isOnShow then
                         TFAudio.playEffect(musicData.resource,false,1,0,volume)
                     end
                 end
@@ -1389,8 +1389,8 @@ function ExploreBattleView:getScriptSoundData(resource,action,event)
     return check(self.musicDatas[3],prams)
 end
 
-function ExploreBattleView:onShow()
-    self.super.onShow(self)
+function ExploreBattleView:onShow(state)
+    self.isOnShow = state
 end
 
 function ExploreBattleView:registerEvents()

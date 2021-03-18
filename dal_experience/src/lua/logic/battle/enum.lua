@@ -575,6 +575,19 @@ eAttrType.ATTR_2108     = 2108    --备用属性
 eAttrType.ATTR_2109     = 2109    --备用属性
 eAttrType.ATTR_2110     = 2110    --备用属性
 
+
+--定值属性使用，特定模式下使用
+eAttrType.ATTR_5000     = 5000    --攻击力
+eAttrType.ATTR_5001     = 5001    --伤害增加（比例）
+eAttrType.ATTR_5002     = 5002    --伤害减少（比例）
+eAttrType.ATTR_5003     = 5003    --暴击率
+eAttrType.ATTR_5004     = 5004    --暴击伤害
+eAttrType.ATTR_5005     = 5005    --穿透率
+eAttrType.ATTR_5006     = 5006    --穿透伤害
+eAttrType.ATTR_5811     = 5811    --伤害增加（额外技能1）
+eAttrType.ATTR_5812     = 5812    --伤害增加（额外技能2）
+eAttrType.ATTR_5813     = 5813    --伤害增加（额外技能3）
+
 enum.eAttrType = eAttrType
 
 --受击位移类型
@@ -802,6 +815,7 @@ enum.eBFEffectType =
     ET_TO_FLASH_BACK        = 14,       -- 回溯
     ET_SET_SKILL_CD         = 15,       -- 设置固定技能CD使用
     ET_EFFECT_UNABLED       = 16,       -- 屏蔽指定buff效果
+    ET_FORCE_CHANGE_SKIN    = 17,       -- 强制变换形态
 }
 
 
@@ -1153,6 +1167,16 @@ E_JX_AIM        = 257, --发动觉醒 瞄准
 
 E_REV_AIM       = 270, --受到通用瞄准
 
+E_NOT_HITED         = 290, --通用未命中
+E_NOT_PT_HITED      = 291, --普攻未命中
+E_NOT_SKILL1_HITED  = 292, --SKILL1未命中
+E_NOT_SKILL2_HITED  = 293, --SKILL2未命中
+E_NOT_CCJ_HITED     = 294, --出场技未命中
+E_NOT_DZ_HITED      = 295, --大招未命中
+E_NOT_JX_HITED      = 296, --觉醒未命中
+E_NOT_EXTRA_SKILL_1_HITED   = 297, --使用特殊技能1未命中
+E_NOT_EXTRA_SKILL_2_HITED   = 298, --使用特殊技能2未命中
+E_NOT_EXTRA_SKILL_3_HITED   = 299, --使用特殊技能3未命中
 
 E_HITED         = 300, --通用命中
 E_PT_HITED      = 301, --普攻命中
@@ -1439,6 +1463,8 @@ enum.eEvent = {
 	EVENT_SHOW__STACE_CLEAR        = "show_stace_clear"  , --战斗开始动画
 	-- EVENT_CREATE_HP_BAR            = "create_hp_bar"  , --觉醒血条
 	EVENT_HERO_DEAD                = "hero_dead"  , --角色死亡
+    EVENT_HERO_REMOVE                = "hero_remove"  , --角色非死亡移除
+
     EVENT_HERO_DEAD_BEFORE         = "hero_dead_before"  , --角色死亡前(开始渐隐小时时)
     EVENT_CAPTAIN_OFFSTAGE         = "captain_off_stage", -- 飞机 hp == 0，但还有子弹或者发射器存活
 	EVENT_ADD_COMBO                = "add_combo"  , --增加连击

@@ -56,6 +56,11 @@ function FubenDataMgr:init()
 	TFDirector:addProto(s2c.DUNGEON_RESP_GET_EXPERIMENT, self, self.onRecvMonsterTrialInfo)
 	TFDirector:addProto(s2c.DUNGEON_RESP_SETTLE_EXPERIMENT, self, self.onRecvMonsterTrialSettlement)
 
+    TFDirector:addProto(s2c.DUNGEON_RESP_GET_LINK_AGE, self, self.onRecvLinkAgeData)
+    TFDirector:addProto(s2c.DUNGEON_RESP_SET_LINK_AGE_HERO, self, self.onSetLinkAgeHeroRsp)
+    TFDirector:addProto(s2c.DUNGEON_RESP_CHANGE_LINK_AGE_DESIRE, self, self.onChangeLinkAgeDesireRsp)
+    TFDirector:addProto(s2c.DUNGEON_RESP_ATTR_CHANGE, self, self.onAttrUpRsp)
+
     -- 章节
     self.chapterMap_ = TabDataMgr:getData("DungeonChapter")
     self.chapter_ = {}
@@ -262,6 +267,7 @@ function FubenDataMgr:init()
     self.theaterControlProcess = {}
     -- 模拟试炼数据
     self.simulationTrialInfo_ = {}
+    self.isEntry = false
 end
 
 function FubenDataMgr:reset()
@@ -286,9 +292,19 @@ function FubenDataMgr:reset()
     self.presentRankList = {}
     self.simulationTrialReward = nil
     self.linkageInfo = nil
+    self.attrUpData = nil
+    self.linkAgeHeros = nil
+    self.jiBanHero = nil
+    self.limitHeros_ = {}
+    self.originLevelFormation_ = {}
+    self.levelFormation_ = {}
+    self.isEntry = false
+    self.entryFirstLevelTimes = 0
 
     ---阵容排序默认排序ID
     self.formationSortRuleId = 5
+    self.enterNianshouChanllenge = nil -- 特殊标记重置
+
 end
 
 function FubenDataMgr:setFormationSortRuleId(ruleId)
@@ -438,6 +454,13 @@ function FubenDataMgr:getChapter(fubenType, notSort)
                 end)
             end
         elseif fubenType == EC_FBType.ACTIVITY then
+            -- 指定活动副本 但不需要展示在作战活动里面
+            for i, v in ipairs(chapter) do
+                if v == EC_ActivityFubenType.SNOW_FESVITAL then
+                    table.remove(chapter, i)
+                end
+            end 
+
             local openList = {}
             for i, v in ipairs(chapter) do
                 if self:getActivityChapterIsOpen(v) then
@@ -631,6 +654,8 @@ function FubenDataMgr:getLevelName(levelCid)
         return TextDataMgr:getText(levelCfg.name)
     elseif levelCfg.dungeonType == EC_FBLevelType.MUSIC_GAME then
         return TextDataMgr:getText(levelCfg.name)
+    elseif levelCfg.dungeonType == EC_FBLevelType.PRACTICE then
+        return TextDataMgr:getText(levelCfg.name)
     end
     local levelGroupCfg = self:getLevelGroupCfg(levelCfg.levelGroupId)
     local chapterCfg = self:getChapterCfg(levelGroupCfg.dungeonChapterId)
@@ -707,6 +732,12 @@ function FubenDataMgr:isPassPlotLevel(levelCid)
     return isPass
 end
 
+function FubenDataMgr:isPreFramePassPlotLevel(levelCid) -- 上一帧是否通关
+    local levelInfo = self.tmpLevelInfo and  self.tmpLevelInfo[levelCid] or self.levelInfo_[levelCid]
+    local isPass = tobool(levelInfo and levelInfo.win)
+    return isPass
+end
+
 function FubenDataMgr:isPassPlotLevelGroup(levelGroupId, diff)
     local levelGroupCfg = self.levelGroupMap_[levelGroupId]
     local isPass = true
@@ -746,6 +777,25 @@ function FubenDataMgr:checkPlotChapterEnabled(chapterCid, diff)
     end
     return enabled
 end
+
+function FubenDataMgr:checkGroupEnabled(groupId, diff)
+    local enabled = false
+    local firstLevelCid = self:getLevel(groupId, diff)[1]
+    if firstLevelCid then
+        enabled = self:checkPlotLevelEnabled(firstLevelCid)
+    end
+    return enabled
+end
+
+function FubenDataMgr:checkPreFrameGroupEnabled(groupId, diff)
+    local enabled = false
+    local firstLevelCid = self:getLevel(groupId, diff)[1]
+    if firstLevelCid then
+        enabled = self:checkPreFramePlotLevelEnabled(firstLevelCid)
+    end
+    return enabled
+end
+
 
 function FubenDataMgr:getNextPlotChapterCid(chapterCid)
     local chapterCfg = self:getChapterCfg(chapterCid)
@@ -813,6 +863,58 @@ function FubenDataMgr:checkPlotLevelEnabled(levelId)
                 break
             end
         end
+
+        local otherPreCond = levelCfg.otherPreCond
+        local curTime = ServerDataMgr:getServerTime()
+        if otherPreCond and preIsOpen then
+            for k,v in pairs(otherPreCond) do
+                if k == "time" then
+                    if curTime < v[1] or curTime > v[2] then
+                        preIsOpen = false
+                        break
+                    end
+                end
+            end
+        end
+        
+        levelIsOpen = MainPlayer:getPlayerLv() >= levelCfg.playerLv
+        enabled = preIsOpen and levelIsOpen
+    end
+    return enabled, preIsOpen, levelIsOpen
+end
+
+function FubenDataMgr:checkPreFramePlotLevelEnabled(levelId)
+    local enabled = false
+    local levelIsOpen = false
+    local preIsOpen = false
+    if self:isPreFramePassPlotLevel(levelId) then
+        enabled = true
+        levelIsOpen = true
+        preIsOpen = true
+    else
+        local levelCfg = self:getLevelCfg(levelId)
+        preIsOpen = true
+        local preLevelId = levelCfg.preLevelId
+        for i, v in ipairs(preLevelId) do
+            preIsOpen = preIsOpen and self:isPreFramePassPlotLevel(v)
+            if not preIsOpen then
+                break
+            end
+        end
+
+        local otherPreCond = levelCfg.otherPreCond
+        local curTime = ServerDataMgr:getServerTime()
+        if otherPreCond and preIsOpen then
+            for k,v in pairs(otherPreCond) do
+                if k == "time" then
+                    if curTime < v[1] or curTime > v[2] then
+                        preIsOpen = false
+                        break
+                    end
+                end
+            end
+        end
+        
         levelIsOpen = MainPlayer:getPlayerLv() >= levelCfg.playerLv
         enabled = preIsOpen and levelIsOpen
     end
@@ -846,7 +948,7 @@ function FubenDataMgr:getStarRuleDesc(levelId, pos)
     local levelCfg = self.levelMap_[levelId]
     local desc = ""
     if levelCfg.dungeonType == EC_FBLevelType.FIGHTING or levelCfg.dungeonType == EC_FBLevelType.THEATER_FIGHTING
-            or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_FIGHTING or levelCfg.dungeonType == EC_FBLevelType.HWX then
+            or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_FIGHTING or levelCfg.dungeonType == EC_FBLevelType.HWX or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_DATING or levelCfg.dungeonType == EC_FBLevelType.DICUO_MAINFIGHT then
         local starParam = levelCfg.starParam
         local starRule = levelCfg.starType
         local rule = starRule[pos]
@@ -861,7 +963,7 @@ function FubenDataMgr:getStarRuleDesc(levelId, pos)
             desc = TextDataMgr:getText(starDesc, starParam[pos])
         end
         return desc
-    elseif levelCfg.dungeonType == EC_FBLevelType.DATING or levelCfg.dungeonType == EC_FBLevelType.THEATER_DATING or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_DATING then
+    elseif levelCfg.dungeonType == EC_FBLevelType.DATING or levelCfg.dungeonType == EC_FBLevelType.THEATER_DATING or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_DATING or levelCfg.dungeonType == EC_FBLevelType.DICUO_MAINDATING then
         pos = 1
         local datingID = levelCfg.datingID[#levelCfg.datingID]
         if datingID then
@@ -1578,7 +1680,7 @@ end
 
 function FubenDataMgr:makeFormationData(heroData, type_, id)
     return {
-        data = heroData,
+        data = clone(heroData),
         type = type_,
         id = id,
     }
@@ -1588,25 +1690,30 @@ function FubenDataMgr:enterFirstPlotLevel()
     local chapter = self:getChapter(EC_FBType.PLOT)
     local firstLevelCid = self:getChapterFirstLevel(chapter[1], EC_FBDiff.SIMPLE)
     firstLevelCid = 101101
-    local isEntry = false
+    self.isEntry = false
     if not self:isPassPlotLevel(firstLevelCid) then
-        isEntry = true
-        local levelCfg = self:getLevelCfg(firstLevelCid)
-        local levelGroupCfg = self:getLevelGroupCfg(levelCfg.levelGroupId)
-        local chapterCfg = self:getChapterCfg(levelGroupCfg.dungeonChapterId)
-        self:cacheSelectFubenType(chapterCfg.type)
-        self:cacheSelectChapter(levelGroupCfg.dungeonChapterId)
-        self:cacheSelectLevel(firstLevelCid)
-        local formationData = self:getInitFormation(firstLevelCid)
-        HeroDataMgr:changeDataByFuben(firstLevelCid, formationData)
-        local heros = {}
-        for i, v in ipairs(formationData) do
-            table.insert(heros, {v.type, v.id})
+        if self:getLimitHero(1000) and not self.isEntry then
+            self.isEntry = true
+            local levelCfg = self:getLevelCfg(firstLevelCid)
+            local levelGroupCfg = self:getLevelGroupCfg(levelCfg.levelGroupId)
+            local chapterCfg = self:getChapterCfg(levelGroupCfg.dungeonChapterId)
+            self:cacheSelectFubenType(chapterCfg.type)
+            self:cacheSelectChapter(levelGroupCfg.dungeonChapterId)
+            self:cacheSelectLevel(firstLevelCid)
+            local formationData = self:getInitFormation(firstLevelCid)
+            HeroDataMgr:changeDataByFuben(firstLevelCid, formationData)
+            local heros = {}
+            for i, v in ipairs(formationData) do
+                table.insert(heros, {v.type, v.id})
+            end
+            local battleController = require("lua.logic.battle.BattleController")
+            battleController.requestFightStart(firstLevelCid, 0, 0, heros, 0, false)
+        else
+            TFDirector:send(c2s.DUNGEON_LIMIT_HERO_DUNGEON, {firstLevelCid})
         end
-        local battleController = require("lua.logic.battle.BattleController")
-        battleController.requestFightStart(firstLevelCid, 0, 0, heros, 0, false)
+        return true
     end
-    return isEntry
+    return false
 end
 
 --返回角色额外的skinIDs[灵装试用功能]
@@ -1808,8 +1915,10 @@ end
 
 function FubenDataMgr:getSpriteChallengeRemainCount()
     local count = self:getSpriteChallengeTotalCount()
-    local remainCount = count - self.spriteChallengeInfo_.count
-    return remainCount
+    if count and self.spriteChallengeInfo_.count then
+        return count - self.spriteChallengeInfo_.count
+    end
+    return 0
 end
 
 function FubenDataMgr:getSpriteChallengeTotalCount()
@@ -2249,7 +2358,7 @@ function FubenDataMgr:checkTheaterChapterEnabled(chapterCid)
     local levels = self:getTheaterDungeonLevel(chapterCid)
     local chapterCfg = self:getChapterCfg(chapterCid)
     local condEnabled = false
-    for i, v in ipairs(levels) do
+    for i, v in ipairs(levels or {}) do
         if self:checkTheaterLevelEnabled(v) then
             condEnabled = true
             break
@@ -2425,6 +2534,8 @@ function FubenDataMgr:onRecvAllLevelInfo(event)
 end
 
 function FubenDataMgr:onRecvLevelInfo(event)
+    self.tmpLevelInfo = clone(self.levelInfo_)
+    self.tmpLevelGroupInfo = clone(self.levelGroupInfo_)
 	print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FubenDataMgr:onRecvLevelInfo=");
     local data = event.data
     if data.levelInfos then
@@ -2451,9 +2562,17 @@ function FubenDataMgr:onRecvLevelInfo(event)
         end
     end
     EventMgr:dispatchEvent(EV_FUBEN_LEVELINFOUPDATE)
+    self:dasyncLevelInfo()
+end
+
+function FubenDataMgr:dasyncLevelInfo( ... )
+    -- body
+    self.tmpLevelInfo = clone(self.levelInfo_)
+    self.tmpLevelGroupInfo = clone(self.levelGroupInfo_)
 end
 
 function FubenDataMgr:onRecvFightStart(event)
+    AlertManager:closeLayerByName("EnhuiSquadView")
     AlertManager:closeLayerByName("FubenSquadView")
     local data = event.data
     if data.helpPid ~= 0 then
@@ -2477,7 +2596,7 @@ function FubenDataMgr:onRecvFightStart(event)
             battleController.enterBattle(data, EC_BattleType.COMMON)
         end
         EventMgr:dispatchEvent(EV_BATTLE_FIGHTSTART)
-    elseif levelCfg.dungeonType == EC_FBLevelType.DATING or levelCfg.dungeonType == EC_FBLevelType.THEATER_DATING or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_DATING then
+    elseif levelCfg.dungeonType == EC_FBLevelType.DATING or levelCfg.dungeonType == EC_FBLevelType.THEATER_DATING or levelCfg.dungeonType == EC_FBLevelType.KUANGSAN_DATING  or levelCfg.dungeonType == EC_FBLevelType.DICUO_MAINDATING then
         DatingDataMgr:sendGetSciptMsg(EC_DatingScriptType.FUBEN_SCRIPT,nil,nil, levelCfg.datingID[1])
     elseif levelCfg.dungeonType == EC_FBLevelType.CITYDATING then
         NewCityDataMgr:sendGetCitySetpData(EC_NewCityType.NewCity_FuBen, levelCfg.datingID[1], RoleDataMgr:getCurId())
@@ -2514,6 +2633,11 @@ function FubenDataMgr:onRecvFightStart(event)
         battleController.enterBattle(data, EC_BattleType.COMMON)
     elseif levelCfg.dungeonType == EC_FBLevelType.WORLD_BOSS then
         battleController.enterBattle(data, EC_BattleType.COMMON)
+    elseif levelCfg.dungeonType == EC_FBLevelType.DICUO_MAINFIGHT
+            or levelCfg.dungeonType == EC_FBLevelType.DICUO_ENHUI
+            or levelCfg.dungeonType == EC_FBLevelType.DICUO_HUALUN
+            or levelCfg.dungeonType == EC_FBLevelType.DICUO_JIBAN 
+            or levelCfg.dungeonType == EC_FBLevelType.SNOW_FESTIVAL then
     elseif levelCfg.dungeonType == EC_FBLevelType.ENDLESS_PLUSS then
         battleController.enterBattle(data, EC_BattleType.COMMON)
     end
@@ -2523,6 +2647,8 @@ end
 function FubenDataMgr:onRecvFightOver(event)
 	print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FubenDataMgr:onRecvFightOver=");
     local data = event.data
+    BattleDataMgr:setBattleResutlOrgData(data)
+
     local levelInfo = data.levelInfo
     local dropReward = data.rewards or {}
     local isWin = data.win
@@ -2532,6 +2658,10 @@ function FubenDataMgr:onRecvFightOver(event)
         if levelInfo.win then
             local levelGroupCfg = self:getLevelGroupCfg(levelCfg.levelGroupId)
             local rawUnlock = self:isPassPlotLevel(levelInfo.cid)
+            if not self.levelInfo_[101101] and levelCfg.id == 101101 then  --首次通关第一关要上报
+                Utils:sendHttpLog("numerical_fight_over")
+            end
+
             self.levelInfo_[data.levelInfo.cid] = levelInfo
             if not rawUnlock then
                 if levelCfg.lastOne then
@@ -2694,7 +2824,11 @@ function FubenDataMgr:onRecvLimitHeros(event)
 
     local data = event.data
     -- print("==============",data)
-    if not data.heros then return end
+    if not data.heros or #data.heros < 1 then 
+        local errMsg = string.format("recv no limitheroinfos: levelCid=%s",tostring(data.leveId))
+        Bugly:ReportLuaException(errMsg)
+        return
+    end
     for i, v in ipairs(data.heros) do
         local newAttr = {}
         for _, attr in pairs(v.heros.attr) do
@@ -2714,6 +2848,17 @@ function FubenDataMgr:onRecvLimitHeros(event)
     EventMgr:dispatchEvent(EV_FUBEN_UPDATE_LIMITHERO)
     if self.requestLimitInfo then
         self:enterMusicGameLevel()
+    end
+    if data.leveId == 101101 then
+        self.entryFirstLevelTimes = self.entryFirstLevelTimes or 0
+        if self.entryFirstLevelTimes > 10 then
+            
+        else
+            if not self:isPassPlotLevel(101101) then
+                self.entryFirstLevelTimes = self.entryFirstLevelTimes + 1
+                self:enterFirstPlotLevel()
+            end
+        end
     end
 end
 
@@ -3403,6 +3548,179 @@ function FubenDataMgr:getBossChallengeCurLevel()
     end
 end
 
+function FubenDataMgr:onRecvLinkAgeData( event )
+    -- body
+    local data = event.data
+    if not data then return end
+    self.linkAgeHeros = data.linkHero or {}
+    self.jiBanHero = data.additionHero or {}
+end
+
+function FubenDataMgr:onSetLinkAgeHeroRsp( event )
+    -- body
+    local data = event.data
+    if not data then return end
+    local hasChange = false
+    for k,v in ipairs(self.linkAgeHeros) do
+        if v.index == data.linkHero.index then
+            self.linkAgeHeros[k] = data.linkHero
+            hasChange = true
+            break
+        end
+    end
+
+    if not hasChange then
+        table.insert(self.linkAgeHeros,data.linkHero)
+    end
+    EventMgr:dispatchEvent(EV_LINKAGE_HERO_UPDATE)
+end
+
+function FubenDataMgr:onChangeLinkAgeDesireRsp( event )
+    -- body
+    local data = event.data
+    if not data then return end
+    for k,v in ipairs(self.linkAgeHeros) do
+        if v.heroId == data.heroId then
+            v.desire = data.attributeId
+            break
+        end
+    end
+    EventMgr:dispatchEvent(EV_LINKAGE_HERO_UPDATE)
+end
+
+function FubenDataMgr:onAttrUpRsp( event )
+    -- body
+    local data = event.data
+    if not data then return end
+    self.attrUpData = data
+    EventMgr:dispatchEvent(EV_LINKAGE_ATTR_LEVELUP)
+end
+
+function FubenDataMgr:getLinkAgeHeros( ... )
+    -- body
+    return self.linkAgeHeros or {}
+end
+
+function FubenDataMgr:getJiBanHero( ... )
+    -- body
+    return self.jiBanHero or {}
+end
+
+function FubenDataMgr:getShowAttrUpData(  )
+    -- body
+    return self.attrUpData
+end
+
+function FubenDataMgr:clearAttrUpData(  )
+    -- body
+    self.attrUpData = nil
+end
+
+function FubenDataMgr:getGraceMaxExp( level )
+    -- body
+    local graceCfg = TabDataMgr:getData("Grace",level)
+
+    return graceCfg.expToNextLevel == 0 and 1 or graceCfg.expToNextLevel
+    
+end
+
+function FubenDataMgr:getGraceBaseAttr( level )
+    -- body
+    local graceCfg = TabDataMgr:getData("Grace",level)
+
+    return graceCfg.updateAttrType
+    
+end
+
+function FubenDataMgr:getLinkAgeHeroAttrs( heroData )
+    local attrs = {}
+    local attrCfg = clone(FubenDataMgr:getGraceBaseAttr(heroData.level))
+    
+    for k,v in ipairs(heroData.attrs or {}) do
+        attrCfg[v.attributeId] = attrCfg[v.attributeId] + v.value
+    end
+    for _k,_v in pairs(attrCfg) do
+        table.insert(attrs,{attributeId = _k, value = _v})
+    end
+
+    return attrs
+end
+
+function FubenDataMgr:getLinkAgeHeroLevel( heroId )
+    -- body
+    for k,v in pairs(self.linkAgeHeros) do
+        if v.heroId == heroId then
+            return v.level - 1, v.exp, self:getGraceMaxExp(v.level)
+        end
+    end
+    return 0, 0, self:getGraceMaxExp(1)
+end
+
+
+function FubenDataMgr:isUnlockGraceLevel( level )
+    -- body
+    local graceCfg = TabDataMgr:getData("Grace",level)
+
+    if graceCfg.expToNextLevel == 0 then return false end
+    for k,v in ipairs(graceCfg.levelUnlockCond or {}) do
+        if k == 1 and not self:isPassPlotLevel(v) then
+            return false
+        end
+    end
+    return true
+end
+
+function FubenDataMgr:checkSitIsLock( groupId, index )
+    -- body
+    local groupCfg = self:getLevelGroupCfg(groupId)
+    local ext = groupCfg.ext
+    local cond = ext.unlock[index]
+    for k,v in pairs(cond) do
+        if k == "dungeonid" and not self:isPassPlotLevel(v) then
+            return true
+        elseif k == "heroid" and not HeroDataMgr:getIsHave(v) then
+            return true
+        end
+    end
+    return false
+end
+
+function FubenDataMgr:getLinkAgeHeroAttrsByHeroId( heroId )
+    local heroData = nil
+     -- body
+    for k,v in pairs(self.linkAgeHeros) do
+        if v.heroId == heroId then
+            heroData = v
+        end
+    end
+
+    if not heroData then return {} end
+
+    local attrs = {}
+    local attrCfg = clone(FubenDataMgr:getGraceBaseAttr(heroData.level))
+    
+    for k,v in ipairs(heroData.attrs or {}) do
+        attrCfg[v.attributeId] = attrCfg[v.attributeId] + v.value
+    end
+   
+    return attrCfg
+end
+
+
+function FubenDataMgr:SEND_DUNGEON_REQ_GET_LINK_AGE(  )
+    -- body
+    TFDirector:send(c2s.DUNGEON_REQ_GET_LINK_AGE,{})
+end
+
+function FubenDataMgr:SEND_DUNGEON_REQ_SET_LINK_AGE_HERO( ... )
+    -- body
+    TFDirector:send(c2s.DUNGEON_REQ_SET_LINK_AGE_HERO,{...})
+end
+
+function FubenDataMgr:SEND_DUNGEON_REQ_CHANGE_LINK_AGE_DESIRE( ... )
+    -- body
+    TFDirector:send(c2s.DUNGEON_REQ_CHANGE_LINK_AGE_DESIRE,{...})
+end
 function FubenDataMgr:setReopenFlag(flag)
     self.reOpen = flag
 end

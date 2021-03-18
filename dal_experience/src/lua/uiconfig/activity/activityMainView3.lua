@@ -131,7 +131,7 @@ local t =
 							height = "566",
 							ignoreSize = "False",
 							innerHeight = "574",
-							innerWidth = "216",
+							innerWidth = "217",
 							name = "ScrollView_activity",
 							showScrollbar = "False",
 							sizepercentx = "0",
@@ -141,15 +141,15 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = -570,
-								PositionY = -35,
+								PositionX = -574,
+								PositionY = -32,
 							},
 							uipanelviewmodel = 
 							{
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "216",
+							width = "217",
 							ZOrder = "1",
 						},
 						{
@@ -177,8 +177,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 102,
-								PositionY = -34,
+								PositionX = 103,
+								PositionY = -22,
 							},
 							uipanelviewmodel = 
 							{
@@ -216,7 +216,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 561,
-						PositionY = -276,
+						PositionY = -285,
 						LeftPositon = -7,
 						TopPosition = 675,
 						relativeToName = "Panel",
@@ -248,7 +248,7 @@ local t =
 							DesignType = "0",
 							DesignWidth = "960",
 							dstBlendFunc = "771",
-							height = "98",
+							height = "82",
 							ignoreSize = "False",
 							name = "Panel_activityItem",
 							sizepercentx = "0",
@@ -266,7 +266,7 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							width = "216",
+							width = "217",
 							ZOrder = "1",
 							components = 
 							{
@@ -280,21 +280,21 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "98",
+									height = "82",
 									ignoreSize = "True",
 									name = "ImageNormal",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/activity/picture/icon208.png",
+									texturePath = "ui/activity/activityStyle/mainFrame/styleCur/003-1.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
 									visible = "False",
-									width = "216",
+									width = "217",
 									ZOrder = "1",
 									components = 
 									{
@@ -308,7 +308,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFFFFFFF",
+											FontColor = "#FFBBE0F8",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -318,14 +318,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF6B26AB",
+												StrokeColor = "#FF5472A2",
 												StrokeSize = 2,
 											},
-											height = "34",
+											height = "31",
 											ignoreSize = "True",
 											name = "activityName",
 											nTextAlign = "0",
@@ -342,7 +342,7 @@ local t =
 												PositionX = 85,
 												PositionY = -32,
 											},
-											width = "101",
+											width = "93",
 											ZOrder = "1",
 										},
 										{
@@ -365,8 +365,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 79,
-												PositionY = 36,
+												PositionX = 84,
+												PositionY = 32,
 											},
 											width = "30",
 											ZOrder = "1",
@@ -382,20 +382,20 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "98",
+									height = "82",
 									ignoreSize = "True",
 									name = "ImageSelect",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/activity/picture/icon208.png",
+									texturePath = "ui/activity/activityStyle/mainFrame/styleCur/003.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "216",
+									width = "217",
 									ZOrder = "1",
 									components = 
 									{
@@ -419,14 +419,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "24",
+											fontSize = "22",
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FFD47E21",
+												StrokeColor = "#FF31599B",
 												StrokeSize = 2,
 											},
-											height = "34",
+											height = "31",
 											ignoreSize = "True",
 											name = "activityName",
 											nTextAlign = "0",
@@ -443,7 +443,7 @@ local t =
 												PositionX = 85,
 												PositionY = -32,
 											},
-											width = "102",
+											width = "91",
 											ZOrder = "1",
 										},
 										{
@@ -466,8 +466,8 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = 79,
-												PositionY = 36,
+												PositionX = 84,
+												PositionY = 32,
 											},
 											width = "30",
 											ZOrder = "1",
@@ -490,8 +490,9 @@ local t =
 		textures = 
 		{
 			"ui/activity/activityStyle/mainFrame/styleCur/bg.png",
-			"ui/activity/picture/icon208.png",
+			"ui/activity/activityStyle/mainFrame/styleCur/003-1.png",
 			"ui/common/news_small.png",
+			"ui/activity/activityStyle/mainFrame/styleCur/003.png",
 		},
 		armatures = 
 		{

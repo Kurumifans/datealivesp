@@ -673,6 +673,9 @@ end
 
 function NewSceneShowView:onHide()
     self.super.onHide(self)
+    if self.model then
+        self.model:stopTimer()
+    end
 end
 
 function NewSceneShowView:onShow()

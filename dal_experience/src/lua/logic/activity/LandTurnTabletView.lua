@@ -56,7 +56,6 @@ function LandTurnTabletView:registerEvents()
     EventMgr:addEventListener(self, EV_LAND_TURNTABLET_REWARD, handler(self.onRecvReward, self))
     EventMgr:addEventListener(self, EV_LAND_TURNTABLET_RANK, handler(self.onRecvRankData, self))
     EventMgr:addEventListener(self, EV_BAG_ITEM_UPDATE, handler(self.refreshOtherUI, self))
-    EventMgr:addEventListener(self, EV_ACTIVITY_SUBMIT_SUCCESS, handler(self.onSubmitSuccessEvent, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(self.refreshTaskReward, self))
     EventMgr:addEventListener(self, EV_STORE_BUYRESOURCE, handler(self.onBuyResourceEvent, self))
 
@@ -311,6 +310,7 @@ function LandTurnTabletView:refreshOtherUI()
 end
 
 function LandTurnTabletView:onSubmitSuccessEvent(activitId, itemId, reward)
+    if self.activityId ~= activitId then return end
     Utils:showReward(reward)
 end
 
@@ -367,7 +367,8 @@ function LandTurnTabletView:isFinishAllRound()
 end
 
 function LandTurnTabletView:onRecvRankData(rankData)
-    Utils:openView("activity.LandTurnTabletRankView", rankData, self:isFinishAllRound())
+    local turnNum, sumNum = self:getCurTurnNumAndSum()
+    Utils:openView("activity.LandTurnTabletRankView", rankData, self:isFinishAllRound(), (sumNum - turnNum))
     self._ui.btn_rank:setTouchEnabled(true)
     ActivityDataMgr2:setLandTabletRankRedFalse()
 end

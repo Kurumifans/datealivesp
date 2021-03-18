@@ -96,7 +96,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "640",
+							height = "625",
 							ignoreSize = "True",
 							name = "Image_bg",
 							sizepercentx = "0",
@@ -110,7 +110,7 @@ local t =
 								PositionX = -12,
 								PositionY = -2,
 							},
-							width = "1386",
+							width = "1055",
 							ZOrder = "1",
 							components = 
 							{
@@ -358,7 +358,7 @@ local t =
 							fontStroke = 
 							{
 								IsStroke = true,
-								StrokeColor = "#FF5A4296",
+								StrokeColor = "#FF3547CB",
 								StrokeSize = 2,
 							},
 							height = "39",
@@ -376,8 +376,8 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 83,
-								PositionY = -104,
+								PositionX = 75,
+								PositionY = -66,
 							},
 							width = "245",
 							ZOrder = "1",
@@ -386,12 +386,12 @@ local t =
 							controlID = "label_dress_name_Panel_root_Panel-callbackShareView_Layer1_activity_Game",
 							UUID = "c6367cf8_5ae5_4a8b_984f_a360796ac224",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
+							anchorPointX = "0",
 							anchorPointY = "0.5",
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF19386D",
+							FontColor = "#FFFAD592",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -401,19 +401,19 @@ local t =
 								OffsetX = 0,
 								OffsetY = 0,
 							},
-							fontSize = "34",
+							fontSize = "33",
 							fontStroke = 
 							{
-								IsStroke = false,
-								StrokeColor = "#FFE6E6E6",
-								StrokeSize = 1,
+								IsStroke = true,
+								StrokeColor = "#FFD9872B",
+								StrokeSize = 2,
 							},
-							height = "42",
+							height = "45",
 							ignoreSize = "True",
 							name = "label_dress_name",
 							nTextAlign = "0",
 							nTextHAlign = "0",
-							rotation = "-9",
+							rotation = "66",
 							sizepercentx = "0",
 							sizepercenty = "0",
 							sizeType = "0",
@@ -423,10 +423,10 @@ local t =
 							touchScaleEnable = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 139,
-								PositionY = 153,
+								PositionX = -362,
+								PositionY = 133,
 							},
-							width = "138",
+							width = "137",
 							ZOrder = "1",
 						},
 					},

@@ -1781,7 +1781,7 @@ return {
     },
     [97] = {
         isOpen = true,
-        openLevel = 99,
+        openLevel = 1,
         isStinger = false,
         id = 97,
         openDun = 0,

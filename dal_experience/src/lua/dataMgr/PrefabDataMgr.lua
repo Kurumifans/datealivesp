@@ -66,6 +66,9 @@ function PrefabDataMgr:set_Panel_goodsItem(item, idOrCid, count, level, isNotAcc
     if type(idOrCid) == "string" then
         id = idOrCid
         local itemInfo = GoodsDataMgr:getSingleItem(id)
+        if not itemInfo then
+            return
+        end
         cid = itemInfo.cid
         level = itemInfo.level
         if not level then

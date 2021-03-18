@@ -93,7 +93,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "546",
+							height = "547",
 							ignoreSize = "True",
 							name = "bg",
 							sizepercentx = "0",
@@ -106,7 +106,7 @@ local t =
 							{
 								PositionX = -2,
 							},
-							width = "890",
+							width = "891",
 							ZOrder = "1",
 							components = 
 							{
@@ -120,7 +120,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "88",
+									height = "142",
 									ignoreSize = "True",
 									name = "Image_title",
 									sizepercentx = "0",
@@ -131,10 +131,10 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -43,
-										PositionY = 64,
+										PositionX = 294,
+										PositionY = 70,
 									},
-									width = "290",
+									width = "298",
 									ZOrder = "1",
 								},
 							},
@@ -148,7 +148,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF737594",
+							FontColor = "#FFA82826",
 							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
@@ -750,7 +750,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "200",
 									ZOrder = "1",
 									components = 
@@ -806,7 +805,6 @@ local t =
 													{
 														PositionY = -1,
 													},
-													visible = "False",
 													width = "106",
 													ZOrder = "1",
 													components = 
@@ -896,7 +894,7 @@ local t =
 															classname = "MELabel",
 															compPath = "luacomponents.common.MEIconLabel",
 															dstBlendFunc = "771",
-															FontColor = "#FF737594",
+															FontColor = "#FF6E8DD0",
 															fontName = "font/MFLiHei_Noncommercial.ttf",
 															fontShadow = 
 															{
@@ -906,14 +904,14 @@ local t =
 																OffsetX = 0,
 																OffsetY = 0,
 															},
-															fontSize = "22",
+															fontSize = "20",
 															fontStroke = 
 															{
 																IsStroke = false,
 																StrokeColor = "#FFE6E6E6",
 																StrokeSize = 1,
 															},
-															height = "27",
+															height = "25",
 															ignoreSize = "True",
 															name = "Label_ing_num",
 															nTextAlign = "1",
@@ -930,7 +928,7 @@ local t =
 															{
 																PositionY = 11,
 															},
-															width = "44",
+															width = "40",
 															ZOrder = "1",
 														},
 													},
@@ -1099,7 +1097,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FF737594",
+							FontColor = "#FFB958A6",
 							fontName = "font/fangzheng_zhunyuan.ttf",
 							fontShadow = 
 							{
@@ -1159,8 +1157,8 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 404,
-								PositionY = 245,
+								PositionX = 400,
+								PositionY = -156,
 							},
 							UItype = "Button",
 							width = "53",

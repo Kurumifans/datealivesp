@@ -2366,7 +2366,7 @@ local t =
 											height = "44",
 											ignoreSize = "False",
 											name = "Button_exchange",
-											normal = "ui/balloon/18.png",
+											normal = "ui/activity/2021_spring/fireWorks/pop/004.png",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -2391,7 +2391,7 @@ local t =
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
-													FontColor = "#FFFFFFFF",
+													FontColor = "#FF842540",
 													fontName = "font/fangzheng_zhunyuan.ttf",
 													fontShadow = 
 													{
@@ -2423,6 +2423,7 @@ local t =
 													UILayoutViewModel = 
 													{
 														PositionX = 17,
+														PositionY = 1,
 													},
 													width = "47",
 													ZOrder = "1",
@@ -3378,7 +3379,7 @@ local t =
 			"ui/fairy/new_ui/levelBg.png",
 			"ui/playerInfo/new/c455.png",
 			"ui/playerInfo/new/c454.png",
-			"ui/balloon/18.png",
+			"ui/activity/2021_spring/fireWorks/pop/004.png",
 			"ui/chat/button01.png",
 			"ui/playerInfo/playerView/020.png",
 			"ui/playerInfo/playerView/022.png",

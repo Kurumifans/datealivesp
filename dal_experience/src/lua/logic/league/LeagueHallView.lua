@@ -915,8 +915,12 @@ function LeagueHallView:registerEvents()
     end)
 
     self.Button_kick:onClick(function()
+        local name = ""
         local info = LeagueDataMgr:getMemberInfoByPlayerId(self.selectMemberId)
-        showChooseMessageBox(TextDataMgr:getText(270450), TextDataMgr:getText(270451, info.name), function()
+        if info and info.name then
+            name = info.name
+        end
+        showChooseMessageBox(TextDataMgr:getText(270450), TextDataMgr:getText(270451, name), function()
             print("showChooseMessageBox-----------", self.selectMemberId)
             AlertManager:close()
             LeagueDataMgr:operateUnionMember(EC_UNIONType.KICK, {self.selectMemberId})

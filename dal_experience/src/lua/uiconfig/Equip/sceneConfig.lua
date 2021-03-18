@@ -149,5 +149,15 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="tokenReviewLayer",
+			ui ="tokenReviewLayer.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="Equip",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

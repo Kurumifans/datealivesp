@@ -389,5 +389,25 @@ local t = {
 			canLoad=true,
 			logic="",
 		},
+		{
+			name="reConfirmTipsView1",
+			ui ="reConfirmTipsView1.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="common",
+			canLoad=true,
+			logic="",
+		},
+		{
+			name="buyPhysicalPowerView",
+			ui ="buyPhysicalPowerView.lua",
+			x=0,
+			y=0,
+			speed=0,
+			layer="common",
+			canLoad=true,
+			logic="",
+		},
 }
 return t

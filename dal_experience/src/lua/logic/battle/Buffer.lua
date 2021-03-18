@@ -56,7 +56,7 @@ function Buffer:update(dt)
     end
 end
 function Buffer:clear()
-    self:removeFromMgr()
+
 end
 
 --添加到管理器
@@ -349,7 +349,30 @@ end
 
 --概率触发
 function Buffer:triggerTest()
-
+    --特定目标检测生效与否
+    if self.data.effective and table.count(self.data.effective) > 0 then
+        if self.data.effective[1] then
+            local flag = false
+            for k,targetId in pairs(self.data.effective[1]) do
+                if self.host:getData().id == targetId then
+                    flag = true
+                end
+            end
+            if not flag then
+                return
+            end
+        elseif self.data.effective[2] then
+            local flag = false
+            for k,targetId in pairs(self.data.effective[2]) do
+                if self.host:getData().id == targetId then
+                    flag = true
+                end
+            end
+            if flag then
+                return
+            end
+        end
+    end
     print("triggerTest buffer id",self.data.id , self.probability)
     --TODO 概率触发暂时屏蔽
     if BattleUtils.triggerTest10000(self.probability) then
@@ -385,12 +408,6 @@ function Buffer:trigger()
     end
 end
 function Buffer:triggerOnce(takeObj,data)
-        -- Box("self.probability111:"..tostring(self.probability))
-    -- if not data.effectPosition then  --false 时必须出战才能生效
-    --     if not takeObj:isFight() then
-    --         return
-    --     end
-    -- end
         --免疫负面效果
         if takeObj:isAState(eAState.E_MIANYI_DBUFF) then
             if data.benefitType >= 2 then
@@ -404,14 +421,7 @@ function Buffer:triggerOnce(takeObj,data)
             end
         end
 
-        if self.data.statestrike and #self.data.statestrike > 0 then
-            for i,state in ipairs(self.data.statestrike) do
-                if takeObj:isAState(state) then
-                    return
-                end
-            end
-        end
-
+        --受目标状态影响
         if not self:checkAttrChangeState(takeObj,data) then
             return
         end
@@ -496,10 +506,12 @@ function Buffer:triggerOnce(takeObj,data)
 end
 
 function Buffer:checkAttrChangeState(takeObj,data)
-    if data.attributeGrow and data.attributeGrow > 0 then
-        if data.attributeGrow == eAttrType.ATTR_MOVE_SPEED then
-            if takeObj:isAState(eAState.E_MOVE_SPEED_MY) then
-                return false
+    if data.attributeGrow and data.attributeGrow > 0 and (data.effectNum < 0 or data.ratio < 0) then
+        if data.statestrike and #data.statestrike > 0 then
+            for i,state in ipairs(data.statestrike) do
+                if takeObj:isAState(state) then
+                    return false
+                end
             end
         end
     end

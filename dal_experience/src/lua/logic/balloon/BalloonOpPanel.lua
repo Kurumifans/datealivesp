@@ -1,4 +1,9 @@
 --[[
+version: creator 2.4.1
+Author: 张鹏程
+Date: 2020-11-10 11:30:14
+--]]
+--[[
 *                       .::::.
 *                     .::::::::.
 *                    :::::::::::
@@ -42,10 +47,10 @@ function BalloonOpPanel:initUI(ui)
     self.btn_cancel = TFDirector:getChildByPath(ui, "btn_cancel")
 
     local txt_desc = TFDirector:getChildByPath(ui, "txt_desc")
-    txt_desc:setTextById(13317042)
+    txt_desc:setTextById(18000009)
 
     local label_title = TFDirector:getChildByPath(ui, "label_title")
-    label_title:setTextById(13317057)
+    label_title:setTextById(18000017)
 end
 
 function BalloonOpPanel:registerEvents()

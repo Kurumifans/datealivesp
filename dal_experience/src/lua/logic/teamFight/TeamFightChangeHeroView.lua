@@ -99,6 +99,9 @@ function TeamFightChangeHeroView:initUI(ui)
     self.Button_info:setVisible(not self.showHeros)
     self.Label_buttom_tip:setVisible(false)
 
+
+    TeamFightDataMgr:Send_ChangeRoleState(EC_NetChangeState.HeroChange,1)
+
     self:updateRuleList()
 
     self:changeShowOne();
@@ -409,6 +412,7 @@ end
 
 function TeamFightChangeHeroView:onHide()
     self.super.onHide(self)
+    TeamFightDataMgr:Send_ChangeRoleState(EC_NetChangeState.HeroChange,0)
 end
 
 function TeamFightChangeHeroView:removeUI()

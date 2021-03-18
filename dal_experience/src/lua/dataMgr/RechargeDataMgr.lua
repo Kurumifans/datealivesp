@@ -97,7 +97,7 @@ function RechargeDataMgr:recvRechargeOk(event)
 		Utils:showReward(tempReward);
 	end
 
-	EventMgr:dispatchEvent(EV_RECHARGE_UPDATE);
+	EventMgr:dispatchEvent(EV_RECHARGE_UPDATE, reward);
 end
 
 function RechargeDataMgr:onLogin()

@@ -142,7 +142,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 78,
+								PositionX = 16,
 								PositionY = -190,
 								LeftPositon = 411,
 								TopPosition = 402,
@@ -237,7 +237,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "60",
+									height = "89",
 									ignoreSize = "True",
 									name = "Button_up",
 									normal = "ui/activity/znq_yly/privilege/008.png",
@@ -248,11 +248,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 149,
+										PositionX = 159,
 										PositionY = -2,
 									},
 									UItype = "Button",
-									width = "137",
+									width = "192",
 									ZOrder = "1",
 									components = 
 									{
@@ -316,7 +316,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "60",
+									height = "89",
 									ignoreSize = "True",
 									name = "Button_check",
 									normal = "ui/activity/znq_yly/info/006.png",
@@ -327,14 +327,14 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 299,
+										PositionX = 330,
 										PositionY = -2,
 										LeftPositon = 836,
 										TopPosition = 392,
 										relativeToName = "Panel_root",
 									},
 									UItype = "Button",
-									width = "137",
+									width = "192",
 									ZOrder = "1",
 									components = 
 									{

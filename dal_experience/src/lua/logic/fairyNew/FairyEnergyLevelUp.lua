@@ -32,18 +32,10 @@ function FairyEnergyLevelUp:initUI(ui)
 	self.Label_point = TFDirector:getChildByPath(ui,"Label_point"):show()
 	self.Label_lv_old	= TFDirector:getChildByPath(ui,"Label_lv_old");
 	self.Label_lv_cur	= TFDirector:getChildByPath(ui,"Label_lv_cur");
-	self.Image_lv_to	= TFDirector:getChildByPath(ui,"Image_lv_to");
 	self.LoadingBar_nextcur = TFDirector:getChildByPath(ui,"LoadingBar_nextcur")
 	self.LoadingBar_curexp = TFDirector:getChildByPath(ui,"LoadingBar_curexp")
 	self.Label_limit_times = TFDirector:getChildByPath(ui,"Label_limit_times")
 	self.Label_times = TFDirector:getChildByPath(ui,"Label_times")
-	self.Label_stageMaxLv = TFDirector:getChildByPath(ui,"Label_stageMaxLv")
-	self.Label_lv_tips = TFDirector:getChildByPath(ui,"Label_lv_tips")
-	self.Label_value = TFDirector:getChildByPath(self.Label_stageMaxLv,"Label_value")
-	self.Label_stageTotalExp = TFDirector:getChildByPath(ui,"Label_stageTotalExp")
-	self.Label_stageValue = TFDirector:getChildByPath(self.Label_stageTotalExp,"Label_stageValue")
-	self.Image_expbar_bg = TFDirector:getChildByPath(ui,"Image_expbar_bg")
-	self.Label_exp_tips = TFDirector:getChildByPath(ui,"Label_exp_tips")
 
 	--self.Button_close	= TFDirector:getChildByPath(ui,"Button_close");
 	self.Button_cancel	= TFDirector:getChildByPath(ui,"Button_cancel");
@@ -58,6 +50,7 @@ function FairyEnergyLevelUp:initUI(ui)
 	local need = TabDataMgr:getData("DiscreteData",90008).data.experienceProps
 	self.items = {}
 	for k,v in pairs(need) do
+		print("id = "..v)
 		if GoodsDataMgr:getItemCount(v) > 0 then
 			table.insert(self.items,{itemId = v,num = GoodsDataMgr:getItemCount(v)});
 		end
@@ -74,38 +67,11 @@ function FairyEnergyLevelUp:updateUI(num)
 	local curExp = HeroDataMgr:getHeroEnergyExp()
     local needexp = HeroDataMgr:getHeroEnergyLevelUpExp()
 
-	local levelCfg = HeroDataMgr:getHeroEnergyLevelCfg()
-	local isBreakStage = levelCfg.ifButton == 1
-
-	self.Label_lv_tips:setVisible(not isBreakStage)
-	self.Label_lv_old:setVisible(not isBreakStage)
-	self.Label_lv_cur:setVisible(not isBreakStage)
-	self.Image_lv_to:setVisible(not isBreakStage)
-	self.Label_point_tips:setVisible(not isBreakStage)
-	self.Label_point:setVisible(not isBreakStage)
-	self.Image_expbar_bg:setVisible(not isBreakStage)
-	self.Label_exp:setVisible(not isBreakStage)
-	self.Label_exp_tips:setVisible(not isBreakStage)
-	self.Label_stageMaxLv:setVisible(isBreakStage)
-	self.Label_stageTotalExp:setVisible(isBreakStage)
-
-	if not isBreakStage then
-		if self.nextLv and (self.nextLv >= HeroDataMgr:getHeroEnergyMaxLevel() or self.nextLv >= HeroDataMgr:getEnergyBreakMaxLevel()) and num > 0 and self.selectNum < self.items[self.curidx].num then
-			Utils:showTips(1329143)
-			self:stopTimer()
-			return
-		end
-	else
-		local stageNeedExp = HeroDataMgr:getBreakStageNeedExp()
-		self.Label_value:setText(stageNeedExp)
-		local maxLv = HeroDataMgr:getBreakStageMaxLevel()
-		if self.nextLv and self.nextLv >= maxLv and num > 0 and self.selectNum < self.items[self.curidx].num then
-			Utils:showTips(1329143)
-			self:stopTimer()
-			return
-		end
+	if self.nextLv and (self.nextLv >= HeroDataMgr:getHeroEnergyMaxLevel() or self.nextLv >= HeroDataMgr:getEnergyBreakMaxLevel()) and num > 0 and self.selectNum < self.items[self.curidx].num then
+		Utils:showTips(1329143)
+		self:stopTimer()
+		return
 	end
-
 
 	if num > 0 then
 		self.selectNum = math.min(self.selectNum + 1, self.items[self.curidx] and self.items[self.curidx].num or 1)
@@ -139,7 +105,6 @@ function FairyEnergyLevelUp:updateUI(num)
     local curPerCent = curExp/needexp*100
 	self.LoadingBar_curexp:setPercent(curPerCent)
 
-	self.Label_stageValue:setString((curExp+exp))
 
 	local nextPerCent = (curExp+exp)/needexp*100
 	self.LoadingBar_nextcur:setPercent(nextPerCent)

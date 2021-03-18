@@ -1185,8 +1185,8 @@ local t =
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "27",
-											ignoreSize = "True",
+											height = "0",
+											ignoreSize = "False",
 											name = "Label_tip1",
 											nTextAlign = "1",
 											nTextHAlign = "1",
@@ -1201,7 +1201,7 @@ local t =
 											{
 												PositionX = -186,
 											},
-											width = "150",
+											width = "458",
 											ZOrder = "1",
 										},
 										{

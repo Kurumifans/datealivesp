@@ -1,0 +1,138 @@
+return {
+    [1] = {
+        wishAttrValue = {
+            [1] = 0,
+            [2] = 0,
+            [3] = 0,
+            [6] = 0,
+            [11] = 0,
+        },
+        levelUnlockCond = {
+        },
+        updateAttrType = {
+            [1] = 0,
+            [2] = 0,
+            [3] = 0,
+            [6] = 0,
+            [11] = 0,
+        },
+        id = 1,
+        unlockDesc = 0,
+        unlockName = 0,
+        expToNextLevel = 5,
+    },
+    [2] = {
+        wishAttrValue = {
+            [1] = 200,
+            [2] = 80,
+            [3] = 40,
+            [6] = 2,
+            [11] = 7,
+        },
+        levelUnlockCond = {
+            [1] = 291009,
+        },
+        updateAttrType = {
+            [1] = 400,
+            [2] = 160,
+            [3] = 80,
+            [6] = 4,
+            [11] = 14,
+        },
+        id = 2,
+        unlockDesc = 16000506,
+        unlockName = 16000511,
+        expToNextLevel = 8,
+    },
+    [3] = {
+        wishAttrValue = {
+            [1] = 200,
+            [2] = 80,
+            [3] = 40,
+            [6] = 2,
+            [11] = 7,
+        },
+        levelUnlockCond = {
+            [1] = 291015,
+        },
+        updateAttrType = {
+            [1] = 800,
+            [2] = 320,
+            [3] = 160,
+            [6] = 8,
+            [11] = 28,
+        },
+        id = 3,
+        unlockDesc = 16000507,
+        unlockName = 16000512,
+        expToNextLevel = 14,
+    },
+    [4] = {
+        wishAttrValue = {
+            [1] = 200,
+            [2] = 80,
+            [3] = 40,
+            [6] = 2,
+            [11] = 7,
+        },
+        levelUnlockCond = {
+            [1] = 291025,
+        },
+        updateAttrType = {
+            [1] = 1200,
+            [2] = 480,
+            [3] = 240,
+            [6] = 12,
+            [11] = 42,
+        },
+        id = 4,
+        unlockDesc = 16000508,
+        unlockName = 16000513,
+        expToNextLevel = 21,
+    },
+    [5] = {
+        wishAttrValue = {
+            [1] = 200,
+            [2] = 80,
+            [3] = 40,
+            [6] = 2,
+            [11] = 7,
+        },
+        levelUnlockCond = {
+            [1] = 291035,
+        },
+        updateAttrType = {
+            [1] = 1600,
+            [2] = 640,
+            [3] = 320,
+            [6] = 16,
+            [11] = 56,
+        },
+        id = 5,
+        unlockDesc = 16000509,
+        unlockName = 16000514,
+        expToNextLevel = 32,
+    },
+    [6] = {
+        wishAttrValue = {
+            [1] = 200,
+            [2] = 80,
+            [3] = 40,
+            [6] = 2,
+            [11] = 7,
+        },
+        levelUnlockCond = {
+        },
+        updateAttrType = {
+            [1] = 2000,
+            [2] = 800,
+            [3] = 400,
+            [6] = 20,
+            [11] = 70,
+        },
+        id = 6,
+        unlockDesc = 0,
+        unlockName = 0,
+        expToNextLevel = 0,
+    },
+}

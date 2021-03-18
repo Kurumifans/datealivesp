@@ -104,7 +104,7 @@ local t =
 								PositionX = -292,
 								PositionY = 35,
 							},
-							width = "311",
+							width = "302",
 							ZOrder = "1",
 							components = 
 							{
@@ -204,7 +204,7 @@ local t =
 										PositionX = 293,
 										PositionY = 350,
 									},
-									width = "579",
+									width = "566",
 									ZOrder = "1",
 									components = 
 									{
@@ -218,7 +218,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "33",
+											height = "35",
 											ignoreSize = "True",
 											name = "Image_icon",
 											sizepercentx = "0",
@@ -229,10 +229,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -258,
+												PositionX = -228,
 												PositionY = -3,
 											},
-											width = "26",
+											width = "51",
 											ZOrder = "1",
 										},
 										{
@@ -244,7 +244,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF535891",
+											FontColor = "#FF35516B",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -275,7 +275,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -221,
+												PositionX = -191,
 												PositionY = -3,
 											},
 											width = "83",
@@ -290,7 +290,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF535891",
+											FontColor = "#FF35516B",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -321,7 +321,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -132,
+												PositionX = -102,
 												PositionY = -3,
 											},
 											width = "74",
@@ -352,7 +352,8 @@ local t =
 										PositionX = 293,
 										PositionY = 289,
 									},
-									width = "579",
+									visible = "False",
+									width = "566",
 									ZOrder = "1",
 									components = 
 									{
@@ -366,7 +367,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "21",
+											height = "23",
 											ignoreSize = "True",
 											name = "Image_icon",
 											sizepercentx = "0",
@@ -377,10 +378,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -258,
+												PositionX = -228,
 												PositionY = -3,
 											},
-											width = "30",
+											width = "58",
 											ZOrder = "1",
 										},
 										{
@@ -392,7 +393,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF535891",
+											FontColor = "#FF35516B",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -423,7 +424,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -221,
+												PositionX = -191,
 												PositionY = -3,
 											},
 											width = "131",
@@ -438,7 +439,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF535891",
+											FontColor = "#FF35516B",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -469,7 +470,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -83,
+												PositionX = -53,
 												PositionY = -3,
 											},
 											width = "74",
@@ -500,7 +501,8 @@ local t =
 										PositionX = 293,
 										PositionY = 229,
 									},
-									width = "579",
+									visible = "False",
+									width = "566",
 									ZOrder = "1",
 									components = 
 									{
@@ -514,7 +516,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "32",
+											height = "34",
 											ignoreSize = "True",
 											name = "Image_icon",
 											sizepercentx = "0",
@@ -525,10 +527,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -258,
+												PositionX = -228,
 												PositionY = -3,
 											},
-											width = "35",
+											width = "61",
 											ZOrder = "1",
 										},
 										{
@@ -540,7 +542,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF535891",
+											FontColor = "#FF35516B",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -571,7 +573,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -221,
+												PositionX = -191,
 												PositionY = -3,
 											},
 											width = "155",
@@ -586,7 +588,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF535891",
+											FontColor = "#FF35516B",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -617,7 +619,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -54,
+												PositionX = -24,
 												PositionY = -3,
 											},
 											width = "74",
@@ -646,9 +648,9 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 293,
-										PositionY = 168,
+										PositionY = 289,
 									},
-									width = "579",
+									width = "566",
 									ZOrder = "1",
 									components = 
 									{
@@ -662,7 +664,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "33",
+											height = "35",
 											ignoreSize = "True",
 											name = "Image_icon",
 											sizepercentx = "0",
@@ -673,10 +675,10 @@ local t =
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -258,
+												PositionX = -228,
 												PositionY = -3,
 											},
-											width = "33",
+											width = "59",
 											ZOrder = "1",
 										},
 										{
@@ -688,7 +690,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF535891",
+											FontColor = "#FF35516B",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -714,15 +716,15 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "乐园硬币：",
+											text = "压岁钱：",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -221,
+												PositionX = -191,
 												PositionY = -3,
 											},
-											width = "107",
+											width = "83",
 											ZOrder = "1",
 										},
 										{
@@ -734,7 +736,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF535891",
+											FontColor = "#FF35516B",
 											fontName = "font/fangzheng_zhunyuan.ttf",
 											fontShadow = 
 											{
@@ -765,7 +767,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												PositionX = -105,
+												PositionX = -102,
 												PositionY = -3,
 											},
 											width = "74",
@@ -787,7 +789,7 @@ local t =
 									colorType = "0;SingleColor:#FFE6E6E6;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
 									direction = "1",
 									dstBlendFunc = "771",
-									height = "130",
+									height = "195",
 									ignoreSize = "False",
 									innerHeight = "200",
 									innerWidth = "577",
@@ -801,7 +803,7 @@ local t =
 									UILayoutViewModel = 
 									{
 										PositionX = 4,
-										PositionY = 136,
+										PositionY = 257,
 									},
 									uipanelviewmodel = 
 									{
@@ -822,7 +824,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "63",
+											height = "61",
 											ignoreSize = "True",
 											name = "Image_showName",
 											sizepercentx = "0",
@@ -836,7 +838,7 @@ local t =
 												PositionX = 288,
 												PositionY = 168,
 											},
-											width = "577",
+											width = "567",
 											ZOrder = "1",
 											components = 
 											{
@@ -850,7 +852,7 @@ local t =
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
-													FontColor = "#FFFFFFFF",
+													FontColor = "#FF35516B",
 													fontName = "font/fangzheng_zhunyuan.ttf",
 													fontShadow = 
 													{
@@ -1067,7 +1069,7 @@ local t =
 															{
 																PositionX = -30,
 															},
-															width = "42",
+															width = "41",
 															ZOrder = "1",
 														},
 													},
@@ -1083,7 +1085,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "63",
+											height = "61",
 											ignoreSize = "True",
 											name = "Image_showEffect",
 											sizepercentx = "0",
@@ -1097,7 +1099,7 @@ local t =
 												PositionX = 288,
 												PositionY = 103,
 											},
-											width = "577",
+											width = "567",
 											ZOrder = "1",
 											components = 
 											{
@@ -1111,7 +1113,7 @@ local t =
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
-													FontColor = "#FFFFFFFF",
+													FontColor = "#FF35516B",
 													fontName = "font/fangzheng_zhunyuan.ttf",
 													fontShadow = 
 													{
@@ -1328,7 +1330,7 @@ local t =
 															{
 																PositionX = -30,
 															},
-															width = "42",
+															width = "41",
 															ZOrder = "1",
 														},
 													},
@@ -1344,7 +1346,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "63",
+											height = "61",
 											ignoreSize = "True",
 											name = "Image_invite",
 											sizepercentx = "0",
@@ -1358,7 +1360,7 @@ local t =
 												PositionX = 288,
 												PositionY = 38,
 											},
-											width = "577",
+											width = "567",
 											ZOrder = "1",
 											components = 
 											{
@@ -1372,7 +1374,7 @@ local t =
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
-													FontColor = "#FFFFFFFF",
+													FontColor = "#FF35516B",
 													fontName = "font/fangzheng_zhunyuan.ttf",
 													fontShadow = 
 													{
@@ -1589,7 +1591,7 @@ local t =
 															{
 																PositionX = -30,
 															},
-															width = "42",
+															width = "41",
 															ZOrder = "1",
 														},
 													},
@@ -1624,6 +1626,7 @@ local t =
 										PercentX = 50,
 										PercentY = 1.56,
 									},
+									visible = "False",
 									width = "34",
 									ZOrder = "2",
 								},
@@ -1639,7 +1642,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "97",
+									height = "86",
 									ignoreSize = "True",
 									name = "Button_openSkin",
 									normal = "ui/activity/znq_yly/info/017.png",
@@ -1650,11 +1653,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -155,
-										PositionY = 44,
+										PositionX = -154,
+										PositionY = 43,
 									},
 									UItype = "Button",
-									width = "100",
+									width = "86",
 									ZOrder = "1",
 									components = 
 									{
@@ -1668,7 +1671,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF737AC8",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -1699,7 +1702,7 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionY = -3,
 											},
 											width = "48",
 											ZOrder = "1",
@@ -1718,7 +1721,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "60",
+									height = "89",
 									ignoreSize = "True",
 									name = "Button_change",
 									normal = "ui/activity/znq_yly/info/006.png",
@@ -1729,14 +1732,14 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 515,
+										PositionX = 484,
 										PositionY = -35,
 										LeftPositon = 836,
 										TopPosition = 392,
 										relativeToName = "Panel_root",
 									},
 									UItype = "Button",
-									width = "137",
+									width = "192",
 									ZOrder = "1",
 									components = 
 									{
@@ -1750,7 +1753,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF737AC8",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -1797,7 +1800,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF535891",
+									FontColor = "#FF35516B",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -1828,7 +1831,7 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 434,
+										PositionX = 387,
 										PositionY = -36,
 									},
 									width = "88",
@@ -1869,7 +1872,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "588",
 							ZOrder = "1",
 							components = 
@@ -1902,8 +1904,8 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = 4,
-										PositionY = -1,
+										PositionX = -3,
+										PositionY = 4,
 									},
 									uipanelviewmodel = 
 									{
@@ -1938,8 +1940,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 559,
-										PositionY = 285,
+										PositionX = 552,
+										PositionY = 290,
 									},
 									uipanelviewmodel = 
 									{
@@ -1963,7 +1965,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "192",
+											height = "190",
 											ignoreSize = "True",
 											name = "Button_role_n",
 											normal = "ui/activity/znq_yly/info/024.png",
@@ -1974,11 +1976,11 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = 5,
 											},
 											UItype = "Button",
 											visible = "False",
-											width = "57",
+											width = "46",
 											ZOrder = "1",
 											components = 
 											{
@@ -2023,7 +2025,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 4,
+														
 													},
 													width = "23",
 													ZOrder = "1",
@@ -2039,7 +2041,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "192",
+											height = "191",
 											ignoreSize = "True",
 											name = "Image_role_s",
 											sizepercentx = "0",
@@ -2066,7 +2068,7 @@ local t =
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
-													FontColor = "#FF737AC8",
+													FontColor = "#FF902A3B",
 													fontName = "font/MFLiHei_Noncommercial.ttf",
 													fontShadow = 
 													{
@@ -2131,8 +2133,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 559,
-										PositionY = 92,
+										PositionX = 552,
+										PositionY = 100,
 									},
 									uipanelviewmodel = 
 									{
@@ -2156,7 +2158,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "192",
+											height = "190",
 											ignoreSize = "True",
 											name = "Button_effect_n",
 											normal = "ui/activity/znq_yly/info/024.png",
@@ -2167,10 +2169,10 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												
+												PositionX = 5,
 											},
 											UItype = "Button",
-											width = "57",
+											width = "46",
 											ZOrder = "1",
 											components = 
 											{
@@ -2215,7 +2217,7 @@ local t =
 													touchScaleEnable = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 4,
+														
 													},
 													width = "23",
 													ZOrder = "1",
@@ -2231,7 +2233,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "192",
+											height = "191",
 											ignoreSize = "True",
 											name = "Image_effect_s",
 											sizepercentx = "0",
@@ -2259,7 +2261,7 @@ local t =
 													classname = "MELabel",
 													compPath = "luacomponents.common.MEIconLabel",
 													dstBlendFunc = "771",
-													FontColor = "#FF737AC8",
+													FontColor = "#FF902A3B",
 													fontName = "font/MFLiHei_Noncommercial.ttf",
 													fontShadow = 
 													{
@@ -2311,7 +2313,7 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "97",
+									height = "86",
 									ignoreSize = "True",
 									name = "Button_closeSkin",
 									normal = "ui/activity/znq_yly/info/017.png",
@@ -2322,11 +2324,11 @@ local t =
 									touchAble = "True",
 									UILayoutViewModel = 
 									{
-										PositionX = -155,
-										PositionY = 44,
+										PositionX = -154,
+										PositionY = 43,
 									},
 									UItype = "Button",
-									width = "100",
+									width = "86",
 									ZOrder = "1",
 									components = 
 									{
@@ -2340,7 +2342,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF737AC8",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -2350,14 +2352,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "20",
+											fontSize = "23",
 											fontStroke = 
 											{
 												IsStroke = false,
 												StrokeColor = "#FFE6E6E6",
 												StrokeSize = 1,
 											},
-											height = "25",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_close",
 											nTextAlign = "1",
@@ -2371,9 +2373,9 @@ local t =
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
-												
+												PositionY = -3,
 											},
-											width = "44",
+											width = "49",
 											ZOrder = "1",
 										},
 									},
@@ -2523,7 +2525,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FF2B4661",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -2568,7 +2570,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "49",
+									height = "43",
 									ignoreSize = "True",
 									name = "Image_sel",
 									sizepercentx = "0",
@@ -2582,7 +2584,7 @@ local t =
 										PositionX = 64,
 										PositionY = -72,
 									},
-									width = "55",
+									width = "51",
 									ZOrder = "1",
 								},
 								{
@@ -2594,7 +2596,7 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "187",
+									height = "182",
 									ignoreSize = "True",
 									name = "Image_lock",
 									sizepercentx = "0",
@@ -2608,7 +2610,7 @@ local t =
 										
 									},
 									visible = "False",
-									width = "168",
+									width = "165",
 									ZOrder = "1",
 								},
 							},

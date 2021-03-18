@@ -530,6 +530,12 @@ function KeyBoard:onVKStateChange(skill,flag)
             end
 
         end
+        
+        if keyNode.LoadingBar_limit then
+            local percent = skill:getLimitPercent()
+            keyNode.LoadingBar_limit:setVisible(percent > 0)
+            keyNode.LoadingBar_limit:setPercent(percent) 
+        end
     end
 end
 function KeyBoard:onCaptainChange()
@@ -630,6 +636,12 @@ function KeyBoard:onCaptainChange()
                     end
                 end
 
+                if keyNode.LoadingBar_limit then
+                    local percent = skill:getLimitPercent()
+                    keyNode.LoadingBar_limit:setVisible(percent > 0)
+                    keyNode.LoadingBar_limit:setPercent(percent) 
+                end
+
                 local cacheTimes = skill:getCacheTimes()
                 local maxTimes   = skill:getMaxCacheTimes()
                 local bEnoughEnergy = skill:_isEnoughEnergy() and skill:_isEnoughSpecialEnergy()
@@ -664,8 +676,14 @@ function KeyBoard:onCaptainChange()
                 end
             end
         end
+        if battleController.useCustomAttrModle() then
+            dibanType = 3
+        end
         if dibanType == 2 then 
             self.skillKeyBG_B:show()
+            self.skillKeyBG_A:hide()
+        elseif dibanType == 3 then 
+            self.skillKeyBG_B:hide()
             self.skillKeyBG_A:hide()
         else
             self.skillKeyBG_B:hide()
@@ -907,6 +925,13 @@ function KeyBoard:registerEvents()
                 end
                 vKeyNode.consume:setActive(true,0)
             end
+
+            vKeyNode.LoadingBar_limit = vKeyNode:getChildByName("LoadingBar_limit") --限时进度条
+
+            if vKeyNode.LoadingBar_limit then
+                vKeyNode.LoadingBar_limit:hide()
+            end
+
             bindFunc(vKeyNode)
             vKeyNode:setTouchEnabled(false)
             -- vKeyNode:setGrayEnabled(false)

@@ -39,6 +39,8 @@ function EquipSuitMainLayer:initUI(ui)
     self.Panel_bag        = TFDirector:getChildByPath(ui,"Panel_bag")
     self.Panel_di        = TFDirector:getChildByPath(ui,"Panel_di")
     self.Panel_equip_item        = TFDirector:getChildByPath(ui,"Panel_equip_item")
+    self.btn_useToken = TFDirector:getChildByPath(self.Panel_right, "btn_useToken")
+    self.btn_saveToken = TFDirector:getChildByPath(self.Panel_right, "btn_saveToken")
 
     self.suit_pos = {}
     self.suit_attr = {}
@@ -139,6 +141,9 @@ function EquipSuitMainLayer:initUI(ui)
     self.Button_wear    = TFDirector:getChildByPath(self.Panel_di,"Button_wear")
     self.Button_drop    = TFDirector:getChildByPath(self.Panel_di,"Button_drop")
     self.Label_wear = TFDirector:getChildByPath(self.Button_wear,"Label_wear")
+
+    self.btn_useToken:setVisible(not self.isSkyladder)
+    self.btn_saveToken:setVisible(not self.isSkyladder)
 
     self:selectPosIdx(self.paramData_.pos or 1)
 end
@@ -368,6 +373,11 @@ function EquipSuitMainLayer:refreshRight()
         self.Image_cost_bg:hide()
         self.Label_cost_title:hide()
     end
+
+    local allValus = EquipmentDataMgr:getHeroNewEquipAttribute(self.heroId)
+    local isNull = table.count(allValus) <= 0
+    self.btn_saveToken:setTouchEnabled(not isNull)
+    self.btn_saveToken:setGrayEnabled(isNull)
 end
 
 function EquipSuitMainLayer:updatePanelInfo()
@@ -691,6 +701,9 @@ function EquipSuitMainLayer:registerEvents()
     self.Button_wear:onClick(function()
         local data = self.equipData[self.bagSelectIdx]
         local function confirmCall(show)
+            if not self.selectIdx then
+                return
+            end
             if not show then
                 AlertManager:close(self)
             end
@@ -756,6 +769,13 @@ function EquipSuitMainLayer:registerEvents()
         self.Button_all:getChildByName("Label_all"):setFontColor(ccc3(255,255,255))
         self.Button_free:getChildByName("Label_free"):setFontColor(ccc3(252,225,64))
         self:onTouchButtonOpen()
+    end)
+
+    self.btn_useToken:onClick(function()
+        Utils:openView("Equipment.TokenReviewLayer", false, self.heroId)
+    end)
+    self.btn_saveToken:onClick(function()
+        Utils:openView("Equipment.TokenReviewLayer", true, self.heroId)
     end)
 end
 

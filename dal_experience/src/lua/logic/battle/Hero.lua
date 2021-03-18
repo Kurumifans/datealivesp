@@ -130,6 +130,7 @@ function Hero:ctor(data,team,host)
     self.actionNames = {} --BattleDataMgr:getActionNames(data.model)
     --属性变更缓存
     self.attrTypeList = {}
+    self.flags = {}
     --形态
     self.skinIndex = 1
     self.actionMgr = ActionMgr.createMgr()
@@ -185,7 +186,6 @@ function Hero:ctor(data,team,host)
     self.nFloatTime = 0
     --记录和动作相关的音效，动作切换时停止未播放完的音效
     self.soundEffects = {}
-    self.flags = {}
 
     -- 出生计时
     self.showTiming_ = 0
@@ -294,7 +294,7 @@ function Hero:getCallHeros()
         end
     end
     table.sort(result,function ( a,b )
-        return a.nBornTime > b.nBornTime
+        return a.nBornTime < b.nBornTime
     end)
     return result
 end
@@ -329,6 +329,15 @@ function Hero:addExtraProperty()
     for k,value in pairs(attrs) do
         self.property:changeValue(tonumber(k), value)
     end
+
+    --地错特定加成属性
+    local levelCfg = BattleDataMgr:getLevelCfg()
+    if levelCfg.useLinkAgeAttr then
+        attrs = FubenDataMgr:getLinkAgeHeroAttrsByHeroId(self.data.id)
+        for k,value in pairs(attrs) do
+            self.property:changeValue(tonumber(k), value)
+        end
+    end
 end
 
 --检查添加怪物词缀
@@ -355,6 +364,23 @@ function Hero:checkMonsterAffixs()
         end
     end
 
+    local levelCfg = BattleDataMgr:getLevelCfg()
+    if levelCfg.levelAffix and levelCfg.levelAffix.affixList then
+        for i,affixId in ipairs(levelCfg.levelAffix.affixList) do
+            for j,camp in ipairs(levelCfg.levelAffix.camp) do
+                if self:getCamp() == camp then
+                    local affixData = TabDataMgr:getData("MonsterAffix",affixId)
+                    if affixData then
+                        affixData.strName = "【"..TextDataMgr:getText(affixData.affixName).."】"
+                        affixData.levelAffix = true
+                        affixData.isShowOnHero = levelCfg.levelAffix.isShowOnHero
+                        table.insert(self.affixData,affixData)
+                    end
+                end
+            end
+        end
+    end
+
 end
 
 --怪物词缀
@@ -367,14 +393,36 @@ function Hero:hasAffixData()
     return self.affixData and #self.affixData > 0
 end
 
+--是否更新怪物血条面板
+function Hero:enableUpdateBossPanel()
+    if self:isBoss() then
+        return true
+    end
+    if self:getCampType() == eCampType.Monster and self:hasAffixData() then
+        return
+    end
+    return false
+end
+
 function Hero:getAffixDataIcons()
     local icons = {}
     if self.affixData then
         for i,v in ipairs(self.affixData) do
-            for index=1,5 do
-                local affixIcon = v["affixIcon"..index]
-                if ResLoader.isValid(affixIcon) then 
-                    table.insert(icons, affixIcon)
+            if v.levelAffix then
+                if v.isShowOnHero and v.isShowOnHero == 1 then
+                    for index=1,5 do
+                        local affixIcon = v["affixIcon"..index]
+                        if ResLoader.isValid(affixIcon) then 
+                            table.insert(icons, affixIcon)
+                        end
+                    end
+                end
+            else
+                for index=1,5 do
+                    local affixIcon = v["affixIcon"..index]
+                    if ResLoader.isValid(affixIcon) then 
+                        table.insert(icons, affixIcon)
+                    end
                 end
             end
         end
@@ -554,6 +602,11 @@ function Hero:recoverySkin(objectID)
         self:changeSkin(self.changeInfo.old,true)
         self.changeInfo = nil
     end
+end
+
+function Hero:combatCustomSkills(originSkills)
+    local customSkills = battleController.getCustomSkills(originSkills, self)
+    return customSkills
 end
 
 function Hero:changeSkin(formId,force)
@@ -922,6 +975,8 @@ function Hero:onAStateClear(state)
                 self:doEvent(eStateEvent.BH_FLOAT,data)
             end
         end
+    elseif state == eAState.E_STATE_84 then
+        self.actor:playStand() 
     end
 end
 
@@ -944,6 +999,8 @@ function Hero:onAStateDel(state,objectID)
     elseif state == eAState.E_PARALYSIS then --麻痹
         self:onStateRemoveTrigger(state)
     elseif state == eAState.E_JING_ZHI then --静止
+        self:onStateRemoveTrigger(state)
+    elseif state == eAState.E_STATE_84 then --静止
         self:onStateRemoveTrigger(state)
     elseif state == eAState.E_MEI_HUO then --魅惑
         self:onStateRemoveTrigger(state)
@@ -1039,7 +1096,18 @@ function Hero:onAStateAdd(state,objectID)
         --     end
         -- end
         self:removeAllEffect()
-
+    elseif state == eAState.E_STATE_84 then
+        --移除所有特效
+        -- local effectList = effectMgr:getObjects()
+        -- for i = #effectList , 1 , -1 do
+        --     local effect = effectList[i]
+        --     if effect and effect.srcHero == self then
+        --         effect:preRemove()
+        --         -- effectMgr:remove(effect)
+        --     end
+        -- end
+        self.actor:stopAni()
+        self:removeAllEffect()
     elseif state >= eAState.E_SKILLTYPE_1_DISABLE and state <= eAState.E_SKILLTYPE_7_DISABLE then
         -- for key,v in pairs(skill_type_disable) do
         --     if v == state then
@@ -1119,7 +1187,7 @@ function Hero:getHpPercentEx()
     local maxValue = self.property:getValue(eAttrType.ATTR_MAX_HP)
     if size > 1 then
         local oneValue = maxValue/size           
-        local index    = value/oneValue
+        local index    = value/math.ceil(oneValue)
         if math.floor(index) < index then 
             index = math.ceil(index)
         end
@@ -1418,7 +1486,7 @@ function Hero:createBufferList()
     end
 
     --额外buffer加成
-    local ids = battleController.getExtBuffList(self.data.id)
+    local ids = battleController.getExtBuffList(self)
     for k, buffId in ipairs(ids) do
         buffIds[buffId] = buffId
     end
@@ -1487,6 +1555,16 @@ function Hero:createBufferList()
         for i, buffId in ipairs(affixData.effectBuffers) do
             buffIds[buffId] = buffId
         end
+    end
+
+    --特定模式下只使用特定条件buff
+    if self:getCampType() == eCampType.Hero and battleController.useCustomAttrModle() then
+        buffIds = {}
+    end
+    --特殊条件buff加成
+    local ids = battleController.getAdditionBuff(self)
+    for k, buffId in ipairs(ids) do
+        buffIds[buffId] = buffId
     end
 
     buffIds = self:filteBuff(buffIds)
@@ -2808,7 +2886,7 @@ function Hero:doFirstTrigger(time)
         --统计我方成员血量
         EventMgr:dispatchEvent(eEvent.EVENT_NOTICE_HP, self,self:getMaxHp())
         EventMgr:dispatchEvent(eEvent.EVENT_HERO_BATTLE, self)
-        if self:isBoss() or self:hasAffixData() then
+        if self:enableUpdateBossPanel() then
             EventMgr:dispatchEvent(eEvent.EVENT_BOSS_CHANGE, self)
         end
         --天赋buff触发
@@ -2850,6 +2928,9 @@ function Hero:clearFlag(flagType)
 end
 
 function Hero:toFlashBack(sec)
+    if not self.recorder then
+        return
+    end
     local data  = self.recorder:getData(sec)
     if data then 
         -- self:forceToFloor()
@@ -2869,7 +2950,9 @@ function Hero:update(time)
         EventTrigger:_onChangePos(self)
         self:setLastPosition(self.position3D.x,self.position3D.y,self.position3D.z)
     end
-    self.recorder:update(time,self)
+    if self.recorder then
+        self.recorder:update(time,self)
+    end
     local originTime = time
     time = time * self:getTimeScale()
     self.showTiming_ = self.showTiming_ + time
@@ -2880,7 +2963,6 @@ function Hero:update(time)
     if not self:isBattle() then
         self:clearFlag(eFlag.HITED)
         if self:isDead() then
-            battleController.synchronHp(self)
             self:onEventTrigger(eBFState.E_DEAD,self)
             if self:isAState(eAState.E_RELIVE) then
                 self:clearAState(eAState.E_RELIVE)
@@ -2913,12 +2995,12 @@ function Hero:update(time)
     end
     --死亡
     if self:isDead() then
-        battleController.synchronHp(self)
         if not self:isFlag(eFlag.Dead) then
             self:setFlag(eFlag.Dead)
             --清理负面状态
             self:clearAState(eAState.E_DONG_JIE)
             self:clearAState(eAState.E_JING_ZHI)
+            self:clearAState(eAState.E_STATE_84)
             self:clearAState(eAState.E_XUAN_YUN)
             self:clearAState(eAState.E_PARALYSIS)
         end
@@ -2935,7 +3017,7 @@ function Hero:update(time)
         end
     end
 
-    if not self:isAState(eAState.E_JING_ZHI) then
+    if not (self:isAState(eAState.E_JING_ZHI) or self:isAState(eAState.E_STATE_84)) then
         if state == eState.ST_FLOAT then
             --浮空时间计算
             self:doFloatingProtection(time)
@@ -3476,7 +3558,13 @@ function Hero:changeHp(value,hurtType,target,bAbsorb,point,hideDamage)
             self:addRevHurtValue(value)
         end
         EventMgr:dispatchEvent(eEvent.EVENT_HP_CHANGE, self,value)
-        battleController.synchronHp(self)
+        if battleController.useCustomAttrModle() then
+            if value > 0 or self:getRoleType() == eRoleType.Team then
+                battleController.synchronHp(self)
+            end
+        else
+            battleController.synchronHp(self)
+        end
     end
     return value
 end
@@ -3612,6 +3700,9 @@ function Hero:canCast(skill)
         return false
     end
     if self:isAState(eAState.E_JING_ZHI) then
+        return false
+    end
+    if self:isAState(eAState.E_STATE_84) then
         return false
     end
     if self:isAState(eAState.E_DONG_JIE) then
@@ -3766,7 +3857,7 @@ function me.pGetDistanceX(p1,p2)
 end
 
 function Hero:doHurtAction(data)
-    if self:isAState(eAState.E_DONG_JIE) or self:isAState(eAState.E_JING_ZHI) then
+    if self:isAState(eAState.E_DONG_JIE) or self:isAState(eAState.E_JING_ZHI) or self:isAState(eAState.E_STATE_84) then
         return
     end
     -- self:getActor():fixPosition()
@@ -4002,6 +4093,7 @@ end
 function Hero:canMove()
     if self:isAState(eAState.E_DONG_JIE) or
         self:isAState(eAState.E_JING_ZHI) or
+        self:isAState(eAState.E_STATE_84) or
         self:isAState(eAState.E_PARALYSIS) or
         self:isAState(eAState.E_XUAN_YUN) then
         return false
@@ -4069,13 +4161,6 @@ function Hero:move(xv,yv,fix)
         --         self:setDir(eDir.LEFT)
         --     end
         -- end
-        local moveSpeed = self:getMoveSpeed()
-        local flag = moveSpeed*xv
-        if flag < 0 then
-            self:setDir(eDir.LEFT)
-        elseif flag > 0 then
-            self:setDir(eDir.RIGHT)
-        end
         -- self:actor:playMove()
         -- EventTrigger:_onChangePos(self)
     end
@@ -4176,6 +4261,19 @@ function Hero:handlMove(time)
         if vector.x ~= 0 or vector.y ~= 0 then
             if xv~=0 or yv ~=0 then
                 self:move(xv,yv,true)
+            end
+
+            if self.skill then
+                local skillCfg = TabDataMgr:getData("Skill", self.skill:getCID())
+                local skillActionCfg = TabDataMgr:getData("SkillAction", skillCfg.first)
+                if skillActionCfg.moveType == 0 then
+                    if vector.x > 0 then 
+                        self:setDir(eDir.RIGHT)
+                    elseif vector.x < 0 then
+                        self:setDir(eDir.LEFT)
+                    end 
+                elseif skillActionCfg.moveType == 1 then
+                end
             else
                 if vector.x > 0 then 
                     self:setDir(eDir.RIGHT)
@@ -4659,6 +4757,28 @@ function Hero:pathMove(time)
         if xv ~= 0 or yv ~= 0 then 
             self:move(xv,yv)
         end
+
+        local flag = xv* self:getMoveSpeed()
+        if self.skill then
+            local skillCfg = TabDataMgr:getData("Skill", self.skill:getCID())
+            local skillActionCfg = TabDataMgr:getData("SkillAction", skillCfg.first)
+            if skillActionCfg.moveType == 0 then
+                if  flag > 0 then 
+                    self:setDir(eDir.RIGHT)
+                elseif flag < 0 then
+                    self:setDir(eDir.LEFT)
+                end 
+            elseif skillActionCfg.moveType == 1 then
+            end
+        else
+            if  flag > 0 then 
+                self:setDir(eDir.RIGHT)
+            elseif flag < 0 then
+                self:setDir(eDir.LEFT)
+            end 
+        end
+       
+
         pos       = self:getPosition3D()
         distance  = me.pGetDistance(targetPos,pos)
         if distance < 1 then
@@ -4871,7 +4991,10 @@ function Hero:ai(dt)
     if self:getState() == eState.ST_BORN then 
         return
     end
-    if self:isAState(eAState.E_JING_ZHI) or self:isAState(eAState.E_DONG_JIE) then
+    if self:isAState(eAState.E_JING_ZHI) or self:isAState(eAState.E_DONG_JIE) or self:isAState(eAState.E_STATE_84) then
+        return
+    end
+    if EventTrigger:isRunning() then
         return
     end
 
@@ -4931,28 +5054,39 @@ end
 
 -- 获取巡逻区域（方式2）
 function Hero:getPatrolRect(targetPos, myPos)
-    local site = self:checksite(targetPos, myPos)
+    local tpos = clone(targetPos)
+    local mpos = clone(myPos)
+    local moveRect = battleController:getMoveRect()
+    local moveRectMaxX = moveRect.origin.x + moveRect.size.width
+    local moveRectMaxY = moveRect.origin.y + moveRect.size.height
+    tpos.x = math.min(tpos.x, moveRectMaxX)
+    mpos.x = math.min(mpos.x, moveRectMaxX)
+    tpos.y = math.min(tpos.y,moveRectMaxY)
+    tpos.y = math.max(tpos.y,0)
+    mpos.y = math.min(mpos.y,moveRectMaxY)
+    mpos.y = math.max(mpos.y,0)
+    local site = self:checksite(tpos, mpos)
     local min = self.data.patrolNear
     local max = self.data.patrolFar
     local x = RandomGenerator.random(min, max)
     local y = RandomGenerator.random(min, max)
-    local moveRect = battleController:getMoveRect()
+    
     if site == 1 or site == 2 then
-        if math.abs(targetPos.x - moveRect.origin.x) <= x / 2 then
+        if math.abs(tpos.x - moveRect.origin.x) <= x / 2 then
             site = 3
         end
     else
-        local moveRectMaxX = moveRect.origin.x + moveRect.size.width
-        if math.abs(moveRectMaxX - targetPos.x) <= x / 2 then
+        
+        if math.abs(moveRectMaxX - tpos.x) <= x / 2 then
             site = 1
         end
     end
 
     local rect = {}
     if site == 1 or site == 2 then
-        rect = me.rect(targetPos.x - x, targetPos.y - y, x, y * 2)
+        rect = me.rect(tpos.x - x, tpos.y - y, x, y * 2)
     else
-        rect = me.rect(targetPos.x, targetPos.y - y, x, y * 2)
+        rect = me.rect(tpos.x, tpos.y - y, x, y * 2)
     end
     return rect
 end
@@ -5034,6 +5168,11 @@ function Hero:onEventTrigger(event,target,param)
     self:walkBufferEffectWalk(function (effect)
         effect:onEventTrigger(self,event,target,param)
     end)
+
+    if self.skill then
+        self.skill:onEventTrigger(self,event,target,param)
+    end
+
     --能量获取和消耗
     if self.energyMgr then
         self.energyMgr:onEvent(event)
@@ -5041,6 +5180,11 @@ function Hero:onEventTrigger(event,target,param)
     if self.superArmorMgr then
         self.superArmorMgr:onEvent(event)
     end
+
+
+    --todo  添加技能检测事件触发机制
+    
+
 end
 -- 属性变更
 function Hero:onAttrTrigger(attrType,value, event)
@@ -5199,6 +5343,7 @@ function Hero:setControl(tarPos)
         hero:forceClearAState_(eAState.E_XUAN_YUN)
         hero:forceClearAState_(eAState.E_PARALYSIS)
         hero:forceClearAState_(eAState.E_JING_ZHI)
+        hero:forceClearAState_(eAState.E_STATE_84)
         hero:forceClearAState_(eAState.E_STOP_MOVE)
         local state = hero:getState()  --原角色处于进场和离场状态 不切换
         if state == eState.ST_DEPARTURE then
@@ -5546,6 +5691,8 @@ function Hero:act_killMySelf(id,isCount)
     self.team:remove(self)
     if isCount then
         EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+    else
+        EventMgr:dispatchEvent(eEvent.EVENT_HERO_REMOVE, self)
     end
     self:release()
 end
@@ -5564,7 +5711,10 @@ function Hero:act_moveToPositon(id,position, speedScale)
     if levelParse:canMove(position) then
         self.nSpeedScale = speedScale
         self:findPath(position)
-        self:doEvent(eStateEvent.BH_MOVEEX, eMoveState.FixedMove)
+        local ret = self:doEvent(eStateEvent.BH_MOVEEX,eMoveState.Patrol)
+        if not ret then
+            self:endToAI()
+        end
     else
         dump({position})
         self.aiAgent:next()
@@ -6236,9 +6386,6 @@ function Hero:fix_boss(heroId, posX , posY , dir , hp , sp)
     end
 
     local curHp = self:getHp()
-    if self.showTiming_ < 1500 and curHp > 500000 then
-        return
-    end
     if curHp > 0 and hp then
         local lose = hp - curHp
         if  lose < 0 then

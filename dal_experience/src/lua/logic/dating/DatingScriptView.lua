@@ -1833,8 +1833,9 @@ function DatingScriptView:showText(deyTime)
             self.isJumpOk = false
             self:refreshButtonListState()
             --改名
+            Utils:sendHttpLog("role_create_Q")
             local modifyNameView = require("lua.logic.playerInfo.ModifyNameView"):new({ function()
-                Utils:sendHttpLog("role_create_Q")
+                Utils:sendHttpLog("role_created")  --角色改名创建成功上报
                 self.showModifyName = false
                 self.isJumpOk = true
                 self:jumpToNext()
@@ -2568,8 +2569,9 @@ function DatingScriptView:playSceneSoundEffect(pathName)
             print("sceneSoundEffectName ", sceneSoundEffectName)
             self.sceneSoundEffectHandle = TFAudio.playSound(sceneSoundEffectName,true)
         else
+            local handler = self.sceneSoundEffectHandle
             changeEffectVolume(self.Image_black, 0.8, 0.5, 0.8, function ( ... )
-                TFAudio.stopEffect(self.sceneSoundEffectHandle)
+                TFAudio.stopEffect(handler)
                 self.sceneSoundEffectHandle = nil
             end, function ( ... )
                 local sceneSoundEffectName = self.itemData.sceneSoundEffect
@@ -3838,6 +3840,9 @@ function DatingScriptView:onClose()
     self.ui:stopAllActions()
     self:stopAllActions()
     self.super.onClose(self)
+    for k,v in pairs(self.npcData_) do
+        v:stopTimer()
+    end
 
 end
 

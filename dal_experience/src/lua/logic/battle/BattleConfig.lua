@@ -7,7 +7,7 @@ BattleConfig.FLY_EFFECT       ="sound/moveFly.mp3"
 --强敌来袭音效
 BattleConfig.BOSS_WARNING     ="sound/function_007.mp3"
 
-BattleConfig.DEBUG            = true
+BattleConfig.DEBUG            = false
 
 --角色与空气墙之间的距离
 BattleConfig.SPACE_AIRWALL    = 50

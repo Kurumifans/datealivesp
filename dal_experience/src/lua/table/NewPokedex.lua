@@ -1625,32 +1625,31 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [314601230] = {
+    [240043] = {
         type2 = {
-            [1] = 104012,
+            [1] = 103004,
         },
-        name2 = 900969,
+        name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 410,
-        name1 = 1701830,
+        sort = 118,
+        name1 = 0,
         isOpen = true,
-        type1 = 4,
+        type1 = 3,
         type3 = {
-            [1] = 204001,
-            [2] = 204003,
+            [1] = 203003,
         },
-        id = 314601230,
-        subType = 104,
+        id = 240043,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 5,
         size2 = 0,
-        endSuit = 2112002,
-        endType = 2,
+        endSuit = 0,
+        endType = 0,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -1898,28 +1897,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250535] = {
+    [2112013] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107013,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 302,
         unlock = {
+            favor = 2500,
+            roleId = 112,
         },
-        sort = 251,
+        sort = 1131,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250535,
-        subType = 2,
+        id = 2112013,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -2079,28 +2080,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250280] = {
+    [540033] = {
         type2 = {
-            [1] = 103005,
+            [1] = 105008,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 207,
-        name1 = 0,
+        sort = 583,
+        name1 = 1701948,
         isOpen = true,
-        type1 = 3,
+        type1 = 5,
         type3 = {
-            [1] = 203002,
+            [1] = 205001,
+            [2] = 205003,
         },
-        id = 250280,
-        subType = 2,
+        id = 540033,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -2287,57 +2289,28 @@ return {
         roleID = 119,
         size1 = 0,
     },
-    [250282] = {
+    [240047] = {
         type2 = {
-            [1] = 103005,
+            [1] = 103004,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 209,
+        sort = 122,
         name1 = 0,
         isOpen = true,
         type1 = 3,
         type3 = {
-            [1] = 203002,
+            [1] = 203003,
         },
-        id = 250282,
+        id = 240047,
         subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250538] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 249,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250538,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -2402,6 +2375,35 @@ return {
         endSuit = 0,
         endType = 0,
         heroID = 110209,
+        roleID = 0,
+        size1 = 0,
+    },
+    [329001] = {
+        type2 = {
+            [1] = 106002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 736,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 329001,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
         roleID = 0,
         size1 = 0,
     },
@@ -2970,28 +2972,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250541] = {
+    [2108015] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107009,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 253,
+        sort = 1061,
         name1 = 0,
-        isOpen = true,
-        type1 = 3,
+        isOpen = false,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250541,
-        subType = 2,
+        id = 2108015,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -3297,35 +3299,6 @@ return {
         specialCondition = {
         },
         cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250543] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 252,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250543,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -4400,32 +4373,32 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [225501579] = {
+    [540085] = {
         type2 = {
-            [1] = 104003,
+            [1] = 105005,
         },
-        name2 = 910179,
+        name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 323,
-        name1 = 1701832,
+        sort = 538,
+        name1 = 1701907,
         isOpen = true,
-        type1 = 4,
+        type1 = 5,
         type3 = {
-            [1] = 204001,
-            [2] = 204003,
+            [1] = 205001,
+            [2] = 205002,
         },
-        id = 225501579,
-        subType = 104,
+        id = 540085,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 3,
         size2 = 0,
-        endSuit = 2103001,
-        endType = 2,
+        endSuit = 0,
+        endType = 0,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -5882,35 +5855,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250557] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 256,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250557,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540118] = {
         type2 = {
             [1] = 105001,
@@ -5942,35 +5886,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540119] = {
+    [410407] = {
         type2 = {
-            [1] = 105001,
+            [1] = 102005,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 0,
         unlock = {
-            dunId = 103318,
         },
-        sort = 455,
-        name1 = 1701887,
+        sort = 63,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 2,
         type3 = {
-            [1] = 205001,
-            [2] = 205004,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 540119,
-        subType = 10,
+        id = 410407,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 30,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 104,
         size1 = 0,
     },
     [540120] = {
@@ -6028,35 +5971,6 @@ return {
         specialCondition = {
         },
         cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250558] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 257,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250558,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -6218,28 +6132,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250559] = {
+    [1309003] = {
         type2 = {
-            [1] = 103005,
+            [1] = 110009,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 255,
+        sort = 1164,
         name1 = 0,
-        isOpen = true,
-        type1 = 3,
+        isOpen = false,
+        type1 = 11,
         type3 = {
-            [1] = 203002,
+            [1] = 210001,
+            [2] = 210003,
         },
-        id = 250559,
-        subType = 2,
+        id = 1309003,
+        subType = 109,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -6608,34 +6523,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540137] = {
+    [410416] = {
         type2 = {
-            [1] = 105009,
+            [1] = 102005,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 591,
-        name1 = 1701956,
+        sort = 81,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 2,
         type3 = {
-            [1] = 205001,
-            [2] = 205002,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 540137,
-        subType = 10,
+        id = 410416,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 3,
+        cup = 20,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 104,
         size1 = 0,
     },
     [327001] = {
@@ -7173,28 +7088,29 @@ return {
         roleID = 104,
         size1 = 0,
     },
-    [250565] = {
+    [1307004] = {
         type2 = {
-            [1] = 103005,
+            [1] = 110007,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 259,
+        sort = 1153,
         name1 = 0,
-        isOpen = true,
-        type1 = 3,
+        isOpen = false,
+        type1 = 11,
         type3 = {
-            [1] = 203002,
+            [1] = 210001,
+            [2] = 210002,
         },
-        id = 250565,
-        subType = 2,
+        id = 1307004,
+        subType = 109,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -7378,35 +7294,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250566] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 260,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250566,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540154] = {
         type2 = {
             [1] = 105008,
@@ -7528,33 +7415,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250311] = {
+    [410426] = {
         type2 = {
-            [1] = 103005,
+            [1] = 102005,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 217,
+        sort = 86,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 2,
         type3 = {
-            [1] = 203002,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 250311,
-        subType = 2,
+        id = 410426,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 30,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 104,
         size1 = 0,
     },
     [540158] = {
@@ -7739,31 +7627,32 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250568] = {
+    [65703118] = {
         type2 = {
-            [1] = 103005,
+            [1] = 104005,
         },
-        name2 = 0,
+        name2 = 900902,
         unlockType = 0,
         unlock = {
         },
-        sort = 258,
-        name1 = 0,
+        sort = 381,
+        name1 = 1701833,
         isOpen = true,
-        type1 = 3,
+        type1 = 4,
         type3 = {
-            [1] = 203002,
+            [1] = 204001,
+            [2] = 204003,
         },
-        id = 250568,
-        subType = 2,
+        id = 65703118,
+        subType = 104,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
-        endSuit = 0,
-        endType = 0,
+        endSuit = 2105002,
+        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -8068,35 +7957,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250570] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 261,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250570,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [122601112] = {
         type2 = {
             [1] = 104005,
@@ -8276,28 +8136,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250571] = {
+    [1305005] = {
         type2 = {
-            [1] = 103005,
+            [1] = 110005,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 263,
+        sort = 1142,
         name1 = 0,
-        isOpen = true,
-        type1 = 3,
+        isOpen = false,
+        type1 = 11,
         type3 = {
-            [1] = 203002,
+            [1] = 210001,
+            [2] = 210003,
         },
-        id = 250571,
-        subType = 2,
+        id = 1305005,
+        subType = 109,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -8510,35 +8371,6 @@ return {
         specialCondition = {
         },
         cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250572] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 262,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250572,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -8940,6 +8772,36 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [413001] = {
+        type2 = {
+            [1] = 102029,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 167,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 413001,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 130,
+        size1 = 0,
+    },
     [540190] = {
         type2 = {
             [1] = 105003,
@@ -8998,6 +8860,36 @@ return {
         endType = 0,
         heroID = 0,
         roleID = 0,
+        size1 = 0,
+    },
+    [413002] = {
+        type2 = {
+            [1] = 102029,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 168,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202003,
+        },
+        id = 413002,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 30,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 130,
         size1 = 0,
     },
     [540192] = {
@@ -9244,30 +9136,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540197] = {
+    [304002] = {
         type2 = {
-            [1] = 105001,
+            [1] = 106002,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 0,
         unlock = {
-            dunId = 107425,
         },
-        sort = 498,
-        name1 = 1702107,
+        sort = 690,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 6,
         type3 = {
-            [1] = 205001,
-            [2] = 205006,
+            [1] = 106004,
         },
-        id = 540197,
-        subType = 10,
+        id = 304002,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -9740,30 +9630,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540205] = {
+    [250323] = {
         type2 = {
-            [1] = 105001,
+            [1] = 103005,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 0,
         unlock = {
-            dunId = 107431,
         },
-        sort = 503,
-        name1 = 1701896,
+        sort = 0,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 3,
         type3 = {
-            [1] = 205001,
-            [2] = 205006,
+            [1] = 203002,
         },
-        id = 540205,
-        subType = 10,
+        id = 250323,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 0,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -10374,35 +10262,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250582] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 265,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250582,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540218] = {
         type2 = {
             [1] = 105008,
@@ -10865,35 +10724,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250584] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 264,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250584,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540226] = {
         type2 = {
             [1] = 105016,
@@ -11043,35 +10873,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250585] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 266,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250585,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540230] = {
         type2 = {
             [1] = 105016,
@@ -11160,30 +10961,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540237] = {
+    [250331] = {
         type2 = {
-            [1] = 105001,
+            [1] = 103005,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 0,
         unlock = {
-            dunId = 110001,
         },
-        sort = 545,
-        name1 = 1701898,
+        sort = 220,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 3,
         type3 = {
-            [1] = 205001,
-            [2] = 205008,
+            [1] = 203002,
         },
-        id = 540237,
-        subType = 10,
+        id = 250331,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -11191,30 +10990,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540238] = {
+    [13007] = {
         type2 = {
-            [1] = 105001,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 302,
         unlock = {
-            dunId = 130014,
+            favor = 300,
+            roleId = 103,
         },
-        sort = 546,
-        name1 = 1701899,
+        sort = 832,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 7,
         type3 = {
-            [1] = 205001,
-            [2] = 205008,
+            [1] = 207001,
         },
-        id = 540238,
-        subType = 10,
+        id = 13007,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -11491,28 +11290,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540244] = {
+    [303002] = {
         type2 = {
-            [1] = 105002,
+            [1] = 106002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 632,
-        name1 = 1701977,
+        sort = 688,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 6,
         type3 = {
-            [1] = 205001,
+            [1] = 106004,
         },
-        id = 540244,
-        subType = 10,
+        id = 303002,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -12214,34 +12013,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [411501] = {
+    [540260] = {
         type2 = {
-            [1] = 102016,
+            [1] = 105017,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 122,
-        name1 = 0,
+        sort = 617,
+        name1 = 1701985,
         isOpen = true,
-        type1 = 2,
+        type1 = 5,
         type3 = {
-            [1] = 202001,
-            [2] = 202002,
+            [1] = 205001,
+            [2] = 205003,
         },
-        id = 411501,
-        subType = 4,
+        id = 540260,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 10,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 115,
+        roleID = 0,
         size1 = 0,
     },
     [540261] = {
@@ -12465,7 +12264,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1306,
+        sort = 1310,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -12554,7 +12353,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1328,
+        sort = 1332,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -12569,35 +12368,6 @@ return {
         specialCondition = {
         },
         cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250595] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 247,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250595,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -12936,28 +12706,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250597] = {
+    [2113005] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107014,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 302,
         unlock = {
+            favor = 300,
+            roleId = 113,
         },
-        sort = 246,
+        sort = 1147,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250597,
-        subType = 2,
+        id = 2113005,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -14130,33 +13902,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2109007] = {
+    [411010] = {
         type2 = {
-            [1] = 107010,
+            [1] = 102011,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1077,
+        sort = 113,
         name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        isOpen = true,
+        type1 = 2,
         type3 = {
-            [1] = 207001,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 2109007,
-        subType = 108,
+        id = 411010,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 30,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 110,
         size1 = 0,
     },
     [540302] = {
@@ -14376,28 +14149,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250604] = {
+    [2109023] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107010,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 202,
         unlock = {
+            heroId = 110901,
         },
-        sort = 267,
+        sort = 1093,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250604,
-        subType = 2,
+        id = 2109023,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -14521,35 +14295,6 @@ return {
         specialCondition = {
         },
         cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250605] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 268,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250605,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -14804,63 +14549,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540317] = {
+    [410506] = {
         type2 = {
-            [1] = 105006,
+            [1] = 102006,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 563,
-        name1 = 1702202,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205003,
-        },
-        id = 540317,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250607] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 269,
+        sort = 77,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 2,
         type3 = {
-            [1] = 203002,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 250607,
-        subType = 2,
+        id = 410506,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 25,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 105,
         size1 = 0,
     },
     [540318] = {
@@ -14984,32 +14700,32 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [308503016] = {
+    [540320] = {
         type2 = {
-            [1] = 104003,
+            [1] = 105007,
         },
-        name2 = 900893,
+        name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 335,
-        name1 = 1701833,
+        sort = 573,
+        name1 = 1702203,
         isOpen = true,
-        type1 = 4,
+        type1 = 5,
         type3 = {
-            [1] = 204001,
-            [2] = 204003,
+            [1] = 205001,
+            [2] = 205003,
         },
-        id = 308503016,
-        subType = 104,
+        id = 540320,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
         size2 = 0,
-        endSuit = 2103002,
-        endType = 2,
+        endSuit = 0,
+        endType = 0,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -15803,30 +15519,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540336] = {
+    [301001] = {
         type2 = {
-            [1] = 105001,
+            [1] = 106002,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 0,
         unlock = {
-            dunId = 111107,
         },
-        sort = 535,
-        name1 = 1702577,
+        sort = 683,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 6,
         type3 = {
-            [1] = 205001,
-            [2] = 205007,
+            [1] = 106004,
         },
-        id = 540336,
-        subType = 10,
+        id = 301001,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -17277,31 +16991,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540366] = {
+    [13009] = {
         type2 = {
-            [1] = 105002,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 101,
+        unlockType = 302,
         unlock = {
-            ownItems = {
-                [501031] = 1,
-            },
+            favor = 2500,
+            roleId = 103,
         },
-        sort = 683,
-        name1 = 1705384,
+        sort = 834,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 7,
         type3 = {
-            [1] = 205001,
+            [1] = 207001,
         },
-        id = 540366,
-        subType = 10,
+        id = 13009,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -17518,35 +17231,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [9200131] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1354,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200131,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 20,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540371] = {
         type2 = {
             [1] = 105002,
@@ -17572,35 +17256,6 @@ return {
         specialCondition = {
         },
         cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [9200126] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1353,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200126,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 20,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -17698,35 +17353,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250621] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 270,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250621,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540374] = {
         type2 = {
             [1] = 105002,
@@ -17752,35 +17378,6 @@ return {
         specialCondition = {
         },
         cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [9200125] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1352,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200125,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -17820,35 +17417,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [9200121] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1351,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200121,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 20,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540376] = {
         type2 = {
             [1] = 105002,
@@ -17881,35 +17449,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [9200120] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1351,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200120,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 15,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540377] = {
         type2 = {
             [1] = 105004,
@@ -17932,35 +17471,6 @@ return {
         specialCondition = {
         },
         cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250622] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 271,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250622,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -17998,35 +17508,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [9200119] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1351,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200119,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540379] = {
         type2 = {
             [1] = 105011,
@@ -18050,35 +17531,6 @@ return {
         specialCondition = {
         },
         cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [9200118] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1351,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200118,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -18116,35 +17568,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [9200114] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1350,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200114,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 15,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540381] = {
         type2 = {
             [1] = 105012,
@@ -18175,35 +17598,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [9200110] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1349,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200110,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 20,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540382] = {
         type2 = {
             [1] = 105002,
@@ -18226,35 +17620,6 @@ return {
         specialCondition = {
         },
         cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [9200109] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1348,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200109,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 15,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -18294,35 +17659,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [9200107] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1347,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200107,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 15,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540384] = {
         type2 = {
             [1] = 105002,
@@ -18348,35 +17684,6 @@ return {
         specialCondition = {
         },
         cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [9200106] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1346,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200106,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 15,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -18475,35 +17782,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [9200105] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1345,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200105,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 15,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540387] = {
         type2 = {
             [1] = 105001,
@@ -18528,35 +17806,6 @@ return {
         specialCondition = {
         },
         cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [9200104] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1344,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200104,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 15,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -18595,35 +17844,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [9200101] = {
-        type2 = {
-            [1] = 108002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1341,
-        name1 = 0,
-        isOpen = true,
-        type1 = 8,
-        type3 = {
-            [1] = 208002,
-        },
-        id = 9200101,
-        subType = 38,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 15,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540389] = {
         type2 = {
             [1] = 105001,
@@ -18655,33 +17875,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250625] = {
+    [413101] = {
         type2 = {
-            [1] = 103005,
+            [1] = 102030,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 272,
+        sort = 169,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 2,
         type3 = {
-            [1] = 203002,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 250625,
-        subType = 2,
+        id = 413101,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 131,
         size1 = 0,
     },
     [540390] = {
@@ -18708,35 +17929,6 @@ return {
         specialCondition = {
         },
         cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250382] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 229,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250382,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -18775,33 +17967,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [9200000] = {
+    [413102] = {
         type2 = {
-            [1] = 108002,
+            [1] = 102030,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1339,
+        sort = 170,
         name1 = 0,
         isOpen = true,
-        type1 = 8,
+        type1 = 2,
         type3 = {
-            [1] = 208002,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 9200000,
-        subType = 38,
+        id = 413102,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 30,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 131,
         size1 = 0,
     },
     [540392] = {
@@ -18835,35 +18028,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10156] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1370,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10156,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [540393] = {
         type2 = {
             [1] = 105004,
@@ -18881,35 +18045,6 @@ return {
         },
         id = 540393,
         subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10155] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1369,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10155,
-        subType = 18,
         defaultInfo = {
         },
         specialCondition = {
@@ -18953,28 +18088,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10154] = {
+    [9200131] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1368,
+        sort = 1354,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10154,
-        subType = 18,
+        id = 9200131,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 20,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -19163,28 +18298,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10153] = {
+    [9200126] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1367,
+        sort = 1353,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10153,
-        subType = 18,
+        id = 9200126,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 20,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -19230,7 +18365,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 746,
+        sort = 752,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -19349,7 +18484,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 747,
+        sort = 753,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -19468,7 +18603,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 748,
+        sort = 754,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -19584,7 +18719,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 738,
+        sort = 744,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -19703,7 +18838,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 737,
+        sort = 743,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -19724,28 +18859,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10152] = {
+    [9200125] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1366,
+        sort = 1352,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10152,
-        subType = 18,
+        id = 9200125,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -19753,28 +18888,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10151] = {
+    [9200121] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1365,
+        sort = 1351,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10151,
-        subType = 18,
+        id = 9200121,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 20,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -19940,7 +19075,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 740,
+        sort = 746,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -20058,7 +19193,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 749,
+        sort = 755,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -20147,7 +19282,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1300,
+        sort = 1306,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -20177,7 +19312,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 759,
+        sort = 765,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -20198,28 +19333,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10150] = {
+    [9200120] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1364,
+        sort = 1351,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10150,
-        subType = 18,
+        id = 9200120,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 15,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20227,28 +19362,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10149] = {
+    [9200119] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1363,
+        sort = 1351,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10149,
-        subType = 18,
+        id = 9200119,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20293,7 +19428,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 760,
+        sort = 766,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -20314,28 +19449,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10012] = {
+    [9200118] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1306,
+        sort = 1351,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10012,
-        subType = 18,
+        id = 9200118,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20343,28 +19478,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10145] = {
+    [9200114] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1359,
+        sort = 1350,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10145,
-        subType = 18,
+        id = 9200114,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 15,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20372,28 +19507,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10143] = {
+    [9200110] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1357,
+        sort = 1349,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10143,
-        subType = 18,
+        id = 9200110,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 20,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20409,7 +19544,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 750,
+        sort = 756,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -20459,28 +19594,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10141] = {
+    [9200109] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1355,
+        sort = 1348,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10141,
-        subType = 18,
+        id = 9200109,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 15,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20517,28 +19652,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250377] = {
+    [300020] = {
         type2 = {
-            [1] = 103005,
+            [1] = 106003,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 232,
+        sort = 757,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 6,
         type3 = {
-            [1] = 203002,
+            [1] = 106004,
         },
-        id = 250377,
-        subType = 2,
+        id = 300020,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 3,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20546,28 +19681,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10140] = {
+    [9200107] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1354,
+        sort = 1347,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10140,
-        subType = 18,
+        id = 9200107,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 15,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20575,30 +19710,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540157] = {
+    [9200106] = {
         type2 = {
-            [1] = 105001,
+            [1] = 108002,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 0,
         unlock = {
-            dunId = 105103,
         },
-        sort = 469,
-        name1 = 1702097,
+        sort = 1346,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 8,
         type3 = {
-            [1] = 205001,
-            [2] = 205005,
+            [1] = 208002,
         },
-        id = 540157,
-        subType = 10,
+        id = 9200106,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 15,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20644,7 +19777,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 752,
+        sort = 758,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -20665,28 +19798,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10138] = {
+    [9200105] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1352,
+        sort = 1345,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10138,
-        subType = 18,
+        id = 9200105,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 15,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20694,30 +19827,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2112006] = {
+    [9200104] = {
         type2 = {
-            [1] = 107013,
+            [1] = 108002,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 0,
         unlock = {
-            favor = 300,
-            roleId = 112,
         },
-        sort = 1124,
+        sort = 1344,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 8,
         type3 = {
-            [1] = 207001,
+            [1] = 208002,
         },
-        id = 2112006,
-        subType = 108,
+        id = 9200104,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 15,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20762,7 +19893,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 753,
+        sort = 759,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -20783,28 +19914,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10136] = {
+    [9200101] = {
         type2 = {
-            [1] = 109002,
+            [1] = 108002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1350,
+        sort = 1341,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 8,
         type3 = {
-            [1] = 209004,
+            [1] = 208002,
         },
-        id = 10136,
-        subType = 18,
+        id = 9200101,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 15,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -20812,37 +19943,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1306001] = {
-        type2 = {
-            [1] = 110006,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1146,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1306001,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10134] = {
+    [10019] = {
         type2 = {
             [1] = 109002,
         },
@@ -20850,15 +19951,44 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1348,
+        sort = 1334,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
         },
-        id = 10134,
+        id = 10019,
         subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [9200000] = {
+        type2 = {
+            [1] = 108002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1339,
+        name1 = 0,
+        isOpen = true,
+        type1 = 8,
+        type3 = {
+            [1] = 208002,
+        },
+        id = 9200000,
+        subType = 38,
         defaultInfo = {
         },
         specialCondition = {
@@ -20879,7 +20009,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 754,
+        sort = 760,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -20900,7 +20030,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10133] = {
+    [10156] = {
         type2 = {
             [1] = 109002,
         },
@@ -20908,14 +20038,14 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1347,
+        sort = 1370,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
         },
-        id = 10133,
+        id = 10156,
         subType = 18,
         defaultInfo = {
         },
@@ -20929,33 +20059,32 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1123011] = {
+    [10155] = {
         type2 = {
-            [1] = 101026,
+            [1] = 109002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 47,
+        sort = 1369,
         name1 = 0,
         isOpen = true,
-        type1 = 1,
+        type1 = 9,
         type3 = {
-            [1] = 201001,
-            [2] = 201002,
+            [1] = 209004,
         },
-        id = 1123011,
-        subType = 11,
+        id = 10155,
+        subType = 18,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 10,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
-        heroID = 112301,
+        heroID = 0,
         roleID = 0,
         size1 = 0,
     },
@@ -20996,7 +20125,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 755,
+        sort = 761,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -21017,7 +20146,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10130] = {
+    [10154] = {
         type2 = {
             [1] = 109002,
         },
@@ -21025,14 +20154,14 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1344,
+        sort = 1368,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
         },
-        id = 10130,
+        id = 10154,
         subType = 18,
         defaultInfo = {
         },
@@ -21115,7 +20244,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 756,
+        sort = 762,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -21200,33 +20329,35 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1109011] = {
+    [11043] = {
         type2 = {
-            [1] = 101012,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 101,
         unlock = {
+            ownItems = {
+                [411315] = 1,
+            },
         },
-        sort = 34,
+        sort = 794,
         name1 = 0,
         isOpen = true,
-        type1 = 1,
+        type1 = 7,
         type3 = {
-            [1] = 201001,
-            [2] = 201002,
+            [1] = 207001,
         },
-        id = 1109011,
-        subType = 11,
+        id = 11043,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 10,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
-        heroID = 110901,
+        heroID = 0,
         roleID = 0,
         size1 = 0,
     },
@@ -21238,7 +20369,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 758,
+        sort = 764,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -21252,6 +20383,805 @@ return {
         specialCondition = {
         },
         cup = 3,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10153] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1367,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10153,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10152] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1366,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10152,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10151] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1365,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10151,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [300027] = {
+        type2 = {
+            [1] = 106003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 763,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 300027,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 3,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10150] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1364,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10150,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10149] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1363,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10149,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [412101] = {
+        type2 = {
+            [1] = 102019,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 130,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 412101,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 121,
+        size1 = 0,
+    },
+    [300028] = {
+        type2 = {
+            [1] = 106003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 742,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 300028,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540161] = {
+        type2 = {
+            [1] = 105001,
+        },
+        name2 = 0,
+        unlockType = 401,
+        unlock = {
+            dunId = 105425,
+        },
+        sort = 474,
+        name1 = 1702100,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205005,
+        },
+        id = 540161,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10145] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1359,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10145,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10143] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1357,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10143,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [300029] = {
+        type2 = {
+            [1] = 106003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 774,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 300029,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10141] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1355,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10141,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10140] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1354,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10140,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250126] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 166,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203001,
+        },
+        id = 250126,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [300030] = {
+        type2 = {
+            [1] = 106003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 775,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 300030,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540162] = {
+        type2 = {
+            [1] = 105001,
+        },
+        name2 = 0,
+        unlockType = 401,
+        unlock = {
+            dunId = 105425,
+        },
+        sort = 475,
+        name1 = 1702100,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205005,
+        },
+        id = 540162,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10138] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1352,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10138,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2110024] = {
+        type2 = {
+            [1] = 107011,
+        },
+        name2 = 0,
+        unlockType = 202,
+        unlock = {
+            heroId = 111001,
+        },
+        sort = 1118,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2110024,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [300031] = {
+        type2 = {
+            [1] = 106003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 747,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 300031,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10136] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1350,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10136,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1309002] = {
+        type2 = {
+            [1] = 110009,
+        },
+        name2 = 0,
+        unlockType = 505,
+        unlock = {
+            ownEndId = {
+                [1] = 123501719,
+                [2] = 123801120,
+                [3] = 123501234,
+                [4] = 123401331,
+                [5] = 123501610,
+                [6] = 123501430,
+                [7] = 123501550,
+            },
+        },
+        sort = 1163,
+        name1 = 0,
+        isOpen = true,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210003,
+        },
+        id = 1309002,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10134] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1348,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10134,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [300032] = {
+        type2 = {
+            [1] = 106003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 748,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 300032,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10133] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1347,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10133,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10124] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1327,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10124,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10130] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1344,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10130,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -21346,35 +21276,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [300027] = {
-        type2 = {
-            [1] = 106003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 757,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 300027,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 3,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [10126] = {
         type2 = {
             [1] = 109002,
@@ -21404,83 +21305,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [314502522] = {
+    [240049] = {
         type2 = {
-            [1] = 104012,
-        },
-        name2 = 900962,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 414,
-        name1 = 1701831,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 314502522,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2112002,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [412101] = {
-        type2 = {
-            [1] = 102019,
+            [1] = 103004,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 130,
+        sort = 124,
         name1 = 0,
         isOpen = true,
-        type1 = 2,
+        type1 = 3,
         type3 = {
-            [1] = 202001,
-            [2] = 202002,
+            [1] = 203003,
         },
-        id = 412101,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 121,
-        size1 = 0,
-    },
-    [300028] = {
-        type2 = {
-            [1] = 106003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 736,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 300028,
-        subType = 17,
+        id = 240049,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
@@ -21551,709 +21392,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10021] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1336,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10021,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 7,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [300029] = {
-        type2 = {
-            [1] = 106003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 768,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 300029,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10106] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1313,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10106,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10019] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1334,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10019,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250126] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 166,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203001,
-        },
-        id = 250126,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [300030] = {
-        type2 = {
-            [1] = 106003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 769,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 300030,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304012] = {
-        type2 = {
-            [1] = 110004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1129,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1304012,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10102] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1332,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10102,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10016] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1329,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10016,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [300031] = {
-        type2 = {
-            [1] = 106003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 741,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 300031,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 4,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10015] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1328,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10015,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10124] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1327,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10124,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [316602118] = {
-        type2 = {
-            [1] = 104001,
-        },
-        name2 = 900947,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 282,
-        name1 = 1701832,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 316602118,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2101003,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [300032] = {
-        type2 = {
-            [1] = 106003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 742,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 300032,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 4,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10122] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1325,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10122,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2110014] = {
-        type2 = {
-            [1] = 107011,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1108,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2110014,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [11021] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 101,
-        unlock = {
-            ownItems = {
-                [410511] = 1,
-            },
-        },
-        sort = 772,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 11021,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304013] = {
-        type2 = {
-            [1] = 110004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1130,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1304013,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10118] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1322,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10118,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [605] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1262,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209002,
-        },
-        id = 605,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10101] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1310,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10101,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250384] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 230,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250384,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10112] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1319,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10112,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10111] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1317,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10111,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [2127002] = {
         type2 = {
             [1] = 107021,
@@ -22291,7 +21429,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 770,
+        sort = 776,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -22409,7 +21547,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 771,
+        sort = 777,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -22941,7 +22079,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10110] = {
+    [10021] = {
         type2 = {
             [1] = 109002,
         },
@@ -22949,20 +22087,20 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1316,
+        sort = 1336,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209004,
         },
-        id = 10110,
+        id = 10021,
         subType = 18,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 7,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -23000,28 +22138,38 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10108] = {
+    [1310001] = {
         type2 = {
-            [1] = 109002,
+            [1] = 110010,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 505,
         unlock = {
+            ownEndId = {
+                [1] = 225501370,
+                [2] = 225701316,
+                [3] = 225501579,
+                [4] = 225601319,
+                [5] = 225501486,
+                [6] = 225501848,
+                [7] = 225601117,
+            },
         },
-        sort = 1315,
+        sort = 1166,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 11,
         type3 = {
-            [1] = 209004,
+            [1] = 210001,
+            [2] = 210002,
         },
-        id = 10108,
-        subType = 18,
+        id = 1310001,
+        subType = 109,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -23116,28 +22264,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2110012] = {
+    [10102] = {
         type2 = {
-            [1] = 107011,
+            [1] = 109002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1106,
+        sort = 1332,
         name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        isOpen = true,
+        type1 = 9,
         type3 = {
-            [1] = 207001,
+            [1] = 209004,
         },
-        id = 2110012,
-        subType = 108,
+        id = 10102,
+        subType = 18,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -23145,23 +22293,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250644] = {
+    [10016] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 273,
+        sort = 1329,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203002,
+            [1] = 209004,
         },
-        id = 250644,
-        subType = 2,
+        id = 10016,
+        subType = 18,
         defaultInfo = {
         },
         specialCondition = {
@@ -23174,28 +22322,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2128006] = {
+    [10015] = {
         type2 = {
-            [1] = 107022,
+            [1] = 109002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1294,
+        sort = 1328,
         name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        isOpen = true,
+        type1 = 9,
         type3 = {
-            [1] = 207001,
+            [1] = 209004,
         },
-        id = 2128006,
-        subType = 108,
+        id = 10015,
+        subType = 18,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -23348,28 +22496,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250125] = {
+    [10122] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 166,
+        sort = 1325,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203001,
+            [1] = 209004,
         },
-        id = 250125,
-        subType = 2,
+        id = 10122,
+        subType = 18,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -23407,369 +22555,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [10010] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1304,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10010,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2110011] = {
-        type2 = {
-            [1] = 107011,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1105,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2110011,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10008] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1302,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10008,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1307003] = {
-        type2 = {
-            [1] = 110007,
-        },
-        name2 = 0,
-        unlockType = 505,
-        unlock = {
-            ownEndId = {
-                [1] = 314601323,
-                [2] = 314601614,
-                [3] = 314502522,
-                [4] = 314502108,
-                [5] = 314601810,
-                [6] = 314502413,
-                [7] = 314502228,
-                [8] = 314601230,
-                [9] = 314503226,
-            },
-        },
-        sort = 1152,
-        name1 = 0,
-        isOpen = true,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210003,
-        },
-        id = 1307003,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10006] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1300,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10006,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [701] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1264,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209002,
-        },
-        id = 701,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10003] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1297,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10003,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10002] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1296,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10002,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10001] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1295,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10001,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [10000] = {
-        type2 = {
-            [1] = 109002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1294,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209004,
-        },
-        id = 10000,
-        subType = 18,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [410404] = {
-        type2 = {
-            [1] = 102005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 62,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 410404,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 25,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 104,
-        size1 = 0,
-    },
-    [8030] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1332,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209003,
-        },
-        id = 8030,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [2112021] = {
         type2 = {
             [1] = 107013,
@@ -23800,32 +22585,53 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1309002] = {
+    [540223] = {
+        type2 = {
+            [1] = 105008,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 585,
+        name1 = 1701950,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205003,
+        },
+        id = 540223,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1309004] = {
         type2 = {
             [1] = 110009,
         },
         name2 = 0,
-        unlockType = 505,
+        unlockType = 0,
         unlock = {
-            ownEndId = {
-                [1] = 123501719,
-                [2] = 123801120,
-                [3] = 123501234,
-                [4] = 123401331,
-                [5] = 123501610,
-                [6] = 123501430,
-                [7] = 123501550,
-            },
         },
-        sort = 1163,
+        sort = 1165,
         name1 = 0,
-        isOpen = true,
+        isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
             [2] = 210003,
         },
-        id = 1309002,
+        id = 1309004,
         subType = 109,
         defaultInfo = {
         },
@@ -23839,7 +22645,36 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [801] = {
+    [10118] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1322,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10118,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1016] = {
         type2 = {
             [1] = 109001,
         },
@@ -23847,7 +22682,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1267,
+        sort = 1281,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -23855,7 +22690,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 801,
+        id = 1016,
         subType = 16,
         defaultInfo = {
         },
@@ -23869,53 +22704,141 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250647] = {
+    [10112] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 275,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250647,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [8022] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1327,
+        sort = 1319,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
-            [1] = 209001,
-            [2] = 209003,
+            [1] = 209004,
         },
-        id = 8022,
-        subType = 16,
+        id = 10112,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10111] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1317,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10111,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10110] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1316,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10110,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10108] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1315,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10108,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [13016] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 300,
+            roleId = 112,
+        },
+        sort = 841,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 13016,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
@@ -23928,22 +22851,53 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2110007] = {
+    [10106] = {
         type2 = {
-            [1] = 107011,
+            [1] = 109002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1101,
+        sort = 1313,
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10106,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2110022] = {
+        type2 = {
+            [1] = 107011,
+        },
+        name2 = 0,
+        unlockType = 201,
+        unlock = {
+            level = 30,
+            heroId = 111001,
+        },
+        sort = 1116,
+        name1 = 0,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2110007,
+        id = 2110022,
         subType = 108,
         defaultInfo = {
         },
@@ -23957,29 +22911,206 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [8020] = {
+    [2128018] = {
         type2 = {
-            [1] = 109001,
+            [1] = 107022,
+        },
+        name2 = 0,
+        unlockType = 301,
+        unlock = {
+            roleId = 128,
+        },
+        sort = 1306,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2128018,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10101] = {
+        type2 = {
+            [1] = 109002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1325,
+        sort = 1310,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
-            [1] = 209001,
-            [2] = 209003,
+            [1] = 209004,
         },
-        id = 8020,
-        subType = 16,
+        id = 10101,
+        subType = 18,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [410408] = {
+        type2 = {
+            [1] = 102005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 64,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 410408,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 25,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 104,
+        size1 = 0,
+    },
+    [10012] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1306,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10012,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [316602118] = {
+        type2 = {
+            [1] = 104001,
+        },
+        name2 = 900947,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 282,
+        name1 = 1701832,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 316602118,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2101003,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10010] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1304,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10010,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2113003] = {
+        type2 = {
+            [1] = 107014,
+        },
+        name2 = 0,
+        unlockType = 301,
+        unlock = {
+            roleId = 113,
+        },
+        sort = 1145,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2113003,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -24077,7 +23208,95 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [8019] = {
+    [10008] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1302,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10008,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1311003] = {
+        type2 = {
+            [1] = 110011,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1180,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1311003,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [10006] = {
+        type2 = {
+            [1] = 109002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1300,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209004,
+        },
+        id = 10006,
+        subType = 18,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1032] = {
         type2 = {
             [1] = 109001,
         },
@@ -24085,15 +23304,15 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1324,
+        sort = 1288,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
-            [2] = 209003,
+            [2] = 209002,
         },
-        id = 8019,
+        id = 1032,
         subType = 16,
         defaultInfo = {
         },
@@ -24107,124 +23326,33 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [8018] = {
+    [10003] = {
         type2 = {
-            [1] = 109001,
+            [1] = 109002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1323,
+        sort = 1297,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
-            [1] = 209001,
-            [2] = 209003,
+            [1] = 209004,
         },
-        id = 8018,
-        subType = 16,
+        id = 10003,
+        subType = 18,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
         roleID = 0,
-        size1 = 0,
-    },
-    [8017] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1322,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209003,
-        },
-        id = 8017,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [8016] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1321,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209003,
-        },
-        id = 8016,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [410401] = {
-        type2 = {
-            [1] = 102005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 60,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 410401,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 104,
         size1 = 0,
     },
     [411101] = {
@@ -24257,29 +23385,28 @@ return {
         roleID = 111,
         size1 = 0,
     },
-    [8014] = {
+    [10002] = {
         type2 = {
-            [1] = 109001,
+            [1] = 109002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1319,
+        sort = 1296,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
-            [1] = 209001,
-            [2] = 209003,
+            [1] = 209004,
         },
-        id = 8014,
-        subType = 16,
+        id = 10002,
+        subType = 18,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -24316,28 +23443,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250393] = {
+    [10001] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 176,
+        sort = 1295,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203002,
+            [1] = 209004,
         },
-        id = 250393,
-        subType = 2,
+        id = 10001,
+        subType = 18,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -24345,29 +23472,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2112023] = {
+    [10000] = {
         type2 = {
-            [1] = 107013,
+            [1] = 109002,
         },
         name2 = 0,
-        unlockType = 202,
+        unlockType = 0,
         unlock = {
-            heroId = 112001,
         },
-        sort = 1141,
+        sort = 1294,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 9,
         type3 = {
-            [1] = 207001,
+            [1] = 209004,
         },
-        id = 2112023,
-        subType = 108,
+        id = 10000,
+        subType = 18,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -24405,24 +23531,84 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1309003] = {
+    [326001] = {
         type2 = {
-            [1] = 110009,
+            [1] = 106002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1164,
+        sort = 733,
         name1 = 0,
-        isOpen = false,
-        type1 = 11,
+        isOpen = true,
+        type1 = 6,
         type3 = {
-            [1] = 210001,
-            [2] = 210003,
+            [1] = 106004,
         },
-        id = 1309003,
-        subType = 109,
+        id = 326001,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [8030] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1336,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209003,
+        },
+        id = 8030,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2113011] = {
+        type2 = {
+            [1] = 107014,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 2500,
+            roleId = 113,
+        },
+        sort = 1153,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2113011,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
@@ -24435,89 +23621,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [802] = {
+    [1312002] = {
         type2 = {
-            [1] = 109001,
+            [1] = 110012,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 99,
         unlock = {
         },
-        sort = 1268,
+        sort = 1186,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 11,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 210001,
+            [2] = 210003,
         },
-        id = 802,
-        subType = 16,
+        id = 1312002,
+        subType = 109,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [8010] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1315,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209003,
-        },
-        id = 8010,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [8009] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1314,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209003,
-        },
-        id = 8009,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -24554,36 +23680,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250394] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 177,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250394,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [8008] = {
+    [1036] = {
         type2 = {
             [1] = 109001,
         },
@@ -24591,7 +23688,37 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1313,
+        sort = 1292,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 1036,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [8022] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1331,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -24599,7 +23726,7 @@ return {
             [1] = 209001,
             [2] = 209003,
         },
-        id = 8008,
+        id = 8022,
         subType = 16,
         defaultInfo = {
         },
@@ -24673,28 +23800,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250596] = {
+    [2113017] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107014,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 302,
         unlock = {
+            favor = 300,
+            roleId = 113,
         },
-        sort = 248,
+        sort = 1159,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250596,
-        subType = 2,
+        id = 2113017,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -24732,28 +23861,29 @@ return {
         roleID = 111,
         size1 = 0,
     },
-    [250507] = {
+    [8020] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 241,
+        sort = 1329,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203002,
+            [1] = 209001,
+            [2] = 209003,
         },
-        id = 250507,
-        subType = 2,
+        id = 8020,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -24790,28 +23920,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250395] = {
+    [8019] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 178,
+        sort = 1328,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203002,
+            [1] = 209001,
+            [2] = 209003,
         },
-        id = 250395,
-        subType = 2,
+        id = 8019,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -25063,28 +24194,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250652] = {
+    [8018] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 277,
+        sort = 1327,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203002,
+            [1] = 209001,
+            [2] = 209003,
         },
-        id = 250652,
-        subType = 2,
+        id = 8018,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -25092,28 +24224,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2110006] = {
+    [8017] = {
         type2 = {
-            [1] = 107011,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1100,
+        sort = 1326,
         name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        isOpen = true,
+        type1 = 9,
         type3 = {
-            [1] = 207001,
+            [1] = 209001,
+            [2] = 209003,
         },
-        id = 2110006,
-        subType = 108,
+        id = 8017,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -25121,29 +24254,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1309004] = {
+    [8016] = {
         type2 = {
-            [1] = 110009,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1165,
+        sort = 1325,
         name1 = 0,
-        isOpen = false,
-        type1 = 11,
+        isOpen = true,
+        type1 = 9,
         type3 = {
-            [1] = 210001,
-            [2] = 210003,
+            [1] = 209001,
+            [2] = 209003,
         },
-        id = 1309004,
-        subType = 109,
+        id = 8016,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -25303,29 +24436,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [803] = {
+    [315002] = {
         type2 = {
-            [1] = 109001,
+            [1] = 106002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1269,
+        sort = 717,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 6,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 106004,
         },
-        id = 803,
-        subType = 16,
+        id = 315002,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 4,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -25364,7 +24496,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [8002] = {
+    [8014] = {
         type2 = {
             [1] = 109001,
         },
@@ -25372,7 +24504,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1307,
+        sort = 1323,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -25380,7 +24512,7 @@ return {
             [1] = 209001,
             [2] = 209003,
         },
-        id = 8002,
+        id = 8014,
         subType = 16,
         defaultInfo = {
         },
@@ -25424,25 +24556,24 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540176] = {
+    [2113018] = {
         type2 = {
-            [1] = 105001,
+            [1] = 107014,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 301,
         unlock = {
-            dunId = 106105,
+            roleId = 113,
         },
-        sort = 484,
-        name1 = 1702101,
+        sort = 1160,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 7,
         type3 = {
-            [1] = 205001,
-            [2] = 205005,
+            [1] = 207001,
         },
-        id = 540176,
-        subType = 10,
+        id = 2113018,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
@@ -25455,29 +24586,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1053] = {
+    [1312003] = {
         type2 = {
-            [1] = 109001,
+            [1] = 110012,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 0,
+        sort = 1187,
         name1 = 0,
-        isOpen = true,
-        type1 = 9,
+        isOpen = false,
+        type1 = 11,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 210001,
+            [2] = 210002,
         },
-        id = 1053,
-        subType = 16,
+        id = 1312003,
+        subType = 109,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 0,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -25546,28 +24677,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250654] = {
+    [2118011] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107015,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 201,
         unlock = {
+            level = 45,
+            heroId = 111601,
         },
-        sort = 276,
+        sort = 1177,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250654,
-        subType = 2,
+        id = 2118011,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -25606,31 +24739,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [11048] = {
+    [540174] = {
         type2 = {
-            [1] = 107001,
+            [1] = 105001,
         },
         name2 = 0,
-        unlockType = 101,
+        unlockType = 401,
         unlock = {
-            ownItems = {
-                [412504] = 1,
-            },
+            dunId = 106105,
         },
-        sort = 799,
-        name1 = 0,
+        sort = 480,
+        name1 = 1702101,
         isOpen = true,
-        type1 = 7,
+        type1 = 5,
         type3 = {
-            [1] = 207001,
+            [1] = 205001,
+            [2] = 205005,
         },
-        id = 11048,
-        subType = 105,
+        id = 540174,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -25728,7 +24860,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1049] = {
+    [8010] = {
         type2 = {
             [1] = 109001,
         },
@@ -25736,15 +24868,15 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1305,
+        sort = 1319,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
-            [2] = 209002,
+            [2] = 209003,
         },
-        id = 1049,
+        id = 8010,
         subType = 16,
         defaultInfo = {
         },
@@ -25758,7 +24890,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1048] = {
+    [8009] = {
         type2 = {
             [1] = 109001,
         },
@@ -25766,15 +24898,15 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1304,
+        sort = 1318,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
-            [2] = 209002,
+            [2] = 209003,
         },
-        id = 1048,
+        id = 8009,
         subType = 16,
         defaultInfo = {
         },
@@ -25848,36 +24980,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250515] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 244,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250515,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1046] = {
+    [8008] = {
         type2 = {
             [1] = 109001,
         },
@@ -25885,15 +24988,15 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1302,
+        sort = 1317,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
-            [2] = 209002,
+            [2] = 209003,
         },
-        id = 1046,
+        id = 8008,
         subType = 16,
         defaultInfo = {
         },
@@ -25907,30 +25010,58 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540174] = {
+    [540145] = {
         type2 = {
-            [1] = 105001,
+            [1] = 105005,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 0,
         unlock = {
-            dunId = 106105,
         },
-        sort = 480,
-        name1 = 1702101,
+        sort = 544,
+        name1 = 1701913,
         isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
-            [2] = 205005,
+            [2] = 205003,
         },
-        id = 540174,
+        id = 540145,
         subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250125] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 166,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203001,
+        },
+        id = 250125,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -25968,31 +25099,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [11049] = {
+    [2113019] = {
         type2 = {
-            [1] = 107001,
+            [1] = 107014,
         },
         name2 = 0,
-        unlockType = 101,
+        unlockType = 0,
         unlock = {
-            ownItems = {
-                [412404] = 1,
-            },
         },
-        sort = 800,
+        sort = 1161,
         name1 = 0,
-        isOpen = true,
+        isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 11049,
-        subType = 105,
+        id = 2113019,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -26000,33 +25128,33 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1110012] = {
+    [1312004] = {
         type2 = {
-            [1] = 101013,
+            [1] = 110012,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 36,
+        sort = 1188,
         name1 = 0,
-        isOpen = true,
-        type1 = 1,
+        isOpen = false,
+        type1 = 11,
         type3 = {
-            [1] = 201001,
-            [2] = 201002,
+            [1] = 210001,
+            [2] = 210002,
         },
-        id = 1110012,
-        subType = 11,
+        id = 1312004,
+        subType = 109,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 30,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
-        heroID = 111001,
+        heroID = 0,
         roleID = 0,
         size1 = 0,
     },
@@ -26059,29 +25187,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1040] = {
+    [540176] = {
         type2 = {
-            [1] = 109001,
+            [1] = 105001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 401,
         unlock = {
+            dunId = 106105,
         },
-        sort = 1296,
-        name1 = 0,
+        sort = 484,
+        name1 = 1702101,
         isOpen = true,
-        type1 = 9,
+        type1 = 5,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 205001,
+            [2] = 205005,
         },
-        id = 1040,
-        subType = 16,
+        id = 540176,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -26119,66 +25248,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250262] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 201,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250262,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540320] = {
-        type2 = {
-            [1] = 105007,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 573,
-        name1 = 1702203,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205003,
-        },
-        id = 540320,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1036] = {
+    [8002] = {
         type2 = {
             [1] = 109001,
         },
@@ -26186,15 +25256,15 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1292,
+        sort = 1311,
         name1 = 0,
         isOpen = true,
         type1 = 9,
         type3 = {
             [1] = 209001,
-            [2] = 209002,
+            [2] = 209003,
         },
-        id = 1036,
+        id = 8002,
         subType = 16,
         defaultInfo = {
         },
@@ -26208,24 +25278,83 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540170] = {
+    [1109011] = {
         type2 = {
-            [1] = 105009,
+            [1] = 101012,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 593,
-        name1 = 1701958,
+        sort = 34,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 1,
         type3 = {
-            [1] = 205001,
-            [2] = 205003,
+            [1] = 201001,
+            [2] = 201002,
         },
-        id = 540170,
-        subType = 10,
+        id = 1109011,
+        subType = 11,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 110901,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1056] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1308,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 1056,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [12016] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 99,
+        unlock = {
+        },
+        sort = 825,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 12016,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
@@ -26268,7 +25397,7 @@ return {
         roleID = 106,
         size1 = 0,
     },
-    [1033] = {
+    [1053] = {
         type2 = {
             [1] = 109001,
         },
@@ -26276,7 +25405,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1289,
+        sort = 0,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -26284,13 +25413,13 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 1033,
+        id = 1053,
         subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 0,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -26328,29 +25457,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1032] = {
+    [540268] = {
         type2 = {
-            [1] = 109001,
+            [1] = 105001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 401,
         unlock = {
+            dunId = 108536,
         },
-        sort = 1288,
-        name1 = 0,
+        sort = 510,
+        name1 = 1702622,
         isOpen = true,
-        type1 = 9,
+        type1 = 5,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 205001,
+            [2] = 205006,
         },
-        id = 1032,
-        subType = 16,
+        id = 540268,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -26388,23 +25518,144 @@ return {
         roleID = 106,
         size1 = 0,
     },
-    [308502723] = {
+    [1049] = {
         type2 = {
-            [1] = 104003,
+            [1] = 109001,
         },
-        name2 = 900888,
+        name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 330,
-        name1 = 1701832,
+        sort = 1305,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 1049,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1048] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1304,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 1048,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540182] = {
+        type2 = {
+            [1] = 105001,
+        },
+        name2 = 0,
+        unlockType = 401,
+        unlock = {
+            dunId = 106105,
+        },
+        sort = 482,
+        name1 = 1702101,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205005,
+        },
+        id = 540182,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1046] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1302,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 1046,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [120501225] = {
+        type2 = {
+            [1] = 104002,
+        },
+        name2 = 910193,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 292,
+        name1 = 1701833,
         isOpen = true,
         type1 = 4,
         type3 = {
             [1] = 204001,
             [2] = 204003,
         },
-        id = 308502723,
+        id = 120501225,
         subType = 104,
         defaultInfo = {
         },
@@ -26412,30 +25663,31 @@ return {
         },
         cup = 1,
         size2 = 0,
-        endSuit = 2103002,
+        endSuit = 2102001,
         endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
     },
-    [1020] = {
+    [13002] = {
         type2 = {
-            [1] = 109001,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 302,
         unlock = {
+            favor = 1000,
+            roleId = 101,
         },
-        sort = 1282,
+        sort = 827,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 7,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 207001,
         },
-        id = 1020,
-        subType = 16,
+        id = 13002,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
@@ -26448,29 +25700,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1016] = {
+    [250311] = {
         type2 = {
-            [1] = 109001,
+            [1] = 103005,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1281,
+        sort = 217,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 3,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 203002,
         },
-        id = 1016,
-        subType = 16,
+        id = 250311,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -26478,7 +25729,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1012] = {
+    [1040] = {
         type2 = {
             [1] = 109001,
         },
@@ -26486,7 +25737,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1277,
+        sort = 1296,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -26494,127 +25745,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 1012,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1002] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1273,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209002,
-        },
-        id = 1002,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1001] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1272,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209002,
-        },
-        id = 1001,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [902] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1271,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209002,
-        },
-        id = 902,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [901] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1270,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209002,
-        },
-        id = 901,
+        id = 1040,
         subType = 16,
         defaultInfo = {
         },
@@ -26636,7 +25767,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1308,
+        sort = 1312,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -26666,7 +25797,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1316,
+        sort = 1320,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -26725,7 +25856,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1329,
+        sort = 1333,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -26747,7 +25878,37 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [702] = {
+    [1110012] = {
+        type2 = {
+            [1] = 101013,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 36,
+        name1 = 0,
+        isOpen = true,
+        type1 = 1,
+        type3 = {
+            [1] = 201001,
+            [2] = 201002,
+        },
+        id = 1110012,
+        subType = 11,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 30,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 111001,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1033] = {
         type2 = {
             [1] = 109001,
         },
@@ -26755,7 +25916,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1265,
+        sort = 1289,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -26763,42 +25924,13 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 702,
+        id = 1033,
         subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
         cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250915] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 236,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250915,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -26985,7 +26117,37 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [606] = {
+    [308501126] = {
+        type2 = {
+            [1] = 104003,
+        },
+        name2 = 900891,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 333,
+        name1 = 1701833,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 308501126,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2103002,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1020] = {
         type2 = {
             [1] = 109001,
         },
@@ -26993,7 +26155,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1263,
+        sort = 1282,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -27001,42 +26163,13 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 606,
+        id = 1020,
         subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
         cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250916] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 237,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250916,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -27082,7 +26215,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 743,
+        sort = 749,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -27221,7 +26354,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [604] = {
+    [1012] = {
         type2 = {
             [1] = 109001,
         },
@@ -27229,7 +26362,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1261,
+        sort = 1277,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -27237,7 +26370,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 604,
+        id = 1012,
         subType = 16,
         defaultInfo = {
         },
@@ -27251,7 +26384,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [603] = {
+    [1002] = {
         type2 = {
             [1] = 109001,
         },
@@ -27259,7 +26392,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1260,
+        sort = 1273,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -27267,7 +26400,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 603,
+        id = 1002,
         subType = 16,
         defaultInfo = {
         },
@@ -27281,7 +26414,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [602] = {
+    [1001] = {
         type2 = {
             [1] = 109001,
         },
@@ -27289,7 +26422,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1259,
+        sort = 1272,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -27297,7 +26430,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 602,
+        id = 1001,
         subType = 16,
         defaultInfo = {
         },
@@ -27341,7 +26474,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [601] = {
+    [902] = {
         type2 = {
             [1] = 109001,
         },
@@ -27349,7 +26482,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1258,
+        sort = 1271,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -27357,7 +26490,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 601,
+        id = 902,
         subType = 16,
         defaultInfo = {
         },
@@ -27431,7 +26564,7 @@ return {
         roleID = 101,
         size1 = 0,
     },
-    [504] = {
+    [901] = {
         type2 = {
             [1] = 109001,
         },
@@ -27439,7 +26572,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1257,
+        sort = 1270,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -27447,7 +26580,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 504,
+        id = 901,
         subType = 16,
         defaultInfo = {
         },
@@ -27491,7 +26624,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [503] = {
+    [803] = {
         type2 = {
             [1] = 109001,
         },
@@ -27499,7 +26632,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1256,
+        sort = 1269,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -27507,7 +26640,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 503,
+        id = 803,
         subType = 16,
         defaultInfo = {
         },
@@ -27551,7 +26684,7 @@ return {
         roleID = 101,
         size1 = 0,
     },
-    [502] = {
+    [802] = {
         type2 = {
             [1] = 109001,
         },
@@ -27559,7 +26692,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1255,
+        sort = 1268,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -27567,7 +26700,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 502,
+        id = 802,
         subType = 16,
         defaultInfo = {
         },
@@ -27581,7 +26714,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [501] = {
+    [801] = {
         type2 = {
             [1] = 109001,
         },
@@ -27589,7 +26722,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1254,
+        sort = 1267,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -27597,7 +26730,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 501,
+        id = 801,
         subType = 16,
         defaultInfo = {
         },
@@ -27611,7 +26744,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [408] = {
+    [702] = {
         type2 = {
             [1] = 109001,
         },
@@ -27619,7 +26752,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1253,
+        sort = 1265,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -27627,7 +26760,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 408,
+        id = 702,
         subType = 16,
         defaultInfo = {
         },
@@ -27944,28 +27077,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250664] = {
+    [2014011] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107005,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 302,
         unlock = {
+            favor = 2500,
+            roleId = 104,
         },
-        sort = 279,
+        sort = 957,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250664,
-        subType = 2,
+        id = 2014011,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -28188,28 +27323,33 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250665] = {
+    [2014019] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107005,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 202,
         unlock = {
+            ownItems = {
+                [1104013] = 1,
+                [1104015] = 1,
+            },
+            heroId = 110401,
         },
-        sort = 280,
+        sort = 965,
         name1 = 0,
-        isOpen = true,
-        type1 = 3,
+        isOpen = false,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250665,
-        subType = 2,
+        id = 2014019,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -28575,7 +27715,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [407] = {
+    [701] = {
         type2 = {
             [1] = 109001,
         },
@@ -28583,7 +27723,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1252,
+        sort = 1264,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -28591,7 +27731,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 407,
+        id = 701,
         subType = 16,
         defaultInfo = {
         },
@@ -28635,7 +27775,7 @@ return {
         roleID = 101,
         size1 = 0,
     },
-    [406] = {
+    [606] = {
         type2 = {
             [1] = 109001,
         },
@@ -28643,7 +27783,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1251,
+        sort = 1263,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -28651,7 +27791,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 406,
+        id = 606,
         subType = 16,
         defaultInfo = {
         },
@@ -28665,28 +27805,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250667] = {
+    [605] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 281,
+        sort = 1262,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203002,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 250667,
-        subType = 2,
+        id = 605,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -28754,7 +27895,7 @@ return {
         roleID = 101,
         size1 = 0,
     },
-    [404] = {
+    [604] = {
         type2 = {
             [1] = 109001,
         },
@@ -28762,7 +27903,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1249,
+        sort = 1261,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -28770,7 +27911,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 404,
+        id = 604,
         subType = 16,
         defaultInfo = {
         },
@@ -28878,7 +28019,7 @@ return {
         roleID = 101,
         size1 = 0,
     },
-    [402] = {
+    [603] = {
         type2 = {
             [1] = 109001,
         },
@@ -28886,7 +28027,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1247,
+        sort = 1260,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -28894,7 +28035,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 402,
+        id = 603,
         subType = 16,
         defaultInfo = {
         },
@@ -28908,7 +28049,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [312] = {
+    [602] = {
         type2 = {
             [1] = 109001,
         },
@@ -28916,7 +28057,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1245,
+        sort = 1259,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -28924,7 +28065,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 312,
+        id = 602,
         subType = 16,
         defaultInfo = {
         },
@@ -28938,28 +28079,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250277] = {
+    [601] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 204,
+        sort = 1258,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203002,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 250277,
-        subType = 2,
+        id = 601,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -28997,214 +28139,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1102102] = {
-        type2 = {
-            [1] = 101019,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 13,
-        name1 = 0,
-        isOpen = true,
-        type1 = 1,
-        type3 = {
-            [1] = 201001,
-            [2] = 201003,
-        },
-        id = 1102102,
-        subType = 11,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 40,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 110210,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540243] = {
-        type2 = {
-            [1] = 105002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 634,
-        name1 = 1701979,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-        },
-        id = 540243,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250300] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 213,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250300,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [11001] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 99,
-        unlock = {
-        },
-        sort = 759,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 11001,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250294] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 211,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203001,
-        },
-        id = 250294,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540162] = {
-        type2 = {
-            [1] = 105001,
-        },
-        name2 = 0,
-        unlockType = 401,
-        unlock = {
-            dunId = 105425,
-        },
-        sort = 475,
-        name1 = 1702100,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205005,
-        },
-        id = 540162,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [411802] = {
-        type2 = {
-            [1] = 102017,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 126,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202003,
-        },
-        id = 411802,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 30,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 118,
-        size1 = 0,
-    },
-    [104] = {
+    [504] = {
         type2 = {
             [1] = 109001,
         },
@@ -29212,7 +28147,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1225,
+        sort = 1257,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -29220,7 +28155,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 104,
+        id = 504,
         subType = 16,
         defaultInfo = {
         },
@@ -29232,6 +28167,216 @@ return {
         endType = 0,
         heroID = 0,
         roleID = 0,
+        size1 = 0,
+    },
+    [503] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1256,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 503,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [502] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1255,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 502,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [501] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1254,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 501,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [408] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1253,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 408,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [407] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1252,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 407,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [406] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1251,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 406,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [410119] = {
+        type2 = {
+            [1] = 102002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 43,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202003,
+        },
+        id = 410119,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 30,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 101,
         size1 = 0,
     },
     [460501319] = {
@@ -29264,28 +28409,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [240043] = {
+    [404] = {
         type2 = {
-            [1] = 103004,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 118,
+        sort = 1249,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203003,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 240043,
-        subType = 2,
+        id = 404,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -29925,29 +29071,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2106021] = {
+    [410125] = {
         type2 = {
-            [1] = 107007,
+            [1] = 102002,
         },
         name2 = 0,
-        unlockType = 202,
+        unlockType = 0,
         unlock = {
-            heroId = 110601,
         },
-        sort = 1015,
+        sort = 47,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 2,
         type3 = {
-            [1] = 207001,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 2106021,
-        subType = 108,
+        id = 410125,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -30113,7 +29259,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [302] = {
+    [402] = {
         type2 = {
             [1] = 109001,
         },
@@ -30121,7 +29267,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1235,
+        sort = 1247,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -30129,7 +29275,7 @@ return {
             [1] = 209001,
             [2] = 209002,
         },
-        id = 302,
+        id = 402,
         subType = 16,
         defaultInfo = {
         },
@@ -30143,28 +29289,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250155] = {
+    [312] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 175,
+        sort = 1245,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203002,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 250155,
-        subType = 2,
+        id = 312,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -30202,83 +29349,25 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [204] = {
+    [540197] = {
         type2 = {
-            [1] = 109001,
+            [1] = 105001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 401,
         unlock = {
+            dunId = 107425,
         },
-        sort = 1233,
-        name1 = 0,
+        sort = 498,
+        name1 = 1702107,
         isOpen = true,
-        type1 = 9,
+        type1 = 5,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 205001,
+            [2] = 205006,
         },
-        id = 204,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [203] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1232,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209002,
-        },
-        id = 203,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2109013] = {
-        type2 = {
-            [1] = 107010,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1083,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2109013,
-        subType = 108,
+        id = 540197,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
@@ -30291,29 +29380,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [201] = {
+    [250277] = {
         type2 = {
-            [1] = 109001,
+            [1] = 103005,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1230,
+        sort = 204,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 3,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 203002,
         },
-        id = 201,
-        subType = 16,
+        id = 250277,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -30321,29 +29409,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [107] = {
+    [540244] = {
         type2 = {
-            [1] = 109001,
+            [1] = 105002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1228,
-        name1 = 0,
+        sort = 632,
+        name1 = 1701977,
         isOpen = true,
-        type1 = 9,
+        type1 = 5,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 205001,
         },
-        id = 107,
-        subType = 16,
+        id = 540244,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -30351,29 +29438,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [106] = {
+    [540243] = {
         type2 = {
-            [1] = 109001,
+            [1] = 105002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1227,
-        name1 = 0,
+        sort = 634,
+        name1 = 1701979,
         isOpen = true,
-        type1 = 9,
+        type1 = 5,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 205001,
         },
-        id = 106,
-        subType = 16,
+        id = 540243,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -30381,24 +29467,84 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [105] = {
+    [307002] = {
         type2 = {
-            [1] = 109001,
+            [1] = 106002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1226,
+        sort = 699,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 6,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 106004,
         },
-        id = 105,
-        subType = 16,
+        id = 307002,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250295] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 212,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203001,
+        },
+        id = 250295,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [11039] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [410415] = 1,
+            },
+        },
+        sort = 790,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 11039,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
@@ -30441,29 +29587,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [102] = {
+    [240045] = {
         type2 = {
-            [1] = 109001,
+            [1] = 103004,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1223,
+        sort = 120,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 3,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 203003,
         },
-        id = 102,
-        subType = 16,
+        id = 240045,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -30471,29 +29616,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [101] = {
+    [240044] = {
         type2 = {
-            [1] = 109001,
+            [1] = 103004,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1222,
+        sort = 119,
         name1 = 0,
         isOpen = true,
-        type1 = 9,
+        type1 = 3,
         type3 = {
-            [1] = 209001,
-            [2] = 209002,
+            [1] = 203003,
         },
-        id = 101,
-        subType = 16,
+        id = 240044,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -30560,38 +29704,9 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250419] = {
+    [302] = {
         type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 239,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203003,
-        },
-        id = 250419,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1200037] = {
-        type2 = {
-            [1] = 108001,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
@@ -30600,17 +29715,18 @@ return {
         sort = 1235,
         name1 = 0,
         isOpen = true,
-        type1 = 8,
+        type1 = 9,
         type3 = {
-            [1] = 208001,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 1200037,
-        subType = 12,
+        id = 302,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 20,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -30618,87 +29734,119 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [13039] = {
+    [314502522] = {
         type2 = {
-            [1] = 107001,
+            [1] = 104012,
         },
-        name2 = 0,
-        unlockType = 401,
+        name2 = 900962,
+        unlockType = 0,
         unlock = {
-            dunId = 108646,
         },
-        sort = 819,
-        name1 = 0,
+        sort = 414,
+        name1 = 1701831,
         isOpen = true,
-        type1 = 7,
+        type1 = 4,
         type3 = {
-            [1] = 207001,
+            [1] = 204001,
+            [2] = 204003,
         },
-        id = 13039,
-        subType = 105,
+        id = 314502522,
+        subType = 104,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 1,
         size2 = 0,
-        endSuit = 0,
-        endType = 0,
+        endSuit = 2112002,
+        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
     },
-    [12013] = {
+    [204] = {
         type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 99,
-        unlock = {
-        },
-        sort = 822,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 12013,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250124] = {
-        type2 = {
-            [1] = 103005,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 165,
+        sort = 1233,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203001,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 250124,
-        subType = 2,
+        id = 204,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [203] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1232,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 203,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2109021] = {
+        type2 = {
+            [1] = 107010,
+        },
+        name2 = 0,
+        unlockType = 202,
+        unlock = {
+            heroId = 110901,
+        },
+        sort = 1091,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2109021,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -31593,53 +30741,54 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [411502] = {
+    [201] = {
         type2 = {
-            [1] = 102016,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 123,
+        sort = 1230,
         name1 = 0,
         isOpen = true,
-        type1 = 2,
+        type1 = 9,
         type3 = {
-            [1] = 202001,
-            [2] = 202003,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 411502,
-        subType = 4,
+        id = 201,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 30,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 115,
+        roleID = 0,
         size1 = 0,
     },
-    [12016] = {
+    [107] = {
         type2 = {
-            [1] = 107001,
+            [1] = 109001,
         },
         name2 = 0,
-        unlockType = 99,
+        unlockType = 0,
         unlock = {
         },
-        sort = 825,
+        sort = 1228,
         name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        isOpen = true,
+        type1 = 9,
         type3 = {
-            [1] = 207001,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 12016,
-        subType = 105,
+        id = 107,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
@@ -31711,28 +30860,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1200028] = {
+    [106] = {
         type2 = {
-            [1] = 108001,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1230,
+        sort = 1227,
         name1 = 0,
         isOpen = true,
-        type1 = 8,
+        type1 = 9,
         type3 = {
-            [1] = 208001,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 1200028,
-        subType = 12,
+        id = 106,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 20,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -31740,28 +30890,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250379] = {
+    [105] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 234,
+        sort = 1226,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203002,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 250379,
-        subType = 2,
+        id = 105,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -31828,25 +30979,24 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [13002] = {
+    [104] = {
         type2 = {
-            [1] = 107001,
+            [1] = 109001,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 0,
         unlock = {
-            favor = 1000,
-            roleId = 101,
         },
-        sort = 827,
+        sort = 1225,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 9,
         type3 = {
-            [1] = 207001,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 13002,
-        subType = 105,
+        id = 104,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
@@ -31859,29 +31009,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540139] = {
+    [102] = {
         type2 = {
-            [1] = 105009,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 592,
-        name1 = 1701957,
+        sort = 1223,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 9,
         type3 = {
-            [1] = 205001,
-            [2] = 205002,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 540139,
-        subType = 10,
+        id = 102,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 3,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -31978,28 +31128,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250378] = {
+    [101] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 233,
+        sort = 1222,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203002,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 250378,
-        subType = 2,
+        id = 101,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -32037,7 +31188,7 @@ return {
         roleID = 127,
         size1 = 0,
     },
-    [1200023] = {
+    [1200037] = {
         type2 = {
             [1] = 108001,
         },
@@ -32045,14 +31196,14 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1227,
+        sort = 1235,
         name1 = 0,
         isOpen = true,
         type1 = 8,
         type3 = {
             [1] = 208001,
         },
-        id = 1200023,
+        id = 1200037,
         subType = 12,
         defaultInfo = {
         },
@@ -32096,15 +31247,15 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410220] = {
+    [410508] = {
         type2 = {
-            [1] = 102003,
+            [1] = 102006,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 51,
+        sort = 79,
         name1 = 0,
         isOpen = true,
         type1 = 2,
@@ -32112,18 +31263,18 @@ return {
             [1] = 202001,
             [2] = 202002,
         },
-        id = 410220,
+        id = 410508,
         subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 20,
+        cup = 25,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 102,
+        roleID = 105,
         size1 = 0,
     },
     [412702] = {
@@ -32156,28 +31307,28 @@ return {
         roleID = 127,
         size1 = 0,
     },
-    [1200021] = {
+    [12013] = {
         type2 = {
-            [1] = 108001,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 99,
         unlock = {
         },
-        sort = 1225,
+        sort = 822,
         name1 = 0,
-        isOpen = true,
-        type1 = 8,
+        isOpen = false,
+        type1 = 7,
         type3 = {
-            [1] = 208001,
+            [1] = 207001,
         },
-        id = 1200021,
-        subType = 12,
+        id = 12013,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 20,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -32185,23 +31336,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [300006] = {
+    [13022] = {
         type2 = {
-            [1] = 106003,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 99,
         unlock = {
         },
-        sort = 766,
+        sort = 847,
         name1 = 0,
-        isOpen = true,
-        type1 = 6,
+        isOpen = false,
+        type1 = 7,
         type3 = {
-            [1] = 106004,
+            [1] = 207001,
         },
-        id = 300006,
-        subType = 17,
+        id = 13022,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
@@ -32243,54 +31394,82 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [121502115] = {
+    [412703] = {
         type2 = {
-            [1] = 104002,
+            [1] = 102027,
         },
-        name2 = 910147,
+        name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 306,
-        name1 = 1701831,
+        sort = 164,
+        name1 = 0,
         isOpen = true,
-        type1 = 4,
+        type1 = 2,
         type3 = {
-            [1] = 204001,
-            [2] = 204003,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 121502115,
-        subType = 104,
+        id = 412703,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 30,
         size2 = 0,
-        endSuit = 2102003,
-        endType = 2,
+        endSuit = 0,
+        endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 127,
         size1 = 0,
     },
-    [13007] = {
+    [412301] = {
+        type2 = {
+            [1] = 102021,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 133,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 412301,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 123,
+        size1 = 0,
+    },
+    [13026] = {
         type2 = {
             [1] = 107001,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 99,
         unlock = {
-            favor = 300,
-            roleId = 103,
         },
-        sort = 832,
+        sort = 850,
         name1 = 0,
-        isOpen = true,
+        isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 13007,
+        id = 13026,
         subType = 105,
         defaultInfo = {
         },
@@ -32304,7 +31483,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1200017] = {
+    [1200028] = {
         type2 = {
             [1] = 108001,
         },
@@ -32312,14 +31491,14 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1221,
+        sort = 1230,
         name1 = 0,
         isOpen = true,
         type1 = 8,
         type3 = {
             [1] = 208001,
         },
-        id = 1200017,
+        id = 1200028,
         subType = 12,
         defaultInfo = {
         },
@@ -32333,24 +31512,22 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [13008] = {
+    [13028] = {
         type2 = {
             [1] = 107001,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 99,
         unlock = {
-            favor = 1000,
-            roleId = 103,
         },
-        sort = 833,
+        sort = 852,
         name1 = 0,
-        isOpen = true,
+        isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 13008,
+        id = 13028,
         subType = 105,
         defaultInfo = {
         },
@@ -32364,90 +31541,58 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [13009] = {
+    [540147] = {
         type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 2500,
-            roleId = 103,
-        },
-        sort = 834,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13009,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [13012] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 2500,
-            roleId = 104,
-        },
-        sort = 837,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13012,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1200013] = {
-        type2 = {
-            [1] = 108001,
+            [1] = 105005,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1217,
-        name1 = 0,
+        sort = 546,
+        name1 = 1701915,
         isOpen = true,
-        type1 = 8,
+        type1 = 5,
         type3 = {
-            [1] = 208001,
+            [1] = 205001,
+            [2] = 205003,
         },
-        id = 1200013,
-        subType = 12,
+        id = 540147,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 20,
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [13029] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 99,
+        unlock = {
+        },
+        sort = 853,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 13029,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -32484,30 +31629,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [13014] = {
+    [250124] = {
         type2 = {
-            [1] = 107001,
+            [1] = 103005,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 0,
         unlock = {
-            favor = 1000,
-            roleId = 105,
         },
-        sort = 839,
+        sort = 165,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 3,
         type3 = {
-            [1] = 207001,
+            [1] = 203001,
         },
-        id = 13014,
-        subType = 105,
+        id = 250124,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -32515,30 +31658,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [13016] = {
+    [1200023] = {
         type2 = {
-            [1] = 107001,
+            [1] = 108001,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 0,
         unlock = {
-            favor = 300,
-            roleId = 112,
         },
-        sort = 841,
+        sort = 1227,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 8,
         type3 = {
-            [1] = 207001,
+            [1] = 208001,
         },
-        id = 13016,
-        subType = 105,
+        id = 1200023,
+        subType = 12,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 20,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -32607,34 +31748,35 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410505] = {
+    [13031] = {
         type2 = {
-            [1] = 102006,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 302,
         unlock = {
+            favor = 1000,
+            roleId = 110,
         },
-        sort = 76,
+        sort = 855,
         name1 = 0,
         isOpen = true,
-        type1 = 2,
+        type1 = 7,
         type3 = {
-            [1] = 202001,
-            [2] = 202002,
+            [1] = 207001,
         },
-        id = 410505,
-        subType = 4,
+        id = 13031,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 25,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 105,
+        roleID = 0,
         size1 = 0,
     },
     [11014] = {
@@ -33084,7 +32226,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1200009] = {
+    [1200021] = {
         type2 = {
             [1] = 108001,
         },
@@ -33092,14 +32234,14 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1213,
+        sort = 1225,
         name1 = 0,
         isOpen = true,
         type1 = 8,
         type3 = {
             [1] = 208001,
         },
-        id = 1200009,
+        id = 1200021,
         subType = 12,
         defaultInfo = {
         },
@@ -33113,28 +32255,58 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1200008] = {
+    [411502] = {
         type2 = {
-            [1] = 108001,
+            [1] = 102016,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1212,
+        sort = 123,
         name1 = 0,
         isOpen = true,
-        type1 = 8,
+        type1 = 2,
         type3 = {
-            [1] = 208001,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 1200008,
-        subType = 12,
+        id = 411502,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 20,
+        cup = 30,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 115,
+        size1 = 0,
+    },
+    [13034] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 99,
+        unlock = {
+        },
+        sort = 858,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 13034,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -33142,63 +32314,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2505113] = {
+    [411501] = {
         type2 = {
-            [1] = 104001,
-        },
-        name2 = 900014,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 267,
-        name1 = 1701832,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 2505113,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2101001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1200006] = {
-        type2 = {
-            [1] = 108001,
+            [1] = 102016,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1210,
+        sort = 122,
         name1 = 0,
         isOpen = true,
-        type1 = 8,
+        type1 = 2,
         type3 = {
-            [1] = 208001,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 1200006,
-        subType = 12,
+        id = 411501,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 20,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 115,
         size1 = 0,
     },
     [250174] = {
@@ -33230,7 +32373,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1200005] = {
+    [1200017] = {
         type2 = {
             [1] = 108001,
         },
@@ -33238,20 +32381,20 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1209,
+        sort = 1221,
         name1 = 0,
         isOpen = true,
         type1 = 8,
         type3 = {
             [1] = 208001,
         },
-        id = 1200005,
+        id = 1200017,
         subType = 12,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 10,
+        cup = 20,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -33259,28 +32402,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [13022] = {
+    [250302] = {
         type2 = {
-            [1] = 107001,
+            [1] = 103005,
         },
         name2 = 0,
-        unlockType = 99,
+        unlockType = 0,
         unlock = {
         },
-        sort = 847,
+        sort = 214,
         name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        isOpen = true,
+        type1 = 3,
         type3 = {
-            [1] = 207001,
+            [1] = 203002,
         },
-        id = 13022,
-        subType = 105,
+        id = 250302,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -33288,28 +32431,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [13026] = {
+    [540139] = {
         type2 = {
-            [1] = 107001,
+            [1] = 105009,
         },
         name2 = 0,
-        unlockType = 99,
+        unlockType = 0,
         unlock = {
         },
-        sort = 850,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        sort = 592,
+        name1 = 1701957,
+        isOpen = true,
+        type1 = 5,
         type3 = {
-            [1] = 207001,
+            [1] = 205001,
+            [2] = 205002,
         },
-        id = 13026,
-        subType = 105,
+        id = 540139,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 3,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -33317,7 +32461,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [13028] = {
+    [13037] = {
         type2 = {
             [1] = 107001,
         },
@@ -33325,14 +32469,14 @@ return {
         unlockType = 99,
         unlock = {
         },
-        sort = 852,
+        sort = 861,
         name1 = 0,
         isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 13028,
+        id = 13037,
         subType = 105,
         defaultInfo = {
         },
@@ -33376,7 +32520,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1200001] = {
+    [1200013] = {
         type2 = {
             [1] = 108001,
         },
@@ -33384,20 +32528,20 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1205,
+        sort = 1217,
         name1 = 0,
         isOpen = true,
         type1 = 8,
         type3 = {
             [1] = 208001,
         },
-        id = 1200001,
+        id = 1200013,
         subType = 12,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 10,
+        cup = 20,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -33463,6 +32607,477 @@ return {
         endType = 0,
         heroID = 0,
         roleID = 122,
+        size1 = 0,
+    },
+    [123401331] = {
+        type2 = {
+            [1] = 104002,
+        },
+        name2 = 910172,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 300,
+        name1 = 1701833,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 123401331,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2102002,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [410220] = {
+        type2 = {
+            [1] = 102003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 51,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 410220,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 20,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 102,
+        size1 = 0,
+    },
+    [13038] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 99,
+        unlock = {
+        },
+        sort = 862,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 13038,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [412202] = {
+        type2 = {
+            [1] = 102020,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 132,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202003,
+        },
+        id = 412202,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 30,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 122,
+        size1 = 0,
+    },
+    [1200009] = {
+        type2 = {
+            [1] = 108001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1213,
+        name1 = 0,
+        isOpen = true,
+        type1 = 8,
+        type3 = {
+            [1] = 208001,
+        },
+        id = 1200009,
+        subType = 12,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 20,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1200008] = {
+        type2 = {
+            [1] = 108001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1212,
+        name1 = 0,
+        isOpen = true,
+        type1 = 8,
+        type3 = {
+            [1] = 208001,
+        },
+        id = 1200008,
+        subType = 12,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 20,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [13040] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 2500,
+            roleId = 110,
+        },
+        sort = 863,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 13040,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250176] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 185,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203001,
+        },
+        id = 250176,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1200006] = {
+        type2 = {
+            [1] = 108001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1210,
+        name1 = 0,
+        isOpen = true,
+        type1 = 8,
+        type3 = {
+            [1] = 208001,
+        },
+        id = 1200006,
+        subType = 12,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 20,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1200005] = {
+        type2 = {
+            [1] = 108001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1209,
+        name1 = 0,
+        isOpen = true,
+        type1 = 8,
+        type3 = {
+            [1] = 208001,
+        },
+        id = 1200005,
+        subType = 12,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [122801743] = {
+        type2 = {
+            [1] = 104005,
+        },
+        name2 = 910160,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 371,
+        name1 = 1701831,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 122801743,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2105001,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [121502115] = {
+        type2 = {
+            [1] = 104002,
+        },
+        name2 = 910147,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 306,
+        name1 = 1701831,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 121502115,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2102003,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [13041] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 99,
+        unlock = {
+        },
+        sort = 864,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 13041,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [13042] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 99,
+        unlock = {
+        },
+        sort = 865,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 13042,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1200001] = {
+        type2 = {
+            [1] = 108001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1205,
+        name1 = 0,
+        isOpen = true,
+        type1 = 8,
+        type3 = {
+            [1] = 208001,
+        },
+        id = 1200001,
+        subType = 12,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250177] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 186,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203001,
+        },
+        id = 250177,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
         size1 = 0,
     },
     [1314006] = {
@@ -33555,36 +33170,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [412202] = {
-        type2 = {
-            [1] = 102020,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 132,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202003,
-        },
-        id = 412202,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 30,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 122,
-        size1 = 0,
-    },
     [1314003] = {
         type2 = {
             [1] = 110014,
@@ -33663,456 +33248,6 @@ return {
             [2] = 210003,
         },
         id = 1314001,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250176] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 185,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203001,
-        },
-        id = 250176,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1313004] = {
-        type2 = {
-            [1] = 110013,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1198,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210005,
-        },
-        id = 1313004,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1313002] = {
-        type2 = {
-            [1] = 110013,
-        },
-        name2 = 0,
-        unlockType = 401,
-        unlock = {
-            dunId = 109640,
-        },
-        sort = 1196,
-        name1 = 0,
-        isOpen = true,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210005,
-        },
-        id = 1313002,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [122801743] = {
-        type2 = {
-            [1] = 104005,
-        },
-        name2 = 910160,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 371,
-        name1 = 1701831,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 122801743,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2105001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1312004] = {
-        type2 = {
-            [1] = 110012,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1188,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1312004,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1312003] = {
-        type2 = {
-            [1] = 110012,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1187,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1312003,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1312002] = {
-        type2 = {
-            [1] = 110012,
-        },
-        name2 = 0,
-        unlockType = 99,
-        unlock = {
-        },
-        sort = 1186,
-        name1 = 0,
-        isOpen = true,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210003,
-        },
-        id = 1312002,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1312001] = {
-        type2 = {
-            [1] = 110012,
-        },
-        name2 = 0,
-        unlockType = 99,
-        unlock = {
-        },
-        sort = 1185,
-        name1 = 0,
-        isOpen = true,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1312001,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250177] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 186,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203001,
-        },
-        id = 250177,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1311007] = {
-        type2 = {
-            [1] = 110011,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1184,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210006,
-        },
-        id = 1311007,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1311005] = {
-        type2 = {
-            [1] = 110011,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1182,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210003,
-        },
-        id = 1311005,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1311004] = {
-        type2 = {
-            [1] = 110011,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1181,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1311004,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1311003] = {
-        type2 = {
-            [1] = 110011,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1180,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1311003,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1311001] = {
-        type2 = {
-            [1] = 110011,
-        },
-        name2 = 0,
-        unlockType = 401,
-        unlock = {
-            dunId = 102321,
-        },
-        sort = 1178,
-        name1 = 0,
-        isOpen = true,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1311001,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1310009] = {
-        type2 = {
-            [1] = 110010,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1174,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210003,
-        },
-        id = 1310009,
         subType = 109,
         defaultInfo = {
         },
@@ -34288,23 +33423,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1310006] = {
+    [1313004] = {
         type2 = {
-            [1] = 110010,
+            [1] = 110013,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1171,
+        sort = 1198,
         name1 = 0,
         isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210004,
+            [2] = 210005,
         },
-        id = 1310006,
+        id = 1313004,
         subType = 109,
         defaultInfo = {
         },
@@ -34318,32 +33453,24 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1310001] = {
+    [1313002] = {
         type2 = {
-            [1] = 110010,
+            [1] = 110013,
         },
         name2 = 0,
-        unlockType = 505,
+        unlockType = 401,
         unlock = {
-            ownEndId = {
-                [1] = 225501370,
-                [2] = 225701316,
-                [3] = 225501579,
-                [4] = 225601319,
-                [5] = 225501486,
-                [6] = 225501848,
-                [7] = 225601117,
-            },
+            dunId = 109640,
         },
-        sort = 1166,
+        sort = 1196,
         name1 = 0,
         isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210002,
+            [2] = 210005,
         },
-        id = 1310001,
+        id = 1313002,
         subType = 109,
         defaultInfo = {
         },
@@ -34365,7 +33492,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1309,
+        sort = 1313,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -34395,7 +33522,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1317,
+        sort = 1321,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -34454,7 +33581,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1330,
+        sort = 1334,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -34476,23 +33603,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1308002] = {
+    [1312001] = {
         type2 = {
-            [1] = 110008,
+            [1] = 110012,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 99,
         unlock = {
         },
-        sort = 1158,
+        sort = 1185,
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
             [2] = 210002,
         },
-        id = 1308002,
+        id = 1312001,
         subType = 109,
         defaultInfo = {
         },
@@ -34506,23 +33633,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1307006] = {
+    [1311007] = {
         type2 = {
-            [1] = 110007,
+            [1] = 110011,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1155,
+        sort = 1184,
         name1 = 0,
         isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210002,
+            [2] = 210006,
         },
-        id = 1307006,
+        id = 1311007,
         subType = 109,
         defaultInfo = {
         },
@@ -34565,23 +33692,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1307005] = {
+    [1311005] = {
         type2 = {
-            [1] = 110007,
+            [1] = 110011,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1154,
+        sort = 1182,
         name1 = 0,
         isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210002,
+            [2] = 210003,
         },
-        id = 1307005,
+        id = 1311005,
         subType = 109,
         defaultInfo = {
         },
@@ -34595,15 +33722,15 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1307004] = {
+    [1311004] = {
         type2 = {
-            [1] = 110007,
+            [1] = 110011,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1153,
+        sort = 1181,
         name1 = 0,
         isOpen = false,
         type1 = 11,
@@ -34611,7 +33738,7 @@ return {
             [1] = 210001,
             [2] = 210002,
         },
-        id = 1307004,
+        id = 1311004,
         subType = 109,
         defaultInfo = {
         },
@@ -34683,16 +33810,16 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1307002] = {
+    [1311001] = {
         type2 = {
-            [1] = 110007,
+            [1] = 110011,
         },
         name2 = 0,
         unlockType = 401,
         unlock = {
-            dunId = 101208,
+            dunId = 102321,
         },
-        sort = 1151,
+        sort = 1178,
         name1 = 0,
         isOpen = true,
         type1 = 11,
@@ -34700,7 +33827,7 @@ return {
             [1] = 210001,
             [2] = 210002,
         },
-        id = 1307002,
+        id = 1311001,
         subType = 109,
         defaultInfo = {
         },
@@ -34714,54 +33841,53 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1307001] = {
+    [1310009] = {
         type2 = {
-            [1] = 110007,
-        },
-        name2 = 0,
-        unlockType = 401,
-        unlock = {
-            dunId = 103320,
-        },
-        sort = 1150,
-        name1 = 0,
-        isOpen = true,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1307001,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1301010] = {
-        type2 = {
-            [1] = 110001,
+            [1] = 110010,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1093,
+        sort = 1174,
         name1 = 0,
         isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210005,
+            [2] = 210003,
         },
-        id = 1301010,
+        id = 1310009,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1310006] = {
+        type2 = {
+            [1] = 110010,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1171,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210004,
+        },
+        id = 1310006,
         subType = 109,
         defaultInfo = {
         },
@@ -34920,6 +34046,442 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [1308002] = {
+        type2 = {
+            [1] = 110008,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1158,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1308002,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1307006] = {
+        type2 = {
+            [1] = 110007,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1155,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1307006,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [210009] = {
+        type2 = {
+            [1] = 103001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 81,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203003,
+        },
+        id = 210009,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1307005] = {
+        type2 = {
+            [1] = 110007,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1154,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1307005,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [120704211] = {
+        type2 = {
+            [1] = 104002,
+        },
+        name2 = 910194,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 293,
+        name1 = 1701833,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 120704211,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2102001,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1307003] = {
+        type2 = {
+            [1] = 110007,
+        },
+        name2 = 0,
+        unlockType = 505,
+        unlock = {
+            ownEndId = {
+                [1] = 314601323,
+                [2] = 314601614,
+                [3] = 314502522,
+                [4] = 314502108,
+                [5] = 314601810,
+                [6] = 314502413,
+                [7] = 314502228,
+                [8] = 314601230,
+                [9] = 314503226,
+            },
+        },
+        sort = 1152,
+        name1 = 0,
+        isOpen = true,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210003,
+        },
+        id = 1307003,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1307002] = {
+        type2 = {
+            [1] = 110007,
+        },
+        name2 = 0,
+        unlockType = 401,
+        unlock = {
+            dunId = 101208,
+        },
+        sort = 1151,
+        name1 = 0,
+        isOpen = true,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1307002,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250182] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 190,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250182,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1307001] = {
+        type2 = {
+            [1] = 110007,
+        },
+        name2 = 0,
+        unlockType = 401,
+        unlock = {
+            dunId = 103320,
+        },
+        sort = 1150,
+        name1 = 0,
+        isOpen = true,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1307001,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1304020] = {
+        type2 = {
+            [1] = 110004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1137,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210006,
+        },
+        id = 1304020,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [210010] = {
+        type2 = {
+            [1] = 103001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 85,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203003,
+        },
+        id = 210010,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1304021] = {
+        type2 = {
+            [1] = 110004,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [585003] = 1,
+            },
+        },
+        sort = 1138,
+        name1 = 0,
+        isOpen = true,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210005,
+        },
+        id = 1304021,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1304022] = {
+        type2 = {
+            [1] = 110004,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [585007] = 1,
+            },
+        },
+        sort = 1139,
+        name1 = 0,
+        isOpen = true,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210005,
+        },
+        id = 1304022,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1306001] = {
+        type2 = {
+            [1] = 110006,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1146,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1306001,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [1305008] = {
         type2 = {
             [1] = 110005,
@@ -34980,35 +34542,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [210009] = {
-        type2 = {
-            [1] = 103001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 81,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203003,
-        },
-        id = 210009,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [1305006] = {
         type2 = {
             [1] = 110005,
@@ -35035,66 +34568,6 @@ return {
             [2] = 210003,
         },
         id = 1305006,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [120704211] = {
-        type2 = {
-            [1] = 104002,
-        },
-        name2 = 910194,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 293,
-        name1 = 1701833,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 120704211,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2102001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1305005] = {
-        type2 = {
-            [1] = 110005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1142,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210003,
-        },
-        id = 1305005,
         subType = 109,
         defaultInfo = {
         },
@@ -35150,28 +34623,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250182] = {
+    [210011] = {
         type2 = {
-            [1] = 103005,
+            [1] = 103001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 190,
+        sort = 86,
         name1 = 0,
         isOpen = true,
         type1 = 3,
         type3 = {
-            [1] = 203002,
+            [1] = 203003,
         },
-        id = 250182,
+        id = 210011,
         subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -35236,340 +34709,6 @@ return {
             [2] = 210002,
         },
         id = 1305002,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [210010] = {
-        type2 = {
-            [1] = 103001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 85,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203003,
-        },
-        id = 210010,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304022] = {
-        type2 = {
-            [1] = 110004,
-        },
-        name2 = 0,
-        unlockType = 101,
-        unlock = {
-            ownItems = {
-                [585007] = 1,
-            },
-        },
-        sort = 1139,
-        name1 = 0,
-        isOpen = true,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210005,
-        },
-        id = 1304022,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304021] = {
-        type2 = {
-            [1] = 110004,
-        },
-        name2 = 0,
-        unlockType = 101,
-        unlock = {
-            ownItems = {
-                [585003] = 1,
-            },
-        },
-        sort = 1138,
-        name1 = 0,
-        isOpen = true,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210005,
-        },
-        id = 1304021,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304020] = {
-        type2 = {
-            [1] = 110004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1137,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210006,
-        },
-        id = 1304020,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304019] = {
-        type2 = {
-            [1] = 110004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1136,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1304019,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304018] = {
-        type2 = {
-            [1] = 110004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1135,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1304018,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304017] = {
-        type2 = {
-            [1] = 110004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1134,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1304017,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304016] = {
-        type2 = {
-            [1] = 110004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1133,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1304016,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [210011] = {
-        type2 = {
-            [1] = 103001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 86,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203003,
-        },
-        id = 210011,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304015] = {
-        type2 = {
-            [1] = 110004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1132,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1304015,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304014] = {
-        type2 = {
-            [1] = 110004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1131,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1304014,
         subType = 109,
         defaultInfo = {
         },
@@ -35703,7 +34842,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1304010] = {
+    [1304019] = {
         type2 = {
             [1] = 110004,
         },
@@ -35711,15 +34850,15 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1127,
+        sort = 1136,
         name1 = 0,
         isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210004,
+            [2] = 210002,
         },
-        id = 1304010,
+        id = 1304019,
         subType = 109,
         defaultInfo = {
         },
@@ -35763,15 +34902,15 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1302001] = {
+    [1304018] = {
         type2 = {
-            [1] = 110002,
+            [1] = 110004,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1093,
+        sort = 1135,
         name1 = 0,
         isOpen = false,
         type1 = 11,
@@ -35779,7 +34918,7 @@ return {
             [1] = 210001,
             [2] = 210002,
         },
-        id = 1302001,
+        id = 1304018,
         subType = 109,
         defaultInfo = {
         },
@@ -35793,36 +34932,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2128015] = {
-        type2 = {
-            [1] = 107022,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1303,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2128015,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1304007] = {
+    [1304017] = {
         type2 = {
             [1] = 110004,
         },
@@ -35830,7 +34940,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1124,
+        sort = 1134,
         name1 = 0,
         isOpen = false,
         type1 = 11,
@@ -35838,7 +34948,7 @@ return {
             [1] = 210001,
             [2] = 210002,
         },
-        id = 1304007,
+        id = 1304017,
         subType = 109,
         defaultInfo = {
         },
@@ -35852,7 +34962,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1304006] = {
+    [1304016] = {
         type2 = {
             [1] = 110004,
         },
@@ -35860,15 +34970,45 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1123,
+        sort = 1133,
         name1 = 0,
         isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210005,
+            [2] = 210002,
         },
-        id = 1304006,
+        id = 1304016,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1304015] = {
+        type2 = {
+            [1] = 110004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1132,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1304015,
         subType = 109,
         defaultInfo = {
         },
@@ -35911,25 +35051,24 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2128014] = {
+    [1304014] = {
         type2 = {
-            [1] = 107022,
+            [1] = 110004,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 0,
         unlock = {
-            favor = 1000,
-            roleId = 128,
         },
-        sort = 1302,
+        sort = 1131,
         name1 = 0,
         isOpen = false,
-        type1 = 7,
+        type1 = 11,
         type3 = {
-            [1] = 207001,
+            [1] = 210001,
+            [2] = 210002,
         },
-        id = 2128014,
-        subType = 108,
+        id = 1304014,
+        subType = 109,
         defaultInfo = {
         },
         specialCondition = {
@@ -35942,7 +35081,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1304004] = {
+    [1304013] = {
         type2 = {
             [1] = 110004,
         },
@@ -35950,15 +35089,15 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1121,
+        sort = 1130,
         name1 = 0,
         isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210005,
+            [2] = 210002,
         },
-        id = 1304004,
+        id = 1304013,
         subType = 109,
         defaultInfo = {
         },
@@ -35994,6 +35133,371 @@ return {
         specialCondition = {
         },
         cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1304012] = {
+        type2 = {
+            [1] = 110004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1129,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1304012,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1303003] = {
+        type2 = {
+            [1] = 110003,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [585004] = 1,
+            },
+        },
+        sort = 1101,
+        name1 = 0,
+        isOpen = true,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1303003,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1304010] = {
+        type2 = {
+            [1] = 110004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1127,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210004,
+        },
+        id = 1304010,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [120605110] = {
+        type2 = {
+            [1] = 104002,
+        },
+        name2 = 910192,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 291,
+        name1 = 1701832,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 120605110,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2102001,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1303020] = {
+        type2 = {
+            [1] = 110003,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [585005] = 1,
+            },
+        },
+        sort = 1102,
+        name1 = 0,
+        isOpen = true,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210004,
+        },
+        id = 1303020,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1303005] = {
+        type2 = {
+            [1] = 110003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1104,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210003,
+        },
+        id = 1303005,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1304007] = {
+        type2 = {
+            [1] = 110004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1124,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1304007,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [210014] = {
+        type2 = {
+            [1] = 103001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 89,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203003,
+        },
+        id = 210014,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1304006] = {
+        type2 = {
+            [1] = 110004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1123,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210005,
+        },
+        id = 1304006,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1303007] = {
+        type2 = {
+            [1] = 110003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1106,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1303007,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [411201] = {
+        type2 = {
+            [1] = 102013,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 103,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 411201,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 112,
+        size1 = 0,
+    },
+    [1304004] = {
+        type2 = {
+            [1] = 110004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1121,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210005,
+        },
+        id = 1304004,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -36079,67 +35583,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1103019] = {
-        type2 = {
-            [1] = 101005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 17,
-        name1 = 0,
-        isOpen = true,
-        type1 = 1,
-        type3 = {
-            [1] = 201001,
-            [2] = 201003,
-        },
-        id = 1103019,
-        subType = 11,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 40,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 110301,
-        roleID = 0,
-        size1 = 0,
-    },
-    [120605110] = {
-        type2 = {
-            [1] = 104002,
-        },
-        name2 = 910192,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 291,
-        name1 = 1701832,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 120605110,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2102001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1303019] = {
+    [1303009] = {
         type2 = {
             [1] = 110003,
         },
@@ -36147,306 +35591,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1118,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1303019,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1303018] = {
-        type2 = {
-            [1] = 110003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1117,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1303018,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1303017] = {
-        type2 = {
-            [1] = 110003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1116,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1303017,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [210014] = {
-        type2 = {
-            [1] = 103001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 89,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203003,
-        },
-        id = 210014,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1303016] = {
-        type2 = {
-            [1] = 110003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1115,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210003,
-        },
-        id = 1303016,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1303015] = {
-        type2 = {
-            [1] = 110003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1114,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1303015,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [411201] = {
-        type2 = {
-            [1] = 102013,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 103,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 411201,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 112,
-        size1 = 0,
-    },
-    [1303014] = {
-        type2 = {
-            [1] = 110003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1113,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210005,
-        },
-        id = 1303014,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1303013] = {
-        type2 = {
-            [1] = 110003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1112,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1303013,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1303012] = {
-        type2 = {
-            [1] = 110003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1111,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1303012,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1303011] = {
-        type2 = {
-            [1] = 110003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1110,
+        sort = 1108,
         name1 = 0,
         isOpen = false,
         type1 = 11,
@@ -36454,7 +35599,7 @@ return {
             [1] = 210001,
             [2] = 210004,
         },
-        id = 1303011,
+        id = 1303009,
         subType = 109,
         defaultInfo = {
         },
@@ -36528,7 +35673,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1303009] = {
+    [1303019] = {
         type2 = {
             [1] = 110003,
         },
@@ -36536,15 +35681,15 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1108,
+        sort = 1118,
         name1 = 0,
         isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210004,
+            [2] = 210002,
         },
-        id = 1303009,
+        id = 1303019,
         subType = 109,
         defaultInfo = {
         },
@@ -36653,7 +35798,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1303007] = {
+    [1303018] = {
         type2 = {
             [1] = 110003,
         },
@@ -36661,7 +35806,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1106,
+        sort = 1117,
         name1 = 0,
         isOpen = false,
         type1 = 11,
@@ -36669,7 +35814,7 @@ return {
             [1] = 210001,
             [2] = 210002,
         },
-        id = 1303007,
+        id = 1303018,
         subType = 109,
         defaultInfo = {
         },
@@ -36683,7 +35828,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1303005] = {
+    [1303017] = {
         type2 = {
             [1] = 110003,
         },
@@ -36691,15 +35836,15 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1104,
+        sort = 1116,
         name1 = 0,
         isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210003,
+            [2] = 210002,
         },
-        id = 1303005,
+        id = 1303017,
         subType = 109,
         defaultInfo = {
         },
@@ -36742,26 +35887,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1303020] = {
+    [1303016] = {
         type2 = {
             [1] = 110003,
         },
         name2 = 0,
-        unlockType = 101,
+        unlockType = 0,
         unlock = {
-            ownItems = {
-                [585005] = 1,
-            },
         },
-        sort = 1102,
+        sort = 1115,
         name1 = 0,
-        isOpen = true,
+        isOpen = false,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210004,
+            [2] = 210003,
         },
-        id = 1303020,
+        id = 1303016,
         subType = 109,
         defaultInfo = {
         },
@@ -36805,110 +35947,45 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1303003] = {
+    [1303015] = {
         type2 = {
             [1] = 110003,
-        },
-        name2 = 0,
-        unlockType = 101,
-        unlock = {
-            ownItems = {
-                [585004] = 1,
-            },
-        },
-        sort = 1101,
-        name1 = 0,
-        isOpen = true,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1303003,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1303002] = {
-        type2 = {
-            [1] = 110003,
-        },
-        name2 = 0,
-        unlockType = 401,
-        unlock = {
-            dunId = 104321,
-        },
-        sort = 1100,
-        name1 = 0,
-        isOpen = true,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1303002,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1303001] = {
-        type2 = {
-            [1] = 110003,
-        },
-        name2 = 0,
-        unlockType = 401,
-        unlock = {
-            dunId = 106433,
-        },
-        sort = 1099,
-        name1 = 0,
-        isOpen = true,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1303001,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1302006] = {
-        type2 = {
-            [1] = 110002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1098,
+        sort = 1114,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1303015,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1303014] = {
+        type2 = {
+            [1] = 110003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1113,
         name1 = 0,
         isOpen = false,
         type1 = 11,
@@ -36916,7 +35993,67 @@ return {
             [1] = 210001,
             [2] = 210005,
         },
-        id = 1302006,
+        id = 1303014,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1303013] = {
+        type2 = {
+            [1] = 110003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1112,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1303013,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1303012] = {
+        type2 = {
+            [1] = 110003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1111,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1303012,
         subType = 109,
         defaultInfo = {
         },
@@ -36989,28 +36126,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250398] = {
+    [1303011] = {
         type2 = {
-            [1] = 103005,
+            [1] = 110003,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 228,
+        sort = 1110,
         name1 = 0,
-        isOpen = true,
-        type1 = 3,
+        isOpen = false,
+        type1 = 11,
         type3 = {
-            [1] = 203002,
+            [1] = 210001,
+            [2] = 210004,
         },
-        id = 250398,
-        subType = 2,
+        id = 1303011,
+        subType = 109,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -37759,33 +36897,34 @@ return {
         roleID = 107,
         size1 = 0,
     },
-    [2127007] = {
+    [411213] = {
         type2 = {
-            [1] = 107021,
+            [1] = 102013,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1271,
+        sort = 126,
         name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        isOpen = true,
+        type1 = 2,
         type3 = {
-            [1] = 207001,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 2127007,
-        subType = 108,
+        id = 411213,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 112,
         size1 = 0,
     },
     [2127009] = {
@@ -37881,33 +37020,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2127015] = {
+    [411214] = {
         type2 = {
-            [1] = 107021,
+            [1] = 102013,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1279,
+        sort = 127,
         name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        isOpen = true,
+        type1 = 2,
         type3 = {
-            [1] = 207001,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 2127015,
-        subType = 108,
+        id = 411214,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 25,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 112,
         size1 = 0,
     },
     [2127017] = {
@@ -38031,23 +37171,24 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1301008] = {
+    [1303002] = {
         type2 = {
-            [1] = 110001,
+            [1] = 110003,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 401,
         unlock = {
+            dunId = 104321,
         },
-        sort = 1091,
+        sort = 1100,
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 11,
         type3 = {
             [1] = 210001,
-            [2] = 210003,
+            [2] = 210002,
         },
-        id = 1301008,
+        id = 1303002,
         subType = 109,
         defaultInfo = {
         },
@@ -38087,6 +37228,279 @@ return {
         size2 = 0,
         endSuit = 2104003,
         endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1303001] = {
+        type2 = {
+            [1] = 110003,
+        },
+        name2 = 0,
+        unlockType = 401,
+        unlock = {
+            dunId = 106433,
+        },
+        sort = 1099,
+        name1 = 0,
+        isOpen = true,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1303001,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1302006] = {
+        type2 = {
+            [1] = 110002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1098,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210005,
+        },
+        id = 1302006,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [11049] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [412404] = 1,
+            },
+        },
+        sort = 800,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 11049,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2128024] = {
+        type2 = {
+            [1] = 107022,
+        },
+        name2 = 0,
+        unlockType = 202,
+        unlock = {
+            heroId = 112801,
+        },
+        sort = 1312,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2128024,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1301002] = {
+        type2 = {
+            [1] = 110001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1084,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1301002,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1301004] = {
+        type2 = {
+            [1] = 110001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1086,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1301004,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1302001] = {
+        type2 = {
+            [1] = 110002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1093,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210002,
+        },
+        id = 1302001,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1301010] = {
+        type2 = {
+            [1] = 110001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1093,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210005,
+        },
+        id = 1301010,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [1301008] = {
+        type2 = {
+            [1] = 110001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1091,
+        name1 = 0,
+        isOpen = false,
+        type1 = 11,
+        type3 = {
+            [1] = 210001,
+            [2] = 210003,
+        },
+        id = 1301008,
+        subType = 109,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -38147,275 +37561,6 @@ return {
         specialCondition = {
         },
         cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1301004] = {
-        type2 = {
-            [1] = 110001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1086,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1301004,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1301002] = {
-        type2 = {
-            [1] = 110001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1084,
-        name1 = 0,
-        isOpen = false,
-        type1 = 11,
-        type3 = {
-            [1] = 210001,
-            [2] = 210002,
-        },
-        id = 1301002,
-        subType = 109,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2128024] = {
-        type2 = {
-            [1] = 107022,
-        },
-        name2 = 0,
-        unlockType = 202,
-        unlock = {
-            heroId = 112801,
-        },
-        sort = 1312,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2128024,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540221] = {
-        type2 = {
-            [1] = 105016,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 609,
-        name1 = 1701969,
-        isOpen = false,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205003,
-        },
-        id = 540221,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2128022] = {
-        type2 = {
-            [1] = 107022,
-        },
-        name2 = 0,
-        unlockType = 201,
-        unlock = {
-            level = 30,
-            heroId = 112801,
-        },
-        sort = 1310,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2128022,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250385] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 231,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250385,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2128019] = {
-        type2 = {
-            [1] = 107022,
-        },
-        name2 = 0,
-        unlockType = 202,
-        unlock = {
-            roleId = 128,
-        },
-        sort = 1307,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2128019,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2128018] = {
-        type2 = {
-            [1] = 107022,
-        },
-        name2 = 0,
-        unlockType = 301,
-        unlock = {
-            roleId = 128,
-        },
-        sort = 1306,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2128018,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250536] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 250,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250536,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -38615,51 +37760,24 @@ return {
         roleID = 107,
         size1 = 0,
     },
-    [240040] = {
-        type2 = {
-            [1] = 103004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 115,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203003,
-        },
-        id = 240040,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2128008] = {
+    [2128022] = {
         type2 = {
             [1] = 107022,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 201,
         unlock = {
+            level = 30,
+            heroId = 112801,
         },
-        sort = 1296,
+        sort = 1310,
         name1 = 0,
         isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2128008,
+        id = 2128022,
         subType = 108,
         defaultInfo = {
         },
@@ -38673,29 +37791,61 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540217] = {
+    [11017] = {
         type2 = {
-            [1] = 105008,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 101,
         unlock = {
+            ownItems = {
+                [410213] = 1,
+            },
         },
-        sort = 578,
-        name1 = 1701943,
+        sort = 768,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 7,
         type3 = {
-            [1] = 205001,
-            [2] = 205002,
+            [1] = 207001,
         },
-        id = 540217,
-        subType = 10,
+        id = 11017,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 3,
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2128019] = {
+        type2 = {
+            [1] = 107022,
+        },
+        name2 = 0,
+        unlockType = 202,
+        unlock = {
+            roleId = 128,
+        },
+        sort = 1307,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2128019,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -39128,7 +38278,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2128003] = {
+    [2128015] = {
         type2 = {
             [1] = 107022,
         },
@@ -39136,14 +38286,14 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1291,
+        sort = 1303,
         name1 = 0,
         isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2128003,
+        id = 2128015,
         subType = 108,
         defaultInfo = {
         },
@@ -39187,6 +38337,305 @@ return {
         roleID = 102,
         size1 = 0,
     },
+    [2128014] = {
+        type2 = {
+            [1] = 107022,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 1000,
+            roleId = 128,
+        },
+        sort = 1302,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2128014,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540219] = {
+        type2 = {
+            [1] = 105016,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 607,
+        name1 = 1701967,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205003,
+        },
+        id = 540219,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [410409] = {
+        type2 = {
+            [1] = 102005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 65,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202003,
+        },
+        id = 410409,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 30,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 104,
+        size1 = 0,
+    },
+    [122701820] = {
+        type2 = {
+            [1] = 104005,
+        },
+        name2 = 910165,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 368,
+        name1 = 1701830,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 122701820,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2105001,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540221] = {
+        type2 = {
+            [1] = 105016,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 609,
+        name1 = 1701969,
+        isOpen = false,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205003,
+        },
+        id = 540221,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2128008] = {
+        type2 = {
+            [1] = 107022,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1296,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2128008,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540385] = {
+        type2 = {
+            [1] = 105002,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [540385] = 1,
+            },
+        },
+        sort = 695,
+        name1 = 13316330,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+        },
+        id = 540385,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2128006] = {
+        type2 = {
+            [1] = 107022,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1294,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2128006,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [302001] = {
+        type2 = {
+            [1] = 106002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 685,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 302001,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2128003] = {
+        type2 = {
+            [1] = 107022,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1291,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2128003,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [2128002] = {
         type2 = {
             [1] = 107022,
@@ -39212,6 +38661,66 @@ return {
         size2 = 0,
         endSuit = 0,
         endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [410204] = {
+        type2 = {
+            [1] = 102003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 40,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 410204,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 102,
+        size1 = 0,
+    },
+    [122801627] = {
+        type2 = {
+            [1] = 104005,
+        },
+        name2 = 910161,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 372,
+        name1 = 1701832,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 122801627,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2105001,
+        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -39275,32 +38784,61 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [122701820] = {
+    [410205] = {
         type2 = {
-            [1] = 104005,
+            [1] = 102003,
         },
-        name2 = 910165,
+        name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 368,
-        name1 = 1701830,
+        sort = 41,
+        name1 = 0,
         isOpen = true,
-        type1 = 4,
+        type1 = 2,
         type3 = {
-            [1] = 204001,
-            [2] = 204003,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 122701820,
-        subType = 104,
+        id = 410205,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 25,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 102,
+        size1 = 0,
+    },
+    [2127015] = {
+        type2 = {
+            [1] = 107021,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1279,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2127015,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
         cup = 1,
         size2 = 0,
-        endSuit = 2105001,
-        endType = 2,
+        endSuit = 0,
+        endType = 0,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -39327,6 +38865,64 @@ return {
         specialCondition = {
         },
         cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2127007] = {
+        type2 = {
+            [1] = 107021,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1271,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2127007,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250201] = {
+        type2 = {
+            [1] = 103004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 126,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250201,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -39511,66 +39107,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410204] = {
-        type2 = {
-            [1] = 102003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 40,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 410204,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 102,
-        size1 = 0,
-    },
-    [122801627] = {
-        type2 = {
-            [1] = 104005,
-        },
-        name2 = 910161,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 372,
-        name1 = 1701832,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 122801627,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2105001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [2126012] = {
         type2 = {
             [1] = 107020,
@@ -39629,36 +39165,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410205] = {
-        type2 = {
-            [1] = 102003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 41,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 410205,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 25,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 102,
-        size1 = 0,
-    },
     [2126004] = {
         type2 = {
             [1] = 107020,
@@ -39681,364 +39187,6 @@ return {
         specialCondition = {
         },
         cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2126001] = {
-        type2 = {
-            [1] = 107020,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1241,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2126001,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2124023] = {
-        type2 = {
-            [1] = 107019,
-        },
-        name2 = 0,
-        unlockType = 202,
-        unlock = {
-            heroId = 112401,
-        },
-        sort = 1239,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2124023,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250201] = {
-        type2 = {
-            [1] = 103004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 126,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250201,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2124021] = {
-        type2 = {
-            [1] = 107019,
-        },
-        name2 = 0,
-        unlockType = 202,
-        unlock = {
-            heroId = 112401,
-        },
-        sort = 1237,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2124021,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540149] = {
-        type2 = {
-            [1] = 105006,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 560,
-        name1 = 1701929,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205003,
-        },
-        id = 540149,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2124017] = {
-        type2 = {
-            [1] = 107019,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 300,
-            roleId = 124,
-        },
-        sort = 1233,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2124017,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540033] = {
-        type2 = {
-            [1] = 105008,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 583,
-        name1 = 1701948,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205003,
-        },
-        id = 540033,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250325] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 0,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250325,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 0,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2124011] = {
-        type2 = {
-            [1] = 107019,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 2500,
-            roleId = 124,
-        },
-        sort = 1227,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2124011,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [300002] = {
-        type2 = {
-            [1] = 106003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 762,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 300002,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2124007] = {
-        type2 = {
-            [1] = 107019,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 300,
-            roleId = 124,
-        },
-        sort = 1223,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2124007,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [300003] = {
-        type2 = {
-            [1] = 106003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 763,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 300003,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -40075,23 +39223,22 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2124004] = {
+    [2126001] = {
         type2 = {
-            [1] = 107019,
+            [1] = 107020,
         },
         name2 = 0,
-        unlockType = 301,
+        unlockType = 0,
         unlock = {
-            roleId = 124,
         },
-        sort = 1220,
+        sort = 1241,
         name1 = 0,
         isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2124004,
+        id = 2126001,
         subType = 108,
         defaultInfo = {
         },
@@ -40135,59 +39282,28 @@ return {
         roleID = 102,
         size1 = 0,
     },
-    [2124003] = {
+    [540281] = {
         type2 = {
-            [1] = 107019,
+            [1] = 105002,
         },
         name2 = 0,
-        unlockType = 301,
+        unlockType = 0,
         unlock = {
-            roleId = 124,
         },
-        sort = 1219,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2124003,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2124001] = {
-        type2 = {
-            [1] = 107019,
-        },
-        name2 = 0,
-        unlockType = 301,
-        unlock = {
-            roleId = 124,
-        },
-        sort = 1217,
-        name1 = 0,
+        sort = 637,
+        name1 = 1701990,
         isOpen = true,
-        type1 = 7,
+        type1 = 5,
         type3 = {
-            [1] = 207001,
+            [1] = 205001,
         },
-        id = 2124001,
-        subType = 108,
+        id = 540281,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -40195,29 +39311,61 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2125024] = {
+    [2124021] = {
         type2 = {
-            [1] = 107018,
+            [1] = 107019,
         },
         name2 = 0,
         unlockType = 202,
         unlock = {
-            heroId = 112501,
+            heroId = 112401,
         },
-        sort = 1216,
+        sort = 1237,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2125024,
+        id = 2124021,
         subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
         cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [11018] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [411308] = 1,
+            },
+        },
+        sort = 769,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 11018,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -40285,31 +39433,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [11055] = {
+    [2124017] = {
         type2 = {
-            [1] = 107001,
+            [1] = 107019,
         },
         name2 = 0,
-        unlockType = 101,
+        unlockType = 302,
         unlock = {
-            ownItems = {
-                [412702] = 1,
-            },
+            favor = 300,
+            roleId = 124,
         },
-        sort = 805,
+        sort = 1233,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 11055,
-        subType = 105,
+        id = 2124017,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -40378,32 +39525,32 @@ return {
         roleID = 102,
         size1 = 0,
     },
-    [2125021] = {
+    [314601230] = {
         type2 = {
-            [1] = 107018,
+            [1] = 104012,
         },
-        name2 = 0,
-        unlockType = 202,
+        name2 = 900969,
+        unlockType = 0,
         unlock = {
-            heroId = 112501,
         },
-        sort = 1213,
-        name1 = 0,
+        sort = 410,
+        name1 = 1701830,
         isOpen = true,
-        type1 = 7,
+        type1 = 4,
         type3 = {
-            [1] = 207001,
+            [1] = 204001,
+            [2] = 204003,
         },
-        id = 2125021,
-        subType = 108,
+        id = 314601230,
+        subType = 104,
         defaultInfo = {
         },
         specialCondition = {
         },
         cup = 1,
         size2 = 0,
-        endSuit = 0,
-        endType = 0,
+        endSuit = 2112002,
+        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -40532,28 +39679,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [300005] = {
+    [540272] = {
         type2 = {
-            [1] = 106003,
+            [1] = 105001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 401,
         unlock = {
+            dunId = 108536,
         },
-        sort = 765,
-        name1 = 0,
+        sort = 512,
+        name1 = 1702622,
         isOpen = true,
-        type1 = 6,
+        type1 = 5,
         type3 = {
-            [1] = 106004,
+            [1] = 205001,
+            [2] = 205006,
         },
-        id = 300005,
-        subType = 17,
+        id = 540272,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -40622,28 +39771,30 @@ return {
         roleID = 102,
         size1 = 0,
     },
-    [540297] = {
+    [2124011] = {
         type2 = {
-            [1] = 105002,
+            [1] = 107019,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 302,
         unlock = {
+            favor = 2500,
+            roleId = 124,
         },
-        sort = 638,
-        name1 = 1702165,
+        sort = 1227,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 7,
         type3 = {
-            [1] = 205001,
+            [1] = 207001,
         },
-        id = 540297,
-        subType = 10,
+        id = 2124011,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -40804,24 +39955,110 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2125017] = {
+    [250155] = {
         type2 = {
-            [1] = 107018,
+            [1] = 103005,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 0,
         unlock = {
-            favor = 300,
-            roleId = 125,
         },
-        sort = 1209,
+        sort = 175,
         name1 = 0,
         isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250155,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [220023] = {
+        type2 = {
+            [1] = 103002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 98,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203003,
+        },
+        id = 220023,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 3,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250282] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 209,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250282,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2124004] = {
+        type2 = {
+            [1] = 107019,
+        },
+        name2 = 0,
+        unlockType = 301,
+        unlock = {
+            roleId = 124,
+        },
+        sort = 1220,
+        name1 = 0,
+        isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2125017,
+        id = 2124004,
         subType = 108,
         defaultInfo = {
         },
@@ -40835,117 +40072,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [13005] = {
+    [2124003] = {
         type2 = {
-            [1] = 107001,
+            [1] = 107019,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 301,
         unlock = {
-            favor = 1000,
-            roleId = 102,
+            roleId = 124,
         },
-        sort = 830,
+        sort = 1219,
         name1 = 0,
-        isOpen = true,
+        isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 13005,
-        subType = 105,
+        id = 2124003,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [300007] = {
-        type2 = {
-            [1] = 106003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 767,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 300007,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250278] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 205,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250278,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250150] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 173,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250150,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -40983,24 +40132,23 @@ return {
         roleID = 102,
         size1 = 0,
     },
-    [2125009] = {
+    [2124001] = {
         type2 = {
-            [1] = 107018,
+            [1] = 107019,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 301,
         unlock = {
-            favor = 300,
-            roleId = 125,
+            roleId = 124,
         },
-        sort = 1201,
+        sort = 1217,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2125009,
+        id = 2124001,
         subType = 108,
         defaultInfo = {
         },
@@ -41014,28 +40162,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250331] = {
+    [2125024] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107018,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 202,
         unlock = {
+            heroId = 112501,
         },
-        sort = 220,
+        sort = 1216,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250331,
-        subType = 2,
+        id = 2125024,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -41043,33 +40192,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [307003] = {
+    [411306] = {
         type2 = {
-            [1] = 106002,
+            [1] = 102014,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 700,
+        sort = 130,
         name1 = 0,
         isOpen = true,
-        type1 = 6,
+        type1 = 2,
         type3 = {
-            [1] = 106004,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 307003,
-        subType = 17,
+        id = 411306,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 4,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 113,
         size1 = 0,
     },
     [410217] = {
@@ -41102,23 +40252,23 @@ return {
         roleID = 102,
         size1 = 0,
     },
-    [2125005] = {
+    [2125021] = {
         type2 = {
             [1] = 107018,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 202,
         unlock = {
-            roleId = 125,
+            heroId = 112501,
         },
-        sort = 1197,
+        sort = 1213,
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2125005,
+        id = 2125021,
         subType = 108,
         defaultInfo = {
         },
@@ -41132,37 +40282,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2125004] = {
-        type2 = {
-            [1] = 107018,
-        },
-        name2 = 0,
-        unlockType = 301,
-        unlock = {
-            roleId = 125,
-        },
-        sort = 1196,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2125004,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250405] = {
+    [250281] = {
         type2 = {
             [1] = 103005,
         },
@@ -41170,14 +40290,14 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 235,
+        sort = 208,
         name1 = 0,
         isOpen = true,
         type1 = 3,
         type3 = {
-            [1] = 203003,
+            [1] = 203002,
         },
-        id = 250405,
+        id = 250281,
         subType = 2,
         defaultInfo = {
         },
@@ -41191,91 +40311,121 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2125001] = {
+    [1103019] = {
+        type2 = {
+            [1] = 101005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 17,
+        name1 = 0,
+        isOpen = true,
+        type1 = 1,
+        type3 = {
+            [1] = 201001,
+            [2] = 201003,
+        },
+        id = 1103019,
+        subType = 11,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 40,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 110301,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2125017] = {
         type2 = {
             [1] = 107018,
         },
         name2 = 0,
-        unlockType = 301,
-        unlock = {
-            roleId = 125,
-        },
-        sort = 1193,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2125001,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2119016] = {
-        type2 = {
-            [1] = 107016,
-        },
-        name2 = 0,
-        unlockType = 201,
-        unlock = {
-            level = 60,
-            heroId = 111701,
-        },
-        sort = 1190,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2119016,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2119007] = {
-        type2 = {
-            [1] = 107016,
-        },
-        name2 = 0,
         unlockType = 302,
         unlock = {
-            favor = 2500,
-            roleId = 119,
+            favor = 300,
+            roleId = 125,
         },
-        sort = 1185,
+        sort = 1209,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2119007,
+        id = 2125017,
         subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
         cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [11055] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [412702] = 1,
+            },
+        },
+        sort = 805,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 11055,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [300005] = {
+        type2 = {
+            [1] = 106003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 771,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 300005,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -41373,30 +40523,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2118009] = {
+    [13005] = {
         type2 = {
-            [1] = 107015,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 201,
+        unlockType = 302,
         unlock = {
-            level = 70,
-            heroId = 111601,
+            favor = 1000,
+            roleId = 102,
         },
-        sort = 1180,
+        sort = 830,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2118009,
-        subType = 108,
+        id = 13005,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -41464,24 +40614,384 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2118011] = {
+    [250278] = {
         type2 = {
-            [1] = 107015,
+            [1] = 103005,
         },
         name2 = 0,
-        unlockType = 201,
+        unlockType = 0,
         unlock = {
-            level = 45,
-            heroId = 111601,
         },
-        sort = 1177,
+        sort = 205,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250278,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2125009] = {
+        type2 = {
+            [1] = 107018,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 300,
+            roleId = 125,
+        },
+        sort = 1201,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2118011,
+        id = 2125009,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250150] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 173,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250150,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [307003] = {
+        type2 = {
+            [1] = 106002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 700,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 307003,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2125005] = {
+        type2 = {
+            [1] = 107018,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            roleId = 125,
+        },
+        sort = 1197,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2125005,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2125004] = {
+        type2 = {
+            [1] = 107018,
+        },
+        name2 = 0,
+        unlockType = 301,
+        unlock = {
+            roleId = 125,
+        },
+        sort = 1196,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2125004,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2505113] = {
+        type2 = {
+            [1] = 104001,
+        },
+        name2 = 900014,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 267,
+        name1 = 1701832,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 2505113,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2101001,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [410222] = {
+        type2 = {
+            [1] = 102003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 61,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202003,
+        },
+        id = 410222,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 30,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2125001] = {
+        type2 = {
+            [1] = 107018,
+        },
+        name2 = 0,
+        unlockType = 301,
+        unlock = {
+            roleId = 125,
+        },
+        sort = 1193,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2125001,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [461701146] = {
+        type2 = {
+            [1] = 104013,
+        },
+        name2 = 910274,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 427,
+        name1 = 1701831,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 461701146,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2113002,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2119016] = {
+        type2 = {
+            [1] = 107016,
+        },
+        name2 = 0,
+        unlockType = 201,
+        unlock = {
+            level = 60,
+            heroId = 111701,
+        },
+        sort = 1190,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2119016,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2119007] = {
+        type2 = {
+            [1] = 107016,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 2500,
+            roleId = 119,
+        },
+        sort = 1185,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2119007,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2118009] = {
+        type2 = {
+            [1] = 107015,
+        },
+        name2 = 0,
+        unlockType = 201,
+        unlock = {
+            level = 70,
+            heroId = 111601,
+        },
+        sort = 1180,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2118009,
         subType = 108,
         defaultInfo = {
         },
@@ -41708,44 +41218,15 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2113019] = {
-        type2 = {
-            [1] = 107014,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1161,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2113019,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [461701146] = {
+    [460501425] = {
         type2 = {
             [1] = 104013,
         },
-        name2 = 910274,
+        name2 = 910283,
         unlockType = 0,
         unlock = {
         },
-        sort = 427,
+        sort = 420,
         name1 = 1701831,
         isOpen = true,
         type1 = 4,
@@ -41753,7 +41234,7 @@ return {
             [1] = 204001,
             [2] = 204003,
         },
-        id = 461701146,
+        id = 460501425,
         subType = 104,
         defaultInfo = {
         },
@@ -41761,35 +41242,35 @@ return {
         },
         cup = 1,
         size2 = 0,
-        endSuit = 2113002,
+        endSuit = 2113001,
         endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
     },
-    [2113018] = {
+    [8005] = {
         type2 = {
-            [1] = 107014,
+            [1] = 109001,
         },
         name2 = 0,
-        unlockType = 301,
+        unlockType = 0,
         unlock = {
-            roleId = 113,
         },
-        sort = 1160,
+        sort = 1314,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 9,
         type3 = {
-            [1] = 207001,
+            [1] = 209001,
+            [2] = 209003,
         },
-        id = 2113018,
-        subType = 108,
+        id = 8005,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -41797,30 +41278,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2113017] = {
+    [8013] = {
         type2 = {
-            [1] = 107014,
+            [1] = 109001,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 0,
         unlock = {
-            favor = 300,
-            roleId = 113,
         },
-        sort = 1159,
+        sort = 1322,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 9,
         type3 = {
-            [1] = 207001,
+            [1] = 209001,
+            [2] = 209003,
         },
-        id = 2113017,
-        subType = 108,
+        id = 8013,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -41828,30 +41308,59 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2113011] = {
+    [8021] = {
         type2 = {
-            [1] = 107014,
+            [1] = 109001,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 0,
         unlock = {
-            favor = 2500,
-            roleId = 113,
         },
-        sort = 1153,
+        sort = 1330,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 9,
         type3 = {
-            [1] = 207001,
+            [1] = 209001,
+            [2] = 209003,
         },
-        id = 2113011,
-        subType = 108,
+        id = 8021,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [8029] = {
+        type2 = {
+            [1] = 109001,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1335,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209003,
+        },
+        id = 8029,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -41921,364 +41430,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2113005] = {
-        type2 = {
-            [1] = 107014,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 300,
-            roleId = 113,
-        },
-        sort = 1147,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2113005,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [240009] = {
-        type2 = {
-            [1] = 103001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 84,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203003,
-        },
-        id = 240009,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2113003] = {
-        type2 = {
-            [1] = 107014,
-        },
-        name2 = 0,
-        unlockType = 301,
-        unlock = {
-            roleId = 113,
-        },
-        sort = 1145,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2113003,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2113002] = {
-        type2 = {
-            [1] = 107014,
-        },
-        name2 = 0,
-        unlockType = 301,
-        unlock = {
-            roleId = 113,
-        },
-        sort = 1144,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2113002,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2113001] = {
-        type2 = {
-            [1] = 107014,
-        },
-        name2 = 0,
-        unlockType = 301,
-        unlock = {
-            roleId = 113,
-        },
-        sort = 1143,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2113001,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [460501425] = {
-        type2 = {
-            [1] = 104013,
-        },
-        name2 = 910283,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 420,
-        name1 = 1701831,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 460501425,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2113001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [8005] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1310,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209003,
-        },
-        id = 8005,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [8013] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1318,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209003,
-        },
-        id = 8013,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [8021] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1326,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209003,
-        },
-        id = 8021,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [8029] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1331,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209003,
-        },
-        id = 8029,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2110008] = {
-        type2 = {
-            [1] = 107011,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1102,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2110008,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2112019] = {
-        type2 = {
-            [1] = 107013,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1137,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2112019,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [12008] = {
         type2 = {
             [1] = 107001,
@@ -42309,28 +41460,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2110009] = {
+    [240009] = {
         type2 = {
-            [1] = 107011,
+            [1] = 103001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1103,
+        sort = 84,
         name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        isOpen = true,
+        type1 = 3,
         type3 = {
-            [1] = 207001,
+            [1] = 203003,
         },
-        id = 2110009,
-        subType = 108,
+        id = 240009,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -42427,24 +41578,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2112014] = {
+    [2113002] = {
         type2 = {
-            [1] = 107013,
+            [1] = 107014,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 301,
         unlock = {
-            favor = 1000,
-            roleId = 112,
+            roleId = 113,
         },
-        sort = 1132,
+        sort = 1144,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2112014,
+        id = 2113002,
         subType = 108,
         defaultInfo = {
         },
@@ -42458,24 +41608,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2112013] = {
+    [2113001] = {
         type2 = {
-            [1] = 107013,
+            [1] = 107014,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 301,
         unlock = {
-            favor = 2500,
-            roleId = 112,
+            roleId = 113,
         },
-        sort = 1131,
+        sort = 1143,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2112013,
+        id = 2113001,
         subType = 108,
         defaultInfo = {
         },
@@ -42489,24 +41638,22 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2112012] = {
+    [2110020] = {
         type2 = {
-            [1] = 107013,
+            [1] = 107011,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 0,
         unlock = {
-            favor = 300,
-            roleId = 112,
         },
-        sort = 1130,
+        sort = 1114,
         name1 = 0,
-        isOpen = true,
+        isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2112012,
+        id = 2110020,
         subType = 108,
         defaultInfo = {
         },
@@ -42520,24 +41667,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2112011] = {
+    [2112023] = {
         type2 = {
             [1] = 107013,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 202,
         unlock = {
-            favor = 2500,
-            roleId = 112,
+            heroId = 112001,
         },
-        sort = 1129,
+        sort = 1141,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2112011,
+        id = 2112023,
         subType = 108,
         defaultInfo = {
         },
@@ -42668,22 +41814,22 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2110016] = {
+    [2112019] = {
         type2 = {
-            [1] = 107011,
+            [1] = 107013,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1110,
+        sort = 1137,
         name1 = 0,
         isOpen = false,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2110016,
+        id = 2112019,
         subType = 108,
         defaultInfo = {
         },
@@ -42726,7 +41872,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2112003] = {
+    [2112002] = {
         type2 = {
             [1] = 107013,
         },
@@ -42735,14 +41881,14 @@ return {
         unlock = {
             roleId = 112,
         },
-        sort = 1121,
+        sort = 1120,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2112003,
+        id = 2112002,
         subType = 108,
         defaultInfo = {
         },
@@ -42786,7 +41932,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2112002] = {
+    [2112003] = {
         type2 = {
             [1] = 107013,
         },
@@ -42795,14 +41941,14 @@ return {
         unlock = {
             roleId = 112,
         },
-        sort = 1120,
+        sort = 1121,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2112002,
+        id = 2112003,
         subType = 108,
         defaultInfo = {
         },
@@ -42846,23 +41992,24 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2110024] = {
+    [2112014] = {
         type2 = {
-            [1] = 107011,
+            [1] = 107013,
         },
         name2 = 0,
-        unlockType = 202,
+        unlockType = 302,
         unlock = {
-            heroId = 111001,
+            favor = 1000,
+            roleId = 112,
         },
-        sort = 1118,
+        sort = 1132,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2110024,
+        id = 2112014,
         subType = 108,
         defaultInfo = {
         },
@@ -42876,24 +42023,24 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2110022] = {
+    [2112012] = {
         type2 = {
-            [1] = 107011,
+            [1] = 107013,
         },
         name2 = 0,
-        unlockType = 201,
+        unlockType = 302,
         unlock = {
-            level = 30,
-            heroId = 111001,
+            favor = 300,
+            roleId = 112,
         },
-        sort = 1116,
+        sort = 1130,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2110022,
+        id = 2112012,
         subType = 108,
         defaultInfo = {
         },
@@ -42907,22 +42054,24 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2110020] = {
+    [2112011] = {
         type2 = {
-            [1] = 107011,
+            [1] = 107013,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 302,
         unlock = {
+            favor = 2500,
+            roleId = 112,
         },
-        sort = 1114,
+        sort = 1129,
         name1 = 0,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2110020,
+        id = 2112011,
         subType = 108,
         defaultInfo = {
         },
@@ -42965,26 +42114,24 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2110019] = {
+    [2112006] = {
         type2 = {
-            [1] = 107011,
+            [1] = 107013,
         },
         name2 = 0,
-        unlockType = 202,
+        unlockType = 302,
         unlock = {
-            ownItems = {
-                [1110012] = 1,
-            },
-            heroId = 111001,
+            favor = 300,
+            roleId = 112,
         },
-        sort = 1113,
+        sort = 1124,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2110019,
+        id = 2112006,
         subType = 108,
         defaultInfo = {
         },
@@ -43360,6 +42507,359 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [2110019] = {
+        type2 = {
+            [1] = 107011,
+        },
+        name2 = 0,
+        unlockType = 202,
+        unlock = {
+            ownItems = {
+                [1110012] = 1,
+            },
+            heroId = 111001,
+        },
+        sort = 1113,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2110019,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2110016] = {
+        type2 = {
+            [1] = 107011,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1110,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2110016,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [225601117] = {
+        type2 = {
+            [1] = 104003,
+        },
+        name2 = 910176,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 320,
+        name1 = 1701830,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 225601117,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2103001,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2110014] = {
+        type2 = {
+            [1] = 107011,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1108,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2110014,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2110012] = {
+        type2 = {
+            [1] = 107011,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1106,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2110012,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2110011] = {
+        type2 = {
+            [1] = 107011,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1105,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2110011,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2110009] = {
+        type2 = {
+            [1] = 107011,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1103,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2110009,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2110008] = {
+        type2 = {
+            [1] = 107011,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1102,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2110008,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250217] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 192,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250217,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2110007] = {
+        type2 = {
+            [1] = 107011,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1101,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2110007,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [220024] = {
+        type2 = {
+            [1] = 103002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 99,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203003,
+        },
+        id = 220024,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 3,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2110006] = {
+        type2 = {
+            [1] = 107011,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1100,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2110006,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [2110005] = {
         type2 = {
             [1] = 107011,
@@ -43414,36 +42914,6 @@ return {
         size2 = 0,
         endSuit = 0,
         endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [225601117] = {
-        type2 = {
-            [1] = 104003,
-        },
-        name2 = 910176,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 320,
-        name1 = 1701830,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 225601117,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2103001,
-        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -43506,6 +42976,35 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [250218] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 193,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250218,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [2109024] = {
         type2 = {
             [1] = 107010,
@@ -43536,29 +43035,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2109023] = {
+    [220025] = {
         type2 = {
-            [1] = 107010,
+            [1] = 103002,
         },
         name2 = 0,
-        unlockType = 202,
+        unlockType = 0,
         unlock = {
-            heroId = 110901,
         },
-        sort = 1093,
+        sort = 100,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 3,
         type3 = {
-            [1] = 207001,
+            [1] = 203003,
         },
-        id = 2109023,
-        subType = 108,
+        id = 220025,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 3,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -43597,87 +43095,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250217] = {
+    [202] = {
         type2 = {
-            [1] = 103005,
+            [1] = 109001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 192,
+        sort = 1231,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 9,
         type3 = {
-            [1] = 203002,
+            [1] = 209001,
+            [2] = 209002,
         },
-        id = 250217,
-        subType = 2,
+        id = 202,
+        subType = 16,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2109021] = {
-        type2 = {
-            [1] = 107010,
-        },
-        name2 = 0,
-        unlockType = 202,
-        unlock = {
-            heroId = 110901,
-        },
-        sort = 1091,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2109021,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [220024] = {
-        type2 = {
-            [1] = 103002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 99,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203003,
-        },
-        id = 220024,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 3,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -43759,297 +43199,6 @@ return {
             [1] = 207001,
         },
         id = 2109018,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2109017] = {
-        type2 = {
-            [1] = 107010,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1087,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2109017,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2109016] = {
-        type2 = {
-            [1] = 107010,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1086,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2109016,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250218] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 193,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250218,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2109015] = {
-        type2 = {
-            [1] = 107010,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1085,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2109015,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [220025] = {
-        type2 = {
-            [1] = 103002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 100,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203003,
-        },
-        id = 220025,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 3,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2109014] = {
-        type2 = {
-            [1] = 107010,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1084,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2109014,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [202] = {
-        type2 = {
-            [1] = 109001,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1231,
-        name1 = 0,
-        isOpen = true,
-        type1 = 9,
-        type3 = {
-            [1] = 209001,
-            [2] = 209002,
-        },
-        id = 202,
-        subType = 16,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2109012] = {
-        type2 = {
-            [1] = 107010,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1082,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2109012,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2109010] = {
-        type2 = {
-            [1] = 107010,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1080,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2109010,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2109009] = {
-        type2 = {
-            [1] = 107010,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 1079,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2109009,
         subType = 108,
         defaultInfo = {
         },
@@ -44332,32 +43481,33 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2109008] = {
+    [1120015] = {
         type2 = {
-            [1] = 107010,
+            [1] = 101014,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1078,
+        sort = 40,
         name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        isOpen = true,
+        type1 = 1,
         type3 = {
-            [1] = 207001,
+            [1] = 201001,
+            [2] = 201003,
         },
-        id = 2109008,
-        subType = 108,
+        id = 1120015,
+        subType = 11,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 30,
         size2 = 0,
         endSuit = 0,
         endType = 0,
-        heroID = 0,
+        heroID = 112001,
         roleID = 0,
         size1 = 0,
     },
@@ -45062,6 +44212,296 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [2109017] = {
+        type2 = {
+            [1] = 107010,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1087,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2109017,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2109016] = {
+        type2 = {
+            [1] = 107010,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1086,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2109016,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2109015] = {
+        type2 = {
+            [1] = 107010,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1085,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2109015,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2109014] = {
+        type2 = {
+            [1] = 107010,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1084,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2109014,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2109013] = {
+        type2 = {
+            [1] = 107010,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1083,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2109013,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2109012] = {
+        type2 = {
+            [1] = 107010,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1082,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2109012,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2109010] = {
+        type2 = {
+            [1] = 107010,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1080,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2109010,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2109009] = {
+        type2 = {
+            [1] = 107010,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1079,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2109009,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2109008] = {
+        type2 = {
+            [1] = 107010,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1078,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2109008,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2109007] = {
+        type2 = {
+            [1] = 107010,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 1077,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2109007,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [2109005] = {
         type2 = {
             [1] = 107010,
@@ -45179,6 +44619,35 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [250225] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 195,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250225,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [2108022] = {
         type2 = {
             [1] = 107009,
@@ -45268,33 +44737,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2108015] = {
+    [412302] = {
         type2 = {
-            [1] = 107009,
+            [1] = 102021,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 1061,
+        sort = 134,
         name1 = 0,
-        isOpen = false,
-        type1 = 7,
+        isOpen = true,
+        type1 = 2,
         type3 = {
-            [1] = 207001,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 2108015,
-        subType = 108,
+        id = 412302,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 30,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 123,
         size1 = 0,
     },
     [2108013] = {
@@ -45386,6 +44856,35 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [250226] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 196,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250226,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [2107020] = {
         type2 = {
             [1] = 107008,
@@ -45411,6 +44910,36 @@ return {
         size2 = 0,
         endSuit = 0,
         endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [120603212] = {
+        type2 = {
+            [1] = 104002,
+        },
+        name2 = 910190,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 289,
+        name1 = 1701832,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 120603212,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2102001,
+        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -45448,6 +44977,35 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [312001] = {
+        type2 = {
+            [1] = 106002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 712,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 312001,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [2107015] = {
         type2 = {
             [1] = 107008,
@@ -45470,35 +45028,6 @@ return {
         specialCondition = {
         },
         cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250225] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 195,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250225,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -45564,6 +45093,35 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [312002] = {
+        type2 = {
+            [1] = 106002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 713,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 312002,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [2107004] = {
         type2 = {
             [1] = 107008,
@@ -45591,36 +45149,6 @@ return {
         endType = 0,
         heroID = 0,
         roleID = 0,
-        size1 = 0,
-    },
-    [412302] = {
-        type2 = {
-            [1] = 102021,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 134,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202003,
-        },
-        id = 412302,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 30,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 123,
         size1 = 0,
     },
     [2107001] = {
@@ -45669,400 +45197,6 @@ return {
             [1] = 207001,
         },
         id = 2106028,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2106026] = {
-        type2 = {
-            [1] = 107007,
-        },
-        name2 = 0,
-        unlockType = 201,
-        unlock = {
-            level = 30,
-            heroId = 110602,
-        },
-        sort = 1020,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2106026,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250226] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 196,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250226,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2106024] = {
-        type2 = {
-            [1] = 107007,
-        },
-        name2 = 0,
-        unlockType = 202,
-        unlock = {
-            heroId = 110601,
-        },
-        sort = 1018,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2106024,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [120603212] = {
-        type2 = {
-            [1] = 104002,
-        },
-        name2 = 910190,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 289,
-        name1 = 1701832,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 120603212,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2102001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2106022] = {
-        type2 = {
-            [1] = 107007,
-        },
-        name2 = 0,
-        unlockType = 201,
-        unlock = {
-            level = 30,
-            heroId = 110601,
-        },
-        sort = 1016,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2106022,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [312001] = {
-        type2 = {
-            [1] = 106002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 712,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 312001,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 4,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2106018] = {
-        type2 = {
-            [1] = 107007,
-        },
-        name2 = 0,
-        unlockType = 301,
-        unlock = {
-            roleId = 106,
-        },
-        sort = 1012,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2106018,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2106014] = {
-        type2 = {
-            [1] = 107007,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 1000,
-            roleId = 106,
-        },
-        sort = 1008,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2106014,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2106013] = {
-        type2 = {
-            [1] = 107007,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 2500,
-            roleId = 106,
-        },
-        sort = 1007,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2106013,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [312002] = {
-        type2 = {
-            [1] = 106002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 713,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 312002,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 4,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2106012] = {
-        type2 = {
-            [1] = 107007,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 300,
-            roleId = 106,
-        },
-        sort = 1006,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2106012,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2106010] = {
-        type2 = {
-            [1] = 107007,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 1000,
-            roleId = 106,
-        },
-        sort = 1004,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2106010,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2106006] = {
-        type2 = {
-            [1] = 107007,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 300,
-            roleId = 106,
-        },
-        sort = 1000,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2106006,
         subType = 108,
         defaultInfo = {
         },
@@ -46473,24 +45607,24 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2106005] = {
+    [2106026] = {
         type2 = {
             [1] = 107007,
         },
         name2 = 0,
-        unlockType = 302,
+        unlockType = 201,
         unlock = {
-            favor = 300,
-            roleId = 106,
+            level = 30,
+            heroId = 110602,
         },
-        sort = 999,
+        sort = 1020,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 2106005,
+        id = 2106026,
         subType = 108,
         defaultInfo = {
         },
@@ -46530,6 +45664,313 @@ return {
         size2 = 0,
         endSuit = 2112002,
         endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2106024] = {
+        type2 = {
+            [1] = 107007,
+        },
+        name2 = 0,
+        unlockType = 202,
+        unlock = {
+            heroId = 110601,
+        },
+        sort = 1018,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2106024,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2106022] = {
+        type2 = {
+            [1] = 107007,
+        },
+        name2 = 0,
+        unlockType = 201,
+        unlock = {
+            level = 30,
+            heroId = 110601,
+        },
+        sort = 1016,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2106022,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2106021] = {
+        type2 = {
+            [1] = 107007,
+        },
+        name2 = 0,
+        unlockType = 202,
+        unlock = {
+            heroId = 110601,
+        },
+        sort = 1015,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2106021,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2106018] = {
+        type2 = {
+            [1] = 107007,
+        },
+        name2 = 0,
+        unlockType = 301,
+        unlock = {
+            roleId = 106,
+        },
+        sort = 1012,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2106018,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2106014] = {
+        type2 = {
+            [1] = 107007,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 1000,
+            roleId = 106,
+        },
+        sort = 1008,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2106014,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2106013] = {
+        type2 = {
+            [1] = 107007,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 2500,
+            roleId = 106,
+        },
+        sort = 1007,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2106013,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2106012] = {
+        type2 = {
+            [1] = 107007,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 300,
+            roleId = 106,
+        },
+        sort = 1006,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2106012,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2106010] = {
+        type2 = {
+            [1] = 107007,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 1000,
+            roleId = 106,
+        },
+        sort = 1004,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2106010,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2106006] = {
+        type2 = {
+            [1] = 107007,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 300,
+            roleId = 106,
+        },
+        sort = 1000,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2106006,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [2106005] = {
+        type2 = {
+            [1] = 107007,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 300,
+            roleId = 106,
+        },
+        sort = 999,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 2106005,
+        subType = 108,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -46592,6 +46033,36 @@ return {
         endType = 0,
         heroID = 0,
         roleID = 0,
+        size1 = 0,
+    },
+    [411801] = {
+        type2 = {
+            [1] = 102017,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 125,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202003,
+        },
+        id = 411801,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 30,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 118,
         size1 = 0,
     },
     [2105022] = {
@@ -46688,6 +46159,36 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [1116011] = {
+        type2 = {
+            [1] = 101023,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 44,
+        name1 = 0,
+        isOpen = true,
+        type1 = 1,
+        type3 = {
+            [1] = 201001,
+            [2] = 201002,
+        },
+        id = 1116011,
+        subType = 11,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 111601,
+        roleID = 0,
+        size1 = 0,
+    },
     [2105018] = {
         type2 = {
             [1] = 107006,
@@ -46747,6 +46248,66 @@ return {
         endType = 0,
         heroID = 0,
         roleID = 0,
+        size1 = 0,
+    },
+    [460701208] = {
+        type2 = {
+            [1] = 104013,
+        },
+        name2 = 910285,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 422,
+        name1 = 1701831,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 460701208,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2113001,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [411803] = {
+        type2 = {
+            [1] = 102017,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 124,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 411803,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 118,
         size1 = 0,
     },
     [2105014] = {
@@ -46873,6 +46434,36 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [2501220] = {
+        type2 = {
+            [1] = 104001,
+        },
+        name2 = 900011,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 269,
+        name1 = 1701833,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 2501220,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2101001,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [2105007] = {
         type2 = {
             [1] = 107006,
@@ -46904,36 +46495,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [411801] = {
-        type2 = {
-            [1] = 102017,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 125,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202003,
-        },
-        id = 411801,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 30,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 118,
-        size1 = 0,
-    },
     [2105003] = {
         type2 = {
             [1] = 107006,
@@ -46960,6 +46521,36 @@ return {
         size2 = 0,
         endSuit = 0,
         endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [751501221] = {
+        type2 = {
+            [1] = 104008,
+        },
+        name2 = 910347,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 395,
+        name1 = 1701833,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 751501221,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2108001,
+        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -47024,66 +46615,32 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1116011] = {
+    [121501346] = {
         type2 = {
-            [1] = 101023,
+            [1] = 104002,
         },
-        name2 = 0,
+        name2 = 910146,
         unlockType = 0,
         unlock = {
         },
-        sort = 44,
-        name1 = 0,
+        sort = 305,
+        name1 = 1701831,
         isOpen = true,
-        type1 = 1,
+        type1 = 4,
         type3 = {
-            [1] = 201001,
-            [2] = 201002,
+            [1] = 204001,
+            [2] = 204003,
         },
-        id = 1116011,
-        subType = 11,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 111601,
-        roleID = 0,
-        size1 = 0,
-    },
-    [2014019] = {
-        type2 = {
-            [1] = 107005,
-        },
-        name2 = 0,
-        unlockType = 202,
-        unlock = {
-            ownItems = {
-                [1104013] = 1,
-                [1104015] = 1,
-            },
-            heroId = 110401,
-        },
-        sort = 965,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2014019,
-        subType = 108,
+        id = 121501346,
+        subType = 104,
         defaultInfo = {
         },
         specialCondition = {
         },
         cup = 1,
         size2 = 0,
-        endSuit = 0,
-        endType = 0,
+        endSuit = 2102003,
+        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -47106,97 +46663,6 @@ return {
             [1] = 207001,
         },
         id = 2014013,
-        subType = 108,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [460701208] = {
-        type2 = {
-            [1] = 104013,
-        },
-        name2 = 910285,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 422,
-        name1 = 1701831,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 460701208,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2113001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [411803] = {
-        type2 = {
-            [1] = 102017,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 124,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 411803,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 118,
-        size1 = 0,
-    },
-    [2014011] = {
-        type2 = {
-            [1] = 107005,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 2500,
-            roleId = 104,
-        },
-        sort = 957,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 2014011,
         subType = 108,
         defaultInfo = {
         },
@@ -47302,36 +46768,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [2501220] = {
-        type2 = {
-            [1] = 104001,
-        },
-        name2 = 900011,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 269,
-        name1 = 1701833,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 2501220,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2101001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [2103022] = {
         type2 = {
             [1] = 107004,
@@ -47356,6 +46792,35 @@ return {
         specialCondition = {
         },
         cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250234] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 141,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250234,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -47390,36 +46855,6 @@ return {
         size2 = 0,
         endSuit = 0,
         endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [751501221] = {
-        type2 = {
-            [1] = 104008,
-        },
-        name2 = 910347,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 395,
-        name1 = 1701833,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 751501221,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2108001,
-        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -47482,36 +46917,6 @@ return {
         size2 = 0,
         endSuit = 0,
         endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [121501346] = {
-        type2 = {
-            [1] = 104002,
-        },
-        name2 = 910146,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 305,
-        name1 = 1701831,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 121501346,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2102003,
-        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -47638,6 +47043,35 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [250235] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 142,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250235,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [2102008] = {
         type2 = {
             [1] = 107003,
@@ -47669,28 +47103,242 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250234] = {
+    [13001] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 300,
+            roleId = 101,
+        },
+        sort = 826,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 13001,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [13017] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 1000,
+            roleId = 112,
+        },
+        sort = 842,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 13017,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [13033] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 99,
+        unlock = {
+        },
+        sort = 857,
+        name1 = 0,
+        isOpen = false,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 13033,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [333001] = {
+        type2 = {
+            [1] = 106002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 141,
+        sort = 740,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 6,
         type3 = {
-            [1] = 203002,
+            [1] = 106004,
         },
-        id = 250234,
-        subType = 2,
+        id = 333001,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [9702128] = {
+        type2 = {
+            [1] = 104001,
+        },
+        name2 = 900026,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 273,
+        name1 = 1701831,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 9702128,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2101002,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [11034] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [411802] = 1,
+            },
+        },
+        sort = 785,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 11034,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [11050] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [410422] = 1,
+            },
+        },
+        sort = 801,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 11050,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [333002] = {
+        type2 = {
+            [1] = 106002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 741,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 333002,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -47819,6 +47467,36 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [411301] = {
+        type2 = {
+            [1] = 102014,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 111,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 411301,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 20,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 113,
+        size1 = 0,
+    },
     [2101028] = {
         type2 = {
             [1] = 107002,
@@ -47842,6 +47520,35 @@ return {
         specialCondition = {
         },
         cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250237] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 143,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250237,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -47879,6 +47586,36 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [1114011] = {
+        type2 = {
+            [1] = 101020,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 42,
+        name1 = 0,
+        isOpen = true,
+        type1 = 1,
+        type3 = {
+            [1] = 201001,
+            [2] = 201002,
+        },
+        id = 1114011,
+        subType = 11,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 111401,
+        roleID = 0,
+        size1 = 0,
+    },
     [2101024] = {
         type2 = {
             [1] = 107002,
@@ -47909,35 +47646,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250235] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 142,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250235,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [2101021] = {
         type2 = {
             [1] = 107002,
@@ -47961,223 +47669,6 @@ return {
         specialCondition = {
         },
         cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [13001] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 300,
-            roleId = 101,
-        },
-        sort = 826,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13001,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [13017] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 1000,
-            roleId = 112,
-        },
-        sort = 842,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13017,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [13033] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 99,
-        unlock = {
-        },
-        sort = 857,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13033,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [11002] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 101,
-        unlock = {
-            ownItems = {
-                [410407] = 1,
-            },
-        },
-        sort = 760,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 11002,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [9702128] = {
-        type2 = {
-            [1] = 104001,
-        },
-        name2 = 900026,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 273,
-        name1 = 1701831,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 9702128,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2101002,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [11034] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 101,
-        unlock = {
-            ownItems = {
-                [411802] = 1,
-            },
-        },
-        sort = 785,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 11034,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [11050] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 101,
-        unlock = {
-            ownItems = {
-                [410422] = 1,
-            },
-        },
-        sort = 801,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 11050,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -48216,6 +47707,36 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [411303] = {
+        type2 = {
+            [1] = 102014,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 112,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 411303,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 113,
+        size1 = 0,
+    },
     [2101016] = {
         type2 = {
             [1] = 107002,
@@ -48247,6 +47768,36 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [316601116] = {
+        type2 = {
+            [1] = 104001,
+        },
+        name2 = 900948,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 283,
+        name1 = 1701833,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 316601116,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2101003,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [2101013] = {
         type2 = {
             [1] = 107002,
@@ -48271,6 +47822,35 @@ return {
         specialCondition = {
         },
         cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [311001] = {
+        type2 = {
+            [1] = 106002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 709,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 311001,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -48340,36 +47920,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [411301] = {
-        type2 = {
-            [1] = 102014,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 111,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 411301,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 20,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 113,
-        size1 = 0,
-    },
     [2101008] = {
         type2 = {
             [1] = 107002,
@@ -48401,28 +47951,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250237] = {
+    [311002] = {
         type2 = {
-            [1] = 103005,
+            [1] = 106002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 143,
+        sort = 710,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 6,
         type3 = {
-            [1] = 203002,
+            [1] = 106004,
         },
-        id = 250237,
-        subType = 2,
+        id = 311002,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 4,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -48458,36 +48008,6 @@ return {
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1114011] = {
-        type2 = {
-            [1] = 101020,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 42,
-        name1 = 0,
-        isOpen = true,
-        type1 = 1,
-        type3 = {
-            [1] = 201001,
-            [2] = 201002,
-        },
-        id = 1114011,
-        subType = 11,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 111401,
         roleID = 0,
         size1 = 0,
     },
@@ -48544,389 +48064,6 @@ return {
         specialCondition = {
         },
         cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [13042] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 99,
-        unlock = {
-        },
-        sort = 865,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13042,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [411303] = {
-        type2 = {
-            [1] = 102014,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 112,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 411303,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 113,
-        size1 = 0,
-    },
-    [13041] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 99,
-        unlock = {
-        },
-        sort = 864,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13041,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [316601116] = {
-        type2 = {
-            [1] = 104001,
-        },
-        name2 = 900948,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 283,
-        name1 = 1701833,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 316601116,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2101003,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [13040] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 2500,
-            roleId = 110,
-        },
-        sort = 863,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13040,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [311001] = {
-        type2 = {
-            [1] = 106002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 709,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 311001,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 4,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [13038] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 99,
-        unlock = {
-        },
-        sort = 862,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13038,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [13037] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 99,
-        unlock = {
-        },
-        sort = 861,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13037,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250175] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 184,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203001,
-        },
-        id = 250175,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [311002] = {
-        type2 = {
-            [1] = 106002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 710,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 311002,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 4,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [13034] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 99,
-        unlock = {
-        },
-        sort = 858,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13034,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [13031] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 302,
-        unlock = {
-            favor = 1000,
-            roleId = 110,
-        },
-        sort = 855,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13031,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [13029] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 99,
-        unlock = {
-        },
-        sort = 853,
-        name1 = 0,
-        isOpen = false,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 13029,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -49762,7 +48899,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1311,
+        sort = 1315,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -49930,29 +49067,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540147] = {
+    [300014] = {
         type2 = {
-            [1] = 105005,
+            [1] = 106003,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 546,
-        name1 = 1701915,
+        sort = 745,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 6,
         type3 = {
-            [1] = 205001,
-            [2] = 205003,
+            [1] = 106004,
         },
-        id = 540147,
-        subType = 10,
+        id = 300014,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 4,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -50106,15 +49242,15 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410508] = {
+    [411316] = {
         type2 = {
-            [1] = 102006,
+            [1] = 102014,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 79,
+        sort = 138,
         name1 = 0,
         isOpen = true,
         type1 = 2,
@@ -50122,43 +49258,44 @@ return {
             [1] = 202001,
             [2] = 202002,
         },
-        id = 410508,
+        id = 411316,
         subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 25,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 105,
+        roleID = 113,
         size1 = 0,
     },
-    [12004] = {
+    [540157] = {
         type2 = {
-            [1] = 107001,
+            [1] = 105001,
         },
         name2 = 0,
         unlockType = 401,
         unlock = {
-            dunId = 104321,
+            dunId = 105103,
         },
-        sort = 815,
-        name1 = 0,
+        sort = 469,
+        name1 = 1702097,
         isOpen = true,
-        type1 = 7,
+        type1 = 5,
         type3 = {
-            [1] = 207001,
+            [1] = 205001,
+            [2] = 205005,
         },
-        id = 12004,
-        subType = 105,
+        id = 540157,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -50166,7 +49303,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250296] = {
+    [250398] = {
         type2 = {
             [1] = 103005,
         },
@@ -50174,14 +49311,14 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 166,
+        sort = 228,
         name1 = 0,
         isOpen = true,
         type1 = 3,
         type3 = {
-            [1] = 203001,
+            [1] = 203002,
         },
-        id = 250296,
+        id = 250398,
         subType = 2,
         defaultInfo = {
         },
@@ -50340,29 +49477,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540216] = {
+    [13014] = {
         type2 = {
-            [1] = 105008,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 302,
         unlock = {
+            favor = 1000,
+            roleId = 105,
         },
-        sort = 579,
-        name1 = 1701944,
+        sort = 839,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 7,
         type3 = {
-            [1] = 205001,
-            [2] = 205002,
+            [1] = 207001,
         },
-        id = 540216,
-        subType = 10,
+        id = 13014,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 3,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -50370,89 +49508,31 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540161] = {
+    [11045] = {
         type2 = {
-            [1] = 105001,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 101,
         unlock = {
-            dunId = 105425,
+            ownItems = {
+                [410708] = 1,
+            },
         },
-        sort = 474,
-        name1 = 1702100,
+        sort = 796,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 7,
         type3 = {
-            [1] = 205001,
-            [2] = 205005,
+            [1] = 207001,
         },
-        id = 540161,
-        subType = 10,
+        id = 11045,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [316602620] = {
-        type2 = {
-            [1] = 104001,
-        },
-        name2 = 900943,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 278,
-        name1 = 1701830,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 316602620,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2101003,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540281] = {
-        type2 = {
-            [1] = 105002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 637,
-        name1 = 1701990,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-        },
-        id = 540281,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -50490,23 +49570,85 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [300004] = {
+    [308502723] = {
         type2 = {
-            [1] = 106003,
+            [1] = 104003,
+        },
+        name2 = 900888,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 330,
+        name1 = 1701832,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 308502723,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2103002,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540170] = {
+        type2 = {
+            [1] = 105009,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 764,
+        sort = 593,
+        name1 = 1701958,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205003,
+        },
+        id = 540170,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [13008] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 302,
+        unlock = {
+            favor = 1000,
+            roleId = 103,
+        },
+        sort = 833,
         name1 = 0,
         isOpen = true,
-        type1 = 6,
+        type1 = 7,
         type3 = {
-            [1] = 106004,
+            [1] = 207001,
         },
-        id = 300004,
-        subType = 17,
+        id = 13008,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
@@ -50885,7 +50027,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1301,
+        sort = 1307,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -50907,79 +50049,45 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [11046] = {
+    [1057] = {
         type2 = {
-            [1] = 107001,
+            [1] = 109001,
         },
         name2 = 0,
-        unlockType = 101,
-        unlock = {
-            ownItems = {
-                [410808] = 1,
-            },
-        },
-        sort = 797,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 11046,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [11045] = {
-        type2 = {
-            [1] = 107001,
-        },
-        name2 = 0,
-        unlockType = 101,
-        unlock = {
-            ownItems = {
-                [410708] = 1,
-            },
-        },
-        sort = 796,
-        name1 = 0,
-        isOpen = true,
-        type1 = 7,
-        type3 = {
-            [1] = 207001,
-        },
-        id = 11045,
-        subType = 105,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [120501225] = {
-        type2 = {
-            [1] = 104002,
-        },
-        name2 = 910193,
         unlockType = 0,
         unlock = {
         },
-        sort = 292,
+        sort = 1309,
+        name1 = 0,
+        isOpen = true,
+        type1 = 9,
+        type3 = {
+            [1] = 209001,
+            [2] = 209002,
+        },
+        id = 1057,
+        subType = 16,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [120604112] = {
+        type2 = {
+            [1] = 104002,
+        },
+        name2 = 910195,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 294,
         name1 = 1701833,
         isOpen = true,
         type1 = 4,
@@ -50987,7 +50095,7 @@ return {
             [1] = 204001,
             [2] = 204003,
         },
-        id = 120501225,
+        id = 120604112,
         subType = 104,
         defaultInfo = {
         },
@@ -51001,30 +50109,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540182] = {
+    [332002] = {
         type2 = {
-            [1] = 105001,
+            [1] = 106002,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 0,
         unlock = {
-            dunId = 106105,
         },
-        sort = 482,
-        name1 = 1702101,
+        sort = 739,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 6,
         type3 = {
-            [1] = 205001,
-            [2] = 205005,
+            [1] = 106004,
         },
-        id = 540182,
-        subType = 10,
+        id = 332002,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 4,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -51032,7 +50138,66 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250504] = {
+    [411011] = {
+        type2 = {
+            [1] = 102011,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 114,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 411011,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 25,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 110,
+        size1 = 0,
+    },
+    [230034] = {
+        type2 = {
+            [1] = 103003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 109,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203003,
+        },
+        id = 230034,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250262] = {
         type2 = {
             [1] = 103005,
         },
@@ -51040,14 +50205,14 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 240,
+        sort = 201,
         name1 = 0,
         isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
         },
-        id = 250504,
+        id = 250262,
         subType = 2,
         defaultInfo = {
         },
@@ -51061,57 +50226,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250281] = {
+    [13012] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 302,
         unlock = {
+            favor = 2500,
+            roleId = 104,
         },
-        sort = 208,
+        sort = 837,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250281,
-        subType = 2,
+        id = 13012,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250645] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 274,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250645,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -51149,36 +50287,34 @@ return {
         roleID = 103,
         size1 = 0,
     },
-    [11043] = {
+    [410501] = {
         type2 = {
-            [1] = 107001,
+            [1] = 102006,
         },
         name2 = 0,
-        unlockType = 101,
+        unlockType = 0,
         unlock = {
-            ownItems = {
-                [411315] = 1,
-            },
         },
-        sort = 794,
+        sort = 74,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 2,
         type3 = {
-            [1] = 207001,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 11043,
-        subType = 105,
+        id = 410501,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 105,
         size1 = 0,
     },
     [65701216] = {
@@ -51209,215 +50345,6 @@ return {
         endType = 2,
         heroID = 0,
         roleID = 0,
-        size1 = 0,
-    },
-    [120604112] = {
-        type2 = {
-            [1] = 104002,
-        },
-        name2 = 910195,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 294,
-        name1 = 1701833,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 120604112,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2102001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [1110011] = {
-        type2 = {
-            [1] = 101013,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 35,
-        name1 = 0,
-        isOpen = true,
-        type1 = 1,
-        type3 = {
-            [1] = 201001,
-            [2] = 201002,
-        },
-        id = 1110011,
-        subType = 11,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 111001,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250505] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 242,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250505,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540272] = {
-        type2 = {
-            [1] = 105001,
-        },
-        name2 = 0,
-        unlockType = 401,
-        unlock = {
-            dunId = 108536,
-        },
-        sort = 512,
-        name1 = 1702622,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205006,
-        },
-        id = 540272,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [240047] = {
-        type2 = {
-            [1] = 103004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 122,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203003,
-        },
-        id = 240047,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [410303] = {
-        type2 = {
-            [1] = 102004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 53,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 410303,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 25,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 103,
-        size1 = 0,
-    },
-    [410501] = {
-        type2 = {
-            [1] = 102006,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 74,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 410501,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 105,
         size1 = 0,
     },
     [11022] = {
@@ -51452,34 +50379,242 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [308501126] = {
+    [1110011] = {
         type2 = {
-            [1] = 104003,
+            [1] = 101013,
         },
-        name2 = 900891,
+        name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 333,
-        name1 = 1701833,
+        sort = 35,
+        name1 = 0,
         isOpen = true,
-        type1 = 4,
+        type1 = 1,
         type3 = {
-            [1] = 204001,
-            [2] = 204003,
+            [1] = 201001,
+            [2] = 201002,
         },
-        id = 308501126,
-        subType = 104,
+        id = 1110011,
+        subType = 11,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 111001,
+        roleID = 0,
+        size1 = 0,
+    },
+    [230035] = {
+        type2 = {
+            [1] = 103003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 110,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203003,
+        },
+        id = 230035,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540297] = {
+        type2 = {
+            [1] = 105002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 638,
+        name1 = 1702165,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+        },
+        id = 540297,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [410504] = {
+        type2 = {
+            [1] = 102006,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 75,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 410504,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 105,
+        size1 = 0,
+    },
+    [410303] = {
+        type2 = {
+            [1] = 102004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 53,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 410303,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 25,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 103,
+        size1 = 0,
+    },
+    [540195] = {
+        type2 = {
+            [1] = 105001,
+        },
+        name2 = 0,
+        unlockType = 401,
+        unlock = {
+            dunId = 107213,
+        },
+        sort = 494,
+        name1 = 1702106,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205006,
+        },
+        id = 540195,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
         cup = 1,
         size2 = 0,
-        endSuit = 2103002,
-        endType = 2,
+        endSuit = 0,
+        endType = 0,
         heroID = 0,
         roleID = 0,
+        size1 = 0,
+    },
+    [240040] = {
+        type2 = {
+            [1] = 103004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 115,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203003,
+        },
+        id = 240040,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [410505] = {
+        type2 = {
+            [1] = 102006,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 76,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 410505,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 25,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 105,
         size1 = 0,
     },
     [310001] = {
@@ -51540,25 +50675,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [11039] = {
+    [13039] = {
         type2 = {
             [1] = 107001,
         },
         name2 = 0,
-        unlockType = 101,
+        unlockType = 401,
         unlock = {
-            ownItems = {
-                [410415] = 1,
-            },
+            dunId = 108646,
         },
-        sort = 790,
+        sort = 819,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 11039,
+        id = 13039,
         subType = 105,
         defaultInfo = {
         },
@@ -51572,28 +50705,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [328001] = {
+    [540199] = {
         type2 = {
-            [1] = 106002,
+            [1] = 105001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 401,
         unlock = {
+            dunId = 107425,
         },
-        sort = 735,
-        name1 = 0,
+        sort = 500,
+        name1 = 1702107,
         isOpen = true,
-        type1 = 6,
+        type1 = 5,
         type3 = {
-            [1] = 106004,
+            [1] = 205001,
+            [2] = 205006,
         },
-        id = 328001,
-        subType = 17,
+        id = 540199,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -51630,60 +50765,31 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410504] = {
+    [11021] = {
         type2 = {
-            [1] = 102006,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 101,
         unlock = {
+            ownItems = {
+                [410511] = 1,
+            },
         },
-        sort = 75,
+        sort = 772,
         name1 = 0,
         isOpen = true,
-        type1 = 2,
+        type1 = 7,
         type3 = {
-            [1] = 202001,
-            [2] = 202002,
+            [1] = 207001,
         },
-        id = 410504,
-        subType = 4,
+        id = 11021,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 105,
-        size1 = 0,
-    },
-    [540195] = {
-        type2 = {
-            [1] = 105001,
-        },
-        name2 = 0,
-        unlockType = 401,
-        unlock = {
-            dunId = 107213,
-        },
-        sort = 494,
-        name1 = 1702106,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205006,
-        },
-        id = 540195,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -51691,34 +50797,63 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410514] = {
+    [250292] = {
         type2 = {
-            [1] = 102006,
+            [1] = 103005,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 85,
+        sort = 210,
         name1 = 0,
         isOpen = true,
-        type1 = 2,
+        type1 = 3,
         type3 = {
-            [1] = 202001,
-            [2] = 202003,
+            [1] = 203001,
         },
-        id = 410514,
-        subType = 4,
+        id = 250292,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 25,
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 105,
+        roleID = 0,
+        size1 = 0,
+    },
+    [12004] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 401,
+        unlock = {
+            dunId = 104321,
+        },
+        sort = 815,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 12004,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
         size1 = 0,
     },
     [410306] = {
@@ -52028,34 +51163,33 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410506] = {
+    [250164] = {
         type2 = {
-            [1] = 102006,
+            [1] = 103005,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 77,
+        sort = 177,
         name1 = 0,
         isOpen = true,
-        type1 = 2,
+        type1 = 3,
         type3 = {
-            [1] = 202001,
-            [2] = 202002,
+            [1] = 203002,
         },
-        id = 410506,
-        subType = 4,
+        id = 250164,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 25,
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 105,
+        roleID = 0,
         size1 = 0,
     },
     [65701121] = {
@@ -52118,90 +51252,58 @@ return {
         roleID = 103,
         size1 = 0,
     },
-    [11036] = {
+    [410509] = {
         type2 = {
-            [1] = 107001,
+            [1] = 102006,
         },
         name2 = 0,
-        unlockType = 101,
+        unlockType = 0,
         unlock = {
-            ownItems = {
-                [411212] = 1,
-            },
         },
-        sort = 787,
+        sort = 80,
         name1 = 0,
         isOpen = true,
-        type1 = 7,
+        type1 = 2,
         type3 = {
-            [1] = 207001,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 11036,
-        subType = 105,
+        id = 410509,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 30,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 105,
         size1 = 0,
     },
-    [540199] = {
+    [540380] = {
         type2 = {
-            [1] = 105001,
+            [1] = 105012,
         },
         name2 = 0,
-        unlockType = 401,
+        unlockType = 0,
         unlock = {
-            dunId = 107425,
         },
-        sort = 500,
-        name1 = 1702107,
+        sort = 624,
+        name1 = 1706007,
         isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
-            [2] = 205006,
+            [2] = 205003,
         },
-        id = 540199,
+        id = 540380,
         subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [300001] = {
-        type2 = {
-            [1] = 106003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 761,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 300001,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
         cup = 2,
         size2 = 0,
         endSuit = 0,
@@ -52210,33 +51312,64 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [210012] = {
+    [410510] = {
         type2 = {
-            [1] = 103001,
+            [1] = 102006,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 87,
+        sort = 81,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 2,
         type3 = {
-            [1] = 203003,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 210012,
-        subType = 2,
+        id = 410510,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 25,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 105,
+        size1 = 0,
+    },
+    [410310] = {
+        type2 = {
+            [1] = 102004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 69,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 410310,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 10,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 103,
         size1 = 0,
     },
     [230039] = {
@@ -52298,7 +51431,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410509] = {
+    [410511] = {
         type2 = {
             [1] = 102006,
         },
@@ -52306,7 +51439,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 80,
+        sort = 82,
         name1 = 0,
         isOpen = true,
         type1 = 2,
@@ -52314,7 +51447,7 @@ return {
             [1] = 202001,
             [2] = 202003,
         },
-        id = 410509,
+        id = 410511,
         subType = 4,
         defaultInfo = {
         },
@@ -52356,156 +51489,6 @@ return {
         endType = 0,
         heroID = 0,
         roleID = 103,
-        size1 = 0,
-    },
-    [410510] = {
-        type2 = {
-            [1] = 102006,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 81,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 410510,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 25,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 105,
-        size1 = 0,
-    },
-    [412301] = {
-        type2 = {
-            [1] = 102021,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 133,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 412301,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 10,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 123,
-        size1 = 0,
-    },
-    [410511] = {
-        type2 = {
-            [1] = 102006,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 82,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202003,
-        },
-        id = 410511,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 30,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 105,
-        size1 = 0,
-    },
-    [410312] = {
-        type2 = {
-            [1] = 102004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 60,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202002,
-        },
-        id = 410312,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 25,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 103,
-        size1 = 0,
-    },
-    [750501323] = {
-        type2 = {
-            [1] = 104007,
-        },
-        name2 = 910341,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 389,
-        name1 = 1701833,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 750501323,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2107001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
         size1 = 0,
     },
     [410512] = {
@@ -52597,6 +51580,66 @@ return {
         roleID = 105,
         size1 = 0,
     },
+    [410312] = {
+        type2 = {
+            [1] = 102004,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 60,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 410312,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 25,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 103,
+        size1 = 0,
+    },
+    [750501323] = {
+        type2 = {
+            [1] = 104007,
+        },
+        name2 = 910341,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 389,
+        name1 = 1701833,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 750501323,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2107001,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [540213] = {
         type2 = {
             [1] = 105005,
@@ -52627,28 +51670,119 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [303002] = {
+    [410514] = {
         type2 = {
-            [1] = 106002,
+            [1] = 102006,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 688,
+        sort = 85,
         name1 = 0,
         isOpen = true,
-        type1 = 6,
+        type1 = 2,
         type3 = {
-            [1] = 106004,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 303002,
-        subType = 17,
+        id = 410514,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 25,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 105,
+        size1 = 0,
+    },
+    [316602620] = {
+        type2 = {
+            [1] = 104001,
+        },
+        name2 = 900943,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 278,
+        name1 = 1701830,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 316602620,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2101003,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540216] = {
+        type2 = {
+            [1] = 105008,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 579,
+        name1 = 1701944,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205002,
+        },
+        id = 540216,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 3,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540217] = {
+        type2 = {
+            [1] = 105008,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 578,
+        name1 = 1701943,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205002,
+        },
+        id = 540217,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 3,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -53016,36 +52150,67 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [314001] = {
+    [1101031] = {
         type2 = {
-            [1] = 106002,
+            [1] = 101003,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 715,
+        sort = 6,
         name1 = 0,
         isOpen = true,
-        type1 = 6,
+        type1 = 1,
         type3 = {
-            [1] = 106004,
+            [1] = 201001,
+            [2] = 201002,
         },
-        id = 314001,
-        subType = 17,
+        id = 1101031,
+        subType = 11,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
+        heroID = 110103,
+        roleID = 0,
+        size1 = 0,
+    },
+    [488501622] = {
+        type2 = {
+            [1] = 104010,
+        },
+        name2 = 901202,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 402,
+        name1 = 1701833,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 488501622,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2110001,
+        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
     },
-    [11018] = {
+    [11048] = {
         type2 = {
             [1] = 107001,
         },
@@ -53053,52 +52218,23 @@ return {
         unlockType = 101,
         unlock = {
             ownItems = {
-                [411308] = 1,
+                [412504] = 1,
             },
         },
-        sort = 769,
+        sort = 799,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 11018,
+        id = 11048,
         subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
         cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [250655] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 278,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250655,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -53136,7 +52272,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [11017] = {
+    [11046] = {
         type2 = {
             [1] = 107001,
         },
@@ -53144,17 +52280,17 @@ return {
         unlockType = 101,
         unlock = {
             ownItems = {
-                [410213] = 1,
+                [410808] = 1,
             },
         },
-        sort = 768,
+        sort = 797,
         name1 = 0,
         isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
         },
-        id = 11017,
+        id = 11046,
         subType = 105,
         defaultInfo = {
         },
@@ -53197,34 +52333,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [488501622] = {
+    [411802] = {
         type2 = {
-            [1] = 104010,
+            [1] = 102017,
         },
-        name2 = 901202,
+        name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 402,
-        name1 = 1701833,
+        sort = 126,
+        name1 = 0,
         isOpen = true,
-        type1 = 4,
+        type1 = 2,
         type3 = {
-            [1] = 204001,
-            [2] = 204003,
+            [1] = 202001,
+            [2] = 202003,
         },
-        id = 488501622,
-        subType = 104,
+        id = 411802,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 30,
         size2 = 0,
-        endSuit = 2110001,
-        endType = 2,
+        endSuit = 0,
+        endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 118,
         size1 = 0,
     },
     [303] = {
@@ -53257,28 +52393,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250913] = {
+    [540341] = {
         type2 = {
-            [1] = 103005,
+            [1] = 105001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 401,
         unlock = {
+            dunId = 111321,
         },
-        sort = 235,
-        name1 = 0,
+        sort = 540,
+        name1 = 1702582,
         isOpen = true,
-        type1 = 3,
+        type1 = 5,
         type3 = {
-            [1] = 203002,
+            [1] = 205001,
+            [2] = 205007,
         },
-        id = 250913,
-        subType = 2,
+        id = 540341,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -53316,28 +52454,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [240044] = {
+    [540238] = {
         type2 = {
-            [1] = 103004,
+            [1] = 105001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 401,
         unlock = {
+            dunId = 130014,
         },
-        sort = 119,
-        name1 = 0,
+        sort = 546,
+        name1 = 1701899,
         isOpen = true,
-        type1 = 3,
+        type1 = 5,
         type3 = {
-            [1] = 203003,
+            [1] = 205001,
+            [2] = 205008,
         },
-        id = 240044,
-        subType = 2,
+        id = 540238,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -53435,28 +52575,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [240045] = {
+    [250148] = {
         type2 = {
-            [1] = 103004,
+            [1] = 103005,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 120,
+        sort = 171,
         name1 = 0,
         isOpen = true,
         type1 = 3,
         type3 = {
-            [1] = 203003,
+            [1] = 203002,
         },
-        id = 240045,
+        id = 250148,
         subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -53494,28 +52634,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250148] = {
+    [300008] = {
         type2 = {
-            [1] = 103005,
+            [1] = 106003,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 171,
+        sort = 751,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 6,
         type3 = {
-            [1] = 203002,
+            [1] = 106004,
         },
-        id = 250148,
-        subType = 2,
+        id = 300008,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 3,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -53553,24 +52693,24 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540268] = {
+    [540338] = {
         type2 = {
             [1] = 105001,
         },
         name2 = 0,
         unlockType = 401,
         unlock = {
-            dunId = 108536,
+            dunId = 111107,
         },
-        sort = 510,
-        name1 = 1702622,
+        sort = 537,
+        name1 = 1702577,
         isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
-            [2] = 205006,
+            [2] = 205007,
         },
-        id = 540268,
+        id = 540338,
         subType = 10,
         defaultInfo = {
         },
@@ -53614,33 +52754,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [307002] = {
+    [410305] = {
         type2 = {
-            [1] = 106002,
+            [1] = 102004,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 699,
+        sort = 54,
         name1 = 0,
         isOpen = true,
-        type1 = 6,
+        type1 = 2,
         type3 = {
-            [1] = 106004,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 307002,
-        subType = 17,
+        id = 410305,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 4,
+        cup = 25,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 103,
         size1 = 0,
     },
     [310] = {
@@ -53681,7 +52822,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 744,
+        sort = 750,
         name1 = 0,
         isOpen = true,
         type1 = 6,
@@ -54159,28 +53300,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250517] = {
+    [2124007] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107019,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 302,
         unlock = {
+            favor = 300,
+            roleId = 124,
         },
-        sort = 243,
+        sort = 1223,
         name1 = 0,
-        isOpen = true,
-        type1 = 3,
+        isOpen = false,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250517,
-        subType = 2,
+        id = 2124007,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -54400,28 +53543,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250518] = {
+    [2124023] = {
         type2 = {
-            [1] = 103005,
+            [1] = 107019,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 202,
         unlock = {
+            heroId = 112401,
         },
-        sort = 245,
+        sort = 1239,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 7,
         type3 = {
-            [1] = 203002,
+            [1] = 207001,
         },
-        id = 250518,
-        subType = 2,
+        id = 2124023,
+        subType = 108,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -54488,28 +53632,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [300020] = {
+    [540205] = {
         type2 = {
-            [1] = 106003,
+            [1] = 105001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 401,
         unlock = {
+            dunId = 107431,
         },
-        sort = 751,
-        name1 = 0,
+        sort = 503,
+        name1 = 1701896,
         isOpen = true,
-        type1 = 6,
+        type1 = 5,
         type3 = {
-            [1] = 106004,
+            [1] = 205001,
+            [2] = 205006,
         },
-        id = 300020,
-        subType = 17,
+        id = 540205,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 3,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -54517,33 +53663,35 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [1101031] = {
+    [11002] = {
         type2 = {
-            [1] = 101003,
+            [1] = 107001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 101,
         unlock = {
+            ownItems = {
+                [410407] = 1,
+            },
         },
-        sort = 6,
+        sort = 760,
         name1 = 0,
         isOpen = true,
-        type1 = 1,
+        type1 = 7,
         type3 = {
-            [1] = 201001,
-            [2] = 201002,
+            [1] = 207001,
         },
-        id = 1101031,
-        subType = 11,
+        id = 11002,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 10,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
-        heroID = 110103,
+        heroID = 0,
         roleID = 0,
         size1 = 0,
     },
@@ -54563,35 +53711,6 @@ return {
             [1] = 106004,
         },
         id = 309003,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 3,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [300008] = {
-        type2 = {
-            [1] = 106003,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 745,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 300008,
         subType = 17,
         defaultInfo = {
         },
@@ -54627,6 +53746,35 @@ return {
         specialCondition = {
         },
         cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [11001] = {
+        type2 = {
+            [1] = 107001,
+        },
+        name2 = 0,
+        unlockType = 99,
+        unlock = {
+        },
+        sort = 759,
+        name1 = 0,
+        isOpen = true,
+        type1 = 7,
+        type3 = {
+            [1] = 207001,
+        },
+        id = 11001,
+        subType = 105,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -54724,36 +53872,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250545] = {
-        type2 = {
-            [1] = 103005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 254,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203002,
-        },
-        id = 250545,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [300014] = {
+    [300007] = {
         type2 = {
             [1] = 106003,
         },
@@ -54761,20 +53880,49 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 739,
+        sort = 773,
         name1 = 0,
         isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
         },
-        id = 300014,
+        id = 300007,
         subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 4,
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [300006] = {
+        type2 = {
+            [1] = 106003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 772,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 300006,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -54871,29 +54019,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540085] = {
+    [300004] = {
         type2 = {
-            [1] = 105005,
+            [1] = 106003,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 538,
-        name1 = 1701907,
+        sort = 770,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 6,
         type3 = {
-            [1] = 205001,
-            [2] = 205002,
+            [1] = 106004,
         },
-        id = 540085,
-        subType = 10,
+        id = 300004,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 3,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -54901,28 +54048,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250164] = {
+    [300003] = {
         type2 = {
-            [1] = 103005,
+            [1] = 106003,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 177,
+        sort = 769,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 6,
         type3 = {
-            [1] = 203002,
+            [1] = 106004,
         },
-        id = 250164,
-        subType = 2,
+        id = 300003,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -54930,28 +54077,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250292] = {
+    [300002] = {
         type2 = {
-            [1] = 103005,
+            [1] = 106003,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 210,
+        sort = 768,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 6,
         type3 = {
-            [1] = 203001,
+            [1] = 106004,
         },
-        id = 250292,
-        subType = 2,
+        id = 300002,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -54959,34 +54106,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410305] = {
+    [308503016] = {
         type2 = {
-            [1] = 102004,
+            [1] = 104003,
         },
-        name2 = 0,
+        name2 = 900893,
         unlockType = 0,
         unlock = {
         },
-        sort = 54,
-        name1 = 0,
+        sort = 335,
+        name1 = 1701833,
         isOpen = true,
-        type1 = 2,
+        type1 = 4,
         type3 = {
-            [1] = 202001,
-            [2] = 202002,
+            [1] = 204001,
+            [2] = 204003,
         },
-        id = 410305,
-        subType = 4,
+        id = 308503016,
+        subType = 104,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 25,
+        cup = 1,
         size2 = 0,
-        endSuit = 0,
-        endType = 0,
+        endSuit = 2103002,
+        endType = 2,
         heroID = 0,
-        roleID = 103,
+        roleID = 0,
         size1 = 0,
     },
     [314502228] = {
@@ -55138,24 +54285,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540319] = {
+    [210012] = {
         type2 = {
-            [1] = 105007,
+            [1] = 103001,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 572,
-        name1 = 1702203,
+        sort = 87,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 3,
         type3 = {
-            [1] = 205001,
-            [2] = 205003,
+            [1] = 203003,
         },
-        id = 540319,
-        subType = 10,
+        id = 210012,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
@@ -55168,7 +54314,37 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [326001] = {
+    [1102102] = {
+        type2 = {
+            [1] = 101019,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 13,
+        name1 = 0,
+        isOpen = true,
+        type1 = 1,
+        type3 = {
+            [1] = 201001,
+            [2] = 201003,
+        },
+        id = 1102102,
+        subType = 11,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 40,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 110210,
+        roleID = 0,
+        size1 = 0,
+    },
+    [306001] = {
         type2 = {
             [1] = 106002,
         },
@@ -55176,20 +54352,49 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 733,
+        sort = 695,
         name1 = 0,
         isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
         },
-        id = 326001,
+        id = 306001,
         subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 5,
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [300001] = {
+        type2 = {
+            [1] = 106003,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 767,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 300001,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -55258,28 +54463,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250295] = {
+    [540317] = {
         type2 = {
-            [1] = 103005,
+            [1] = 105006,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 212,
-        name1 = 0,
+        sort = 563,
+        name1 = 1702202,
         isOpen = true,
-        type1 = 3,
+        type1 = 5,
         type3 = {
-            [1] = 203001,
+            [1] = 205001,
+            [2] = 205003,
         },
-        id = 250295,
-        subType = 2,
+        id = 540317,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 6,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -55287,28 +54493,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [322001] = {
+    [250296] = {
         type2 = {
-            [1] = 106002,
+            [1] = 103005,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 729,
+        sort = 166,
         name1 = 0,
         isOpen = true,
-        type1 = 6,
+        type1 = 3,
         type3 = {
-            [1] = 106004,
+            [1] = 203001,
         },
-        id = 322001,
-        subType = 17,
+        id = 250296,
+        subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 4,
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -55375,35 +54581,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [318001] = {
-        type2 = {
-            [1] = 106002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 725,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 318001,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [250298] = {
         type2 = {
             [1] = 103005,
@@ -55426,37 +54603,6 @@ return {
         specialCondition = {
         },
         cup = 6,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540334] = {
-        type2 = {
-            [1] = 105001,
-        },
-        name2 = 0,
-        unlockType = 401,
-        unlock = {
-            dunId = 111107,
-        },
-        sort = 533,
-        name1 = 1702577,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205007,
-        },
-        id = 540334,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -55494,7 +54640,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540338] = {
+    [540334] = {
         type2 = {
             [1] = 105001,
         },
@@ -55503,7 +54649,7 @@ return {
         unlock = {
             dunId = 111107,
         },
-        sort = 537,
+        sort = 533,
         name1 = 1702577,
         isOpen = true,
         type1 = 5,
@@ -55511,7 +54657,7 @@ return {
             [1] = 205001,
             [2] = 205007,
         },
-        id = 540338,
+        id = 540334,
         subType = 10,
         defaultInfo = {
         },
@@ -55555,7 +54701,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250302] = {
+    [250300] = {
         type2 = {
             [1] = 103005,
         },
@@ -55563,14 +54709,14 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 214,
+        sort = 213,
         name1 = 0,
         isOpen = true,
         type1 = 3,
         type3 = {
             [1] = 203002,
         },
-        id = 250302,
+        id = 250300,
         subType = 2,
         defaultInfo = {
         },
@@ -55766,32 +54912,34 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [123401331] = {
+    [11036] = {
         type2 = {
-            [1] = 104002,
+            [1] = 107001,
         },
-        name2 = 910172,
-        unlockType = 0,
+        name2 = 0,
+        unlockType = 101,
         unlock = {
+            ownItems = {
+                [411212] = 1,
+            },
         },
-        sort = 300,
-        name1 = 1701833,
+        sort = 787,
+        name1 = 0,
         isOpen = true,
-        type1 = 4,
+        type1 = 7,
         type3 = {
-            [1] = 204001,
-            [2] = 204003,
+            [1] = 207001,
         },
-        id = 123401331,
-        subType = 104,
+        id = 11036,
+        subType = 105,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 2,
         size2 = 0,
-        endSuit = 2102002,
-        endType = 2,
+        endSuit = 0,
+        endType = 0,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -55859,7 +55007,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [250305] = {
+    [250175] = {
         type2 = {
             [1] = 103005,
         },
@@ -55867,14 +55015,14 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 215,
+        sort = 184,
         name1 = 0,
         isOpen = true,
         type1 = 3,
         type3 = {
-            [1] = 203002,
+            [1] = 203001,
         },
-        id = 250305,
+        id = 250175,
         subType = 2,
         defaultInfo = {
         },
@@ -55918,6 +55066,125 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [332001] = {
+        type2 = {
+            [1] = 106002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 738,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 332001,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [314503226] = {
+        type2 = {
+            [1] = 104012,
+        },
+        name2 = 900970,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 411,
+        name1 = 1701830,
+        isOpen = true,
+        type1 = 4,
+        type3 = {
+            [1] = 204001,
+            [2] = 204003,
+        },
+        id = 314503226,
+        subType = 104,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 2112002,
+        endType = 2,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540336] = {
+        type2 = {
+            [1] = 105001,
+        },
+        name2 = 0,
+        unlockType = 401,
+        unlock = {
+            dunId = 111107,
+        },
+        sort = 535,
+        name1 = 1702577,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205007,
+        },
+        id = 540336,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250305] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 215,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250305,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [540362] = {
         type2 = {
             [1] = 105002,
@@ -55947,7 +55214,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [301001] = {
+    [322001] = {
         type2 = {
             [1] = 106002,
         },
@@ -55955,20 +55222,52 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 683,
+        sort = 729,
         name1 = 0,
         isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
         },
-        id = 301001,
+        id = 322001,
         subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540366] = {
+        type2 = {
+            [1] = 105002,
+        },
+        name2 = 0,
+        unlockType = 101,
+        unlock = {
+            ownItems = {
+                [501031] = 1,
+            },
+        },
+        sort = 683,
+        name1 = 1705384,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+        },
+        id = 540366,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -56035,37 +55334,37 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540223] = {
+    [412902] = {
         type2 = {
-            [1] = 105008,
+            [1] = 102022,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 585,
-        name1 = 1701950,
+        sort = 135,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 2,
         type3 = {
-            [1] = 205001,
-            [2] = 205003,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 540223,
-        subType = 10,
+        id = 412902,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 129,
         size1 = 0,
     },
-    [305001] = {
+    [318001] = {
         type2 = {
             [1] = 106002,
         },
@@ -56073,20 +55372,20 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 692,
+        sort = 725,
         name1 = 0,
         isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
         },
-        id = 305001,
+        id = 318001,
         subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -56153,38 +55452,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540341] = {
-        type2 = {
-            [1] = 105001,
-        },
-        name2 = 0,
-        unlockType = 401,
-        unlock = {
-            dunId = 111321,
-        },
-        sort = 540,
-        name1 = 1702582,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205007,
-        },
-        id = 540341,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [412902] = {
+    [412903] = {
         type2 = {
             [1] = 102022,
         },
@@ -56192,21 +55460,21 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 135,
+        sort = 136,
         name1 = 0,
         isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
-            [2] = 202002,
+            [2] = 202003,
         },
-        id = 412902,
+        id = 412903,
         subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 10,
+        cup = 30,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -56305,58 +55573,60 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [412903] = {
+    [225501579] = {
         type2 = {
-            [1] = 102022,
+            [1] = 104003,
         },
-        name2 = 0,
+        name2 = 910179,
         unlockType = 0,
         unlock = {
         },
-        sort = 136,
-        name1 = 0,
+        sort = 323,
+        name1 = 1701832,
         isOpen = true,
-        type1 = 2,
+        type1 = 4,
         type3 = {
-            [1] = 202001,
-            [2] = 202003,
+            [1] = 204001,
+            [2] = 204003,
         },
-        id = 412903,
-        subType = 4,
+        id = 225501579,
+        subType = 104,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 30,
+        cup = 1,
         size2 = 0,
-        endSuit = 0,
-        endType = 0,
+        endSuit = 2103001,
+        endType = 2,
         heroID = 0,
-        roleID = 129,
+        roleID = 0,
         size1 = 0,
     },
-    [302002] = {
+    [540237] = {
         type2 = {
-            [1] = 106002,
+            [1] = 105001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 401,
         unlock = {
+            dunId = 110001,
         },
-        sort = 686,
-        name1 = 0,
+        sort = 545,
+        name1 = 1701898,
         isOpen = true,
-        type1 = 6,
+        type1 = 5,
         type3 = {
-            [1] = 106004,
+            [1] = 205001,
+            [2] = 205008,
         },
-        id = 302002,
-        subType = 17,
+        id = 540237,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 3,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -56364,7 +55634,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [302001] = {
+    [330001] = {
         type2 = {
             [1] = 106002,
         },
@@ -56372,49 +55642,20 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 685,
+        sort = 737,
         name1 = 0,
         isOpen = true,
         type1 = 6,
         type3 = {
             [1] = 106004,
         },
-        id = 302001,
+        id = 330001,
         subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [306001] = {
-        type2 = {
-            [1] = 106002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 695,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 306001,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 4,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -56509,26 +55750,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540385] = {
+    [328001] = {
         type2 = {
-            [1] = 105002,
+            [1] = 106002,
         },
         name2 = 0,
-        unlockType = 101,
+        unlockType = 0,
         unlock = {
-            ownItems = {
-                [540385] = 1,
-            },
         },
-        sort = 695,
-        name1 = 13316330,
+        sort = 735,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 6,
         type3 = {
-            [1] = 205001,
+            [1] = 106004,
         },
-        id = 540385,
-        subType = 10,
+        id = 328001,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
@@ -56541,34 +55779,63 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410403] = {
+    [411402] = {
         type2 = {
-            [1] = 102005,
+            [1] = 102015,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 61,
+        sort = 121,
         name1 = 0,
         isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
-            [2] = 202002,
+            [2] = 202003,
         },
-        id = 410403,
+        id = 411402,
         subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 25,
+        cup = 30,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 104,
+        roleID = 114,
+        size1 = 0,
+    },
+    [315003] = {
+        type2 = {
+            [1] = 106002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 718,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 315003,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
         size1 = 0,
     },
     [250062] = {
@@ -56600,143 +55867,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [122601231] = {
+    [305001] = {
         type2 = {
-            [1] = 104005,
-        },
-        name2 = 910162,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 373,
-        name1 = 1701833,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 122601231,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2105001,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [314503226] = {
-        type2 = {
-            [1] = 104012,
-        },
-        name2 = 900970,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 411,
-        name1 = 1701830,
-        isOpen = true,
-        type1 = 4,
-        type3 = {
-            [1] = 204001,
-            [2] = 204003,
-        },
-        id = 314503226,
-        subType = 104,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 2112002,
-        endType = 2,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540241] = {
-        type2 = {
-            [1] = 105002,
+            [1] = 106002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 635,
-        name1 = 1701980,
+        sort = 692,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 6,
         type3 = {
-            [1] = 205001,
+            [1] = 106004,
         },
-        id = 540241,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540380] = {
-        type2 = {
-            [1] = 105012,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 624,
-        name1 = 1706007,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205003,
-        },
-        id = 540380,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [540260] = {
-        type2 = {
-            [1] = 105017,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 617,
-        name1 = 1701985,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205003,
-        },
-        id = 540260,
-        subType = 10,
+        id = 305001,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
@@ -56779,58 +55926,58 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540219] = {
+    [122601231] = {
         type2 = {
-            [1] = 105016,
+            [1] = 104005,
         },
-        name2 = 0,
+        name2 = 910162,
         unlockType = 0,
         unlock = {
         },
-        sort = 607,
-        name1 = 1701967,
+        sort = 373,
+        name1 = 1701833,
         isOpen = true,
-        type1 = 5,
+        type1 = 4,
         type3 = {
-            [1] = 205001,
-            [2] = 205003,
+            [1] = 204001,
+            [2] = 204003,
         },
-        id = 540219,
-        subType = 10,
+        id = 122601231,
+        subType = 104,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 1,
         size2 = 0,
-        endSuit = 0,
-        endType = 0,
+        endSuit = 2105001,
+        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
     },
-    [250323] = {
+    [314001] = {
         type2 = {
-            [1] = 103005,
+            [1] = 106002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 0,
+        sort = 715,
         name1 = 0,
         isOpen = true,
-        type1 = 3,
+        type1 = 6,
         type3 = {
-            [1] = 203002,
+            [1] = 106004,
         },
-        id = 250323,
-        subType = 2,
+        id = 314001,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 0,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -56838,24 +55985,23 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540138] = {
+    [302002] = {
         type2 = {
-            [1] = 105009,
+            [1] = 106002,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 590,
-        name1 = 1701955,
+        sort = 686,
+        name1 = 0,
         isOpen = true,
-        type1 = 5,
+        type1 = 6,
         type3 = {
-            [1] = 205001,
-            [2] = 205002,
+            [1] = 106004,
         },
-        id = 540138,
-        subType = 10,
+        id = 302002,
+        subType = 17,
         defaultInfo = {
         },
         specialCondition = {
@@ -56928,6 +56074,64 @@ return {
         roleID = 0,
         size1 = 0,
     },
+    [540241] = {
+        type2 = {
+            [1] = 105002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 635,
+        name1 = 1701980,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+        },
+        id = 540241,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 5,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250325] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 0,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250325,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 0,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
     [11042] = {
         type2 = {
             [1] = 107001,
@@ -56989,91 +56193,32 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [220023] = {
+    [751502313] = {
         type2 = {
-            [1] = 103002,
+            [1] = 104008,
         },
-        name2 = 0,
+        name2 = 910353,
         unlockType = 0,
         unlock = {
         },
-        sort = 98,
-        name1 = 0,
+        sort = 393,
+        name1 = 1701832,
         isOpen = true,
-        type1 = 3,
+        type1 = 4,
         type3 = {
-            [1] = 203003,
+            [1] = 204001,
+            [2] = 204003,
         },
-        id = 220023,
-        subType = 2,
+        id = 751502313,
+        subType = 104,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 3,
+        cup = 1,
         size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [411402] = {
-        type2 = {
-            [1] = 102015,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 121,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202003,
-        },
-        id = 411402,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 30,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 114,
-        size1 = 0,
-    },
-    [540133] = {
-        type2 = {
-            [1] = 105007,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 566,
-        name1 = 1701933,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205002,
-        },
-        id = 540133,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 3,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
+        endSuit = 2108001,
+        endType = 2,
         heroID = 0,
         roleID = 0,
         size1 = 0,
@@ -57137,34 +56282,152 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410407] = {
+    [540137] = {
         type2 = {
-            [1] = 102005,
+            [1] = 105009,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 63,
-        name1 = 0,
+        sort = 591,
+        name1 = 1701956,
         isOpen = true,
-        type1 = 2,
+        type1 = 5,
         type3 = {
-            [1] = 202001,
-            [2] = 202003,
+            [1] = 205001,
+            [2] = 205002,
         },
-        id = 410407,
-        subType = 4,
+        id = 540137,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 30,
+        cup = 3,
         size2 = 0,
         endSuit = 0,
         endType = 0,
         heroID = 0,
-        roleID = 104,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540138] = {
+        type2 = {
+            [1] = 105009,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 590,
+        name1 = 1701955,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205002,
+        },
+        id = 540138,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 3,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [250280] = {
+        type2 = {
+            [1] = 103005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 207,
+        name1 = 0,
+        isOpen = true,
+        type1 = 3,
+        type3 = {
+            [1] = 203002,
+        },
+        id = 250280,
+        subType = 2,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 6,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [308002] = {
+        type2 = {
+            [1] = 106002,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 702,
+        name1 = 0,
+        isOpen = true,
+        type1 = 6,
+        type3 = {
+            [1] = 106004,
+        },
+        id = 308002,
+        subType = 17,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 4,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [540319] = {
+        type2 = {
+            [1] = 105007,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 572,
+        name1 = 1702203,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205003,
+        },
+        id = 540319,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 2,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
         size1 = 0,
     },
     [250205] = {
@@ -57196,29 +56459,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540145] = {
+    [540133] = {
         type2 = {
-            [1] = 105005,
+            [1] = 105007,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 544,
-        name1 = 1701913,
+        sort = 566,
+        name1 = 1701933,
         isOpen = true,
         type1 = 5,
         type3 = {
             [1] = 205001,
-            [2] = 205003,
+            [2] = 205002,
         },
-        id = 540145,
+        id = 540133,
         subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 3,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -57226,28 +56489,29 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [308002] = {
+    [540149] = {
         type2 = {
-            [1] = 106002,
+            [1] = 105006,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 702,
-        name1 = 0,
+        sort = 560,
+        name1 = 1701929,
         isOpen = true,
-        type1 = 6,
+        type1 = 5,
         type3 = {
-            [1] = 106004,
+            [1] = 205001,
+            [2] = 205003,
         },
-        id = 308002,
-        subType = 17,
+        id = 540149,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 4,
+        cup = 2,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -57285,124 +56549,6 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [540333] = {
-        type2 = {
-            [1] = 105001,
-        },
-        name2 = 0,
-        unlockType = 401,
-        unlock = {
-            dunId = 111103,
-        },
-        sort = 532,
-        name1 = 1702576,
-        isOpen = true,
-        type1 = 5,
-        type3 = {
-            [1] = 205001,
-            [2] = 205007,
-        },
-        id = 540333,
-        subType = 10,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 1,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [304002] = {
-        type2 = {
-            [1] = 106002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 690,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 304002,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 2,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [315002] = {
-        type2 = {
-            [1] = 106002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 717,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 315002,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 4,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [315003] = {
-        type2 = {
-            [1] = 106002,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 718,
-        name1 = 0,
-        isOpen = true,
-        type1 = 6,
-        type3 = {
-            [1] = 106004,
-        },
-        id = 315003,
-        subType = 17,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 4,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
     [8007] = {
         type2 = {
             [1] = 109001,
@@ -57411,7 +56557,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1312,
+        sort = 1316,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -57441,7 +56587,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1320,
+        sort = 1324,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -57501,7 +56647,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 1333,
+        sort = 1337,
         name1 = 0,
         isOpen = true,
         type1 = 9,
@@ -57523,7 +56669,38 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [410408] = {
+    [540333] = {
+        type2 = {
+            [1] = 105001,
+        },
+        name2 = 0,
+        unlockType = 401,
+        unlock = {
+            dunId = 111103,
+        },
+        sort = 532,
+        name1 = 1702576,
+        isOpen = true,
+        type1 = 5,
+        type3 = {
+            [1] = 205001,
+            [2] = 205007,
+        },
+        id = 540333,
+        subType = 10,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 1,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 0,
+        size1 = 0,
+    },
+    [410401] = {
         type2 = {
             [1] = 102005,
         },
@@ -57531,7 +56708,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 64,
+        sort = 60,
         name1 = 0,
         isOpen = true,
         type1 = 2,
@@ -57539,43 +56716,13 @@ return {
             [1] = 202001,
             [2] = 202002,
         },
-        id = 410408,
+        id = 410401,
         subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 25,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 104,
-        size1 = 0,
-    },
-    [410409] = {
-        type2 = {
-            [1] = 102005,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 65,
-        name1 = 0,
-        isOpen = true,
-        type1 = 2,
-        type3 = {
-            [1] = 202001,
-            [2] = 202003,
-        },
-        id = 410409,
-        subType = 4,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 30,
+        cup = 10,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -57613,36 +56760,7 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [240049] = {
-        type2 = {
-            [1] = 103004,
-        },
-        name2 = 0,
-        unlockType = 0,
-        unlock = {
-        },
-        sort = 124,
-        name1 = 0,
-        isOpen = true,
-        type1 = 3,
-        type3 = {
-            [1] = 203003,
-        },
-        id = 240049,
-        subType = 2,
-        defaultInfo = {
-        },
-        specialCondition = {
-        },
-        cup = 5,
-        size2 = 0,
-        endSuit = 0,
-        endType = 0,
-        heroID = 0,
-        roleID = 0,
-        size1 = 0,
-    },
-    [410413] = {
+    [410403] = {
         type2 = {
             [1] = 102005,
         },
@@ -57650,7 +56768,7 @@ return {
         unlockType = 0,
         unlock = {
         },
-        sort = 66,
+        sort = 61,
         name1 = 0,
         isOpen = true,
         type1 = 2,
@@ -57658,7 +56776,37 @@ return {
             [1] = 202001,
             [2] = 202002,
         },
-        id = 410413,
+        id = 410403,
+        subType = 4,
+        defaultInfo = {
+        },
+        specialCondition = {
+        },
+        cup = 25,
+        size2 = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 0,
+        roleID = 104,
+        size1 = 0,
+    },
+    [410404] = {
+        type2 = {
+            [1] = 102005,
+        },
+        name2 = 0,
+        unlockType = 0,
+        unlock = {
+        },
+        sort = 62,
+        name1 = 0,
+        isOpen = true,
+        type1 = 2,
+        type3 = {
+            [1] = 202001,
+            [2] = 202002,
+        },
+        id = 410404,
         subType = 4,
         defaultInfo = {
         },
@@ -57730,28 +56878,28 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [230034] = {
+    [250294] = {
         type2 = {
-            [1] = 103003,
+            [1] = 103005,
         },
         name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 109,
+        sort = 211,
         name1 = 0,
         isOpen = true,
         type1 = 3,
         type3 = {
-            [1] = 203003,
+            [1] = 203001,
         },
-        id = 230034,
+        id = 250294,
         subType = 2,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 4,
+        cup = 6,
         size2 = 0,
         endSuit = 0,
         endType = 0,
@@ -57759,63 +56907,63 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [316601208] = {
+    [410413] = {
         type2 = {
-            [1] = 104001,
+            [1] = 102005,
         },
-        name2 = 900949,
+        name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 284,
-        name1 = 1701833,
+        sort = 66,
+        name1 = 0,
         isOpen = true,
-        type1 = 4,
+        type1 = 2,
         type3 = {
-            [1] = 204001,
-            [2] = 204003,
+            [1] = 202001,
+            [2] = 202002,
         },
-        id = 316601208,
-        subType = 104,
+        id = 410413,
+        subType = 4,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 25,
         size2 = 0,
-        endSuit = 2101003,
-        endType = 2,
+        endSuit = 0,
+        endType = 0,
         heroID = 0,
-        roleID = 0,
+        roleID = 104,
         size1 = 0,
     },
-    [751502313] = {
+    [1123011] = {
         type2 = {
-            [1] = 104008,
+            [1] = 101026,
         },
-        name2 = 910353,
+        name2 = 0,
         unlockType = 0,
         unlock = {
         },
-        sort = 393,
-        name1 = 1701832,
+        sort = 47,
+        name1 = 0,
         isOpen = true,
-        type1 = 4,
+        type1 = 1,
         type3 = {
-            [1] = 204001,
-            [2] = 204003,
+            [1] = 201001,
+            [2] = 201002,
         },
-        id = 751502313,
-        subType = 104,
+        id = 1123011,
+        subType = 11,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 1,
+        cup = 10,
         size2 = 0,
-        endSuit = 2108001,
-        endType = 2,
-        heroID = 0,
+        endSuit = 0,
+        endType = 0,
+        heroID = 112301,
         roleID = 0,
         size1 = 0,
     },
@@ -57849,15 +56997,15 @@ return {
         roleID = 124,
         size1 = 0,
     },
-    [65703118] = {
+    [316601208] = {
         type2 = {
-            [1] = 104005,
+            [1] = 104001,
         },
-        name2 = 900902,
+        name2 = 900949,
         unlockType = 0,
         unlock = {
         },
-        sort = 381,
+        sort = 284,
         name1 = 1701833,
         isOpen = true,
         type1 = 4,
@@ -57865,7 +57013,7 @@ return {
             [1] = 204001,
             [2] = 204003,
         },
-        id = 65703118,
+        id = 316601208,
         subType = 104,
         defaultInfo = {
         },
@@ -57873,7 +57021,7 @@ return {
         },
         cup = 1,
         size2 = 0,
-        endSuit = 2105002,
+        endSuit = 2101003,
         endType = 2,
         heroID = 0,
         roleID = 0,
@@ -57997,28 +57145,30 @@ return {
         roleID = 0,
         size1 = 0,
     },
-    [230035] = {
+    [540119] = {
         type2 = {
-            [1] = 103003,
+            [1] = 105001,
         },
         name2 = 0,
-        unlockType = 0,
+        unlockType = 401,
         unlock = {
+            dunId = 103318,
         },
-        sort = 110,
-        name1 = 0,
+        sort = 455,
+        name1 = 1701887,
         isOpen = true,
-        type1 = 3,
+        type1 = 5,
         type3 = {
-            [1] = 203003,
+            [1] = 205001,
+            [2] = 205004,
         },
-        id = 230035,
-        subType = 2,
+        id = 540119,
+        subType = 10,
         defaultInfo = {
         },
         specialCondition = {
         },
-        cup = 4,
+        cup = 1,
         size2 = 0,
         endSuit = 0,
         endType = 0,

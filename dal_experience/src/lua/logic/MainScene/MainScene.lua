@@ -62,6 +62,13 @@ function MainScene:onEnter()
     CommonManager:checkTipEvent()
 end
 
+
+function MainScene:getButtomLayer(  )
+    -- body
+    if self.___mainLayer then return self.___mainLayer end
+    return self.super.getButtomLayer(self)
+end
+
 function MainScene:onExit()
 	self.super.onExit(self)
 end

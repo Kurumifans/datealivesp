@@ -208,7 +208,7 @@ function TeamRoomView:registerEvents()
 
     self.TextButton_refresh:onClick(function()
         local data = TeamFightDataMgr:getTeamInfoByType(self.choosedTeamType)
-        if not data.nextTime then
+        if not data or not data.nextTime then
             return
         end
         local curTime = ServerDataMgr:getServerTime()

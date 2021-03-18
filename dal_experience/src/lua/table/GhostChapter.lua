@@ -7,7 +7,7 @@ return {
         order = 1,
         name1 = 13316401,
         id = 423,
-        progressAmount = 1,
+        progressAmount = 30000,
     },
     [424] = {
         unableBuff = 20102,
@@ -17,7 +17,7 @@ return {
         order = 2,
         name1 = 13316403,
         id = 424,
-        progressAmount = 1,
+        progressAmount = 26000,
     },
     [425] = {
         unableBuff = 20103,
@@ -27,7 +27,7 @@ return {
         order = 3,
         name1 = 13316405,
         id = 425,
-        progressAmount = 1,
+        progressAmount = 17000,
     },
     [426] = {
         unableBuff = 20104,
@@ -37,7 +37,7 @@ return {
         order = 4,
         name1 = 13316407,
         id = 426,
-        progressAmount = 1,
+        progressAmount = 20000,
     },
     [427] = {
         unableBuff = 20105,
@@ -47,7 +47,7 @@ return {
         order = 5,
         name1 = 13316409,
         id = 427,
-        progressAmount = 1,
+        progressAmount = 14000,
     },
     [428] = {
         unableBuff = 20106,
@@ -57,6 +57,6 @@ return {
         order = 6,
         name1 = 13316411,
         id = 428,
-        progressAmount = 1,
+        progressAmount = 24000,
     },
 }

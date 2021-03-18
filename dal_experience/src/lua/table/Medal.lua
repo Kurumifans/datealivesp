@@ -499,9 +499,34 @@ return {
             [2] = 60,
         },
     },
-    [1200036] = {
+    [1200035] = {
         superType = 12,
         order = 32,
+        exposedview = "icon/item/goods/1200035.png",
+        accessdes = "2460151",
+        skilltitle = "",
+        effectivetime = -1,
+        star = 3,
+        icon = "icon/item/goods/1200035.png",
+        quality = 1,
+        baseAttribute = {
+        },
+        id = 1200035,
+        baseskill = {
+        },
+        name = "2460149",
+        accessway = {
+        },
+        desTextId = 2460150,
+        MedalType = 2,
+        size = {
+            [1] = 55,
+            [2] = 60,
+        },
+    },
+    [1200036] = {
+        superType = 12,
+        order = 33,
         exposedview = "icon/item/goods/1200036.png",
         accessdes = "2460154",
         skilltitle = "",
@@ -526,7 +551,7 @@ return {
     },
     [1200037] = {
         superType = 12,
-        order = 32,
+        order = 34,
         exposedview = "icon/item/goods/1200037.png",
         accessdes = "2460157",
         skilltitle = "",
@@ -543,6 +568,131 @@ return {
         accessway = {
         },
         desTextId = 2460156,
+        MedalType = 2,
+        size = {
+            [1] = 55,
+            [2] = 60,
+        },
+    },
+    [1200038] = {
+        superType = 12,
+        order = 35,
+        exposedview = "icon/item/goods/1200038.png",
+        accessdes = "2460160",
+        skilltitle = "",
+        effectivetime = -1,
+        star = 3,
+        icon = "icon/item/goods/1200038.png",
+        quality = 1,
+        baseAttribute = {
+        },
+        id = 1200038,
+        baseskill = {
+        },
+        name = "2460158",
+        accessway = {
+        },
+        desTextId = 2460159,
+        MedalType = 2,
+        size = {
+            [1] = 55,
+            [2] = 60,
+        },
+    },
+    [1200039] = {
+        superType = 12,
+        order = 36,
+        exposedview = "icon/item/goods/1200039.png",
+        accessdes = "2460163",
+        skilltitle = "",
+        effectivetime = -1,
+        star = 3,
+        icon = "icon/item/goods/1200039.png",
+        quality = 1,
+        baseAttribute = {
+        },
+        id = 1200039,
+        baseskill = {
+        },
+        name = "2460161",
+        accessway = {
+        },
+        desTextId = 2460162,
+        MedalType = 2,
+        size = {
+            [1] = 55,
+            [2] = 60,
+        },
+    },
+    [1200040] = {
+        superType = 12,
+        order = 37,
+        exposedview = "icon/item/goods/1200040.png",
+        accessdes = "2460166",
+        skilltitle = "",
+        effectivetime = -1,
+        star = 3,
+        icon = "icon/item/goods/1200040.png",
+        quality = 1,
+        baseAttribute = {
+        },
+        id = 1200040,
+        baseskill = {
+        },
+        name = "2460164",
+        accessway = {
+        },
+        desTextId = 2460165,
+        MedalType = 2,
+        size = {
+            [1] = 55,
+            [2] = 60,
+        },
+    },
+    [1200041] = {
+        superType = 12,
+        order = 37,
+        exposedview = "icon/item/goods/1200041.png",
+        accessdes = "2460169",
+        skilltitle = "",
+        effectivetime = -1,
+        star = 3,
+        icon = "icon/item/goods/1200041.png",
+        quality = 1,
+        baseAttribute = {
+        },
+        id = 1200041,
+        baseskill = {
+        },
+        name = "2460167",
+        accessway = {
+        },
+        desTextId = 2460168,
+        MedalType = 2,
+        size = {
+            [1] = 55,
+            [2] = 60,
+        },
+    },
+    [1200042] = {
+        superType = 12,
+        order = 37,
+        exposedview = "icon/item/goods/1200042.png",
+        accessdes = "2460172",
+        skilltitle = "",
+        effectivetime = -1,
+        star = 3,
+        icon = "icon/item/goods/1200042.png",
+        quality = 1,
+        baseAttribute = {
+        },
+        id = 1200042,
+        baseskill = {
+        },
+        name = "2460170",
+        accessway = {
+        },
+        desTextId = 2460171,
         MedalType = 2,
         size = {
             [1] = 55,

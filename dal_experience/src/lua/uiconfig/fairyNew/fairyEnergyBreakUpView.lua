@@ -70,8 +70,6 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = -58,
-						PositionY = 35,
 						relativeToName = "Panel",
 						nType = 3,
 						nGravity = 6,
@@ -386,14 +384,14 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "770",
-											text = "获得契约点",
+											text = "突破奖励",
 											touchAble = "False",
 											touchScaleEnable = "False",
 											UILayoutViewModel = 
 											{
 												PositionY = 21,
 											},
-											width = "113",
+											width = "90",
 											ZOrder = "1",
 										},
 										{
@@ -414,7 +412,7 @@ local t =
 											sizepercenty = "0",
 											sizeType = "0",
 											srcBlendFunc = "1",
-											texturePath = "ui/fairy/new_ui/energy/ICON_linglidian.png",
+											texturePath = "icon/system/078.png",
 											touchAble = "False",
 											UILayoutViewModel = 
 											{
@@ -484,7 +482,7 @@ local t =
 									spineModel = 
 									{
 										SpinePath = "effect/effect_heroGrow_ui4/effect_heroGrow_ui4",
-										animationName = "ALL",
+										animationName = "xunhuan",
 										IsLoop = false,
 										IsPlay = true,
 										IsUseQueue = false,
@@ -569,7 +567,7 @@ local t =
 			"ui/fairy_up/bg.png",
 			"ui/fairy_up/row.png",
 			"ui/fairy/new_ui/energy/ui_032.png",
-			"ui/fairy/new_ui/energy/ICON_linglidian.png",
+			"icon/system/078.png",
 		},
 		armatures = 
 		{

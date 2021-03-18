@@ -84,15 +84,48 @@ function LoginLayer:initUI(ui)
 	end))
 
 	self.accountBtn = TFDirector:getChildByPath(ui,"TextButton_account");
-	self.accountBtnPosX = self.accountBtn:getPositionX()
 	self.accountBtn:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
 			if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
 				self:showLoingBoard()
 			end
 		end));
 
+	self.Button_User_proto = TFDirector:getChildByPath(ui,"Button_User_proto")
+	if self.Button_User_proto then
+		self.Button_User_proto:getChildByName("Label_user_proto"):setSkewX(5)
+		self.Button_User_proto:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+			Utils:openView("login.UserProto")
+		end));
+	end
+
+	self.Button_Conceal_proto = TFDirector:getChildByPath(ui,"Button_Conceal_proto")
+	if self.Button_Conceal_proto then
+		print(self.Button_Conceal_proto)
+		self.Button_Conceal_proto:getChildByName("Label_conceal_proto"):setSkewX(5)
+		self.Button_Conceal_proto:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+			Utils:openView("login.ConcealProto")
+		end));
+	end
+
+	self.Button_notice = TFDirector:getChildByPath(ui,"Button_notice")
+	self.Button_notice:getChildByName("Label_notice"):setSkewX(5)
+	self.Button_notice:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+		if CC_TARGET_PLATFORM ~= CC_PLATFORM_WIN32 then
+			if me.platform == "android" then
+            	HeitaoSdk.isFunctionSupported("showAnnouncement")
+            else
+                if tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.10 then
+                    HeitaoSdk.isFunctionSupported("showAnnouncement")
+                else
+                    HeitaoSdk.isFunctionSupported("contactCustomerService")
+                end
+            end
+		end
+	end));
+
 
 	self.cleanUpBtn = TFDirector:getChildByPath(ui,"Button_cleanup");
+	self.cleanUpBtn:getChildByName("Label_cleanup"):setSkewX(5)
 	self.cleanUpBtn:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
 		--Utils:openView("login.CleanUpView")
 		local fullModuleName = string.format("lua.logic.%s", "login.CleanUpView")
@@ -100,7 +133,8 @@ function LoginLayer:initUI(ui)
 	    self:addLayer(view,998)
 	end));
 
-	self.thanksBtn = TFDirector:getChildByPath(ui,"TextButton_");
+	self.thanksBtn = TFDirector:getChildByPath(ui,"Button_thanks");
+	self.thanksBtn:getChildByName("Label_thanks"):setSkewX(5)
 	self.thanksBtn:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
 
 			local currentScene = Public:currentScene();
@@ -124,15 +158,15 @@ function LoginLayer:initUI(ui)
 			end
 		end));
 
-	self.Button_play = TFDirector:getChildByPath(ui,"Button_play");
-	self.Button_playPosX = self.Button_play:getPositionX()
+	self.Button_pv = TFDirector:getChildByPath(ui,"Button_pv");
+	self.Button_pv:getChildByName("Label_pv"):setSkewX(5)
 	local vedioPath
 	if FunctionDataMgr:isOneYearLoginUI() then
 		vedioPath = "video/haiwangxingopenpv.MP4"
 	else
 		vedioPath = "video/openpv.mp4"
 	end
-	self.Button_play:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
+	self.Button_pv:addMEListener(TFWIDGET_CLICK,audioClickfun(function ()
 		local currentScene = Public:currentScene();
 		TFAudio.pauseMusic();
 		if CC_PLATFORM_IOS == CC_TARGET_PLATFORM then
@@ -152,7 +186,7 @@ function LoginLayer:initUI(ui)
 	end));
 
     self.Panel_serverList = TFDirector:getChildByPath(ui, "Panel_serverList")
-    self.Panel_serverList:setVisible(GameConfig.Debug)
+    self.Panel_serverList:setVisible(GameConfig.Debug or RELEASE_TEST)
     self.Label_serverName = TFDirector:getChildByPath(self.Panel_serverList, "Label_serverName")
 
     self.gameServerList = TFDirector:getChildByPath(ui, "game_serverList")
@@ -182,12 +216,12 @@ function LoginLayer:login()
 	if CC_TARGET_PLATFORM ~= CC_PLATFORM_WIN32 and HeitaoSdk then
 		HeitaoSdk.disableDeviceSleep(true)
 		if not self.isShowLoingBoard then
+			Utils:sendHttpLog("sdk_activate")
 			HeitaoSdk.login();
 		else
 			HeitaoSdk.loginOut();
 		end
 		self.accountBtn:setVisible(false)
-		self.Button_play:setPositionX(self.accountBtnPosX)
 	else
 
 		if not self.isShowLoingBoard then
@@ -200,7 +234,6 @@ function LoginLayer:login()
 			self:showLoingBoard();
 		end
 		self.accountBtn:setVisible(true)
-		self.Button_play:setPositionX(self.Button_playPosX)
 	end
 
 end
@@ -440,9 +473,11 @@ function LoginLayer:loginGameServerSuccess(event)
     hideAllLoading()
     TFDirector:removeMEGlobalListener("LoginLayer.LoginComplete", handler(self.loginGameServerSuccess, self))
     dump("loginGameServerSuccess")
+    Utils:sendHttpLog("server_connected")
     local currentScene = Public:currentScene()
     if currentScene ~= nil and currentScene.getTopLayer then
         if currentScene.__cname == "LoginScene" then
+        	MainPlayer:stopLoadTimer()
         	local playerLv = MainPlayer:getPlayerLv()
         	if playerLv <= 5 then
         		MainPlayer:enterGame()
@@ -455,7 +490,6 @@ function LoginLayer:loginGameServerSuccess(event)
         	end
         end
 	end
-	Utils:setVisibleAnitAddictionLayer(true)
 end
 
 function LoginLayer.enterNextPage(sender)
@@ -481,6 +515,14 @@ function LoginLayer.enterNextPage(sender)
 		if not LogonHelper:isVerification() then
 			LogonHelper:loginVerification();
 			return;
+		end
+
+		if not LogonHelper:isAgreedProto() then
+			local filePath = "src/lua/uiconfig/loginScene/concealProto.lua"
+			if me.FileUtils:isFileExist( filePath ) then
+				Utils:openView("login.ConcealProto")
+				return
+			end
 		end
 		
 		local platformId = 0

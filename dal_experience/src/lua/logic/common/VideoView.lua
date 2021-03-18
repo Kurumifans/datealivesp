@@ -73,7 +73,7 @@ end
 --播放视频
 function VideoView:playVideo(video, isEnd)
     print("video ",video)
-
+    print("video ",video)
     if type(video) == "number" then
         local videoCfg = TabDataMgr:getData("Video",video)
         if videoCfg then
@@ -189,7 +189,7 @@ function VideoView:addTopLayer(layer)
 end
 
 function VideoView:addLoadingLayer(layer)
-    if self.videoPlayer_ then
+    if self.videoPlayer_ and self.videoPlayer_.addLoadingLayer then
         self.videoPlayer_:addLoadingLayer(layer);
     end
 end

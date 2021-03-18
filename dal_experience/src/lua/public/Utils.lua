@@ -1,4 +1,5 @@
 local Utils = Utils or {}
+local UtilsCheckCondFunc = import(".UtilsCheckCondFunc")
 
 -- scrollView -> TableView
 function Utils:scrollView2TableView(scrollView)
@@ -32,27 +33,28 @@ function Utils:showNoticeNode( parent, content )
         return layer
 end
 
-function Utils:showAnitAddictionLayer(lastTime, isVisible)
-    if not lastTime then
+function Utils:showAnitAddictionLayer()
+    local currentScene = Public:currentScene()
+    if currentScene.__cname == "LoginScene" then
         return
     end
 
     -- 剩余时间 不超过配置不显示 （第一个为最大时间）
     local maxSec = Utils:getKVP(20003, "antiwarn")[1] * 60
-    if lastTime > maxSec then
+    if MainPlayer.warnTimeKeep > maxSec then
         return
     end
     
     local node = me.Director:getNotificationNode()
     local layer
     if not node:getChildByName("AnitAddictionLayer") then
-        layer = requireNew("lua.logic.common.AntiAddictionlayer"):new(lastTime, node:getScale(), isVisible)
+        layer = requireNew("lua.logic.common.AntiAddictionlayer"):new(node:getScale())
         layer:setName("AnitAddictionLayer")
         node:addChild(layer)
     else
         layer = node:getChildByName("AnitAddictionLayer")
-        layer:setTime(lastTime)
     end
+    layer:timeShowFunc()
 end
 
 function Utils:setVisibleAnitAddictionLayer(isVisible)
@@ -67,7 +69,7 @@ function Utils:closeAnitAddictionLayer()
     local node = me.Director:getNotificationNode()
     local layer = node:getChildByName("AnitAddictionLayer")
     if layer then
-        layer:removerlayer()
+        layer:removeFromParent()
     end
 end
 
@@ -542,7 +544,7 @@ function Utils:openView(moduleName, ...)
         view:setAnchorPoint(me.p(0.5,0.5))
         currentScene:addCustomLayer(view)
     else
-        AlertManager:addLayer(view)
+        AlertManager:addLayer(view, view.block)
         AlertManager:show()
         if table.indexOf(not_cache_views,view.__cname) == -1 then  --排除不需要缓存的ui
             AlertManager:addMainSceneLayerParamsCache(view.__cname, moduleName, ...)
@@ -569,10 +571,10 @@ function Utils:setAliginCenterByListView(listView, isHorizontal)
     listView:setContentSize(size)
 end
 
-function Utils:format_number(count)
-    local million = math.pow(10, 6)
+function Utils:format_number(count,boundaryNumber)
+    boundaryNumber = boundaryNumber or math.pow(10, 6)
     local rets = tostring(count)
-    if count > million then
+    if count >= boundaryNumber then
         local foo = math.floor(count / 1000)
         rets = tostring(foo) .. "k"
     end
@@ -582,7 +584,7 @@ end
 function Utils:format_number_w(count, boundaryNumber)
     boundaryNumber = boundaryNumber or math.pow(10, 5)
     local rets = tostring(count)
-    if count > boundaryNumber then
+    if count >= boundaryNumber then
         local foo = math.floor(count / 10000)
         rets = tostring(foo) .. "w"
     end
@@ -933,6 +935,10 @@ function Utils:getLocalDate(timestamp)
 end
 
 function Utils:getChineseNumber(number)
+    if not number then
+        return ""
+    end
+
     local retTab = {}
     if number < 10000 then
         local bits = #tostring(number)
@@ -1363,12 +1369,15 @@ function Utils:randomAD(showType)
     return "ui/update/s1.png" , {}
 end
 
-function Utils:showWebView(url,size,noAppend,attach)
+function Utils:showWebView(url,size,noAppend,attach,isInternetExplore)
     if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
         dump({url,size,noAppend,attach})
         return;
     end
-
+    if isInternetExplore then
+        TFDeviceInfo:openUrl(url)
+        return
+    end
     local fullModuleName = string.format("lua.logic.%s", "login.NoticeBoard")
     local view = requireNew(fullModuleName):new()
     AlertManager:addLayer(view,AlertManager.BLOCK)
@@ -1827,6 +1836,33 @@ function Utils:createRewardListHor(scrollView, rewards)
 
 end
 
+--reward = {id,id }
+function Utils:createRewardListHor1(scrollView, rewards)
+    if not scrollView.uilist then
+        scrollView.uilist = UIListView:create(scrollView)
+    end
+
+    local count = #scrollView.uilist:getItems() - table.count(rewards)
+
+    for i = 1,math.abs(count) do
+        if count > 0 then
+            scrollView.uilist:removeItem(1)
+        end
+    end
+
+    for k, id in ipairs(rewards) do
+        local panel_goodsItem = scrollView.uilist:getItem(k)
+        if not panel_goodsItem then
+            panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+            scrollView.uilist:pushBackCustomItem(panel_goodsItem)
+        end
+        PrefabDataMgr:setInfo(panel_goodsItem, tonumber(id))
+        local size = scrollView:getContentSize()
+        panel_goodsItem:setScale(size.height/panel_goodsItem:getContentSize().height)
+    end
+
+end
+
 -- 将数值转成3位一个带逗号
 function Utils:converNumWithComma(num)
     assert(type(num) == "number", "传入值非number类型！")
@@ -1870,6 +1906,42 @@ function Utils:checkInWorldRoomScene(roomType)
         return true
     end
     return false
+end
+
+function Utils:checkFlagIsEnable( flagId, ... ) -- 标记检测条件是否满足
+    -- body
+    local flagCfg = TabDataMgr:getData("Flags",flagId)
+    if not flagCfg then return true end
+    local checkResult = true
+    for k,v in pairs(flagCfg.condition) do
+        if not (UtilsCheckCondFunc["check_"..k] and UtilsCheckCondFunc["check_"..k](v, ...))then
+            checkResult = false
+            break
+        end
+    end
+    return checkResult
+end
+
+function Utils:getFlagData( flagId ) -- 获取标记对应key数据
+    -- body
+    local flagCfg = TabDataMgr:getData("Flags",flagId)
+    if not flagCfg then return true end
+    local returnData = {}
+    for k,v in pairs(flagCfg.condition) do
+        if UtilsCheckCondFunc["get_"..k] then
+            returnData[k] = UtilsCheckCondFunc["get_"..k](v)
+        end
+    end
+    return returnData
+end
+
+function Utils:isOfficialChannel()
+    local platformId = 0
+    if HeitaoSdk then
+        platformId = HeitaoSdk.getplatformId() % 10000
+    end
+
+    return platformId == 101 or platformId == 173 or platformId == 682
 end
 
 return Utils

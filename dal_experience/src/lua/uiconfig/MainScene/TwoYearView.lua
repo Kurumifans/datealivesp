@@ -2651,9 +2651,11 @@ local t =
 													DesignType = "0",
 													DesignWidth = "960",
 													dstBlendFunc = "771",
-													height = "84",
+													height = "100",
 													ignoreSize = "False",
 													name = "PageView_Activity",
+													scaleX = "0.835",
+													scaleY = "0.835",
 													sizepercentx = "0",
 													sizepercenty = "0",
 													sizeType = "0",
@@ -2661,15 +2663,15 @@ local t =
 													touchAble = "True",
 													UILayoutViewModel = 
 													{
-														PositionX = -82,
-														PositionY = -35,
+														PositionX = -140,
+														PositionY = -34,
 													},
 													uipanelviewmodel = 
 													{
 														Layout="Absolute",
 														nType = "0"
 													},
-													width = "306",
+													width = "440",
 													ZOrder = "1",
 												},
 												{
@@ -3168,7 +3170,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "98",
+											height = "107",
 											ignoreSize = "True",
 											name = "button_Caociyuan",
 											normal = "ui/mainLayer3/c12.png",
@@ -3184,7 +3186,7 @@ local t =
 												PositionY = 63,
 											},
 											UItype = "Button",
-											width = "208",
+											width = "176",
 											ZOrder = "1",
 										},
 										{
@@ -3199,7 +3201,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "110",
+											height = "114",
 											ignoreSize = "True",
 											name = "button_OneYear",
 											normal = "ui/mainLayer3/c13.png",
@@ -3215,7 +3217,7 @@ local t =
 												PositionY = 68,
 											},
 											UItype = "Button",
-											width = "232",
+											width = "184",
 											ZOrder = "1",
 										},
 										{
@@ -9031,7 +9033,7 @@ local t =
 													dstBlendFunc = "771",
 													flipX = "False",
 													flipY = "False",
-													height = "50",
+													height = "60",
 													ignoreSize = "True",
 													name = "Button_preview",
 													normal = "ui/preview/main_btn.png",
@@ -9049,7 +9051,7 @@ local t =
 														relativeToName = "Panel",
 													},
 													UItype = "Button",
-													width = "50",
+													width = "60",
 													ZOrder = "1",
 													components = 
 													{

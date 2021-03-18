@@ -27,6 +27,7 @@ function HeroDataMgr:ctor()
 	self.myFormation = nil;
 
 	self.preTeamInfo = {}
+	self.formation.stance = {}
     self:init()
 end
 
@@ -105,11 +106,16 @@ function HeroDataMgr:revcFormationList(event,isFriend)
 	self.formation.heros = {}
 	if formation.stance then
 		for _id,hero in pairs(self.heroTable) do
-			hero.job = 4;
-			for _pos,sid in pairs(formation.stance) do
-				if hero.ishave and hero.sid == sid then
-					hero.job = _pos;  	--队长
-					self.formation.heros[_pos] = hero.id
+			if type(v) == "number" then
+				self.heroTable[_id] = TabDataMgr:getData("Hero",_id)
+				self.heroTable[_id].isHave = false
+			else
+				hero.job = 4;
+				for _pos,sid in pairs(formation.stance) do
+					if hero.ishave and hero.sid == sid then
+						hero.job = _pos;  	--队长
+						self.formation.heros[_pos] = hero.id
+					end
 				end
 			end
 		end
@@ -139,7 +145,10 @@ function HeroDataMgr:reveFormationChange(event)
 end
 
 function HeroDataMgr:getIsFormationOn(_pos)
-	return self.formation.stance[_pos] ~= nil;
+	if self.formation.stance then
+		return self.formation.stance[_pos] ~= nil;
+	end
+	return false
 end
 
 function HeroDataMgr:getHeroIdByFormationPos(_pos)
@@ -147,11 +156,11 @@ function HeroDataMgr:getHeroIdByFormationPos(_pos)
 end
 
 function HeroDataMgr:getFormationHeroCnt()
-	return table.count(self.formation.stance);
+	return table.count(self.formation.stance or {});
 end
 
 function HeroDataMgr:getFormationIsFull()
-	return table.count(self.formation.stance) >= 3;
+	return table.count(self.formation.stance or {}) >= 3;
 end
 
 function HeroDataMgr:checkOnFormationByRole(heroid)
@@ -829,8 +838,13 @@ end
 
 function HeroDataMgr:getHeroCid(sid)
 	for k,v in pairs(self.heroTable) do
-		if v.sid == sid then
-			return v.id
+		if type(v) == "number" then
+			self.heroTable[k] = TabDataMgr:getData("Hero",k)
+			self.heroTable[k].isHave = false
+		else
+			if v.sid == sid then
+				return v.id
+			end
 		end
 	end
 end
@@ -1011,11 +1025,13 @@ function HeroDataMgr:syncServer(hero,ct)
         end
         self:setHeroAngelInfo(self.heroTable[hero.cid])
 	elseif ct == EC_SChangeType.DEFAULT then
-        self.heroTable[hero.cid].ishave = true;
-        table.merge(self.heroTable[hero.cid],hero);
-        self.haveList[hero.sid] = self.haveList[hero.sid] or {}
-        table.merge(self.haveList[hero.sid],self.heroTable[hero.cid]);
-        self:setHeroAngelInfo(self.heroTable[hero.cid])
+		if self.heroTable[hero.cid] then
+			self.heroTable[hero.cid].ishave = true;
+			table.merge(self.heroTable[hero.cid],hero);
+			self.haveList[hero.sid] = self.haveList[hero.sid] or {}
+			table.merge(self.haveList[hero.sid],self.heroTable[hero.cid]);
+			self:setHeroAngelInfo(self.heroTable[hero.cid])
+		end
     elseif ct == EC_SChangeType.UPDATE then
     	local old = clone(self.heroTable[hero.cid])
     	self.heroTable[hero.cid] = nil;
@@ -1169,9 +1185,11 @@ function HeroDataMgr:changeDataToSelf()
 
 		for _id,hero in pairs(self.heroTable) do
 			hero.job = 4;
-			for _pos,cid in pairs(self.formation.heros) do
-				if hero.ishave and hero.id == cid then
-					hero.job = _pos;  	--队长
+			if self.formation.heros then
+				for _pos,cid in pairs(self.formation.heros) do
+					if hero.ishave and hero.id == cid then
+						hero.job = _pos;  	--队长
+					end
 				end
 			end
 		end
@@ -1415,6 +1433,9 @@ function HeroDataMgr:changeDataByLevelCfg(levelCfg_,formationData)
 end
 
 function HeroDataMgr:changeDataByFuben(levelID,formationData)
+	if not formationData or #formationData <= 0 then
+		return
+	end
 	local levelCfg_  = FubenDataMgr:getLevelCfg(levelID)
 	self:changeDataByLevelCfg(levelCfg_,formationData)
 end
@@ -2393,6 +2414,9 @@ end
 
 function HeroDataMgr:getSkins(heroid)
 	local ret = {};
+	if not self.heroTable[heroid] then
+		return ret
+	end
 	local skins = self.heroTable[heroid].optionalSkin;
 	local sortFunc = function(a,b)
 		local ause = 0;
@@ -2437,8 +2461,11 @@ function HeroDataMgr:getCurSkin(heroid)
 		else
 			local skins = GoodsDataMgr:getBag(11);
 			local skinSid = self.heroTable[heroid].skinId;
-			local skinCid = skins[skinSid].cid
-			return skinCid;
+			if skins[skinSid] then
+				return skins[skinSid].cid
+			else
+				return self.heroTable[heroid].defaultSkin
+			end
 		end
 	else
 		return self.heroTable[heroid].defaultSkin;
@@ -2653,6 +2680,9 @@ function HeroDataMgr:revcPropertyChange(event)
 	event.data.heroId = self:getHeroCid(event.data.heroId)
 	local data = event.data
 	local hero = self:getHero(data.heroId)
+	if not hero or not hero.attr then
+		return
+	end
 	hero.fightPower = data.fightPower
 	GoodsDataMgr:syncHeroFightPower(data.heroId,hero.fightPower)
 	for i, v in ipairs(data.attr) do
@@ -2848,7 +2878,7 @@ end
 function HeroDataMgr:getOpenedHeroNum()
 	local num = 0
 	for k, v in pairs(self.heroTable) do
-		if v.isOpen and  v.isOpen == 1 then
+		if v.isOpen and  v.isOpen == 1 and v.heroStatus ~= 3 and v.testType ~=1 then
 			num = num + 1
 		end
 	end
@@ -3383,66 +3413,6 @@ function HeroDataMgr:checkEnergyEnableBreak(breakLevel)
 	return false
 end
 
-function HeroDataMgr:getBreakStageMaxLevel()
-
-	local maxLevel = 0
-	local kvpCfg = TabDataMgr:getData("DiscreteData",90008)
-	local ownReturnHeros = {}
-	local returnHeroIds = kvpCfg.data.ReturnHeroId
-	for k,v in ipairs(returnHeroIds) do
-		local isHave = self:getIsHave(v)
-		if isHave then
-			table.insert(ownReturnHeros,v)
-		end
-	end
-	local UnlockLevel = kvpCfg.data.UnlockLevel
-	for k,v in ipairs(ownReturnHeros) do
-		local quality = self:getQuality(v)
-		local lockLv = UnlockLevel[quality]
-		if lockLv then
-			maxLevel = maxLevel + lockLv
-		end
-	end
-
-	local breakCfg = self:getHeroEnergyBreakCfg()
-	local contractMaxLv = 0
-	local contractLevelCfg = TabDataMgr:getData("ContractLevel")
-	for k,v in pairs(contractLevelCfg) do
-		local lv = k - breakCfg.MatchHero*10000
-		if contractMaxLv < lv then
-			contractMaxLv = lv
-		end
-	end
-
-	if maxLevel > contractMaxLv then
-		maxLevel = contractMaxLv
-	end
-
-	return maxLevel
-end
-
-function HeroDataMgr:getBreakStageNeedExp()
-
-	local curLevel = self:getHeroEnergyLevel()
-	local totalExp,curTotalExp = 0,0
-	local maxStageLevel = self:getBreakStageMaxLevel()
-	local breakCfg = self:getHeroEnergyBreakCfg()
-	local cfg = TabDataMgr:getData("ContractLevel")
-	for lv=0,maxStageLevel do
-		local id = breakCfg.MatchHero*10000 + lv
-		local contractLevelCfg = cfg[id]
-		if contractLevelCfg then
-			totalExp = totalExp + contractLevelCfg.EnergyExp
-			---当前等级肯定不会超过可达到的最大等级
-			if lv <= curLevel then
-				curTotalExp = curTotalExp + contractLevelCfg.EnergyExp
-			end
-		end
-	end
-	print(totalExp,curTotalExp)
-	return totalExp - curTotalExp
-end
-
 function HeroDataMgr:getHeroEnergyPropertyCfg(cid)
 	return TabDataMgr:getData("ContractProperty", cid)
 end
@@ -3936,7 +3906,7 @@ function HeroDataMgr:crystalRedTip(heroid)
 		return false
 	end
 
-	local job = self:getHeroJob(heroid)
+	local job = self:getHeroJob(heroid) or 1
 	if job >= 4 then
 		return false
 	end

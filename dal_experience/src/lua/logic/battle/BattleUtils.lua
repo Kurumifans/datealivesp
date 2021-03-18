@@ -564,10 +564,6 @@ function BattleUtils.calcuHurt(srcHero,tarHero,hurtData,hitedBdboxs)
     local tarHSub       = tarProperty:getValue(eAttrType.ATTR_HSUB_PER)
     local srcDMAddRatio = srcProperty:getValue(eAttrType.ATTR_DMADD_PER)
     local tarDMSubRatio = tarProperty:getValue(eAttrType.ATTR_DMSUB_PER) + BattleUtils.getExtendTargetValue(eAttrType.ATTR_DMSUB_PER,hurtData)
-
-
-    tarDMSubRatio = BattleUtils.fixValue(eAttrType.ATTR_DMSUB_PER,tarDMSubRatio)
-
     --扩展伤害减免
     local tarDMSubRatioEx = tarProperty:getValue(eAttrType.ATTR_DMSUB_RATIO_EX)
     if tarDMSubRatioEx > 9900 then 
@@ -670,6 +666,38 @@ function BattleUtils.calcuHurt(srcHero,tarHero,hurtData,hitedBdboxs)
 -- （1+属性增伤-属性减伤）*（1+类型增伤-类型减伤）*（1+精英增伤）*
 -- （1+暴击增伤-暴击减伤）
 
+    if battleController.useCustomAttrModle() then
+        if srcHero:getCampType() == eCampType.Hero then
+            hurtInfo.weakness = false
+            srcAtk        = srcProperty:getValue(eAttrType.ATTR_5000)
+            srcHAdd       = srcProperty:getValue(eAttrType.ATTR_5004) + BattleUtils.getExtendHurtValue(eAttrType.ATTR_HADD_PER,hurtData)
+            srcDMAddRatio = srcProperty:getValue(eAttrType.ATTR_5001)
+            critAdd       = value_1
+            local damageTypeRate = value_1
+            local damageTypeAttr = BattleUtils.getCustomDamageTypeAttr(damageType)  
+            
+            if damageTypeAttr > 0 then
+                damageTypeRate = 1.0 + srcProperty:getValue(damageTypeAttr) *value_0point0001
+            end
+
+            local srcCrit     = srcProperty:getValue(eAttrType.ATTR_5003) + BattleUtils.getExtendHurtValue(eAttrType.ATTR_CRIT_PER,hurtData)
+            local crit = BattleUtils.isCrit(srcCrit,0)
+            if crit then
+                hurtInfo.hurtType = eHurtType.CRIT
+                critAdd = 1.0 + srcHAdd * value_0point0001
+            else
+                hurtInfo.hurtType = eHurtType.PUGONG
+            end
+
+            if battleController.isHurtDataVaild(hurtData) then
+                hurtValue = srcAtk * hurtScale * (value_1 + srcDMAddRatio*value_0point0001) * critAdd * damageTypeRate
+            end
+        
+            hurtInfo.hurtValue = -hurtValue
+            return hurtInfo
+        end
+    end
+
 
     local hurtValue = srcAtk * hurtScale *
     (value_1 + (srcDMTypeAdd  - tarDMTypeSub)*value_0point0001) *
@@ -699,11 +727,18 @@ function BattleUtils.calcuHurt(srcHero,tarHero,hurtData,hitedBdboxs)
         BattleUtils.verifyHurt(srcHero,tarHero,hurtValue,hurtData,hurtType,weakness)
     end
 
-        -- if srcHero:getRoleType() == 1 or srcHero:getRoleType()  == 4 then 
-        --     hurtValue = hurtValue*1000
-        -- else
-        --     hurtValue = 1
-        -- end
+    --自定义伤害
+    if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
+        if srcHero:getRoleType() == 1 or srcHero:getRoleType()  == 4 then
+            --我方伤害
+            hurtValue = hurtValue
+        else
+            --敌方伤害
+            hurtValue = hurtValue
+        end
+    end
+    --自定义伤害
+
     hurtInfo.hurtValue = -hurtValue
     return hurtInfo
 end
@@ -725,10 +760,6 @@ function BattleUtils.verifyHurt(srcHero,tarHero,hurtValue,hurtData,hurtType,weak
                 return
             end
             verifyHurtTime1 = time
-            local buffId = srcHero:getBFEffectIds()
-            local enemyBuffId = tarHero:getBFEffectIds()
-            local angleFuncIds = srcHero:getAngleFunctionIds()
-            local cfgHurtScale = TabDataMgr:getData("SkillHurt",hurtData.id).hurtScale
             local srcData = srcHero:getData()
             local tarData = tarHero:getData()
             local sData = {}
@@ -749,10 +780,6 @@ function BattleUtils.verifyHurt(srcHero,tarHero,hurtValue,hurtData,hurtType,weak
             sData[11] = tarHero:getResist() > 0
             sData[12] = hurtData.hurtScale
             sData[13] = srcHero:getProperty():getValue(eAttrType.ATTR_ATK)
-            sData[14] = buffId
-            sData[15] = angleFuncIds
-            sData[16] = enemyBuffId
-            sData[17] = cfgHurtScale
             battleController.sendVerifyHurt(sData) 
     elseif roleType == eRoleType.Monster and roleType2  == eRoleType.Hero  then
             local time = BattleUtils.gettime()
@@ -760,10 +787,7 @@ function BattleUtils.verifyHurt(srcHero,tarHero,hurtValue,hurtData,hurtType,weak
                 return
             end
             verifyHurtEveryTime2 = time
-            local buffId = tarHero:getBFEffectIds()
-            local enemyBuffId = srcHero:getBFEffectIds()
-            local angleFuncIds = tarHero:getAngleFunctionIds()
-            local cfgHurtScale = TabDataMgr:getData("SkillHurt",hurtData.id).hurtScale
+
             local srcData = srcHero:getData()
             local tarData = tarHero:getData()
             local sData = {}
@@ -785,10 +809,6 @@ function BattleUtils.verifyHurt(srcHero,tarHero,hurtValue,hurtData,hurtType,weak
             sData[11] = tarHero:getResist() > 0
             sData[12] = hurtData.hurtScale
             sData[13] = srcHero:getProperty():getValue(eAttrType.ATTR_ATK)
-            sData[14] = buffId
-            sData[15] = angleFuncIds
-            sData[16] = enemyBuffId
-            sData[17] = cfgHurtScale
             battleController.sendVerifyHurt(sData) 
     end
 
@@ -892,6 +912,18 @@ HitEventTab[eDamageType.EXTRA_SKILL_3]  = eBFState.E_EXTRA_SKILL_3_HITED
 HitEventTab[eDamageType.EXTRA_SKILL_4]  = eBFState.E_EXTRA_SKILL_4_HITED
 HitEventTab[eDamageType.EXTRA_SKILL_5]  = eBFState.E_EXTRA_SKILL_5_HITED
 
+local NotHitEventTab = {}
+NotHitEventTab[eDamageType.PT]  = eBFState.E_NOT_PT_HITED
+NotHitEventTab[eDamageType.FZ]  = eBFState.E_NOT_SKILL1_HITED
+NotHitEventTab[eDamageType.XL]  = eBFState.E_NOT_SKILL2_HITED
+NotHitEventTab[eDamageType.CCJ] = eBFState.E_NOT_CCJ_HITED
+NotHitEventTab[eDamageType.DZ]  = eBFState.E_NOT_DZ_HITED
+NotHitEventTab[eDamageType.JX]  = eBFState.E_NOT_JX_HITED
+
+NotHitEventTab[eDamageType.EXTRA_SKILL_1]  = eBFState.E_NOT_EXTRA_SKILL_1_HITED
+NotHitEventTab[eDamageType.EXTRA_SKILL_2]  = eBFState.E_NOT_EXTRA_SKILL_2_HITED
+NotHitEventTab[eDamageType.EXTRA_SKILL_3]  = eBFState.E_NOT_EXTRA_SKILL_3_HITED
+
 --
 local CritEventTab = {}
 CritEventTab[eDamageType.PT]  = eBFState.E_PT_CRIT
@@ -954,6 +986,11 @@ DoHurtAttrEventTab[eDamageAttr.DARK]    = eBFState.E_DO_DARK
 DoHurtAttrEventTab[eDamageAttr.MIND]    = eBFState.E_DO_MIND
 DoHurtAttrEventTab[eDamageAttr.SPACE]   = eBFState.E_DO_SPACE
 
+local DamageCustomAttr = {}
+DamageCustomAttr[eDamageType.EXTRA_SKILL_1]  = eAttrType.ATTR_5811
+DamageCustomAttr[eDamageType.EXTRA_SKILL_2]  = eAttrType.ATTR_5812
+DamageCustomAttr[eDamageType.EXTRA_SKILL_3]  = eAttrType.ATTR_5813
+
 -- dump(RevEventCritTa,"RevEventCritTab")
 -- dump(CritEventTab,"CritEventTab")
 -- dump(HitEventTab,"HitEventTab")
@@ -996,6 +1033,11 @@ end
 --命中事件
 function BattleUtils.getHitEvent(damageType)
     return HitEventTab[damageType] or eBFState.E_PT_HITED
+end
+
+--未命中事件
+function BattleUtils.getNotHitEvent(damageType)
+    return NotHitEventTab[damageType] or eBFState.E_NOT_PT_HITED
 end
 
 function BattleUtils.getCritEvent(damageType)
@@ -1067,16 +1109,6 @@ function BattleUtils.defenseDecay(def)
     return 100/(def*0.15+100)
 end
 
-
-function BattleUtils.fixValue(attrType,value)
-    local propertyParam = Utils:getKVP(9004)
-    local maxValue = propertyParam[attrType]
-    if maxValue and value > maxValue then
-        value = maxValue
-    end
-    return value
-end
-
 function BattleUtils.shuffle(tbl)
     local size = #tbl
     for i = size, 1, -1 do
@@ -1093,6 +1125,13 @@ function BattleUtils.campState(camp1,camp2)
         return 1
     end
     return campData[camp1].state[camp2]
+end
+
+function BattleUtils.getCustomDamageTypeAttr(damageType)
+    if DamageCustomAttr[damageType] then
+        return DamageCustomAttr[damageType]
+    end
+    return 0
 end
 
 function BattleUtils.getExtendHurtValue(attrType,data)

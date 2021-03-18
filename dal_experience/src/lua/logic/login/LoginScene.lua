@@ -76,19 +76,28 @@ function LoginScene:showVideoView(re)
 	    videoView:setEndLoop(true)
 	    videoView:setIshowSkip(true)
 	    videoView:bindSpecicalCompleteCallBack(function()
-	    	videoView:setSkipComplete(false)
-	    	videoView:setIshowSkip(false)
-    		Utils:sendHttpLog("cartoon_finish_J")
-    		local layer = require("lua.logic.login.LoginLayer"):new(self.data)
-			videoView:addTopLayer(layer)
-			layer:setPosition(ccp(-GameConfig.WS.width / 2,-GameConfig.WS.height / 2))
-			self.layer = layer
+	    	self:loginVideoOver()
 	    end)
 	    USE_NATIVE_VLC = OldValue
 	    TFAudio.resumeMusic()
 
 	    self.videoView = videoView
 	end
+end
+
+function LoginScene:loginVideoOver()
+	if self.addedLoginLayer then
+		return
+	end
+	self.addedLoginLayer = true
+	print("9999999999999999999999999")
+	self.videoView:setSkipComplete(false)
+	self.videoView:setIshowSkip(false)
+	Utils:sendHttpLog("cartoon_finish_J")
+	local layer = require("lua.logic.login.LoginLayer"):new(self.data)
+	self.videoView:addTopLayer(layer)
+	layer:setPosition(ccp(-GameConfig.WS.width / 2,-GameConfig.WS.height / 2))
+	self.layer = layer
 end
 
 function LoginScene:changeVideo(path)

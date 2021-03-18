@@ -16,12 +16,14 @@ function FairyAngelBreakUpOverView:initUI(ui)
 	local cur_lv 		= TFDirector:getChildByPath(ui,"cur_lv")
 	local label_get_num = TFDirector:getChildByPath(ui,"label_get_num")
 	self.Spine_break_up = TFDirector:getChildByPath(ui, "Spine_break_up")
-	local Image_res_icon = TFDirector:getChildByPath(ui, "Image_res_icon")
 	local Label_title = TFDirector:getChildByPath(ui,"Label_title")
 	local Label_title1 = TFDirector:getChildByPath(ui,"Label_title1")
-	Image_res_icon:setTexture("icon/system/078.png")
-	local weaponName = HeroDataMgr:getHeroWeaponName(self.heroId)
-	Label_title:setText(weaponName..TextDataMgr:getText(63651))
+	local weaponType = HeroDataMgr:getHeroWeaponType(self.heroId)
+	if weaponType == 1 then
+		Label_title:setTextById(63651)
+	else
+		Label_title:setTextById(63652)
+	end
 	Label_title1:setTextById(1329132)
 
 	local breakCfg = HeroDataMgr:getHeroAngelBreakCfg(self.heroId, nil)

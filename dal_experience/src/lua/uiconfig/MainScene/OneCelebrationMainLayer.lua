@@ -198,8 +198,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = 567,
-										PositionY = 318,
+										PositionX = 568,
+										PositionY = 320,
 									},
 									ZOrder = "5",
 								},
@@ -3272,7 +3272,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "110",
+											height = "114",
 											ignoreSize = "True",
 											name = "button_OneYear",
 											normal = "ui/mainLayer3/c13.png",
@@ -3288,7 +3288,7 @@ local t =
 												PositionY = 64,
 											},
 											UItype = "Button",
-											width = "232",
+											width = "184",
 											ZOrder = "1",
 										},
 										{

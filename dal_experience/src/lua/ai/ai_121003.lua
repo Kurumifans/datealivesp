@@ -71,7 +71,7 @@ return {
         ["809548AB847B41D79B49B941A6438BE2"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 10,
+            ["Weight"] = 20,
             ["NodeTag"] = "809548AB847B41D79B49B941A6438BE2",
             ["RangeOrigin"] = {
                 ["y"] = -20,
@@ -96,7 +96,7 @@ return {
         ["80CFB3692F654FD685257CF05F241BE9"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 10,
+            ["Weight"] = 40,
             ["NodeTag"] = "80CFB3692F654FD685257CF05F241BE9",
             ["RangeOrigin"] = {
                 ["y"] = -20,
@@ -127,7 +127,7 @@ return {
             ["Weight"] = 0,
             ["Class"] = "ReleaseSkillBevNode",
             ["NodeTag"] = "34D9B4A8644D40DEB5A08660FDE7A814",
-            ["ID"] = 105020,
+            ["ID"] = 105021,
             ["Type"] = 1,
             ["Static"] = false,
         },
@@ -178,7 +178,7 @@ return {
             ["Weight"] = 0,
             ["Class"] = "ReleaseSkillBevNode",
             ["NodeTag"] = "72A4FBB9AE924C28A96736621B9C884F",
-            ["ID"] = 105040,
+            ["ID"] = 105050,
             ["Type"] = 1,
             ["Static"] = false,
         },
@@ -204,7 +204,7 @@ return {
             ["Weight"] = 0,
             ["Class"] = "ReleaseSkillBevNode",
             ["NodeTag"] = "DC4011A4F5B14580B1BAD73F11DA33F2",
-            ["ID"] = 105010,
+            ["ID"] = 105011,
             ["Type"] = 1,
             ["Static"] = false,
         },
@@ -356,7 +356,7 @@ return {
         ["84AB46CD6CD745C5A69F994BBBC58001"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 10,
+            ["Weight"] = 20,
             ["NodeTag"] = "84AB46CD6CD745C5A69F994BBBC58001",
             ["RangeOrigin"] = {
                 ["y"] = -20,
@@ -381,7 +381,7 @@ return {
         ["2158BDD84512466C9CA40868378AC21F"] = {
             ["Desc"] = "行为",
             ["LimitArea"] = 200,
-            ["Weight"] = 10,
+            ["Weight"] = 40,
             ["NodeTag"] = "2158BDD84512466C9CA40868378AC21F",
             ["RangeOrigin"] = {
                 ["y"] = -20,

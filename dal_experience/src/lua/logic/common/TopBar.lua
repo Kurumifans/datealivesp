@@ -73,7 +73,11 @@ function TopBar:initUI(ui)
                             FunctionDataMgr:jPay()
                         else
                             if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
-                                Utils:openView("common.BuyResourceView", v[1])
+--								if EC_SItemType.POWER == v[1] then
+--									Utils:openView("common.BuyPhysicalPowerView", v[1])
+--								else
+									Utils:openView("common.BuyResourceView", v[1])
+--								end
                             else
                                 Utils:showTips(800021)
                             end

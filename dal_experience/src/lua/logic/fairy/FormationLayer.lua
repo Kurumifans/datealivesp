@@ -462,7 +462,9 @@ function FormationLayer:updateOneHead(cell,idx,isChange)
 
         local Image_select = TFDirector:getChildByPath(cell,"Image_select");
         if self.showidx == idx then
-            self.selectImg:hide();
+            if self.selectImg then
+                self.selectImg:hide();
+            end
             Image_select:show()
             self.selectImg = Image_select
         end
