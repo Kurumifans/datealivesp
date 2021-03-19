@@ -70557,7 +70557,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_a1",
         conditions = {
@@ -72121,7 +72121,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -84967,7 +84967,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10101_b3",
         conditions = {
@@ -91682,7 +91682,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_a1",
         conditions = {
@@ -93246,7 +93246,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -98463,7 +98463,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -98905,7 +98905,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -99415,7 +99415,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_a1",
         conditions = {
@@ -99653,7 +99653,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10505_b2",
         conditions = {
@@ -99687,7 +99687,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10505_i",
         conditions = {
@@ -100877,7 +100877,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_h1",
         conditions = {
@@ -101625,7 +101625,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -102237,7 +102237,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_a1",
         conditions = {
@@ -102271,7 +102271,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_e2",
         conditions = {
@@ -104073,7 +104073,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "13301R_jingya",
         conditions = {
@@ -104141,7 +104141,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_c2",
         conditions = {
@@ -109343,7 +109343,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "13101_jingya",
         conditions = {
@@ -113253,7 +113253,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_a2",
         conditions = {
@@ -115021,7 +115021,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10505_b1",
         conditions = {
@@ -115871,7 +115871,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "13101_jingya",
         conditions = {
@@ -116959,7 +116959,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -116993,7 +116993,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -126998,7 +126998,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -127965,7 +127965,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {
@@ -128203,7 +128203,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_c2",
         conditions = {
@@ -128237,7 +128237,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "13201_yihuo",
         conditions = {
@@ -128383,7 +128383,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_e2",
         conditions = {
@@ -144709,7 +144709,7 @@ return {
         actionText = {
         },
         isSpeakingR = true,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "13101_pingjing",
         conditions = {
@@ -162040,7 +162040,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_a2",
         conditions = {
@@ -163298,7 +163298,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_h1",
         conditions = {
@@ -163604,7 +163604,7 @@ return {
         actionText = {
         },
         isSpeakingR = false,
-        name = "艾伦",
+        name = "艾伦·马瑟斯",
         cameraAction = 0,
         headL = "10901_c1",
         conditions = {

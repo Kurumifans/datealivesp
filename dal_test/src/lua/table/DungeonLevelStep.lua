@@ -43307,6 +43307,11 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 0,
+                [2] = 350000,
+                [3] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
@@ -43319,7 +43324,7 @@ return {
         },
         LengthE = {
         },
-        victoryType = 1,
+        victoryType = 10,
         id = 8759,
         MonsterN4 = {
         },
@@ -80492,6 +80497,11 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 0,
+                [2] = 380000,
+                [3] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
@@ -80504,7 +80514,7 @@ return {
         },
         LengthE = {
         },
-        victoryType = 1,
+        victoryType = 10,
         id = 8760,
         MonsterN4 = {
         },
@@ -85526,6 +85536,11 @@ return {
         CampNumMax = {
         },
         victoryParam = {
+            [1] = {
+                [1] = 0,
+                [2] = 400000,
+                [3] = 1,
+            },
         },
         extCfgID = 0,
         MonsterN2 = {
@@ -85538,7 +85553,7 @@ return {
         },
         LengthE = {
         },
-        victoryType = 1,
+        victoryType = 10,
         id = 8761,
         MonsterN4 = {
         },

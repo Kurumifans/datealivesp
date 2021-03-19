@@ -136,22 +136,11 @@ function TaskActivityView:updateActivity()
 
     
 
-    local items = self.ListView_task:getItems()
-    local gap = #items - #self.taskData_
-
-    for i = 1, math.abs(gap) do
-        if gap > 0 then
-            local item = self.ListView_task:getItem(1)
-            self.taskItems_[item] = nil
-            self.ListView_task:removeItem(1)
-        else
-            local item = self:addTaskItem()
-            self.ListView_task:pushBackCustomItem(item)
-        end
-    end
-    for i, v in ipairs(self.ListView_task:getItems()) do
-        self:updateTaskItem(i)
-    end
+    self.ListView_task:AsyncUpdateItem(self.taskData_,function ( ... )
+        return self:addTaskItem()
+    end, function (v, data)
+        self:updateTaskItem(v, data)
+    end)  
 
     self:updatePanelProgress()
 
@@ -226,15 +215,13 @@ function TaskActivityView:addTaskItem()
     return Panel_taskItem
 end
 
-function TaskActivityView:updateTaskItem(index)
+function TaskActivityView:updateTaskItem(item,itemId)
     local activityInfo = self.activityInfo_
-    local itemId = self.taskData_[index]
     local taskInfo = TaskDataMgr:getTaskInfo(itemId)
  
     local taskCfg = TaskTable[itemId]
     local progressInfo = ActivityDataMgr2:getProgressInfo(activityInfo.activityType, itemId)
 
-    local item = self.ListView_task:getItem(index)
     local foo = self.taskItems_[item]
     foo.Image_lock:setVisible(false)
 

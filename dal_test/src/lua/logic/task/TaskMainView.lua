@@ -118,12 +118,8 @@ function TaskMainView:initUI(ui)
     local Image_honorScrollBar = TFDirector:getChildByPath(Image_honorBar, "Image_honorScrollBar")
     self.Image_honorScrollBar = UIScrollBar:create(Image_honorBar, Image_honorScrollBar)
     local ScrollView_honor = TFDirector:getChildByPath(self.Panel_honor, "ScrollView_honor")
-    self.TableView_honor = Utils:scrollView2TableView(ScrollView_honor)
-
-    self.TableView_honor:addMEListener(TFTABLEVIEW_SIZEFORINDEX, handler(self.cellSizeForTable, self))
-    self.TableView_honor:addMEListener(TFTABLEVIEW_SIZEATINDEX, handler(self.tableCellAtIndex, self))
-    self.TableView_honor:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, handler(self.numberOfCellsInTableView, self))
-    self.TableView_honor:addMEListener(TFTABLEVIEW_SCROLL, handler(self.tableScroll,self))
+    self.ListView_honor = UIListView:create(ScrollView_honor)
+    self.ListView_honor:setScrollBar(self.Image_honorScrollBar)
 
     self.Panel_activity = TFDirector:getChildByPath(self.Panel_root, "Panel_activity")
     local Image_activityBar = TFDirector:getChildByPath(self.Panel_activity, "Image_activityBar")
@@ -619,45 +615,7 @@ function TaskMainView:showDailyTask()
     self:updateRedPointStatus()
 end
 
-function TaskMainView:cellSizeForTable()
-    local size = self.Panel_honorItem:getSize()
-    return size.height, size.width
-end
-
-function TaskMainView:tableScroll(tableView)
-    local contentOffset = tableView:getContentOffset()
-    local contentSize   = tableView:getContentSize()
-    local size          = tableView:getSize()
-    local length        = contentSize.height - size.height
-    local percent = clamp(-contentOffset.y / length, 0, 1)
-    self.Image_honorScrollBar:setPercent(percent)
-end
-
-function TaskMainView:tableCellAtIndex(tab, idx)
-    local cell = tab:dequeueCell()
-    idx = idx + 1
-    if not cell then
-        cell = TFTableViewCell:create()
-        local item = self.Panel_honorItem:clone():show()
-        item:setAnchorPoint(ccp(0, 0))
-        item:setPosition(ccp(0, 0))
-        cell:addChild(item)
-        cell.item = item
-    end
-    cell.idx = idx
-
-    if cell.item then
-        self:updateHonorTaskItem(cell, idx)
-    end
-
-    return cell
-end
-
-function TaskMainView:numberOfCellsInTableView()
-    return #self.honorTask_
-end
-
-function TaskMainView:updateHonorTaskItem(item, index)
+function TaskMainView:updateHonorTaskItem(item, taskCid)
     local Label_progress = TFDirector:getChildByPath(item, "Label_progress")
     local Image_icon = TFDirector:getChildByPath(item, "Image_icon")
     local Label_name = TFDirector:getChildByPath(item, "Label_name")
@@ -687,7 +645,6 @@ function TaskMainView:updateHonorTaskItem(item, index)
     local Label_type = TFDirector:getChildByPath(item, "Label_type")
     local Label_geted = TFDirector:getChildByPath(item, "Label_geted")
 
-    local taskCid = self.honorTask_[index]
     local taskCfg = TaskDataMgr:getTaskCfg(taskCid)
     local taskInfo = TaskDataMgr:getTaskInfo(taskCid)
     local progress = math.min(taskInfo.progress, taskCfg.progress)
@@ -736,19 +693,11 @@ end
 
 function TaskMainView:showHonorTask()
     self.honorTask_ = TaskDataMgr:getTask(EC_TaskType.HONOR)
-    self.TableView_honor:reloadData()
-
-    local contentOffset = self.TableView_honor:getContentOffset()
-    local contentSize   = self.TableView_honor:getContentSize()
-    local size          = self.TableView_honor:getSize()
-    local length        = contentSize.height - size.height
-
-    local ratio = size.height / contentSize.height
-    self.Image_honorScrollBar:setRatio(ratio)
-    self.Image_honorScrollBar:setPercent(1)
-
-    local percent = clamp(-contentOffset.y / length, 0, 1)
-    self.Image_honorScrollBar:setPercent(percent)
+    self.ListView_honor:AsyncUpdateItem(self.honorTask_,function ( ... )
+        return self.Panel_honorItem:clone():show()
+    end, function (v, data)
+        self:updateHonorTaskItem(v, data)
+    end)   
 
     self:updateRedPointStatus()
 end
@@ -1188,7 +1137,7 @@ function TaskMainView:updateTrainingTask()
 
         foo.Button_goto:setVisible(isIng and itemInfo.extendData.jumpInterface and itemInfo.extendData.jumpInterface ~= 0)
         foo.Button_goto:onClick(function()
-            FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
+            FunctionDataMgr:enterByFuncId(itemInfo.extendData.jumpInterface)
         end)
 
         local fadeInDuration = 0.2
