@@ -4195,7 +4195,7 @@ return {
         [1] = {
             baseName = "fangzheng_zhunyuan",
             name = "font/fangzheng_zhunyuan.ttf",
-            color = "#FFFFFF",
+            color = "#3E4868",
             text = "兑换%s次数(今日可兑换",
             clickId = "",
             size = 20,
@@ -4211,7 +4211,7 @@ return {
         [3] = {
             baseName = "fangzheng_zhunyuan",
             name = "font/fangzheng_zhunyuan.ttf",
-            color = "#FFFFFF ",
+            color = "#3E4868",
             text = "次)",
             clickId = "",
             size = 20,
@@ -5555,34 +5555,6 @@ return {
         align = "left",
         id = 3013,
     },
-    [3012] = {
-        [1] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#FF6347",
-            text = "寄售摊位增加到",
-            clickId = "",
-            size = 20,
-        },
-        [2] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#FE3F9E",
-            text = "【3】",
-            clickId = "",
-            size = 23,
-        },
-        [3] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#FF6347",
-            text = "个",
-            clickId = "",
-            size = 23,
-        },
-        align = "left",
-        id = 3012,
-    },
     [10602] = {
         [1] = {
             baseName = "fangzheng_zhunyuan",
@@ -5610,6 +5582,34 @@ return {
         },
         align = "left",
         id = 10602,
+    },
+    [3012] = {
+        [1] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#FF6347",
+            text = "寄售摊位增加到",
+            clickId = "",
+            size = 20,
+        },
+        [2] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#FE3F9E",
+            text = "【3】",
+            clickId = "",
+            size = 23,
+        },
+        [3] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#FF6347",
+            text = "个",
+            clickId = "",
+            size = 23,
+        },
+        align = "left",
+        id = 3012,
     },
     [305003] = {
         [1] = {
@@ -5646,18 +5646,6 @@ return {
         },
         align = "left",
         id = 305003,
-    },
-    [306007] = {
-        [1] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#000000",
-            text = "TAT~您选择的配方不能合出任何饮料，请重新调配！",
-            clickId = "",
-            size = 24,
-        },
-        align = "left",
-        id = 306007,
     },
     [10103] = {
         [1] = {
@@ -5755,6 +5743,18 @@ return {
         align = "left",
         id = 152001,
     },
+    [306007] = {
+        [1] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#000000",
+            text = "TAT~您选择的配方不能合出任何饮料，请重新调配！",
+            clickId = "",
+            size = 24,
+        },
+        align = "left",
+        id = 306007,
+    },
     [10205] = {
         [1] = {
             baseName = "fangzheng_zhunyuan",
@@ -5794,34 +5794,6 @@ return {
         },
         align = "left",
         id = 306005,
-    },
-    [83001] = {
-        [1] = {
-            baseName = "MFLiHei_Noncommercial",
-            name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FFFFFF",
-            text = "即将前往第",
-            clickId = "",
-            size = 24,
-        },
-        [2] = {
-            baseName = "MFLiHei_Noncommercial",
-            name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FFE460",
-            text = "  %s  ",
-            clickId = "",
-            size = 24,
-        },
-        [3] = {
-            baseName = "MFLiHei_Noncommercial",
-            name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FFFFFF",
-            text = "层",
-            clickId = "",
-            size = 24,
-        },
-        align = "left",
-        id = 83001,
     },
     [304002] = {
         [1] = {
@@ -5867,6 +5839,34 @@ return {
         align = "left",
         id = 304002,
     },
+    [83001] = {
+        [1] = {
+            baseName = "MFLiHei_Noncommercial",
+            name = "font/MFLiHei_Noncommercial.ttf",
+            color = "#FFFFFF",
+            text = "即将前往第",
+            clickId = "",
+            size = 24,
+        },
+        [2] = {
+            baseName = "MFLiHei_Noncommercial",
+            name = "font/MFLiHei_Noncommercial.ttf",
+            color = "#FFE460",
+            text = "  %s  ",
+            clickId = "",
+            size = 24,
+        },
+        [3] = {
+            baseName = "MFLiHei_Noncommercial",
+            name = "font/MFLiHei_Noncommercial.ttf",
+            color = "#FFFFFF",
+            text = "层",
+            clickId = "",
+            size = 24,
+        },
+        align = "left",
+        id = 83001,
+    },
     [70002] = {
         [1] = {
             baseName = "fangzheng_zhunyuan",
@@ -5894,42 +5894,6 @@ return {
         },
         align = "left",
         id = 70002,
-    },
-    [10104] = {
-        [1] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#000000",
-            text = "为了更好招揽顾客，老板送给",
-            clickId = "",
-            size = 20,
-        },
-        [2] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#FE3F9E",
-            text = "%s",
-            clickId = "",
-            size = 20,
-        },
-        [3] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#000000",
-            text = "店里的",
-            clickId = "",
-            size = 20,
-        },
-        [4] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#000000",
-            text = "%s",
-            clickId = "",
-            size = 20,
-        },
-        align = "left",
-        id = 10104,
     },
     [2130508] = {
         [1] = {
@@ -6011,6 +5975,42 @@ return {
         align = "left",
         id = 304003,
     },
+    [10104] = {
+        [1] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#000000",
+            text = "为了更好招揽顾客，老板送给",
+            clickId = "",
+            size = 20,
+        },
+        [2] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#FE3F9E",
+            text = "%s",
+            clickId = "",
+            size = 20,
+        },
+        [3] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#000000",
+            text = "店里的",
+            clickId = "",
+            size = 20,
+        },
+        [4] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#000000",
+            text = "%s",
+            clickId = "",
+            size = 20,
+        },
+        align = "left",
+        id = 10104,
+    },
     [304001] = {
         [1] = {
             baseName = "fangzheng_zhunyuan",
@@ -6075,6 +6075,26 @@ return {
         align = "left",
         id = 300999,
     },
+    [304004] = {
+        [1] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#fc66bb",
+            text = "%s天%s时",
+            clickId = "",
+            size = 18,
+        },
+        [2] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#FFFFFF",
+            text = "后开启",
+            clickId = "",
+            size = 18,
+        },
+        align = "left",
+        id = 304004,
+    },
     [307003] = {
         [1] = {
             baseName = "MFLiHei_Noncommercial",
@@ -6102,54 +6122,6 @@ return {
         },
         align = "center",
         id = 307003,
-    },
-    [304004] = {
-        [1] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#fc66bb",
-            text = "%s天%s时",
-            clickId = "",
-            size = 18,
-        },
-        [2] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#FFFFFF",
-            text = "后开启",
-            clickId = "",
-            size = 18,
-        },
-        align = "left",
-        id = 304004,
-    },
-    [80001] = {
-        [1] = {
-            baseName = "MFLiHei_Noncommercial",
-            name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FFFFFF",
-            text = "剩",
-            clickId = "",
-            size = 20,
-        },
-        [2] = {
-            baseName = "MFLiHei_Noncommercial",
-            name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#fd4a38",
-            text = "%s时%s分",
-            clickId = "",
-            size = 20,
-        },
-        [3] = {
-            baseName = "MFLiHei_Noncommercial",
-            name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FFFFFF",
-            text = "关闭",
-            clickId = "",
-            size = 20,
-        },
-        align = "left",
-        id = 80001,
     },
     [30003] = {
         [1] = {
@@ -6179,6 +6151,54 @@ return {
         align = "center",
         id = 30003,
     },
+    [80001] = {
+        [1] = {
+            baseName = "MFLiHei_Noncommercial",
+            name = "font/MFLiHei_Noncommercial.ttf",
+            color = "#FFFFFF",
+            text = "剩",
+            clickId = "",
+            size = 20,
+        },
+        [2] = {
+            baseName = "MFLiHei_Noncommercial",
+            name = "font/MFLiHei_Noncommercial.ttf",
+            color = "#fd4a38",
+            text = "%s时%s分",
+            clickId = "",
+            size = 20,
+        },
+        [3] = {
+            baseName = "MFLiHei_Noncommercial",
+            name = "font/MFLiHei_Noncommercial.ttf",
+            color = "#FFFFFF",
+            text = "关闭",
+            clickId = "",
+            size = 20,
+        },
+        align = "left",
+        id = 80001,
+    },
+    [304005] = {
+        [1] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#fc66bb",
+            text = "%s时%s分",
+            clickId = "",
+            size = 18,
+        },
+        [2] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#FFFFFF",
+            text = "后开启",
+            clickId = "",
+            size = 18,
+        },
+        align = "left",
+        id = 304005,
+    },
     [70004] = {
         [1] = {
             baseName = "fangzheng_zhunyuan",
@@ -6206,26 +6226,6 @@ return {
         },
         align = "left",
         id = 70004,
-    },
-    [304005] = {
-        [1] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#fc66bb",
-            text = "%s时%s分",
-            clickId = "",
-            size = 18,
-        },
-        [2] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#FFFFFF",
-            text = "后开启",
-            clickId = "",
-            size = 18,
-        },
-        align = "left",
-        id = 304005,
     },
     [302001] = {
         [1] = {
@@ -6303,34 +6303,6 @@ return {
         align = "left",
         id = 151014,
     },
-    [153010] = {
-        [1] = {
-            baseName = "MFLiHei_Noncommercial",
-            name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#426899",
-            text = "冰雪节委托·日常：Lv1",
-            clickId = "",
-            size = 30,
-        },
-        [2] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#e0943a",
-            text = "<img src='ui/activity/2020SnowDay/book/008.png'></img>",
-            clickId = "",
-            size = 20,
-        },
-        [3] = {
-            baseName = "MFLiHei_Noncommercial",
-            name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#426899",
-            text = "Lv2",
-            clickId = "",
-            size = 30,
-        },
-        align = "left",
-        id = 153010,
-    },
     [10702] = {
         [1] = {
             baseName = "fangzheng_zhunyuan",
@@ -6403,33 +6375,33 @@ return {
         align = "left",
         id = 2130507,
     },
-    [151013] = {
+    [153010] = {
         [1] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#b5fff0",
-            text = "<img src='ui/agora/11.png'></img>玩家",
+            baseName = "MFLiHei_Noncommercial",
+            name = "font/MFLiHei_Noncommercial.ttf",
+            color = "#426899",
+            text = "冰雪节委托·日常：Lv1",
             clickId = "",
-            size = 22,
+            size = 30,
         },
         [2] = {
             baseName = "fangzheng_zhunyuan",
             name = "font/fangzheng_zhunyuan.ttf",
-            color = "#f9db47",
-            text = " %s",
+            color = "#e0943a",
+            text = "<img src='ui/activity/2020SnowDay/book/008.png'></img>",
             clickId = "",
-            size = 22,
+            size = 20,
         },
         [3] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#FFFFFF",
-            text = "已完成区域2-噩梦试炼。",
+            baseName = "MFLiHei_Noncommercial",
+            name = "font/MFLiHei_Noncommercial.ttf",
+            color = "#426899",
+            text = "Lv2",
             clickId = "",
-            size = 22,
+            size = 30,
         },
         align = "left",
-        id = 151013,
+        id = 153010,
     },
     [10203] = {
         [1] = {
@@ -6458,6 +6430,34 @@ return {
         },
         align = "left",
         id = 10203,
+    },
+    [151013] = {
+        [1] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#b5fff0",
+            text = "<img src='ui/agora/11.png'></img>玩家",
+            clickId = "",
+            size = 22,
+        },
+        [2] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#f9db47",
+            text = " %s",
+            clickId = "",
+            size = 22,
+        },
+        [3] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#FFFFFF",
+            text = "已完成区域2-噩梦试炼。",
+            clickId = "",
+            size = 22,
+        },
+        align = "left",
+        id = 151013,
     },
     [152503] = {
         [1] = {
@@ -6647,6 +6647,18 @@ return {
         align = "left",
         id = 152501,
     },
+    [301013] = {
+        [1] = {
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#49557f",
+            text = "%s",
+            clickId = "",
+            size = 22,
+        },
+        align = "left",
+        id = 301013,
+    },
     [14220005] = {
         [1] = {
             baseName = "fangzheng_zhunyuan",
@@ -6674,18 +6686,6 @@ return {
         },
         align = "left",
         id = 14220005,
-    },
-    [301013] = {
-        [1] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#49557f",
-            text = "%s",
-            clickId = "",
-            size = 22,
-        },
-        align = "left",
-        id = 301013,
     },
     [140001] = {
         [1] = {
@@ -6799,34 +6799,6 @@ return {
         align = "center",
         id = 2503,
     },
-    [153007] = {
-        [1] = {
-            baseName = "MFLiHei_Noncommercial",
-            name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#426899",
-            text = "冰雪节委托·成就：Lv1",
-            clickId = "",
-            size = 30,
-        },
-        [2] = {
-            baseName = "fangzheng_zhunyuan",
-            name = "font/fangzheng_zhunyuan.ttf",
-            color = "#e0943a",
-            text = "<img src='ui/activity/2020SnowDay/book/008.png'></img>",
-            clickId = "",
-            size = 20,
-        },
-        [3] = {
-            baseName = "MFLiHei_Noncommercial",
-            name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#426899",
-            text = "Lv2",
-            clickId = "",
-            size = 30,
-        },
-        align = "left",
-        id = 153007,
-    },
     [50004] = {
         [1] = {
             baseName = "fangzheng_zhunyuan",
@@ -6855,24 +6827,33 @@ return {
         align = "right",
         id = 50004,
     },
-    [307009] = {
+    [153007] = {
         [1] = {
             baseName = "MFLiHei_Noncommercial",
             name = "font/MFLiHei_Noncommercial.ttf",
-            color = "#FFFFFF",
-            text = "活动时间",
+            color = "#426899",
+            text = "冰雪节委托·成就：Lv1",
             clickId = "",
-            size = 22,
+            size = 30,
         },
         [2] = {
-            name = "",
-            color = "",
-            text = "\n%s",
+            baseName = "fangzheng_zhunyuan",
+            name = "font/fangzheng_zhunyuan.ttf",
+            color = "#e0943a",
+            text = "<img src='ui/activity/2020SnowDay/book/008.png'></img>",
             clickId = "",
-            size = 0,
+            size = 20,
         },
-        align = "center",
-        id = 307009,
+        [3] = {
+            baseName = "MFLiHei_Noncommercial",
+            name = "font/MFLiHei_Noncommercial.ttf",
+            color = "#426899",
+            text = "Lv2",
+            clickId = "",
+            size = 30,
+        },
+        align = "left",
+        id = 153007,
     },
     [41003] = {
         [1] = {

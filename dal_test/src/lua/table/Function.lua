@@ -2460,8 +2460,8 @@ return {
         levelType = 1,
     },
     [157] = {
-        isOpen = true,
-        openLevel = 40,
+        isOpen = false,
+        openLevel = 99,
         isStinger = false,
         id = 157,
         openDun = 0,

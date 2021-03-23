@@ -1751,7 +1751,7 @@ EC_ActivityType2 = {
     SPRITE_FOR_GIFT = 81,        -- 精灵抽一送一
     FIREWORKS_PRODUCT = 84,      --烟花制作
     SPRING_GIFT = 86,            -- 春分赠礼
-    ACCESS_TYPE = 87,            -- 跳转路径拓展
+    ACCESS_TYPE = 89,            -- 跳转路径拓展
 }
 
 EC_Activity_CHRISTMAS_Subtype = {

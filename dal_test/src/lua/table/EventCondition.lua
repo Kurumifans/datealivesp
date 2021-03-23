@@ -671,12 +671,6 @@ return {
         event_id = 17,
         remark = "全服累加数值进度",
     },
-    [31002] = {
-        id = 31002,
-        history = true,
-        event_id = 31,
-        remark = "首次激活训练官身份",
-    },
     [9002] = {
         id = 9002,
         history = true,
@@ -707,11 +701,11 @@ return {
         event_id = 9,
         remark = "雷霆圣堂累计获得x贡献值",
     },
-    [59004] = {
-        id = 59004,
-        history = false,
-        event_id = 59,
-        remark = "拾取礼盒",
+    [31002] = {
+        id = 31002,
+        history = true,
+        event_id = 31,
+        remark = "首次激活训练官身份",
     },
     [59005] = {
         id = 59005,
@@ -773,6 +767,12 @@ return {
         event_id = 9,
         remark = "冰雪节中使用置顶buff完成X次挑战",
     },
+    [59004] = {
+        id = 59004,
+        history = false,
+        event_id = 59,
+        remark = "拾取礼盒",
+    },
     [58006] = {
         id = 58006,
         history = false,
@@ -785,23 +785,17 @@ return {
         event_id = 58,
         remark = "战斗次数任务 ",
     },
-    [58004] = {
-        id = 58004,
-        history = false,
-        event_id = 58,
-        remark = "战斗次数任务 ",
-    },
     [30001] = {
         id = 30001,
         history = false,
         event_id = 30,
         remark = "天梯周期任务积分",
     },
-    [17019] = {
-        id = 17019,
+    [58004] = {
+        id = 58004,
         history = false,
-        event_id = 17,
-        remark = "无尽200层boss10秒内通关",
+        event_id = 58,
+        remark = "战斗次数任务 ",
     },
     [17004] = {
         id = 17004,
@@ -887,11 +881,11 @@ return {
         event_id = 17,
         remark = "参与春节乐园猜谜*次",
     },
-    [17060] = {
-        id = 17060,
+    [17019] = {
+        id = 17019,
         history = false,
         event_id = 17,
-        remark = "将XX设置为看板",
+        remark = "无尽200层boss10秒内通关",
     },
     [31001] = {
         id = 31001,

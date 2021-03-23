@@ -2402,4 +2402,37 @@ return {
         },
         accessType = 52,
     },
+    [222] = {
+        accessparam = "",
+        name = "1400010",
+        name2 = "1430075",
+        id = 222,
+        jumpInterface = 23,
+        parameter = {
+            [1] = 1,
+        },
+        accessType = 11,
+    },
+    [223] = {
+        accessparam = "",
+        name = "1400010",
+        name2 = "1430076",
+        id = 223,
+        jumpInterface = 23,
+        parameter = {
+            [1] = 1,
+        },
+        accessType = 11,
+    },
+    [224] = {
+        accessparam = "",
+        name = "1400010",
+        name2 = "1430077",
+        id = 224,
+        jumpInterface = 23,
+        parameter = {
+            [1] = 1,
+        },
+        accessType = 11,
+    },
 }

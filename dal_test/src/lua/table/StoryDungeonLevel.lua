@@ -9501,6 +9501,8 @@ return {
         chapter = 551,
         group = 13,
         endShow = {
+            [1] = 112401,
+            [2] = 1124011,
         },
         unlock = {
             [1] = {

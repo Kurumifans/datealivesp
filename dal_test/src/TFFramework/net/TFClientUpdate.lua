@@ -12,7 +12,7 @@ if not TFClientUpdate.initConfig then
             else
                 newUpdateFun:SetUpdateLastestFile("check.xml?xxx=" .. TFDeviceInfo:getMachineOnlyID())
             end
-            newUpdateFun:SetUpdateDefaultVersion("3.4.19")
+            newUpdateFun:SetUpdateDefaultVersion("3.3.50")
             return
         end
         

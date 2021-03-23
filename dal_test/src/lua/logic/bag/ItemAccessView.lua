@@ -61,7 +61,7 @@ function ItemAccessView:refreshView()
         local isJumpFuncOutTime = false
         if v.open then
             item = self.Panel_unlockAccessItem:clone()
-            if v.startTime and v.endTime then
+            if v.startTime and v.endTime and v.startTime ~= "" and v.endTime ~= "" then
                 local curTime = ServerDataMgr:getServerTime()
                 local _, startTime = Utils:changStrToDate(v.startTime)
                 local _, endTime = Utils:changStrToDate(v.endTime)
