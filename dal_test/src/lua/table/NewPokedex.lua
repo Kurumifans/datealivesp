@@ -28430,7 +28430,7 @@ return {
         unlockType = 201,
         unlock = {
             level = 30,
-            heroId = 133001,
+            heroId = 113301,
         },
         sort = 1392,
         name1 = 0,
@@ -28460,7 +28460,7 @@ return {
         name2 = 0,
         unlockType = 202,
         unlock = {
-            heroId = 133001,
+            heroId = 113301,
         },
         sort = 1394,
         name1 = 0,
@@ -30046,7 +30046,7 @@ return {
         name2 = 0,
         unlockType = 202,
         unlock = {
-            heroId = 133001,
+            heroId = 113301,
         },
         sort = 1391,
         name1 = 0,
@@ -30076,7 +30076,7 @@ return {
         name2 = 0,
         unlockType = 202,
         unlock = {
-            heroId = 133001,
+            heroId = 113301,
         },
         sort = 1393,
         name1 = 0,

@@ -6,7 +6,9 @@
 			"bust_13303_new.1024/texture_00.png",
 			"bust_13303_new.1024/texture_01.png",
 			"bust_13303_new.1024/texture_02.png",
-			"bust_13303_new.1024/texture_03.png"
+			"bust_13303_new.1024/texture_03.png",
+			"bust_13303_new.1024/texture_04.png",
+			"bust_13303_new.1024/texture_05.png"
 		],
 		"Physics": "bust_13303_new.physics3.json",
 		"Motions": {

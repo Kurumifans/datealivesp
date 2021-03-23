@@ -63,7 +63,9 @@ function ItemAccessView:refreshView()
             item = self.Panel_unlockAccessItem:clone()
             if v.startTime and v.endTime then
                 local curTime = ServerDataMgr:getServerTime()
-                if curTime < v.startTime or curTime > v.endTime then
+                local _, startTime = Utils:changStrToDate(v.startTime)
+                local _, endTime = Utils:changStrToDate(v.endTime)
+                if curTime < startTime or curTime > endTime then
                     isJumpFuncOutTime = true
                 end
             end

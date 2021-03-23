@@ -204,7 +204,7 @@
 						"Id": "PARAM_RUYAO_X"
 					},
 					"VertexIndex": 1,
-					"Scale": 1,
+					"Scale": 0.8,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -215,7 +215,7 @@
 						"Id": "PARAM_RUYAO_Y"
 					},
 					"VertexIndex": 2,
-					"Scale": 1,
+					"Scale": 0.8,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false

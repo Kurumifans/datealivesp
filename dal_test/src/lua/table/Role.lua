@@ -2399,7 +2399,7 @@ return {
         },
         dayLive = "",
         openType = "1-0",
-        correctRoleModel = 413301,
+        correctRoleModel = 413304,
         foodType = "ui/newCity/city/4.png",
         birthday = "未知",
         id = 133,

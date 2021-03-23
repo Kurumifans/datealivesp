@@ -2103,10 +2103,10 @@ function battleController.getPointBuffer(targetType)
         --    end
         --end
 
-        local buffCid = FubenEndlessPlusDataMgr:getSelectBuffCid()
+        local buffCid = FubenEndlessPlusDataMgr:getSelectBuffCid()        
         if buffCid then
             local buffCfg = TabDataMgr:getData("FloorBuff", buffCid)
-            if buffCfg.limitTargetType == targetType then
+            if buffCfg.limitTargetType == targetType then                
                table.insertTo(bufferIds, buffCfg.buffId)
             end
         end

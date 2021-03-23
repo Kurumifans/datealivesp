@@ -423,8 +423,7 @@ function FunctionDataMgr:getAccess(itemId)
     end
 
     local accessExtData = ActivityDataMgr2:getAccessExtData(itemId)
-    print("sw=======================:", accessExtData)
-    for i, v in ipairs(accessExtData) do
+    for _, v in pairs(accessExtData) do
         self:getAccessItem(rets, v, itemId)
     end
     return rets
