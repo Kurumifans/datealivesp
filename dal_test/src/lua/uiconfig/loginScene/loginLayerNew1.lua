@@ -1619,7 +1619,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFDED0",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1633,7 +1633,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#20560000",
+										StrokeColor = "#FF383434",
 										StrokeSize = 1,
 									},
 									height = "24",
@@ -1700,7 +1700,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFDED0",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1714,7 +1714,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#20560000",
+										StrokeColor = "#FF383434",
 										StrokeSize = 1,
 									},
 									height = "24",
@@ -1781,7 +1781,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFDED0",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1795,7 +1795,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#20560000",
+										StrokeColor = "#FF383434",
 										StrokeSize = 1,
 									},
 									height = "24",
@@ -1862,7 +1862,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFDED0",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1876,7 +1876,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#20560000",
+										StrokeColor = "#FF383434",
 										StrokeSize = 1,
 									},
 									height = "24",
@@ -1943,7 +1943,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFDED0",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1957,7 +1957,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#20560000",
+										StrokeColor = "#FF383434",
 										StrokeSize = 1,
 									},
 									height = "24",
@@ -2024,7 +2024,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFDED0",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -2038,7 +2038,7 @@ local t =
 									fontStroke = 
 									{
 										IsStroke = true,
-										StrokeColor = "#20560000",
+										StrokeColor = "#FF383434",
 										StrokeSize = 1,
 									},
 									height = "24",

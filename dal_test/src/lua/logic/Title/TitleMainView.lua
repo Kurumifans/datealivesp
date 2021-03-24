@@ -141,6 +141,7 @@ function TitleMainView:updateTitleItem(titleItem,cfg)
     end
     local isOwn = TitleDataMgr:getOwnTitleById(titleInfo.id)
     local Image_title_icon = TFDirector:getChildByPath(titleItem, "Image_title_icon")
+    Image_title_icon:removeAllChildren()
     local skeletonTitleNode = TitleDataMgr:getTitleEffectSkeletonModle(titleInfo.id, 1)
     Image_title_icon:addChild(skeletonTitleNode,10)
 

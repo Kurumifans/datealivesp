@@ -1,58 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.20" lastVersion="3.4.19">
-  <f p=".nomedia/nomedia.txt" m="768988239ff99a06689dc336e877d545" c="0" />
-  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/bust_13303_new.1024/texture_00.png" m="5e8c4fa1f57a6e5bb9c02ffdd23a3aa5" c="0" />
-  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/bust_13303_new.1024/texture_01.png" m="6a9993af5c643d49831d17b3f1fbbcb8" c="0" />
-  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/bust_13303_new.1024/texture_02.png" m="22476338199195341a3d0723d9a395eb" c="0" />
-  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/bust_13303_new.1024/texture_05.png" m="de6d2ea1024f62e71a3a0e1fa4f92c81" c="0" />
-  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/bust_13303_new.moc3" m="ed70ac3de6ecaa9b2fbd7dc65529e0d9" c="0" />
-  <f p="src/lua/logic/bag/ItemAccessView.lua" m="860a8babf453915d061988a3752a8802" c="0" />
-  <f p="src/lua/public/EnumConfig.lua" m="a530736c99435c868f17151429f1c17e" c="0" />
-  <f p="src/lua/table/Access.lua" m="6b50c5189b566448344abce47f20c3ba" c="0" />
-  <f p="src/lua/table/Buffer.lua" m="49532df654d13e66a6c2b993e24aab02" c="0" />
-  <f p="src/lua/table/CityLines.lua" m="a1cf7f16cd0d5cfb04eb53e6f648f971" c="0" />
-  <f p="src/lua/table/CityRole.lua" m="da80ca3aefc9d1d3ba041a83241b2d4f" c="0" />
-  <f p="src/lua/table/Commodity.lua" m="eb01aea097bfdb24004f51a1b2b31aa2" c="0" />
-  <f p="src/lua/table/Dating.lua" m="544200d12427d4bd03375c8f76171325" c="0" />
-  <f p="src/lua/table/Dating4.lua" m="ae32a9df4746c09e51178831b1b5cdf1" c="0" />
-  <f p="src/lua/table/DatingEffectMgr.lua" m="1ca13e6bb5aa196b416e3d00ce5bc6eb" c="0" />
-  <f p="src/lua/table/DatingRule.lua" m="f01410d449f740f86ed2c5e6f2107083" c="0" />
-  <f p="src/lua/table/DiscreteData.lua" m="0e42424863537cac4d47fcc115e791fe" c="0" />
-  <f p="src/lua/table/Dress.lua" m="5d531e663fd81599673e0074b05eadc6" c="0" />
-  <f p="src/lua/table/Drop.lua" m="d277fa2d5d8207c3cf448a659caf95cc" c="0" />
-  <f p="src/lua/table/DungeonChapter.lua" m="238d0a3ebc5b58ad98a981bfe609b084" c="0" />
-  <f p="src/lua/table/DungeonLevel.lua" m="4e9dd613e8e1e5009bb9970d51d9384d" c="0" />
-  <f p="src/lua/table/DungeonLevelGroup.lua" m="d3cad2c4b0d356632c3458f5a5123524" c="0" />
-  <f p="src/lua/table/DungeonLevelStep.lua" m="305c2e15fbd03562bd023e332b58e1f7" c="0" />
-  <f p="src/lua/table/Equipment.lua" m="2ee8c548e6f545263aa9b06e6e6053ed" c="0" />
-  <f p="src/lua/table/EquipmentStar.lua" m="96b7bb16f21904cb97c2f260db673a7a" c="0" />
-  <f p="src/lua/table/EquipmentSuit.lua" m="4be38998731963a74ed78dddc1f869f3" c="0" />
-  <f p="src/lua/table/EventCondition.lua" m="5a427b6ff75aabcbc5096a0ce9271b32" c="0" />
-  <f p="src/lua/table/FloorDungeon.lua" m="c2a2953a114f1fe2eba1fa9a5e28c22b" c="0" />
-  <f p="src/lua/table/Function.lua" m="7db8a77e7e5e968bb8e7218184f88707" c="0" />
-  <f p="src/lua/table/Interaction.lua" m="5621fa27df62216b08af80b0bbce7462" c="0" />
-  <f p="src/lua/table/Item.lua" m="514ce1fe409fac8879c37cebe4efaf3d" c="0" />
-  <f p="src/lua/table/MainDialogue.lua" m="b74597de20984cb56c71f45f21812c65" c="0" />
-  <f p="src/lua/table/Monster.lua" m="50819c35850a94b8af4c5fe1b667021f" c="0" />
-  <f p="src/lua/table/MonsterLevel.lua" m="acf9672fc419044e3a63914faa60caa6" c="0" />
-  <f p="src/lua/table/MonsterSection.lua" m="ed335fa658df5a60582e565700d30ff1" c="0" />
-  <f p="src/lua/table/NewPokedex.lua" m="1e2f16414955c822cfb1687a464f907a" c="0" />
-  <f p="src/lua/table/NewPokedexType.lua" m="e328ebae2e18bf0d1d59264c32c35e1a" c="0" />
-  <f p="src/lua/table/ReturnNewble.lua" m="2309fb2d75924b76a356f2f48c9d8e61" c="0" />
-  <f p="src/lua/table/RoleEyeOpenPara.lua" m="cc18f7bcb860e417c409fafe6bdad742" c="0" />
-  <f p="src/lua/table/RoleModel.lua" m="b29dc718acae8b35b73338b042917317" c="0" />
-  <f p="src/lua/table/RString.lua" m="c0855fe8dcc2763842950bc6315746fa" c="0" />
-  <f p="src/lua/table/SkillEffect.lua" m="9601b68d033b5e02a7eb906711541135" c="0" />
-  <f p="src/lua/table/StoryDungeonLevel.lua" m="c8abde78a9614ff78b0250f50fb6f6cc" c="0" />
-  <f p="src/lua/table/String.lua" m="f742784f98a793220a78eac30e1770a8" c="0" />
-  <f p="src/lua/table/Task.lua" m="4f076658737166f436618c07174db80f" c="0" />
-  <f p="src/lua/table/TopHelp.lua" m="42827803da575286de9f9e434896b9f2" c="0" />
-  <f p="src/TFFramework/net/TFClientUpdate.lua" m="fa3c42d29d1f1107e6075cb4d3fd4fbe" c="0" />
-  <f p="res/basic/icon/item/goods/580361.png" m="63511410e880652f3da676beb0f97499" />
-  <f p="res/basic/modle/bust/sounds/SonoRinne_interPiece_020.mp3" m="fbd7ed714ffdedc6f9e8679a6751fd45" />
-  <f p="res/basic/modle/bust/sounds/SonoRinne_interPiece_022.mp3" m="d17deb42f1e954aff217af11a8fb024f" />
-  <f p="res/basic/modle/bust/sounds/SonoRinne_interPiece_024.mp3" m="fa87c89602e110bcb38bd6e32217eaa9" />
-  <f p="res/basic/modle/bust/sounds/SonoRinne_interPiece_025.mp3" m="a6c98d1622fd78bdd2f08b92d49944f2" />
-  <f p="res/basic/modle/bust/sounds/SonoRinne_interPiece_042.mp3" m="7281e011d9d54ef8f34234056ee81285" />
-  <f p="res/basic/modle/bust/sounds/SonoRinne_interPiece_045.mp3" m="f8a914b429047c749ecc5c9c6ec9b02e" />
+<files version="3.4.21" lastVersion="3.4.20">
+  <f p=".nomedia/nomedia.txt" m="c5ad168763f3469feb5c2f0447567ef2" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_13304_kanban/bust_13304_new.1024/texture_01.png" m="7eed43e9930fb4c2f306f63878b6a7d1" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_13304_kanban/bust_13304_new.1024/texture_02.png" m="818d68111f6dbb3b6b398800048deb11" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_13304_kanban/motions/id_favor2_1.motion3.json" m="65e45cca66a65c2e1b680a8e0403c698" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_13304_kanban/bust_13304_new.moc3" m="20eaff1a204f1891ad22e5cb7f05c17d" c="0" />
+  <f p="res/basic/ui/login/new1/b3.png" m="1db3f7c83facb7a68fb84435cb8ae94a" c="0" />
+  <f p="res/basic/ui/login/001.png" m="a1c09f801163ee2e703f9d52b59bcfaa" c="0" />
+  <f p="res/basic/ui/login/002.png" m="70aec03f800dd899c3c68c784b6269af" c="0" />
+  <f p="res/basic/ui/login/003.png" m="61e433fe88473b850a10c41cc3964493" c="0" />
+  <f p="res/basic/ui/login/004.png" m="63bdb953dc2f4f19d02bfec95734bc80" c="0" />
+  <f p="res/basic/ui/login/005.png" m="95c4fd12597669bacbb0cbfd59c3f2cf" c="0" />
+  <f p="res/basic/ui/login/006.png" m="89fa79505193349625964583593c54a5" c="0" />
+  <f p="res/basic/ui/login/7.png" m="6da6def181c38ca1ef4844279d053fc9" c="0" />
+  <f p="res/basic/ui/login/m4.png" m="480911a30c3c9537cb92029e6a4defac" c="0" />
+  <f p="res/basic/ui/login/m7.png" m="3b8206c560b846fa082df96e7776c978" c="0" />
+  <f p="res/basic/video/loginPart1.mp4" m="69d8c569f8a10b4d9810c5335b36c0f2" c="0" />
+  <f p="res/basic/video/loginPart2.mp4" m="9f7895aeac907bb878cd1f633ac14471" c="0" />
+  <f p="src/lua/logic/Title/TitleMainView.lua" m="9309425b155f1c4ab002e36cf994ed29" c="0" />
+  <f p="src/lua/table/DungeonChapter.lua" m="40d0c57d8621e80157c4bceed0565414" c="0" />
+  <f p="src/lua/table/DungeonLevel.lua" m="8e3b73a6dc70e3025e37f7841db759a1" c="0" />
+  <f p="src/lua/table/MainDialogue.lua" m="8143c02ffd595c335e91886de53928b8" c="0" />
+  <f p="src/lua/table/String.lua" m="37f675bc5cdb3bafe8490d5cbf26f621" c="0" />
+  <f p="src/lua/table/SummonPool.lua" m="7c5cec031af1873bcdd7abbe15ed8063" c="0" />
+  <f p="src/lua/uiconfig/loginScene/loginLayerNew1.lua" m="d1d7bcc20122eb81c72a663a83d8e9b3" c="0" />
+  <f p="res/basic/ui/login/b3.png" m="75252135515c7182303d55d37a68cbe8" />
+  <f p="res/basic/ui/login/b6.png" m="d06c70792f8a9a1109bf432dbbc1d1b3" />
 </files>
