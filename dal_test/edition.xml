@@ -1,29 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.21" lastVersion="3.4.20">
-  <f p=".nomedia/nomedia.txt" m="c5ad168763f3469feb5c2f0447567ef2" c="0" />
-  <f p="res/basic/modle/bust_kanban/bust_13304_kanban/bust_13304_new.1024/texture_01.png" m="7eed43e9930fb4c2f306f63878b6a7d1" c="0" />
-  <f p="res/basic/modle/bust_kanban/bust_13304_kanban/bust_13304_new.1024/texture_02.png" m="818d68111f6dbb3b6b398800048deb11" c="0" />
-  <f p="res/basic/modle/bust_kanban/bust_13304_kanban/motions/id_favor2_1.motion3.json" m="65e45cca66a65c2e1b680a8e0403c698" c="0" />
-  <f p="res/basic/modle/bust_kanban/bust_13304_kanban/bust_13304_new.moc3" m="20eaff1a204f1891ad22e5cb7f05c17d" c="0" />
-  <f p="res/basic/ui/login/new1/b3.png" m="1db3f7c83facb7a68fb84435cb8ae94a" c="0" />
-  <f p="res/basic/ui/login/001.png" m="a1c09f801163ee2e703f9d52b59bcfaa" c="0" />
-  <f p="res/basic/ui/login/002.png" m="70aec03f800dd899c3c68c784b6269af" c="0" />
-  <f p="res/basic/ui/login/003.png" m="61e433fe88473b850a10c41cc3964493" c="0" />
-  <f p="res/basic/ui/login/004.png" m="63bdb953dc2f4f19d02bfec95734bc80" c="0" />
-  <f p="res/basic/ui/login/005.png" m="95c4fd12597669bacbb0cbfd59c3f2cf" c="0" />
-  <f p="res/basic/ui/login/006.png" m="89fa79505193349625964583593c54a5" c="0" />
-  <f p="res/basic/ui/login/7.png" m="6da6def181c38ca1ef4844279d053fc9" c="0" />
-  <f p="res/basic/ui/login/m4.png" m="480911a30c3c9537cb92029e6a4defac" c="0" />
-  <f p="res/basic/ui/login/m7.png" m="3b8206c560b846fa082df96e7776c978" c="0" />
-  <f p="res/basic/video/loginPart1.mp4" m="69d8c569f8a10b4d9810c5335b36c0f2" c="0" />
-  <f p="res/basic/video/loginPart2.mp4" m="9f7895aeac907bb878cd1f633ac14471" c="0" />
-  <f p="src/lua/logic/Title/TitleMainView.lua" m="9309425b155f1c4ab002e36cf994ed29" c="0" />
-  <f p="src/lua/table/DungeonChapter.lua" m="40d0c57d8621e80157c4bceed0565414" c="0" />
-  <f p="src/lua/table/DungeonLevel.lua" m="8e3b73a6dc70e3025e37f7841db759a1" c="0" />
-  <f p="src/lua/table/MainDialogue.lua" m="8143c02ffd595c335e91886de53928b8" c="0" />
-  <f p="src/lua/table/String.lua" m="37f675bc5cdb3bafe8490d5cbf26f621" c="0" />
-  <f p="src/lua/table/SummonPool.lua" m="7c5cec031af1873bcdd7abbe15ed8063" c="0" />
-  <f p="src/lua/uiconfig/loginScene/loginLayerNew1.lua" m="d1d7bcc20122eb81c72a663a83d8e9b3" c="0" />
-  <f p="res/basic/ui/login/b3.png" m="75252135515c7182303d55d37a68cbe8" />
-  <f p="res/basic/ui/login/b6.png" m="d06c70792f8a9a1109bf432dbbc1d1b3" />
+<files version="3.4.22" lastVersion="3.4.21">
+  <f p=".nomedia/nomedia.txt" m="6ec23ece5c073797028b37f18d40bffa" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/bust_13303_new.1024/texture_02.png" m="537313f492b6c00f1e305a7d153a8fad" c="0" />
+  <f p="src/lua/logic/explore/GemComposeView.lua" m="e774193e951b338cf06c27df364b6863" c="0" />
+  <f p="src/lua/logic/explore/ShipBagView.lua" m="ca8f3a89402387953170f8d5b85fa834" c="0" />
+  <f p="src/lua/table/CityLines.lua" m="e2a3509a339b59148b490f6ac50cf852" c="0" />
 </files>
