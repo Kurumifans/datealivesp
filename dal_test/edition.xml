@@ -1,8 +1,192 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.22" lastVersion="3.4.21">
-  <f p=".nomedia/nomedia.txt" m="6ec23ece5c073797028b37f18d40bffa" c="0" />
-  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/bust_13303_new.1024/texture_02.png" m="537313f492b6c00f1e305a7d153a8fad" c="0" />
-  <f p="src/lua/logic/explore/GemComposeView.lua" m="e774193e951b338cf06c27df364b6863" c="0" />
-  <f p="src/lua/logic/explore/ShipBagView.lua" m="ca8f3a89402387953170f8d5b85fa834" c="0" />
-  <f p="src/lua/table/CityLines.lua" m="e2a3509a339b59148b490f6ac50cf852" c="0" />
+<files version="3.4.24" lastVersion="3.4.22">
+  <f p=".nomedia/nomedia.txt" m="60bd51a9ee6da00c84e55366b73c633c" c="0" />
+  <f p="res/basic/icon/role/dress_kanban/10111.png" m="0610f64fb3b1f57ddaa2627594ec96b8" c="0" />
+  <f p="res/basic/icon/role/dress_kanban/10123.png" m="633ca70e774472670730daed1e4454aa" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/bust_13303_new.1024/texture_01.png" m="e22d3b9db26fc80ca17ffaa0281bd76f" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/bust_13303_new.1024/texture_02.png" m="4621c06a157c10d7b7efe528b82198ec" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/motions/idle.motion3.json" m="3d173a969147f1cc8d47edf7a407097c" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/motions/id_favor2_1.motion3.json" m="0c2768c40e5803e38185c9f421395ef7" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/bust_13303_new.moc3" m="eade5ca7bf14846edfa22b82889f0291" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_13303_superKanban/bust_13303_new.physics3.json" m="8e813fef691eb29da1fa4c9789294133" c="0" />
+  <f p="res/basic/ui/activity/activity_bg/jumpbg6.png" m="5439a49aaba4b254b3bc0b438d04fcd9" c="0" />
+  <f p="res/basic/ui/activity/add_recharge/002.png" m="242248b5567a6cb877336d811b971305" c="0" />
+  <f p="res/basic/ui/activity/add_recharge/004.png" m="242248b5567a6cb877336d811b971305" c="0" />
+  <f p="res/basic/ui/activity/add_recharge/005.png" m="700198ba77018d8ceb963aa8a3b88780" c="0" />
+  <f p="res/basic/ui/activity/add_recharge/006.png" m="e483695328a9e3e09fd7cc5a1ec92dfd" c="0" />
+  <f p="res/basic/ui/activity/add_recharge/007.png" m="a2ee144e57466bccefa535f3c41f52a0" c="0" />
+  <f p="res/basic/ui/activity/picture/ad255.png" m="dbf39965544fd3521de4c532925395a0" c="0" />
+  <f p="res/basic/ui/activity/picture/icon255.png" m="3bab68824422d7c3905802f708f1cd4b" c="0" />
+  <f p="res/basic/ui/activity/whiteValentine/008.png" m="a5f88b3b6638face39b4da87c0c731fd" c="0" />
+  <f p="res/basic/ui/activity/whiteValentine/009.png" m="14e219dc55a903fe095474f01fe60309" c="0" />
+  <f p="res/basic/ui/activity/whiteValentine/m2.png" m="b408d6c9a805d10b352c73a78d6c0ee1" c="0" />
+  <f p="res/basic/ui/summon/083.png" m="fe8ba1c2f66e1a788f6e56675002e0c0" c="0" />
+  <f p="res/basic/video/summon_junai1.mp4" m="6467a4d9261a6ddafd80b265a97a02c2" c="0" />
+  <f p="res/basic/video/summon_junai2.mp4" m="083853e1c9acf71dac47be64dc72bc33" c="0" />
+  <f p="src/lua/dataMgr/CollectDataMgr.lua" m="5dd884b650e07bea856bae8048b0f018" c="0" />
+  <f p="src/lua/dataMgr/FunctionDataMgr.lua" m="e2b9ebdedb92f86c12409593754f0b9b" c="0" />
+  <f p="src/lua/dataMgr/ServerDataMgr.lua" m="52b54e9a22928a291176172374f73e8c" c="0" />
+  <f p="src/lua/logic/activity/ActivityMainView.lua" m="260734d0e5c86a5fc51f4b7c4d937e1a" c="0" />
+  <f p="src/lua/logic/battle/flight/FlightController.lua" m="f46e3869a48dfb4a1b7af92b3a9031a5" c="0" />
+  <f p="src/lua/logic/battle/BattleController.lua" m="9a504917baae79f4b8dce1fdda6e51aa" c="0" />
+  <f p="src/lua/logic/battle/BFEffect.lua" m="454fcb1fff5ec59492587a5d0c393e60" c="0" />
+  <f p="src/lua/logic/battle/BrushMonster.lua" m="af595c31e66cf1a6f66f3b96bfd653af" c="0" />
+  <f p="src/lua/logic/battle/Hero.lua" m="a2d06beffa6432b9d55a2f6eff2b1827" c="0" />
+  <f p="src/lua/logic/collect/CollectBGMView.lua" m="ba4977f4efb30326053f55da635daaaf" c="0" />
+  <f p="src/lua/logic/collect/CollectCGView.lua" m="0945fc9299f23c6e4d7576263d8049a6" c="0" />
+  <f p="src/lua/logic/collect/CollectDatingView.lua" m="377101ef6d43d514fa3c8f36e4e32e54" c="0" />
+  <f p="src/lua/logic/collect/CollectDressView.lua" m="a4ce0b4631e7a34a0f5e7923eddef957" c="0" />
+  <f p="src/lua/logic/collect/CollectEquipView.lua" m="ee9799552c5417cecf79f854e61438ef" c="0" />
+  <f p="src/lua/logic/collect/CollectMedalView.lua" m="6fd947ee51e4b50964fcd0c244196477" c="0" />
+  <f p="src/lua/logic/collect/CollectPortraitView.lua" m="1c73e7b1c1e937dc6f458b971b33cdc8" c="0" />
+  <f p="src/lua/logic/collect/CollectSceneView.lua" m="ba386d763da450b44cab7b60e3807fc4" c="0" />
+  <f p="src/lua/logic/collect/CollectSpriteView.lua" m="66af01b08a17a4fd4aaaae93c9bb285a" c="0" />
+  <f p="src/lua/logic/collect/CollectTokenView.lua" m="d99c971e4d51259ac6a88be383e98148" c="0" />
+  <f p="src/lua/logic/MainScene/MainLayer.lua" m="fa52289d5e2d68fdab35ce17d7fce3d5" c="0" />
+  <f p="src/lua/logic/store/TokenPopView.lua" m="fe4127d6e762a1b70d11d3bcdb77c784" c="0" />
+  <f p="src/lua/public/EnumConfig.lua" m="0cc6595d7ed09acdd650b83d533e9e3c" c="0" />
+  <f p="src/lua/table/Access.lua" m="c2889c7f4e63956681f783cbbf388b98" c="0" />
+  <f p="src/lua/table/CityRoleModel.lua" m="af1312f5156db97d8e709b69d330dbc6" c="0" />
+  <f p="src/lua/table/Dating4.lua" m="068049f34f0f9719210160c2201e82a5" c="0" />
+  <f p="src/lua/table/DatingEffectMgr.lua" m="3231dc6465ec628b6e3483acde315e15" c="0" />
+  <f p="src/lua/table/DatingRule.lua" m="8c9dd273a64ac20042f5b389d5f84aac" c="0" />
+  <f p="src/lua/table/DiscreteData.lua" m="2f0e15ecb2655c3888e6b93f6e6e3f3f" c="0" />
+  <f p="src/lua/table/Dress.lua" m="41dc29e3d6d870dbc032dfd9628eda20" c="0" />
+  <f p="src/lua/table/DungeonLevel.lua" m="4d1a33fd807104b10a49b05213387195" c="0" />
+  <f p="src/lua/table/EndlessCloisterLevel.lua" m="7a1e258bd7d06636edce54d2f723177c" c="0" />
+  <f p="src/lua/table/EventCondition.lua" m="c4639459e2275802f6acc5e2d631038c" c="0" />
+  <f p="src/lua/table/FubenDrop.lua" m="92a60a07ff8b18f499c7b7c3d8ff620c" c="0" />
+  <f p="src/lua/table/Hero.lua" m="5751bce2d716e241407dd699dbc09a86" c="0" />
+  <f p="src/lua/table/Interaction.lua" m="638fd307132706b0d8e1e5776f1983c1" c="0" />
+  <f p="src/lua/table/Item.lua" m="18b8327773c4c10748f624c51eb59c17" c="0" />
+  <f p="src/lua/table/ItemTime.lua" m="07f27b321d5c637b3faad6d2532b1080" c="0" />
+  <f p="src/lua/table/NewPokedex.lua" m="ec9d12aa4ebfba2f8485508f4f752a0f" c="0" />
+  <f p="src/lua/table/Portrait.lua" m="f5eed2ee49eec422ec4eb332f56dfeae" c="0" />
+  <f p="src/lua/table/Role.lua" m="269d3843b99dee190dacf6788151d0e9" c="0" />
+  <f p="src/lua/table/RoleEyeOpenPara.lua" m="b7bfd183c9f47b8afd2e68f013a265fd" c="0" />
+  <f p="src/lua/table/RoleModel.lua" m="57f27eb02aee629c1597301e3ebd90ce" c="0" />
+  <f p="src/lua/table/SkillEffect.lua" m="e4b79d25b169fc23fb028b140c08d3bd" c="0" />
+  <f p="src/lua/table/Sound.lua" m="19fca9517f9e9fd1837f0c8167cbd2a2" c="0" />
+  <f p="src/lua/table/String.lua" m="63962bdb28aff48eefd998fba3cc7fee" c="0" />
+  <f p="src/lua/table/Summon.lua" m="2c31d5bcb47b38b4a30f47b7ca3e1bec" c="0" />
+  <f p="src/lua/table/SummonPool.lua" m="9ffaca005e79baa3ac8106b263462f9e" c="0" />
+  <f p="src/lua/table/SummonPreview.lua" m="91f7dce4d0d57c84d56fc77ef7f8d2c9" c="0" />
+  <f p="src/lua/table/TrialHeroSkin.lua" m="8d8253c74bc71bf6ed9fddb755e4e2ce" c="0" />
+  <f p="src/lua/uiconfig/activity/addRechargeActivityView.lua" m="6b85b6ed3a64188727b2b199d7bc0015" c="0" />
+  <f p="src/lua/uiconfig/activity/jumpActivityView3.lua" m="9ce78ebeeca84846a72b957ae100925a" c="0" />
+  <f p="src/lua/uiconfig/activity/jumpActivityView6.lua" m="27a036da7e3f382999d71e73a0a0e864" c="0" />
+  <f p="src/lua/uiconfig/activity/sceneConfig.lua" m="04c95ec5a006bace5b561b739ce5624b" c="0" />
+  <f p="src/lua/uiconfig/activity/whiteValentineActivityView.lua" m="f104c291b8d1aef58864cfd6683dc143" c="0" />
+  <f p="src/lua/uiconfig/recharge/tokenPopView.lua" m="5612594dbf919a8f0a78c0e0aeafd230" c="0" />
+  <f p="res/basic/icon/activity/memoriesAlbum/1.png" m="e7b49acc084380e056a7b897aaae8485" />
+  <f p="res/basic/icon/activity/memoriesAlbum/2.png" m="9f8ca8c078fc343d346ddf04ac8988ce" />
+  <f p="res/basic/icon/activity/memoriesAlbum/3.png" m="844b103c4a854b43b4881a2ddc166d38" />
+  <f p="res/basic/icon/activity/memoriesAlbum/4.png" m="6df91d46566702f742124f7e6a309c48" />
+  <f p="res/basic/icon/activity/memoriesAlbum/5.png" m="154a7f8cf226fca6fa1d2f1efb91135f" />
+  <f p="res/basic/icon/activity/memoriesAlbum/6.png" m="0ff16b6fc037b4af978636a765b4a8cd" />
+  <f p="res/basic/icon/activity/memoriesAlbum/7.png" m="00990836e1eb3a621b059e278fcac1c0" />
+  <f p="res/basic/icon/activity/memoriesAlbum/cg1.png" m="0ca3b855963129c2aa3215333ed9cdea" />
+  <f p="res/basic/icon/activity/memoriesAlbum/cg2.png" m="ef0abbceb9176dfcef4fdea602cb0965" />
+  <f p="res/basic/icon/activity/memoriesAlbum/cg3.png" m="a334059e9a688480da59ce46e2246a54" />
+  <f p="res/basic/icon/activity/memoriesAlbum/cg4.png" m="d8d316f4fb00b676d06b1d914b55c9cc" />
+  <f p="res/basic/icon/activity/memoriesAlbum/cg5.png" m="9d18348488e267d04a96b28c6c53e3b4" />
+  <f p="res/basic/icon/activity/memoriesAlbum/cg6.png" m="4180ae4b37deb879436677cffd7bf885" />
+  <f p="res/basic/icon/activity/memoriesAlbum/cg7.png" m="20006e024909d0328e1ab0a7e81898cd" />
+  <f p="res/basic/icon/hero/frame/570290.png" m="0f63876a7cffcf9f5ed9eac49050c7b0" />
+  <f p="res/basic/icon/hero/frame/570291.png" m="df7d18454e7ac2a85969228b1e278f6d" />
+  <f p="res/basic/icon/hero/name/554038.png" m="a674b812e0eec28c146685aa5c8e076c" />
+  <f p="res/basic/icon/item/goods/570290.png" m="c747eed465ec23e9df70ac6d5a53b6b5" />
+  <f p="res/basic/icon/item/goods/570291.png" m="e7c89b278aa97166216021484017324c" />
+  <f p="res/basic/icon/item/goods/600019.png" m="429165099b7bb3ddda94ebfd8670b5c5" />
+  <f p="res/basic/icon/item/goods/600020.png" m="b21cf236b2d8eb0e544beb2c16392882" />
+  <f p="res/basic/icon/item/goods/600021.png" m="7af5c142aeabd40d0c03f6b81776c168" />
+  <f p="res/basic/icon/role/dress_kanban/10112.png" m="563bcdae98ce2648d4668d3fc4649c94" />
+  <f p="res/basic/icon/role/dress_kanban/10117.png" m="749ed36f30eec6899aad8383948c0f35" />
+  <f p="res/basic/icon/role/dress_kanban/10117m.png" m="63cee87cfa11bc237ba896f80bc9cf5f" />
+  <f p="res/basic/icon/role/dress_kanban/10118.png" m="dfd8bbab2f5a172b3ceff6225d11166b" />
+  <f p="res/basic/icon/role/dress_kanban/10118m.png" m="eb4fe478bbe961659485416eee8e3adf" />
+  <f p="res/basic/modle/bust/sounds/TOUKA_333.mp3" m="b4b540e7ee1613ee491611076f146862" />
+  <f p="res/basic/modle/bust/sounds/TOUKA_334.mp3" m="cdc8b9af728d77a2c11d5925eb92f3fa" />
+  <f p="res/basic/modle/bust/sounds/TOUKA_335.mp3" m="a769df09acf9431c3545d24e56782785" />
+  <f p="res/basic/modle/bust/sounds/TOUKA_336_01.mp3" m="46c3b1213fb58d610d574303546b405e" />
+  <f p="res/basic/modle/bust/sounds/TOUKA_337.mp3" m="4f7bab3c3f0d9fdfbd778150c2ea0727" />
+  <f p="res/basic/modle/bust/sounds/TOUKA_338.mp3" m="1b146c192c1a97062fa81ff8dd68697d" />
+  <f p="res/basic/modle/bust/sounds/TOUKA_339.mp3" m="2612efed4ccd7780e79264158a9997fd" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.512/texture_00.png" m="7927c579aec37984ac4e741eb65ea85b" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.512/texture_01.png" m="02190a53258e9406740e5daa04905b81" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.512/texture_02.png" m="d34c84c72ac53a13716780243122bdc5" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.512/texture_03.png" m="34e3967e67dc75ce12837c734dc87d45" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.512/texture_04.png" m="b07ea26b70c27c251c61e4da5d0753b1" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.512/texture_05.png" m="29e8bfedc56cb3d9a06cabc80847869a" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.512/texture_06.png" m="cead13bd829ce053c1d59a598602c247" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.512/texture_07.png" m="de4ea28634f4e8211fb49d1e5a6ffc39" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.512/texture_08.png" m="98d3293261a3ea84d68d9f71536f3b07" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/motions/idle.motion3.json" m="0196906a0b7719231206c937982ffe7b" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/motions/id_favor1_1.motion3.json" m="72974579291d3429174f3bbf436cf893" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/motions/id_favor1_2.motion3.json" m="fd8b0f8d26f9e4e8f6b9215699f8639a" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/motions/id_favor1_3.motion3.json" m="97148a458f0330f1f528ed1604e9f5c9" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/motions/id_favor2_1.motion3.json" m="36814b9b43cb93e10521646cfa123080" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/motions/id_favor3_1.motion3.json" m="3460f130b82add1a2885e34e82d0585e" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/motions/id_favor4_1.motion3.json" m="5226caf5cc584a75878f723486dc4c67" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/motions/id_favor5_1.motion3.json" m="c3c7f1ce58d801c584e0c8f8250a6c63" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.moc3" m="197b14daf41dd11c23a6e907d8b9ee67" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.model3.json" m="328232fe7b9fb3f5cf3c79f744a54b60" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.physics3.json" m="8db38b13c9037932fd645247371bb2e6" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/bust_10118_new.1024/texture_00.png" m="97484c6a64f0dde9e5016e5e3ca63fb5" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/bust_10118_new.1024/texture_01.png" m="140ba27f02503c03f467f55867003d73" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/bust_10118_new.1024/texture_02.png" m="7223d58b34cb3223ef012a3d24261ba2" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/bust_10118_new.1024/texture_03.png" m="74e5da51c92f73eb8dc9b07613340c19" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/bust_10118_new.1024/texture_04.png" m="7a30cb66232eb9ea16ffb33d8903b0ae" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/bust_10118_new.1024/texture_05.png" m="a8aa26c663c6358d572874ee30b0cf8c" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/bust_10118_new.1024/texture_06.png" m="3fc29b4be11112a94cdd31ff09db0bc4" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/motions/idle.motion3.json" m="1cf442b10ad11a577842112ea96e0397" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/motions/id_angry.motion3.json" m="0d47eedb53d3cfd0d6a6a48467dfc314" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/motions/id_dress.motion3.json" m="eef5ab17d81f2d59f04899bec911456d" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/motions/id_favor1_1.motion3.json" m="69f3998364afdd5eed3d6b58ad464da3" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/motions/id_favor1_2.motion3.json" m="8d0c6bbd461257b00f68c93133c26b0a" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/motions/id_favor1_3.motion3.json" m="e45d2701d69d7fd87bc1dadd417b74df" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/motions/id_favor2_1.motion3.json" m="c3b516ca4806ef28552ec219f48d1f5c" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/motions/id_favor3_1.motion3.json" m="081ab0724870137fa3154b01c21c8cdb" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/motions/id_favor4_1.motion3.json" m="4aca01a93dcf0867df10fd9c1bd67520" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/motions/id_favor5_1.motion3.json" m="e2a1fa66dff95562b67ebaec19a9074a" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/motions/id_happy.motion3.json" m="3e8662cbebe623a6fd920917e7976d06" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/bust_10118_new.moc3" m="e5c29ed91912a70ca074cd1183266456" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/bust_10118_new.model3.json" m="95d355df0580fc15bd335e777b0cd00f" />
+  <f p="res/basic/modle/bust_kanban/bust_10118_kanban/bust_10118_new.physics3.json" m="af19aaf2c27c76671d780628694a1a7f" />
+  <f p="res/basic/scene/bg/kanban/bg_10117_base.png" m="4ec212c1e872d48690ccd661634ab35d" />
+  <f p="res/basic/sound/bgm/kanban/main_shixiang_10117.mp3" m="bd247642f9acb9b66b35968f411457ad" />
+  <f p="res/basic/ui/activity/add_recharge/008.png" m="242248b5567a6cb877336d811b971305" />
+  <f p="res/basic/ui/activity/picture/ad259.png" m="f67c104021debb4728ab2ac1a7d82f9a" />
+  <f p="res/basic/ui/activity/picture/icon259.png" m="b0db20e12b240d6917b702e9640c7aa0" />
+  <f p="res/basic/ui/activity/picture/icon260.png" m="9c5f6b94e33c2687726ba500bce5d74e" />
+  <f p="res/basic/ui/activity/picture/icon_memoriesAlbum.png" m="aee286e09ffbd10d01cc6dd4ead58cf3" />
+  <f p="res/basic/ui/activity/picWallTask/001.png" m="a0c3437d59e91a4c1206b1307ee6a04a" />
+  <f p="res/basic/ui/activity/picWallTask/002.png" m="f62e59c5bf1e7a47d60ff9cf83e26d60" />
+  <f p="res/basic/ui/activity/picWallTask/002r.png" m="e4d9222e2d9f57b645ef034fd2f83322" />
+  <f p="res/basic/ui/activity/picWallTask/003.png" m="3a287f4d2299d40d4f432af509f0058a" />
+  <f p="res/basic/ui/activity/picWallTask/003r.png" m="fe1d0345b9d00bf1cb820b00bbff90c7" />
+  <f p="res/basic/ui/activity/picWallTask/004.png" m="188cd74dd1eecf8340acc94822527745" />
+  <f p="res/basic/ui/activity/picWallTask/005.png" m="aee286e09ffbd10d01cc6dd4ead58cf3" />
+  <f p="res/basic/ui/activity/picWallTask/006.png" m="1b87e93720c272e773cd8938453a91af" />
+  <f p="res/basic/ui/activity/picWallTask/007.png" m="dc80e0e419c4bd505723f122c63375c2" />
+  <f p="res/basic/ui/activity/picWallTask/008.png" m="6a3a7de8ce5ce83feb8a310a0e2b669a" />
+  <f p="res/basic/ui/activity/picWallTask/009.png" m="4808b002879ecfec76252d0598b5b178" />
+  <f p="res/basic/ui/activity/picWallTask/010.png" m="439f82463adb68c7147a33a83d6bcf6e" />
+  <f p="res/basic/ui/activity/picWallTask/011.png" m="33517557d0b48d042fd5961a0bd5328b" />
+  <f p="res/basic/ui/activity/picWallTask/012.png" m="c08242e7b65c1b14cefcea21e1a96320" />
+  <f p="res/basic/ui/activity/picWallTask/013.png" m="464d4886ba202c9f1ac8d5aa9705b5b7" />
+  <f p="res/basic/ui/activity/picWallTask/bg.png" m="99e13bffa039fdefaa41665c750fe694" />
+  <f p="res/basic/ui/activity/picWallTask/cg1.png" m="0ca3b855963129c2aa3215333ed9cdea" />
+  <f p="res/basic/ui/activity/picWallTask/cg2.png" m="2dcc1282d9df67426a2cc0c8d9a5c6af" />
+  <f p="res/basic/ui/activity/picWallTask/cg3.png" m="984f246d862ec8204f06f239395b60a2" />
+  <f p="res/basic/ui/activity/picWallTask/cg4.png" m="581b5a1ec78e020f6e27bf42112e0c7f" />
+  <f p="res/basic/ui/activity/picWallTask/cg5.png" m="9d18348488e267d04a96b28c6c53e3b4" />
+  <f p="res/basic/ui/activity/picWallTask/cg6.png" m="84b3083248f3419607e6903e392ad400" />
+  <f p="res/basic/ui/activity/picWallTask/cg7.png" m="20006e024909d0328e1ab0a7e81898cd" />
+  <f p="res/basic/ui/activity/picWallTask/mask.png" m="2856001067834ea67de52c7740a1e54e" />
+  <f p="res/basic/ui/activity/picWallTask/time.png" m="e49d775ece793266973187d374bea629" />
+  <f p="src/lua/logic/activity/PicWallTaskPopView.lua" m="09f943738f4c4bebefdf34a885f44a06" />
+  <f p="src/lua/logic/activity/PicWallTaskView.lua" m="ade63b134573a6a023875331a9baa44b" />
+  <f p="src/lua/uiconfig/activity/picWallTaskPopView.lua" m="058bd12b8d1dd2772fa8348427e902a6" />
+  <f p="src/lua/uiconfig/activity/picWallTaskView.lua" m="38cd328c781d712f74ecdab06d7d0a30" />
 </files>

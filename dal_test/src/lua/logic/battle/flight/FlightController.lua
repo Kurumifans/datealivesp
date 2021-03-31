@@ -178,7 +178,6 @@ function flightController.init(data)
     this.sysTimeLimit = 1577811661 --2020年1月1日
     this.sysStartTime = 0  --开始计时节点时间
     this.sysStopTime = 0   --强制停止计时节点
-    this.sysPauseTime = 0   --游戏暂停时间节点
     this.sysEndBattleTime = 0  --战斗结束时间点
 
     --flightController.timeLine  = 0
@@ -225,15 +224,19 @@ function flightController.setTiming(bTime)
             flightController.player:fire()
         end
     end
-    this.adjustSysStartTime()
+
+    if EventTrigger:isRunning() then
+        return
+    end
     if bTime then
-        
+        this.adjustSysStartTime()
     else
         if this.sysStartTime > this.sysTimeLimit then
             this.sysStopTime = BattleUtils.gettime()
         end
     end
     BattleMgr.updatePauseState(not bTime)
+
 end
 function flightController.getGlobalFixZ()
     return flightController.fixZEye --flightController.data.cameraAmend or 0
@@ -536,7 +539,6 @@ function flightController.clear()
     flightController.bStart = nil
     this.sysStartTime = 0
     this.sysStopTime = 0
-    this.sysPauseTime = 0
     this.sysEndBattleTime = 0
     ObjectPool.eraseAll()
 end
@@ -605,12 +607,20 @@ function flightController.getControlPassTime()
     return BattleUtils.gettime() - this.sysStartTime
 end
 
+function flightController.getStopTime()
+    return this.sysStopTime
+end
+
 function flightController.pauseOrResume(isPause)
-    this.adjustSysStartTime()
-    if isPause then
-        if this.sysStartTime > this.sysTimeLimit then
-            this.sysPauseTime = BattleUtils.gettime()
+     if isPause then
+        if this.sysStopTime > this.sysTimeLimit then
+            return
         end
+        if this.sysStartTime > this.sysTimeLimit then
+            this.sysStopTime = BattleUtils.gettime()
+        end
+    else
+        this.adjustSysStartTime()
     end
     BattleMgr.updatePauseState(isPause)
 end
@@ -622,10 +632,6 @@ function flightController.adjustSysStartTime()
     if this.sysStopTime > this.sysTimeLimit then
         this.sysStartTime = this.sysStartTime + (BattleUtils.gettime() - this.sysStopTime)
         this.sysStopTime = 0
-    end
-    if this.sysPauseTime > this.sysTimeLimit then
-        this.sysStartTime = this.sysStartTime + (BattleUtils.gettime() - this.sysPauseTime)
-        this.sysPauseTime = 0
     end
 end
 

@@ -2383,6 +2383,20 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [410117] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_10117/effect_main_10120",
+        action = "animation",
+        isLoop = true,
+        id = 410117,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
     [4112091] = {
         offset = {
         },

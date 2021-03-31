@@ -57,7 +57,7 @@ function ServerDataMgr:init()
         ["cehua_ext"] = {
             sort = 14,
             name = "外网-预发布",
-            url = "http://175.24.25.95:10001/account/login"
+            url = "http://49.233.184.62:10001/account/login"
         },
         ["already_pub"] = {
             sort = 12,

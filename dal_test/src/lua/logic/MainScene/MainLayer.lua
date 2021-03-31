@@ -2762,10 +2762,13 @@ function MainLayer:onShow()
 
     self:flushZhaoHuanBtn()
 
-
-    SpineCache:getInstance():clearUnused();
-    me.TextureCache:removeUnusedTextures();
-    collectgarbage("collect");
+    local keys = me.TextureCache:textureKeys()
+    local nLen = keys:size()
+    if nLen > 500 then
+        SpineCache:getInstance():clearUnused()
+        me.TextureCache:removeUnusedTextures()
+        collectgarbage("collect")
+    end
 
     --[[local phoneBackState = DatingPhoneDataMgr:getPhoneBackState()
     if phoneBackState then

@@ -1751,6 +1751,7 @@ EC_ActivityType2 = {
     SPRITE_FOR_GIFT = 81,        -- 精灵抽一送一
     FIREWORKS_PRODUCT = 84,      --烟花制作
     SPRING_GIFT = 86,            -- 春分赠礼
+    PIC_TASK_ACTIVITY = 87,      -- 照片墙活动 
     ACCESS_TYPE = 89,            -- 跳转路径拓展
 }
 
@@ -2396,4 +2397,13 @@ EC_ItemBuffTargetType = {
     ALL_MONSTER = 3,            -- 对所有怪物
     ALL_SPIRIT = 4,             -- 对全场所有存在
     ALL_ELITE_MONSTER = 5,      -- 对所有精英怪
+}
+
+-- 特殊任务状态
+EC_TASK_STATUS = {
+    Lock = 1,      -- 未解锁
+    UnAccept = 2,  -- 未接受
+    Ing = 3,       -- 进行中
+    NotReceve = 4, -- 未领取
+    Complete = 5   -- 已完成 
 }

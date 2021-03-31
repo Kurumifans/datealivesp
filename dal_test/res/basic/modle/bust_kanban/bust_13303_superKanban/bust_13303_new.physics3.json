@@ -2,7 +2,7 @@
 	"Version": 3,
 	"Meta": {
 		"PhysicsSettingCount": 1,
-		"TotalInputCount": 3,
+		"TotalInputCount": 2,
 		"TotalOutputCount": 17,
 		"VertexCount": 3,
 		"EffectiveForces": {
@@ -38,15 +38,6 @@
 				{
 					"Source": {
 						"Target": "Parameter",
-						"Id": "PARAM_ANGLE_Z"
-					},
-					"Weight": 60,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Source": {
-						"Target": "Parameter",
 						"Id": "PARAM_BODY_ANGLE_X"
 					},
 					"Weight": 60,
@@ -72,7 +63,7 @@
 						"Id": "PARAM_HAIR_SIDE_1L"
 					},
 					"VertexIndex": 1,
-					"Scale": 1,
+					"Scale": 0.5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -83,7 +74,7 @@
 						"Id": "PARAM_HAIR_SIDE_2L"
 					},
 					"VertexIndex": 2,
-					"Scale": 1,
+					"Scale": 0.5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -94,7 +85,7 @@
 						"Id": "PARAM_HAIR_SIDE_1R"
 					},
 					"VertexIndex": 1,
-					"Scale": 1,
+					"Scale": 0.5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -105,7 +96,7 @@
 						"Id": "PARAM_HAIR_SIDE_2R"
 					},
 					"VertexIndex": 2,
-					"Scale": 1,
+					"Scale": 0.5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -116,7 +107,7 @@
 						"Id": "PARAM_SKIRT2_X"
 					},
 					"VertexIndex": 1,
-					"Scale": 0.6,
+					"Scale": 0.3,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -127,7 +118,7 @@
 						"Id": "PARAM_SKIRT2_Y"
 					},
 					"VertexIndex": 2,
-					"Scale": 0.6,
+					"Scale": 0.3,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -160,7 +151,7 @@
 						"Id": "PARAM_HairBow_021"
 					},
 					"VertexIndex": 1,
-					"Scale": 1,
+					"Scale": 0.6,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -171,7 +162,7 @@
 						"Id": "PARAM_HairBow_022"
 					},
 					"VertexIndex": 1,
-					"Scale": 1,
+					"Scale": 0.6,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -182,7 +173,7 @@
 						"Id": "PARAM_HairBow_031"
 					},
 					"VertexIndex": 1,
-					"Scale": 1,
+					"Scale": 0.5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -193,7 +184,7 @@
 						"Id": "PARAM_HairBow_032"
 					},
 					"VertexIndex": 1,
-					"Scale": 1,
+					"Scale": 0.5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -204,7 +195,7 @@
 						"Id": "PARAM_RUYAO_X"
 					},
 					"VertexIndex": 1,
-					"Scale": 0.8,
+					"Scale": 0.6,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -215,7 +206,7 @@
 						"Id": "PARAM_RUYAO_Y"
 					},
 					"VertexIndex": 2,
-					"Scale": 0.8,
+					"Scale": 0.6,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false

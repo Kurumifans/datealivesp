@@ -457,11 +457,50 @@ function battleController.getTime()
    return statistics.time
 end
 
-function battleController.pauseOrResume(isPause)
-    this.adjustSysStartTime()
-    if isPause then
+function battleController.isTiming()
+    if this.isRun() then
+        if this.isLockStep() then
+            return  true
+        else
+            if this.tmTimeDelayhandle then
+                return false
+            end
+            return this.bTiming
+        end
+    end
+    return false
+end
+
+--设置时间停止开始
+function battleController.setTiming(bTime)
+    if this.isLockStep() then
+        return
+    end
+    if EventTrigger:isRunning() then
+        return
+    end
+    if bTime then
+        this.adjustSysStartTime()
+    else
         if this.sysStartTime > this.sysTimeLimit then
-            this.sysPauseTime = BattleUtils.gettime()
+            this.sysStopTime = BattleUtils.gettime()
+        end
+    end
+    this.bTiming = bTime
+    BattleMgr.updatePauseState(not bTime)
+end
+
+function battleController.pauseOrResume(isPause)
+    if isPause then
+        if this.sysStopTime > this.sysTimeLimit then
+            return
+        end
+        if this.sysStartTime > this.sysTimeLimit then
+            this.sysStopTime = BattleUtils.gettime()
+        end
+    else
+        if this.isTiming() then
+            this.adjustSysStartTime()
         end
     end
     BattleMgr.updatePauseState(isPause)
@@ -475,10 +514,10 @@ function battleController.adjustSysStartTime()
         this.sysStartTime = this.sysStartTime + (BattleUtils.gettime() - this.sysStopTime)
         this.sysStopTime = 0
     end
-    if this.sysPauseTime > this.sysTimeLimit then
-        this.sysStartTime = this.sysStartTime + (BattleUtils.gettime() - this.sysPauseTime)
-        this.sysPauseTime = 0
-    end
+end
+
+function battleController.getStopTime()
+    return this.sysStopTime
 end
 
 --真实操作时间（暂停 剧情中断时间除外）
@@ -489,7 +528,11 @@ function battleController.getControlPassTime()
     if this.sysEndBattleTime > 0 then
         return this.sysEndBattleTime - this.sysStartTime
     end
-    return BattleUtils.gettime() - this.sysStartTime
+    local time = 0
+    if this.sysStopTime > this.sysTimeLimit then
+        time = time + (BattleUtils.gettime() - this.sysStopTime)
+    end
+    return BattleUtils.gettime() - (this.sysStartTime + time)
 end
 
 function battleController.fixTime(time)
@@ -523,7 +566,6 @@ function battleController.init(data)
     this.sysTimeLimit = 1577811661 --2020年1月1日
     this.sysStartTime = 0  --开始计时节点时间
     this.sysStopTime = 0   --强制停止计时节点
-    this.sysPauseTime = 0   --游戏暂停时间节点
     this.sysEndBattleTime = 0  --战斗结束时间点
     this.captain = nil --当前正在操作的角色
     KeyStateMgr.setEnable(true)
@@ -734,38 +776,6 @@ function battleController.synchronHurtValue(hero)
     end
 end
 
-
-function battleController.isTiming()
-    if this.isRun() then
-        if this.isLockStep() then
-            return  true
-        else
-            if this.tmTimeDelayhandle then
-                return false
-            end
-            return this.bTiming
-        end
-    end
-    return false
-end
-
---设置时间停止开始
-function battleController.setTiming(bTime)
-    if EventTrigger:isRunning() then
-        return
-    end
-    this.adjustSysStartTime()
-    if bTime then
-        
-    else
-        if this.sysStartTime > this.sysTimeLimit then
-            this.sysStopTime = BattleUtils.gettime()
-        end
-    end
-    this.bTiming = bTime
-    BattleMgr.updatePauseState(not bTime)
-end
-
 function battleController:getBattleData()
     return this.data
 end
@@ -932,7 +942,6 @@ function battleController.clear()
     -- --统计相关
     this.sysStartTime = 0
     this.sysStopTime = 0
-    this.sysPauseTime = 0
     this.sysEndBattleTime = 0
     statistics.clear()
     --关卡胜利条件
@@ -1204,6 +1213,7 @@ function battleController.herosEnter()
                 this.tmTimeDelayhandle = BattleTimerManager:addTimer(this.levelCfg_.delayTime,1,function()
                     BattleTimerManager:removeTimer(this.tmTimeDelayhandle)
                     this.tmTimeDelayhandle = nil
+                    this.setTiming(true)
                 end,nil)
             end
             this.showCounDown(function()
@@ -1677,7 +1687,6 @@ function battleController.update(delta)
     levelParse:update(delta)
     BattleTimerManager:update(delta*0.001)
     --道具更新
-    BattleMgr.update(delta)
     this.handlSlowMotion(delta)
     this.skillExUpdate(delta)
     if this.isTiming() then
@@ -1691,6 +1700,7 @@ function battleController.update(delta)
         --音效触发
         musicMgr.update(delta)
     end
+    BattleMgr.update(delta)
     -- 刷怪
     brushMonster:update(delta)
     if BattleGuide:isGuideStart() then

@@ -124,7 +124,7 @@ function BFEffect:ctor(data)
 
     --持续时间
     self.nDuration  = 0
-    self.sysPauseTime = 0
+    self.sysStopTime = 0
     self.sysStartTime = 0
     --生效次数
     self.nTakeTimes = 0
@@ -248,18 +248,27 @@ function BFEffect:setEnabled(enabled)
 end
 
 function BFEffect:updatePauseState(isPause)
-    if self.nDuration > 0 and self.sysPauseTime > 99999 then
-        self.sysStartTime = self.sysStartTime + (BattleUtils.gettime() - self.sysPauseTime)
-        self.sysPauseTime = 0
-    end
-    if isPause then
-        self.sysPauseTime = BattleUtils.gettime()
+    if self.nDuration > 0 then
+        if isPause then
+            if self.sysStopTime > 99999 then
+                return
+            end
+            self.sysStopTime = battleController.getStopTime()
+        else
+            if battleController.isTiming() and self.sysStopTime > 99999 then
+                self.sysStartTime = self.sysStartTime + (BattleUtils.gettime() - self.sysStopTime)
+                self.sysStopTime = 0
+            end
+        end
     end
 end
 
 function BFEffect:resetSysTime()
     self.sysStartTime = BattleUtils.gettime()
-    self.sysPauseTime = 0
+    self.sysStopTime = 0
+    if not battleController.isTiming() then
+        self.sysStopTime = self.sysStartTime
+    end
 end
 
 --效果ID 叠加的依据
@@ -939,13 +948,12 @@ function BFEffect:handlDuration(dt)
     end
     if self.nDuration > 0 then
         -- _print("handlDuration "..self.data.id.." ,"..self.nDuration )
-        local time = self:getSuplusTime()
         if self:isTwinkleTime() then -- 小于3秒闪提示icon闪所
             self:twinkleIcon(true)
         else
             self:twinkleIcon(false)
         end
-        if time <= 0 then
+        if self:getSuplusTime() <= 0 then
             self:normalDestory()
         end
     end
@@ -953,7 +961,11 @@ end
 
 function BFEffect:getSuplusTime()
     if self.nDuration > 0 then
-        return self.nDuration - (BattleUtils.gettime() - self.sysStartTime)
+        local time = 0
+        if self.sysStopTime > 9999 then
+            time = BattleUtils.gettime() - self.sysStopTime
+        end
+        return math.max(self.nDuration - (BattleUtils.gettime() - self.sysStartTime - time),0)
     end
     return 0
 end
@@ -1536,8 +1548,7 @@ function BFEffect:twinkleIcon(flag)
 end
 --是否到了闪烁倒计时时间段
 function BFEffect:isTwinkleTime()
-    local time = self:getSuplusTime()
-    return time <= 3000 and self.nDuration ~= -1
+    return self:getSuplusTime() <= 3000 and self.nDuration ~= -1
 end
 
 --获取buffer 效果类型
