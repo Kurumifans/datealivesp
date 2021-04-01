@@ -743,7 +743,7 @@ function TTFLive2D:playClipOut()
         end,0)
 end
 
-local TFLive2dTimer = nil;
+local TFLive2dTimer = {};
 function TTFLive2D:addRenderTexture()
 	local renderSize = self.getSize and self:getSize() or {width = 500,height = 300}
 	local tx = CCRenderTexture:create(renderSize.width,renderSize.height)
@@ -766,9 +766,13 @@ function TTFLive2D:addRenderTexture()
 	local function delayToGame(dt)
 
 		if tolua.isnull(self) then
-			TFDirector:removeTimer(TFLive2dTimer);
-	    	self.timer_ = nil
-	    	TFLive2dTimer = nil;
+			for i = #TFLive2dTimer,1,-1 do
+				local tb = TFLive2dTimer[i]
+				if tolua.isnull(tb.obj) then
+					TFDirector:removeTimer(tb.timer)
+					table.remove(TFLive2dTimer,i)
+				end
+			end
 	    	return;
 		end
 		if not self.timer_ then
@@ -787,8 +791,7 @@ function TTFLive2D:addRenderTexture()
 	end
 	self:stopTimer()
 	self.timer_ = TFDirector:addTimer(10, 1, nil, delayToGame)
-	TFLive2dTimer = self.timer_;
-
+	table.insert(TFLive2dTimer,{ obj = self, timer_ = self.timer_})
 	return sp
 end
 
@@ -819,11 +822,12 @@ function TTFLive2D:stopTimer()
 	if self.timer_ then
 	    TFDirector:removeTimer(self.timer_)
 	    self.timer_ = nil
-	    TFLive2dTimer = nil;
-	end
-	if TFLive2dTimer then
-		TFDirector:removeTimer(TFLive2dTimer)
-		TFLive2dTimer = nil
+	    for k,v in pairs(TFLive2dTimer) do
+	    	if self == v.obj then
+	    		table.remove(TFLive2dTimer,k)
+	    		break;
+	    	end
+	    end
 	end
 end
 

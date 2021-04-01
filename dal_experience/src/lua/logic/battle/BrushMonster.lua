@@ -147,11 +147,16 @@ function BrushMonster:update(delta)
     if not self:isEnabled() then 
         return 
     end
+    if self.brushTime and self.brushTime > 100 then
+        if self.levelCfg_.delayCreateTime and self.levelCfg_.delayCreateTime > 100 and battleController.getControlPassTime() < self.levelCfg_.delayCreateTime then
+            return
+        end
+    end
+    
     for i = #self.timeNode_, 1, -1 do
         local node = self.timeNode_[i]
         if node:update(delta) then
             local monster, isEmpty = node:trigger()
-
             self.count_ = self.count_ + 1
             -- 词缀怪
             local index = table.indexOf(self.affixIndex_, self.count_)

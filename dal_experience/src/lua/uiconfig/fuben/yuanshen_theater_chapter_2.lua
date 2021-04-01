@@ -124,12 +124,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/1.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/1.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 227,
-								PositionY = 94,
+								PositionX = 324,
+								PositionY = 8,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -150,12 +150,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/2.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/2.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 467,
-								PositionY = 14,
+								PositionX = 564,
+								PositionY = -73,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -176,12 +176,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/3.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/3.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 637,
-								PositionY = -53,
+								PositionX = 712,
+								PositionY = -123,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -202,12 +202,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/4.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/4.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 952,
-								PositionY = 8,
+								PositionX = 870,
+								PositionY = 18,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -228,12 +228,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/5.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/5.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1114,
-								PositionY = -109,
+								PositionX = 1061,
+								PositionY = 23,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -254,12 +254,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/6.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/6-1.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1332,
-								PositionY = -5,
+								PositionX = 1297,
+								PositionY = 14,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -280,12 +280,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/7.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/7.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1502,
-								PositionY = -24,
+								PositionX = 1660,
+								PositionY = 39,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -306,12 +306,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/8.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/7.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1818,
-								PositionY = -144,
+								PositionX = 1923,
+								PositionY = 39,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -332,12 +332,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/9.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/7.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 2067,
-								PositionY = -4,
+								PositionX = 2186,
+								PositionY = 39,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -358,12 +358,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/10.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/6-2.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 2318,
-								PositionY = 92,
+								PositionX = 1299,
+								PositionY = -120,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -384,12 +384,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/11.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/7.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 3015,
-								PositionY = 121,
+								PositionX = 1659,
+								PositionY = -145,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -410,12 +410,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/12.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/7.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 2699,
-								PositionY = -29,
+								PositionX = 1924,
+								PositionY = -145,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -436,12 +436,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/13.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/7.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 2947,
-								PositionY = -91,
+								PositionX = 2187,
+								PositionY = -145,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -462,12 +462,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/14.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/8.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 3331,
-								PositionY = -40,
+								PositionX = 2521,
+								PositionY = -91,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -488,12 +488,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/15.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/9.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 3618,
-								PositionY = 78,
+								PositionX = 2836,
+								PositionY = -6,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -514,19 +514,19 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/16.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/10.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 3919,
-								PositionY = 47,
+								PositionX = 2934,
+								PositionY = -62,
 							},
 							width = "2",
 							ZOrder = "1",
 						},
 						{
 							controlID = "Image_line_017_Panel_line_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
-							UUID = "d5c4b519_f9b3_4f7a_93b1_a554d001ff04",
+							UUID = "2942659f_2978_45e8_a5c1_a7458c417379",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
@@ -540,19 +540,19 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/17.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/11.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 4158,
-								PositionY = -25,
+								PositionX = 3100,
+								PositionY = -124,
 							},
 							width = "2",
 							ZOrder = "1",
 						},
 						{
 							controlID = "Image_line_018_Panel_line_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
-							UUID = "f1c4bc07_5bf1_4d54_8755_f54356f0daa0",
+							UUID = "d5c4b519_f9b3_4f7a_93b1_a554d001ff04",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
@@ -566,19 +566,19 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/18.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/11.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 4458,
-								PositionY = 23,
+								PositionX = 3334,
+								PositionY = -46,
 							},
 							width = "2",
 							ZOrder = "1",
 						},
 						{
 							controlID = "Image_line_019_Panel_line_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
-							UUID = "9e5dffc1_ccd1_4c5e_ae00_d9f18dbd5b1b",
+							UUID = "29d3e448_9f94_4f76_bc02_378529016ff5",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
@@ -592,19 +592,19 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/19.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/6-1.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 4753,
-								PositionY = -40,
+								PositionX = 3546,
+								PositionY = 56,
 							},
 							width = "2",
 							ZOrder = "1",
 						},
 						{
 							controlID = "Image_line_020_Panel_line_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
-							UUID = "93a62aa9_fbda_4cd9_9258_d9ee321f14c6",
+							UUID = "f1c4bc07_5bf1_4d54_8755_f54356f0daa0",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
@@ -618,19 +618,19 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/20.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/12.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 4993,
-								PositionY = 46,
+								PositionX = 3913,
+								PositionY = 86,
 							},
 							width = "2",
 							ZOrder = "1",
 						},
 						{
 							controlID = "Image_line_021_Panel_line_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
-							UUID = "c76bcf3d_f234_49ab_8e7d_0a709b70afa6",
+							UUID = "93cca49c_e4b4_4f33_b16b_078f11d1f9e6",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
@@ -644,19 +644,19 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/21.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/6-2.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 5202,
-								PositionY = -19,
+								PositionX = 3547,
+								PositionY = -78,
 							},
 							width = "2",
 							ZOrder = "1",
 						},
 						{
 							controlID = "Image_line_022_Panel_line_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
-							UUID = "a76abdb5_5557_4f28_afd9_fdffeda07314",
+							UUID = "9e5dffc1_ccd1_4c5e_ae00_d9f18dbd5b1b",
 							anchorPoint = "False",
 							anchorPointX = "0.5",
 							anchorPointY = "0.5",
@@ -670,38 +670,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/22.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/chapter2/12.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 5506,
-								PositionY = 37,
-							},
-							width = "2",
-							ZOrder = "1",
-						},
-						{
-							controlID = "Image_line_023_Panel_line_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
-							UUID = "88a6167d_3eb9_40f7_9b42_cf126c322183",
-							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
-							backGroundScale9Enable = "False",
-							classname = "MEImage",
-							dstBlendFunc = "771",
-							height = "2",
-							ignoreSize = "True",
-							name = "Image_line_023",
-							sizepercentx = "0",
-							sizepercenty = "0",
-							sizeType = "0",
-							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/2/23.png",
-							touchAble = "False",
-							UILayoutViewModel = 
-							{
-								PositionX = 5825,
-								PositionY = -41,
+								PositionX = 3914,
+								PositionY = -102,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -807,8 +781,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 443,
-								PositionY = 106,
+								PositionX = 534,
+								PositionY = -19,
 							},
 							uipanelviewmodel = 
 							{
@@ -843,8 +817,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 445,
-								PositionY = -132,
+								PositionX = 533,
+								PositionY = -177,
 							},
 							uipanelviewmodel = 
 							{
@@ -858,8 +832,8 @@ local t =
 							controlID = "Panel_level_004_Panel_level_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
 							UUID = "154d2fcb_72d4_4dda_90f4_63de1b3d495b",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
+							anchorPointX = "0.3",
+							anchorPointY = "0.8",
 							backGroundScale9Enable = "False",
 							bgColorOpacity = "150",
 							bIsOpenClipping = "False",
@@ -879,8 +853,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 776,
-								PositionY = -18,
+								PositionX = 844,
+								PositionY = -108,
 							},
 							uipanelviewmodel = 
 							{
@@ -915,8 +889,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1083,
-								PositionY = -18,
+								PositionX = 846,
+								PositionY = 70,
 							},
 							uipanelviewmodel = 
 							{
@@ -952,7 +926,79 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 1230,
-								PositionY = -210,
+								PositionY = -80,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "40",
+							ZOrder = "1",
+						},
+						{
+							controlID = "Panel_level_020_Panel_level_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
+							UUID = "6b9a09bc_f1fe_4035_8f53_a10b13ba5b89",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "150",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "1;SingleColor:#FFFF4500;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "40",
+							ignoreSize = "False",
+							name = "Panel_level_020",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 1484,
+								PositionY = 13,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "40",
+							ZOrder = "1",
+						},
+						{
+							controlID = "Panel_level_021_Panel_level_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
+							UUID = "bf6959ff_6e5c_46f4_8562_635fc6c432d4",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "150",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "1;SingleColor:#FFFF4500;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "40",
+							ignoreSize = "False",
+							name = "Panel_level_021",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 1484,
+								PositionY = -172,
 							},
 							uipanelviewmodel = 
 							{
@@ -987,8 +1033,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1445,
-								PositionY = 106,
+								PositionX = 1769,
+								PositionY = 14,
 							},
 							uipanelviewmodel = 
 							{
@@ -1023,8 +1069,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1616,
-								PositionY = -171,
+								PositionX = 2034,
+								PositionY = 12,
 							},
 							uipanelviewmodel = 
 							{
@@ -1059,8 +1105,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1980,
-								PositionY = -172,
+								PositionX = 2295,
+								PositionY = 13,
 							},
 							uipanelviewmodel = 
 							{
@@ -1095,8 +1141,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 2172,
-								PositionY = 65,
+								PositionX = 1770,
+								PositionY = -173,
 							},
 							uipanelviewmodel = 
 							{
@@ -1131,8 +1177,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 2469,
-								PositionY = 155,
+								PositionX = 2033,
+								PositionY = -172,
 							},
 							uipanelviewmodel = 
 							{
@@ -1167,8 +1213,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 2472,
-								PositionY = -28,
+								PositionX = 2297,
+								PositionY = -169,
 							},
 							uipanelviewmodel = 
 							{
@@ -1203,8 +1249,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 2747,
-								PositionY = -120,
+								PositionX = 2697,
+								PositionY = -69,
 							},
 							uipanelviewmodel = 
 							{
@@ -1239,8 +1285,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 3099,
-								PositionY = -121,
+								PositionX = 2935,
+								PositionY = 6,
 							},
 							uipanelviewmodel = 
 							{
@@ -1254,8 +1300,8 @@ local t =
 							controlID = "Panel_level_015_Panel_level_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
 							UUID = "8531188c_c2d4_4bad_b8ca_b71b9457d88d",
 							anchorPoint = "False",
-							anchorPointX = "0.3",
-							anchorPointY = "0.8",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
 							backGroundScale9Enable = "False",
 							bgColorOpacity = "150",
 							bIsOpenClipping = "False",
@@ -1275,8 +1321,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 3362,
-								PositionY = 49,
+								PositionX = 2960,
+								PositionY = -184,
 							},
 							uipanelviewmodel = 
 							{
@@ -1311,8 +1357,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 3711,
-								PositionY = 117,
+								PositionX = 3197,
+								PositionY = -112,
 							},
 							uipanelviewmodel = 
 							{
@@ -1347,8 +1393,80 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 3951,
-								PositionY = -115,
+								PositionX = 3435,
+								PositionY = -37,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "40",
+							ZOrder = "1",
+						},
+						{
+							controlID = "Panel_level_022_Panel_level_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
+							UUID = "49caa548_a60a_4127_b339_2ba990425c70",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "150",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "1;SingleColor:#FFFF4500;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "40",
+							ignoreSize = "False",
+							name = "Panel_level_022",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 3738,
+								PositionY = 57,
+							},
+							uipanelviewmodel = 
+							{
+								Layout="Absolute",
+								nType = "0"
+							},
+							width = "40",
+							ZOrder = "1",
+						},
+						{
+							controlID = "Panel_level_023_Panel_level_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
+							UUID = "49a13897_837f_47c7_a994_b40a703a9e16",
+							anchorPoint = "False",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
+							backGroundScale9Enable = "False",
+							bgColorOpacity = "150",
+							bIsOpenClipping = "False",
+							classname = "MEPanel",
+							colorType = "1;SingleColor:#FFFF4500;GraduallyChangingColorStart:#FFFFFFFF;GraduallyChangingColorEnd:#FFFFFFFF;vectorX:0;vectorY:0",
+							DesignHeight = "640",
+							DesignType = "0",
+							DesignWidth = "960",
+							dstBlendFunc = "771",
+							height = "40",
+							ignoreSize = "False",
+							name = "Panel_level_023",
+							sizepercentx = "0",
+							sizepercenty = "0",
+							sizeType = "0",
+							srcBlendFunc = "1",
+							touchAble = "False",
+							UILayoutViewModel = 
+							{
+								PositionX = 3739,
+								PositionY = -128,
 							},
 							uipanelviewmodel = 
 							{
@@ -1362,8 +1480,8 @@ local t =
 							controlID = "Panel_level_018_Panel_level_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
 							UUID = "ecf5f1b9_90e8_4106_a898_ecd9cda27239",
 							anchorPoint = "False",
-							anchorPointX = "0.5",
-							anchorPointY = "0.5",
+							anchorPointX = "0.3",
+							anchorPointY = "0.8",
 							backGroundScale9Enable = "False",
 							bgColorOpacity = "150",
 							bIsOpenClipping = "False",
@@ -1383,8 +1501,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 4191,
-								PositionY = 45,
+								PositionX = 4015,
+								PositionY = 78,
 							},
 							uipanelviewmodel = 
 							{
@@ -1398,8 +1516,8 @@ local t =
 							controlID = "Panel_level_019_Panel_level_Panel-yuanshen_theater_chapter_2_yuanshen_fuben_Game",
 							UUID = "63bdff1a_2516_415b_b683_1605ac61741b",
 							anchorPoint = "False",
-							anchorPointX = "0.3",
-							anchorPointY = "0.8",
+							anchorPointX = "0.5",
+							anchorPointY = "0.5",
 							backGroundScale9Enable = "False",
 							bgColorOpacity = "150",
 							bIsOpenClipping = "False",
@@ -1419,8 +1537,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 4559,
-								PositionY = -92,
+								PositionX = 4023,
+								PositionY = -129,
 							},
 							uipanelviewmodel = 
 							{
@@ -1444,29 +1562,19 @@ local t =
 		textures = 
 		{
 			"0-1效果图.png",
-			"ui/fuben/kuangsanwaizhuan/2/1.png",
-			"ui/fuben/kuangsanwaizhuan/2/2.png",
-			"ui/fuben/kuangsanwaizhuan/2/3.png",
-			"ui/fuben/kuangsanwaizhuan/2/4.png",
-			"ui/fuben/kuangsanwaizhuan/2/5.png",
-			"ui/fuben/kuangsanwaizhuan/2/6.png",
-			"ui/fuben/kuangsanwaizhuan/2/7.png",
-			"ui/fuben/kuangsanwaizhuan/2/8.png",
-			"ui/fuben/kuangsanwaizhuan/2/9.png",
-			"ui/fuben/kuangsanwaizhuan/2/10.png",
-			"ui/fuben/kuangsanwaizhuan/2/11.png",
-			"ui/fuben/kuangsanwaizhuan/2/12.png",
-			"ui/fuben/kuangsanwaizhuan/2/13.png",
-			"ui/fuben/kuangsanwaizhuan/2/14.png",
-			"ui/fuben/kuangsanwaizhuan/2/15.png",
-			"ui/fuben/kuangsanwaizhuan/2/16.png",
-			"ui/fuben/kuangsanwaizhuan/2/17.png",
-			"ui/fuben/kuangsanwaizhuan/2/18.png",
-			"ui/fuben/kuangsanwaizhuan/2/19.png",
-			"ui/fuben/kuangsanwaizhuan/2/20.png",
-			"ui/fuben/kuangsanwaizhuan/2/21.png",
-			"ui/fuben/kuangsanwaizhuan/2/22.png",
-			"ui/fuben/kuangsanwaizhuan/2/23.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/1.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/2.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/3.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/4.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/5.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/6-1.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/7.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/6-2.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/8.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/9.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/10.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/11.png",
+			"ui/fuben/yuanshenjuchang/line/chapter2/12.png",
 		},
 		armatures = 
 		{

@@ -43458,6 +43458,20 @@ return {
         musicType = 0,
     },
     [3024] = {
+        action = "skillE",
+        cartoonType = 1,
+        triggerEvents = {
+            [1] = "music0",
+        },
+        cartoonResource = "fight_13301",
+        stopJudge = 0,
+        name = "凛绪-额外技能-语音",
+        volume = 100,
+        resource = "sound/13301/SonoRinne_061_B.mp3",
+        id = 3024,
+        musicType = 1,
+    },
+    [3025] = {
         action = "skillE_zhaohuan",
         cartoonType = 2,
         triggerEvents = {
@@ -43468,10 +43482,10 @@ return {
         name = "凛祢-额外技能-召唤",
         volume = 100,
         resource = "sound/13301/skillE2.mp3",
-        id = 3024,
+        id = 3025,
         musicType = 0,
     },
-    [3025] = {
+    [3026] = {
         action = "skill1_all",
         cartoonType = 2,
         triggerEvents = {
@@ -43482,10 +43496,10 @@ return {
         name = "黑色守护者-施法音效",
         volume = 100,
         resource = "sound/13301/b_skill1_2.mp3",
-        id = 3025,
+        id = 3026,
         musicType = 0,
     },
-    [3026] = {
+    [3027] = {
         action = "skill1_dimian",
         cartoonType = 2,
         triggerEvents = {
@@ -43496,10 +43510,10 @@ return {
         name = "黑色守护者-落雷1",
         volume = 100,
         resource = "sound/13301/b_skill1_1.mp3",
-        id = 3026,
+        id = 3027,
         musicType = 0,
     },
-    [3027] = {
+    [3028] = {
         action = "skill1_dimian2",
         cartoonType = 2,
         triggerEvents = {
@@ -43510,10 +43524,10 @@ return {
         name = "黑色守护者-落雷2",
         volume = 100,
         resource = "sound/13301/b_skill1_1.mp3",
-        id = 3027,
+        id = 3028,
         musicType = 0,
     },
-    [3028] = {
+    [3029] = {
         action = "skill1_dimian3",
         cartoonType = 2,
         triggerEvents = {
@@ -43524,10 +43538,10 @@ return {
         name = "黑色守护者-落雷3",
         volume = 100,
         resource = "sound/13301/b_skill1_1.mp3",
-        id = 3028,
+        id = 3029,
         musicType = 0,
     },
-    [3029] = {
+    [3030] = {
         action = "skill2_all",
         cartoonType = 2,
         triggerEvents = {
@@ -43538,10 +43552,10 @@ return {
         name = "黑色守护者-地裂音效",
         volume = 100,
         resource = "sound/13301/b_skill2.mp3",
-        id = 3029,
+        id = 3030,
         musicType = 0,
     },
-    [3030] = {
+    [3031] = {
         action = "fight_Watchmen_3_skill1",
         cartoonType = 1,
         triggerEvents = {
@@ -43552,10 +43566,10 @@ return {
         name = "白色守护者-扔球",
         volume = 100,
         resource = "sound/13301/w_skill1.mp3",
-        id = 3030,
+        id = 3031,
         musicType = 0,
     },
-    [3031] = {
+    [3032] = {
         action = "skill2_xishou",
         cartoonType = 2,
         triggerEvents = {
@@ -43566,10 +43580,10 @@ return {
         name = "白色守护者-吸收",
         volume = 100,
         resource = "sound/13301/w_skill2_1.mp3",
-        id = 3031,
+        id = 3032,
         musicType = 0,
     },
-    [3032] = {
+    [3033] = {
         action = "skill2_fashe",
         cartoonType = 2,
         triggerEvents = {
@@ -43580,10 +43594,10 @@ return {
         name = "白色守护者-发射",
         volume = 100,
         resource = "sound/13301/w_skill2_2.mp3",
-        id = 3032,
+        id = 3033,
         musicType = 0,
     },
-    [3033] = {
+    [3034] = {
         action = "fight_Watchmen_2_skill1_1",
         cartoonType = 1,
         triggerEvents = {
@@ -43594,10 +43608,10 @@ return {
         name = "红色守护者-法圈",
         volume = 100,
         resource = "sound/13301/r_skill1.mp3",
-        id = 3033,
+        id = 3034,
         musicType = 0,
     },
-    [3034] = {
+    [3035] = {
         action = "fight_Watchmen_2_skill2",
         cartoonType = 1,
         triggerEvents = {
@@ -43608,7 +43622,7 @@ return {
         name = "红色守护者-血池",
         volume = 100,
         resource = "sound/13301/r_skill2.mp3",
-        id = 3034,
+        id = 3035,
         musicType = 0,
     },
     [3036] = {

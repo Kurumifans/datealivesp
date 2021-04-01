@@ -71,6 +71,7 @@ function TopBar:initUI(ui)
                             --Utils:notOpenTips()
                             --RechargeDataMgr:showRechageLayer();
                             FunctionDataMgr:jPay()
+                            Utils:sendHttpLog("Diamond")
                         else
                             if StoreDataMgr:canContinueBuyItemRecover(itemCfg.buyItemRecover) then
 --								if EC_SItemType.POWER == v[1] then
@@ -78,6 +79,11 @@ function TopBar:initUI(ui)
 --								else
 									Utils:openView("common.BuyResourceView", v[1])
 --								end
+                                if v[1] == EC_SItemType.POWER then
+                                    Utils:sendHttpLog("strength")
+                                elseif v[1] == EC_SItemType.GOLD then
+                                    Utils:sendHttpLog("gold")
+                                end
                             else
                                 Utils:showTips(800021)
                             end

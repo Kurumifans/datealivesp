@@ -75,7 +75,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430527,
         startGroup = {
         },
@@ -192,7 +192,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430305,
         startGroup = {
         },
@@ -455,7 +455,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430401,
         startGroup = {
         },
@@ -572,7 +572,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430306,
         startGroup = {
         },
@@ -835,7 +835,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430402,
         startGroup = {
         },
@@ -1246,7 +1246,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430403,
         startGroup = {
         },
@@ -1363,7 +1363,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430308,
         startGroup = {
         },
@@ -1482,7 +1482,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 0,
-        countLimit = 1,
+        countLimit = 2,
         id = 420053,
         startGroup = {
         },
@@ -1595,7 +1595,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430404,
         startGroup = {
         },
@@ -1712,7 +1712,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430309,
         startGroup = {
         },
@@ -1829,7 +1829,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430405,
         startGroup = {
         },
@@ -1946,7 +1946,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430310,
         startGroup = {
         },
@@ -2063,7 +2063,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430501,
         startGroup = {
         },
@@ -2181,7 +2181,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430406,
         startGroup = {
         },
@@ -2298,7 +2298,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430311,
         startGroup = {
         },
@@ -2415,7 +2415,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430502,
         startGroup = {
         },
@@ -2533,7 +2533,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430407,
         startGroup = {
         },
@@ -2650,7 +2650,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430312,
         startGroup = {
         },
@@ -2767,7 +2767,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430503,
         startGroup = {
         },
@@ -2885,7 +2885,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430408,
         startGroup = {
         },
@@ -3002,7 +3002,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430313,
         startGroup = {
         },
@@ -3119,7 +3119,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430504,
         startGroup = {
         },
@@ -3237,7 +3237,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430409,
         startGroup = {
         },
@@ -3354,7 +3354,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430314,
         startGroup = {
         },
@@ -3471,7 +3471,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430505,
         startGroup = {
         },
@@ -3589,7 +3589,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430410,
         startGroup = {
         },
@@ -3706,7 +3706,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430315,
         startGroup = {
         },
@@ -3823,7 +3823,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430506,
         startGroup = {
         },
@@ -3941,7 +3941,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430411,
         startGroup = {
         },
@@ -4059,7 +4059,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430507,
         startGroup = {
         },
@@ -4177,7 +4177,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430412,
         startGroup = {
         },
@@ -4438,7 +4438,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 2,
         id = 440001,
         startGroup = {
         },
@@ -4553,7 +4553,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430508,
         startGroup = {
         },
@@ -4671,7 +4671,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430413,
         startGroup = {
         },
@@ -4941,7 +4941,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 440002,
         startGroup = {
         },
@@ -5162,7 +5162,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430414,
         startGroup = {
         },
@@ -5434,7 +5434,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 440003,
         startGroup = {
         },
@@ -5656,7 +5656,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430415,
         startGroup = {
         },
@@ -5776,7 +5776,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 0,
-        countLimit = 1,
+        countLimit = 2,
         id = 420033,
         startGroup = {
         },
@@ -5993,7 +5993,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430416,
         startGroup = {
         },
@@ -6215,7 +6215,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430417,
         startGroup = {
         },
@@ -6437,7 +6437,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430418,
         startGroup = {
         },
@@ -6663,7 +6663,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430514,
         startGroup = {
         },
@@ -6781,7 +6781,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430419,
         startGroup = {
         },
@@ -7007,7 +7007,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430515,
         startGroup = {
         },
@@ -7125,7 +7125,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430420,
         startGroup = {
         },
@@ -7351,7 +7351,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430516,
         startGroup = {
         },
@@ -7469,7 +7469,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430421,
         startGroup = {
         },
@@ -7695,7 +7695,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430517,
         startGroup = {
         },
@@ -7813,7 +7813,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430422,
         startGroup = {
         },
@@ -8185,7 +8185,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430518,
         startGroup = {
         },
@@ -8303,7 +8303,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430423,
         startGroup = {
         },
@@ -8532,7 +8532,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430307,
         startGroup = {
         },
@@ -8649,7 +8649,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430519,
         startGroup = {
         },
@@ -9027,7 +9027,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 0,
-        countLimit = 1,
+        countLimit = 2,
         id = 420023,
         startGroup = {
         },
@@ -9140,7 +9140,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430520,
         startGroup = {
         },
@@ -9516,7 +9516,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430509,
         startGroup = {
         },
@@ -9634,7 +9634,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430521,
         startGroup = {
         },
@@ -10011,7 +10011,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430512,
         startGroup = {
         },
@@ -10129,7 +10129,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430522,
         startGroup = {
         },
@@ -10249,7 +10249,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 0,
-        countLimit = 1,
+        countLimit = 2,
         id = 420013,
         startGroup = {
         },
@@ -10474,7 +10474,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430513,
         startGroup = {
         },
@@ -10592,7 +10592,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430523,
         startGroup = {
         },
@@ -10709,7 +10709,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430301,
         startGroup = {
         },
@@ -10826,7 +10826,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430511,
         startGroup = {
         },
@@ -10944,7 +10944,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430510,
         startGroup = {
         },
@@ -11062,7 +11062,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430524,
         startGroup = {
         },
@@ -11179,7 +11179,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430302,
         startGroup = {
         },
@@ -11296,7 +11296,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430425,
         startGroup = {
         },
@@ -11414,7 +11414,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 5,
-        countLimit = 1,
+        countLimit = 3,
         id = 430424,
         startGroup = {
         },
@@ -11532,7 +11532,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430525,
         startGroup = {
         },
@@ -11649,7 +11649,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430303,
         startGroup = {
         },
@@ -12059,7 +12059,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 6,
-        countLimit = 1,
+        countLimit = 3,
         id = 430526,
         startGroup = {
         },
@@ -12176,7 +12176,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 4,
-        countLimit = 1,
+        countLimit = 2,
         id = 430304,
         startGroup = {
         },
@@ -12588,7 +12588,7 @@ return {
             [2] = 80,
         },
         challangeLevel = 0,
-        countLimit = 1,
+        countLimit = 2,
         id = 420043,
         startGroup = {
         },

@@ -370,7 +370,7 @@ function DatingChangeBgView:circleChange(closeCallBack,refreshBgStateCallBack)
 
     stencil:Scale(15)
 
-    local time = 1
+    local time = 1.6
     local acArrOut = TFVector:create()
     local scaleIn = CCScaleTo:create(time/2,0)
     local deyTime = CCDelayTime:create(0.5)

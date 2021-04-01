@@ -249,7 +249,7 @@ function Skill:handlLimitTime( time )
     if self.nLimitTime > 0 then
         self.nLimitTime = self.nLimitTime - time
         self.nLimitTime = math.max(self.nLimitTime, 0)
-        local lastPercent = self.nLimitPercent
+        local lastPercent = self.nLimitPercent or 100
         self.nLimitPercent = math.floor(self.nLimitTime/self.skillCfg.limitTime*100)
         if lastPercent - self.nLimitPercent > 0 then
             EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE,self)
@@ -1310,12 +1310,12 @@ function Skill:onEventTrigger(source,event,target,param)
         printError("onEventTrigger event is nil")
         Box("onEventTrigger event is nil")
     end
-    local condition = self.skillCfg.conditionSkill or {}
-    for k,cond in ipairs(condition) do
-        if condition.event == event then
-            if condition.type == 1 then
-                if condition.skillId and condition.skillId > 0 then 
-                    local skill  = self.hero:getSkillByCid(condition.skillId)
+    local triggers = self.skillCfg.conditionSkill or {}
+    for k,trigger in ipairs(triggers) do
+        if battleController.checkCondSuccess(trigger.cond,{skill = self, event = event, source = source, target = target, param = param }) then
+            if trigger.type == 1 then
+                if trigger.skillId and trigger.skillId > 0 then 
+                    local skill  = self.hero:getSkillByCid(trigger.skillId)
                     self:setVisiable(false)
                     skill:setVisiable(true)
                 end

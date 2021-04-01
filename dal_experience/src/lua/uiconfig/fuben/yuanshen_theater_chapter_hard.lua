@@ -95,8 +95,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 51,
-						PositionY = 13,
+						PositionX = 41,
+						PositionY = 36,
 					},
 					uipanelviewmodel = 
 					{
@@ -124,12 +124,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/3/1.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/hard/1.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 165,
-								PositionY = 94,
+								PositionX = 71,
+								PositionY = -67,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -150,12 +150,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/3/2.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/hard/2.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 327,
-								PositionY = 12,
+								PositionX = 121,
+								PositionY = -232,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -176,12 +176,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/3/3.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/hard/3.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 492,
-								PositionY = -65,
+								PositionX = 311,
+								PositionY = -318,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -202,12 +202,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/3/4.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/hard/4.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 705,
-								PositionY = 108,
+								PositionX = 489,
+								PositionY = -192,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -228,12 +228,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/3/5.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/hard/5.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 905,
-								PositionY = 98,
+								PositionX = 663,
+								PositionY = -67,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -254,12 +254,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/3/6.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/hard/4.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 905,
-								PositionY = -38,
+								PositionX = 827,
+								PositionY = -190,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -280,12 +280,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/3/7.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/hard/3.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1074,
-								PositionY = -105,
+								PositionX = 1016,
+								PositionY = -316,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -306,12 +306,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/3/8.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/hard/2.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1241,
-								PositionY = 21,
+								PositionX = 1202,
+								PositionY = -232,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -332,12 +332,12 @@ local t =
 							sizepercenty = "0",
 							sizeType = "0",
 							srcBlendFunc = "1",
-							texturePath = "ui/fuben/kuangsanwaizhuan/3/9.png",
+							texturePath = "ui/fuben/yuanshenjuchang/line/hard/1.png",
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1462,
-								PositionY = 66,
+								PositionX = 1263,
+								PositionY = -68,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -369,8 +369,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 46,
-						PositionY = 42,
+						PositionX = 36,
+						PositionY = 65,
 					},
 					uipanelviewmodel = 
 					{
@@ -443,8 +443,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 333,
-								PositionY = 103,
+								PositionX = 112,
+								PositionY = -177,
 							},
 							uipanelviewmodel = 
 							{
@@ -479,8 +479,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 334,
-								PositionY = -137,
+								PositionX = 175,
+								PositionY = -346,
 							},
 							uipanelviewmodel = 
 							{
@@ -515,8 +515,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 588,
-								PositionY = -16,
+								PositionX = 456,
+								PositionY = -349,
 							},
 							uipanelviewmodel = 
 							{
@@ -551,8 +551,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 911,
-								PositionY = 137,
+								PositionX = 529,
+								PositionY = -96,
 							},
 							uipanelviewmodel = 
 							{
@@ -587,7 +587,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 911,
+								PositionX = 808,
+								PositionY = -96,
 							},
 							uipanelviewmodel = 
 							{
@@ -622,8 +623,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 910,
-								PositionY = -135,
+								PositionX = 880,
+								PositionY = -345,
 							},
 							uipanelviewmodel = 
 							{
@@ -658,8 +659,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1249,
-								PositionY = -133,
+								PositionX = 1161,
+								PositionY = -345,
 							},
 							uipanelviewmodel = 
 							{
@@ -694,8 +695,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1250,
-								PositionY = 112,
+								PositionX = 1220,
+								PositionY = -178,
 							},
 							uipanelviewmodel = 
 							{
@@ -730,8 +731,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 1693,
-								PositionY = -34,
+								PositionX = 1269,
+								PositionY = -17,
 							},
 							uipanelviewmodel = 
 							{
@@ -755,15 +756,11 @@ local t =
 		textures = 
 		{
 			"0-1效果图.png",
-			"ui/fuben/kuangsanwaizhuan/3/1.png",
-			"ui/fuben/kuangsanwaizhuan/3/2.png",
-			"ui/fuben/kuangsanwaizhuan/3/3.png",
-			"ui/fuben/kuangsanwaizhuan/3/4.png",
-			"ui/fuben/kuangsanwaizhuan/3/5.png",
-			"ui/fuben/kuangsanwaizhuan/3/6.png",
-			"ui/fuben/kuangsanwaizhuan/3/7.png",
-			"ui/fuben/kuangsanwaizhuan/3/8.png",
-			"ui/fuben/kuangsanwaizhuan/3/9.png",
+			"ui/fuben/yuanshenjuchang/line/hard/1.png",
+			"ui/fuben/yuanshenjuchang/line/hard/2.png",
+			"ui/fuben/yuanshenjuchang/line/hard/3.png",
+			"ui/fuben/yuanshenjuchang/line/hard/4.png",
+			"ui/fuben/yuanshenjuchang/line/hard/5.png",
 		},
 		armatures = 
 		{

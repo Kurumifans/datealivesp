@@ -98,6 +98,7 @@ function NewRoleShowView:initUI(ui)
     self.Image_notplay = TFDirector:getChildByPath(self.Button_switch, "Image_notplay")
     self.Image_circle = TFDirector:getChildByPath(self.Button_switch, "Image_circle")
 	self.NpcEffect = TFDirector:getChildByPath(self.ui, "NpcEffect")
+	self.Panel_newRole = TFDirector:getChildByPath(self.ui, "Panel_newRole")
 
 	self.TrialDressTimeBg = TFDirector:getChildByPath(self.ui, "TrialDressTimeBg"):hide()
 	self.TrialDressTime = TFDirector:getChildByPath(self.TrialDressTimeBg, "TrialDressTime")
@@ -147,6 +148,7 @@ function NewRoleShowView:initMid()
     self.Label_role_name = TFDirector:getChildByPath(self.Panel_mid, "Label_role_name")
     self.Label_enName = TFDirector:getChildByPath(self.Panel_mid, "Label_enName")
     self.Label_enName2 = TFDirector:getChildByPath(self.Panel_mid, "Label_enName2")
+    self.NpcEffectPanel = TFDirector:getChildByPath(self.Panel_mid, "NpcEffectPanel")
 
     self:initFavorAndMood()
 end
@@ -1137,7 +1139,7 @@ function NewRoleShowView:updateRoleModel(modelId)
     end
 	print("model",self.modelId)
     self.model = ElvesNpcTable:createLive2dNpcID(self.modelId,false,false,nil,true).live2d:hide()
-    self.Panel_base:addChild(self.model,1)
+    self.Panel_newRole:addChild(self.model,1)
     self.model:setScale(0.7); --缩放
     local pos = ccp(410,-100)
     self.model:setPosition(pos);--位置
@@ -1187,8 +1189,26 @@ function NewRoleShowView:updateRoleModel(modelId)
     self:playBgm()
     self.model:show()
 
+    if data and data.adaptation and data.adaptation == 1 then
+    	local curWidth = me.EGLView:getDesignResolutionSize().width
+        local fitScale = (curWidth - 1386) / 1386 * 1.0
+        if fitScale > 0 then
+            self.Image_bg2:setScale(1.0 + fitScale)
+			self.NpcEffectPanel:setScale(1.0 + fitScale)
+			self.Panel_newRole:setScale(1.0 + fitScale)
+			local offX = 1386 * fitScale / 2 * 0.8
+			local offY = 640 * fitScale / 2 * 0.8
+			self.Panel_newRole:setPosition(ccp(-offX, -offY))
+        end
+    else
+    	self.Image_bg2:setScale(1.0)
+		self.NpcEffectPanel:setScale(1.0)
+		self.Panel_newRole:setScale(1.0)
+		self.Panel_newRole:setPosition(ccp(0,0))
+    end
+
     if data and data.type and data.type == 2 then
-        return
+        return    	
     end
     self.model:playMoveRightIn(0.3)
     --self.model:setZOrder(-1)

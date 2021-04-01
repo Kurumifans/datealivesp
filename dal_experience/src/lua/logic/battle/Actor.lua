@@ -1075,6 +1075,7 @@ end
 
 --静止
 function Actor:stopAni()
+     self.animation = nil
     self.skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
     self.skeletonNode:stop()
 end

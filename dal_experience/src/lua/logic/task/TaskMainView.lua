@@ -118,12 +118,8 @@ function TaskMainView:initUI(ui)
     local Image_honorScrollBar = TFDirector:getChildByPath(Image_honorBar, "Image_honorScrollBar")
     self.Image_honorScrollBar = UIScrollBar:create(Image_honorBar, Image_honorScrollBar)
     local ScrollView_honor = TFDirector:getChildByPath(self.Panel_honor, "ScrollView_honor")
-    self.TableView_honor = Utils:scrollView2TableView(ScrollView_honor)
-
-    self.TableView_honor:addMEListener(TFTABLEVIEW_SIZEFORINDEX, handler(self.cellSizeForTable, self))
-    self.TableView_honor:addMEListener(TFTABLEVIEW_SIZEATINDEX, handler(self.tableCellAtIndex, self))
-    self.TableView_honor:addMEListener(TFTABLEVIEW_NUMOFCELLSINTABLEVIEW, handler(self.numberOfCellsInTableView, self))
-    self.TableView_honor:addMEListener(TFTABLEVIEW_SCROLL, handler(self.tableScroll,self))
+    self.ListView_honor = UIListView:create(ScrollView_honor)
+    self.ListView_honor:setScrollBar(self.Image_honorScrollBar)
 
     self.Panel_activity = TFDirector:getChildByPath(self.Panel_root, "Panel_activity")
     local Image_activityBar = TFDirector:getChildByPath(self.Panel_activity, "Image_activityBar")
@@ -173,6 +169,7 @@ function TaskMainView:refreshView()
 end
 
 function TaskMainView:initDailyTask()
+    self.initDailyTaskFlag = true
     self.activeTask_ = TaskDataMgr:getTask(EC_TaskType.ACTIVE)
     local size = self.Image_active_progress:Size()
     for i = #self.activeTask_, 1, -1 do
@@ -242,6 +239,9 @@ function TaskMainView:showTask()
         self:showMainTask()
     elseif tabData.type_ == EC_TaskPage.DAILY then
         self.Panel_daily:show()
+        if not self.initDailyTaskFlag then
+            self.initDailyTask()
+        end
         self:showDailyTask()
     elseif tabData.type_ == EC_TaskPage.HONOR then
         self.Panel_honor:show()
@@ -275,25 +275,11 @@ end
 
 function TaskMainView:showMainTask()
     self.mainTask_ = TaskDataMgr:getTask(EC_TaskType.MAIN)
-
-    local items = self.ListView_main:getItems()
-    local gap = #self.mainTask_ - #items
-    if gap > 0 then
-        for i = 1, math.abs(gap) do
-            local Panel_mainItem = self:addMainTaskItem(i)
-            Panel_mainItem:setName("Panel_mainItem"..i);
-            self.ListView_main:pushBackCustomItem(Panel_mainItem)
-        end
-    else
-        for i = 1, math.abs(gap) do
-            self.ListView_main:removeItem(1)
-        end
-    end
-
-    local items = self.ListView_main:getItems()
-    for i, v in ipairs(items) do
+    self.ListView_main:AsyncUpdateItem(self.mainTask_,function ( ... )
+        return self:addMainTaskItem()
+    end, function (v, data)
         local item = self.mainItem_[v]
-        local taskCid = self.mainTask_[i]
+        local taskCid = data
         local taskCfg = TaskDataMgr:getTaskCfg(taskCid)
         local taskInfo = TaskDataMgr:getTaskInfo(taskCid)
         local progress = math.min(taskInfo.progress, taskCfg.progress)
@@ -331,7 +317,7 @@ function TaskMainView:showMainTask()
                     local levelId = taskCfg.finishParams["dunId"]
                     FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
                 else
-                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
                 end
         end)
 
@@ -339,7 +325,7 @@ function TaskMainView:showMainTask()
                 TaskDataMgr:send_TASK_SUBMIT_TASK(taskInfo.cid)
                 GameGuide:checkGuideEnd(self.guideFuncId)
         end)
-    end
+    end)    
 
     self:updateRedPointStatus()
 end
@@ -526,23 +512,13 @@ function TaskMainView:showDailyTask()
     self.daiyTask_ = TaskDataMgr:getTask(EC_TaskType.DAILY)
     self.activeTask_ = TaskDataMgr:getTask(EC_TaskType.ACTIVE)
 
-    local items = self.ListView_daily:getItems()
-    local gap = #self.daiyTask_ - #items
-    if gap > 0 then
-        for i = 1, math.abs(gap) do
-            local Panel_dailyItem = self:addDailyTaskItem()
-            self.ListView_daily:pushBackCustomItem(Panel_dailyItem)
-        end
-    else
-        for i = 1, math.abs(gap) do
-            self.ListView_daily:removeItem(1)
-        end
-    end
-
-    local items = self.ListView_daily:getItems()
-    for i, v in ipairs(items) do
+    self.ListView_daily:AsyncUpdateItem(self.daiyTask_,function ( ... )
+        -- body
+        return self:addDailyTaskItem()
+    end, function ( v, data )
+        -- body
         local item = self.dailyItem_[v]
-        local taskCid = self.daiyTask_[i]
+        local taskCid = data
         local taskCfg = TaskDataMgr:getTaskCfg(taskCid)
         local taskInfo = TaskDataMgr:getTaskInfo(taskCid)
         local progress = math.min(taskInfo.progress, taskCfg.progress)
@@ -607,14 +583,14 @@ function TaskMainView:showDailyTask()
                     local levelId = taskCfg.finishParams["dunId"]
                     FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
                 else
-                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
                 end
         end)
 
         item.Button_receive:onClick(function()
                 TaskDataMgr:send_TASK_SUBMIT_TASK(taskInfo.cid)
         end)
-    end
+    end)
     self:updateDoubleCardCountdown()
 
     for i, v in ipairs(self.activeItem_) do
@@ -639,45 +615,7 @@ function TaskMainView:showDailyTask()
     self:updateRedPointStatus()
 end
 
-function TaskMainView:cellSizeForTable()
-    local size = self.Panel_honorItem:getSize()
-    return size.height, size.width
-end
-
-function TaskMainView:tableScroll(tableView)
-    local contentOffset = tableView:getContentOffset()
-    local contentSize   = tableView:getContentSize()
-    local size          = tableView:getSize()
-    local length        = contentSize.height - size.height
-    local percent = clamp(-contentOffset.y / length, 0, 1)
-    self.Image_honorScrollBar:setPercent(percent)
-end
-
-function TaskMainView:tableCellAtIndex(tab, idx)
-    local cell = tab:dequeueCell()
-    idx = idx + 1
-    if not cell then
-        cell = TFTableViewCell:create()
-        local item = self.Panel_honorItem:clone():show()
-        item:setAnchorPoint(ccp(0, 0))
-        item:setPosition(ccp(0, 0))
-        cell:addChild(item)
-        cell.item = item
-    end
-    cell.idx = idx
-
-    if cell.item then
-        self:updateHonorTaskItem(cell, idx)
-    end
-
-    return cell
-end
-
-function TaskMainView:numberOfCellsInTableView()
-    return #self.honorTask_
-end
-
-function TaskMainView:updateHonorTaskItem(item, index)
+function TaskMainView:updateHonorTaskItem(item, taskCid)
     local Label_progress = TFDirector:getChildByPath(item, "Label_progress")
     local Image_icon = TFDirector:getChildByPath(item, "Image_icon")
     local Label_name = TFDirector:getChildByPath(item, "Label_name")
@@ -707,7 +645,6 @@ function TaskMainView:updateHonorTaskItem(item, index)
     local Label_type = TFDirector:getChildByPath(item, "Label_type")
     local Label_geted = TFDirector:getChildByPath(item, "Label_geted")
 
-    local taskCid = self.honorTask_[index]
     local taskCfg = TaskDataMgr:getTaskCfg(taskCid)
     local taskInfo = TaskDataMgr:getTaskInfo(taskCid)
     local progress = math.min(taskInfo.progress, taskCfg.progress)
@@ -745,7 +682,7 @@ function TaskMainView:updateHonorTaskItem(item, index)
                 local levelId = taskCfg.finishParams["dunId"]
                 FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
             else
-                FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
             end
     end)
 
@@ -756,19 +693,11 @@ end
 
 function TaskMainView:showHonorTask()
     self.honorTask_ = TaskDataMgr:getTask(EC_TaskType.HONOR)
-    self.TableView_honor:reloadData()
-
-    local contentOffset = self.TableView_honor:getContentOffset()
-    local contentSize   = self.TableView_honor:getContentSize()
-    local size          = self.TableView_honor:getSize()
-    local length        = contentSize.height - size.height
-
-    local ratio = size.height / contentSize.height
-    self.Image_honorScrollBar:setRatio(ratio)
-    self.Image_honorScrollBar:setPercent(1)
-
-    local percent = clamp(-contentOffset.y / length, 0, 1)
-    self.Image_honorScrollBar:setPercent(percent)
+    self.ListView_honor:AsyncUpdateItem(self.honorTask_,function ( ... )
+        return self.Panel_honorItem:clone():show()
+    end, function (v, data)
+        self:updateHonorTaskItem(v, data)
+    end)   
 
     self:updateRedPointStatus()
 end
@@ -841,7 +770,7 @@ function TaskMainView:showActivityTask()
                     local levelId = taskCfg.finishParams["dunId"]
                     FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, levelId)
                 else
-                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface)
+                    FunctionDataMgr:enterByFuncId(taskCfg.jumpInterface, unpack(taskCfg.ext.parameter or {}))
                 end
         end)
 
@@ -1208,7 +1137,7 @@ function TaskMainView:updateTrainingTask()
 
         foo.Button_goto:setVisible(isIng and itemInfo.extendData.jumpInterface and itemInfo.extendData.jumpInterface ~= 0)
         foo.Button_goto:onClick(function()
-           FunctionDataMgr:enterByFuncId(itemInfo.extendData.jumpInterface)
+            FunctionDataMgr:enterByFuncId(itemInfo.extendData.jumpInterface)
         end)
 
         local fadeInDuration = 0.2

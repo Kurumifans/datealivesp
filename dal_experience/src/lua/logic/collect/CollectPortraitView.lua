@@ -151,6 +151,8 @@ function CollectPortraitView:updateInfoPage(filtInfo)
 			        end
 			    end
 			end
+
+			CollectDataMgr:addItemTrophy(itemCard, portraitInfo.id)
 			itemCard:onClick(function()
 				if CollectDataMgr:getItemClickEnable() == false then
 					return

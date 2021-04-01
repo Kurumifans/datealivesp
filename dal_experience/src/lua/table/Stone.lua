@@ -24118,6 +24118,49 @@ return {
         skillName = "绝望之剑 ",
         des = "1130813",
     },
+    [1434511] = {
+        skillIcon = "icon/skill/10313_skillA.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120397",
+        icon = "icon/stone/110313/s11.png",
+        quality = 5,
+        type = 2,
+        rarity = 5,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140385",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 40,
+            },
+        },
+        skillType = 1,
+        pileUp = true,
+        convertMax = {
+            [599501] = 40,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524004,
+                [2] = 1,
+            },
+        },
+        id = 1434511,
+        heroId = 110313,
+        skillName = "闪耀星痕",
+        des = "1140385",
+    },
     [1313741] = {
         skillIcon = "icon/skill/10102_icon7.png",
         superType = 43,
@@ -24260,6 +24303,49 @@ return {
         heroId = 110301,
         skillName = "冰锥",
         des = "1130073",
+    },
+    [1434521] = {
+        skillIcon = "icon/skill/10313_skillB.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120398",
+        icon = "icon/stone/110313/s12.png",
+        quality = 5,
+        type = 2,
+        rarity = 5,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140386",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 40,
+            },
+        },
+        skillType = 2,
+        pileUp = true,
+        convertMax = {
+            [599501] = 40,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524004,
+                [2] = 1,
+            },
+        },
+        id = 1434521,
+        heroId = 110313,
+        skillName = "曳光星弹",
+        des = "1140386",
     },
     [1307611] = {
         skillIcon = "icon/skill/10701_skillA.png",
@@ -25864,6 +25950,49 @@ return {
         skillName = "绝望之剑 ",
         des = "1130817",
     },
+    [1434611] = {
+        skillIcon = "icon/skill/10313_skillA.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120401",
+        icon = "icon/stone/110313/s21.png",
+        quality = 6,
+        type = 2,
+        rarity = 6,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140389",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 200,
+            },
+        },
+        skillType = 1,
+        pileUp = true,
+        convertMax = {
+            [599501] = 200,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524005,
+                [2] = 1,
+            },
+        },
+        id = 1434611,
+        heroId = 110313,
+        skillName = "闪耀星痕",
+        des = "1140389",
+    },
     [1326121] = {
         skillIcon = "icon/skill/12301_skillB.png",
         superType = 43,
@@ -26036,6 +26165,49 @@ return {
         heroId = 110301,
         skillName = "冰锥",
         des = "1130077",
+    },
+    [1434621] = {
+        skillIcon = "icon/skill/10313_skillB.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120402",
+        icon = "icon/stone/110313/s22.png",
+        quality = 6,
+        type = 2,
+        rarity = 6,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140390",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 200,
+            },
+        },
+        skillType = 2,
+        pileUp = true,
+        convertMax = {
+            [599501] = 200,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524005,
+                [2] = 1,
+            },
+        },
+        id = 1434621,
+        heroId = 110313,
+        skillName = "曳光星弹",
+        des = "1140390",
     },
     [1326131] = {
         skillIcon = "icon/skill/12301_skillB2.png",
@@ -26223,6 +26395,49 @@ return {
         skillName = "极寒冰刺",
         des = "1130078",
     },
+    [1434631] = {
+        skillIcon = "icon/skill/10313_skillB2.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120403",
+        icon = "icon/stone/110313/s23.png",
+        quality = 6,
+        type = 2,
+        rarity = 6,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140391",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 200,
+            },
+        },
+        skillType = 3,
+        pileUp = true,
+        convertMax = {
+            [599501] = 200,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524005,
+                [2] = 1,
+            },
+        },
+        id = 1434631,
+        heroId = 110313,
+        skillName = "晨星颂歌",
+        des = "1140391",
+    },
     [1326141] = {
         skillIcon = "icon/skill/12301_skillC.png",
         superType = 43,
@@ -26407,6 +26622,49 @@ return {
         heroId = 110301,
         skillName = "极寒领域",
         des = "1130079",
+    },
+    [1434641] = {
+        skillIcon = "icon/skill/10313_skillC.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120404",
+        icon = "icon/stone/110313/s24.png",
+        quality = 6,
+        type = 2,
+        rarity = 6,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140392",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 200,
+            },
+        },
+        skillType = 4,
+        pileUp = true,
+        convertMax = {
+            [599501] = 200,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524005,
+                [2] = 1,
+            },
+        },
+        id = 1434641,
+        heroId = 110313,
+        skillName = "暗夜星典",
+        des = "1140392",
     },
     [1307731] = {
         skillIcon = "icon/skill/10701_skillG.png",
@@ -27784,6 +28042,49 @@ return {
         skillName = "双段突刺",
         des = "1140302",
     },
+    [1434711] = {
+        skillIcon = "icon/skill/10313_skillA.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120405",
+        icon = "icon/stone/110313/s31.png",
+        quality = 7,
+        type = 2,
+        rarity = 7,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140393",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 1000,
+            },
+        },
+        skillType = 1,
+        pileUp = true,
+        convertMax = {
+            [599501] = 1000,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524006,
+                [2] = 1,
+            },
+        },
+        id = 1434711,
+        heroId = 110313,
+        skillName = "闪耀星痕",
+        des = "1140393",
+    },
     [1326221] = {
         skillIcon = "icon/skill/12301_skillB.png",
         superType = 43,
@@ -27996,6 +28297,49 @@ return {
         skillName = "冰锥",
         des = "1130081",
     },
+    [1434721] = {
+        skillIcon = "icon/skill/10313_skillB.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120406",
+        icon = "icon/stone/110313/s32.png",
+        quality = 7,
+        type = 2,
+        rarity = 7,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140394",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 1000,
+            },
+        },
+        skillType = 2,
+        pileUp = true,
+        convertMax = {
+            [599501] = 1000,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524006,
+                [2] = 1,
+            },
+        },
+        id = 1434721,
+        heroId = 110313,
+        skillName = "曳光星弹",
+        des = "1140394",
+    },
     [1326231] = {
         skillIcon = "icon/skill/12301_skillB2.png",
         superType = 43,
@@ -28207,6 +28551,49 @@ return {
         skillName = "极寒冰刺",
         des = "1130082",
     },
+    [1434731] = {
+        skillIcon = "icon/skill/10313_skillB2.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120407",
+        icon = "icon/stone/110313/s33.png",
+        quality = 7,
+        type = 2,
+        rarity = 7,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140395",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 1000,
+            },
+        },
+        skillType = 3,
+        pileUp = true,
+        convertMax = {
+            [599501] = 1000,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524006,
+                [2] = 1,
+            },
+        },
+        id = 1434731,
+        heroId = 110313,
+        skillName = "晨星颂歌",
+        des = "1140395",
+    },
     [1326241] = {
         skillIcon = "icon/skill/12301_skillC.png",
         superType = 43,
@@ -28379,6 +28766,49 @@ return {
         heroId = 110301,
         skillName = "极寒领域",
         des = "1130083",
+    },
+    [1434741] = {
+        skillIcon = "icon/skill/10313_skillC.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120408",
+        icon = "icon/stone/110313/s34.png",
+        quality = 7,
+        type = 2,
+        rarity = 7,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140396",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 1000,
+            },
+        },
+        skillType = 4,
+        pileUp = true,
+        convertMax = {
+            [599501] = 1000,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524006,
+                [2] = 1,
+            },
+        },
+        id = 1434741,
+        heroId = 110313,
+        skillName = "暗夜星典",
+        des = "1140396",
     },
     [1320111] = {
         skillIcon = "icon/skill/11401_skillA.png",
@@ -50143,6 +50573,92 @@ return {
         heroId = 110901,
         skillName = "斩击",
         des = "1130274",
+    },
+    [1434541] = {
+        skillIcon = "icon/skill/10313_skillC.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120400",
+        icon = "icon/stone/110313/s14.png",
+        quality = 5,
+        type = 2,
+        rarity = 5,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140388",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 40,
+            },
+        },
+        skillType = 4,
+        pileUp = true,
+        convertMax = {
+            [599501] = 40,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524004,
+                [2] = 1,
+            },
+        },
+        id = 1434541,
+        heroId = 110313,
+        skillName = "暗夜星典",
+        des = "1140388",
+    },
+    [1434531] = {
+        skillIcon = "icon/skill/10313_skillB2.png",
+        superType = 44,
+        baseSkill = 0,
+        combatPower = 0,
+        gridMax = 999,
+        specialSkill = {
+        },
+        decompose = true,
+        bagType = 20,
+        nameTextId = "1120399",
+        icon = "icon/stone/110313/s13.png",
+        quality = 5,
+        type = 2,
+        rarity = 5,
+        accessId = {
+            [1] = 211,
+        },
+        showType = 0,
+        desTextId = "1140387",
+        totalMax = 999,
+        sellProfit = {
+            [1] = {
+                [1] = 599501,
+                [2] = 40,
+            },
+        },
+        skillType = 3,
+        pileUp = true,
+        convertMax = {
+            [599501] = 40,
+        },
+        sellProfit2 = {
+            [1] = {
+                [1] = 524004,
+                [2] = 1,
+            },
+        },
+        id = 1434531,
+        heroId = 110313,
+        skillName = "晨星颂歌",
+        des = "1140387",
     },
     [1333141] = {
         skillIcon = "icon/skill/13201_skillC.png",

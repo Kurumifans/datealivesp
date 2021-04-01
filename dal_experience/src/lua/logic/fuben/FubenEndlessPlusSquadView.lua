@@ -135,7 +135,7 @@ function FubenEndlessPlusSquadView:selectBuff(index)
         Image_buff:setVisible(k ~= index)
     end
  
-    FubenEndlessPlusDataMgr:getSelectBuffCid(self.buffIds[index])
+    FubenEndlessPlusDataMgr:setSelectBuffCid(self.buffIds[index])
 
     --local config = {}
     --config.icon = buffCfg.buffIcon

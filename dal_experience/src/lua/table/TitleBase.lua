@@ -3,7 +3,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 3,
         pileUp = true,
         condition = {
         },
@@ -83,7 +83,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 11,
         pileUp = true,
         condition = {
         },
@@ -159,7 +159,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 19,
         pileUp = true,
         condition = {
             hasItem = 570521,
@@ -236,7 +236,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 7,
         pileUp = true,
         condition = {
         },
@@ -312,7 +312,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 9,
         pileUp = true,
         condition = {
             hasItem = 570515,
@@ -389,7 +389,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 17,
         pileUp = true,
         condition = {
         },
@@ -465,7 +465,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 25,
         pileUp = true,
         condition = {
             hasItem = 570527,
@@ -537,6 +537,83 @@ return {
         probability = 0,
         quality = 1,
         id = 9200125,
+    },
+    [9200133] = {
+        superType = 38,
+        excursion1 = {
+        },
+        order = 33,
+        pileUp = true,
+        condition = {
+            hasItem = 570535,
+        },
+        gridMax = 1,
+        effectivetime = -1,
+        activeTime = 0,
+        clubPush = 0,
+        sellProfit = {
+        },
+        onceUseLimit = 0,
+        triggerEnvelope = 0,
+        totalMax = 1,
+        deletePrevious = false,
+        convertMax = {
+        },
+        content = 0,
+        classify = 3,
+        lamp = 0,
+        titleLevel = 1,
+        notable = 1325433,
+        showPower = 120,
+        accessdes = 1326435,
+        titleType = 33,
+        toplimit = 0,
+        size2 = {
+            [1] = 100,
+            [2] = 90,
+            [3] = 90,
+        },
+        bagType = 0,
+        autoUse = false,
+        star = 4,
+        reward = {
+        },
+        displayClassify = 1,
+        showEffect = "effect/title/chenghao_zhenchayuan/chenghao_zhenchayuan",
+        excursion2 = {
+            [1] = {
+                [1] = 5,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            [3] = {
+                [1] = 0,
+                [2] = 15,
+            },
+        },
+        useCast = {
+        },
+        baseAttribute = {
+            [1] = 14110,
+            [2] = 4027,
+            [3] = 3755,
+        },
+        chatShow = true,
+        title = 0,
+        relatedTask = 0,
+        subType = 0,
+        timeDescription = 0,
+        showPic = "",
+        size1 = 0,
+        titleStar = 4,
+        dealProfit = {
+        },
+        probability = 0,
+        quality = 1,
+        id = 9200133,
     },
     [9200000] = {
         superType = 38,
@@ -618,7 +695,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 2,
         pileUp = true,
         condition = {
         },
@@ -698,7 +775,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 10,
         pileUp = true,
         condition = {
             hasItem = 570511,
@@ -775,7 +852,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 4,
         pileUp = true,
         condition = {
         },
@@ -855,7 +932,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 2,
         pileUp = true,
         condition = {
         },
@@ -931,7 +1008,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 8,
         pileUp = true,
         condition = {
             hasItem = 570510,
@@ -1008,7 +1085,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 22,
         pileUp = true,
         condition = {
         },
@@ -1084,7 +1161,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 30,
         pileUp = true,
         condition = {
         },
@@ -1156,11 +1233,319 @@ return {
         quality = 1,
         id = 9200130,
     },
+    [9200132] = {
+        superType = 38,
+        excursion1 = {
+        },
+        order = 32,
+        pileUp = true,
+        condition = {
+            hasItem = 570534,
+        },
+        gridMax = 1,
+        effectivetime = -1,
+        activeTime = 0,
+        clubPush = 0,
+        sellProfit = {
+        },
+        onceUseLimit = 0,
+        triggerEnvelope = 0,
+        totalMax = 1,
+        deletePrevious = false,
+        convertMax = {
+        },
+        content = 0,
+        classify = 3,
+        lamp = 0,
+        titleLevel = 1,
+        notable = 1325432,
+        showPower = 70,
+        accessdes = 1326434,
+        titleType = 32,
+        toplimit = 0,
+        size2 = {
+            [1] = 100,
+            [2] = 90,
+            [3] = 90,
+        },
+        bagType = 0,
+        autoUse = false,
+        star = 4,
+        reward = {
+        },
+        displayClassify = 1,
+        showEffect = "effect/title/chenghao_xianqiandui/chenghao_xianqiandui",
+        excursion2 = {
+            [1] = {
+                [1] = 5,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            [3] = {
+                [1] = 0,
+                [2] = 15,
+            },
+        },
+        useCast = {
+        },
+        baseAttribute = {
+            [1] = 7778,
+            [2] = 2221,
+            [3] = 2160,
+        },
+        chatShow = true,
+        title = 0,
+        relatedTask = 0,
+        subType = 0,
+        timeDescription = 0,
+        showPic = "",
+        size1 = 0,
+        titleStar = 3,
+        dealProfit = {
+        },
+        probability = 0,
+        quality = 1,
+        id = 9200132,
+    },
+    [9200136] = {
+        superType = 38,
+        excursion1 = {
+        },
+        order = 36,
+        pileUp = true,
+        condition = {
+            hasItem = 570538,
+        },
+        gridMax = 1,
+        effectivetime = -1,
+        activeTime = 0,
+        clubPush = 0,
+        sellProfit = {
+        },
+        onceUseLimit = 0,
+        triggerEnvelope = 0,
+        totalMax = 1,
+        deletePrevious = false,
+        convertMax = {
+        },
+        content = 0,
+        classify = 3,
+        lamp = 0,
+        titleLevel = 1,
+        notable = 1325436,
+        showPower = 202,
+        accessdes = 1326438,
+        titleType = 36,
+        toplimit = 0,
+        size2 = {
+            [1] = 100,
+            [2] = 90,
+            [3] = 90,
+        },
+        bagType = 0,
+        autoUse = false,
+        star = 4,
+        reward = {
+        },
+        displayClassify = 1,
+        showEffect = "effect/title/chenghao_KXZZ/chenghao_KXZZ",
+        excursion2 = {
+            [1] = {
+                [1] = 5,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            [3] = {
+                [1] = 0,
+                [2] = 15,
+            },
+        },
+        useCast = {
+        },
+        baseAttribute = {
+            [1] = 20040,
+            [2] = 5720,
+            [3] = 5171,
+        },
+        chatShow = true,
+        title = 0,
+        relatedTask = 0,
+        subType = 0,
+        timeDescription = 0,
+        showPic = "",
+        size1 = 0,
+        titleStar = 3,
+        dealProfit = {
+        },
+        probability = 0,
+        quality = 1,
+        id = 9200136,
+    },
+    [9200135] = {
+        superType = 38,
+        excursion1 = {
+        },
+        order = 35,
+        pileUp = true,
+        condition = {
+            hasItem = 570537,
+        },
+        gridMax = 1,
+        effectivetime = -1,
+        activeTime = 0,
+        clubPush = 0,
+        sellProfit = {
+        },
+        onceUseLimit = 0,
+        triggerEnvelope = 0,
+        totalMax = 1,
+        deletePrevious = false,
+        convertMax = {
+        },
+        content = 0,
+        classify = 3,
+        lamp = 0,
+        titleLevel = 1,
+        notable = 1325435,
+        showPower = 140,
+        accessdes = 1326437,
+        titleType = 35,
+        toplimit = 0,
+        size2 = {
+            [1] = 100,
+            [2] = 90,
+            [3] = 90,
+        },
+        bagType = 0,
+        autoUse = false,
+        star = 4,
+        reward = {
+        },
+        displayClassify = 1,
+        showEffect = "effect/title/chenghao_maoxianzhe/chenghao_maoxianzhe",
+        excursion2 = {
+            [1] = {
+                [1] = 5,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            [3] = {
+                [1] = 0,
+                [2] = 15,
+            },
+        },
+        useCast = {
+        },
+        baseAttribute = {
+            [1] = 20040,
+            [2] = 4027,
+            [3] = 3755,
+        },
+        chatShow = true,
+        title = 0,
+        relatedTask = 0,
+        subType = 0,
+        timeDescription = 0,
+        showPic = "",
+        size1 = 0,
+        titleStar = 3,
+        dealProfit = {
+        },
+        probability = 0,
+        quality = 1,
+        id = 9200135,
+    },
+    [9200134] = {
+        superType = 38,
+        excursion1 = {
+        },
+        order = 34,
+        pileUp = true,
+        condition = {
+            hasItem = 570536,
+        },
+        gridMax = 1,
+        effectivetime = -1,
+        activeTime = 0,
+        clubPush = 0,
+        sellProfit = {
+        },
+        onceUseLimit = 0,
+        triggerEnvelope = 0,
+        totalMax = 1,
+        deletePrevious = false,
+        convertMax = {
+        },
+        content = 0,
+        classify = 3,
+        lamp = 0,
+        titleLevel = 1,
+        notable = 1325434,
+        showPower = 180,
+        accessdes = 1326436,
+        titleType = 34,
+        toplimit = 0,
+        size2 = {
+            [1] = 100,
+            [2] = 90,
+            [3] = 90,
+        },
+        bagType = 0,
+        autoUse = false,
+        star = 4,
+        reward = {
+        },
+        displayClassify = 1,
+        showEffect = "effect/title/chenghao_tansuozhe/chenghao_tansuozhe",
+        excursion2 = {
+            [1] = {
+                [1] = 5,
+                [2] = 0,
+            },
+            [2] = {
+                [1] = 0,
+                [2] = 0,
+            },
+            [3] = {
+                [1] = 0,
+                [2] = 15,
+            },
+        },
+        useCast = {
+        },
+        baseAttribute = {
+            [1] = 23470,
+            [2] = 6697,
+            [3] = 6079,
+        },
+        chatShow = true,
+        title = 0,
+        relatedTask = 0,
+        subType = 0,
+        timeDescription = 0,
+        showPic = "",
+        size1 = 0,
+        titleStar = 5,
+        dealProfit = {
+        },
+        probability = 0,
+        quality = 1,
+        id = 9200134,
+    },
     [9200131] = {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 31,
         pileUp = true,
         condition = {
             hasItem = 570533,
@@ -1237,7 +1622,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 16,
         pileUp = true,
         condition = {
         },
@@ -1313,7 +1698,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 24,
         pileUp = true,
         condition = {
         },
@@ -1389,7 +1774,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 29,
         pileUp = true,
         condition = {
         },
@@ -1465,7 +1850,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 28,
         pileUp = true,
         condition = {
         },
@@ -1541,7 +1926,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 27,
         pileUp = true,
         condition = {
         },
@@ -1617,7 +2002,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 26,
         pileUp = true,
         condition = {
             hasItem = 570528,
@@ -1694,7 +2079,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 20,
         pileUp = true,
         condition = {
             hasItem = 570522,
@@ -1771,7 +2156,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 23,
         pileUp = true,
         condition = {
         },
@@ -1847,7 +2232,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 21,
         pileUp = true,
         condition = {
             hasItem = 570523,
@@ -1924,7 +2309,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 5,
         pileUp = true,
         condition = {
         },
@@ -2000,7 +2385,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 2,
         pileUp = true,
         condition = {
         },
@@ -2076,7 +2461,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 18,
         pileUp = true,
         condition = {
             hasItem = 570520,
@@ -2153,7 +2538,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 15,
         pileUp = true,
         condition = {
         },
@@ -2229,7 +2614,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 14,
         pileUp = true,
         condition = {
             hasItem = 570516,
@@ -2306,7 +2691,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 12,
         pileUp = true,
         condition = {
         },
@@ -2382,7 +2767,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 13,
         pileUp = true,
         condition = {
         },
@@ -2458,7 +2843,7 @@ return {
         superType = 38,
         excursion1 = {
         },
-        order = 1,
+        order = 6,
         pileUp = true,
         condition = {
         },

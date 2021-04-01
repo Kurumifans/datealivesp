@@ -1479,13 +1479,14 @@ function Utils:changStrToDate(str)
     local sp1 = string.split(str," ")
     local sp2 = string.split(sp1[1], "-")
     local sp3 = string.split(sp1[2], ":")
-    local _year  = sp2[1]
-    local _month = sp2[2]
-    local _day   = sp2[3]
-    local _hour  = sp3[1]
-    local _minute = sp3[2]
-    local _second = sp3[3]
-    return {day = _day, month = _month,  year = _year, hour = _hour, min = _minute, sec = _second}
+    local _year     = tonumber(sp2[1])
+    local _month    = tonumber(sp2[2])
+    local _day      = tonumber(sp2[3])
+    local _hour     = tonumber(sp3[1])
+    local _minute   = tonumber(sp3[2])
+    local _second   = tonumber(sp3[3])
+    local osTime    = os.time({day = _day, month = _month, year = _year, hour = _hour, minute = _minute, second = _second})
+    return {day = _day, month = _month,  year = _year, hour = _hour, min = _minute, sec = _second}, osTime
 end
 
 -- 年月日时分秒比较( return (date1 - date2 >= 0))

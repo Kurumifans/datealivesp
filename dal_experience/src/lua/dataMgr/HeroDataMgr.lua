@@ -1260,6 +1260,7 @@ end
 function HeroDataMgr:revcHeroExp(event)
 	self:setHeroExp(event.data.cid,event.data.exp);
 	GoodsDataMgr:syncHeroExp(event.data.cid,event.data.exp);
+	self:syncServer(event.data,EC_SChangeType.DEFAULT)
 	EventMgr:dispatchEvent(EV_HERO_LEVEL_UP);
 end
 

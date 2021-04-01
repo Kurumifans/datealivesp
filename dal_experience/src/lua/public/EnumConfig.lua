@@ -104,7 +104,7 @@ EC_FBLevelType = {
     DICUO_JIBAN = 51,           -- 地错羁绊
     SNOW_FESTIVAL = 52,         -- 冰雪大作战
     NIANSHOU = 53,              -- 年兽大作战（鞭炮）
-    ENDLESS_PLUSS = 106,        --无尽plus
+    ENDLESS_PLUSS = 107,        --无尽plus
 }
 
 -- 万由里关卡类型
@@ -202,7 +202,7 @@ EC_ActivityFubenType = {
 	HALLOWEEN2019 = 415,	--万圣节活动2019
     BOSS_CHALLENGE = 422,    --BOSS挑战入口
     SNOW_FESVITAL = 430,     -- 冰雪节大作战
-    ENDLESS_PLUSS = 430,     --无尽plus
+    ENDLESS_PLUSS = 431,     --无尽plus
 }
 
 -- 活动副本
@@ -304,6 +304,7 @@ EC_FBStarRule = {
     GET_MONSTER_ITEM   = 21,    --吃到X个怪物道具
     GET_MONSTER_ITEM_COM = 22,  --连续吃到X个怪物道具
     PASS_LEVEL_NO_ITEM = 23,    --不吃道具通关
+    NOT_ASSIST     = 24,        --不使用助战
     KILL_COUNT = 31,    -- 击杀怪物数量
     SCORE = 32,    -- 积分
     SKILL_DODGE = 33 ,   --使用x次闪避技能
@@ -322,8 +323,8 @@ EC_FBStarRuleStr = {
     [EC_FBStarRule.HIT] = 300056,
     [EC_FBStarRule.FALL] = 300057,
     [EC_FBStarRule.SKILL_AWAKE] = 300058,
-[EC_FBStarRule.SKILL_ENTER_KILL] = 300059,
-[EC_FBStarRule.SKILL_AWAKE_KILL] = 300071,
+    [EC_FBStarRule.SKILL_ENTER_KILL] = 300059,
+    [EC_FBStarRule.SKILL_AWAKE_KILL] = 300071,
     [EC_FBStarRule.ASSIST] = 300060,
     [EC_FBStarRule.HERO_BATTLE] = 300061,
     [EC_FBStarRule.LIMIT_KILL] = 300062,
@@ -338,6 +339,7 @@ EC_FBStarRuleStr = {
     [EC_FBStarRule.GET_MONSTER_ITEM]  = 300071,
     [EC_FBStarRule.GET_MONSTER_ITEM_COM]  = 300072,
     [EC_FBStarRule.PASS_LEVEL_NO_ITEM]  = 300073,
+    [EC_FBStarRule.NOT_ASSIST]  = 300074,
 }
 
 -- 服务器操作类型
@@ -1747,7 +1749,10 @@ EC_ActivityType2 = {
 
     GUESS_WORD = 80,             -- 2021答题活动
     SPRITE_FOR_GIFT = 81,        -- 精灵抽一送一
-    FIREWORKS_PRODUCT = 84          --烟花制作
+    FIREWORKS_PRODUCT = 84,      --烟花制作
+    SPRING_GIFT = 86,            -- 春分赠礼
+    PIC_TASK_ACTIVITY = 87,      -- 照片墙活动 
+    ACCESS_TYPE = 89,            -- 跳转路径拓展
 }
 
 EC_Activity_CHRISTMAS_Subtype = {
@@ -2392,4 +2397,13 @@ EC_ItemBuffTargetType = {
     ALL_MONSTER = 3,            -- 对所有怪物
     ALL_SPIRIT = 4,             -- 对全场所有存在
     ALL_ELITE_MONSTER = 5,      -- 对所有精英怪
+}
+
+-- 特殊任务状态
+EC_TASK_STATUS = {
+    Lock = 1,      -- 未解锁
+    UnAccept = 2,  -- 未接受
+    Ing = 3,       -- 进行中
+    NotReceve = 4, -- 未领取
+    Complete = 5   -- 已完成 
 }

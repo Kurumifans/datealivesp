@@ -802,7 +802,7 @@ function MainLayer:setBackGroundByTime()
     if dressData and dressData.background and #dressData.background ~= 0 then
         spbackground = dressData.background
     end
-
+    
     if spbackground then
         local spine = self.background:getChildByName("yearBgSpine")
         if spine then
@@ -836,14 +836,12 @@ function MainLayer:setBackGroundByTime()
             v:show()
         end
         self.background:setTexture(spbackground)
-        self:ResolutionAdaptation()
        
         self:refreshBg(self.background)
         dressData.scale = dressData.scale or 1
         self.background:setScale(dressData.scale)
         local curPosX, curPosY = self:checkImageBgPos(dressData.bgOffset)
         self.background:Pos(curPosX, curPosY)
-        return
     else
         self.effectSK = self.effectSK or {}
             for k,v in pairs(self.effectSK) do
@@ -855,50 +853,62 @@ function MainLayer:setBackGroundByTime()
             v:removeFromParent()
             self.effectSKB[k] = nil
         end
-    end
-
-    if Utils:isNewYearMainLayerUi() then
-        self:refreshBg(self.background,"ui/newyear/bg_newyear.png")
-    else
-        local res = "ui/mainLayer/new_ui/bg_morning.png"
-        local curDayCid,curNightCid = SceneSoundDataMgr:getCurSceneCid()
-        local sceneDayCfg = SceneSoundDataMgr:getMainSceneChange(curDayCid)
-        local sceneNightCfg = SceneSoundDataMgr:getMainSceneChange(curNightCid)
-        local hour = Utils:getTime(ServerDataMgr:getServerTime())
-        if hour <= 18 and hour >= 6 then
-            if sceneDayCfg and sceneDayCfg.background then
-                res = sceneDayCfg.background
-            end
+        if Utils:isNewYearMainLayerUi() then
+            self:refreshBg(self.background,"ui/newyear/bg_newyear.png")
         else
-            if sceneNightCfg and sceneNightCfg.background then
-                res = sceneNightCfg.background
+            local res = "ui/mainLayer/new_ui/bg_morning.png"
+            local curDayCid,curNightCid = SceneSoundDataMgr:getCurSceneCid()
+            local sceneDayCfg = SceneSoundDataMgr:getMainSceneChange(curDayCid)
+            local sceneNightCfg = SceneSoundDataMgr:getMainSceneChange(curNightCid)
+            local hour = Utils:getTime(ServerDataMgr:getServerTime())
+            if hour <= 18 and hour >= 6 then
+                if sceneDayCfg and sceneDayCfg.background then
+                    res = sceneDayCfg.background
+                end
             else
-                res = "ui/mainLayer/new_ui/bg_nightfall.png"
+                if sceneNightCfg and sceneNightCfg.background then
+                    res = sceneNightCfg.background
+                else
+                    res = "ui/mainLayer/new_ui/bg_nightfall.png"
+                end
             end
-        end
 
-        -- 周年庆固定骨骼背景
-        local spine = self.background:getChildByName("yearBgSpine")
-        local disData = Utils:getKVP(46026,"data")[1]
-        local defaultBgDayId = disData.defaultDayScene
-        if curDayCid == defaultBgDayId and nil == spbackground and disData.isusespine ~= 0 then
-            if not spine then
-                local tempSpine = SkeletonAnimation:create("effect/ui_effect_oneYearKanban/effects_ZNQ_kanban")
-                tempSpine:setName("yearBgSpine")
-                tempSpine:play("animation", true)
-                tempSpine:setVisible(true)
-                tempSpine:setPosition(self.Spine_effectHB:getPosition())
-                self.background:addChild(tempSpine, self.Spine_effectHB:getZOrder())
+            -- 周年庆固定骨骼背景
+            local spine = self.background:getChildByName("yearBgSpine")
+            local disData = Utils:getKVP(46026,"data")[1]
+            local defaultBgDayId = disData.defaultDayScene
+            if curDayCid == defaultBgDayId and nil == spbackground and disData.isusespine ~= 0 then
+                if not spine then
+                    local tempSpine = SkeletonAnimation:create("effect/ui_effect_oneYearKanban/effects_ZNQ_kanban")
+                    tempSpine:setName("yearBgSpine")
+                    tempSpine:play("animation", true)
+                    tempSpine:setVisible(true)
+                    tempSpine:setPosition(self.Spine_effectHB:getPosition())
+                    self.background:addChild(tempSpine, self.Spine_effectHB:getZOrder())
+                end
+            else
+                if spine then
+                    spine:removeFromParent()
+                end
             end
-        else
-            if spine then
-                spine:removeFromParent()
-            end
+            self:refreshBg(self.background,res)
         end
-        self:refreshBg(self.background,res)
+        self.background:Pos(self.background.savePos)
     end
-    self.background:setScale(1)
-    self.background:Pos(self.background.savePos)
+
+    local curWidth = me.EGLView:getDesignResolutionSize().width
+    local fitScale = (curWidth - 1386) / 1386 * 1.0
+    if dressData and dressData.adaptation and dressData.adaptation == 1 and fitScale > 0 then
+        self.background:setScale(1.0 + fitScale)
+        self.imageNpc:setScale(1.0 + fitScale)
+        local offX = 1386 * fitScale / 2 * 0.8
+        local offY = 640 * fitScale / 2 * 0.8
+        self.imageNpc:setPosition(ccp(-offX, -offY))
+    else
+        self.background:setScale(1.0)
+        self.imageNpc:setScale(1.0)
+        self.imageNpc:setPosition(ccp(0, 0))
+    end
 end
 
 function MainLayer:refreshBg(imageBg, bgPath)
@@ -1533,9 +1543,11 @@ function MainLayer:registerEvents()
     -- 聊天
     self.Image_chat:setTouchEnabled(true)
     self.Image_chat:onClick(function()
+            Utils:sendHttpLog("Chat")
             self:onChatViewOpen();
     end)
     self.Panel_chat_di:onClick(function()
+            Utils:sendHttpLog("Chat")
             self:onChatViewOpen();
     end)
     -- 召唤
@@ -1600,6 +1612,7 @@ function MainLayer:registerEvents()
         end)
 
     self.Button_giftpacks:onClick(function()
+            Utils:sendHttpLog("supply")
             GlobalVarDataMgr:setValue(GV_ELF_CONTRACT_TIP, true)
             Utils:openView("supplyNew.SupplyMainNewView")
     end)
@@ -1930,6 +1943,7 @@ function MainLayer:registerEvents()
     end)
 
     if self.Button_gongzhu then
+        Utils:sendHttpLog("cultivate")
         self.Button_gongzhu:onClick(function()
             FunctionDataMgr:jTask(EC_TaskPage.TRAININIG)
         end)
@@ -2748,10 +2762,13 @@ function MainLayer:onShow()
 
     self:flushZhaoHuanBtn()
 
-
-    SpineCache:getInstance():clearUnused();
-    me.TextureCache:removeUnusedTextures();
-    collectgarbage("collect");
+    local keys = me.TextureCache:textureKeys()
+    local nLen = keys:size()
+    if nLen > 500 then
+        SpineCache:getInstance():clearUnused()
+        me.TextureCache:removeUnusedTextures()
+        collectgarbage("collect")
+    end
 
     --[[local phoneBackState = DatingPhoneDataMgr:getPhoneBackState()
     if phoneBackState then

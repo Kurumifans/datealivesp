@@ -1,6 +1,6 @@
 return {
     [1] = {
-        isOpen = false,
+        isOpen = true,
         openLevel = 1,
         isStinger = false,
         id = 1,
@@ -9,7 +9,7 @@ return {
         stingerTrigger = {
         },
         serverId = 3,
-        showIcon = false,
+        showIcon = true,
         stingerDating = "",
         name = "1454001",
         unlockExplain = {
@@ -22,7 +22,7 @@ return {
     },
     [2] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 2,
         openDun = 0,
@@ -39,7 +39,7 @@ return {
         levelType = 1,
     },
     [3] = {
-        isOpen = false,
+        isOpen = true,
         openLevel = 0,
         isStinger = false,
         id = 3,
@@ -58,7 +58,7 @@ return {
     },
     [4] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 4,
         openDun = 0,
@@ -76,7 +76,7 @@ return {
     },
     [5] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 5,
         openDun = 0,
@@ -94,7 +94,7 @@ return {
     },
     [6] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 2,
         isStinger = false,
         id = 6,
         openDun = 0,
@@ -114,7 +114,7 @@ return {
     },
     [7] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 7,
         openDun = 0,
@@ -132,7 +132,7 @@ return {
     },
     [8] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 28,
         isStinger = false,
         id = 8,
         openDun = 0,
@@ -150,7 +150,7 @@ return {
     },
     [9] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 9,
         openDun = 0,
@@ -168,7 +168,7 @@ return {
     },
     [10] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 10,
         openDun = 0,
@@ -186,7 +186,7 @@ return {
     },
     [11] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 11,
         openDun = 0,
@@ -204,7 +204,7 @@ return {
     },
     [12] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 12,
         openDun = 0,
@@ -222,7 +222,7 @@ return {
     },
     [13] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 13,
         openDun = 0,
@@ -240,7 +240,7 @@ return {
     },
     [14] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 14,
         openDun = 0,
@@ -258,7 +258,7 @@ return {
     },
     [15] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 15,
         openDun = 0,
@@ -276,7 +276,7 @@ return {
     },
     [16] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 16,
         openDun = 0,
@@ -294,7 +294,7 @@ return {
     },
     [17] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 17,
         openDun = 0,
@@ -312,7 +312,7 @@ return {
     },
     [18] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 18,
         openDun = 0,
@@ -330,7 +330,7 @@ return {
     },
     [19] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 5,
         isStinger = false,
         id = 19,
         openDun = 0,
@@ -350,10 +350,10 @@ return {
     },
     [20] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 20,
-        openDun = 0,
+        openDun = 101103,
         repetition = false,
         stingerTrigger = {
         },
@@ -371,7 +371,7 @@ return {
     },
     [21] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 21,
         openDun = 0,
@@ -389,7 +389,7 @@ return {
     },
     [22] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 22,
         openDun = 0,
@@ -407,7 +407,7 @@ return {
     },
     [23] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 3,
         isStinger = false,
         id = 23,
         openDun = 0,
@@ -427,7 +427,7 @@ return {
     },
     [24] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 24,
         openDun = 0,
@@ -445,7 +445,7 @@ return {
     },
     [25] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 20,
         isStinger = false,
         id = 25,
         openDun = 0,
@@ -483,7 +483,7 @@ return {
     },
     [27] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 10,
         isStinger = false,
         id = 27,
         openDun = 0,
@@ -504,7 +504,7 @@ return {
     },
     [28] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 8,
         isStinger = false,
         id = 28,
         openDun = 0,
@@ -524,10 +524,10 @@ return {
     },
     [29] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 29,
-        openDun = 0,
+        openDun = 101104,
         repetition = false,
         stingerTrigger = {
         },
@@ -544,10 +544,10 @@ return {
     },
     [30] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 30,
-        openDun = 0,
+        openDun = 101103,
         repetition = false,
         stingerTrigger = {
         },
@@ -565,7 +565,7 @@ return {
     },
     [31] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 9,
         isStinger = false,
         id = 31,
         openDun = 0,
@@ -586,10 +586,10 @@ return {
     },
     [32] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 32,
-        openDun = 0,
+        openDun = 101105,
         repetition = false,
         stingerTrigger = {
         },
@@ -607,10 +607,10 @@ return {
     },
     [33] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 33,
-        openDun = 0,
+        openDun = 101206,
         repetition = false,
         stingerTrigger = {
         },
@@ -628,10 +628,10 @@ return {
     },
     [34] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 34,
-        openDun = 0,
+        openDun = 101103,
         repetition = false,
         stingerTrigger = {
         },
@@ -648,7 +648,7 @@ return {
     },
     [35] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 16,
         isStinger = false,
         id = 35,
         openDun = 0,
@@ -744,7 +744,7 @@ return {
     },
     [40] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 15,
         isStinger = false,
         id = 40,
         openDun = 0,
@@ -763,7 +763,7 @@ return {
     },
     [41] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 28,
         isStinger = false,
         id = 41,
         openDun = 0,
@@ -782,10 +782,10 @@ return {
     },
     [42] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 42,
-        openDun = 0,
+        openDun = 102321,
         repetition = false,
         stingerTrigger = {
         },
@@ -803,10 +803,10 @@ return {
     },
     [43] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 43,
-        openDun = 0,
+        openDun = 101206,
         repetition = false,
         stingerTrigger = {
         },
@@ -823,7 +823,7 @@ return {
     },
     [44] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 7,
         isStinger = false,
         id = 44,
         openDun = 0,
@@ -880,7 +880,7 @@ return {
     },
     [47] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 12,
         isStinger = false,
         id = 47,
         openDun = 0,
@@ -918,7 +918,7 @@ return {
     },
     [49] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 0,
         isStinger = false,
         id = 49,
         openDun = 0,
@@ -1632,7 +1632,7 @@ return {
         levelType = 1,
     },
     [89] = {
-        isOpen = false,
+        isOpen = true,
         openLevel = 5,
         isStinger = false,
         id = 89,
@@ -1652,7 +1652,7 @@ return {
         levelType = 1,
     },
     [90] = {
-        isOpen = false,
+        isOpen = true,
         openLevel = 1,
         isStinger = false,
         id = 90,
@@ -1781,7 +1781,7 @@ return {
     },
     [97] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 60,
         isStinger = false,
         id = 97,
         openDun = 0,
@@ -1793,15 +1793,15 @@ return {
         stingerDating = "",
         name = "",
         unlockExplain = {
-            [1] = 2,
-            [2] = 270420,
+            [1] = 1,
+            [2] = 16000220,
         },
         icon = "",
-        levelType = 2,
+        levelType = 1,
     },
     [98] = {
         isOpen = true,
-        openLevel = 1,
+        openLevel = 4,
         isStinger = false,
         id = 98,
         openDun = 0,
@@ -1878,8 +1878,8 @@ return {
         levelType = 1,
     },
     [102] = {
-        isOpen = false,
-        openLevel = 99,
+        isOpen = true,
+        openLevel = 1,
         isStinger = false,
         id = 102,
         openDun = 0,
@@ -1887,7 +1887,7 @@ return {
         stingerTrigger = {
         },
         serverId = 1,
-        showIcon = false,
+        showIcon = true,
         stingerDating = "",
         name = "",
         unlockExplain = {
@@ -1990,8 +1990,8 @@ return {
         levelType = 1,
     },
     [110] = {
-        isOpen = false,
-        openLevel = 99,
+        isOpen = true,
+        openLevel = 1,
         isStinger = false,
         id = 110,
         openDun = 0,
@@ -2194,8 +2194,8 @@ return {
         levelType = 1,
     },
     [126] = {
-        isOpen = false,
-        openLevel = 99,
+        isOpen = true,
+        openLevel = 1,
         isStinger = false,
         id = 126,
         openDun = 0,
@@ -2270,8 +2270,8 @@ return {
         levelType = 1,
     },
     [141] = {
-        isOpen = false,
-        openLevel = 99,
+        isOpen = true,
+        openLevel = 2,
         isStinger = false,
         id = 141,
         openDun = 0,
@@ -2307,7 +2307,7 @@ return {
     },
     [143] = {
         isOpen = false,
-        openLevel = 99,
+        openLevel = 1,
         isStinger = false,
         id = 143,
         openDun = 0,
@@ -2324,8 +2324,8 @@ return {
         levelType = 1,
     },
     [144] = {
-        isOpen = false,
-        openLevel = 99,
+        isOpen = true,
+        openLevel = 1,
         isStinger = false,
         id = 144,
         openDun = 0,
@@ -2380,7 +2380,7 @@ return {
         levelType = 1,
     },
     [152] = {
-        isOpen = false,
+        isOpen = true,
         openLevel = 1,
         isStinger = false,
         id = 152,
@@ -2421,7 +2421,7 @@ return {
     },
     [155] = {
         isOpen = true,
-        openLevel = 50,
+        openLevel = 28,
         isStinger = false,
         id = 155,
         openDun = 0,
@@ -2460,8 +2460,8 @@ return {
         levelType = 1,
     },
     [157] = {
-        isOpen = true,
-        openLevel = 40,
+        isOpen = false,
+        openLevel = 99,
         isStinger = false,
         id = 157,
         openDun = 0,
@@ -2480,8 +2480,8 @@ return {
         levelType = 1,
     },
     [160] = {
-        isOpen = false,
-        openLevel = 50,
+        isOpen = true,
+        openLevel = 28,
         isStinger = false,
         id = 160,
         openDun = 0,
@@ -2489,6 +2489,186 @@ return {
         stingerTrigger = {
         },
         serverId = 3,
+        showIcon = false,
+        stingerDating = "",
+        name = "",
+        unlockExplain = {
+        },
+        icon = "",
+        levelType = 1,
+    },
+    [161] = {
+        isOpen = true,
+        openLevel = 20,
+        isStinger = false,
+        id = 161,
+        openDun = 0,
+        repetition = false,
+        stingerTrigger = {
+        },
+        serverId = 1,
+        showIcon = false,
+        stingerDating = "",
+        name = "",
+        unlockExplain = {
+        },
+        icon = "",
+        levelType = 1,
+    },
+    [309] = {
+        isOpen = true,
+        openLevel = 2,
+        isStinger = false,
+        id = 309,
+        openDun = 0,
+        repetition = false,
+        stingerTrigger = {
+        },
+        serverId = 3,
+        showIcon = false,
+        stingerDating = "",
+        name = "",
+        unlockExplain = {
+        },
+        icon = "",
+        levelType = 1,
+    },
+    [310] = {
+        isOpen = true,
+        openLevel = 2,
+        isStinger = false,
+        id = 310,
+        openDun = 0,
+        repetition = false,
+        stingerTrigger = {
+        },
+        serverId = 3,
+        showIcon = false,
+        stingerDating = "",
+        name = "",
+        unlockExplain = {
+        },
+        icon = "",
+        levelType = 1,
+    },
+    [311] = {
+        isOpen = true,
+        openLevel = 2,
+        isStinger = false,
+        id = 311,
+        openDun = 0,
+        repetition = false,
+        stingerTrigger = {
+        },
+        serverId = 3,
+        showIcon = false,
+        stingerDating = "",
+        name = "",
+        unlockExplain = {
+        },
+        icon = "",
+        levelType = 1,
+    },
+    [312] = {
+        isOpen = true,
+        openLevel = 2,
+        isStinger = false,
+        id = 312,
+        openDun = 0,
+        repetition = false,
+        stingerTrigger = {
+        },
+        serverId = 3,
+        showIcon = false,
+        stingerDating = "",
+        name = "",
+        unlockExplain = {
+        },
+        icon = "",
+        levelType = 1,
+    },
+    [313] = {
+        isOpen = true,
+        openLevel = 2,
+        isStinger = false,
+        id = 313,
+        openDun = 0,
+        repetition = false,
+        stingerTrigger = {
+        },
+        serverId = 3,
+        showIcon = false,
+        stingerDating = "",
+        name = "",
+        unlockExplain = {
+        },
+        icon = "",
+        levelType = 1,
+    },
+    [314] = {
+        isOpen = true,
+        openLevel = 2,
+        isStinger = false,
+        id = 314,
+        openDun = 0,
+        repetition = false,
+        stingerTrigger = {
+        },
+        serverId = 3,
+        showIcon = false,
+        stingerDating = "",
+        name = "",
+        unlockExplain = {
+        },
+        icon = "",
+        levelType = 1,
+    },
+    [300] = {
+        isOpen = true,
+        openLevel = 2,
+        isStinger = false,
+        id = 300,
+        openDun = 0,
+        repetition = false,
+        stingerTrigger = {
+        },
+        serverId = 3,
+        showIcon = false,
+        stingerDating = "",
+        name = "",
+        unlockExplain = {
+        },
+        icon = "",
+        levelType = 1,
+    },
+    [316] = {
+        isOpen = true,
+        openLevel = 2,
+        isStinger = false,
+        id = 316,
+        openDun = 0,
+        repetition = false,
+        stingerTrigger = {
+        },
+        serverId = 3,
+        showIcon = false,
+        stingerDating = "",
+        name = "",
+        unlockExplain = {
+        },
+        icon = "",
+        levelType = 1,
+    },
+    [999] = {
+        isOpen = true,
+        openLevel = 1,
+        isStinger = false,
+        id = 999,
+        openDun = 0,
+        repetition = false,
+        stingerTrigger = {
+        },
+        serverId = 2,
         showIcon = false,
         stingerDating = "",
         name = "",
@@ -2533,16 +2713,16 @@ return {
         icon = "",
         levelType = 1,
     },
-    [999] = {
-        isOpen = false,
-        openLevel = 1,
+    [315] = {
+        isOpen = true,
+        openLevel = 2,
         isStinger = false,
-        id = 999,
+        id = 315,
         openDun = 0,
         repetition = false,
         stingerTrigger = {
         },
-        serverId = 2,
+        serverId = 3,
         showIcon = false,
         stingerDating = "",
         name = "",

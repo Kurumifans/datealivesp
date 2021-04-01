@@ -1001,6 +1001,7 @@ function Hero:onAStateDel(state,objectID)
     elseif state == eAState.E_JING_ZHI then --静止
         self:onStateRemoveTrigger(state)
     elseif state == eAState.E_STATE_84 then --静止
+        self.actor:playStand() 
         self:onStateRemoveTrigger(state)
     elseif state == eAState.E_MEI_HUO then --魅惑
         self:onStateRemoveTrigger(state)
@@ -1321,6 +1322,12 @@ function Hero:getTimeScale()
         selfTimeScale = 0
     end
     return battleController.getTeam():getTimeScale(self:getCamp())*selfTimeScale
+end
+
+function Hero:updatePauseState(isPause)
+    for k , effect in ipairs(self.bufferEffectMap) do
+        effect:updatePauseState(isPause)
+    end
 end
 
 ---buffer 效果
@@ -2148,6 +2155,7 @@ end
 
 --复活
 function Hero:onRelive()
+    self.isDeaded = false
     self:getActor():playRelive(function()
         --切换到待机
         --HP恢复50%
@@ -2480,10 +2488,16 @@ end
 
 function Hero:onDie(arg)
     --死亡事件检查
+    
     self:onEventTrigger(eBFState.E_DEAD,self)
     if not self:isAState(eAState.E_RELIVE) then
         self:setFlag(eFlag.DEAD_Statistics)
-        EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        if self.isDeaded then
+            
+        else
+            self.isDeaded = true
+            EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        end
     end
     local function _fadeOut( )
         self.actor:fadeOut(function()
@@ -2547,6 +2561,7 @@ end
 
 --复活
 function Hero:relive(targetPos)
+    self.isDeaded = false
     if self:isDead() then
         self:forceToFloor()
         self:doEvent(eStateEvent.BH_RELIVE)
@@ -2557,6 +2572,7 @@ end
 
 --强制直接回血
 function Hero:forceRelive()
+    self.isDeaded = false
     self:forceToFloor()
     local hp = self:getValue(eAttrType.ATTR_MAX_HP)/2
     self:setValue(eAttrType.ATTR_NOW_HP,hp,true)
@@ -2594,6 +2610,7 @@ function Hero:excuteAction(action )
             Utils:showTips(tostring(self.data.pname).."离开了队伍")
         end
     elseif action == eHeroAction.RELIVE then --复活
+        self.isDeaded = false
         self.actor:show()
         local hp = self:getValue(eAttrType.ATTR_MAX_HP)
         self:setValue(eAttrType.ATTR_NOW_HP,hp,true)
@@ -2971,7 +2988,12 @@ function Hero:update(time)
                 -- self:removeFrormBattle()
             else
                 self:setFlag(eFlag.DEAD_Statistics)
-                EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+                if self.isDeaded then
+                    
+                else
+                    self.isDeaded = true
+                    EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+                end
                 self:release()
                 self:checkAndRelease()
             end
@@ -5690,7 +5712,12 @@ function Hero:act_killMySelf(id,isCount)
     self:setAIEnable(false)
     self.team:remove(self)
     if isCount then
-        EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        if self.isDeaded then
+            
+        else
+            self.isDeaded = true
+            EventMgr:dispatchEvent(eEvent.EVENT_HERO_DEAD, self)
+        end
     else
         EventMgr:dispatchEvent(eEvent.EVENT_HERO_REMOVE, self)
     end

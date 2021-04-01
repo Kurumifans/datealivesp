@@ -802,7 +802,7 @@ return {
     },
     [7022] = {
         type2 = 107022,
-        isOpen = false,
+        isOpen = true,
         type1 = 7,
         type3 = {
             [1] = 207001,
@@ -1049,7 +1049,7 @@ return {
     },
     [2025] = {
         type2 = 102026,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,
@@ -1177,7 +1177,7 @@ return {
     },
     [2027] = {
         type2 = 102028,
-        isOpen = false,
+        isOpen = true,
         type1 = 2,
         type3 = {
             [1] = 202001,

@@ -178,7 +178,7 @@ local t =
 							touchAble = "True",
 							UILayoutViewModel = 
 							{
-								PositionX = 334,
+								PositionX = 280,
 								PositionY = -182,
 							},
 							UItype = "Button",
