@@ -827,7 +827,7 @@ return {
         },
         heroPower = 33,
         paint = 1103131,
-        backdrop = "icon/hero/backdrop/10313.png",
+        backdrop = "icon/hero/backdrop/bingkai.png",
         paintWeapon = 1103131,
         id = 1103131,
         skinImg = "icon/role/roleSkin/10313.png",

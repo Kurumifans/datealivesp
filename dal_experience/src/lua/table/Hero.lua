@@ -4212,7 +4212,7 @@ return {
         money = 0,
         attribute2 = 1231,
         callLimit = 1,
-        isOpen = 1,
+        isOpen = 0,
         color2 = {
             [1] = 69,
             [2] = 91,

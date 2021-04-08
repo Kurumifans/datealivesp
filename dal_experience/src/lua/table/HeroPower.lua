@@ -587,13 +587,13 @@ return {
             [2] = 54,
         },
         specialEnergyUI = 0,
-        powerUI = 8,
+        powerUI = 15,
         specialEnergyName = 0,
         getType = 3,
         consumeType = 0,
         getPrams = {
             [1] = 500,
-            [2] = 3,
+            [2] = 1,
         },
         triggerBuff = {
         },

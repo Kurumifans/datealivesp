@@ -502,6 +502,37 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "ctrlLimit_Effect_Button_ctrlA_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "7b62db9c_46eb_498b_ba53_656b7a89094c",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									scaleX = "1.3",
+									scaleY = "1.3",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
 									controlID = "LoadingBar_limit_Button_ctrlA_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
 									UUID = "a9ac7647_4156_47e3_af6a_b67693a0040c",
 									anchorPoint = "False",
@@ -515,6 +546,8 @@ local t =
 									ignoreSize = "True",
 									name = "LoadingBar_limit",
 									percent = "100",
+									scaleX = "1.3",
+									scaleY = "1.3",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -843,6 +876,37 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "ctrlLimit_Effect_Button_ctrlB_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "9d92844d_0a2e_493e_ab5f_1c9c6d8760b7",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									scaleX = "0.88",
+									scaleY = "0.88",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
 									controlID = "LoadingBar_limit_Button_ctrlB_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
 									UUID = "9c895c38_75bf_42c3_b63e_739b5a612b66",
 									anchorPoint = "False",
@@ -1153,6 +1217,35 @@ local t =
 										PositionY = -36,
 									},
 									width = "25",
+									ZOrder = "1",
+								},
+								{
+									controlID = "ctrlLimit_Effect_Button_ctrlF_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "e8a04ee3_f055_4cb7_b4dc_69afbd826c4c",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
 									ZOrder = "1",
 								},
 								{
@@ -1495,6 +1588,35 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "ctrlLimit_Effect_Button_ctrlC_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "0b863eec_354c_4721_ab05_ecda24055ab5",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
 									controlID = "LoadingBar_limit_Button_ctrlC_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
 									UUID = "6d056702_e73f_4df6_aef2_97d8dc638192",
 									anchorPoint = "False",
@@ -1831,6 +1953,35 @@ local t =
 										PositionY = -36,
 									},
 									width = "25",
+									ZOrder = "1",
+								},
+								{
+									controlID = "ctrlLimit_Effect_Button_ctrlD_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "c9031e01_e376_407a_bc55_bb69c77d1836",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
 									ZOrder = "1",
 								},
 								{
@@ -2173,6 +2324,35 @@ local t =
 									ZOrder = "1",
 								},
 								{
+									controlID = "ctrlLimit_Effect_Button_ctrlE_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "a074336e_a919_42e5_8a96_472718a28279",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
+									ZOrder = "1",
+								},
+								{
 									controlID = "LoadingBar_limit_Button_ctrlE_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
 									UUID = "96b97ff4_2984_46b0_afa1_bfced9b9bf89",
 									anchorPoint = "False",
@@ -2509,6 +2689,35 @@ local t =
 										PositionY = -36,
 									},
 									width = "25",
+									ZOrder = "1",
+								},
+								{
+									controlID = "ctrlLimit_Effect_Button_ctrlG_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "9ba1967a_1bbd_4f6f_80ff_e6e1cb5446db",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
 									ZOrder = "1",
 								},
 								{
@@ -3182,6 +3391,35 @@ local t =
 										PositionY = -36,
 									},
 									width = "25",
+									ZOrder = "1",
+								},
+								{
+									controlID = "ctrlLimit_Effect_Button_ctrlH_Panel_ctrlPad_Panel-ctrlView_ui_battle_Game",
+									UUID = "d9c88904_078d_4cc9_8007_f0823e4a9e41",
+									classname = "MESpine",
+									dstBlendFunc = "771",
+									name = "ctrlLimit_Effect",
+									sizepercentx = "0",
+									sizepercenty = "0",
+									sizeType = "0",
+									spineModel = 
+									{
+										SpinePath = "effect/battle_limitBar_effect/effects_UI_anniu",
+										animationName = "kaishi",
+										IsLoop = true,
+										IsPlay = true,
+										IsUseQueue = false,
+										AnimationQueue = 
+										{
+											
+										},
+									},
+									srcBlendFunc = "1",
+									touchAble = "False",
+									UILayoutViewModel = 
+									{
+										
+									},
 									ZOrder = "1",
 								},
 								{

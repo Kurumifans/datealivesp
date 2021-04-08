@@ -2184,7 +2184,7 @@ return {
         starGrow = true,
         gridMax = 1,
         summonSize = 0.6,
-        inherentAttribute = 10191,
+        inherentAttribute = 10207,
         nameTextId = "400241",
         icon = "icon/equipment/icon/106_106/icon1_meili_42.png",
         size = 0.5,
@@ -2214,7 +2214,7 @@ return {
             [3] = 96,
         },
         name = "400241",
-        desTextId = 409985,
+        desTextId = 409803,
         exp = 500,
         photoSize = 0.5,
         halfPaint = "icon/equipment/icon/170_214/icon2_meili_42.png",
@@ -2271,7 +2271,7 @@ return {
             [3] = 1504,
         },
         suit = {
-            [1] = 58,
+            [1] = 63,
         },
         combination = {
             [1] = 3,
@@ -2283,7 +2283,7 @@ return {
             [7] = 15,
             [8] = 16,
         },
-        nameIcon = "icon/equipment/name/fengling.png",
+        nameIcon = "icon/equipment/name/jihan.png",
         paintPosition = {
             y = 282,
             x = 340,
@@ -2655,7 +2655,7 @@ return {
         starGrow = true,
         gridMax = 1,
         summonSize = 0.6,
-        inherentAttribute = 10190,
+        inherentAttribute = 10206,
         nameTextId = "400240",
         icon = "icon/equipment/icon/106_106/icon1_lijie_23.png",
         size = 0.5,
@@ -2685,7 +2685,7 @@ return {
             [3] = 85,
         },
         name = "400240",
-        desTextId = 409984,
+        desTextId = 409802,
         exp = 500,
         photoSize = 0.5,
         halfPaint = "icon/equipment/icon/170_214/icon2_lijie_23.png",
@@ -2742,7 +2742,7 @@ return {
             [3] = 1328,
         },
         suit = {
-            [1] = 58,
+            [1] = 63,
         },
         combination = {
             [1] = 2,
@@ -2750,7 +2750,7 @@ return {
             [3] = 7,
             [4] = 8,
         },
-        nameIcon = "icon/equipment/name/yuanzheng.png",
+        nameIcon = "icon/equipment/name/jianren.png",
         paintPosition = {
             y = 282,
             x = 340,
@@ -3120,9 +3120,9 @@ return {
         starGrow = true,
         gridMax = 1,
         summonSize = 0.6,
-        inherentAttribute = 10189,
+        inherentAttribute = 10205,
         nameTextId = "400239",
-        icon = "icon/equipment/icon/106_106/icon1_zhihui_16.png",
+        icon = "icon/equipment/icon/106_106/icon1_zhihui_18.png",
         size = 0.5,
         specialAttrLevelRange = {
             [1] = {
@@ -3150,7 +3150,7 @@ return {
             [3] = 119,
         },
         name = "400239",
-        desTextId = 409983,
+        desTextId = 409801,
         exp = 500,
         photoSize = 0.5,
         halfPaint = "icon/equipment/icon/170_214/icon2_zhihui_18.png",
@@ -3207,7 +3207,7 @@ return {
             [3] = 1864,
         },
         suit = {
-            [1] = 58,
+            [1] = 63,
         },
         combination = {
             [1] = 1,
@@ -3215,7 +3215,7 @@ return {
             [3] = 5,
             [4] = 6,
         },
-        nameIcon = "icon/equipment/name/maoxian.png",
+        nameIcon = "icon/equipment/name/youya.png",
         paintPosition = {
             y = 282,
             x = 340,

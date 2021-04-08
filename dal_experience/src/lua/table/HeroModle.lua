@@ -491,10 +491,10 @@ return {
         },
         TeampaintSize = 0.3,
         paintPosition = {
-            y = -1410,
-            x = 300,
+            y = -700,
+            x = 160,
         },
-        paintSize = 0.45,
+        paintSize = 0.9,
         paintDetailPosition = {
             y = -10,
             x = -50,

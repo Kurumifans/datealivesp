@@ -45,7 +45,7 @@ function Skill:ctor(data,hero)
     self.data = data
     -- self.data.costAnger = 0
 
-    self.skillCfg = TabDataMgr:getData("Skill",self.data.id)
+    self.skillCfg = BattleDataMgr:getSkillData(data.id,hero:getAngleDatas())
     if not self.data.revealSkill or self.data.revealSkill == 0 then
         self.bVisiable =  true
     else
@@ -249,12 +249,14 @@ function Skill:handlLimitTime( time )
     if self.nLimitTime > 0 then
         self.nLimitTime = self.nLimitTime - time
         self.nLimitTime = math.max(self.nLimitTime, 0)
-        local lastPercent = self.nLimitPercent or 100
+        local lastPercent = self.nLimitPercent
         self.nLimitPercent = math.floor(self.nLimitTime/self.skillCfg.limitTime*100)
         if lastPercent - self.nLimitPercent > 0 then
             EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE,self)
         end
     elseif self.skillCfg.limitTime and self.skillCfg.limitTime > 0 then
+        self.nLimitTime = nil
+        self.nLimitPercent = nil
         if self.skillCfg.callbackSkill and self.skillCfg.callbackSkill > 0 then
             local skill  = self.hero:getSkillByCid(self.skillCfg.callbackSkill)
             self:setVisiable(false)
@@ -1415,10 +1417,17 @@ end
 --强制更新
 function Skill:forceUpdate(flag)--强制更新
     if self:isVisiable() then
-        self.nLimitTime = self.skillCfg.limitTime
+        if self.skillCfg.limitTime > 0 then
+            self.nLimitTime = self.skillCfg.limitTime
+            self.nLimitPercent = 100
+        end
+        
         if self:isManual(true) then
             EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE, self , flag)
         end
+    else
+        self.nLimitTime = nil
+        self.nLimitPercent = nil
     end
 end
 

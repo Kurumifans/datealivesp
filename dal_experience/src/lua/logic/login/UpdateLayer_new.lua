@@ -282,10 +282,17 @@ function UpdateLayer_new:checkForcedUpdate()
 end
 
 function UpdateLayer_new:updateVision()
-
+    
     if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 then
         restartLuaEngine("CompleteUpdate")
         return 
+    end
+    if EXPERIENCE then
+        local appVersion = tonumber(TFDeviceInfo:getCurAppVersion())
+        if appVersion < 3.80 then
+            me.Director:endToLua()
+            return
+        end
     end
     -- do
     --     restartLuaEngine("CompleteUpdate")
