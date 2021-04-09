@@ -1214,7 +1214,7 @@ function BFEffect:createRenderNode()
                 for i, resId in ipairs(self.data.effectList) do
                     local data = TabDataMgr:getData("BufferEffectList",resId)
                     if data.heroFormId == formId then
-                        local renderNode = ResLoader.createEffect(data.resource,scale)
+                        local renderNode = ResLoader.createEffect(data.resource,scale,true)
                         renderNode.mount = data.mount
                         renderNode.effectsDir = data.effectsDir
                         local scaleX = math.abs(renderNode:getScaleX())
@@ -1241,7 +1241,7 @@ function BFEffect:createRenderNode()
             local zorder   = self.data["zorder"..index]
 
             if ResLoader.isValid(resource) then
-                local renderNode = ResLoader.createEffect(resource,scale)
+                local renderNode = ResLoader.createEffect(resource,scale,true)
                 renderNode.mount = mount
                 renderNode.effectsDir = 0 --默认跟随角色方向
                 renderNode:setCameraMask(cameraMask)
@@ -1259,6 +1259,9 @@ end
 function BFEffect:releaseRenderNode()
     if self.skeletonNodes then 
         for i, skeletonNode in ipairs(self.skeletonNodes) do
+            if skeletonNode.resPath then
+                ResLoader.addCacheSpine(skeletonNode,skeletonNode.resPath)
+            end
             skeletonNode:removeFromParent()
         end
         self.skeletonNodes = nil

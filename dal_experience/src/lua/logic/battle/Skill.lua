@@ -1414,6 +1414,10 @@ function Skill:getSilence()
     return 0
 end
 
+function Skill:getUselessUI()
+    return self.skillCfg.uselessUI
+end
+
 --强制更新
 function Skill:forceUpdate(flag)--强制更新
     if self:isVisiable() then

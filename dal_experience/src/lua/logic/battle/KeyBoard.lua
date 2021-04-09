@@ -468,6 +468,9 @@ function KeyBoard:onVKStateChange(skill,flag)
                 end
             end
 
+            if skill:getUselessUI() == 1 then
+                keyNode.image_silence:hide()
+            end
 
         else
             -- local percent = 100 - skill:getCDPercent()
@@ -527,6 +530,10 @@ function KeyBoard:onVKStateChange(skill,flag)
                 else
                     keyNode.image_silence:hide()
                 end
+            end
+            
+            if skill:getUselessUI() == 1 then
+                keyNode.image_silence:hide()
             end
 
         end

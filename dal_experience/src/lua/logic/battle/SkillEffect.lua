@@ -470,8 +470,9 @@ end
 function Effect:releaseSkeletonNode()
     if self.skeletonNode then
         _print("释放特效:"..self.skeletonNode.resPath)
-        self.skeletonNode:removeMEListener(TFARMATURE_EVENT)
-        self.skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+        -- self.skeletonNode:removeMEListener(TFARMATURE_EVENT)
+        -- self.skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+        ResLoader.addCacheSpine(self.skeletonNode,self.skeletonNode.resPath)
         self.skeletonNode:removeFromParent(true)
         self.skeletonNode = nil
     end
@@ -1846,7 +1847,7 @@ function Effect:createSkeletonNode()
         Box("effect data not resource "..tostring(self.effectData.id))
     end
     local scale = self:getSkeletonModalSize()
-	self.skeletonNode = ResLoader.createEffect(self.effectData.resource,scale)
+	self.skeletonNode = ResLoader.createEffect(self.effectData.resource,scale,true)
     self.skeletonNode:setScheduleUpdateWhenEnter(false)
     local loop  = self.effectData.loop
     if not loop then
@@ -1911,10 +1912,13 @@ function Effect:playEndEffect()
         if ResLoader.isValid(effectName) then
             local effectAction = self.effectData.endEffectAction
             local endEffectScale = self.effectData.endEffectScale*BattleConfig.MODAL_SCALE*self.srcHero:getSkeletonNodeScale()
-            local skeletonNode = ResLoader.createEffect(effectName,endEffectScale)
+            local skeletonNode = ResLoader.createEffect(effectName,endEffectScale,true)
             skeletonNode:setPosition(ccp(0,0))
             skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(skeletonNode)
                 skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+                if skeletonNode.resPath then
+                    ResLoader.addCacheSpine(skeletonNode,skeletonNode.resPath)
+                end
                 skeletonNode:removeFromParent()
             end)
             skeletonNode:play(effectAction, 0)
@@ -2121,10 +2125,13 @@ function Effect:onGraspStart(num)
                         if parent == 0 then 
                             hero:getActor():playEffect(resource,scale,action)
                         else --挂在到地图
-                            local  skeletonNode = ResLoader.createEffect(resource,scale)
+                            local  skeletonNode = ResLoader.createEffect(resource,scale,true)
                             skeletonNode:play(action,0)
                             skeletonNode:addMEListener(TFARMATURE_COMPLETE,function ( skeletonNode )
                                 skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+                                if skeletonNode.resPath then
+                                    ResLoader.addCacheSpine(skeletonNode,skeletonNode.resPath)
+                                end
                                 skeletonNode:removeFromParent()
                             end)
                             local pos3d = hero:getPosition3D()
@@ -2177,10 +2184,13 @@ function Effect:onGraspChange(num)
                     if parent == 0 then 
                         hero:getActor():playEffect(resource,scale,action)
                     else --挂在到地图
-                        local  skeletonNode = ResLoader.createEffect(resource,scale)
+                        local  skeletonNode = ResLoader.createEffect(resource,scale,true)
                         skeletonNode:play(action,0)
                         skeletonNode:addMEListener(TFARMATURE_COMPLETE,function ( skeletonNode )
                             skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+                            if skeletonNode.resPath then
+                                ResLoader.addCacheSpine(skeletonNode,skeletonNode.resPath)
+                            end
                             skeletonNode:removeFromParent()
                         end)
                         local pos3d = hero:getPosition3D()
@@ -2229,10 +2239,13 @@ function Effect:onGraspEnd(num)
                         if parent == 0 then 
                             hero:getActor():playEffect(resource,scale,action)
                         else --挂在到地图
-                            local  skeletonNode = ResLoader.createEffect(resource,scale)
+                            local  skeletonNode = ResLoader.createEffect(resource,scale,true)
                             skeletonNode:play(action,0)
                             skeletonNode:addMEListener(TFARMATURE_COMPLETE,function ( skeletonNode )
                                 skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+                                if skeletonNode.resPath then
+                                    ResLoader.addCacheSpine(skeletonNode,skeletonNode.resPath)
+                                end
                                 skeletonNode:removeFromParent()
                             end)
                             local pos3d = hero:getPosition3D()

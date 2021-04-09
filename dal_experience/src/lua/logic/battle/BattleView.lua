@@ -2216,6 +2216,9 @@ function BattleView:onShowHitLine(pos)
     skeletonNode:setPosition(pos)
     skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)
         _skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+        if _skeletonNode.resPath then
+            ResLoader.addCacheSpine(_skeletonNode,_skeletonNode.resPath)
+        end
         _skeletonNode:removeFromParent()
     end)
     self.mapView:addObject3(skeletonNode)

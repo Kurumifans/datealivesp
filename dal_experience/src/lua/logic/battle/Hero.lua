@@ -146,32 +146,7 @@ function Hero:ctor(data,team,host)
     self.limitArea = self.data.limitArea
     self.area = self.data.area
 
-    --检查是否有词缀
-    self:checkMonsterAffixs()
-
-    --基础属性
-    self.property = Property.new()
-    self.property:parseFrom(self.data,host)
-    if self.data.unlimitedHp == 2 then --指定血量
-        local _attrs = battleController.getSpecifyMonsterInfo(self.data.id)
-        if _attrs then 
-            for k ,v in pairs(_attrs) do
-                if k < 50 then 
-                    self.property:setBaseValue(k,v)
-                else 
-                    self.property:setValue(k,v)
-                end
-            end
-        end
-    end
-    if self.data.__hp then 
-        self.property:setValue(eAttrType.ATTR_NOW_HP,self.data.__hp)
-    end
-    self.property:setListener(handler(self.onAttrTrigger,self))
-
-    self:addExtraProperty()
-
-    self.bufferEffectMap = {}
+     self.bufferEffectMap = {}
 
     self.skillMap = {}  --key类型
     self.skillList = {}
@@ -189,8 +164,6 @@ function Hero:ctor(data,team,host)
 
     -- 出生计时
     self.showTiming_ = 0
-    --记录出生时间
-    self.nBornTime    = BattleUtils.gettime()
 
     --释放的技能
     self.skill    = nil
@@ -207,9 +180,6 @@ function Hero:ctor(data,team,host)
     -- 是否暂停伤害统计
     self.isHurtValuePause = false
 
-    --附加状态
-    self.stateMgr = StateMgr:new(self)
-
     --记录受击的技能ID
     self.nLastBloodSkillGroupId = 0
 
@@ -217,59 +187,91 @@ function Hero:ctor(data,team,host)
     self.effetList = {}
     --Buffer 列表
     self.bufferList     = {}
-    self:createBufferList()
 
-    --切换角色冷却管理器
-    local roleType = self.data.roleType
-    if roleType == eRoleType.Hero then
-        if self.data.enterField > 0 then
-            self.countDown = CountDown:create(self.data.enterField)
-            self.countDown:setListener(handler(self.onCountDown,self))
+    --检查是否有词缀
+    self:checkMonsterAffixs()
+    if team then
+        --记录出生时间
+        self.nBornTime    = BattleUtils.gettime()
+        --基础属性
+        self.property = Property.new()
+        self.property:parseFrom(self.data,host)
+        if self.data.unlimitedHp == 2 then --指定血量
+            local _attrs = battleController.getSpecifyMonsterInfo(self.data.id)
+            if _attrs then 
+                for k ,v in pairs(_attrs) do
+                    if k < 50 then 
+                        self.property:setBaseValue(k,v)
+                    else 
+                        self.property:setValue(k,v)
+                    end
+                end
+            end
         end
+
+        if self.data.__hp then 
+            self.property:setValue(eAttrType.ATTR_NOW_HP,self.data.__hp)
+        end
+        self.property:setListener(handler(self.onAttrTrigger,self))
+
+        self:addExtraProperty()
+        --附加状态
+        self.stateMgr = StateMgr:new(self)
+        self:createBufferList()
+
+        --切换角色冷却管理器
+        local roleType = self.data.roleType
+        if roleType == eRoleType.Hero then
+            if self.data.enterField > 0 then
+                self.countDown = CountDown:create(self.data.enterField)
+                self.countDown:setListener(handler(self.onCountDown,self))
+            end
+        end
+            --附加状态 then return end
+        --创建技能
+        self:createSkills()
+        --创建Actor
+        self:createActor()
+
+        self:createFSM()
+
+
+        --敌方队伍不需要播放战斗结束动画
+        if not self.data.isPlayVictorAction then
+            self:setFlag(eFlag.EndOfBattle)
+            self:setFlag(eFlag.PlayedEndAction)
+        end
+
+        --能量获取/消耗处理
+        if self.data.heroPower and self.data.heroPower > 0 then
+            self.energyData = BattleDataMgr:getEnergyData(self.data.heroPower,self:getAngleDatas())
+            self.energyMgr = Energy:new(self.energyData,self)
+        end
+        if self.data.stiffness and self.data.stiffness > 0 then
+            self.superArmorMgr = SuperArmor:new(self)
+        end
+
+        -- 寻路检测计时
+        self.pathCheckTiming = 0
+        -- 寻路检测间隔时间
+        self.pathCeckInterval = 1000
+
+        --AI操作数容器
+        self.AIStepDatas = {}
+        self.AIStepCD = 0
+        self.aiUseSkillTime = 10000
+
+        self.preCastSkillData = {}
+
+        --互斥音效列表
+        self.effectMutexList = {}
+        self.recorder = Recorder:new()
+
+        if BattleDataMgr:isMusicGameLevel() then
+             self:setPracticeInfinite(true)
+        end
+        self.skillDamageFlag = 0  --AI技能是否造成伤害
     end
-    --创建技能
-    self:createSkills()
-    --创建Actor
-    self:createActor()
-
-    self:createFSM()
-
-
-    --敌方队伍不需要播放战斗结束动画
-    if not self.data.isPlayVictorAction then
-        self:setFlag(eFlag.EndOfBattle)
-        self:setFlag(eFlag.PlayedEndAction)
-    end
-
-    --能量获取/消耗处理
-    if self.data.heroPower and self.data.heroPower > 0 then
-        self.energyData = BattleDataMgr:getEnergyData(self.data.heroPower,self:getAngleDatas())
-        self.energyMgr = Energy:new(self.energyData,self)
-    end
-    if self.data.stiffness and self.data.stiffness > 0 then
-        self.superArmorMgr = SuperArmor:new(self)
-    end
-
-    -- 寻路检测计时
-    self.pathCheckTiming = 0
-    -- 寻路检测间隔时间
-    self.pathCeckInterval = 1000
-
-    --AI操作数容器
-    self.AIStepDatas = {}
-    self.AIStepCD = 0
-    self.aiUseSkillTime = 10000
-
-    self.preCastSkillData = {}
-
-    --互斥音效列表
-    self.effectMutexList = {}
-    self.recorder = Recorder:new()
-
-    if BattleDataMgr:isMusicGameLevel() then
-         self:setPracticeInfinite(true)
-    end
-    self.skillDamageFlag = 0  --AI技能是否造成伤害
 
 end
 --锤子的范围
@@ -1479,8 +1481,9 @@ function Hero:calcPointTargetTypes()
     end
     return pointTargetTypes
 end
---302
-function Hero:createBufferList()
+
+
+function Hero:getBufferIds()
     --技能buff 相关
     local buffIds = {}
     ---关卡buffer 加成
@@ -1580,6 +1583,14 @@ function Hero:createBufferList()
         table.insert(buffIdList,id)
     end
     table.sort(buffIdList)
+    dump(buffIdList," "..self:getName())
+    -- Box("xxx::"..tostring(self:getName()))
+    return buffIdList
+end
+--302
+function Hero:createBufferList()
+    --技能buff 相关
+    local buffIdList = self:getBufferIds()
     for i, id in ipairs(buffIdList) do
         local buffer = Buffer.create(id,self)
         buffer:addToMgr()

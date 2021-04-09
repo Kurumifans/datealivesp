@@ -1230,6 +1230,9 @@ function Actor:playEffect(effectName,effectScale,actionName,callFunc)
     end
     skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)
         _skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+        if _skeletonNode.resPath then
+            ResLoader.addCacheSpine(_skeletonNode,_skeletonNode.resPath)
+        end
         _skeletonNode:removeFromParent()
         if callFunc then
             callFunc(_skeletonNode)

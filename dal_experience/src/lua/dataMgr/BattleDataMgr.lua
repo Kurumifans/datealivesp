@@ -1487,5 +1487,16 @@ function BattleDataMgr:isMusicGameLevel()
     return self:getLevelCfg().dungeonType == EC_FBLevelType.MUSIC_GAME
 end
 
+function BattleDataMgr.getHeroBuffIds( heroData )
+    -- body
+    if not heroData.formDatas then return {} end
+    local hero = requireNew("lua.logic.battle.Hero"):new(heroData)
+
+    local buffIds = hero:getBufferIds()
+    hero:release_()
+    return buffIds
+end
+
+
 local instace = BattleDataMgr:new()
 return instace
