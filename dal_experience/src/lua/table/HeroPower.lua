@@ -583,7 +583,7 @@ return {
         },
         id = 33,
         energyExchange = {
-            [1] = 400000,
+            [1] = 100000,
             [2] = 54,
         },
         specialEnergyUI = 0,

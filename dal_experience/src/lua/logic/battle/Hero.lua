@@ -978,7 +978,10 @@ function Hero:onAStateClear(state)
             end
         end
     elseif state == eAState.E_STATE_84 then
-        self.actor:playStand() 
+        self:doEvent(eStateEvent.BH_STAND)
+        if self.aiAgent then
+            self.aiAgent:next()
+        end
     end
 end
 
@@ -1003,7 +1006,10 @@ function Hero:onAStateDel(state,objectID)
     elseif state == eAState.E_JING_ZHI then --静止
         self:onStateRemoveTrigger(state)
     elseif state == eAState.E_STATE_84 then --静止
-        self.actor:playStand() 
+        self:doEvent(eStateEvent.BH_STAND)
+        if self.aiAgent then
+            self.aiAgent:next()
+        end
         self:onStateRemoveTrigger(state)
     elseif state == eAState.E_MEI_HUO then --魅惑
         self:onStateRemoveTrigger(state)
@@ -1111,6 +1117,7 @@ function Hero:onAStateAdd(state,objectID)
         -- end
         self.actor:stopAni()
         self:removeAllEffect()
+        self.pathList = {}
     elseif state >= eAState.E_SKILLTYPE_1_DISABLE and state <= eAState.E_SKILLTYPE_7_DISABLE then
         -- for key,v in pairs(skill_type_disable) do
         --     if v == state then
@@ -4824,7 +4831,7 @@ function Hero:pathMove(time)
     end
 end
 function Hero:autoMove(time)
-    if self:isAState(eAState.E_STOP_MOVE) then
+    if self:isAState(eAState.E_STOP_MOVE) or self:isAState(eAState.E_STATE_84) then
         self.pathList= {}
     end
 

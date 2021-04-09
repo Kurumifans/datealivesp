@@ -39832,7 +39832,7 @@ return {
         },
         gainEnergy = 0,
         continuousAction = "",
-        cd = 10000,
+        cd = 5000,
         useWarn = "",
         keyTap = "",
         othershiftSkill = {
@@ -40767,7 +40767,7 @@ return {
         level = 2,
         icon = "icon/skill/10313_skillB.png",
         levelType = 1,
-        openCd = 5000,
+        openCd = 0,
         costLow = 0,
         first = 15511,
         subclassesPicture = {
@@ -40789,7 +40789,7 @@ return {
         },
         gainEnergy = 0,
         continuousAction = "",
-        cd = 10000,
+        cd = 0,
         useWarn = "",
         keyTap = "",
         othershiftSkill = {
@@ -45392,7 +45392,7 @@ return {
         },
         gainEnergy = 0,
         continuousAction = "",
-        cd = 15000,
+        cd = 12000,
         useWarn = "",
         keyTap = "",
         othershiftSkill = {
@@ -49397,7 +49397,7 @@ return {
         },
         gainEnergy = 0,
         continuousAction = "",
-        cd = 12000,
+        cd = 9000,
         useWarn = "",
         keyTap = "",
         othershiftSkill = {

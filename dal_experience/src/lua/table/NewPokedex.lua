@@ -19560,7 +19560,7 @@ return {
         },
         specialCondition = {
         },
-        cup = 2,
+        cup = 5,
         size2 = 0,
         endSuit = 0,
         endType = 0,

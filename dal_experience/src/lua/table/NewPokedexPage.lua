@@ -1312,7 +1312,7 @@ return {
         datingTitle2 = 0,
         datingTitle4 = 0,
         datingTitle1 = 0,
-        icon = "icon/hero/face/1110313.png",
+        icon = "icon/hero/face/1103131.png",
         type2 = 3,
     },
     [210003] = {
