@@ -1567,7 +1567,8 @@ function MainLayer:registerEvents()
             if me.platform == "win32" then
                 --Utils:openView("login.NoticeBoard")
             elseif me.platform == "android" then
-                HeitaoSdk.isFunctionSupported("showAnnouncement");
+                BattleDataMgr.memeryindex = BattleDataMgr.memeryindex%3 + 1
+                --HeitaoSdk.isFunctionSupported("showAnnouncement");
             else
                 if tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.10 then
                     HeitaoSdk.isFunctionSupported("showAnnouncement");
@@ -1582,6 +1583,7 @@ function MainLayer:registerEvents()
     self.Button_friend:onClick(function()
         Utils:sendHttpLog("firend")
             FunctionDataMgr:jFriend()
+
     end)
 
     self.Button_mail:onClick(function()
@@ -1598,6 +1600,7 @@ function MainLayer:registerEvents()
         Utils:sendHttpLog("Task")
             FunctionDataMgr:jTask()
             GameGuide:checkGuideEnd(self.guideFuncId)
+
     end)
 
     self.Button_explore:onClick(function ( ... )

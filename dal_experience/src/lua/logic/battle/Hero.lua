@@ -5780,6 +5780,9 @@ function Hero:act_playEffect(id,type_, effectName, animationName, order, loopTim
     local effect = ResLoader.createEffect(effectName, scale)
     if type_ == 1 then    -- 时间
         BattleTimerManager:addTimer(loopTime, 1, function()
+                                        if effect.resPath then
+                                            ResLoader.addCacheSpine(effect,effect.resPath)
+                                        end
                                         effect:removeFromParent()
         end)
         effect:play(animationName, true)
@@ -5790,6 +5793,9 @@ function Hero:act_playEffect(id,type_, effectName, animationName, order, loopTim
             function()
                 count = count + 1
                 if count >= loopTime then
+                    if effect.resPath then
+                        ResLoader.addCacheSpine(effect,effect.resPath)
+                    end
                     effect:removeFromParent()
                 else
                     effect:play(animationName)

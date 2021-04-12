@@ -48419,14 +48419,16 @@ return {
         motionDown = {
         },
         id = 29122,
-        effectPoint = "",
+        effectPoint = "root",
         motionUp = {
+            [1] = "animation",
         },
         effectScaleDown = 0.6,
         resourceDown = {
         },
-        triggerEvent = "",
+        triggerEvent = "effect1",
         resourceUp = {
+            [1] = "effects_10313_born",
         },
         realAction = "born",
         action = "born",

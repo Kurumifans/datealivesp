@@ -1441,6 +1441,9 @@ function Actor:onSkeletonNodeComplete(skeletonNode)
     if self.bufferEffects then 
         table.removeItem(self.bufferEffects,skeletonNode)
     end
+    if skeletonNode.resPath then
+        ResLoader.addCacheSpine(skeletonNode,skeletonNode.resPath)
+    end
     skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
     skeletonNode:removeFromParent()
 end

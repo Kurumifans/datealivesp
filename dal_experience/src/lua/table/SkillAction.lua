@@ -6128,7 +6128,7 @@ return {
         loop = false,
         name = "冰铠-技能2-1段砸下",
         cond = 0,
-        actionHard = 0,
+        actionHard = 1,
         keyName = {
         },
         frameEvents = {
@@ -161818,7 +161818,7 @@ return {
         checkDirect = true,
         id = 15572,
         actionSpeed = 10000,
-        fallSpeed = 500,
+        fallSpeed = 1000,
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,

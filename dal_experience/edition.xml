@@ -1,59 +1,53 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.2.47" lastVersion="3.2.46">
-  <f p=".nomedia/nomedia.txt" m="d2853b978a25e8a3d9016f9f4e048650" c="0" />
-  <f p="res/basic/effect/effects_10313_skillC/effects_10313_skillC.atlas" m="ff07f4a13cb5f7160b91e39de7c03684" c="0" />
-  <f p="res/basic/effect/effects_10313_skillC/effects_10313_skillC.png" m="029109dcbab1c6ec2bff4172faf7d45f" c="0" />
-  <f p="res/basic/effect/effects_10313_skillC/effects_10313_skillC.skel" m="cfa90dcc450b567bd7c9fce173bd6c36" c="0" />
-  <f p="res/basic/effect/effects_10313_skillC/effects_10313_skillC2.png" m="82d601fa0b5bf7ea21d356d346b7e509" c="0" />
-  <f p="res/basic/effect/effects_10313_skillE/effects_10313_skillE.skel" m="670ac439a5b376fb4abddd75038bfd20" c="0" />
-  <f p="res/basic/effect/effects_10313_tuzi/effects_10313_tuzi.skel" m="3753901c6b69a46cb619f0f53e33442a" c="0" />
-  <f p="res/basic/effect/fight_10313/fight_10313.skel" m="af56a85db2df0105f0264bfe97ef955c" c="0" />
-  <f p="res/basic/video/summon_bingkai1.mp4" m="87d90dc417be45e73d4d1433fc2d397f" c="0" />
-  <f p="res/basic/video/summon_bingkai2.mp4" m="62f65fc106b472b4564147b42ce81c01" c="0" />
-  <f p="src/lua/logic/battle/Hero.lua" m="14a34aeecbc4698625941d2940bf52a8" c="0" />
-  <f p="src/lua/table/AngelSkillFunction.lua" m="7ce81c3157490a4f35f4b6003d0df597" c="0" />
-  <f p="src/lua/table/AngelSkillTree.lua" m="df100ab8aaa0b29eef41604f60c29fb9" c="0" />
-  <f p="src/lua/table/Buffer.lua" m="b3721e9ea8e7ffd50a38a002fcfde460" c="0" />
-  <f p="src/lua/table/BufferEffect.lua" m="16f5fafe7653f1156d8434145a604634" c="0" />
-  <f p="src/lua/table/BuffState.lua" m="6ced328a660b79902c8e5f7fba9b05cf" c="0" />
-  <f p="src/lua/table/HeroPower.lua" m="995ac6551868c04c3189ebc1eb0e0ee9" c="0" />
-  <f p="src/lua/table/HitMusic.lua" m="77737a03b99548310b670cfd200ca18f" c="0" />
-  <f p="src/lua/table/NewPokedex.lua" m="5c9ddd6533089df21b7aa798819903de" c="0" />
-  <f p="src/lua/table/NewPokedexPage.lua" m="e5de898b4b4e73733d39493e217f55b9" c="0" />
-  <f p="src/lua/table/PassiveSkills.lua" m="b4a993940816143da8370026699d892f" c="0" />
-  <f p="src/lua/table/RoleDescribe.lua" m="0559ecfc164e0930c42cc052d8a806b4" c="0" />
-  <f p="src/lua/table/Skill.lua" m="f8800863c300bd185c02c09c0a842ada" c="0" />
-  <f p="src/lua/table/SkillEffect.lua" m="ee52b1d11b988528a2c73175c6df8872" c="0" />
-  <f p="src/lua/table/SkillHurt.lua" m="39a6c9c8c9c42558eb0dc2b887fdb1c5" c="0" />
-  <f p="src/lua/table/SkillMusic.lua" m="051676a90790789123604fbf3f986af8" c="0" />
-  <f p="src/lua/table/String.lua" m="338b9a36a403187071e588ba6b9362a8" c="0" />
-  <f p="res/basic/sound/10313/born_1.mp3" m="e5128f68444c45462a1762b9ee19d60b" />
-  <f p="res/basic/sound/10313/hit.mp3" m="4caf1ec6102e74ae7d74a4aa186b76da" />
-  <f p="res/basic/sound/10313/quickmove .mp3" m="d3c66a9f38b8aaeb73036c42d4711264" />
-  <f p="res/basic/sound/10313/skillA1.mp3" m="e5c933231029440bd8b603f56a4f123f" />
-  <f p="res/basic/sound/10313/skillA2.mp3" m="c2ac94cd1f085b8d9e095f44bcff3d9c" />
-  <f p="res/basic/sound/10313/skillA3.mp3" m="f2ce67bb199d952b69b44b4cb9b69897" />
-  <f p="res/basic/sound/10313/skillA4.mp3" m="63d01e3f438710f49a5b7f565240dd5a" />
-  <f p="res/basic/sound/10313/skillA5.mp3" m="643f874b0729ee27c65d616d520fb364" />
-  <f p="res/basic/sound/10313/skillB1.mp3" m="fe49ece5d7ae172abffc28dbe24cb0aa" />
-  <f p="res/basic/sound/10313/skillB2.mp3" m="e42ec43a35cd0c7d247b21d27120a3c2" />
-  <f p="res/basic/sound/10313/skillB3.mp3" m="4d475560a4670caf3fe429289aa75ecb" />
-  <f p="res/basic/sound/10313/skillB_EX1.mp3" m="dc0249db6baca13b85cffeb3baecca26" />
-  <f p="res/basic/sound/10313/skillB_EX2.mp3" m="bce7dff4706ed753fe4c63608a10904b" />
-  <f p="res/basic/sound/10313/skillC1.mp3" m="ed9d1160d175486d8ddc3842f7d722ae" />
-  <f p="res/basic/sound/10313/skillC2.mp3" m="c48bfe473393aee8fa3b25cdee8c08b8" />
-  <f p="res/basic/sound/10313/skillC3.mp3" m="909db4a0fcfccd9269839b826fddab7a" />
-  <f p="res/basic/sound/10313/skillC4.mp3" m="399be2d10e2bd8bb578f3ed943c73b06" />
-  <f p="res/basic/sound/10313/skillC_EX1.mp3" m="416e0600337f03296f84d7daa396b1f5" />
-  <f p="res/basic/sound/10313/skillD_1.mp3" m="d6587ee5317e7a214f21aa06dc7e632b" />
-  <f p="res/basic/sound/10313/skillD_3.mp3" m="8f5d1a38eb0f77ad5fa1f6d40b4f4ac0" />
-  <f p="res/basic/sound/10313/skillE1.mp3" m="10a31c3cbd6f41a9d5dabd9304bd19f6" />
-  <f p="res/basic/sound/10313/skillE2.mp3" m="b70d33c74b837f4a917fd6400645fad9" />
-  <f p="res/basic/sound/10313/skillE3.mp3" m="3322d4eaecb8ac3110f10bf62dc11ff6" />
-  <f p="res/basic/sound/10313/skillE4.mp3" m="a075dff3ee79255065b563d4268c91a2" />
-  <f p="res/basic/sound/10313/skillE_EX1.mp3" m="3f35d760f2bd76e2db57f78fe0d44e90" />
-  <f p="res/basic/sound/10313/skillE_EX2.mp3" m="e87fce82cc4cd29e623cb3723905b047" />
-  <f p="res/basic/sound/10313/skillE_EX3.mp3" m="03afeada0bd376b7cf2dbd9d3d92bdf2" />
-  <f p="res/basic/sound/10313/skillG1.mp3" m="f99d49cb3666d8924e2115701a464a18" />
-  <f p="res/basic/sound/10313/skillG2.mp3" m="ffd086b16097372929091b0db9d05519" />
+<files version="3.2.50" lastVersion="3.2.47">
+  <f p=".nomedia/nomedia.txt" m="d2269656310e492a8e3febad449df0b3" c="0" />
+  <f p="res/basic/sound/10313/skillC1.mp3" m="daaa6b3c94df7fee7c5a15d7fc5302ad" c="0" />
+  <f p="res/basic/sound/10313/skillC2.mp3" m="a7990360baf61bb8b36098b6e53e14e9" c="0" />
+  <f p="res/basic/sound/10313/skillC3.mp3" m="2218d22baab6915c8bc3831b07c48704" c="0" />
+  <f p="res/basic/sound/10313/skillC4.mp3" m="b00a1ec995e46036cc1143a3921151ad" c="0" />
+  <f p="res/basic/sound/10313/skillC_EX1.mp3" m="5a31bd8666111b30bde60a8d118e721a" c="0" />
+  <f p="src/lua/dataMgr/BattleDataMgr.lua" m="d671d6c7052ae9f17eea1ba1a3276cbf" c="0" />
+  <f p="src/lua/logic/battle/Actor.lua" m="f9da0c33f8bca10813734d2a5a4c2147" c="0" />
+  <f p="src/lua/logic/battle/BattleView.lua" m="ac8d4b951d9bee50c513bacc07c7a6b3" c="0" />
+  <f p="src/lua/logic/battle/GameObject.lua" m="20206f2318f5e5ed16a1ec59938da78f" c="0" />
+  <f p="src/lua/logic/battle/Hero.lua" m="599b2264d52aa9ffcee005dd48c73c77" c="0" />
+  <f p="src/lua/logic/battle/ResLoader.lua" m="1f88421cfe51cff81530062b8e8f5d3a" c="0" />
+  <f p="src/lua/logic/MainScene/MainLayer.lua" m="0c473cf48d8fb221de8d15f2def4bf85" c="0" />
+  <f p="src/lua/table/AngelSkillFunction.lua" m="bdb3fb7147cc6ad83b037e45ea2d1c7d" c="0" />
+  <f p="src/lua/table/AngelSkillTree.lua" m="dcee03e07289153f0aa38d2d9477fe31" c="0" />
+  <f p="src/lua/table/Buffer.lua" m="35af4e2b9ec659b1c28ccc1ab3d39215" c="0" />
+  <f p="src/lua/table/BufferEffect.lua" m="a8efa204d564228ad60e5c81a989d940" c="0" />
+  <f p="src/lua/table/EquipmentStar.lua" m="6e5dba3ab98132d9f452048a4ddd0bfa" c="0" />
+  <f p="src/lua/table/Hero.lua" m="a47435607cc94ed5e18b55d50b1aa895" c="0" />
+  <f p="src/lua/table/Item.lua" m="9de9528d99c01d80cdac36478f7e79e6" c="0" />
+  <f p="src/lua/table/PassiveSkills.lua" m="5c71389ecf2c8dd35e77008ff7d371e3" c="0" />
+  <f p="src/lua/table/RoleAction.lua" m="2a6bea9314350e38dec570f4a647e828" c="0" />
+  <f p="src/lua/table/RoleDescribe.lua" m="650cf03a8c0c569eb360eb0b91648a25" c="0" />
+  <f p="src/lua/table/Skill.lua" m="ddbf23cda0c2661c5bb78f522e60634e" c="0" />
+  <f p="src/lua/table/SkillAction.lua" m="36e217cbab5c996fdddc6f580d89b93b" c="0" />
+  <f p="src/lua/table/SkillEffect.lua" m="213f495b5204e90bef22881d7372ae98" c="0" />
+  <f p="src/lua/table/SkillHurt.lua" m="656fd356c266fe66a8b72c7aeecd8434" c="0" />
+  <f p="src/lua/table/SkillMusic.lua" m="5104d8ba0639b6c47195e99d3b3c46ec" c="0" />
+  <f p="src/lua/table/String.lua" m="04d7f7700f1110b1eed27ba45cab4d94" c="0" />
+  <f p="res/basic/icon/hero/name/1103131.png" m="7ed178902bd397bbb7e543139b34d17f" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_006.mp3" m="5230153d6044d2d18058b4b9eb1b55fb" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_007.mp3" m="a0e8ee4e6df52c4b1a05cddbdf3edfb0" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_013.mp3" m="cf6ac99616a245e5da4d1f38856aa655" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_014.mp3" m="8ee23108ff80c3f4ff83347c7610ad1d" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_015.mp3" m="87c731c370a3fa2b255667dd9afbbfd3" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_016.mp3" m="faf7ea13afe203925b21b2f4f4c6eb3e" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_017.mp3" m="50d889aee70fa12c7f18ecc01442ec98" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_018.mp3" m="a4435929e2d007800c2b29fc6f43cc8b" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_019.mp3" m="f516cad0050dd7e96ae50df4e1c2eeaa" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_020.mp3" m="153b826000a215cfb27d08a59a514fe5" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_021.mp3" m="5ea0b12419c2a2ab862e9a3ecd578f21" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_022.mp3" m="66f527a6a4562f53dcb3cd73874c15f8" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_024.mp3" m="0e63777af33745928d9720dcba3027bc" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_025.mp3" m="513e92752999159e645e033a9e3f66a1" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_026.mp3" m="e4705a29d3ced4396eef36326719982f" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_027.mp3" m="bed5c9952f8e910ac8704e494aad4397" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_028.mp3" m="640b25173a6692ea41d4ccdcd42ec9b3" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_029.mp3" m="82f2548ea73899d7cf30464c125a4c38" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_030.mp3" m="52c03f0c6c40407de7fd1b1a2b3488d4" />
+  <f p="res/basic/sound/10313/yosino_sysPiece_031.mp3" m="2e2f85c43f8193c16db3c6ae1c2df899" />
 </files>

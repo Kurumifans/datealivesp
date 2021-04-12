@@ -2911,6 +2911,9 @@ function BattleView:onHeroDead(hero)
             skeletonNode:setPosition(position)
             skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)
                 _skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
+                if _skeletonNode.resPath then
+                    ResLoader.addCacheSpine(_skeletonNode,_skeletonNode.resPath)
+                end
                 _skeletonNode:removeFromParent()
             end)
             self:onEffectAddToLayer(skeletonNode,3)
