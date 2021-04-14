@@ -59,9 +59,6 @@ local NextIndexMap = {
 [24] = {23, 0,18, 0},
 }
 
-
-BattleDataMgr.memeryindex = 1
-
 local function createNode(index,dungeonId ,last)
     local node     = {}
     node.index     = index

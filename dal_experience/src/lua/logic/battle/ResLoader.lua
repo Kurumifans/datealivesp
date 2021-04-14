@@ -29,20 +29,20 @@ ResLoader.LOAD_SKILLEFFECT = true  --是否缓存spine动画
 ResLoader.LOAD_BUFFEFFECT = false  --是否缓存spine动画
 ResLoader.LOAD_HURTEFFECT = true  --是否缓存spine动画
 
-local memerySize = {{1000,800,300},{800,500,200},{600,300,100}}
+local memerySize = {2400,1000,800}
 
 function checkMemeryFreeNum( ... )
     -- body
     local freeMem = tonumber(substringForMemoryExpression(TFDeviceInfo.getFreeMem()))
-    if freeMem > memerySize[BattleDataMgr.memeryindex][1] then
+    if freeMem > memerySize[1]*1024 then
         ResLoader.LOAD_SKILLEFFECT = true  --是否缓存spine动画
         ResLoader.LOAD_BUFFEFFECT = true  --是否缓存spine动画
         ResLoader.LOAD_HURTEFFECT = true  --是否缓存spine动画
-    elseif freeMem > memerySize[BattleDataMgr.memeryindex][2] then
+    elseif freeMem > memerySize[2]*1024 then
         ResLoader.LOAD_SKILLEFFECT = false  --是否缓存spine动画
         ResLoader.LOAD_BUFFEFFECT = true  --是否缓存spine动画
         ResLoader.LOAD_HURTEFFECT = true  --是否缓存spine动画
-    elseif freeMem > memerySize[BattleDataMgr.memeryindex][3] then
+    elseif freeMem > memerySize[3]*1024 then 
         ResLoader.LOAD_SKILLEFFECT = false  --是否缓存spine动画
         ResLoader.LOAD_BUFFEFFECT = false  --是否缓存spine动画
         ResLoader.LOAD_HURTEFFECT = true  --是否缓存spine动画

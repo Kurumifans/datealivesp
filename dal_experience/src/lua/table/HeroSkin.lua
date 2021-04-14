@@ -808,9 +808,9 @@ return {
         desTextId = 21139,
         winBackdrop = "ui/629.png",
         pos = {
-            scale = 1,
-            x = 20,
-            y = -80,
+            scale = 0.8,
+            x = -10,
+            y = -30,
         },
         cost = 0,
         wingmanFlyForm = 0,

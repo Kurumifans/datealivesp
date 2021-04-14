@@ -1847,11 +1847,11 @@ function battleController.exitBattle()
     this.endFight()
     this.clear()
     AwakeMgr.clean()
-    ResLoader.clean()
     musicMgr.clean()
     -- BattleMgr:removeScheduleAndActionMgr( )
     if not this.isChangeDungeon then 
         LockStep.clean()
+        ResLoader.clean()
     end
 
     EventTrigger:clearTriggers()

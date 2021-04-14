@@ -20115,7 +20115,7 @@ return {
         belongHero = "苍",
         conditionSkill = {
         },
-        keyEvent = "down",
+        keyEvent = "auto",
         namecehua = "AAB",
         specialEnergy = 0,
         HurtType = "450045",
@@ -23162,7 +23162,7 @@ return {
         video = "",
         skillType = 1,
         costEnergyShow = 0,
-        belongHero = "华伦",
+        belongHero = "华伦-飓风",
         conditionSkill = {
         },
         keyEvent = "down",
@@ -24839,7 +24839,7 @@ return {
         belongHero = "苍",
         conditionSkill = {
         },
-        keyEvent = "down",
+        keyEvent = "auto",
         namecehua = "B2",
         specialEnergy = 0,
         HurtType = "450045",
@@ -27410,7 +27410,7 @@ return {
         video = "",
         skillType = 2,
         costEnergyShow = 0,
-        belongHero = "华伦",
+        belongHero = "华伦-飓风",
         conditionSkill = {
         },
         keyEvent = "down",
@@ -32670,7 +32670,7 @@ return {
         gatherPower = {
         },
         witchTimeId = 0,
-        symbol = "4",
+        symbol = "",
         id = 105280,
         costEnergy = 0,
         extraEnergy = 0,
@@ -37841,7 +37841,7 @@ return {
         appearAction = "",
         callbackSkill = 0,
         level = 2,
-        icon = "icon/skill/13301_skillG.png",
+        icon = "icon/skill/13301_skillG1.png",
         levelType = 0,
         openCd = 0,
         costLow = 0,
@@ -38793,7 +38793,7 @@ return {
         appearAction = "",
         callbackSkill = 0,
         level = 2,
-        icon = "icon/skill/13301_skillG.png",
+        icon = "icon/skill/13301_skillG2.png",
         levelType = 0,
         openCd = 0,
         costLow = 0,
@@ -39748,7 +39748,7 @@ return {
         appearAction = "",
         callbackSkill = 0,
         level = 2,
-        icon = "icon/skill/13301_skillG.png",
+        icon = "icon/skill/13301_skillG3.png",
         levelType = 0,
         openCd = 0,
         costLow = 0,
@@ -39832,7 +39832,7 @@ return {
         },
         gainEnergy = 0,
         continuousAction = "",
-        cd = 5000,
+        cd = 8000,
         useWarn = "",
         keyTap = "",
         othershiftSkill = {
@@ -40185,7 +40185,7 @@ return {
         uselessUI = 1,
         skillSubclasses = {
         },
-        limitTime = 800,
+        limitTime = 600,
         skillShow = {
             [1] = 0,
         },
@@ -40783,7 +40783,7 @@ return {
         uselessUI = 0,
         skillSubclasses = {
         },
-        limitTime = 5000,
+        limitTime = 3000,
         skillShow = {
             [1] = 0,
         },
@@ -41737,7 +41737,7 @@ return {
         uselessUI = 0,
         skillSubclasses = {
         },
-        limitTime = 5000,
+        limitTime = 3000,
         skillShow = {
             [1] = 0,
         },
@@ -50355,7 +50355,7 @@ return {
         uselessUI = 1,
         skillSubclasses = {
         },
-        limitTime = 800,
+        limitTime = 600,
         skillShow = {
             [1] = 0,
         },
@@ -51310,7 +51310,7 @@ return {
         uselessUI = 1,
         skillSubclasses = {
         },
-        limitTime = 800,
+        limitTime = 600,
         skillShow = {
             [1] = 0,
         },
@@ -52269,7 +52269,7 @@ return {
         uselessUI = 1,
         skillSubclasses = {
         },
-        limitTime = 800,
+        limitTime = 600,
         skillShow = {
             [1] = 0,
         },

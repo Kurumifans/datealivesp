@@ -1567,8 +1567,7 @@ function MainLayer:registerEvents()
             if me.platform == "win32" then
                 --Utils:openView("login.NoticeBoard")
             elseif me.platform == "android" then
-                BattleDataMgr.memeryindex = BattleDataMgr.memeryindex%3 + 1
-                --HeitaoSdk.isFunctionSupported("showAnnouncement");
+                HeitaoSdk.isFunctionSupported("showAnnouncement");
             else
                 if tonumber(TFDeviceInfo:getCurAppVersion()) >= 3.10 then
                     HeitaoSdk.isFunctionSupported("showAnnouncement");
