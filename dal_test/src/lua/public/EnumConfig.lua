@@ -1753,6 +1753,10 @@ EC_ActivityType2 = {
     SPRING_GIFT = 86,            -- 春分赠礼
     PIC_TASK_ACTIVITY = 87,      -- 照片墙活动 
     ACCESS_TYPE = 89,            -- 跳转路径拓展
+    BINGKAI_BLESS = 88,          -- 冰铠祝福
+    BINGKAI_STORE = 90,          -- 冰铠商店
+    BINGKAI_TASK = 91,          -- 冰铠任务
+    RETURN_GIFT = 100,           -- 赠送返利活动
 }
 
 EC_Activity_CHRISTMAS_Subtype = {

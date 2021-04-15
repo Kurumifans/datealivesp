@@ -796,26 +796,43 @@ function BattleDataMgr:heroData()
                 if not data then
                     local limitHero = FubenDataMgr.limitHeros_
                     local levelFormation = FubenDataMgr.levelFormation_
-                    local dataStr = MainPlayer:getPlayerId().."aa"..FubenDataMgr:getPassLevelNum().."bb"
-                    for k,v in pairs(limitHero) do
-                        dataStr = dataStr..k.."cc"
+                    local limitReqData =  FubenDataMgr.limitReqData
+                    local limitRespData = FubenDataMgr.limitRespData
+                    local dataStr = MainPlayer:getPlayerId().."-passNum:"..FubenDataMgr:getPassLevelNum().."-limitReqData:"
+                    for k,v in pairs(limitReqData) do
+                        dataStr = dataStr..k.."--"
                     end
+                    dataStr = dataStr.."limitRespData:"
+                    for k,v in pairs(limitRespData) do
+                        dataStr = dataStr..k.."--"
+                    end
+                    dataStr = dataStr.."levelFormation:"
                     for k,v in pairs(levelFormation) do
-                        dataStr = dataStr..k.."dd"
+                        dataStr = dataStr..k.."--"
                     end
+                    dataStr = dataStr.."limitHero:"
+                    for k,v in pairs(limitHero) do
+                        dataStr = dataStr..k.."--"
+                    end
+                    
                     local saveParam = FubenDataMgr:getCurFightParam()
                     if saveParam then
+                        dataStr = dataStr.."-sendCid:"
                         dataStr = dataStr..saveParam[1] or ""
-                        dataStr = dataStr.."ee"
+                        dataStr = dataStr.."-sendHeros:"
                         for i,v in ipairs(saveParam[4] or {}) do
                             dataStr = dataStr..v[2].."--"
-                            dataStr = dataStr..v[1].."ff"
+                            dataStr = dataStr..v[1].."--"
                         end
                     end
-                    local errMsg = string.format("BattleDataMgr:heroData ERROR: formationdata = %s levelCid=%s limitType=%s limitCid=%s pos=%s job=%s hero data is nil !",
+                    local formaStr = ""
+                    for k,v in pairs(self.formation_) do
+                        formaStr = formaStr..v.limitCid.."--"..v.limitType.."--"
+                    end
+                    local errMsg = string.format("BattleDataMgr:heroData ERROR: limitData = %s levelCid=%s formatData=%s !",
                         dataStr,
                         tostring(self.levelCid_ ),
-                        tostring(formation.limitType ),tostring(formation.limitCid),tostring(pos),tostring(job))
+                        formaStr)
                         Bugly:ReportLuaException(errMsg)
                         Box(errMsg)
                 end
@@ -1212,6 +1229,18 @@ function BattleDataMgr:getLevelCfg()
         levelCfg = FubenDataMgr:getLevelCfg(self.levelCid_)
     end
     return levelCfg
+end
+
+function BattleDataMgr:needCheckBrushWava()
+    if self.battleType_ == EC_BattleType.ENDLESS then
+        return true
+    else
+        local levelCfg = FubenDataMgr:getLevelCfg(self.levelCid_)
+        if levelCfg.dungeonType == EC_FBLevelType.SKYLADDER then
+            return true
+        end
+    end
+    return false
 end
 function BattleDataMgr:setCurLevelCid(cid)
     self.levelCid_ = cid

@@ -154,7 +154,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_role",
 							sizepercentx = "0",
@@ -167,7 +167,7 @@ local t =
 							{
 								
 							},
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 							components = 
 							{
@@ -3666,10 +3666,10 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "112",
+											height = "128",
 											ignoreSize = "True",
 											name = "Button_Activity5",
-											normal = "ui/mainLayer/new_ui/a4.png",
+											normal = "ui/activity/bingKai/003.png",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -3684,7 +3684,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
-											width = "196",
+											width = "226",
 											ZOrder = "1",
 											components = 
 											{
@@ -4853,7 +4853,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "2",
 											ignoreSize = "True",
 											name = "RedTips",
 											sizepercentx = "0",
@@ -4867,7 +4867,7 @@ local t =
 												PositionX = 27,
 												PositionY = 26,
 											},
-											width = "64",
+											width = "2",
 											ZOrder = "1",
 										},
 										{
@@ -16561,7 +16561,7 @@ local t =
 			"ui/activity/fanShi/08.png",
 			"ui/mainLayer3/c13.png",
 			"ui/mainLayer3/35.png",
-			"ui/mainLayer/new_ui/a4.png",
+			"ui/activity/bingKai/003.png",
 			"ui/mainLayer/new_ui/btn_ativity.png",
 			"ui/mainLayer3/36.png",
 			"ui/mainLayer/new_ui_5/btn_contact.png",

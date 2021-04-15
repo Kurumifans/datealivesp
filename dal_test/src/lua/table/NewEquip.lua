@@ -478,7 +478,7 @@ return {
         superType = 17,
         totalMax = 1,
         attribute = 1009,
-        suitId = "8001053",
+        suitId = "8002053",
         suitjudge = 1,
         convertMax = {
             [500001] = 1,
@@ -3063,7 +3063,7 @@ return {
         superType = 17,
         totalMax = 1,
         attribute = 1005,
-        suitId = "8001054",
+        suitId = "8002054",
         suitjudge = 1,
         convertMax = {
             [500001] = 1,
@@ -3119,7 +3119,7 @@ return {
         superType = 17,
         totalMax = 1,
         attribute = 1014,
-        suitId = "8001054",
+        suitId = "8002054",
         suitjudge = 1,
         convertMax = {
             [500001] = 1,
@@ -4198,7 +4198,7 @@ return {
         superType = 17,
         totalMax = 1,
         attribute = 1007,
-        suitId = "8001053",
+        suitId = "8002053",
         suitjudge = 1,
         convertMax = {
             [500001] = 1,

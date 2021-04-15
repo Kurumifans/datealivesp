@@ -734,7 +734,7 @@ function FairyMainLayer:onRefresh()
 end
 
 function FairyMainLayer:onSkinChange()
-    self:initHeroListView()
+    --self:initHeroListView()
 end
 
 function FairyMainLayer:onHide()

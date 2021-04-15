@@ -479,31 +479,31 @@ function battleController.setTiming(bTime)
     if EventTrigger:isRunning() then
         return
     end
-    if bTime then
-        this.adjustSysStartTime()
-    else
-        if this.sysStartTime > this.sysTimeLimit then
-            this.sysStopTime = BattleUtils.gettime()
-        end
-    end
     this.bTiming = bTime
-    BattleMgr.updatePauseState(not bTime)
+    -- if bTime then
+    --     this.adjustSysStartTime()
+    -- else
+    --     if this.sysStartTime > this.sysTimeLimit then
+    --         this.sysStopTime = BattleUtils.gettime()
+    --     end
+    -- end
+    -- BattleMgr.updatePauseState(not bTime)
 end
 
 function battleController.pauseOrResume(isPause)
-    if isPause then
-        if this.sysStopTime > this.sysTimeLimit then
-            return
-        end
-        if this.sysStartTime > this.sysTimeLimit then
-            this.sysStopTime = BattleUtils.gettime()
-        end
-    else
-        if this.isTiming() then
-            this.adjustSysStartTime()
-        end
-    end
-    BattleMgr.updatePauseState(isPause)
+    -- if isPause then
+    --     if this.sysStopTime > this.sysTimeLimit then
+    --         return
+    --     end
+    --     if this.sysStartTime > this.sysTimeLimit then
+    --         this.sysStopTime = BattleUtils.gettime()
+    --     end
+    -- else
+    --     if this.isTiming() then
+    --         this.adjustSysStartTime()
+    --     end
+    -- end
+    -- BattleMgr.updatePauseState(isPause)
 end
 
 function battleController.adjustSysStartTime()
@@ -537,8 +537,9 @@ end
 
 function battleController.fixTime(time)
     if time > statistics.time then
-        this.sysStartTime = BattleUtils.gettime() - time
-        victoryDecide.fixRemainime()
+        statistics.time = time
+        --this.sysStartTime = BattleUtils.gettime() - time
+        victoryDecide.fixRemainime(time)
     end
 end
 
@@ -1744,6 +1745,10 @@ end
 
 function battleController.getWave()
     return victoryDecide.getWave()
+end
+
+function battleController:getCurBrushWave()
+    return brushMonster:getCurBrushWave()
 end
 
 function battleController.eventCheck(hero)

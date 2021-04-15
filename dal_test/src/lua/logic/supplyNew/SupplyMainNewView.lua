@@ -207,8 +207,12 @@ function SupplyMainNewView:updateTopTabBtn()
         item:onClick(function()
             self:topBtnClickFunc(i)
             if self.selectIndex == 2 then
-                if v.id == 3 and not RechargeDataMgr:getDayHadInFundView() then
-                    RechargeDataMgr:setDayHadInFundView()
+                if v.id == 3 then
+                    local playerId = MainPlayer:getPlayerId()
+                    CCUserDefault:sharedUserDefault():setBoolForKey("GrowFundNewFlag"..playerId,true)
+                    if not RechargeDataMgr:getDayHadInFundView() then
+                        RechargeDataMgr:setDayHadInFundView()
+                    end
                     self:updateAllRed()
                 end
             end

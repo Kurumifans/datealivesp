@@ -2324,25 +2324,17 @@ function Hero:onBorn(callback)
     --0 特效 1只播动作   2 特效和动作同时播
     local bornType = self.data.bornEffect
     if bornType == 0 then
+        self.actor:playStand()
+        self.actor.skeletonNode:show()
         local bornEffect = self.data.currencybornEffect
         local bornAction = self.data.currencybornAction
-        --_print("bornEffect"..tostring(bornEffect).." bornAction"..tostring(bornAction))
-            -- 通用出场特效
+        if bornEffect ~= "" then
             local scale        = BattleConfig.MODAL_SCALE* self:getSkeletonNodeScale()
             local skeletonNode = self.actor:playEffect(bornEffect,scale,bornAction,onFunc)
-            --TODO 10帧开始显示角色
-            -- local count = 0
-            -- self.actor:OnFrame(function( ... )
-            --     count = count + 1
-            --     if count > 11 then
-            --         self.actor.skeletonNode:show()
-            --         self.actor:OnFrame(nil)
-            --     end
-            -- end)
             __setSkeletonNodeDir(skeletonNode,self:getDir())
-            self.actor:playStand()
-            self.actor.skeletonNode:show()
-        -- else
+        else
+            onFunc()
+        end
     elseif bornType == 1 then
         self.actor.skeletonNode:show()
         self.actor:playBorn(onFunc)

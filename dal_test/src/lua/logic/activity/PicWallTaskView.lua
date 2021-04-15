@@ -91,67 +91,69 @@ function PicWallTaskView:updateScrollViewItems()
         local curStatus = EC_TASK_STATUS.Lock
         local taskId = self.cfgTaskIds[i]
         local taskInfo = ActivityDataMgr2:getItemInfo(EC_ActivityType2.PIC_TASK_ACTIVITY, taskId)
-        local taskStatus = ActivityDataMgr2:getProgressInfo(EC_ActivityType2.PIC_TASK_ACTIVITY, taskId).status
-        
-        -- 本来是服务器不下发操作，后面改成前端判断
-        local isTimeIn = self:isCurTimeInSection(taskInfo.extendData.stime, taskInfo.extendData.etime)
-        
         item.root:setVisible(nil ~= taskId)
-        item.lab_lockDesc:setText(taskInfo.details)
-
-        if taskId then
-            if isTimeIn then
-                local isFinshDating = true
-                if taskInfo.extendData.dating1 then
-                    isFinshDating = DatingDataMgr:checkScriptIdIsFinish(taskInfo.extendData.dating1)
-                end
-                if not isFinshDating then
-                    curStatus = EC_TASK_STATUS.UnAccept
-                end
-
-                if isFinshDating and taskStatus == EC_TaskStatus.ING then
-                    curStatus = EC_TASK_STATUS.Ing
-                end
-
-                if taskStatus == EC_TaskStatus.GET then
-                    curStatus = EC_TASK_STATUS.NotReceve
-                end
-
-                if taskStatus == EC_TaskStatus.GETED then
-                    curStatus = EC_TASK_STATUS.Complete
-                end
-            end
-
-            item.img_lock:setVisible(curStatus == EC_TASK_STATUS.Lock)
+        if taskInfo then
+            local taskStatus = ActivityDataMgr2:getProgressInfo(EC_ActivityType2.PIC_TASK_ACTIVITY, taskId).status
             
-            item.img_bg:setVisible(curStatus == EC_TASK_STATUS.UnAccept or curStatus == EC_TASK_STATUS.Ing)
-            item.btn_receiveTask:setVisible(curStatus == EC_TASK_STATUS.UnAccept)
-            if item.btn_receiveTask:isVisible() then
-                item.btn_receiveTask:setSwallowTouch(false)
-            end
+            -- 本来是服务器不下发操作，后面改成前端判断
+            local isTimeIn = self:isCurTimeInSection(taskInfo.extendData.stime, taskInfo.extendData.etime)
             
-            item.lab_taskIng:setVisible(curStatus == EC_TASK_STATUS.Ing)
-            item.lab_taskIng:setText(taskInfo.extendData.des2)
-            item.img_cg:setVisible(curStatus == EC_TASK_STATUS.NotReceve or curStatus == EC_TASK_STATUS.Complete)
-            if item.img_cg:isVisible() then
-                item.img_cg:setTexture(taskInfo.extendData.icon)
-            end
+            
+            item.lab_lockDesc:setText(taskInfo.details)
+            if taskId then
+                if isTimeIn then
+                    local isFinshDating = true
+                    if taskInfo.extendData.dating1 then
+                        isFinshDating = DatingDataMgr:checkScriptIdIsFinish(taskInfo.extendData.dating1)
+                    end
+                    if not isFinshDating then
+                        curStatus = EC_TASK_STATUS.UnAccept
+                    end
 
-            item.img_complete:setVisible(curStatus == EC_TASK_STATUS.NotReceve)
+                    if isFinshDating and taskStatus == EC_TaskStatus.ING then
+                        curStatus = EC_TASK_STATUS.Ing
+                    end
 
-            item.img_blink:setVisible(curStatus == EC_TASK_STATUS.UnAccept or curStatus == EC_TASK_STATUS.NotReceve)
-            self:setRunBlinkAction(item, curStatus)
+                    if taskStatus == EC_TaskStatus.GET then
+                        curStatus = EC_TASK_STATUS.NotReceve
+                    end
 
-            item.root:setTouchEnabled(true)
-            item.root:setSwallowTouch(true)
-            item.root:onClick(function()
-                self:picWallPanelClickFunc(curStatus, taskInfo, i)
-            end)
+                    if taskStatus == EC_TaskStatus.GETED then
+                        curStatus = EC_TASK_STATUS.Complete
+                    end
+                end
 
-            -- 约会成功 自动弹窗
-            if self.isPassedData.idx and self.isPassedData.idx == i and self.isPassedData.state ~= curStatus then
-                self:picWallPanelClickFunc(curStatus, taskInfo , i)
-                self.isPassedData = {state = nil, idx = nil}
+                item.img_lock:setVisible(curStatus == EC_TASK_STATUS.Lock)
+                
+                item.img_bg:setVisible(curStatus == EC_TASK_STATUS.UnAccept or curStatus == EC_TASK_STATUS.Ing)
+                item.btn_receiveTask:setVisible(curStatus == EC_TASK_STATUS.UnAccept)
+                if item.btn_receiveTask:isVisible() then
+                    item.btn_receiveTask:setSwallowTouch(false)
+                end
+                
+                item.lab_taskIng:setVisible(curStatus == EC_TASK_STATUS.Ing)
+                item.lab_taskIng:setText(taskInfo.extendData.des2)
+                item.img_cg:setVisible(curStatus == EC_TASK_STATUS.NotReceve or curStatus == EC_TASK_STATUS.Complete)
+                if item.img_cg:isVisible() then
+                    item.img_cg:setTexture(taskInfo.extendData.icon)
+                end
+
+                item.img_complete:setVisible(curStatus == EC_TASK_STATUS.NotReceve)
+
+                item.img_blink:setVisible(curStatus == EC_TASK_STATUS.UnAccept or curStatus == EC_TASK_STATUS.NotReceve)
+                self:setRunBlinkAction(item, curStatus)
+
+                item.root:setTouchEnabled(true)
+                item.root:setSwallowTouch(true)
+                item.root:onClick(function()
+                    self:picWallPanelClickFunc(curStatus, taskInfo, i)
+                end)
+
+                -- 约会成功 自动弹窗
+                if self.isPassedData.idx and self.isPassedData.idx == i and self.isPassedData.state ~= curStatus then
+                    self:picWallPanelClickFunc(curStatus, taskInfo , i)
+                    self.isPassedData = {state = nil, idx = nil}
+                end
             end
         end
     end

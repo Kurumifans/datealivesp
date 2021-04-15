@@ -170,6 +170,9 @@ function ActivityDataMgr:init()
 
     --  春分赠礼
     TFDirector:addProto(s2c.SUMMON_RES_ACTIVITY_EXCHANGE, self, self.onRecvSpringGiftReward)
+
+    -- 赠送返利
+    TFDirector:addProto(s2c.ACTIVITY2_REQ_GET_ASSEMBLY_INFO, self, self.onRecvReturnGiftData)
     
     self.activityInfo_ = {}
     self.activityInfoMap_ = {}
@@ -971,6 +974,8 @@ function ActivityDataMgr:isShowRedPoint(activityId)
                     break
                 end
             end
+        elseif activityInfo.activityType == EC_ActivityType2.BINGKAI_BLESS then
+            isShow = Utils:getLocalSettingValue("BingKaiBlessViewRed") == ""
         else
             local items = self:getItems(activityInfo.id)
             for _, itemId in ipairs(items) do
@@ -1523,6 +1528,9 @@ function ActivityDataMgr:__parserItem(itemInfo)
         itemInfo.target = json.decode(itemInfo.target)
         itemInfo.reward = json.decode(itemInfo.reward)
     elseif type_ == EC_ActivityType2.FAN_SHI_STORE then
+        itemInfo.target = json.decode(itemInfo.target)
+        itemInfo.reward = json.decode(itemInfo.reward)
+    elseif type_ == EC_ActivityType2.BINGKAI_STORE then
         itemInfo.target = json.decode(itemInfo.target)
         itemInfo.reward = json.decode(itemInfo.reward)
     else
@@ -3600,6 +3608,10 @@ function ActivityDataMgr:SEND_ACTIVITY2_REQ_RIDDLE_ONCE(idx)
     TFDirector:send(c2s.ACTIVITY2_REQ_RIDDLE_ONCE, {idx})
 end
 
+function ActivityDataMgr:SEND_ACTIVITY2_REQ_GET_ASSEMBLY_INFO()
+    TFDirector:send(c2s.ACTIVITY2_REQ_GET_ASSEMBLY_INFO, {})
+end
+
 function ActivityDataMgr:onRecvRiddleData(event)
     local data = event.data
     if not data then return end
@@ -3631,6 +3643,12 @@ function ActivityDataMgr:onRecvSpringGiftReward(event)
     local data = event.data
     if not data then return end
     EventMgr:dispatchEvent(EV_SPRING_GIFT_DATA, data)
+end
+
+function ActivityDataMgr:onRecvReturnGiftData(event)
+    local data = event.data
+    if not data then return end
+    EventMgr:dispatchEvent(EV_RETURN_GIFT_DATA, data)
 end
 
 return ActivityDataMgr:new()

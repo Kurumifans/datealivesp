@@ -100,7 +100,8 @@ function CollectMedalView:updateTitlePage(filtInfo)
 	        skeletonTitleNode:setPosition(ccp(0,0))
 	        skeletonTitleNode:setAnchorPoint(ccp(0,0))
 	        image_title:addChild(skeletonTitleNode,1)
-
+	        
+			CollectDataMgr:addItemTrophy(itemCard, titleInfo.id)
 			itemCard:onClick(function()
 			end)
 		end
