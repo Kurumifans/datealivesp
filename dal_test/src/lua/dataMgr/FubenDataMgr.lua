@@ -268,8 +268,6 @@ function FubenDataMgr:init()
     -- 模拟试炼数据
     self.simulationTrialInfo_ = {}
     self.isEntry = false
-    self.limitReqData = {}
-    self.limitRespData = {}
 end
 
 function FubenDataMgr:reset()
@@ -302,8 +300,6 @@ function FubenDataMgr:reset()
     self.levelFormation_ = {}
     self.isEntry = false
     self.entryFirstLevelTimes = 0
-    self.limitReqData = {}
-    self.limitRespData = {}
 
     ---阵容排序默认排序ID
     self.formationSortRuleId = 5
@@ -1701,7 +1697,6 @@ function FubenDataMgr:enterFirstPlotLevel()
             battleController.requestFightStart(firstLevelCid, 0, 0, heros, 0, false)
         else
             TFDirector:send(c2s.DUNGEON_LIMIT_HERO_DUNGEON, {firstLevelCid})
-            self.limitReqData[firstLevelCid] = true
         end
         return true
     end
@@ -2469,7 +2464,6 @@ end
 function FubenDataMgr:send_DUNGEON_LIMIT_HERO_DUNGEON(levelCid)
     dump({"請求限定",levelCid})
     TFDirector:send(c2s.DUNGEON_LIMIT_HERO_DUNGEON, {levelCid})
-    self.limitReqData[levelCid] = true
 end
 
 function FubenDataMgr:send_DUNGEON_BUY_LEVEL_COUNT(levelCid)
@@ -2846,7 +2840,6 @@ function FubenDataMgr:onRecvLimitHeros(event)
         changesid(hero)
         self.limitHeros_[v.limitId] = hero
     end
-    self.limitRespData[data.leveId] = true
     self.levelFormation_[data.leveId] = clone(data.limitFormation)
     self.originLevelFormation_[data.leveId] = data.limitFormation
     EventMgr:dispatchEvent(EV_FUBEN_UPDATE_LIMITHERO)

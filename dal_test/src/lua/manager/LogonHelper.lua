@@ -8,8 +8,8 @@ if  CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or VERSION_DEBUG == true then
     GM_URL    = "http://192.168.20.181:8080/login/account/adminLogin"
 else
     if RELEASE_TEST then
-        LOGIN_URL = "http://175.24.25.95:10001/account/login"
-        GM_URL    = "http://175.24.25.95:10001/account/login"
+        LOGIN_URL = "http://49.233.184.62:10001/account/login"
+        GM_URL    = "http://49.233.184.62:10001/account/login"
     elseif EXPERIENCE then
         LOGIN_URL = "http://uce.datealive.com:8081/account/login"
         GM_URL    = "http://uce.datealive.com:8081/account/login"

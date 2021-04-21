@@ -251,6 +251,9 @@ function DepotView:updateItem(item, _data,lastId)
     local Label_tips = TFDirector:getChildByPath(item, "Label_tips"):hide()
     if id == 4 or id == 1 then
         commodityCfg = StoreDataMgr:getCommodityCfg(_data)
+        if not commodityCfg then
+            return
+        end
         local isCanBuy, remainCount = StoreDataMgr:getRemainBuyCount(_data)
         img_limitDi:setVisible(#commodityCfg.sellDescribtion > 0)
         if img_limitDi:isVisible() then

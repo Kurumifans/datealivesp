@@ -87,6 +87,8 @@ function battleController.registerEvents()
     EventMgr:addEventListener(this, eEvent.EVENT_TRIGGER_JUMP, this.onTriggerJump) --组队副本跳转
     EventMgr:addEventListener(this, EV_RECONECT_EVENT, handler(this.onReconnect))
     -- EventMgr:addEventListener(this, eEvent.EVENT_CHANGE_GUNGEON, this.onChangeDungeon) --组队副本跳转
+    EventMgr:addEventListener(this, eEvent.EVENT_AIR_POINT_CHANGE, handler(this.onAirPointChange))
+    
 
 
 end
@@ -1683,6 +1685,11 @@ function battleController.update(delta)
     if not this.bStartTime  then
         return
     end
+    this.clearHitTime = this.clearHitTime or 0
+    if os.clock() - this.clearHitTime > 1 then
+        this.hitMusicNum = {}
+        this.clearHitTime = os.clock()
+    end
     -- this.handlCombo(delta)
     this.team:update(delta)
     levelParse:update(delta)
@@ -1705,7 +1712,7 @@ function battleController.update(delta)
     -- 刷怪
     brushMonster:update(delta)
     if BattleGuide:isGuideStart() then
-        BattleGuide:update(dt)
+        BattleGuide:update(delta)
     end
 end
 function battleController.handlStopFrame(delta)
@@ -1838,11 +1845,11 @@ function battleController.exitBattle()
     this.endFight()
     this.clear()
     AwakeMgr.clean()
-    ResLoader.clean()
     musicMgr.clean()
     -- BattleMgr:removeScheduleAndActionMgr( )
     if not this.isChangeDungeon then 
         LockStep.clean()
+        ResLoader.clean()
     end
 
     EventTrigger:clearTriggers()
@@ -2543,6 +2550,24 @@ end
 
 function battleController.clearDamageData()
     this.damageData = {}
+end
+
+function battleController.onAirPointChange()
+    if this.isRun() then
+        local heroList = this.getTeam():getMenbers(eCampType.Call)
+        for i, hero in ipairs(heroList) do
+            local host = hero:getHost()
+            if host then
+                if host.data and host.data.follow and host:isAlive() then
+                    local hostPos = host:getPosition()
+                    if hostPos and hostPos.x and hostPos.y then
+                        hero:setPosition3D(hostPos.x)
+                        hero:endToAI()
+                    end
+                end
+            end
+        end
+    end
 end
 
 --应用切换到后台时间派发

@@ -5443,7 +5443,7 @@ return {
     [46038] = {
         id = 46038,
         data = {
-            upLimit = 6500,
+            upLimit = 10332,
         },
     },
     [16001] = {
@@ -6322,7 +6322,7 @@ return {
     [46011] = {
         id = 46011,
         data = {
-            eVersion = 9,
+            eVersion = 10,
         },
     },
     [26002] = {

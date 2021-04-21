@@ -59,8 +59,6 @@ local NextIndexMap = {
 [24] = {23, 0,18, 0},
 }
 
-
-
 local function createNode(index,dungeonId ,last)
     local node     = {}
     node.index     = index
@@ -796,43 +794,26 @@ function BattleDataMgr:heroData()
                 if not data then
                     local limitHero = FubenDataMgr.limitHeros_
                     local levelFormation = FubenDataMgr.levelFormation_
-                    local limitReqData =  FubenDataMgr.limitReqData
-                    local limitRespData = FubenDataMgr.limitRespData
-                    local dataStr = MainPlayer:getPlayerId().."-passNum:"..FubenDataMgr:getPassLevelNum().."-limitReqData:"
-                    for k,v in pairs(limitReqData) do
-                        dataStr = dataStr..k.."--"
-                    end
-                    dataStr = dataStr.."limitRespData:"
-                    for k,v in pairs(limitRespData) do
-                        dataStr = dataStr..k.."--"
-                    end
-                    dataStr = dataStr.."levelFormation:"
-                    for k,v in pairs(levelFormation) do
-                        dataStr = dataStr..k.."--"
-                    end
-                    dataStr = dataStr.."limitHero:"
+                    local dataStr = MainPlayer:getPlayerId().."aa"..FubenDataMgr:getPassLevelNum().."bb"
                     for k,v in pairs(limitHero) do
-                        dataStr = dataStr..k.."--"
+                        dataStr = dataStr..k.."cc"
                     end
-                    
+                    for k,v in pairs(levelFormation) do
+                        dataStr = dataStr..k.."dd"
+                    end
                     local saveParam = FubenDataMgr:getCurFightParam()
                     if saveParam then
-                        dataStr = dataStr.."-sendCid:"
                         dataStr = dataStr..saveParam[1] or ""
-                        dataStr = dataStr.."-sendHeros:"
+                        dataStr = dataStr.."ee"
                         for i,v in ipairs(saveParam[4] or {}) do
                             dataStr = dataStr..v[2].."--"
-                            dataStr = dataStr..v[1].."--"
+                            dataStr = dataStr..v[1].."ff"
                         end
                     end
-                    local formaStr = ""
-                    for k,v in pairs(self.formation_) do
-                        formaStr = formaStr..v.limitCid.."--"..v.limitType.."--"
-                    end
-                    local errMsg = string.format("BattleDataMgr:heroData ERROR: limitData = %s levelCid=%s formatData=%s !",
+                    local errMsg = string.format("BattleDataMgr:heroData ERROR: formationdata = %s levelCid=%s limitType=%s limitCid=%s pos=%s job=%s hero data is nil !",
                         dataStr,
                         tostring(self.levelCid_ ),
-                        formaStr)
+                        tostring(formation.limitType ),tostring(formation.limitCid),tostring(pos),tostring(job))
                         Bugly:ReportLuaException(errMsg)
                         Box(errMsg)
                 end
@@ -1515,6 +1496,17 @@ end
 function BattleDataMgr:isMusicGameLevel()
     return self:getLevelCfg().dungeonType == EC_FBLevelType.MUSIC_GAME
 end
+
+function BattleDataMgr.getHeroBuffIds( heroData )
+    -- body
+    if not heroData.formDatas then return {} end
+    local hero = requireNew("lua.logic.battle.Hero"):new(heroData)
+
+    local buffIds = hero:getBufferIds()
+    hero:release_()
+    return buffIds
+end
+
 
 local instace = BattleDataMgr:new()
 return instace

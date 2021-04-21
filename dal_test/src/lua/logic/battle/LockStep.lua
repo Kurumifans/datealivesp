@@ -380,6 +380,7 @@ function LockStep.countDownSpeedJump()
     -- print("this.nSpeedInterval ",this.nSpeedInterval )
     -- local time  = LockStep.gettime()
     local count = 0
+    this.JumpFrame = true
     while this.nSpeedInterval == -1 do
         -- dump("this.nSpeedInterval == -1")
         this.doFrame( this.DRAW_FRAME_PER_Dt )
@@ -389,6 +390,7 @@ function LockStep.countDownSpeedJump()
             break
         end
     end
+    this.JumpFrame = false
     -- dump("this.nSpeedInterval == cao")
 end
 

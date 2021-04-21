@@ -281,6 +281,12 @@ return {
         event_id = 17,
         remark = "春节乐园成功燃放各类型烟花*次",
     },
+    [17062] = {
+        id = 17062,
+        history = false,
+        event_id = 17,
+        remark = "应援集结活动",
+    },
     [2007] = {
         id = 2007,
         history = true,

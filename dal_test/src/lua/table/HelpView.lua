@@ -1133,18 +1133,18 @@ return {
         desc = {
         },
     },
-    [2519] = {
+    [1015] = {
         picPath  = "",
         type = 0,
-        title = "13316837",
+        title = "61015",
         pictureParameter = {
         },
-        id = 2519,
+        id = 1015,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 13316886,
+            [1] = 63015,
         },
     },
     [2521] = {
@@ -1915,23 +1915,18 @@ return {
         desc = {
         },
     },
-    [2104] = {
+    [3126] = {
         picPath  = "",
         type = 0,
-        title = "3202054",
+        title = "",
         pictureParameter = {
         },
-        id = 2104,
+        id = 3126,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 3203220,
-            [2] = 3203221,
-            [3] = 3203222,
-            [4] = 3203223,
-            [5] = 3203224,
-            [6] = 3203225,
+            [1] = 13202422,
         },
     },
     [3127] = {
@@ -1948,17 +1943,18 @@ return {
             [1] = 15011271,
         },
     },
-    [2106] = {
+    [3128] = {
         picPath  = "",
         type = 0,
-        title = "3202054",
+        title = "15011272",
         pictureParameter = {
         },
-        id = 2106,
+        id = 3128,
         desParameter = {
         },
         fileName = "Help",
         desc = {
+            [1] = 15011273,
         },
     },
     [1056] = {
@@ -2264,20 +2260,6 @@ return {
             [10] = 16000410,
         },
     },
-    [1109] = {
-        picPath  = "",
-        type = 0,
-        title = "16000645",
-        pictureParameter = {
-        },
-        id = 1109,
-        desParameter = {
-        },
-        fileName = "Help",
-        desc = {
-            [1] = 16000646,
-        },
-    },
     [2220] = {
         picPath  = "",
         type = 0,
@@ -2332,20 +2314,6 @@ return {
             [1] = 13317061,
         },
     },
-    [4103] = {
-        picPath  = "",
-        type = 0,
-        title = "15010269",
-        pictureParameter = {
-        },
-        id = 4103,
-        desParameter = {
-        },
-        fileName = "Help",
-        desc = {
-            [1] = 13316500,
-        },
-    },
     [4105] = {
         picPath  = "",
         type = 0,
@@ -2392,20 +2360,6 @@ return {
             [5] = 15011385,
         },
     },
-    [4108] = {
-        picPath  = "",
-        type = 0,
-        title = "15011348",
-        pictureParameter = {
-        },
-        id = 4108,
-        desParameter = {
-        },
-        fileName = "Help",
-        desc = {
-            [1] = 15011349,
-        },
-    },
     [998] = {
         picPath  = "",
         type = 0,
@@ -2422,45 +2376,45 @@ return {
             [3] = 62999,
         },
     },
-    [1015] = {
+    [4108] = {
         picPath  = "",
         type = 0,
-        title = "61015",
+        title = "15011348",
         pictureParameter = {
         },
-        id = 1015,
+        id = 4108,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 63015,
+            [1] = 15011349,
         },
     },
-    [4104] = {
+    [2106] = {
         picPath  = "",
         type = 0,
-        title = "15010271",
+        title = "3202054",
         pictureParameter = {
         },
-        id = 4104,
+        id = 2106,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 13316500,
         },
     },
-    [2208] = {
-        picPath  = "ui/help/btn_1.png",
-        type = 3,
-        title = "",
+    [1055] = {
+        picPath  = "",
+        type = 0,
+        title = "61068",
         pictureParameter = {
         },
-        id = 2208,
+        id = 1055,
         desParameter = {
         },
         fileName = "Help",
         desc = {
+            [1] = 63060,
         },
     },
     [999] = {
@@ -2524,20 +2478,6 @@ return {
         desc = {
         },
     },
-    [1014] = {
-        picPath  = "",
-        type = 0,
-        title = "61014",
-        pictureParameter = {
-        },
-        id = 1014,
-        desParameter = {
-        },
-        fileName = "Help",
-        desc = {
-            [1] = 63014,
-        },
-    },
     [2022] = {
         picPath  = "",
         type = 0,
@@ -2574,18 +2514,18 @@ return {
             [9] = 16000427,
         },
     },
-    [4006] = {
+    [1014] = {
         picPath  = "",
         type = 0,
-        title = "13311349",
+        title = "61014",
         pictureParameter = {
         },
-        id = 4006,
+        id = 1014,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 13311355,
+            [1] = 63014,
         },
     },
     [2507] = {
@@ -2619,18 +2559,18 @@ return {
             [4] = 16000431,
         },
     },
-    [4005] = {
+    [4006] = {
         picPath  = "",
         type = 0,
-        title = "13311348",
+        title = "13311349",
         pictureParameter = {
         },
-        id = 4005,
+        id = 4006,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 13311354,
+            [1] = 13311355,
         },
     },
     [1041] = {
@@ -2664,18 +2604,18 @@ return {
             [4] = 16000435,
         },
     },
-    [4004] = {
+    [4005] = {
         picPath  = "",
         type = 0,
-        title = "13311347",
+        title = "13311348",
         pictureParameter = {
         },
-        id = 4004,
+        id = 4005,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 13311353,
+            [1] = 13311354,
         },
     },
     [1001] = {
@@ -2706,6 +2646,20 @@ return {
             [1] = 63042,
         },
     },
+    [4004] = {
+        picPath  = "",
+        type = 0,
+        title = "13311347",
+        pictureParameter = {
+        },
+        id = 4004,
+        desParameter = {
+        },
+        fileName = "Help",
+        desc = {
+            [1] = 13311353,
+        },
+    },
     [4003] = {
         picPath  = "",
         type = 0,
@@ -2718,20 +2672,6 @@ return {
         fileName = "Help",
         desc = {
             [1] = 13311352,
-        },
-    },
-    [4002] = {
-        picPath  = "",
-        type = 0,
-        title = "13311345",
-        pictureParameter = {
-        },
-        id = 4002,
-        desParameter = {
-        },
-        fileName = "Help",
-        desc = {
-            [1] = 13311351,
         },
     },
     [1002] = {
@@ -2774,6 +2714,24 @@ return {
         fileName = "Help",
         desc = {
             [1] = 63045,
+        },
+    },
+    [2465] = {
+        picPath  = "",
+        type = 0,
+        title = "2108086",
+        pictureParameter = {
+        },
+        id = 2465,
+        desParameter = {
+        },
+        fileName = "Help",
+        desc = {
+            [1] = 13322048,
+            [2] = 13322049,
+            [3] = 13322050,
+            [4] = 13322051,
+            [5] = 13322052,
         },
     },
     [2002] = {
@@ -2851,22 +2809,22 @@ return {
             [1] = 63047,
         },
     },
-    [2465] = {
+    [2469] = {
         picPath  = "",
         type = 0,
         title = "2108086",
         pictureParameter = {
         },
-        id = 2465,
+        id = 2469,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 13322048,
-            [2] = 13322049,
-            [3] = 13322050,
-            [4] = 13322051,
-            [5] = 13322052,
+            [1] = 12034001,
+            [2] = 12034002,
+            [3] = 12034003,
+            [4] = 12034004,
+            [5] = 12034005,
         },
     },
     [2004] = {
@@ -2966,17 +2924,18 @@ return {
             [1] = 14110281,
         },
     },
-    [2006] = {
-        picPath  = "icon/teamHelp/001.png",
-        type = 3,
-        title = "",
+    [1005] = {
+        picPath  = "",
+        type = 0,
+        title = "61005",
         pictureParameter = {
         },
-        id = 2006,
+        id = 1005,
         desParameter = {
         },
         fileName = "Help",
         desc = {
+            [1] = 63005,
         },
     },
     [1050] = {
@@ -3061,18 +3020,17 @@ return {
             [1] = 63058,
         },
     },
-    [2479] = {
-        picPath  = "",
-        type = 0,
-        title = "13316837",
+    [2025] = {
+        picPath  = "icon/teamHelp/007.png",
+        type = 3,
+        title = "",
         pictureParameter = {
         },
-        id = 2479,
+        id = 2025,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 13316864,
         },
     },
     [2009] = {
@@ -3103,17 +3061,18 @@ return {
             [1] = 63059,
         },
     },
-    [2025] = {
-        picPath  = "icon/teamHelp/007.png",
-        type = 3,
+    [2026] = {
+        picPath  = "",
+        type = 0,
         title = "",
         pictureParameter = {
         },
-        id = 2025,
+        id = 2026,
         desParameter = {
         },
         fileName = "Help",
         desc = {
+            [1] = 14110282,
         },
     },
     [2010] = {
@@ -3219,17 +3178,18 @@ return {
             [8] = 3203219,
         },
     },
-    [2027] = {
-        picPath  = "icon/teamHelp/006.png",
-        type = 3,
-        title = "",
+    [3006] = {
+        picPath  = "",
+        type = 0,
+        title = "61064",
         pictureParameter = {
         },
-        id = 2027,
+        id = 3006,
         desParameter = {
         },
         fileName = "Help",
         desc = {
+            [1] = 63056,
         },
     },
     [2103] = {
@@ -3426,6 +3386,25 @@ return {
             [1] = 63008,
         },
     },
+    [2104] = {
+        picPath  = "",
+        type = 0,
+        title = "3202054",
+        pictureParameter = {
+        },
+        id = 2104,
+        desParameter = {
+        },
+        fileName = "Help",
+        desc = {
+            [1] = 3203220,
+            [2] = 3203221,
+            [3] = 3203222,
+            [4] = 3203223,
+            [5] = 3203224,
+            [6] = 3203225,
+        },
+    },
     [2487] = {
         picPath  = "",
         type = 0,
@@ -3473,32 +3452,30 @@ return {
             [1] = 14110267,
         },
     },
-    [2026] = {
-        picPath  = "",
-        type = 0,
+    [2027] = {
+        picPath  = "icon/teamHelp/006.png",
+        type = 3,
         title = "",
         pictureParameter = {
         },
-        id = 2026,
+        id = 2027,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 14110282,
         },
     },
-    [1009] = {
-        picPath  = "",
-        type = 0,
-        title = "61009",
+    [2014] = {
+        picPath  = "icon/teamHelp/003.png",
+        type = 3,
+        title = "",
         pictureParameter = {
         },
-        id = 1009,
+        id = 2014,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 63009,
         },
     },
     [2491] = {
@@ -3515,27 +3492,13 @@ return {
             [1] = 13316872,
         },
     },
-    [4001] = {
-        picPath  = "",
-        type = 0,
-        title = "13311344",
-        pictureParameter = {
-        },
-        id = 4001,
-        desParameter = {
-        },
-        fileName = "Help",
-        desc = {
-            [1] = 13311350,
-        },
-    },
-    [2492] = {
-        picPath  = "icon/item/gift/534173.png",
+    [2012] = {
+        picPath  = "icon/teamHelp/002.png",
         type = 3,
-        title = "13316837",
+        title = "",
         pictureParameter = {
         },
-        id = 2492,
+        id = 2012,
         desParameter = {
         },
         fileName = "Help",
@@ -3756,6 +3719,19 @@ return {
         desc = {
         },
     },
+    [2492] = {
+        picPath  = "icon/item/gift/534173.png",
+        type = 3,
+        title = "13316837",
+        pictureParameter = {
+        },
+        id = 2492,
+        desParameter = {
+        },
+        fileName = "Help",
+        desc = {
+        },
+    },
     [2493] = {
         picPath  = "",
         type = 0,
@@ -3770,18 +3746,18 @@ return {
             [1] = 13316873,
         },
     },
-    [3128] = {
+    [4001] = {
         picPath  = "",
         type = 0,
-        title = "15011272",
+        title = "13311344",
         pictureParameter = {
         },
-        id = 3128,
+        id = 4001,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 15011273,
+            [1] = 13311350,
         },
     },
     [1010] = {
@@ -3810,20 +3786,6 @@ return {
         fileName = "Help",
         desc = {
             [1] = 13316874,
-        },
-    },
-    [3126] = {
-        picPath  = "",
-        type = 0,
-        title = "",
-        pictureParameter = {
-        },
-        id = 3126,
-        desParameter = {
-        },
-        fileName = "Help",
-        desc = {
-            [1] = 13202422,
         },
     },
     [2496] = {
@@ -3881,18 +3843,18 @@ return {
             [1] = 63055,
         },
     },
-    [3002] = {
+    [2519] = {
         picPath  = "",
         type = 0,
-        title = "61060",
+        title = "13316837",
         pictureParameter = {
         },
-        id = 3002,
+        id = 2519,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 63052,
+            [1] = 13316886,
         },
     },
     [3001] = {
@@ -3923,13 +3885,13 @@ return {
             [1] = 14110277,
         },
     },
-    [2012] = {
-        picPath  = "icon/teamHelp/002.png",
+    [2006] = {
+        picPath  = "icon/teamHelp/001.png",
         type = 3,
         title = "",
         pictureParameter = {
         },
-        id = 2012,
+        id = 2006,
         desParameter = {
         },
         fileName = "Help",
@@ -4300,22 +4262,18 @@ return {
             [1] = 15010063,
         },
     },
-    [2469] = {
+    [4002] = {
         picPath  = "",
         type = 0,
-        title = "2108086",
+        title = "13311345",
         pictureParameter = {
         },
-        id = 2469,
+        id = 4002,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 12034001,
-            [2] = 12034002,
-            [3] = 12034003,
-            [4] = 12034004,
-            [5] = 12034005,
+            [1] = 13311351,
         },
     },
     [2470] = {
@@ -4446,18 +4404,18 @@ return {
         desc = {
         },
     },
-    [1005] = {
+    [2479] = {
         picPath  = "",
         type = 0,
-        title = "61005",
+        title = "13316837",
         pictureParameter = {
         },
-        id = 1005,
+        id = 2479,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 63005,
+            [1] = 13316864,
         },
     },
     [2480] = {
@@ -4608,17 +4566,18 @@ return {
         desc = {
         },
     },
-    [2014] = {
-        picPath  = "icon/teamHelp/003.png",
-        type = 3,
-        title = "",
+    [3002] = {
+        picPath  = "",
+        type = 0,
+        title = "61060",
         pictureParameter = {
         },
-        id = 2014,
+        id = 3002,
         desParameter = {
         },
         fileName = "Help",
         desc = {
+            [1] = 63052,
         },
     },
     [3003] = {
@@ -4662,18 +4621,18 @@ return {
         desc = {
         },
     },
-    [3006] = {
+    [1009] = {
         picPath  = "",
         type = 0,
-        title = "61064",
+        title = "61009",
         pictureParameter = {
         },
-        id = 3006,
+        id = 1009,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 63056,
+            [1] = 63009,
         },
     },
     [3007] = {
@@ -4879,18 +4838,17 @@ return {
         desc = {
         },
     },
-    [1055] = {
-        picPath  = "",
-        type = 0,
-        title = "61068",
+    [2208] = {
+        picPath  = "ui/help/btn_1.png",
+        type = 3,
+        title = "",
         pictureParameter = {
         },
-        id = 1055,
+        id = 2208,
         desParameter = {
         },
         fileName = "Help",
         desc = {
-            [1] = 63060,
         },
     },
 }

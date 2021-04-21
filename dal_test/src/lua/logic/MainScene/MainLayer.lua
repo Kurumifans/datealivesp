@@ -1582,6 +1582,7 @@ function MainLayer:registerEvents()
     self.Button_friend:onClick(function()
         Utils:sendHttpLog("firend")
             FunctionDataMgr:jFriend()
+
     end)
 
     self.Button_mail:onClick(function()
@@ -1598,6 +1599,7 @@ function MainLayer:registerEvents()
         Utils:sendHttpLog("Task")
             FunctionDataMgr:jTask()
             GameGuide:checkGuideEnd(self.guideFuncId)
+
     end)
 
     self.Button_explore:onClick(function ( ... )
@@ -1725,9 +1727,12 @@ function MainLayer:registerEvents()
     --狂三应援
     self.Button_Activity6:onClick(function()
         Utils:sendHttpLog("Activity")
-        local activityInfo = ActivityDataMgr2:getActivityInfo(nil,6)[1]
-        if not activityInfo then return end
-        FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface,unpack(activityInfo.extendData.jumpParamters or {}))
+        -- local activityInfo = ActivityDataMgr2:getActivityInfo(nil,6)[1]
+        -- if not activityInfo then return end
+        -- dump(activityInfo)
+        -- Box("jj")
+        FunctionDataMgr:jActivity6()
+        -- FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface,unpack(activityInfo.extendData.jumpParamters or {}))
     end)
 
     --狂三应援

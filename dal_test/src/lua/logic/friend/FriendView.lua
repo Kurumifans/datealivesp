@@ -447,17 +447,17 @@ function FriendView:updateFriendBtnState()
         self.Button_delet_sure:setVisible(false)
         self.Image_givingCount:setVisible(true)
         self.Label_friendView_delet_tips:setVisible(false)
-        if #self.friend_ > 0 then
-            self.Button_delet_all:setTouchEnabled(true)
-            self.Button_delet_all:setGrayEnabled(false)
-        else
-            self.Button_delet_all:setTouchEnabled(false)
-            self.Button_delet_all:setGrayEnabled(true)
-        end
     end
     self.deletPlayerCids = {}
     self:showFriend()
     self:updateItemSelectState()
+    if #self.friend_ > 0 then
+        self.Button_delet_all:setTouchEnabled(true)
+        self.Button_delet_all:setGrayEnabled(false)
+    else
+        self.Button_delet_all:setTouchEnabled(false)
+        self.Button_delet_all:setGrayEnabled(true)
+    end
 end
 
 function FriendView:showApply()
