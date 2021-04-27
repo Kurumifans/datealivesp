@@ -684,6 +684,19 @@ function battleController.getFocusNode()
     end
 end
 
+function battleController.checkCondSuccess( cond , params )
+    -- body
+    local result = true
+    for k,v in pairs(cond) do
+        if k == "event" and params.event then
+            if v ~= params.event then
+                result = false
+            end
+        end
+    end
+    return result
+end
+
 function battleController.setFocusNode(focusNode)
     this.focusNode    = focusNode
 end
@@ -1686,7 +1699,7 @@ function battleController.update(delta)
         return
     end
     this.clearHitTime = this.clearHitTime or 0
-    if os.clock() - this.clearHitTime > 1 then
+    if os.clock() - this.clearHitTime > 0.2 then
         this.hitMusicNum = {}
         this.clearHitTime = os.clock()
     end
@@ -2559,10 +2572,12 @@ function battleController.onAirPointChange()
             local host = hero:getHost()
             if host then
                 if host.data and host.data.follow and host:isAlive() then
-                    local hostPos = host:getPosition()
-                    if hostPos and hostPos.x and hostPos.y then
-                        hero:setPosition3D(hostPos.x)
-                        hero:endToAI()
+                    local curPos = hero:getPosition()
+                    if not this.canMove(curPos.x,curPos.y) then
+                        local hostPos = host:getPosition()
+                        if hostPos and hostPos.x then
+                            hero:moveToPosAction(hostPos)
+                        end
                     end
                 end
             end

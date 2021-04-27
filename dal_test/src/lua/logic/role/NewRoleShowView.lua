@@ -99,6 +99,7 @@ function NewRoleShowView:initUI(ui)
     self.Image_circle = TFDirector:getChildByPath(self.Button_switch, "Image_circle")
 	self.NpcEffect = TFDirector:getChildByPath(self.ui, "NpcEffect")
 	self.Panel_newRole = TFDirector:getChildByPath(self.ui, "Panel_newRole")
+	self.NpcEffectPanel = TFDirector:getChildByPath(self.Panel_newRole, "NpcEffectPanel")
 
 	self.TrialDressTimeBg = TFDirector:getChildByPath(self.ui, "TrialDressTimeBg"):hide()
 	self.TrialDressTime = TFDirector:getChildByPath(self.TrialDressTimeBg, "TrialDressTime")
@@ -148,7 +149,6 @@ function NewRoleShowView:initMid()
     self.Label_role_name = TFDirector:getChildByPath(self.Panel_mid, "Label_role_name")
     self.Label_enName = TFDirector:getChildByPath(self.Panel_mid, "Label_enName")
     self.Label_enName2 = TFDirector:getChildByPath(self.Panel_mid, "Label_enName2")
-    self.NpcEffectPanel = TFDirector:getChildByPath(self.Panel_mid, "NpcEffectPanel")
 
     self:initFavorAndMood()
 end
@@ -1194,7 +1194,7 @@ function NewRoleShowView:updateRoleModel(modelId)
         local fitScale = (curWidth - 1386) / 1386 * 1.0
         if fitScale > 0 then
             self.Image_bg2:setScale(1.0 + fitScale)
-			self.NpcEffectPanel:setScale(1.0 + fitScale)
+			--self.NpcEffectPanel:setScale(1.0 + fitScale)
 			self.Panel_newRole:setScale(1.0 + fitScale)
 			local offX = 1386 * fitScale / 2 * 0.8
 			local offY = 640 * fitScale / 2 * 0.8

@@ -6676,7 +6676,6 @@ local t =
 								Layout="Absolute",
 								nType = "0"
 							},
-							visible = "False",
 							width = "260",
 							ZOrder = "999",
 						},

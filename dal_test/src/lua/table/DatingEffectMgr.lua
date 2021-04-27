@@ -57,6 +57,20 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [4103141] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_10314/main_effect_10314",
+        action = "up",
+        isLoop = true,
+        id = 4103141,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 2,
+    },
     [4101132] = {
         offset = {
         },
@@ -2382,6 +2396,34 @@ return {
         isDelete = true,
         speBg = "",
         Zorder = 0,
+    },
+    [4103142] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_10314/main_effect_10314_texiao",
+        action = "animation",
+        isLoop = false,
+        id = 4103142,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 3,
+    },
+    [410314] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_10314/main_effect_10314",
+        action = "down",
+        isLoop = true,
+        id = 410314,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 1,
     },
     [410117] = {
         offset = {

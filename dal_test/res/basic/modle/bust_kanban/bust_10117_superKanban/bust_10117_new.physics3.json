@@ -3,7 +3,7 @@
 	"Meta": {
 		"PhysicsSettingCount": 1,
 		"TotalInputCount": 4,
-		"TotalOutputCount": 25,
+		"TotalOutputCount": 26,
 		"VertexCount": 4,
 		"EffectiveForces": {
 			"Gravity": {
@@ -92,7 +92,7 @@
 						"Id": "PARAM_HAIR_FRONT"
 					},
 					"VertexIndex": 1,
-					"Scale": 1,
+					"Scale": 0.5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -254,6 +254,17 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
+						"Id": "PARAM_necklace"
+					},
+					"VertexIndex": 1,
+					"Scale": 0.4,
+					"Weight": 100,
+					"Type": "Angle",
+					"Reflect": false
+				},
+				{
+					"Destination": {
+						"Target": "Parameter",
 						"Id": "PARAM_RIBBON_01"
 					},
 					"VertexIndex": 1,
@@ -389,9 +400,9 @@
 					"Maximum": 10
 				},
 				"Angle": {
-					"Minimum": -60,
+					"Minimum": -10,
 					"Default": 0,
-					"Maximum": 60
+					"Maximum": 10
 				}
 			}
 		}

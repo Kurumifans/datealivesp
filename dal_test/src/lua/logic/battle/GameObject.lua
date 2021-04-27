@@ -852,6 +852,7 @@ function JumpPoint:ctor(data)
     self:addMEListener(TFWIDGET_EXIT,  handler(self._onExit,self))
     self:addMEListener(TFWIDGET_ENTER, handler(self._onEnter,self))
     self.renderNode = ResLoader.createRole(self:getRes(),self:getScale_())
+    self.renderNode:setToSetupPose()
     if self.data.index > 4 or self.data.index < 1 then
         Box("跳转点方位配置有误")
     end

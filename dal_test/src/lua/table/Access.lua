@@ -2478,4 +2478,26 @@ return {
         },
         accessType = 52,
     },
+    [229] = {
+        accessparam = "",
+        name = "1400012",
+        name2 = "1430082",
+        id = 229,
+        jumpInterface = 6,
+        parameter = {
+            [1] = 11222,
+        },
+        accessType = 52,
+    },
+    [230] = {
+        accessparam = "",
+        name = "1400012",
+        name2 = "1430083",
+        id = 230,
+        jumpInterface = 6,
+        parameter = {
+            [1] = 2070,
+        },
+        accessType = 52,
+    },
 }

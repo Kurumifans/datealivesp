@@ -717,6 +717,7 @@ function ResLoader.createEffect(effectName,scale, isInsertCache)
         skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
         skeletonNode:removeMEListener(TFWIDGET_ENTER)
         skeletonNode:removeMEListener(TFWIDGET_EXIT)
+        skeletonNode:removeMEListener(TFWIDGET_CLEANUP)
         -- _print("找到 skeleton:"..skeletonNode:retainCount().." "..resPath)
         --重置位置
         skeletonNode:setPosition(me.p(0,0))

@@ -1688,11 +1688,11 @@ return {
         type = 1,
     },
     [510314] = {
-        rolePath = "modle/bust_kanban/bust_10311_superKanban",
+        rolePath = "modle/bust_kanban/bust_10314_superKanban",
         name = "四糸乃-12章泳装",
         id = 510314,
         isCloseTouchFollow = false,
-        roleName = "bust_10311_new.model3.json",
+        roleName = "bust_10314_new.model3.json",
         type = 1,
     },
     [10205] = {

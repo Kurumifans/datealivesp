@@ -1,4 +1,22 @@
 return {
+    [8001055] = {
+        Exclusive = {
+            [1] = 110313,
+        },
+        NameId = 331054,
+        nameIcon = "",
+        id = 8001055,
+        suitSkill = 34,
+        combatPower = 60,
+        desTextId = 231034,
+        herosequip = 332015,
+        display = true,
+        suitarmsID = {
+            [1] = 334001,
+        },
+        icon = "icon/equipment/equipsuit/TZ_icon_31.png",
+        suitnum = 1,
+    },
     [8002054] = {
         Exclusive = {
             [1] = 113201,
@@ -153,6 +171,7 @@ return {
         Exclusive = {
             [1] = 110301,
             [2] = 110302,
+            [3] = 110313,
         },
         NameId = 331003,
         nameIcon = "",

@@ -677,11 +677,17 @@ return {
         event_id = 17,
         remark = "全服累加数值进度",
     },
-    [31002] = {
-        id = 31002,
+    [31001] = {
+        id = 31001,
         history = true,
         event_id = 31,
-        remark = "首次激活训练官身份",
+        remark = "成功训练十香AIX次",
+    },
+    [58006] = {
+        id = 58006,
+        history = false,
+        event_id = 58,
+        remark = "战斗次数任务 ",
     },
     [9002] = {
         id = 9002,
@@ -779,12 +785,6 @@ return {
         event_id = 9,
         remark = "冰雪节中使用置顶buff完成X次挑战",
     },
-    [58006] = {
-        id = 58006,
-        history = false,
-        event_id = 58,
-        remark = "战斗次数任务 ",
-    },
     [58005] = {
         id = 58005,
         history = false,
@@ -797,17 +797,23 @@ return {
         event_id = 58,
         remark = "战斗次数任务 ",
     },
+    [17019] = {
+        id = 17019,
+        history = false,
+        event_id = 17,
+        remark = "无尽200层boss10秒内通关",
+    },
     [30001] = {
         id = 30001,
         history = false,
         event_id = 30,
         remark = "天梯周期任务积分",
     },
-    [17019] = {
-        id = 17019,
-        history = false,
-        event_id = 17,
-        remark = "无尽200层boss10秒内通关",
+    [29004] = {
+        id = 29004,
+        history = true,
+        event_id = 29,
+        remark = "社团追猎计划boss击杀数",
     },
     [17004] = {
         id = 17004,
@@ -899,17 +905,17 @@ return {
         event_id = 17,
         remark = "将XX设置为看板",
     },
-    [31001] = {
-        id = 31001,
-        history = true,
-        event_id = 31,
-        remark = "成功训练十香AIX次",
-    },
     [58001] = {
         id = 58001,
         history = false,
         event_id = 58,
         remark = "战斗力达到XX",
+    },
+    [31002] = {
+        id = 31002,
+        history = true,
+        event_id = 31,
+        remark = "首次激活训练官身份",
     },
     [59006] = {
         id = 59006,
@@ -929,12 +935,6 @@ return {
         event_id = 58,
         remark = "单舱室等级任务 ",
     },
-    [29004] = {
-        id = 29004,
-        history = true,
-        event_id = 29,
-        remark = "社团追猎计划boss击杀数",
-    },
     [29003] = {
         id = 29003,
         history = false,
@@ -947,17 +947,17 @@ return {
         event_id = 29,
         remark = "社团空投补给次数达到N",
     },
-    [25001] = {
-        id = 25001,
-        history = false,
-        event_id = 25,
-        remark = "领取精灵副本的宝箱",
-    },
     [29001] = {
         id = 29001,
         history = true,
         event_id = 29,
         remark = "社团活跃度达到N",
+    },
+    [25001] = {
+        id = 25001,
+        history = false,
+        event_id = 25,
+        remark = "领取精灵副本的宝箱",
     },
     [28003] = {
         id = 28003,
@@ -988,6 +988,12 @@ return {
         history = false,
         event_id = 8,
         remark = "洗练N次质点",
+    },
+    [9019] = {
+        id = 9019,
+        history = false,
+        event_id = 9,
+        remark = "击杀BOSS",
     },
     [17059] = {
         id = 17059,
@@ -1277,11 +1283,11 @@ return {
         event_id = 12,
         remark = "完成X次约会",
     },
-    [9019] = {
-        id = 9019,
+    [17061] = {
+        id = 17061,
         history = false,
-        event_id = 9,
-        remark = "击杀BOSS",
+        event_id = 17,
+        remark = "完成分享",
     },
     [12007] = {
         id = 12007,
