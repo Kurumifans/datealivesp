@@ -3957,8 +3957,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 49,
-														PositionY = -6,
+														PositionX = 82,
 													},
 													width = "30",
 													ZOrder = "1",
@@ -3995,6 +3994,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
+											visible = "False",
 											width = "200",
 											ZOrder = "1",
 											components = 
@@ -4084,6 +4084,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
+											visible = "False",
 											width = "193",
 											ZOrder = "1",
 											components = 

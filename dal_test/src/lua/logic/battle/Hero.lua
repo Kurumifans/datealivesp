@@ -2971,20 +2971,6 @@ function Hero:toFlashBack(sec)
 end
 
 function Hero:update(time)
-    local ecount = #self.eventData_
-    if ecount > 200 then
-        ecount = math.floor(ecount / 10)
-    elseif ecount > 100 then
-        ecount = math.floor(ecount / 5)
-    elseif ecount > 20 then
-        ecount = math.floor(ecount / 3)        
-    end
-    for i=1,ecount do
-        local data = table.remove(self.eventData_,1)
-        if data then
-            self:doBuffEvent(data[1],data[2],data[3])
-        end
-    end
     if self.position3D.x ~= self.lastPsition3D.x or self.position3D.y ~= self.lastPsition3D.y then
         EventTrigger:_onChangePos(self)
         self:setLastPosition(self.position3D.x,self.position3D.y,self.position3D.z)
@@ -5236,11 +5222,7 @@ function Hero:onEventTrigger(event,target,param)
         self.skill:onEventTrigger(self,event,target,param)
     end
 
-    if event > 100 then
-        table.insert(self.eventData_,{event,target,param})
-    else
-        self:doBuffEvent(event,target,param)
-    end
+    self:doBuffEvent(event,target,param)
 end
 
 function Hero:doBuffEvent(event,target,param)
