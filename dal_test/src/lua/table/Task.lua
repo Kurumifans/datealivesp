@@ -13538,6 +13538,98 @@ return {
         },
         des = "1320712",
     },
+    [800427] = {
+        ext = {
+            actId = 10643,
+        },
+        finishCondId = 14001,
+        order = 16,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 520023,
+                [2] = 30,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 500000,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 200,
+        icon = "ui/task/icon_4.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800427,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 5,
+        type = 92,
+        name = "15011417",
+        acceptCondId = 0,
+        finishParams = {
+            heroId = 110413,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "15011417",
+    },
+    [800426] = {
+        ext = {
+            actId = 10643,
+        },
+        finishCondId = 14001,
+        order = 15,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 570050,
+                [2] = 300,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 200,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800426,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 4,
+        type = 92,
+        name = "15011416",
+        acceptCondId = 0,
+        finishParams = {
+            heroId = 110413,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "15011416",
+    },
     [521004] = {
         ext = {
         },
@@ -13698,6 +13790,49 @@ return {
         },
         des = "1320001",
     },
+    [750039] = {
+        ext = {
+        },
+        finishCondId = 9027,
+        order = 5,
+        acceptParams = {
+            experiment = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 570003,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 750039,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1000,
+        type = 35,
+        name = "1311203",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "15010029",
+    },
     [521005] = {
         ext = {
         },
@@ -13844,6 +13979,50 @@ return {
         },
         des = "1320001",
     },
+    [800424] = {
+        ext = {
+            actId = 10643,
+        },
+        finishCondId = 14001,
+        order = 13,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 570050,
+                [2] = 50,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 200,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800424,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 2,
+        type = 92,
+        name = "15011414",
+        acceptCondId = 0,
+        finishParams = {
+            heroId = 110413,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "15011414",
+    },
     [121104] = {
         ext = {
         },
@@ -13984,6 +14163,53 @@ return {
         },
         des = "1320001",
     },
+    [750041] = {
+        ext = {
+            type = 1,
+        },
+        finishCondId = 9028,
+        order = 1,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 501032,
+                [2] = 500,
+            },
+            [2] = {
+                [1] = 570003,
+                [2] = 30,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 750041,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 10,
+        type = 35,
+        name = "1311203",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "15010038",
+    },
     [521007] = {
         ext = {
         },
@@ -14110,30 +14336,30 @@ return {
         },
         des = "1320527",
     },
-    [800427] = {
+    [800422] = {
         ext = {
             actId = 10643,
         },
-        finishCondId = 14001,
-        order = 16,
+        finishCondId = 13001,
+        order = 11,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 520023,
-                [2] = 30,
+                [1] = 510105,
+                [2] = 50,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 500000,
+                [1] = 510104,
+                [2] = 25,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -14141,14 +14367,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800427,
+        id = 800422,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
+        progress = 70,
         type = 92,
-        name = "15011417",
+        name = "15011412",
         acceptCondId = 0,
         finishParams = {
             heroId = 110413,
@@ -14156,7 +14382,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011417",
+        des = "15011412",
     },
     [521008] = {
         ext = {
@@ -14309,64 +14535,29 @@ return {
         },
         des = "1320528",
     },
-    [800426] = {
+    [750042] = {
         ext = {
-            actId = 10643,
+            type = 1,
         },
-        finishCondId = 14001,
-        order = 15,
+        finishCondId = 9028,
+        order = 2,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570050,
-                [2] = 300,
+                [1] = 501032,
+                [2] = 1000,
+            },
+            [2] = {
+                [1] = 570003,
+                [2] = 40,
             },
         },
         startDate = {
         },
-        jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 800426,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 4,
-        type = 92,
-        name = "15011416",
-        acceptCondId = 0,
-        finishParams = {
-            heroId = 110413,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "15011416",
-    },
-    [800002] = {
-        ext = {
-        },
-        finishCondId = 2004,
-        order = 3,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-        },
-        startDate = {
-        },
-        jumpInterface = 26,
+        jumpInterface = 0,
         icon = "",
         completeResult = 2,
         playerLevel = {
@@ -14375,23 +14566,60 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800002,
+        id = 750042,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 200,
+        progress = 20,
+        type = 35,
+        name = "1311203",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "15010039",
+    },
+    [800000] = {
+        ext = {
+        },
+        finishCondId = 11024,
+        order = 1,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800000,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
         type = 36,
         name = "",
         acceptCondId = 0,
         finishParams = {
             apprentice = 1,
-            itemId = 500004,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1340038",
+        des = "1340036",
     },
     [120721] = {
         ext = {
@@ -14491,372 +14719,6 @@ return {
         },
         des = "1320529",
     },
-    [800424] = {
-        ext = {
-            actId = 10643,
-        },
-        finishCondId = 14001,
-        order = 13,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 570050,
-                [2] = 50,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 200,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 800424,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 2,
-        type = 92,
-        name = "15011414",
-        acceptCondId = 0,
-        finishParams = {
-            heroId = 110413,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "15011414",
-    },
-    [121105] = {
-        ext = {
-        },
-        finishCondId = 9007,
-        order = 583,
-        acceptParams = {
-            pre_task_id = 121104,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500005,
-                [2] = 12,
-            },
-            [2] = {
-                [1] = 500001,
-                [2] = 2400,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 37,
-        icon = "ui/task/chapter_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "1330002",
-        open = true,
-        id = 121105,
-        extendsTaskId = 0,
-        subType = 1,
-        endDate = {
-        },
-        progress = 1,
-        type = 1,
-        name = "1311121",
-        acceptCondId = 10001,
-        finishParams = {
-            dunId = 211105,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320001",
-    },
-    [800004] = {
-        ext = {
-        },
-        finishCondId = 9001,
-        order = 5,
-        acceptParams = {
-            pre_tasks = {
-                [1] = 800000,
-                [2] = 800001,
-                [3] = 800002,
-            },
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-        },
-        startDate = {
-        },
-        jumpInterface = 76,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 800004,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 25,
-        type = 36,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            apprentice = 1,
-            bossType = 999,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1340040",
-    },
-    [111126] = {
-        ext = {
-        },
-        finishCondId = 9007,
-        order = 350,
-        acceptParams = {
-            pre_task_id = 111125,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500005,
-                [2] = 6,
-            },
-            [2] = {
-                [1] = 500001,
-                [2] = 600,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 37,
-        icon = "ui/task/chapter_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "1330001",
-        open = true,
-        id = 111126,
-        extendsTaskId = 0,
-        subType = 1,
-        endDate = {
-        },
-        progress = 1,
-        type = 1,
-        name = "1311098",
-        acceptCondId = 10001,
-        finishParams = {
-            dunId = 111426,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320001",
-    },
-    [800422] = {
-        ext = {
-            actId = 10643,
-        },
-        finishCondId = 13001,
-        order = 11,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 510105,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 510104,
-                [2] = 25,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 800422,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 70,
-        type = 92,
-        name = "15011412",
-        acceptCondId = 0,
-        finishParams = {
-            heroId = 110413,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "15011412",
-    },
-    [800006] = {
-        ext = {
-        },
-        finishCondId = 9001,
-        order = 7,
-        acceptParams = {
-            pre_tasks = {
-                [1] = 800003,
-                [2] = 800004,
-                [3] = 800005,
-            },
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-        },
-        startDate = {
-        },
-        jumpInterface = 26,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 800006,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 20,
-        type = 36,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 2,
-            apprentice = 1,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1340042",
-    },
-    [800007] = {
-        ext = {
-        },
-        finishCondId = 11010,
-        order = 8,
-        acceptParams = {
-            pre_tasks = {
-                [1] = 800003,
-                [2] = 800004,
-                [3] = 800005,
-            },
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-        },
-        startDate = {
-        },
-        jumpInterface = 101,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 800007,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 36,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            apprentice = 1,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1340043",
-    },
-    [303006] = {
-        ext = {
-        },
-        finishCondId = 9001,
-        order = 7,
-        acceptParams = {
-            pre_task_id = 303005,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 60,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 26,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 303006,
-        extendsTaskId = 303005,
-        subType = 2,
-        endDate = {
-        },
-        progress = 500,
-        type = 3,
-        name = "1310531",
-        acceptCondId = 10001,
-        finishParams = {
-            difficulty = 1,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320531",
-    },
     [800419] = {
         ext = {
             actId = 10643,
@@ -14913,6 +14775,54 @@ return {
         },
         des = "15011409",
     },
+    [121105] = {
+        ext = {
+        },
+        finishCondId = 9007,
+        order = 583,
+        acceptParams = {
+            pre_task_id = 121104,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500005,
+                [2] = 12,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 2400,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 37,
+        icon = "ui/task/chapter_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "1330002",
+        open = true,
+        id = 121105,
+        extendsTaskId = 0,
+        subType = 1,
+        endDate = {
+        },
+        progress = 1,
+        type = 1,
+        name = "1311121",
+        acceptCondId = 10001,
+        finishParams = {
+            dunId = 211105,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320001",
+    },
     [800418] = {
         ext = {
             actId = 10643,
@@ -14968,6 +14878,319 @@ return {
         colour1 = {
         },
         des = "15011408",
+    },
+    [111126] = {
+        ext = {
+        },
+        finishCondId = 9007,
+        order = 350,
+        acceptParams = {
+            pre_task_id = 111125,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500005,
+                [2] = 6,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 600,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 37,
+        icon = "ui/task/chapter_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "1330001",
+        open = true,
+        id = 111126,
+        extendsTaskId = 0,
+        subType = 1,
+        endDate = {
+        },
+        progress = 1,
+        type = 1,
+        name = "1311098",
+        acceptCondId = 10001,
+        finishParams = {
+            dunId = 111426,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320001",
+    },
+    [800001] = {
+        ext = {
+        },
+        finishCondId = 2001,
+        order = 2,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800001,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 3,
+        type = 36,
+        name = "",
+        acceptCondId = 0,
+        finishParams = {
+            apprentice = 1,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1340037",
+    },
+    [800416] = {
+        ext = {
+            actId = 10643,
+        },
+        finishCondId = 8008,
+        order = 5,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 240009,
+                [2] = 6,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 240000,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 200,
+        icon = "ui/task/icon_2.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800416,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 92,
+        name = "15011406",
+        acceptCondId = 0,
+        finishParams = {
+            equipLevel = {
+                [250332] = 50,
+                [250331] = 50,
+                [250335] = 50,
+            },
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "15011406",
+    },
+    [800002] = {
+        ext = {
+        },
+        finishCondId = 2004,
+        order = 3,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 26,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800002,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 200,
+        type = 36,
+        name = "",
+        acceptCondId = 0,
+        finishParams = {
+            apprentice = 1,
+            itemId = 500004,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1340038",
+    },
+    [303006] = {
+        ext = {
+        },
+        finishCondId = 9001,
+        order = 7,
+        acceptParams = {
+            pre_task_id = 303005,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 60,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 26,
+        icon = "ui/task/icon_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 303006,
+        extendsTaskId = 303005,
+        subType = 2,
+        endDate = {
+        },
+        progress = 500,
+        type = 3,
+        name = "1310531",
+        acceptCondId = 10001,
+        finishParams = {
+            difficulty = 1,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320531",
+    },
+    [800414] = {
+        ext = {
+            actId = 10643,
+        },
+        finishCondId = 13005,
+        order = 3,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 570002,
+                [2] = 1000,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 200,
+        icon = "ui/task/icon_4.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800414,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 92,
+        name = "15011404",
+        acceptCondId = 0,
+        finishParams = {
+            quality = 7,
+            heroId = 110413,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "15011404",
+    },
+    [800004] = {
+        ext = {
+        },
+        finishCondId = 9001,
+        order = 5,
+        acceptParams = {
+            pre_tasks = {
+                [1] = 800000,
+                [2] = 800001,
+                [3] = 800002,
+            },
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 76,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800004,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 25,
+        type = 36,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            apprentice = 1,
+            bossType = 999,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1340040",
     },
     [120210] = {
         ext = {
@@ -15115,11 +15338,11 @@ return {
         },
         des = "1320001",
     },
-    [800008] = {
+    [800006] = {
         ext = {
         },
         finishCondId = 9001,
-        order = 9,
+        order = 7,
         acceptParams = {
             pre_tasks = {
                 [1] = 800003,
@@ -15142,24 +15365,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800008,
+        id = 800006,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 15,
+        progress = 20,
         type = 36,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            difficulty = 3,
             dunType = 2,
             apprentice = 1,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1340044",
+        des = "1340042",
     },
     [120722] = {
         ext = {
@@ -15358,30 +15580,30 @@ return {
         },
         des = "1320001",
     },
-    [800416] = {
+    [800411] = {
         ext = {
-            actId = 10643,
+            actId = 10642,
         },
-        finishCondId = 8008,
-        order = 5,
+        finishCondId = 14001,
+        order = 16,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 240009,
-                [2] = 6,
+                [1] = 520023,
+                [2] = 30,
             },
             [2] = {
                 [1] = 500001,
-                [2] = 240000,
+                [2] = 500000,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -15389,26 +15611,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800416,
+        id = 800411,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 92,
-        name = "15011406",
+        progress = 5,
+        type = 91,
+        name = "15011401",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250332] = 50,
-                [250331] = 50,
-                [250335] = 50,
-            },
+            heroId = 110313,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011406",
+        des = "15011401",
     },
     [111127] = {
         ext = {
@@ -15509,16 +15727,60 @@ return {
         },
         des = "272088",
     },
-    [800009] = {
+    [800410] = {
+        ext = {
+            actId = 10642,
+        },
+        finishCondId = 14001,
+        order = 15,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 570007,
+                [2] = 300,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 200,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800410,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 4,
+        type = 91,
+        name = "15011400",
+        acceptCondId = 0,
+        finishParams = {
+            heroId = 110313,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "15011400",
+    },
+    [800007] = {
         ext = {
         },
-        finishCondId = 9011,
-        order = 10,
+        finishCondId = 11010,
+        order = 8,
         acceptParams = {
             pre_tasks = {
-                [1] = 800006,
-                [2] = 800007,
-                [3] = 800008,
+                [1] = 800003,
+                [2] = 800004,
+                [3] = 800005,
             },
         },
         taskCollection = false,
@@ -15527,7 +15789,7 @@ return {
         },
         startDate = {
         },
-        jumpInterface = 39,
+        jumpInterface = 101,
         icon = "",
         completeResult = 2,
         playerLevel = {
@@ -15536,12 +15798,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800009,
+        id = 800007,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 50,
+        progress = 1,
         type = 36,
         name = "",
         acceptCondId = 10001,
@@ -15551,52 +15813,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1340045",
-    },
-    [800414] = {
-        ext = {
-            actId = 10643,
-        },
-        finishCondId = 13005,
-        order = 3,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 570002,
-                [2] = 1000,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 800414,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 92,
-        name = "15011404",
-        acceptCondId = 0,
-        finishParams = {
-            quality = 7,
-            heroId = 110413,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "15011404",
+        des = "1340043",
     },
     [303010] = {
         ext = {
@@ -15694,26 +15911,26 @@ return {
         },
         des = "272089",
     },
-    [800010] = {
+    [800408] = {
         ext = {
+            actId = 10642,
         },
-        finishCondId = 9001,
-        order = 11,
+        finishCondId = 14001,
+        order = 13,
         acceptParams = {
-            pre_tasks = {
-                [1] = 800006,
-                [2] = 800007,
-                [3] = 800008,
-            },
         },
         taskCollection = false,
         resetType = 1,
         reward = {
+            [1] = {
+                [1] = 570007,
+                [2] = 50,
+            },
         },
         startDate = {
         },
-        jumpInterface = 73,
-        icon = "",
+        jumpInterface = 200,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -15721,23 +15938,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800010,
+        id = 800408,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
-        type = 36,
-        name = "",
-        acceptCondId = 10001,
+        progress = 2,
+        type = 91,
+        name = "15011398",
+        acceptCondId = 0,
         finishParams = {
-            dunType = 10,
-            apprentice = 1,
+            heroId = 110313,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1340046",
+        des = "15011398",
     },
     [120211] = {
         ext = {
@@ -15895,16 +16111,16 @@ return {
         },
         des = "1320001",
     },
-    [800012] = {
+    [800008] = {
         ext = {
         },
-        finishCondId = 11001,
-        order = 13,
+        finishCondId = 9001,
+        order = 9,
         acceptParams = {
             pre_tasks = {
-                [1] = 800009,
-                [2] = 800010,
-                [3] = 800011,
+                [1] = 800003,
+                [2] = 800004,
+                [3] = 800005,
             },
         },
         taskCollection = false,
@@ -15922,23 +16138,24 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800012,
+        id = 800008,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 40,
+        progress = 15,
         type = 36,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            difficulty = 3,
+            dunType = 2,
             apprentice = 1,
-            plvl = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1340048",
+        des = "1340044",
     },
     [120723] = {
         ext = {
@@ -16134,30 +16351,30 @@ return {
         },
         des = "1320001",
     },
-    [800411] = {
+    [800406] = {
         ext = {
             actId = 10642,
         },
-        finishCondId = 14001,
-        order = 16,
+        finishCondId = 13001,
+        order = 11,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 520023,
-                [2] = 30,
+                [1] = 510105,
+                [2] = 50,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 500000,
+                [1] = 510104,
+                [2] = 25,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -16165,14 +16382,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800411,
+        id = 800406,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
+        progress = 70,
         type = 91,
-        name = "15011401",
+        name = "15011396",
         acceptCondId = 0,
         finishParams = {
             heroId = 110313,
@@ -16180,7 +16397,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011401",
+        des = "15011396",
     },
     [111128] = {
         ext = {
@@ -16283,60 +16500,16 @@ return {
         },
         des = "272141",
     },
-    [800410] = {
-        ext = {
-            actId = 10642,
-        },
-        finishCondId = 14001,
-        order = 15,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 570007,
-                [2] = 300,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 800410,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 4,
-        type = 91,
-        name = "15011400",
-        acceptCondId = 0,
-        finishParams = {
-            heroId = 110313,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "15011400",
-    },
-    [800014] = {
+    [800009] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 15,
+        finishCondId = 9011,
+        order = 10,
         acceptParams = {
             pre_tasks = {
-                [1] = 800009,
-                [2] = 800010,
-                [3] = 800011,
+                [1] = 800006,
+                [2] = 800007,
+                [3] = 800008,
             },
         },
         taskCollection = false,
@@ -16345,7 +16518,7 @@ return {
         },
         startDate = {
         },
-        jumpInterface = 76,
+        jumpInterface = 39,
         icon = "",
         completeResult = 2,
         playerLevel = {
@@ -16354,7 +16527,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800014,
+        id = 800009,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -16365,12 +16538,56 @@ return {
         acceptCondId = 10001,
         finishParams = {
             apprentice = 1,
-            bossType = 999,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1340050",
+        des = "1340045",
+    },
+    [800010] = {
+        ext = {
+        },
+        finishCondId = 9001,
+        order = 11,
+        acceptParams = {
+            pre_tasks = {
+                [1] = 800006,
+                [2] = 800007,
+                [3] = 800008,
+            },
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 73,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800010,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 5,
+        type = 36,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 10,
+            apprentice = 1,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1340046",
     },
     [131101] = {
         ext = {
@@ -16420,26 +16637,34 @@ return {
         },
         des = "1320001",
     },
-    [800408] = {
+    [800403] = {
         ext = {
             actId = 10642,
         },
-        finishCondId = 14001,
-        order = 13,
+        finishCondId = 8009,
+        order = 8,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 50,
+                [1] = 500001,
+                [2] = 750000,
+            },
+            [2] = {
+                [1] = 570001,
+                [2] = 7500,
+            },
+            [3] = {
+                [1] = 240009,
+                [2] = 20,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_5.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -16447,47 +16672,55 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800408,
+        id = 800403,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2,
+        progress = 3,
         type = 91,
-        name = "15011398",
+        name = "15011393",
         acceptCondId = 0,
         finishParams = {
-            heroId = 110313,
+            equipStar = {
+                [250681] = 6,
+                [250682] = 6,
+                [250685] = 6,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011398",
+        des = "15011393",
     },
-    [800015] = {
+    [800402] = {
         ext = {
+            actId = 10642,
         },
-        finishCondId = 17037,
-        order = 3,
+        finishCondId = 8008,
+        order = 7,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510104,
-                [2] = 1,
+                [1] = 500001,
+                [2] = 500000,
             },
             [2] = {
-                [1] = 510154,
-                [2] = 1,
+                [1] = 570001,
+                [2] = 4500,
+            },
+            [3] = {
+                [1] = 240009,
+                [2] = 10,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 200,
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -16495,21 +16728,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800015,
+        id = 800402,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 39,
-        name = "23037",
-        acceptCondId = 10001,
+        progress = 3,
+        type = 91,
+        name = "15011392",
+        acceptCondId = 0,
         finishParams = {
+            equipLevel = {
+                [250681] = 60,
+                [250682] = 60,
+                [250685] = 60,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "270494",
+        des = "15011392",
     },
     [120212] = {
         ext = {
@@ -16667,30 +16905,26 @@ return {
         },
         des = "1320001",
     },
-    [800406] = {
+    [800012] = {
         ext = {
-            actId = 10642,
         },
-        finishCondId = 13001,
-        order = 11,
+        finishCondId = 11001,
+        order = 13,
         acceptParams = {
+            pre_tasks = {
+                [1] = 800009,
+                [2] = 800010,
+                [3] = 800011,
+            },
         },
         taskCollection = false,
         resetType = 1,
         reward = {
-            [1] = {
-                [1] = 510105,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 510104,
-                [2] = 25,
-            },
         },
         startDate = {
         },
-        jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        jumpInterface = 26,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -16698,22 +16932,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800406,
+        id = 800012,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 70,
-        type = 91,
-        name = "15011396",
-        acceptCondId = 0,
+        progress = 40,
+        type = 36,
+        name = "",
+        acceptCondId = 10001,
         finishParams = {
-            heroId = 110313,
+            apprentice = 1,
+            plvl = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011396",
+        des = "1340048",
     },
     [120724] = {
         ext = {
@@ -16817,61 +17052,57 @@ return {
         },
         des = "1320001",
     },
-    [800016] = {
+    [800400] = {
         ext = {
+            actId = 10642,
         },
-        finishCondId = 9007,
-        order = 1,
+        finishCondId = 8008,
+        order = 5,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
-        resetType = 2,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 510104,
-                [2] = 1,
+                [1] = 240009,
+                [2] = 6,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 240000,
             },
         },
         startDate = {
-            [1] = 2021,
-            [2] = 2,
-            [3] = 4,
-            [4] = 0,
-            [5] = 0,
-            [6] = 0,
         },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 1,
+        jumpInterface = 200,
+        icon = "ui/task/icon_2.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 800016,
+        id = 800400,
         extendsTaskId = 0,
-        subType = 1,
+        subType = 2,
         endDate = {
-            [1] = 2021,
-            [2] = 3,
-            [3] = 9,
-            [4] = 23,
-            [5] = 59,
-            [6] = 59,
         },
         progress = 1,
-        type = 2,
-        name = "",
-        acceptCondId = 10001,
+        type = 91,
+        name = "15011390",
+        acceptCondId = 0,
         finishParams = {
-            dunId = 291135,
+            equipLevel = {
+                [250681] = 50,
+                [250682] = 50,
+                [250685] = 50,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "",
+        des = "15011390",
     },
     [121108] = {
         ext = {
@@ -17017,31 +17248,25 @@ return {
         },
         des = "1320001",
     },
-    [800017] = {
+    [800014] = {
         ext = {
         },
-        finishCondId = 9019,
-        order = 1,
+        finishCondId = 9001,
+        order = 15,
         acceptParams = {
-            plvl = 1,
+            pre_tasks = {
+                [1] = 800009,
+                [2] = 800010,
+                [3] = 800011,
+            },
         },
         taskCollection = false,
         resetType = 1,
         reward = {
-            [1] = {
-                [1] = 501158,
-                [2] = 100,
-            },
         },
         startDate = {
-            [1] = 2021,
-            [2] = 2,
-            [3] = 4,
-            [4] = 0,
-            [5] = 0,
-            [6] = 0,
         },
-        jumpInterface = 0,
+        jumpInterface = 76,
         icon = "",
         completeResult = 2,
         playerLevel = {
@@ -17050,28 +17275,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800017,
+        id = 800014,
         extendsTaskId = 0,
-        subType = 1,
+        subType = 2,
         endDate = {
-            [1] = 2021,
-            [2] = 3,
-            [3] = 9,
-            [4] = 23,
-            [5] = 59,
-            [6] = 59,
         },
-        progress = 5,
-        type = 43,
-        name = "16000684",
-        acceptCondId = 0,
+        progress = 50,
+        type = 36,
+        name = "",
+        acceptCondId = 10001,
         finishParams = {
-            dunId = 291135,
+            apprentice = 1,
+            bossType = 999,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "",
+        des = "1340050",
     },
     [192001] = {
         ext = {
@@ -17121,34 +17341,26 @@ return {
         },
         des = "1320482",
     },
-    [800403] = {
+    [800398] = {
         ext = {
             actId = 10642,
         },
-        finishCondId = 8009,
-        order = 8,
+        finishCondId = 13005,
+        order = 3,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 750000,
-            },
-            [2] = {
-                [1] = 570001,
-                [2] = 7500,
-            },
-            [3] = {
-                [1] = 240009,
-                [2] = 20,
+                [1] = 570002,
+                [2] = 1000,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_5.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -17156,26 +17368,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800403,
+        id = 800398,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 1,
         type = 91,
-        name = "15011393",
+        name = "15011388",
         acceptCondId = 0,
         finishParams = {
-            equipStar = {
-                [250681] = 6,
-                [250682] = 6,
-                [250685] = 6,
-            },
+            quality = 7,
+            heroId = 110313,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011393",
+        des = "15011388",
     },
     [131103] = {
         ext = {
@@ -17225,67 +17434,11 @@ return {
         },
         des = "1320001",
     },
-    [800402] = {
-        ext = {
-            actId = 10642,
-        },
-        finishCondId = 8008,
-        order = 7,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500001,
-                [2] = 500000,
-            },
-            [2] = {
-                [1] = 570001,
-                [2] = 4500,
-            },
-            [3] = {
-                [1] = 240009,
-                [2] = 10,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 800402,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 3,
-        type = 91,
-        name = "15011392",
-        acceptCondId = 0,
-        finishParams = {
-            equipLevel = {
-                [250681] = 60,
-                [250682] = 60,
-                [250685] = 60,
-            },
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "15011392",
-    },
-    [800018] = {
+    [800015] = {
         ext = {
         },
-        finishCondId = 9019,
-        order = 2,
+        finishCondId = 17037,
+        order = 3,
         acceptParams = {
             plvl = 1,
         },
@@ -17293,8 +17446,55 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 501158,
-                [2] = 100,
+                [1] = 510104,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 510154,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800015,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 39,
+        name = "23037",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "270494",
+    },
+    [800016] = {
+        ext = {
+        },
+        finishCondId = 9007,
+        order = 1,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 2,
+        reward = {
+            [1] = {
+                [1] = 510104,
+                [2] = 1,
             },
         },
         startDate = {
@@ -17307,14 +17507,14 @@ return {
         },
         jumpInterface = 0,
         icon = "",
-        completeResult = 2,
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 800018,
+        id = 800016,
         extendsTaskId = 0,
         subType = 1,
         endDate = {
@@ -17325,10 +17525,10 @@ return {
             [5] = 59,
             [6] = 59,
         },
-        progress = 10,
-        type = 43,
-        name = "16000684",
-        acceptCondId = 0,
+        progress = 1,
+        type = 2,
+        name = "",
+        acceptCondId = 10001,
         finishParams = {
             dunId = 291135,
         },
@@ -17921,30 +18121,30 @@ return {
         },
         des = "1320484",
     },
-    [800400] = {
+    [800395] = {
         ext = {
-            actId = 10642,
+            actId = 10636,
         },
-        finishCondId = 8008,
-        order = 5,
+        finishCondId = 14001,
+        order = 16,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 240009,
-                [2] = 6,
+                [1] = 520023,
+                [2] = 30,
             },
             [2] = {
                 [1] = 500001,
-                [2] = 240000,
+                [2] = 500000,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -17952,26 +18152,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800400,
+        id = 800395,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 91,
-        name = "15011390",
+        progress = 5,
+        type = 90,
+        name = "15011372",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250681] = 50,
-                [250682] = 50,
-                [250685] = 50,
-            },
+            heroId = 110103,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011390",
+        des = "15011372",
     },
     [131105] = {
         ext = {
@@ -18064,32 +18260,26 @@ return {
         },
         des = "1320709",
     },
-    [800019] = {
+    [800394] = {
         ext = {
+            actId = 10636,
         },
-        finishCondId = 9019,
-        order = 3,
+        finishCondId = 14001,
+        order = 15,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 501158,
-                [2] = 150,
+                [1] = 570028,
+                [2] = 300,
             },
         },
         startDate = {
-            [1] = 2021,
-            [2] = 2,
-            [3] = 4,
-            [4] = 0,
-            [5] = 0,
-            [6] = 0,
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 200,
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -18097,28 +18287,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800019,
+        id = 800394,
         extendsTaskId = 0,
-        subType = 1,
+        subType = 2,
         endDate = {
-            [1] = 2021,
-            [2] = 3,
-            [3] = 9,
-            [4] = 23,
-            [5] = 59,
-            [6] = 59,
         },
-        progress = 15,
-        type = 43,
-        name = "16000684",
+        progress = 4,
+        type = 90,
+        name = "15011371",
         acceptCondId = 0,
         finishParams = {
-            dunId = 291135,
+            heroId = 110103,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "",
+        des = "15011371",
     },
     [120214] = {
         ext = {
@@ -18324,26 +18508,32 @@ return {
         },
         des = "1320485",
     },
-    [800398] = {
+    [800017] = {
         ext = {
-            actId = 10642,
         },
-        finishCondId = 13005,
-        order = 3,
+        finishCondId = 9019,
+        order = 1,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 1000,
+                [1] = 501158,
+                [2] = 100,
             },
         },
         startDate = {
+            [1] = 2021,
+            [2] = 2,
+            [3] = 4,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
         },
-        jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        jumpInterface = 0,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -18351,23 +18541,28 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800398,
+        id = 800017,
         extendsTaskId = 0,
-        subType = 2,
+        subType = 1,
         endDate = {
+            [1] = 2021,
+            [2] = 3,
+            [3] = 9,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
         },
-        progress = 1,
-        type = 91,
-        name = "15011388",
+        progress = 5,
+        type = 43,
+        name = "16000684",
         acceptCondId = 0,
         finishParams = {
-            quality = 7,
-            heroId = 110313,
+            dunId = 291135,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011388",
+        des = "",
     },
     [110619] = {
         ext = {
@@ -18423,32 +18618,26 @@ return {
         },
         des = "1320001",
     },
-    [800020] = {
+    [800392] = {
         ext = {
+            actId = 10636,
         },
-        finishCondId = 9019,
-        order = 4,
+        finishCondId = 14001,
+        order = 13,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 501158,
-                [2] = 150,
+                [1] = 570028,
+                [2] = 50,
             },
         },
         startDate = {
-            [1] = 2021,
-            [2] = 2,
-            [3] = 4,
-            [4] = 0,
-            [5] = 0,
-            [6] = 0,
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 200,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -18456,28 +18645,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800020,
+        id = 800392,
         extendsTaskId = 0,
-        subType = 1,
+        subType = 2,
         endDate = {
-            [1] = 2021,
-            [2] = 3,
-            [3] = 9,
-            [4] = 23,
-            [5] = 59,
-            [6] = 59,
         },
-        progress = 20,
-        type = 43,
-        name = "16000684",
+        progress = 2,
+        type = 90,
+        name = "15011369",
         acceptCondId = 0,
         finishParams = {
-            dunId = 291135,
+            heroId = 110103,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "",
+        des = "15011369",
     },
     [121110] = {
         ext = {
@@ -18623,11 +18806,11 @@ return {
         },
         des = "1320001",
     },
-    [800022] = {
+    [800018] = {
         ext = {
         },
         finishCondId = 9019,
-        order = 6,
+        order = 2,
         acceptParams = {
             plvl = 1,
         },
@@ -18636,7 +18819,7 @@ return {
         reward = {
             [1] = {
                 [1] = 501158,
-                [2] = 300,
+                [2] = 100,
             },
         },
         startDate = {
@@ -18656,7 +18839,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800022,
+        id = 800018,
         extendsTaskId = 0,
         subType = 1,
         endDate = {
@@ -18667,7 +18850,7 @@ return {
             [5] = 59,
             [6] = 59,
         },
-        progress = 50,
+        progress = 10,
         type = 43,
         name = "16000684",
         acceptCondId = 0,
@@ -18727,30 +18910,30 @@ return {
         },
         des = "1320486",
     },
-    [800395] = {
+    [800390] = {
         ext = {
             actId = 10636,
         },
-        finishCondId = 14001,
-        order = 16,
+        finishCondId = 13001,
+        order = 11,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 520023,
-                [2] = 30,
+                [1] = 510105,
+                [2] = 50,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 500000,
+                [1] = 510104,
+                [2] = 25,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -18758,14 +18941,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800395,
+        id = 800390,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
+        progress = 70,
         type = 90,
-        name = "15011372",
+        name = "15011367",
         acceptCondId = 0,
         finishParams = {
             heroId = 110103,
@@ -18773,7 +18956,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011372",
+        des = "15011367",
     },
     [131107] = {
         ext = {
@@ -18823,55 +19006,11 @@ return {
         },
         des = "1320001",
     },
-    [800394] = {
-        ext = {
-            actId = 10636,
-        },
-        finishCondId = 14001,
-        order = 15,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 570028,
-                [2] = 300,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 800394,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 4,
-        type = 90,
-        name = "15011371",
-        acceptCondId = 0,
-        finishParams = {
-            heroId = 110103,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "15011371",
-    },
-    [800023] = {
+    [800019] = {
         ext = {
         },
         finishCondId = 9019,
-        order = 7,
+        order = 3,
         acceptParams = {
             plvl = 1,
         },
@@ -18880,7 +19019,7 @@ return {
         reward = {
             [1] = {
                 [1] = 501158,
-                [2] = 400,
+                [2] = 150,
             },
         },
         startDate = {
@@ -18900,7 +19039,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800023,
+        id = 800019,
         extendsTaskId = 0,
         subType = 1,
         endDate = {
@@ -18911,7 +19050,63 @@ return {
             [5] = 59,
             [6] = 59,
         },
-        progress = 80,
+        progress = 15,
+        type = 43,
+        name = "16000684",
+        acceptCondId = 0,
+        finishParams = {
+            dunId = 291135,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [800020] = {
+        ext = {
+        },
+        finishCondId = 9019,
+        order = 4,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 501158,
+                [2] = 150,
+            },
+        },
+        startDate = {
+            [1] = 2021,
+            [2] = 2,
+            [3] = 4,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 800020,
+        extendsTaskId = 0,
+        subType = 1,
+        endDate = {
+            [1] = 2021,
+            [2] = 3,
+            [3] = 9,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
+        },
+        progress = 20,
         type = 43,
         name = "16000684",
         acceptCondId = 0,
@@ -19127,26 +19322,34 @@ return {
         },
         des = "1320487",
     },
-    [800392] = {
+    [800387] = {
         ext = {
             actId = 10636,
         },
-        finishCondId = 14001,
-        order = 13,
+        finishCondId = 8009,
+        order = 8,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570028,
-                [2] = 50,
+                [1] = 500001,
+                [2] = 750000,
+            },
+            [2] = {
+                [1] = 570001,
+                [2] = 7500,
+            },
+            [3] = {
+                [1] = 240009,
+                [2] = 20,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_5.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -19154,22 +19357,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800392,
+        id = 800387,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2,
+        progress = 3,
         type = 90,
-        name = "15011369",
+        name = "15011364",
         acceptCondId = 0,
         finishParams = {
-            heroId = 110103,
+            equipStar = {
+                [250138] = 6,
+                [250137] = 6,
+                [250139] = 6,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011369",
+        des = "15011364",
     },
     [131108] = {
         ext = {
@@ -19219,32 +19426,34 @@ return {
         },
         des = "1320001",
     },
-    [800024] = {
+    [800386] = {
         ext = {
+            actId = 10636,
         },
-        finishCondId = 9019,
-        order = 8,
+        finishCondId = 8008,
+        order = 7,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 529045,
-                [2] = 1,
+                [1] = 500001,
+                [2] = 500000,
+            },
+            [2] = {
+                [1] = 570001,
+                [2] = 4500,
+            },
+            [3] = {
+                [1] = 240009,
+                [2] = 10,
             },
         },
         startDate = {
-            [1] = 2021,
-            [2] = 2,
-            [3] = 4,
-            [4] = 0,
-            [5] = 0,
-            [6] = 0,
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 200,
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -19252,28 +19461,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800024,
+        id = 800386,
         extendsTaskId = 0,
-        subType = 1,
+        subType = 2,
         endDate = {
-            [1] = 2021,
-            [2] = 3,
-            [3] = 9,
-            [4] = 23,
-            [5] = 59,
-            [6] = 59,
         },
-        progress = 120,
-        type = 43,
-        name = "16000684",
+        progress = 3,
+        type = 90,
+        name = "15011363",
         acceptCondId = 0,
         finishParams = {
-            dunId = 291135,
+            equipLevel = {
+                [250138] = 60,
+                [250137] = 60,
+                [250139] = 60,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "",
+        des = "15011363",
     },
     [121111] = {
         ext = {
@@ -19419,30 +19626,32 @@ return {
         },
         des = "1320001",
     },
-    [800390] = {
+    [800023] = {
         ext = {
-            actId = 10636,
         },
-        finishCondId = 13001,
-        order = 11,
+        finishCondId = 9019,
+        order = 7,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 510104,
-                [2] = 25,
+                [1] = 501158,
+                [2] = 400,
             },
         },
         startDate = {
+            [1] = 2021,
+            [2] = 2,
+            [3] = 4,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
         },
-        jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        jumpInterface = 0,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -19450,22 +19659,28 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800390,
+        id = 800023,
         extendsTaskId = 0,
-        subType = 2,
+        subType = 1,
         endDate = {
+            [1] = 2021,
+            [2] = 3,
+            [3] = 9,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
         },
-        progress = 70,
-        type = 90,
-        name = "15011367",
+        progress = 80,
+        type = 43,
+        name = "16000684",
         acceptCondId = 0,
         finishParams = {
-            heroId = 110103,
+            dunId = 291135,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011367",
+        des = "",
     },
     [192007] = {
         ext = {
@@ -19515,26 +19730,30 @@ return {
         },
         des = "1320488",
     },
-    [800300] = {
+    [800384] = {
         ext = {
-            actId = 11170,
+            actId = 10636,
         },
-        finishCondId = 2001,
-        order = 1,
+        finishCondId = 8008,
+        order = 5,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 500,
+                [1] = 240009,
+                [2] = 6,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 240000,
             },
         },
         startDate = {
         },
-        jumpInterface = 34,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 200,
+        icon = "ui/task/icon_2.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -19542,22 +19761,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800300,
+        id = 800384,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 42,
-        name = "15011202",
+        type = 90,
+        name = "15011361",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112001,
+            equipLevel = {
+                [250138] = 50,
+                [250137] = 50,
+                [250139] = 50,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011202",
+        des = "15011361",
     },
     [131109] = {
         ext = {
@@ -19607,12 +19830,12 @@ return {
         },
         des = "1320001",
     },
-    [800301] = {
+    [800300] = {
         ext = {
             actId = 11170,
         },
-        finishCondId = 13005,
-        order = 2,
+        finishCondId = 2001,
+        order = 1,
         acceptParams = {
         },
         taskCollection = false,
@@ -19625,8 +19848,8 @@ return {
         },
         startDate = {
         },
-        jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        jumpInterface = 34,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -19634,23 +19857,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800301,
+        id = 800300,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
         type = 42,
-        name = "15011203",
+        name = "15011202",
         acceptCondId = 0,
         finishParams = {
-            quality = 6,
             heroId = 112001,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011203",
+        des = "15011202",
     },
     [510801] = {
         ext = {
@@ -19710,34 +19932,26 @@ return {
         },
         des = "272050",
     },
-    [800387] = {
+    [800382] = {
         ext = {
             actId = 10636,
         },
-        finishCondId = 8009,
-        order = 8,
+        finishCondId = 13005,
+        order = 3,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 750000,
-            },
-            [2] = {
-                [1] = 570001,
-                [2] = 7500,
-            },
-            [3] = {
-                [1] = 240009,
-                [2] = 20,
+                [1] = 570002,
+                [2] = 1000,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_5.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -19745,26 +19959,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800387,
+        id = 800382,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 1,
         type = 90,
-        name = "15011364",
+        name = "15011359",
         acceptCondId = 0,
         finishParams = {
-            equipStar = {
-                [250138] = 6,
-                [250137] = 6,
-                [250139] = 6,
-            },
+            quality = 7,
+            heroId = 110103,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011364",
+        des = "15011359",
     },
     [110109] = {
         ext = {
@@ -19916,34 +20127,26 @@ return {
         },
         des = "1320489",
     },
-    [800386] = {
+    [800381] = {
         ext = {
             actId = 10636,
         },
-        finishCondId = 8008,
-        order = 7,
+        finishCondId = 13005,
+        order = 2,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 500000,
-            },
-            [2] = {
-                [1] = 570001,
-                [2] = 4500,
-            },
-            [3] = {
-                [1] = 240009,
-                [2] = 10,
+                [1] = 570002,
+                [2] = 500,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -19951,26 +20154,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800386,
+        id = 800381,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 1,
         type = 90,
-        name = "15011363",
+        name = "15011358",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250138] = 60,
-                [250137] = 60,
-                [250139] = 60,
-            },
+            quality = 6,
+            heroId = 110103,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011363",
+        des = "15011358",
     },
     [131110] = {
         ext = {
@@ -20020,34 +20220,30 @@ return {
         },
         des = "1320001",
     },
-    [800305] = {
+    [800380] = {
         ext = {
-            actId = 11170,
+            parameter = {
+                [1] = 1,
+                [2] = 179,
+            },
+            actId = 10636,
         },
-        finishCondId = 8008,
-        order = 6,
+        finishCondId = 2001,
+        order = 1,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 250000,
-            },
-            [2] = {
-                [1] = 520033,
-                [2] = 5,
-            },
-            [3] = {
-                [1] = 570001,
-                [2] = 1000,
+                [1] = 570002,
+                [2] = 500,
             },
         },
         startDate = {
         },
-        jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        jumpInterface = 34,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -20055,26 +20251,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800305,
+        id = 800380,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 42,
-        name = "15011207",
+        type = 90,
+        name = "15011357",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250182] = 55,
-                [250181] = 55,
-                [250185] = 55,
-            },
+            heroId = 110103,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011207",
+        des = "15011357",
     },
     [121112] = {
         ext = {
@@ -20220,30 +20412,30 @@ return {
         },
         des = "1320001",
     },
-    [800384] = {
+    [800379] = {
         ext = {
-            actId = 10636,
+            actId = 10631,
         },
-        finishCondId = 8008,
-        order = 5,
+        finishCondId = 14001,
+        order = 16,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 240009,
-                [2] = 6,
+                [1] = 520023,
+                [2] = 60,
             },
             [2] = {
                 [1] = 500001,
-                [2] = 240000,
+                [2] = 500000,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -20251,26 +20443,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800384,
+        id = 800379,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 90,
-        name = "15011361",
+        progress = 5,
+        type = 89,
+        name = "15011343",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250138] = 50,
-                [250137] = 50,
-                [250139] = 50,
-            },
+            heroId = 112501,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011361",
+        des = "15011343",
     },
     [192009] = {
         ext = {
@@ -20320,34 +20508,26 @@ return {
         },
         des = "1320490",
     },
-    [800307] = {
+    [800378] = {
         ext = {
-            actId = 11170,
+            actId = 10631,
         },
-        finishCondId = 8009,
-        order = 8,
+        finishCondId = 14001,
+        order = 15,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 750000,
-            },
-            [2] = {
-                [1] = 570001,
-                [2] = 7500,
-            },
-            [3] = {
-                [1] = 240009,
-                [2] = 20,
+                [1] = 570007,
+                [2] = 180,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_5.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -20355,26 +20535,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800307,
+        id = 800378,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 42,
-        name = "15011209",
+        progress = 4,
+        type = 89,
+        name = "15011342",
         acceptCondId = 0,
         finishParams = {
-            equipStar = {
-                [250182] = 6,
-                [250181] = 6,
-                [250185] = 6,
-            },
+            heroId = 112501,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011209",
+        des = "15011342",
     },
     [131111] = {
         ext = {
@@ -20424,26 +20600,26 @@ return {
         },
         des = "1320001",
     },
-    [800382] = {
+    [800377] = {
         ext = {
-            actId = 10636,
+            actId = 10631,
         },
-        finishCondId = 13005,
-        order = 3,
+        finishCondId = 14001,
+        order = 14,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 1000,
+                [1] = 570007,
+                [2] = 90,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_2.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -20451,23 +20627,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800382,
+        id = 800377,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 90,
-        name = "15011359",
+        progress = 3,
+        type = 89,
+        name = "15011341",
         acceptCondId = 0,
         finishParams = {
-            quality = 7,
-            heroId = 110103,
+            heroId = 112501,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011359",
+        des = "15011341",
     },
     [510805] = {
         ext = {
@@ -20507,26 +20682,26 @@ return {
         },
         des = "272054",
     },
-    [800381] = {
+    [800376] = {
         ext = {
-            actId = 10636,
+            actId = 10631,
         },
-        finishCondId = 13005,
-        order = 2,
+        finishCondId = 14001,
+        order = 13,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 500,
+                [1] = 570007,
+                [2] = 30,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -20534,23 +20709,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800381,
+        id = 800376,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 90,
-        name = "15011358",
+        progress = 2,
+        type = 89,
+        name = "15011340",
         acceptCondId = 0,
         finishParams = {
-            quality = 6,
-            heroId = 110103,
+            heroId = 112501,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011358",
+        des = "15011340",
     },
     [110110] = {
         ext = {
@@ -20702,30 +20876,30 @@ return {
         },
         des = "1320491",
     },
-    [800380] = {
+    [800375] = {
         ext = {
-            parameter = {
-                [1] = 1,
-                [2] = 179,
-            },
-            actId = 10636,
+            actId = 10631,
         },
-        finishCondId = 2001,
-        order = 1,
+        finishCondId = 13001,
+        order = 12,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 500,
+                [1] = 510105,
+                [2] = 60,
+            },
+            [2] = {
+                [1] = 510104,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 34,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 200,
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -20733,22 +20907,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800380,
+        id = 800375,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 90,
-        name = "15011357",
+        progress = 80,
+        type = 89,
+        name = "15011339",
         acceptCondId = 0,
         finishParams = {
-            heroId = 110103,
+            heroId = 112501,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011357",
+        des = "15011339",
     },
     [131112] = {
         ext = {
@@ -20798,30 +20972,30 @@ return {
         },
         des = "1320001",
     },
-    [800379] = {
+    [800374] = {
         ext = {
             actId = 10631,
         },
-        finishCondId = 14001,
-        order = 16,
+        finishCondId = 13001,
+        order = 11,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 520023,
-                [2] = 60,
+                [1] = 510105,
+                [2] = 50,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 500000,
+                [1] = 510104,
+                [2] = 25,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -20829,14 +21003,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800379,
+        id = 800374,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
+        progress = 70,
         type = 89,
-        name = "15011343",
+        name = "15011338",
         acceptCondId = 0,
         finishParams = {
             heroId = 112501,
@@ -20844,7 +21018,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011343",
+        des = "15011338",
     },
     [121113] = {
         ext = {
@@ -20990,26 +21164,30 @@ return {
         },
         des = "1320001",
     },
-    [800378] = {
+    [800373] = {
         ext = {
             actId = 10631,
         },
-        finishCondId = 14001,
-        order = 15,
+        finishCondId = 13001,
+        order = 10,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 180,
+                [1] = 510104,
+                [2] = 15,
+            },
+            [2] = {
+                [1] = 510105,
+                [2] = 10,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_2.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -21017,14 +21195,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800378,
+        id = 800373,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4,
+        progress = 50,
         type = 89,
-        name = "15011342",
+        name = "15011337",
         acceptCondId = 0,
         finishParams = {
             heroId = 112501,
@@ -21032,7 +21210,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011342",
+        des = "15011337",
     },
     [192011] = {
         ext = {
@@ -21082,26 +21260,26 @@ return {
         },
         des = "1320492",
     },
-    [800377] = {
+    [800372] = {
         ext = {
             actId = 10631,
         },
-        finishCondId = 14001,
-        order = 14,
+        finishCondId = 13001,
+        order = 9,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 90,
+                [1] = 510103,
+                [2] = 10,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -21109,14 +21287,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800377,
+        id = 800372,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 30,
         type = 89,
-        name = "15011341",
+        name = "15011336",
         acceptCondId = 0,
         finishParams = {
             heroId = 112501,
@@ -21124,7 +21302,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011341",
+        des = "15011336",
     },
     [131113] = {
         ext = {
@@ -21174,26 +21352,30 @@ return {
         },
         des = "1320001",
     },
-    [800376] = {
+    [800371] = {
         ext = {
             actId = 10631,
         },
-        finishCondId = 14001,
-        order = 13,
+        finishCondId = 8009,
+        order = 8,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 30,
+                [1] = 500001,
+                [2] = 750000,
+            },
+            [2] = {
+                [1] = 570001,
+                [2] = 7500,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_5.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -21201,41 +21383,49 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800376,
+        id = 800371,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2,
+        progress = 3,
         type = 89,
-        name = "15011340",
+        name = "15011335",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112501,
+            equipStar = {
+                [250393] = 6,
+                [250395] = 6,
+                [250394] = 6,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011340",
+        des = "15011335",
     },
-    [800375] = {
+    [800370] = {
         ext = {
             actId = 10631,
         },
-        finishCondId = 13001,
-        order = 12,
+        finishCondId = 8008,
+        order = 7,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 60,
+                [1] = 500001,
+                [2] = 500000,
             },
             [2] = {
-                [1] = 510104,
-                [2] = 20,
+                [1] = 520033,
+                [2] = 8,
+            },
+            [3] = {
+                [1] = 570001,
+                [2] = 4500,
             },
         },
         startDate = {
@@ -21249,41 +21439,49 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800375,
+        id = 800370,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 80,
+        progress = 3,
         type = 89,
-        name = "15011339",
+        name = "15011334",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112501,
+            equipLevel = {
+                [250393] = 60,
+                [250395] = 60,
+                [250394] = 60,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011339",
+        des = "15011334",
     },
-    [800374] = {
+    [800369] = {
         ext = {
             actId = 10631,
         },
-        finishCondId = 13001,
-        order = 11,
+        finishCondId = 8008,
+        order = 6,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 50,
+                [1] = 500001,
+                [2] = 250000,
             },
             [2] = {
-                [1] = 510104,
-                [2] = 25,
+                [1] = 520033,
+                [2] = 5,
+            },
+            [3] = {
+                [1] = 570001,
+                [2] = 1000,
             },
         },
         startDate = {
@@ -21297,41 +21495,49 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800374,
+        id = 800369,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 70,
+        progress = 1,
         type = 89,
-        name = "15011338",
+        name = "15011333",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112501,
+            equipLevel = {
+                [250393] = 55,
+                [250395] = 55,
+                [250394] = 55,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011338",
+        des = "15011333",
     },
-    [800373] = {
+    [800368] = {
         ext = {
             actId = 10631,
         },
-        finishCondId = 13001,
-        order = 10,
+        finishCondId = 8008,
+        order = 5,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510104,
-                [2] = 15,
+                [1] = 240009,
+                [2] = 5,
             },
             [2] = {
-                [1] = 510105,
-                [2] = 10,
+                [1] = 230009,
+                [2] = 5,
+            },
+            [3] = {
+                [1] = 500001,
+                [2] = 240000,
             },
         },
         startDate = {
@@ -21345,22 +21551,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800373,
+        id = 800368,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 50,
+        progress = 1,
         type = 89,
-        name = "15011337",
+        name = "15011332",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112501,
+            equipLevel = {
+                [250393] = 50,
+                [250395] = 50,
+                [250394] = 50,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011337",
+        des = "15011332",
     },
     [130709] = {
         ext = {
@@ -21458,26 +21668,26 @@ return {
         },
         des = "1320493",
     },
-    [800372] = {
+    [800313] = {
         ext = {
-            actId = 10631,
+            actId = 11170,
         },
-        finishCondId = 13001,
-        order = 9,
+        finishCondId = 14001,
+        order = 14,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510103,
-                [2] = 10,
+                [1] = 570007,
+                [2] = 150,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_2.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -21485,22 +21695,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800372,
+        id = 800313,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 30,
-        type = 89,
-        name = "15011336",
+        progress = 3,
+        type = 42,
+        name = "15011215",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112501,
+            heroId = 112001,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011336",
+        des = "15011215",
     },
     [131114] = {
         ext = {
@@ -21550,30 +21760,26 @@ return {
         },
         des = "1320001",
     },
-    [800371] = {
+    [800366] = {
         ext = {
             actId = 10631,
         },
-        finishCondId = 8009,
-        order = 8,
+        finishCondId = 13005,
+        order = 3,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 750000,
-            },
-            [2] = {
-                [1] = 570001,
-                [2] = 7500,
+                [1] = 570002,
+                [2] = 800,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_5.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -21581,26 +21787,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800371,
+        id = 800366,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 1,
         type = 89,
-        name = "15011335",
+        name = "15011330",
         acceptCondId = 0,
         finishParams = {
-            equipStar = {
-                [250393] = 6,
-                [250395] = 6,
-                [250394] = 6,
-            },
+            quality = 7,
+            heroId = 112501,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011335",
+        des = "15011330",
     },
     [121114] = {
         ext = {
@@ -21746,28 +21949,24 @@ return {
         },
         des = "1320001",
     },
-    [800370] = {
+    [800315] = {
         ext = {
-            actId = 10631,
+            actId = 11170,
         },
-        finishCondId = 8008,
-        order = 7,
+        finishCondId = 14001,
+        order = 16,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 500000,
+                [1] = 520023,
+                [2] = 30,
             },
             [2] = {
-                [1] = 520033,
-                [2] = 8,
-            },
-            [3] = {
-                [1] = 570001,
-                [2] = 4500,
+                [1] = 500001,
+                [2] = 500000,
             },
         },
         startDate = {
@@ -21781,26 +21980,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800370,
+        id = 800315,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 89,
-        name = "15011334",
+        progress = 5,
+        type = 42,
+        name = "15011217",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250393] = 60,
-                [250395] = 60,
-                [250394] = 60,
-            },
+            heroId = 112001,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011334",
+        des = "15011217",
     },
     [192013] = {
         ext = {
@@ -21850,28 +22045,20 @@ return {
         },
         des = "1320494",
     },
-    [800369] = {
+    [800317] = {
         ext = {
-            actId = 10631,
+            actId = 11175,
         },
-        finishCondId = 8008,
-        order = 6,
+        finishCondId = 13005,
+        order = 2,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 250000,
-            },
-            [2] = {
-                [1] = 520033,
-                [2] = 5,
-            },
-            [3] = {
-                [1] = 570001,
-                [2] = 1000,
+                [1] = 570002,
+                [2] = 500,
             },
         },
         startDate = {
@@ -21885,26 +22072,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800369,
+        id = 800317,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 89,
-        name = "15011333",
+        type = 86,
+        name = "15011280",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250393] = 55,
-                [250395] = 55,
-                [250394] = 55,
-            },
+            quality = 6,
+            heroId = 113201,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011333",
+        des = "15011280",
     },
     [131115] = {
         ext = {
@@ -22012,34 +22196,34 @@ return {
         },
         des = "272015",
     },
-    [800368] = {
+    [800363] = {
         ext = {
-            actId = 10631,
+            actRelation = {
+                [1] = 11192,
+                [2] = 11207,
+            },
+            actId = 10630,
         },
-        finishCondId = 8008,
-        order = 5,
+        finishCondId = 14001,
+        order = 16,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 240009,
-                [2] = 5,
+                [1] = 520023,
+                [2] = 60,
             },
             [2] = {
-                [1] = 230009,
-                [2] = 5,
-            },
-            [3] = {
                 [1] = 500001,
-                [2] = 240000,
+                [2] = 500000,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -22047,26 +22231,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800368,
+        id = 800363,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 89,
-        name = "15011332",
+        progress = 5,
+        type = 88,
+        name = "15011327",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250393] = 50,
-                [250395] = 50,
-                [250394] = 50,
-            },
+            heroId = 112401,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011332",
+        des = "15011327",
     },
     [323001] = {
         ext = {
@@ -22113,30 +22293,30 @@ return {
         },
         des = "1320700",
     },
-    [800320] = {
+    [800362] = {
         ext = {
-            actId = 11175,
+            actRelation = {
+                [1] = 11192,
+                [2] = 11206,
+            },
+            actId = 10630,
         },
-        finishCondId = 8008,
-        order = 5,
+        finishCondId = 14001,
+        order = 15,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 240009,
-                [2] = 6,
-            },
-            [2] = {
-                [1] = 500001,
-                [2] = 240000,
+                [1] = 570007,
+                [2] = 180,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -22144,26 +22324,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800320,
+        id = 800362,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 86,
-        name = "15011283",
+        progress = 4,
+        type = 88,
+        name = "15011326",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250665] = 50,
-                [250664] = 50,
-                [250667] = 50,
-            },
+            heroId = 112401,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011283",
+        des = "15011326",
     },
     [130710] = {
         ext = {
@@ -23300,26 +23476,30 @@ return {
         },
         des = "1320001",
     },
-    [800366] = {
+    [800361] = {
         ext = {
-            actId = 10631,
+            actRelation = {
+                [1] = 11192,
+                [2] = 11205,
+            },
+            actId = 10630,
         },
-        finishCondId = 13005,
-        order = 3,
+        finishCondId = 14001,
+        order = 14,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 800,
+                [1] = 570007,
+                [2] = 90,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_2.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -23327,23 +23507,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800366,
+        id = 800361,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 89,
-        name = "15011330",
+        progress = 3,
+        type = 88,
+        name = "15011325",
         acceptCondId = 0,
         finishParams = {
-            quality = 7,
-            heroId = 112501,
+            heroId = 112401,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011330",
+        des = "15011325",
     },
     [700005] = {
         ext = {
@@ -23389,34 +23568,30 @@ return {
         },
         des = "",
     },
-    [800322] = {
+    [800360] = {
         ext = {
-            actId = 11175,
+            actRelation = {
+                [1] = 11192,
+                [2] = 11204,
+            },
+            actId = 10630,
         },
-        finishCondId = 8008,
-        order = 7,
+        finishCondId = 14001,
+        order = 13,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 500000,
-            },
-            [2] = {
-                [1] = 570001,
-                [2] = 4500,
-            },
-            [3] = {
-                [1] = 240009,
-                [2] = 10,
+                [1] = 570007,
+                [2] = 30,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -23424,26 +23599,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800322,
+        id = 800360,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 86,
-        name = "15011285",
+        progress = 2,
+        type = 88,
+        name = "15011324",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250665] = 60,
-                [250664] = 60,
-                [250667] = 60,
-            },
+            heroId = 112401,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011285",
+        des = "15011324",
     },
     [131119] = {
         ext = {
@@ -23493,26 +23664,34 @@ return {
         },
         des = "1320001",
     },
-    [800324] = {
+    [800323] = {
         ext = {
             actId = 11175,
         },
-        finishCondId = 13001,
-        order = 9,
+        finishCondId = 8009,
+        order = 8,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510103,
-                [2] = 10,
+                [1] = 500001,
+                [2] = 750000,
+            },
+            [2] = {
+                [1] = 570001,
+                [2] = 7500,
+            },
+            [3] = {
+                [1] = 240009,
+                [2] = 20,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_5.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -23520,22 +23699,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800324,
+        id = 800323,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 30,
+        progress = 3,
         type = 86,
-        name = "15011287",
+        name = "15011286",
         acceptCondId = 0,
         finishParams = {
-            heroId = 113201,
+            equipStar = {
+                [250665] = 6,
+                [250664] = 6,
+                [250667] = 6,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011287",
+        des = "15011286",
     },
     [700007] = {
         ext = {
@@ -23580,34 +23763,34 @@ return {
         },
         des = "1320848",
     },
-    [800363] = {
+    [800358] = {
         ext = {
             actRelation = {
                 [1] = 11192,
-                [2] = 11207,
+                [2] = 11202,
             },
             actId = 10630,
         },
-        finishCondId = 14001,
-        order = 16,
+        finishCondId = 13001,
+        order = 11,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 520023,
-                [2] = 60,
+                [1] = 510105,
+                [2] = 50,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 500000,
+                [1] = 510104,
+                [2] = 25,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -23615,14 +23798,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800363,
+        id = 800358,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
+        progress = 70,
         type = 88,
-        name = "15011327",
+        name = "15011322",
         acceptCondId = 0,
         finishParams = {
             heroId = 112401,
@@ -23630,7 +23813,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011327",
+        des = "15011322",
     },
     [700008] = {
         ext = {
@@ -23777,30 +23960,30 @@ return {
         },
         des = "1320001",
     },
-    [800362] = {
+    [800325] = {
         ext = {
-            actRelation = {
-                [1] = 11192,
-                [2] = 11206,
-            },
-            actId = 10630,
+            actId = 11175,
         },
-        finishCondId = 14001,
-        order = 15,
+        finishCondId = 13001,
+        order = 10,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 180,
+                [1] = 510105,
+                [2] = 10,
+            },
+            [2] = {
+                [1] = 510104,
+                [2] = 15,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_2.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -23808,22 +23991,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800362,
+        id = 800325,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4,
-        type = 88,
-        name = "15011326",
+        progress = 50,
+        type = 86,
+        name = "15011288",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112401,
+            heroId = 113201,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011326",
+        des = "15011288",
     },
     [131120] = {
         ext = {
@@ -23873,30 +24056,30 @@ return {
         },
         des = "1320001",
     },
-    [800361] = {
+    [800327] = {
         ext = {
-            actRelation = {
-                [1] = 11192,
-                [2] = 11205,
-            },
-            actId = 10630,
+            actId = 11175,
         },
-        finishCondId = 14001,
-        order = 14,
+        finishCondId = 13001,
+        order = 12,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 90,
+                [1] = 510105,
+                [2] = 60,
+            },
+            [2] = {
+                [1] = 510104,
+                [2] = 20,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -23904,22 +24087,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800361,
+        id = 800327,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 88,
-        name = "15011325",
+        progress = 80,
+        type = 86,
+        name = "15011290",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112401,
+            heroId = 113201,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011325",
+        des = "15011290",
     },
     [121117] = {
         ext = {
@@ -24065,30 +24248,34 @@ return {
         },
         des = "1320001",
     },
-    [800360] = {
+    [800355] = {
         ext = {
             actRelation = {
                 [1] = 11192,
-                [2] = 11204,
+                [2] = 11198,
             },
             actId = 10630,
         },
-        finishCondId = 14001,
-        order = 13,
+        finishCondId = 8009,
+        order = 8,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 30,
+                [1] = 500001,
+                [2] = 750000,
+            },
+            [2] = {
+                [1] = 570001,
+                [2] = 7500,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_5.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -24096,22 +24283,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800360,
+        id = 800355,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2,
+        progress = 3,
         type = 88,
-        name = "15011324",
+        name = "15011319",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112401,
+            equipStar = {
+                [250605] = 6,
+                [250604] = 6,
+                [250607] = 6,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011324",
+        des = "15011319",
     },
     [700013] = {
         ext = {
@@ -24156,26 +24347,38 @@ return {
         },
         des = "1320854",
     },
-    [800328] = {
+    [800354] = {
         ext = {
-            actId = 11175,
+            actRelation = {
+                [1] = 11192,
+                [2] = 11197,
+            },
+            actId = 10630,
         },
-        finishCondId = 14001,
-        order = 13,
+        finishCondId = 8008,
+        order = 7,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 50,
+                [1] = 500001,
+                [2] = 500000,
+            },
+            [2] = {
+                [1] = 520033,
+                [2] = 8,
+            },
+            [3] = {
+                [1] = 570001,
+                [2] = 4500,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -24183,22 +24386,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800328,
+        id = 800354,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2,
-        type = 86,
-        name = "15011291",
+        progress = 3,
+        type = 88,
+        name = "15011318",
         acceptCondId = 0,
         finishParams = {
-            heroId = 113201,
+            equipLevel = {
+                [250605] = 60,
+                [250604] = 60,
+                [250607] = 60,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011291",
+        des = "15011318",
     },
     [131121] = {
         ext = {
@@ -24347,28 +24554,32 @@ return {
         },
         des = "15011281",
     },
-    [800358] = {
+    [800353] = {
         ext = {
             actRelation = {
                 [1] = 11192,
-                [2] = 11202,
+                [2] = 11196,
             },
             actId = 10630,
         },
-        finishCondId = 13001,
-        order = 11,
+        finishCondId = 8008,
+        order = 6,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 50,
+                [1] = 500001,
+                [2] = 250000,
             },
             [2] = {
-                [1] = 510104,
-                [2] = 25,
+                [1] = 520033,
+                [2] = 5,
+            },
+            [3] = {
+                [1] = 570001,
+                [2] = 1000,
             },
         },
         startDate = {
@@ -24382,22 +24593,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800358,
+        id = 800353,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 70,
+        progress = 1,
         type = 88,
-        name = "15011322",
+        name = "15011317",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112401,
+            equipLevel = {
+                [250605] = 55,
+                [250604] = 55,
+                [250607] = 55,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011322",
+        des = "15011317",
     },
     [800319] = {
         ext = {
@@ -24549,26 +24764,38 @@ return {
         },
         des = "1320001",
     },
-    [800330] = {
+    [800352] = {
         ext = {
-            actId = 11175,
+            actRelation = {
+                [1] = 11192,
+                [2] = 11195,
+            },
+            actId = 10630,
         },
-        finishCondId = 14001,
-        order = 15,
+        finishCondId = 8008,
+        order = 5,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 300,
+                [1] = 240009,
+                [2] = 5,
+            },
+            [2] = {
+                [1] = 230009,
+                [2] = 5,
+            },
+            [3] = {
+                [1] = 500001,
+                [2] = 240000,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_2.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -24576,22 +24803,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800330,
+        id = 800352,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4,
-        type = 86,
-        name = "15011293",
+        progress = 1,
+        type = 88,
+        name = "15011316",
         acceptCondId = 0,
         finishParams = {
-            heroId = 113201,
+            equipLevel = {
+                [250605] = 50,
+                [250604] = 50,
+                [250607] = 50,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011293",
+        des = "15011316",
     },
     [131122] = {
         ext = {
@@ -24641,26 +24872,26 @@ return {
         },
         des = "1320001",
     },
-    [800332] = {
+    [800330] = {
         ext = {
-            actId = 11176,
+            actId = 11175,
         },
-        finishCondId = 2001,
-        order = 1,
+        finishCondId = 14001,
+        order = 15,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 500,
+                [1] = 570007,
+                [2] = 300,
             },
         },
         startDate = {
         },
-        jumpInterface = 34,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 200,
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -24668,22 +24899,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800332,
+        id = 800330,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 87,
-        name = "15011295",
+        progress = 4,
+        type = 86,
+        name = "15011293",
         acceptCondId = 0,
         finishParams = {
-            heroId = 113301,
+            heroId = 113201,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011295",
+        des = "15011293",
     },
     [121118] = {
         ext = {
@@ -24829,34 +25060,30 @@ return {
         },
         des = "1320001",
     },
-    [800355] = {
+    [800350] = {
         ext = {
             actRelation = {
                 [1] = 11192,
-                [2] = 11198,
+                [2] = 11193,
             },
             actId = 10630,
         },
-        finishCondId = 8009,
-        order = 8,
+        finishCondId = 13005,
+        order = 3,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 750000,
-            },
-            [2] = {
-                [1] = 570001,
-                [2] = 7500,
+                [1] = 570002,
+                [2] = 800,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_5.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -24864,26 +25091,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800355,
+        id = 800350,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 1,
         type = 88,
-        name = "15011319",
+        name = "15011314",
         acceptCondId = 0,
         finishParams = {
-            equipStar = {
-                [250605] = 6,
-                [250604] = 6,
-                [250607] = 6,
-            },
+            quality = 7,
+            heroId = 112401,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011319",
+        des = "15011314",
     },
     [700021] = {
         ext = {
@@ -24928,38 +25152,26 @@ return {
         },
         des = "1320861",
     },
-    [800354] = {
+    [800332] = {
         ext = {
-            actRelation = {
-                [1] = 11192,
-                [2] = 11197,
-            },
-            actId = 10630,
+            actId = 11176,
         },
-        finishCondId = 8008,
-        order = 7,
+        finishCondId = 2001,
+        order = 1,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 500000,
-            },
-            [2] = {
-                [1] = 520033,
-                [2] = 8,
-            },
-            [3] = {
-                [1] = 570001,
-                [2] = 4500,
+                [1] = 570002,
+                [2] = 500,
             },
         },
         startDate = {
         },
-        jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        jumpInterface = 34,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -24967,26 +25179,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800354,
+        id = 800332,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 88,
-        name = "15011318",
+        progress = 1,
+        type = 87,
+        name = "15011295",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250605] = 60,
-                [250604] = 60,
-                [250607] = 60,
-            },
+            heroId = 113301,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011318",
+        des = "15011295",
     },
     [131123] = {
         ext = {
@@ -25133,38 +25341,30 @@ return {
         },
         des = "1320863",
     },
-    [800353] = {
+    [800336] = {
         ext = {
-            actRelation = {
-                [1] = 11192,
-                [2] = 11196,
-            },
-            actId = 10630,
+            actId = 11176,
         },
         finishCondId = 8008,
-        order = 6,
+        order = 5,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 250000,
+                [1] = 240009,
+                [2] = 6,
             },
             [2] = {
-                [1] = 520033,
-                [2] = 5,
-            },
-            [3] = {
-                [1] = 570001,
-                [2] = 1000,
+                [1] = 500001,
+                [2] = 240000,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_2.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -25172,26 +25372,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800353,
+        id = 800336,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 88,
-        name = "15011317",
+        type = 87,
+        name = "15011299",
         acceptCondId = 0,
         finishParams = {
             equipLevel = {
-                [250605] = 55,
-                [250604] = 55,
-                [250607] = 55,
+                [250654] = 50,
+                [250652] = 50,
+                [250655] = 50,
             },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011317",
+        des = "15011299",
     },
     [700024] = {
         ext = {
@@ -25338,38 +25538,30 @@ return {
         },
         des = "1320001",
     },
-    [800352] = {
+    [800347] = {
         ext = {
-            actRelation = {
-                [1] = 11192,
-                [2] = 11195,
-            },
-            actId = 10630,
+            actId = 11176,
         },
-        finishCondId = 8008,
-        order = 5,
+        finishCondId = 14001,
+        order = 16,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 240009,
-                [2] = 5,
+                [1] = 520023,
+                [2] = 30,
             },
             [2] = {
-                [1] = 230009,
-                [2] = 5,
-            },
-            [3] = {
                 [1] = 500001,
-                [2] = 240000,
+                [2] = 500000,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -25377,26 +25569,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800352,
+        id = 800347,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 88,
-        name = "15011316",
+        progress = 5,
+        type = 87,
+        name = "15011310",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250605] = 50,
-                [250604] = 50,
-                [250607] = 50,
-            },
+            heroId = 113301,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011316",
+        des = "15011310",
     },
     [131124] = {
         ext = {
@@ -25446,28 +25634,20 @@ return {
         },
         des = "1320001",
     },
-    [800337] = {
+    [800346] = {
         ext = {
             actId = 11176,
         },
-        finishCondId = 8008,
-        order = 6,
+        finishCondId = 14001,
+        order = 15,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 250000,
-            },
-            [2] = {
-                [1] = 520033,
-                [2] = 5,
-            },
-            [3] = {
-                [1] = 570001,
-                [2] = 1000,
+                [1] = 570007,
+                [2] = 300,
             },
         },
         startDate = {
@@ -25481,26 +25661,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800337,
+        id = 800346,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
+        progress = 4,
         type = 87,
-        name = "15011300",
+        name = "15011309",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250654] = 55,
-                [250652] = 55,
-                [250655] = 55,
-            },
+            heroId = 113301,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011300",
+        des = "15011309",
     },
     [121119] = {
         ext = {
@@ -25646,30 +25822,26 @@ return {
         },
         des = "1320001",
     },
-    [800350] = {
+    [800345] = {
         ext = {
-            actRelation = {
-                [1] = 11192,
-                [2] = 11193,
-            },
-            actId = 10630,
+            actId = 11176,
         },
-        finishCondId = 13005,
-        order = 3,
+        finishCondId = 14001,
+        order = 14,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 800,
+                [1] = 570007,
+                [2] = 150,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_2.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -25677,23 +25849,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800350,
+        id = 800345,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 88,
-        name = "15011314",
+        progress = 3,
+        type = 87,
+        name = "15011308",
         acceptCondId = 0,
         finishParams = {
-            quality = 7,
-            heroId = 112401,
+            heroId = 113301,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011314",
+        des = "15011308",
     },
     [700029] = {
         ext = {
@@ -25738,34 +25909,26 @@ return {
         },
         des = "1320869",
     },
-    [800339] = {
+    [800344] = {
         ext = {
             actId = 11176,
         },
-        finishCondId = 8009,
-        order = 8,
+        finishCondId = 14001,
+        order = 13,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 750000,
-            },
-            [2] = {
-                [1] = 570001,
-                [2] = 7500,
-            },
-            [3] = {
-                [1] = 240009,
-                [2] = 20,
+                [1] = 570007,
+                [2] = 50,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_5.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -25773,26 +25936,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800339,
+        id = 800344,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 2,
         type = 87,
-        name = "15011302",
+        name = "15011307",
         acceptCondId = 0,
         finishParams = {
-            equipStar = {
-                [250654] = 6,
-                [250652] = 6,
-                [250655] = 6,
-            },
+            heroId = 113301,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011302",
+        des = "15011307",
     },
     [131125] = {
         ext = {
@@ -25941,24 +26100,28 @@ return {
         },
         des = "15011297",
     },
-    [800342] = {
+    [800337] = {
         ext = {
             actId = 11176,
         },
-        finishCondId = 13001,
-        order = 11,
+        finishCondId = 8008,
+        order = 6,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 50,
+                [1] = 500001,
+                [2] = 250000,
             },
             [2] = {
-                [1] = 510104,
-                [2] = 25,
+                [1] = 520033,
+                [2] = 5,
+            },
+            [3] = {
+                [1] = 570001,
+                [2] = 1000,
             },
         },
         startDate = {
@@ -25972,22 +26135,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800342,
+        id = 800337,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 70,
+        progress = 1,
         type = 87,
-        name = "15011305",
+        name = "15011300",
         acceptCondId = 0,
         finishParams = {
-            heroId = 113301,
+            equipLevel = {
+                [250654] = 55,
+                [250652] = 55,
+                [250655] = 55,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011305",
+        des = "15011300",
     },
     [800335] = {
         ext = {
@@ -26241,30 +26408,30 @@ return {
         },
         des = "1320001",
     },
-    [800347] = {
+    [800342] = {
         ext = {
             actId = 11176,
         },
-        finishCondId = 14001,
-        order = 16,
+        finishCondId = 13001,
+        order = 11,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 520023,
-                [2] = 30,
+                [1] = 510105,
+                [2] = 50,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 500000,
+                [1] = 510104,
+                [2] = 25,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -26272,14 +26439,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800347,
+        id = 800342,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
+        progress = 70,
         type = 87,
-        name = "15011310",
+        name = "15011305",
         acceptCondId = 0,
         finishParams = {
             heroId = 113301,
@@ -26287,7 +26454,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011310",
+        des = "15011305",
     },
     [191001] = {
         ext = {
@@ -26435,26 +26602,30 @@ return {
         },
         des = "1320001",
     },
-    [800346] = {
+    [800341] = {
         ext = {
             actId = 11176,
         },
-        finishCondId = 14001,
-        order = 15,
+        finishCondId = 13001,
+        order = 10,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 300,
+                [1] = 510105,
+                [2] = 10,
+            },
+            [2] = {
+                [1] = 510104,
+                [2] = 15,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_2.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -26462,14 +26633,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800346,
+        id = 800341,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4,
+        progress = 50,
         type = 87,
-        name = "15011309",
+        name = "15011304",
         acceptCondId = 0,
         finishParams = {
             heroId = 113301,
@@ -26477,7 +26648,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011309",
+        des = "15011304",
     },
     [800340] = {
         ext = {
@@ -26523,26 +26694,34 @@ return {
         },
         des = "15011303",
     },
-    [800345] = {
+    [800339] = {
         ext = {
             actId = 11176,
         },
-        finishCondId = 14001,
-        order = 14,
+        finishCondId = 8009,
+        order = 8,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 150,
+                [1] = 500001,
+                [2] = 750000,
+            },
+            [2] = {
+                [1] = 570001,
+                [2] = 7500,
+            },
+            [3] = {
+                [1] = 240009,
+                [2] = 20,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_5.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -26550,22 +26729,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800345,
+        id = 800339,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 3,
         type = 87,
-        name = "15011308",
+        name = "15011302",
         acceptCondId = 0,
         finishParams = {
-            heroId = 113301,
+            equipStar = {
+                [250654] = 6,
+                [250652] = 6,
+                [250655] = 6,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011308",
+        des = "15011302",
     },
     [131127] = {
         ext = {
@@ -26719,26 +26902,34 @@ return {
         },
         des = "1320475",
     },
-    [800344] = {
+    [800338] = {
         ext = {
             actId = 11176,
         },
-        finishCondId = 14001,
-        order = 13,
+        finishCondId = 8008,
+        order = 7,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 50,
+                [1] = 500001,
+                [2] = 500000,
+            },
+            [2] = {
+                [1] = 570001,
+                [2] = 4500,
+            },
+            [3] = {
+                [1] = 240009,
+                [2] = 10,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -26746,22 +26937,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800344,
+        id = 800338,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2,
+        progress = 3,
         type = 87,
-        name = "15011307",
+        name = "15011301",
         acceptCondId = 0,
         finishParams = {
-            heroId = 113301,
+            equipLevel = {
+                [250654] = 60,
+                [250652] = 60,
+                [250655] = 60,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011307",
+        des = "15011301",
     },
     [800343] = {
         ext = {
@@ -27300,30 +27495,26 @@ return {
         },
         des = "15011312",
     },
-    [800341] = {
+    [800333] = {
         ext = {
             actId = 11176,
         },
-        finishCondId = 13001,
-        order = 10,
+        finishCondId = 13005,
+        order = 2,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 10,
-            },
-            [2] = {
-                [1] = 510104,
-                [2] = 15,
+                [1] = 570002,
+                [2] = 500,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -27331,22 +27522,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800341,
+        id = 800333,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 50,
+        progress = 1,
         type = 87,
-        name = "15011304",
+        name = "15011296",
         acceptCondId = 0,
         finishParams = {
+            quality = 6,
             heroId = 113301,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011304",
+        des = "15011296",
     },
     [800349] = {
         ext = {
@@ -27501,28 +27693,24 @@ return {
         },
         des = "1320477",
     },
-    [800338] = {
+    [800331] = {
         ext = {
-            actId = 11176,
+            actId = 11175,
         },
-        finishCondId = 8008,
-        order = 7,
+        finishCondId = 14001,
+        order = 16,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 500000,
+                [1] = 520023,
+                [2] = 30,
             },
             [2] = {
-                [1] = 570001,
-                [2] = 4500,
-            },
-            [3] = {
-                [1] = 240009,
-                [2] = 10,
+                [1] = 500001,
+                [2] = 500000,
             },
         },
         startDate = {
@@ -27536,26 +27724,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800338,
+        id = 800331,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 87,
-        name = "15011301",
+        progress = 5,
+        type = 86,
+        name = "15011294",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250654] = 60,
-                [250652] = 60,
-                [250655] = 60,
-            },
+            heroId = 113201,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011301",
+        des = "15011294",
     },
     [800351] = {
         ext = {
@@ -27820,24 +28004,20 @@ return {
         },
         des = "1320001",
     },
-    [800336] = {
+    [800329] = {
         ext = {
-            actId = 11176,
+            actId = 11175,
         },
-        finishCondId = 8008,
-        order = 5,
+        finishCondId = 14001,
+        order = 14,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 240009,
-                [2] = 6,
-            },
-            [2] = {
-                [1] = 500001,
-                [2] = 240000,
+                [1] = 570007,
+                [2] = 150,
             },
         },
         startDate = {
@@ -27851,26 +28031,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800336,
+        id = 800329,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 87,
-        name = "15011299",
+        progress = 3,
+        type = 86,
+        name = "15011292",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250654] = 50,
-                [250652] = 50,
-                [250655] = 50,
-            },
+            heroId = 113201,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011299",
+        des = "15011292",
     },
     [191005] = {
         ext = {
@@ -28018,26 +28194,26 @@ return {
         },
         des = "1320001",
     },
-    [800333] = {
+    [800328] = {
         ext = {
-            actId = 11176,
+            actId = 11175,
         },
-        finishCondId = 13005,
-        order = 2,
+        finishCondId = 14001,
+        order = 13,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 500,
+                [1] = 570007,
+                [2] = 50,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -28045,23 +28221,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800333,
+        id = 800328,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 87,
-        name = "15011296",
+        progress = 2,
+        type = 86,
+        name = "15011291",
         acceptCondId = 0,
         finishParams = {
-            quality = 6,
-            heroId = 113301,
+            heroId = 113201,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011296",
+        des = "15011291",
     },
     [800356] = {
         ext = {
@@ -28111,30 +28286,30 @@ return {
         },
         des = "15011320",
     },
-    [800331] = {
+    [800326] = {
         ext = {
             actId = 11175,
         },
-        finishCondId = 14001,
-        order = 16,
+        finishCondId = 13001,
+        order = 11,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 520023,
-                [2] = 30,
+                [1] = 510105,
+                [2] = 50,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 500000,
+                [1] = 510104,
+                [2] = 25,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -28142,14 +28317,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800331,
+        id = 800326,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
+        progress = 70,
         type = 86,
-        name = "15011294",
+        name = "15011289",
         acceptCondId = 0,
         finishParams = {
             heroId = 113201,
@@ -28157,7 +28332,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011294",
+        des = "15011289",
     },
     [800357] = {
         ext = {
@@ -28315,26 +28490,26 @@ return {
         },
         des = "1320479",
     },
-    [800329] = {
+    [800324] = {
         ext = {
             actId = 11175,
         },
-        finishCondId = 14001,
-        order = 14,
+        finishCondId = 13001,
+        order = 9,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 150,
+                [1] = 510103,
+                [2] = 10,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -28342,14 +28517,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800329,
+        id = 800324,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 30,
         type = 86,
-        name = "15011292",
+        name = "15011287",
         acceptCondId = 0,
         finishParams = {
             heroId = 113201,
@@ -28357,7 +28532,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011292",
+        des = "15011287",
     },
     [800359] = {
         ext = {
@@ -28411,24 +28586,28 @@ return {
         },
         des = "15011323",
     },
-    [800327] = {
+    [800322] = {
         ext = {
             actId = 11175,
         },
-        finishCondId = 13001,
-        order = 12,
+        finishCondId = 8008,
+        order = 7,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 60,
+                [1] = 500001,
+                [2] = 500000,
             },
             [2] = {
-                [1] = 510104,
-                [2] = 20,
+                [1] = 570001,
+                [2] = 4500,
+            },
+            [3] = {
+                [1] = 240009,
+                [2] = 10,
             },
         },
         startDate = {
@@ -28442,22 +28621,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800327,
+        id = 800322,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 80,
+        progress = 3,
         type = 86,
-        name = "15011290",
+        name = "15011285",
         acceptCondId = 0,
         finishParams = {
-            heroId = 113201,
+            equipLevel = {
+                [250665] = 60,
+                [250664] = 60,
+                [250667] = 60,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011290",
+        des = "15011285",
     },
     [120611] = {
         ext = {
@@ -28621,24 +28804,28 @@ return {
         },
         des = "1320001",
     },
-    [800326] = {
+    [800321] = {
         ext = {
             actId = 11175,
         },
-        finishCondId = 13001,
-        order = 11,
+        finishCondId = 8008,
+        order = 6,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 50,
+                [1] = 500001,
+                [2] = 250000,
             },
             [2] = {
-                [1] = 510104,
-                [2] = 25,
+                [1] = 520033,
+                [2] = 5,
+            },
+            [3] = {
+                [1] = 570001,
+                [2] = 1000,
             },
         },
         startDate = {
@@ -28652,22 +28839,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800326,
+        id = 800321,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 70,
+        progress = 1,
         type = 86,
-        name = "15011289",
+        name = "15011284",
         acceptCondId = 0,
         finishParams = {
-            heroId = 113201,
+            equipLevel = {
+                [250665] = 55,
+                [250664] = 55,
+                [250667] = 55,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011289",
+        des = "15011284",
     },
     [191007] = {
         ext = {
@@ -28815,24 +29006,24 @@ return {
         },
         des = "1320001",
     },
-    [800325] = {
+    [800320] = {
         ext = {
             actId = 11175,
         },
-        finishCondId = 13001,
-        order = 10,
+        finishCondId = 8008,
+        order = 5,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 10,
+                [1] = 240009,
+                [2] = 6,
             },
             [2] = {
-                [1] = 510104,
-                [2] = 15,
+                [1] = 500001,
+                [2] = 240000,
             },
         },
         startDate = {
@@ -28846,22 +29037,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800325,
+        id = 800320,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 50,
+        progress = 1,
         type = 86,
-        name = "15011288",
+        name = "15011283",
         acceptCondId = 0,
         finishParams = {
-            heroId = 113201,
+            equipLevel = {
+                [250665] = 50,
+                [250664] = 50,
+                [250667] = 50,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011288",
+        des = "15011283",
     },
     [800364] = {
         ext = {
@@ -28911,34 +29106,26 @@ return {
         },
         des = "15011328",
     },
-    [800323] = {
+    [800316] = {
         ext = {
             actId = 11175,
         },
-        finishCondId = 8009,
-        order = 8,
+        finishCondId = 2001,
+        order = 1,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 750000,
-            },
-            [2] = {
-                [1] = 570001,
-                [2] = 7500,
-            },
-            [3] = {
-                [1] = 240009,
-                [2] = 20,
+                [1] = 570002,
+                [2] = 500,
             },
         },
         startDate = {
         },
-        jumpInterface = 200,
-        icon = "ui/task/icon_5.png",
+        jumpInterface = 34,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -28946,26 +29133,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800323,
+        id = 800316,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 1,
         type = 86,
-        name = "15011286",
+        name = "15011279",
         acceptCondId = 0,
         finishParams = {
-            equipStar = {
-                [250665] = 6,
-                [250664] = 6,
-                [250667] = 6,
-            },
+            heroId = 113201,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011286",
+        des = "15011279",
     },
     [800365] = {
         ext = {
@@ -29110,28 +29293,20 @@ return {
         },
         des = "1320481",
     },
-    [800321] = {
+    [800314] = {
         ext = {
-            actId = 11175,
+            actId = 11170,
         },
-        finishCondId = 8008,
-        order = 6,
+        finishCondId = 14001,
+        order = 15,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 250000,
-            },
-            [2] = {
-                [1] = 520033,
-                [2] = 5,
-            },
-            [3] = {
-                [1] = 570001,
-                [2] = 1000,
+                [1] = 570007,
+                [2] = 300,
             },
         },
         startDate = {
@@ -29145,26 +29320,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800321,
+        id = 800314,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 86,
-        name = "15011284",
+        progress = 4,
+        type = 42,
+        name = "15011216",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250665] = 55,
-                [250664] = 55,
-                [250667] = 55,
-            },
+            heroId = 112001,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011284",
+        des = "15011216",
     },
     [800367] = {
         ext = {
@@ -29218,26 +29389,26 @@ return {
         },
         des = "15011331",
     },
-    [800317] = {
+    [800312] = {
         ext = {
-            actId = 11175,
+            actId = 11170,
         },
-        finishCondId = 13005,
-        order = 2,
+        finishCondId = 14001,
+        order = 13,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 500,
+                [1] = 570007,
+                [2] = 50,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -29245,23 +29416,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800317,
+        id = 800312,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 86,
-        name = "15011280",
+        progress = 2,
+        type = 42,
+        name = "15011214",
         acceptCondId = 0,
         finishParams = {
-            quality = 6,
-            heroId = 113201,
+            heroId = 112001,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011280",
+        des = "15011214",
     },
     [120612] = {
         ext = {
@@ -29425,26 +29595,30 @@ return {
         },
         des = "",
     },
-    [800316] = {
+    [800311] = {
         ext = {
-            actId = 11175,
+            actId = 11170,
         },
-        finishCondId = 2001,
-        order = 1,
+        finishCondId = 13001,
+        order = 12,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 500,
+                [1] = 510105,
+                [2] = 60,
+            },
+            [2] = {
+                [1] = 510104,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 34,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 200,
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -29452,22 +29626,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800316,
+        id = 800311,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 86,
-        name = "15011279",
+        progress = 80,
+        type = 42,
+        name = "15011213",
         acceptCondId = 0,
         finishParams = {
-            heroId = 113201,
+            heroId = 112001,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011279",
+        des = "15011213",
     },
     [121124] = {
         ext = {
@@ -29613,30 +29787,30 @@ return {
         },
         des = "1320001",
     },
-    [800315] = {
+    [800310] = {
         ext = {
             actId = 11170,
         },
-        finishCondId = 14001,
-        order = 16,
+        finishCondId = 13001,
+        order = 11,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 520023,
-                [2] = 30,
+                [1] = 510105,
+                [2] = 50,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 500000,
+                [1] = 510104,
+                [2] = 25,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -29644,14 +29818,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800315,
+        id = 800310,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
+        progress = 70,
         type = 42,
-        name = "15011217",
+        name = "15011212",
         acceptCondId = 0,
         finishParams = {
             heroId = 112001,
@@ -29659,7 +29833,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011217",
+        des = "15011212",
     },
     [610001] = {
         ext = {
@@ -29711,26 +29885,30 @@ return {
         },
         des = "",
     },
-    [800314] = {
+    [800309] = {
         ext = {
             actId = 11170,
         },
-        finishCondId = 14001,
-        order = 15,
+        finishCondId = 13001,
+        order = 10,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 300,
+                [1] = 510104,
+                [2] = 15,
+            },
+            [2] = {
+                [1] = 510105,
+                [2] = 10,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_2.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -29738,14 +29916,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800314,
+        id = 800309,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4,
+        progress = 50,
         type = 42,
-        name = "15011216",
+        name = "15011211",
         acceptCondId = 0,
         finishParams = {
             heroId = 112001,
@@ -29753,7 +29931,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011216",
+        des = "15011211",
     },
     [610002] = {
         ext = {
@@ -29904,26 +30082,26 @@ return {
         },
         des = "1320892",
     },
-    [800313] = {
+    [800308] = {
         ext = {
             actId = 11170,
         },
-        finishCondId = 14001,
-        order = 14,
+        finishCondId = 13001,
+        order = 9,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 150,
+                [1] = 510103,
+                [2] = 10,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -29931,14 +30109,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800313,
+        id = 800308,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 30,
         type = 42,
-        name = "15011215",
+        name = "15011210",
         acceptCondId = 0,
         finishParams = {
             heroId = 112001,
@@ -29946,7 +30124,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011215",
+        des = "15011210",
     },
     [610004] = {
         ext = {
@@ -30000,26 +30178,34 @@ return {
         },
         des = "",
     },
-    [800312] = {
+    [800307] = {
         ext = {
             actId = 11170,
         },
-        finishCondId = 14001,
-        order = 13,
+        finishCondId = 8009,
+        order = 8,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570007,
-                [2] = 50,
+                [1] = 500001,
+                [2] = 750000,
+            },
+            [2] = {
+                [1] = 570001,
+                [2] = 7500,
+            },
+            [3] = {
+                [1] = 240009,
+                [2] = 20,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_5.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -30027,22 +30213,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800312,
+        id = 800307,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2,
+        progress = 3,
         type = 42,
-        name = "15011214",
+        name = "15011209",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112001,
+            equipStar = {
+                [250182] = 6,
+                [250181] = 6,
+                [250185] = 6,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011214",
+        des = "15011209",
     },
     [120613] = {
         ext = {
@@ -30204,24 +30394,28 @@ return {
         },
         des = "",
     },
-    [800311] = {
+    [800306] = {
         ext = {
             actId = 11170,
         },
-        finishCondId = 13001,
-        order = 12,
+        finishCondId = 8008,
+        order = 7,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 60,
+                [1] = 500001,
+                [2] = 500000,
             },
             [2] = {
-                [1] = 510104,
-                [2] = 20,
+                [1] = 570001,
+                [2] = 4500,
+            },
+            [3] = {
+                [1] = 240009,
+                [2] = 10,
             },
         },
         startDate = {
@@ -30235,22 +30429,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800311,
+        id = 800306,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 80,
+        progress = 3,
         type = 42,
-        name = "15011213",
+        name = "15011208",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112001,
+            equipLevel = {
+                [250182] = 60,
+                [250181] = 60,
+                [250185] = 60,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011213",
+        des = "15011208",
     },
     [121125] = {
         ext = {
@@ -30396,24 +30594,28 @@ return {
         },
         des = "1320001",
     },
-    [800310] = {
+    [800305] = {
         ext = {
             actId = 11170,
         },
-        finishCondId = 13001,
-        order = 11,
+        finishCondId = 8008,
+        order = 6,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 50,
+                [1] = 500001,
+                [2] = 250000,
             },
             [2] = {
-                [1] = 510104,
-                [2] = 25,
+                [1] = 520033,
+                [2] = 5,
+            },
+            [3] = {
+                [1] = 570001,
+                [2] = 1000,
             },
         },
         startDate = {
@@ -30427,22 +30629,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800310,
+        id = 800305,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 70,
+        progress = 1,
         type = 42,
-        name = "15011212",
+        name = "15011207",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112001,
+            equipLevel = {
+                [250182] = 55,
+                [250181] = 55,
+                [250185] = 55,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011212",
+        des = "15011207",
     },
     [610009] = {
         ext = {
@@ -30495,24 +30701,24 @@ return {
         },
         des = "",
     },
-    [800309] = {
+    [800304] = {
         ext = {
             actId = 11170,
         },
-        finishCondId = 13001,
-        order = 10,
+        finishCondId = 8008,
+        order = 5,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510104,
-                [2] = 15,
+                [1] = 240009,
+                [2] = 6,
             },
             [2] = {
-                [1] = 510105,
-                [2] = 10,
+                [1] = 500001,
+                [2] = 240000,
             },
         },
         startDate = {
@@ -30526,22 +30732,26 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800309,
+        id = 800304,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 50,
+        progress = 1,
         type = 42,
-        name = "15011211",
+        name = "15011206",
         acceptCondId = 0,
         finishParams = {
-            heroId = 112001,
+            equipLevel = {
+                [250182] = 50,
+                [250181] = 50,
+                [250185] = 50,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011211",
+        des = "15011206",
     },
     [610010] = {
         ext = {
@@ -30692,26 +30902,26 @@ return {
         },
         des = "1320988",
     },
-    [800308] = {
+    [800301] = {
         ext = {
             actId = 11170,
         },
-        finishCondId = 13001,
-        order = 9,
+        finishCondId = 13005,
+        order = 2,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510103,
-                [2] = 10,
+                [1] = 570002,
+                [2] = 500,
             },
         },
         startDate = {
         },
         jumpInterface = 200,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -30719,22 +30929,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800308,
+        id = 800301,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 30,
+        progress = 1,
         type = 42,
-        name = "15011210",
+        name = "15011203",
         acceptCondId = 0,
         finishParams = {
+            quality = 6,
             heroId = 112001,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011210",
+        des = "15011203",
     },
     [800383] = {
         ext = {
@@ -30788,34 +30999,32 @@ return {
         },
         des = "15011360",
     },
-    [800306] = {
+    [800024] = {
         ext = {
-            actId = 11170,
         },
-        finishCondId = 8008,
-        order = 7,
+        finishCondId = 9019,
+        order = 8,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 500000,
-            },
-            [2] = {
-                [1] = 570001,
-                [2] = 4500,
-            },
-            [3] = {
-                [1] = 240009,
-                [2] = 10,
+                [1] = 529045,
+                [2] = 1,
             },
         },
         startDate = {
+            [1] = 2021,
+            [2] = 2,
+            [3] = 4,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
         },
-        jumpInterface = 200,
-        icon = "ui/task/icon_4.png",
+        jumpInterface = 0,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -30823,26 +31032,28 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800306,
+        id = 800024,
         extendsTaskId = 0,
-        subType = 2,
+        subType = 1,
         endDate = {
+            [1] = 2021,
+            [2] = 3,
+            [3] = 9,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
         },
-        progress = 3,
-        type = 42,
-        name = "15011208",
+        progress = 120,
+        type = 43,
+        name = "16000684",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250182] = 60,
-                [250181] = 60,
-                [250185] = 60,
-            },
+            dunId = 291135,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011208",
+        des = "",
     },
     [120614] = {
         ext = {
@@ -31008,30 +31219,32 @@ return {
         },
         des = "15011362",
     },
-    [800304] = {
+    [800022] = {
         ext = {
-            actId = 11170,
         },
-        finishCondId = 8008,
-        order = 5,
+        finishCondId = 9019,
+        order = 6,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 240009,
-                [2] = 6,
-            },
-            [2] = {
-                [1] = 500001,
-                [2] = 240000,
+                [1] = 501158,
+                [2] = 300,
             },
         },
         startDate = {
+            [1] = 2021,
+            [2] = 2,
+            [3] = 4,
+            [4] = 0,
+            [5] = 0,
+            [6] = 0,
         },
-        jumpInterface = 200,
-        icon = "ui/task/icon_2.png",
+        jumpInterface = 0,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -31039,26 +31252,28 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800304,
+        id = 800022,
         extendsTaskId = 0,
-        subType = 2,
+        subType = 1,
         endDate = {
+            [1] = 2021,
+            [2] = 3,
+            [3] = 9,
+            [4] = 23,
+            [5] = 59,
+            [6] = 59,
         },
-        progress = 1,
-        type = 42,
-        name = "15011206",
+        progress = 50,
+        type = 43,
+        name = "16000684",
         acceptCondId = 0,
         finishParams = {
-            equipLevel = {
-                [250182] = 50,
-                [250181] = 50,
-                [250185] = 50,
-            },
+            dunId = 291135,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15011206",
+        des = "",
     },
     [121126] = {
         ext = {
@@ -35095,16 +35310,25 @@ return {
         },
         des = "272094",
     },
-    [800001] = {
+    [750034] = {
         ext = {
         },
-        finishCondId = 2001,
-        order = 2,
+        finishCondId = 9027,
+        order = 10,
         acceptParams = {
+            experiment = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
+            [1] = {
+                [1] = 570003,
+                [2] = 3,
+            },
+            [2] = {
+                [1] = 500002,
+                [2] = 10,
+            },
         },
         startDate = {
         },
@@ -35117,22 +35341,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800001,
+        id = 750034,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 36,
-        name = "",
+        progress = 3500,
+        type = 35,
+        name = "1311203",
         acceptCondId = 0,
         finishParams = {
-            apprentice = 1,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1340037",
+        des = "15010024",
     },
     [740042] = {
         ext = {
@@ -35180,16 +35403,25 @@ return {
         },
         des = "1320936",
     },
-    [800000] = {
+    [750033] = {
         ext = {
         },
-        finishCondId = 11024,
-        order = 1,
+        finishCondId = 9027,
+        order = 11,
         acceptParams = {
+            experiment = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
+            [1] = {
+                [1] = 570003,
+                [2] = 3,
+            },
+            [2] = {
+                [1] = 500002,
+                [2] = 30,
+            },
         },
         startDate = {
         },
@@ -35202,22 +35434,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 800000,
+        id = 750033,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 36,
-        name = "",
+        progress = 4000,
+        type = 35,
+        name = "1311203",
         acceptCondId = 0,
         finishParams = {
-            apprentice = 1,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1340036",
+        des = "15010023",
     },
     [520604] = {
         ext = {
@@ -35371,24 +35602,24 @@ return {
         },
         des = "1320938",
     },
-    [750042] = {
+    [750031] = {
         ext = {
-            type = 1,
         },
-        finishCondId = 9028,
-        order = 2,
+        finishCondId = 9027,
+        order = 13,
         acceptParams = {
+            experiment = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 501032,
-                [2] = 1000,
+                [1] = 570003,
+                [2] = 5,
             },
             [2] = {
-                [1] = 570003,
-                [2] = 40,
+                [1] = 500002,
+                [2] = 50,
             },
         },
         startDate = {
@@ -35402,12 +35633,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750042,
+        id = 750031,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 20,
+        progress = 5000,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -35416,7 +35647,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010039",
+        des = "15010021",
     },
     [520605] = {
         ext = {
@@ -35889,54 +36120,7 @@ return {
         },
         des = "1320463",
     },
-    [750041] = {
-        ext = {
-            type = 1,
-        },
-        finishCondId = 9028,
-        order = 1,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 501032,
-                [2] = 500,
-            },
-            [2] = {
-                [1] = 570003,
-                [2] = 30,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 750041,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 10,
-        type = 35,
-        name = "1311203",
-        acceptCondId = 0,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "15010038",
-    },
-    [750039] = {
+    [750026] = {
         ext = {
         },
         finishCondId = 9027,
@@ -35963,7 +36147,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750039,
+        id = 750026,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -35978,6 +36162,49 @@ return {
         colour1 = {
         },
         des = "15010029",
+    },
+    [750025] = {
+        ext = {
+        },
+        finishCondId = 9027,
+        order = 6,
+        acceptParams = {
+            experiment = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 570003,
+                [2] = 2,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 750025,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1500,
+        type = 35,
+        name = "1311203",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "15010028",
     },
     [320002] = {
         ext = {
@@ -36078,11 +36305,11 @@ return {
         },
         des = "1320001",
     },
-    [750034] = {
+    [750023] = {
         ext = {
         },
         finishCondId = 9027,
-        order = 10,
+        order = 8,
         acceptParams = {
             experiment = 1,
         },
@@ -36091,11 +36318,7 @@ return {
         reward = {
             [1] = {
                 [1] = 570003,
-                [2] = 3,
-            },
-            [2] = {
-                [1] = 500002,
-                [2] = 10,
+                [2] = 2,
             },
         },
         startDate = {
@@ -36109,12 +36332,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750034,
+        id = 750023,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3500,
+        progress = 2500,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -36123,13 +36346,13 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010024",
+        des = "15010026",
     },
-    [750033] = {
+    [750018] = {
         ext = {
         },
         finishCondId = 9027,
-        order = 11,
+        order = 13,
         acceptParams = {
             experiment = 1,
         },
@@ -36138,11 +36361,11 @@ return {
         reward = {
             [1] = {
                 [1] = 570003,
-                [2] = 3,
+                [2] = 7,
             },
             [2] = {
                 [1] = 500002,
-                [2] = 30,
+                [2] = 100,
             },
         },
         startDate = {
@@ -36156,12 +36379,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750033,
+        id = 750018,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4000,
+        progress = 5000,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -36170,7 +36393,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010023",
+        des = "15010021",
     },
     [320003] = {
         ext = {
@@ -36315,11 +36538,11 @@ return {
         },
         des = "1320001",
     },
-    [750031] = {
+    [750017] = {
         ext = {
         },
-        finishCondId = 9027,
-        order = 13,
+        finishCondId = 9028,
+        order = 3,
         acceptParams = {
             experiment = 1,
         },
@@ -36327,12 +36550,16 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570003,
-                [2] = 5,
+                [1] = 501032,
+                [2] = 300,
             },
             [2] = {
-                [1] = 500002,
-                [2] = 50,
+                [1] = 551111,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 570006,
+                [2] = 200,
             },
         },
         startDate = {
@@ -36346,12 +36573,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750031,
+        id = 750017,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5000,
+        progress = 5,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -36360,7 +36587,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010021",
+        des = "15010020",
     },
     [121005] = {
         ext = {
@@ -36643,11 +36870,11 @@ return {
         },
         des = "1320465",
     },
-    [750026] = {
+    [750016] = {
         ext = {
         },
-        finishCondId = 9027,
-        order = 5,
+        finishCondId = 9028,
+        order = 2,
         acceptParams = {
             experiment = 1,
         },
@@ -36655,51 +36882,16 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570003,
+                [1] = 501032,
+                [2] = 200,
+            },
+            [2] = {
+                [1] = 551111,
                 [2] = 1,
             },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 750026,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1000,
-        type = 35,
-        name = "1311203",
-        acceptCondId = 0,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "15010029",
-    },
-    [750025] = {
-        ext = {
-        },
-        finishCondId = 9027,
-        order = 6,
-        acceptParams = {
-            experiment = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 570003,
-                [2] = 2,
+            [3] = {
+                [1] = 570006,
+                [2] = 100,
             },
         },
         startDate = {
@@ -36713,12 +36905,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750025,
+        id = 750016,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1500,
+        progress = 3,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -36727,7 +36919,58 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010028",
+        des = "15010019",
+    },
+    [750015] = {
+        ext = {
+        },
+        finishCondId = 9028,
+        order = 1,
+        acceptParams = {
+            experiment = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 501032,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 551111,
+                [2] = 1,
+            },
+            [3] = {
+                [1] = 570006,
+                [2] = 100,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 750015,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 35,
+        name = "1311203",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "15010018",
     },
     [320006] = {
         ext = {
@@ -36828,11 +37071,11 @@ return {
         },
         des = "1320001",
     },
-    [750023] = {
+    [750014] = {
         ext = {
         },
         finishCondId = 9027,
-        order = 8,
+        order = 4,
         acceptParams = {
             experiment = 1,
         },
@@ -36841,7 +37084,7 @@ return {
         reward = {
             [1] = {
                 [1] = 570003,
-                [2] = 2,
+                [2] = 1,
             },
         },
         startDate = {
@@ -36855,12 +37098,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750023,
+        id = 750014,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2500,
+        progress = 500,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -36869,7 +37112,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010026",
+        des = "15010030",
     },
     [130601] = {
         ext = {
@@ -36919,11 +37162,11 @@ return {
         },
         des = "1320001",
     },
-    [750018] = {
+    [750012] = {
         ext = {
         },
         finishCondId = 9027,
-        order = 13,
+        order = 6,
         acceptParams = {
             experiment = 1,
         },
@@ -36932,11 +37175,7 @@ return {
         reward = {
             [1] = {
                 [1] = 570003,
-                [2] = 7,
-            },
-            [2] = {
-                [1] = 500002,
-                [2] = 100,
+                [2] = 3,
             },
         },
         startDate = {
@@ -36950,12 +37189,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750018,
+        id = 750012,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5000,
+        progress = 1500,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -36964,7 +37203,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010021",
+        des = "15010028",
     },
     [190005] = {
         ext = {
@@ -37307,11 +37546,11 @@ return {
         },
         des = "1320001",
     },
-    [750017] = {
+    [750011] = {
         ext = {
         },
-        finishCondId = 9028,
-        order = 3,
+        finishCondId = 9027,
+        order = 7,
         acceptParams = {
             experiment = 1,
         },
@@ -37319,16 +37558,8 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 501032,
-                [2] = 300,
-            },
-            [2] = {
-                [1] = 551111,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 570006,
-                [2] = 200,
+                [1] = 570003,
+                [2] = 4,
             },
         },
         startDate = {
@@ -37342,12 +37573,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750017,
+        id = 750011,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
+        progress = 2000,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -37356,7 +37587,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010020",
+        des = "15010027",
     },
     [190006] = {
         ext = {
@@ -37402,11 +37633,11 @@ return {
         },
         des = "1320467",
     },
-    [750016] = {
+    [750010] = {
         ext = {
         },
-        finishCondId = 9028,
-        order = 2,
+        finishCondId = 9027,
+        order = 8,
         acceptParams = {
             experiment = 1,
         },
@@ -37414,16 +37645,8 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 501032,
-                [2] = 200,
-            },
-            [2] = {
-                [1] = 551111,
-                [2] = 1,
-            },
-            [3] = {
-                [1] = 570006,
-                [2] = 100,
+                [1] = 570003,
+                [2] = 5,
             },
         },
         startDate = {
@@ -37437,12 +37660,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750016,
+        id = 750010,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 2500,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -37451,7 +37674,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010019",
+        des = "15010026",
     },
     [520104] = {
         ext = {
@@ -37506,11 +37729,11 @@ return {
         },
         des = "272136",
     },
-    [750015] = {
+    [750009] = {
         ext = {
         },
-        finishCondId = 9028,
-        order = 1,
+        finishCondId = 9027,
+        order = 9,
         acceptParams = {
             experiment = 1,
         },
@@ -37518,16 +37741,12 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 501032,
-                [2] = 100,
+                [1] = 570003,
+                [2] = 6,
             },
             [2] = {
-                [1] = 551111,
-                [2] = 1,
-            },
-            [3] = {
-                [1] = 570006,
-                [2] = 100,
+                [1] = 500002,
+                [2] = 10,
             },
         },
         startDate = {
@@ -37541,12 +37760,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750015,
+        id = 750009,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
+        progress = 3000,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -37555,13 +37774,13 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010018",
+        des = "15010025",
     },
-    [750014] = {
+    [750008] = {
         ext = {
         },
         finishCondId = 9027,
-        order = 4,
+        order = 10,
         acceptParams = {
             experiment = 1,
         },
@@ -37570,7 +37789,11 @@ return {
         reward = {
             [1] = {
                 [1] = 570003,
-                [2] = 1,
+                [2] = 7,
+            },
+            [2] = {
+                [1] = 500002,
+                [2] = 20,
             },
         },
         startDate = {
@@ -37584,12 +37807,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750014,
+        id = 750008,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 500,
+        progress = 3500,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -37598,13 +37821,13 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010030",
+        des = "15010024",
     },
-    [750012] = {
+    [750007] = {
         ext = {
         },
         finishCondId = 9027,
-        order = 6,
+        order = 11,
         acceptParams = {
             experiment = 1,
         },
@@ -37613,7 +37836,11 @@ return {
         reward = {
             [1] = {
                 [1] = 570003,
-                [2] = 3,
+                [2] = 8,
+            },
+            [2] = {
+                [1] = 500002,
+                [2] = 50,
             },
         },
         startDate = {
@@ -37627,12 +37854,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750012,
+        id = 750007,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1500,
+        progress = 4000,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -37641,7 +37868,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010028",
+        des = "15010023",
     },
     [130602] = {
         ext = {
@@ -37691,11 +37918,11 @@ return {
         },
         des = "1320001",
     },
-    [750011] = {
+    [750006] = {
         ext = {
         },
         finishCondId = 9027,
-        order = 7,
+        order = 12,
         acceptParams = {
             experiment = 1,
         },
@@ -37704,7 +37931,11 @@ return {
         reward = {
             [1] = {
                 [1] = 570003,
-                [2] = 4,
+                [2] = 9,
+            },
+            [2] = {
+                [1] = 500002,
+                [2] = 80,
             },
         },
         startDate = {
@@ -37718,12 +37949,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750011,
+        id = 750006,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2000,
+        progress = 4500,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -37732,7 +37963,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010027",
+        des = "15010022",
     },
     [190007] = {
         ext = {
@@ -37832,11 +38063,11 @@ return {
         },
         des = "1320001",
     },
-    [750010] = {
+    [750005] = {
         ext = {
         },
         finishCondId = 9027,
-        order = 8,
+        order = 13,
         acceptParams = {
             experiment = 1,
         },
@@ -37845,7 +38076,11 @@ return {
         reward = {
             [1] = {
                 [1] = 570003,
-                [2] = 5,
+                [2] = 10,
+            },
+            [2] = {
+                [1] = 500002,
+                [2] = 150,
             },
         },
         startDate = {
@@ -37859,12 +38094,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750010,
+        id = 750005,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2500,
+        progress = 5000,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -37873,7 +38108,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010026",
+        des = "15010021",
     },
     [121007] = {
         ext = {
@@ -38067,11 +38302,11 @@ return {
         },
         des = "1320001",
     },
-    [750009] = {
+    [750004] = {
         ext = {
         },
-        finishCondId = 9027,
-        order = 9,
+        finishCondId = 9028,
+        order = 3,
         acceptParams = {
             experiment = 1,
         },
@@ -38079,12 +38314,16 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570003,
-                [2] = 6,
+                [1] = 501032,
+                [2] = 500,
             },
             [2] = {
-                [1] = 500002,
-                [2] = 10,
+                [1] = 551111,
+                [2] = 3,
+            },
+            [3] = {
+                [1] = 570006,
+                [2] = 300,
             },
         },
         startDate = {
@@ -38098,12 +38337,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750009,
+        id = 750004,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3000,
+        progress = 5,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -38112,7 +38351,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010025",
+        des = "15010020",
     },
     [190008] = {
         ext = {
@@ -38158,11 +38397,11 @@ return {
         },
         des = "1320469",
     },
-    [750008] = {
+    [750003] = {
         ext = {
         },
-        finishCondId = 9027,
-        order = 10,
+        finishCondId = 9028,
+        order = 2,
         acceptParams = {
             experiment = 1,
         },
@@ -38170,12 +38409,16 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570003,
-                [2] = 7,
+                [1] = 501032,
+                [2] = 300,
             },
             [2] = {
-                [1] = 500002,
-                [2] = 20,
+                [1] = 551111,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 570006,
+                [2] = 200,
             },
         },
         startDate = {
@@ -38189,12 +38432,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750008,
+        id = 750003,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3500,
+        progress = 3,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -38203,7 +38446,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010024",
+        des = "15010019",
     },
     [737004] = {
         ext = {
@@ -38249,11 +38492,11 @@ return {
         },
         des = "14110313",
     },
-    [750007] = {
+    [750002] = {
         ext = {
         },
-        finishCondId = 9027,
-        order = 11,
+        finishCondId = 9028,
+        order = 1,
         acceptParams = {
             experiment = 1,
         },
@@ -38261,12 +38504,16 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570003,
-                [2] = 8,
+                [1] = 501032,
+                [2] = 200,
             },
             [2] = {
-                [1] = 500002,
-                [2] = 50,
+                [1] = 551111,
+                [2] = 1,
+            },
+            [3] = {
+                [1] = 570006,
+                [2] = 100,
             },
         },
         startDate = {
@@ -38280,12 +38527,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750007,
+        id = 750002,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4000,
+        progress = 1,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -38294,7 +38541,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010023",
+        des = "15010018",
     },
     [737005] = {
         ext = {
@@ -38340,24 +38587,23 @@ return {
         },
         des = "14110314",
     },
-    [750006] = {
+    [750001] = {
         ext = {
         },
-        finishCondId = 9027,
-        order = 12,
+        finishCondId = 9028,
+        order = 1,
         acceptParams = {
-            experiment = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570003,
-                [2] = 9,
+                [1] = 599607,
+                [2] = 1,
             },
             [2] = {
-                [1] = 500002,
-                [2] = 80,
+                [1] = 570033,
+                [2] = 4,
             },
         },
         startDate = {
@@ -38371,12 +38617,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750006,
+        id = 750001,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4500,
+        progress = 100,
         type = 35,
         name = "1311203",
         acceptCondId = 0,
@@ -38385,7 +38631,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010022",
+        des = "1320937",
     },
     [130603] = {
         ext = {
@@ -38435,24 +38681,23 @@ return {
         },
         des = "1320001",
     },
-    [750005] = {
+    [740043] = {
         ext = {
         },
-        finishCondId = 9027,
-        order = 13,
+        finishCondId = 11023,
+        order = 8,
         acceptParams = {
-            experiment = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570003,
-                [2] = 10,
+                [1] = 599607,
+                [2] = 1,
             },
             [2] = {
-                [1] = 500002,
-                [2] = 150,
+                [1] = 570033,
+                [2] = 4,
             },
         },
         startDate = {
@@ -38466,13 +38711,13 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750005,
+        id = 740043,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5000,
-        type = 35,
+        progress = 8,
+        type = 34,
         name = "1311203",
         acceptCondId = 0,
         finishParams = {
@@ -38480,7 +38725,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010021",
+        des = "1320937",
     },
     [190009] = {
         ext = {
@@ -38580,27 +38825,22 @@ return {
         },
         des = "1320001",
     },
-    [750004] = {
+    [740041] = {
         ext = {
         },
-        finishCondId = 9028,
-        order = 3,
+        finishCondId = 11023,
+        order = 6,
         acceptParams = {
-            experiment = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 501032,
-                [2] = 500,
+                [1] = 570002,
+                [2] = 50,
             },
             [2] = {
-                [1] = 551111,
-                [2] = 3,
-            },
-            [3] = {
-                [1] = 570006,
+                [1] = 570029,
                 [2] = 300,
             },
         },
@@ -38615,13 +38855,13 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750004,
+        id = 740041,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
-        type = 35,
+        progress = 6,
+        type = 34,
         name = "1311203",
         acceptCondId = 0,
         finishParams = {
@@ -38629,7 +38869,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010020",
+        des = "1320935",
     },
     [121008] = {
         ext = {
@@ -38823,28 +39063,23 @@ return {
         },
         des = "1320001",
     },
-    [750003] = {
+    [740040] = {
         ext = {
         },
-        finishCondId = 9028,
-        order = 2,
+        finishCondId = 11023,
+        order = 5,
         acceptParams = {
-            experiment = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 501032,
-                [2] = 300,
+                [1] = 599605,
+                [2] = 1,
             },
             [2] = {
-                [1] = 551111,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 570006,
-                [2] = 200,
+                [1] = 570252,
+                [2] = 1,
             },
         },
         startDate = {
@@ -38858,13 +39093,13 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 750003,
+        id = 740040,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 35,
+        progress = 5,
+        type = 34,
         name = "1311203",
         acceptCondId = 0,
         finishParams = {
@@ -38872,7 +39107,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "15010019",
+        des = "1320934",
     },
     [190010] = {
         ext = {
@@ -38918,120 +39153,23 @@ return {
         },
         des = "1320471",
     },
-    [750002] = {
-        ext = {
-        },
-        finishCondId = 9028,
-        order = 1,
-        acceptParams = {
-            experiment = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 501032,
-                [2] = 200,
-            },
-            [2] = {
-                [1] = 551111,
-                [2] = 1,
-            },
-            [3] = {
-                [1] = 570006,
-                [2] = 100,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 750002,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 35,
-        name = "1311203",
-        acceptCondId = 0,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "15010018",
-    },
-    [750001] = {
-        ext = {
-        },
-        finishCondId = 9028,
-        order = 1,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 599607,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 570033,
-                [2] = 4,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 750001,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 100,
-        type = 35,
-        name = "1311203",
-        acceptCondId = 0,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320937",
-    },
-    [740043] = {
+    [740039] = {
         ext = {
         },
         finishCondId = 11023,
-        order = 8,
+        order = 4,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 599607,
-                [2] = 1,
+                [1] = 570029,
+                [2] = 200,
             },
             [2] = {
-                [1] = 570033,
-                [2] = 4,
+                [1] = 500002,
+                [2] = 300,
             },
         },
         startDate = {
@@ -39045,12 +39183,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740043,
+        id = 740039,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 8,
+        progress = 4,
         type = 34,
         name = "1311203",
         acceptCondId = 0,
@@ -39059,7 +39197,99 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320937",
+        des = "1320933",
+    },
+    [740038] = {
+        ext = {
+        },
+        finishCondId = 11023,
+        order = 3,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 529032,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 510242,
+                [2] = 20,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 740038,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 3,
+        type = 34,
+        name = "1311203",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320932",
+    },
+    [740037] = {
+        ext = {
+        },
+        finishCondId = 11023,
+        order = 2,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 570033,
+                [2] = 3,
+            },
+            [2] = {
+                [1] = 520023,
+                [2] = 10,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 740037,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 2,
+        type = 34,
+        name = "1311203",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320931",
     },
     [510901] = {
         ext = {
@@ -39119,51 +39349,49 @@ return {
         },
         des = "272057",
     },
-    [740041] = {
+    [740032] = {
         ext = {
         },
-        finishCondId = 11023,
-        order = 6,
+        finishCondId = 31001,
+        order = 32,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570002,
-                [2] = 50,
-            },
-            [2] = {
-                [1] = 570029,
-                [2] = 300,
+                [1] = 500002,
+                [2] = 750,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
         icon = "",
-        completeResult = 2,
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 740041,
+        id = 740032,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 6,
-        type = 34,
-        name = "1311203",
+        progress = 800,
+        type = 33,
+        name = "1311199",
         acceptCondId = 0,
         finishParams = {
+            trainNum = 800,
+            roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320935",
+        des = "1320926",
     },
     [130604] = {
         ext = {
@@ -39213,51 +39441,49 @@ return {
         },
         des = "1320001",
     },
-    [740040] = {
+    [740031] = {
         ext = {
         },
-        finishCondId = 11023,
-        order = 5,
+        finishCondId = 31001,
+        order = 31,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 599605,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 570252,
-                [2] = 1,
+                [1] = 500002,
+                [2] = 750,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
         icon = "",
-        completeResult = 2,
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 740040,
+        id = 740031,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
-        type = 34,
-        name = "1311203",
+        progress = 700,
+        type = 33,
+        name = "1311198",
         acceptCondId = 0,
         finishParams = {
+            trainNum = 700,
+            roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320934",
+        des = "1320925",
     },
     [190011] = {
         ext = {
@@ -39357,51 +39583,49 @@ return {
         },
         des = "1320001",
     },
-    [740039] = {
+    [740030] = {
         ext = {
         },
-        finishCondId = 11023,
-        order = 4,
+        finishCondId = 31001,
+        order = 30,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570029,
-                [2] = 200,
-            },
-            [2] = {
                 [1] = 500002,
-                [2] = 300,
+                [2] = 750,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
         icon = "",
-        completeResult = 2,
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 740039,
+        id = 740030,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4,
-        type = 34,
-        name = "1311203",
+        progress = 600,
+        type = 33,
+        name = "1311197",
         acceptCondId = 0,
         finishParams = {
+            trainNum = 600,
+            roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320933",
+        des = "1320924",
     },
     [121009] = {
         ext = {
@@ -39595,51 +39819,49 @@ return {
         },
         des = "1320001",
     },
-    [740038] = {
+    [740024] = {
         ext = {
         },
-        finishCondId = 11023,
-        order = 3,
+        finishCondId = 31001,
+        order = 24,
         acceptParams = {
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 529032,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 510242,
-                [2] = 20,
+                [1] = 500002,
+                [2] = 540,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
         icon = "",
-        completeResult = 2,
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 740038,
+        id = 740024,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 34,
-        name = "1311203",
+        progress = 250,
+        type = 33,
+        name = "1311191",
         acceptCondId = 0,
         finishParams = {
+            trainNum = 250,
+            roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320932",
+        des = "1320918",
     },
     [190012] = {
         ext = {
@@ -39685,57 +39907,11 @@ return {
         },
         des = "1320473",
     },
-    [740037] = {
-        ext = {
-        },
-        finishCondId = 11023,
-        order = 2,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 570033,
-                [2] = 3,
-            },
-            [2] = {
-                [1] = 520023,
-                [2] = 10,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 740037,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 2,
-        type = 34,
-        name = "1311203",
-        acceptCondId = 0,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320931",
-    },
-    [740032] = {
+    [740023] = {
         ext = {
         },
         finishCondId = 31001,
-        order = 32,
+        order = 23,
         acceptParams = {
         },
         taskCollection = false,
@@ -39743,7 +39919,7 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 750,
+                [2] = 540,
             },
         },
         startDate = {
@@ -39757,29 +39933,29 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740032,
+        id = 740023,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 800,
+        progress = 200,
         type = 33,
-        name = "1311199",
+        name = "1311190",
         acceptCondId = 0,
         finishParams = {
-            trainNum = 800,
+            trainNum = 200,
             roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320926",
+        des = "1320917",
     },
-    [740031] = {
+    [740022] = {
         ext = {
         },
         finishCondId = 31001,
-        order = 31,
+        order = 22,
         acceptParams = {
         },
         taskCollection = false,
@@ -39787,7 +39963,7 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 750,
+                [2] = 360,
             },
         },
         startDate = {
@@ -39801,23 +39977,67 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740031,
+        id = 740022,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 700,
+        progress = 180,
         type = 33,
-        name = "1311198",
+        name = "1311189",
         acceptCondId = 0,
         finishParams = {
-            trainNum = 700,
+            trainNum = 180,
             roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320925",
+        des = "1320916",
+    },
+    [740016] = {
+        ext = {
+        },
+        finishCondId = 31001,
+        order = 16,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 240,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 740016,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 80,
+        type = 33,
+        name = "1311183",
+        acceptCondId = 0,
+        finishParams = {
+            trainNum = 80,
+            roleId = 101,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320910",
     },
     [510905] = {
         ext = {
@@ -39857,11 +40077,11 @@ return {
         },
         des = "272061",
     },
-    [740030] = {
+    [740014] = {
         ext = {
         },
         finishCondId = 31001,
-        order = 30,
+        order = 14,
         acceptParams = {
         },
         taskCollection = false,
@@ -39869,7 +40089,7 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 750,
+                [2] = 240,
             },
         },
         startDate = {
@@ -39883,23 +40103,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740030,
+        id = 740014,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 600,
+        progress = 60,
         type = 33,
-        name = "1311197",
+        name = "1311181",
         acceptCondId = 0,
         finishParams = {
-            trainNum = 600,
+            trainNum = 60,
             roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320924",
+        des = "1320908",
     },
     [130605] = {
         ext = {
@@ -39949,11 +40169,11 @@ return {
         },
         des = "1320001",
     },
-    [740024] = {
+    [740012] = {
         ext = {
         },
         finishCondId = 31001,
-        order = 24,
+        order = 12,
         acceptParams = {
         },
         taskCollection = false,
@@ -39961,7 +40181,7 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 540,
+                [2] = 150,
             },
         },
         startDate = {
@@ -39975,23 +40195,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740024,
+        id = 740012,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 250,
+        progress = 45,
         type = 33,
-        name = "1311191",
+        name = "1311179",
         acceptCondId = 0,
         finishParams = {
-            trainNum = 250,
+            trainNum = 45,
             roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320918",
+        des = "1320906",
     },
     [190013] = {
         ext = {
@@ -40091,11 +40311,11 @@ return {
         },
         des = "1320001",
     },
-    [740023] = {
+    [740010] = {
         ext = {
         },
         finishCondId = 31001,
-        order = 23,
+        order = 10,
         acceptParams = {
         },
         taskCollection = false,
@@ -40103,7 +40323,7 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 540,
+                [2] = 150,
             },
         },
         startDate = {
@@ -40117,23 +40337,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740023,
+        id = 740010,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 200,
+        progress = 35,
         type = 33,
-        name = "1311190",
+        name = "1311177",
         acceptCondId = 0,
         finishParams = {
-            trainNum = 200,
+            trainNum = 35,
             roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320917",
+        des = "1320904",
     },
     [121010] = {
         ext = {
@@ -40327,11 +40547,11 @@ return {
         },
         des = "1320001",
     },
-    [740022] = {
+    [740008] = {
         ext = {
         },
         finishCondId = 31001,
-        order = 22,
+        order = 8,
         acceptParams = {
         },
         taskCollection = false,
@@ -40339,7 +40559,7 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 360,
+                [2] = 150,
             },
         },
         startDate = {
@@ -40353,23 +40573,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740022,
+        id = 740008,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 180,
+        progress = 25,
         type = 33,
-        name = "1311189",
+        name = "1311175",
         acceptCondId = 0,
         finishParams = {
-            trainNum = 180,
+            trainNum = 25,
             roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320916",
+        des = "1320902",
     },
     [190014] = {
         ext = {
@@ -40460,11 +40680,11 @@ return {
         },
         des = "1320677",
     },
-    [740016] = {
+    [740006] = {
         ext = {
         },
         finishCondId = 31001,
-        order = 16,
+        order = 6,
         acceptParams = {
         },
         taskCollection = false,
@@ -40472,7 +40692,7 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 240,
+                [2] = 100,
             },
         },
         startDate = {
@@ -40486,29 +40706,29 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740016,
+        id = 740006,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 80,
+        progress = 15,
         type = 33,
-        name = "1311183",
+        name = "1311173",
         acceptCondId = 0,
         finishParams = {
-            trainNum = 80,
+            trainNum = 15,
             roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320910",
+        des = "1320900",
     },
-    [740014] = {
+    [740004] = {
         ext = {
         },
         finishCondId = 31001,
-        order = 14,
+        order = 4,
         acceptParams = {
         },
         taskCollection = false,
@@ -40516,7 +40736,7 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 240,
+                [2] = 60,
             },
         },
         startDate = {
@@ -40530,29 +40750,29 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740014,
+        id = 740004,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 60,
+        progress = 8,
         type = 33,
-        name = "1311181",
+        name = "1311171",
         acceptCondId = 0,
         finishParams = {
-            trainNum = 60,
+            trainNum = 8,
             roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320908",
+        des = "1320898",
     },
-    [740012] = {
+    [740002] = {
         ext = {
         },
         finishCondId = 31001,
-        order = 12,
+        order = 2,
         acceptParams = {
         },
         taskCollection = false,
@@ -40560,7 +40780,7 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 150,
+                [2] = 30,
             },
         },
         startDate = {
@@ -40574,23 +40794,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740012,
+        id = 740002,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 45,
+        progress = 3,
         type = 33,
-        name = "1311179",
+        name = "1311169",
         acceptCondId = 0,
         finishParams = {
-            trainNum = 45,
+            trainNum = 3,
             roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320906",
+        des = "1320896",
     },
     [319003] = {
         ext = {
@@ -40685,25 +40905,26 @@ return {
         },
         des = "1320001",
     },
-    [740010] = {
+    [737006] = {
         ext = {
         },
-        finishCondId = 31001,
-        order = 10,
+        finishCondId = 17002,
+        order = 3,
         acceptParams = {
+            plvl = 35,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 0,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 150,
+                [1] = 599502,
+                [2] = 5,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_4.png",
         completeResult = 1,
         playerLevel = {
         },
@@ -40711,43 +40932,43 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740010,
+        id = 737006,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 35,
-        type = 33,
-        name = "1311177",
-        acceptCondId = 0,
+        progress = 10,
+        type = 32,
+        name = "14110321",
+        acceptCondId = 10001,
         finishParams = {
-            trainNum = 35,
-            roleId = 101,
+            summonType = 10,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320904",
+        des = "14110315",
     },
-    [740008] = {
+    [737003] = {
         ext = {
         },
-        finishCondId = 31001,
-        order = 8,
+        finishCondId = 17004,
+        order = 3,
         acceptParams = {
+            plvl = 35,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 0,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 150,
+                [1] = 599502,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_4.png",
         completeResult = 1,
         playerLevel = {
         },
@@ -40755,23 +40976,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740008,
+        id = 737003,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 25,
-        type = 33,
-        name = "1311175",
-        acceptCondId = 0,
+        progress = 1,
+        type = 31,
+        name = "14110318",
+        acceptCondId = 10001,
         finishParams = {
-            trainNum = 25,
-            roleId = 101,
+            storeCid = 401000,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320902",
+        des = "14110312",
     },
     [110520] = {
         ext = {
@@ -40827,25 +41047,26 @@ return {
         },
         des = "1320001",
     },
-    [740006] = {
+    [737002] = {
         ext = {
         },
-        finishCondId = 31001,
-        order = 6,
+        finishCondId = 9001,
+        order = 2,
         acceptParams = {
+            plvl = 35,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 0,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 100,
+                [1] = 599502,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_1.png",
         completeResult = 1,
         playerLevel = {
         },
@@ -40853,23 +41074,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740006,
+        id = 737002,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 15,
-        type = 33,
-        name = "1311173",
-        acceptCondId = 0,
+        progress = 1,
+        type = 31,
+        name = "14110317",
+        acceptCondId = 10001,
         finishParams = {
-            trainNum = 15,
-            roleId = 101,
+            teamType = 4,
         },
-        effectiveTime = -1,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "1320900",
+        des = "14110311",
     },
     [121011] = {
         ext = {
@@ -41063,25 +41283,26 @@ return {
         },
         des = "1320001",
     },
-    [740004] = {
+    [737001] = {
         ext = {
         },
-        finishCondId = 31001,
-        order = 4,
+        finishCondId = 9001,
+        order = 1,
         acceptParams = {
+            plvl = 35,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 0,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 60,
+                [1] = 599502,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_1.png",
         completeResult = 1,
         playerLevel = {
         },
@@ -41089,67 +41310,73 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 740004,
+        id = 737001,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 8,
-        type = 33,
-        name = "1311171",
-        acceptCondId = 0,
+        progress = 1,
+        type = 31,
+        name = "14110316",
+        acceptCondId = 10001,
         finishParams = {
-            trainNum = 8,
-            roleId = 101,
+            teamType = 3,
         },
-        effectiveTime = -1,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "1320898",
+        des = "14110310",
     },
-    [740002] = {
+    [520602] = {
         ext = {
         },
-        finishCondId = 31001,
-        order = 2,
+        finishCondId = 9010,
+        order = 9,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 30,
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
-        completeResult = 1,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 740002,
+        id = 520602,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 33,
-        name = "1311169",
-        acceptCondId = 0,
+        progress = 30000,
+        type = 14,
+        name = "",
+        acceptCondId = 10001,
         finishParams = {
-            trainNum = 3,
-            roleId = 101,
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "1320896",
+        des = "272093",
     },
     [319006] = {
         ext = {
@@ -41196,49 +41423,54 @@ return {
         },
         des = "1320681",
     },
-    [737006] = {
+    [736305] = {
         ext = {
         },
-        finishCondId = 17002,
-        order = 3,
+        finishCondId = 2010,
+        order = 6,
         acceptParams = {
-            plvl = 35,
+            rank = 6003,
         },
         taskCollection = false,
-        resetType = 0,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 599502,
-                [2] = 5,
+                [1] = 597002,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 1,
+        icon = "",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 737006,
+        id = 736305,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 10,
-        type = 32,
-        name = "14110321",
+        progress = 1,
+        type = 30,
+        name = "3207053",
         acceptCondId = 10001,
         finishParams = {
-            summonType = 10,
+            subType = 10,
+            superType = 7,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "14110315",
+        des = "3207506",
     },
     [510401] = {
         ext = {
@@ -41298,93 +41530,90 @@ return {
         },
         des = "272022",
     },
-    [737003] = {
+    [520607] = {
         ext = {
         },
-        finishCondId = 17004,
-        order = 3,
+        finishCondId = 0,
+        order = 14,
         acceptParams = {
-            plvl = 35,
         },
         taskCollection = false,
-        resetType = 0,
+        resetType = 3,
         reward = {
-            [1] = {
-                [1] = 599502,
-                [2] = 1,
-            },
         },
         startDate = {
         },
         jumpInterface = 0,
         icon = "ui/task/icon_4.png",
-        completeResult = 1,
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 737003,
+        open = false,
+        id = 520607,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 31,
-        name = "14110318",
-        acceptCondId = 10001,
+        progress = 0,
+        type = 14,
+        name = "",
+        acceptCondId = 0,
         finishParams = {
-            storeCid = 401000,
         },
-        effectiveTime = -1,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "14110312",
+        des = "272098",
     },
-    [737002] = {
+    [736303] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 2,
+        finishCondId = 9016,
+        order = 4,
         acceptParams = {
-            plvl = 35,
+            rank = 6003,
         },
         taskCollection = false,
-        resetType = 0,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 599502,
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
                 [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
+        icon = "",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 737002,
+        id = 736303,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 31,
-        name = "14110317",
+        progress = 6500,
+        type = 30,
+        name = "3207051",
         acceptCondId = 10001,
         finishParams = {
-            teamType = 4,
         },
-        effectiveTime = 1,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "14110311",
+        des = "3207504",
     },
     [130607] = {
         ext = {
@@ -41486,49 +41715,56 @@ return {
         },
         des = "272023",
     },
-    [737001] = {
+    [520701] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 1,
+        finishCondId = 29001,
+        order = 8,
         acceptParams = {
-            plvl = 35,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 0,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 599502,
-                [2] = 1,
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 737001,
+        id = 520701,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 31,
-        name = "14110316",
+        progress = 20000,
+        type = 14,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            teamType = 3,
         },
-        effectiveTime = 1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "14110310",
+        des = "272099",
     },
     [110521] = {
         ext = {
@@ -41868,111 +42104,11 @@ return {
         },
         des = "272025",
     },
-    [520702] = {
+    [520703] = {
         ext = {
         },
-        finishCondId = 9010,
-        order = 9,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 520702,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 30000,
-        type = 14,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = 7,
-        colour1 = {
-        },
-        des = "272100",
-    },
-    [736305] = {
-        ext = {
-        },
-        finishCondId = 2010,
-        order = 6,
-        acceptParams = {
-            rank = 6003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 736305,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 30,
-        name = "3207053",
-        acceptCondId = 10001,
-        finishParams = {
-            subType = 10,
-            superType = 7,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207506",
-    },
-    [520704] = {
-        ext = {
-        },
-        finishCondId = 9001,
-        order = 11,
+        finishCondId = 29002,
+        order = 10,
         acceptParams = {
             plvl = 1,
         },
@@ -42003,22 +42139,111 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520704,
+        id = 520703,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 240,
+        progress = 150,
         type = 14,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 21,
         },
         effectiveTime = 7,
         colour1 = {
         },
-        des = "272102",
+        des = "272101",
+    },
+    [736206] = {
+        ext = {
+        },
+        finishCondId = 8007,
+        order = 7,
+        acceptParams = {
+            rank = 6002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597002,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 736206,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 30,
+        name = "3207054",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207507",
+    },
+    [326005] = {
+        ext = {
+        },
+        finishCondId = 3001,
+        order = 211,
+        acceptParams = {
+            pre_task_id = 326004,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 1500,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_4.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 326005,
+        extendsTaskId = 326004,
+        subType = 2,
+        endDate = {
+        },
+        progress = 90,
+        type = 3,
+        name = "1310722",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320722",
     },
     [510405] = {
         ext = {
@@ -42058,30 +42283,34 @@ return {
         },
         des = "272026",
     },
-    [736303] = {
+    [510803] = {
         ext = {
         },
-        finishCondId = 9016,
-        order = 4,
+        finishCondId = 25001,
+        order = 3,
         acceptParams = {
-            rank = 6003,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 597001,
-                [2] = 1,
+                [1] = 500037,
+                [2] = 20,
             },
             [2] = {
-                [1] = 500100,
-                [2] = 1,
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 77,
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -42089,59 +42318,72 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 736303,
+        id = 510803,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 6500,
-        type = 30,
-        name = "3207051",
+        progress = 1,
+        type = 13,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = -1,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "3207504",
+        des = "272052",
     },
-    [520706] = {
+    [510707] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 13,
+        finishCondId = 9011,
+        order = 7,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 100,
+            },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 0,
+        jumpInterface = 39,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 520706,
+        open = true,
+        id = 510707,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 0,
-        type = 14,
+        progress = 80,
+        type = 13,
         name = "",
-        acceptCondId = 0,
+        acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = 0,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "272104",
+        des = "272049",
     },
     [130608] = {
         ext = {
@@ -42245,34 +42487,30 @@ return {
         },
         des = "1320001",
     },
-    [520801] = {
+    [736202] = {
         ext = {
         },
-        finishCondId = 29001,
-        order = 8,
+        finishCondId = 9015,
+        order = 3,
         acceptParams = {
-            plvl = 1,
+            rank = 6002,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 100,
+                [1] = 597001,
+                [2] = 1,
             },
             [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
+                [1] = 500100,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -42280,21 +42518,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520801,
+        id = 736202,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 20000,
-        type = 14,
-        name = "",
+        progress = 140,
+        type = 30,
+        name = "3207050",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 20,
         },
-        effectiveTime = 7,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272106",
+        des = "3207503",
     },
     [110522] = {
         ext = {
@@ -42350,24 +42589,21 @@ return {
         },
         des = "1320001",
     },
-    [736206] = {
+    [722004] = {
         ext = {
         },
-        finishCondId = 8007,
-        order = 7,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            rank = 6002,
+            pre_task_id = 721010,
+            Contracttype = 3,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
+                [1] = 500002,
+                [2] = 400,
             },
         },
         startDate = {
@@ -42381,21 +42617,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 736206,
+        id = 722004,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 30,
-        name = "3207054",
+        type = 21,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
+            plvl = 44,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207507",
+        des = "1325123",
     },
     [121013] = {
         ext = {
@@ -42589,240 +42826,6 @@ return {
         },
         des = "1320001",
     },
-    [722004] = {
-        ext = {
-        },
-        finishCondId = 17010,
-        order = 1,
-        acceptParams = {
-            pre_task_id = 721010,
-            Contracttype = 3,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 400,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 722004,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 21,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            plvl = 44,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1325123",
-    },
-    [722006] = {
-        ext = {
-        },
-        finishCondId = 17010,
-        order = 1,
-        acceptParams = {
-            pre_task_id = 721010,
-            Contracttype = 3,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 500,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 722006,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 21,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            plvl = 46,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1325125",
-    },
-    [722008] = {
-        ext = {
-        },
-        finishCondId = 17010,
-        order = 1,
-        acceptParams = {
-            pre_task_id = 721010,
-            Contracttype = 3,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 400,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 722008,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 21,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            plvl = 48,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1325127",
-    },
-    [736202] = {
-        ext = {
-        },
-        finishCondId = 9015,
-        order = 3,
-        acceptParams = {
-            rank = 6002,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 736202,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 140,
-        type = 30,
-        name = "3207050",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 20,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207503",
-    },
-    [510707] = {
-        ext = {
-        },
-        finishCondId = 9011,
-        order = 7,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 100,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 39,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 510707,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 80,
-        type = 13,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = 7,
-        colour1 = {
-        },
-        des = "272049",
-    },
     [736106] = {
         ext = {
         },
@@ -42918,6 +42921,244 @@ return {
         colour1 = {
         },
         des = "3207506",
+    },
+    [736104] = {
+        ext = {
+        },
+        finishCondId = 9017,
+        order = 5,
+        acceptParams = {
+            rank = 6001,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 736104,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 3000000,
+        type = 30,
+        name = "3207052",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207505",
+    },
+    [736103] = {
+        ext = {
+        },
+        finishCondId = 9016,
+        order = 4,
+        acceptParams = {
+            rank = 6001,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 736103,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 5500,
+        type = 30,
+        name = "3207051",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207504",
+    },
+    [736102] = {
+        ext = {
+        },
+        finishCondId = 9015,
+        order = 3,
+        acceptParams = {
+            rank = 6001,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 736102,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 120,
+        type = 30,
+        name = "3207050",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207503",
+    },
+    [732104] = {
+        ext = {
+        },
+        finishCondId = 9017,
+        order = 5,
+        acceptParams = {
+            rank = 2001,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 732104,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 600000,
+        type = 30,
+        name = "3207028",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207505",
+    },
+    [735306] = {
+        ext = {
+        },
+        finishCondId = 8007,
+        order = 7,
+        acceptParams = {
+            rank = 5003,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597002,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 735306,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 30,
+        name = "3207048",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207507",
     },
     [130609] = {
         ext = {
@@ -43021,19 +43262,19 @@ return {
         },
         des = "1320001",
     },
-    [736104] = {
+    [735305] = {
         ext = {
         },
-        finishCondId = 9017,
-        order = 5,
+        finishCondId = 2010,
+        order = 6,
         acceptParams = {
-            rank = 6001,
+            rank = 5003,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597001,
+                [1] = 597002,
                 [2] = 1,
             },
             [2] = {
@@ -43052,22 +43293,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 736104,
+        id = 735305,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3000000,
+        progress = 1,
         type = 30,
-        name = "3207052",
+        name = "3207047",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
+            subType = 10,
+            superType = 7,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207505",
+        des = "3207506",
     },
     [110523] = {
         ext = {
@@ -43123,13 +43365,13 @@ return {
         },
         des = "1320001",
     },
-    [736103] = {
+    [735304] = {
         ext = {
         },
-        finishCondId = 9016,
-        order = 4,
+        finishCondId = 9017,
+        order = 5,
         acceptParams = {
-            rank = 6001,
+            rank = 5003,
         },
         taskCollection = false,
         resetType = 1,
@@ -43154,21 +43396,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 736103,
+        id = 735304,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5500,
+        progress = 3000000,
         type = 30,
-        name = "3207051",
+        name = "3207046",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207504",
+        des = "3207505",
     },
     [121014] = {
         ext = {
@@ -43407,245 +43650,6 @@ return {
         },
         des = "1320499",
     },
-    [736102] = {
-        ext = {
-        },
-        finishCondId = 9015,
-        order = 3,
-        acceptParams = {
-            rank = 6001,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 736102,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 120,
-        type = 30,
-        name = "3207050",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 20,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207503",
-    },
-    [732203] = {
-        ext = {
-        },
-        finishCondId = 9016,
-        order = 4,
-        acceptParams = {
-            rank = 2002,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 732203,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 3500,
-        type = 30,
-        name = "3207027",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207504",
-    },
-    [735306] = {
-        ext = {
-        },
-        finishCondId = 8007,
-        order = 7,
-        acceptParams = {
-            rank = 5003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 735306,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 30,
-        name = "3207048",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207507",
-    },
-    [735305] = {
-        ext = {
-        },
-        finishCondId = 2010,
-        order = 6,
-        acceptParams = {
-            rank = 5003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 735305,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 30,
-        name = "3207047",
-        acceptCondId = 10001,
-        finishParams = {
-            subType = 10,
-            superType = 7,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207506",
-    },
-    [735304] = {
-        ext = {
-        },
-        finishCondId = 9017,
-        order = 5,
-        acceptParams = {
-            rank = 5003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 735304,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 3000000,
-        type = 30,
-        name = "3207046",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 20,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207505",
-    },
     [735303] = {
         ext = {
         },
@@ -43692,6 +43696,249 @@ return {
         colour1 = {
         },
         des = "3207504",
+    },
+    [735302] = {
+        ext = {
+        },
+        finishCondId = 9015,
+        order = 3,
+        acceptParams = {
+            rank = 5003,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 735302,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 140,
+        type = 30,
+        name = "3207044",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207503",
+    },
+    [735301] = {
+        ext = {
+        },
+        finishCondId = 9001,
+        order = 2,
+        acceptParams = {
+            rank = 5003,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597002,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 735301,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 23,
+        type = 30,
+        name = "3207043",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207502",
+    },
+    [710002] = {
+        ext = {
+        },
+        finishCondId = 11012,
+        order = 2,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 4,
+        reward = {
+            [1] = {
+                [1] = 580043,
+                [2] = 5,
+            },
+            [2] = {
+                [1] = 510153,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 510103,
+                [2] = 2,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_5.png",
+        completeResult = 2,
+        playerLevel = {
+            [1] = 1,
+            [2] = 70,
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 710002,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 200,
+        type = 19,
+        name = "1310877",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320876",
+    },
+    [735205] = {
+        ext = {
+        },
+        finishCondId = 2010,
+        order = 6,
+        acceptParams = {
+            rank = 5002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597002,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 735205,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 30,
+        name = "3207047",
+        acceptCondId = 10001,
+        finishParams = {
+            subType = 10,
+            superType = 7,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207506",
+    },
+    [720001] = {
+        ext = {
+        },
+        finishCondId = 17010,
+        order = 1,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 1888,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 720001,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 21,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            Contracttype = 1,
+            plvl = 5,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1325100",
     },
     [130610] = {
         ext = {
@@ -43795,13 +44042,13 @@ return {
         },
         des = "1320001",
     },
-    [735302] = {
+    [735203] = {
         ext = {
         },
-        finishCondId = 9015,
-        order = 3,
+        finishCondId = 9016,
+        order = 4,
         acceptParams = {
-            rank = 5003,
+            rank = 5002,
         },
         taskCollection = false,
         resetType = 1,
@@ -43826,22 +44073,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 735302,
+        id = 735203,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 140,
+        progress = 5500,
         type = 30,
-        name = "3207044",
+        name = "3207045",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207503",
+        des = "3207504",
     },
     [110524] = {
         ext = {
@@ -43897,19 +44143,19 @@ return {
         },
         des = "1320001",
     },
-    [735301] = {
+    [735202] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 2,
+        finishCondId = 9015,
+        order = 3,
         acceptParams = {
-            rank = 5003,
+            rank = 5002,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597002,
+                [1] = 597001,
                 [2] = 1,
             },
             [2] = {
@@ -43928,14 +44174,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 735301,
+        id = 735202,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 23,
+        progress = 120,
         type = 30,
-        name = "3207043",
+        name = "3207044",
         acceptCondId = 10001,
         finishParams = {
             dunType = 20,
@@ -43943,7 +44189,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207502",
+        des = "3207503",
     },
     [121015] = {
         ext = {
@@ -44137,238 +44383,6 @@ return {
         },
         des = "1320001",
     },
-    [401013] = {
-        ext = {
-        },
-        finishCondId = 17016,
-        order = 1,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = true,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 570507,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 0,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 401013,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 30,
-        type = 15,
-        name = "1325383",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1326396",
-    },
-    [735205] = {
-        ext = {
-        },
-        finishCondId = 2010,
-        order = 6,
-        acceptParams = {
-            rank = 5002,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 735205,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 30,
-        name = "3207047",
-        acceptCondId = 10001,
-        finishParams = {
-            subType = 10,
-            superType = 7,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207506",
-    },
-    [720006] = {
-        ext = {
-        },
-        finishCondId = 17010,
-        order = 1,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 300,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 720006,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 21,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            Contracttype = 1,
-            plvl = 18,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1325105",
-    },
-    [735203] = {
-        ext = {
-        },
-        finishCondId = 9016,
-        order = 4,
-        acceptParams = {
-            rank = 5002,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 735203,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 5500,
-        type = 30,
-        name = "3207045",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207504",
-    },
-    [735202] = {
-        ext = {
-        },
-        finishCondId = 9015,
-        order = 3,
-        acceptParams = {
-            rank = 5002,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 735202,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 120,
-        type = 30,
-        name = "3207044",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 20,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207503",
-    },
     [735201] = {
         ext = {
         },
@@ -44463,6 +44477,238 @@ return {
         colour1 = {
         },
         des = "3207507",
+    },
+    [735105] = {
+        ext = {
+        },
+        finishCondId = 2010,
+        order = 6,
+        acceptParams = {
+            rank = 5001,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597002,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 735105,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 30,
+        name = "3207047",
+        acceptCondId = 10001,
+        finishParams = {
+            subType = 10,
+            superType = 7,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207506",
+    },
+    [735104] = {
+        ext = {
+        },
+        finishCondId = 9017,
+        order = 5,
+        acceptParams = {
+            rank = 5001,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 735104,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 2000000,
+        type = 30,
+        name = "3207046",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207505",
+    },
+    [735103] = {
+        ext = {
+        },
+        finishCondId = 9016,
+        order = 4,
+        acceptParams = {
+            rank = 5001,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 735103,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 5000,
+        type = 30,
+        name = "3207045",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207504",
+    },
+    [720008] = {
+        ext = {
+        },
+        finishCondId = 17010,
+        order = 1,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 200,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 720008,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 21,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            Contracttype = 1,
+            plvl = 24,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1325107",
+    },
+    [370003] = {
+        ext = {
+        },
+        finishCondId = 11009,
+        order = 3,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = true,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 520257,
+                [2] = 5,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 0,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 370003,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 700,
+        type = 37,
+        name = "1711003",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1711203",
     },
     [130611] = {
         ext = {
@@ -44566,13 +44812,13 @@ return {
         },
         des = "1320001",
     },
-    [735105] = {
+    [734306] = {
         ext = {
         },
-        finishCondId = 2010,
-        order = 6,
+        finishCondId = 8007,
+        order = 7,
         acceptParams = {
-            rank = 5001,
+            rank = 4003,
         },
         taskCollection = false,
         resetType = 1,
@@ -44597,23 +44843,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 735105,
+        id = 734306,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
         type = 30,
-        name = "3207047",
+        name = "3207042",
         acceptCondId = 10001,
         finishParams = {
-            subType = 10,
-            superType = 7,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207506",
+        des = "3207507",
     },
     [110525] = {
         ext = {
@@ -44669,30 +44913,34 @@ return {
         },
         des = "1320001",
     },
-    [735104] = {
+    [510202] = {
         ext = {
         },
-        finishCondId = 9017,
-        order = 5,
+        finishCondId = 9001,
+        order = 2,
         acceptParams = {
-            rank = 5001,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 597001,
-                [2] = 1,
+                [1] = 500037,
+                [2] = 20,
             },
             [2] = {
-                [1] = 500100,
-                [2] = 1,
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 76,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -44700,22 +44948,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 735104,
+        id = 510202,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2000000,
-        type = 30,
-        name = "3207046",
+        progress = 3,
+        type = 13,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
+            bossType = 999,
         },
-        effectiveTime = -1,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "3207505",
+        des = "272009",
     },
     [121016] = {
         ext = {
@@ -44953,13 +45201,13 @@ return {
         },
         des = "1320671",
     },
-    [735103] = {
+    [734304] = {
         ext = {
         },
-        finishCondId = 9016,
-        order = 4,
+        finishCondId = 9017,
+        order = 5,
         acceptParams = {
-            rank = 5001,
+            rank = 4003,
         },
         taskCollection = false,
         resetType = 1,
@@ -44984,46 +45232,51 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 735103,
+        id = 734304,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5000,
+        progress = 1500000,
         type = 30,
-        name = "3207045",
+        name = "3207040",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207504",
+        des = "3207505",
     },
-    [731106] = {
+    [510203] = {
         ext = {
         },
-        finishCondId = 8007,
-        order = 7,
+        finishCondId = 25001,
+        order = 3,
         acceptParams = {
-            rank = 1001,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 597001,
-                [2] = 1,
+                [1] = 500037,
+                [2] = 20,
             },
             [2] = {
-                [1] = 500100,
-                [2] = 1,
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 77,
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -45031,29 +45284,29 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 731106,
+        id = 510203,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 30,
-        name = "3207024",
+        type = 13,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = -1,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "3207507",
+        des = "272010",
     },
-    [731202] = {
+    [734302] = {
         ext = {
         },
         finishCondId = 9015,
         order = 3,
         acceptParams = {
-            rank = 1002,
+            rank = 4003,
         },
         taskCollection = false,
         resetType = 1,
@@ -45078,14 +45331,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 731202,
+        id = 734302,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 25,
+        progress = 100,
         type = 30,
-        name = "3207020",
+        name = "3207038",
         acceptCondId = 10001,
         finishParams = {
             dunType = 20,
@@ -45139,53 +45392,6 @@ return {
         },
         des = "1320672",
     },
-    [734306] = {
-        ext = {
-        },
-        finishCondId = 8007,
-        order = 7,
-        acceptParams = {
-            rank = 4003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 734306,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 30,
-        name = "3207042",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207507",
-    },
     [510306] = {
         ext = {
         },
@@ -45223,6 +45429,50 @@ return {
         colour1 = {
         },
         des = "272020",
+    },
+    [700002] = {
+        ext = {
+        },
+        finishCondId = 2003,
+        order = 2,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 580039,
+                [2] = 50,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = false,
+        id = 700002,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 60,
+        type = 18,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            itemId = 595010,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
     },
     [130612] = {
         ext = {
@@ -45326,24 +45576,20 @@ return {
         },
         des = "1320001",
     },
-    [734304] = {
+    [700004] = {
         ext = {
         },
-        finishCondId = 9017,
-        order = 5,
+        finishCondId = 2003,
+        order = 4,
         acceptParams = {
-            rank = 4003,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
+                [1] = 580039,
+                [2] = 100,
             },
         },
         startDate = {
@@ -45356,23 +45602,23 @@ return {
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 734304,
+        open = false,
+        id = 700004,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1500000,
-        type = 30,
-        name = "3207040",
+        progress = 120,
+        type = 18,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
+            itemId = 595010,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207505",
+        des = "",
     },
     [110526] = {
         ext = {
@@ -45428,56 +45674,48 @@ return {
         },
         des = "1320001",
     },
-    [510403] = {
+    [700009] = {
         ext = {
         },
-        finishCondId = 25001,
-        order = 3,
+        finishCondId = 17008,
+        order = 18,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 700008,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
+                [1] = 580039,
                 [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 77,
-        icon = "ui/task/icon_4.png",
+        jumpInterface = 0,
+        icon = "ui/task/icon_7.png",
         completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 510403,
-        extendsTaskId = 0,
+        open = false,
+        id = 700009,
+        extendsTaskId = 700008,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 13,
-        name = "",
+        progress = 8,
+        type = 17,
+        name = "1310850",
         acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = 1,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272024",
+        des = "1320850",
     },
     [121017] = {
         ext = {
@@ -45715,13 +45953,13 @@ return {
         },
         des = "1320675",
     },
-    [734302] = {
+    [734203] = {
         ext = {
         },
-        finishCondId = 9015,
-        order = 3,
+        finishCondId = 9016,
+        order = 4,
         acceptParams = {
-            rank = 4003,
+            rank = 4002,
         },
         taskCollection = false,
         resetType = 1,
@@ -45746,12 +45984,59 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 734302,
+        id = 734203,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 100,
+        progress = 5000,
+        type = 30,
+        name = "3207039",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207504",
+    },
+    [734202] = {
+        ext = {
+        },
+        finishCondId = 9015,
+        order = 3,
+        acceptParams = {
+            rank = 4002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 734202,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 90,
         type = 30,
         name = "3207038",
         acceptCondId = 10001,
@@ -45762,57 +46047,6 @@ return {
         colour1 = {
         },
         des = "3207503",
-    },
-    [510507] = {
-        ext = {
-        },
-        finishCondId = 9011,
-        order = 7,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 100,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 39,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 510507,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 80,
-        type = 13,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = 7,
-        colour1 = {
-        },
-        des = "272035",
     },
     [130101] = {
         ext = {
@@ -45912,56 +46146,13 @@ return {
         },
         des = "1320891",
     },
-    [700010] = {
+    [700011] = {
         ext = {
         },
         finishCondId = 17008,
-        order = 19,
+        order = 20,
         acceptParams = {
-            pre_task_id = 700009,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 580039,
-                [2] = 20,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_7.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 700010,
-        extendsTaskId = 700009,
-        subType = 2,
-        endDate = {
-        },
-        progress = 10,
-        type = 17,
-        name = "1310851",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320851",
-    },
-    [700012] = {
-        ext = {
-        },
-        finishCondId = 17008,
-        order = 21,
-        acceptParams = {
-            pre_task_id = 700011,
+            pre_task_id = 700010,
         },
         taskCollection = false,
         resetType = 1,
@@ -45982,64 +46173,117 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 700012,
-        extendsTaskId = 700011,
+        id = 700011,
+        extendsTaskId = 700010,
         subType = 2,
         endDate = {
         },
-        progress = 20,
+        progress = 15,
         type = 17,
-        name = "1310853",
+        name = "1310852",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320853",
+        des = "1320852",
     },
-    [700022] = {
+    [734106] = {
         ext = {
         },
-        finishCondId = 17009,
-        order = 31,
+        finishCondId = 8007,
+        order = 7,
         acceptParams = {
-            pre_task_id = 700021,
+            rank = 4001,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 580037,
+                [1] = 597002,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
                 [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 700022,
-        extendsTaskId = 700021,
+        open = true,
+        id = 734106,
+        extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4,
-        type = 17,
-        name = "1310863",
+        progress = 1,
+        type = 30,
+        name = "3207042",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320862",
+        des = "3207507",
+    },
+    [734105] = {
+        ext = {
+        },
+        finishCondId = 2010,
+        order = 6,
+        acceptParams = {
+            rank = 4001,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597002,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 734105,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 30,
+        name = "3207041",
+        acceptCondId = 10001,
+        finishParams = {
+            subType = 10,
+            superType = 7,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207506",
     },
     [120506] = {
         ext = {
@@ -46095,13 +46339,13 @@ return {
         },
         des = "1320001",
     },
-    [734203] = {
+    [734104] = {
         ext = {
         },
-        finishCondId = 9016,
-        order = 4,
+        finishCondId = 9017,
+        order = 5,
         acceptParams = {
-            rank = 4002,
+            rank = 4001,
         },
         taskCollection = false,
         resetType = 1,
@@ -46126,21 +46370,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 734203,
+        id = 734104,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5000,
+        progress = 1000000,
         type = 30,
-        name = "3207039",
+        name = "3207040",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207504",
+        des = "3207505",
     },
     [110527] = {
         ext = {
@@ -46196,13 +46441,13 @@ return {
         },
         des = "1320001",
     },
-    [734202] = {
+    [734103] = {
         ext = {
         },
-        finishCondId = 9015,
-        order = 3,
+        finishCondId = 9016,
+        order = 4,
         acceptParams = {
-            rank = 4002,
+            rank = 4001,
         },
         taskCollection = false,
         resetType = 1,
@@ -46227,22 +46472,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 734202,
+        id = 734103,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 90,
+        progress = 4500,
         type = 30,
-        name = "3207038",
+        name = "3207039",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207503",
+        des = "3207504",
     },
     [121018] = {
         ext = {
@@ -46436,294 +46680,6 @@ return {
         },
         des = "1320001",
     },
-    [700026] = {
-        ext = {
-        },
-        finishCondId = 17009,
-        order = 35,
-        acceptParams = {
-            pre_task_id = 700025,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 580037,
-                [2] = 2,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 700026,
-        extendsTaskId = 700025,
-        subType = 2,
-        endDate = {
-        },
-        progress = 15,
-        type = 17,
-        name = "1310867",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320866",
-    },
-    [734106] = {
-        ext = {
-        },
-        finishCondId = 8007,
-        order = 7,
-        acceptParams = {
-            rank = 4001,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 734106,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 30,
-        name = "3207042",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207507",
-    },
-    [734105] = {
-        ext = {
-        },
-        finishCondId = 2010,
-        order = 6,
-        acceptParams = {
-            rank = 4001,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 734105,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 30,
-        name = "3207041",
-        acceptCondId = 10001,
-        finishParams = {
-            subType = 10,
-            superType = 7,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207506",
-    },
-    [130102] = {
-        ext = {
-        },
-        finishCondId = 9007,
-        order = 610,
-        acceptParams = {
-            pre_task_id = 130101,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500005,
-                [2] = 18,
-            },
-            [2] = {
-                [1] = 500001,
-                [2] = 600,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 37,
-        icon = "ui/task/chapter_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-            b = 75,
-            g = 124,
-            r = 235,
-        },
-        typeDes = "1330002",
-        open = true,
-        id = 130102,
-        extendsTaskId = 0,
-        subType = 1,
-        endDate = {
-        },
-        progress = 1,
-        type = 1,
-        name = "1310373",
-        acceptCondId = 10001,
-        finishParams = {
-            dunId = 301102,
-        },
-        effectiveTime = -1,
-        colour1 = {
-            b = 99,
-            g = 163,
-            r = 243,
-        },
-        des = "1320001",
-    },
-    [734104] = {
-        ext = {
-        },
-        finishCondId = 9017,
-        order = 5,
-        acceptParams = {
-            rank = 4001,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 734104,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1000000,
-        type = 30,
-        name = "3207040",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 20,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207505",
-    },
-    [734103] = {
-        ext = {
-        },
-        finishCondId = 9016,
-        order = 4,
-        acceptParams = {
-            rank = 4001,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 734103,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 4500,
-        type = 30,
-        name = "3207039",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207504",
-    },
     [734102] = {
         ext = {
         },
@@ -46820,6 +46776,299 @@ return {
         },
         des = "3207502",
     },
+    [733306] = {
+        ext = {
+        },
+        finishCondId = 8007,
+        order = 7,
+        acceptParams = {
+            rank = 3003,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 733306,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 30,
+        name = "3207036",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207507",
+    },
+    [130102] = {
+        ext = {
+        },
+        finishCondId = 9007,
+        order = 610,
+        acceptParams = {
+            pre_task_id = 130101,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500005,
+                [2] = 18,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 600,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 37,
+        icon = "ui/task/chapter_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+            b = 75,
+            g = 124,
+            r = 235,
+        },
+        typeDes = "1330002",
+        open = true,
+        id = 130102,
+        extendsTaskId = 0,
+        subType = 1,
+        endDate = {
+        },
+        progress = 1,
+        type = 1,
+        name = "1310373",
+        acceptCondId = 10001,
+        finishParams = {
+            dunId = 301102,
+        },
+        effectiveTime = -1,
+        colour1 = {
+            b = 99,
+            g = 163,
+            r = 243,
+        },
+        des = "1320001",
+    },
+    [733305] = {
+        ext = {
+        },
+        finishCondId = 2010,
+        order = 6,
+        acceptParams = {
+            rank = 3003,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 733305,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 30,
+        name = "3207035",
+        acceptCondId = 10001,
+        finishParams = {
+            subType = 10,
+            superType = 7,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207506",
+    },
+    [733304] = {
+        ext = {
+        },
+        finishCondId = 9017,
+        order = 5,
+        acceptParams = {
+            rank = 3003,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 733304,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1000000,
+        type = 30,
+        name = "3207034",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207505",
+    },
+    [733303] = {
+        ext = {
+        },
+        finishCondId = 9016,
+        order = 4,
+        acceptParams = {
+            rank = 3003,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 733303,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 5000,
+        type = 30,
+        name = "3207033",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207504",
+    },
+    [733302] = {
+        ext = {
+        },
+        finishCondId = 9015,
+        order = 3,
+        acceptParams = {
+            rank = 3003,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 733302,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 80,
+        type = 30,
+        name = "3207032",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207503",
+    },
     [120507] = {
         ext = {
         },
@@ -46874,11 +47123,11 @@ return {
         },
         des = "1320001",
     },
-    [733306] = {
+    [733301] = {
         ext = {
         },
-        finishCondId = 8007,
-        order = 7,
+        finishCondId = 9001,
+        order = 2,
         acceptParams = {
             rank = 3003,
         },
@@ -46905,21 +47154,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 733306,
+        id = 733301,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
+        progress = 17,
         type = 30,
-        name = "3207036",
+        name = "3207031",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207507",
+        des = "3207502",
     },
     [110528] = {
         ext = {
@@ -46975,30 +47225,34 @@ return {
         },
         des = "1320001",
     },
-    [733305] = {
+    [521002] = {
         ext = {
         },
-        finishCondId = 2010,
-        order = 6,
+        finishCondId = 9010,
+        order = 9,
         acceptParams = {
-            rank = 3003,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 597001,
-                [2] = 1,
+                [1] = 500037,
+                [2] = 100,
             },
             [2] = {
-                [1] = 500100,
-                [2] = 1,
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -47006,23 +47260,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 733305,
+        id = 521002,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 30,
-        name = "3207035",
+        progress = 30000,
+        type = 14,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            subType = 10,
-            superType = 7,
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "3207506",
+        des = "272121",
     },
     [121019] = {
         ext = {
@@ -47216,13 +47468,13 @@ return {
         },
         des = "1320001",
     },
-    [733304] = {
+    [733205] = {
         ext = {
         },
-        finishCondId = 9017,
-        order = 5,
+        finishCondId = 2010,
+        order = 6,
         acceptParams = {
-            rank = 3003,
+            rank = 3002,
         },
         taskCollection = false,
         resetType = 1,
@@ -47247,30 +47499,82 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 733304,
+        id = 733205,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1000000,
+        progress = 1,
         type = 30,
-        name = "3207034",
+        name = "3207035",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
+            subType = 10,
+            superType = 7,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207505",
+        des = "3207506",
     },
-    [733303] = {
+    [600002] = {
+        ext = {
+        },
+        finishCondId = 12006,
+        order = 2,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 302001,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 600002,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 10,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            datingId = {
+                [1] = 9702128,
+                [2] = 9703118,
+                [3] = 9801128,
+                [4] = 9801217,
+                [5] = 9603123,
+                [6] = 9503316,
+            },
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [733203] = {
         ext = {
         },
         finishCondId = 9016,
         order = 4,
         acceptParams = {
-            rank = 3003,
+            rank = 3002,
         },
         taskCollection = false,
         resetType = 1,
@@ -47295,12 +47599,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 733303,
+        id = 733203,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5000,
+        progress = 4500,
         type = 30,
         name = "3207033",
         acceptCondId = 10001,
@@ -47310,54 +47614,6 @@ return {
         colour1 = {
         },
         des = "3207504",
-    },
-    [733302] = {
-        ext = {
-        },
-        finishCondId = 9015,
-        order = 3,
-        acceptParams = {
-            rank = 3003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 733302,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 80,
-        type = 30,
-        name = "3207032",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 20,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207503",
     },
     [130103] = {
         ext = {
@@ -47413,111 +47669,11 @@ return {
         },
         des = "1320001",
     },
-    [733301] = {
+    [733202] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 2,
-        acceptParams = {
-            rank = 3003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 733301,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 17,
-        type = 30,
-        name = "3207031",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 20,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207502",
-    },
-    [600005] = {
-        ext = {
-        },
-        finishCondId = 12006,
-        order = 1,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 300002,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 600005,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 10,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            datingId = {
-                [1] = 123501719,
-                [2] = 123801120,
-                [3] = 123501234,
-                [4] = 123401331,
-                [5] = 123501610,
-                [6] = 123501430,
-                [7] = 123501550,
-            },
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "",
-    },
-    [733205] = {
-        ext = {
-        },
-        finishCondId = 2010,
-        order = 6,
+        finishCondId = 9015,
+        order = 3,
         acceptParams = {
             rank = 3002,
         },
@@ -47544,7 +47700,157 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 733205,
+        id = 733202,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 70,
+        type = 30,
+        name = "3207032",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207503",
+    },
+    [600004] = {
+        ext = {
+        },
+        finishCondId = 12006,
+        order = 4,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 300003,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 600004,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 10,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            datingId = {
+                [1] = 120701135,
+                [2] = 120502110,
+                [3] = 120603212,
+                [4] = 120703208,
+                [5] = 120605110,
+                [6] = 120501225,
+                [7] = 120704211,
+                [8] = 120604112,
+                [9] = 120605206,
+                [10] = 120704306,
+            },
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [733106] = {
+        ext = {
+        },
+        finishCondId = 8007,
+        order = 7,
+        acceptParams = {
+            rank = 3001,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 733106,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 30,
+        name = "3207036",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207507",
+    },
+    [733105] = {
+        ext = {
+        },
+        finishCondId = 2010,
+        order = 6,
+        acceptParams = {
+            rank = 3001,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 733105,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -47561,58 +47867,6 @@ return {
         colour1 = {
         },
         des = "3207506",
-    },
-    [600010] = {
-        ext = {
-        },
-        finishCondId = 12006,
-        order = 2,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 300005,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 600010,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 10,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            datingId = {
-                [1] = 29705227,
-                [2] = 29705320,
-                [3] = 29705126,
-                [4] = 29801127,
-                [5] = 29703206,
-                [6] = 29703112,
-                [7] = 29803122,
-            },
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "",
     },
     [120508] = {
         ext = {
@@ -47776,13 +48030,13 @@ return {
         },
         des = "1320001",
     },
-    [733203] = {
+    [733104] = {
         ext = {
         },
-        finishCondId = 9016,
-        order = 4,
+        finishCondId = 9017,
+        order = 5,
         acceptParams = {
-            rank = 3002,
+            rank = 3001,
         },
         taskCollection = false,
         resetType = 1,
@@ -47807,21 +48061,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 733203,
+        id = 733104,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4500,
+        progress = 800000,
         type = 30,
-        name = "3207033",
+        name = "3207034",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207504",
+        des = "3207505",
     },
     [121020] = {
         ext = {
@@ -48015,74 +48270,34 @@ return {
         },
         des = "1320001",
     },
-    [733202] = {
+    [513002] = {
         ext = {
         },
-        finishCondId = 9015,
-        order = 3,
-        acceptParams = {
-            rank = 3002,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 733202,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 70,
-        type = 30,
-        name = "3207032",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 20,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207503",
-    },
-    [600011] = {
-        ext = {
-        },
-        finishCondId = 12006,
-        order = 3,
+        finishCondId = 9001,
+        order = 2,
         acceptParams = {
             plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 301001,
-                [2] = 1,
+                [1] = 500037,
+                [2] = 20,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
+        jumpInterface = 76,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -48090,39 +48305,28 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 600011,
+        id = 513002,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 10,
+        progress = 3,
+        type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            datingId = {
-                [1] = 119501117,
-                [2] = 119502214,
-                [3] = 119502709,
-                [4] = 119402513,
-                [5] = 119502816,
-                [6] = 119501217,
-                [7] = 119501516,
-                [8] = 119503510,
-                [9] = 119502422,
-                [10] = 119501722,
-            },
+            bossType = 999,
         },
-        effectiveTime = -1,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "",
+        des = "272065",
     },
-    [733106] = {
+    [733102] = {
         ext = {
         },
-        finishCondId = 8007,
-        order = 7,
+        finishCondId = 9015,
+        order = 3,
         acceptParams = {
             rank = 3001,
         },
@@ -48149,21 +48353,63 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 733106,
+        id = 733102,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 60,
+        type = 30,
+        name = "3207032",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207503",
+    },
+    [723019] = {
+        ext = {
+        },
+        finishCondId = 17010,
+        order = 1,
+        acceptParams = {
+            pre_task_id = 722010,
+            Contracttype = 5,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 723019,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 30,
-        name = "3207036",
+        type = 21,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
+            plvl = 69,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207507",
+        des = "1325148",
     },
     [130104] = {
         ext = {
@@ -48219,13 +48465,13 @@ return {
         },
         des = "1320001",
     },
-    [733105] = {
+    [732306] = {
         ext = {
         },
-        finishCondId = 2010,
-        order = 6,
+        finishCondId = 8007,
+        order = 7,
         acceptParams = {
-            rank = 3001,
+            rank = 2003,
         },
         taskCollection = false,
         resetType = 1,
@@ -48250,23 +48496,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 733105,
+        id = 732306,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
         type = 30,
-        name = "3207035",
+        name = "3207030",
         acceptCondId = 10001,
         finishParams = {
-            subType = 10,
-            superType = 7,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207506",
+        des = "3207507",
     },
     [339001] = {
         ext = {
@@ -48318,13 +48562,13 @@ return {
         },
         des = "1320809",
     },
-    [733104] = {
+    [732305] = {
         ext = {
         },
-        finishCondId = 9017,
-        order = 5,
+        finishCondId = 2010,
+        order = 6,
         acceptParams = {
-            rank = 3001,
+            rank = 2003,
         },
         taskCollection = false,
         resetType = 1,
@@ -48349,67 +48593,66 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 733104,
+        id = 732305,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 800000,
+        progress = 1,
         type = 30,
-        name = "3207034",
+        name = "3207029",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
+            subType = 10,
+            superType = 7,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207505",
+        des = "3207506",
     },
-    [723021] = {
+    [338008] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 9010,
+        order = 295,
         acceptParams = {
-            pre_task_id = 723010,
-            Contracttype = 5,
+            pre_task_id = 338007,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 1888,
+                [2] = 80,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
+        icon = "ui/task/icon_1.png",
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 723021,
-        extendsTaskId = 0,
+        id = 338008,
+        extendsTaskId = 338007,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
-        name = "",
+        progress = 25000,
+        type = 3,
+        name = "1310806",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 60,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325140",
+        des = "1320806",
     },
     [120509] = {
         ext = {
@@ -48519,13 +48762,63 @@ return {
         },
         des = "1320001",
     },
-    [733102] = {
+    [339002] = {
+        ext = {
+        },
+        finishCondId = 9001,
+        order = 299,
+        acceptParams = {
+            pre_task_id = 339001,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 20,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 73,
+        icon = "ui/task/icon_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 339002,
+        extendsTaskId = 339001,
+        subType = 2,
+        endDate = {
+        },
+        progress = 30,
+        type = 3,
+        name = "1310810",
+        acceptCondId = 10001,
+        finishParams = {
+            dunTypeList = {
+                [1] = 9,
+                [2] = 17,
+                [3] = 22,
+                [4] = 23,
+                [5] = 24,
+            },
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320810",
+    },
+    [732302] = {
         ext = {
         },
         finishCondId = 9015,
         order = 3,
         acceptParams = {
-            rank = 3001,
+            rank = 2003,
         },
         taskCollection = false,
         resetType = 1,
@@ -48550,14 +48843,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 733102,
+        id = 732302,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 60,
         type = 30,
-        name = "3207032",
+        name = "3207026",
         acceptCondId = 10001,
         finishParams = {
             dunType = 20,
@@ -48566,44 +48859,6 @@ return {
         colour1 = {
         },
         des = "3207503",
-    },
-    [510904] = {
-        ext = {
-        },
-        finishCondId = 0,
-        order = 4,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 0,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 510904,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 0,
-        type = 13,
-        name = "",
-        acceptCondId = 0,
-        finishParams = {
-        },
-        effectiveTime = 0,
-        colour1 = {
-        },
-        des = "272060",
     },
     [121021] = {
         ext = {
@@ -48749,13 +49004,63 @@ return {
         },
         des = "1320001",
     },
-    [732306] = {
+    [339007] = {
+        ext = {
+        },
+        finishCondId = 9001,
+        order = 304,
+        acceptParams = {
+            pre_task_id = 339006,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 70,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 73,
+        icon = "ui/task/icon_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 339007,
+        extendsTaskId = 339006,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1000,
+        type = 3,
+        name = "1310815",
+        acceptCondId = 10001,
+        finishParams = {
+            dunTypeList = {
+                [1] = 9,
+                [2] = 17,
+                [3] = 22,
+                [4] = 23,
+                [5] = 24,
+            },
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320815",
+    },
+    [732206] = {
         ext = {
         },
         finishCondId = 8007,
         order = 7,
         acceptParams = {
-            rank = 2003,
+            rank = 2002,
         },
         taskCollection = false,
         resetType = 1,
@@ -48780,7 +49085,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 732306,
+        id = 732206,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -48795,55 +49100,6 @@ return {
         colour1 = {
         },
         des = "3207507",
-    },
-    [732305] = {
-        ext = {
-        },
-        finishCondId = 2010,
-        order = 6,
-        acceptParams = {
-            rank = 2003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 732305,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 30,
-        name = "3207029",
-        acceptCondId = 10001,
-        finishParams = {
-            subType = 10,
-            superType = 7,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207506",
     },
     [339004] = {
         ext = {
@@ -48895,55 +49151,43 @@ return {
         },
         des = "1320812",
     },
-    [339007] = {
+    [520706] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 304,
+        finishCondId = 0,
+        order = 13,
         acceptParams = {
-            pre_task_id = 339006,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 70,
-            },
         },
         startDate = {
         },
-        jumpInterface = 73,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
+        jumpInterface = 0,
+        icon = "ui/task/icon_4.png",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 339007,
-        extendsTaskId = 339006,
+        open = false,
+        id = 520706,
+        extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1000,
-        type = 3,
-        name = "1310815",
-        acceptCondId = 10001,
+        progress = 0,
+        type = 14,
+        name = "",
+        acceptCondId = 0,
         finishParams = {
-            dunTypeList = {
-                [1] = 9,
-                [2] = 17,
-                [3] = 22,
-                [4] = 23,
-                [5] = 24,
-            },
         },
-        effectiveTime = -1,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "1320815",
+        des = "272104",
     },
     [130105] = {
         ext = {
@@ -48999,48 +49243,53 @@ return {
         },
         des = "1320001",
     },
-    [350001] = {
+    [732204] = {
         ext = {
         },
-        finishCondId = 11008,
-        order = 308,
+        finishCondId = 9017,
+        order = 5,
         acceptParams = {
-            plvl = 1,
+            rank = 2002,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 5,
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
             },
         },
         startDate = {
         },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 350001,
+        id = 732204,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 3,
-        name = "1310819",
+        progress = 700000,
+        type = 30,
+        name = "3207028",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320819",
+        des = "3207505",
     },
     [339005] = {
         ext = {
@@ -49092,13 +49341,13 @@ return {
         },
         des = "1320813",
     },
-    [732302] = {
+    [732203] = {
         ext = {
         },
-        finishCondId = 9015,
-        order = 3,
+        finishCondId = 9016,
+        order = 4,
         acceptParams = {
-            rank = 2003,
+            rank = 2002,
         },
         taskCollection = false,
         resetType = 1,
@@ -49123,12 +49372,59 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 732302,
+        id = 732203,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 60,
+        progress = 3500,
+        type = 30,
+        name = "3207027",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207504",
+    },
+    [732202] = {
+        ext = {
+        },
+        finishCondId = 9015,
+        order = 3,
+        acceptParams = {
+            rank = 2002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 732202,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 50,
         type = 30,
         name = "3207026",
         acceptCondId = 10001,
@@ -49139,49 +49435,6 @@ return {
         colour1 = {
         },
         des = "3207503",
-    },
-    [350006] = {
-        ext = {
-        },
-        finishCondId = 11008,
-        order = 313,
-        acceptParams = {
-            pre_task_id = 350005,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 30,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 350006,
-        extendsTaskId = 350005,
-        subType = 2,
-        endDate = {
-        },
-        progress = 30,
-        type = 3,
-        name = "1310824",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320824",
     },
     [120510] = {
         ext = {
@@ -49339,30 +49592,34 @@ return {
         },
         des = "1320001",
     },
-    [732206] = {
+    [520802] = {
         ext = {
         },
-        finishCondId = 8007,
-        order = 7,
+        finishCondId = 9010,
+        order = 9,
         acceptParams = {
-            rank = 2002,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 597001,
-                [2] = 1,
+                [1] = 500037,
+                [2] = 100,
             },
             [2] = {
-                [1] = 500100,
-                [2] = 1,
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -49370,21 +49627,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 732206,
+        id = 520802,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 30,
-        name = "3207030",
+        progress = 30000,
+        type = 14,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "3207507",
+        des = "272107",
     },
     [121022] = {
         ext = {
@@ -49530,64 +49787,13 @@ return {
         },
         des = "1320001",
     },
-    [510407] = {
+    [732106] = {
         ext = {
         },
-        finishCondId = 9011,
+        finishCondId = 8007,
         order = 7,
         acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 100,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 39,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 510407,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 80,
-        type = 13,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = 7,
-        colour1 = {
-        },
-        des = "272028",
-    },
-    [732204] = {
-        ext = {
-        },
-        finishCondId = 9017,
-        order = 5,
-        acceptParams = {
-            rank = 2002,
+            rank = 2001,
         },
         taskCollection = false,
         resetType = 1,
@@ -49612,22 +49818,59 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 732204,
+        id = 732106,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 700000,
+        progress = 1,
         type = 30,
-        name = "3207028",
+        name = "3207030",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207505",
+        des = "3207507",
+    },
+    [510705] = {
+        ext = {
+        },
+        finishCondId = 0,
+        order = 5,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 3,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_1.png",
+        completeResult = 0,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = false,
+        id = 510705,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 0,
+        type = 13,
+        name = "",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = 0,
+        colour1 = {
+        },
+        des = "272047",
     },
     [339008] = {
         ext = {
@@ -49917,24 +50160,21 @@ return {
         },
         des = "1320658",
     },
-    [732202] = {
+    [722006] = {
         ext = {
         },
-        finishCondId = 9015,
-        order = 3,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            rank = 2002,
+            pre_task_id = 721010,
+            Contracttype = 3,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
+                [1] = 500002,
+                [2] = 500,
             },
         },
         startDate = {
@@ -49948,22 +50188,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 732202,
+        id = 722006,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 50,
-        type = 30,
-        name = "3207026",
+        progress = 1,
+        type = 21,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
+            plvl = 46,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207503",
+        des = "1325125",
     },
     [120511] = {
         ext = {
@@ -50121,34 +50361,30 @@ return {
         },
         des = "1320001",
     },
-    [510203] = {
+    [732102] = {
         ext = {
         },
-        finishCondId = 25001,
+        finishCondId = 9015,
         order = 3,
         acceptParams = {
-            plvl = 1,
+            rank = 2001,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 20,
+                [1] = 597001,
+                [2] = 1,
             },
             [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
+                [1] = 500100,
+                [2] = 1,
             },
         },
         startDate = {
         },
-        jumpInterface = 77,
-        icon = "ui/task/icon_4.png",
+        jumpInterface = 0,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -50156,21 +50392,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 510203,
+        id = 732102,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 13,
-        name = "",
+        progress = 40,
+        type = 30,
+        name = "3207026",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 20,
         },
-        effectiveTime = 1,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272010",
+        des = "3207503",
     },
     [121023] = {
         ext = {
@@ -50316,13 +50553,58 @@ return {
         },
         des = "1320001",
     },
-    [732106] = {
+    [722008] = {
+        ext = {
+        },
+        finishCondId = 17010,
+        order = 1,
+        acceptParams = {
+            pre_task_id = 721010,
+            Contracttype = 3,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 400,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 722008,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 21,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            plvl = 48,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1325127",
+    },
+    [731306] = {
         ext = {
         },
         finishCondId = 8007,
         order = 7,
         acceptParams = {
-            rank = 2001,
+            rank = 1003,
         },
         taskCollection = false,
         resetType = 1,
@@ -50347,14 +50629,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 732106,
+        id = 731306,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
         type = 30,
-        name = "3207030",
+        name = "3207024",
         acceptCondId = 10001,
         finishParams = {
         },
@@ -50362,44 +50644,6 @@ return {
         colour1 = {
         },
         des = "3207507",
-    },
-    [510706] = {
-        ext = {
-        },
-        finishCondId = 0,
-        order = 6,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 0,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 510706,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 0,
-        type = 13,
-        name = "",
-        acceptCondId = 0,
-        finishParams = {
-        },
-        effectiveTime = 0,
-        colour1 = {
-        },
-        des = "272048",
     },
     [513007] = {
         ext = {
@@ -50495,13 +50739,13 @@ return {
         },
         des = "1320661",
     },
-    [732104] = {
+    [731305] = {
         ext = {
         },
-        finishCondId = 9017,
-        order = 5,
+        finishCondId = 2010,
+        order = 6,
         acceptParams = {
-            rank = 2001,
+            rank = 1003,
         },
         taskCollection = false,
         resetType = 1,
@@ -50526,14 +50770,63 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 732104,
+        id = 731305,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 30,
+        name = "3207023",
+        acceptCondId = 10001,
+        finishParams = {
+            subType = 10,
+            superType = 7,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207506",
+    },
+    [731304] = {
+        ext = {
+        },
+        finishCondId = 9017,
+        order = 5,
+        acceptParams = {
+            rank = 1003,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 731304,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 600000,
         type = 30,
-        name = "3207028",
+        name = "3207022",
         acceptCondId = 10001,
         finishParams = {
             dunType = 20,
@@ -50543,64 +50836,13 @@ return {
         },
         des = "3207505",
     },
-    [520701] = {
+    [731303] = {
         ext = {
         },
-        finishCondId = 29001,
-        order = 8,
+        finishCondId = 9016,
+        order = 4,
         acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 520701,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 20000,
-        type = 14,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = 7,
-        colour1 = {
-        },
-        des = "272099",
-    },
-    [732102] = {
-        ext = {
-        },
-        finishCondId = 9015,
-        order = 3,
-        acceptParams = {
-            rank = 2001,
+            rank = 1003,
         },
         taskCollection = false,
         resetType = 1,
@@ -50625,22 +50867,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 732102,
+        id = 731303,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 40,
+        progress = 3000,
         type = 30,
-        name = "3207026",
+        name = "3207021",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207503",
+        des = "3207504",
     },
     [317008] = {
         ext = {
@@ -50685,56 +50926,48 @@ return {
         },
         des = "1320662",
     },
-    [520602] = {
+    [333005] = {
         ext = {
         },
-        finishCondId = 9010,
-        order = 9,
+        finishCondId = 25001,
+        order = 242,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 333004,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
+                [1] = 570004,
+                [2] = 3,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
+        jumpInterface = 77,
+        icon = "ui/task/icon_4.png",
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 520602,
-        extendsTaskId = 0,
+        id = 333005,
+        extendsTaskId = 333004,
         subType = 2,
         endDate = {
         },
-        progress = 30000,
-        type = 14,
-        name = "",
+        progress = 30,
+        type = 3,
+        name = "1310753",
         acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = 7,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272093",
+        des = "1320753",
     },
     [120512] = {
         ext = {
@@ -50892,11 +51125,11 @@ return {
         },
         des = "1320001",
     },
-    [731306] = {
+    [731301] = {
         ext = {
         },
-        finishCondId = 8007,
-        order = 7,
+        finishCondId = 9001,
+        order = 2,
         acceptParams = {
             rank = 1003,
         },
@@ -50923,21 +51156,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 731306,
+        id = 731301,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
+        progress = 11,
         type = 30,
-        name = "3207024",
+        name = "3207019",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207507",
+        des = "3207502",
     },
     [121024] = {
         ext = {
@@ -51078,284 +51312,6 @@ return {
         },
         des = "1320664",
     },
-    [731305] = {
-        ext = {
-        },
-        finishCondId = 2010,
-        order = 6,
-        acceptParams = {
-            rank = 1003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 731305,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 30,
-        name = "3207023",
-        acceptCondId = 10001,
-        finishParams = {
-            subType = 10,
-            superType = 7,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207506",
-    },
-    [731304] = {
-        ext = {
-        },
-        finishCondId = 9017,
-        order = 5,
-        acceptParams = {
-            rank = 1003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 731304,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 600000,
-        type = 30,
-        name = "3207022",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 20,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207505",
-    },
-    [731303] = {
-        ext = {
-        },
-        finishCondId = 9016,
-        order = 4,
-        acceptParams = {
-            rank = 1003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 731303,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 3000,
-        type = 30,
-        name = "3207021",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207504",
-    },
-    [317011] = {
-        ext = {
-        },
-        finishCondId = 2001,
-        order = 148,
-        acceptParams = {
-            pre_task_id = 317010,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 570002,
-                [2] = 50,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_6.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 317011,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 11,
-        type = 3,
-        name = "1310665",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320665",
-    },
-    [333005] = {
-        ext = {
-        },
-        finishCondId = 25001,
-        order = 242,
-        acceptParams = {
-            pre_task_id = 333004,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 570004,
-                [2] = 3,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 77,
-        icon = "ui/task/icon_4.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 333005,
-        extendsTaskId = 333004,
-        subType = 2,
-        endDate = {
-        },
-        progress = 30,
-        type = 3,
-        name = "1310753",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320753",
-    },
-    [731301] = {
-        ext = {
-        },
-        finishCondId = 9001,
-        order = 2,
-        acceptParams = {
-            rank = 1003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 731301,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 11,
-        type = 30,
-        name = "3207019",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 20,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207502",
-    },
     [731206] = {
         ext = {
         },
@@ -51402,6 +51358,289 @@ return {
         colour1 = {
         },
         des = "3207507",
+    },
+    [731205] = {
+        ext = {
+        },
+        finishCondId = 2010,
+        order = 6,
+        acceptParams = {
+            rank = 1002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 731205,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 30,
+        name = "3207023",
+        acceptCondId = 10001,
+        finishParams = {
+            subType = 10,
+            superType = 7,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207506",
+    },
+    [731204] = {
+        ext = {
+        },
+        finishCondId = 9017,
+        order = 5,
+        acceptParams = {
+            rank = 1002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 731204,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 500000,
+        type = 30,
+        name = "3207022",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207505",
+    },
+    [317011] = {
+        ext = {
+        },
+        finishCondId = 2001,
+        order = 148,
+        acceptParams = {
+            pre_task_id = 317010,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 570002,
+                [2] = 50,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_6.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 317011,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 11,
+        type = 3,
+        name = "1310665",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320665",
+    },
+    [731203] = {
+        ext = {
+        },
+        finishCondId = 9016,
+        order = 4,
+        acceptParams = {
+            rank = 1002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 731203,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 2500,
+        type = 30,
+        name = "3207021",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207504",
+    },
+    [731202] = {
+        ext = {
+        },
+        finishCondId = 9015,
+        order = 3,
+        acceptParams = {
+            rank = 1002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 731202,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 25,
+        type = 30,
+        name = "3207020",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207503",
+    },
+    [731201] = {
+        ext = {
+        },
+        finishCondId = 9001,
+        order = 2,
+        acceptParams = {
+            rank = 1002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 731201,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 10,
+        type = 30,
+        name = "3207019",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207502",
     },
     [317012] = {
         ext = {
@@ -51647,13 +51886,13 @@ return {
         },
         des = "1320001",
     },
-    [731205] = {
+    [731106] = {
         ext = {
         },
-        finishCondId = 2010,
-        order = 6,
+        finishCondId = 8007,
+        order = 7,
         acceptParams = {
-            rank = 1002,
+            rank = 1001,
         },
         taskCollection = false,
         resetType = 1,
@@ -51678,23 +51917,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 731205,
+        id = 731106,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
         type = 30,
-        name = "3207023",
+        name = "3207024",
         acceptCondId = 10001,
         finishParams = {
-            subType = 10,
-            superType = 7,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207506",
+        des = "3207507",
     },
     [121025] = {
         ext = {
@@ -51899,23 +52136,19 @@ return {
         },
         des = "1320501",
     },
-    [731204] = {
+    [370010] = {
         ext = {
         },
-        finishCondId = 9017,
-        order = 5,
+        finishCondId = 11009,
+        order = 10,
         acceptParams = {
-            rank = 1002,
+            plvl = 1,
         },
-        taskCollection = false,
+        taskCollection = true,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
+                [1] = 585008,
                 [2] = 1,
             },
         },
@@ -51923,48 +52156,43 @@ return {
         },
         jumpInterface = 0,
         icon = "",
-        completeResult = 2,
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 731204,
+        id = 370010,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 500000,
-        type = 30,
-        name = "3207022",
+        progress = 4000,
+        type = 37,
+        name = "1711010",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207505",
+        des = "1711210",
     },
-    [731203] = {
+    [720004] = {
         ext = {
         },
-        finishCondId = 9016,
-        order = 4,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            rank = 1002,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
+                [1] = 500002,
+                [2] = 200,
             },
         },
         startDate = {
@@ -51978,21 +52206,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 731203,
+        id = 720004,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2500,
-        type = 30,
-        name = "3207021",
+        progress = 1,
+        type = 21,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
+            Contracttype = 1,
+            plvl = 12,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207504",
+        des = "1325103",
     },
     [317015] = {
         ext = {
@@ -52085,24 +52315,20 @@ return {
         },
         des = "3207502",
     },
-    [731201] = {
+    [720007] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 2,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            rank = 1002,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
+                [1] = 500002,
+                [2] = 200,
             },
         },
         startDate = {
@@ -52116,22 +52342,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 731201,
+        id = 720007,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 10,
-        type = 30,
-        name = "3207019",
+        progress = 1,
+        type = 21,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 20,
+            Contracttype = 1,
+            plvl = 21,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207502",
+        des = "1325106",
     },
     [735102] = {
         ext = {
@@ -52699,26 +52926,26 @@ return {
         },
         des = "1320503",
     },
-    [720008] = {
+    [730018] = {
         ext = {
         },
-        finishCondId = 17010,
+        finishCondId = 2003,
         order = 1,
         acceptParams = {
-            plvl = 1,
+            rank = 6003,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 200,
+                [1] = 597003,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "icon/item/card/300004.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -52726,23 +52953,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 720008,
+        id = 730018,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
-        name = "",
+        progress = 5,
+        type = 30,
+        name = "3207018",
         acceptCondId = 10001,
         finishParams = {
-            Contracttype = 1,
-            plvl = 24,
+            itemId = 500100,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325107",
+        des = "3207501",
     },
     [600006] = {
         ext = {
@@ -52885,26 +53111,26 @@ return {
         },
         des = "1320799",
     },
-    [720009] = {
+    [730002] = {
         ext = {
         },
-        finishCondId = 17010,
+        finishCondId = 2003,
         order = 1,
         acceptParams = {
-            plvl = 1,
+            rank = 1002,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 200,
+                [1] = 597002,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "icon/item/card/300003.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -52912,23 +53138,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 720009,
+        id = 730002,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
-        name = "",
+        progress = 3,
+        type = 30,
+        name = "3207002",
         acceptCondId = 10001,
         finishParams = {
-            Contracttype = 1,
-            plvl = 27,
+            itemId = 500100,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325108",
+        des = "3207501",
     },
     [600008] = {
         ext = {
@@ -53386,26 +53611,26 @@ return {
         },
         des = "1320001",
     },
-    [720010] = {
+    [730016] = {
         ext = {
         },
-        finishCondId = 17010,
+        finishCondId = 2003,
         order = 1,
         acceptParams = {
-            plvl = 1,
+            rank = 6001,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 400,
+                [1] = 597003,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "icon/item/card/300004.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -53413,23 +53638,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 720010,
+        id = 730016,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
-        name = "",
+        progress = 5,
+        type = 30,
+        name = "3207016",
         acceptCondId = 10001,
         finishParams = {
-            Contracttype = 1,
-            plvl = 30,
+            itemId = 500100,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325109",
+        des = "3207501",
     },
     [338004] = {
         ext = {
@@ -53474,43 +53698,49 @@ return {
         },
         des = "1320802",
     },
-    [510206] = {
+    [730006] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 6,
+        finishCondId = 2003,
+        order = 1,
         acceptParams = {
+            rank = 2003,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
+            [1] = {
+                [1] = 597002,
+                [2] = 1,
+            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 0,
+        icon = "icon/item/card/300003.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 510206,
+        open = true,
+        id = 730006,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 0,
-        type = 13,
-        name = "",
-        acceptCondId = 0,
+        progress = 4,
+        type = 30,
+        name = "3207006",
+        acceptCondId = 10001,
         finishParams = {
+            itemId = 500100,
         },
-        effectiveTime = 0,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272013",
+        des = "3207501",
     },
     [600014] = {
         ext = {
@@ -53563,34 +53793,26 @@ return {
         },
         des = "",
     },
-    [510202] = {
+    [730014] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 2,
+        finishCondId = 2003,
+        order = 1,
         acceptParams = {
-            plvl = 1,
+            rank = 5002,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
+                [1] = 597003,
+                [2] = 1,
             },
         },
         startDate = {
         },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 0,
+        icon = "icon/item/card/300004.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -53598,22 +53820,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 510202,
+        id = 730014,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 13,
-        name = "",
+        progress = 5,
+        type = 30,
+        name = "3207014",
         acceptCondId = 10001,
         finishParams = {
-            bossType = 999,
+            itemId = 500100,
         },
-        effectiveTime = 1,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272009",
+        des = "3207501",
     },
     [338005] = {
         ext = {
@@ -53658,13 +53880,13 @@ return {
         },
         des = "1320803",
     },
-    [730018] = {
+    [730011] = {
         ext = {
         },
         finishCondId = 2003,
         order = 1,
         acceptParams = {
-            rank = 6003,
+            rank = 4002,
         },
         taskCollection = false,
         resetType = 1,
@@ -53685,14 +53907,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 730018,
+        id = 730011,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 5,
         type = 30,
-        name = "3207018",
+        name = "3207011",
         acceptCondId = 10001,
         finishParams = {
             itemId = 500100,
@@ -54490,13 +54712,13 @@ return {
         },
         des = "1320652",
     },
-    [730010] = {
+    [730012] = {
         ext = {
         },
         finishCondId = 2003,
         order = 1,
         acceptParams = {
-            rank = 4001,
+            rank = 4003,
         },
         taskCollection = false,
         resetType = 1,
@@ -54517,14 +54739,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 730010,
+        id = 730012,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 5,
         type = 30,
-        name = "3207010",
+        name = "3207012",
         acceptCondId = 10001,
         finishParams = {
             itemId = 500100,
@@ -54985,13 +55207,13 @@ return {
         },
         des = "3207501",
     },
-    [730016] = {
+    [730010] = {
         ext = {
         },
         finishCondId = 2003,
         order = 1,
         acceptParams = {
-            rank = 6001,
+            rank = 4001,
         },
         taskCollection = false,
         resetType = 1,
@@ -55012,14 +55234,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 730016,
+        id = 730010,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 5,
         type = 30,
-        name = "3207016",
+        name = "3207010",
         acceptCondId = 10001,
         finishParams = {
             itemId = 500100,
@@ -55073,26 +55295,26 @@ return {
         },
         des = "1320885",
     },
-    [730014] = {
+    [730008] = {
         ext = {
         },
         finishCondId = 2003,
         order = 1,
         acceptParams = {
-            rank = 5002,
+            rank = 3002,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597003,
+                [1] = 597002,
                 [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "icon/item/card/300004.png",
+        icon = "icon/item/card/300003.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -55100,14 +55322,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 730014,
+        id = 730008,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 5,
         type = 30,
-        name = "3207014",
+        name = "3207008",
         acceptCondId = 10001,
         finishParams = {
             itemId = 500100,
@@ -55161,26 +55383,26 @@ return {
         },
         des = "3207501",
     },
-    [730012] = {
+    [730004] = {
         ext = {
         },
         finishCondId = 2003,
         order = 1,
         acceptParams = {
-            rank = 4003,
+            rank = 2001,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597003,
+                [1] = 597002,
                 [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "icon/item/card/300004.png",
+        icon = "icon/item/card/300003.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -55188,14 +55410,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 730012,
+        id = 730004,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
+        progress = 4,
         type = 30,
-        name = "3207012",
+        name = "3207004",
         acceptCondId = 10001,
         finishParams = {
             itemId = 500100,
@@ -55258,26 +55480,26 @@ return {
         },
         des = "272143",
     },
-    [730011] = {
+    [730003] = {
         ext = {
         },
         finishCondId = 2003,
         order = 1,
         acceptParams = {
-            rank = 4002,
+            rank = 1003,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597003,
+                [1] = 597002,
                 [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "icon/item/card/300004.png",
+        icon = "icon/item/card/300003.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -55285,14 +55507,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 730011,
+        id = 730003,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
+        progress = 3,
         type = 30,
-        name = "3207011",
+        name = "3207003",
         acceptCondId = 10001,
         finishParams = {
             itemId = 500100,
@@ -55705,26 +55927,27 @@ return {
         },
         des = "1320001",
     },
-    [730008] = {
+    [723030] = {
         ext = {
         },
-        finishCondId = 2003,
+        finishCondId = 17010,
         order = 1,
         acceptParams = {
-            rank = 3002,
+            pre_task_id = 723010,
+            Contracttype = 5,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 597002,
-                [2] = 1,
+                [1] = 500002,
+                [2] = 1200,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "icon/item/card/300003.png",
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -55732,22 +55955,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 730008,
+        id = 723030,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
-        type = 30,
-        name = "3207008",
+        progress = 1,
+        type = 21,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            itemId = 500100,
+            plvl = 70,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207501",
+        des = "1325149",
     },
     [210012] = {
         ext = {
@@ -55812,227 +56035,6 @@ return {
         },
         des = "1320511",
     },
-    [730006] = {
-        ext = {
-        },
-        finishCondId = 2003,
-        order = 1,
-        acceptParams = {
-            rank = 2003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "icon/item/card/300003.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 730006,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 4,
-        type = 30,
-        name = "3207006",
-        acceptCondId = 10001,
-        finishParams = {
-            itemId = 500100,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207501",
-    },
-    [730004] = {
-        ext = {
-        },
-        finishCondId = 2003,
-        order = 1,
-        acceptParams = {
-            rank = 2001,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "icon/item/card/300003.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 730004,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 4,
-        type = 30,
-        name = "3207004",
-        acceptCondId = 10001,
-        finishParams = {
-            itemId = 500100,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207501",
-    },
-    [730003] = {
-        ext = {
-        },
-        finishCondId = 2003,
-        order = 1,
-        acceptParams = {
-            rank = 1003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "icon/item/card/300003.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 730003,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 3,
-        type = 30,
-        name = "3207003",
-        acceptCondId = 10001,
-        finishParams = {
-            itemId = 500100,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207501",
-    },
-    [730002] = {
-        ext = {
-        },
-        finishCondId = 2003,
-        order = 1,
-        acceptParams = {
-            rank = 1002,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597002,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "icon/item/card/300003.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 730002,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 3,
-        type = 30,
-        name = "3207002",
-        acceptCondId = 10001,
-        finishParams = {
-            itemId = 500100,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207501",
-    },
-    [723030] = {
-        ext = {
-        },
-        finishCondId = 17010,
-        order = 1,
-        acceptParams = {
-            pre_task_id = 723010,
-            Contracttype = 5,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 1200,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 723030,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 21,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            plvl = 70,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1325149",
-    },
     [723029] = {
         ext = {
         },
@@ -56078,7 +56080,7 @@ return {
         },
         des = "1325148",
     },
-    [510806] = {
+    [510706] = {
         ext = {
         },
         finishCondId = 0,
@@ -56100,7 +56102,7 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 510806,
+        id = 510706,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -56114,7 +56116,232 @@ return {
         effectiveTime = 0,
         colour1 = {
         },
-        des = "272055",
+        des = "272048",
+    },
+    [723027] = {
+        ext = {
+        },
+        finishCondId = 17010,
+        order = 1,
+        acceptParams = {
+            pre_task_id = 723010,
+            Contracttype = 5,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 700,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 723027,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 21,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            plvl = 67,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1325146",
+    },
+    [510802] = {
+        ext = {
+        },
+        finishCondId = 9001,
+        order = 2,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 3,
+        reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 20,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 76,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 510802,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 3,
+        type = 13,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            bossType = 999,
+        },
+        effectiveTime = 1,
+        colour1 = {
+        },
+        des = "272051",
+    },
+    [723025] = {
+        ext = {
+        },
+        finishCondId = 17010,
+        order = 1,
+        acceptParams = {
+            pre_task_id = 723010,
+            Contracttype = 5,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 700,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 723025,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 21,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            plvl = 65,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1325144",
+    },
+    [510804] = {
+        ext = {
+        },
+        finishCondId = 0,
+        order = 4,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 3,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_1.png",
+        completeResult = 0,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = false,
+        id = 510804,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 0,
+        type = 13,
+        name = "",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = 0,
+        colour1 = {
+        },
+        des = "272053",
+    },
+    [723023] = {
+        ext = {
+        },
+        finishCondId = 17010,
+        order = 1,
+        acceptParams = {
+            pre_task_id = 723010,
+            Contracttype = 5,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 700,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 723023,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 21,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            plvl = 63,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1325142",
     },
     [210013] = {
         ext = {
@@ -56384,7 +56611,7 @@ return {
         },
         des = "1320001",
     },
-    [723027] = {
+    [723022] = {
         ext = {
         },
         finishCondId = 17010,
@@ -56398,7 +56625,7 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 700,
+                [2] = 600,
             },
         },
         startDate = {
@@ -56412,7 +56639,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 723027,
+        id = 723022,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -56422,12 +56649,12 @@ return {
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 67,
+            plvl = 62,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325146",
+        des = "1325141",
     },
     [110924] = {
         ext = {
@@ -56477,34 +56704,27 @@ return {
         },
         des = "1320001",
     },
-    [510902] = {
+    [723021] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 2,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 723010,
+            Contracttype = 5,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
+                [1] = 500002,
+                [2] = 1888,
             },
         },
         startDate = {
         },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 0,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -56512,22 +56732,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 510902,
+        id = 723021,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 13,
+        progress = 1,
+        type = 21,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            bossType = 999,
+            plvl = 60,
         },
-        effectiveTime = 1,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272058",
+        des = "1325140",
     },
     [210014] = {
         ext = {
@@ -56593,27 +56813,34 @@ return {
         },
         des = "1320510",
     },
-    [723025] = {
+    [510902] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 9001,
+        order = 2,
         acceptParams = {
-            pre_task_id = 723010,
-            Contracttype = 5,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 700,
+                [1] = 500037,
+                [2] = 20,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 76,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -56621,22 +56848,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 723025,
+        id = 510902,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
+        progress = 3,
+        type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 65,
+            bossType = 999,
         },
-        effectiveTime = -1,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "1325144",
+        des = "272058",
     },
     [733101] = {
         ext = {
@@ -56686,50 +56913,43 @@ return {
         },
         des = "3207502",
     },
-    [723023] = {
+    [510906] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 0,
+        order = 6,
         acceptParams = {
-            pre_task_id = 723010,
-            Contracttype = 5,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 700,
-            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
+        icon = "ui/task/icon_1.png",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 723023,
+        open = false,
+        id = 510906,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
+        progress = 0,
+        type = 13,
         name = "",
-        acceptCondId = 10001,
+        acceptCondId = 0,
         finishParams = {
-            plvl = 63,
         },
-        effectiveTime = -1,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "1325142",
+        des = "272062",
     },
     [520204] = {
         ext = {
@@ -56784,22 +57004,18 @@ return {
         },
         des = "272138",
     },
-    [723022] = {
+    [723017] = {
         ext = {
         },
         finishCondId = 17010,
         order = 1,
         acceptParams = {
-            pre_task_id = 723010,
+            pre_task_id = 722010,
             Contracttype = 5,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 600,
-            },
         },
         startDate = {
         },
@@ -56812,7 +57028,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 723022,
+        id = 723017,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -56822,12 +57038,12 @@ return {
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 62,
+            plvl = 67,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325141",
+        des = "1325146",
     },
     [733103] = {
         ext = {
@@ -56876,34 +57092,23 @@ return {
         },
         des = "3207504",
     },
-    [511001] = {
+    [723015] = {
         ext = {
         },
-        finishCondId = 9001,
+        finishCondId = 17010,
         order = 1,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 722010,
+            Contracttype = 5,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
-            },
         },
         startDate = {
         },
-        jumpInterface = 73,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 0,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -56911,28 +57116,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 511001,
+        id = 723015,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
-        type = 13,
+        progress = 1,
+        type = 21,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunTypeList = {
-                [1] = 9,
-                [2] = 17,
-                [3] = 22,
-                [4] = 23,
-                [5] = 24,
-            },
+            plvl = 65,
         },
-        effectiveTime = 1,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272064",
+        des = "1325144",
     },
     [210015] = {
         ext = {
@@ -57202,7 +57401,7 @@ return {
         },
         des = "1320001",
     },
-    [723019] = {
+    [723014] = {
         ext = {
         },
         finishCondId = 17010,
@@ -57226,7 +57425,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 723019,
+        id = 723014,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -57236,12 +57435,12 @@ return {
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 69,
+            plvl = 64,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325148",
+        des = "1325143",
     },
     [110925] = {
         ext = {
@@ -57291,43 +57490,46 @@ return {
         },
         des = "1320001",
     },
-    [513004] = {
+    [723013] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 4,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
+            pre_task_id = 722010,
+            Contracttype = 5,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 0,
+        icon = "",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 513004,
+        open = true,
+        id = 723013,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 0,
-        type = 13,
+        progress = 1,
+        type = 21,
         name = "",
-        acceptCondId = 0,
+        acceptCondId = 10001,
         finishParams = {
+            plvl = 63,
         },
-        effectiveTime = 0,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272067",
+        des = "1325142",
     },
     [210016] = {
         ext = {
@@ -57393,46 +57595,43 @@ return {
         },
         des = "1320502",
     },
-    [723017] = {
+    [513005] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 0,
+        order = 5,
         acceptParams = {
-            pre_task_id = 722010,
-            Contracttype = 5,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
+        icon = "ui/task/icon_1.png",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 723017,
+        open = false,
+        id = 513005,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
+        progress = 0,
+        type = 13,
         name = "",
-        acceptCondId = 10001,
+        acceptCondId = 0,
         finishParams = {
-            plvl = 67,
         },
-        effectiveTime = -1,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "1325146",
+        des = "272068",
     },
     [337001] = {
         ext = {
@@ -57528,23 +57727,34 @@ return {
         },
         des = "272071",
     },
-    [723015] = {
+    [520105] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 9030,
+        order = 7,
         acceptParams = {
-            pre_task_id = 722010,
-            Contracttype = 5,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 100,
+            },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 97,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -57552,40 +57762,52 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 723015,
+        id = 520105,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
+        progress = 1000000,
+        type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 65,
+            dunType = 105,
+            dunId = 490004,
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "1325144",
+        des = "272137",
     },
-    [723014] = {
+    [520202] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 9010,
+        order = 9,
         acceptParams = {
-            pre_task_id = 722010,
-            Contracttype = 5,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
+            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -57593,22 +57815,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 723014,
+        id = 520202,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
+        progress = 16000,
+        type = 14,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 64,
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "1325143",
+        des = "272075",
     },
     [337002] = {
         ext = {
@@ -57653,23 +57874,31 @@ return {
         },
         des = "1320790",
     },
-    [723013] = {
+    [504002] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 11001,
+        order = 2,
         acceptParams = {
-            pre_task_id = 722010,
-            Contracttype = 5,
+            day = 4,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
+            [1] = {
+                [1] = 520006,
+                [2] = 5,
+            },
+            [2] = {
+                [1] = 570031,
+                [2] = 3,
+            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -57677,22 +57906,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 723013,
+        id = 504002,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
+        progress = 20,
+        type = 9,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 63,
+            plvl = 20,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325142",
+        des = "266229",
     },
     [210017] = {
         ext = {
@@ -57757,34 +57986,27 @@ return {
         },
         des = "1320503",
     },
-    [520201] = {
+    [723007] = {
         ext = {
         },
-        finishCondId = 29001,
-        order = 8,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 722010,
+            Contracttype = 4,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
+                [1] = 500002,
+                [2] = 500,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -57792,21 +58014,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520201,
+        id = 723007,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 12000,
-        type = 14,
+        progress = 1,
+        type = 21,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            plvl = 57,
         },
-        effectiveTime = 7,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272074",
+        des = "1325136",
     },
     [110414] = {
         ext = {
@@ -57958,34 +58181,31 @@ return {
         },
         des = "1320001",
     },
-    [520203] = {
+    [502002] = {
         ext = {
         },
-        finishCondId = 29002,
-        order = 10,
+        finishCondId = 11001,
+        order = 2,
         acceptParams = {
+            day = 2,
             plvl = 1,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 100,
+                [1] = 520006,
+                [2] = 5,
             },
             [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
+                [1] = 570031,
+                [2] = 3,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -57993,21 +58213,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520203,
+        id = 502002,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 80,
-        type = 14,
+        progress = 15,
+        type = 9,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            plvl = 15,
         },
-        effectiveTime = 7,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272076",
+        des = "266221",
     },
     [110926] = {
         ext = {
@@ -58057,34 +58278,27 @@ return {
         },
         des = "1320001",
     },
-    [520302] = {
+    [723005] = {
         ext = {
         },
-        finishCondId = 9010,
-        order = 9,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 722010,
+            Contracttype = 4,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
+                [1] = 500002,
+                [2] = 500,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -58092,21 +58306,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520302,
+        id = 723005,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 18000,
-        type = 14,
+        progress = 1,
+        type = 21,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            plvl = 55,
         },
-        effectiveTime = 7,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272078",
+        des = "1325134",
     },
     [210018] = {
         ext = {
@@ -58171,59 +58386,48 @@ return {
         },
         des = "1320519",
     },
-    [120101] = {
+    [370014] = {
         ext = {
         },
-        finishCondId = 9007,
-        order = 369,
+        finishCondId = 11009,
+        order = 14,
         acceptParams = {
-            pre_task_id = 110221,
+            plvl = 1,
         },
-        taskCollection = false,
+        taskCollection = true,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500005,
-                [2] = 6,
-            },
-            [2] = {
-                [1] = 500001,
-                [2] = 400,
+                [1] = 585009,
+                [2] = 1,
             },
         },
         startDate = {
         },
-        jumpInterface = 37,
-        icon = "ui/task/chapter_1.png",
-        completeResult = 1,
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
-            b = 75,
-            g = 124,
-            r = 235,
         },
-        typeDes = "1330002",
+        typeDes = "",
         open = true,
-        id = 120101,
+        id = 370014,
         extendsTaskId = 0,
-        subType = 1,
+        subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 1,
-        name = "1310222",
+        progress = 6000,
+        type = 37,
+        name = "1711014",
         acceptCondId = 10001,
         finishParams = {
-            dunId = 201101,
         },
         effectiveTime = -1,
         colour1 = {
-            b = 99,
-            g = 163,
-            r = 243,
         },
-        des = "1320001",
+        des = "1711214",
     },
     [337005] = {
         ext = {
@@ -58268,11 +58472,11 @@ return {
         },
         des = "1320793",
     },
-    [520401] = {
+    [520402] = {
         ext = {
         },
-        finishCondId = 29001,
-        order = 8,
+        finishCondId = 9010,
+        order = 9,
         acceptParams = {
             plvl = 1,
         },
@@ -58295,7 +58499,7 @@ return {
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -58303,12 +58507,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520401,
+        id = 520402,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 16000,
+        progress = 20000,
         type = 14,
         name = "",
         acceptCondId = 10001,
@@ -58317,29 +58521,36 @@ return {
         effectiveTime = 7,
         colour1 = {
         },
-        des = "272081",
+        des = "272082",
     },
-    [723007] = {
+    [520406] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 9030,
+        order = 7,
         acceptParams = {
-            pre_task_id = 722010,
-            Contracttype = 4,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 500,
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 100,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 97,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -58347,24 +58558,25 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 723007,
+        id = 520406,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
+        progress = 4000000,
+        type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 57,
+            dunType = 105,
+            dunId = 490004,
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "1325136",
+        des = "272140",
     },
-    [520405] = {
+    [520505] = {
         ext = {
         },
         finishCondId = 0,
@@ -58386,7 +58598,7 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 520405,
+        id = 520505,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -58400,7 +58612,7 @@ return {
         effectiveTime = 0,
         colour1 = {
         },
-        des = "272085",
+        des = "272090",
     },
     [337006] = {
         ext = {
@@ -58552,27 +58764,34 @@ return {
         },
         des = "1320511",
     },
-    [723005] = {
+    [510701] = {
         ext = {
         },
-        finishCondId = 17010,
+        finishCondId = 9001,
         order = 1,
         acceptParams = {
-            pre_task_id = 722010,
-            Contracttype = 4,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 500,
+                [1] = 500037,
+                [2] = 20,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 73,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -58580,22 +58799,28 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 723005,
+        id = 510701,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
+        progress = 5,
+        type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 55,
+            dunTypeList = {
+                [1] = 9,
+                [2] = 17,
+                [3] = 22,
+                [4] = 23,
+                [5] = 24,
+            },
         },
-        effectiveTime = -1,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "1325134",
+        des = "272043",
     },
     [110415] = {
         ext = {
@@ -58743,11 +58968,11 @@ return {
         },
         des = "1320001",
     },
-    [520501] = {
+    [510702] = {
         ext = {
         },
-        finishCondId = 29001,
-        order = 8,
+        finishCondId = 9001,
+        order = 2,
         acceptParams = {
             plvl = 1,
         },
@@ -58756,21 +58981,21 @@ return {
         reward = {
             [1] = {
                 [1] = 500037,
-                [2] = 100,
+                [2] = 20,
             },
             [2] = {
                 [1] = 500036,
-                [2] = 100,
+                [2] = 20,
             },
             [3] = {
                 [1] = 500034,
-                [2] = 1000,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
+        jumpInterface = 76,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -58778,21 +59003,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520501,
+        id = 510702,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 18000,
-        type = 14,
+        progress = 3,
+        type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            bossType = 999,
         },
-        effectiveTime = 7,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "272086",
+        des = "272044",
     },
     [110927] = {
         ext = {
@@ -59085,11 +59311,11 @@ return {
         },
         des = "1320646",
     },
-    [520607] = {
+    [510704] = {
         ext = {
         },
         finishCondId = 0,
-        order = 14,
+        order = 4,
         acceptParams = {
         },
         taskCollection = false,
@@ -59099,7 +59325,7 @@ return {
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 0,
         playerLevel = {
         },
@@ -59107,13 +59333,13 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 520607,
+        id = 510704,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 0,
-        type = 14,
+        type = 13,
         name = "",
         acceptCondId = 0,
         finishParams = {
@@ -59121,7 +59347,7 @@ return {
         effectiveTime = 0,
         colour1 = {
         },
-        des = "272098",
+        des = "272046",
     },
     [732103] = {
         ext = {
@@ -59770,34 +59996,27 @@ return {
         },
         des = "3207504",
     },
-    [510803] = {
+    [722002] = {
         ext = {
         },
-        finishCondId = 25001,
-        order = 3,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 721010,
+            Contracttype = 3,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
+                [1] = 500002,
+                [2] = 300,
             },
         },
         startDate = {
         },
-        jumpInterface = 77,
-        icon = "ui/task/icon_4.png",
+        jumpInterface = 0,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -59805,21 +60024,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 510803,
+        id = 722002,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 13,
+        type = 21,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            plvl = 42,
         },
-        effectiveTime = 1,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272052",
+        des = "1325121",
     },
     [736204] = {
         ext = {
@@ -59869,43 +60089,49 @@ return {
         },
         des = "3207505",
     },
-    [510804] = {
+    [305008] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 4,
+        finishCondId = 9001,
+        order = 29,
         acceptParams = {
+            pre_task_id = 305007,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 80,
+            },
         },
         startDate = {
         },
-        jumpInterface = 0,
+        jumpInterface = 26,
         icon = "ui/task/icon_1.png",
-        completeResult = 0,
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 510804,
-        extendsTaskId = 0,
+        open = true,
+        id = 305008,
+        extendsTaskId = 305007,
         subType = 2,
         endDate = {
         },
-        progress = 0,
-        type = 13,
-        name = "",
-        acceptCondId = 0,
+        progress = 600,
+        type = 3,
+        name = "1310553",
+        acceptCondId = 10001,
         finishParams = {
+            difficulty = 3,
         },
-        effectiveTime = 0,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272053",
+        des = "1320553",
     },
     [736205] = {
         ext = {
@@ -59956,34 +60182,27 @@ return {
         },
         des = "3207506",
     },
-    [510807] = {
+    [721008] = {
         ext = {
         },
-        finishCondId = 9011,
-        order = 7,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 720010,
+            Contracttype = 2,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 100,
+                [1] = 500002,
+                [2] = 300,
             },
         },
         startDate = {
         },
-        jumpInterface = 39,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 0,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -59991,21 +60210,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 510807,
+        id = 721008,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 80,
-        type = 13,
+        progress = 1,
+        type = 21,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            plvl = 38,
         },
-        effectiveTime = 7,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272056",
+        des = "1325117",
     },
     [220002] = {
         ext = {
@@ -60071,14 +60291,14 @@ return {
         },
         des = "1320514",
     },
-    [722002] = {
+    [721007] = {
         ext = {
         },
         finishCondId = 17010,
         order = 1,
         acceptParams = {
-            pre_task_id = 721010,
-            Contracttype = 3,
+            pre_task_id = 720010,
+            Contracttype = 2,
         },
         taskCollection = false,
         resetType = 1,
@@ -60099,7 +60319,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 722002,
+        id = 721007,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -60109,41 +60329,34 @@ return {
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 42,
+            plvl = 37,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325121",
+        des = "1325116",
     },
-    [510903] = {
+    [721006] = {
         ext = {
         },
-        finishCondId = 25001,
-        order = 3,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 720010,
+            Contracttype = 2,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
+                [1] = 500002,
+                [2] = 400,
             },
         },
         startDate = {
         },
-        jumpInterface = 77,
-        icon = "ui/task/icon_4.png",
+        jumpInterface = 0,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -60151,21 +60364,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 510903,
+        id = 721006,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 13,
+        type = 21,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            plvl = 36,
         },
-        effectiveTime = 1,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272059",
+        des = "1325115",
     },
     [110417] = {
         ext = {
@@ -60569,27 +60783,34 @@ return {
         },
         des = "1320706",
     },
-    [721008] = {
+    [510103] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 25001,
+        order = 3,
         acceptParams = {
-            pre_task_id = 720010,
-            Contracttype = 2,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 300,
+                [1] = 500037,
+                [2] = 20,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 77,
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -60597,89 +60818,95 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 721008,
+        id = 510103,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 21,
+        type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 38,
         },
-        effectiveTime = -1,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "1325117",
+        des = "272003",
     },
-    [721007] = {
+    [319004] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 2003,
+        order = 168,
         acceptParams = {
-            pre_task_id = 720010,
-            Contracttype = 2,
+            pre_task_id = 319003,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 300,
+                [1] = 570001,
+                [2] = 100,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
+        icon = "ui/task/icon_7.png",
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 721007,
-        extendsTaskId = 0,
+        id = 319004,
+        extendsTaskId = 319003,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
-        name = "",
+        progress = 250,
+        type = 3,
+        name = "1310679",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 37,
+            quality = 2,
+            superType = 2,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325116",
+        des = "1320679",
     },
-    [721006] = {
+    [510107] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 9011,
+        order = 7,
         acceptParams = {
-            pre_task_id = 720010,
-            Contracttype = 2,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 400,
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 100,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
+        jumpInterface = 39,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -60687,22 +60914,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 721006,
+        id = 510107,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
+        progress = 80,
+        type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 36,
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "1325115",
+        des = "272007",
     },
     [510501] = {
         ext = {
@@ -60762,50 +60988,50 @@ return {
         },
         des = "272029",
     },
-    [321003] = {
+    [720010] = {
         ext = {
         },
-        finishCondId = 2003,
-        order = 179,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            pre_task_id = 321002,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570001,
-                [2] = 50,
+                [1] = 500002,
+                [2] = 400,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_7.png",
-        completeResult = 1,
+        icon = "",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 321003,
-        extendsTaskId = 321002,
+        id = 720010,
+        extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 25,
-        type = 3,
-        name = "1310690",
+        progress = 1,
+        type = 21,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            quality = 4,
-            superType = 2,
+            Contracttype = 1,
+            plvl = 30,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320690",
+        des = "1325109",
     },
     [130504] = {
         ext = {
@@ -60855,49 +61081,50 @@ return {
         },
         des = "1320001",
     },
-    [318005] = {
+    [720009] = {
         ext = {
         },
-        finishCondId = 13003,
-        order = 162,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            pre_task_id = 318004,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510105,
-                [2] = 10,
+                [1] = 500002,
+                [2] = 200,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_6.png",
-        completeResult = 1,
+        icon = "",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 318005,
+        id = 720009,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 3,
-        name = "1310674",
+        progress = 1,
+        type = 21,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            limitLvl = 50,
+            Contracttype = 1,
+            plvl = 27,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320674",
+        des = "1325108",
     },
     [510502] = {
         ext = {
@@ -61394,34 +61621,26 @@ return {
         },
         des = "3207503",
     },
-    [510302] = {
+    [720006] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 2,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
             plvl = 1,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
+                [1] = 500002,
+                [2] = 300,
             },
         },
         startDate = {
         },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 0,
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -61429,22 +61648,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 510302,
+        id = 720006,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 13,
+        progress = 1,
+        type = 21,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            bossType = 999,
+            Contracttype = 1,
+            plvl = 18,
         },
-        effectiveTime = 1,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272016",
+        des = "1325105",
     },
     [731103] = {
         ext = {
@@ -62082,7 +62302,7 @@ return {
         },
         des = "1320779",
     },
-    [720007] = {
+    [720002] = {
         ext = {
         },
         finishCondId = 17010,
@@ -62095,7 +62315,7 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 200,
+                [2] = 100,
             },
         },
         startDate = {
@@ -62109,7 +62329,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 720007,
+        id = 720002,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -62120,12 +62340,12 @@ return {
         acceptCondId = 10001,
         finishParams = {
             Contracttype = 1,
-            plvl = 21,
+            plvl = 6,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325106",
+        des = "1325101",
     },
     [735204] = {
         ext = {
@@ -62175,48 +62395,58 @@ return {
         },
         des = "3207505",
     },
-    [370015] = {
+    [710004] = {
         ext = {
         },
-        finishCondId = 11009,
-        order = 15,
+        finishCondId = 11012,
+        order = 4,
         acceptParams = {
             plvl = 1,
         },
-        taskCollection = true,
-        resetType = 1,
+        taskCollection = false,
+        resetType = 4,
         reward = {
             [1] = {
-                [1] = 585010,
-                [2] = 1,
+                [1] = 580043,
+                [2] = 10,
+            },
+            [2] = {
+                [1] = 510154,
+                [2] = 3,
+            },
+            [3] = {
+                [1] = 510104,
+                [2] = 3,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
-        completeResult = 0,
+        icon = "ui/task/icon_5.png",
+        completeResult = 2,
         playerLevel = {
+            [1] = 1,
+            [2] = 70,
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 370015,
+        id = 710004,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 6500,
-        type = 37,
-        name = "1711015",
+        progress = 400,
+        type = 19,
+        name = "1310877",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1711215",
+        des = "1320876",
     },
     [336002] = {
         ext = {
@@ -62261,50 +62491,58 @@ return {
         },
         des = "1320780",
     },
-    [720004] = {
+    [710003] = {
         ext = {
         },
-        finishCondId = 17010,
-        order = 1,
+        finishCondId = 11012,
+        order = 3,
         acceptParams = {
             plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 4,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 200,
+                [1] = 580043,
+                [2] = 8,
+            },
+            [2] = {
+                [1] = 510154,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 510104,
+                [2] = 2,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_5.png",
         completeResult = 2,
         playerLevel = {
+            [1] = 1,
+            [2] = 70,
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 720004,
+        id = 710003,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
-        name = "",
+        progress = 300,
+        type = 19,
+        name = "1310877",
         acceptCondId = 10001,
         finishParams = {
-            Contracttype = 1,
-            plvl = 12,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325103",
+        des = "1320876",
     },
     [735206] = {
         ext = {
@@ -62459,50 +62697,58 @@ return {
         },
         des = "1320781",
     },
-    [720002] = {
+    [710001] = {
         ext = {
         },
-        finishCondId = 17010,
+        finishCondId = 11012,
         order = 1,
         acceptParams = {
             plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 4,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 100,
+                [1] = 580043,
+                [2] = 3,
+            },
+            [2] = {
+                [1] = 510153,
+                [2] = 1,
+            },
+            [3] = {
+                [1] = 510103,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_5.png",
         completeResult = 2,
         playerLevel = {
+            [1] = 1,
+            [2] = 70,
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 720002,
+        id = 710001,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 21,
-        name = "",
+        progress = 100,
+        type = 19,
+        name = "1310877",
         acceptCondId = 10001,
         finishParams = {
-            Contracttype = 1,
-            plvl = 6,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1325101",
+        des = "1320876",
     },
     [110420] = {
         ext = {
@@ -62863,95 +63109,42 @@ return {
         },
         des = "1320783",
     },
-    [720001] = {
+    [700036] = {
         ext = {
         },
-        finishCondId = 17010,
+        finishCondId = 3001,
         order = 1,
         acceptParams = {
             plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 2,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 1888,
+                [1] = 580038,
+                [2] = 2,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_5.png",
         completeResult = 2,
         playerLevel = {
+            [1] = 1,
+            [2] = 70,
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 720001,
+        open = false,
+        id = 700036,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 21,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            Contracttype = 1,
-            plvl = 5,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1325100",
-    },
-    [710004] = {
-        ext = {
-        },
-        finishCondId = 11012,
-        order = 4,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 4,
-        reward = {
-            [1] = {
-                [1] = 580043,
-                [2] = 10,
-            },
-            [2] = {
-                [1] = 510154,
-                [2] = 3,
-            },
-            [3] = {
-                [1] = 510104,
-                [2] = 3,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_5.png",
-        completeResult = 2,
-        playerLevel = {
-            [1] = 1,
-            [2] = 70,
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 710004,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 400,
-        type = 19,
+        type = 17,
         name = "1310877",
         acceptCondId = 10001,
         finishParams = {
@@ -62961,58 +63154,91 @@ return {
         },
         des = "1320876",
     },
-    [710003] = {
+    [700028] = {
         ext = {
         },
-        finishCondId = 11012,
-        order = 3,
+        finishCondId = 17009,
+        order = 37,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 700027,
         },
         taskCollection = false,
-        resetType = 4,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 580043,
-                [2] = 8,
-            },
-            [2] = {
-                [1] = 510154,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 510104,
+                [1] = 580037,
                 [2] = 2,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_5.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 1,
-            [2] = 70,
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 710003,
-        extendsTaskId = 0,
+        open = false,
+        id = 700028,
+        extendsTaskId = 700027,
         subType = 2,
         endDate = {
         },
-        progress = 300,
-        type = 19,
-        name = "1310877",
+        progress = 25,
+        type = 17,
+        name = "1310869",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320876",
+        des = "1320868",
+    },
+    [700027] = {
+        ext = {
+        },
+        finishCondId = 17009,
+        order = 36,
+        acceptParams = {
+            pre_task_id = 700026,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 580037,
+                [2] = 2,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = false,
+        id = 700027,
+        extendsTaskId = 700026,
+        subType = 2,
+        endDate = {
+        },
+        progress = 20,
+        type = 17,
+        name = "1310868",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320867",
     },
     [336006] = {
         ext = {
@@ -63101,58 +63327,48 @@ return {
         },
         des = "1320637",
     },
-    [710002] = {
+    [700026] = {
         ext = {
         },
-        finishCondId = 11012,
-        order = 2,
+        finishCondId = 17009,
+        order = 35,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 700025,
         },
         taskCollection = false,
-        resetType = 4,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 580043,
-                [2] = 5,
-            },
-            [2] = {
-                [1] = 510153,
-                [2] = 2,
-            },
-            [3] = {
-                [1] = 510103,
+                [1] = 580037,
                 [2] = 2,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_5.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 1,
-            [2] = 70,
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 710002,
-        extendsTaskId = 0,
+        open = false,
+        id = 700026,
+        extendsTaskId = 700025,
         subType = 2,
         endDate = {
         },
-        progress = 200,
-        type = 19,
-        name = "1310877",
+        progress = 15,
+        type = 17,
+        name = "1310867",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320876",
+        des = "1320866",
     },
     [220010] = {
         ext = {
@@ -63359,58 +63575,48 @@ return {
         },
         des = "1320001",
     },
-    [710001] = {
+    [700025] = {
         ext = {
         },
-        finishCondId = 11012,
-        order = 1,
+        finishCondId = 17009,
+        order = 34,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 700024,
         },
         taskCollection = false,
-        resetType = 4,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 580043,
-                [2] = 3,
-            },
-            [2] = {
-                [1] = 510153,
-                [2] = 1,
-            },
-            [3] = {
-                [1] = 510103,
+                [1] = 580037,
                 [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_5.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
-            [1] = 1,
-            [2] = 70,
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 710001,
-        extendsTaskId = 0,
+        open = false,
+        id = 700025,
+        extendsTaskId = 700024,
         subType = 2,
         endDate = {
         },
-        progress = 100,
-        type = 19,
-        name = "1310877",
+        progress = 10,
+        type = 17,
+        name = "1310866",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320876",
+        des = "1320865",
     },
     [120912] = {
         ext = {
@@ -63703,65 +63909,20 @@ return {
         },
         des = "1320640",
     },
-    [700036] = {
-        ext = {
-        },
-        finishCondId = 3001,
-        order = 1,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 2,
-        reward = {
-            [1] = {
-                [1] = 580038,
-                [2] = 2,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_5.png",
-        completeResult = 2,
-        playerLevel = {
-            [1] = 1,
-            [2] = 70,
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 700036,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 17,
-        name = "1310877",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320876",
-    },
-    [700028] = {
+    [700022] = {
         ext = {
         },
         finishCondId = 17009,
-        order = 37,
+        order = 31,
         acceptParams = {
-            pre_task_id = 700027,
+            pre_task_id = 700021,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 580037,
-                [2] = 2,
+                [2] = 1,
             },
         },
         startDate = {
@@ -63775,21 +63936,64 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 700028,
-        extendsTaskId = 700027,
+        id = 700022,
+        extendsTaskId = 700021,
         subType = 2,
         endDate = {
         },
-        progress = 25,
+        progress = 4,
         type = 17,
-        name = "1310869",
+        name = "1310863",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320868",
+        des = "1320862",
+    },
+    [700014] = {
+        ext = {
+        },
+        finishCondId = 17008,
+        order = 23,
+        acceptParams = {
+            pre_task_id = 700013,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 580039,
+                [2] = 30,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_7.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = false,
+        id = 700014,
+        extendsTaskId = 700013,
+        subType = 2,
+        endDate = {
+        },
+        progress = 30,
+        type = 17,
+        name = "1310855",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320855",
     },
     [336010] = {
         ext = {
@@ -63878,26 +64082,26 @@ return {
         },
         des = "1320641",
     },
-    [700027] = {
+    [700012] = {
         ext = {
         },
-        finishCondId = 17009,
-        order = 36,
+        finishCondId = 17008,
+        order = 21,
         acceptParams = {
-            pre_task_id = 700026,
+            pre_task_id = 700011,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 580037,
-                [2] = 2,
+                [1] = 580039,
+                [2] = 30,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_7.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -63905,21 +64109,21 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 700027,
-        extendsTaskId = 700026,
+        id = 700012,
+        extendsTaskId = 700011,
         subType = 2,
         endDate = {
         },
         progress = 20,
         type = 17,
-        name = "1310868",
+        name = "1310853",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320867",
+        des = "1320853",
     },
     [220012] = {
         ext = {
@@ -64388,26 +64592,26 @@ return {
         },
         des = "15010054",
     },
-    [700025] = {
+    [700010] = {
         ext = {
         },
-        finishCondId = 17009,
-        order = 34,
+        finishCondId = 17008,
+        order = 19,
         acceptParams = {
-            pre_task_id = 700024,
+            pre_task_id = 700009,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 580037,
-                [2] = 1,
+                [1] = 580039,
+                [2] = 20,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_7.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -64415,21 +64619,21 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 700025,
-        extendsTaskId = 700024,
+        id = 700010,
+        extendsTaskId = 700009,
         subType = 2,
         endDate = {
         },
         progress = 10,
         type = 17,
-        name = "1310866",
+        name = "1310851",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320865",
+        des = "1320851",
     },
     [734204] = {
         ext = {
@@ -64479,20 +64683,20 @@ return {
         },
         des = "3207505",
     },
-    [700014] = {
+    [700006] = {
         ext = {
         },
         finishCondId = 17008,
-        order = 23,
+        order = 5,
         acceptParams = {
-            pre_task_id = 700013,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 580039,
-                [2] = 30,
+                [2] = 20,
             },
         },
         startDate = {
@@ -64506,21 +64710,21 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 700014,
-        extendsTaskId = 700013,
+        id = 700006,
+        extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 30,
+        progress = 2,
         type = 17,
-        name = "1310855",
+        name = "1310847",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320855",
+        des = "1320847",
     },
     [734205] = {
         ext = {
@@ -64571,26 +64775,26 @@ return {
         },
         des = "3207506",
     },
-    [700011] = {
+    [700003] = {
         ext = {
         },
-        finishCondId = 17008,
-        order = 20,
+        finishCondId = 2003,
+        order = 3,
         acceptParams = {
-            pre_task_id = 700010,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 580039,
-                [2] = 30,
+                [2] = 80,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_7.png",
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -64598,21 +64802,22 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 700011,
-        extendsTaskId = 700010,
+        id = 700003,
+        extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 15,
-        type = 17,
-        name = "1310852",
+        progress = 90,
+        type = 18,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
+            itemId = 595010,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320852",
+        des = "",
     },
     [734206] = {
         ext = {
@@ -64661,26 +64866,26 @@ return {
         },
         des = "3207507",
     },
-    [700009] = {
+    [700001] = {
         ext = {
         },
-        finishCondId = 17008,
-        order = 18,
+        finishCondId = 2003,
+        order = 1,
         acceptParams = {
-            pre_task_id = 700008,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 580039,
-                [2] = 20,
+                [2] = 30,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_7.png",
+        icon = "",
         completeResult = 2,
         playerLevel = {
         },
@@ -64688,21 +64893,22 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 700009,
-        extendsTaskId = 700008,
+        id = 700001,
+        extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 8,
-        type = 17,
-        name = "1310850",
+        progress = 30,
+        type = 18,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
+            itemId = 595010,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320850",
+        des = "",
     },
     [220014] = {
         ext = {
@@ -64822,97 +65028,10 @@ return {
         },
         des = "1320001",
     },
-    [700006] = {
+    [610011] = {
         ext = {
         },
-        finishCondId = 17008,
-        order = 5,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 580039,
-                [2] = 20,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_7.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 700006,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 2,
-        type = 17,
-        name = "1310847",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320847",
-    },
-    [700004] = {
-        ext = {
-        },
-        finishCondId = 2003,
-        order = 4,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 580039,
-                [2] = 100,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 700004,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 120,
-        type = 18,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            itemId = 595010,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "",
-    },
-    [700003] = {
-        ext = {
-        },
-        finishCondId = 2003,
+        finishCondId = 12007,
         order = 3,
         acceptParams = {
             plvl = 1,
@@ -64921,32 +65040,140 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 580039,
-                [2] = 80,
+                [1] = 300027,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "",
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 700003,
+        open = true,
+        id = 610011,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 90,
-        type = 18,
+        progress = 4,
+        type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            itemId = 595010,
+            chapter = 1100101,
+            datingId = {
+                [1] = 45,
+                [2] = 46,
+                [3] = 47,
+                [4] = 48,
+            },
+            roleId = 110,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [610008] = {
+        ext = {
+        },
+        finishCondId = 12007,
+        order = 4,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 305002,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 610008,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 4,
+        type = 11,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            chapter = 1120101,
+            datingId = {
+                [1] = 33,
+                [2] = 34,
+                [3] = 35,
+                [4] = 36,
+            },
+            roleId = 112,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [610007] = {
+        ext = {
+        },
+        finishCondId = 12007,
+        order = 3,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 301002,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 610007,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 3,
+        type = 11,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            chapter = 1020201,
+            datingId = {
+                [1] = 30,
+                [2] = 31,
+                [3] = 32,
+            },
+            roleId = 102,
         },
         effectiveTime = -1,
         colour1 = {
@@ -65161,54 +65388,10 @@ return {
         },
         des = "1320510",
     },
-    [700002] = {
+    [610005] = {
         ext = {
         },
-        finishCondId = 2003,
-        order = 2,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 580039,
-                [2] = 50,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 700002,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 60,
-        type = 18,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            itemId = 595010,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "",
-    },
-    [700001] = {
-        ext = {
-        },
-        finishCondId = 2003,
+        finishCondId = 12007,
         order = 1,
         acceptParams = {
             plvl = 1,
@@ -65217,51 +65400,7 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 580039,
-                [2] = 30,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 700001,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 30,
-        type = 18,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            itemId = 595010,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "",
-    },
-    [610011] = {
-        ext = {
-        },
-        finishCondId = 12007,
-        order = 3,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 300027,
+                [1] = 534011,
                 [2] = 1,
             },
         },
@@ -65276,24 +65415,127 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 610011,
+        id = 610005,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4,
+        progress = 5,
         type = 11,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1100101,
+            chapter = 1030201,
             datingId = {
-                [1] = 45,
-                [2] = 46,
-                [3] = 47,
-                [4] = 48,
+                [1] = 20,
+                [2] = 21,
+                [3] = 22,
+                [4] = 23,
+                [5] = 24,
             },
-            roleId = 110,
+            roleId = 103,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [610003] = {
+        ext = {
+        },
+        finishCondId = 12007,
+        order = 3,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 300010,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 610003,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 3,
+        type = 11,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            chapter = 1030101,
+            datingId = {
+                [1] = 12,
+                [2] = 13,
+                [3] = 14,
+            },
+            roleId = 103,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [610000] = {
+        ext = {
+        },
+        finishCondId = 12007,
+        order = 4,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 300008,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 610000,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 5,
+        type = 11,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            chapter = 1010101,
+            datingId = {
+                [1] = 1,
+                [2] = 2,
+                [3] = 3,
+                [4] = 4,
+                [5] = 5,
+            },
+            roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
@@ -65360,111 +65602,10 @@ return {
         },
         des = "1326393",
     },
-    [610008] = {
+    [600021] = {
         ext = {
         },
-        finishCondId = 12007,
-        order = 4,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 305002,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 610008,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 4,
-        type = 11,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            chapter = 1120101,
-            datingId = {
-                [1] = 33,
-                [2] = 34,
-                [3] = 35,
-                [4] = 36,
-            },
-            roleId = 112,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "",
-    },
-    [610007] = {
-        ext = {
-        },
-        finishCondId = 12007,
-        order = 3,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 301002,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 610007,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 3,
-        type = 11,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            chapter = 1020201,
-            datingId = {
-                [1] = 30,
-                [2] = 31,
-                [3] = 32,
-            },
-            roleId = 102,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "",
-    },
-    [610005] = {
-        ext = {
-        },
-        finishCondId = 12007,
+        finishCondId = 12006,
         order = 1,
         acceptParams = {
             plvl = 1,
@@ -65473,7 +65614,7 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 534011,
+                [1] = 300036,
                 [2] = 1,
             },
         },
@@ -65488,25 +65629,129 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 610005,
+        id = 600021,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 5,
-        type = 11,
+        progress = 1,
+        type = 10,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            chapter = 1030201,
             datingId = {
-                [1] = 20,
-                [2] = 21,
-                [3] = 22,
-                [4] = 23,
-                [5] = 24,
+                [1] = 750501124,
+                [2] = 750501727,
+                [3] = 750701121,
+                [4] = 750501925,
+                [5] = 750501323,
+                [6] = 750601317,
+                [7] = 750601420,
             },
-            roleId = 103,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [600020] = {
+        ext = {
+        },
+        finishCondId = 12006,
+        order = 2,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 300030,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 600020,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 10,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            datingId = {
+                [1] = 25601126,
+                [2] = 25604115,
+                [3] = 25701229,
+                [4] = 25701126,
+                [5] = 25604214,
+                [6] = 25702121,
+                [7] = 25702215,
+            },
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [600019] = {
+        ext = {
+        },
+        finishCondId = 12006,
+        order = 1,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 300029,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 600019,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 10,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            datingId = {
+                [1] = 30601225,
+                [2] = 30502122,
+                [3] = 30702114,
+                [4] = 30601119,
+                [5] = 30701120,
+                [6] = 30703218,
+                [7] = 30502227,
+            },
         },
         effectiveTime = -1,
         colour1 = {
@@ -65631,60 +65876,10 @@ return {
         },
         des = "1320001",
     },
-    [610003] = {
+    [600018] = {
         ext = {
         },
-        finishCondId = 12007,
-        order = 3,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 300010,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 610003,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 3,
-        type = 11,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            chapter = 1030101,
-            datingId = {
-                [1] = 12,
-                [2] = 13,
-                [3] = 14,
-            },
-            roleId = 103,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "",
-    },
-    [610000] = {
-        ext = {
-        },
-        finishCondId = 12007,
+        finishCondId = 12006,
         order = 4,
         acceptParams = {
             plvl = 1,
@@ -65693,7 +65888,7 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 300008,
+                [1] = 300026,
                 [2] = 1,
             },
         },
@@ -65708,59 +65903,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 610000,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 5,
-        type = 11,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            chapter = 1010101,
-            datingId = {
-                [1] = 1,
-                [2] = 2,
-                [3] = 3,
-                [4] = 4,
-                [5] = 5,
-            },
-            roleId = 101,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "",
-    },
-    [600021] = {
-        ext = {
-        },
-        finishCondId = 12006,
-        order = 1,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 300036,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 600021,
+        id = 600018,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -65771,13 +65914,119 @@ return {
         acceptCondId = 10001,
         finishParams = {
             datingId = {
-                [1] = 750501124,
-                [2] = 750501727,
-                [3] = 750701121,
-                [4] = 750501925,
-                [5] = 750501323,
-                [6] = 750601317,
-                [7] = 750601420,
+                [1] = 488601120,
+                [2] = 488502336,
+                [3] = 488601224,
+                [4] = 488501622,
+                [5] = 488501822,
+                [6] = 488501925,
+                [7] = 488601529,
+            },
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [600017] = {
+        ext = {
+        },
+        finishCondId = 12006,
+        order = 3,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 300017,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 600017,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 10,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            datingId = {
+                [1] = 461701146,
+                [2] = 461701230,
+                [3] = 461601328,
+                [4] = 461701422,
+                [5] = 461601414,
+                [6] = 461501415,
+                [7] = 461601518,
+            },
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [600015] = {
+        ext = {
+        },
+        finishCondId = 12006,
+        order = 3,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 300007,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 600015,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 10,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            datingId = {
+                [1] = 314601323,
+                [2] = 314601614,
+                [3] = 314502522,
+                [4] = 314502108,
+                [5] = 314601810,
+                [6] = 314502413,
+                [7] = 314502228,
+                [8] = 314601230,
+                [9] = 314503226,
             },
         },
         effectiveTime = -1,
@@ -65993,59 +66242,7 @@ return {
         },
         des = "1320525",
     },
-    [600020] = {
-        ext = {
-        },
-        finishCondId = 12006,
-        order = 2,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 300030,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 600020,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 10,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            datingId = {
-                [1] = 25601126,
-                [2] = 25604115,
-                [3] = 25701229,
-                [4] = 25701126,
-                [5] = 25604214,
-                [6] = 25702121,
-                [7] = 25702215,
-            },
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "",
-    },
-    [600019] = {
+    [600013] = {
         ext = {
         },
         finishCondId = 12006,
@@ -66057,7 +66254,7 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 300029,
+                [1] = 304003,
                 [2] = 1,
             },
         },
@@ -66072,7 +66269,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 600019,
+        id = 600013,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -66083,13 +66280,13 @@ return {
         acceptCondId = 10001,
         finishParams = {
             datingId = {
-                [1] = 30601225,
-                [2] = 30502122,
-                [3] = 30702114,
-                [4] = 30601119,
-                [5] = 30701120,
-                [6] = 30703218,
-                [7] = 30502227,
+                [1] = 65701121,
+                [2] = 65705114,
+                [3] = 65603116,
+                [4] = 65701216,
+                [5] = 65703118,
+                [6] = 65705224,
+                [7] = 65801121,
             },
         },
         effectiveTime = -1,
@@ -66097,7 +66294,7 @@ return {
         },
         des = "",
     },
-    [600018] = {
+    [600012] = {
         ext = {
         },
         finishCondId = 12006,
@@ -66109,7 +66306,7 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 300026,
+                [1] = 305001,
                 [2] = 1,
             },
         },
@@ -66124,7 +66321,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 600018,
+        id = 600012,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -66135,13 +66332,69 @@ return {
         acceptCondId = 10001,
         finishParams = {
             datingId = {
-                [1] = 488601120,
-                [2] = 488502336,
-                [3] = 488601224,
-                [4] = 488501622,
-                [5] = 488501822,
-                [6] = 488501925,
-                [7] = 488601529,
+                [1] = 122601112,
+                [2] = 122801743,
+                [3] = 122801627,
+                [4] = 122601231,
+                [5] = 122601429,
+                [6] = 122801869,
+                [7] = 122701820,
+                [8] = 122701173,
+            },
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [600011] = {
+        ext = {
+        },
+        finishCondId = 12006,
+        order = 3,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 301001,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 600011,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 10,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            datingId = {
+                [1] = 119501117,
+                [2] = 119502214,
+                [3] = 119502709,
+                [4] = 119402513,
+                [5] = 119502816,
+                [6] = 119501217,
+                [7] = 119501516,
+                [8] = 119503510,
+                [9] = 119502422,
+                [10] = 119501722,
             },
         },
         effectiveTime = -1,
@@ -66193,11 +66446,11 @@ return {
         },
         des = "1326397",
     },
-    [600017] = {
+    [600010] = {
         ext = {
         },
         finishCondId = 12006,
-        order = 3,
+        order = 2,
         acceptParams = {
             plvl = 1,
         },
@@ -66205,7 +66458,7 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 300017,
+                [1] = 300005,
                 [2] = 1,
             },
         },
@@ -66220,7 +66473,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 600017,
+        id = 600010,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -66231,13 +66484,13 @@ return {
         acceptCondId = 10001,
         finishParams = {
             datingId = {
-                [1] = 461701146,
-                [2] = 461701230,
-                [3] = 461601328,
-                [4] = 461701422,
-                [5] = 461601414,
-                [6] = 461501415,
-                [7] = 461601518,
+                [1] = 29705227,
+                [2] = 29705320,
+                [3] = 29705126,
+                [4] = 29801127,
+                [5] = 29703206,
+                [6] = 29703112,
+                [7] = 29803122,
             },
         },
         effectiveTime = -1,
@@ -66245,61 +66498,7 @@ return {
         },
         des = "",
     },
-    [600015] = {
-        ext = {
-        },
-        finishCondId = 12006,
-        order = 3,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 300007,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 600015,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 10,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            datingId = {
-                [1] = 314601323,
-                [2] = 314601614,
-                [3] = 314502522,
-                [4] = 314502108,
-                [5] = 314601810,
-                [6] = 314502413,
-                [7] = 314502228,
-                [8] = 314601230,
-                [9] = 314503226,
-            },
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "",
-    },
-    [600013] = {
+    [600009] = {
         ext = {
         },
         finishCondId = 12006,
@@ -66311,7 +66510,7 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 304003,
+                [1] = 304002,
                 [2] = 1,
             },
         },
@@ -66326,7 +66525,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 600013,
+        id = 600009,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -66337,13 +66536,65 @@ return {
         acceptCondId = 10001,
         finishParams = {
             datingId = {
-                [1] = 65701121,
-                [2] = 65705114,
-                [3] = 65603116,
-                [4] = 65701216,
-                [5] = 65703118,
-                [6] = 65705224,
-                [7] = 65801121,
+                [1] = 28704113,
+                [2] = 28704320,
+                [3] = 28702215,
+                [4] = 28701113,
+                [5] = 28801124,
+                [6] = 28703220,
+                [7] = 28801230,
+            },
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [600007] = {
+        ext = {
+        },
+        finishCondId = 12006,
+        order = 3,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 303002,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 600007,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 10,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            datingId = {
+                [1] = 225501370,
+                [2] = 225701316,
+                [3] = 225501579,
+                [4] = 225601319,
+                [5] = 225501486,
+                [6] = 225501848,
+                [7] = 225601117,
             },
         },
         effectiveTime = -1,
@@ -66468,11 +66719,11 @@ return {
         },
         des = "1320001",
     },
-    [600012] = {
+    [600005] = {
         ext = {
         },
         finishCondId = 12006,
-        order = 4,
+        order = 1,
         acceptParams = {
             plvl = 1,
         },
@@ -66480,7 +66731,7 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 305001,
+                [1] = 300002,
                 [2] = 1,
             },
         },
@@ -66495,7 +66746,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 600012,
+        id = 600005,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -66506,14 +66757,13 @@ return {
         acceptCondId = 10001,
         finishParams = {
             datingId = {
-                [1] = 122601112,
-                [2] = 122801743,
-                [3] = 122801627,
-                [4] = 122601231,
-                [5] = 122601429,
-                [6] = 122801869,
-                [7] = 122701820,
-                [8] = 122701173,
+                [1] = 123501719,
+                [2] = 123801120,
+                [3] = 123501234,
+                [4] = 123401331,
+                [5] = 123501610,
+                [6] = 123501430,
+                [7] = 123501550,
             },
         },
         effectiveTime = -1,
@@ -66869,7 +67119,7 @@ return {
         },
         des = "3207505",
     },
-    [600009] = {
+    [600001] = {
         ext = {
         },
         finishCondId = 12006,
@@ -66881,7 +67131,7 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 304002,
+                [1] = 304001,
                 [2] = 1,
             },
         },
@@ -66896,7 +67146,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 600009,
+        id = 600001,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -66907,13 +67157,13 @@ return {
         acceptCondId = 10001,
         finishParams = {
             datingId = {
-                [1] = 28704113,
-                [2] = 28704320,
-                [3] = 28702215,
-                [4] = 28701113,
-                [5] = 28801124,
-                [6] = 28703220,
-                [7] = 28801230,
+                [1] = 2602215,
+                [2] = 2505113,
+                [3] = 2601221,
+                [4] = 2501220,
+                [5] = 2601313,
+                [6] = 2604306,
+                [7] = 2502465,
             },
         },
         effectiveTime = -1,
@@ -66964,57 +67214,43 @@ return {
         },
         des = "1320770",
     },
-    [600007] = {
+    [521006] = {
         ext = {
         },
-        finishCondId = 12006,
-        order = 3,
+        finishCondId = 0,
+        order = 13,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
-            [1] = {
-                [1] = 303002,
-                [2] = 1,
-            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
+        icon = "ui/task/icon_4.png",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 600007,
+        open = false,
+        id = 521006,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 10,
+        progress = 0,
+        type = 14,
         name = "",
-        acceptCondId = 10001,
+        acceptCondId = 0,
         finishParams = {
-            datingId = {
-                [1] = 225501370,
-                [2] = 225701316,
-                [3] = 225501579,
-                [4] = 225601319,
-                [5] = 225501486,
-                [6] = 225501848,
-                [7] = 225601117,
-            },
         },
-        effectiveTime = -1,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "",
+        des = "272125",
     },
     [733206] = {
         ext = {
@@ -67063,26 +67299,34 @@ return {
         },
         des = "3207507",
     },
-    [600004] = {
+    [520908] = {
         ext = {
         },
-        finishCondId = 12006,
-        order = 4,
+        finishCondId = 9030,
+        order = 7,
         acceptParams = {
             plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 300003,
-                [2] = 1,
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 100,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
+        jumpInterface = 97,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -67090,33 +67334,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 600004,
+        id = 520908,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 10,
+        progress = 9000000,
+        type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            datingId = {
-                [1] = 120701135,
-                [2] = 120502110,
-                [3] = 120603212,
-                [4] = 120703208,
-                [5] = 120605110,
-                [6] = 120501225,
-                [7] = 120704211,
-                [8] = 120604112,
-                [9] = 120605206,
-                [10] = 120704306,
-            },
+            dunType = 105,
+            dunId = 490004,
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "",
+        des = "272145",
     },
     [335003] = {
         ext = {
@@ -67279,56 +67513,43 @@ return {
         },
         des = "1320001",
     },
-    [600002] = {
+    [520907] = {
         ext = {
         },
-        finishCondId = 12006,
-        order = 2,
+        finishCondId = 0,
+        order = 14,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
-            [1] = {
-                [1] = 302001,
-                [2] = 1,
-            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
+        icon = "ui/task/icon_4.png",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 600002,
+        open = false,
+        id = 520907,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 10,
+        progress = 0,
+        type = 14,
         name = "",
-        acceptCondId = 10001,
+        acceptCondId = 0,
         finishParams = {
-            datingId = {
-                [1] = 9702128,
-                [2] = 9703118,
-                [3] = 9801128,
-                [4] = 9801217,
-                [5] = 9603123,
-                [6] = 9503316,
-            },
         },
-        effectiveTime = -1,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "",
+        des = "272119",
     },
     [335004] = {
         ext = {
@@ -67373,57 +67594,43 @@ return {
         },
         des = "1320772",
     },
-    [600001] = {
+    [520906] = {
         ext = {
         },
-        finishCondId = 12006,
-        order = 1,
+        finishCondId = 0,
+        order = 13,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
-            [1] = {
-                [1] = 304001,
-                [2] = 1,
-            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
+        icon = "ui/task/icon_4.png",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 600001,
+        open = false,
+        id = 520906,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 10,
+        progress = 0,
+        type = 14,
         name = "",
-        acceptCondId = 10001,
+        acceptCondId = 0,
         finishParams = {
-            datingId = {
-                [1] = 2602215,
-                [2] = 2505113,
-                [3] = 2601221,
-                [4] = 2501220,
-                [5] = 2601313,
-                [6] = 2604306,
-                [7] = 2502465,
-            },
         },
-        effectiveTime = -1,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "",
+        des = "272118",
     },
     [120917] = {
         ext = {
@@ -67569,11 +67776,11 @@ return {
         },
         des = "1320001",
     },
-    [521006] = {
+    [520905] = {
         ext = {
         },
         finishCondId = 0,
-        order = 13,
+        order = 12,
         acceptParams = {
         },
         taskCollection = false,
@@ -67591,7 +67798,7 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 521006,
+        id = 520905,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -67605,13 +67812,13 @@ return {
         effectiveTime = 0,
         colour1 = {
         },
-        des = "272125",
+        des = "272117",
     },
-    [521002] = {
+    [520904] = {
         ext = {
         },
-        finishCondId = 9010,
-        order = 9,
+        finishCondId = 9001,
+        order = 11,
         acceptParams = {
             plvl = 1,
         },
@@ -67634,7 +67841,7 @@ return {
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -67642,27 +67849,28 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 521002,
+        id = 520904,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 30000,
+        progress = 240,
         type = 14,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 21,
         },
         effectiveTime = 7,
         colour1 = {
         },
-        des = "272121",
+        des = "272116",
     },
-    [520908] = {
+    [520903] = {
         ext = {
         },
-        finishCondId = 9030,
-        order = 7,
+        finishCondId = 29002,
+        order = 10,
         acceptParams = {
             plvl = 1,
         },
@@ -67679,13 +67887,13 @@ return {
             },
             [3] = {
                 [1] = 500034,
-                [2] = 100,
+                [2] = 1000,
             },
         },
         startDate = {
         },
-        jumpInterface = 97,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 0,
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -67693,23 +67901,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520908,
+        id = 520903,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 9000000,
-        type = 13,
+        progress = 150,
+        type = 14,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 105,
-            dunId = 490004,
         },
         effectiveTime = 7,
         colour1 = {
         },
-        des = "272145",
+        des = "272115",
     },
     [335006] = {
         ext = {
@@ -67798,81 +68004,107 @@ return {
         },
         des = "1320631",
     },
-    [520907] = {
+    [520902] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 14,
+        finishCondId = 9010,
+        order = 9,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
+            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 0,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 520907,
+        open = true,
+        id = 520902,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 0,
+        progress = 30000,
         type = 14,
         name = "",
-        acceptCondId = 0,
+        acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = 0,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "272119",
+        des = "272114",
     },
-    [520906] = {
+    [520901] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 13,
+        finishCondId = 29001,
+        order = 8,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
+            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 520906,
+        open = true,
+        id = 520901,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 0,
+        progress = 20000,
         type = 14,
         name = "",
-        acceptCondId = 0,
+        acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = 0,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "272118",
+        des = "272113",
     },
     [335007] = {
         ext = {
@@ -68015,43 +68247,54 @@ return {
         },
         des = "1320001",
     },
-    [520905] = {
+    [507004] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 12,
+        finishCondId = 12003,
+        order = 4,
         acceptParams = {
+            day = 7,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
+            [1] = {
+                [1] = 500001,
+                [2] = 50000,
+            },
+            [2] = {
+                [1] = 500002,
+                [2] = 50,
+            },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 0,
+        jumpInterface = 33,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 520905,
+        open = true,
+        id = 507004,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 0,
-        type = 14,
+        progress = 1,
+        type = 9,
         name = "",
-        acceptCondId = 0,
+        acceptCondId = 10001,
         finishParams = {
+            datingType = 1,
         },
-        effectiveTime = 0,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272117",
+        des = "266243",
     },
     [335008] = {
         ext = {
@@ -68328,108 +68571,88 @@ return {
         },
         des = "1320634",
     },
-    [520904] = {
+    [321003] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 11,
+        finishCondId = 2003,
+        order = 179,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 321002,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
+                [1] = 570001,
+                [2] = 50,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 2,
+        icon = "ui/task/icon_7.png",
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 520904,
-        extendsTaskId = 0,
+        id = 321003,
+        extendsTaskId = 321002,
         subType = 2,
         endDate = {
         },
-        progress = 240,
-        type = 14,
-        name = "",
+        progress = 25,
+        type = 3,
+        name = "1310690",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 21,
+            quality = 4,
+            superType = 2,
         },
-        effectiveTime = 7,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272116",
+        des = "1320690",
     },
-    [520903] = {
+    [520806] = {
         ext = {
         },
-        finishCondId = 29002,
-        order = 10,
+        finishCondId = 0,
+        order = 13,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
-            },
         },
         startDate = {
         },
         jumpInterface = 0,
         icon = "ui/task/icon_4.png",
-        completeResult = 2,
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 520903,
+        open = false,
+        id = 520806,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 150,
+        progress = 0,
         type = 14,
         name = "",
-        acceptCondId = 10001,
+        acceptCondId = 0,
         finishParams = {
         },
-        effectiveTime = 7,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "272115",
+        des = "272111",
     },
     [335010] = {
         ext = {
@@ -68518,11 +68741,49 @@ return {
         },
         des = "1320635",
     },
-    [520902] = {
+    [520805] = {
         ext = {
         },
-        finishCondId = 9010,
-        order = 9,
+        finishCondId = 0,
+        order = 12,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 3,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_4.png",
+        completeResult = 0,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = false,
+        id = 520805,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 0,
+        type = 14,
+        name = "",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = 0,
+        colour1 = {
+        },
+        des = "272110",
+    },
+    [510207] = {
+        ext = {
+        },
+        finishCondId = 9011,
+        order = 7,
         acceptParams = {
             plvl = 1,
         },
@@ -68539,12 +68800,12 @@ return {
             },
             [3] = {
                 [1] = 500034,
-                [2] = 1000,
+                [2] = 100,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
+        jumpInterface = 39,
         icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
@@ -68553,13 +68814,13 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520902,
+        id = 510207,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 30000,
-        type = 14,
+        progress = 80,
+        type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
@@ -68567,103 +68828,45 @@ return {
         effectiveTime = 7,
         colour1 = {
         },
-        des = "272114",
+        des = "272014",
     },
-    [520901] = {
+    [510406] = {
         ext = {
         },
-        finishCondId = 29001,
-        order = 8,
+        finishCondId = 0,
+        order = 6,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
-            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
+        icon = "ui/task/icon_1.png",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 520901,
+        open = false,
+        id = 510406,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 20000,
-        type = 14,
+        progress = 0,
+        type = 13,
         name = "",
-        acceptCondId = 10001,
+        acceptCondId = 0,
         finishParams = {
         },
-        effectiveTime = 7,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "272113",
-    },
-    [319004] = {
-        ext = {
-        },
-        finishCondId = 2003,
-        order = 168,
-        acceptParams = {
-            pre_task_id = 319003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 570001,
-                [2] = 100,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_7.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 319004,
-        extendsTaskId = 319003,
-        subType = 2,
-        endDate = {
-        },
-        progress = 250,
-        type = 3,
-        name = "1310679",
-        acceptCondId = 10001,
-        finishParams = {
-            quality = 2,
-            superType = 2,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320679",
+        des = "272027",
     },
     [313006] = {
         ext = {
@@ -68811,43 +69014,56 @@ return {
         },
         des = "3207502",
     },
-    [520806] = {
+    [520801] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 13,
+        finishCondId = 29001,
+        order = 8,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
+            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 520806,
+        open = true,
+        id = 520801,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 0,
+        progress = 20000,
         type = 14,
         name = "",
-        acceptCondId = 0,
+        acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = 0,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "272111",
+        des = "272106",
     },
     [313007] = {
         ext = {
@@ -69082,11 +69298,11 @@ return {
         },
         des = "1326412",
     },
-    [520805] = {
+    [520707] = {
         ext = {
         },
         finishCondId = 0,
-        order = 12,
+        order = 14,
         acceptParams = {
         },
         taskCollection = false,
@@ -69104,7 +69320,7 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 520805,
+        id = 520707,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -69118,7 +69334,7 @@ return {
         effectiveTime = 0,
         colour1 = {
         },
-        des = "272110",
+        des = "272105",
     },
     [732205] = {
         ext = {
@@ -69169,57 +69385,43 @@ return {
         },
         des = "3207506",
     },
-    [510602] = {
+    [520705] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 2,
+        finishCondId = 0,
+        order = 12,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
-            },
         },
         startDate = {
         },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
+        jumpInterface = 0,
+        icon = "ui/task/icon_4.png",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 510602,
+        open = false,
+        id = 520705,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
-        type = 13,
+        progress = 0,
+        type = 14,
         name = "",
-        acceptCondId = 10001,
+        acceptCondId = 0,
         finishParams = {
-            bossType = 999,
         },
-        effectiveTime = 1,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "272037",
+        des = "272103",
     },
     [401030] = {
         ext = {
@@ -69266,11 +69468,11 @@ return {
         },
         des = "1326413",
     },
-    [520802] = {
+    [520704] = {
         ext = {
         },
-        finishCondId = 9010,
-        order = 9,
+        finishCondId = 9001,
+        order = 11,
         acceptParams = {
             plvl = 1,
         },
@@ -69293,7 +69495,7 @@ return {
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -69301,21 +69503,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520802,
+        id = 520704,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 30000,
+        progress = 240,
         type = 14,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 21,
         },
         effectiveTime = 7,
         colour1 = {
         },
-        des = "272107",
+        des = "272102",
     },
     [736301] = {
         ext = {
@@ -69365,43 +69568,56 @@ return {
         },
         des = "3207502",
     },
-    [520707] = {
+    [520702] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 14,
+        finishCondId = 9010,
+        order = 9,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
+            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 0,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 520707,
+        open = true,
+        id = 520702,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 0,
+        progress = 30000,
         type = 14,
         name = "",
-        acceptCondId = 0,
+        acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = 0,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "272105",
+        des = "272100",
     },
     [736302] = {
         ext = {
@@ -69559,43 +69775,58 @@ return {
         },
         des = "1320001",
     },
-    [520705] = {
+    [520608] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 12,
+        finishCondId = 9030,
+        order = 7,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 100,
+            },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 0,
+        jumpInterface = 97,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 520705,
+        open = true,
+        id = 520608,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 0,
-        type = 14,
+        progress = 6000000,
+        type = 13,
         name = "",
-        acceptCondId = 0,
+        acceptCondId = 10001,
         finishParams = {
+            dunType = 105,
+            dunId = 490004,
         },
-        effectiveTime = 0,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "272103",
+        des = "272142",
     },
     [736304] = {
         ext = {
@@ -69741,56 +69972,43 @@ return {
         },
         des = "1320001",
     },
-    [520703] = {
+    [520606] = {
         ext = {
         },
-        finishCondId = 29002,
-        order = 10,
+        finishCondId = 0,
+        order = 13,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
-            },
         },
         startDate = {
         },
         jumpInterface = 0,
         icon = "ui/task/icon_4.png",
-        completeResult = 2,
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 520703,
+        open = false,
+        id = 520606,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 150,
+        progress = 0,
         type = 14,
         name = "",
-        acceptCondId = 10001,
+        acceptCondId = 0,
         finishParams = {
         },
-        effectiveTime = 7,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "272101",
+        des = "272097",
     },
     [736306] = {
         ext = {
@@ -69884,11 +70102,11 @@ return {
         },
         des = "1325130",
     },
-    [520608] = {
+    [520501] = {
         ext = {
         },
-        finishCondId = 9030,
-        order = 7,
+        finishCondId = 29001,
+        order = 8,
         acceptParams = {
             plvl = 1,
         },
@@ -69905,13 +70123,13 @@ return {
             },
             [3] = {
                 [1] = 500034,
-                [2] = 100,
+                [2] = 1000,
             },
         },
         startDate = {
         },
-        jumpInterface = 97,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -69919,23 +70137,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520608,
+        id = 520501,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 6000000,
-        type = 13,
+        progress = 18000,
+        type = 14,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 105,
-            dunId = 490004,
         },
         effectiveTime = 7,
         colour1 = {
         },
-        des = "272142",
+        des = "272086",
     },
     [723002] = {
         ext = {
@@ -69982,11 +70198,11 @@ return {
         },
         des = "1325131",
     },
-    [520606] = {
+    [520405] = {
         ext = {
         },
         finishCondId = 0,
-        order = 13,
+        order = 12,
         acceptParams = {
         },
         taskCollection = false,
@@ -70004,7 +70220,7 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 520606,
+        id = 520405,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -70018,7 +70234,7 @@ return {
         effectiveTime = 0,
         colour1 = {
         },
-        des = "272097",
+        des = "272085",
     },
     [723003] = {
         ext = {
@@ -70065,43 +70281,56 @@ return {
         },
         des = "1325132",
     },
-    [520505] = {
+    [520401] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 12,
+        finishCondId = 29001,
+        order = 8,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
+            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 520505,
+        open = true,
+        id = 520401,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 0,
+        progress = 16000,
         type = 14,
         name = "",
-        acceptCondId = 0,
+        acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = 0,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "272090",
+        des = "272081",
     },
     [723004] = {
         ext = {
@@ -70148,58 +70377,48 @@ return {
         },
         des = "1325133",
     },
-    [520406] = {
+    [401013] = {
         ext = {
         },
-        finishCondId = 9030,
-        order = 7,
+        finishCondId = 17016,
+        order = 1,
         acceptParams = {
             plvl = 1,
         },
-        taskCollection = false,
-        resetType = 3,
+        taskCollection = true,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 100,
+                [1] = 570507,
+                [2] = 1,
             },
         },
         startDate = {
         },
-        jumpInterface = 97,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 520406,
+        id = 401013,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 4000000,
-        type = 13,
-        name = "",
+        progress = 30,
+        type = 15,
+        name = "1325383",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 105,
-            dunId = 490004,
         },
-        effectiveTime = 7,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272140",
+        des = "1326396",
     },
     [120409] = {
         ext = {
@@ -70354,7 +70573,7 @@ return {
         },
         des = "1325135",
     },
-    [520402] = {
+    [520302] = {
         ext = {
         },
         finishCondId = 9010,
@@ -70389,12 +70608,12 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520402,
+        id = 520302,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 20000,
+        progress = 18000,
         type = 14,
         name = "",
         acceptCondId = 10001,
@@ -70403,7 +70622,7 @@ return {
         effectiveTime = 7,
         colour1 = {
         },
-        des = "272082",
+        des = "272078",
     },
     [120921] = {
         ext = {
@@ -70546,31 +70765,34 @@ return {
         },
         des = "1325137",
     },
-    [501003] = {
+    [520203] = {
         ext = {
         },
-        finishCondId = 12003,
-        order = 3,
+        finishCondId = 29002,
+        order = 10,
         acceptParams = {
-            day = 1,
             plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 534064,
-                [2] = 5,
+                [1] = 500037,
+                [2] = 100,
             },
             [2] = {
-                [1] = 570032,
-                [2] = 2,
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
             },
         },
         startDate = {
         },
-        jumpInterface = 33,
-        icon = "ui/task/icon_3.png",
+        jumpInterface = 0,
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -70578,23 +70800,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 501003,
+        id = 520203,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 9,
+        progress = 80,
+        type = 14,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            datingType = 2,
-            roleId = 101,
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "266218",
+        des = "272076",
     },
     [723009] = {
         ext = {
@@ -70641,31 +70861,34 @@ return {
         },
         des = "1325138",
     },
-    [504004] = {
+    [520201] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 4,
+        finishCondId = 29001,
+        order = 8,
         acceptParams = {
-            day = 4,
             plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 500001,
-                [2] = 50000,
+                [1] = 500037,
+                [2] = 100,
             },
             [2] = {
-                [1] = 500002,
-                [2] = 50,
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
             },
         },
         startDate = {
         },
-        jumpInterface = 39,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -70673,22 +70896,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 504004,
+        id = 520201,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 9,
+        progress = 12000,
+        type = 14,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunType = 100,
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "266231",
+        des = "272074",
     },
     [723010] = {
         ext = {
@@ -70735,48 +70957,56 @@ return {
         },
         des = "1325139",
     },
-    [310009] = {
+    [520103] = {
         ext = {
         },
-        finishCondId = 9004,
-        order = 94,
+        finishCondId = 29002,
+        order = 10,
         acceptParams = {
-            pre_task_id = 310008,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 90,
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 1000,
             },
         },
         startDate = {
         },
-        jumpInterface = 26,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
+        jumpInterface = 0,
+        icon = "ui/task/icon_4.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 310009,
-        extendsTaskId = 310008,
+        id = 520103,
+        extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 400,
-        type = 3,
-        name = "1310615",
+        progress = 70,
+        type = 14,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "1320615",
+        des = "272073",
     },
     [723011] = {
         ext = {
@@ -70819,56 +71049,43 @@ return {
         },
         des = "1325140",
     },
-    [520202] = {
+    [513006] = {
         ext = {
         },
-        finishCondId = 9010,
-        order = 9,
+        finishCondId = 0,
+        order = 6,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 1000,
-            },
         },
         startDate = {
         },
         jumpInterface = 0,
         icon = "ui/task/icon_1.png",
-        completeResult = 2,
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 520202,
+        open = false,
+        id = 513006,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 16000,
-        type = 14,
+        progress = 0,
+        type = 13,
         name = "",
-        acceptCondId = 10001,
+        acceptCondId = 0,
         finishParams = {
         },
-        effectiveTime = 7,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "272075",
+        des = "272069",
     },
     [723012] = {
         ext = {
@@ -70911,58 +71128,43 @@ return {
         },
         des = "1325141",
     },
-    [520105] = {
+    [513004] = {
         ext = {
         },
-        finishCondId = 9030,
-        order = 7,
+        finishCondId = 0,
+        order = 4,
         acceptParams = {
-            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 100,
-            },
         },
         startDate = {
         },
-        jumpInterface = 97,
+        jumpInterface = 0,
         icon = "ui/task/icon_1.png",
-        completeResult = 2,
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = true,
-        id = 520105,
+        open = false,
+        id = 513004,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1000000,
+        progress = 0,
         type = 13,
         name = "",
-        acceptCondId = 10001,
+        acceptCondId = 0,
         finishParams = {
-            dunType = 105,
-            dunId = 490004,
         },
-        effectiveTime = 7,
+        effectiveTime = 0,
         colour1 = {
         },
-        des = "272137",
+        des = "272067",
     },
     [120410] = {
         ext = {
@@ -71120,11 +71322,11 @@ return {
         },
         des = "1320001",
     },
-    [520103] = {
+    [513003] = {
         ext = {
         },
-        finishCondId = 29002,
-        order = 10,
+        finishCondId = 25001,
+        order = 3,
         acceptParams = {
             plvl = 1,
         },
@@ -71133,20 +71335,20 @@ return {
         reward = {
             [1] = {
                 [1] = 500037,
-                [2] = 100,
+                [2] = 20,
             },
             [2] = {
                 [1] = 500036,
-                [2] = 100,
+                [2] = 20,
             },
             [3] = {
                 [1] = 500034,
-                [2] = 1000,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
+        jumpInterface = 77,
         icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
@@ -71155,21 +71357,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 520103,
+        id = 513003,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 70,
-        type = 14,
+        progress = 1,
+        type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = 7,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "272073",
+        des = "272066",
     },
     [120922] = {
         ext = {
@@ -71308,43 +71510,63 @@ return {
         },
         des = "1325145",
     },
-    [513006] = {
+    [511001] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 6,
+        finishCondId = 9001,
+        order = 1,
         acceptParams = {
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 3,
         reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 20,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
+            },
         },
         startDate = {
         },
-        jumpInterface = 0,
+        jumpInterface = 73,
         icon = "ui/task/icon_1.png",
-        completeResult = 0,
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 513006,
+        open = true,
+        id = 511001,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 0,
+        progress = 5,
         type = 13,
         name = "",
-        acceptCondId = 0,
+        acceptCondId = 10001,
         finishParams = {
+            dunTypeList = {
+                [1] = 9,
+                [2] = 17,
+                [3] = 22,
+                [4] = 23,
+                [5] = 24,
+            },
         },
-        effectiveTime = 0,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "272069",
+        des = "272064",
     },
     [334002] = {
         ext = {
@@ -71388,272 +71610,6 @@ return {
         colour1 = {
         },
         des = "1320760",
-    },
-    [513005] = {
-        ext = {
-        },
-        finishCondId = 0,
-        order = 5,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 0,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 513005,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 0,
-        type = 13,
-        name = "",
-        acceptCondId = 0,
-        finishParams = {
-        },
-        effectiveTime = 0,
-        colour1 = {
-        },
-        des = "272068",
-    },
-    [723018] = {
-        ext = {
-        },
-        finishCondId = 17010,
-        order = 1,
-        acceptParams = {
-            pre_task_id = 722010,
-            Contracttype = 5,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 723018,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 21,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            plvl = 68,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1325147",
-    },
-    [513003] = {
-        ext = {
-        },
-        finishCondId = 25001,
-        order = 3,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 77,
-        icon = "ui/task/icon_4.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 513003,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 13,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = 1,
-        colour1 = {
-        },
-        des = "272066",
-    },
-    [334003] = {
-        ext = {
-        },
-        finishCondId = 11011,
-        order = 250,
-        acceptParams = {
-            pre_task_id = 334002,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 30,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 334003,
-        extendsTaskId = 334002,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1000,
-        type = 3,
-        name = "1310761",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320761",
-    },
-    [513002] = {
-        ext = {
-        },
-        finishCondId = 9001,
-        order = 2,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 513002,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 3,
-        type = 13,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            bossType = 999,
-        },
-        effectiveTime = 1,
-        colour1 = {
-        },
-        des = "272065",
-    },
-    [723020] = {
-        ext = {
-        },
-        finishCondId = 17010,
-        order = 1,
-        acceptParams = {
-            pre_task_id = 722010,
-            Contracttype = 5,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 723020,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 21,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            plvl = 70,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1325149",
     },
     [510907] = {
         ext = {
@@ -71705,6 +71661,271 @@ return {
         colour1 = {
         },
         des = "272063",
+    },
+    [723018] = {
+        ext = {
+        },
+        finishCondId = 17010,
+        order = 1,
+        acceptParams = {
+            pre_task_id = 722010,
+            Contracttype = 5,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 723018,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 21,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            plvl = 68,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1325147",
+    },
+    [510904] = {
+        ext = {
+        },
+        finishCondId = 0,
+        order = 4,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 3,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_1.png",
+        completeResult = 0,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = false,
+        id = 510904,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 0,
+        type = 13,
+        name = "",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = 0,
+        colour1 = {
+        },
+        des = "272060",
+    },
+    [334003] = {
+        ext = {
+        },
+        finishCondId = 11011,
+        order = 250,
+        acceptParams = {
+            pre_task_id = 334002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 30,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 334003,
+        extendsTaskId = 334002,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1000,
+        type = 3,
+        name = "1310761",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320761",
+    },
+    [510903] = {
+        ext = {
+        },
+        finishCondId = 25001,
+        order = 3,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 3,
+        reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 20,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 77,
+        icon = "ui/task/icon_4.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 510903,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 13,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = 1,
+        colour1 = {
+        },
+        des = "272059",
+    },
+    [723020] = {
+        ext = {
+        },
+        finishCondId = 17010,
+        order = 1,
+        acceptParams = {
+            pre_task_id = 722010,
+            Contracttype = 5,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 723020,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 21,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            plvl = 70,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1325149",
+    },
+    [510807] = {
+        ext = {
+        },
+        finishCondId = 9011,
+        order = 7,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 3,
+        reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 100,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 39,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 510807,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 80,
+        type = 13,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = 7,
+        colour1 = {
+        },
+        des = "272056",
     },
     [120411] = {
         ext = {
@@ -71862,7 +72083,7 @@ return {
         },
         des = "1320001",
     },
-    [510906] = {
+    [510806] = {
         ext = {
         },
         finishCondId = 0,
@@ -71884,7 +72105,7 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 510906,
+        id = 510806,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -71898,7 +72119,7 @@ return {
         effectiveTime = 0,
         colour1 = {
         },
-        des = "272062",
+        des = "272055",
     },
     [120923] = {
         ext = {
@@ -72735,11 +72956,11 @@ return {
         },
         des = "1320001",
     },
-    [510802] = {
+    [510703] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 2,
+        finishCondId = 25001,
+        order = 3,
         acceptParams = {
             plvl = 1,
         },
@@ -72761,8 +72982,8 @@ return {
         },
         startDate = {
         },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
+        jumpInterface = 77,
+        icon = "ui/task/icon_4.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -72770,22 +72991,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 510802,
+        id = 510703,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 3,
+        progress = 1,
         type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
-            bossType = 999,
         },
         effectiveTime = 1,
         colour1 = {
         },
-        des = "272051",
+        des = "272045",
     },
     [722009] = {
         ext = {
@@ -72920,243 +73140,6 @@ return {
         },
         des = "1325129",
     },
-    [510705] = {
-        ext = {
-        },
-        finishCondId = 0,
-        order = 5,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 0,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 510705,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 0,
-        type = 13,
-        name = "",
-        acceptCondId = 0,
-        finishParams = {
-        },
-        effectiveTime = 0,
-        colour1 = {
-        },
-        des = "272047",
-    },
-    [510704] = {
-        ext = {
-        },
-        finishCondId = 0,
-        order = 4,
-        acceptParams = {
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 0,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = false,
-        id = 510704,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 0,
-        type = 13,
-        name = "",
-        acceptCondId = 0,
-        finishParams = {
-        },
-        effectiveTime = 0,
-        colour1 = {
-        },
-        des = "272046",
-    },
-    [510703] = {
-        ext = {
-        },
-        finishCondId = 25001,
-        order = 3,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 77,
-        icon = "ui/task/icon_4.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 510703,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 13,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = 1,
-        colour1 = {
-        },
-        des = "272045",
-    },
-    [510702] = {
-        ext = {
-        },
-        finishCondId = 9001,
-        order = 2,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 510702,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 3,
-        type = 13,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            bossType = 999,
-        },
-        effectiveTime = 1,
-        colour1 = {
-        },
-        des = "272044",
-    },
-    [510701] = {
-        ext = {
-        },
-        finishCondId = 9001,
-        order = 1,
-        acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 3,
-        reward = {
-            [1] = {
-                [1] = 500037,
-                [2] = 20,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 73,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 510701,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 5,
-        type = 13,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            dunTypeList = {
-                [1] = 9,
-                [2] = 17,
-                [3] = 22,
-                [4] = 23,
-                [5] = 24,
-            },
-        },
-        effectiveTime = 1,
-        colour1 = {
-        },
-        des = "272043",
-    },
     [510607] = {
         ext = {
         },
@@ -73207,6 +73190,233 @@ return {
         colour1 = {
         },
         des = "272042",
+    },
+    [510606] = {
+        ext = {
+        },
+        finishCondId = 0,
+        order = 6,
+        acceptParams = {
+        },
+        taskCollection = false,
+        resetType = 3,
+        reward = {
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_1.png",
+        completeResult = 0,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = false,
+        id = 510606,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 0,
+        type = 13,
+        name = "",
+        acceptCondId = 0,
+        finishParams = {
+        },
+        effectiveTime = 0,
+        colour1 = {
+        },
+        des = "272041",
+    },
+    [312003] = {
+        ext = {
+        },
+        finishCondId = 12001,
+        order = 108,
+        acceptParams = {
+            pre_task_id = 312002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 570032,
+                [2] = 3,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 33,
+        icon = "ui/task/icon_3.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 312003,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 2500,
+        type = 3,
+        name = "1310629",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320629",
+    },
+    [333009] = {
+        ext = {
+        },
+        finishCondId = 25001,
+        order = 246,
+        acceptParams = {
+            pre_task_id = 333008,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 570004,
+                [2] = 5,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 77,
+        icon = "ui/task/icon_4.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 333009,
+        extendsTaskId = 333008,
+        subType = 2,
+        endDate = {
+        },
+        progress = 160,
+        type = 3,
+        name = "1310757",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320757",
+    },
+    [510603] = {
+        ext = {
+        },
+        finishCondId = 25001,
+        order = 3,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 3,
+        reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 20,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 77,
+        icon = "ui/task/icon_4.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 510603,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 13,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = 1,
+        colour1 = {
+        },
+        des = "272038",
+    },
+    [510602] = {
+        ext = {
+        },
+        finishCondId = 9001,
+        order = 2,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 3,
+        reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 20,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 76,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 510602,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 3,
+        type = 13,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            bossType = 999,
+        },
+        effectiveTime = 1,
+        colour1 = {
+        },
+        des = "272037",
     },
     [120413] = {
         ext = {
@@ -73364,43 +73574,48 @@ return {
         },
         des = "1320001",
     },
-    [510606] = {
+    [334008] = {
         ext = {
         },
-        finishCondId = 0,
-        order = 6,
+        finishCondId = 11011,
+        order = 255,
         acceptParams = {
+            pre_task_id = 334007,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 80,
+            },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
-        open = false,
-        id = 510606,
-        extendsTaskId = 0,
+        open = true,
+        id = 334008,
+        extendsTaskId = 334007,
         subType = 2,
         endDate = {
         },
-        progress = 0,
-        type = 13,
-        name = "",
-        acceptCondId = 0,
+        progress = 25000,
+        type = 3,
+        name = "1310766",
+        acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = 0,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272041",
+        des = "1320766",
     },
     [120925] = {
         ext = {
@@ -73498,93 +73713,58 @@ return {
         },
         des = "1320001",
     },
-    [312003] = {
+    [510507] = {
         ext = {
         },
-        finishCondId = 12001,
-        order = 108,
+        finishCondId = 9011,
+        order = 7,
         acceptParams = {
-            pre_task_id = 312002,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
-                [1] = 570032,
-                [2] = 3,
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 100,
             },
         },
         startDate = {
         },
-        jumpInterface = 33,
-        icon = "ui/task/icon_3.png",
-        completeResult = 1,
+        jumpInterface = 39,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 312003,
+        id = 510507,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 2500,
-        type = 3,
-        name = "1310629",
+        progress = 80,
+        type = 13,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = -1,
+        effectiveTime = 7,
         colour1 = {
         },
-        des = "1320629",
+        des = "272035",
     },
-    [333009] = {
-        ext = {
-        },
-        finishCondId = 25001,
-        order = 246,
-        acceptParams = {
-            pre_task_id = 333008,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 570004,
-                [2] = 5,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 77,
-        icon = "ui/task/icon_4.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 333009,
-        extendsTaskId = 333008,
-        subType = 2,
-        endDate = {
-        },
-        progress = 160,
-        type = 3,
-        name = "1310757",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320757",
-    },
-    [510603] = {
+    [510503] = {
         ext = {
         },
         finishCondId = 25001,
@@ -73619,7 +73799,7 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 510603,
+        id = 510503,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -73633,7 +73813,58 @@ return {
         effectiveTime = 1,
         colour1 = {
         },
-        des = "272038",
+        des = "272031",
+    },
+    [510407] = {
+        ext = {
+        },
+        finishCondId = 9011,
+        order = 7,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 3,
+        reward = {
+            [1] = {
+                [1] = 500037,
+                [2] = 100,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 100,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 100,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 39,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 510407,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 80,
+        type = 13,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = 7,
+        colour1 = {
+        },
+        des = "272028",
     },
     [520803] = {
         ext = {
@@ -73686,48 +73917,56 @@ return {
         },
         des = "272108",
     },
-    [334008] = {
+    [510403] = {
         ext = {
         },
-        finishCondId = 11011,
-        order = 255,
+        finishCondId = 25001,
+        order = 3,
         acceptParams = {
-            pre_task_id = 334007,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 3,
         reward = {
             [1] = {
                 [1] = 500037,
-                [2] = 80,
+                [2] = 20,
+            },
+            [2] = {
+                [1] = 500036,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 500034,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "ui/task/icon_3.png",
-        completeResult = 1,
+        jumpInterface = 77,
+        icon = "ui/task/icon_4.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 334008,
-        extendsTaskId = 334007,
+        id = 510403,
+        extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 25000,
-        type = 3,
-        name = "1310766",
+        progress = 1,
+        type = 13,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
         },
-        effectiveTime = -1,
+        effectiveTime = 1,
         colour1 = {
         },
-        des = "1320766",
+        des = "272024",
     },
     [734301] = {
         ext = {
@@ -73777,11 +74016,11 @@ return {
         },
         des = "3207502",
     },
-    [510503] = {
+    [510302] = {
         ext = {
         },
-        finishCondId = 25001,
-        order = 3,
+        finishCondId = 9001,
+        order = 2,
         acceptParams = {
             plvl = 1,
         },
@@ -73803,8 +74042,8 @@ return {
         },
         startDate = {
         },
-        jumpInterface = 77,
-        icon = "ui/task/icon_4.png",
+        jumpInterface = 76,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -73812,21 +74051,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 510503,
+        id = 510302,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
+        progress = 3,
         type = 13,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            bossType = 999,
         },
         effectiveTime = 1,
         colour1 = {
         },
-        des = "272031",
+        des = "272016",
     },
     [520804] = {
         ext = {
@@ -73880,7 +74120,7 @@ return {
         },
         des = "272109",
     },
-    [510406] = {
+    [510206] = {
         ext = {
         },
         finishCondId = 0,
@@ -73902,7 +74142,7 @@ return {
         },
         typeDes = "",
         open = false,
-        id = 510406,
+        id = 510206,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
@@ -73916,7 +74156,7 @@ return {
         effectiveTime = 0,
         colour1 = {
         },
-        des = "272027",
+        des = "272013",
     },
     [734303] = {
         ext = {
@@ -74311,56 +74551,49 @@ return {
         },
         des = "1325110",
     },
-    [510207] = {
+    [318005] = {
         ext = {
         },
-        finishCondId = 9011,
-        order = 7,
+        finishCondId = 13003,
+        order = 162,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 318004,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 100,
+                [1] = 510105,
+                [2] = 10,
             },
         },
         startDate = {
         },
-        jumpInterface = 39,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
+        jumpInterface = 0,
+        icon = "ui/task/icon_6.png",
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 510207,
+        id = 318005,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 80,
-        type = 13,
-        name = "",
+        progress = 3,
+        type = 3,
+        name = "1310674",
         acceptCondId = 10001,
         finishParams = {
+            limitLvl = 50,
         },
-        effectiveTime = 7,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272014",
+        des = "1320674",
     },
     [721002] = {
         ext = {
@@ -74490,56 +74723,50 @@ return {
         },
         des = "1325112",
     },
-    [510107] = {
+    [322005] = {
         ext = {
         },
-        finishCondId = 9011,
-        order = 7,
+        finishCondId = 2003,
+        order = 187,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 322004,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 100,
-            },
-            [2] = {
-                [1] = 500036,
-                [2] = 100,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 100,
+                [1] = 570001,
+                [2] = 200,
             },
         },
         startDate = {
         },
-        jumpInterface = 39,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
+        jumpInterface = 0,
+        icon = "ui/task/icon_7.png",
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 510107,
-        extendsTaskId = 0,
+        id = 322005,
+        extendsTaskId = 322004,
         subType = 2,
         endDate = {
         },
-        progress = 80,
-        type = 13,
-        name = "",
+        progress = 50,
+        type = 3,
+        name = "1310698",
         acceptCondId = 10001,
         finishParams = {
+            quality = 5,
+            superType = 2,
         },
-        effectiveTime = 7,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272007",
+        des = "1320698",
     },
     [721004] = {
         ext = {
@@ -74684,34 +74911,31 @@ return {
         },
         des = "1325114",
     },
-    [510103] = {
+    [507002] = {
         ext = {
         },
-        finishCondId = 25001,
-        order = 3,
+        finishCondId = 9007,
+        order = 2,
         acceptParams = {
+            day = 7,
             plvl = 1,
         },
         taskCollection = false,
-        resetType = 3,
+        resetType = 1,
         reward = {
             [1] = {
-                [1] = 500037,
-                [2] = 20,
+                [1] = 520006,
+                [2] = 5,
             },
             [2] = {
-                [1] = 500036,
-                [2] = 20,
-            },
-            [3] = {
-                [1] = 500034,
-                [2] = 20,
+                [1] = 570031,
+                [2] = 3,
             },
         },
         startDate = {
         },
-        jumpInterface = 77,
-        icon = "ui/task/icon_4.png",
+        jumpInterface = 26,
+        icon = "ui/task/icon_1.png",
         completeResult = 2,
         playerLevel = {
         },
@@ -74719,21 +74943,22 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 510103,
+        id = 507002,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 13,
+        type = 9,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            dunId = 104321,
         },
-        effectiveTime = 1,
+        effectiveTime = -1,
         colour1 = {
         },
-        des = "272003",
+        des = "266241",
     },
     [120415] = {
         ext = {
@@ -74891,50 +75116,51 @@ return {
         },
         des = "1320001",
     },
-    [322005] = {
+    [507001] = {
         ext = {
         },
-        finishCondId = 2003,
-        order = 187,
+        finishCondId = 3001,
+        order = 1,
         acceptParams = {
-            pre_task_id = 322004,
+            acceptType = 1,
+            new = 1,
+            day = 7,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570001,
-                [2] = 200,
+                [1] = 510308,
+                [2] = 30,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_7.png",
-        completeResult = 1,
+        icon = "ui/task/icon_4.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 322005,
-        extendsTaskId = 322004,
+        id = 507001,
+        extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 50,
-        type = 3,
-        name = "1310698",
+        progress = 1,
+        type = 9,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            quality = 5,
-            superType = 2,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320698",
+        des = "266240",
     },
     [120927] = {
         ext = {
@@ -75077,238 +75303,6 @@ return {
         },
         des = "1325118",
     },
-    [507004] = {
-        ext = {
-        },
-        finishCondId = 12003,
-        order = 4,
-        acceptParams = {
-            day = 7,
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500001,
-                [2] = 50000,
-            },
-            [2] = {
-                [1] = 500002,
-                [2] = 50,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 33,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 507004,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 9,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            datingType = 1,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "266243",
-    },
-    [721010] = {
-        ext = {
-        },
-        finishCondId = 17010,
-        order = 1,
-        acceptParams = {
-            pre_task_id = 720010,
-            Contracttype = 2,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 600,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 721010,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 21,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            plvl = 40,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1325119",
-    },
-    [507002] = {
-        ext = {
-        },
-        finishCondId = 9007,
-        order = 2,
-        acceptParams = {
-            day = 7,
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 520006,
-                [2] = 5,
-            },
-            [2] = {
-                [1] = 570031,
-                [2] = 3,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 26,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 507002,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 9,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-            dunId = 104321,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "266241",
-    },
-    [507001] = {
-        ext = {
-        },
-        finishCondId = 3001,
-        order = 1,
-        acceptParams = {
-            acceptType = 1,
-            new = 1,
-            day = 7,
-            plvl = 1,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 510308,
-                [2] = 30,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 507001,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1,
-        type = 9,
-        name = "",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "266240",
-    },
-    [326005] = {
-        ext = {
-        },
-        finishCondId = 3001,
-        order = 211,
-        acceptParams = {
-            pre_task_id = 326004,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 1500,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 326005,
-        extendsTaskId = 326004,
-        subType = 2,
-        endDate = {
-        },
-        progress = 90,
-        type = 3,
-        name = "1310722",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320722",
-    },
     [110633] = {
         ext = {
         },
@@ -75363,49 +75357,50 @@ return {
         },
         des = "1320001",
     },
-    [305008] = {
+    [721010] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 29,
+        finishCondId = 17010,
+        order = 1,
         acceptParams = {
-            pre_task_id = 305007,
+            pre_task_id = 720010,
+            Contracttype = 2,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 80,
+                [2] = 600,
             },
         },
         startDate = {
         },
-        jumpInterface = 26,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 305008,
-        extendsTaskId = 305007,
+        id = 721010,
+        extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 600,
-        type = 3,
-        name = "1310553",
+        progress = 1,
+        type = 21,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            difficulty = 3,
+            plvl = 40,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320553",
+        des = "1325119",
     },
     [121141] = {
         ext = {
@@ -75503,6 +75498,248 @@ return {
         colour1 = {
         },
         des = "266235",
+    },
+    [310009] = {
+        ext = {
+        },
+        finishCondId = 9004,
+        order = 94,
+        acceptParams = {
+            pre_task_id = 310008,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 90,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 26,
+        icon = "ui/task/icon_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 310009,
+        extendsTaskId = 310008,
+        subType = 2,
+        endDate = {
+        },
+        progress = 400,
+        type = 3,
+        name = "1310615",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320615",
+    },
+    [130507] = {
+        ext = {
+        },
+        finishCondId = 9007,
+        order = 648,
+        acceptParams = {
+            pre_task_id = 130506,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500005,
+                [2] = 18,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 1800,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 37,
+        icon = "ui/task/chapter_5.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "1330002",
+        open = true,
+        id = 130507,
+        extendsTaskId = 0,
+        subType = 1,
+        endDate = {
+        },
+        progress = 1,
+        type = 1,
+        name = "1310411",
+        acceptCondId = 10001,
+        finishParams = {
+            dunId = 305307,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320001",
+    },
+    [110622] = {
+        ext = {
+        },
+        finishCondId = 9007,
+        order = 144,
+        acceptParams = {
+            pre_task_id = 110621,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500005,
+                [2] = 6,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 350,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 37,
+        icon = "ui/task/chapter_6.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+            b = 167,
+            g = 41,
+            r = 97,
+        },
+        typeDes = "1330001",
+        open = true,
+        id = 110622,
+        extendsTaskId = 0,
+        subType = 1,
+        endDate = {
+        },
+        progress = 1,
+        type = 1,
+        name = "1310125",
+        acceptCondId = 10001,
+        finishParams = {
+            dunId = 106322,
+        },
+        effectiveTime = -1,
+        colour1 = {
+            b = 250,
+            g = 86,
+            r = 163,
+        },
+        des = "1320001",
+    },
+    [504004] = {
+        ext = {
+        },
+        finishCondId = 9001,
+        order = 4,
+        acceptParams = {
+            day = 4,
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500001,
+                [2] = 50000,
+            },
+            [2] = {
+                [1] = 500002,
+                [2] = 50,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 39,
+        icon = "ui/task/icon_1.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 504004,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 1,
+        type = 9,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 100,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "266231",
+    },
+    [504003] = {
+        ext = {
+        },
+        finishCondId = 13004,
+        order = 3,
+        acceptParams = {
+            day = 4,
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 510104,
+                [2] = 5,
+            },
+            [2] = {
+                [1] = 230009,
+                [2] = 6,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 504003,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 10,
+        type = 9,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "266230",
     },
     [520301] = {
         ext = {
@@ -75657,51 +75894,57 @@ return {
         },
         des = "1320001",
     },
-    [130507] = {
+    [120101] = {
         ext = {
         },
         finishCondId = 9007,
-        order = 648,
+        order = 369,
         acceptParams = {
-            pre_task_id = 130506,
+            pre_task_id = 110221,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 500005,
-                [2] = 18,
+                [2] = 6,
             },
             [2] = {
                 [1] = 500001,
-                [2] = 1800,
+                [2] = 400,
             },
         },
         startDate = {
         },
         jumpInterface = 37,
-        icon = "ui/task/chapter_5.png",
+        icon = "ui/task/chapter_1.png",
         completeResult = 1,
         playerLevel = {
         },
         colour2 = {
+            b = 75,
+            g = 124,
+            r = 235,
         },
         typeDes = "1330002",
         open = true,
-        id = 130507,
+        id = 120101,
         extendsTaskId = 0,
         subType = 1,
         endDate = {
         },
         progress = 1,
         type = 1,
-        name = "1310411",
+        name = "1310222",
         acceptCondId = 10001,
         finishParams = {
-            dunId = 305307,
+            dunId = 201101,
         },
         effectiveTime = -1,
         colour1 = {
+            b = 99,
+            g = 163,
+            r = 243,
         },
         des = "1320001",
     },
@@ -75844,59 +76087,55 @@ return {
         },
         des = "1320750",
     },
-    [110622] = {
+    [502003] = {
         ext = {
         },
-        finishCondId = 9007,
-        order = 144,
+        finishCondId = 12003,
+        order = 3,
         acceptParams = {
-            pre_task_id = 110621,
+            day = 2,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500005,
-                [2] = 6,
+                [1] = 535174,
+                [2] = 5,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 350,
+                [1] = 510103,
+                [2] = 5,
             },
         },
         startDate = {
         },
-        jumpInterface = 37,
-        icon = "ui/task/chapter_6.png",
-        completeResult = 1,
+        jumpInterface = 33,
+        icon = "ui/task/icon_3.png",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
-            b = 167,
-            g = 41,
-            r = 97,
         },
-        typeDes = "1330001",
+        typeDes = "",
         open = true,
-        id = 110622,
+        id = 502003,
         extendsTaskId = 0,
-        subType = 1,
+        subType = 2,
         endDate = {
         },
         progress = 1,
-        type = 1,
-        name = "1310125",
+        type = 9,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunId = 106322,
+            datingType = 2,
+            roleId = 102,
         },
         effectiveTime = -1,
         colour1 = {
-            b = 250,
-            g = 86,
-            r = 163,
         },
-        des = "1320001",
+        des = "266222",
     },
     [520303] = {
         ext = {
@@ -75949,30 +76188,30 @@ return {
         },
         des = "272079",
     },
-    [504003] = {
+    [501003] = {
         ext = {
         },
-        finishCondId = 13004,
+        finishCondId = 12003,
         order = 3,
         acceptParams = {
-            day = 4,
+            day = 1,
             plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 510104,
+                [1] = 534064,
                 [2] = 5,
             },
             [2] = {
-                [1] = 230009,
-                [2] = 6,
+                [1] = 570032,
+                [2] = 2,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
+        jumpInterface = 33,
         icon = "ui/task/icon_3.png",
         completeResult = 2,
         playerLevel = {
@@ -75981,21 +76220,23 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 504003,
+        id = 501003,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 10,
+        progress = 1,
         type = 9,
         name = "",
         acceptCondId = 10001,
         finishParams = {
+            datingType = 2,
+            roleId = 101,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "266230",
+        des = "266218",
     },
     [333003] = {
         ext = {
@@ -76040,54 +76281,49 @@ return {
         },
         des = "1320751",
     },
-    [504002] = {
+    [401015] = {
         ext = {
         },
-        finishCondId = 11001,
+        finishCondId = 17012,
         order = 2,
         acceptParams = {
-            day = 4,
             plvl = 1,
         },
-        taskCollection = false,
+        taskCollection = true,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 520006,
-                [2] = 5,
-            },
-            [2] = {
-                [1] = 570031,
-                [2] = 3,
+                [1] = 570503,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
+        icon = "",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 504002,
+        id = 401015,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 20,
-        type = 9,
-        name = "",
+        progress = 50000,
+        type = 15,
+        name = "1325372",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 20,
+            itemId = 500002,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "266229",
+        des = "1326398",
     },
     [520304] = {
         ext = {
@@ -76127,55 +76363,72 @@ return {
         },
         des = "272080",
     },
-    [502003] = {
+    [401011] = {
         ext = {
         },
-        finishCondId = 12003,
-        order = 3,
+        finishCondId = 17014,
+        order = 1,
         acceptParams = {
-            day = 2,
             plvl = 1,
         },
-        taskCollection = false,
+        taskCollection = true,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 535174,
-                [2] = 5,
-            },
-            [2] = {
-                [1] = 510103,
-                [2] = 5,
+                [1] = 570506,
+                [2] = 1,
             },
         },
         startDate = {
         },
-        jumpInterface = 33,
-        icon = "ui/task/icon_3.png",
-        completeResult = 2,
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 502003,
+        id = 401011,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 1,
-        type = 9,
-        name = "",
+        progress = 200,
+        type = 15,
+        name = "1325381",
         acceptCondId = 10001,
         finishParams = {
-            datingType = 2,
-            roleId = 102,
+            superType = {
+                [1] = 1,
+            },
+            rarity = {
+                [1] = 5,
+            },
+            itemId = {
+                [1] = 110103,
+                [2] = 112001,
+                [3] = 110210,
+                [4] = 111401,
+                [5] = 111501,
+                [6] = 110413,
+                [7] = 111601,
+                [8] = 112201,
+                [9] = 112301,
+                [10] = 112501,
+                [11] = 112401,
+                [12] = 112701,
+                [13] = 113101,
+                [14] = 113201,
+                [15] = 113301,
+                [16] = 110313,
+            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "266222",
+        des = "1326394",
     },
     [333004] = {
         ext = {
@@ -76220,54 +76473,48 @@ return {
         },
         des = "1320752",
     },
-    [502002] = {
+    [370015] = {
         ext = {
         },
-        finishCondId = 11001,
-        order = 2,
+        finishCondId = 11009,
+        order = 15,
         acceptParams = {
-            day = 2,
             plvl = 1,
         },
-        taskCollection = false,
+        taskCollection = true,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 520006,
-                [2] = 5,
-            },
-            [2] = {
-                [1] = 570031,
-                [2] = 3,
+                [1] = 585010,
+                [2] = 1,
             },
         },
         startDate = {
         },
         jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 2,
+        icon = "",
+        completeResult = 0,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 502002,
+        id = 370015,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 15,
-        type = 9,
-        name = "",
+        progress = 6500,
+        type = 37,
+        name = "1711015",
         acceptCondId = 10001,
         finishParams = {
-            plvl = 15,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "266221",
+        des = "1711215",
     },
     [520305] = {
         ext = {
@@ -76654,11 +76901,11 @@ return {
         },
         des = "1320617",
     },
-    [401015] = {
+    [370011] = {
         ext = {
         },
-        finishCondId = 17012,
-        order = 2,
+        finishCondId = 11009,
+        order = 11,
         acceptParams = {
             plvl = 1,
         },
@@ -76666,8 +76913,8 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570503,
-                [2] = 1,
+                [1] = 520258,
+                [2] = 4,
             },
         },
         startDate = {
@@ -76681,22 +76928,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 401015,
+        id = 370011,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 50000,
-        type = 15,
-        name = "1325372",
+        progress = 4500,
+        type = 37,
+        name = "1711011",
         acceptCondId = 10001,
         finishParams = {
-            itemId = 500002,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1326398",
+        des = "1711211",
     },
     [720003] = {
         ext = {
@@ -76829,11 +77075,11 @@ return {
         },
         des = "1320618",
     },
-    [401011] = {
+    [370007] = {
         ext = {
         },
-        finishCondId = 17014,
-        order = 1,
+        finishCondId = 11009,
+        order = 7,
         acceptParams = {
             plvl = 1,
         },
@@ -76841,8 +77087,8 @@ return {
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 570506,
-                [2] = 1,
+                [1] = 551111,
+                [2] = 3,
             },
         },
         startDate = {
@@ -76856,45 +77102,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 401011,
+        id = 370007,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 200,
-        type = 15,
-        name = "1325381",
+        progress = 2500,
+        type = 37,
+        name = "1711007",
         acceptCondId = 10001,
         finishParams = {
-            superType = {
-                [1] = 1,
-            },
-            rarity = {
-                [1] = 5,
-            },
-            itemId = {
-                [1] = 110103,
-                [2] = 112001,
-                [3] = 110210,
-                [4] = 111401,
-                [5] = 111501,
-                [6] = 110413,
-                [7] = 111601,
-                [8] = 112201,
-                [9] = 112301,
-                [10] = 112501,
-                [11] = 112401,
-                [12] = 112701,
-                [13] = 113101,
-                [14] = 113201,
-                [15] = 113301,
-                [16] = 110313,
-            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1326394",
+        des = "1711207",
     },
     [720005] = {
         ext = {
@@ -77027,48 +77249,48 @@ return {
         },
         des = "1320619",
     },
-    [370014] = {
+    [350026] = {
         ext = {
         },
-        finishCondId = 11009,
-        order = 14,
+        finishCondId = 11007,
+        order = 333,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 350025,
         },
-        taskCollection = true,
+        taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 585009,
-                [2] = 1,
+                [1] = 500002,
+                [2] = 80,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 0,
+        jumpInterface = 76,
+        icon = "ui/task/icon_3.png",
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 370014,
-        extendsTaskId = 0,
+        id = 350026,
+        extendsTaskId = 350025,
         subType = 2,
         endDate = {
         },
-        progress = 6000,
-        type = 37,
-        name = "1711014",
+        progress = 1200,
+        type = 3,
+        name = "1310844",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1711214",
+        des = "1320844",
     },
     [110311] = {
         ext = {
@@ -77402,134 +77624,134 @@ return {
         },
         des = "1320621",
     },
-    [370011] = {
+    [350022] = {
         ext = {
         },
-        finishCondId = 11009,
-        order = 11,
+        finishCondId = 11007,
+        order = 329,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 350021,
         },
-        taskCollection = true,
+        taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 520258,
-                [2] = 4,
+                [1] = 500002,
+                [2] = 40,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 0,
+        jumpInterface = 76,
+        icon = "ui/task/icon_3.png",
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 370011,
-        extendsTaskId = 0,
+        id = 350022,
+        extendsTaskId = 350021,
         subType = 2,
         endDate = {
         },
-        progress = 4500,
-        type = 37,
-        name = "1711011",
+        progress = 200,
+        type = 3,
+        name = "1310840",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1711211",
+        des = "1320840",
     },
-    [370010] = {
+    [350018] = {
         ext = {
         },
-        finishCondId = 11009,
-        order = 10,
+        finishCondId = 11007,
+        order = 325,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 350017,
         },
-        taskCollection = true,
+        taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 585008,
-                [2] = 1,
+                [1] = 500002,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 0,
+        jumpInterface = 76,
+        icon = "ui/task/icon_3.png",
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 370010,
-        extendsTaskId = 0,
+        id = 350018,
+        extendsTaskId = 350017,
         subType = 2,
         endDate = {
         },
-        progress = 4000,
-        type = 37,
-        name = "1711010",
+        progress = 20,
+        type = 3,
+        name = "1310836",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1711210",
+        des = "1320836",
     },
-    [370007] = {
+    [350014] = {
         ext = {
         },
-        finishCondId = 11009,
-        order = 7,
+        finishCondId = 11008,
+        order = 321,
         acceptParams = {
-            plvl = 1,
+            pre_task_id = 350013,
         },
-        taskCollection = true,
+        taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 551111,
-                [2] = 3,
+                [1] = 500002,
+                [2] = 100,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 0,
+        jumpInterface = 76,
+        icon = "ui/task/icon_1.png",
+        completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 370007,
-        extendsTaskId = 0,
+        id = 350014,
+        extendsTaskId = 350013,
         subType = 2,
         endDate = {
         },
-        progress = 2500,
-        type = 37,
-        name = "1711007",
+        progress = 500,
+        type = 3,
+        name = "1310832",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1711207",
+        des = "1320832",
     },
     [311006] = {
         ext = {
@@ -77574,69 +77796,26 @@ return {
         },
         des = "1320622",
     },
-    [370003] = {
+    [350010] = {
         ext = {
         },
-        finishCondId = 11009,
-        order = 3,
+        finishCondId = 11008,
+        order = 317,
         acceptParams = {
-            plvl = 1,
-        },
-        taskCollection = true,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 520257,
-                [2] = 5,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 0,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 370003,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 700,
-        type = 37,
-        name = "1711003",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1711203",
-    },
-    [350026] = {
-        ext = {
-        },
-        finishCondId = 11007,
-        order = 333,
-        acceptParams = {
-            pre_task_id = 350025,
+            pre_task_id = 350009,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 80,
+                [2] = 60,
             },
         },
         startDate = {
         },
         jumpInterface = 76,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 1,
         playerLevel = {
         },
@@ -77644,64 +77823,107 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 350026,
-        extendsTaskId = 350025,
-        subType = 2,
-        endDate = {
-        },
-        progress = 1200,
-        type = 3,
-        name = "1310844",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320844",
-    },
-    [350022] = {
-        ext = {
-        },
-        finishCondId = 11007,
-        order = 329,
-        acceptParams = {
-            pre_task_id = 350021,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 40,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 76,
-        icon = "ui/task/icon_3.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 350022,
-        extendsTaskId = 350021,
+        id = 350010,
+        extendsTaskId = 350009,
         subType = 2,
         endDate = {
         },
         progress = 200,
         type = 3,
-        name = "1310840",
+        name = "1310828",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320840",
+        des = "1320828",
+    },
+    [350009] = {
+        ext = {
+        },
+        finishCondId = 11008,
+        order = 316,
+        acceptParams = {
+            pre_task_id = 350008,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 50,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 76,
+        icon = "ui/task/icon_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 350009,
+        extendsTaskId = 350008,
+        subType = 2,
+        endDate = {
+        },
+        progress = 150,
+        type = 3,
+        name = "1310827",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320827",
+    },
+    [350006] = {
+        ext = {
+        },
+        finishCondId = 11008,
+        order = 313,
+        acceptParams = {
+            pre_task_id = 350005,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 76,
+        icon = "ui/task/icon_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 350006,
+        extendsTaskId = 350005,
+        subType = 2,
+        endDate = {
+        },
+        progress = 30,
+        type = 3,
+        name = "1310824",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320824",
     },
     [311007] = {
         ext = {
@@ -77746,26 +77968,26 @@ return {
         },
         des = "1320623",
     },
-    [350018] = {
+    [350005] = {
         ext = {
         },
-        finishCondId = 11007,
-        order = 325,
+        finishCondId = 11008,
+        order = 312,
         acceptParams = {
-            pre_task_id = 350017,
+            pre_task_id = 350004,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 20,
+                [2] = 25,
             },
         },
         startDate = {
         },
         jumpInterface = 76,
-        icon = "ui/task/icon_3.png",
+        icon = "ui/task/icon_1.png",
         completeResult = 1,
         playerLevel = {
         },
@@ -77773,21 +77995,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 350018,
-        extendsTaskId = 350017,
+        id = 350005,
+        extendsTaskId = 350004,
         subType = 2,
         endDate = {
         },
         progress = 20,
         type = 3,
-        name = "1310836",
+        name = "1310823",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320836",
+        des = "1320823",
     },
     [110312] = {
         ext = {
@@ -77939,20 +78161,20 @@ return {
         },
         des = "1320001",
     },
-    [350014] = {
+    [350002] = {
         ext = {
         },
         finishCondId = 11008,
-        order = 321,
+        order = 309,
         acceptParams = {
-            pre_task_id = 350013,
+            pre_task_id = 350001,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 100,
+                [2] = 10,
             },
         },
         startDate = {
@@ -77966,21 +78188,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 350014,
-        extendsTaskId = 350013,
+        id = 350002,
+        extendsTaskId = 350001,
         subType = 2,
         endDate = {
         },
-        progress = 500,
+        progress = 3,
         type = 3,
-        name = "1310832",
+        name = "1310820",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320832",
+        des = "1320820",
     },
     [110824] = {
         ext = {
@@ -78030,20 +78252,20 @@ return {
         },
         des = "1320001",
     },
-    [350010] = {
+    [350001] = {
         ext = {
         },
         finishCondId = 11008,
-        order = 317,
+        order = 308,
         acceptParams = {
-            pre_task_id = 350009,
+            plvl = 1,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 60,
+                [2] = 5,
             },
         },
         startDate = {
@@ -78057,21 +78279,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 350010,
-        extendsTaskId = 350009,
+        id = 350001,
+        extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 200,
+        progress = 1,
         type = 3,
-        name = "1310828",
+        name = "1310819",
         acceptCondId = 10001,
         finishParams = {
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320828",
+        des = "1320819",
     },
     [311009] = {
         ext = {
@@ -78115,273 +78337,6 @@ return {
         colour1 = {
         },
         des = "1320625",
-    },
-    [350009] = {
-        ext = {
-        },
-        finishCondId = 11008,
-        order = 316,
-        acceptParams = {
-            pre_task_id = 350008,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 50,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 350009,
-        extendsTaskId = 350008,
-        subType = 2,
-        endDate = {
-        },
-        progress = 150,
-        type = 3,
-        name = "1310827",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320827",
-    },
-    [732301] = {
-        ext = {
-        },
-        finishCondId = 9001,
-        order = 2,
-        acceptParams = {
-            rank = 2003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 732301,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 14,
-        type = 30,
-        name = "3207025",
-        acceptCondId = 10001,
-        finishParams = {
-            dunType = 20,
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207502",
-    },
-    [350005] = {
-        ext = {
-        },
-        finishCondId = 11008,
-        order = 312,
-        acceptParams = {
-            pre_task_id = 350004,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 25,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 350005,
-        extendsTaskId = 350004,
-        subType = 2,
-        endDate = {
-        },
-        progress = 20,
-        type = 3,
-        name = "1310823",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320823",
-    },
-    [311010] = {
-        ext = {
-        },
-        finishCondId = 12003,
-        order = 105,
-        acceptParams = {
-            pre_task_id = 311009,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 200,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 33,
-        icon = "ui/task/icon_3.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 311010,
-        extendsTaskId = 311009,
-        subType = 2,
-        endDate = {
-        },
-        progress = 500,
-        type = 3,
-        name = "1310626",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320626",
-    },
-    [350002] = {
-        ext = {
-        },
-        finishCondId = 11008,
-        order = 309,
-        acceptParams = {
-            pre_task_id = 350001,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 10,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 76,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 350002,
-        extendsTaskId = 350001,
-        subType = 2,
-        endDate = {
-        },
-        progress = 3,
-        type = 3,
-        name = "1310820",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320820",
-    },
-    [732303] = {
-        ext = {
-        },
-        finishCondId = 9016,
-        order = 4,
-        acceptParams = {
-            rank = 2003,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 597001,
-                [2] = 1,
-            },
-            [2] = {
-                [1] = 500100,
-                [2] = 1,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "",
-        completeResult = 2,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 732303,
-        extendsTaskId = 0,
-        subType = 2,
-        endDate = {
-        },
-        progress = 4000,
-        type = 30,
-        name = "3207027",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "3207504",
     },
     [339010] = {
         ext = {
@@ -78433,11 +78388,11 @@ return {
         },
         des = "1320818",
     },
-    [732304] = {
+    [732301] = {
         ext = {
         },
-        finishCondId = 9017,
-        order = 5,
+        finishCondId = 9001,
+        order = 2,
         acceptParams = {
             rank = 2003,
         },
@@ -78464,14 +78419,14 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 732304,
+        id = 732301,
         extendsTaskId = 0,
         subType = 2,
         endDate = {
         },
-        progress = 800000,
+        progress = 14,
         type = 30,
-        name = "3207028",
+        name = "3207025",
         acceptCondId = 10001,
         finishParams = {
             dunType = 20,
@@ -78479,7 +78434,7 @@ return {
         effectiveTime = -1,
         colour1 = {
         },
-        des = "3207505",
+        des = "3207502",
     },
     [339006] = {
         ext = {
@@ -78530,6 +78485,280 @@ return {
         colour1 = {
         },
         des = "1320814",
+    },
+    [311010] = {
+        ext = {
+        },
+        finishCondId = 12003,
+        order = 105,
+        acceptParams = {
+            pre_task_id = 311009,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 200,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 33,
+        icon = "ui/task/icon_3.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 311010,
+        extendsTaskId = 311009,
+        subType = 2,
+        endDate = {
+        },
+        progress = 500,
+        type = 3,
+        name = "1310626",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320626",
+    },
+    [339003] = {
+        ext = {
+        },
+        finishCondId = 9001,
+        order = 300,
+        acceptParams = {
+            pre_task_id = 339002,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 30,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 73,
+        icon = "ui/task/icon_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 339003,
+        extendsTaskId = 339002,
+        subType = 2,
+        endDate = {
+        },
+        progress = 50,
+        type = 3,
+        name = "1310811",
+        acceptCondId = 10001,
+        finishParams = {
+            dunTypeList = {
+                [1] = 9,
+                [2] = 17,
+                [3] = 22,
+                [4] = 23,
+                [5] = 24,
+            },
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320811",
+    },
+    [732303] = {
+        ext = {
+        },
+        finishCondId = 9016,
+        order = 4,
+        acceptParams = {
+            rank = 2003,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 732303,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 4000,
+        type = 30,
+        name = "3207027",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207504",
+    },
+    [338010] = {
+        ext = {
+        },
+        finishCondId = 9010,
+        order = 297,
+        acceptParams = {
+            pre_task_id = 338009,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 100,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 338010,
+        extendsTaskId = 338009,
+        subType = 2,
+        endDate = {
+        },
+        progress = 100000,
+        type = 3,
+        name = "1310808",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320808",
+    },
+    [732304] = {
+        ext = {
+        },
+        finishCondId = 9017,
+        order = 5,
+        acceptParams = {
+            rank = 2003,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 597001,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 500100,
+                [2] = 1,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 732304,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 800000,
+        type = 30,
+        name = "3207028",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 20,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "3207505",
+    },
+    [338006] = {
+        ext = {
+        },
+        finishCondId = 9010,
+        order = 293,
+        acceptParams = {
+            pre_task_id = 338005,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 60,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_1.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 338006,
+        extendsTaskId = 338005,
+        subType = 2,
+        endDate = {
+        },
+        progress = 10000,
+        type = 3,
+        name = "1310804",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320804",
     },
     [110313] = {
         ext = {
@@ -78681,25 +78910,25 @@ return {
         },
         des = "1320001",
     },
-    [339003] = {
+    [338002] = {
         ext = {
         },
-        finishCondId = 9001,
-        order = 300,
+        finishCondId = 9010,
+        order = 289,
         acceptParams = {
-            pre_task_id = 339002,
+            pre_task_id = 338001,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 30,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 73,
+        jumpInterface = 0,
         icon = "ui/task/icon_1.png",
         completeResult = 1,
         playerLevel = {
@@ -78708,28 +78937,21 @@ return {
         },
         typeDes = "",
         open = true,
-        id = 339003,
-        extendsTaskId = 339002,
+        id = 338002,
+        extendsTaskId = 338001,
         subType = 2,
         endDate = {
         },
-        progress = 50,
+        progress = 500,
         type = 3,
-        name = "1310811",
+        name = "1310800",
         acceptCondId = 10001,
         finishParams = {
-            dunTypeList = {
-                [1] = 9,
-                [2] = 17,
-                [3] = 22,
-                [4] = 23,
-                [5] = 24,
-            },
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320811",
+        des = "1320800",
     },
     [110825] = {
         ext = {
@@ -78778,228 +79000,6 @@ return {
         colour1 = {
         },
         des = "1320001",
-    },
-    [339002] = {
-        ext = {
-        },
-        finishCondId = 9001,
-        order = 299,
-        acceptParams = {
-            pre_task_id = 339001,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 20,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 73,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 339002,
-        extendsTaskId = 339001,
-        subType = 2,
-        endDate = {
-        },
-        progress = 30,
-        type = 3,
-        name = "1310810",
-        acceptCondId = 10001,
-        finishParams = {
-            dunTypeList = {
-                [1] = 9,
-                [2] = 17,
-                [3] = 22,
-                [4] = 23,
-                [5] = 24,
-            },
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320810",
-    },
-    [338010] = {
-        ext = {
-        },
-        finishCondId = 9010,
-        order = 297,
-        acceptParams = {
-            pre_task_id = 338009,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 100,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 338010,
-        extendsTaskId = 338009,
-        subType = 2,
-        endDate = {
-        },
-        progress = 100000,
-        type = 3,
-        name = "1310808",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320808",
-    },
-    [338008] = {
-        ext = {
-        },
-        finishCondId = 9010,
-        order = 295,
-        acceptParams = {
-            pre_task_id = 338007,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 80,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 338008,
-        extendsTaskId = 338007,
-        subType = 2,
-        endDate = {
-        },
-        progress = 25000,
-        type = 3,
-        name = "1310806",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320806",
-    },
-    [338006] = {
-        ext = {
-        },
-        finishCondId = 9010,
-        order = 293,
-        acceptParams = {
-            pre_task_id = 338005,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 60,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 338006,
-        extendsTaskId = 338005,
-        subType = 2,
-        endDate = {
-        },
-        progress = 10000,
-        type = 3,
-        name = "1310804",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320804",
-    },
-    [338002] = {
-        ext = {
-        },
-        finishCondId = 9010,
-        order = 289,
-        acceptParams = {
-            pre_task_id = 338001,
-        },
-        taskCollection = false,
-        resetType = 1,
-        reward = {
-            [1] = {
-                [1] = 500002,
-                [2] = 20,
-            },
-        },
-        startDate = {
-        },
-        jumpInterface = 0,
-        icon = "ui/task/icon_1.png",
-        completeResult = 1,
-        playerLevel = {
-        },
-        colour2 = {
-        },
-        typeDes = "",
-        open = true,
-        id = 338002,
-        extendsTaskId = 338001,
-        subType = 2,
-        endDate = {
-        },
-        progress = 500,
-        type = 3,
-        name = "1310800",
-        acceptCondId = 10001,
-        finishParams = {
-        },
-        effectiveTime = -1,
-        colour1 = {
-        },
-        des = "1320800",
     },
     [337008] = {
         ext = {
@@ -79259,6 +79259,253 @@ return {
         },
         des = "1320782",
     },
+    [335009] = {
+        ext = {
+        },
+        finishCondId = 2009,
+        order = 266,
+        acceptParams = {
+            pre_task_id = 335008,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 90,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_4.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 335009,
+        extendsTaskId = 335008,
+        subType = 2,
+        endDate = {
+        },
+        progress = 80,
+        type = 3,
+        name = "1310777",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320777",
+    },
+    [335005] = {
+        ext = {
+        },
+        finishCondId = 2009,
+        order = 262,
+        acceptParams = {
+            pre_task_id = 335004,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 50,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_4.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 335005,
+        extendsTaskId = 335004,
+        subType = 2,
+        endDate = {
+        },
+        progress = 30,
+        type = 3,
+        name = "1310773",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320773",
+    },
+    [335001] = {
+        ext = {
+        },
+        finishCondId = 2009,
+        order = 258,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 1,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 10,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 0,
+        icon = "ui/task/icon_4.png",
+        completeResult = 1,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 335001,
+        extendsTaskId = 0,
+        subType = 2,
+        endDate = {
+        },
+        progress = 5,
+        type = 3,
+        name = "1310769",
+        acceptCondId = 10001,
+        finishParams = {
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "1320769",
+    },
+    [334109] = {
+        ext = {
+        },
+        finishCondId = 9029,
+        order = 9,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 0,
+        reward = {
+            [1] = {
+                [1] = 570033,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 520064,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 520257,
+                [2] = 3,
+            },
+            [4] = {
+                [1] = 520065,
+                [2] = 1,
+            },
+            [5] = {
+                [1] = 500037,
+                [2] = 30,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 97,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 334109,
+        extendsTaskId = 0,
+        subType = 0,
+        endDate = {
+        },
+        progress = 8000000,
+        type = 38,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 105,
+            dunId = 490004,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
+    [334108] = {
+        ext = {
+        },
+        finishCondId = 9029,
+        order = 8,
+        acceptParams = {
+            plvl = 1,
+        },
+        taskCollection = false,
+        resetType = 0,
+        reward = {
+            [1] = {
+                [1] = 500002,
+                [2] = 40,
+            },
+            [2] = {
+                [1] = 570002,
+                [2] = 20,
+            },
+            [3] = {
+                [1] = 520258,
+                [2] = 2,
+            },
+            [4] = {
+                [1] = 500037,
+                [2] = 25,
+            },
+        },
+        startDate = {
+        },
+        jumpInterface = 97,
+        icon = "",
+        completeResult = 2,
+        playerLevel = {
+        },
+        colour2 = {
+        },
+        typeDes = "",
+        open = true,
+        id = 334108,
+        extendsTaskId = 0,
+        subType = 0,
+        endDate = {
+        },
+        progress = 7200000,
+        type = 38,
+        name = "",
+        acceptCondId = 10001,
+        finishParams = {
+            dunType = 105,
+            dunId = 490004,
+        },
+        effectiveTime = -1,
+        colour1 = {
+        },
+        des = "",
+    },
     [110314] = {
         ext = {
         },
@@ -79409,48 +79656,53 @@ return {
         },
         des = "1320001",
     },
-    [335009] = {
+    [110907] = {
         ext = {
         },
-        finishCondId = 2009,
-        order = 266,
+        finishCondId = 9007,
+        order = 247,
         acceptParams = {
-            pre_task_id = 335008,
+            pre_task_id = 110906,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 90,
+                [1] = 500005,
+                [2] = 6,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 500,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
+        jumpInterface = 37,
+        icon = "ui/task/chapter_2.png",
         completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
-        typeDes = "",
+        typeDes = "1330001",
         open = true,
-        id = 335009,
-        extendsTaskId = 335008,
-        subType = 2,
+        id = 110907,
+        extendsTaskId = 0,
+        subType = 1,
         endDate = {
         },
-        progress = 80,
-        type = 3,
-        name = "1310777",
+        progress = 1,
+        type = 1,
+        name = "1310884",
         acceptCondId = 10001,
         finishParams = {
+            dunId = 109207,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320777",
+        des = "1320001",
     },
     [110826] = {
         ext = {
@@ -79500,91 +79752,110 @@ return {
         },
         des = "1320001",
     },
-    [335005] = {
+    [110904] = {
         ext = {
         },
-        finishCondId = 2009,
-        order = 262,
+        finishCondId = 9007,
+        order = 244,
         acceptParams = {
-            pre_task_id = 335004,
+            pre_task_id = 110903,
         },
         taskCollection = false,
         resetType = 1,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 50,
+                [1] = 500005,
+                [2] = 6,
+            },
+            [2] = {
+                [1] = 500001,
+                [2] = 500,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
+        jumpInterface = 37,
+        icon = "ui/task/chapter_2.png",
         completeResult = 1,
         playerLevel = {
         },
         colour2 = {
         },
-        typeDes = "",
+        typeDes = "1330001",
         open = true,
-        id = 335005,
-        extendsTaskId = 335004,
-        subType = 2,
+        id = 110904,
+        extendsTaskId = 0,
+        subType = 1,
         endDate = {
         },
-        progress = 30,
-        type = 3,
-        name = "1310773",
+        progress = 1,
+        type = 1,
+        name = "1310881",
         acceptCondId = 10001,
         finishParams = {
+            dunId = 109104,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320773",
+        des = "1320001",
     },
-    [335001] = {
+    [334105] = {
         ext = {
         },
-        finishCondId = 2009,
-        order = 258,
+        finishCondId = 9029,
+        order = 5,
         acceptParams = {
             plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 0,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 10,
+                [1] = 570033,
+                [2] = 1,
+            },
+            [2] = {
+                [1] = 510105,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 520033,
+                [2] = 1,
+            },
+            [4] = {
+                [1] = 500037,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 0,
-        icon = "ui/task/icon_4.png",
-        completeResult = 1,
+        jumpInterface = 97,
+        icon = "",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
         typeDes = "",
         open = true,
-        id = 335001,
+        id = 334105,
         extendsTaskId = 0,
-        subType = 2,
+        subType = 0,
         endDate = {
         },
-        progress = 5,
-        type = 3,
-        name = "1310769",
+        progress = 4800000,
+        type = 38,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
+            dunType = 105,
+            dunId = 490004,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320769",
+        des = "",
     },
     [334104] = {
         ext = {
@@ -79599,23 +79870,19 @@ return {
         reward = {
             [1] = {
                 [1] = 500002,
-                [2] = 50,
+                [2] = 20,
             },
             [2] = {
-                [1] = 599604,
-                [2] = 1,
-            },
-            [3] = {
-                [1] = 520033,
-                [2] = 1,
-            },
-            [4] = {
                 [1] = 520065,
                 [2] = 1,
             },
-            [5] = {
+            [3] = {
+                [1] = 510105,
+                [2] = 3,
+            },
+            [4] = {
                 [1] = 500037,
-                [2] = 300,
+                [2] = 15,
             },
         },
         startDate = {
@@ -79634,7 +79901,7 @@ return {
         subType = 0,
         endDate = {
         },
-        progress = 8000000,
+        progress = 4000000,
         type = 38,
         name = "",
         acceptCondId = 10001,
@@ -79752,19 +80019,15 @@ return {
         reward = {
             [1] = {
                 [1] = 520006,
-                [2] = 2,
+                [2] = 1,
             },
             [2] = {
-                [1] = 510155,
-                [2] = 2,
+                [1] = 599602,
+                [2] = 1,
             },
             [3] = {
-                [1] = 510105,
-                [2] = 2,
-            },
-            [4] = {
                 [1] = 500037,
-                [2] = 100,
+                [2] = 10,
             },
         },
         startDate = {
@@ -79783,7 +80046,7 @@ return {
         subType = 0,
         endDate = {
         },
-        progress = 2000000,
+        progress = 1600000,
         type = 38,
         name = "",
         acceptCondId = 10001,
@@ -90224,20 +90487,16 @@ return {
         resetType = 0,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 20,
+                [1] = 570031,
+                [2] = 3,
             },
             [2] = {
                 [1] = 599603,
                 [2] = 1,
             },
             [3] = {
-                [1] = 520257,
-                [2] = 3,
-            },
-            [4] = {
                 [1] = 500037,
-                [2] = 150,
+                [2] = 10,
             },
         },
         startDate = {
@@ -90256,7 +90515,7 @@ return {
         subType = 0,
         endDate = {
         },
-        progress = 4000000,
+        progress = 2400000,
         type = 38,
         name = "",
         acceptCondId = 10001,
@@ -90410,24 +90669,20 @@ return {
         resetType = 0,
         reward = {
             [1] = {
-                [1] = 500002,
-                [2] = 30,
+                [1] = 570029,
+                [2] = 10,
             },
             [2] = {
-                [1] = 510155,
-                [2] = 3,
+                [1] = 520033,
+                [2] = 1,
             },
             [3] = {
-                [1] = 510105,
-                [2] = 3,
+                [1] = 520257,
+                [2] = 1,
             },
             [4] = {
-                [1] = 240009,
-                [2] = 3,
-            },
-            [5] = {
                 [1] = 500037,
-                [2] = 200,
+                [2] = 15,
             },
         },
         startDate = {
@@ -90446,7 +90701,7 @@ return {
         subType = 0,
         endDate = {
         },
-        progress = 6000000,
+        progress = 3200000,
         type = 38,
         name = "",
         acceptCondId = 10001,
@@ -90991,53 +91246,62 @@ return {
         },
         des = "1320887",
     },
-    [110904] = {
+    [334106] = {
         ext = {
         },
-        finishCondId = 9007,
-        order = 244,
+        finishCondId = 9029,
+        order = 6,
         acceptParams = {
-            pre_task_id = 110903,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 0,
         reward = {
             [1] = {
-                [1] = 500005,
-                [2] = 6,
+                [1] = 500002,
+                [2] = 30,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 500,
+                [1] = 240009,
+                [2] = 2,
+            },
+            [3] = {
+                [1] = 599604,
+                [2] = 1,
+            },
+            [4] = {
+                [1] = 500037,
+                [2] = 20,
             },
         },
         startDate = {
         },
-        jumpInterface = 37,
-        icon = "ui/task/chapter_2.png",
-        completeResult = 1,
+        jumpInterface = 97,
+        icon = "",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
-        typeDes = "1330001",
+        typeDes = "",
         open = true,
-        id = 110904,
+        id = 334106,
         extendsTaskId = 0,
-        subType = 1,
+        subType = 0,
         endDate = {
         },
-        progress = 1,
-        type = 1,
-        name = "1310881",
+        progress = 5600000,
+        type = 38,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunId = 109104,
+            dunType = 105,
+            dunId = 490004,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320001",
+        des = "",
     },
     [308007] = {
         ext = {
@@ -91170,53 +91434,62 @@ return {
         },
         des = "1320654",
     },
-    [110907] = {
+    [334107] = {
         ext = {
         },
-        finishCondId = 9007,
-        order = 247,
+        finishCondId = 9029,
+        order = 7,
         acceptParams = {
-            pre_task_id = 110906,
+            plvl = 1,
         },
         taskCollection = false,
-        resetType = 1,
+        resetType = 0,
         reward = {
             [1] = {
-                [1] = 500005,
-                [2] = 6,
+                [1] = 570029,
+                [2] = 15,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 500,
+                [1] = 520065,
+                [2] = 1,
+            },
+            [3] = {
+                [1] = 510105,
+                [2] = 3,
+            },
+            [4] = {
+                [1] = 500037,
+                [2] = 25,
             },
         },
         startDate = {
         },
-        jumpInterface = 37,
-        icon = "ui/task/chapter_2.png",
-        completeResult = 1,
+        jumpInterface = 97,
+        icon = "",
+        completeResult = 2,
         playerLevel = {
         },
         colour2 = {
         },
-        typeDes = "1330001",
+        typeDes = "",
         open = true,
-        id = 110907,
+        id = 334107,
         extendsTaskId = 0,
-        subType = 1,
+        subType = 0,
         endDate = {
         },
-        progress = 1,
-        type = 1,
-        name = "1310884",
+        progress = 6400000,
+        type = 38,
+        name = "",
         acceptCondId = 10001,
         finishParams = {
-            dunId = 109207,
+            dunType = 105,
+            dunId = 490004,
         },
         effectiveTime = -1,
         colour1 = {
         },
-        des = "1320001",
+        des = "",
     },
     [308008] = {
         ext = {

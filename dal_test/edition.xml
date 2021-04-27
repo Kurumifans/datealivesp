@@ -1,25 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.37" lastVersion="3.4.36">
-  <f p=".nomedia/nomedia.txt" m="a3541778173f003e643bf678610a66ce" c="0" />
-  <f p="res/basic/effect/effects_10313_skillD/effects_10313_skillD.skel" m="7ed80637ae6060d8e195d42f44dc9f54" c="0" />
-  <f p="res/basic/modle/bust_kanban/bust_10314_superKanban/motions/id_favor1_2.motion3.json" m="c1f76ecc36a6ce1079ac24416eb6716a" c="0" />
-  <f p="res/basic/ui/activity/activityStyle/wefareSignActivity/bg/bg.png" m="2444a0a1e82bb4d51345cc2a16faa5ef" c="0" />
-  <f p="res/basic/ui/activity/bingKai/bless/003.png" m="dccba7fa5e439120e6c22e32ac86c035" c="0" />
-  <f p="src/lua/logic/battle/Buffer.lua" m="bfd1efcf9d04de798e5a6fc4676b9f35" c="0" />
-  <f p="src/lua/logic/battle/Hero.lua" m="2fdd8b37888a668d9928f38a2332eebe" c="0" />
-  <f p="src/lua/table/Buffer.lua" m="a4276167d497db01742da01e21ebd776" c="0" />
-  <f p="src/lua/table/DiscreteData.lua" m="6703f821645c534a7fc97e50c42cc91c" c="0" />
-  <f p="src/lua/table/Drop.lua" m="43a6d452ef6e49cf79775c4e82c54545" c="0" />
-  <f p="src/lua/table/DungeonLevel.lua" m="1aae9b610caf7a2a0375fcbc668a9794" c="0" />
-  <f p="src/lua/table/HuntingLevel.lua" m="39cdec81a2852612144607616084d35c" c="0" />
-  <f p="src/lua/table/MainDialogue.lua" m="d50d354f641d1ccf735da4e780537f8a" c="0" />
-  <f p="src/lua/table/NewPokedex.lua" m="e07e40684958871ac669cd9f362908d8" c="0" />
-  <f p="src/lua/table/NewPokedexType.lua" m="8a1ba3bc8879014b0b53dbc59ba06d3d" c="0" />
-  <f p="src/lua/table/SkillEffect.lua" m="35c58e207b5b6d5bcdb214a1d06dc3aa" c="0" />
-  <f p="src/lua/table/SkillHurt.lua" m="6c772ac3764ed3c569cc35dc7a9fab51" c="0" />
-  <f p="src/lua/table/String.lua" m="5c9940e0d51cc37563c930730334c656" c="0" />
-  <f p="src/lua/uiconfig/activity/addRechargeActivityView.lua" m="29d87e3e655e00023b325ad7c9d40183" c="0" />
-  <f p="src/lua/uiconfig/MainScene/DefaultMainLayer.lua" m="ef455c1be7e8768540cd92c324bae5b8" c="0" />
-  <f p="src/lua/uiconfig/MainScene/MerryMainLayer.lua" m="0be95b5a6727b4783764a1eca378d4ed" c="0" />
-  <f p="src/lua/uiconfig/MainScene/WanKryptonMainLayer.lua" m="f8651c14dd87223847ce91a825447f45" c="0" />
+<files version="3.4.39" lastVersion="3.4.37">
+  <f p=".nomedia/nomedia.txt" m="fbfec6f607266a05465a093de03d8521" c="0" />
+  <f p="res/basic/effect/dating/ui_superKanban_10117/effect_main_10120.atlas" m="327daec7e4c9c5489e7314b8a8dc2258" c="0" />
+  <f p="res/basic/effect/dating/ui_superKanban_10117/effect_main_10120.png" m="a65d962516d692d65eca4221163c8c43" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/motions/id_favor1_3.motion3.json" m="97148a458f0330f1f528ed1604e9f5c9" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.moc3" m="197b14daf41dd11c23a6e907d8b9ee67" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.model3.json" m="2bd3a5a4d7a4cc28b7a1f58faee9538e" c="0" />
+  <f p="res/basic/modle/bust_kanban/bust_10117_superKanban/bust_10117_new.physics3.json" m="8db38b13c9037932fd645247371bb2e6" c="0" />
+  <f p="src/lua/dataMgr/FubenDataMgr.lua" m="6023f8074480871e0fb66f1701381a39" c="0" />
+  <f p="src/lua/dataMgr/GuideDataMgr.lua" m="c65c72fda8610750499a450d8ef9df9e" c="0" />
+  <f p="src/lua/logic/fuben/FubenChapterView.lua" m="b4938e11e6f8d9c5f525a9d9f43c4992" c="0" />
+  <f p="src/lua/table/Buffer.lua" m="aeff415130d1b683db400d6066df5070" c="0" />
+  <f p="src/lua/table/Commodity.lua" m="76912d551e3d38437e7fca1744f41b88" c="0" />
+  <f p="src/lua/table/DiscreteData.lua" m="107d1cb585accff783466d0e547303b2" c="0" />
+  <f p="src/lua/table/Drop.lua" m="f10a4ac657176ddba1cf29d14d44159d" c="0" />
+  <f p="src/lua/table/DungeonLevel.lua" m="4019b7ad01cc8eb68931f8c82b6a66d3" c="0" />
+  <f p="src/lua/table/RoleDescribe.lua" m="6ac0ef1d67d9e47edbc9419947a3b470" c="0" />
+  <f p="src/lua/table/Sound.lua" m="135c8a3ef29daca94e81aae05033a515" c="0" />
+  <f p="src/lua/table/String.lua" m="8093a0157fb0805853622179990e9462" c="0" />
+  <f p="src/lua/table/Task.lua" m="bfaf055edce9f75c2722c4eacac079d6" c="0" />
+  <f p="res/basic/effect/dating/ui_superKanban_10117/effect_main_10120.skel" m="60fe4e7f261484b4a637b027d1b10183" />
 </files>
