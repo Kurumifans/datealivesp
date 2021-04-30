@@ -2113,6 +2113,8 @@ return {
         },
         dressImg = "icon/role/dress_kanban/11310m.png",
         offSet = {
+            y = 16,
+            x = 0,
         },
         nameTextId = 20117,
         roleModel = 211310,

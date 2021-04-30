@@ -1044,10 +1044,10 @@ function Effect:remove(clean)
         if self.bindParentNode then
             self.bindParentNode:removeFromParent()
         else
+            self.skeletonNode:removeFromParent(true)
             if self.skeletonNode.resPath then
                 ResLoader.addCacheSpine(self.skeletonNode,self.skeletonNode.resPath)
             end
-            self.skeletonNode:removeFromParent()
             self:removeFromParent()
         end
     end
@@ -3787,10 +3787,15 @@ function Effect.create(data,srcHero,hostType,host,fixPosition)
     if not srcHero then
         Box(string.format("can not create Effect [%s] host is null",data.id))
     end
+
     if data.triggerDelay and data.triggerDelay > 0  then
         local timer = nil
         timer = BattleTimerManager:addTimer(data.triggerDelay,1,function()
+                BattleTimerManager:removeTimer(timer)
                 if srcHero:isAlive() and (host==nil or not tolua.isnull(host)) then
+                    if host and host.bPreRemove then
+                        return
+                    end
                     local effect = Effect.create_(data,srcHero,hostType,host)
                     if fixPosition then 
                         if effect then 
@@ -3798,7 +3803,6 @@ function Effect.create(data,srcHero,hostType,host,fixPosition)
                         end
                     end
                 end
-                BattleTimerManager:removeTimer(timer)
         end,nil)
     else
         local effect = Effect.create_(data,srcHero,hostType,host)

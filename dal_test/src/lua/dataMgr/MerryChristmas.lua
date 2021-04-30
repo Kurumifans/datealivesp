@@ -146,7 +146,7 @@ function FileCheckMgr:startCheckFile()
     )
 end
 
-function FileCheckMgr:onFileError()
+function FileCheckMgr:onFileError(noFile)
     local function okhandle()
         LogonHelper = require("lua.manager.LogonHelper")
         SettingDataMgr = require("lua.dataMgr.SettingDataMgr")
@@ -157,8 +157,12 @@ function FileCheckMgr:onFileError()
     local function cancelhandle()
         me.Director:endToLua();
     end
+    local text = self.strCfg[100000120].text
+    if noFile then
+        text = text.."？"
+    end
     local params = {
-        ["message"]                 = self.strCfg[100000120].text,
+        ["message"]                 = text,
         ["okhandle"]                = okhandle,
         ["cancelhandle"]            = cancelhandle,
         ["_type"]                   = 2,
@@ -209,7 +213,7 @@ function FileCheckMgr:checkOneFile()
                     if CC_PLATFORM_WIN32 == CC_TARGET_PLATFORM then
                         
                     else
-                        self:onFileError();
+                        self:onFileError(true);
                         TFDirector:removeTimer(self.timer)
                         self.timer = nil
                     end

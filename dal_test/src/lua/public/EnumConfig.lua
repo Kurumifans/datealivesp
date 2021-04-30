@@ -567,6 +567,7 @@ EC_Bag = {
     MATERIAL_OTHER = 21,    --结晶碎片图纸之外其他材料
     EXPLORE_TREASURE = 22,   --探索背包
     EXPLORE_MATERIAL = 23,   --探索背包
+    KABALA = 31,            --卡巴拉背包
     TRAILCARD = 32,          --试用卡
     SKYLADDER_CARD = 40,   -- 天梯卡牌
     TRAILBAG = 50,   --试用道具背包

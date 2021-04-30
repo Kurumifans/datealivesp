@@ -33,7 +33,9 @@ function BingKaiTaskView:initUI(ui)
 	year, month, day = Utils:getDate(self.activityInfo.endTime or 0)
     self._ui.act_timeEnd:setTextById(1410001,year, month, day)
 
-    self._ui.lab_tip:setText(self.activityInfo.extendData.string or "")
+    if self.activityInfo.extendData.string then
+        self._ui.lab_tip:setText(self.activityInfo.extendData.string)
+    end
 
     self:updataListView()
 end

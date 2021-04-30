@@ -1,0 +1,20 @@
+
+shixiangzidan.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daoguanzidan0001
+  rotate: false
+  xy: 2, 2
+  size: 293, 248
+  orig: 527, 340
+  offset: 136, 45
+  index: -1
+daoguanzidanliang
+  rotate: false
+  xy: 297, 2
+  size: 293, 248
+  orig: 531, 344
+  offset: 136, 49
+  index: -1

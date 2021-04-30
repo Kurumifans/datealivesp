@@ -1317,7 +1317,7 @@ return {
         target = 0,
         speedAddition = false,
         loopTime = 0,
-        moveType = 1,
+        moveType = 5,
         withstandDirection = 0,
         particleEffect = {
         },
@@ -58777,7 +58777,7 @@ return {
         target = 0,
         speedAddition = true,
         loopTime = 0,
-        moveType = 1,
+        moveType = 5,
         withstandDirection = 0,
         particleEffect = {
         },
@@ -149815,7 +149815,7 @@ return {
         target = 0,
         speedAddition = false,
         loopTime = 0,
-        moveType = 1,
+        moveType = 5,
         withstandDirection = 0,
         particleEffect = {
         },
@@ -163986,7 +163986,7 @@ return {
         target = 0,
         speedAddition = false,
         loopTime = 0,
-        moveType = 1,
+        moveType = 5,
         withstandDirection = 0,
         particleEffect = {
         },

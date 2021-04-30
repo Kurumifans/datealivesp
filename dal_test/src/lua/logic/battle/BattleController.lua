@@ -1698,11 +1698,7 @@ function battleController.update(delta)
     if not this.bStartTime  then
         return
     end
-    this.clearHitTime = this.clearHitTime or 0
-    if os.clock() - this.clearHitTime > 0.2 then
-        this.hitMusicNum = {}
-        this.clearHitTime = os.clock()
-    end
+    this.hitMusicNum = {}
     -- this.handlCombo(delta)
     this.team:update(delta)
     levelParse:update(delta)

@@ -285,14 +285,16 @@ function ReturnGiftView:refreshRequestPersonNum(data)
     for i, item in ipairs(self.listNeedRefreshItems) do
         local _id = self.expendData[i]
         local itemInfo = ActivityDataMgr2:getItemInfo(self.activityInfo.activityType, _id)
-        local assemblyGiftId = itemInfo.extendData.assemblyGift
-        local isTaskItem = assemblyGiftId == nil
-        local _txtId = 63918
-        if not isTaskItem then
-            _txtId = 63919
+        if itemInfo then
+            local assemblyGiftId = itemInfo.extendData.assemblyGift
+            local isTaskItem = assemblyGiftId == nil
+            local _txtId = 63918
+            if not isTaskItem then
+                _txtId = 63919
+            end
+            item.lab_sumCurGettedNum:setTextById(_txtId, self.assemblysNumDic[_id])
+            item.lab_sumCurGettedNum:show()
         end
-        item.lab_sumCurGettedNum:setTextById(_txtId, self.assemblysNumDic[_id])
-        item.lab_sumCurGettedNum:show()
     end
 end
 

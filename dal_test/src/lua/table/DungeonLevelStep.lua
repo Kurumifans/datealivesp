@@ -7450,7 +7450,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 180,
+                [1] = 90,
             },
         },
         extCfgID = 0,
@@ -102168,7 +102168,7 @@ return {
         },
         victoryParam = {
             [1] = {
-                [1] = 180,
+                [1] = 90,
             },
         },
         extCfgID = 0,

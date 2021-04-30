@@ -2518,7 +2518,9 @@ function DatingScriptView:playVoice(time)
                     self.isAuttoJump = true
                 end
                 self.voiceHandle = nil
-                self:stopNovoice()
+                if self.stopNovoice then
+                    self:stopNovoice()
+                end
             end)
         end
     end,time)

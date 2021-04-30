@@ -2171,7 +2171,7 @@ function MainLayer:updateLive2d()
         modelId = dressData.highRoleModel
     end
 
-    self.modelId = modelId
+    self.modelId = modelId or 210101
 
     local elvesNpcTable = ElvesNpcTable:createLive2dNpcID(modelId,true,true,nil,true,true)
     if not elvesNpcTable then

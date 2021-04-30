@@ -3666,7 +3666,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "112",
+											height = "128",
 											ignoreSize = "True",
 											name = "Button_Activity5",
 											normal = "ui/mainLayer/new_ui/a4.png",
@@ -3684,7 +3684,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
-											width = "196",
+											width = "226",
 											ZOrder = "1",
 											components = 
 											{
@@ -5601,7 +5601,7 @@ local t =
 											spineModel = 
 											{
 												SpinePath = "effect/TS_texiao/TS_zhuyerukou4",
-												animationName = "TS_zhuyerukou_all4",
+												animationName = "TS_zhuyerukou_all",
 												IsLoop = true,
 												IsPlay = true,
 												IsUseQueue = false,

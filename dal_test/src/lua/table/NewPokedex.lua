@@ -30067,7 +30067,7 @@ return {
         },
         sort = 41,
         name1 = 0,
-        isOpen = true,
+        isOpen = false,
         type1 = 1,
         type3 = {
             [1] = 201001,

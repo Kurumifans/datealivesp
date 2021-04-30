@@ -1051,10 +1051,32 @@ function ElvesNpc:createLive2dNpc(roleInfo,expressionInfo)
 end
 
 function ElvesNpc:createLive2dNpcID(modelId,isTouch,isSendTouch,defaultAcName,isShowText, isMainLayer)
-	local modelData = self:getModelInfo(modelId)
-	if not modelData then
-		return
+	if not modelId then
+		modelId = 0
 	end
+	local modelData = self:getModelInfo(modelId)
+	if not modelData or not modelData.id then
+		Box("can not find roleModel config id = "..modelId)
+		Bugly:ReportLuaException("can not find roleModel config id: ========================= " .. modelId)
+		if isShowText then
+			modelId = 210101
+		else
+			modelId = 410104
+		end
+		modelData = self:getModelInfo(modelId)
+	end
+	local filePath = "res/basic/"..modelData.rolePath.."/"..modelData.roleName
+	if not TFFileUtil:existFile(filePath) then
+		Box("can not find model file = "..filePath)
+		Bugly:ReportLuaException("can not find model file: ========================= " .. filePath)
+		if isShowText then
+			modelId = 210101
+		else
+			modelId = 410104
+		end
+		modelData = self:getModelInfo(modelId)
+	end
+
 	local isUseLive3 = false
 	if modelData.type == 1 then
 		isUseLive3 = true

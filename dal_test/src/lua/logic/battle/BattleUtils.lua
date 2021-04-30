@@ -1074,9 +1074,8 @@ end
 function BattleUtils.playEffect(res,bLoop,gain)
     
     battleController.hitMusicNum = battleController.hitMusicNum or {}
-    if battleController.hitMusicNum[res] and battleController.hitMusicNum[res] > 1 then return end
-    battleController.hitMusicNum[res] = battleController.hitMusicNum[res] or 0
-    battleController.hitMusicNum[res] = battleController.hitMusicNum[res] + 1
+    if battleController.hitMusicNum[res] then return end
+    battleController.hitMusicNum[res] = true
     if bLoop == nil then
         bLoop = false
     end

@@ -35,6 +35,7 @@ local eMoveType  =
     Target   = 2, --目标位移
     Target_Shadow   = 3, --目标影子位移
     Map_Center  = 4,  --地图中央位移
+    Pnchange_Dir = 5, --摇杆位移固定朝向
 }
 
 
@@ -252,7 +253,9 @@ function Skill:handlLimitTime( time )
         local lastPercent = self.nLimitPercent
         self.nLimitPercent = math.floor(self.nLimitTime/self.skillCfg.limitTime*100)
         if lastPercent - self.nLimitPercent > 0 then
-            EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE,self)
+            if self:isManual(true) then
+                EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE,self)
+            end
         end
     elseif self.skillCfg.limitTime and self.skillCfg.limitTime > 0 then
         self.nLimitTime = nil
@@ -924,7 +927,7 @@ function Skill:handlMoveEvent(pramN)
                 end
             end
            
-        elseif moveType == eMoveType.Free then --摇杆控制位移
+        elseif moveType == eMoveType.Free or  moveType == eMoveType.Pnchange_Dir then --摇杆控制位移
 
         elseif moveType == eMoveType.Target then --目标位置位移
             local target = self:selectTarget()
@@ -1246,7 +1249,7 @@ end
 function Skill:autoMove(time)
     if self.bActionMove  then 
         if self.actionData then
-            if self.actionData.moveType == eMoveType.Free then
+            if self.actionData.moveType == eMoveType.Free or self.actionData.moveType == eMoveType.Pnchange_Dir then
                 local moveSpeed = self.actionData.moveSpeed
                 if moveSpeed ~= 0 then
                     local vector = self.hero:getRokeVector() 

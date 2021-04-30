@@ -138,7 +138,7 @@ function CollectMedalView:updateInfoPage(filtInfo)
 			local isunclock = CollectDataMgr:isCollectItemExist(medalInfo.collecttype,medalInfo.id)
 			itemCard:getChildByName("Image_lock"):setVisible(not isunclock)
 			local medalCfg = CollectDataMgr:getMedalCfg(medalInfo.id)
-			itemCard:getChildByName("Image_medal"):setTexture(medalCfg.icon)
+			itemCard:getChildByName("Image_medal"):setTexture(medalCfg.showicon)
 			local scaleRate = medalCfg.size[1] or 100
 			itemCard:getChildByName("Image_medal"):setScale(scaleRate / 100)
 			itemCard:getChildByName("Label_medal_name"):setTextById(medalCfg.name)

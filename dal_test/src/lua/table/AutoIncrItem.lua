@@ -34,7 +34,7 @@ return {
         id = 3,
         incrCount  = 2,
         extIncrCount = 2,
-        extCondition = "{\"holdHero\" : 112401}",
+        extCondition = "{\"holdHero\" : 110313}",
         endTime = "2021-5-16 23:59:59",
         interval  = 86400,
         initInterval  = 0,

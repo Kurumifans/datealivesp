@@ -72,6 +72,9 @@ end
 function BingKaiBlessView:refreshGridView()
     self.gridView:AsyncUpdateItem(self.itemIds, function (item, itemId, idx)
         local itemInfo = ActivityDataMgr2:getItemInfo(self.activityInfo.activityType, itemId)
+        if not itemInfo then
+            return
+        end
         local status = ActivityDataMgr2:getProgressInfo(self.activityInfo.activityType, itemId).status
         local isCanBuy, remainCount = ActivityDataMgr2:getRemainBuyCount(self.activityInfo.activityType, itemId)
 

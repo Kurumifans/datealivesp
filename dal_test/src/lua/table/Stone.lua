@@ -22307,7 +22307,7 @@ return {
         des = "1130301",
     },
     [1334131] = {
-        skillIcon = "icon/skill/10313_skillB2.png",
+        skillIcon = "icon/skill/10313_skillC.png",
         superType = 43,
         baseSkill = 30031,
         combatPower = 10,
@@ -22633,7 +22633,7 @@ return {
         des = "1130302",
     },
     [1334141] = {
-        skillIcon = "icon/skill/10313_skillC.png",
+        skillIcon = "icon/skill/10313_skillE.png",
         superType = 43,
         baseSkill = 30041,
         combatPower = 10,
@@ -24698,7 +24698,7 @@ return {
         des = "1130305",
     },
     [1334231] = {
-        skillIcon = "icon/skill/10313_skillB2.png",
+        skillIcon = "icon/skill/10313_skillC.png",
         superType = 43,
         baseSkill = 30032,
         combatPower = 20,
@@ -24932,7 +24932,7 @@ return {
         des = "1130306",
     },
     [1334241] = {
-        skillIcon = "icon/skill/10313_skillC.png",
+        skillIcon = "icon/skill/10313_skillE.png",
         superType = 43,
         baseSkill = 30042,
         combatPower = 20,
@@ -26683,7 +26683,7 @@ return {
         des = "1130078",
     },
     [1434631] = {
-        skillIcon = "icon/skill/10313_skillB2.png",
+        skillIcon = "icon/skill/10313_skillC.png",
         superType = 44,
         baseSkill = 0,
         combatPower = 0,
@@ -26764,7 +26764,7 @@ return {
         des = "1130704",
     },
     [1334331] = {
-        skillIcon = "icon/skill/10313_skillB2.png",
+        skillIcon = "icon/skill/10313_skillC.png",
         superType = 43,
         baseSkill = 30033,
         combatPower = 40,
@@ -26949,7 +26949,7 @@ return {
         des = "1130079",
     },
     [1434641] = {
-        skillIcon = "icon/skill/10313_skillC.png",
+        skillIcon = "icon/skill/10313_skillE.png",
         superType = 44,
         baseSkill = 0,
         combatPower = 0,
@@ -26992,7 +26992,7 @@ return {
         des = "1140404",
     },
     [1334341] = {
-        skillIcon = "icon/skill/10313_skillC.png",
+        skillIcon = "icon/skill/10313_skillE.png",
         superType = 43,
         baseSkill = 30043,
         combatPower = 40,
@@ -28999,7 +28999,7 @@ return {
         des = "1130082",
     },
     [1434731] = {
-        skillIcon = "icon/skill/10313_skillB2.png",
+        skillIcon = "icon/skill/10313_skillC.png",
         superType = 44,
         baseSkill = 0,
         combatPower = 0,
@@ -29080,7 +29080,7 @@ return {
         des = "1130708",
     },
     [1334431] = {
-        skillIcon = "icon/skill/10313_skillB2.png",
+        skillIcon = "icon/skill/10313_skillC.png",
         superType = 43,
         baseSkill = 30034,
         combatPower = 70,
@@ -29257,7 +29257,7 @@ return {
         des = "1130083",
     },
     [1434741] = {
-        skillIcon = "icon/skill/10313_skillC.png",
+        skillIcon = "icon/skill/10313_skillE.png",
         superType = 44,
         baseSkill = 0,
         combatPower = 0,
@@ -29338,7 +29338,7 @@ return {
         des = "1130533",
     },
     [1334441] = {
-        skillIcon = "icon/skill/10313_skillC.png",
+        skillIcon = "icon/skill/10313_skillE.png",
         superType = 43,
         baseSkill = 30044,
         combatPower = 70,
@@ -31707,7 +31707,7 @@ return {
         des = "1130712",
     },
     [1334531] = {
-        skillIcon = "icon/skill/10313_skillB2.png",
+        skillIcon = "icon/skill/10313_skillC.png",
         superType = 43,
         baseSkill = 30035,
         combatPower = 120,
@@ -31958,7 +31958,7 @@ return {
         des = "1130537",
     },
     [1334541] = {
-        skillIcon = "icon/skill/10313_skillC.png",
+        skillIcon = "icon/skill/10313_skillE.png",
         superType = 43,
         baseSkill = 30045,
         combatPower = 120,
@@ -34611,7 +34611,7 @@ return {
         des = "1130716",
     },
     [1334631] = {
-        skillIcon = "icon/skill/10313_skillB2.png",
+        skillIcon = "icon/skill/10313_skillC.png",
         superType = 43,
         baseSkill = 30036,
         combatPower = 200,
@@ -34870,7 +34870,7 @@ return {
         des = "1130541",
     },
     [1334641] = {
-        skillIcon = "icon/skill/10313_skillC.png",
+        skillIcon = "icon/skill/10313_skillE.png",
         superType = 43,
         baseSkill = 30046,
         combatPower = 200,
@@ -37677,7 +37677,7 @@ return {
         des = "1130720",
     },
     [1334731] = {
-        skillIcon = "icon/skill/10313_skillB2.png",
+        skillIcon = "icon/skill/10313_skillC.png",
         superType = 43,
         baseSkill = 30037,
         combatPower = 300,
@@ -37984,7 +37984,7 @@ return {
         des = "1130545",
     },
     [1334741] = {
-        skillIcon = "icon/skill/10313_skillC.png",
+        skillIcon = "icon/skill/10313_skillE.png",
         superType = 43,
         baseSkill = 30047,
         combatPower = 300,
@@ -50995,7 +50995,7 @@ return {
         des = "1130448",
     },
     [1434541] = {
-        skillIcon = "icon/skill/10313_skillC.png",
+        skillIcon = "icon/skill/10313_skillE.png",
         superType = 44,
         baseSkill = 0,
         combatPower = 0,
@@ -51169,7 +51169,7 @@ return {
         des = "1140022",
     },
     [1434531] = {
-        skillIcon = "icon/skill/10313_skillB2.png",
+        skillIcon = "icon/skill/10313_skillC.png",
         superType = 44,
         baseSkill = 0,
         combatPower = 0,

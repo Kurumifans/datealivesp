@@ -157,6 +157,7 @@ function Hero:ctor(data,team,host)
     self.pathList  = {}
     --移动状态
     self.moveState = -1
+
     --浮空保护时间
     self.nFloatTime = 0
     --记录和动作相关的音效，动作切换时停止未播放完的音效
@@ -4321,7 +4322,8 @@ function Hero:handlMove(time)
             if self.skill then
                 local skillCfg = self.skill.skillCfg
                 local skillActionCfg = BattleDataMgr:getActionData(skillCfg.first, self:getAngleDatas())
-                if skillActionCfg.moveType and skillActionCfg.moveType == 1 then
+                if skillActionCfg.moveType and skillActionCfg.moveType == 5 then
+                    
                 else
                     if  flag > 0 then 
                         self:setDir(eDir.RIGHT)
@@ -4818,7 +4820,7 @@ function Hero:pathMove(time)
         if self.skill then
             local skillCfg = self.skill.skillCfg
             local skillActionCfg = BattleDataMgr:getActionData(skillCfg.first, self:getAngleDatas())
-            if skillActionCfg.moveType and skillActionCfg.moveType == 1 then
+            if skillActionCfg.moveType and skillActionCfg.moveType == 5 then
             else
                 if  flag > 0 then 
                     self:setDir(eDir.RIGHT)
@@ -6461,7 +6463,7 @@ function Hero:fix_boss(heroId, posX , posY , dir , hp , sp)
     local curHp = self:getHp()
     if curHp > 0 and hp then
         local lose = hp - curHp
-        if  lose < 0 then
+        if  lose < 0 and lose > -1000000 then
             self:setValue(eAttrType.ATTR_NOW_HP,hp,true)
             if battleController.isShowFixHurt() then
                 self:showDamage(lose) --显示掉血
