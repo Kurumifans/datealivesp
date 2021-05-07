@@ -43,6 +43,7 @@ local StateMachine = import(".StateMachine")
 local AIAgent = import(".AIAgent")
 local CountDown  = import(".CountDown")
 local bufferMgr = BattleMgr.getBufferMgr()
+local Debug = print
 local __print = print
 local _print = BattleUtils.print
 local print  = BattleUtils.print
@@ -980,9 +981,8 @@ function Hero:onAStateClear(state)
             end
         end
     elseif state == eAState.E_STATE_84 then
-        self:doEvent(eStateEvent.BH_STAND)
-        if self.aiAgent then
-            self.aiAgent:next()
+        if self:doEvent(eStateEvent.BH_STAND) then
+            self:endToAI()
         end
     end
 end
@@ -1008,7 +1008,6 @@ function Hero:onAStateDel(state,objectID)
     elseif state == eAState.E_JING_ZHI then --静止
         self:onStateRemoveTrigger(state)
     elseif state == eAState.E_STATE_84 then --静止
-        self.actor:playStand() 
         self:onStateRemoveTrigger(state)
     elseif state == eAState.E_MEI_HUO then --魅惑
         self:onStateRemoveTrigger(state)
@@ -1811,7 +1810,17 @@ function Hero:doEvent(eventName, ...)
     end
     if eventName ==  eStateEvent.BH_STAND then
         if self:isInAir() then
-            self:castByType(eSkillType.DOWN)
+            if not self:castByType(eSkillType.DOWN) then
+                local posy       = self.position3D.y - self.position3D.z
+                local time       = math.abs(posy/300)
+                local offsetPos  = me.Vertex3F(0, 0, posy)
+                local hurtAction = ActionMgr.createMoveAction()
+                hurtAction:start(self,time,offsetPos,function ()
+                        self:_doEvent(eStateEvent.BH_STAND)
+                        self:endToAI()
+                    end)
+                return false
+            end
             return false
         end
     end

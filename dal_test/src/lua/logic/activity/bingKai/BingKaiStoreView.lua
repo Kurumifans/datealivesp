@@ -86,6 +86,9 @@ function BingKaiStoreView:refreshStoreView()
 
     self.gridGoodsView:AsyncUpdateItem(goodsData, function(item, itemId, idx)
         local itemInfo = ActivityDataMgr2:getItemInfo(self.activityInfo.activityType, itemId)
+        if not itemInfo then
+            return
+        end
         local Label_countLimit = TFDirector:getChildByPath(item, "Label_countLimit")
         local img_descBg = TFDirector:getChildByPath(item, "img_descBg")
         local lab_desc = TFDirector:getChildByPath(item, "lab_desc")

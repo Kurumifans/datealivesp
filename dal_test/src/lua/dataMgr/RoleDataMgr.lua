@@ -786,7 +786,10 @@ function RoleDataMgr:setUseId(roleId)
 end
 
 function RoleDataMgr:getUseId()
-    return self.useId;
+    if self.useId and self.useId > 0 then
+        return self.useId
+    end
+    return 101
 end
 
 --判断角色看板是否使用中(兼容多人看板)
@@ -894,7 +897,13 @@ function RoleDataMgr:setCurId(roleId)
 end
 
 function RoleDataMgr:getCurId()
-    return self.curId or self.useId
+    if self.curId and self.curId > 0 then
+        return self.curId
+    end
+    if self.useId and self.useId > 0 then
+        return self.useId
+    end
+    return 101
 end
 
 function RoleDataMgr:getRoleCount()

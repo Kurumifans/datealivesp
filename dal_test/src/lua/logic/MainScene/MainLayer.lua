@@ -2180,7 +2180,7 @@ function MainLayer:updateLive2d()
         self.elvesNpc = elvesNpcTable.live2d
     end
 
-    local offPos = dressData.offSet
+    local offPos = dressData and dressData.offSet
 
     if offPos and offPos.x and offPos.y then
         self.elvesNpc:setPosition(ccp(410,-100) + ccp(offPos.x,offPos.y))
@@ -3404,6 +3404,7 @@ function MainLayer:initNpc()
                 self.Image_switch_role:stopAllActions()
                 RoleSwitchDataMgr:setFirstFlag(false)
                 RoleSwitchDataMgr:setNextRole()
+                self:updateLive2d()
             else
                 self:updateLive2d()
             end

@@ -40,6 +40,7 @@ return {
         },
         bossLevel = 37,
         dropShow = {
+            [500002] = 50,
             [580195] = 1,
         },
         roleSize = 0.41,
@@ -335,6 +336,7 @@ return {
         },
         bossLevel = 22,
         dropShow = {
+            [500002] = 20,
             [580180] = 1,
         },
         roleSize = 0.4,
@@ -480,6 +482,7 @@ return {
         },
         bossLevel = 38,
         dropShow = {
+            [500002] = 60,
             [580330] = 1,
         },
         roleSize = 0.41,
@@ -775,6 +778,7 @@ return {
         },
         bossLevel = 23,
         dropShow = {
+            [500002] = 20,
             [580181] = 1,
         },
         roleSize = 0.37,
@@ -920,6 +924,7 @@ return {
         },
         bossLevel = 39,
         dropShow = {
+            [500002] = 70,
             [580331] = 1,
         },
         roleSize = 0.34,
@@ -1215,6 +1220,7 @@ return {
         },
         bossLevel = 24,
         dropShow = {
+            [500002] = 20,
             [580182] = 1,
         },
         roleSize = 0.47,
@@ -1360,6 +1366,7 @@ return {
         },
         bossLevel = 40,
         dropShow = {
+            [500002] = 70,
             [580332] = 1,
         },
         roleSize = 0.37,
@@ -1655,6 +1662,7 @@ return {
         },
         bossLevel = 25,
         dropShow = {
+            [500002] = 20,
             [580183] = 1,
         },
         roleSize = 0.41,
@@ -1948,6 +1956,7 @@ return {
         },
         bossLevel = 26,
         dropShow = {
+            [500002] = 30,
             [580184] = 1,
         },
         roleSize = 0.37,
@@ -2096,6 +2105,7 @@ return {
         },
         bossLevel = 11,
         dropShow = {
+            [500002] = 10,
             [580119] = 1,
         },
         roleSize = 0.37,
@@ -2241,6 +2251,7 @@ return {
         },
         bossLevel = 27,
         dropShow = {
+            [500002] = 30,
             [580185] = 1,
         },
         roleSize = 0.4,
@@ -2389,6 +2400,7 @@ return {
         },
         bossLevel = 12,
         dropShow = {
+            [500002] = 10,
             [580170] = 1,
         },
         roleSize = 0.4,
@@ -2534,6 +2546,7 @@ return {
         },
         bossLevel = 28,
         dropShow = {
+            [500002] = 30,
             [580186] = 1,
         },
         roleSize = 0.37,
@@ -2682,6 +2695,7 @@ return {
         },
         bossLevel = 13,
         dropShow = {
+            [500002] = 10,
             [580171] = 1,
         },
         roleSize = 0.37,
@@ -2827,6 +2841,7 @@ return {
         },
         bossLevel = 29,
         dropShow = {
+            [500002] = 30,
             [580187] = 1,
         },
         roleSize = 0.47,
@@ -2975,6 +2990,7 @@ return {
         },
         bossLevel = 14,
         dropShow = {
+            [500002] = 10,
             [580172] = 1,
         },
         roleSize = 0.47,
@@ -3120,6 +3136,7 @@ return {
         },
         bossLevel = 30,
         dropShow = {
+            [500002] = 30,
             [580188] = 1,
         },
         roleSize = 0.41,
@@ -3268,6 +3285,7 @@ return {
         },
         bossLevel = 15,
         dropShow = {
+            [500002] = 10,
             [580173] = 1,
         },
         roleSize = 0.41,
@@ -3413,6 +3431,7 @@ return {
         },
         bossLevel = 31,
         dropShow = {
+            [500002] = 40,
             [580189] = 1,
         },
         roleSize = 0.37,
@@ -3560,6 +3579,7 @@ return {
         },
         bossLevel = 16,
         dropShow = {
+            [500002] = 10,
             [580174] = 1,
         },
         roleSize = 0.37,
@@ -3705,6 +3725,7 @@ return {
         },
         bossLevel = 32,
         dropShow = {
+            [500002] = 40,
             [580190] = 1,
         },
         roleSize = 0.4,
@@ -4000,6 +4021,7 @@ return {
         },
         bossLevel = 17,
         dropShow = {
+            [500002] = 10,
             [580175] = 1,
         },
         roleSize = 0.4,
@@ -4145,6 +4167,7 @@ return {
         },
         bossLevel = 33,
         dropShow = {
+            [500002] = 40,
             [580191] = 1,
         },
         roleSize = 0.37,
@@ -4440,6 +4463,7 @@ return {
         },
         bossLevel = 18,
         dropShow = {
+            [500002] = 10,
             [580176] = 1,
         },
         roleSize = 0.37,
@@ -4585,6 +4609,7 @@ return {
         },
         bossLevel = 34,
         dropShow = {
+            [500002] = 40,
             [580192] = 1,
         },
         roleSize = 0.47,
@@ -4880,6 +4905,7 @@ return {
         },
         bossLevel = 19,
         dropShow = {
+            [500002] = 10,
             [580177] = 1,
         },
         roleSize = 0.47,
@@ -5025,6 +5051,7 @@ return {
         },
         bossLevel = 35,
         dropShow = {
+            [500002] = 40,
             [580193] = 1,
         },
         roleSize = 0.41,
@@ -5320,6 +5347,7 @@ return {
         },
         bossLevel = 20,
         dropShow = {
+            [500002] = 10,
             [580178] = 1,
         },
         roleSize = 0.41,
@@ -5465,6 +5493,7 @@ return {
         },
         bossLevel = 36,
         dropShow = {
+            [500002] = 50,
             [580194] = 1,
         },
         roleSize = 0.41,
@@ -5760,6 +5789,7 @@ return {
         },
         bossLevel = 21,
         dropShow = {
+            [500002] = 20,
             [580179] = 1,
         },
         roleSize = 0.37,
