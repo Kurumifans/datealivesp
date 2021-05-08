@@ -590,6 +590,13 @@ function Actor:update(dt)
         for i,v in ipairs(debug_attrs) do
             text= text..string.format("[%s:%s]",v,math.floor(srcProperty:getValue(v)))
         end
+        local states = self.hero.stateMgr.stateSign
+        text = text.."\nstate"
+        for k,v in pairs(states) do
+            if table.count(v) > 0 then
+                text = text.."-"..k
+            end
+        end
         if self.textAttrs then
             self.textAttrs:setText(text)
         end

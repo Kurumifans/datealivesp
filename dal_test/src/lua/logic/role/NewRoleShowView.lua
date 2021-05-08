@@ -1210,7 +1210,7 @@ function NewRoleShowView:updateRoleModel(modelId)
     if data and data.type and data.type == 2 then
         return    	
     end
-    self.model:playMoveRightIn(0.3)
+    --self.model:playMoveRightIn(0.3)
     --self.model:setZOrder(-1)
     --self.ui:timeOut(function()
     --    self.model:setZOrder(1)

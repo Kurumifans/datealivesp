@@ -1,32 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.44" lastVersion="3.4.43">
-  <f p=".nomedia/nomedia.txt" m="48d79413b4561591e1898f9fbcf3ec47" c="0" />
-  <f p="res/basic/levels/2_shengmingshu007.json" m="6168f3617f6a664f9537d1a31e652f2c" c="0" />
-  <f p="res/basic/ui/activity/activity_bg/007.png" m="04ff3990d98614da03806e6fe760978a" c="0" />
-  <f p="res/basic/ui/activity/activity_bg/jumpbutton7.png" m="241f053a526433ca4cd25d5c22e68b6f" c="0" />
-  <f p="src/lua/dataMgr/RoleDataMgr.lua" m="e954c7c71e2f3645db1337f714dce1d2" c="0" />
-  <f p="src/lua/logic/activity/bingKai/BingKaiStoreView.lua" m="01e881ee2fe3011a7ed634d822f57c87" c="0" />
-  <f p="src/lua/logic/battle/Hero.lua" m="ae523275dcf804846e4fc122a85b8aae" c="0" />
-  <f p="src/lua/logic/battle/Skill.lua" m="21bec7ed913331876e4706a3dce8bfc8" c="0" />
-  <f p="src/lua/logic/MainScene/MainLayer.lua" m="08e215592b4cae5c77ac404ae54217e6" c="0" />
-  <f p="src/lua/logic/supplyNew/RecommondView.lua" m="de502240ae8318a4e6e337762b1e30f8" c="0" />
-  <f p="src/lua/table/AngelSkillTree.lua" m="4cefd49e4435889b5eeae2394f7cb0ea" c="0" />
-  <f p="src/lua/table/Buffer.lua" m="3d3113abe63cdd39c3db2865d016f2f8" c="0" />
-  <f p="src/lua/table/BufferEffect.lua" m="15ff4b0c6228c12570097cfa68b2299c" c="0" />
-  <f p="src/lua/table/DiscreteData.lua" m="c0b6584188697c08b10da7923bf3c469" c="0" />
-  <f p="src/lua/table/Drop.lua" m="b935e4f72e66e621cadde464ebeed676" c="0" />
-  <f p="src/lua/table/DungeonChapter.lua" m="c4aab491291eaf565e68da9af84d5b13" c="0" />
-  <f p="src/lua/table/HuntingLevel.lua" m="ff8e1b97fb3e5d9eeb9125c37db9d7c7" c="0" />
-  <f p="src/lua/table/MainDialogue.lua" m="6d7691b5a41b8c5d7bc82f1a6d7701bf" c="0" />
-  <f p="src/lua/table/Monster.lua" m="087d8ca820518be47039078b9a34e23b" c="0" />
-  <f p="src/lua/table/NewBossChallenge.lua" m="93ea54b34fd26d6c9f283bf921c357fc" c="0" />
-  <f p="src/lua/table/ReturnNewble.lua" m="60ee3e85f89b214251c0f16f31d7b41e" c="0" />
-  <f p="src/lua/table/ReturnNewbleItem.lua" m="0837cbacafd1c14cdee0e0878bd4321c" c="0" />
-  <f p="src/lua/table/RoleDescribe.lua" m="81f39ecfa1978583488ca4d6e9334626" c="0" />
-  <f p="src/lua/table/String.lua" m="678f3ac7081439b0436137d648c614ee" c="0" />
-  <f p="src/lua/uiconfig/activity/jumpActivityModel.lua" m="b8ebb7e488c77005228f181dde9e8ee2" c="0" />
-  <f p="src/lua/uiconfig/battle/battleView.lua" m="f20fdc4720bbb8c87a95b1c46e8ac4c0" c="0" />
-  <f p="res/basic/fightmap/shengmingshu07/1.png" m="2e4629f06e9302666ad0c67d8b98bdd3" />
-  <f p="res/basic/fightmap/shengmingshu07/2.png" m="05c73b3e611bf243a50d45fff26d51d1" />
-  <f p="res/basic/fightmap/shengmingshu07/3.png" m="e4454d9bc8d578630ae3820ed71a5898" />
+<files version="3.4.46" lastVersion="3.4.44">
+  <f p=".nomedia/nomedia.txt" m="ca3d8f69848094d903331f376f247226" c="0" />
+  <f p="res/basic/video/cg_main_jinglingzhezhijianglin.mp4" m="7ec688ce560ffe368efc7e656b5eafe6" c="0" />
+  <f p="src/lua/logic/battle/Actor.lua" m="f88b2e322be01b2f870dd757418a3e77" c="0" />
+  <f p="src/lua/logic/common/ElvesNpc.lua" m="3bcb33b147a04a0f96e858ccd0a59ac6" c="0" />
+  <f p="src/lua/logic/dating/NewDatingDayView.lua" m="04427dde0d037c6d3de6d97cb8eee788" c="0" />
+  <f p="src/lua/logic/role/NewRoleShowView.lua" m="aedc532a55d20f22a7f958bd59cae1fd" c="0" />
+  <f p="src/lua/table/AngelSkillTree.lua" m="7981e9e007e30803a70e3fd46a0fd809" c="0" />
 </files>

@@ -551,6 +551,7 @@ end
 function TTFLive2D:stopPlayLoopAction()
     if self.timerID_ then
     	self:stopAllActions()
+    	TFDirector:stopTimer(self.timerID_)
         TFDirector:removeTimer(self.timerID_)
         self.timerID_ = nil
     end
@@ -743,60 +744,35 @@ function TTFLive2D:playClipOut()
         end,0)
 end
 
-local TFLive2dTimer = {};
 function TTFLive2D:addRenderTexture()
-	local renderSize = self.getSize and self:getSize() or {width = 500,height = 300}
-	local tx = CCRenderTexture:create(renderSize.width,renderSize.height)
-	tx:begin();
-	self:visit();
-	tx:endToLua();
-	self:hide()
-
-	local sp = Sprite:createWithTexture(tx:getSprite():getTexture());
 	local size = self:getSize();
+	local tx = CCRenderTexture:create(size.width,size.height)
+	local sp = Sprite:createWithTexture(tx:getSprite():getTexture());
 	if self.type == 0 then
 		sp:Pos(1136 / 2,size.height / 2)
 	else
 		sp:Pos(size.width / 2,size.height / 2)
 	end
-
 	self:getParent():addChild(sp,self:getZOrder());
+	self:hide()
 	sp:setFlipY(true)
-
-	local function delayToGame(dt)
-
-		if tolua.isnull(self) then
-			for i = #TFLive2dTimer,1,-1 do
-				local tb = TFLive2dTimer[i]
-				if tolua.isnull(tb.obj) then
-					TFDirector:removeTimer(tb.timer)
-					table.remove(TFLive2dTimer,i)
-				end
-			end
-	    	return;
-		end
-		if not self.timer_ then
+	sp:timeOut(function(node)
+		if tolua.isnull(self) or not node.setTexture then
 			return
 		end
-		self:stopTimer()
+		local size = self:getSize()
+		local tx = CCRenderTexture:create(size.width,size.height)
 		self:show()
-		local tx = CCRenderTexture:create(self:getSize().width,self:getSize().height)
 		tx:begin();
 		self:visit();
 		tx:endToLua();
 		self:hide()
-
-		sp:setTexture(tx:getSprite():getTexture());
-		--self:stopTimer()
-	end
-	self:stopTimer()
-	self.timer_ = TFDirector:addTimer(10, 1, nil, delayToGame)
-	table.insert(TFLive2dTimer,{ obj = self, timer_ = self.timer_})
+		node:setTexture(tx:getSprite():getTexture())
+	end,0.02)
 	return sp
 end
 
 function TTFLive2D:showGray(time,dTime)
-	self:stopTimer()
 	if self.sp then
 		self.sp:stopAllActions()
 		self.sp:RemoveSelf()
@@ -810,8 +786,7 @@ function TTFLive2D:showGray(time,dTime)
 		sp:setOpacity(0)
 		sp:fadeIn(dTime)
 	end
-	sp:timeOut(function()
-		self:stopTimer()
+	self:timeOut(function()
 		self:show()
 		sp:RemoveSelf()
 		self.sp = nil
@@ -819,21 +794,20 @@ function TTFLive2D:showGray(time,dTime)
 end
 
 function TTFLive2D:stopTimer()
-	if self.timer_ then
-	    TFDirector:removeTimer(self.timer_)
-	    self.timer_ = nil
-	    for k,v in pairs(TFLive2dTimer) do
-	    	if self == v.obj then
-	    		table.remove(TFLive2dTimer,k)
-	    		break;
-	    	end
-	    end
+	if self.timerID_ then
+		TFDirector:stopTimer(self.timerID_)
+        TFDirector:removeTimer(self.timerID_)
+        self.timerID_ = nil
+    end
+    if self.actionEventtimer_ then
+		TFDirector:stopTimer(self.actionEventtimer_)
+	    TFDirector:removeTimer(self.actionEventtimer_)
+	    self.actionEventtimer_ = nil
 	end
 end
 
 function TTFLive2D:playOut(time)
 
-	self:stopTimer()
 	if self.sp then
 		self.sp:stopAllActions()
 		self.sp:RemoveSelf()
@@ -843,8 +817,7 @@ function TTFLive2D:playOut(time)
 	self.sp = sp
 	self:hide()
 	sp:fadeOut(time)
-	sp:timeOut(function()
-		self:stopTimer()
+	self:timeOut(function()
 		sp:RemoveSelf()
 		self.sp = nil
 		end,time)
@@ -854,7 +827,6 @@ end
 
 
 function TTFLive2D:playIn(time)
-	self:stopTimer()
 	self:hide()
 	if self.sp then
 		self.sp:stopAllActions()
@@ -866,8 +838,7 @@ function TTFLive2D:playIn(time)
 	sp:setOpacity(0)
 	sp:fadeIn(time)
 
-	sp:timeOut(function()
-		self:stopTimer()
+	self:timeOut(function()
 		self:show()
 		sp:RemoveSelf()
 		self.sp = nil
@@ -905,7 +876,6 @@ function TTFLive2D:playMoveDownOut(time)
 end
 
 function TTFLive2D:stopRenderAction(isShow)
-	self:stopTimer()
 	if self.sp then
 		self.sp:stopAllActions()
 		self.sp:RemoveSelf()
