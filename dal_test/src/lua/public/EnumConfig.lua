@@ -48,7 +48,8 @@ EC_SItemType = {
     REVERSAL = 500057,           -- 十香反转值
     LOVER = 500058,              -- 十香亲密度   
     TokenMoney = 500096,           -- 代币
-	SZDY_TOUZI = 500112				-- 时之赌约骰子
+    SZDY_TOUZI = 500112,				-- 时之赌约骰子
+    BATTLE_LV_REVIEW = 500141,      -- 战令回顾经验
 }
 
 -- 副本难度
@@ -1266,6 +1267,7 @@ EC_TaskPage = {
     HONOR = 4,    -- 荣誉任务
     ACTIVITY = 5,    -- 活动任务
     TRAININIG_TASK = 6,    -- 特训任务
+    TRAININIG_Review = 7, -- 战令回顾
 }
 
 -- 任务类型
@@ -1758,6 +1760,7 @@ EC_ActivityType2 = {
     BINGKAI_STORE = 90,          -- 冰铠商店
     BINGKAI_TASK = 91,          -- 冰铠任务
     RETURN_GIFT = 100,           -- 赠送返利活动
+    BATTLE_LV_REVIEW = 1028,     -- 战令回顾
 }
 
 EC_Activity_CHRISTMAS_Subtype = {

@@ -173,6 +173,13 @@ function ActivityDataMgr:init()
 
     -- 赠送返利
     TFDirector:addProto(s2c.ACTIVITY2_REQ_GET_ASSEMBLY_INFO, self, self.onRecvReturnGiftData)
+
+    -- 战令回顾
+    TFDirector:addProto(s2c.ACTIVITY2_RESP_NEW_GET_WAR_ORDER_AWARD, self, self.onGetWarOrderAward)
+    TFDirector:addProto(s2c.ACTIVITY2_RESP_NEW_GET_WAR_ORDER_INFO, self, self.onGetWarOrderReViewInfo)
+    TFDirector:addProto(s2c.ACTIVITY2_RESP_NEW_UWAR_ORDER_LEVEL, self, self.onUpWarOrderLevel)
+    TFDirector:addProto(s2c.ACTIVITY2_RESP_CHOICE_NEW_WAR, self, self.onRecvChoiceWar)
+
     
     self.activityInfo_ = {}
     self.activityInfoMap_ = {}
@@ -181,6 +188,7 @@ function ActivityDataMgr:init()
     self.activityCfgDataMap_ = {}
     self.assistActivitys_ = {9990, 9991, 9992, 9993, 9994, 9995}
     self.warOrderInfo_ = nil
+    self.warOrderReviewInfo_ = nil
     self.cdTime = 60
     self.nextTime = 0
 	self:initGPVariable()
@@ -192,6 +200,7 @@ function ActivityDataMgr:reset()
     self.itemInfoMap_ = {}
     self.progressInfoMap_ = {}
     self.warOrderInfo_ = nil
+    self.warOrderReviewInfo_ = nil
     self.saveStr = nil
     self.newYearFubenInfo = nil
     self.callbackInfo = nil
@@ -214,6 +223,7 @@ function ActivityDataMgr:onLogin()
     TFDirector:send(c2s.ACTIVITY_REQ_GET_WAR_ORDER_INFO, {})
     TFDirector:send(c2s.ACTIVITY_NEW_REQ_YEAR_ACTIVITY_CONFIG, {})
     self:Send_getGhostInfo()
+    -- self:SEND_ACTIVITY2_REQ_NEW_GET_WAR_ORDER_INFO()
     -- TFDirector:send(c2s.ACTIVITY_NEW_REQ_YEAR_ACTIVITY_CONFIG, {})
     return {s2c.ACTIVITY_NEW_RESP_ACTIVITYS, s2c.ACTIVITY_NEW_RESP_ACTIVITY_ITEMS, s2c.ACTIVITY_NEW_RESP_ACTIVITY_PROGRESS}
 end
@@ -277,6 +287,7 @@ function ActivityDataMgr:getActivityInfo(id, activityShowType)
             EC_ActivityType2.CHRISTMAS_SIGN,
             EC_ActivityType2.DUANWU_2,
             EC_ActivityType2.TRAINING,
+            EC_ActivityType2.BATTLE_LV_REVIEW,
             --EC_ActivityType2.ONLINE_SCORE_REWARD,   --在线积分活动
         }
         local activitys = {}
@@ -1616,6 +1627,8 @@ function ActivityDataMgr:actionActivtyPush( activitys )
                 MaokaActivityMgr:onActivityAdd()
             elseif v.activityType == EC_ActivityType2.NEWYEAR_BUILDREPAIR then
                 TFDirector:send(c2s.ACTIVITY2_REQ_REPAIR_DATA,{})
+            elseif v.activityType == EC_ActivityType2.BATTLE_LV_REVIEW then
+                self:SEND_ACTIVITY2_REQ_NEW_GET_WAR_ORDER_INFO()
             end
         end
     end
@@ -2036,28 +2049,98 @@ function ActivityDataMgr:getWarOrderAcrivityInfo()
     end
 end
 
-function ActivityDataMgr:getWarOrderLevel()
-    return self.warOrderInfo_ and self.warOrderInfo_.level or 0
-end
-
-function ActivityDataMgr:getWarOrderMaxLevel()
-    if not self:getWarOrderAcrivityInfo() then
-        return 0
+function ActivityDataMgr:isWarOrderReviewActivityOpen()
+    local activityInfo = self:getWarOrderReviewAcrivityInfo()
+    if activityInfo then
+        return true
     end
-    return self:getWarOrderAcrivityInfo().extendData.maxLevel
+    return false
 end
 
-function ActivityDataMgr:getWarOrderUpLevelCost()
-    return self:getWarOrderAcrivityInfo().extendData.levelCost
+function ActivityDataMgr:getIsOpenAllDress()
+    local activityInfo = self:getWarOrderAcrivityInfo()
+    if not activityInfo then
+        return true
+    end
+    local dresses = activityInfo.extendData.dress
+    for _, dressId in pairs(dresses or {}) do
+        local isSuitExist = GoodsDataMgr:currencyIsEnough(dressId, 1)
+        if not isSuitExist then
+            return false
+        end
+    end
+    return true
 end
 
-function ActivityDataMgr:getWarOrderExp()
-    return self.warOrderInfo_ and self.warOrderInfo_.exp or 0
+function ActivityDataMgr:getWarOrderReviewAcrivityInfo()
+    for i, v in ipairs(self.activityInfo_) do
+        if v.activityType == EC_ActivityType2.BATTLE_LV_REVIEW then
+            return v
+        end
+    end
 end
 
-function ActivityDataMgr:checkWarOrderItemState(propId)
-    if self.warOrderInfo_ then
-        for i,v in ipairs(self.warOrderInfo_.propList) do
+function ActivityDataMgr:getWarOrderReviewAcrivityId()
+    if self:getWarOrderReviewAcrivityInfo() then
+        return self:getWarOrderReviewAcrivityInfo().id
+    end
+    return 130023
+end
+
+function ActivityDataMgr:getWarOrderLevel(type)
+    type = type or EC_TaskPage.TRAININIG
+    if type == EC_TaskPage.TRAININIG then
+        return self.warOrderInfo_ and self.warOrderInfo_.level or 0
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        return self.warOrderReviewInfo_ and self.warOrderReviewInfo_.level or 0
+    end
+end
+
+function ActivityDataMgr:getWarOrderMaxLevel(type)
+    type = type or EC_TaskPage.TRAININIG
+    if type == EC_TaskPage.TRAININIG then
+        if not self:getWarOrderAcrivityInfo() then
+            return 0
+        end
+        return self:getWarOrderAcrivityInfo().extendData.maxLevel
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        if not self:getWarOrderReviewAcrivityInfo() then
+            return 0
+        end
+        return self:getWarOrderReviewAcrivityInfo().extendData.maxLevel
+    end
+    
+end
+
+function ActivityDataMgr:getWarOrderUpLevelCost(type)
+    type = type or EC_TaskPage.TRAININIG
+    if type == EC_TaskPage.TRAININIG then
+        return self:getWarOrderAcrivityInfo().extendData.levelCost
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        return self:getWarOrderReviewAcrivityInfo().extendData.levelCost
+    end
+end
+
+function ActivityDataMgr:getWarOrderExp(type)
+    type = type or EC_TaskPage.TRAININIG
+    if type == EC_TaskPage.TRAININIG then
+        return self.warOrderInfo_ and self.warOrderInfo_.exp or 0
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        return self.warOrderReviewInfo_ and self.warOrderReviewInfo_.exp or 0
+    end
+    
+end
+
+function ActivityDataMgr:checkWarOrderItemState(propId, type)
+    type = type or EC_TaskPage.TRAININIG
+    local _data
+    if type == EC_TaskPage.TRAININIG then
+        _data = self.warOrderInfo_
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        _data = self.warOrderReviewInfo_
+    end
+    if _data then
+        for i,v in ipairs(_data.propList) do
             if propId == v then
                 return 2
             end
@@ -2081,8 +2164,14 @@ function ActivityDataMgr:checkWarOrderTaskRedPoint()
     return false
 end
 
-function ActivityDataMgr:getWarOrderChargeList()
-    local activityInfo = self:getWarOrderAcrivityInfo()
+function ActivityDataMgr:getWarOrderChargeList(type)
+    local activityInfo = nil
+    type = type or EC_TaskPage.TRAININIG
+    if type == EC_TaskPage.TRAININIG then
+        activityInfo = self:getWarOrderAcrivityInfo()
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        activityInfo = self:getWarOrderReviewAcrivityInfo()
+    end
     if not activityInfo then
         return {}
     end
@@ -2090,8 +2179,15 @@ function ActivityDataMgr:getWarOrderChargeList()
     return rechargeList
 end
 
-function ActivityDataMgr:getWarOrderChargeState()
-    local activityInfo = self:getWarOrderAcrivityInfo()
+function ActivityDataMgr:getWarOrderChargeState(type)
+    local activityInfo = nil
+    type = type or EC_TaskPage.TRAININIG
+    if type == EC_TaskPage.TRAININIG then
+        activityInfo = self:getWarOrderAcrivityInfo()
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        activityInfo = self:getWarOrderReviewAcrivityInfo()
+    end
+     
     if not activityInfo then
         return 0
     end
@@ -3649,6 +3745,42 @@ function ActivityDataMgr:onRecvReturnGiftData(event)
     local data = event.data
     if not data then return end
     EventMgr:dispatchEvent(EV_RETURN_GIFT_DATA, data)
+end
+
+-- 战令回顾
+-- 领取回顾战令奖励
+function ActivityDataMgr:SEND_ACTIVITY2_REQ_NEW_GET_WAR_ORDER_AWARD(activityId, propId)
+    TFDirector:send(c2s.ACTIVITY2_REQ_NEW_GET_WAR_ORDER_AWARD, {activityId, propId})
+end
+
+-- 回顾战令信息
+function ActivityDataMgr:SEND_ACTIVITY2_REQ_NEW_GET_WAR_ORDER_INFO()
+    TFDirector:send(c2s.ACTIVITY2_REQ_NEW_GET_WAR_ORDER_INFO, {})
+end
+
+--购买回顾战令等级
+function ActivityDataMgr:SEND_ACTIVITY2_REQ_NEW_UWAR_ORDER_LEVEL(level)
+    TFDirector:send(c2s.ACTIVITY2_REQ_NEW_UWAR_ORDER_LEVEL, {level})
+end
+
+-- 选择回顾战令
+function ActivityDataMgr:SEND_ACTIVITY2_REQ_CHOICE_NEW_WAR(warId)
+    TFDirector:send(c2s.ACTIVITY2_REQ_CHOICE_NEW_WAR, {warId})
+end
+
+function ActivityDataMgr:onGetWarOrderReViewInfo(event)
+    local data = event.data
+    local level = data.level
+    local exp = data.exp
+    local propList = data.propList
+    self.warOrderReviewInfo_ = data
+    self.warOrderReviewInfo_.propList = self.warOrderReviewInfo_.propList or {}
+    EventMgr:dispatchEvent(EV_ACTIVITY_WAR_ORDER_UPDATE_INFO)
+end
+
+function ActivityDataMgr:onRecvChoiceWar(event)
+    local data = event.data
+    if not data then return end
 end
 
 return ActivityDataMgr:new()

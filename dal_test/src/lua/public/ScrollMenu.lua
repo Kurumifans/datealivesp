@@ -101,6 +101,7 @@ function ScrollMenu:init(params)
         local touchPoint = sender:getTouchMovePos();
 
         if self.timer then
+            TFDirector:stopTimer(self.timer)
             TFDirector:removeTimer(self.timer)
             self.timer = nil
         end
@@ -154,6 +155,7 @@ function ScrollMenu:init(params)
 
     self:addCells();
     self:OnExit(function ()
+        TFDirector:stopTimer(self.timer)
         TFDirector:removeTimer(self.timer)
         self.timer = nil
     end)
@@ -397,11 +399,13 @@ function ScrollMenu:scrollToAction()
         _time = _time + dt * speed;
         if _time >= math.abs(offsetY) then
             self:jumpAction();
+            TFDirector:stopTimer(self.timer)
             TFDirector:removeTimer(self.timer)
             self.timer = nil
             return;
         end
         if tolua.isnull(self) or _time > 300 then
+            TFDirector:stopTimer(self.timer)
             TFDirector:removeTimer(self.timer)
             self.timer = nil
             return
@@ -412,11 +416,14 @@ function ScrollMenu:scrollToAction()
             self:moveCells(dt * speed);
         end
     end
+    TFDirector:stopTimer(self.timer)
     TFDirector:removeTimer(self.timer)
     self.timer = TFDirector:addTimer(0, -1, nil, animation)
 end
 
 function ScrollMenu:scrollTo(idx)
+    TFDirector:stopTimer(self.timer)
+    TFDirector:removeTimer(self.timer)
     self.selCell = self:getCellByIndex(idx);
     self:scrollToAction();
 end

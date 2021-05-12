@@ -1,7 +1,8 @@
 
 local TaskMainView = class("TaskMainView", BaseLayer)
 
-function TaskMainView:initData(taskType)
+function TaskMainView:initData(taskType ,isComeFromBattleLv)
+    self.isComeFromBattleLv = isComeFromBattleLv
     self.tabData_ = {
         {
             type_ = EC_TaskPage.MAIN,
@@ -25,11 +26,30 @@ function TaskMainView:initData(taskType)
         -- },
     }
 
+    if isComeFromBattleLv then
+        for i = #self.tabData_ ,1 ,-1 do
+            local _tabData = self.tabData_[i]
+            if _tabData.type_ == EC_TaskPage.HONOR or _tabData.type_ == EC_TaskPage.MAIN then
+                table.remove(self.tabData_, i)
+            end
+        end
+    end
+
 
     if ActivityDataMgr2:isWarOrderActivityOpen() then
-        table.insert(self.tabData_,3,{type_ = EC_TaskPage.TRAININIG,icon = "ui/task/tab_5.png",text = 14220070})
-        table.insert(self.tabData_,4,{type_ = EC_TaskPage.TRAININIG_TASK,icon = "ui/task/tab_6.png",text = 14220071})
-        self.warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
+        local cfg_TRAININIG = {type_ = EC_TaskPage.TRAININIG,icon = "ui/task/tab_5.png",text = 14220070}
+        local cfg_TRAININIG_TASK = {type_ = EC_TaskPage.TRAININIG_TASK,icon = "ui/task/tab_6.png",text = 14220071}
+        if isComeFromBattleLv then
+            table.insert(self.tabData_, cfg_TRAININIG)
+            table.insert(self.tabData_, cfg_TRAININIG_TASK)
+        else
+            table.insert(self.tabData_, 3, cfg_TRAININIG)
+            table.insert(self.tabData_, 4, cfg_TRAININIG_TASK)
+        end
+
+        if ActivityDataMgr2:isWarOrderReviewActivityOpen() then
+            table.insert(self.tabData_, {type_ = EC_TaskPage.TRAININIG_Review,icon = "ui/task/tab_5.png",text = 13410037})
+        end
     end
 
     self.defaultSelectIndex_ = 1
@@ -130,6 +150,7 @@ function TaskMainView:initUI(ui)
     self.ListView_activity:setScrollBar(scrollBar)
 
     self.Panel_training = TFDirector:getChildByPath(self.Panel_root, "Panel_training")
+    self.Image_top_bg = TFDirector:getChildByPath(self.Panel_root, "Image_top_bg")
     self.Panel_reward = TFDirector:getChildByPath(self.Panel_training, "Panel_reward")
     self.LoadingBar_levelProgress = TFDirector:getChildByPath(self.Panel_training, "LoadingBar_levelProgress")
     self.Label_cur_train_level = TFDirector:getChildByPath(self.Panel_training, "Label_cur_train_level")
@@ -140,10 +161,21 @@ function TaskMainView:initUI(ui)
     self.Button_unlock_reward = TFDirector:getChildByPath(self.Panel_training, "Button_unlock_reward")
     self.Label_unlock_reward = TFDirector:getChildByPath(self.Button_unlock_reward, "Label_unlock_reward")
     self.Button_shop = TFDirector:getChildByPath(self.Panel_training, "Button_shop")
+
+    self.panel_reviwBtns = TFDirector:getChildByPath(self.Panel_training, "panel_reviwBtns")
+    self.Button_review = TFDirector:getChildByPath(self.panel_reviwBtns, "Button_review")
+    self.Button_rule = TFDirector:getChildByPath(self.panel_reviwBtns, "Button_rule")
+    self.img_reviewIcon = TFDirector:getChildByPath(self.panel_reviwBtns, "img_reviewIcon")
+    self.lab_reviewCostNum = TFDirector:getChildByPath(self.panel_reviwBtns, "lab_reviewCostNum")
+
     self.Image_training_shop_tips = TFDirector:getChildByPath(self.Button_shop, "Image_training_shop_tips")
     self.Button_get_all = TFDirector:getChildByPath(self.Panel_training, "Button_get_all")
     self.Label_preview_level = TFDirector:getChildByPath(self.Panel_training, "Label_preview_level")
     self.Panel_lock_cover = TFDirector:getChildByPath(self.Panel_training, "Panel_lock_cover")
+
+    self.Label_title_free = TFDirector:getChildByPath(self.Panel_reward, "Label_title_free")
+    self.Label_title_charge = TFDirector:getChildByPath(self.Panel_reward, "Label_title_charge")
+
     self.previewItems = {}
     for i=1,2 do
         local item = TFDirector:getChildByPath(self.Panel_training, "Panel_item"..i)
@@ -161,11 +193,17 @@ end
 
 function TaskMainView:refreshView()
     self.Label_activeTitle:setTextById(1300010)
-
     self:initTabBtn()
+    self:updateReviewCostNum()
+    self:refreshReviewBtn()
     self:initDailyTask()
     self:selectTab(self.defaultSelectIndex_)
+end
 
+function TaskMainView:refreshReviewBtn()
+    local isWarOrderReviewActivityOpen = ActivityDataMgr2:isWarOrderReviewActivityOpen()
+    local isOpenAllDress = ActivityDataMgr2:getIsOpenAllDress()
+    self.Button_review:setGrayEnabled(isWarOrderReviewActivityOpen or isOpenAllDress)
 end
 
 function TaskMainView:initDailyTask()
@@ -197,6 +235,7 @@ function TaskMainView:initDailyTask()
 end
 
 function TaskMainView:initTabBtn()
+    self.ListView_tab:removeAllItems()
     for i, v in ipairs(self.tabData_) do
         local Panel_tabItem = self.Panel_tabItem:clone()
         local item = {}
@@ -213,10 +252,20 @@ function TaskMainView:initTabBtn()
     end
 end
 
-function TaskMainView:selectTab(index)
-    if self.selectIndex_ == index then return end
+function TaskMainView:selectTab(index, doRefresh)
+    if self.selectIndex_ == index and not doRefresh then return end
     -- self.Image_preview:hide()
     self.selectIndex_ = index
+    local _type = self.tabData_[index].type_
+    if _type == EC_TaskPage.TRAININIG or _type == EC_TaskPage.TRAININIG_Review then
+        self.curBattleLvType = _type 
+    end
+    if _type == EC_TaskPage.TRAININIG then
+        self.warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
+    elseif _type == EC_TaskPage.TRAININIG_Review then
+        self.warOrderActivity = ActivityDataMgr2:getWarOrderReviewAcrivityInfo()
+    end
+
     for i, v in ipairs(self.ListView_tab:getItems()) do
         local item = self.tabItem_[v]
         item.Image_select:setVisible(index == i)
@@ -258,7 +307,12 @@ function TaskMainView:showTask()
         self.Panel_reward:hide()
         self.Panel_training_task:show()
         self:showTrainingTask()
+    elseif tabData.type_ == EC_TaskPage.TRAININIG_Review then
+        self.Panel_training:show()
+        self.Panel_reward:show()
+        self:showTrainingView()
     end
+    self:updateTringUI()
 end
 
 function TaskMainView:showPreview(index)
@@ -340,6 +394,8 @@ function TaskMainView:addDailyTaskItem()
     item.Label_name = TFDirector:getChildByPath(Image_title, "Label_name")
     item.Label_active_num = TFDirector:getChildByPath(Image_title, "Label_active_num")
     item.Image_active_icon = TFDirector:getChildByPath(item.Label_active_num, "Image_active_icon")
+    item.Label_active_review = TFDirector:getChildByPath(Image_title, "Label_active_review")
+    item.img_reviewExp = TFDirector:getChildByPath(Image_title, "img_reviewExp")
     item.Label_desc = TFDirector:getChildByPath(item.root, "Label_desc")
     item.Panel_reward = {}
     for i = 1, 3 do
@@ -543,10 +599,12 @@ function TaskMainView:showDailyTask()
         -- item.Image_active:PosX(size.width + 10)
 
         local showReward = {}
-        local activeReward
+        local activeReward, battleLvReviewExp
         for i, v in ipairs(taskCfg.reward) do
             if v[1] == EC_SItemType.ACTIVITY then
                 activeReward = v
+            elseif v[1] == EC_SItemType.BATTLE_LV_REVIEW then
+                battleLvReviewExp = v
             else
                 table.insert(showReward, v)
             end
@@ -556,6 +614,15 @@ function TaskMainView:showDailyTask()
             local itemCfg = GoodsDataMgr:getItemCfg(activeReward[1])
             item.Image_active_icon:setTexture(itemCfg.icon)
             item.Label_active_num:setTextById(800007, activeReward[2])
+        end
+
+        item.Label_active_review:setVisible(battleLvReviewExp and ActivityDataMgr2:isWarOrderReviewActivityOpen())
+        if battleLvReviewExp then
+            item.Label_active_review:setTextById(800007, battleLvReviewExp[2])
+            item.img_reviewExp:setTouchEnabled(true)
+            item.img_reviewExp:onClick(function()
+                Utils:showInfo(EC_SItemType.BATTLE_LV_REVIEW)
+            end)
         end
 
         for j, Panel_reward in ipairs(item.Panel_reward) do
@@ -790,18 +857,54 @@ function TaskMainView:showTrainingView()
         self:initTrainingTableView()
     end
     self:updateTrainingItems()
-    local trainingLevel = ActivityDataMgr2:getWarOrderLevel()
+    local trainingLevel = ActivityDataMgr2:getWarOrderLevel(self.curBattleLvType)
     local posX = 740 - ((trainingLevel + (trainingLevel > 140 and 0 or 6)) * 108)
     self.trainingTableView:setContentOffset(ccp(math.min(posX, 0),0), 0.3)
     self:updateTrainingInfo()
-    self.Button_upgrade:show()
-    self.Button_get_all:show()
-    self.Button_shop:show()
     self:updateRedPointStatus()
     self:updateTrainingShopTipsState()
     self:timeOut(function()
         self:updatePreviewItems()
     end,0.3)
+end
+
+function TaskMainView:updateTringUI()
+    local tabData = self.tabData_[self.selectIndex_] 
+    local activityInfo = nil
+    local txtDiscCfgDic = {}
+    local txtDiscCfg = Utils:getKVP(1100007, "returnData") 
+    for i, v in ipairs(txtDiscCfg or {}) do
+        txtDiscCfgDic[tonumber(v.id)] = v
+    end
+    
+    if tabData.type_ == EC_TaskPage.TRAININIG then
+        activityInfo = ActivityDataMgr2:getWarOrderAcrivityInfo()
+        local openTag = activityInfo.extendData.entry
+        self.panel_reviwBtns:setVisible(openTag and tonumber(openTag) == 1)
+        self.Button_upgrade:show()
+        self.Button_get_all:show()
+        self.Button_shop:show()
+        self.Label_title_free:setText()
+    elseif tabData.type_ == EC_TaskPage.TRAININIG_Review then
+        activityInfo = ActivityDataMgr2:getWarOrderReviewAcrivityInfo()
+        self.Button_upgrade:show()
+        self.Button_get_all:show()
+        self.Button_shop:hide()
+        self.panel_reviwBtns:hide()
+    elseif tabData.type_ == EC_TaskPage.TRAININIG_TASK then
+        activityInfo = ActivityDataMgr2:getWarOrderAcrivityInfo()  -- 周常取当期数据
+        self.Button_upgrade:hide()
+        self.Button_get_all:hide()
+        self.Button_shop:hide()
+        self.panel_reviwBtns:hide()
+    end
+    if activityInfo and activityInfo.extendData.banner then
+        self.Image_top_bg:setTexture(activityInfo.extendData.banner)
+    end
+    if activityInfo and txtDiscCfgDic and  txtDiscCfgDic[activityInfo.id] then
+        self.Label_title_free:setText(txtDiscCfgDic[activityInfo.id].name)
+        self.Label_title_charge:setText(txtDiscCfgDic[activityInfo.id].senior)
+    end
 end
 
 function TaskMainView:initTrainingTableView()
@@ -829,7 +932,7 @@ function TaskMainView:trainingTableCellSize(tableView,idx)
 end
 
 function TaskMainView:trainingNumberOfCells(tableView)
-    self.trainingCfgs = TaskDataMgr:getTraningCfgs(true)
+    self.trainingCfgs = TaskDataMgr:getTraningCfgs(true, self.curBattleLvType)
     local count = table.count(self.trainingCfgs)
     return count
 end
@@ -862,13 +965,13 @@ function TaskMainView:trainingTableCellAtIndex(tableView, idx)
     local Image_lock = TFDirector:getChildByPath(item, "Image_lock"):hide()
 
     local cfgGroup = self.trainingCfgs[idx]
-    local trainingLevel = ActivityDataMgr2:getWarOrderLevel()
-    local chargeState = ActivityDataMgr2:getWarOrderChargeState()
+    local trainingLevel = ActivityDataMgr2:getWarOrderLevel(self.curBattleLvType)
+    local chargeState = ActivityDataMgr2:getWarOrderChargeState(self.curBattleLvType)
     for j,cfg in ipairs(cfgGroup) do
         Label_level:setText("Lv"..cfg.condition)
         local reward = cfg.reward[1]
         
-        local getState = reward and ActivityDataMgr2:checkWarOrderItemState(cfg.id) or 2
+        local getState = reward and ActivityDataMgr2:checkWarOrderItemState(cfg.id, self.curBattleLvType) or 2
         if cfg.type == 1 then
             if reward then
                 Image_free_item_frame:setVisible(true)
@@ -891,7 +994,11 @@ function TaskMainView:trainingTableCellAtIndex(tableView, idx)
                 Image_free_item_icon:setTouchEnabled(true)
                 Image_free_can_get:setTouchEnabled(true)
                 Image_free_can_get:onClick(function ()
-                    ActivityDataMgr2:reqGetWarOrderAward(cfg.returnnewbleId,cfg.id)
+                    if self.curBattleLvType == EC_TaskPage.TRAININIG  then
+                        ActivityDataMgr2:reqGetWarOrderAward(cfg.returnnewbleId,cfg.id)
+                    elseif self.curBattleLvType == EC_TaskPage.TRAININIG_Review then
+                        ActivityDataMgr2:SEND_ACTIVITY2_REQ_NEW_GET_WAR_ORDER_AWARD(cfg.returnnewbleId,cfg.id)
+                    end
                 end)
             else
                 Image_free_item_frame:setVisible(false)
@@ -922,7 +1029,11 @@ function TaskMainView:trainingTableCellAtIndex(tableView, idx)
 
                 Image_charge_can_get:setTouchEnabled(true)
                 Image_charge_can_get:onClick(function ()
-                    ActivityDataMgr2:reqGetWarOrderAward(cfg.returnnewbleId,cfg.id)
+                    if self.curBattleLvType == EC_TaskPage.TRAININIG  then
+                        ActivityDataMgr2:reqGetWarOrderAward(cfg.returnnewbleId,cfg.id)
+                    elseif self.curBattleLvType == EC_TaskPage.TRAININIG_Review then
+                        ActivityDataMgr2:SEND_ACTIVITY2_REQ_NEW_GET_WAR_ORDER_AWARD(cfg.returnnewbleId,cfg.id)
+                    end
                 end)
             else
                 Image_charge_item_frame:setVisible(false)
@@ -944,7 +1055,7 @@ function TaskMainView:trainingTableScroll(tableView)
 end
 
 function TaskMainView:updatePreviewItems()
-    local specialInfo = TaskDataMgr:getSpecialRewards(self.curPreviewIdx or 1)
+    local specialInfo = TaskDataMgr:getSpecialRewards(self.curPreviewIdx or 1, self.curBattleLvType)
     if specialInfo.level then
         local rewards = specialInfo.rewards
         self.Label_preview_level:setText("Lv"..specialInfo.level) 
@@ -972,17 +1083,14 @@ end
 function TaskMainView:showTrainingTask()
     self:updateTrainingInfo()
     self:updateTrainingTask()
-    self.Button_upgrade:hide()
-    self.Button_get_all:hide()
-    self.Button_shop:hide()
 end
 
 function TaskMainView:updateTrainingInfo()
-    local trainingLevel = ActivityDataMgr2:getWarOrderLevel()
+    local trainingLevel = ActivityDataMgr2:getWarOrderLevel(self.curBattleLvType)
     self.Label_cur_train_level:setText("Lv."..trainingLevel)
-    local levelExp = ActivityDataMgr2:getWarOrderExp()
-    local levelMaxExp = TaskDataMgr:getTrainingLevelExpMax(trainingLevel)
-    if trainingLevel >= ActivityDataMgr2:getWarOrderMaxLevel() then
+    local levelExp = ActivityDataMgr2:getWarOrderExp(self.curBattleLvType)
+    local levelMaxExp = TaskDataMgr:getTrainingLevelExpMax(trainingLevel ,self.curBattleLvType)
+    if trainingLevel >= ActivityDataMgr2:getWarOrderMaxLevel(self.curBattleLvType) then
         self.Label_level_exp:setText(TextDataMgr:getText(14220069).."："..levelMaxExp.."/"..levelMaxExp)
         self.LoadingBar_levelProgress:setPercent(100)
         self.Button_buy_level:setTouchEnabled(false)
@@ -990,9 +1098,11 @@ function TaskMainView:updateTrainingInfo()
     else
         self.Label_level_exp:setText(TextDataMgr:getText(14220069).."："..levelExp.."/"..levelMaxExp)
         self.LoadingBar_levelProgress:setPercent(levelExp / levelMaxExp * 100)
+        self.Button_buy_level:setTouchEnabled(true)
+        self.Button_buy_level:setGrayEnabled(false)
     end
     self.Label_unlock_reward:setText("解锁资格")
-    if ActivityDataMgr2:getWarOrderChargeState() == 1 then
+    if ActivityDataMgr2:getWarOrderChargeState(self.curBattleLvType) == 1 then
         self.Label_unlock_reward:setText("升级资格")
     end
     self:addCountDownTimer()
@@ -1026,10 +1136,10 @@ function TaskMainView:updateTrainingItems()
         self.trainingTableView:reloadData()
     end
     self:updatePreviewItems()
-    local canGet = TaskDataMgr:checkWarOrderRedPoint()
+    local canGet = TaskDataMgr:checkWarOrderRedPoint(self.curBattleLvType)
     self.Button_get_all:setTouchEnabled(canGet)
     self.Button_get_all:setGrayEnabled(not canGet)
-    self.Panel_lock_cover:setVisible(ActivityDataMgr2:getWarOrderChargeState() == 0)
+    self.Panel_lock_cover:setVisible(ActivityDataMgr2:getWarOrderChargeState(self.curBattleLvType) == 0)
 end
 
 function TaskMainView:addTrainingTaskItem(idx)
@@ -1047,8 +1157,16 @@ function TaskMainView:addTrainingTaskItem(idx)
     item.LabeButton_goto = TFDirector:getChildByPath(item.root, "LabeButton_goto")
     item.Label_reset_tips = TFDirector:getChildByPath(item.root, "Label_reset_tips")
     local ScrollView_reward = TFDirector:getChildByPath(item.root, "ScrollView_reward")
+    item.Image_hero_ecxp = TFDirector:getChildByPath(item.root, "Image_hero_ecxp")
+    item.Image_hero_ecxpPos = item.Image_hero_ecxp:getPosition()
+    item.Image_gongzhu_ecxp = TFDirector:getChildByPath(item.root, "Image_gongzhu_ecxp")
+    item.Image_gongzhu_ecxpPos = item.Image_gongzhu_ecxp:getPosition()
+    item.expPos_1 = TFDirector:getChildByPath(item.root, "expPos_1"):getPosition()
+    item.expPos_2 = TFDirector:getChildByPath(item.root, "expPos_2"):getPosition()
     item.Label_hero_exp = TFDirector:getChildByPath(item.root, "Label_hero_exp")
     item.Label_gongzhu_exp = TFDirector:getChildByPath(item.root, "Label_gongzhu_exp")
+    item.Image_review_exp = TFDirector:getChildByPath(item.root, "Image_review_exp")
+    item.Label_review_exp = TFDirector:getChildByPath(item.root, "Label_review_exp")
     item.LoadingBar_progress = TFDirector:getChildByPath(item.root, "LoadingBar_progress")
     item.ListView_reward = UIListView:create(ScrollView_reward)
     item.ListView_reward:setItemsMargin(20)
@@ -1058,10 +1176,15 @@ function TaskMainView:addTrainingTaskItem(idx)
 end
 
 function TaskMainView:updateTrainingTask()
-    self.trainingTaskData = ActivityDataMgr2:getItems(self.warOrderActivity.id)
+    -- 以当期战令为主
+    local warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
+    if not warOrderActivity then
+        return
+    end
+    self.trainingTaskData = ActivityDataMgr2:getItems(warOrderActivity.id)
     for i,v in ipairs(self.trainingTaskData) do
-        local itemInfo = ActivityDataMgr2:getItemInfo(self.warOrderActivity.activityType, v)
-        if tonumber(self.warOrderActivity.extendData.daytask) == v then
+        local itemInfo = ActivityDataMgr2:getItemInfo(warOrderActivity.activityType, v)
+        if tonumber(warOrderActivity.extendData.daytask) == v then
             table.remove(self.trainingTaskData,i)
             break
         end
@@ -1092,8 +1215,8 @@ function TaskMainView:updateTrainingTask()
 
         local foo = self.trainingTaskItem_[item]
         foo.idx = loadIndex
-        local progressInfo = ActivityDataMgr2:getProgressInfo(self.warOrderActivity.activityType, self.trainingTaskData[foo.idx])
-        local itemInfo = ActivityDataMgr2:getItemInfo(self.warOrderActivity.activityType, self.trainingTaskData[foo.idx])
+        local progressInfo = ActivityDataMgr2:getProgressInfo(warOrderActivity.activityType, self.trainingTaskData[foo.idx])
+        local itemInfo = ActivityDataMgr2:getItemInfo(warOrderActivity.activityType, self.trainingTaskData[foo.idx])
         if not itemInfo then
             return
         end
@@ -1119,12 +1242,23 @@ function TaskMainView:updateTrainingTask()
         foo.Label_state:setVisible(isGeted)
         foo.Label_state:setTextById(14220068)
 
+        foo.Image_review_exp:setVisible(ActivityDataMgr2:isWarOrderReviewActivityOpen())
+        if foo.Image_review_exp:isVisible() then
+            foo.Image_gongzhu_ecxp:setPosition(foo.Image_gongzhu_ecxpPos)
+            foo.Image_hero_ecxp:setPosition(foo.Image_hero_ecxpPos)
+        else
+            foo.Image_gongzhu_ecxp:setPosition(foo.expPos_1)
+            foo.Image_hero_ecxp:setPosition(foo.expPos_2)
+        end
+
         foo.ListView_reward:removeAllItems()
         for cid, num in pairs(itemInfo.reward) do
             if cid == 500005 then
                 foo.Label_hero_exp:setText("x"..num)
             elseif cid == 500074 then
                 foo.Label_gongzhu_exp:setText("x"..num)
+            elseif cid == EC_SItemType.BATTLE_LV_REVIEW then
+                foo.Label_review_exp:setText("x"..num)
             else
                 local Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
                 PrefabDataMgr:setInfo(Panel_goodsItem, cid, num)
@@ -1135,7 +1269,7 @@ function TaskMainView:updateTrainingTask()
 
         foo.Button_get:setVisible(isReceive)
         foo.Button_get:onClick(function()
-            ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(self.warOrderActivity.id, self.trainingTaskData[foo.idx])
+            ActivityDataMgr2:send_ACTIVITY_NEW_SUBMIT_ACTIVITY(warOrderActivity.id, self.trainingTaskData[foo.idx])
         end)
 
         foo.Button_goto:setVisible(isIng and itemInfo.extendData.jumpInterface and itemInfo.extendData.jumpInterface ~= 0)
@@ -1162,6 +1296,28 @@ end
 
 function TaskMainView:onUpdateTrainingUI()
     if not self.warOrderActivity then return end
+    local isExist = false
+    for i, v in ipairs(self.tabData_) do
+        if v.type_ == EC_TaskPage.TRAININIG_Review then
+            isExist = true
+        end
+    end
+    if not isExist and ActivityDataMgr2:isWarOrderReviewActivityOpen() then
+        table.insert(self.tabData_, {type_ = EC_TaskPage.TRAININIG_Review,icon = "ui/task/tab_5.png",text = 13410037})
+        self:initTabBtn()
+        self:selectTab(self.selectIndex_, true)
+        self:refreshReviewBtn()
+        if self.ListView_daily:getItems() ~= 0 then
+            self:showDailyTask()
+        end
+        for i, v in ipairs(self.ListView_tab:getItems()) do
+            local item = self.tabItem_[v]
+            item.root:onClick(function()
+                self:selectTab(i)
+            end)
+        end
+    end
+
     self:updateTrainingItems()
     self:updateTrainingInfo()
 end
@@ -1191,13 +1347,15 @@ function TaskMainView:updateRedPointStatus()
         elseif tabData.type_ == EC_TaskPage.ACTIVITY then
             isCanReceive = TaskDataMgr:isCanReceiveTask(EC_TaskType.ACTIVE)
         elseif tabData.type_ == EC_TaskPage.TRAININIG then
-            isCanReceive = TaskDataMgr:checkWarOrderRedPoint()
+            isCanReceive = TaskDataMgr:checkWarOrderRedPoint(EC_TaskPage.TRAININIG)
             if not isCanReceive then
                 isCanReceive = TaskDataMgr:getTrainingShopTipsState()
             end
             self:updateTrainingShopTipsState()
         elseif tabData.type_ == EC_TaskPage.TRAININIG_TASK then
             isCanReceive = ActivityDataMgr2:checkWarOrderTaskRedPoint()
+        elseif tabData.type_ == EC_TaskPage.TRAININIG_Review then
+            isCanReceive = TaskDataMgr:checkWarOrderRedPoint(EC_TaskPage.TRAININIG_Review)
         end
         item.Image_tips:setVisible(isCanReceive)
     end
@@ -1218,6 +1376,13 @@ function TaskMainView:registerEvents()
     EventMgr:addEventListener(self, EV_RECHARGE_UPDATE, handler(self.onUpdateTrainingUI, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_SUBMIT_SUCCESS, handler(self.onSubmitSuccessEvent, self))
     EventMgr:addEventListener(self, EV_ACTIVITY_UPDATE_PROGRESS, handler(self.onTrainTaskUpdate, self))
+    EventMgr:addEventListener(self, EV_ACTIVITY_DELETED, handler(self.onRecRefreshActivityOver, self))
+
+    if self.isComeFromBattleLv then
+        self.topLayer.Button_help:onClick(function()
+            Utils:openView("common.HelpView", {4110})
+        end)
+    end
 
     for i, v in ipairs(self.ListView_tab:getItems()) do
         local item = self.tabItem_[v]
@@ -1251,26 +1416,30 @@ function TaskMainView:registerEvents()
     end
 
     self.Button_buy_level:onClick(function()
-        if ActivityDataMgr2:getWarOrderLevel() >= ActivityDataMgr2:getWarOrderMaxLevel() then
+        if ActivityDataMgr2:getWarOrderLevel(self.curBattleLvType) >= ActivityDataMgr2:getWarOrderMaxLevel(self.curBattleLvType) then
 
         else
-            Utils:openView("task.TaskTrainingBuyLevelView")
+            Utils:openView("task.TaskTrainingBuyLevelView", self.curBattleLvType)
         end
     end)
 
     self.Button_upgrade:onClick(function()
-        self:selectTab(4)
+        self:selectTab(self:getCurIdxByECType(EC_TaskPage.TRAININIG_TASK))
     end)
     self.Button_unlock_reward:onClick(function()
-        FunctionDataMgr:jWarOrderBuy()
+        FunctionDataMgr:jWarOrderBuy(self.curBattleLvType)
     end)
 
     self.Button_get_all:onClick(function()
-        local state = ActivityDataMgr2:getWarOrderChargeState()
+        local state = ActivityDataMgr2:getWarOrderChargeState(self.curBattleLvType)
         if state ~= 0 then
-            ActivityDataMgr2:reqGetWarOrderAward(self.warOrderActivity.id,0)
+            if self.curBattleLvType == EC_TaskPage.TRAININIG  then
+                ActivityDataMgr2:reqGetWarOrderAward(self.warOrderActivity.id, 0)
+            elseif self.curBattleLvType == EC_TaskPage.TRAININIG_Review then
+                ActivityDataMgr2:SEND_ACTIVITY2_REQ_NEW_GET_WAR_ORDER_AWARD(self.warOrderActivity.id, 0)
+            end
         else
-            Utils:openView("task.TaskTrainingFastRewardView")
+            Utils:openView("task.TaskTrainingFastRewardView", self.curBattleLvType)
         end
     end)
 
@@ -1281,11 +1450,62 @@ function TaskMainView:registerEvents()
         FunctionDataMgr:jGiftPacks(1,5)
     end)
 
+    self.Button_review:onClick(function(sender)
+        local isWarOrderReviewActivityOpen = ActivityDataMgr2:isWarOrderReviewActivityOpen()
+        local isOpenAllDress = ActivityDataMgr2:getIsOpenAllDress()
+        if isWarOrderReviewActivityOpen or isOpenAllDress then
+            sender:setGrayEnabled(true)
+            local argsTimeTip = {
+                tittle = 2107025,
+                content = TextDataMgr:getText(63937),
+                confirmCall = function()
+                end,
+            }
+            Utils:showReConfirm(argsTimeTip)
+            return
+        end
+        Utils:openView("task.TaskTrainingChooseView")
+    end)
+
+    self.Button_rule:onClick(function()
+        Utils:openView("common.TxtRuleContentShowView", {63931})
+    end)
+
     self.Panel_touch:setSwallowTouch(false)
     self.Panel_touch:setSize(GameConfig.WS)
     self.Panel_touch:onTouch(function()
             --self.Image_preview:hide()
     end)
+end
+
+function TaskMainView:onRecRefreshActivityOver(activityId)
+    if self.warOrderActivity and self.warOrderActivity.id == activityId then
+        for i = table.count(self.tabData_), 1, -1 do
+            local v = self.tabData_[i]
+            if v.type_ == EC_TaskPage.TRAININIG_Review or v.type_ == EC_TaskPage.TRAININIG then
+                table.remove(self.tabData_, i)
+            end
+        end
+        
+        self:initTabBtn()
+        self:selectTab(1, true)
+        self:refreshReviewBtn()
+        for i, v in ipairs(self.ListView_tab:getItems()) do
+            local item = self.tabItem_[v]
+            item.root:onClick(function()
+                self:selectTab(i)
+            end)
+        end
+    end
+end
+
+function TaskMainView:getCurIdxByECType(type)
+    for i, v in ipairs(self.tabData_) do
+        if v.type_ == type then
+            return i
+        end
+    end
+    return self.selectIndex_ or self.defaultSelectIndex_
 end
 
 function TaskMainView:updateTrainingShopTipsState()
@@ -1302,6 +1522,7 @@ function TaskMainView:onTaskReceiveEvent(reward)
 end
 
 function TaskMainView:onUpdateActiveEvent(oldItem, newItem)
+    self:updateReviewCostNum()
     local itemCid
     if oldItem then
         itemCid = oldItem.cid
@@ -1310,6 +1531,25 @@ function TaskMainView:onUpdateActiveEvent(oldItem, newItem)
     end
     if itemCid == EC_SItemType.ACTIVITY then
         self:showTask()
+    end
+end
+
+function TaskMainView:updateReviewCostNum()
+    if not ActivityDataMgr2:isWarOrderActivityOpen() then
+        return
+    end
+
+    local costData = ActivityDataMgr2:getWarOrderAcrivityInfo().extendData.costitem
+    local goodsId, goodsNum
+    for _, _data in pairs(costData) do
+        goodsId, goodsNum = next(_data)
+        if goodsId and goodsNum then
+            break
+        end
+    end
+    if goodsId then
+        self.img_reviewIcon:setTexture(GoodsDataMgr:getItemCfg(tonumber(goodsId)).icon)
+        self.lab_reviewCostNum:setText(GoodsDataMgr:getItemCount(tonumber(goodsId)))
     end
 end
 

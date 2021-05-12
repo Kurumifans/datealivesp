@@ -9,8 +9,9 @@ function TaskTrainingBuyLevelView:ctor(data)
 end
 
 function TaskTrainingBuyLevelView:initData(data)
-    self.curLevel = ActivityDataMgr2:getWarOrderLevel()
-    self.maxLevel = ActivityDataMgr2:getWarOrderMaxLevel() - self.curLevel
+    self.curBattleLvType = data
+    self.curLevel = ActivityDataMgr2:getWarOrderLevel(self.curBattleLvType)
+    self.maxLevel = ActivityDataMgr2:getWarOrderMaxLevel(self.curBattleLvType) - self.curLevel
     self.selectNum = 1
 end
 
@@ -67,21 +68,32 @@ function TaskTrainingBuyLevelView:updateLevelUI()
         self:stopTimer()
     end
     self:updateRewards()
-    local levelCost, addExp = TaskDataMgr:getTrainingUpLevelCost(self.curLevel + self.selectNum)
+    local levelCost, addExp = TaskDataMgr:getTrainingUpLevelCost(self.curLevel + self.selectNum, self.curBattleLvType)
     self.Label_res_num:setText(tostring(levelCost))
     self.Label_tips:setTextById(14220061, targetLevel, addExp)
 end
 
 function TaskTrainingBuyLevelView:updateRewards()
-    local rewards = TaskDataMgr:getLevelRangeRewards(self.curLevel + 1, self.curLevel + self.selectNum)
-    self.ListView_items:AsyncUpdateItem(rewards,function (item,data)
+    local rewards = TaskDataMgr:getLevelRangeRewards(self.curLevel + 1, self.curLevel + self.selectNum, self.curBattleLvType)
+    local items = self.ListView_items:getItems()
+    local gap = #rewards - #items
+    if gap > 0 then
+        for i = 1, math.abs(gap) do
+            local item = self.ListView_items:pushBackDefaultItem()
+        end
+    else
+        for i = 1, math.abs(gap) do
+            self.ListView_items:removeItem(1)
+        end
+    end
+
+    local items = self.ListView_items:getItems()
+    for i, item in ipairs(items) do
+        local data = rewards[i]
         if data then
             PrefabDataMgr:setInfo(item, data[1], data[2])
         end
-    end,function ()
-        local item = self.ListView_items:pushBackDefaultItem()
-        return item
-    end)
+    end
 end
 
 function TaskTrainingBuyLevelView:stopTimer()
@@ -104,13 +116,17 @@ function TaskTrainingBuyLevelView:registerEvents()
      end)
 
     self.Button_ok:onClick(function()
-        local levelCost = TaskDataMgr:getTrainingUpLevelCost(self.curLevel + self.selectNum)
+        local levelCost = TaskDataMgr:getTrainingUpLevelCost(self.curLevel + self.selectNum, self.curBattleLvType)
         if MainPlayer:getOneLoginStatus("TrainingLevelBuy") then
             if GoodsDataMgr:getItemCount(EC_SItemType.DIAMOND) < levelCost then
                 Utils:showAccess(EC_SItemType.DIAMOND)
                 return
             end
-            ActivityDataMgr2:reqUWarOrderLevel(self.curLevel + self.selectNum)
+            if self.curBattleLvType == EC_TaskPage.TRAININIG  then
+                ActivityDataMgr2:reqUWarOrderLevel(self.curLevel + self.selectNum)
+            elseif self.curBattleLvType == EC_TaskPage.TRAININIG_Review then
+                ActivityDataMgr2:SEND_ACTIVITY2_REQ_NEW_UWAR_ORDER_LEVEL(self.curLevel + self.selectNum)
+            end
             AlertManager:close()
         else
             local rstr = TextDataMgr:getTextAttr(14220066)
@@ -121,7 +137,11 @@ function TaskTrainingBuyLevelView:registerEvents()
                     Utils:showAccess(EC_SItemType.DIAMOND)
                     return
                 end
-                ActivityDataMgr2:reqUWarOrderLevel(self.curLevel + self.selectNum)
+                if self.curBattleLvType == EC_TaskPage.TRAININIG  then
+                    ActivityDataMgr2:reqUWarOrderLevel(self.curLevel + self.selectNum)
+                elseif self.curBattleLvType == EC_TaskPage.TRAININIG_Review then
+                    ActivityDataMgr2:SEND_ACTIVITY2_REQ_NEW_UWAR_ORDER_LEVEL(self.curLevel + self.selectNum)
+                end
                 AlertManager:close()
             end})
         end

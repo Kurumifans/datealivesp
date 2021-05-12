@@ -1950,7 +1950,7 @@ function MainLayer:registerEvents()
     if self.Button_gongzhu then
         Utils:sendHttpLog("cultivate")
         self.Button_gongzhu:onClick(function()
-            FunctionDataMgr:jTask(EC_TaskPage.TRAININIG)
+            FunctionDataMgr:jTask(EC_TaskPage.TRAININIG, true)
         end)
     end
 

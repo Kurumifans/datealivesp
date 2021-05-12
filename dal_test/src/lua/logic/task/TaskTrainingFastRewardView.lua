@@ -1,15 +1,29 @@
 local TaskTrainingFastRewardView = class("TaskTrainingFastRewardView", BaseLayer)
 
 
-function TaskTrainingFastRewardView:ctor(data)
-    self.super.ctor(self,data)
-    self:initData(data)
+function TaskTrainingFastRewardView:ctor(...)
+    self.super.ctor(self)
+    self:initData(...)
     self:showPopAnim(true)
     self:init("lua.uiconfig.task.taskTrainingFastRewardView")
 end
 
-function TaskTrainingFastRewardView:initData(data)
-    
+function TaskTrainingFastRewardView:initData(curBattleLvType)
+    self.curBattleLvType = curBattleLvType
+    self.txtTip = nil
+
+    local disReturnData = Utils:getKVP(1100007, "returnData") 
+    local activityId = nil
+    if self.curBattleLvType == EC_TaskPage.TRAININIG  then
+        activityId = ActivityDataMgr2:getWarOrderAcrivityInfo().id
+    elseif self.curBattleLvType == EC_TaskPage.TRAININIG_Review then
+        activityId = ActivityDataMgr2:getWarOrderReviewAcrivityId()
+    end
+    for i, v in ipairs(disReturnData or {}) do
+        if activityId and activityId == tonumber(v.id) then
+            self.txtTip = tonumber(v.string)
+        end
+    end
 end
 
 function TaskTrainingFastRewardView:initUI(ui)
@@ -28,33 +42,36 @@ function TaskTrainingFastRewardView:initUI(ui)
     self.Label_tips      = TFDirector:getChildByPath(ui,"Label_tips")
     self.Image_res_icon      = TFDirector:getChildByPath(ui,"Image_res_icon")
     self.Label_res_num      = TFDirector:getChildByPath(ui,"Label_res_num")
-    self.Label_tips:setTextById(14220077)
+    if self.txtTip then
+        self.Label_tips:setTextById(self.txtTip)
+    else
+        self.Label_tips:setText("")
+    end
     self.ListView_free    = UIListView:create(TFDirector:getChildByPath(ui,"ScrollView_free"))
     self.ListView_charge    = UIListView:create(TFDirector:getChildByPath(ui,"ScrollView_charge"))
     self.ListView_free:setItemsMargin(10)
     self.ListView_charge:setItemsMargin(10)
 
+    self.Panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+
     self:refreshUI()
 end
 
 function TaskTrainingFastRewardView:refreshUI()
-    local freeRewards = TaskDataMgr:getTrainingCanGetRewards(1)
-    self.ListView_free:AsyncUpdateItem(freeRewards,function ()
-        local item = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+    local freeRewards = TaskDataMgr:getTrainingCanGetRewards(1, self.curBattleLvType)
+    for i, v in ipairs(freeRewards) do
+        local item = self.Panel_goodsItem:clone()
+        PrefabDataMgr:setInfo(item, v[1], v[2])
         item:setScale(0.8)
-        return item
-    end,function (item,data)
-        PrefabDataMgr:setInfo(item, data[1], data[2])
-    end)
-
-    local chargeRewards = TaskDataMgr:getTrainingCanGetRewards(2)
-    self.ListView_charge:AsyncUpdateItem(chargeRewards,function ()
-        local item = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+        self.ListView_free:pushBackCustomItem(item)
+    end
+    local chargeRewards = TaskDataMgr:getTrainingCanGetRewards(2, self.curBattleLvType)
+    for i, v in ipairs(chargeRewards) do
+        local item = self.Panel_goodsItem:clone()
+        PrefabDataMgr:setInfo(item, v[1], v[2])
         item:setScale(0.8)
-        return item
-    end,function (item,data)
-        PrefabDataMgr:setInfo(item, data[1], data[2])
-    end)
+        self.ListView_charge:pushBackCustomItem(item)
+    end
 end
 
 function TaskTrainingFastRewardView:registerEvents()
@@ -63,8 +80,11 @@ function TaskTrainingFastRewardView:registerEvents()
      end)
 
     self.Button_get_all:onClick(function()
-        local activity = ActivityDataMgr2:getWarOrderAcrivityInfo()
-        ActivityDataMgr2:reqGetWarOrderAward(activity.id,0)
+        if self.curBattleLvType == EC_TaskPage.TRAININIG  then
+            ActivityDataMgr2:reqGetWarOrderAward(ActivityDataMgr2:getWarOrderAcrivityInfo().id, 0)
+        elseif self.curBattleLvType == EC_TaskPage.TRAININIG_Review then
+            ActivityDataMgr2:SEND_ACTIVITY2_REQ_NEW_GET_WAR_ORDER_AWARD(ActivityDataMgr2:getWarOrderReviewAcrivityId(), 0)
+        end
         AlertManager:closeLayer(self)
     end)
 

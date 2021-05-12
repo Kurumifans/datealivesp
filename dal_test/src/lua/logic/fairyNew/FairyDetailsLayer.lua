@@ -2292,7 +2292,7 @@ function FairyDetailsLayer:updateHeroAttsInfo()
 	self.ListView_atts:pushBackCustomItem(mainAttTitle)
 
 	for i, att in ipairs(tabMainAtts) do
-		local attStr = HeroDataMgr:getAttributeValueStr(self.showHeroId, att.attributeId)
+		local attStr = HeroDataMgr:getAttributeValueStr(self.showHeroId, att.attributeId,self.isfriend)
 		--if attStr then
 			local item = self.Panel_att_item:clone()
 			self:initHeroAttItem(item, att, attStr)
@@ -2305,7 +2305,7 @@ function FairyDetailsLayer:updateHeroAttsInfo()
 	self.ListView_atts:pushBackCustomItem(mainAttTitle)
 
 	for i, att in ipairs(tabSubAtts) do
-		local attStr = HeroDataMgr:getAttributeValueStr(self.showHeroId, att.attributeId)
+		local attStr = HeroDataMgr:getAttributeValueStr(self.showHeroId, att.attributeId,self.isfriend)
 		-- if attStr then
 			local item = self.Panel_att_item:clone()
 			self:initHeroAttItem(item, att, attStr)

@@ -709,9 +709,9 @@ function FunctionDataMgr:jSummonMain()
     Utils:openView("summon.SummonMainView")
 end
 
-function FunctionDataMgr:jTask(taskType)
+function FunctionDataMgr:jTask(taskType, isComeFromBattleLv)
     if not self:checkFuncOpen() then return end
-    Utils:openView("task.TaskMainView", taskType)
+    Utils:openView("task.TaskMainView", taskType, isComeFromBattleLv)
 end
 
 function FunctionDataMgr:jOnlineStore()
@@ -1485,10 +1485,10 @@ function FunctionDataMgr:jKsanGift()
     self:jActivity6(10109)
 end
 
-function FunctionDataMgr:jWarOrderBuy()
+function FunctionDataMgr:jWarOrderBuy(curBattleLvType)
     if not self:checkFuncOpen() then return end
     if ActivityDataMgr2:isWarOrderActivityOpen() then
-        Utils:openView("task.TaskTrainingChargeView")
+        Utils:openView("task.TaskTrainingChargeView", curBattleLvType)
     else
         Utils:showTips(219007)
     end

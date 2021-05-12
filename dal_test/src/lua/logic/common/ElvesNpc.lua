@@ -768,7 +768,7 @@ function TTFLive2D:addRenderTexture()
 		tx:endToLua();
 		self:hide()
 		node:setTexture(tx:getSprite():getTexture())
-	end,0.02)
+	end,0.04)
 	return sp
 end
 

@@ -1694,7 +1694,7 @@ function HeroDataMgr:checkSuit(heroid)
 	return ret
 end
 
-function HeroDataMgr:getSkillTab(heroid,isTeam)
+function HeroDataMgr:getSkillTab(heroid,isOthers)
 	local skillTab = {};
 
 	--组合技能
@@ -1741,7 +1741,7 @@ function HeroDataMgr:getSkillTab(heroid,isTeam)
 
 	--灵力共鸣技能(组队用战斗数据)
 	local isOpen = FunctionDataMgr:isOpen(151)
-	if not isTeam and isOpen then
+	if not isOthers and isOpen then
 		local manaSkills = ResonanceDataMgr:getManaSkills()
 		for i,v in ipairs(manaSkills) do
 			table.insert(skillTab,v)
@@ -1749,7 +1749,7 @@ function HeroDataMgr:getSkillTab(heroid,isTeam)
 	end
 
 	--宝物激活技能
-	if isTeam then
+	if isOthers then
 		if self.heroTable[heroid] then
 			for i,v in ipairs(self.heroTable[heroid].exploreTreasureSkill or {}) do
 				table.insert(skillTab,v)
@@ -2073,7 +2073,7 @@ function HeroDataMgr:getAttributes()
 	return self.heroAttTable
 end
 
-function HeroDataMgr:getAttributeValue(heroId,attId)
+function HeroDataMgr:getAttributeValue(heroId,attId,isfriend)
 	-- 之前的属性是服务端直接发的，只有攻防血3个。
 	-- 现在的话有2个变化：
 	-- 1是有些属性显示的格式需要客户端进行处理，比如暴击率、格挡率这种，
@@ -2092,7 +2092,7 @@ function HeroDataMgr:getAttributeValue(heroId,attId)
 		attVal = attVal.val
 	end
 
-	local skilltab = self:getSkillTab(heroId);
+	local skilltab = self:getSkillTab(heroId,isfriend);
 	for k,v in pairs(skilltab) do
 		local data = TabDataMgr:getData("PassiveSkills",v)
 		if data and data.attribute then
@@ -2118,7 +2118,7 @@ function HeroDataMgr:getAttributeValue(heroId,attId)
 		local attConfig = self:getAttributeConfig(attId)
 		local addRatio = 0
 		if attConfig.hasRatio == 1 then
-			addRatio = self:getAttributeValue(heroId,attConfig.ratioAttributeId)
+			addRatio = self:getAttributeValue(heroId,attConfig.ratioAttributeId,isfriend)
 		end
 		--最终的属性值=基础模块属性值*（1+对应加成率/10000）
 		attVal = attVal * (1+addRatio/10000) / attConfig.division
@@ -2126,8 +2126,8 @@ function HeroDataMgr:getAttributeValue(heroId,attId)
 	return attVal
 end
 
-function HeroDataMgr:getAttributeValueStr(heroId,attId)
-	local attValue = self:getAttributeValue(heroId,attId)
+function HeroDataMgr:getAttributeValueStr(heroId,attId,isfriend)
+	local attValue = self:getAttributeValue(heroId,attId,isfriend)
 	if not attValue or attValue<=0 then
 		return "0"
 	end

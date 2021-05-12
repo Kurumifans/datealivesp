@@ -968,3 +968,6 @@ EV_FUBEN_ENDLESSPLUS_CONTINUE = "EV_FUBEN_ENDLESSPLUS_CONTINUE"    -- 继续下�
 
 -- 赠礼返还活动
 EV_RETURN_GIFT_DATA = "EV_RETURN_GIFT_DATA"
+
+-- 战令回顾
+EV_BATTLE_LV_CHOICE_WAR = "EV_BATTLE_LV_CHOICE_WAR" --选择回顾战令

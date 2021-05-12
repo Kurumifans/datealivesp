@@ -1015,6 +1015,20 @@ return {
         speBg = "",
         Zorder = 0,
     },
+    [4132021] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_13202/main_effect_13202",
+        action = "up",
+        isLoop = true,
+        id = 4132021,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
     [1071] = {
         offset = {
         },
@@ -2262,6 +2276,20 @@ return {
         action = "",
         isLoop = true,
         id = 4118023,
+        particle = "",
+        lag = 0,
+        scales = 1,
+        isDelete = true,
+        speBg = "",
+        Zorder = 0,
+    },
+    [413202] = {
+        offset = {
+        },
+        path = "effect/dating/ui_superKanban_13202/main_effect_13202",
+        action = "down",
+        isLoop = true,
+        id = 413202,
         particle = "",
         lag = 0,
         scales = 1,

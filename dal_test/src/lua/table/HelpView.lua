@@ -1430,6 +1430,20 @@ return {
             [1] = 63031,
         },
     },
+    [4110] = {
+        picPath  = "",
+        type = 0,
+        title = "15011418",
+        pictureParameter = {
+        },
+        id = 4110,
+        desParameter = {
+        },
+        fileName = "Help",
+        desc = {
+            [1] = 15011419,
+        },
+    },
     [1032] = {
         picPath  = "",
         type = 0,

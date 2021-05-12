@@ -1094,6 +1094,14 @@ function NewRoleShowView:refreshBg(imageBg, bgPath)
 end
 
 function NewRoleShowView:updateRoleModel(modelId)
+	local keys = me.TextureCache:textureKeys()
+    local nLen = keys:size()
+    if nLen > 500 then
+    	me.FrameCache:removeUnusedSpriteFrames()
+        SpineCache:getInstance():clearUnused()
+        me.TextureCache:removeUnusedTextures()
+        collectgarbage("collect")
+    end
     local selectId = self.dressId_[self.selectDIdx]
     local data = dressTable[selectId]
     local curModelId = modelId or RoleDataMgr:getModel(self.curId)                                                
@@ -1210,7 +1218,7 @@ function NewRoleShowView:updateRoleModel(modelId)
     if data and data.type and data.type == 2 then
         return    	
     end
-    --self.model:playMoveRightIn(0.3)
+    self.model:playMoveRightIn(0.3)
     --self.model:setZOrder(-1)
     --self.ui:timeOut(function()
     --    self.model:setZOrder(1)
