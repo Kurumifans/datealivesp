@@ -1,15 +1,15 @@
 local TaskTrainingBuyLevelView = class("TaskTrainingBuyLevelView", BaseLayer)
 
 
-function TaskTrainingBuyLevelView:ctor(data)
-    self.super.ctor(self,data)
-    self:initData(data)
+function TaskTrainingBuyLevelView:ctor(...)
+    self.super.ctor(self)
+    self:initData(...)
     self:showPopAnim(true)
     self:init("lua.uiconfig.task.taskTrainingBuyLevelView")
 end
 
-function TaskTrainingBuyLevelView:initData(data)
-    self.curBattleLvType = data
+function TaskTrainingBuyLevelView:initData(curBattleLvType)
+    self.curBattleLvType = curBattleLvType
     self.curLevel = ActivityDataMgr2:getWarOrderLevel(self.curBattleLvType)
     self.maxLevel = ActivityDataMgr2:getWarOrderMaxLevel(self.curBattleLvType) - self.curLevel
     self.selectNum = 1
@@ -70,7 +70,13 @@ function TaskTrainingBuyLevelView:updateLevelUI()
     self:updateRewards()
     local levelCost, addExp = TaskDataMgr:getTrainingUpLevelCost(self.curLevel + self.selectNum, self.curBattleLvType)
     self.Label_res_num:setText(tostring(levelCost))
-    self.Label_tips:setTextById(14220061, targetLevel, addExp)
+    local _txtId 
+    if self.curBattleLvType == EC_TaskPage.TRAININIG  then
+        _txtId = 14220061
+    elseif self.curBattleLvType == EC_TaskPage.TRAININIG_Review then
+        _txtId = 14220123
+    end
+    self.Label_tips:setTextById(_txtId, targetLevel, addExp)
 end
 
 function TaskTrainingBuyLevelView:updateRewards()

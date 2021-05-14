@@ -9835,7 +9835,7 @@ return {
         bgScales = 0,
         des = "",
         adaptation = 0,
-        desTextId = 20276,
+        desTextId = 20272,
         skinSettingDesc = 0,
         belongTo = 0,
         convertMax = {

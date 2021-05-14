@@ -612,7 +612,7 @@ return {
         weight = 0,
         status = 2,
         titleIcon = "",
-        details = "{\"beginTime\":\"2021-05-14 00:00:00\",\"endTime\":\"2021-06-27 23:59:59\",\"tipsTime\":\"2021-06-12 23:59:59\",\"costitem\":{520095:10},\"text\":63932,\"maxLevel\":30,\"rechargeList\":[810007,810008,810009],\"levelCost\":5,\"upMinExp\":10,\"dress\":410311,\"picture\":\"ui/task/01/02/3.png\",\"banner\":\"ui/task/01/02/32.png\",\"reviewRechargeList\":[810001,810002,810003,810004,810005,810006,810007,810008,810009]}",
+        details = "{\"beginTime\":\"2021-05-14 00:00:00\",\"endTime\":\"2021-06-27 23:59:59\",\"tipsTime\":\"2021-06-12 23:59:59\",\"costitem\":{520095:10},\"text\":63932,\"maxLevel\":30,\"rechargeList\":[810007,810008,810009],\"levelCost\":10,\"upMinExp\":10,\"dress\":410311,\"picture\":\"ui/task/01/02/3.png\",\"banner\":\"ui/task/01/02/32.png\",\"reviewRechargeList\":[810001,810002,810003,810004,810005,810006,810007,810008,810009]}",
         type = 1028,
     },
     [130024] = {
@@ -630,7 +630,7 @@ return {
         weight = 0,
         status = 2,
         titleIcon = "",
-        details = "{\"beginTime\":\"2021-05-14 00:00:00\",\"endTime\":\"2021-06-27 23:59:59\",\"tipsTime\":\"2021-06-12 23:59:59\",\"costitem\":{520095:10},\"text\":63932,\"maxLevel\":30,\"rechargeList\":[810004,810005,810006],\"levelCost\":5,\"upMinExp\":10,\"dress\":410219,\"picture\":\"ui/task/01/02/2.png\",\"banner\":\"ui/task/01/02/23.png\",\"reviewRechargeList\":[810001,810002,810003,810004,810005,810006,810007,810008,810009]}",
+        details = "{\"beginTime\":\"2021-05-14 00:00:00\",\"endTime\":\"2021-06-27 23:59:59\",\"tipsTime\":\"2021-06-12 23:59:59\",\"costitem\":{520095:10},\"text\":63932,\"maxLevel\":30,\"rechargeList\":[810004,810005,810006],\"levelCost\":10,\"upMinExp\":10,\"dress\":410219,\"picture\":\"ui/task/01/02/2.png\",\"banner\":\"ui/task/01/02/23.png\",\"reviewRechargeList\":[810001,810002,810003,810004,810005,810006,810007,810008,810009]}",
         type = 1028,
     },
     [100003] = {
@@ -743,7 +743,7 @@ return {
         weight = 0,
         status = 2,
         titleIcon = "",
-        details = "{\"beginTime\":\"2021-05-14 00:00:00\",\"endTime\":\"2021-06-27 23:59:59\",\"tipsTime\":\"2021-06-12 23:59:59\",\"costitem\":{520095:10},\"text\":63932,\"maxLevel\":30,\"rechargeList\":[810001,810002,810003],\"levelCost\":5,\"upMinExp\":10,\"dress\":410113,\"picture\":\"ui/task/01/02/1.png\",\"banner\":\"ui/task/01/02/12.png\",\"reviewRechargeList\":[810001,810002,810003,810004,810005,810006,810007,810008,810009]}",
+        details = "{\"beginTime\":\"2021-05-14 00:00:00\",\"endTime\":\"2021-06-27 23:59:59\",\"tipsTime\":\"2021-06-12 23:59:59\",\"costitem\":{520095:10},\"text\":63932,\"maxLevel\":30,\"rechargeList\":[810001,810002,810003],\"levelCost\":10,\"upMinExp\":10,\"dress\":410113,\"picture\":\"ui/task/01/02/1.png\",\"banner\":\"ui/task/01/02/12.png\",\"reviewRechargeList\":[810001,810002,810003,810004,810005,810006,810007,810008,810009]}",
         type = 1028,
     },
     [130021] = {

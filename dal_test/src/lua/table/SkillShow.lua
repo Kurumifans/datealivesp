@@ -765,7 +765,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_10210",
+            animation = "fight_10210_skillD_show",
         },
         effectsDown = {
             [1] = {

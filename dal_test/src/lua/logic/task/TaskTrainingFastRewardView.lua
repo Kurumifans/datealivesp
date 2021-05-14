@@ -89,7 +89,7 @@ function TaskTrainingFastRewardView:registerEvents()
     end)
 
     self.Button_unlock:onTouch(function(event)
-        Utils:openView("task.TaskTrainingChargeView")
+        Utils:openView("task.TaskTrainingChargeView", self.curBattleLvType)
     end)
 end
 
