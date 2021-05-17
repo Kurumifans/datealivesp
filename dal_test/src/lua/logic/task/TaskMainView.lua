@@ -46,7 +46,7 @@ function TaskMainView:initData(taskType ,isComeFromBattleLv)
             table.insert(self.tabData_, 3, cfg_TRAININIG)
             table.insert(self.tabData_, 4, cfg_TRAININIG_TASK)
         end
-
+        self.warOrderActivity = ActivityDataMgr2:getWarOrderAcrivityInfo()
         if ActivityDataMgr2:isWarOrderReviewActivityOpen() then
             table.insert(self.tabData_, {type_ = EC_TaskPage.TRAININIG_Review,icon = "ui/task/tab_5.png",text = 13410037})
         end
@@ -79,7 +79,7 @@ end
 function TaskMainView:getClosingStateParams()
     for i, v in ipairs(self.tabData_) do
         if self.selectIndex_ == i then
-            return {v.type_}
+            return {v.type_, self.isComeFromBattleLv}
         end
     end
 end
@@ -877,9 +877,10 @@ function TaskMainView:updateTringUI()
         txtDiscCfgDic[tonumber(v.id)] = v
     end
     
+
     if tabData.type_ == EC_TaskPage.TRAININIG then
         activityInfo = ActivityDataMgr2:getWarOrderAcrivityInfo()
-        local openTag = activityInfo.extendData.entry
+        local openTag = activityInfo and activityInfo.extendData.entry or false
         self.panel_reviwBtns:setVisible(openTag and tonumber(openTag) == 1)
         self.Button_upgrade:show()
         self.Button_get_all:show()

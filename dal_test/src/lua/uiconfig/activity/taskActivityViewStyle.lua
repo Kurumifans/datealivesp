@@ -105,6 +105,7 @@ local t =
 								nGravity = 6,
 								nAlign = 5
 							},
+							visible = "False",
 							width = "923",
 							ZOrder = "1",
 						},

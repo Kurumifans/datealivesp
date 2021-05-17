@@ -1,19 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.57" lastVersion="3.4.54">
-  <f p=".nomedia/nomedia.txt" m="928a4e7f3cd92f9147fbb44481b82f69" c="0" />
-  <f p="res/basic/video/openpv.mp4" m="6e4669e2b22a672bc31f34d82201db77" c="0" />
-  <f p="src/lua/ai/ai_624106.lua" m="13698edd2f7089f092a95ed61892bf94" c="0" />
-  <f p="src/lua/logic/mail/ShowMail.lua" m="ffb8f4ab7b43b3b0dd058456e1e7ec05" c="0" />
-  <f p="src/lua/logic/task/TaskTrainingBuyLevelView.lua" m="548deda2a5951823a9702833dd599e0d" c="0" />
-  <f p="src/lua/logic/task/TaskTrainingFastRewardView.lua" m="2ccdd55382792d503638cfd69b933619" c="0" />
-  <f p="src/lua/public/Utils.lua" m="fc2b868b57e2efa255c03bd92ce72036" c="0" />
-  <f p="src/lua/table/Dress.lua" m="aedc7fd11e8ed4c5185195b59cd210e8" c="0" />
-  <f p="src/lua/table/NewPokedex.lua" m="098c508113f139da0296e6fc663988cd" c="0" />
-  <f p="src/lua/table/ReturnNewble.lua" m="676e867af05ec38c2d9d6501fae8a2d4" c="0" />
-  <f p="src/lua/table/SkillEffect.lua" m="91872fd4ab3322c71ef9142e52872675" c="0" />
-  <f p="src/lua/table/SkillShow.lua" m="c5e05d02deffd35b86c23e7215393ce4" c="0" />
-  <f p="src/lua/table/String.lua" m="b596309aef0b6b352a12c2fa690c2ccc" c="0" />
-  <f p="res/basic/effect/fight_10210_skillD_show/fight_10210_skillD_show.atlas" m="d4afafc092c92723322603636461d800" />
-  <f p="res/basic/effect/fight_10210_skillD_show/fight_10210_skillD_show.png" m="e7d658ab6f6297e677f2357e287e53d7" />
-  <f p="res/basic/effect/fight_10210_skillD_show/fight_10210_skillD_show.skel" m="5bc52dfe1123a5b67992a27fbf0c3579" />
+<files version="3.4.59" lastVersion="3.4.57">
+  <f p=".nomedia/nomedia.txt" m="9ab1fbaafb6ba7a72a9529354522b7d4" c="0" />
+  <f p="res/basic/effect/effect_props/effect_props.png" m="bd0c80dde7dbfddddf46b14b68e4fbe2" c="0" />
+  <f p="res/basic/effect/effect_props/effect_props2.png" m="a95d99062d4cab7c958ad229405b5d8f" c="0" />
+  <f p="res/basic/effect/effect_props/effect_props3.png" m="55de33a591b538ada99763321e37adb1" c="0" />
+  <f p="res/basic/video/loginPart1.mp4" m="731b493d357620f481abbdc80a014468" c="0" />
+  <f p="res/basic/video/loginPart2.mp4" m="754864664031f1e59c0aa95f75fd37d4" c="0" />
+  <f p="src/lua/dataMgr/PrefabDataMgr.lua" m="a5eb3ba70c8cbe0e888579dd78ab8c09" c="0" />
+  <f p="src/lua/dataMgr/ServerDataMgr.lua" m="0f8777d65d17a6c7eb5f673e339a08fa" c="0" />
+  <f p="src/lua/logic/bag/ExGetItemView.lua" m="0a6858fa8f650f475fb596b1aa29fffd" c="0" />
+  <f p="src/lua/logic/bag/GetItemView.lua" m="245b269aa4fbf7c2ecc86c1a8110d5c4" c="0" />
+  <f p="src/lua/logic/kabalaTree/KabalaTreeAward.lua" m="c2bcb25aff952f098e5d7ba96782ec52" c="0" />
+  <f p="src/lua/logic/task/TaskMainView.lua" m="97c6327cb59c8f3f2895260cd7a3337f" c="0" />
+  <f p="src/lua/table/AngelSkillTree.lua" m="f76cb7357f43a7755f589534c94e471d" c="0" />
+  <f p="src/lua/table/BattleMemory.lua" m="3ae9344d51707ce4e751cb12a68a76ac" c="0" />
+  <f p="src/lua/table/Buffer.lua" m="f1be3f204bc94f0507bbe67885efbd85" c="0" />
+  <f p="src/lua/table/KurumiDungeonCity.lua" m="c5d36fd4772d3c03fd4566079b7e58d6" c="0" />
+  <f p="src/lua/table/String.lua" m="6bdf48469e96e9e8c971503b27cd2c43" c="0" />
+  <f p="src/lua/table/Summon.lua" m="555d715f19675d71a0d10234d023b8c0" c="0" />
+  <f p="src/lua/table/SummonPool.lua" m="f7656d47af753b4de26ac9549413e9da" c="0" />
+  <f p="src/lua/table/SummonPreview.lua" m="1181eea24357f7b211b8e3f52800dc57" c="0" />
+  <f p="src/lua/table/Task.lua" m="2680f7652f4135cd9221f18d9fc06125" c="0" />
+  <f p="src/lua/uiconfig/activity/taskActivityViewStyle.lua" m="ccff04fb83a23fa3347c05d642438073" c="0" />
+  <f p="src/lua/uiconfig/common/prefabView.lua" m="69a31de283681115a796a529c2cc4aac" c="0" />
+  <f p="res/basic/effect/effect_props/effect_props.skel" m="d9509969737b428db1947ac3cf9dcd36" />
 </files>

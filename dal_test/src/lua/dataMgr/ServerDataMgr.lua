@@ -59,11 +59,6 @@ function ServerDataMgr:init()
             name = "外网-预发布",
             url = "http://49.233.184.62:10001/account/login"
         },
-        ["already_pub"] = {
-            sort = 12,
-            name = "外网-已发布",
-            url = "http://49.232.53.112:8081/account/login"
-        },
         ["pub_test"] = {
             sort = 7,
             name = "外网-压测服",

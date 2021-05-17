@@ -895,7 +895,7 @@ return {
         nameTextId = 63928,
         returnnewbleId = 130023,
         preview = 1,
-        icon = "ui\\task\\01\\02\\11.png",
+        icon = "ui/task/01/02/11.png",
         reward = {
             [1] = {
                 [1] = 410113,
@@ -1799,7 +1799,7 @@ return {
         nameTextId = 63929,
         returnnewbleId = 130024,
         preview = 1,
-        icon = "ui\\task\\01\\02\\22.png",
+        icon = "ui/task/01/02/22.png",
         reward = {
             [1] = {
                 [1] = 410219,
@@ -2703,7 +2703,7 @@ return {
         nameTextId = 63930,
         returnnewbleId = 130025,
         preview = 1,
-        icon = "ui\\task\\01\\02\\31.png",
+        icon = "ui/task/01/02/31.png",
         reward = {
             [1] = {
                 [1] = 410311,
