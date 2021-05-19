@@ -47,21 +47,22 @@ function refreshView(self)
                 if not Panel_goodsItem.Spine_qualityEffect_bg  then
                     Panel_goodsItem.Spine_qualityEffect_bg = SkeletonAnimation:create("effect/effect_props/effect_props")
                 end
+                Panel_goodsItem.Spine_qualityEffect_bg:setScale(0.9)
                 Panel_goodsItem.Spine_qualityEffect_bg:play(EC_ItemQualityEffect[itemCfg.quality].bg,true)
-                Panel_goodsItem:getChildByName("Image_frame"):addChild(Panel_goodsItem.Spine_qualityEffect_bg,0)
-                if not Panel_goodsItem.Spine_qualityEffect_up2  then
-                    Panel_goodsItem.Spine_qualityEffect_up2 = SkeletonAnimation:create("effect/effect_props/effect_props")
+                Panel_goodsItem:addChild(Panel_goodsItem.Spine_qualityEffect_bg,0)
+                if not item.Spine_qualityEffect_up2  then
+                    item.Spine_qualityEffect_up2 = SkeletonAnimation:create("effect/effect_props/effect_props")
                 end
-                Panel_goodsItem.Spine_qualityEffect_up2:play(EC_ItemQualityEffect[itemCfg.quality].up2,true)
-                Panel_goodsItem.Spine_qualityEffect_up2:setVisible(false)
-                Panel_goodsItem:getChildByName("Image_icon"):addChild(Panel_goodsItem.Spine_qualityEffect_up2,1)
+                item.Spine_qualityEffect_up2:play(EC_ItemQualityEffect[itemCfg.quality].up2,true)
+                item.Spine_qualityEffect_up2:setVisible(false)
+                Panel_goodsItem:getChildByName("Image_icon"):addChild(item.Spine_qualityEffect_up2,2)
                 local pos = ccp(1,-1)
                 if itemCfg.quality == EC_ItemQuality.PURPLE then
                     pos = ccp(2,-1)
                 elseif itemCfg.quality == EC_ItemQuality.RED then
                     pos = ccp(1,1)
                 end
-                Panel_goodsItem.Spine_qualityEffect_up2:setPosition(pos)
+                item.Spine_qualityEffect_up2:setPosition(pos)
             end
             item.quality = itemCfg.quality
         end
@@ -89,6 +90,7 @@ function refreshView(self)
                 if not Panel_goodsItem.Spine_qualityEffect_bg  then
                     Panel_goodsItem.Spine_qualityEffect_bg = SkeletonAnimation:create("effect/effect_props/effect_props")
                 end
+                Panel_goodsItem.Spine_qualityEffect_bg:setScale(0.9)
                 Panel_goodsItem.Spine_qualityEffect_bg:play(EC_ItemQualityEffect[itemCfg.quality].bg,true)
                 Panel_goodsItem:addChild(Panel_goodsItem.Spine_qualityEffect_bg,0)
                 if not Panel_goodsItem.Spine_qualityEffect_up2  then

@@ -2715,7 +2715,7 @@ return {
         roleModel = 210421,
         skinSettingTitle = 13203001,
         accessId = {
-            [1] = 181,
+            [1] = 194,
         },
         icon = "icon/role/dress_kanban/10422.png",
     },
@@ -2907,7 +2907,7 @@ return {
         background = "scene/bg/bg_black.png",
         smallType = 0,
         quality = 6,
-        roleUnlock = 104,
+        roleUnlock = 0,
         skinSettingIcon = "icon/role/dress_kanban/skin/skin_10423.png",
         speVoiceSuffix = "",
         subType = 0,
@@ -2979,7 +2979,7 @@ return {
         roleModel = 210421,
         skinSettingTitle = 13203001,
         accessId = {
-            [1] = 183,
+            [1] = 194,
         },
         icon = "icon/role/dress_kanban/10423.png",
     },

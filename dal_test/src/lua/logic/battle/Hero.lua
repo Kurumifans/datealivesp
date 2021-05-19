@@ -6472,7 +6472,7 @@ function Hero:fix_boss(heroId, posX , posY , dir , hp , sp)
     local curHp = self:getHp()
     if curHp > 0 and hp then
         local lose = hp - curHp
-        if  lose < 0 and lose > -1000000 then
+        if  lose < 0 then
             self:setValue(eAttrType.ATTR_NOW_HP,hp,true)
             if battleController.isShowFixHurt() then
                 self:showDamage(lose) --显示掉血

@@ -1,27 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.59" lastVersion="3.4.57">
-  <f p=".nomedia/nomedia.txt" m="9ab1fbaafb6ba7a72a9529354522b7d4" c="0" />
-  <f p="res/basic/effect/effect_props/effect_props.png" m="bd0c80dde7dbfddddf46b14b68e4fbe2" c="0" />
-  <f p="res/basic/effect/effect_props/effect_props2.png" m="a95d99062d4cab7c958ad229405b5d8f" c="0" />
-  <f p="res/basic/effect/effect_props/effect_props3.png" m="55de33a591b538ada99763321e37adb1" c="0" />
-  <f p="res/basic/video/loginPart1.mp4" m="731b493d357620f481abbdc80a014468" c="0" />
-  <f p="res/basic/video/loginPart2.mp4" m="754864664031f1e59c0aa95f75fd37d4" c="0" />
-  <f p="src/lua/dataMgr/PrefabDataMgr.lua" m="a5eb3ba70c8cbe0e888579dd78ab8c09" c="0" />
-  <f p="src/lua/dataMgr/ServerDataMgr.lua" m="0f8777d65d17a6c7eb5f673e339a08fa" c="0" />
-  <f p="src/lua/logic/bag/ExGetItemView.lua" m="0a6858fa8f650f475fb596b1aa29fffd" c="0" />
-  <f p="src/lua/logic/bag/GetItemView.lua" m="245b269aa4fbf7c2ecc86c1a8110d5c4" c="0" />
-  <f p="src/lua/logic/kabalaTree/KabalaTreeAward.lua" m="c2bcb25aff952f098e5d7ba96782ec52" c="0" />
-  <f p="src/lua/logic/task/TaskMainView.lua" m="97c6327cb59c8f3f2895260cd7a3337f" c="0" />
-  <f p="src/lua/table/AngelSkillTree.lua" m="f76cb7357f43a7755f589534c94e471d" c="0" />
-  <f p="src/lua/table/BattleMemory.lua" m="3ae9344d51707ce4e751cb12a68a76ac" c="0" />
-  <f p="src/lua/table/Buffer.lua" m="f1be3f204bc94f0507bbe67885efbd85" c="0" />
-  <f p="src/lua/table/KurumiDungeonCity.lua" m="c5d36fd4772d3c03fd4566079b7e58d6" c="0" />
-  <f p="src/lua/table/String.lua" m="6bdf48469e96e9e8c971503b27cd2c43" c="0" />
-  <f p="src/lua/table/Summon.lua" m="555d715f19675d71a0d10234d023b8c0" c="0" />
-  <f p="src/lua/table/SummonPool.lua" m="f7656d47af753b4de26ac9549413e9da" c="0" />
-  <f p="src/lua/table/SummonPreview.lua" m="1181eea24357f7b211b8e3f52800dc57" c="0" />
-  <f p="src/lua/table/Task.lua" m="2680f7652f4135cd9221f18d9fc06125" c="0" />
-  <f p="src/lua/uiconfig/activity/taskActivityViewStyle.lua" m="ccff04fb83a23fa3347c05d642438073" c="0" />
-  <f p="src/lua/uiconfig/common/prefabView.lua" m="69a31de283681115a796a529c2cc4aac" c="0" />
-  <f p="res/basic/effect/effect_props/effect_props.skel" m="d9509969737b428db1947ac3cf9dcd36" />
+<files version="3.4.61" lastVersion="3.4.59">
+  <f p=".nomedia/nomedia.txt" m="6eabf415e2121bc4c4260f4831296f6e" c="0" />
+  <f p="res/basic/effect/effect_props/effect_props.atlas" m="89f00caeba8a9f9048c396ee726fb9ce" c="0" />
+  <f p="res/basic/effect/effect_props/effect_props.png" m="00d47e867aa16d43db8d63755862f376" c="0" />
+  <f p="res/basic/effect/effect_props/effect_props.skel" m="b984ada379857a1fc0a50e657e427fc5" c="0" />
+  <f p="res/basic/ui/login/new1/b1.png" m="4da675eb2c37c109ea695bcd21f666ac" c="0" />
+  <f p="res/basic/ui/login/new1/b2.png" m="493fb7a1e957fa63b3b5e5e28450f6c9" c="0" />
+  <f p="res/basic/ui/login/new1/b3.png" m="e456c7600117f1dc18086113d86bf814" c="0" />
+  <f p="res/basic/ui/login/new1/b7.png" m="27ed59abab9ff3b93f7f53fa9c43998d" c="0" />
+  <f p="res/basic/ui/login/001.png" m="a2ac4648fca08f8080fa0f08618631ac" c="0" />
+  <f p="res/basic/ui/login/002.png" m="973438c5006bdeae08ee30fd177e79ec" c="0" />
+  <f p="res/basic/ui/login/003.png" m="569331063b8b9a1132bac4c4664436b5" c="0" />
+  <f p="res/basic/ui/login/004.png" m="02bcaf86c0d93ed8a4508e8927e2e950" c="0" />
+  <f p="res/basic/ui/login/005.png" m="4da675eb2c37c109ea695bcd21f666ac" c="0" />
+  <f p="res/basic/ui/login/006.png" m="493fb7a1e957fa63b3b5e5e28450f6c9" c="0" />
+  <f p="res/basic/ui/login/7.png" m="27ed59abab9ff3b93f7f53fa9c43998d" c="0" />
+  <f p="src/lua/logic/bag/ExGetItemView.lua" m="da7efb6a8b67f8edea8968fc6d069683" c="0" />
+  <f p="src/lua/logic/bag/GetItemView.lua" m="47ffc54e087e87eb4a0f5117db076ce2" c="0" />
+  <f p="src/lua/logic/battle/BattleScene.lua" m="33d7460dcb789db8517f45eba72d66c7" c="0" />
+  <f p="src/lua/logic/battle/Hero.lua" m="e19c5eaf8d0b6ba559262d05a6cae08f" c="0" />
+  <f p="src/lua/logic/battle/LockStep.lua" m="c94da4ed31ded88041a0e415ff7da350" c="0" />
+  <f p="src/lua/logic/collect/CollectRewardView.lua" m="08b58d21f90274668800cb5308a795b0" c="0" />
+  <f p="src/lua/logic/kabalaTree/KabalaTreeAward.lua" m="9965e7d2bd9ed25462b8258761074b80" c="0" />
+  <f p="src/lua/logic/login/LoginLayer.lua" m="7f1cf6f334641590aa88936bed4c20f2" c="0" />
+  <f p="src/lua/logic/MainScene/MainScene.lua" m="4fbbaf2998cce9d5a9e8d39e0580fee2" c="0" />
+  <f p="src/lua/table/Dress.lua" m="61e5bb7c48baf62120fc1f8eadd0dfc4" c="0" />
+  <f p="src/lua/table/DungeonLevel.lua" m="0b41733ee781b240788c8cdd00cf051f" c="0" />
+  <f p="src/lua/table/Item.lua" m="74a6eb96e6e2f6db745739cf06629ac8" c="0" />
+  <f p="src/lua/table/Medal.lua" m="2c3ff8d504ffbd9e26bca573796a4d62" c="0" />
+  <f p="src/lua/table/SkillAction.lua" m="2ac857a6bfc572d8d12b8e0ad1e533fa" c="0" />
+  <f p="src/lua/table/SkillEffect.lua" m="6b23c453a602e43c909b68bdccebed27" c="0" />
+  <f p="src/lua/table/String.lua" m="c4bf952826fccfda6987fa50dccd3120" c="0" />
 </files>
