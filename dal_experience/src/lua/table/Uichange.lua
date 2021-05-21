@@ -35,6 +35,24 @@ return {
         icon = "ui/setting/new/bg3.png",
         des = "14310002",
     },
+    [100006] = {
+        preBeginTime = "2020-12-19 00:00:00",
+        bgm = "sound/bgm/main_shengdan.mp3",
+        id = 100006,
+        popupLocation = {
+        },
+        condition = {
+        },
+        unlockType = 0,
+        titleType = 2,
+        uiConfig  = "lua.uiconfig.MainScene.MerryMainLayer",
+        name = "14320006",
+        preEndTime = "2021-1-10 23:59:59",
+        endTime = "2021-1-10 23:59:59",
+        beginTime = "2020-12-19 00:00:00",
+        icon = "ui/setting/new/bg6.png",
+        des = "14310007",
+    },
     [100003] = {
         preBeginTime = "",
         bgm = "sound/bgm/main_001.mp3",
@@ -57,6 +75,24 @@ return {
         beginTime = "",
         icon = "ui/setting/new/bg2.png",
         des = "14310003",
+    },
+    [100007] = {
+        preBeginTime = "2021-02-04 00:00:00",
+        bgm = "sound/bgm/main_2020.mp3",
+        id = 100007,
+        popupLocation = {
+        },
+        condition = {
+        },
+        unlockType = 0,
+        titleType = 2,
+        uiConfig  = "lua.uiconfig.MainScene.newYear2021Theme",
+        name = "14320007",
+        preEndTime = "2021-03-12 23:59:59",
+        endTime = "2021-03-12 23:59:59",
+        beginTime = "2021-02-04 00:00:00",
+        icon = "ui/setting/new/bg7.png",
+        des = "14310008",
     },
     [100004] = {
         preBeginTime = "2020-01-15 00:00:00",
@@ -95,5 +131,28 @@ return {
         beginTime = "",
         icon = "ui/setting/new/bg1.png",
         des = "14310001",
+    },
+    [100008] = {
+        preBeginTime = "",
+        bgm = "sound/bgm/main_001.mp3",
+        id = 100008,
+        popupLocation = {
+            y = 1,
+            x = 60,
+        },
+        condition = {
+            ownItems = {
+                [575015] = 1,
+            },
+        },
+        unlockType = 2,
+        titleType = 1,
+        uiConfig  = "lua.uiconfig.MainScene.ShixiangMainLaye",
+        name = "14320008",
+        preEndTime = "",
+        endTime = "",
+        beginTime = "",
+        icon = "ui/setting/new/bg8.png",
+        des = "14310009",
     },
 }

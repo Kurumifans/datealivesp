@@ -62,7 +62,6 @@ function LeagueHunterMainView:initUI( ui )
 	self.Panel_buff       = TFDirector:getChildByPath(ui,"Panel_buff")
 	self.Panel_levels     = TFDirector:getChildByPath(ui,"Panel_levels")
 	self.Image_hero       = TFDirector:getChildByPath(ui,"Image_hero")
-	self.Button_pass = TFDirector:getChildByPath(ui,"Button_pass"):hide()
 
 	self.Button_rewards   = TFDirector:getChildByPath(ui,"Button_rewards")
 	self.Button_ranking   = TFDirector:getChildByPath(ui,"Button_ranking")
@@ -394,13 +393,6 @@ function LeagueHunterMainView:registerEvents()
 		end
 	end)
 
-	self.Button_pass:onClick(function ( ... )
-		local cfg = FubenDataMgr:getLevelCfg(self.bossCfg.id)
-		local cmd = string.format("./hunting_client %s", tostring(cfg.id))
-        local chatState = EC_ChatState.CHAT
-        TFDirector:send(c2s.CHAT_CHAT, {1, chatState,cmd})
-	end)
-
 	EventMgr:addEventListener(self, EV_HUNTER_RANKLIST_GET, function ( ... )
 		Utils:openView("league.LeagueHunterRankView") --排行列表
 	end)
@@ -487,11 +479,6 @@ function LeagueHunterMainView:refreshView(  )
 		-- self.stageLabel:setText("挑战期")
 		self.Panel_buff:setVisible(true)
 		self.Panel_boss_info:setVisible(true)
-		if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or EXPERIENCE then
-			self.Button_pass:show()
-		else
-			self.Button_pass:hide()
-		end
 		self:updatePanelBuff()
 		self:updatePanelBossInfo()
 		posOffset = self.bossCfg.pictureOffset2 or self.bossCfg.pictureOffset		

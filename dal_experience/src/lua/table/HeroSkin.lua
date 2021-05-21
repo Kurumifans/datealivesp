@@ -67,7 +67,7 @@ return {
         dealProfit = {
         },
         icon = "icon/role/dress/10210s.png",
-        quality = 3,
+        quality = 2,
         AngelSkillTree = "Angle_skill_10210",
     },
     [1102102] = {
@@ -5207,7 +5207,7 @@ return {
         dealProfit = {
         },
         icon = "icon/role/dress/10209s.png",
-        quality = 3,
+        quality = 2,
         AngelSkillTree = "Angle_skill_10209",
     },
     [1105013] = {

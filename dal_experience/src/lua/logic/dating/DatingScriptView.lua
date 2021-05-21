@@ -2508,6 +2508,7 @@ function DatingScriptView:playVoice(time)
             self.isAuttoJump = false
             self.isTouchJump = false
             TFAudio.setFinishCallback(self.voiceHandle,function()
+                if tolua.isnull(self ) then return end
                 self.isTouchJump = true
                 if self.isAuttoJump then
                     if self.skipFun then
@@ -2517,6 +2518,9 @@ function DatingScriptView:playVoice(time)
                     self.isAuttoJump = true
                 end
                 self.voiceHandle = nil
+                if self.stopNovoice then
+                    self:stopNovoice()
+                end
             end)
         end
     end,time)

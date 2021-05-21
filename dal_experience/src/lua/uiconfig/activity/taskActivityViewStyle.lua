@@ -105,6 +105,7 @@ local t =
 								nGravity = 6,
 								nAlign = 5
 							},
+							visible = "False",
 							width = "923",
 							ZOrder = "1",
 						},
@@ -187,12 +188,12 @@ local t =
 									controlID = "Label_date_Image_ad_Panel_root_Panel-taskActivityViewStyle_activityStyleModel_activity_Game",
 									UUID = "8efaed2d_c96f_43af_8857_39b4095091c7",
 									anchorPoint = "False",
-									anchorPointX = "0",
+									anchorPointX = "1",
 									anchorPointY = "0.5",
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FFFFFFFF",
+									FontColor = "#FFE5BE78",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -212,8 +213,8 @@ local t =
 									height = "25",
 									ignoreSize = "False",
 									name = "Label_date",
-									nTextAlign = "1",
-									nTextHAlign = "0",
+									nTextAlign = "0",
+									nTextHAlign = "2",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -223,11 +224,10 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -459,
-										PositionY = 78,
+										PositionX = 452,
+										PositionY = -49,
 									},
-									visible = "False",
-									width = "350",
+									width = "240",
 									ZOrder = "1",
 								},
 								{
@@ -271,8 +271,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -455,
-										PositionY = -19,
+										PositionX = -466,
+										PositionY = -12,
 									},
 									visible = "False",
 									width = "84",
@@ -298,8 +298,8 @@ local t =
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -393,
-										PositionY = 36,
+										PositionX = -404,
+										PositionY = 43,
 									},
 									visible = "False",
 									width = "140",
@@ -346,8 +346,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -435,
-										PositionY = 11,
+										PositionX = -446,
+										PositionY = 18,
 									},
 									visible = "False",
 									width = "84",
@@ -394,8 +394,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -417,
-										PositionY = 42,
+										PositionX = -428,
+										PositionY = 49,
 									},
 									visible = "False",
 									width = "84",
@@ -531,20 +531,20 @@ local t =
 									backGroundScale9Enable = "False",
 									classname = "MEImage",
 									dstBlendFunc = "771",
-									height = "129",
+									height = "128",
 									ignoreSize = "True",
 									name = "Image_diban",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "1",
-									texturePath = "ui/activity/activityStyle/taskActivity/styleCur/item_bg.png",
+									texturePath = "ui/activity/kuangsan_fuben/new_add/001.png",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
 										
 									},
-									width = "908",
+									width = "920",
 									ZOrder = "1",
 								},
 								{
@@ -570,6 +570,7 @@ local t =
 										PositionX = -392,
 										PositionY = -6,
 									},
+									visible = "False",
 									width = "130",
 									ZOrder = "1",
 								},
@@ -582,7 +583,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF4A4C86",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -608,13 +609,13 @@ local t =
 									sizepercenty = "0",
 									sizeType = "0",
 									srcBlendFunc = "770",
-									text = "任务内容",
+									text = "任务内容任务内容任务内容任务内容任务内容",
 									touchAble = "False",
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -168,
-										PositionY = 2,
+										PositionX = -157,
+										PositionY = 16,
 									},
 									width = "258",
 									ZOrder = "1",
@@ -628,7 +629,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF5F6CC5",
+									FontColor = "#FF622D39",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -659,8 +660,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -296,
-										PositionY = -43,
+										PositionX = -280,
+										PositionY = -42,
 									},
 									width = "75",
 									ZOrder = "1",
@@ -674,7 +675,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF5F6CC5",
+									FontColor = "#FF622D39",
 									fontName = "font/fangzheng_zhunyuan.ttf",
 									fontShadow = 
 									{
@@ -705,8 +706,8 @@ local t =
 									touchScaleEnable = "False",
 									UILayoutViewModel = 
 									{
-										PositionX = -51,
-										PositionY = -43,
+										PositionX = -40,
+										PositionY = -42,
 									},
 									width = "73",
 									ZOrder = "1",
@@ -801,10 +802,10 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "60",
+									height = "54",
 									ignoreSize = "True",
 									name = "Button_receive",
-									normal = "ui/activity/activityStyle/taskActivity/styleCur/btn.png",
+									normal = "ui/activity/kuangsan_fuben/new_add/008.png",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -816,7 +817,8 @@ local t =
 										PositionY = -7,
 									},
 									UItype = "Button",
-									width = "137",
+									visible = "False",
+									width = "144",
 									ZOrder = "1",
 									components = 
 									{
@@ -830,7 +832,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FFFFFFFF",
+											FontColor = "#FFD25E5F",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -877,7 +879,7 @@ local t =
 									classname = "MELabel",
 									compPath = "luacomponents.common.MEIconLabel",
 									dstBlendFunc = "771",
-									FontColor = "#FF737AC8",
+									FontColor = "#FFFFFFFF",
 									fontName = "font/MFLiHei_Noncommercial.ttf",
 									fontShadow = 
 									{
@@ -1003,10 +1005,10 @@ local t =
 									dstBlendFunc = "771",
 									flipX = "False",
 									flipY = "False",
-									height = "60",
+									height = "62",
 									ignoreSize = "True",
 									name = "Button_goto",
-									normal = "ui/activity/activityStyle/taskActivity/styleCur/btn1.png",
+									normal = "ui/activity/kuangsan_fuben/new_add/007.png",
 									sizepercentx = "0",
 									sizepercenty = "0",
 									sizeType = "0",
@@ -1018,7 +1020,8 @@ local t =
 										PositionY = -7,
 									},
 									UItype = "Button",
-									width = "137",
+									visible = "False",
+									width = "152",
 									ZOrder = "1",
 									components = 
 									{
@@ -1032,7 +1035,7 @@ local t =
 											classname = "MELabel",
 											compPath = "luacomponents.common.MEIconLabel",
 											dstBlendFunc = "771",
-											FontColor = "#FF737AC8",
+											FontColor = "#FFFFFFFF",
 											fontName = "font/MFLiHei_Noncommercial.ttf",
 											fontShadow = 
 											{
@@ -1119,6 +1122,7 @@ local t =
 									{
 										
 									},
+									visible = "False",
 									width = "952",
 									ZOrder = "1",
 								},
@@ -1144,6 +1148,7 @@ local t =
 									{
 										PositionX = 1,
 									},
+									visible = "False",
 									width = "920",
 									ZOrder = "1",
 								},
@@ -1241,12 +1246,12 @@ local t =
 			"ui/activity/activityStyle/taskActivity/styleCur/bg.png",
 			"ui/activity/ad2.png",
 			"ui/activity/fashionStore/1/004.png",
-			"ui/activity/activityStyle/taskActivity/styleCur/item_bg.png",
+			"ui/activity/kuangsan_fuben/new_add/001.png",
 			"ui/task/icon_5.png",
 			"ui/task/reward_diban.png",
-			"ui/activity/activityStyle/taskActivity/styleCur/btn.png",
+			"ui/activity/kuangsan_fuben/new_add/008.png",
 			"ui/activity/014.png",
-			"ui/activity/activityStyle/taskActivity/styleCur/btn1.png",
+			"ui/activity/kuangsan_fuben/new_add/007.png",
 			"ui/activity/023.png",
 			"ui/activity/welfareActivity/004.png",
 			"ui/activity/assist/kuangsan/033.png",

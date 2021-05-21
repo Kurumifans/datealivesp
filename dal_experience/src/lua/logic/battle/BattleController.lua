@@ -87,6 +87,8 @@ function battleController.registerEvents()
     EventMgr:addEventListener(this, eEvent.EVENT_TRIGGER_JUMP, this.onTriggerJump) --组队副本跳转
     EventMgr:addEventListener(this, EV_RECONECT_EVENT, handler(this.onReconnect))
     -- EventMgr:addEventListener(this, eEvent.EVENT_CHANGE_GUNGEON, this.onChangeDungeon) --组队副本跳转
+    EventMgr:addEventListener(this, eEvent.EVENT_AIR_POINT_CHANGE, handler(this.onAirPointChange))
+    
 
 
 end
@@ -1247,6 +1249,58 @@ function battleController.herosEnter()
 
 end
 
+function battleController.checkLimitHeroAttrExchange()
+    local heros = this.team:getMenbers_(1,1,false)
+    for i,hero in ipairs(heros) do
+        if not hero:isFlag(1) then
+            return
+        end
+    end
+    local function exchangeAttr( heroId, attrs)
+        local srcHero = nil
+        for i,v in ipairs(heros) do
+            if v:getData().id == heroId then
+                srcHero = v
+            end
+        end
+
+        if srcHero then
+            for i,v in ipairs(heros) do
+                if v:getData().id ~= srcHero:getData().id then
+                    v:recvExchangeAttr(srcHero,attrs)
+                end
+            end
+        end
+    end
+    local limitCfgs = TabDataMgr:getData("LimitHeroAttribute")
+    local serverTime = ServerDataMgr:getServerTime()
+    local changeHeroId = 0
+    local changeAttre = {}
+    local levelCfg_ = BattleDataMgr:getLevelCfg()
+    for k,cfg in pairs(limitCfgs) do
+        local openTime = Utils:getTimeByDate(cfg.stime)
+        local endTime = Utils:getTimeByDate(cfg.etime)
+        if serverTime > openTime and serverTime < endTime then
+            local flag = false
+            for i,dungeonId in ipairs(cfg.dungeonId) do
+                if levelCfg_ and levelCfg_.id == dungeonId then
+                    exchangeAttr(cfg.heroId, cfg.activation)
+                    flag = true
+                    break
+                end
+            end
+            if not flag then
+                for i,dungeonType in ipairs(cfg.dungeonType) do
+                    if levelCfg_ and levelCfg_.dungeonType == dungeonType then
+                        exchangeAttr(cfg.heroId, cfg.activation)
+                        break
+                    end
+                end
+            end
+        end
+    end
+end
+
 function battleController.endFight()
     this.setTimeScale(1.0)
     if this.team then
@@ -1696,6 +1750,7 @@ function battleController.update(delta)
     if not this.bStartTime  then
         return
     end
+    this.hitMusicNum = {}
     -- this.handlCombo(delta)
     this.team:update(delta)
     levelParse:update(delta)
@@ -1718,7 +1773,7 @@ function battleController.update(delta)
     -- 刷怪
     brushMonster:update(delta)
     if BattleGuide:isGuideStart() then
-        BattleGuide:update(dt)
+        BattleGuide:update(delta)
     end
 end
 function battleController.handlStopFrame(delta)
@@ -1758,6 +1813,10 @@ end
 
 function battleController.getWave()
     return victoryDecide.getWave()
+end
+
+function battleController:getCurBrushWave()
+    return brushMonster:getCurBrushWave()
 end
 
 function battleController.eventCheck(hero)
@@ -1900,6 +1959,21 @@ function battleController.getExtBuffList(hero)
     local actBuff = BattleDataMgr:getServerData().actBuffId or {}
     for i,v in ipairs(actBuff) do
         table.insert(bufferIds, v)  
+    end
+
+    --无尽plus
+    if data.dungeonType == EC_FBLevelType.ENDLESS_PLUSS then
+        local buffCid = FubenEndlessPlusDataMgr:getSelectBuffCid()        
+        if buffCid then
+            local buffCfg = TabDataMgr:getData("FloorBuff", buffCid)
+            if buffCfg and buffCfg.limitTargetId then
+                for i,v in ipairs(buffCfg.limitTargetId) do
+                    if v == hero.data.id then
+                        table.insertTo(bufferIds, buffCfg.buffId)
+                    end
+                end          
+            end
+        end
     end
 
     
@@ -2552,6 +2626,26 @@ end
 
 function battleController.clearDamageData()
     this.damageData = {}
+end
+
+function battleController.onAirPointChange()
+    if this.isRun() then
+        local heroList = this.getTeam():getMenbers(eCampType.Call)
+        for i, hero in ipairs(heroList) do
+            local host = hero:getHost()
+            if host then
+                if host.data and host.data.follow and host:isAlive() then
+                    local curPos = hero:getPosition()
+                    if not this.canMove(curPos.x,curPos.y) then
+                        local hostPos = host:getPosition()
+                        if hostPos and hostPos.x then
+                            hero:moveToPosAction(hostPos)
+                        end
+                    end
+                end
+            end
+        end
+    end
 end
 
 --应用切换到后台时间派发

@@ -35,6 +35,7 @@ local eMoveType  =
     Target   = 2, --目标位移
     Target_Shadow   = 3, --目标影子位移
     Map_Center  = 4,  --地图中央位移
+    Pnchange_Dir = 5, --摇杆位移固定朝向
 }
 
 
@@ -245,6 +246,11 @@ function Skill:isManual(flag)
 end
 function Skill:handlLimitTime( time )
     -- body
+    local skill  = self.hero:getSkillByCid(self.skillCfg.callbackSkill)
+    if not skill then
+        return
+    end
+    
     if not self.nLimitTime then return end
     if self.nLimitTime > 0 then
         self.nLimitTime = self.nLimitTime - time
@@ -252,13 +258,14 @@ function Skill:handlLimitTime( time )
         local lastPercent = self.nLimitPercent
         self.nLimitPercent = math.floor(self.nLimitTime/self.skillCfg.limitTime*100)
         if lastPercent - self.nLimitPercent > 0 then
-            EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE,self)
+            if self:isManual(true) then
+                EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE,self)
+            end
         end
     elseif self.skillCfg.limitTime and self.skillCfg.limitTime > 0 then
         self.nLimitTime = nil
         self.nLimitPercent = nil
         if self.skillCfg.callbackSkill and self.skillCfg.callbackSkill > 0 then
-            local skill  = self.hero:getSkillByCid(self.skillCfg.callbackSkill)
             self:setVisiable(false)
             skill:setVisiable(true)
             if self:isManual(true) then
@@ -924,7 +931,7 @@ function Skill:handlMoveEvent(pramN)
                 end
             end
            
-        elseif moveType == eMoveType.Free then --摇杆控制位移
+        elseif moveType == eMoveType.Free or  moveType == eMoveType.Pnchange_Dir then --摇杆控制位移
 
         elseif moveType == eMoveType.Target then --目标位置位移
             local target = self:selectTarget()
@@ -1246,7 +1253,7 @@ end
 function Skill:autoMove(time)
     if self.bActionMove  then 
         if self.actionData then
-            if self.actionData.moveType == eMoveType.Free then
+            if self.actionData.moveType == eMoveType.Free or self.actionData.moveType == eMoveType.Pnchange_Dir then
                 local moveSpeed = self.actionData.moveSpeed
                 if moveSpeed ~= 0 then
                     local vector = self.hero:getRokeVector() 
@@ -1312,6 +1319,7 @@ function Skill:onEventTrigger(source,event,target,param)
         printError("onEventTrigger event is nil")
         Box("onEventTrigger event is nil")
     end
+    if not self:isVisiable() then return end
     local triggers = self.skillCfg.conditionSkill or {}
     for k,trigger in ipairs(triggers) do
         if battleController.checkCondSuccess(trigger.cond,{skill = self, event = event, source = source, target = target, param = param }) then
@@ -1425,7 +1433,6 @@ function Skill:forceUpdate(flag)--强制更新
             self.nLimitTime = self.skillCfg.limitTime
             self.nLimitPercent = 100
         end
-        
         if self:isManual(true) then
             EventMgr:dispatchEvent(eEvent.EVENT_VKSTATE_CHANGE, self , flag)
         end

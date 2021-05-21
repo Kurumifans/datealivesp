@@ -48,7 +48,8 @@ EC_SItemType = {
     REVERSAL = 500057,           -- 十香反转值
     LOVER = 500058,              -- 十香亲密度   
     TokenMoney = 500096,           -- 代币
-	SZDY_TOUZI = 500112				-- 时之赌约骰子
+    SZDY_TOUZI = 500112,				-- 时之赌约骰子
+    BATTLE_LV_REVIEW = 500141,      -- 战令回顾经验
 }
 
 -- 副本难度
@@ -567,6 +568,7 @@ EC_Bag = {
     MATERIAL_OTHER = 21,    --结晶碎片图纸之外其他材料
     EXPLORE_TREASURE = 22,   --探索背包
     EXPLORE_MATERIAL = 23,   --探索背包
+    KABALA = 31,            --卡巴拉背包
     TRAILCARD = 32,          --试用卡
     SKYLADDER_CARD = 40,   -- 天梯卡牌
     TRAILBAG = 50,   --试用道具背包
@@ -1265,6 +1267,7 @@ EC_TaskPage = {
     HONOR = 4,    -- 荣誉任务
     ACTIVITY = 5,    -- 活动任务
     TRAININIG_TASK = 6,    -- 特训任务
+    TRAININIG_Review = 7, -- 战令回顾
 }
 
 -- 任务类型
@@ -1753,6 +1756,11 @@ EC_ActivityType2 = {
     SPRING_GIFT = 86,            -- 春分赠礼
     PIC_TASK_ACTIVITY = 87,      -- 照片墙活动 
     ACCESS_TYPE = 89,            -- 跳转路径拓展
+    BINGKAI_BLESS = 88,          -- 冰铠祝福
+    BINGKAI_STORE = 90,          -- 冰铠商店
+    BINGKAI_TASK = 91,          -- 冰铠任务
+    RETURN_GIFT = 100,           -- 赠送返利活动
+    BATTLE_LV_REVIEW = 1028,     -- 战令回顾
 }
 
 EC_Activity_CHRISTMAS_Subtype = {

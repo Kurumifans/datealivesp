@@ -293,11 +293,9 @@ function Buffer:onEventTrigger(source,event,target,param)
         printError("onEventTrigger event is nil")
         Box("onEventTrigger event is nil")
     end
-    if self.data.id == 6044414 then
-    -- print("onEventTrigger11",
-    -- self.data.id,
-    -- self.data.eventId , event)
-    end
+
+    if self.data.eventId ~= event then return end
+    
     if self:isVaildTrigger(source,eBFTriggerType.TT_EVENT) then
         -- print(string.format("onEventTrigger(%s,%s)",self.data.stateId , state))
         if self.data.eventId == event then
@@ -388,6 +386,18 @@ function Buffer:trigger()
     for k, effectId in ipairs(self.data.effects) do
         local takeObjs = self:getTakeTarget(effectId)
         local data   = TabDataMgr:getData("BufferEffect",effectId)
+        if data.untargetID and #data.untargetID > 0 then
+            for i=1, #takeObjs do
+                local hero = takeObjs[i]
+                for j,ID in ipairs(data.untargetID) do
+                    if ID == hero:getData().id then
+                        table.remove(takeObjs,i)
+                        break
+                    end
+                end
+            end
+        end
+        
         for k, takeObj in ipairs(takeObjs) do
             self:triggerOnce(takeObj,data)
         end
@@ -400,6 +410,17 @@ function Buffer:trigger()
             for k, effectId in ipairs(effects) do 
                 local takeObjs = self:getTakeTarget(effectId)
                 local data   = TabDataMgr:getData("BufferEffect",effectId)
+                if data.untargetID and #data.untargetID > 0 then
+                    for i=1, #takeObjs do
+                        local hero = takeObjs[i]
+                        for j,ID in ipairs(data.untargetID) do
+                            if ID == hero:getData().id then
+                                table.remove(takeObjs,i)
+                                break
+                            end
+                        end
+                    end
+                end
                 for k, takeObj in ipairs(takeObjs) do
                     self:triggerOnce(takeObj,data)
                 end

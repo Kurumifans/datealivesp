@@ -255,6 +255,9 @@ end
 function Statistics.addMonsterInfo(hero)
     local data = hero:getData()
     local monster = {data.id , data.level,1}
+    if not data.level or data.level < 1 then
+        data.level = 1
+    end
     -- table.insert(this.monsterInfos,monster)
     this.monsterInfos[data.id] = this.monsterInfos[data.id] or {}
     if this.monsterInfos[data.id][data.level] then

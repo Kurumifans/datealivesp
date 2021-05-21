@@ -786,7 +786,11 @@ function EquipmentDataMgr:getEquipSubType(id)
 	if self:isCid(id) then
 		cid = id
 	else
-		cid = self:getEquipByRealId(id).cid;
+		if self:getEquipByRealId(id) then
+			cid = self:getEquipByRealId(id).cid;
+		else
+			return -1
+		end
 	end
 
 	local subType = -1

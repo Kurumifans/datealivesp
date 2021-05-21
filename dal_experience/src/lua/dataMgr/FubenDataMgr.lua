@@ -644,8 +644,6 @@ function FubenDataMgr:getLevelName(levelCid)
         return TextDataMgr:getText(levelCfg.name)
     elseif levelCfg.dungeonType == EC_FBLevelType.MUSIC_GAME then
         return TextDataMgr:getText(levelCfg.name)
-    elseif levelCfg.dungeonType == EC_FBLevelType.PRACTICE then
-        return TextDataMgr:getText(levelCfg.name)
     end
     local levelGroupCfg = self:getLevelGroupCfg(levelCfg.levelGroupId)
     local chapterCfg = self:getChapterCfg(levelGroupCfg.dungeonChapterId)
@@ -839,6 +837,7 @@ function FubenDataMgr:checkPlotLevelEnabled(levelId)
     local enabled = false
     local levelIsOpen = false
     local preIsOpen = false
+    local isTimeOpen = true
     if self:isPassPlotLevel(levelId) then
         enabled = true
         levelIsOpen = true
@@ -860,7 +859,7 @@ function FubenDataMgr:checkPlotLevelEnabled(levelId)
             for k,v in pairs(otherPreCond) do
                 if k == "time" then
                     if curTime < v[1] or curTime > v[2] then
-                        preIsOpen = false
+                        isTimeOpen = false
                         break
                     end
                 end
@@ -868,9 +867,9 @@ function FubenDataMgr:checkPlotLevelEnabled(levelId)
         end
         
         levelIsOpen = MainPlayer:getPlayerLv() >= levelCfg.playerLv
-        enabled = preIsOpen and levelIsOpen
+        enabled = preIsOpen and levelIsOpen and isTimeOpen
     end
-    return enabled, preIsOpen, levelIsOpen
+    return enabled, preIsOpen, levelIsOpen, isTimeOpen
 end
 
 function FubenDataMgr:checkPreFramePlotLevelEnabled(levelId)

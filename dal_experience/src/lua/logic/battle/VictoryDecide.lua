@@ -401,6 +401,10 @@ function VictoryDecide.checkResult()
         if this.nRemainingTime <= 0 then
             this.agent.endBattle(false)
         end
+    elseif this.nViewType == EC_LevelPassCond.SCORE2 then
+        if this.nRemainingTime <= 0 then
+            this.agent.endBattle(true)
+        end
     elseif this.nViewType == EC_LevelPassCond.SURVIVAL then
         if this.nRemainingTime <= 0 then
             if not EventTrigger.controller.flightMode then

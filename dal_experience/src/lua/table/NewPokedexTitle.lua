@@ -34,7 +34,7 @@ return {
     [5] = {
         isOpen = true,
         name = 1701232,
-        cup = 7000,
+        cup = 8000,
         id = 5,
         icon = "icon/pokedexActivity/a5.png",
         describe = 1710535,

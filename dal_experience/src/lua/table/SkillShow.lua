@@ -566,7 +566,7 @@ return {
             [1] = "show1",
         },
         actionId = 4230,
-        detection = true,
+        detection = false,
         effectsUp = {
             [1] = {
                 action = "skilld_UI_up",
@@ -739,7 +739,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_10209",
+            animation = "fight_10209_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -765,7 +765,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_10210",
+            animation = "fight_10210_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -817,7 +817,7 @@ return {
         },
         showAction = {
             action = "skillD_2",
-            animation = "fight_11401",
+            animation = "fight_11401_skillD_2",
         },
         effectsDown = {
             [1] = {
@@ -843,7 +843,7 @@ return {
         },
         showAction = {
             action = "skillD_2",
-            animation = "fight_11501",
+            animation = "fight_11501_skillD_2",
         },
         effectsDown = {
             [1] = {
@@ -917,7 +917,7 @@ return {
         },
         showAction = {
             action = "skillD2",
-            animation = "fight_10413",
+            animation = "fight_10413_skillD2",
         },
         effectsDown = {
             [1] = {
@@ -995,7 +995,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_11601",
+            animation = "fight_11601_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -1043,7 +1043,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_12301",
+            animation = "fight_12301_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -1095,7 +1095,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_12201",
+            animation = "fight_12201_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -1177,7 +1177,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_12501",
+            animation = "fight_12501_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -1203,7 +1203,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_12701",
+            animation = "fight_12701_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -1229,7 +1229,7 @@ return {
         },
         showAction = {
             action = "skillD_show",
-            animation = "fight_12401",
+            animation = "fight_12401_skillD_show",
         },
         effectsDown = {
             [1] = {
@@ -1320,6 +1320,32 @@ return {
     [52] = {
         showSound = "0",
         id = 52,
+        triggerEvents = {
+            [1] = "show1",
+        },
+        actionId = 15441,
+        detection = false,
+        effectsUp = {
+            [1] = {
+                action = "show_up",
+                animation = "effects_13301_skillD",
+            },
+        },
+        showAction = {
+            action = "skillD_show",
+            animation = "effects_13301_skillD_show",
+        },
+        effectsDown = {
+            [1] = {
+                action = "show_down",
+                animation = "effects_13301_skillD",
+            },
+        },
+        skipGame = 0,
+    },
+    [53] = {
+        showSound = "0",
+        id = 53,
         triggerEvents = {
             [1] = "show1",
         },

@@ -302,6 +302,9 @@ end
 
 function StoreMainView:updateGoodsItem(item, commodityId)
     local commodityCfg = StoreDataMgr:getCommodityCfg(commodityId)
+    if not commodityCfg then
+        return
+    end
     local buyBeginTime = commodityCfg.buyBeginTime
     local foo = self.goodsIconMap_[item]
     local goods = commodityCfg.goodInfo[1]

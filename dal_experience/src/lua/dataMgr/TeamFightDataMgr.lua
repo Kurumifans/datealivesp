@@ -1254,7 +1254,7 @@ function TeamFightDataMgr:checkInviteMsg(chatInfo,timestamp)
 
     local curPlayerPLv = MainPlayer:getPlayerLv()
     local limitLevel = tonumber(msgInfo.levellimit) or 0
-    if curPlayerPLv < limitLevel then
+    if not limitLevel or curPlayerPLv < limitLevel then
 		print("----------6")
         return false
     end

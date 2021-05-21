@@ -1211,6 +1211,18 @@ function BattleDataMgr:getLevelCfg()
     end
     return levelCfg
 end
+
+function BattleDataMgr:needCheckBrushWava()
+    if self.battleType_ == EC_BattleType.ENDLESS then
+        return true
+    else
+        local levelCfg = FubenDataMgr:getLevelCfg(self.levelCid_)
+        if levelCfg.dungeonType == EC_FBLevelType.SKYLADDER then
+            return true
+        end
+    end
+    return false
+end
 function BattleDataMgr:setCurLevelCid(cid)
     self.levelCid_ = cid
 end

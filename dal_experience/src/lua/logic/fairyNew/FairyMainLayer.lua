@@ -91,7 +91,6 @@ function FairyMainLayer:initUI(ui)
     self.Panel_trailTime    = TFDirector:getChildByPath(ui, "Panel_trailTime")
     self.Label_trailTime    = TFDirector:getChildByPath(self.Panel_trailTime, "Label_trail_time")
     self.Button_oneKey    = TFDirector:getChildByPath(ui, "Button_oneKey"):hide()
-    self.Button_reset = TFDirector:getChildByPath(ui, "Button_reset"):hide()
 
     --精灵攻略
     self.Button_fairyStrategy    = TFDirector:getChildByPath(ui, "Button_fairyStrategy")
@@ -287,17 +286,6 @@ function FairyMainLayer:registerEvents()
         end
 
         local cmd = string.format("./fightScore %s", self.showid)
-        local chatState = EC_ChatState.CHAT
-        TFDirector:send(c2s.CHAT_CHAT, {1, chatState,cmd})
-    end)
-
-    self.Button_reset:onClick(function()
-        local ishave = HeroDataMgr:getIsHave(self.showid)
-        if not ishave then
-            return
-        end
-
-        local cmd = string.format("./resetHero %s", self.showid)
         local chatState = EC_ChatState.CHAT
         TFDirector:send(c2s.CHAT_CHAT, {1, chatState,cmd})
     end)
@@ -620,16 +608,10 @@ function FairyMainLayer:updateCompose()
 		needCnt = needs[2]
 	end
 
-    if hero.ishave and (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or RELEASE_TEST or EXPERIENCE) then
+    if hero.ishave and (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or RELEASE_TEST) then
         self.Button_oneKey:show()
     else
         self.Button_oneKey:hide()
-    end
-
-    if hero.ishave and  (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32 or EXPERIENCE) then
-        self.Button_reset:show()
-    else
-        self.Button_reset:hide()
     end
     
     if hero.ishave and HeroDataMgr:reachMaxQuality(self.showid) then
@@ -752,7 +734,7 @@ function FairyMainLayer:onRefresh()
 end
 
 function FairyMainLayer:onSkinChange()
-    self:initHeroListView()
+    --self:initHeroListView()
 end
 
 function FairyMainLayer:onHide()

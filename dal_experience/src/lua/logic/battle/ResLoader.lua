@@ -8,9 +8,9 @@ local eEffectType = enum.eEffectType
 local _print = print
 local print = BattleUtils.print
 _print = print
-local effectLoadNum = 10
+local effectLoadNum = 5
 local hurtEffectLoadNum = 40
-local buffEffectLoadNum = 20
+local buffEffectLoadNum = 10
 local ResLoader = {}
 ResLoader.cacheSpine = {}
 ResLoader.loadSpineNum = {}
@@ -29,7 +29,7 @@ ResLoader.LOAD_SKILLEFFECT = true  --是否缓存spine动画
 ResLoader.LOAD_BUFFEFFECT = false  --是否缓存spine动画
 ResLoader.LOAD_HURTEFFECT = true  --是否缓存spine动画
 
-local memerySize = {2400,1000,800}
+local memerySize = {1500,1000,800}
 
 function checkMemeryFreeNum( ... )
     -- body
@@ -129,6 +129,18 @@ function ResLoader.createResList(data)
                 end
             end
 
+            if effectData.triggerEffects then
+                for k,effectId in pairs(effectData.triggerEffects) do
+                    loadSkillEffectResource(heroData, effectId)
+                end
+            end
+
+            if effectData.triggernewEffects then
+                for k,effectId in pairs(effectData.triggernewEffects) do
+                    loadSkillEffectResource(heroData, effectId)
+                end
+            end
+
             if ResLoader.LOAD_SKILLEFFECT then 
                 if ResLoader.isValid(effectData.resource) then
                     effecNameMap[effectData.resource] = effectData.resource
@@ -153,6 +165,7 @@ function ResLoader.createResList(data)
 
     loadBufferResource = function (heroData, buffId)
         local data = TabDataMgr:getData("Buffer",buffId)
+        if not data then return end
         for _k, effectId in ipairs(data.effects) do
             loadBufferEffectResource(heroData,effectId)
         end
@@ -171,12 +184,14 @@ function ResLoader.createResList(data)
         loadedBuffEffectIds[effectId] = true
 
         local effectCfg   = TabDataMgr:getData("BufferEffect",effectId)
+        if not effectCfg then return end
         if  ResLoader.LOAD_BUFFEFFECT then 
 
             if effectCfg.effectList then
                 for __k, resId in pairs(effectCfg.effectList) do
                     local resCfg = TabDataMgr:getData("BufferEffectList",resId)
-                    if ResLoader.isValid(resCfg.resource) then
+
+                    if resCfg and ResLoader.isValid(resCfg.resource) then
                         effecNameMap[resCfg.resource] = resCfg.resource
                         ResLoader.loadSpineNum[resCfg.resource] = ResLoader.loadSpineNum[resCfg.resource] or 0
                         ResLoader.loadSpineNum[resCfg.resource] = math.max(ResLoader.loadSpineNum[resCfg.resource] ,buffEffectLoadNum)
@@ -364,6 +379,12 @@ function ResLoader.createResList(data)
     -- TODO临时屏蔽特效预加载
     effecNameMap["effect_monster_die"] = "effect_monster_die"
     ResLoader.loadSpineNum["effect_monster_die"] = hurtEffectLoadNum
+
+    effecNameMap["battle_stoic"] = "battle_stoic"
+    ResLoader.loadSpineNum["battle_stoic"] = hurtEffectLoadNum
+
+    effecNameMap["effects_debuff"] = "effects_debuff"
+    ResLoader.loadSpineNum["effects_debuff"] = buffEffectLoadNum
 
     for k , effecName in pairs(effecNameMap) do
         local tmpName = effecName
@@ -649,7 +670,7 @@ function ResLoader.addCacheSpine( skeletonNode, resPath )
     -- body
     if not ResLoader.SAVE_SPINENODE then return end
     ResLoader.cacheSpine[resPath] = ResLoader.cacheSpine[resPath] or {}
-    if #ResLoader.cacheSpine[resPath] <= math.max(buffEffectLoadNum,hurtEffectLoadNum) then -- 同一个spine 最多缓存20个
+    if #ResLoader.cacheSpine[resPath] <= math.max(buffEffectLoadNum,hurtEffectLoadNum)*4 then -- 同一个spine 最多缓存20个
         table.insert(ResLoader.cacheSpine[resPath],skeletonNode)
         skeletonNode:retain()
         skeletonNode.resPath = resPath
@@ -696,6 +717,7 @@ function ResLoader.createEffect(effectName,scale, isInsertCache)
         skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
         skeletonNode:removeMEListener(TFWIDGET_ENTER)
         skeletonNode:removeMEListener(TFWIDGET_EXIT)
+        skeletonNode:removeMEListener(TFWIDGET_CLEANUP)
         -- _print("找到 skeleton:"..skeletonNode:retainCount().." "..resPath)
         --重置位置
         skeletonNode:setPosition(me.p(0,0))

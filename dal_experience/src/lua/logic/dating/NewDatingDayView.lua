@@ -127,10 +127,12 @@ function NewDatingDayView:refreshPanelDown()
         local Label_endPro = TFDirector:getChildByPath(Panel_type, "Label_endPro")
 
         local endInfo = DatingDataMgr:getEndInfoByIdx(self.curBuildId,i)
-        local num = #endInfo.finishList
-        local allNum = #endInfo.list
-        Label_endPro:setText(tostring(num) .. "/" .. tostring(allNum))
-        Label_endType:setTextById(tonumber(DatingDataMgr:getEndTypeConfig(endInfo.type).endName))
+        if endInfo then
+            local num = #endInfo.finishList
+            local allNum = #endInfo.list
+            Label_endPro:setText(tostring(num) .. "/" .. tostring(allNum))
+            Label_endType:setTextById(tonumber(DatingDataMgr:getEndTypeConfig(endInfo.type).endName))
+        end
     end
 
     local Panel_cgPro = TFDirector:getChildByPath(self.ui, "Panel_cgPro")
@@ -370,6 +372,9 @@ function NewDatingDayView:refreshRewardView()
     end
     local buildData = self.buildData_[self.buildSIndex_]
     local data = DatingDataMgr:getBuildDayScripInfo(buildData.buildId)
+    if not data then
+        return
+    end
     local taskId = data.taskId or 10001
     local rewardData = TaskDataMgr:getTaskCfg(taskId)
     local taskInfo = TaskDataMgr:getTaskInfo(taskId)

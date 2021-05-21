@@ -5593,31 +5593,31 @@ return {
         helpDes = 0,
         resource = {
             [1] = {
-                [1] = 500004,
+                [1] = 500002,
                 [2] = 1,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 1,
+                [1] = 500136,
+                [2] = 0,
             },
             [3] = {
-                [1] = 500002,
-                [2] = 1,
+                [1] = 500137,
+                [2] = 0,
             },
         },
         dynamic = false,
         id = 212,
-        helpTitle = 61070,
+        helpTitle = 61071,
         fileName = "ActivityMainView3",
         isResource = true,
         helpInterface = {
-            [1] = 3106,
+            [1] = 3115,
         },
         isHelp = true,
         help = "",
         isMain = true,
         isBack = true,
-        name = "雷雨山庄",
+        name = "冰雪节",
         icon = "icon/system/025.png",
         isDiban = true,
     },
@@ -5629,8 +5629,8 @@ return {
                 [2] = 1,
             },
             [2] = {
-                [1] = 500001,
-                [2] = 1,
+                [1] = 501156,
+                [2] = 0,
             },
             [3] = {
                 [1] = 500002,
@@ -5643,12 +5643,13 @@ return {
         fileName = "ActivityMainView4",
         isResource = true,
         helpInterface = {
+            [1] = 1109,
         },
-        isHelp = false,
+        isHelp = true,
         help = "",
         isMain = true,
         isBack = true,
-        name = "超次元海王星",
+        name = "魅影挽歌",
         icon = "icon/system/025.png",
         isDiban = true,
     },
@@ -6655,8 +6656,8 @@ return {
                 [2] = 1,
             },
             [2] = {
-                [1] = 501001,
-                [2] = 1,
+                [1] = 580362,
+                [2] = 0,
             },
             [3] = {
                 [1] = 500002,
@@ -6675,7 +6676,7 @@ return {
         help = "",
         isMain = true,
         isBack = true,
-        name = "万圣节",
+        name = "冰铠降临",
         icon = "icon/system/025.png",
         isDiban = true,
     },
@@ -6871,56 +6872,6 @@ return {
         icon = "icon/system/025.png",
         isDiban = true,
     },
-    [1001] = {
-        helpDes = 0,
-        resource = {
-        },
-        dynamic = false,
-        id = 1001,
-        helpTitle = 0,
-        fileName = "",
-        isResource = false,
-        helpInterface = {
-        },
-        isHelp = false,
-        help = "",
-        isMain = false,
-        isBack = false,
-        name = "",
-        icon = "",
-        isDiban = false,
-    },
-    [514] = {
-        helpDes = 0,
-        resource = {
-            [1] = {
-                [1] = 500001,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 500096,
-                [2] = 0,
-            },
-            [3] = {
-                [1] = 500002,
-                [2] = 1,
-            },
-        },
-        dynamic = false,
-        id = 514,
-        helpTitle = 0,
-        fileName = "FubenEndlessPlusView",
-        isResource = true,
-        helpInterface = {
-        },
-        isHelp = true,
-        help = "",
-        isMain = true,
-        isBack = true,
-        name = "作战·准备",
-        icon = "icon/system/025.png",
-        isDiban = true,
-    },
     [512] = {
         helpDes = 18000003,
         resource = {
@@ -7014,37 +6965,6 @@ return {
         isBack = true,
         name = "作战·准备",
         icon = "",
-        isDiban = true,
-    },
-    [503] = {
-        helpDes = 0,
-        resource = {
-            [1] = {
-                [1] = 500001,
-                [2] = 0,
-            },
-            [2] = {
-                [1] = 500096,
-                [2] = 0,
-            },
-            [3] = {
-                [1] = 500002,
-                [2] = 1,
-            },
-        },
-        dynamic = false,
-        id = 503,
-        helpTitle = 0,
-        fileName = "SupplyMainNewView",
-        isResource = true,
-        helpInterface = {
-        },
-        isHelp = false,
-        help = "",
-        isMain = true,
-        isBack = true,
-        name = "补给站",
-        icon = "icon/system/025.png",
         isDiban = true,
     },
     [300] = {
@@ -7523,7 +7443,7 @@ return {
         icon = "icon/system/025.png",
         isDiban = true,
     },
-    [504] = {
+    [503] = {
         helpDes = 0,
         resource = {
             [1] = {
@@ -7540,17 +7460,17 @@ return {
             },
         },
         dynamic = false,
-        id = 504,
+        id = 503,
         helpTitle = 0,
-        fileName = "FubenEndlessPlusSquadView",
+        fileName = "SupplyMainNewView",
         isResource = true,
         helpInterface = {
         },
-        isHelp = true,
+        isHelp = false,
         help = "",
         isMain = true,
         isBack = true,
-        name = "比弗洛斯特",
+        name = "补给站",
         icon = "icon/system/025.png",
         isDiban = true,
     },

@@ -206,9 +206,20 @@ function SupplyMainNewView:updateTopTabBtn()
         item.id = v.id
         item:onClick(function()
             self:topBtnClickFunc(i)
+            -- 点击红点特殊处理
+            if self.selectIndex == 1 then
+                if v.id == 5 then
+                    CCUserDefault:sharedUserDefault():setStringForKey("training_shop_tips","geted")
+                    self:updateAllRed()
+                end
+            end
             if self.selectIndex == 2 then
-                if v.id == 3 and not RechargeDataMgr:getDayHadInFundView() then
-                    RechargeDataMgr:setDayHadInFundView()
+                if v.id == 3 then
+                    local playerId = MainPlayer:getPlayerId()
+                    CCUserDefault:sharedUserDefault():setBoolForKey("GrowFundNewFlag"..playerId,true)
+                    if not RechargeDataMgr:getDayHadInFundView() then
+                        RechargeDataMgr:setDayHadInFundView()
+                    end
                     self:updateAllRed()
                 end
             end

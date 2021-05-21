@@ -10,6 +10,15 @@ function TaskDataMgr:init()
     self.taskMap_ = TabDataMgr:getData("Task")
     self.BattlePass = TabDataMgr:getData("BattlePass")
     self.BattlePassLevel = TabDataMgr:getData("BattlePassLevel")
+    self.BattlePassLevelReview = TabDataMgr:getData("BattleMemoryLevel")
+    local _cfg = TabDataMgr:getData("BattleMemory")
+    self.battlePassReviewDic = {}
+    for i, v in ipairs(_cfg) do
+        if not self.battlePassReviewDic[v.returnnewbleId] then
+            self.battlePassReviewDic[v.returnnewbleId] = {}
+        end
+        table.insert(self.battlePassReviewDic[v.returnnewbleId], v)
+    end
     self.taskInfo_ = {}
     self.tempValue_ = true
     self.tempValue2_ = true
@@ -308,10 +317,17 @@ function TaskDataMgr:onRecvSubmitTaskList(event)
     EventMgr:dispatchEvent(EV_TASK_RECEIVE_LIST, data.rewards, data.result)
 end
 
-function TaskDataMgr:getTraningCfgs(group)
+function TaskDataMgr:getTraningCfgs(group, type)
     local cfgs = {}
     local tempCfgs = {}
-    for k,v in pairs(self.BattlePass) do
+    local data = nil
+    type = type or EC_TaskPage.TRAININIG
+    if type == EC_TaskPage.TRAININIG then
+        data = self.BattlePass
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        data = self.battlePassReviewDic[ActivityDataMgr2:getWarOrderReviewAcrivityId()]
+    end
+    for k,v in pairs(data) do
         if group then
             local conditionCfg = cfgs[v.condition] or {}
             table.insert(conditionCfg,v)
@@ -323,9 +339,16 @@ function TaskDataMgr:getTraningCfgs(group)
     return cfgs
 end
 
-function TaskDataMgr:getTraningSpecialRewards(ptype)
+function TaskDataMgr:getTraningSpecialRewards(ptype, type)
+    type = type or EC_TaskPage.TRAININIG
+    local data = nil
+    if type == EC_TaskPage.TRAININIG then
+        data = self.BattlePass
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        data = self.battlePassReviewDic[ActivityDataMgr2:getWarOrderReviewAcrivityId()]
+    end
     local rewards = {}
-    for k,v in pairs(self.BattlePass) do
+    for k,v in pairs(data) do
         if v.type == ptype and v.special == 1 then
             local data = v.reward
             for i, info in ipairs(data) do
@@ -344,8 +367,15 @@ function TaskDataMgr:getTraningSpecialRewards(ptype)
     return sortData
 end
 
-function TaskDataMgr:getTrainingLevelExpMax(level)
-    for k,v in pairs(self.BattlePassLevel) do
+function TaskDataMgr:getTrainingLevelExpMax(level, type)
+    type = type or EC_TaskPage.TRAININIG
+    local data = nil
+    if type == EC_TaskPage.TRAININIG then
+        data = self.BattlePassLevel
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        data = self.BattlePassLevelReview
+    end
+    for k,v in pairs(data) do
         if v.level == level then
             return v.exp
         end
@@ -353,23 +383,30 @@ function TaskDataMgr:getTrainingLevelExpMax(level)
     return 10
 end
 
-function TaskDataMgr:getTrainingUpLevelCost(endLevel)
-    local curLevel = ActivityDataMgr2:getWarOrderLevel()
+function TaskDataMgr:getTrainingUpLevelCost(endLevel, type)
+    local curLevel = ActivityDataMgr2:getWarOrderLevel(type)
     local addExp = 0
     for i=curLevel, endLevel - 1 do
-        local needExp = self:getTrainingLevelExpMax(i)
+        local needExp = self:getTrainingLevelExpMax(i, type)
         addExp = addExp + needExp
     end
-    addExp = addExp - ActivityDataMgr2:getWarOrderExp()
-    local levelCost = ActivityDataMgr2:getWarOrderUpLevelCost()
+    addExp = addExp - ActivityDataMgr2:getWarOrderExp(type)
+    local levelCost = ActivityDataMgr2:getWarOrderUpLevelCost(type)
     local cost = math.floor(levelCost * addExp / 10)
     return cost,addExp
 end
 
-function TaskDataMgr:getLevelRangeRewards(startLevel, endLevel)
-    local chargeState = ActivityDataMgr2:getWarOrderChargeState()
+function TaskDataMgr:getLevelRangeRewards(startLevel, endLevel, type)
+    type = type or EC_TaskPage.TRAININIG
+    local _data = nil
+    if type == EC_TaskPage.TRAININIG then
+        _data = self.BattlePass
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        _data = self.battlePassReviewDic[ActivityDataMgr2:getWarOrderReviewAcrivityId()]
+    end
+    local chargeState = ActivityDataMgr2:getWarOrderChargeState(type)
     local rewards = {}
-    for k,v in pairs(self.BattlePass) do
+    for k,v in pairs(_data) do
         if v.condition >= startLevel and v.condition <= endLevel then
             if v.type == 1 or (v.type == 2 and chargeState ~= 0) then
                 local data = v.reward
@@ -390,11 +427,18 @@ function TaskDataMgr:getLevelRangeRewards(startLevel, endLevel)
     return sortData
 end
 
-function TaskDataMgr:getSpecialRewards(idx)
+function TaskDataMgr:getSpecialRewards(idx, type)
+    type = type or EC_TaskPage.TRAININIG
+    local data = nil
+    if type == EC_TaskPage.TRAININIG then
+        data = self.BattlePass
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        data = self.battlePassReviewDic[ActivityDataMgr2:getWarOrderReviewAcrivityId()]
+    end
     local specialInfo = {rewards = {}}
     local subLevel1 = 1000
     local subLevel2 = 1000
-    for k,v in pairs(self.BattlePass) do
+    for k,v in pairs(data) do
         if v.type == 1 then
             if v.special == 1 and (v.condition - idx) > 0 then
                 if v.condition - idx < subLevel1 then
@@ -421,12 +465,19 @@ function TaskDataMgr:getSpecialRewards(idx)
     return specialInfo
 end
 
-function TaskDataMgr:getTrainingCanGetRewards(ptype)
+function TaskDataMgr:getTrainingCanGetRewards(ptype, type)
     local rewards = {}
-    local trainingLevel = ActivityDataMgr2:getWarOrderLevel()
-    for k, v in pairs(self.BattlePass) do
+    local _data = nil
+    type = type or EC_TaskPage.TRAININIG
+    if type == EC_TaskPage.TRAININIG then
+        _data = self.BattlePass
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        _data = self.battlePassReviewDic[ActivityDataMgr2:getWarOrderReviewAcrivityId()]
+    end
+    local trainingLevel = ActivityDataMgr2:getWarOrderLevel(type)
+    for k, v in pairs(_data) do
         if v.type == ptype and trainingLevel >= v.condition then
-            if ActivityDataMgr2:checkWarOrderItemState(v.id) ~= 2 then
+            if ActivityDataMgr2:checkWarOrderItemState(v.id, type) ~= 2 then
                 local data = v.reward
                 for i, info in ipairs(data) do
                     rewards[info[1]] = rewards[info[1]] or 0
@@ -445,13 +496,20 @@ function TaskDataMgr:getTrainingCanGetRewards(ptype)
     return sortData
 end
 
-function TaskDataMgr:checkWarOrderRedPoint()
-    local curLevel = ActivityDataMgr2:getWarOrderLevel()
-    local state = ActivityDataMgr2:getWarOrderChargeState()
-    for k,v in pairs(self.BattlePass) do
+function TaskDataMgr:checkWarOrderRedPoint(type)
+    local data = nil
+    type = type or EC_TaskPage.TRAININIG
+    if type == EC_TaskPage.TRAININIG then
+        data = self.BattlePass
+    elseif type == EC_TaskPage.TRAININIG_Review then
+        data = self.battlePassReviewDic[ActivityDataMgr2:getWarOrderReviewAcrivityId()]
+    end
+    local curLevel = ActivityDataMgr2:getWarOrderLevel(type)
+    local state = ActivityDataMgr2:getWarOrderChargeState(type)
+    for k,v in pairs(data) do
         if curLevel >= v.condition and v.reward[1] then
             if v.type == 1 or (v.type == 2 and state ~= 0) then
-                local state = ActivityDataMgr2:checkWarOrderItemState(v.id)
+                local state = ActivityDataMgr2:checkWarOrderItemState(v.id, type)
                 if state == 1 then
                     return true
                 end

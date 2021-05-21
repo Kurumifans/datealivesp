@@ -29,8 +29,6 @@ function WorldBossRankAwardView:initUI(ui)
     local bar = UIScrollBar:create(self._ui.Image_scrollBar2, self._ui.Image_innerScrollBar2)
     self.awardsView:setScrollBar(bar)
 
-    self:refreshTaskView()
-    self:refreshAwardView()
     self:choosePanel(self.curSelectIdx)
 end
 
@@ -64,25 +62,25 @@ function WorldBossRankAwardView:addTaskItem()
     foo.listAward = UIListView:create(TFDirector:getChildByPath(foo.root, "ScrollView_award"))
     foo.listAward:setItemsMargin(10)
     self.taskItems[item] = foo
-    self.taskView:pushBackCustomItem(item)
+    return item
 end
 
 function WorldBossRankAwardView:refreshTaskView()
     local taskList = TaskDataMgr:getTask(EC_TaskType.WORLD_BOSS)
-    local num = #taskList - table.count(self.taskView:getItems())
-    for i = 1, math.abs(num) do
-        if num > 0 then
-            self:addTaskItem()
-        else
-            self.taskView:removeItem(1)
-        end 
+    for i = #taskList, 1, -1 do
+        local taskCfg = TaskDataMgr:getTaskCfg(taskList[i])
+        if not taskCfg.ext.juFlag then
+            table.remove(taskList, i)
+        end
     end
 
-    local items = self.taskView:getItems()
-    for i, v in ipairs(items) do
+    self.taskView:AsyncUpdateItem(taskList,function (  )
+        return self:addTaskItem()
+    end,
+    function ( v,data )
         local item = self.taskItems[v]
-        local taskInfo = TaskDataMgr:getTaskInfo(taskList[i])
-        local taskCfg = TaskDataMgr:getTaskCfg(taskList[i])
+        local taskInfo = TaskDataMgr:getTaskInfo(data)
+        local taskCfg = TaskDataMgr:getTaskCfg(data)
 
         if self.type and self.type == 2 then
             item.Button_receive:setVisible(false)
@@ -102,14 +100,15 @@ function WorldBossRankAwardView:refreshTaskView()
         end)
 
         local awards = taskCfg.reward
-        item.listAward:removeAllItems()
-        for i, goodsData in ipairs(awards) do
+        item.listAward:AsyncUpdateItem(awards,function (  )
             local goods = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
             goods:setScale(0.6)
+            return goods
+        end,
+        function ( goods,goodsData )
             PrefabDataMgr:setInfo(goods, goodsData[1], goodsData[2])
-            item.listAward:pushBackCustomItem(goods)
-        end
-    end
+        end)
+    end)
 
     if self.personHurt then
         self._ui.lab_biggestHurtNum:setText(Utils:converNumWithComma(self.personHurt))
@@ -120,9 +119,12 @@ function WorldBossRankAwardView:refreshTaskView()
 end
 
 function WorldBossRankAwardView:refreshAwardView()
+    self.initAwardView = true
     local awardsData = Utils:getKVP(51101, "rewardList")
-    for i, data in ipairs(awardsData) do
-        local item = self._ui.Panel_awardItem:clone()
+    self.awardsView:AsyncUpdateItem(awardsData,function (  )
+        return self._ui.Panel_awardItem:clone()
+    end,
+    function ( item,data )
         local img_icon = TFDirector:getChildByPath(item, "img_icon"):hide()
         local Label_rank = TFDirector:getChildByPath(item, "Label_rank")
         local listView = UIListView:create(TFDirector:getChildByPath(item,"ScrollView_award"))
@@ -160,8 +162,7 @@ function WorldBossRankAwardView:refreshAwardView()
             PrefabDataMgr:setInfo(goods, goodsId, value)
             listView:pushBackCustomItem(goods)
         end
-        self.awardsView:pushBackCustomItem(item)
-    end
+    end)
 end
 
 function WorldBossRankAwardView:choosePanel(idx)
@@ -172,6 +173,11 @@ function WorldBossRankAwardView:choosePanel(idx)
         self._ui["Panel_"..tag]:setVisible(idx == tag)
     end
     self.curSelectIdx = idx
+    if self.curSelectIdx == 2 and not self.initAwardView then
+        self:refreshAwardView()
+    elseif self.curSelectIdx == 1 then
+        self:refreshTaskView()
+    end 
 end
 
 function WorldBossRankAwardView:onTaskReceiveEvent(reward)

@@ -44,21 +44,27 @@ function refreshView(self)
 
         if itemCfg  then
             if EC_ItemQualityEffect[itemCfg.quality] then
-                local Spine_qualityEffect_bg = TFDirector:getChildByPath(Panel_goodsItem, "Spine_qualityEffect_bg")
-                Spine_qualityEffect_bg:setVisible(true)
-                Spine_qualityEffect_bg:play(EC_ItemQualityEffect[itemCfg.quality].bg,true)
-                local Spine_qualityEffect_up2 = TFDirector:getChildByPath(Panel_goodsItem, "Spine_qualityEffect_up2")
-                Spine_qualityEffect_up2:play(EC_ItemQualityEffect[itemCfg.quality].up2,true)
-                Spine_qualityEffect_up2:setVisible(false)
+                if not Panel_goodsItem.Spine_qualityEffect_bg  then
+                    Panel_goodsItem.Spine_qualityEffect_bg = SkeletonAnimation:create("effect/effect_props/effect_props")
+                end
+                Panel_goodsItem.Spine_qualityEffect_bg:setScale(0.9)
+                Panel_goodsItem.Spine_qualityEffect_bg:play(EC_ItemQualityEffect[itemCfg.quality].bg,true)
+                Panel_goodsItem:addChild(Panel_goodsItem.Spine_qualityEffect_bg,0)
+                if not item.Spine_qualityEffect_up2  then
+                    item.Spine_qualityEffect_up2 = SkeletonAnimation:create("effect/effect_props/effect_props")
+                end
+                item.Spine_qualityEffect_up2:play(EC_ItemQualityEffect[itemCfg.quality].up2,true)
+                item.Spine_qualityEffect_up2:setVisible(false)
+                Panel_goodsItem:getChildByName("Image_icon"):addChild(item.Spine_qualityEffect_up2,2)
                 local pos = ccp(1,-1)
                 if itemCfg.quality == EC_ItemQuality.PURPLE then
                     pos = ccp(2,-1)
                 elseif itemCfg.quality == EC_ItemQuality.RED then
                     pos = ccp(1,1)
                 end
-                Spine_qualityEffect_up2:setPosition(pos)
+                item.Spine_qualityEffect_up2:setPosition(pos)
             end
-            Panel_goodsItem.quality = itemCfg.quality
+            item.quality = itemCfg.quality
         end
 
         table.insert(self.goodsItem_, item)
@@ -81,21 +87,27 @@ function refreshView(self)
 
         if itemCfg  then
             if EC_ItemQualityEffect[itemCfg.quality] then
-                local Spine_qualityEffect_bg = TFDirector:getChildByPath(Panel_goodsItem, "Spine_qualityEffect_bg")
-                Spine_qualityEffect_bg:setVisible(true)
-                Spine_qualityEffect_bg:play(EC_ItemQualityEffect[itemCfg.quality].bg,true)
-                local Spine_qualityEffect_up2 = TFDirector:getChildByPath(Panel_goodsItem, "Spine_qualityEffect_up2")
-                Spine_qualityEffect_up2:play(EC_ItemQualityEffect[itemCfg.quality].up2,true)
-                Spine_qualityEffect_up2:setVisible(false)
+                if not Panel_goodsItem.Spine_qualityEffect_bg  then
+                    Panel_goodsItem.Spine_qualityEffect_bg = SkeletonAnimation:create("effect/effect_props/effect_props")
+                end
+                Panel_goodsItem.Spine_qualityEffect_bg:setScale(0.9)
+                Panel_goodsItem.Spine_qualityEffect_bg:play(EC_ItemQualityEffect[itemCfg.quality].bg,true)
+                Panel_goodsItem:addChild(Panel_goodsItem.Spine_qualityEffect_bg,0)
+                if not Panel_goodsItem.Spine_qualityEffect_up2  then
+                    Panel_goodsItem.Spine_qualityEffect_up2 = SkeletonAnimation:create("effect/effect_props/effect_props")
+                end
+                Panel_goodsItem.Spine_qualityEffect_up2:play(EC_ItemQualityEffect[itemCfg.quality].up2,true)
+                Panel_goodsItem.Spine_qualityEffect_up2:setVisible(false)
+                Panel_goodsItem:getChildByName("Image_icon"):addChild(Panel_goodsItem.Spine_qualityEffect_up2,2)
                 local pos = ccp(1,-1)
                 if itemCfg.quality == EC_ItemQuality.PURPLE then
                     pos = ccp(2,-1)
                 elseif itemCfg.quality == EC_ItemQuality.RED then
                     pos = ccp(1,1)
                 end
-                Spine_qualityEffect_up2:setPosition(pos)
+                Panel_goodsItem.Spine_qualityEffect_up2:setPosition(pos)
             end
-            Panel_goodsItem.quality = itemCfg.quality
+            item.quality = itemCfg.quality
         end
         self.Uilist_staticReward:pushBackCustomItem(Panel_goodsItem)
     end

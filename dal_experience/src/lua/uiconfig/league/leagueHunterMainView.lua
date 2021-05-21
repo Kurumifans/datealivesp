@@ -2083,7 +2083,6 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									visible = "False",
 									width = "300",
 									ZOrder = "1",
 									components = 
@@ -6973,85 +6972,6 @@ local t =
 														PositionY = -15,
 													},
 													width = "18",
-													ZOrder = "1",
-												},
-											},
-										},
-										{
-											controlID = "Button_pass_Panel_buttons_Panel_level_sel_Panel_root_Panel-leagueHunterMainView_Layer1_league_Game",
-											UUID = "5a8deea4_be06_456a_bca8_addf63d41fac",
-											anchorPoint = "False",
-											anchorPointX = "0.5",
-											anchorPointY = "0.5",
-											backGroundScale9Enable = "False",
-											classname = "MEButton",
-											ClickHighLightEnabled = "True",
-											dstBlendFunc = "771",
-											flipX = "False",
-											flipY = "False",
-											height = "56",
-											ignoreSize = "False",
-											name = "Button_pass",
-											normal = "ui/common/button_big_n.png",
-											sizepercentx = "0",
-											sizepercenty = "0",
-											sizeType = "0",
-											srcBlendFunc = "1",
-											touchAble = "True",
-											UILayoutViewModel = 
-											{
-												PositionX = 1028,
-												PositionY = 538,
-											},
-											UItype = "Button",
-											width = "150",
-											ZOrder = "1",
-											components = 
-											{
-												
-												{
-													controlID = "Label_pass_Button_pass_Panel_buttons_Panel_level_sel_Panel_root_Panel-leagueHunterMainView_Layer1_league_Game",
-													UUID = "cbd3e9ce_8cf6_4c6f_8af0_c63e03a2a7af",
-													anchorPoint = "False",
-													anchorPointX = "0.5",
-													anchorPointY = "0.5",
-													classname = "MELabel",
-													compPath = "luacomponents.common.MEIconLabel",
-													dstBlendFunc = "771",
-													FontColor = "#FFFFFFFF",
-													fontName = "font/fangzheng_zhunyuan.ttf",
-													fontShadow = 
-													{
-														IsShadow = false,
-														ShadowColor = "#FFFFFFFF",
-														ShadowAlpha = 255,
-														OffsetX = 0,
-														OffsetY = 0,
-													},
-													fontSize = "24",
-													fontStroke = 
-													{
-														IsStroke = false,
-														StrokeColor = "#FFE6E6E6",
-														StrokeSize = 1,
-													},
-													height = "27",
-													ignoreSize = "True",
-													name = "Label_pass",
-													nTextAlign = "1",
-													nTextHAlign = "1",
-													sizepercentx = "0",
-													sizepercenty = "0",
-													sizeType = "0",
-													srcBlendFunc = "770",
-													text = "击杀当前boss",
-													touchAble = "False",
-													touchScaleEnable = "False",
-													UILayoutViewModel = 
-													{
-														
-													},
-													width = "147",
 													ZOrder = "1",
 												},
 											},

@@ -155,7 +155,7 @@ local t =
 							backGroundScale9Enable = "False",
 							classname = "MEImage",
 							dstBlendFunc = "771",
-							height = "64",
+							height = "2",
 							ignoreSize = "True",
 							name = "Image_role",
 							sizepercentx = "0",
@@ -168,7 +168,7 @@ local t =
 							{
 								
 							},
-							width = "64",
+							width = "2",
 							ZOrder = "1",
 							components = 
 							{
@@ -3888,10 +3888,10 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "112",
+											height = "128",
 											ignoreSize = "True",
 											name = "Button_Activity5",
-											normal = "ui/mainLayer/new_ui/a4.png",
+											normal = "ui/activity/bingKai/003.png",
 											sizepercentx = "0",
 											sizepercenty = "0",
 											sizeType = "0",
@@ -3906,7 +3906,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
-											width = "196",
+											width = "226",
 											ZOrder = "1",
 											components = 
 											{
@@ -3957,8 +3957,7 @@ local t =
 													touchAble = "False",
 													UILayoutViewModel = 
 													{
-														PositionX = 49,
-														PositionY = -6,
+														PositionX = 82,
 													},
 													width = "30",
 													ZOrder = "1",
@@ -3995,6 +3994,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
+											visible = "False",
 											width = "200",
 											ZOrder = "1",
 											components = 
@@ -4084,6 +4084,7 @@ local t =
 												relativeToName = "Panel",
 											},
 											UItype = "Button",
+											visible = "False",
 											width = "193",
 											ZOrder = "1",
 											components = 
@@ -4907,7 +4908,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "64",
+											height = "2",
 											ignoreSize = "True",
 											name = "RedTips",
 											sizepercentx = "0",
@@ -4921,7 +4922,7 @@ local t =
 												PositionX = 27,
 												PositionY = 26,
 											},
-											width = "64",
+											width = "2",
 											ZOrder = "1",
 										},
 										{
@@ -16729,7 +16730,7 @@ local t =
 			"ui/mainLayer3/36.png",
 			"ui/mainLayer/new_ui_2/btn_contact.png",
 			"ui/mainLayer/new_ui_2/btn_contactnew.png",
-			"ui/mainLayer/new_ui/a4.png",
+			"ui/activity/bingKai/003.png",
 			"ui/mainLayer/new_ui/btn_ativity.png",
 			"ui/mainLayer/new_ui_4/rukou.png",
 			"ui/mainLayer/new_ui/a6.png",

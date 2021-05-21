@@ -245,6 +245,11 @@ function Utils:showReward(rewardList,staticRewardList,hideCallBack,titleId)
         if itemCfg.isHide then
             table.remove(rewardList,i)
         end
+
+        -- 没有开启战令回顾 指定经验获取不显示出来
+        if v.id == EC_SItemType.BATTLE_LV_REVIEW and not ActivityDataMgr2:isWarOrderReviewActivityOpen() then
+            table.remove(rewardList,i)
+        end
     end
 
     if table.count(rewardList) == 0 then return end

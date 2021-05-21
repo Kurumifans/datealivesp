@@ -6,16 +6,17 @@ function ShowMail:ctor(data)
     self.id = data
     self.index = MailDataMgr:getMailShowIndex(data);
     self.mailInfo = clone(MailDataMgr:getOneMail(self.index))
-
-    local rewards = self.mailInfo.rewards or {}
+	local rewards = self.mailInfo.rewards or {}
 	for i = #rewards, 1, -1 do
 		local item = self.mailInfo.rewards[i]
 		local itemCfg = GoodsDataMgr:getItemCfg(item.id)
 		if itemCfg and itemCfg.isHide then
 			table.remove(self.mailInfo.rewards,i)
 		end
+		if item.id == EC_SItemType.BATTLE_LV_REVIEW and not ActivityDataMgr2:isWarOrderReviewActivityOpen() then
+			table.remove(self.mailInfo.rewards, i)
+		end
 	end
-
     self:showPopAnim(true)
     self:init("lua.uiconfig.mail.showMail")
 end
@@ -50,6 +51,13 @@ function ShowMail:updateUI()
 	self.index 			= MailDataMgr:getMailShowIndex(self.id);
 	self.mailInfo		= MailDataMgr:getOneMail(self.index);
 
+	local rewards = self.mailInfo.rewards or {}
+	for i = #rewards, 1, -1 do
+		local item = self.mailInfo.rewards[i]
+		if item.id == EC_SItemType.BATTLE_LV_REVIEW and not ActivityDataMgr2:isWarOrderReviewActivityOpen() then
+			table.remove(self.mailInfo.rewards, i)
+		end
+	end
 
 	self.Label_title:setString(self.mailInfo.title);
 	-- if self.mailInfo.title == "应援集结 豪礼" then

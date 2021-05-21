@@ -2856,7 +2856,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1333511,
+        mustResultItems = 1334511,
         materialCondition = {
             [1] = 4,
             [2] = 110313,
@@ -2877,7 +2877,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1333521,
+        mustResultItems = 1334521,
         materialCondition = {
             [1] = 4,
             [2] = 110313,
@@ -2898,7 +2898,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1333531,
+        mustResultItems = 1334531,
         materialCondition = {
             [1] = 4,
             [2] = 110313,
@@ -2919,7 +2919,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1333541,
+        mustResultItems = 1334541,
         materialCondition = {
             [1] = 4,
             [2] = 110313,
@@ -5712,7 +5712,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1332611,
+        mustResultItems = 1334611,
         materialCondition = {
             [1] = 5,
             [2] = 110313,
@@ -5733,7 +5733,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1332621,
+        mustResultItems = 1334621,
         materialCondition = {
             [1] = 5,
             [2] = 110313,
@@ -5754,7 +5754,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1332631,
+        mustResultItems = 1334631,
         materialCondition = {
             [1] = 5,
             [2] = 110313,
@@ -5775,7 +5775,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1332641,
+        mustResultItems = 1334641,
         materialCondition = {
             [1] = 5,
             [2] = 110313,
@@ -8568,7 +8568,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1333711,
+        mustResultItems = 1334711,
         materialCondition = {
             [1] = 6,
             [2] = 110313,
@@ -8589,7 +8589,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1333721,
+        mustResultItems = 1334721,
         materialCondition = {
             [1] = 6,
             [2] = 110313,
@@ -8610,7 +8610,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1333731,
+        mustResultItems = 1334731,
         materialCondition = {
             [1] = 6,
             [2] = 110313,
@@ -8631,7 +8631,7 @@ return {
         },
         randomResultItems = {
         },
-        mustResultItems = 1333741,
+        mustResultItems = 1334741,
         materialCondition = {
             [1] = 6,
             [2] = 110313,

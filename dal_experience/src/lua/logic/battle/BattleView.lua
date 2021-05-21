@@ -1515,7 +1515,7 @@ function BattleView:updateLevelTypeDisplay()
     self.panel_victory_time:setVisible(self.levelCfg_.dungeonType ~= EC_FBLevelType.PRACTICE)
 
     if self.levelType_ == EC_FBLevelType.PRACTICE then
-        self.keyBoard.pause_btn:setPositionX(self.keyBoard.pause_btn:getPositionX() + 30)
+        self.keyBoard.pause_btn:hide()
         self.Image_practice_atk_off:setVisible(not self.practice_atk_toggle)
         self.Image_practice_atk_on:setVisible(self.practice_atk_toggle)
         self.Image_practice_infinite_off:setVisible(not self.practice_infinite_toggle)

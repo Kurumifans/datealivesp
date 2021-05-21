@@ -162,16 +162,17 @@ function CollectRewardView:initCell(cell, data)
 		
 		local taskCfg = TaskDataMgr:getTaskCfg(data.id)
 		taskCfg.reward[1] = taskCfg.reward[1] or {}
-		local panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
-		panel_goodsItem:setPosition(ccp(0,0))
-		PrefabDataMgr:setInfo(panel_goodsItem, taskCfg.reward[1][1], taskCfg.reward[1][2])
-		panel_goodsItem:onClick(function()
-            Utils:showInfo(taskCfg.reward[1][1], nil, false)
-        end)
+		if not cell.panel_goodsItem then
+			cell.panel_goodsItem = PrefabDataMgr:getPrefab("Panel_goodsItem"):clone()
+			cell.panel_goodsItem:setPosition(ccp(0,0))
+			cell.panel_goodsItem:onClick(function()
+				Utils:showInfo(taskCfg.reward[1][1], nil, false)
+			end)
 
-		local nodeReward = TFDirector:getChildByPath(cell, "nodeReward")
-		nodeReward:addChild(panel_goodsItem)
-
+			local nodeReward = TFDirector:getChildByPath(cell, "nodeReward")
+			nodeReward:addChild(cell.panel_goodsItem)
+		end
+		PrefabDataMgr:setInfo(cell.panel_goodsItem, taskCfg.reward[1][1], taskCfg.reward[1][2])
 
 		local bg_get = TFDirector:getChildByPath(cell, "bg_get"):hide()
 			  bg_get.desc = TFDirector:getChildByPath(bg_get, "desc")

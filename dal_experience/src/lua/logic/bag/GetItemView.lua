@@ -133,19 +133,26 @@ function GetItemView:refreshView()
 
         if itemCfg  then
             if EC_ItemQualityEffect[itemCfg.quality] then
-                local Spine_qualityEffect_bg = TFDirector:getChildByPath(Panel_goodsItem, "Spine_qualityEffect_bg")
-                Spine_qualityEffect_bg:setVisible(true)
-                Spine_qualityEffect_bg:play(EC_ItemQualityEffect[itemCfg.quality].bg,true)
-                local Spine_qualityEffect_up2 = TFDirector:getChildByPath(Panel_goodsItem, "Spine_qualityEffect_up2")
-                Spine_qualityEffect_up2:play(EC_ItemQualityEffect[itemCfg.quality].up2,true)
-                Spine_qualityEffect_up2:setVisible(false)
+                if not Panel_goodsItem.Spine_qualityEffect_bg  then
+                    Panel_goodsItem.Spine_qualityEffect_bg = SkeletonAnimation:create("effect/effect_props/effect_props")
+                end
+                Panel_goodsItem.Spine_qualityEffect_bg:setScale(0.9)
+                Panel_goodsItem.Spine_qualityEffect_bg:play(EC_ItemQualityEffect[itemCfg.quality].bg,true)
+                Panel_goodsItem:addChild(Panel_goodsItem.Spine_qualityEffect_bg,0)
+                if not Panel_goodsItem.Spine_qualityEffect_up2  then
+                    Panel_goodsItem.Spine_qualityEffect_up2 = SkeletonAnimation:create("effect/effect_props/effect_props")
+                end
+                Panel_goodsItem.Spine_qualityEffect_up2:play(EC_ItemQualityEffect[itemCfg.quality].up2,true)
+                Panel_goodsItem.Spine_qualityEffect_up2:setVisible(false)
+                Panel_goodsItem:getChildByName("Image_icon"):addChild(Panel_goodsItem.Spine_qualityEffect_up2,2)
+                
                 local pos = ccp(1,-1)
                 if itemCfg.quality == EC_ItemQuality.PURPLE then
                     pos = ccp(2,-1)
                 elseif itemCfg.quality == EC_ItemQuality.RED then
                     pos = ccp(1,1)
                 end
-                Spine_qualityEffect_up2:setPosition(pos)
+                Panel_goodsItem.Spine_qualityEffect_up2:setPosition(pos)
             end
             Panel_goodsItem.quality = itemCfg.quality
         end
@@ -164,19 +171,25 @@ function GetItemView:refreshView()
 
         if itemCfg  then
             if EC_ItemQualityEffect[itemCfg.quality] then
-                local Spine_qualityEffect_bg = TFDirector:getChildByPath(Panel_goodsItem, "Spine_qualityEffect_bg")
-                Spine_qualityEffect_bg:setVisible(true)
-                Spine_qualityEffect_bg:play(EC_ItemQualityEffect[itemCfg.quality].bg,true)
-                local Spine_qualityEffect_up2 = TFDirector:getChildByPath(Panel_goodsItem, "Spine_qualityEffect_up2")
-                Spine_qualityEffect_up2:play(EC_ItemQualityEffect[itemCfg.quality].up2,true)
-                Spine_qualityEffect_up2:setVisible(false)
+                if not Panel_goodsItem.Spine_qualityEffect_bg  then
+                    Panel_goodsItem.Spine_qualityEffect_bg = SkeletonAnimation:create("effect/effect_props/effect_props")
+                end
+                Panel_goodsItem.Spine_qualityEffect_bg:setScale(0.9)
+                Panel_goodsItem.Spine_qualityEffect_bg:play(EC_ItemQualityEffect[itemCfg.quality].bg,true)
+                Panel_goodsItem:addChild(Panel_goodsItem.Spine_qualityEffect_bg,0)
+                if not Panel_goodsItem.Spine_qualityEffect_up2  then
+                    Panel_goodsItem.Spine_qualityEffect_up2 = SkeletonAnimation:create("effect/effect_props/effect_props")
+                end
+                Panel_goodsItem.Spine_qualityEffect_up2:play(EC_ItemQualityEffect[itemCfg.quality].up2,true)
+                Panel_goodsItem.Spine_qualityEffect_up2:setVisible(false)
+                Panel_goodsItem:getChildByName("Image_icon"):addChild(Panel_goodsItem.Spine_qualityEffect_up2,2)
                 local pos = ccp(1,-1)
                 if itemCfg.quality == EC_ItemQuality.PURPLE then
                     pos = ccp(2,-1)
                 elseif itemCfg.quality == EC_ItemQuality.RED then
                     pos = ccp(1,1)
                 end
-                Spine_qualityEffect_up2:setPosition(pos)
+                Panel_goodsItem.Spine_qualityEffect_up2:setPosition(pos)
             end
             Panel_goodsItem.quality = itemCfg.quality
         end
@@ -221,6 +234,7 @@ function GetItemView:refreshView()
 end
 
 function GetItemView:playAni()
+
     local delay = -0.1
     --local offsetX = 500
     local offsetX = self.Panel_goodsItem_prefab:Size().width * 0.5
@@ -232,8 +246,6 @@ function GetItemView:playAni()
             local item = items
             --item:hide()
             item:Alpha(0)
-            local Spine_qualityEffect_up = TFDirector:getChildByPath(item, "Spine_qualityEffect_up")
-            Spine_qualityEffect_up:setVisible(true)
             local itemQuality =  item.quality
             local normalTime = 0.1
             delay = delay + normalTime
@@ -269,10 +281,15 @@ function GetItemView:playAni()
                             elseif item.quality == EC_ItemQuality.RED then
                                 pos = ccp(1,1)
                             end
-                            Spine_qualityEffect_up:setPosition(pos)
-                            Spine_qualityEffect_up:play(EC_ItemQualityEffect[itemQuality].up,false)
-                            local Spine_qualityEffect_up2 = TFDirector:getChildByPath(item, "Spine_qualityEffect_up2")
-                            Spine_qualityEffect_up2:setVisible(true)
+                            if not item.Spine_qualityEffect_up  then
+                                item.Spine_qualityEffect_up = SkeletonAnimation:create("effect/effect_props/effect_props")
+                            end
+                            item:getChildByName("Image_icon"):addChild(item.Spine_qualityEffect_up,1)
+                            item.Spine_qualityEffect_up:setPosition(pos)
+                            item.Spine_qualityEffect_up:play(EC_ItemQualityEffect[itemQuality].up,false)
+                            if item.Spine_qualityEffect_up2 then
+                                item.Spine_qualityEffect_up2:setVisible(true)
+                            end
                         end
                     end),
             })

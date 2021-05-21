@@ -94,6 +94,13 @@ return {
         recharge = 1500000,
         order = 14,
         id = 14,
+        open = 1,
+        des = "266015",
+    },
+    [15] = {
+        recharge = 3000000,
+        order = 14,
+        id = 15,
         open = 0,
         des = "22050",
     },

@@ -1317,7 +1317,7 @@ return {
         target = 0,
         speedAddition = false,
         loopTime = 0,
-        moveType = 1,
+        moveType = 5,
         withstandDirection = 0,
         particleEffect = {
         },
@@ -5010,7 +5010,6 @@ return {
             next1 = {
                 [8192] = {
                     down = 14632,
-                    doing = 14641,
                 },
             },
         },
@@ -5020,6 +5019,11 @@ return {
         actionMoveType = 1,
         hitAction = 0,
         eventsSkill = {
+            next1 = {
+                [8192] = {
+                    doing = 104750,
+                },
+            },
         },
         fixZOrder = 0,
         area = {
@@ -7847,7 +7851,7 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
+        action = "stand2",
         checkDrop = false,
         rockerChange = 0,
         actionMoveX = 0,
@@ -18026,9 +18030,6 @@ return {
                     down = 14603,
                     doing = 14611,
                 },
-                [8192] = {
-                    down = 14621,
-                },
             },
         },
         fixTarget = 0,
@@ -18038,6 +18039,11 @@ return {
         actionMoveType = 1,
         hitAction = 0,
         eventsSkill = {
+            next1 = {
+                [8192] = {
+                    down = 104740,
+                },
+            },
         },
         fixZOrder = 0,
         area = {
@@ -29645,7 +29651,7 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
+        action = "stand2",
         checkDrop = false,
         rockerChange = 0,
         actionMoveX = 0,
@@ -40940,7 +40946,7 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
+        action = "stand2",
         checkDrop = false,
         rockerChange = 0,
         actionMoveX = 0,
@@ -50920,7 +50926,7 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
+        action = "stand2",
         checkDrop = false,
         rockerChange = 0,
         actionMoveX = 0,
@@ -58771,7 +58777,7 @@ return {
         target = 0,
         speedAddition = true,
         loopTime = 0,
-        moveType = 1,
+        moveType = 5,
         withstandDirection = 0,
         particleEffect = {
         },
@@ -69219,7 +69225,7 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
+        action = "stand2",
         checkDrop = false,
         rockerChange = 0,
         actionMoveX = 0,
@@ -79027,14 +79033,14 @@ return {
         checkDirect = true,
         id = 11001,
         actionSpeed = 10000,
-        fallSpeed = 1000,
+        fallSpeed = 100,
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
         action = "skillA_1",
         checkDrop = true,
         rockerChange = 0,
-        actionMoveX = 500,
+        actionMoveX = 30,
         fixCamerZ = {
         },
         moveSpeed = 300,
@@ -100618,7 +100624,7 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
+        action = "stand2",
         checkDrop = false,
         rockerChange = 0,
         actionMoveX = 0,
@@ -117808,7 +117814,7 @@ return {
         loop = true,
         name = "白折纸无敌表现",
         cond = 0,
-        actionHard = 0,
+        actionHard = 2,
         keyName = {
         },
         frameEvents = {
@@ -117822,10 +117828,6 @@ return {
         },
         fixZOrder = 0,
         area = {
-            [1] = 0,
-            [2] = -25,
-            [3] = 500,
-            [4] = 50,
         },
         connectAction = 0,
         keyShow = "",
@@ -117837,8 +117839,8 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
-        checkDrop = false,
+        action = "stand2",
+        checkDrop = true,
         rockerChange = 0,
         actionMoveX = 0,
         fixCamerZ = {
@@ -120806,7 +120808,7 @@ return {
         target = 2,
         speedAddition = false,
         loopTime = 0,
-        moveType = 1,
+        moveType = 0,
         withstandDirection = 0,
         particleEffect = {
         },
@@ -120845,7 +120847,7 @@ return {
         withstandSkill = 0,
         action = "skillA",
         checkDrop = false,
-        rockerChange = 500,
+        rockerChange = 0,
         actionMoveX = 0,
         fixCamerZ = {
         },
@@ -135562,7 +135564,7 @@ return {
         loop = true,
         name = "黑折纸无敌表现",
         cond = 0,
-        actionHard = 0,
+        actionHard = 2,
         keyName = {
         },
         frameEvents = {
@@ -135576,10 +135578,6 @@ return {
         },
         fixZOrder = 0,
         area = {
-            [1] = 0,
-            [2] = -25,
-            [3] = 500,
-            [4] = 50,
         },
         connectAction = 0,
         keyShow = "",
@@ -135591,8 +135589,8 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
-        checkDrop = false,
+        action = "stand2",
+        checkDrop = true,
         rockerChange = 0,
         actionMoveX = 0,
         fixCamerZ = {
@@ -136488,6 +136486,8 @@ return {
     [31932] = {
         includeEffect = {
             [1] = 706213,
+            [2] = 706219,
+            [3] = 706220,
         },
         host = 105310,
         target = 2,
@@ -145036,7 +145036,7 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
+        action = "stand2",
         checkDrop = false,
         rockerChange = 0,
         actionMoveX = 0,
@@ -146116,7 +146116,7 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
+        action = "stand2",
         checkDrop = false,
         rockerChange = 0,
         actionMoveX = 0,
@@ -146169,7 +146169,7 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
+        action = "stand2",
         checkDrop = false,
         rockerChange = 0,
         actionMoveX = 0,
@@ -149807,7 +149807,7 @@ return {
         target = 0,
         speedAddition = false,
         loopTime = 0,
-        moveType = 1,
+        moveType = 5,
         withstandDirection = 0,
         particleEffect = {
         },
@@ -153213,7 +153213,7 @@ return {
         loop = true,
         name = "白折纸无敌效果",
         cond = 0,
-        actionHard = 0,
+        actionHard = 2,
         keyName = {
         },
         frameEvents = {
@@ -153227,10 +153227,6 @@ return {
         },
         fixZOrder = 0,
         area = {
-            [1] = 0,
-            [2] = -25,
-            [3] = 500,
-            [4] = 50,
         },
         connectAction = 0,
         keyShow = "",
@@ -153242,8 +153238,8 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
-        checkDrop = false,
+        action = "stand2",
+        checkDrop = true,
         rockerChange = 0,
         actionMoveX = 0,
         fixCamerZ = {
@@ -163978,7 +163974,7 @@ return {
         target = 0,
         speedAddition = false,
         loopTime = 0,
-        moveType = 1,
+        moveType = 5,
         withstandDirection = 0,
         particleEffect = {
         },
@@ -170853,7 +170849,7 @@ return {
         loop = true,
         name = "黑折纸无敌效果",
         cond = 0,
-        actionHard = 0,
+        actionHard = 2,
         keyName = {
         },
         frameEvents = {
@@ -170867,10 +170863,6 @@ return {
         },
         fixZOrder = 0,
         area = {
-            [1] = 0,
-            [2] = -25,
-            [3] = 500,
-            [4] = 50,
         },
         connectAction = 0,
         keyShow = "",
@@ -170882,8 +170874,8 @@ return {
         loopEndType = 0,
         skillType = 1,
         withstandSkill = 0,
-        action = "stand",
-        checkDrop = false,
+        action = "stand2",
+        checkDrop = true,
         rockerChange = 0,
         actionMoveX = 0,
         fixCamerZ = {

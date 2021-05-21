@@ -434,6 +434,9 @@ function RecommondView:removeCountDownTimer()
 end
 
 function RecommondView:refreshView()
+    if not self.data then
+        return
+    end
     self._ui.Image_show:setVisible(nil ~= self.data.bannerimg)
     self.gridView:setVisible(self._ui.Image_show:isVisible())
     if self.data.bannerimg then

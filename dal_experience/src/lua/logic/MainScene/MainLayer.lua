@@ -1727,9 +1727,12 @@ function MainLayer:registerEvents()
     --狂三应援
     self.Button_Activity6:onClick(function()
         Utils:sendHttpLog("Activity")
-        local activityInfo = ActivityDataMgr2:getActivityInfo(nil,6)[1]
-        if not activityInfo then return end
-        FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface,unpack(activityInfo.extendData.jumpParamters or {}))
+        -- local activityInfo = ActivityDataMgr2:getActivityInfo(nil,6)[1]
+        -- if not activityInfo then return end
+        -- dump(activityInfo)
+        -- Box("jj")
+        FunctionDataMgr:jActivity6()
+        -- FunctionDataMgr:enterByFuncId(activityInfo.extendData.jumpInterface,unpack(activityInfo.extendData.jumpParamters or {}))
     end)
 
     --狂三应援
@@ -1947,7 +1950,7 @@ function MainLayer:registerEvents()
     if self.Button_gongzhu then
         Utils:sendHttpLog("cultivate")
         self.Button_gongzhu:onClick(function()
-            FunctionDataMgr:jTask(EC_TaskPage.TRAININIG)
+            FunctionDataMgr:jTask(EC_TaskPage.TRAININIG, true)
         end)
     end
 
@@ -2168,7 +2171,7 @@ function MainLayer:updateLive2d()
         modelId = dressData.highRoleModel
     end
 
-    self.modelId = modelId
+    self.modelId = modelId or 210101
 
     local elvesNpcTable = ElvesNpcTable:createLive2dNpcID(modelId,true,true,nil,true,true)
     if not elvesNpcTable then
@@ -2177,7 +2180,7 @@ function MainLayer:updateLive2d()
         self.elvesNpc = elvesNpcTable.live2d
     end
 
-    local offPos = dressData.offSet
+    local offPos = dressData and dressData.offSet
 
     if offPos and offPos.x and offPos.y then
         self.elvesNpc:setPosition(ccp(410,-100) + ccp(offPos.x,offPos.y))
@@ -3401,6 +3404,7 @@ function MainLayer:initNpc()
                 self.Image_switch_role:stopAllActions()
                 RoleSwitchDataMgr:setFirstFlag(false)
                 RoleSwitchDataMgr:setNextRole()
+                self:updateLive2d()
             else
                 self:updateLive2d()
             end

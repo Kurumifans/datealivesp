@@ -549,9 +549,7 @@ function KeyBoard:updateLimitBar(keyNode, skill )
     end
 
     if keyNode.percent == percent then return end
-
     keyNode.percent = keyNode.percent or 0 
-
     if keyNode.ctrlLimit_Effect then
 
         keyNode.ctrlLimit_Effect:addMEListener(TFARMATURE_COMPLETE,function ( ... )
@@ -560,7 +558,6 @@ function KeyBoard:updateLimitBar(keyNode, skill )
             keyNode.LoadingBar_limit:setVisible(percent > 0)
             keyNode.ctrlLimit_Effect:hide()
         end)
-
         if percent > 0  and percent > keyNode.percent then
             keyNode.skillId = skill.skillCfg.id
             keyNode.LoadingBar_limit:hide()

@@ -2461,7 +2461,7 @@ return {
     },
     [157] = {
         isOpen = false,
-        openLevel = 99,
+        openLevel = 55,
         isStinger = false,
         id = 157,
         openDun = 0,

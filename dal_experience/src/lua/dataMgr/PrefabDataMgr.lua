@@ -90,14 +90,7 @@ function PrefabDataMgr:set_Panel_goodsItem(item, idOrCid, count, level, isNotAcc
     local Label_count = TFDirector:getChildByPath(item, "Label_count"):hide()
     local Image_heroQuality = TFDirector:getChildByPath(item, "Image_heroQuality"):hide()
     local Image_starItem = TFDirector:getChildByPath(item, "Image_starItem"):hide()
-    local Spine_qualityEffect_bg = TFDirector:getChildByPath(item, "Spine_qualityEffect_bg")
-    if Spine_qualityEffect_bg then
-        Spine_qualityEffect_bg:hide()
-    end
-    local Spine_qualityEffect_up = TFDirector:getChildByPath(item, "Spine_qualityEffect_up")
-    if Spine_qualityEffect_up then
-        Spine_qualityEffect_up:hide()
-    end
+
     local ScrollView_star = TFDirector:getChildByPath(item, "ScrollView_star")
     local Panel_level_star = TFDirector:getChildByPath(item, "Panel_level_star"):hide()
     Label_level_title:setString("Lv.")

@@ -590,6 +590,13 @@ function Actor:update(dt)
         for i,v in ipairs(debug_attrs) do
             text= text..string.format("[%s:%s]",v,math.floor(srcProperty:getValue(v)))
         end
+        local states = self.hero.stateMgr.stateSign
+        text = text.."\nstate"
+        for k,v in pairs(states) do
+            if table.count(v) > 0 then
+                text = text.."-"..k
+            end
+        end
         if self.textAttrs then
             self.textAttrs:setText(text)
         end
@@ -1075,7 +1082,7 @@ end
 
 --静止
 function Actor:stopAni()
-     self.animation = nil
+    self.animation = nil
     self.skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
     self.skeletonNode:stop()
 end
@@ -1228,11 +1235,13 @@ function Actor:playEffect(effectName,effectScale,actionName,callFunc)
     else
         skeletonNode:playByIndex(0, 0)
     end
+    self.childSkeletionNode = self.childSkeletionNode or {}
     skeletonNode:addMEListener(TFARMATURE_COMPLETE,function(_skeletonNode)
         _skeletonNode:removeMEListener(TFARMATURE_COMPLETE)
         if _skeletonNode.resPath then
             ResLoader.addCacheSpine(_skeletonNode,_skeletonNode.resPath)
         end
+        table.removeItem(self.childSkeletionNode,_skeletonNode)
         _skeletonNode:removeFromParent()
         if callFunc then
             callFunc(_skeletonNode)
@@ -1292,6 +1301,13 @@ end
 
 function Actor:removeFromParent_(cleanUp)
     self:clearActionParticle()
+    if self.childSkeletionNode and #self.childSkeletionNode > 0 then
+        for k,v in ipairs(self.childSkeletionNode) do
+            if v.resPath then
+                ResLoader.addCacheSpine(v,v.resPath)
+            end
+        end
+    end
     self:removeFromParent()
     if cleanUp then
         if self.groundNode then

@@ -185,7 +185,7 @@ function CollectDataMgr:addItemTrophy(item, cid)
     if not cfg then return end
     if not Trophy then
         Trophy = TFLabel:create()
-        Trophy:setFontSize(30)
+        Trophy:setFontSize(24)
         local anchor = item:getAnchorPoint()
         item:setAnchorPoint(ccp(0.5,0.5))
         Trophy:setPosition(ccp(0, 0))

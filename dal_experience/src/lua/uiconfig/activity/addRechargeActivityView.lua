@@ -132,7 +132,6 @@ local t =
 									innerHeight = "90",
 									innerWidth = "459",
 									name = "ScrollView_task",
-									scaleY = "1.2",
 									showScrollbar = "False",
 									sizepercentx = "0",
 									sizepercenty = "0",
@@ -377,7 +376,7 @@ local t =
 							classname = "MELabel",
 							compPath = "luacomponents.common.MEIconLabel",
 							dstBlendFunc = "771",
-							FontColor = "#FFFFFFFF",
+							FontColor = "#FFF1EFF7",
 							fontName = "font/MFLiHei_Noncommercial.ttf",
 							fontShadow = 
 							{
@@ -391,7 +390,7 @@ local t =
 							fontStroke = 
 							{
 								IsStroke = true,
-								StrokeColor = "#FF4A43AC",
+								StrokeColor = "#FF1856C7",
 								StrokeSize = 2,
 							},
 							height = "36",
@@ -441,8 +440,8 @@ local t =
 					touchAble = "False",
 					UILayoutViewModel = 
 					{
-						PositionX = 705,
-						PositionY = -571,
+						PositionX = 632,
+						PositionY = -635,
 						LeftPositon = 1148,
 						TopPosition = 301,
 						relativeToName = "Panel",
@@ -482,8 +481,8 @@ local t =
 							touchAble = "False",
 							UILayoutViewModel = 
 							{
-								PositionX = 336,
-								PositionY = 530,
+								PositionX = 309,
+								PositionY = 415,
 							},
 							uipanelviewmodel = 
 							{
@@ -510,11 +509,11 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "88",
+									height = "89",
 									ignoreSize = "False",
 									name = "Panel_geted",
-									sizepercentx = "100",
-									sizepercenty = "100",
+									sizepercentx = "101",
+									sizepercenty = "101",
 									sizeType = "1",
 									srcBlendFunc = "1",
 									touchAble = "False",
@@ -527,7 +526,7 @@ local t =
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "88",
+									width = "89",
 									ZOrder = "1",
 									components = 
 									{
@@ -541,7 +540,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "122",
+											height = "102",
 											ignoreSize = "True",
 											name = "Image_geted",
 											scaleX = "0.8",
@@ -555,9 +554,9 @@ local t =
 											UILayoutViewModel = 
 											{
 												PositionX = -1,
-												PositionY = 48,
+												PositionY = 50,
 											},
-											width = "117",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -583,7 +582,7 @@ local t =
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF4A43AC",
+												StrokeColor = "#FF1E4EA5",
 												StrokeSize = 2,
 											},
 											height = "29",
@@ -622,24 +621,24 @@ local t =
 									DesignType = "0",
 									DesignWidth = "960",
 									dstBlendFunc = "771",
-									height = "88",
+									height = "89",
 									ignoreSize = "False",
 									name = "Panel_get",
-									sizepercentx = "100",
-									sizepercenty = "100",
+									sizepercentx = "101",
+									sizepercenty = "101",
 									sizeType = "1",
 									srcBlendFunc = "1",
 									touchAble = "False",
 									UILayoutViewModel = 
 									{
-										
+										PositionY = 1,
 									},
 									uipanelviewmodel = 
 									{
 										Layout="Absolute",
 										nType = "0"
 									},
-									width = "88",
+									width = "89",
 									ZOrder = "1",
 									components = 
 									{
@@ -686,7 +685,7 @@ local t =
 											dstBlendFunc = "771",
 											flipX = "False",
 											flipY = "False",
-											height = "122",
+											height = "102",
 											ignoreSize = "True",
 											name = "Button_get",
 											normal = "ui/activity/add_recharge/006.png",
@@ -703,7 +702,7 @@ local t =
 												PositionY = 49,
 											},
 											UItype = "Button",
-											width = "117",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -729,7 +728,7 @@ local t =
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF4A43AC",
+												StrokeColor = "#FF1E4EA5",
 												StrokeSize = 2,
 											},
 											height = "29",
@@ -801,7 +800,7 @@ local t =
 											backGroundScale9Enable = "False",
 											classname = "MEImage",
 											dstBlendFunc = "771",
-											height = "122",
+											height = "102",
 											ignoreSize = "True",
 											name = "Image_notGet",
 											scaleX = "0.8",
@@ -814,9 +813,9 @@ local t =
 											touchAble = "True",
 											UILayoutViewModel = 
 											{
-												PositionY = 47,
+												PositionY = 52,
 											},
-											width = "117",
+											width = "102",
 											ZOrder = "1",
 										},
 										{
@@ -838,14 +837,14 @@ local t =
 												OffsetX = 0,
 												OffsetY = 0,
 											},
-											fontSize = "16",
+											fontSize = "20",
 											fontStroke = 
 											{
 												IsStroke = true,
-												StrokeColor = "#FF4A43AC",
+												StrokeColor = "#FF1E4EA5",
 												StrokeSize = 2,
 											},
-											height = "24",
+											height = "29",
 											ignoreSize = "True",
 											name = "Label_money",
 											nTextAlign = "1",
@@ -861,7 +860,7 @@ local t =
 											{
 												PositionY = 10,
 											},
-											width = "42",
+											width = "50",
 											ZOrder = "1",
 										},
 									},

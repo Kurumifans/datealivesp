@@ -12130,7 +12130,7 @@ return {
         durationTime = 0,
         des = "糖果2a1",
     },
-    [1330101] = {
+    [20000180] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -12139,12 +12139,12 @@ return {
         },
         skillRoller2  = {
         },
-        heroPower = 31,
+        heroPower = 0,
         bodyArea = {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 1330101,
+        id = 20000180,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -12158,28 +12158,18 @@ return {
         },
         triggerTrans = {
         },
-        AI = 121006,
+        AI = 1060,
         skillRoller5 = {
         },
-        model = "fight_13301",
+        model = "fight_20401",
         passivitySkills = {
         },
         skills = {
-            [1] = 105210,
-            [2] = 105220,
-            [3] = 105230,
-            [4] = 105240,
-            [5] = 105250,
-            [6] = 105260,
-            [7] = 105270,
-            [8] = 105280,
-            [9] = 105290,
-            [10] = 105291,
-            [11] = 105292,
-            [12] = 105293,
+            [1] = 200410,
+            [2] = 200420,
         },
-        durationTime = -1,
-        des = "圆神凛祢",
+        durationTime = 0,
+        des = "高阶近战AST小怪(敏捷)",
     },
     [20006350] = {
         skillWeight = {
@@ -16950,7 +16940,7 @@ return {
         durationTime = 0,
         des = "低阶万由里综合",
     },
-    [20000310] = {
+    [1150101] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -16959,12 +16949,12 @@ return {
         },
         skillRoller2  = {
         },
-        heroPower = 0,
+        heroPower = 20,
         bodyArea = {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20000310,
+        id = 1150101,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -16978,18 +16968,25 @@ return {
         },
         triggerTrans = {
         },
-        AI = 1020,
+        AI = 115001,
         skillRoller5 = {
         },
-        model = "fight_20201",
+        model = "fight_11501",
         passivitySkills = {
         },
         skills = {
-            [1] = 200210,
-            [2] = 200220,
+            [1] = 102910,
+            [2] = 102920,
+            [3] = 102930,
+            [4] = 102940,
+            [5] = 102950,
+            [6] = 102960,
+            [7] = 102970,
+            [8] = 102980,
+            [9] = 102990,
         },
-        durationTime = 0,
-        des = "远程AST小怪",
+        durationTime = -1,
+        des = "布兰",
     },
     [20006480] = {
         skillWeight = {
@@ -26537,7 +26534,7 @@ return {
         durationTime = 0,
         des = "精英雷元素首领",
     },
-    [20000010] = {
+    [999154] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -26551,13 +26548,13 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20000010,
+        id = 999154,
         skillRoller3 = {
         },
         skillRoller1  = {
         },
         reductionTrans = 0,
-        moveType = 2,
+        moveType = 0,
         actionIndex = 1,
         monsterType = "",
         atkNumberMax = 0,
@@ -26565,18 +26562,19 @@ return {
         },
         triggerTrans = {
         },
-        AI = 1010,
+        AI = 999154,
         skillRoller5 = {
         },
-        model = "fight_20101",
+        model = "fight_29003_1",
         passivitySkills = {
         },
         skills = {
-            [1] = 200110,
-            [2] = 200120,
+            [1] = 701110,
+            [2] = 701120,
+            [3] = 701130,
         },
         durationTime = 0,
-        des = "近战AST小怪(新手关特制)",
+        des = "狂三外传剧场-第一章-level15-抢道具-人偶1",
     },
     [20008210] = {
         skillWeight = {
@@ -27330,7 +27328,7 @@ return {
         durationTime = 0,
         des = "美久（精灵挑战-电球）",
     },
-    [999163] = {
+    [20004390] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -27344,36 +27342,37 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 999163,
+        id = 20004390,
         skillRoller3 = {
         },
         skillRoller1  = {
         },
         reductionTrans = 0,
-        moveType = 0,
+        moveType = 2,
         actionIndex = 1,
         monsterType = "",
         atkNumberMax = 0,
         particleEffect = {
         },
         triggerTrans = {
-            [1] = 700640,
-            [2] = 999164,
         },
-        AI = 999163,
+        AI = 624001,
         skillRoller5 = {
         },
-        model = "fight_29001",
+        model = "fight_10401",
         passivitySkills = {
         },
         skills = {
-            [1] = 700610,
-            [2] = 700620,
-            [3] = 700630,
-            [4] = 700640,
+            [1] = 430410,
+            [2] = 430500,
+            [3] = 430501,
+            [4] = 430502,
+            [5] = 430460,
+            [6] = 430450,
+            [7] = 430470,
         },
         durationTime = 0,
-        des = "狂三外传剧场-第一章-level17-抢道具-土方形态1",
+        des = "狂三（万由里boss）",
     },
     [20002360] = {
         skillWeight = {
@@ -27868,7 +27867,7 @@ return {
         durationTime = 0,
         des = "高阶万由里远程(飞行)",
     },
-    [20000490] = {
+    [999169] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -27882,7 +27881,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20000490,
+        id = 999169,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -27896,18 +27895,17 @@ return {
         },
         triggerTrans = {
         },
-        AI = 1050,
+        AI = 999169,
         skillRoller5 = {
         },
-        model = "fight_20301",
+        model = "buffItem__kuangsanjuchang_huixue",
         passivitySkills = {
         },
         skills = {
-            [1] = 200310,
-            [2] = 200320,
+            [1] = 311117,
         },
         durationTime = 0,
-        des = "综合AST小怪",
+        des = "狂三外传剧场-第一章-level11-道具外观的怪物-回血-暂废",
     },
     [1060301] = {
         skillWeight = {
@@ -28730,7 +28728,7 @@ return {
         durationTime = 0,
         des = "低阶能量近战",
     },
-    [20000810] = {
+    [999179] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -28744,7 +28742,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20000810,
+        id = 999179,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -28758,19 +28756,17 @@ return {
         },
         triggerTrans = {
         },
-        AI = 1070,
+        AI = 999179,
         skillRoller5 = {
         },
-        model = "fight_20501",
+        model = "buffItem__kuangsanjuchang_jianshang",
         passivitySkills = {
         },
         skills = {
-            [1] = 200510,
-            [2] = 200520,
-            [3] = 200530,
+            [1] = 311127,
         },
         durationTime = 0,
-        des = "高阶远程AST小怪(守护)",
+        des = "狂三外传剧场-第一章-level14/15/16-道具外观的怪物-减伤-暂废",
     },
     [20009010] = {
         skillWeight = {
@@ -28926,7 +28922,7 @@ return {
         durationTime = 0,
         des = "夕炫（精灵挑战-导弹）",
     },
-    [999181] = {
+    [20002920] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -28940,7 +28936,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 999181,
+        id = 20002920,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -28954,17 +28950,18 @@ return {
         },
         triggerTrans = {
         },
-        AI = 999181,
+        AI = 4022,
         skillRoller5 = {
         },
-        model = "buffItem__kuangsanjuchang_jiagong",
+        model = "fight_22201",
         passivitySkills = {
         },
         skills = {
-            [1] = 311129,
+            [1] = 270310,
+            [2] = 270320,
         },
         durationTime = 0,
-        des = "狂三外传剧场-第一章-level14/15/16-道具外观的怪物-加攻",
+        des = "低阶能量综合",
     },
     [20000890] = {
         skillWeight = {
@@ -29177,7 +29174,7 @@ return {
         durationTime = 0,
         des = "日下部燎子（精英）",
     },
-    [20000970] = {
+    [999184] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -29186,18 +29183,18 @@ return {
         },
         skillRoller2  = {
         },
-        heroPower = 0,
+        heroPower = 6,
         bodyArea = {
             [1] = "bdbox",
         },
-        modelSize = 1.5,
-        id = 20000970,
+        modelSize = 1,
+        id = 999184,
         skillRoller3 = {
         },
         skillRoller1  = {
         },
         reductionTrans = 0,
-        moveType = 2,
+        moveType = 0,
         actionIndex = 1,
         monsterType = "",
         atkNumberMax = 0,
@@ -29205,20 +29202,25 @@ return {
         },
         triggerTrans = {
         },
-        AI = 2060,
+        AI = 110402,
         skillRoller5 = {
         },
-        model = "fight_21601",
+        model = "fight_10406",
         passivitySkills = {
         },
         skills = {
-            [1] = 250010,
-            [2] = 250020,
-            [3] = 250030,
-            [4] = 250040,
+            [1] = 101810,
+            [2] = 101820,
+            [3] = 101830,
+            [4] = 101840,
+            [5] = 101850,
+            [6] = 101860,
+            [7] = 101870,
+            [8] = 101880,
+            [9] = 101890,
         },
-        durationTime = 0,
-        des = "机械猩猩（精英）",
+        durationTime = -1,
+        des = "地错联动主线-狂三",
     },
     [20009170] = {
         skillWeight = {
@@ -32751,6 +32753,52 @@ return {
         durationTime = 0,
         des = "低阶万由里远程",
     },
+    [999227] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 999227,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 999210,
+        skillRoller5 = {
+        },
+        model = "fight_10101",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 430110,
+            [2] = 430120,
+            [3] = 430140,
+            [4] = 430150,
+            [5] = 430170,
+            [6] = 430180,
+            [7] = 430190,
+        },
+        durationTime = 0,
+        des = "主线12章-地狱关卡-生存-十香BOSS-无敌",
+    },
     [20008500] = {
         skillWeight = {
             [1] = 10,
@@ -32963,79 +33011,52 @@ return {
         durationTime = 0,
         des = "万由里BOSS(剧情)",
     },
-    [20008580] = {
+    [999230] = {
         skillWeight = {
-            [1] = 10,
-            [2] = 0,
-            [3] = 0,
-            [4] = 5,
-            [5] = 5,
         },
         skillRoller4 = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
         },
         expend = {
         },
         skillRoller2  = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
         },
         heroPower = 0,
         bodyArea = {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20008580,
+        id = 999230,
         skillRoller3 = {
-            [1] = 50,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
         },
         skillRoller1  = {
-            [1] = 300,
-            [2] = -600,
-            [3] = -15,
-            [4] = 1200,
-            [5] = 30,
         },
         reductionTrans = 0,
         moveType = 2,
         actionIndex = 1,
-        monsterType = "archer",
-        atkNumberMax = 3,
+        monsterType = "",
+        atkNumberMax = 0,
         particleEffect = {
         },
         triggerTrans = {
         },
-        AI = 10,
+        AI = 999213,
         skillRoller5 = {
-            [1] = 100,
-            [2] = -400,
-            [3] = -15,
-            [4] = 800,
-            [5] = 30,
         },
-        model = "fight_20501",
+        model = "fight_10301",
         passivitySkills = {
         },
         skills = {
-            [1] = 200510,
-            [2] = 200520,
-            [3] = 200530,
-            [4] = 200540,
-            [5] = 200550,
+            [1] = 100310,
+            [2] = 100320,
+            [3] = 100330,
+            [4] = 100340,
+            [5] = 100350,
+            [6] = 100360,
+            [7] = 100370,
+            [8] = 100380,
         },
         durationTime = 0,
-        des = "高阶远程AST小怪-----------（高级货）更多同时攻击",
+        des = "主线12章-地狱关卡-生存-四系乃BOSS-无敌",
     },
     [20006550] = {
         skillWeight = {
@@ -33078,7 +33099,7 @@ return {
         durationTime = 0,
         des = "低阶能量远程",
     },
-    [20004520] = {
+    [999231] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -33092,7 +33113,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20004520,
+        id = 999231,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -33106,24 +33127,23 @@ return {
         },
         triggerTrans = {
         },
-        AI = 666666,
+        AI = 999214,
         skillRoller5 = {
         },
-        model = "fight_10501",
+        model = "fight_11001",
         passivitySkills = {
         },
         skills = {
-            [1] = 430510,
-            [2] = 430520,
-            [3] = 430530,
-            [4] = 430540,
-            [5] = 430550,
-            [6] = 430560,
-            [7] = 430570,
-            [8] = 430580,
+            [1] = 481010,
+            [2] = 481020,
+            [3] = 481030,
+            [4] = 481040,
+            [5] = 481050,
+            [6] = 481060,
+            [7] = 481070,
         },
         durationTime = 0,
-        des = "琴里（无尽）",
+        des = "主线12章-地狱关卡-生存-美九BOSS-无敌",
     },
     [20002490] = {
         skillWeight = {
@@ -33189,7 +33209,7 @@ return {
         durationTime = 0,
         des = "万由里BOSS(常驻)",
     },
-    [30000050] = {
+    [999232] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -33203,7 +33223,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 30000050,
+        id = 999232,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -33217,30 +33237,23 @@ return {
         },
         triggerTrans = {
         },
-        AI = 700050,
+        AI = 999215,
         skillRoller5 = {
         },
-        model = "fight_10209",
+        model = "fight_10701",
         passivitySkills = {
         },
         skills = {
-            [1] = 502510,
-            [2] = 502520,
-            [3] = 502530,
-            [4] = 502540,
-            [5] = 502550,
-            [6] = 502560,
-            [7] = 502570,
-            [8] = 502580,
-            [9] = 502591,
-            [10] = 502592,
-            [11] = 502593,
-            [12] = 345463,
-            [13] = 345464,
-            [14] = 345465,
+            [1] = 430710,
+            [2] = 430720,
+            [3] = 430730,
+            [4] = 430740,
+            [5] = 430760,
+            [6] = 430780,
+            [7] = 430790,
         },
         durationTime = 0,
-        des = "白折纸（不会变身）",
+        des = "主线12章-地狱关卡-生存-耶俱矢BOSS",
     },
     [20008660] = {
         skillWeight = {
@@ -33473,65 +33486,54 @@ return {
         durationTime = 0,
         des = "或守陷阱升级",
     },
-    [20008740] = {
+    [999235] = {
         skillWeight = {
-            [1] = 10,
-            [2] = 0,
-            [3] = 5,
         },
         skillRoller4 = {
         },
         expend = {
         },
         skillRoller2  = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
         },
         heroPower = 0,
         bodyArea = {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20008740,
+        id = 999235,
         skillRoller3 = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
         },
         skillRoller1  = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
         },
         reductionTrans = 0,
         moveType = 2,
-        actionIndex = 1,
-        monsterType = "saber",
-        atkNumberMax = 3,
+        actionIndex = 2,
+        monsterType = "",
+        atkNumberMax = 0,
         particleEffect = {
         },
         triggerTrans = {
+            [1] = 502020,
+            [2] = 20008080,
         },
-        AI = 10,
+        AI = 999218,
         skillRoller5 = {
         },
-        model = "fight_22201",
+        model = "fight_11301_2",
         passivitySkills = {
         },
         skills = {
-            [1] = 270310,
-            [2] = 270320,
-            [3] = 270330,
+            [1] = 502010,
+            [2] = 502020,
+            [3] = 502030,
+            [4] = 502040,
+            [5] = 502050,
+            [6] = 502060,
+            [7] = 502070,
+            [8] = 502080,
         },
         durationTime = 0,
-        des = "低阶能量综合-----------------（高级货）更多同时攻击",
+        des = "主线12章-地狱关卡-生存-七罪大人BOSS",
     },
     [20006710] = {
         skillWeight = {
@@ -33672,6 +33674,52 @@ return {
         },
         durationTime = -1,
         des = "诺瓦露",
+    },
+    [999237] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 999237,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 999220,
+        skillRoller5 = {
+        },
+        model = "fight_10401",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 430410,
+            [2] = 430500,
+            [3] = 430501,
+            [4] = 430502,
+            [5] = 430460,
+            [6] = 430450,
+            [7] = 430470,
+        },
+        durationTime = 0,
+        des = "主线12章-地狱关卡-生存-狂三BOSS-无敌",
     },
     [20008820] = {
         skillWeight = {
@@ -44318,7 +44366,7 @@ return {
         durationTime = 0,
         des = "白折纸白球3",
     },
-    [20003300] = {
+    [20007971] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -44332,7 +44380,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20003300,
+        id = 20007971,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -44346,33 +44394,24 @@ return {
         },
         triggerTrans = {
         },
-        AI = 6050,
+        AI = 910201,
         skillRoller5 = {
         },
-        model = "fight_24501",
+        model = "Lv_DEMGC_paodai",
         passivitySkills = {
         },
         skills = {
-            [1] = 304010,
-            [2] = 304020,
-            [3] = 304030,
         },
         durationTime = 0,
-        des = "高阶万由里远程",
+        des = "低阶DEM近战小怪_社团4_跑道",
     },
-    [20008930] = {
+    [20008740] = {
         skillWeight = {
             [1] = 10,
-            [2] = 5,
-            [3] = 0,
-            [4] = 5,
+            [2] = 0,
+            [3] = 5,
         },
         skillRoller4 = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
         },
         expend = {
         },
@@ -44388,13 +44427,13 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20008930,
+        id = 20008740,
         skillRoller3 = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
         },
         skillRoller1  = {
             [1] = 50,
@@ -44412,22 +44451,21 @@ return {
         },
         triggerTrans = {
         },
-        AI = 11,
+        AI = 10,
         skillRoller5 = {
         },
-        model = "fight_21001",
+        model = "fight_22201",
         passivitySkills = {
         },
         skills = {
-            [1] = 260120,
-            [2] = 260130,
-            [3] = 260140,
-            [4] = 260141,
+            [1] = 270310,
+            [2] = 270320,
+            [3] = 270330,
         },
         durationTime = 0,
-        des = "高阶DEM近战小怪-----------------（高级货）快放技能",
+        des = "低阶能量综合-----------------（高级货）更多同时攻击",
     },
-    [999004] = {
+    [20009812] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -44436,52 +44474,52 @@ return {
         },
         skillRoller2  = {
         },
-        heroPower = 26,
+        heroPower = 28,
         bodyArea = {
             [1] = "bdbox",
         },
-        modelSize = 1,
-        id = 999004,
+        modelSize = 1.2,
+        id = 20009812,
         skillRoller3 = {
         },
         skillRoller1  = {
         },
         reductionTrans = 0,
         moveType = 2,
-        actionIndex = 1,
+        actionIndex = 2,
         monsterType = "",
         atkNumberMax = 0,
         particleEffect = {
         },
         triggerTrans = {
-            [1] = 700391,
-            [2] = 999104,
         },
-        AI = 624124,
+        AI = 624131,
         skillRoller5 = {
         },
-        model = "fight_12501",
+        model = "fight_12701",
         passivitySkills = {
         },
         skills = {
-            [1] = 700300,
-            [2] = 700310,
-            [3] = 700390,
-            [4] = 700320,
-            [5] = 700330,
-            [6] = 700340,
-            [7] = 700350,
-            [8] = 700360,
-            [9] = 700370,
-            [10] = 700380,
-            [11] = 700390,
-            [12] = 700391,
-            [13] = 700392,
-            [14] = 700393,
-            [15] = 700394,
+            [1] = 701500,
+            [2] = 701510,
+            [3] = 701520,
+            [4] = 701530,
+            [5] = 701540,
+            [6] = 701550,
+            [7] = 701551,
+            [8] = 701560,
+            [9] = 701570,
+            [10] = 701580,
+            [11] = 701590,
+            [12] = 701600,
+            [13] = 701610,
+            [14] = 701620,
+            [15] = 701630,
+            [16] = 701640,
+            [17] = 701650,
         },
         durationTime = -1,
-        des = "鞠奈入侵BOSS-LV4-角色",
+        des = "白王-大boss-2形态",
     },
     [30000056] = {
         skillWeight = {
@@ -44623,74 +44661,127 @@ return {
         durationTime = 0,
         des = "暴走机甲",
     },
-    [20008940] = {
+    [30000050] = {
         skillWeight = {
-            [1] = 10,
-            [2] = 0,
-            [3] = 5,
-            [4] = 5,
         },
         skillRoller4 = {
-            [1] = 100,
-            [2] = -400,
-            [3] = -15,
-            [4] = 800,
-            [5] = 30,
         },
         expend = {
         },
         skillRoller2  = {
-            [1] = 200,
-            [2] = -400,
-            [3] = -15,
-            [4] = 800,
-            [5] = 30,
         },
         heroPower = 0,
         bodyArea = {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20008940,
+        id = 30000050,
         skillRoller3 = {
-            [1] = 200,
-            [2] = -400,
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 700050,
+        skillRoller5 = {
+        },
+        model = "fight_10209",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 502510,
+            [2] = 502520,
+            [3] = 502530,
+            [4] = 502540,
+            [5] = 502550,
+            [6] = 502560,
+            [7] = 502570,
+            [8] = 502580,
+            [9] = 502591,
+            [10] = 502592,
+            [11] = 502593,
+            [12] = 345463,
+            [13] = 345464,
+            [14] = 345465,
+        },
+        durationTime = 0,
+        des = "白折纸（不会变身）",
+    },
+    [20008750] = {
+        skillWeight = {
+            [1] = 10,
+            [2] = 5,
+            [3] = 0,
+            [4] = 5,
+        },
+        skillRoller4 = {
+            [1] = 50,
+            [2] = -160,
             [3] = -15,
-            [4] = 800,
+            [4] = 320,
+            [5] = 30,
+        },
+        expend = {
+        },
+        skillRoller2  = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 0.35,
+        id = 20008750,
+        skillRoller3 = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
             [5] = 30,
         },
         skillRoller1  = {
-            [1] = 300,
-            [2] = -600,
+            [1] = 50,
+            [2] = -160,
             [3] = -15,
-            [4] = 1200,
+            [4] = 320,
             [5] = 30,
         },
         reductionTrans = 0,
         moveType = 2,
         actionIndex = 1,
-        monsterType = "archer",
+        monsterType = "saber",
         atkNumberMax = 3,
         particleEffect = {
         },
         triggerTrans = {
         },
-        AI = 11,
+        AI = 10,
         skillRoller5 = {
         },
-        model = "fight_21101",
+        model = "fight_22301",
         passivitySkills = {
         },
         skills = {
-            [1] = 260070,
-            [2] = 260081,
-            [3] = 260082,
-            [4] = 260083,
+            [1] = 270410,
+            [2] = 270420,
+            [3] = 270430,
+            [4] = 270440,
         },
         durationTime = 0,
-        des = "高阶DEM远程小怪-----------------（高级货）快放技能",
+        des = "高阶能量近战-----------------（高级货）更多同时攻击",
     },
-    [30000022] = {
+    [20009813] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -44699,40 +44790,46 @@ return {
         },
         skillRoller2  = {
         },
-        heroPower = 0,
+        heroPower = 16,
         bodyArea = {
             [1] = "bdbox",
         },
         modelSize = 0.9,
-        id = 30000022,
+        id = 20009813,
         skillRoller3 = {
         },
         skillRoller1  = {
         },
         reductionTrans = 0,
         moveType = 0,
-        actionIndex = 2,
+        actionIndex = 1,
         monsterType = "",
         atkNumberMax = 0,
         particleEffect = {
         },
         triggerTrans = {
+            [1] = 701791,
+            [2] = 20009818,
         },
-        AI = 700022,
+        AI = 999200,
         skillRoller5 = {
         },
-        model = "fight_31101",
+        model = "fight_10302",
         passivitySkills = {
         },
         skills = {
-            [1] = 345901,
-            [2] = 345902,
-            [3] = 345903,
-            [4] = 345904,
-            [5] = 345905,
+            [1] = 701710,
+            [2] = 701720,
+            [3] = 701730,
+            [4] = 701740,
+            [5] = 701750,
+            [6] = 701760,
+            [7] = 701770,
+            [8] = 701780,
+            [9] = 701791,
         },
-        durationTime = 0,
-        des = "贝格芬",
+        durationTime = -1,
+        des = "冰雪节强化四糸乃",
     },
     [30000032] = {
         skillWeight = {
@@ -44876,6 +44973,387 @@ return {
         durationTime = -1,
         des = "强化四糸乃",
     },
+    [30000022] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 0.9,
+        id = 30000022,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 0,
+        actionIndex = 2,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 700022,
+        skillRoller5 = {
+        },
+        model = "fight_31101",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 345901,
+            [2] = 345902,
+            [3] = 345903,
+            [4] = 345904,
+            [5] = 345905,
+        },
+        durationTime = 0,
+        des = "贝格芬",
+    },
+    [20007700] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20007700,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 8050,
+        skillRoller5 = {
+        },
+        model = "fight_25303",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 309350,
+            [2] = 309360,
+        },
+        durationTime = 0,
+        des = "雪人蓝",
+    },
+    [20008780] = {
+        skillWeight = {
+            [1] = 10,
+            [2] = 0,
+            [3] = 5,
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20008780,
+        skillRoller3 = {
+            [1] = 100,
+            [2] = -400,
+            [3] = -15,
+            [4] = 800,
+            [5] = 30,
+        },
+        skillRoller1  = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "saber",
+        atkNumberMax = 3,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 11,
+        skillRoller5 = {
+        },
+        model = "fight_20101",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 200110,
+            [2] = 200120,
+            [3] = 200130,
+        },
+        durationTime = 0,
+        des = "近战AST小怪--------------（高级货）快放技能",
+    },
+    [20009821] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox_eff",
+        },
+        modelSize = 1,
+        id = 20009821,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 999189,
+        skillRoller5 = {
+        },
+        model = "fight_Watchmen_3",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 702010,
+            [2] = 702020,
+        },
+        durationTime = 0,
+        des = "白色守护者",
+    },
+    [20009820] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox_eff",
+        },
+        modelSize = 1,
+        id = 20009820,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 999188,
+        skillRoller5 = {
+        },
+        model = "fight_Watchmen_2",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 701910,
+            [2] = 701920,
+        },
+        durationTime = 0,
+        des = "红色守护者",
+    },
+    [20008580] = {
+        skillWeight = {
+            [1] = 10,
+            [2] = 0,
+            [3] = 0,
+            [4] = 5,
+            [5] = 5,
+        },
+        skillRoller4 = {
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
+        },
+        expend = {
+        },
+        skillRoller2  = {
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20008580,
+        skillRoller3 = {
+            [1] = 50,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
+        },
+        skillRoller1  = {
+            [1] = 300,
+            [2] = -600,
+            [3] = -15,
+            [4] = 1200,
+            [5] = 30,
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "archer",
+        atkNumberMax = 3,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 10,
+        skillRoller5 = {
+            [1] = 100,
+            [2] = -400,
+            [3] = -15,
+            [4] = 800,
+            [5] = 30,
+        },
+        model = "fight_20501",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 200510,
+            [2] = 200520,
+            [3] = 200530,
+            [4] = 200540,
+            [5] = 200550,
+        },
+        durationTime = 0,
+        des = "高阶远程AST小怪-----------（高级货）更多同时攻击",
+    },
+    [20009804] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1.5,
+        id = 20009804,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 624122,
+        skillRoller5 = {
+        },
+        model = "effects_st4_huoyan",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 700501,
+        },
+        durationTime = 0,
+        des = "鞠奈复制人空怪",
+    },
+    [20009816] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20009816,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 999202,
+        skillRoller5 = {
+        },
+        model = "effects_st4_huoyan",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 701790,
+        },
+        durationTime = 0,
+        des = "10号BOSS背景怪",
+    },
     [30000041] = {
         skillWeight = {
         },
@@ -44977,72 +45455,63 @@ return {
         durationTime = 0,
         des = "12号BOSS巴尔正常",
     },
-    [20008990] = {
+    [20009811] = {
         skillWeight = {
-            [1] = 10,
-            [2] = 5,
-            [3] = 0,
-            [4] = 5,
         },
         skillRoller4 = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
         },
         expend = {
         },
         skillRoller2  = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
         },
-        heroPower = 0,
+        heroPower = 28,
         bodyArea = {
             [1] = "bdbox",
         },
-        modelSize = 0.35,
-        id = 20008990,
+        modelSize = 1,
+        id = 20009811,
         skillRoller3 = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
         },
         skillRoller1  = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
         },
         reductionTrans = 0,
         moveType = 2,
         actionIndex = 1,
-        monsterType = "saber",
-        atkNumberMax = 3,
+        monsterType = "",
+        atkNumberMax = 0,
         particleEffect = {
         },
         triggerTrans = {
+            [1] = 701650,
+            [2] = 20009812,
         },
-        AI = 11,
+        AI = 624130,
         skillRoller5 = {
         },
-        model = "fight_22301",
+        model = "fight_12701",
         passivitySkills = {
         },
         skills = {
-            [1] = 270410,
-            [2] = 270420,
-            [3] = 270430,
-            [4] = 270440,
+            [1] = 701500,
+            [2] = 701510,
+            [3] = 701520,
+            [4] = 701530,
+            [5] = 701540,
+            [6] = 701550,
+            [7] = 701551,
+            [8] = 701560,
+            [9] = 701570,
+            [10] = 701580,
+            [11] = 701590,
+            [12] = 701600,
+            [13] = 701610,
+            [14] = 701620,
+            [15] = 701630,
+            [16] = 701640,
+            [17] = 701650,
         },
-        durationTime = 0,
-        des = "高阶能量近战-----------------（高级货）快放技能",
+        durationTime = -1,
+        des = "白王-大boss-1形态",
     },
     [20009706] = {
         skillWeight = {
@@ -45129,447 +45598,6 @@ return {
         },
         durationTime = 0,
         des = "贝露能量球",
-    },
-    [20009821] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox_eff",
-        },
-        modelSize = 1,
-        id = 20009821,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 999189,
-        skillRoller5 = {
-        },
-        model = "fight_Watchmen_3",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 702010,
-            [2] = 702020,
-        },
-        durationTime = 0,
-        des = "白色守护者",
-    },
-    [20009820] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox_eff",
-        },
-        modelSize = 1,
-        id = 20009820,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 999188,
-        skillRoller5 = {
-        },
-        model = "fight_Watchmen_2",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 701910,
-            [2] = 701920,
-        },
-        durationTime = 0,
-        des = "红色守护者",
-    },
-    [20008690] = {
-        skillWeight = {
-            [1] = 10,
-            [2] = 5,
-            [3] = 0,
-            [4] = 5,
-        },
-        skillRoller4 = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
-        },
-        expend = {
-        },
-        skillRoller2  = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20008690,
-        skillRoller3 = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
-        },
-        skillRoller1  = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "saber",
-        atkNumberMax = 3,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 10,
-        skillRoller5 = {
-        },
-        model = "fight_21001",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 260120,
-            [2] = 260130,
-            [3] = 260140,
-            [4] = 260141,
-        },
-        durationTime = 0,
-        des = "高阶DEM近战小怪-----------------（高级货）更多同时攻击",
-    },
-    [20009816] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20009816,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 999202,
-        skillRoller5 = {
-        },
-        model = "effects_st4_huoyan",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 701790,
-        },
-        durationTime = 0,
-        des = "10号BOSS背景怪",
-    },
-    [20009802] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20009802,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 624117,
-        skillRoller5 = {
-        },
-        model = "fight_12501",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 700300,
-        },
-        durationTime = 0,
-        des = "或守鞠奈-复制人",
-    },
-    [20009818] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 16,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 0.9,
-        id = 20009818,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 0,
-        actionIndex = 2,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 999204,
-        skillRoller5 = {
-        },
-        model = "fight_10302",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 701710,
-            [2] = 701720,
-            [3] = 701730,
-            [4] = 701740,
-            [5] = 701750,
-            [6] = 701760,
-            [7] = 701770,
-            [8] = 701780,
-            [9] = 701791,
-        },
-        durationTime = -1,
-        des = "冰雪节强化四糸乃",
-    },
-    [20009813] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 16,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 0.9,
-        id = 20009813,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 0,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-            [1] = 701791,
-            [2] = 20009818,
-        },
-        AI = 999200,
-        skillRoller5 = {
-        },
-        model = "fight_10302",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 701710,
-            [2] = 701720,
-            [3] = 701730,
-            [4] = 701740,
-            [5] = 701750,
-            [6] = 701760,
-            [7] = 701770,
-            [8] = 701780,
-            [9] = 701791,
-        },
-        durationTime = -1,
-        des = "冰雪节强化四糸乃",
-    },
-    [20009812] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 28,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1.2,
-        id = 20009812,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 2,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 624131,
-        skillRoller5 = {
-        },
-        model = "fight_12701",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 701500,
-            [2] = 701510,
-            [3] = 701520,
-            [4] = 701530,
-            [5] = 701540,
-            [6] = 701550,
-            [7] = 701551,
-            [8] = 701560,
-            [9] = 701570,
-            [10] = 701580,
-            [11] = 701590,
-            [12] = 701600,
-            [13] = 701610,
-            [14] = 701620,
-            [15] = 701630,
-            [16] = 701640,
-            [17] = 701650,
-        },
-        durationTime = -1,
-        des = "白王-大boss-2形态",
-    },
-    [20009811] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 28,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20009811,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-            [1] = 701650,
-            [2] = 20009812,
-        },
-        AI = 624130,
-        skillRoller5 = {
-        },
-        model = "fight_12701",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 701500,
-            [2] = 701510,
-            [3] = 701520,
-            [4] = 701530,
-            [5] = 701540,
-            [6] = 701550,
-            [7] = 701551,
-            [8] = 701560,
-            [9] = 701570,
-            [10] = 701580,
-            [11] = 701590,
-            [12] = 701600,
-            [13] = 701610,
-            [14] = 701620,
-            [15] = 701630,
-            [16] = 701640,
-            [17] = 701650,
-        },
-        durationTime = -1,
-        des = "白王-大boss-1形态",
     },
     [20009809] = {
         skillWeight = {
@@ -45741,7 +45769,7 @@ return {
         durationTime = 0,
         des = "12号BOSS巴尔正常",
     },
-    [20009804] = {
+    [20009802] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -45754,8 +45782,8 @@ return {
         bodyArea = {
             [1] = "bdbox",
         },
-        modelSize = 1.5,
-        id = 20009804,
+        modelSize = 1,
+        id = 20009802,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -45769,53 +45797,102 @@ return {
         },
         triggerTrans = {
         },
-        AI = 624122,
+        AI = 624117,
         skillRoller5 = {
         },
-        model = "effects_st4_huoyan",
+        model = "fight_12501",
         passivitySkills = {
         },
         skills = {
-            [1] = 700501,
+            [1] = 700300,
         },
         durationTime = 0,
-        des = "鞠奈复制人空怪",
+        des = "或守鞠奈-复制人",
     },
-    [20008700] = {
+    [20009818] = {
         skillWeight = {
-            [1] = 10,
-            [2] = 0,
-            [3] = 5,
-            [4] = 5,
         },
         skillRoller4 = {
-            [1] = 100,
-            [2] = -400,
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 16,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 0.9,
+        id = 20009818,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 0,
+        actionIndex = 2,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 999204,
+        skillRoller5 = {
+        },
+        model = "fight_10302",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 701710,
+            [2] = 701720,
+            [3] = 701730,
+            [4] = 701740,
+            [5] = 701750,
+            [6] = 701760,
+            [7] = 701770,
+            [8] = 701780,
+            [9] = 701791,
+        },
+        durationTime = -1,
+        des = "冰雪节强化四糸乃",
+    },
+    [20008590] = {
+        skillWeight = {
+            [1] = 10,
+            [2] = 5,
+            [3] = 5,
+            [4] = 0,
+            [5] = 5,
+        },
+        skillRoller4 = {
+            [1] = 50,
+            [2] = -160,
             [3] = -15,
-            [4] = 800,
+            [4] = 320,
             [5] = 30,
         },
         expend = {
         },
         skillRoller2  = {
-            [1] = 200,
-            [2] = -400,
-            [3] = -15,
-            [4] = 800,
-            [5] = 30,
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
         },
         heroPower = 0,
         bodyArea = {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20008700,
+        id = 20008590,
         skillRoller3 = {
-            [1] = 200,
-            [2] = -400,
-            [3] = -15,
-            [4] = 800,
-            [5] = 30,
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
         },
         skillRoller1  = {
             [1] = 300,
@@ -45835,18 +45912,24 @@ return {
         },
         AI = 10,
         skillRoller5 = {
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
         },
-        model = "fight_21101",
+        model = "fight_20601",
         passivitySkills = {
         },
         skills = {
-            [1] = 260070,
-            [2] = 260081,
-            [3] = 260082,
-            [4] = 260083,
+            [1] = 200610,
+            [2] = 200620,
+            [3] = 200630,
+            [4] = 200640,
+            [5] = 200650,
         },
         durationTime = 0,
-        des = "高阶DEM远程小怪-----------------（高级货）更多同时攻击",
+        des = "高阶综合AST小怪------------（高级货）更多同时攻击",
     },
     [20009746] = {
         skillWeight = {
@@ -46224,20 +46307,13 @@ return {
         durationTime = 0,
         des = "贝露能量球",
     },
-    [20008830] = {
+    [20008680] = {
         skillWeight = {
             [1] = 10,
-            [2] = 5,
+            [2] = 0,
             [3] = 5,
-            [4] = 0,
-            [5] = 5,
         },
         skillRoller4 = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
         },
         expend = {
         },
@@ -46253,13 +46329,13 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20008830,
+        id = 20008680,
         skillRoller3 = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
+            [1] = 300,
+            [2] = -600,
+            [3] = -15,
+            [4] = 1200,
+            [5] = 30,
         },
         skillRoller1  = {
             [1] = 300,
@@ -46277,26 +46353,19 @@ return {
         },
         triggerTrans = {
         },
-        AI = 11,
+        AI = 10,
         skillRoller5 = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
         },
-        model = "fight_20601",
+        model = "fight_20901",
         passivitySkills = {
         },
         skills = {
-            [1] = 200610,
-            [2] = 200620,
-            [3] = 200630,
-            [4] = 200640,
-            [5] = 200650,
+            [1] = 260050,
+            [2] = 260061,
+            [3] = 260062,
         },
         durationTime = 0,
-        des = "高阶综合AST小怪------------（高级货）快放技能",
+        des = "低阶DEM综合小怪-----------------（高级货）更多同时攻击",
     },
     [20009719] = {
         skillWeight = {
@@ -46677,27 +46746,27 @@ return {
         durationTime = 0,
         des = "11号BOSS电网怪",
     },
-    [20008860] = {
+    [20008690] = {
         skillWeight = {
             [1] = 10,
-            [2] = 0,
+            [2] = 5,
             [3] = 0,
             [4] = 5,
         },
         skillRoller4 = {
             [1] = 100,
-            [2] = -400,
-            [3] = -15,
-            [4] = 800,
-            [5] = 30,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
         },
         expend = {
         },
         skillRoller2  = {
-            [1] = 100,
-            [2] = -400,
+            [1] = 50,
+            [2] = -160,
             [3] = -15,
-            [4] = 800,
+            [4] = 320,
             [5] = 30,
         },
         heroPower = 0,
@@ -46705,44 +46774,44 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20008860,
+        id = 20008690,
         skillRoller3 = {
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
+        },
+        skillRoller1  = {
             [1] = 50,
             [2] = -160,
             [3] = -15,
             [4] = 320,
             [5] = 30,
         },
-        skillRoller1  = {
-            [1] = 300,
-            [2] = -600,
-            [3] = -15,
-            [4] = 1200,
-            [5] = 30,
-        },
         reductionTrans = 0,
         moveType = 2,
         actionIndex = 1,
-        monsterType = "archer",
+        monsterType = "saber",
         atkNumberMax = 3,
         particleEffect = {
         },
         triggerTrans = {
         },
-        AI = 11,
+        AI = 10,
         skillRoller5 = {
         },
-        model = "fight_21501",
+        model = "fight_21001",
         passivitySkills = {
         },
         skills = {
-            [1] = 240010,
-            [2] = 240020,
-            [3] = 240030,
-            [4] = 240040,
+            [1] = 260120,
+            [2] = 260130,
+            [3] = 260140,
+            [4] = 260141,
         },
         durationTime = 0,
-        des = "机械远程-----------------（高级货）快放技能",
+        des = "高阶DEM近战小怪-----------------（高级货）更多同时攻击",
     },
     [20009703] = {
         skillWeight = {
@@ -47752,52 +47821,72 @@ return {
         durationTime = 0,
         des = "高阶能量远程-----------------（高级货）快放技能",
     },
-    [30000010] = {
+    [20008990] = {
         skillWeight = {
+            [1] = 10,
+            [2] = 5,
+            [3] = 0,
+            [4] = 5,
         },
         skillRoller4 = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
         },
         expend = {
         },
         skillRoller2  = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
         },
         heroPower = 0,
         bodyArea = {
             [1] = "bdbox",
         },
-        modelSize = 1,
-        id = 30000010,
+        modelSize = 0.35,
+        id = 20008990,
         skillRoller3 = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
         },
         skillRoller1  = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
         },
         reductionTrans = 0,
         moveType = 2,
         actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
+        monsterType = "saber",
+        atkNumberMax = 3,
         particleEffect = {
         },
         triggerTrans = {
         },
-        AI = 700010,
+        AI = 11,
         skillRoller5 = {
         },
-        model = "fight_10602",
+        model = "fight_22301",
         passivitySkills = {
         },
         skills = {
-            [1] = 700010,
-            [2] = 700020,
-            [3] = 700030,
-            [4] = 700040,
-            [5] = 700050,
-            [6] = 700060,
-            [7] = 700070,
-            [8] = 700080,
+            [1] = 270410,
+            [2] = 270420,
+            [3] = 270430,
+            [4] = 270440,
         },
         durationTime = 0,
-        des = "芬里尔真那-夏拉姆地狱",
+        des = "高阶能量近战-----------------（高级货）快放技能",
     },
     [20008960] = {
         skillWeight = {
@@ -47858,6 +47947,515 @@ return {
         },
         durationTime = 0,
         des = "低阶能量近战-----------------（高级货）快放技能",
+    },
+    [20008940] = {
+        skillWeight = {
+            [1] = 10,
+            [2] = 0,
+            [3] = 5,
+            [4] = 5,
+        },
+        skillRoller4 = {
+            [1] = 100,
+            [2] = -400,
+            [3] = -15,
+            [4] = 800,
+            [5] = 30,
+        },
+        expend = {
+        },
+        skillRoller2  = {
+            [1] = 200,
+            [2] = -400,
+            [3] = -15,
+            [4] = 800,
+            [5] = 30,
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20008940,
+        skillRoller3 = {
+            [1] = 200,
+            [2] = -400,
+            [3] = -15,
+            [4] = 800,
+            [5] = 30,
+        },
+        skillRoller1  = {
+            [1] = 300,
+            [2] = -600,
+            [3] = -15,
+            [4] = 1200,
+            [5] = 30,
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "archer",
+        atkNumberMax = 3,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 11,
+        skillRoller5 = {
+        },
+        model = "fight_21101",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 260070,
+            [2] = 260081,
+            [3] = 260082,
+            [4] = 260083,
+        },
+        durationTime = 0,
+        des = "高阶DEM远程小怪-----------------（高级货）快放技能",
+    },
+    [20008930] = {
+        skillWeight = {
+            [1] = 10,
+            [2] = 5,
+            [3] = 0,
+            [4] = 5,
+        },
+        skillRoller4 = {
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
+        },
+        expend = {
+        },
+        skillRoller2  = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20008930,
+        skillRoller3 = {
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
+        },
+        skillRoller1  = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "saber",
+        atkNumberMax = 3,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 11,
+        skillRoller5 = {
+        },
+        model = "fight_21001",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 260120,
+            [2] = 260130,
+            [3] = 260140,
+            [4] = 260141,
+        },
+        durationTime = 0,
+        des = "高阶DEM近战小怪-----------------（高级货）快放技能",
+    },
+    [20008910] = {
+        skillWeight = {
+            [1] = 10,
+            [2] = 0,
+            [3] = 5,
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+            [1] = 300,
+            [2] = -600,
+            [3] = -15,
+            [4] = 1200,
+            [5] = 30,
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20008910,
+        skillRoller3 = {
+            [1] = 200,
+            [2] = -400,
+            [3] = -15,
+            [4] = 800,
+            [5] = 30,
+        },
+        skillRoller1  = {
+            [1] = 300,
+            [2] = -600,
+            [3] = -15,
+            [4] = 1200,
+            [5] = 30,
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "archer",
+        atkNumberMax = 3,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 11,
+        skillRoller5 = {
+        },
+        model = "fight_20801",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 260040,
+            [2] = 260045,
+            [3] = 260046,
+        },
+        durationTime = 0,
+        des = "低阶DEM远程小怪-----------------（高级货）快放技能",
+    },
+    [20008860] = {
+        skillWeight = {
+            [1] = 10,
+            [2] = 0,
+            [3] = 0,
+            [4] = 5,
+        },
+        skillRoller4 = {
+            [1] = 100,
+            [2] = -400,
+            [3] = -15,
+            [4] = 800,
+            [5] = 30,
+        },
+        expend = {
+        },
+        skillRoller2  = {
+            [1] = 100,
+            [2] = -400,
+            [3] = -15,
+            [4] = 800,
+            [5] = 30,
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20008860,
+        skillRoller3 = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
+        },
+        skillRoller1  = {
+            [1] = 300,
+            [2] = -600,
+            [3] = -15,
+            [4] = 1200,
+            [5] = 30,
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "archer",
+        atkNumberMax = 3,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 11,
+        skillRoller5 = {
+        },
+        model = "fight_21501",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 240010,
+            [2] = 240020,
+            [3] = 240030,
+            [4] = 240040,
+        },
+        durationTime = 0,
+        des = "机械远程-----------------（高级货）快放技能",
+    },
+    [20008830] = {
+        skillWeight = {
+            [1] = 10,
+            [2] = 5,
+            [3] = 5,
+            [4] = 0,
+            [5] = 5,
+        },
+        skillRoller4 = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
+        },
+        expend = {
+        },
+        skillRoller2  = {
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20008830,
+        skillRoller3 = {
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
+        },
+        skillRoller1  = {
+            [1] = 300,
+            [2] = -600,
+            [3] = -15,
+            [4] = 1200,
+            [5] = 30,
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "archer",
+        atkNumberMax = 3,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 11,
+        skillRoller5 = {
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
+        },
+        model = "fight_20601",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 200610,
+            [2] = 200620,
+            [3] = 200630,
+            [4] = 200640,
+            [5] = 200650,
+        },
+        durationTime = 0,
+        des = "高阶综合AST小怪------------（高级货）快放技能",
+    },
+    [20008800] = {
+        skillWeight = {
+            [1] = 10,
+            [2] = 0,
+            [3] = 5,
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20008800,
+        skillRoller3 = {
+            [1] = 100,
+            [2] = -10000,
+            [3] = -5000,
+            [4] = 20000,
+            [5] = 10000,
+        },
+        skillRoller1  = {
+            [1] = 300,
+            [2] = -600,
+            [3] = -15,
+            [4] = 1200,
+            [5] = 30,
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "archer",
+        atkNumberMax = 3,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 11,
+        skillRoller5 = {
+        },
+        model = "fight_20301",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 200310,
+            [2] = 200320,
+            [3] = 200330,
+        },
+        durationTime = 0,
+        des = "综合AST小怪----------------（高级货）快放技能",
+    },
+    [30000010] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 30000010,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 700010,
+        skillRoller5 = {
+        },
+        model = "fight_10602",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 700010,
+            [2] = 700020,
+            [3] = 700030,
+            [4] = 700040,
+            [5] = 700050,
+            [6] = 700060,
+            [7] = 700070,
+            [8] = 700080,
+        },
+        durationTime = 0,
+        des = "芬里尔真那-夏拉姆地狱",
+    },
+    [20008770] = {
+        skillWeight = {
+            [1] = 10,
+            [2] = 5,
+            [3] = 0,
+            [4] = 5,
+        },
+        skillRoller4 = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
+        },
+        expend = {
+        },
+        skillRoller2  = {
+            [1] = 100,
+            [2] = -400,
+            [3] = -15,
+            [4] = 800,
+            [5] = 30,
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20008770,
+        skillRoller3 = {
+            [1] = 100,
+            [2] = -400,
+            [3] = -15,
+            [4] = 800,
+            [5] = 30,
+        },
+        skillRoller1  = {
+            [1] = 50,
+            [2] = -160,
+            [3] = -15,
+            [4] = 320,
+            [5] = 30,
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "saber",
+        atkNumberMax = 3,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 10,
+        skillRoller5 = {
+        },
+        model = "fight_22501",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 270610,
+            [2] = 270620,
+            [3] = 270630,
+            [4] = 270640,
+        },
+        durationTime = 0,
+        des = "高阶能量综合-----------------（高级货）更多同时攻击",
     },
     [30000042] = {
         skillWeight = {
@@ -47957,21 +48555,27 @@ return {
         durationTime = 0,
         des = "12号BOSS巴尔愤怒",
     },
-    [20008910] = {
+    [20008700] = {
         skillWeight = {
             [1] = 10,
             [2] = 0,
             [3] = 5,
+            [4] = 5,
         },
         skillRoller4 = {
+            [1] = 100,
+            [2] = -400,
+            [3] = -15,
+            [4] = 800,
+            [5] = 30,
         },
         expend = {
         },
         skillRoller2  = {
-            [1] = 300,
-            [2] = -600,
+            [1] = 200,
+            [2] = -400,
             [3] = -15,
-            [4] = 1200,
+            [4] = 800,
             [5] = 30,
         },
         heroPower = 0,
@@ -47979,7 +48583,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20008910,
+        id = 20008700,
         skillRoller3 = {
             [1] = 200,
             [2] = -400,
@@ -48003,19 +48607,20 @@ return {
         },
         triggerTrans = {
         },
-        AI = 11,
+        AI = 10,
         skillRoller5 = {
         },
-        model = "fight_20801",
+        model = "fight_21101",
         passivitySkills = {
         },
         skills = {
-            [1] = 260040,
-            [2] = 260045,
-            [3] = 260046,
+            [1] = 260070,
+            [2] = 260081,
+            [3] = 260082,
+            [4] = 260083,
         },
         durationTime = 0,
-        des = "低阶DEM远程小怪-----------------（高级货）快放技能",
+        des = "高阶DEM远程小怪-----------------（高级货）更多同时攻击",
     },
     [20009707] = {
         skillWeight = {
@@ -48096,401 +48701,6 @@ return {
         },
         durationTime = 0,
         des = "贝露能量球",
-    },
-    [20008800] = {
-        skillWeight = {
-            [1] = 10,
-            [2] = 0,
-            [3] = 5,
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20008800,
-        skillRoller3 = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
-        },
-        skillRoller1  = {
-            [1] = 300,
-            [2] = -600,
-            [3] = -15,
-            [4] = 1200,
-            [5] = 30,
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "archer",
-        atkNumberMax = 3,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 11,
-        skillRoller5 = {
-        },
-        model = "fight_20301",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 200310,
-            [2] = 200320,
-            [3] = 200330,
-        },
-        durationTime = 0,
-        des = "综合AST小怪----------------（高级货）快放技能",
-    },
-    [20008780] = {
-        skillWeight = {
-            [1] = 10,
-            [2] = 0,
-            [3] = 5,
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20008780,
-        skillRoller3 = {
-            [1] = 100,
-            [2] = -400,
-            [3] = -15,
-            [4] = 800,
-            [5] = 30,
-        },
-        skillRoller1  = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "saber",
-        atkNumberMax = 3,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 11,
-        skillRoller5 = {
-        },
-        model = "fight_20101",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 200110,
-            [2] = 200120,
-            [3] = 200130,
-        },
-        durationTime = 0,
-        des = "近战AST小怪--------------（高级货）快放技能",
-    },
-    [20008770] = {
-        skillWeight = {
-            [1] = 10,
-            [2] = 5,
-            [3] = 0,
-            [4] = 5,
-        },
-        skillRoller4 = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
-        },
-        expend = {
-        },
-        skillRoller2  = {
-            [1] = 100,
-            [2] = -400,
-            [3] = -15,
-            [4] = 800,
-            [5] = 30,
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20008770,
-        skillRoller3 = {
-            [1] = 100,
-            [2] = -400,
-            [3] = -15,
-            [4] = 800,
-            [5] = 30,
-        },
-        skillRoller1  = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "saber",
-        atkNumberMax = 3,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 10,
-        skillRoller5 = {
-        },
-        model = "fight_22501",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 270610,
-            [2] = 270620,
-            [3] = 270630,
-            [4] = 270640,
-        },
-        durationTime = 0,
-        des = "高阶能量综合-----------------（高级货）更多同时攻击",
-    },
-    [20008750] = {
-        skillWeight = {
-            [1] = 10,
-            [2] = 5,
-            [3] = 0,
-            [4] = 5,
-        },
-        skillRoller4 = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
-        },
-        expend = {
-        },
-        skillRoller2  = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 0.35,
-        id = 20008750,
-        skillRoller3 = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
-        },
-        skillRoller1  = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "saber",
-        atkNumberMax = 3,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 10,
-        skillRoller5 = {
-        },
-        model = "fight_22301",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 270410,
-            [2] = 270420,
-            [3] = 270430,
-            [4] = 270440,
-        },
-        durationTime = 0,
-        des = "高阶能量近战-----------------（高级货）更多同时攻击",
-    },
-    [20009803] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1.5,
-        id = 20009803,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 624121,
-        skillRoller5 = {
-        },
-        model = "effects_st4_huoyan",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 700500,
-        },
-        durationTime = 0,
-        des = "鞠奈电容空怪",
-    },
-    [20009819] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox_eff",
-        },
-        modelSize = 1,
-        id = 20009819,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 999187,
-        skillRoller5 = {
-        },
-        model = "fight_Watchmen_1",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 701810,
-            [2] = 701820,
-        },
-        durationTime = 0,
-        des = "黑色守护者",
-    },
-    [20008680] = {
-        skillWeight = {
-            [1] = 10,
-            [2] = 0,
-            [3] = 5,
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20008680,
-        skillRoller3 = {
-            [1] = 300,
-            [2] = -600,
-            [3] = -15,
-            [4] = 1200,
-            [5] = 30,
-        },
-        skillRoller1  = {
-            [1] = 300,
-            [2] = -600,
-            [3] = -15,
-            [4] = 1200,
-            [5] = 30,
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "archer",
-        atkNumberMax = 3,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 10,
-        skillRoller5 = {
-        },
-        model = "fight_20901",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 260050,
-            [2] = 260061,
-            [3] = 260062,
-        },
-        durationTime = 0,
-        des = "低阶DEM综合小怪-----------------（高级货）更多同时攻击",
     },
     [20008670] = {
         skillWeight = {
@@ -48753,95 +48963,21 @@ return {
         durationTime = 0,
         des = "机械盾-----------------（高级货）更多同时攻击",
     },
-    [20008590] = {
+    [20009803] = {
         skillWeight = {
-            [1] = 10,
-            [2] = 5,
-            [3] = 5,
-            [4] = 0,
-            [5] = 5,
         },
         skillRoller4 = {
-            [1] = 50,
-            [2] = -160,
-            [3] = -15,
-            [4] = 320,
-            [5] = 30,
         },
         expend = {
         },
         skillRoller2  = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
         },
         heroPower = 0,
         bodyArea = {
             [1] = "bdbox",
         },
-        modelSize = 1,
-        id = 20008590,
-        skillRoller3 = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
-        },
-        skillRoller1  = {
-            [1] = 300,
-            [2] = -600,
-            [3] = -15,
-            [4] = 1200,
-            [5] = 30,
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "archer",
-        atkNumberMax = 3,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 10,
-        skillRoller5 = {
-            [1] = 100,
-            [2] = -10000,
-            [3] = -5000,
-            [4] = 20000,
-            [5] = 10000,
-        },
-        model = "fight_20601",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 200610,
-            [2] = 200620,
-            [3] = 200630,
-            [4] = 200640,
-            [5] = 200650,
-        },
-        durationTime = 0,
-        des = "高阶综合AST小怪------------（高级货）更多同时攻击",
-    },
-    [1030201] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 16,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 0.9,
-        id = 1030201,
+        modelSize = 1.5,
+        id = 20009803,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -48855,26 +48991,58 @@ return {
         },
         triggerTrans = {
         },
-        AI = 110302,
+        AI = 624121,
         skillRoller5 = {
         },
-        model = "fight_10302",
+        model = "effects_st4_huoyan",
         passivitySkills = {
         },
         skills = {
-            [1] = 102110,
-            [2] = 102120,
-            [3] = 102130,
-            [4] = 102140,
-            [5] = 102150,
-            [6] = 102160,
-            [7] = 102170,
-            [8] = 102180,
-            [9] = 102190,
-            [10] = 102192,
+            [1] = 700500,
         },
-        durationTime = -1,
-        des = "强化四糸乃",
+        durationTime = 0,
+        des = "鞠奈电容空怪",
+    },
+    [20009819] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox_eff",
+        },
+        modelSize = 1,
+        id = 20009819,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 999187,
+        skillRoller5 = {
+        },
+        model = "fight_Watchmen_1",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 701810,
+            [2] = 701820,
+        },
+        durationTime = 0,
+        des = "黑色守护者",
     },
     [20008540] = {
         skillWeight = {
@@ -49256,6 +49424,55 @@ return {
         },
         durationTime = 0,
         des = "低阶DEM近战小怪-----------------（高级货）",
+    },
+    [1030201] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 16,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 0.9,
+        id = 1030201,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 110302,
+        skillRoller5 = {
+        },
+        model = "fight_10302",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 102110,
+            [2] = 102120,
+            [3] = 102130,
+            [4] = 102140,
+            [5] = 102150,
+            [6] = 102160,
+            [7] = 102170,
+            [8] = 102180,
+            [9] = 102190,
+            [10] = 102192,
+        },
+        durationTime = -1,
+        des = "强化四糸乃",
     },
     [20008380] = {
         skillWeight = {
@@ -49696,6 +49913,125 @@ return {
         durationTime = 0,
         des = "社团3  飞行怪物快",
     },
+    [20008130] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20008130,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 910306,
+        skillRoller5 = {
+        },
+        model = "effects_st4_huoyan",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 600131,
+        },
+        durationTime = 0,
+        des = "社团1_隐形怪物",
+    },
+    [20008112] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1.666,
+        id = 20008112,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 2,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 910311,
+        skillRoller5 = {
+        },
+        model = "Lv_DEMGC_paodai",
+        passivitySkills = {
+        },
+        skills = {
+        },
+        durationTime = 0,
+        des = "社团4_跑道2阶段",
+    },
+    [20008111] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1.666,
+        id = 20008111,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 910311,
+        skillRoller5 = {
+        },
+        model = "Lv_DEMGC_paodai",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 600112,
+        },
+        durationTime = 0,
+        des = "社团4_跑道",
+    },
     [20001320] = {
         skillWeight = {
         },
@@ -49737,7 +50073,7 @@ return {
         durationTime = 0,
         des = "低阶DEM近战小怪(敏捷)",
     },
-    [20000180] = {
+    [20000310] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -49751,7 +50087,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20000180,
+        id = 20000310,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -49765,18 +50101,69 @@ return {
         },
         triggerTrans = {
         },
-        AI = 1060,
+        AI = 1020,
         skillRoller5 = {
         },
-        model = "fight_20401",
+        model = "fight_20201",
         passivitySkills = {
         },
         skills = {
-            [1] = 200410,
-            [2] = 200420,
+            [1] = 200210,
+            [2] = 200220,
         },
         durationTime = 0,
-        des = "高阶近战AST小怪(敏捷)",
+        des = "远程AST小怪",
+    },
+    [999236] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 999236,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+            [1] = 1001,
+            [2] = 1002,
+            [3] = 1003,
+        },
+        triggerTrans = {
+        },
+        AI = 999219,
+        skillRoller5 = {
+        },
+        model = "fight_11201",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 101710,
+            [2] = 101720,
+            [3] = 101730,
+            [4] = 101740,
+            [5] = 101750,
+            [6] = 101760,
+            [7] = 101770,
+            [8] = 101780,
+            [9] = 101790,
+        },
+        durationTime = 0,
+        des = "主线12章-地狱关卡-生存-万由里BOSS-无敌",
     },
     [20001480] = {
         skillWeight = {
@@ -49867,7 +50254,7 @@ return {
         durationTime = -1,
         des = "或守鞠奈",
     },
-    [20008130] = {
+    [20008041] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -49881,7 +50268,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20008130,
+        id = 20008041,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -49895,17 +50282,19 @@ return {
         },
         triggerTrans = {
         },
-        AI = 910306,
+        AI = 552,
         skillRoller5 = {
         },
-        model = "effects_st4_huoyan",
+        model = "fight_26603",
         passivitySkills = {
         },
         skills = {
-            [1] = 600131,
+            [1] = 309910,
+            [2] = 309940,
+            [3] = 309950,
         },
         durationTime = 0,
-        des = "社团1_隐形怪物",
+        des = "2020年兽-年-滚动",
     },
     [20001640] = {
         skillWeight = {
@@ -49991,7 +50380,7 @@ return {
         durationTime = 0,
         des = "雪人绿",
     },
-    [20008112] = {
+    [20008031] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -50004,167 +50393,34 @@ return {
         bodyArea = {
             [1] = "bdbox",
         },
-        modelSize = 1.666,
-        id = 20008112,
+        modelSize = 1,
+        id = 20008031,
         skillRoller3 = {
         },
         skillRoller1  = {
         },
         reductionTrans = 0,
         moveType = 2,
-        actionIndex = 2,
+        actionIndex = 1,
         monsterType = "",
         atkNumberMax = 0,
         particleEffect = {
         },
         triggerTrans = {
         },
-        AI = 910311,
+        AI = 551,
         skillRoller5 = {
         },
-        model = "Lv_DEMGC_paodai",
+        model = "fight_26602",
         passivitySkills = {
         },
         skills = {
+            [1] = 309910,
+            [2] = 309930,
+            [3] = 309950,
         },
         durationTime = 0,
-        des = "社团4_跑道2阶段",
-    },
-    [1021001] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 18,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 1021001,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 110210,
-        skillRoller5 = {
-        },
-        model = "fight_10210",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 102610,
-            [2] = 102620,
-            [3] = 102630,
-            [4] = 102640,
-            [5] = 102650,
-            [6] = 102660,
-            [7] = 102670,
-            [8] = 102680,
-            [9] = 102690,
-        },
-        durationTime = -1,
-        des = "反转折纸",
-    },
-    [20008111] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1.666,
-        id = 20008111,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 910311,
-        skillRoller5 = {
-        },
-        model = "Lv_DEMGC_paodai",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 600112,
-        },
-        durationTime = 0,
-        des = "社团4_跑道",
-    },
-    [1021002] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 18,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 1021002,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 110210,
-        skillRoller5 = {
-        },
-        model = "fight_10212",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 103610,
-            [2] = 103620,
-            [3] = 103630,
-            [4] = 103640,
-            [5] = 103650,
-            [6] = 103660,
-            [7] = 103670,
-            [8] = 103680,
-            [9] = 103690,
-        },
-        durationTime = -1,
-        des = "反转折纸渡鸦",
+        des = "2020年兽-岁-绣球",
     },
     [20001800] = {
         skillWeight = {
@@ -50256,6 +50512,143 @@ return {
         durationTime = -1,
         des = "炮姐",
     },
+    [1021001] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 18,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 1021001,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 110210,
+        skillRoller5 = {
+        },
+        model = "fight_10210",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 102610,
+            [2] = 102620,
+            [3] = 102630,
+            [4] = 102640,
+            [5] = 102650,
+            [6] = 102660,
+            [7] = 102670,
+            [8] = 102680,
+            [9] = 102690,
+        },
+        durationTime = -1,
+        des = "反转折纸",
+    },
+    [20008010] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20008010,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 503,
+        skillRoller5 = {
+        },
+        model = "fight_26401",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 309810,
+            [2] = 309820,
+        },
+        durationTime = 0,
+        des = "运营",
+    },
+    [1021002] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 18,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 1021002,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 110210,
+        skillRoller5 = {
+        },
+        model = "fight_10212",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 103610,
+            [2] = 103620,
+            [3] = 103630,
+            [4] = 103640,
+            [5] = 103650,
+            [6] = 103660,
+            [7] = 103670,
+            [8] = 103680,
+            [9] = 103690,
+        },
+        durationTime = -1,
+        des = "反转折纸渡鸦",
+    },
     [20001960] = {
         skillWeight = {
         },
@@ -50296,6 +50689,88 @@ return {
         },
         durationTime = 0,
         des = "低阶能量远程",
+    },
+    [20002120] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20002120,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 5010,
+        skillRoller5 = {
+        },
+        model = "fight_23101",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 280110,
+            [2] = 280120,
+            [3] = 280130,
+        },
+        durationTime = 0,
+        des = "南瓜-电球",
+    },
+    [20002280] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20002280,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 5050,
+        skillRoller5 = {
+        },
+        model = "effects_23301_daoju3",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 280375,
+        },
+        durationTime = 0,
+        des = "僵尸糕点正确",
     },
     [1021004] = {
         skillWeight = {
@@ -50347,172 +50822,6 @@ return {
         durationTime = -1,
         des = "反转折纸和服",
     },
-    [20002120] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20002120,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 5010,
-        skillRoller5 = {
-        },
-        model = "fight_23101",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 280110,
-            [2] = 280120,
-            [3] = 280130,
-        },
-        durationTime = 0,
-        des = "南瓜-电球",
-    },
-    [20008041] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20008041,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 552,
-        skillRoller5 = {
-        },
-        model = "fight_26603",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 309910,
-            [2] = 309940,
-            [3] = 309950,
-        },
-        durationTime = 0,
-        des = "2020年兽-年-滚动",
-    },
-    [20008031] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20008031,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 551,
-        skillRoller5 = {
-        },
-        model = "fight_26602",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 309910,
-            [2] = 309930,
-            [3] = 309950,
-        },
-        durationTime = 0,
-        des = "2020年兽-岁-绣球",
-    },
-    [20002280] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20002280,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 5050,
-        skillRoller5 = {
-        },
-        model = "effects_23301_daoju3",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 280375,
-        },
-        durationTime = 0,
-        des = "僵尸糕点正确",
-    },
     [1070101] = {
         skillWeight = {
         },
@@ -50559,93 +50868,6 @@ return {
         },
         durationTime = -1,
         des = "耶俱矢",
-    },
-    [20004390] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20004390,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 624001,
-        skillRoller5 = {
-        },
-        model = "fight_10401",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 430410,
-            [2] = 430500,
-            [3] = 430501,
-            [4] = 430502,
-            [5] = 430460,
-            [6] = 430450,
-            [7] = 430470,
-        },
-        durationTime = 0,
-        des = "狂三（万由里boss）",
-    },
-    [20008010] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20008010,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 503,
-        skillRoller5 = {
-        },
-        model = "fight_26401",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 309810,
-            [2] = 309820,
-        },
-        durationTime = 0,
-        des = "运营",
     },
     [20002440] = {
         skillWeight = {
@@ -50710,47 +50932,6 @@ return {
         },
         durationTime = 0,
         des = "万由里BOSS(世界)",
-    },
-    [20007700] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20007700,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 8050,
-        skillRoller5 = {
-        },
-        model = "fight_25303",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 309350,
-            [2] = 309360,
-        },
-        durationTime = 0,
-        des = "雪人蓝",
     },
     [20002580] = {
         skillWeight = {
@@ -51030,7 +51211,63 @@ return {
         durationTime = -1,
         des = "鞠奈入侵BOSS-LV3-角色",
     },
-    [30000011] = {
+    [999004] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 26,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 999004,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+            [1] = 700391,
+            [2] = 999104,
+        },
+        AI = 624124,
+        skillRoller5 = {
+        },
+        model = "fight_12501",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 700300,
+            [2] = 700310,
+            [3] = 700390,
+            [4] = 700320,
+            [5] = 700330,
+            [6] = 700340,
+            [7] = 700350,
+            [8] = 700360,
+            [9] = 700370,
+            [10] = 700380,
+            [11] = 700390,
+            [12] = 700391,
+            [13] = 700392,
+            [14] = 700393,
+            [15] = 700394,
+        },
+        durationTime = -1,
+        des = "鞠奈入侵BOSS-LV4-角色",
+    },
+    [20000990] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -51043,14 +51280,14 @@ return {
         bodyArea = {
             [1] = "bdbox",
         },
-        modelSize = 1.5,
-        id = 30000011,
+        modelSize = 1,
+        id = 20000990,
         skillRoller3 = {
         },
         skillRoller1  = {
         },
         reductionTrans = 0,
-        moveType = 0,
+        moveType = 2,
         actionIndex = 1,
         monsterType = "",
         atkNumberMax = 0,
@@ -51058,20 +51295,17 @@ return {
         },
         triggerTrans = {
         },
-        AI = 700011,
+        AI = 2000,
         skillRoller5 = {
         },
-        model = "fight_21601",
+        model = "fight_21301",
         passivitySkills = {
         },
         skills = {
-            [1] = 250010,
-            [2] = 250020,
-            [3] = 250030,
-            [4] = 250040,
+            [1] = 230010,
         },
         durationTime = 0,
-        des = "机械猩猩（精英）-夏拉姆地狱",
+        des = "机械蚊子",
     },
     [20003080] = {
         skillWeight = {
@@ -51156,7 +51390,7 @@ return {
         durationTime = 0,
         des = "高阶DEM远程小怪(万由里)",
     },
-    [30000059] = {
+    [20003300] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -51169,8 +51403,8 @@ return {
         bodyArea = {
             [1] = "bdbox",
         },
-        modelSize = 0.8,
-        id = 30000059,
+        modelSize = 1,
+        id = 20003300,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -51184,17 +51418,19 @@ return {
         },
         triggerTrans = {
         },
-        AI = 4120108,
+        AI = 6050,
         skillRoller5 = {
         },
-        model = "effects_31201_nengliangcang",
+        model = "fight_24501",
         passivitySkills = {
         },
         skills = {
-            [1] = 347011,
+            [1] = 304010,
+            [2] = 304020,
+            [3] = 304030,
         },
         durationTime = 0,
-        des = "12号BOSS巴尔能量舱-社团追猎",
+        des = "高阶万由里远程",
     },
     [2010301] = {
         skillWeight = {
@@ -51301,6 +51537,49 @@ return {
         durationTime = 0,
         des = "5号boss机甲（无尽50层）",
     },
+    [30000011] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1.5,
+        id = 30000011,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 0,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 700011,
+        skillRoller5 = {
+        },
+        model = "fight_21601",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 250010,
+            [2] = 250020,
+            [3] = 250030,
+            [4] = 250040,
+        },
+        durationTime = 0,
+        des = "机械猩猩（精英）-夏拉姆地狱",
+    },
     [20003560] = {
         skillWeight = {
         },
@@ -51393,7 +51672,7 @@ return {
         durationTime = 0,
         des = "高阶近战AST小怪",
     },
-    [20007971] = {
+    [30000059] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -51406,8 +51685,8 @@ return {
         bodyArea = {
             [1] = "bdbox",
         },
-        modelSize = 1,
-        id = 20007971,
+        modelSize = 0.8,
+        id = 30000059,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -51421,16 +51700,17 @@ return {
         },
         triggerTrans = {
         },
-        AI = 910201,
+        AI = 4120108,
         skillRoller5 = {
         },
-        model = "Lv_DEMGC_paodai",
+        model = "effects_31201_nengliangcang",
         passivitySkills = {
         },
         skills = {
+            [1] = 347011,
         },
         durationTime = 0,
-        des = "低阶DEM近战小怪_社团4_跑道",
+        des = "12号BOSS巴尔能量舱-社团追猎",
     },
     [20003880] = {
         skillWeight = {
@@ -51471,6 +51751,48 @@ return {
         },
         durationTime = 0,
         des = "机械蚊子(101-200层)",
+    },
+    [20007580] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20007580,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 4042,
+        skillRoller5 = {
+        },
+        model = "fight_22401",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 270510,
+            [2] = 270520,
+            [3] = 270530,
+        },
+        durationTime = 0,
+        des = "高阶能量远程(圣诞节)",
     },
     [20003940] = {
         skillWeight = {
@@ -51515,7 +51837,7 @@ return {
         durationTime = 0,
         des = "机械猩猩（噩梦-精英）(101-200层)",
     },
-    [20006660] = {
+    [20006820] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -51529,7 +51851,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20006660,
+        id = 20006820,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -51543,60 +51865,19 @@ return {
         },
         triggerTrans = {
         },
-        AI = 4000,
+        AI = 4042,
         skillRoller5 = {
         },
-        model = "fight_22001",
+        model = "fight_22401",
         passivitySkills = {
         },
         skills = {
-            [1] = 270110,
-            [2] = 270120,
+            [1] = 270510,
+            [2] = 270520,
+            [3] = 270530,
         },
         durationTime = 0,
-        des = "低阶能量近战",
-    },
-    [20004200] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20004200,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 4051,
-        skillRoller5 = {
-        },
-        model = "fight_22501",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 270610,
-            [2] = 270620,
-            [3] = 270630,
-        },
-        durationTime = 0,
-        des = "高阶能量综合(101-200层)",
+        des = "高阶能量远程(联机副本)",
     },
     [20001290] = {
         skillWeight = {
@@ -51641,7 +51922,7 @@ return {
         durationTime = 0,
         des = "机械猩猩（精英）",
     },
-    [20007580] = {
+    [20004200] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -51655,7 +51936,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20007580,
+        id = 20004200,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -51669,19 +51950,58 @@ return {
         },
         triggerTrans = {
         },
-        AI = 4042,
+        AI = 4051,
         skillRoller5 = {
         },
-        model = "fight_22401",
+        model = "fight_22501",
         passivitySkills = {
         },
         skills = {
-            [1] = 270510,
-            [2] = 270520,
-            [3] = 270530,
+            [1] = 270610,
+            [2] = 270620,
+            [3] = 270630,
         },
         durationTime = 0,
-        des = "高阶能量远程(圣诞节)",
+        des = "高阶能量综合(101-200层)",
+    },
+    [20007960] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20007960,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 910113,
+        skillRoller5 = {
+        },
+        model = "fight_24201_st",
+        passivitySkills = {
+        },
+        skills = {
+        },
+        durationTime = 0,
+        des = "低阶万由里远程-社团  3阶段右",
     },
     [20004360] = {
         skillWeight = {
@@ -51729,7 +52049,7 @@ return {
         durationTime = 0,
         des = "狂三（噩梦）",
     },
-    [999158] = {
+    [20004520] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -51743,13 +52063,13 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 999158,
+        id = 20004520,
         skillRoller3 = {
         },
         skillRoller1  = {
         },
         reductionTrans = 0,
-        moveType = 0,
+        moveType = 2,
         actionIndex = 1,
         monsterType = "",
         atkNumberMax = 0,
@@ -51757,19 +52077,24 @@ return {
         },
         triggerTrans = {
         },
-        AI = 999158,
+        AI = 666666,
         skillRoller5 = {
         },
-        model = "fight_29003_1",
+        model = "fight_10501",
         passivitySkills = {
         },
         skills = {
-            [1] = 701110,
-            [2] = 701120,
-            [3] = 701130,
+            [1] = 430510,
+            [2] = 430520,
+            [3] = 430530,
+            [4] = 430540,
+            [5] = 430550,
+            [6] = 430560,
+            [7] = 430570,
+            [8] = 430580,
         },
         durationTime = 0,
-        des = "狂三外传剧场-第一章-level16-抢道具-人偶1",
+        des = "琴里（无尽）",
     },
     [20004580] = {
         skillWeight = {
@@ -51865,6 +52190,57 @@ return {
         durationTime = 0,
         des = "爱莲（无尽）",
     },
+    [1330101] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 31,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 1330101,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 121006,
+        skillRoller5 = {
+        },
+        model = "fight_13301",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 105210,
+            [2] = 105220,
+            [3] = 105230,
+            [4] = 105240,
+            [5] = 105250,
+            [6] = 105260,
+            [7] = 105270,
+            [8] = 105280,
+            [9] = 105290,
+            [10] = 105291,
+            [11] = 105292,
+            [12] = 105293,
+        },
+        durationTime = -1,
+        des = "圆神凛祢",
+    },
     [20004900] = {
         skillWeight = {
         },
@@ -51910,6 +52286,46 @@ return {
         },
         durationTime = 0,
         des = "美久（普通模式）",
+    },
+    [20007300] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20007300,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 4080202,
+        skillRoller5 = {
+        },
+        model = "effects_30801_EskillE",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 345241,
+        },
+        durationTime = 0,
+        des = "8号BOSS小引力球",
     },
     [1240101] = {
         skillWeight = {
@@ -51962,7 +52378,7 @@ return {
         durationTime = -1,
         des = "或守鞠亚",
     },
-    [20002920] = {
+    [1080701] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -51971,12 +52387,12 @@ return {
         },
         skillRoller2  = {
         },
-        heroPower = 0,
+        heroPower = 9,
         bodyArea = {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20002920,
+        id = 1080701,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -51990,18 +52406,24 @@ return {
         },
         triggerTrans = {
         },
-        AI = 4022,
+        AI = 110801,
         skillRoller5 = {
         },
-        model = "fight_22201",
+        model = "fight_10807",
         passivitySkills = {
         },
         skills = {
-            [1] = 270310,
-            [2] = 270320,
+            [1] = 100810,
+            [2] = 100820,
+            [3] = 100831,
+            [4] = 100840,
+            [5] = 100850,
+            [6] = 100860,
+            [7] = 100870,
+            [8] = 100880,
         },
-        durationTime = 0,
-        des = "低阶能量综合",
+        durationTime = -1,
+        des = "夕弦-春节",
     },
     [20005380] = {
         skillWeight = {
@@ -52049,6 +52471,48 @@ return {
         durationTime = 0,
         des = "爱莲（精灵挑战-引力）",
     },
+    [20007220] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20007220,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 2020,
+        skillRoller5 = {
+        },
+        model = "fight_21501",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 240010,
+            [2] = 240020,
+            [3] = 240030,
+        },
+        durationTime = 0,
+        des = "机械远程(联机副本)",
+    },
     [20005540] = {
         skillWeight = {
         },
@@ -52094,94 +52558,6 @@ return {
         },
         durationTime = 0,
         des = "耶俱矢（精灵挑战-暴怒）",
-    },
-    [20007300] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20007300,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 4080202,
-        skillRoller5 = {
-        },
-        model = "effects_30801_EskillE",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 345241,
-        },
-        durationTime = 0,
-        des = "8号BOSS小引力球",
-    },
-    [1150101] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 20,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 1150101,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 115001,
-        skillRoller5 = {
-        },
-        model = "fight_11501",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 102910,
-            [2] = 102920,
-            [3] = 102930,
-            [4] = 102940,
-            [5] = 102950,
-            [6] = 102960,
-            [7] = 102970,
-            [8] = 102980,
-            [9] = 102990,
-        },
-        durationTime = -1,
-        des = "布兰",
     },
     [20005700] = {
         skillWeight = {
@@ -52367,48 +52743,6 @@ return {
         durationTime = 0,
         des = "爱莲（精灵挑战-激光陷阱）",
     },
-    [20007220] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20007220,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 2020,
-        skillRoller5 = {
-        },
-        model = "fight_21501",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 240010,
-            [2] = 240020,
-            [3] = 240030,
-        },
-        durationTime = 0,
-        des = "机械远程(联机副本)",
-    },
     [1060101] = {
         skillWeight = {
         },
@@ -52455,52 +52789,6 @@ return {
         },
         durationTime = -1,
         des = "DEM真那",
-    },
-    [20006020] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20006020,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 624011,
-        skillRoller5 = {
-        },
-        model = "fight_10701",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 430710,
-            [2] = 430720,
-            [3] = 430730,
-            [4] = 430740,
-            [5] = 430760,
-            [6] = 430780,
-            [7] = 430790,
-        },
-        durationTime = 0,
-        des = "耶俱矢（精灵挑战-电球）",
     },
     [1050101] = {
         skillWeight = {
@@ -52550,6 +52838,52 @@ return {
         },
         durationTime = -1,
         des = "琴里1形态（斧）",
+    },
+    [20006020] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20006020,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 624011,
+        skillRoller5 = {
+        },
+        model = "fight_10701",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 430710,
+            [2] = 430720,
+            [3] = 430730,
+            [4] = 430740,
+            [5] = 430760,
+            [6] = 430780,
+            [7] = 430790,
+        },
+        durationTime = 0,
+        des = "耶俱矢（精灵挑战-电球）",
     },
     [999101] = {
         skillWeight = {
@@ -52764,6 +53098,46 @@ return {
         durationTime = -1,
         des = "鞠奈入侵BOSS-LV3-狂暴",
     },
+    [999181] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 999181,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 999181,
+        skillRoller5 = {
+        },
+        model = "buffItem__kuangsanjuchang_jiagong",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 311129,
+        },
+        durationTime = 0,
+        des = "狂三外传剧场-第一章-level14/15/16-道具外观的怪物-加攻",
+    },
     [999106] = {
         skillWeight = {
         },
@@ -52972,6 +53346,55 @@ return {
         durationTime = 0,
         des = "或守鞠亚剧场-第三章-level4-战斗-世界数据核心-鞠奈BOSS",
     },
+    [1120103] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 14,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 1120103,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+            [1] = 1021,
+        },
+        triggerTrans = {
+        },
+        AI = 112001,
+        skillRoller5 = {
+        },
+        model = "fight_11212",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 104110,
+            [2] = 104120,
+            [3] = 104130,
+            [4] = 104140,
+            [5] = 104150,
+            [6] = 104160,
+            [7] = 104170,
+            [8] = 104180,
+            [9] = 104190,
+        },
+        durationTime = -1,
+        des = "万由里-女巫",
+    },
     [999111] = {
         skillWeight = {
         },
@@ -53170,55 +53593,6 @@ return {
         durationTime = 0,
         des = "或守鞠亚剧场-困难难度-level7-鞠奈BOSS",
     },
-    [1120103] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 14,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 1120103,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-            [1] = 1021,
-        },
-        triggerTrans = {
-        },
-        AI = 112001,
-        skillRoller5 = {
-        },
-        model = "fight_11212",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 104110,
-            [2] = 104120,
-            [3] = 104130,
-            [4] = 104140,
-            [5] = 104150,
-            [6] = 104160,
-            [7] = 104170,
-            [8] = 104180,
-            [9] = 104190,
-        },
-        durationTime = -1,
-        des = "万由里-女巫",
-    },
     [999116] = {
         skillWeight = {
         },
@@ -53259,7 +53633,7 @@ return {
         durationTime = 0,
         des = "或守鞠亚剧场-鞠奈分身",
     },
-    [1010801] = {
+    [20006660] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -53273,13 +53647,13 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 1010801,
+        id = 20006660,
         skillRoller3 = {
         },
         skillRoller1  = {
         },
         reductionTrans = 0,
-        moveType = 0,
+        moveType = 2,
         actionIndex = 1,
         monsterType = "",
         atkNumberMax = 0,
@@ -53287,24 +53661,18 @@ return {
         },
         triggerTrans = {
         },
-        AI = 110101,
+        AI = 4000,
         skillRoller5 = {
         },
-        model = "fight_10108",
+        model = "fight_22001",
         passivitySkills = {
         },
         skills = {
-            [1] = 100110,
-            [2] = 100120,
-            [3] = 100132,
-            [4] = 100140,
-            [5] = 100150,
-            [6] = 100160,
-            [7] = 100180,
-            [8] = 100190,
+            [1] = 270110,
+            [2] = 270120,
         },
-        durationTime = -1,
-        des = "十香生日",
+        durationTime = 0,
+        des = "低阶能量近战",
     },
     [999121] = {
         skillWeight = {
@@ -53386,7 +53754,7 @@ return {
         durationTime = 0,
         des = "狂三外传剧场减伤物品",
     },
-    [20006820] = {
+    [1010801] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -53400,13 +53768,13 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 20006820,
+        id = 1010801,
         skillRoller3 = {
         },
         skillRoller1  = {
         },
         reductionTrans = 0,
-        moveType = 2,
+        moveType = 0,
         actionIndex = 1,
         monsterType = "",
         atkNumberMax = 0,
@@ -53414,19 +53782,24 @@ return {
         },
         triggerTrans = {
         },
-        AI = 4042,
+        AI = 110101,
         skillRoller5 = {
         },
-        model = "fight_22401",
+        model = "fight_10108",
         passivitySkills = {
         },
         skills = {
-            [1] = 270510,
-            [2] = 270520,
-            [3] = 270530,
+            [1] = 100110,
+            [2] = 100120,
+            [3] = 100132,
+            [4] = 100140,
+            [5] = 100150,
+            [6] = 100160,
+            [7] = 100180,
+            [8] = 100190,
         },
-        durationTime = 0,
-        des = "高阶能量远程(联机副本)",
+        durationTime = -1,
+        des = "十香生日",
     },
     [999123] = {
         skillWeight = {
@@ -53815,6 +54188,47 @@ return {
         durationTime = 0,
         des = "狂三外传剧场-第一章-level3-普通战斗-土方征美2形态",
     },
+    [20000010] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20000010,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 1010,
+        skillRoller5 = {
+        },
+        model = "fight_20101",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 200110,
+            [2] = 200120,
+        },
+        durationTime = 0,
+        des = "近战AST小怪(新手关特制)",
+    },
     [999137] = {
         skillWeight = {
         },
@@ -54166,6 +54580,91 @@ return {
         durationTime = 0,
         des = "狂三外传剧场-第一章-level13-抢道具-唯",
     },
+    [20000810] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20000810,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 1070,
+        skillRoller5 = {
+        },
+        model = "fight_20501",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 200510,
+            [2] = 200520,
+            [3] = 200530,
+        },
+        durationTime = 0,
+        des = "高阶远程AST小怪(守护)",
+    },
+    [20000970] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1.5,
+        id = 20000970,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 2060,
+        skillRoller5 = {
+        },
+        model = "fight_21601",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 250010,
+            [2] = 250020,
+            [3] = 250030,
+            [4] = 250040,
+        },
+        durationTime = 0,
+        des = "机械猩猩（精英）",
+    },
     [20007780] = {
         skillWeight = {
         },
@@ -54257,48 +54756,6 @@ return {
         durationTime = 0,
         des = "狂三外传剧场-第一章-level15-抢道具-人偶师形态1",
     },
-    [999154] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 999154,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 0,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 999154,
-        skillRoller5 = {
-        },
-        model = "fight_29003_1",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 701110,
-            [2] = 701120,
-            [3] = 701130,
-        },
-        durationTime = 0,
-        des = "狂三外传剧场-第一章-level15-抢道具-人偶1",
-    },
     [20007940] = {
         skillWeight = {
         },
@@ -54337,6 +54794,48 @@ return {
         },
         durationTime = 0,
         des = "低阶万由里远程-社团  1阶段右",
+    },
+    [999158] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 999158,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 0,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 999158,
+        skillRoller5 = {
+        },
+        model = "fight_29003_1",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 701110,
+            [2] = 701120,
+            [3] = 701130,
+        },
+        durationTime = 0,
+        des = "狂三外传剧场-第一章-level16-抢道具-人偶1",
     },
     [1280101] = {
         skillWeight = {
@@ -54387,45 +54886,6 @@ return {
         durationTime = -1,
         des = "苍",
     },
-    [20007960] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20007960,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 910113,
-        skillRoller5 = {
-        },
-        model = "fight_24201_st",
-        passivitySkills = {
-        },
-        skills = {
-        },
-        durationTime = 0,
-        des = "低阶万由里远程-社团  3阶段右",
-    },
     [999159] = {
         skillWeight = {
         },
@@ -54468,46 +54928,6 @@ return {
         },
         durationTime = 0,
         des = "狂三外传剧场-第一章-level16-抢道具-人偶师形态2",
-    },
-    [20000990] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20000990,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 2000,
-        skillRoller5 = {
-        },
-        model = "fight_21301",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 230010,
-        },
-        durationTime = 0,
-        des = "机械蚊子",
     },
     [999161] = {
         skillWeight = {
@@ -54553,6 +54973,100 @@ return {
         },
         durationTime = 0,
         des = "狂三外传剧场-第一章-level17-抢道具-苍形态1",
+    },
+    [999163] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 999163,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 0,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+            [1] = 700640,
+            [2] = 999164,
+        },
+        AI = 999163,
+        skillRoller5 = {
+        },
+        model = "fight_29001",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 700610,
+            [2] = 700620,
+            [3] = 700630,
+            [4] = 700640,
+        },
+        durationTime = 0,
+        des = "狂三外传剧场-第一章-level17-抢道具-土方形态1",
+    },
+    [999234] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 999234,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+            [1] = 501920,
+            [2] = 20008090,
+        },
+        AI = 999217,
+        skillRoller5 = {
+        },
+        model = "fight_11301_1",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 501910,
+            [2] = 501920,
+            [3] = 501930,
+            [4] = 501940,
+            [5] = 501950,
+            [6] = 501960,
+            [7] = 501970,
+            [8] = 501980,
+        },
+        durationTime = 0,
+        des = "主线12章-地狱关卡-生存-七罪小孩BOSS",
     },
     [999164] = {
         skillWeight = {
@@ -54756,46 +55270,6 @@ return {
         durationTime = 0,
         des = "狂三外传剧场-第一章-level14/15/16-道具外观的怪物-加速",
     },
-    [999179] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 999179,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 999179,
-        skillRoller5 = {
-        },
-        model = "buffItem__kuangsanjuchang_jianshang",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 311127,
-        },
-        durationTime = 0,
-        des = "狂三外传剧场-第一章-level14/15/16-道具外观的怪物-减伤-暂废",
-    },
     [999183] = {
         skillWeight = {
         },
@@ -54836,7 +55310,7 @@ return {
         durationTime = 0,
         des = "狂三外传剧场-第一章-level17-道具外观的怪物-减伤",
     },
-    [999184] = {
+    [999229] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -54845,18 +55319,18 @@ return {
         },
         skillRoller2  = {
         },
-        heroPower = 6,
+        heroPower = 0,
         bodyArea = {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 999184,
+        id = 999229,
         skillRoller3 = {
         },
         skillRoller1  = {
         },
         reductionTrans = 0,
-        moveType = 0,
+        moveType = 2,
         actionIndex = 1,
         monsterType = "",
         atkNumberMax = 0,
@@ -54864,25 +55338,24 @@ return {
         },
         triggerTrans = {
         },
-        AI = 110402,
+        AI = 999212,
         skillRoller5 = {
         },
-        model = "fight_10406",
+        model = "fight_10501",
         passivitySkills = {
         },
         skills = {
-            [1] = 101810,
-            [2] = 101820,
-            [3] = 101830,
-            [4] = 101840,
-            [5] = 101850,
-            [6] = 101860,
-            [7] = 101870,
-            [8] = 101880,
-            [9] = 101890,
+            [1] = 100510,
+            [2] = 100520,
+            [3] = 100521,
+            [4] = 100522,
+            [5] = 100530,
+            [6] = 100540,
+            [7] = 100550,
+            [8] = 100560,
         },
-        durationTime = -1,
-        des = "地错联动主线-狂三",
+        durationTime = 0,
+        des = "主线12章-地狱关卡-生存-琴里BOSS-无敌",
     },
     [999188] = {
         skillWeight = {
@@ -55028,6 +55501,52 @@ return {
         },
         durationTime = 0,
         des = "地错联动-异界羁绊3-艾伦",
+    },
+    [20006400] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 20006400,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 624014,
+        skillRoller5 = {
+        },
+        model = "fight_11001",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 481010,
+            [2] = 481020,
+            [3] = 481030,
+            [4] = 481040,
+            [5] = 481050,
+            [6] = 481060,
+            [7] = 481070,
+        },
+        durationTime = 0,
+        des = "美久（精灵挑战-导弹）",
     },
     [999198] = {
         skillWeight = {
@@ -55265,6 +55784,48 @@ return {
         durationTime = 0,
         des = "园神剧场-BOSS-编号34-艾伦",
     },
+    [999224] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 999224,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 3031,
+        skillRoller5 = {
+        },
+        model = "fight_21001",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 260120,
+            [2] = 260130,
+            [3] = 260140,
+        },
+        durationTime = 0,
+        des = "园神剧场-高阶DEM近战小怪",
+    },
     [999213] = {
         skillWeight = {
         },
@@ -55313,52 +55874,6 @@ return {
         durationTime = -1,
         des = "园神剧场-BOSS-困难10-凛绪",
     },
-    [20006400] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 0,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 20006400,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 624014,
-        skillRoller5 = {
-        },
-        model = "fight_11001",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 481010,
-            [2] = 481020,
-            [3] = 481030,
-            [4] = 481040,
-            [5] = 481050,
-            [6] = 481060,
-            [7] = 481070,
-        },
-        durationTime = 0,
-        des = "美久（精灵挑战-导弹）",
-    },
     [999223] = {
         skillWeight = {
         },
@@ -55400,7 +55915,7 @@ return {
         durationTime = 0,
         des = "园神剧场-低阶DEM综合小怪",
     },
-    [999224] = {
+    [999228] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -55414,7 +55929,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 999224,
+        id = 999228,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -55428,19 +55943,73 @@ return {
         },
         triggerTrans = {
         },
-        AI = 3031,
+        AI = 999211,
         skillRoller5 = {
         },
-        model = "fight_21001",
+        model = "fight_10201",
         passivitySkills = {
         },
         skills = {
-            [1] = 260120,
-            [2] = 260130,
-            [3] = 260140,
+            [1] = 430210,
+            [2] = 430220,
+            [3] = 430230,
+            [4] = 430240,
+            [5] = 430250,
+            [6] = 430260,
+            [7] = 430270,
+            [8] = 430280,
+            [9] = 430290,
+            [10] = 100260,
         },
         durationTime = 0,
-        des = "园神剧场-高阶DEM近战小怪",
+        des = "主线12章-地狱关卡-生存-AST折纸BOSS-无敌",
+    },
+    [999233] = {
+        skillWeight = {
+        },
+        skillRoller4 = {
+        },
+        expend = {
+        },
+        skillRoller2  = {
+        },
+        heroPower = 0,
+        bodyArea = {
+            [1] = "bdbox",
+        },
+        modelSize = 1,
+        id = 999233,
+        skillRoller3 = {
+        },
+        skillRoller1  = {
+        },
+        reductionTrans = 0,
+        moveType = 2,
+        actionIndex = 1,
+        monsterType = "",
+        atkNumberMax = 0,
+        particleEffect = {
+        },
+        triggerTrans = {
+        },
+        AI = 999216,
+        skillRoller5 = {
+        },
+        model = "fight_10801",
+        passivitySkills = {
+        },
+        skills = {
+            [1] = 430810,
+            [2] = 430820,
+            [3] = 430830,
+            [4] = 430840,
+            [5] = 430850,
+            [6] = 430860,
+            [7] = 460170,
+            [8] = 430870,
+        },
+        durationTime = 0,
+        des = "主线12章-地狱关卡-生存-夕弦BOSS-无敌",
     },
     [20002650] = {
         skillWeight = {
@@ -55846,53 +56415,6 @@ return {
         durationTime = 0,
         des = "爱莲（精灵挑战-电球）",
     },
-    [1080701] = {
-        skillWeight = {
-        },
-        skillRoller4 = {
-        },
-        expend = {
-        },
-        skillRoller2  = {
-        },
-        heroPower = 9,
-        bodyArea = {
-            [1] = "bdbox",
-        },
-        modelSize = 1,
-        id = 1080701,
-        skillRoller3 = {
-        },
-        skillRoller1  = {
-        },
-        reductionTrans = 0,
-        moveType = 2,
-        actionIndex = 1,
-        monsterType = "",
-        atkNumberMax = 0,
-        particleEffect = {
-        },
-        triggerTrans = {
-        },
-        AI = 110801,
-        skillRoller5 = {
-        },
-        model = "fight_10807",
-        passivitySkills = {
-        },
-        skills = {
-            [1] = 100810,
-            [2] = 100820,
-            [3] = 100831,
-            [4] = 100840,
-            [5] = 100850,
-            [6] = 100860,
-            [7] = 100870,
-            [8] = 100880,
-        },
-        durationTime = -1,
-        des = "夕弦-春节",
-    },
     [1031301] = {
         skillWeight = {
         },
@@ -55991,7 +56513,7 @@ return {
         durationTime = 0,
         des = "低阶DEM远程小怪(联机副本)",
     },
-    [999169] = {
+    [20000490] = {
         skillWeight = {
         },
         skillRoller4 = {
@@ -56005,7 +56527,7 @@ return {
             [1] = "bdbox",
         },
         modelSize = 1,
-        id = 999169,
+        id = 20000490,
         skillRoller3 = {
         },
         skillRoller1  = {
@@ -56019,16 +56541,17 @@ return {
         },
         triggerTrans = {
         },
-        AI = 999169,
+        AI = 1050,
         skillRoller5 = {
         },
-        model = "buffItem__kuangsanjuchang_huixue",
+        model = "fight_20301",
         passivitySkills = {
         },
         skills = {
-            [1] = 311117,
+            [1] = 200310,
+            [2] = 200320,
         },
         durationTime = 0,
-        des = "狂三外传剧场-第一章-level11-道具外观的怪物-回血-暂废",
+        des = "综合AST小怪",
     },
 }

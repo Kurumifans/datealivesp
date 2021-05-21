@@ -9,7 +9,7 @@ return {
         },
         id = 1,
         startDate = "2019/07/31 00:00:00",
-        icon = "ui/activity/icon36.png",
+        icon = "btn_activity_01",
         endDate = "2019/08/18 23:59:59",
     },
     [2] = {
