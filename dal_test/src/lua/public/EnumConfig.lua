@@ -1494,6 +1494,7 @@ EC_OneLoginStatusType = {
     ReconFirm_CourageEnter = "ReconFirm_CourageEnter",   --试胆大会提示框
     ReconFirm_UpgradeGMSkill = "ReconFirm_UpgradeGMSkill",       --升级共鸣技能
     ReconFirm_PreTeam = "ReconFirm_PreTeam",                     --预设队伍提示
+    ReConfirm_ShowNewBackTips = "ReConfirm_ShowNewBackTips" -- 新回归弹窗
 }
 
 EC_SKILL_TYPE = {
@@ -1749,7 +1750,6 @@ EC_ActivityType2 = {
     NEWYEAR_BUILDREPAIR = 83,    -- 新年建筑修复
     HANTER = 85, --狩猎
     FLOWER_SEND = 82,    -- 情人节鲜花赠送 
-
     GUESS_WORD = 80,             -- 2021答题活动
     SPRITE_FOR_GIFT = 81,        -- 精灵抽一送一
     FIREWORKS_PRODUCT = 84,      --烟花制作
@@ -1761,6 +1761,9 @@ EC_ActivityType2 = {
     BINGKAI_TASK = 91,          -- 冰铠任务
     RETURN_GIFT = 100,           -- 赠送返利活动
     BATTLE_LV_REVIEW = 1028,     -- 战令回顾
+    PLAYER_REGRESS_TASK = 1029,  -- 玩家回归任务
+    PLAYER_REGRESS_LOGIN = 1030, -- 玩家回归登录
+    PLAYER_REGRESS_GIFT = 1031,  -- 玩家回归礼包
 }
 
 EC_Activity_CHRISTMAS_Subtype = {

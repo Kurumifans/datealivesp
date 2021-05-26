@@ -4644,7 +4644,7 @@ return {
         isDiban = true,
     },
     [180] = {
-        helpDes = 0,
+        helpDes = 15011421,
         resource = {
             [1] = {
                 [1] = 500004,
@@ -4661,12 +4661,13 @@ return {
         },
         dynamic = false,
         id = 180,
-        helpTitle = 0,
+        helpTitle = 15011420,
         fileName = "BackPlayerView",
         isResource = true,
         helpInterface = {
+            [1] = 4111,
         },
-        isHelp = false,
+        isHelp = true,
         help = "",
         isMain = true,
         isBack = true,

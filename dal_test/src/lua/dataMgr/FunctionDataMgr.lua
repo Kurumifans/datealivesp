@@ -900,9 +900,9 @@ function FunctionDataMgr:jGiftStore()
     self:jStore(150000)
 end
 
-function FunctionDataMgr:jBag()
+function FunctionDataMgr:jBag(...)
     if not self:checkFuncOpen() then return end
-    Utils:openView("bag.BagView")
+    Utils:openView("bag.BagView",...)
 end
 
 function FunctionDataMgr:jEmail()

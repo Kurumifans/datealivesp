@@ -288,6 +288,9 @@ function ActivityDataMgr:getActivityInfo(id, activityShowType)
             EC_ActivityType2.DUANWU_2,
             EC_ActivityType2.TRAINING,
             EC_ActivityType2.BATTLE_LV_REVIEW,
+            EC_ActivityType2.PLAYER_REGRESS_TASK,
+            EC_ActivityType2.PLAYER_REGRESS_LOGIN,
+            EC_ActivityType2.PLAYER_REGRESS_GIFT,
             --EC_ActivityType2.ONLINE_SCORE_REWARD,   --在线积分活动
         }
         local activitys = {}
@@ -319,6 +322,10 @@ function ActivityDataMgr:getBackPlayerActivityInfo(id)
         local excludeType = {
             EC_ActivityType2.BACKPLAYER,
             EC_ActivityType2.BACKACTIVITY,
+            EC_ActivityType2.PLAYER_REGRESS_TASK,
+            EC_ActivityType2.PLAYER_REGRESS_LOGIN,
+            EC_ActivityType2.PLAYER_REGRESS_GIFT,
+
         }
         local activitys = {}
         for i, v in ipairs(self.activityInfo_) do
@@ -404,7 +411,8 @@ function ActivityDataMgr:getItems(id)
             activityInfo.activityType ==EC_ActivityType2.TRAINING or
             activityInfo.activityType ==EC_ActivityType2.NEW_BACKACTIVITY or
             activityInfo.activityType ==EC_ActivityType2.SNOW_FESTIVAL_TASK or 
-            activityInfo.activityType ==EC_ActivityType2.SPRING_GIFT then
+            activityInfo.activityType ==EC_ActivityType2.SPRING_GIFT or
+            activityInfo.activityType ==EC_ActivityType2.PLAYER_REGRESS_TASK then
             local getData = {}
             local ingData = {}
             local getedData = {}
@@ -454,7 +462,7 @@ function ActivityDataMgr:getNewPlayerActivityInfo(newOrBack)
     if newOrBack then
         playerType = EC_ActivityType2.NEWPLAYER
     else
-        playerType = EC_ActivityType2.BACKACTIVITY
+        playerType = EC_ActivityType2.PLAYER_REGRESS_TASK
     end
 
     local activitys = {}
@@ -1387,7 +1395,7 @@ function ActivityDataMgr:__handleActivity(activitys)
     for i, v in ipairs(activitys) do
         local activityInfo = self:__parserActivity(v)
         -- dump(activityInfo)
-
+        print("sw+++++++++++++++++++++++++++++:", v.activityType)
         if v.activityType == EC_ActivityType2.DUANWU_1 then
             self.duanwuType = tonumber(v.extendData.displayType) or 0
         end

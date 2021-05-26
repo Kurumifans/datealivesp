@@ -855,18 +855,20 @@ function RoleDataMgr:checkRoleHaveByDressId(dressId)
 end
 
 --获取看板角色好感度等级(兼容多人看板，多人看板取最小的的等级)
-function RoleDataMgr:getRoleFavorLv(roleId)
+function RoleDataMgr:getRoleFavorLv(roleId,checkRelated)
     local roleInfo = self:getRoleInfo(roleId)
     if not roleInfo then return 0 end
     local realFavorLv = roleInfo.favorLevel
-    local curDressId = roleInfo.dressId
-    local relatedDress = TabDataMgr:getData("Dress", curDressId).relatedDress
+    if checkRelated then
+        local curDressId = roleInfo.dressId
+        local relatedDress = TabDataMgr:getData("Dress", curDressId).relatedDress
 
-    for k, v in ipairs(relatedDress or {}) do
-        local tmpRoleId = TabDataMgr:getData("Dress", v).belongTo
-        local tmpRoleInfo = self:getRoleInfo(tmpRoleId)
-        if tmpRoleInfo and tmpRoleInfo.favorLevel and tmpRoleInfo.favorLevel < realFavorLv then
-            realFavorLv = tmpRoleInfo.favorLevel
+        for k, v in ipairs(relatedDress or {}) do
+            local tmpRoleId = TabDataMgr:getData("Dress", v).belongTo
+            local tmpRoleInfo = self:getRoleInfo(tmpRoleId)
+            if tmpRoleInfo and tmpRoleInfo.favorLevel and tmpRoleInfo.favorLevel < realFavorLv then
+                realFavorLv = tmpRoleInfo.favorLevel
+            end
         end
     end
 

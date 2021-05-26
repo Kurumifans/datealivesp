@@ -568,7 +568,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -72,
-								PositionY = 13,
+								PositionY = 10,
 							},
 							width = "64",
 							ZOrder = "1",
@@ -614,7 +614,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -49,
-								PositionY = 11,
+								PositionY = 10,
 							},
 							width = "31",
 							ZOrder = "1",
@@ -660,7 +660,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 69,
-								PositionY = 11,
+								PositionY = 10,
 							},
 							width = "48",
 							ZOrder = "1",
@@ -693,7 +693,7 @@ local t =
 					UILayoutViewModel = 
 					{
 						PositionX = 324,
-						PositionY = -227,
+						PositionY = -229,
 					},
 					uipanelviewmodel = 
 					{
@@ -759,7 +759,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -73,
-								PositionY = 4,
+								PositionY = 10,
 							},
 							width = "2",
 							ZOrder = "1",
@@ -805,7 +805,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = -49,
-								PositionY = 6,
+								PositionY = 10,
 							},
 							width = "31",
 							ZOrder = "1",
@@ -851,7 +851,7 @@ local t =
 							UILayoutViewModel = 
 							{
 								PositionX = 50,
-								PositionY = 7,
+								PositionY = 10,
 							},
 							width = "92",
 							ZOrder = "1",

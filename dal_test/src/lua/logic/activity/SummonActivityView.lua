@@ -154,13 +154,18 @@ function SummonActivityView:refreshView(  )
 	            self.effectSKB[k] = nil
 	        end
 	    end
+    else
+        local spbackground = activityInfo.extendData.bg
+        if  spbackground then
+            image_bg:setTexture(spbackground)
+        end
 	end
 
 	local scale = math.max(size.width/image_bg:getContentSize().width,size.height/image_bg:getContentSize().height)
     
 	image_bg:setScale(scale)
 
-	self.border_black:setTexture(activityInfo.extendData.mask)
+	self.border_black:setTexture(activityInfo.extendData.mask or "")
 	self.label_activityTime:setTextById()
 end
 

@@ -210,7 +210,7 @@ function TTFLive2D:refreshFavorLevel()
 	if not roleInfo then
 		return
 	end
-	self.favorLevel = RoleDataMgr:getRoleFavorLv(roleId)
+	self.favorLevel = RoleDataMgr:getRoleFavorLv(roleId,true)
 	local kanBanInfo = self:parseKanBanInfo(self.modelId)
 	if kanBanInfo then
 		self:bindKanBanInfo(kanBanInfo)

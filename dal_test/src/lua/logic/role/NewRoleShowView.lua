@@ -761,7 +761,7 @@ function NewRoleShowView:initUnInfoItem(item,idx)
         end,item.desTime + 1.5)
         if self.model then
             --兼容双人看板，只能点击好感等级低的
-            local realFavorLv = RoleDataMgr:getRoleFavorLv(self.curId)
+            local realFavorLv = RoleDataMgr:getRoleFavorLv(self.curId,dressData.relatedDress and #dressData.relatedDress > 0)
             if data.favor > realFavorLv then
                 Utils:showTips(13400301)
                 return

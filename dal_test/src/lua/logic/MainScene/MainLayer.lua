@@ -621,7 +621,7 @@ function MainLayer:updateLeftButtons()
 		end
 		]]
 	else
-		local tmAllBtns2 = {self.Button_notice, self.Button_welfare, self.Button_activity,self.Button_focus, self.Button_ScoreReward, self.Button_RoleTeach, self.btn_zhibo}
+		local tmAllBtns2 = {self.Button_notice, self.Button_welfare, self.Button_activity,self.Button_focus,  self.Button_backPlayer, self.Button_RoleTeach, self.btn_zhibo}
         if self.Button_serverGiftActivity then
             table.insert(tmAllBtns2,self.Button_serverGiftActivity)
         end
@@ -637,7 +637,7 @@ function MainLayer:updateLeftButtons()
 			end
 		end
 		
-		local tmAllBtns3 = {self.Button_update, self.Button_backPlayer, self.Button_wj,self.Button_preview,self.Button_OneYearShare,self.btn_zhuifan,self.btn_phone_small}
+		local tmAllBtns3 = {self.Button_update, self.Button_ScoreReward, self.Button_wj,self.Button_preview,self.Button_OneYearShare,self.btn_zhuifan,self.btn_phone_small}
 		local tmAllBtnspos3 = {ccp(52,104),ccp(165,104),ccp(265,104),ccp(52,43),ccp(165,43),ccp(265,43),ccp(355,104)}
 		local idx = 1
         local isShowSpineBtn = false
@@ -2533,10 +2533,10 @@ function MainLayer:onRedPointNewOrBackPlayerActivity()
     local isShow = ActivityDataMgr2:isBackPlayerRedPoint()
     self.Image_backPlayerTip:setVisible(isShow)
 
-    local extendData = json.decode(activitysBack[1].extendData)
-    if extendData and extendData.showType == 1 and (not MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_ShowBackTips)) then
-        MainPlayer:setOneLoginStatus(EC_OneLoginStatusType.ReConfirm_ShowBackTips, 1)
-        Utils:openView("activity.BackPlayerTipsView", extendData.return_day)
+    local extendData = activitysBack[1].extendData
+    if extendData and extendData.showType == 1 and (not MainPlayer:getOneLoginStatus(EC_OneLoginStatusType.ReConfirm_ShowNewBackTips)) then
+        MainPlayer:setOneLoginStatus(EC_OneLoginStatusType.ReConfirm_ShowNewBackTips, 1)
+        Utils:openView("activity.playerRegress.PlayerRegressPopView", extendData.return_day)
     end
 end
 

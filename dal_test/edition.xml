@@ -1,34 +1,88 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<files version="3.4.61" lastVersion="3.4.59">
-  <f p=".nomedia/nomedia.txt" m="6eabf415e2121bc4c4260f4831296f6e" c="0" />
-  <f p="res/basic/effect/effect_props/effect_props.atlas" m="89f00caeba8a9f9048c396ee726fb9ce" c="0" />
-  <f p="res/basic/effect/effect_props/effect_props.png" m="00d47e867aa16d43db8d63755862f376" c="0" />
-  <f p="res/basic/effect/effect_props/effect_props.skel" m="b984ada379857a1fc0a50e657e427fc5" c="0" />
-  <f p="res/basic/ui/login/new1/b1.png" m="4da675eb2c37c109ea695bcd21f666ac" c="0" />
-  <f p="res/basic/ui/login/new1/b2.png" m="493fb7a1e957fa63b3b5e5e28450f6c9" c="0" />
-  <f p="res/basic/ui/login/new1/b3.png" m="e456c7600117f1dc18086113d86bf814" c="0" />
-  <f p="res/basic/ui/login/new1/b7.png" m="27ed59abab9ff3b93f7f53fa9c43998d" c="0" />
-  <f p="res/basic/ui/login/001.png" m="a2ac4648fca08f8080fa0f08618631ac" c="0" />
-  <f p="res/basic/ui/login/002.png" m="973438c5006bdeae08ee30fd177e79ec" c="0" />
-  <f p="res/basic/ui/login/003.png" m="569331063b8b9a1132bac4c4664436b5" c="0" />
-  <f p="res/basic/ui/login/004.png" m="02bcaf86c0d93ed8a4508e8927e2e950" c="0" />
-  <f p="res/basic/ui/login/005.png" m="4da675eb2c37c109ea695bcd21f666ac" c="0" />
-  <f p="res/basic/ui/login/006.png" m="493fb7a1e957fa63b3b5e5e28450f6c9" c="0" />
-  <f p="res/basic/ui/login/7.png" m="27ed59abab9ff3b93f7f53fa9c43998d" c="0" />
-  <f p="src/lua/logic/bag/ExGetItemView.lua" m="da7efb6a8b67f8edea8968fc6d069683" c="0" />
-  <f p="src/lua/logic/bag/GetItemView.lua" m="47ffc54e087e87eb4a0f5117db076ce2" c="0" />
-  <f p="src/lua/logic/battle/BattleScene.lua" m="33d7460dcb789db8517f45eba72d66c7" c="0" />
-  <f p="src/lua/logic/battle/Hero.lua" m="e19c5eaf8d0b6ba559262d05a6cae08f" c="0" />
-  <f p="src/lua/logic/battle/LockStep.lua" m="c94da4ed31ded88041a0e415ff7da350" c="0" />
-  <f p="src/lua/logic/collect/CollectRewardView.lua" m="08b58d21f90274668800cb5308a795b0" c="0" />
-  <f p="src/lua/logic/kabalaTree/KabalaTreeAward.lua" m="9965e7d2bd9ed25462b8258761074b80" c="0" />
-  <f p="src/lua/logic/login/LoginLayer.lua" m="7f1cf6f334641590aa88936bed4c20f2" c="0" />
-  <f p="src/lua/logic/MainScene/MainScene.lua" m="4fbbaf2998cce9d5a9e8d39e0580fee2" c="0" />
-  <f p="src/lua/table/Dress.lua" m="61e5bb7c48baf62120fc1f8eadd0dfc4" c="0" />
-  <f p="src/lua/table/DungeonLevel.lua" m="0b41733ee781b240788c8cdd00cf051f" c="0" />
-  <f p="src/lua/table/Item.lua" m="74a6eb96e6e2f6db745739cf06629ac8" c="0" />
-  <f p="src/lua/table/Medal.lua" m="2c3ff8d504ffbd9e26bca573796a4d62" c="0" />
-  <f p="src/lua/table/SkillAction.lua" m="2ac857a6bfc572d8d12b8e0ad1e533fa" c="0" />
-  <f p="src/lua/table/SkillEffect.lua" m="6b23c453a602e43c909b68bdccebed27" c="0" />
-  <f p="src/lua/table/String.lua" m="c4bf952826fccfda6987fa50dccd3120" c="0" />
+<files version="3.4.63" lastVersion="3.4.61">
+  <f p=".nomedia/nomedia.txt" m="132e032f462ac8177a8e64d36f260765" c="0" />
+  <f p="res/basic/icon/equipment/paint/paint_meili_42.png" m="b35ec6204b9754b16c89066229e6ae75" c="0" />
+  <f p="res/basic/ui/activity/coffee/bg.png" m="d324000bf055667ce2307a429362cb77" c="0" />
+  <f p="res/basic/ui/activity/picture/icon176.png" m="6753f5d1143421154cab012b33cfed3b" c="0" />
+  <f p="res/basic/ui/mainLayer/new_ui_1/btn_back.png" m="a00dca554258afade8d45dbf6ed0b7fe" c="0" />
+  <f p="res/basic/ui/mainLayer/new_ui_1/btn_tzrnew.png" m="195d40f208169570fea66e37a97e1383" c="0" />
+  <f p="res/basic/ui/mainLayer/new_ui_2/btn_back.png" m="8d2a6c9f791ec40c337c037af763da20" c="0" />
+  <f p="res/basic/ui/mainLayer/new_ui_2/btn_tzrnew.png" m="d028d58de3cf401b2d17d547c0175d00" c="0" />
+  <f p="res/basic/ui/mainLayer/new_ui_6/btn_back.png" m="8f3f34b44c9a032258cf0924aa4e0fdb" c="0" />
+  <f p="res/basic/ui/mainLayer/new_ui_6/btn_tzrnew.png" m="6d9fb1f2a4e907a36b92a48bb0e68c48" c="0" />
+  <f p="src/lua/dataMgr/ActivityDataMgr2.lua" m="fa9842bef75ba699a56a348ae955e017" c="0" />
+  <f p="src/lua/dataMgr/FunctionDataMgr.lua" m="0920f4a8904628b76f4619977615c31c" c="0" />
+  <f p="src/lua/dataMgr/RoleDataMgr.lua" m="4abf6afca0af8de67054fbe53966d00a" c="0" />
+  <f p="src/lua/logic/activity/BackPlayerView.lua" m="cb281ffdad6ac09fab1d774d7aa496fa" c="0" />
+  <f p="src/lua/logic/activity/SummonActivityView.lua" m="b9750d524be5364226da9b97ecd64639" c="0" />
+  <f p="src/lua/logic/battle/SkillEffect.lua" m="7c626dc2df1c5c1a59d0d5250329d58c" c="0" />
+  <f p="src/lua/logic/common/ElvesNpc.lua" m="76c1d736b6bb97c06ff20f85a4b3d3c3" c="0" />
+  <f p="src/lua/logic/dating/DatingGiveGiftView.lua" m="3293baa602715c72de390df055721e2f" c="0" />
+  <f p="src/lua/logic/MainScene/MainLayer.lua" m="5003d08910d3392dd3f67ae2e19ec63b" c="0" />
+  <f p="src/lua/logic/role/NewRoleShowView.lua" m="23a15316e20ab35af695784ac76fc660" c="0" />
+  <f p="src/lua/public/EnumConfig.lua" m="63dd715194aecf6e8a9330dc0904fe6f" c="0" />
+  <f p="src/lua/table/Access.lua" m="4acccba3ce8f8ff7f91617d829964507" c="0" />
+  <f p="src/lua/table/Commodity.lua" m="36962864a00d5f237e26b1c424c930c0" c="0" />
+  <f p="src/lua/table/Dialog.lua" m="ac43175d3dd0961823f6eb000dab1208" c="0" />
+  <f p="src/lua/table/Dress.lua" m="1bdcfa14c77690aa5f5519e64d1c2378" c="0" />
+  <f p="src/lua/table/DungeonLevel.lua" m="1b80d3db85e149745ca3d46494987985" c="0" />
+  <f p="src/lua/table/EventCondition.lua" m="2c9afc69650710d31642131beefd04e0" c="0" />
+  <f p="src/lua/table/HelpView.lua" m="bf158e9754fde5e17bc1040b71e63aa4" c="0" />
+  <f p="src/lua/table/HeroSkin.lua" m="e2164380912777525cce99a029d9b8b0" c="0" />
+  <f p="src/lua/table/Item.lua" m="412e410263c9c9f639e4bdc82892ae94" c="0" />
+  <f p="src/lua/table/KurumiDungeonCity.lua" m="8999985f54d550cb86ffaa08ebad5a9d" c="0" />
+  <f p="src/lua/table/ReturnNewble.lua" m="d67bbc2763d74a8324a7e7176119a175" c="0" />
+  <f p="src/lua/table/ReturnNewbleItem.lua" m="9756eaee3745b3bf1fbf8d51039a317a" c="0" />
+  <f p="src/lua/table/Role.lua" m="7865ce2a390d8012581b7b2594f3619b" c="0" />
+  <f p="src/lua/table/String.lua" m="a8b18c0bf71aac2fbd333dea60e11c0f" c="0" />
+  <f p="src/lua/table/Summon.lua" m="a76225e8c87e535d7f74890e095cd492" c="0" />
+  <f p="src/lua/table/SummonPool.lua" m="a6084977c4d0dc7268c82885faab5e61" c="0" />
+  <f p="src/lua/table/SummonPreview.lua" m="d9b86ea2e95f077e6ade795417ec7135" c="0" />
+  <f p="src/lua/table/TopHelp.lua" m="e2c7c08a63b18b4d4c01859d86e004f0" c="0" />
+  <f p="src/lua/table/Voice.lua" m="d86b04dd0f53608854d3b3747ec2b79c" c="0" />
+  <f p="src/lua/uiconfig/activity/sceneConfig.lua" m="e1a9da4cf1429a291cd9d0c3aae00b46" c="0" />
+  <f p="src/lua/uiconfig/activity/summonActivity.lua" m="035e2f42a7b6825d7303fe0504f9f243" c="0" />
+  <f p="src/lua/uiconfig/MainScene/DefaultMainLayer.lua" m="52a715b8e9e21cca5b30af300da5110a" c="0" />
+  <f p="src/lua/uiconfig/MainScene/ShixiangMainLaye.lua" m="c33b52b15408492f00dbadc6cceb7e8b" c="0" />
+  <f p="src/lua/uiconfig/MainScene/WanKryptonMainLayer.lua" m="7d37dbf7b4e98e4bb48d7c1733efa8e3" c="0" />
+  <f p="res/basic/sound/role/lingyin/lingyin_20.mp3" m="592ae2f4109e6a8af57aea2977101dff" />
+  <f p="res/basic/sound/role/shizhi/SHIORI_108.mp3" m="b4e3b623df91db54565b6f569e988c7d" />
+  <f p="res/basic/sound/role/shizhi/SHIORI_88.mp3" m="dc46e97174a8f2894e8935a858208f11" />
+  <f p="res/basic/ui/activity/picture/icon275.png" m="2a365e107544fa8740d4dad881de2fb8" />
+  <f p="res/basic/ui/activity/picture/icon276.png" m="a0d147646ea8c3d8dfa8da9f6637ce75" />
+  <f p="res/basic/ui/activity/picture/icon277.png" m="348ccaa76c05ceee57c8b187d1e52395" />
+  <f p="res/basic/ui/activity/playerRegress/gift/01.png" m="88a02afc0f72c465cc82d9350124e2dd" />
+  <f p="res/basic/ui/activity/playerRegress/gift/02.png" m="e0ab06be0a7e59887551a618106bd638" />
+  <f p="res/basic/ui/activity/playerRegress/gift/03.png" m="e95fe797fdc26a42bdb7a1b99e7fcffb" />
+  <f p="res/basic/ui/activity/playerRegress/login/01.png" m="9dc80e1ca17ecb47c1dab2805dce23da" />
+  <f p="res/basic/ui/activity/playerRegress/login/02.png" m="64639a85b7df5a33773fe4c7bd5cc89d" />
+  <f p="res/basic/ui/activity/playerRegress/pop/01.png" m="a8f89f5e16e508c21870a59c87005e9c" />
+  <f p="res/basic/ui/activity/playerRegress/pop/02.png" m="f152161338efab88c4c4948a238972a5" />
+  <f p="res/basic/ui/activity/playerRegress/pop/03.png" m="aead87d8a09007e45f78f5a09d702bb2" />
+  <f p="res/basic/ui/activity/playerRegress/pop/04.png" m="94da311cfda4fafcc9f19f01fbab8639" />
+  <f p="res/basic/ui/activity/playerRegress/pop/05.png" m="b868b7c17e1f2cd47c1cb34e5505f052" />
+  <f p="res/basic/ui/activity/playerRegress/pop/love.png" m="ac073453a976bf7eeccc446e2764f2fa" />
+  <f p="res/basic/ui/activity/playerRegress/task/1.png" m="b02abbf207106a84a57c0c72a5676aef" />
+  <f p="res/basic/ui/activity/playerRegress/task/2.png" m="9053bbed81c43d6d28cc3daaf62754fe" />
+  <f p="res/basic/ui/activity/playerRegress/task/3.png" m="f4e9b8ce3e863f0294bf502dcf28ed6a" />
+  <f p="res/basic/ui/activity/playerRegress/task/4.png" m="f708b959bd1edda88ba842cf86141f20" />
+  <f p="res/basic/ui/activity/playerRegress/task/5.png" m="9deba217d02e9489137e5d14e94e85a9" />
+  <f p="res/basic/ui/activity/playerRegress/task/6.png" m="332f1aff7926a03c364ab1ad8596a55d" />
+  <f p="res/basic/ui/activity/playerRegress/01.png" m="13a4ffc97433befe7a2782d4653eed80" />
+  <f p="res/basic/ui/activity/playerRegress/02.png" m="cb20c3f443167b5cdcb488e96e3a61ec" />
+  <f p="res/basic/ui/activity/playerRegress/03.png" m="fd22c4f41dac0d950712dd83dd50c28a" />
+  <f p="res/basic/ui/activity/playerRegress/bg.png" m="ac38eb0d3641aa559af295f82061d2f5" />
+  <f p="res/basic/ui/activity/playerRegress/imgBtn.png" m="39b05771191ce94ca3aa6aed808e50b3" />
+  <f p="res/basic/ui/activity/playerRegress/timeBg.png" m="5b79385cbde8b91d4fe5d75a6024ef78" />
+  <f p="res/basic/ui/mainLayer/new_ui_1/btn_backnew.png" m="24bd8be20ebe84f65d3bebf85326c7ff" />
+  <f p="res/basic/ui/mainLayer/new_ui_2/btn_backnew.png" m="e41860fcd283533895a0ab9117ad2ad7" />
+  <f p="res/basic/ui/mainLayer/new_ui_6/btn_backnew.png" m="a886bff6ccd23ed5c034c099f03fe776" />
+  <f p="src/lua/logic/activity/playerRegress/PlayerRegressGiftView.lua" m="17cd3f6af2cbc27e278b11982493b38d" />
+  <f p="src/lua/logic/activity/playerRegress/PlayerRegressLoginView.lua" m="d94c84884ee072209eb0c977984915f7" />
+  <f p="src/lua/logic/activity/playerRegress/PlayerRegressPopView.lua" m="3f42cf30d1ed72d7d17e7c1393c20444" />
+  <f p="src/lua/logic/activity/playerRegress/PlayerRegressTaskView.lua" m="f62d4c32514e44d6a0b35e33100533c2" />
+  <f p="src/lua/uiconfig/activity/playerRegressGiftView.lua" m="1f887122ba6cca0e4b0868af4a35950b" />
+  <f p="src/lua/uiconfig/activity/playerRegressLoginView.lua" m="e88bbf54944504dadb0c4b86ee74b92a" />
+  <f p="src/lua/uiconfig/activity/playerRegressPopView.lua" m="352827f4fd667a1945e41250e9439a85" />
+  <f p="src/lua/uiconfig/activity/playerRegressTaskView.lua" m="184430fba8d7829870d3898d01947095" />
 </files>

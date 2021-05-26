@@ -280,12 +280,12 @@ return {
             [1] = 1,
         },
         city = 2,
-        firstReward = 63740103,
+        firstReward = 63740101,
         sTime = "2021-05-22 00:00:00",
         buffDescribe = {
         },
         stage = 2,
-        reward = 63740202,
+        reward = 63740201,
     },
     [14] = {
         isInvade = true,
@@ -330,12 +330,12 @@ return {
             [1] = 2,
         },
         city = 5,
-        firstReward = 63740103,
+        firstReward = 63740101,
         sTime = "2021-05-22 00:00:00",
         buffDescribe = {
         },
         stage = 2,
-        reward = 63740202,
+        reward = 63740201,
     },
     [16] = {
         isInvade = true,
@@ -380,12 +380,12 @@ return {
             [1] = 3,
         },
         city = 8,
-        firstReward = 63740103,
+        firstReward = 63740101,
         sTime = "2021-05-22 00:00:00",
         buffDescribe = {
         },
         stage = 2,
-        reward = 63740202,
+        reward = 63740201,
     },
     [18] = {
         isInvade = true,
@@ -430,12 +430,12 @@ return {
             [1] = 1,
         },
         city = 3,
-        firstReward = 63740103,
+        firstReward = 63740101,
         sTime = "2021-05-24 00:00:00",
         buffDescribe = {
         },
         stage = 2,
-        reward = 63740202,
+        reward = 63740201,
     },
     [20] = {
         isInvade = true,
@@ -481,12 +481,12 @@ return {
             [1] = 2,
         },
         city = 6,
-        firstReward = 63740103,
+        firstReward = 63740101,
         sTime = "2021-05-24 00:00:00",
         buffDescribe = {
         },
         stage = 2,
-        reward = 63740202,
+        reward = 63740201,
     },
     [22] = {
         isInvade = true,
@@ -532,12 +532,12 @@ return {
             [1] = 3,
         },
         city = 10,
-        firstReward = 63740103,
+        firstReward = 63740101,
         sTime = "2021-05-24 00:00:00",
         buffDescribe = {
         },
         stage = 2,
-        reward = 63740202,
+        reward = 63740201,
     },
     [24] = {
         isInvade = true,
@@ -583,12 +583,12 @@ return {
             [1] = 1,
         },
         city = 4,
-        firstReward = 63740103,
+        firstReward = 63740101,
         sTime = "2021-05-26 00:00:00",
         buffDescribe = {
         },
         stage = 2,
-        reward = 63740202,
+        reward = 63740201,
     },
     [26] = {
         isInvade = true,
@@ -635,12 +635,12 @@ return {
             [1] = 2,
         },
         city = 7,
-        firstReward = 63740103,
+        firstReward = 63740101,
         sTime = "2021-05-26 00:00:00",
         buffDescribe = {
         },
         stage = 2,
-        reward = 63740202,
+        reward = 63740201,
     },
     [28] = {
         isInvade = true,
@@ -687,12 +687,12 @@ return {
             [1] = 3,
         },
         city = 11,
-        firstReward = 63740103,
+        firstReward = 63740101,
         sTime = "2021-05-26 00:00:00",
         buffDescribe = {
         },
         stage = 2,
-        reward = 63740202,
+        reward = 63740201,
     },
     [30] = {
         isInvade = true,

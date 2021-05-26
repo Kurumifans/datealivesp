@@ -1212,10 +1212,11 @@ return {
     },
     [129024] = {
         hero = 0,
-        role = 0,
+        role = 129,
         id = 129024,
         type = "mood_sad",
         voice = {
+            [1] = "sound/role/lingyin/lingyin_20.mp3",
         },
         des = "看板娘处于无聊、生气、饥饿状态",
     },
@@ -1290,10 +1291,11 @@ return {
     },
     [129025] = {
         hero = 0,
-        role = 0,
+        role = 129,
         id = 129025,
         type = "mood_normal",
         voice = {
+            [1] = "sound/role/lingyin/lingyin_21.mp3",
         },
         des = "在城市点击看板娘模型1",
     },
@@ -4013,10 +4015,11 @@ return {
     },
     [111024] = {
         hero = 0,
-        role = 0,
+        role = 111,
         id = 111024,
         type = "mood_sad",
         voice = {
+            [1] = "sound/role/shizhi/SHIORI_108.mp3",
         },
         des = "看板娘处于无聊、生气、饥饿状态",
     },
@@ -4099,10 +4102,11 @@ return {
     },
     [111025] = {
         hero = 0,
-        role = 0,
+        role = 111,
         id = 111025,
         type = "mood_normal",
         voice = {
+            [1] = "sound/role/shizhi/SHIORI_88.mp3",
         },
         des = "在城市点击看板娘模型1",
     },
